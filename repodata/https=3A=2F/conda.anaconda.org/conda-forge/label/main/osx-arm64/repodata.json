@@ -7835,6 +7835,40 @@
 "timestamp":1611192251531,
 "version":"1.74.0"
 },
+"boost-1.75.0-py38h3578e97_0.tar.bz2":{
+"build":"py38h3578e97_0",
+"build_number":0,
+"depends":[
+"boost-cpp 1.75.0.*",
+"libcxx >=11.0.1",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSL-1.0",
+"name":"boost",
+"requires":[],
+"size":323257,
+"timestamp":1614378957401,
+"version":"1.75.0"
+},
+"boost-1.75.0-py39h6f7cd10_0.tar.bz2":{
+"build":"py39h6f7cd10_0",
+"build_number":0,
+"depends":[
+"boost-cpp 1.75.0.*",
+"libcxx >=11.0.1",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSL-1.0",
+"name":"boost",
+"requires":[],
+"size":346781,
+"timestamp":1614379126825,
+"version":"1.75.0"
+},
 "boost-cpp-1.72.0-h38d3314_3.tar.bz2":{
 "build":"h38d3314_3",
 "build_number":3,
@@ -42275,6 +42309,42 @@
 "size":956819,
 "timestamp":1605237781544,
 "version":"2019.1.5"
+},
+"pygpu-0.7.6-py38h8369297_1002.tar.bz2":{
+"build":"py38h8369297_1002",
+"build_number":1002,
+"depends":[
+"libgpuarray 0.7.6",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"six"
+],
+"license":"ISC",
+"name":"pygpu",
+"requires":[],
+"size":583919,
+"timestamp":1614378075357,
+"version":"0.7.6"
+},
+"pygpu-0.7.6-py39h038c1d3_1002.tar.bz2":{
+"build":"py39h038c1d3_1002",
+"build_number":1002,
+"depends":[
+"libgpuarray 0.7.6",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"six"
+],
+"license":"ISC",
+"name":"pygpu",
+"requires":[],
+"size":586508,
+"timestamp":1614378099127,
+"version":"0.7.6"
 },
 "pyinstaller-4.0-py38h7fe2757_2.tar.bz2":{
 "build":"py38h7fe2757_2",
