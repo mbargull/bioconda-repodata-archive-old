@@ -42180,7 +42180,7 @@
 "timestamp":1607549925721,
 "version":"21.2.1"
 },
-"keyring-22.0.1-py36h270354c_0.tar.bz2":{
+"keyring-22.2.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -42192,12 +42192,12 @@
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"78404d496c826eb6f2a5fe8d09168e393a0fb6f2fa2aab8a84b5bd4097458919",
-"size":49164,
-"timestamp":1611768106806,
-"version":"22.0.1"
+"sha256":"0bbe24385cab69e92bc99a4509d888e99b9d2d129260adba366ed484317628d2",
+"size":49316,
+"timestamp":1614373175287,
+"version":"22.2.0"
 },
-"keyring-22.0.1-py36he7cccf2_0.tar.bz2":{
+"keyring-22.2.0-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "depends":[
@@ -42210,12 +42210,12 @@
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"a6c2029e7980cbd5e2d675a82df7bbdb3f008ce42f0ef948520e952cc7db18d8",
-"size":49382,
-"timestamp":1611768115641,
-"version":"22.0.1"
+"sha256":"208f81170bdf501d3636ac32099776a3a0e0470cc95e88c4aec96a89f32b4013",
+"size":49564,
+"timestamp":1614373188244,
+"version":"22.2.0"
 },
-"keyring-22.0.1-py37h35e4cab_0.tar.bz2":{
+"keyring-22.2.0-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -42227,12 +42227,30 @@
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"7f23e4bb0755ed4ca754005b6c7c6b9279e879fa14712a37832efd3db777b414",
-"size":49102,
-"timestamp":1611767991789,
-"version":"22.0.1"
+"sha256":"0b98c8c6326949c2681013f27092fde36e3dbad90faf76f612ec6b0f36767202",
+"size":49223,
+"timestamp":1614373107171,
+"version":"22.2.0"
 },
-"keyring-22.0.1-py38hf8b3453_0.tar.bz2":{
+"keyring-22.2.0-py37hadc05a3_0.tar.bz2":{
+"build":"py37hadc05a3_0",
+"build_number":0,
+"depends":[
+"importlib_metadata >=1",
+"jeepney >=0.4.2",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"secretstorage >=3.2"
+],
+"license":"MIT",
+"name":"keyring",
+"sha256":"bd46ca3d3fdc4864e3961d59c7cdf2a5c10c8b305af1746cfd4bf96a533ebaa9",
+"size":49537,
+"timestamp":1614373114824,
+"version":"22.2.0"
+},
+"keyring-22.2.0-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -42243,12 +42261,12 @@
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"6a650b77787bfced5d44232d871c9bb0eacf146bc61ae6071dc100edd05c9c39",
-"size":49315,
-"timestamp":1611768041117,
-"version":"22.0.1"
+"sha256":"1090d288f41f825efacec9944562761e2e3c93144878fb5567fd2bfc8806433e",
+"size":49391,
+"timestamp":1614373173332,
+"version":"22.2.0"
 },
-"keyring-22.0.1-py39hc1b9086_0.tar.bz2":{
+"keyring-22.2.0-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -42259,10 +42277,10 @@
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"ad2056e48e9cdc26d3fa20d5fd09b1c57d0f79c5e668561d31945f6be83525da",
-"size":49378,
-"timestamp":1611768093624,
-"version":"22.0.1"
+"sha256":"f5d09156ce56481e58166ac0d79c3f1ea6e7f507c3318fe949f47fe045b66205",
+"size":49533,
+"timestamp":1614373148104,
+"version":"22.2.0"
 },
 "kiwisolver-1.3.1-py36h004869e_1.tar.bz2":{
 "build":"py36h004869e_1",
@@ -94904,6 +94922,21 @@
 "timestamp":1609442381677,
 "version":"1.49.0"
 },
+"rust-1.50.0-h978bb50_0.tar.bz2":{
+"build":"h978bb50_0",
+"build_number":0,
+"depends":[
+"gcc_impl_linux-ppc64le",
+"libgcc-ng >=9.3.0",
+"rust-std-powerpc64le-unknown-linux-gnu 1.50.0 h6ac4ec8_0"
+],
+"license":"MIT",
+"name":"rust",
+"sha256":"816dd7f9c8b02f44de43afa776f97737015ab4ff50f583a15e35c86226ac1ca2",
+"size":234782426,
+"timestamp":1614371280763,
+"version":"1.50.0"
+},
 "rust_linux-ppc64le-1.49.0-h308b4cd_0.tar.bz2":{
 "build":"h308b4cd_0",
 "build_number":0,
@@ -100642,6 +100675,25 @@
 "size":2763477,
 "timestamp":1574166486115,
 "version":"5.6.0"
+},
+"suitesparse-5.7.2-h85e0b1c_0.tar.bz2":{
+"build":"h85e0b1c_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"tbb >=2020.2"
+],
+"license":"LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+"name":"suitesparse",
+"sha256":"882fb18d55cfc05a3dca7c4569cd61f0f2635ca1613b85a08173760f609cd51a",
+"size":2832768,
+"timestamp":1614371281193,
+"version":"5.7.2"
 },
 "suitesparse-5.7.2-hc185178_0.tar.bz2":{
 "build":"hc185178_0",
