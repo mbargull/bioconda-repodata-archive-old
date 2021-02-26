@@ -74412,6 +74412,38 @@
 "timestamp":1606819967569,
 "version":"1.7.3"
 },
+"pydantic-1.7.3-py36h269c3a8_1.tar.bz2":{
+"build":"py36h269c3a8_1",
+"build_number":1,
+"depends":[
+"dataclasses >=0.6",
+"libgcc-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"c2ee40ea112bbd71ab463d86df68eec2d76c758446de7db5783b7521f3b0f310",
+"size":2024039,
+"timestamp":1614366456455,
+"version":"1.7.3"
+},
+"pydantic-1.7.3-py37h1283c21_1.tar.bz2":{
+"build":"py37h1283c21_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"eab2fc64a8f4c3f9a0a3cf3b8b0fc30efbcf276dc7cd7883882acb54ab382bcc",
+"size":1520490,
+"timestamp":1614366527704,
+"version":"1.7.3"
+},
 "pydantic-1.7.3-py37hcd4c3ab_0.tar.bz2":{
 "build":"py37hcd4c3ab_0",
 "build_number":0,
@@ -74425,6 +74457,21 @@
 "sha256":"3c740c72f05ac43ad11d0571ca74225172081abb9e3dd522c322d35303956683",
 "size":2039867,
 "timestamp":1606819755178,
+"version":"1.7.3"
+},
+"pydantic-1.7.3-py37hcd4c3ab_1.tar.bz2":{
+"build":"py37hcd4c3ab_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"ca8ebcb522049f6bb8729a1c042ec571cccf7e64aeb3c8a26ba7d922dbcb926a",
+"size":2039922,
+"timestamp":1614366589834,
 "version":"1.7.3"
 },
 "pydantic-1.7.3-py38h9544abe_0.tar.bz2":{
@@ -74442,6 +74489,21 @@
 "timestamp":1606819726139,
 "version":"1.7.3"
 },
+"pydantic-1.7.3-py38h9544abe_1.tar.bz2":{
+"build":"py38h9544abe_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"f4d999340a0778e0a0b52fda2bacfabcda252679ce4b19f1cb16573f329b0622",
+"size":2057715,
+"timestamp":1614365792551,
+"version":"1.7.3"
+},
 "pydantic-1.7.3-py39h14843e3_0.tar.bz2":{
 "build":"py39h14843e3_0",
 "build_number":0,
@@ -74455,6 +74517,21 @@
 "sha256":"7b3281929fc718c17d39199d24699fa55a90519b2ffa66d84a4316c9e6e5c6cf",
 "size":2047532,
 "timestamp":1606818955687,
+"version":"1.7.3"
+},
+"pydantic-1.7.3-py39h14843e3_1.tar.bz2":{
+"build":"py39h14843e3_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"e1aaed5aba1406dd99dae7f8275f65ad7504bad5823dde22df5fb7693672ca50",
+"size":2069190,
+"timestamp":1614365849014,
 "version":"1.7.3"
 },
 "pydot-1.4.2-py36h2e20a7f_0.tar.bz2":{
@@ -101083,57 +101160,9 @@
 "timestamp":1591651560110,
 "version":"4.1.1.p2"
 },
-"sip-4.19.24-py36h831f99a_0.tar.bz2":{
-"build":"py36h831f99a_0",
+"sip-4.19.25-py36h86e9a40_0.tar.bz2":{
+"build":"py36h86e9a40_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"GPL-3.0",
-"name":"sip",
-"sha256":"0108d41adbc70baf2d4c39a540e74e5d784b5950daa4e9ff1034dfcc229b2370",
-"size":274323,
-"timestamp":1597330844877,
-"version":"4.19.24"
-},
-"sip-4.19.24-py36h831f99a_1.tar.bz2":{
-"build":"py36h831f99a_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"GPL-3.0",
-"name":"sip",
-"sha256":"eaa5bd632118f1c80f4ec21286199786e14a6b0702588825297a76c5f680a3a9",
-"size":274433,
-"timestamp":1601224381168,
-"version":"4.19.24"
-},
-"sip-4.19.24-py36h831f99a_2.tar.bz2":{
-"build":"py36h831f99a_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"GPL-3.0",
-"name":"sip",
-"sha256":"b3b62ef136a2291b375e30c42739490884965f0300152ccba85a6683eb3553e5",
-"size":274450,
-"timestamp":1602222637305,
-"version":"4.19.24"
-},
-"sip-4.19.24-py36h86e9a40_3.tar.bz2":{
-"build":"py36h86e9a40_3",
-"build_number":3,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -101142,62 +101171,14 @@
 ],
 "license":"GPL-3.0",
 "name":"sip",
-"sha256":"bd86a697450c7829f27c677951f6fac189d8c49c97d66cb19c83a05d773e07db",
-"size":291216,
-"timestamp":1610559797443,
-"version":"4.19.24"
+"sha256":"812ccf62c985d88796f0c6fb1bda039ffabdba41c88e4cbace1a45b2a53f0810",
+"size":291480,
+"timestamp":1614365094980,
+"version":"4.19.25"
 },
-"sip-4.19.24-py37h3340039_0.tar.bz2":{
-"build":"py37h3340039_0",
+"sip-4.19.25-py37had24c86_0.tar.bz2":{
+"build":"py37had24c86_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"GPL-3.0",
-"name":"sip",
-"sha256":"9646320ab77014102ab84f0833bbdf82830c2e69c5bdc41a7b5e9b94df9efc48",
-"size":274231,
-"timestamp":1597330804874,
-"version":"4.19.24"
-},
-"sip-4.19.24-py37h3340039_1.tar.bz2":{
-"build":"py37h3340039_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"GPL-3.0",
-"name":"sip",
-"sha256":"c2603a740cf38b1e84c80639d6171a066bcca6c47aa68bde327d159ad513cf35",
-"size":274486,
-"timestamp":1601224240181,
-"version":"4.19.24"
-},
-"sip-4.19.24-py37h3340039_2.tar.bz2":{
-"build":"py37h3340039_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"GPL-3.0",
-"name":"sip",
-"sha256":"5e58e516187e576a6652b139d577be0a7612990e5ca3f61b3ffdfb2b076fcb27",
-"size":274503,
-"timestamp":1602222658969,
-"version":"4.19.24"
-},
-"sip-4.19.24-py37had24c86_3.tar.bz2":{
-"build":"py37had24c86_3",
-"build_number":3,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -101206,14 +101187,14 @@
 ],
 "license":"GPL-3.0",
 "name":"sip",
-"sha256":"1971904c9db23d2b61d7c1c71f2e54e26becc9cda76b73c5ed79f2c5bc97975e",
-"size":291334,
-"timestamp":1610559867636,
-"version":"4.19.24"
+"sha256":"8218ea12c179f972c38716f2691d841122fda9ae64b18a41addd0f6d9bbd20dd",
+"size":291353,
+"timestamp":1614365110914,
+"version":"4.19.25"
 },
-"sip-4.19.24-py38h0119ad3_3.tar.bz2":{
-"build":"py38h0119ad3_3",
-"build_number":3,
+"sip-4.19.25-py38h0119ad3_0.tar.bz2":{
+"build":"py38h0119ad3_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -101222,62 +101203,14 @@
 ],
 "license":"GPL-3.0",
 "name":"sip",
-"sha256":"0318ed67cc03251c4797355a776cc997d3377d1f0bd4e5c891c1d4085c159ccf",
-"size":291709,
-"timestamp":1610559962148,
-"version":"4.19.24"
+"sha256":"7d6623fc51af3da2dc0848426521be3e0491f5381e24f506aa8308f0f4dd623b",
+"size":292059,
+"timestamp":1614365096429,
+"version":"4.19.25"
 },
-"sip-4.19.24-py38h950e882_0.tar.bz2":{
-"build":"py38h950e882_0",
+"sip-4.19.25-py39h99ab00b_0.tar.bz2":{
+"build":"py39h99ab00b_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"GPL-3.0",
-"name":"sip",
-"sha256":"369641a058b5380fe221bda507efd43da98a5a9c3018f4e070efce7834a08890",
-"size":275030,
-"timestamp":1597330810521,
-"version":"4.19.24"
-},
-"sip-4.19.24-py38h950e882_1.tar.bz2":{
-"build":"py38h950e882_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"GPL-3.0",
-"name":"sip",
-"sha256":"768461786c53cc954a11a80df02d2409e78ab0fd37766ebe66426677be936aab",
-"size":275261,
-"timestamp":1601224188512,
-"version":"4.19.24"
-},
-"sip-4.19.24-py38h950e882_2.tar.bz2":{
-"build":"py38h950e882_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"GPL-3.0",
-"name":"sip",
-"sha256":"4101954c66b8f1642f541d031af2f8dab2910b6cb1f5fe270d3b25f864140812",
-"size":275246,
-"timestamp":1602222737740,
-"version":"4.19.24"
-},
-"sip-4.19.24-py39h99ab00b_3.tar.bz2":{
-"build":"py39h99ab00b_3",
-"build_number":3,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -101286,26 +101219,10 @@
 ],
 "license":"GPL-3.0",
 "name":"sip",
-"sha256":"58eb3530a5532ac36b35aeb0668a8fc65ab310eddeccd69f963202a9384ab369",
-"size":291742,
-"timestamp":1610559758775,
-"version":"4.19.24"
-},
-"sip-4.19.24-py39hf149a3a_2.tar.bz2":{
-"build":"py39hf149a3a_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"GPL-3.0",
-"name":"sip",
-"sha256":"5cc679db6b6d6a568520d44c09458674f0f40b8ba8064be4ca557264e33c5ec0",
-"size":275285,
-"timestamp":1602222678359,
-"version":"4.19.24"
+"sha256":"a7c61772f6fcb3a263a876a195bde5bb8ea572d57480e308be2e745c5b164c78",
+"size":291988,
+"timestamp":1614365118873,
+"version":"4.19.25"
 },
 "six-1.14.0-py36_0.tar.bz2":{
 "build":"py36_0",

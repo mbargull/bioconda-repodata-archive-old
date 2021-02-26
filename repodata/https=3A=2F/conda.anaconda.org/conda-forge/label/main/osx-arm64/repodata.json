@@ -26397,6 +26397,17 @@
 "timestamp":1613069867020,
 "version":"2.66.7"
 },
+"libgpuarray-0.7.6-h27ca646_1003.tar.bz2":{
+"build":"h27ca646_1003",
+"build_number":1003,
+"depends":[],
+"license":"ISC",
+"name":"libgpuarray",
+"requires":[],
+"size":195300,
+"timestamp":1614369871365,
+"version":"0.7.6"
+},
 "libhomfly-1.02r6-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -49599,6 +49610,24 @@
 "size":54897,
 "timestamp":1610639301639,
 "version":"3.3.0"
+},
+"suitesparse-5.7.2-hc5ea220_0.tar.bz2":{
+"build":"hc5ea220_0",
+"build_number":0,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.0.1",
+"liblapack >=3.9.0,<4.0a0",
+"metis >=5.1.0,<5.2.0a0",
+"tbb >=2020.2"
+],
+"license":"LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+"name":"suitesparse",
+"requires":[],
+"size":2091437,
+"timestamp":1614369212635,
+"version":"5.7.2"
 },
 "swig-4.0.2-h9f76cd9_1.tar.bz2":{
 "build":"h9f76cd9_1",
