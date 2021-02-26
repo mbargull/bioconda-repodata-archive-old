@@ -63227,6 +63227,24 @@
 "timestamp":1610608197730,
 "version":"4.1.0"
 },
+"openmpi-4.1.0-h0e8a5b7_2.tar.bz2":{
+"build":"h0e8a5b7_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpi 1.0 openmpi",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi",
+"sha256":"6012751e33cb36a793176a87432ace21511d4c3841bead4e3af88d4ad530d0d5",
+"size":4143796,
+"timestamp":1614351620498,
+"version":"4.1.0"
+},
 "openmpi-mpicc-4.1.0-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",
 "build_number":0,
@@ -63253,6 +63271,20 @@
 "sha256":"1ad0ef441dfe46e6be6849ab4f8eef6b4d6d26fabcf43318b54fbb80071e2e6a",
 "size":17942,
 "timestamp":1610608220368,
+"version":"4.1.0"
+},
+"openmpi-mpicc-4.1.0-hf897c2e_2.tar.bz2":{
+"build":"hf897c2e_2",
+"build_number":2,
+"depends":[
+"gcc_linux-aarch64 9.*",
+"openmpi 4.1.0 h0e8a5b7_2"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpicc",
+"sha256":"1610d71d2c47c9244c8e5ef12559cbda656ea8bddcc40cca913a02e49eeeffe3",
+"size":17948,
+"timestamp":1614351629857,
 "version":"4.1.0"
 },
 "openmpi-mpicxx-4.1.0-hd62202e_0.tar.bz2":{
@@ -63283,6 +63315,20 @@
 "timestamp":1610608227793,
 "version":"4.1.0"
 },
+"openmpi-mpicxx-4.1.0-hd62202e_2.tar.bz2":{
+"build":"hd62202e_2",
+"build_number":2,
+"depends":[
+"gxx_linux-aarch64 9.*",
+"openmpi 4.1.0 h0e8a5b7_2"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpicxx",
+"sha256":"77929c532bed8d28c1cb732c744718b90272710bb84226c3e71dfe8289f938b2",
+"size":17953,
+"timestamp":1614351633702,
+"version":"4.1.0"
+},
 "openmpi-mpifort-4.1.0-h88a8a60_0.tar.bz2":{
 "build":"h88a8a60_0",
 "build_number":0,
@@ -63309,6 +63355,20 @@
 "sha256":"ea4b232f71f5f3a894f881df41324fff68cde6578f379b73ce3c43fad4001cd8",
 "size":18015,
 "timestamp":1610608235215,
+"version":"4.1.0"
+},
+"openmpi-mpifort-4.1.0-h88a8a60_2.tar.bz2":{
+"build":"h88a8a60_2",
+"build_number":2,
+"depends":[
+"gfortran_linux-aarch64 9.*",
+"openmpi 4.1.0 h0e8a5b7_2"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpifort",
+"sha256":"9a9de3e3d04c92619a157b21b2b4308e60376d541b48065ca662907a61ef1cb9",
+"size":18027,
+"timestamp":1614351637530,
 "version":"4.1.0"
 },
 "openpmd-api-0.13.1-mpi_mpich_py36h51773b0_0.tar.bz2":{
