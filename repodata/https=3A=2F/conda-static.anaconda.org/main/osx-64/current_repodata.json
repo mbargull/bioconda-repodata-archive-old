@@ -46822,57 +46822,6 @@
 "timestamp":1540558237631,
 "version":"0.3.0"
 },
-"pandas-0.22.0-py27h0a44026_0.tar.bz2":{
-"build":"py27h0a44026_0",
-"build_number":0,
-"depends":[
-"libcxx >=4.0.1",
-"numpy >=1.9.3,<2.0a0",
-"python >=2.7,<2.8.0a0",
-"python-dateutil",
-"pytz"
-],
-"license":"BSD 3-clause",
-"name":"pandas",
-"sha256":"6052c703b700c0c7dc1e5eaee11b979cbdc9614cf552dc9382e300e35de49099",
-"size":10537278,
-"timestamp":1514667596846,
-"version":"0.22.0"
-},
-"pandas-0.22.0-py35h0a44026_0.tar.bz2":{
-"build":"py35h0a44026_0",
-"build_number":0,
-"depends":[
-"libcxx >=4.0.1",
-"numpy >=1.9.3,<2.0a0",
-"python >=3.5,<3.6.0a0",
-"python-dateutil",
-"pytz"
-],
-"license":"BSD 3-clause",
-"name":"pandas",
-"sha256":"3f50cf656b27495094c18e14e612ca914815221d585a0645dfa0db3fd7e0cad2",
-"size":10356463,
-"timestamp":1514667454769,
-"version":"0.22.0"
-},
-"pandas-0.22.0-py36h0a44026_0.tar.bz2":{
-"build":"py36h0a44026_0",
-"build_number":0,
-"depends":[
-"libcxx >=4.0.1",
-"numpy >=1.9.3,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python-dateutil",
-"pytz"
-],
-"license":"BSD 3-clause",
-"name":"pandas",
-"sha256":"c7f46205bf94ad85c72757a41c42f7c58c2dcdbd6dedafd1ace6f876e381990d",
-"size":10471140,
-"timestamp":1514667380072,
-"version":"0.22.0"
-},
 "pandas-1.1.3-py36hb1e8313_0.tar.bz2":{
 "build":"py36hb1e8313_0",
 "build_number":0,
@@ -67986,8 +67935,8 @@
 "timestamp":1552335579982,
 "version":"1.10.0"
 },
-"scikit-bio-0.5.4-py35h1d22016_0.tar.bz2":{
-"build":"py35h1d22016_0",
+"scikit-bio-0.5.6-py36he3068b8_0.tar.bz2":{
+"build":"py36he3068b8_0",
 "build_number":0,
 "depends":[
 "cachecontrol >=0.11.5",
@@ -67995,46 +67944,96 @@
 "hdmedians >=0.13",
 "ipython >=3.2.0",
 "lockfile >=0.10.2",
-"matplotlib >=1.4.3",
+"matplotlib-base >=1.4.3",
 "natsort >=4.0.3",
-"nose >=1.3.7",
-"numpy >=1.11.3,<2.0a0",
-"pandas >=0.19.2,<0.23.0",
-"python >=3.5,<3.6.0a0",
-"scikit-learn >=0.19.1",
-"scipy >=0.15.1"
-],
-"license":"BSD-3-Clause",
-"name":"scikit-bio",
-"sha256":"136e355b789416b7793a96ecd6669a969e1f89c3be7d46bda9ff2f536c608017",
-"size":1243957,
-"timestamp":1535812907058,
-"version":"0.5.4"
-},
-"scikit-bio-0.5.4-py36h1d22016_0.tar.bz2":{
-"build":"py36h1d22016_0",
-"build_number":0,
-"depends":[
-"cachecontrol >=0.11.5",
-"decorator >=3.4.2",
-"hdmedians >=0.13",
-"ipython >=3.2.0",
-"lockfile >=0.10.2",
-"matplotlib >=1.4.3",
-"natsort >=4.0.3",
-"nose >=1.3.7",
-"numpy >=1.11.3,<2.0a0",
-"pandas >=0.19.2,<0.23.0",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
 "python >=3.6,<3.7.0a0",
 "scikit-learn >=0.19.1",
-"scipy >=0.15.1"
+"scipy >=1.3.0"
 ],
 "license":"BSD-3-Clause",
 "name":"scikit-bio",
-"sha256":"36b26c32b209f0a264a7e707e1cc9301645f83bb2a73d970904eaf5c1d0327ae",
-"size":1243195,
-"timestamp":1535812916269,
-"version":"0.5.4"
+"sha256":"4bdb123fff1adcafcb1411000f1128cc1f7b5935187ecc3b557d867275a58c3f",
+"size":1350702,
+"timestamp":1614415972207,
+"version":"0.5.6"
+},
+"scikit-bio-0.5.6-py37he3068b8_0.tar.bz2":{
+"build":"py37he3068b8_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.11.5",
+"decorator >=3.4.2",
+"hdmedians >=0.13",
+"ipython >=3.2.0",
+"lockfile >=0.10.2",
+"matplotlib-base >=1.4.3",
+"natsort >=4.0.3",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
+"python >=3.7,<3.8.0a0",
+"scikit-learn >=0.19.1",
+"scipy >=1.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-bio",
+"sha256":"1c3e0e37edbcbba4a6b95dd5b3d5c15c8e269650ff175de6a428c190e676b418",
+"size":1341858,
+"timestamp":1614416483718,
+"version":"0.5.6"
+},
+"scikit-bio-0.5.6-py38he3068b8_0.tar.bz2":{
+"build":"py38he3068b8_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.11.5",
+"decorator >=3.4.2",
+"hdmedians >=0.13",
+"ipython >=3.2.0",
+"lockfile >=0.10.2",
+"matplotlib-base >=1.4.3",
+"natsort >=4.0.3",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
+"python >=3.8,<3.9.0a0",
+"scikit-learn >=0.19.1",
+"scipy >=1.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-bio",
+"sha256":"4fa734f08e8d3de9e6e8144adc4d4307a826d12189f13b00c8175a89a80d082c",
+"size":1338899,
+"timestamp":1614415988612,
+"version":"0.5.6"
+},
+"scikit-bio-0.5.6-py39he3068b8_0.tar.bz2":{
+"build":"py39he3068b8_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.11.5",
+"decorator >=3.4.2",
+"hdmedians >=0.13",
+"ipython >=3.2.0",
+"lockfile >=0.10.2",
+"matplotlib-base >=1.4.3",
+"natsort >=4.0.3",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
+"python >=3.9,<3.10.0a0",
+"scikit-learn >=0.19.1",
+"scipy >=1.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-bio",
+"sha256":"a69951c97416829d965c6d89113c2ab537deb1699ab6dcace755bb123e371f33",
+"size":1351858,
+"timestamp":1614415980987,
+"version":"0.5.6"
 },
 "scikit-build-0.11.1-py36h23ab428_2.tar.bz2":{
 "build":"py36h23ab428_2",
