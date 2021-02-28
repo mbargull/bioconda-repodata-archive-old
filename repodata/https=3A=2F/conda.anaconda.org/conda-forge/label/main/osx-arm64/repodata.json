@@ -10274,6 +10274,17 @@
 "timestamp":1613255484987,
 "version":"11.0.1"
 },
+"clang_bootstrap_osx-64-11.0.1-ha99727f_2.tar.bz2":{
+"build":"ha99727f_2",
+"build_number":2,
+"depends":[],
+"license":"Apache-2.0",
+"name":"clang_bootstrap_osx-64",
+"requires":[],
+"size":55816589,
+"timestamp":1614543736146,
+"version":"11.0.1"
+},
 "clang_bootstrap_osx-arm64-11.0.0-h1741c7c_10.tar.bz2":{
 "build":"h1741c7c_10",
 "build_number":10,
@@ -10423,6 +10434,17 @@
 "requires":[],
 "size":54683543,
 "timestamp":1613255411782,
+"version":"11.0.1"
+},
+"clang_bootstrap_osx-arm64-11.0.1-h1741c7c_2.tar.bz2":{
+"build":"h1741c7c_2",
+"build_number":2,
+"depends":[],
+"license":"Apache-2.0",
+"name":"clang_bootstrap_osx-arm64",
+"requires":[],
+"size":54654472,
+"timestamp":1614543916319,
 "version":"11.0.1"
 },
 "clang_osx-64-11.0.0-h36f49d1_0.tar.bz2":{
@@ -10658,6 +10680,24 @@
 "timestamp":1613253847148,
 "version":"11.0.1"
 },
+"clang_osx-64-11.0.1-ha77c5c3_2.tar.bz2":{
+"build":"ha77c5c3_2",
+"build_number":2,
+"depends":[
+"cctools_osx-64",
+"clang 11.0.1.*",
+"compiler-rt 11.0.1.*",
+"ld64_osx-64",
+"ld64_osx-arm64",
+"llvm-tools 11.0.1.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-64",
+"requires":[],
+"size":16061,
+"timestamp":1614542075239,
+"version":"11.0.1"
+},
 "clang_osx-arm64-11.0.0-h54d7cd3_10.tar.bz2":{
 "build":"h54d7cd3_10",
 "build_number":10,
@@ -10877,6 +10917,23 @@
 "requires":[],
 "size":15940,
 "timestamp":1613253729534,
+"version":"11.0.1"
+},
+"clang_osx-arm64-11.0.1-h54d7cd3_2.tar.bz2":{
+"build":"h54d7cd3_2",
+"build_number":2,
+"depends":[
+"cctools_osx-arm64",
+"clang 11.0.1.*",
+"compiler-rt 11.0.1.*",
+"ld64_osx-arm64",
+"llvm-tools 11.0.1.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-arm64",
+"requires":[],
+"size":15891,
+"timestamp":1614542071184,
 "version":"11.0.1"
 },
 "clang_variant-1.0-cling_v0.7.tar.bz2":{
@@ -11397,6 +11454,22 @@
 "timestamp":1613253861517,
 "version":"11.0.1"
 },
+"clangxx_osx-64-11.0.1-h8d3ee1a_2.tar.bz2":{
+"build":"h8d3ee1a_2",
+"build_number":2,
+"depends":[
+"clang_osx-64 11.0.1 ha77c5c3_2",
+"clangxx 11.0.1.*",
+"libcxx >=11.0.1",
+"libllvm11 >=11.0.1,<11.1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-64",
+"requires":[],
+"size":15678,
+"timestamp":1614542090863,
+"version":"11.0.1"
+},
 "clangxx_osx-arm64-11.0.0-h0c2fba2_4.tar.bz2":{
 "build":"h0c2fba2_4",
 "build_number":4,
@@ -11594,6 +11667,22 @@
 "requires":[],
 "size":15588,
 "timestamp":1613253744940,
+"version":"11.0.1"
+},
+"clangxx_osx-arm64-11.0.1-hb84c830_2.tar.bz2":{
+"build":"hb84c830_2",
+"build_number":2,
+"depends":[
+"clang_osx-arm64 11.0.1 h54d7cd3_2",
+"clangxx 11.0.1.*",
+"libcxx >=11.0.1",
+"libllvm11 >=11.0.1,<11.1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-arm64",
+"requires":[],
+"size":15589,
+"timestamp":1614542091340,
 "version":"11.0.1"
 },
 "cli11-1.9.1-hc88da5d_2.tar.bz2":{
