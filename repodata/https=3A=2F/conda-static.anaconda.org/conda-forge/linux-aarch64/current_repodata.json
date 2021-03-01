@@ -29970,6 +29970,28 @@
 "timestamp":1604164550027,
 "version":"5.2.1"
 },
+"git-2.30.1-pl5320ha0a93e7_1.tar.bz2":{
+"build":"pl5320ha0a93e7_1",
+"build_number":1,
+"depends":[
+"curl >=7.71.1,<8.0a0",
+"expat >=2.2.10,<2.3.0a0",
+"gettext",
+"libgcc-ng >=9.3.0",
+"libiconv >=1.16,<1.17.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"pcre >=8.44,<9.0a0",
+"perl 5.*",
+"tk >=8.6.10,<8.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later and LGPL-2.1-or-later",
+"name":"git",
+"sha256":"b87c005771c33d18ff645d38a5ef2fa49b1d1039fd498e753f0a45b3703e7126",
+"size":16726705,
+"timestamp":1614618717522,
+"version":"2.30.1"
+},
 "git-2.30.1-pl5320heef877d_0.tar.bz2":{
 "build":"pl5320heef877d_0",
 "build_number":0,
@@ -39700,173 +39722,27 @@
 "timestamp":1594298014133,
 "version":"0.22.1"
 },
-"islpy-2020.2-py36h1d47470_2.tar.bz2":{
-"build":"py36h1d47470_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"3a9fac011948fc2639845aff7500e83cba831a8da5e1723b8b14a982aacae0f6",
-"size":2798078,
-"timestamp":1610380334020,
-"version":"2020.2"
-},
-"islpy-2020.2-py36h1d47470_3.tar.bz2":{
-"build":"py36h1d47470_3",
-"build_number":3,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"bc5b4f01f092455ccfaf99be7b1802e5ada80a2aa3398f7b33cbecd6fd020bf9",
-"size":2872654,
-"timestamp":1611857337048,
-"version":"2020.2"
-},
-"islpy-2020.2-py36h4eeab8a_0.tar.bz2":{
-"build":"py36h4eeab8a_0",
+"islpy-2020.2.2-py36h1d47470_0.tar.bz2":{
+"build":"py36h1d47470_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pypy3.6 >=7.3.1",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"4bec88f5226fe947765d7be7ba5280116a92f3fb73d640a744bc9fd41e669361",
-"size":3542950,
-"timestamp":1596668435887,
-"version":"2020.2"
-},
-"islpy-2020.2-py36h4eeab8a_1.tar.bz2":{
-"build":"py36h4eeab8a_1",
-"build_number":1,
-"depends":[
 "isl >=0.22.1,<0.23.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"pypy3.6 >=7.3.1",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"ed6ae0ccd3184b0015065b3e456c7cba5688e6e6821722320a26ad3e90d2e96e",
-"size":2839563,
-"timestamp":1601601443871,
-"version":"2020.2"
-},
-"islpy-2020.2-py36h640d3d7_2.tar.bz2":{
-"build":"py36h640d3d7_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
 "six"
 ],
 "license":"MIT",
 "name":"islpy",
-"sha256":"8a3726a015a90653d1589c159043603fa97622e9fa8e32d9f3bf63b827c2f36d",
-"size":2845141,
-"timestamp":1602586129363,
-"version":"2020.2"
+"sha256":"c3c71ac45013e0773bf0b5c53b0c48d672a8409d8839544c2ddaf635d0a2eb12",
+"size":2880065,
+"timestamp":1614617976844,
+"version":"2020.2.2"
 },
-"islpy-2020.2-py36h6fd05ed_0.tar.bz2":{
-"build":"py36h6fd05ed_0",
+"islpy-2020.2.2-py36had091d3_0.tar.bz2":{
+"build":"py36had091d3_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"fdd184132f5c42dece0cabde0a0f6199c093836de90fbae65fa0246cadb0552d",
-"size":3535077,
-"timestamp":1596668433072,
-"version":"2020.2"
-},
-"islpy-2020.2-py36h6fd05ed_1.tar.bz2":{
-"build":"py36h6fd05ed_1",
-"build_number":1,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"70842514fba904f772eccac5abcd18a7e3b4af881e35ff9e6835e9f6629bc380",
-"size":2838045,
-"timestamp":1601602338367,
-"version":"2020.2"
-},
-"islpy-2020.2-py36h7461356_2.tar.bz2":{
-"build":"py36h7461356_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"pypy3.6 >=7.3.2",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"c87e6585c93fd11506ad94707e4fc079443df648219664f8ee44e6fcaa49e2e9",
-"size":2805142,
-"timestamp":1605300565952,
-"version":"2020.2"
-},
-"islpy-2020.2-py36ha618482_2.tar.bz2":{
-"build":"py36ha618482_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"pypy3.6 >=7.3.2",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"3194e8c7ebb631bdd4ab16845d40ebb1f950c132caeb239acfb169407e9cecf9",
-"size":2842400,
-"timestamp":1602586138015,
-"version":"2020.2"
-},
-"islpy-2020.2-py36had091d3_2.tar.bz2":{
-"build":"py36had091d3_2",
-"build_number":2,
 "depends":[
 "isl >=0.22.1,<0.23.0a0",
 "libgcc-ng >=9.3.0",
@@ -39878,51 +39754,14 @@
 ],
 "license":"MIT",
 "name":"islpy",
-"sha256":"9dc51e38197057c5a48a2303f6fce6a7866e891e38761d25738a80a6d47df6bc",
-"size":2800056,
-"timestamp":1610380926804,
-"version":"2020.2"
+"sha256":"e5a5138f1f87a1c0c379d2a6b20428c6e7451beea9b123928ecf1db71f75df38",
+"size":2878001,
+"timestamp":1614617929766,
+"version":"2020.2.2"
 },
-"islpy-2020.2-py36had091d3_3.tar.bz2":{
-"build":"py36had091d3_3",
-"build_number":3,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"5ebb55531382d22287685395e6d78e7c9e901692e36a115dc1c23120384685ee",
-"size":2875903,
-"timestamp":1611856594574,
-"version":"2020.2"
-},
-"islpy-2020.2-py36heaf8207_2.tar.bz2":{
-"build":"py36heaf8207_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"dfb0b4fae2d48dd8f423b8134f063d3468386007bc4b34faf781e8e66fc77624",
-"size":2816527,
-"timestamp":1605300554229,
-"version":"2020.2"
-},
-"islpy-2020.2-py37h16b4c26_2.tar.bz2":{
-"build":"py37h16b4c26_2",
-"build_number":2,
+"islpy-2020.2.2-py37h16b4c26_0.tar.bz2":{
+"build":"py37h16b4c26_0",
+"build_number":0,
 "depends":[
 "isl >=0.22.1,<0.23.0a0",
 "libgcc-ng >=9.3.0",
@@ -39933,32 +39772,14 @@
 ],
 "license":"MIT",
 "name":"islpy",
-"sha256":"a9ed1c3ada87d37f01335c4d653659817c8783f5fb4d57dd1ef3770ba39db8be",
-"size":2800867,
-"timestamp":1610380895926,
-"version":"2020.2"
+"sha256":"da1a8613be437dc3d4a4eb07de707f6ff06b87921bbe95b739f8b82195c6a78f",
+"size":2880317,
+"timestamp":1614617434492,
+"version":"2020.2.2"
 },
-"islpy-2020.2-py37h16b4c26_3.tar.bz2":{
-"build":"py37h16b4c26_3",
-"build_number":3,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"2676da2135fd0a8d7398f1a6749b45f6b2186fdfa2a3aa18dc59c4c576784e75",
-"size":2872854,
-"timestamp":1611857003749,
-"version":"2020.2"
-},
-"islpy-2020.2-py37h3b7475e_2.tar.bz2":{
-"build":"py37h3b7475e_2",
-"build_number":2,
+"islpy-2020.2.2-py37h3b7475e_0.tar.bz2":{
+"build":"py37h3b7475e_0",
+"build_number":0,
 "depends":[
 "isl >=0.22.1,<0.23.0a0",
 "libgcc-ng >=9.3.0",
@@ -39970,212 +39791,33 @@
 ],
 "license":"MIT",
 "name":"islpy",
-"sha256":"47f7177f0a005a506d041066eae62b7a7496bfcd278e68be6a5108014f44ccf8",
-"size":2801591,
-"timestamp":1610380906957,
-"version":"2020.2"
+"sha256":"862fbc1bc91fe6bd2dd02fd5eb442150a26e219601bee1f0aaaa97795be41bce",
+"size":2881176,
+"timestamp":1614617988968,
+"version":"2020.2.2"
 },
-"islpy-2020.2-py37h3b7475e_3.tar.bz2":{
-"build":"py37h3b7475e_3",
-"build_number":3,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pypy3.7 >=7.3.3",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"eb157b1ea3d492e858cde897642006a66194430241aa82cc75be133fc2752505",
-"size":2879900,
-"timestamp":1611857473154,
-"version":"2020.2"
-},
-"islpy-2020.2-py37h95ea35b_2.tar.bz2":{
-"build":"py37h95ea35b_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"2ac8d710f4309fd2d022c5b927fd1c34eb08d20a73a63ee4185a77dfa44486e2",
-"size":2813928,
-"timestamp":1605301180936,
-"version":"2020.2"
-},
-"islpy-2020.2-py37haf82f91_2.tar.bz2":{
-"build":"py37haf82f91_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"9947815724ba518b621047927bec5472d89bf47ae974e968c473db8f83064659",
-"size":2850061,
-"timestamp":1602586902378,
-"version":"2020.2"
-},
-"islpy-2020.2-py37hb926d75_0.tar.bz2":{
-"build":"py37hb926d75_0",
+"islpy-2020.2.2-py38ha6ab6f1_0.tar.bz2":{
+"build":"py38ha6ab6f1_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"e6fdecf5fa40b741b50a09573a4802acca9e5c2f965f5d434852768d8caa6320",
-"size":3531588,
-"timestamp":1596667794948,
-"version":"2020.2"
-},
-"islpy-2020.2-py37hb926d75_1.tar.bz2":{
-"build":"py37hb926d75_1",
-"build_number":1,
-"depends":[
 "isl >=0.22.1,<0.23.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"7c493b01c277b6ad13d54f538493436184c708933eac6f4a792127978dfff2f4",
-"size":2836827,
-"timestamp":1601601421918,
-"version":"2020.2"
-},
-"islpy-2020.2-py38h037bc62_2.tar.bz2":{
-"build":"py38h037bc62_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "six"
 ],
 "license":"MIT",
 "name":"islpy",
-"sha256":"eee7e748526943ef0763421a726bf12ef6317d37137e2620400a12032c623557",
-"size":2818234,
-"timestamp":1605301180456,
-"version":"2020.2"
+"sha256":"4e3e3c9a3be21e4a4f858999c35b605f511b750311db9a880ab4aa2bcea505c6",
+"size":2887272,
+"timestamp":1614617828956,
+"version":"2020.2.2"
 },
-"islpy-2020.2-py38h28a41f5_0.tar.bz2":{
-"build":"py38h28a41f5_0",
+"islpy-2020.2.2-py39h6ad8b66_0.tar.bz2":{
+"build":"py39h6ad8b66_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"c96ef960f9580ca84b4d4d2c255d37dc255a8094cadaadd5ab50d0fa72f1ef87",
-"size":3549500,
-"timestamp":1596667805119,
-"version":"2020.2"
-},
-"islpy-2020.2-py38h28a41f5_1.tar.bz2":{
-"build":"py38h28a41f5_1",
-"build_number":1,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"942aba1c4397dc3a1643d0de6a3b83e6539430091d8a88241d3b14f7980738bc",
-"size":2833653,
-"timestamp":1601602313932,
-"version":"2020.2"
-},
-"islpy-2020.2-py38ha6ab6f1_2.tar.bz2":{
-"build":"py38ha6ab6f1_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"017852347fc3f00a7b53f9b0b16ad594b7fb6e66f868ed9b0967f8025e8a949d",
-"size":2809026,
-"timestamp":1610380325137,
-"version":"2020.2"
-},
-"islpy-2020.2-py38ha6ab6f1_3.tar.bz2":{
-"build":"py38ha6ab6f1_3",
-"build_number":3,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"53e8769dce740d2d07f502e3cd0592b4c570e61600be2a79b41b579b6b768bf8",
-"size":2888725,
-"timestamp":1611857051036,
-"version":"2020.2"
-},
-"islpy-2020.2-py38hc94b64f_2.tar.bz2":{
-"build":"py38hc94b64f_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"0e91204b0dde7443ce73bff419e7e6a48516f2e9b401a9889a8231374abf0a2b",
-"size":2862886,
-"timestamp":1602586893092,
-"version":"2020.2"
-},
-"islpy-2020.2-py39h6ad8b66_2.tar.bz2":{
-"build":"py39h6ad8b66_2",
-"build_number":2,
-"depends":[
 "isl >=0.22.1,<0.23.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -40185,64 +39827,10 @@
 ],
 "license":"MIT",
 "name":"islpy",
-"sha256":"3aa21ea42be011cf107ac58a47bbe1eff4f3f9c277b40b014477c0ca09b2c186",
-"size":2805798,
-"timestamp":1610380337146,
-"version":"2020.2"
-},
-"islpy-2020.2-py39h6ad8b66_3.tar.bz2":{
-"build":"py39h6ad8b66_3",
-"build_number":3,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"e1cd3d7f974bd7cca1f892c185e1acdd296fca09720ffc052d1e0b389a1f87ab",
-"size":2883781,
-"timestamp":1611857748908,
-"version":"2020.2"
-},
-"islpy-2020.2-py39h91137de_2.tar.bz2":{
-"build":"py39h91137de_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"4076b1012abbe6a47d27aa2ef90d71086609380ea0d289e59ea4c7f8b12c7ee5",
-"size":2860328,
-"timestamp":1602586138804,
-"version":"2020.2"
-},
-"islpy-2020.2-py39he5ab8e4_2.tar.bz2":{
-"build":"py39he5ab8e4_2",
-"build_number":2,
-"depends":[
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"six"
-],
-"license":"MIT",
-"name":"islpy",
-"sha256":"e982aa833f8753ffbce2e76e8254d4558dd869c4eded4846909efb39707791f2",
-"size":2827448,
-"timestamp":1605301165195,
-"version":"2020.2"
+"sha256":"98f25e3f0a90f1a5ac8537af14c87b76ca7c5a60f8461d3e3a20ad9808b95ace",
+"size":2892451,
+"timestamp":1614618240336,
+"version":"2020.2.2"
 },
 "isort-5.6.2-py36h9f0ad1d_0.tar.bz2":{
 "build":"py36h9f0ad1d_0",
