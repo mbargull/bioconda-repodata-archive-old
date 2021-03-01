@@ -30407,6 +30407,24 @@
 "timestamp":1613070568692,
 "version":"2.66.7"
 },
+"glib-2.66.7-h01db608_1.tar.bz2":{
+"build":"h01db608_1",
+"build_number":1,
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"glib-tools 2.66.7 h01db608_1",
+"libgcc-ng >=9.3.0",
+"libglib 2.66.7 he97b138_1",
+"libstdcxx-ng >=9.3.0",
+"python *"
+],
+"license":"LGPL-2.1-or-later",
+"name":"glib",
+"sha256":"6202c4b6a83bfca85377dc9653f4900f45b88cdd06ac2f4e09b986fb77d92a49",
+"size":451021,
+"timestamp":1614615780157,
+"version":"2.66.7"
+},
 "glib-networking-2.66.0-h5ca34b1_0.tar.bz2":{
 "build":"h5ca34b1_0",
 "build_number":0,
@@ -30456,6 +30474,21 @@
 "sha256":"7b43fea871bd794b30413bb8c6a30ff548f63be6b0d41f2f1d7467ec097fd80b",
 "size":92222,
 "timestamp":1613070432808,
+"version":"2.66.7"
+},
+"glib-tools-2.66.7-h01db608_1.tar.bz2":{
+"build":"h01db608_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libglib 2.66.7 he97b138_1",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"glib-tools",
+"sha256":"e58ce8bd95a6f3834935b270b5b417b8a3ae49f5a0da6b13d32105b777b792d8",
+"size":92156,
+"timestamp":1614615640062,
 "version":"2.66.7"
 },
 "glibmm-2.58.1-h86bba41_1.tar.bz2":{
@@ -47186,6 +47219,28 @@
 "size":694245,
 "timestamp":1605644266552,
 "version":"1.1.0"
+},
+"libglib-2.66.7-he97b138_1.tar.bz2":{
+"build":"he97b138_1",
+"build_number":1,
+"constrains":[
+"glib 2.66.7 *_1"
+],
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"libffi >=3.3,<3.4.0a0",
+"libgcc-ng >=9.3.0",
+"libiconv >=1.16,<1.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"pcre >=8.44,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libglib",
+"sha256":"f7ea420eea950c2e2ef8b1b87217b7e63e128735c6b176b567ad9969883c340c",
+"size":3174981,
+"timestamp":1614615494448,
+"version":"2.66.7"
 },
 "libglib-2.66.7-hf7ca860_0.tar.bz2":{
 "build":"hf7ca860_0",
@@ -69866,7 +69921,7 @@
 "timestamp":1604237371305,
 "version":"7.2.0"
 },
-"proj-7.2.1-h83638df_0.tar.bz2":{
+"proj-8.0.0-h83638df_0.tar.bz2":{
 "build":"h83638df_0",
 "build_number":0,
 "constrains":[
@@ -69881,30 +69936,10 @@
 ],
 "license":"MIT",
 "name":"proj",
-"sha256":"e12eb16304dd78211d552096dbfd07bcee317eb74137ccbbeb8d9e478f56c8f8",
-"size":3121648,
-"timestamp":1613069752332,
-"version":"7.2.1"
-},
-"proj-7.2.1-h92ba1db_0.tar.bz2":{
-"build":"h92ba1db_0",
-"build_number":0,
-"constrains":[
-"proj4 ==999999999999"
-],
-"depends":[
-"libcurl >=7.71.1,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"libtiff >=4.1.0,<5.0a0",
-"sqlite >=3.34.0,<4.0a0"
-],
-"license":"MIT",
-"name":"proj",
-"sha256":"070cdc40d2b2c44a8fdd7370e00a79d9930b196ba6824df1d6cce52e6c6a492e",
-"size":3143677,
-"timestamp":1609523064828,
-"version":"7.2.1"
+"sha256":"eaef7cb3b405debe3ef59bdec4a86d7f3b38fb47bb31774de0d80f1444c0d0c1",
+"size":3194941,
+"timestamp":1614612263477,
+"version":"8.0.0"
 },
 "protobuf-3.15.3-py36h143fd24_0.tar.bz2":{
 "build":"py36h143fd24_0",
@@ -83327,6 +83362,26 @@
 "timestamp":1613479554246,
 "version":"22.0.3"
 },
+"pyzmq-22.0.3-py36ha6c73ec_1.tar.bz2":{
+"build":"py36ha6c73ec_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"libstdcxx-ng >=9.3.0",
+"py",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause AND LGPL-3.0-or-later",
+"name":"pyzmq",
+"sha256":"6129b84e2ef290f5379b048891c3657a6641d08c39be63d641eb75eb48c76661",
+"size":307524,
+"timestamp":1614612410936,
+"version":"22.0.3"
+},
 "pyzmq-22.0.3-py36heba5b5f_0.tar.bz2":{
 "build":"py36heba5b5f_0",
 "build_number":0,
@@ -83347,6 +83402,42 @@
 "timestamp":1613479585665,
 "version":"22.0.3"
 },
+"pyzmq-22.0.3-py36hfbd0944_1.tar.bz2":{
+"build":"py36hfbd0944_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause AND LGPL-3.0-or-later",
+"name":"pyzmq",
+"sha256":"6e06c1f6d2bf8aa2639af19a21f9d54530779700d654b8d89658377556454872",
+"size":528474,
+"timestamp":1614612602528,
+"version":"22.0.3"
+},
+"pyzmq-22.0.3-py37h3f30300_1.tar.bz2":{
+"build":"py37h3f30300_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause AND LGPL-3.0-or-later",
+"name":"pyzmq",
+"sha256":"5b6e0004bb3ae8b5e8a6035c2506277209e0e7a892e9850ef9814bb9a70f2eee",
+"size":527548,
+"timestamp":1614612774362,
+"version":"22.0.3"
+},
 "pyzmq-22.0.3-py37h620ce99_0.tar.bz2":{
 "build":"py37h620ce99_0",
 "build_number":0,
@@ -83363,6 +83454,26 @@
 "sha256":"2ff36aa895e1a9bbc3e31b732687921172e656b00b0cd678b2019533c88eed70",
 "size":529879,
 "timestamp":1613479517841,
+"version":"22.0.3"
+},
+"pyzmq-22.0.3-py37h6c3bcff_1.tar.bz2":{
+"build":"py37h6c3bcff_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"libstdcxx-ng >=9.3.0",
+"py",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause AND LGPL-3.0-or-later",
+"name":"pyzmq",
+"sha256":"725834a4ffe262b629286ec52282acc093277f0fcb9b85033643a4e881d44fe3",
+"size":305921,
+"timestamp":1614612463465,
 "version":"22.0.3"
 },
 "pyzmq-22.0.3-py37hf16042b_0.tar.bz2":{
@@ -83401,6 +83512,42 @@
 "sha256":"b4851eef1663c431836a05aaa6f3ea3cab12a9aad15adc20ea079888c1115a3f",
 "size":539811,
 "timestamp":1613479446371,
+"version":"22.0.3"
+},
+"pyzmq-22.0.3-py38he58ed56_1.tar.bz2":{
+"build":"py38he58ed56_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause AND LGPL-3.0-or-later",
+"name":"pyzmq",
+"sha256":"d72de960f3a20050461088c7a9ab2c9818595adf86c7e780d1ce910c983805ed",
+"size":519531,
+"timestamp":1614612471953,
+"version":"22.0.3"
+},
+"pyzmq-22.0.3-py39h3674c48_1.tar.bz2":{
+"build":"py39h3674c48_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause AND LGPL-3.0-or-later",
+"name":"pyzmq",
+"sha256":"2fb3cf59b958de4d6553f52972f9daa87577e2ffb325b8db6ef45c2193b55e59",
+"size":509884,
+"timestamp":1614612612119,
 "version":"22.0.3"
 },
 "pyzmq-22.0.3-py39h632fa44_0.tar.bz2":{
