@@ -27037,6 +27037,19 @@
 "timestamp":1586889819119,
 "version":"5.1.0"
 },
+"gawk-5.1.0-hf897c2e_0.tar.bz2":{
+"build":"hf897c2e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"GPL-3.0",
+"name":"gawk",
+"sha256":"249b048e715c3d853870928791c47d8a60adc89a837c02fadf7f7f190354ff75",
+"size":1489936,
+"timestamp":1614658097864,
+"version":"5.1.0"
+},
 "gcc_bootstrap_linux-aarch64-9.3.0-h246fbc7_30.tar.bz2":{
 "build":"h246fbc7_30",
 "build_number":30,
@@ -27890,6 +27903,24 @@
 "size":539288,
 "timestamp":1612953414190,
 "version":"1.51"
+},
+"geotiff-1.6.0-h1b30c6f_5.tar.bz2":{
+"build":"h1b30c6f_5",
+"build_number":5,
+"depends":[
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"proj >=8.0.0,<8.0.1.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"geotiff",
+"sha256":"4ca4508c1987ac6bddbd047c7d76eb79cb0b4d9c14f22b16047ba1b2ef226588",
+"size":321508,
+"timestamp":1614655704746,
+"version":"1.6.0"
 },
 "geotiff-1.6.0-ha3f0f65_4.tar.bz2":{
 "build":"ha3f0f65_4",
