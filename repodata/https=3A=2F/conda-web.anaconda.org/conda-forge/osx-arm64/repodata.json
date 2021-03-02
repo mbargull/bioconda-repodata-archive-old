@@ -23089,6 +23089,17 @@
 "timestamp":1609782617406,
 "version":"2.0.14"
 },
+"jbig-2.1-h27ca646_2002.tar.bz2":{
+"build":"h27ca646_2002",
+"build_number":2002,
+"depends":[],
+"license":"GPL-2.0",
+"name":"jbig",
+"requires":[],
+"size":42919,
+"timestamp":1614688843541,
+"version":"2.1"
+},
 "jedi-0.17.2-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
 "build_number":1,
@@ -28376,6 +28387,21 @@
 "requires":[],
 "size":2815524,
 "timestamp":1613310576738,
+"version":"13.1"
+},
+"libpq-13.1-h022277a_2.tar.bz2":{
+"build":"h022277a_2",
+"build_number":2,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"readline >=8.0,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"libpq",
+"requires":[],
+"size":2797560,
+"timestamp":1614689697892,
 "version":"13.1"
 },
 "libprotobuf-3.13.0-h74e0e61_0.tar.bz2":{
@@ -36958,6 +36984,48 @@
 "timestamp":1610407578066,
 "version":"8.1.0"
 },
+"pillow-8.1.1-py38h5cebd47_0.tar.bz2":{
+"build":"py38h5cebd47_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg >=9d,<10a",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"olefile",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tk >=8.6.10,<8.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"requires":[],
+"size":649762,
+"timestamp":1614690122480,
+"version":"8.1.1"
+},
+"pillow-8.1.1-py39hf007017_0.tar.bz2":{
+"build":"py39hf007017_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg >=9d,<10a",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"olefile",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tk >=8.6.10,<8.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"requires":[],
+"size":640926,
+"timestamp":1614690117659,
+"version":"8.1.1"
+},
 "pixman-0.40.0-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -37632,6 +37700,25 @@
 "timestamp":1613310640219,
 "version":"13.1"
 },
+"postgresql-13.1-h3cf2113_2.tar.bz2":{
+"build":"h3cf2113_2",
+"build_number":2,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"libpq 13.1 h022277a_2",
+"libxml2 >=2.9.10,<2.10.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"readline >=8.0,<9.0a0",
+"tzcode",
+"tzdata",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"postgresql",
+"requires":[],
+"size":4751739,
+"timestamp":1614689756581,
+"version":"13.1"
+},
 "postgresql-plpython-12.3-py38ha403c59_3.tar.bz2":{
 "build":"py38ha403c59_3",
 "build_number":3,
@@ -37716,6 +37803,27 @@
 "timestamp":1613310797517,
 "version":"13.1"
 },
+"postgresql-plpython-13.1-py38ha403c59_2.tar.bz2":{
+"build":"py38ha403c59_2",
+"build_number":2,
+"depends":[
+"krb5",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"libxslt >=1.1.33,<2.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"postgresql 13.1 h3cf2113_2",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"readline >=8.0,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"postgresql-plpython",
+"requires":[],
+"size":61530,
+"timestamp":1614690048504,
+"version":"13.1"
+},
 "postgresql-plpython-13.1-py39h6d6eb99_0.tar.bz2":{
 "build":"py39h6d6eb99_0",
 "build_number":0,
@@ -37756,6 +37864,27 @@
 "requires":[],
 "size":61718,
 "timestamp":1613310941693,
+"version":"13.1"
+},
+"postgresql-plpython-13.1-py39h6d6eb99_2.tar.bz2":{
+"build":"py39h6d6eb99_2",
+"build_number":2,
+"depends":[
+"krb5",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"libxslt >=1.1.33,<2.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"postgresql 13.1 h3cf2113_2",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"readline >=8.0,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"postgresql-plpython",
+"requires":[],
+"size":61743,
+"timestamp":1614689908310,
 "version":"13.1"
 },
 "ppl-1.2-h2eaf5e3_1003.tar.bz2":{
@@ -52379,6 +52508,17 @@
 "requires":[],
 "size":312292,
 "timestamp":1611605347815,
+"version":"2021a"
+},
+"tzcode-2021a-h27ca646_1.tar.bz2":{
+"build":"h27ca646_1",
+"build_number":1,
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"tzcode",
+"requires":[],
+"size":67740,
+"timestamp":1614690032638,
 "version":"2021a"
 },
 "unixodbc-2.3.9-h1474e2a_0.tar.bz2":{
