@@ -37153,6 +37153,27 @@
 "timestamp":1602229048183,
 "version":"0.8.3"
 },
+"igraph-0.9.0-hce9de30_0.tar.bz2":{
+"build":"hce9de30_0",
+"build_number":0,
+"depends":[
+"arpack >=3.7.0,<3.7.1.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"suitesparse >=5.6.0,<6.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"igraph",
+"sha256":"c3930a00d1f74076b21aded4e88554802bd422f9cfd21009a89037462886530e",
+"size":1084424,
+"timestamp":1614696070335,
+"version":"0.9.0"
+},
 "ilmbase-2.5.5-h690f14c_0.tar.bz2":{
 "build":"h690f14c_0",
 "build_number":0,
@@ -103718,6 +103739,40 @@
 "sha256":"612504fefe9b555c067f852563636fd8be5068c971a9275936a3fa6e5fd5922a",
 "size":5346209,
 "timestamp":1614695763714,
+"version":"21.2.0"
+},
+"twisted-21.2.0-py39ha810350_0.tar.bz2":{
+"build":"py39ha810350_0",
+"build_number":0,
+"constrains":[
+"h2 >=3.0,<4.0",
+"priority >=1.1.0,<2.0",
+"pyserial >=3.0"
+],
+"depends":[
+"attrs >=17.4.0",
+"automat >=0.3.0",
+"bcrypt",
+"constantly >=15.1",
+"cryptography >=1.5",
+"hyperlink >=17.1.1",
+"idna >=0.6,!=2.3",
+"incremental >=16.10.1",
+"libgcc-ng >=9.3.0",
+"pip",
+"pyasn1",
+"pyhamcrest >=1.9.0",
+"pyopenssl >=16.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"service_identity >=18.1.0",
+"zope.interface >=4.4.2"
+],
+"license":"MIT",
+"name":"twisted",
+"sha256":"f2841dfb6e33175cfca764c46299b3e52538ef1adc9906c418e9cccd6818f9cc",
+"size":5342002,
+"timestamp":1614695963429,
 "version":"21.2.0"
 },
 "typed-ast-1.4.2-py36hc33305d_0.tar.bz2":{
