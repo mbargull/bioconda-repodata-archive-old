@@ -102680,338 +102680,121 @@
 "timestamp":1610412802710,
 "version":"2020.2"
 },
-"tbb-devel-2020.2-hc9558a2_0.tar.bz2":{
-"build":"hc9558a2_0",
+"tbb-2021.1.1-hd62202e_0.tar.bz2":{
+"build":"hd62202e_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"tbb 2020.2 hc9558a2_0"
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
 ],
 "license":"Apache-2.0",
-"name":"tbb-devel",
-"sha256":"27ff0f41eaceb14646ae10fc5b37fca13ab57141c000dd27b7a3231966d99a61",
-"size":1306066,
-"timestamp":1599136481806,
-"version":"2020.2"
+"name":"tbb",
+"sha256":"749182b8e2cdb09496b41a69475a4037787c86e94220cdd51aaf89a4b5589c48",
+"size":1671719,
+"timestamp":1614788818264,
+"version":"2021.1.1"
 },
-"tbb-devel-2020.2-hd62202e_1.tar.bz2":{
-"build":"hd62202e_1",
-"build_number":1,
+"tbb-devel-2021.1.1-hd62202e_0.tar.bz2":{
+"build":"hd62202e_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"tbb 2020.2 hd62202e_1"
+"tbb 2021.1.1 hd62202e_0"
 ],
 "license":"Apache-2.0",
 "name":"tbb-devel",
-"sha256":"55595090c7a249eb4c1a58971bc40df18cb985cadde0029fa7dd50193fa841f9",
-"size":1359586,
-"timestamp":1607963826328,
-"version":"2020.2"
+"sha256":"0744a7c5215b01b3e5a00b3aad0346ce8b803130a0f9f496e1ef4f6bd3cf197b",
+"size":912727,
+"timestamp":1614788848123,
+"version":"2021.1.1"
 },
-"tbb-devel-2020.2-hd62202e_2.tar.bz2":{
-"build":"hd62202e_2",
-"build_number":2,
+"tbb4py-2021.1.1-py36h6675774_0.tar.bz2":{
+"build":"py36h6675774_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"tbb 2020.2 hd62202e_2"
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"tbb >=2021.1.1"
 ],
-"license":"Apache-2.0",
-"name":"tbb-devel",
-"sha256":"bfb23c7847bb4d1b3cfe2fa451b181577609166539b0dddf4cf66aefc48bf1d6",
-"size":1360351,
-"timestamp":1609700142365,
-"version":"2020.2"
+"license":"Apache 2.0",
+"name":"tbb4py",
+"sha256":"3551519cd695cb2c88310063d7bc2718afcc107d4b0b93e66b873acec566167d",
+"size":243337,
+"timestamp":1614789022667,
+"version":"2021.1.1"
 },
-"tbb-devel-2020.2-hd62202e_3.tar.bz2":{
-"build":"hd62202e_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"tbb 2020.2 hd62202e_3"
-],
-"license":"Apache-2.0",
-"name":"tbb-devel",
-"sha256":"66f018ccf04671dbab8432657559f768c2512ad752f46855d737df387404c9ef",
-"size":1364665,
-"timestamp":1610412850548,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py36h28cc557_2.tar.bz2":{
-"build":"py36h28cc557_2",
-"build_number":2,
+"tbb4py-2021.1.1-py36haac341c_0.tar.bz2":{
+"build":"py36haac341c_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6 *_pypy36_pp73",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
+"tbb >=2021.1.1"
 ],
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"74326e48981f4b0f3346359537548d17daf78c28f9bb7c6df95853faa837f212",
-"size":278589,
-"timestamp":1609700319912,
-"version":"2020.2"
+"sha256":"8c7345528bd37eef6f8d17bd68d0e200c19e6f96ff0b5688b85caf317c4d4035",
+"size":244049,
+"timestamp":1614788973628,
+"version":"2021.1.1"
 },
-"tbb4py-2020.2-py36h28cc557_3.tar.bz2":{
-"build":"py36h28cc557_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"5ad5749466bce32e4978dacd5c8ecc8c034c6fbddd100b68e37565057a8116bf",
-"size":278481,
-"timestamp":1610413000964,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py36h72e8208_1.tar.bz2":{
-"build":"py36h72e8208_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"12b599fb5e2de7492a22fb303502fdcc833d4caeac96de59a3516fcac98c75f3",
-"size":262977,
-"timestamp":1607964081775,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py36h72e8208_2.tar.bz2":{
-"build":"py36h72e8208_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"017efbe67b15ce183b21e49e56c5c99b068605a503537720c7b51ec62554fd14",
-"size":262852,
-"timestamp":1609700195778,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py36h72e8208_3.tar.bz2":{
-"build":"py36h72e8208_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"a818f0e11efcda8808f89533e7f1750b25049349df8eafe64022f0dc9afbb394",
-"size":262813,
-"timestamp":1610412903254,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py36hdb11119_0.tar.bz2":{
-"build":"py36hdb11119_0",
+"tbb4py-2021.1.1-py37hc850b85_0.tar.bz2":{
+"build":"py37hc850b85_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"04a6902a85433c2ee548e8cb8a1c2b82b27ed019a4a56cc64fad4b114c4085c4",
-"size":251037,
-"timestamp":1599136737614,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py37h7ed3beb_1.tar.bz2":{
-"build":"py37h7ed3beb_1",
-"build_number":1,
-"depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
+"tbb >=2021.1.1"
 ],
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"caf37d9026a4ad78a1387ee5b6c301355b43e705a3914e9b1bdea3a0e2e77272",
-"size":263123,
-"timestamp":1607964185599,
-"version":"2020.2"
+"sha256":"0b18b3c4410d7c40ee09bd9b3cfea796735594b6a489e5d31c61af4b6daf6487",
+"size":243435,
+"timestamp":1614789134023,
+"version":"2021.1.1"
 },
-"tbb4py-2020.2-py37h7ed3beb_2.tar.bz2":{
-"build":"py37h7ed3beb_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"64254316d0d052e436aaa52e7af8f836e79f4920ce330a66b59a1ee0de338822",
-"size":262995,
-"timestamp":1609700270991,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py37h7ed3beb_3.tar.bz2":{
-"build":"py37h7ed3beb_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"7c54f2a4aaed5f1fafde5b7d2682fb40b650ec706de986e471efc0eee1515d5d",
-"size":278145,
-"timestamp":1610413038372,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py37h99015e2_0.tar.bz2":{
-"build":"py37h99015e2_0",
+"tbb4py-2021.1.1-py37heafb2a1_0.tar.bz2":{
+"build":"py37heafb2a1_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"97bcc19ee52739d936a64f9016b4c94df8ae775cfb8a3dc5d49ac97be2da1ed1",
-"size":251101,
-"timestamp":1599136633097,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py37hbc413c5_3.tar.bz2":{
-"build":"py37hbc413c5_3",
-"build_number":3,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "pypy3.7 >=7.3.3",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
+"tbb >=2021.1.1"
 ],
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"aa1660e0e1f7336fb379a0fe6fa772cd0686289aaeaf54c02567ef820331138c",
-"size":263089,
-"timestamp":1610412952442,
-"version":"2020.2"
+"sha256":"9a0f0aae85f68baa0cb01d7b67f218a310a54d041971d896389573dfda01be7b",
+"size":243785,
+"timestamp":1614789085663,
+"version":"2021.1.1"
 },
-"tbb4py-2020.2-py38hbf85e49_0.tar.bz2":{
-"build":"py38hbf85e49_0",
+"tbb4py-2021.1.1-py38h1f443ea_0.tar.bz2":{
+"build":"py38h1f443ea_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"45fd0a88a6cfcd28221ac46f8ee6f1e6c0642f71bf4b14c1faac04d94129be67",
-"size":251336,
-"timestamp":1599136846302,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py38he922c84_1.tar.bz2":{
-"build":"py38he922c84_1",
-"build_number":1,
-"depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
+"tbb >=2021.1.1"
 ],
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"430a089099880030360def4e14dfcb0e03c04bf766f86c9af268f4cd5233da74",
-"size":263129,
-"timestamp":1607963980066,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py38he922c84_2.tar.bz2":{
-"build":"py38he922c84_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"9eed7bf921da62a888f942d42ef645758db17dc1cde8ac715510b98f66941e4e",
-"size":263051,
-"timestamp":1609700233625,
-"version":"2020.2"
-},
-"tbb4py-2020.2-py38he922c84_3.tar.bz2":{
-"build":"py38he922c84_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"tbb >=2020.2",
-"tbb <2021.0.0a0"
-],
-"license":"Apache 2.0",
-"name":"tbb4py",
-"sha256":"4525fa69520052420ec065fa97744a83036ba90c3e31b312e08a8fe24a0a4b3c",
-"size":263075,
-"timestamp":1610413075195,
-"version":"2020.2"
+"sha256":"59be666f0cef797abbff78836f18bd8865c3cbfc92ea8139839e7d9aa4f4c9e2",
+"size":243469,
+"timestamp":1614788913739,
+"version":"2021.1.1"
 },
 "tcsh-6.22.03-he689500_0.tar.bz2":{
 "build":"he689500_0",
