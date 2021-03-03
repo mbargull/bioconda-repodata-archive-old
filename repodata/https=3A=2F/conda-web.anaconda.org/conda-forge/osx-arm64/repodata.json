@@ -38976,6 +38976,38 @@
 "timestamp":1612626092068,
 "version":"4.5.1"
 },
+"py-plumed-2.7.0-py38h3f7e68f_0.tar.bz2":{
+"build":"py38h3f7e68f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.0.1",
+"plumed",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0",
+"name":"py-plumed",
+"requires":[],
+"size":198847,
+"timestamp":1614803832232,
+"version":"2.7.0"
+},
+"py-plumed-2.7.0-py39h93dc1e2_0.tar.bz2":{
+"build":"py39h93dc1e2_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.0.1",
+"plumed",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0",
+"name":"py-plumed",
+"requires":[],
+"size":202859,
+"timestamp":1614803819818,
+"version":"2.7.0"
+},
 "pyarrow-0.17.1-py38h1234567_15_cpu.tar.bz2":{
 "build":"py38h1234567_15_cpu",
 "build_number":15,
@@ -51959,6 +51991,19 @@
 "timestamp":1610404237797,
 "version":"2020.2"
 },
+"tbb-2020.2-h260d524_4.tar.bz2":{
+"build":"h260d524_4",
+"build_number":4,
+"depends":[
+"libcxx >=11.0.1"
+],
+"license":"Apache-2.0",
+"name":"tbb",
+"requires":[],
+"size":145844,
+"timestamp":1614802863815,
+"version":"2020.2"
+},
 "tbb-2021.1.1-h260d524_0.tar.bz2":{
 "build":"h260d524_0",
 "build_number":0,
@@ -52012,6 +52057,20 @@
 "requires":[],
 "size":439925,
 "timestamp":1610404286344,
+"version":"2020.2"
+},
+"tbb-devel-2020.2-h260d524_4.tar.bz2":{
+"build":"h260d524_4",
+"build_number":4,
+"depends":[
+"libcxx >=11.0.1",
+"tbb 2020.2 h260d524_4"
+],
+"license":"Apache-2.0",
+"name":"tbb-devel",
+"requires":[],
+"size":441598,
+"timestamp":1614802915088,
 "version":"2020.2"
 },
 "tbb-devel-2021.1.1-h260d524_0.tar.bz2":{
@@ -52074,6 +52133,22 @@
 "requires":[],
 "size":55396,
 "timestamp":1610404360079,
+"version":"2020.2"
+},
+"tbb4py-2020.2-py38h1cdb9a1_4.tar.bz2":{
+"build":"py38h1cdb9a1_4",
+"build_number":4,
+"depends":[
+"libcxx >=11.0.1",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tbb >=2020.2"
+],
+"license":"Apache 2.0",
+"name":"tbb4py",
+"requires":[],
+"size":55497,
+"timestamp":1614802993974,
 "version":"2020.2"
 },
 "tbb4py-2021.1.1-py38h1cdb9a1_0.tar.bz2":{
@@ -55058,6 +55133,42 @@
 "size":2099543,
 "timestamp":1612463784994,
 "version":"0.9.26"
+},
+"xonsh-0.9.27-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"conda-suggest",
+"prompt_toolkit",
+"pygments >=2.2",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setproctitle"
+],
+"license":"BSD-2-Clause",
+"name":"xonsh",
+"requires":[],
+"size":1498657,
+"timestamp":1614802958253,
+"version":"0.9.27"
+},
+"xonsh-0.9.27-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"conda-suggest",
+"prompt_toolkit",
+"pygments >=2.2",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setproctitle"
+],
+"license":"BSD-2-Clause",
+"name":"xonsh",
+"requires":[],
+"size":1494430,
+"timestamp":1614802962667,
+"version":"0.9.27"
 },
 "xorg-inputproto-2.3.2-h27ca646_1002.tar.bz2":{
 "build":"h27ca646_1002",
