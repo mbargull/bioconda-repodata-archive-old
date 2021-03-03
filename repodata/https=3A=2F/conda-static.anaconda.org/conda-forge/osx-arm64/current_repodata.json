@@ -18411,7 +18411,7 @@
 "timestamp":1597586864467,
 "version":"3.9.1"
 },
-"nodejs-15.10.0-h3f26200_0.tar.bz2":{
+"nodejs-15.11.0-h3f26200_0.tar.bz2":{
 "build":"h3f26200_0",
 "build_number":0,
 "constrains":[
@@ -18426,30 +18426,10 @@
 ],
 "license":"MIT",
 "name":"nodejs",
-"sha256":"bb401cd10e1dbec7aeaea565a1f0c7b58255c6cb55643e0cd91c60b7d6709582",
-"size":12339166,
-"timestamp":1614176315262,
-"version":"15.10.0"
-},
-"nodejs-15.10.0-h3f26200_1.tar.bz2":{
-"build":"h3f26200_1",
-"build_number":1,
-"constrains":[
-"__osx >=11.0"
-],
-"depends":[
-"icu >=68.1,<69.0a0",
-"libcxx >=11.0.1",
-"libuv >=1.41.0,<1.42.0a0",
-"openssl >=1.1.1j,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"MIT",
-"name":"nodejs",
-"sha256":"d70ffb9012f72e93b47b4c82c86de5026cd1baeb65a3da863eb0ff63ca1af4d6",
-"size":12345895,
-"timestamp":1614603056131,
-"version":"15.10.0"
+"sha256":"c426b880941066da0b7662bc269008bbfb48d2ef25e475c40cf59e6ca4d876da",
+"size":12414884,
+"timestamp":1614782060366,
+"version":"15.11.0"
 },
 "notebook-6.2.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -19860,6 +19840,27 @@
 "size":30441,
 "timestamp":1610318411126,
 "version":"0.13.1"
+},
+"plumed-2.7.0-h810c350_0.tar.bz2":{
+"build":"h810c350_0",
+"build_number":0,
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"gawk",
+"gsl >=2.6,<2.7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.0.1",
+"liblapack >=3.9.0,<4.0a0",
+"llvm-openmp >=11.0.1",
+"xdrfile >=1.1.4,<1.1.5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-3.0",
+"name":"plumed",
+"sha256":"50f548d4cc4f217d18aadd9ca0e9608ebebd7d882cb74b5e804de7491cabe333",
+"size":2767628,
+"timestamp":1614779970086,
+"version":"2.7.0"
 },
 "pocl-1.6-h6ab694e_0.tar.bz2":{
 "build":"h6ab694e_0",
