@@ -14039,7 +14039,11 @@
 "build":"h95d0606_0",
 "build_number":0,
 "constrains":[
-"llvmdev   11.1.0"
+"llvmdev   11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm-tools 11.1.0.*"
 ],
 "depends":[
 "libllvm11 11.1.0 h4468dd5_0",
@@ -14093,7 +14097,11 @@
 "build":"h4468dd5_0",
 "build_number":0,
 "constrains":[
-"llvmdev   11.1.0"
+"llvmdev   11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*"
 ],
 "depends":[
 "libllvm11 11.1.0 h4468dd5_0",
@@ -14132,6 +14140,13 @@
 "llvmdev-11.1.0-h4468dd5_0.tar.bz2":{
 "build":"h4468dd5_0",
 "build_number":0,
+"constrains":[
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*"
+],
 "depends":[
 "libcxx >=11.a0",
 "libllvm11 11.1.0 h4468dd5_0",
@@ -19450,6 +19465,36 @@
 "timestamp":1614365529517,
 "version":"1.7.3"
 },
+"pydantic-1.8-py38h30f7421_1.tar.bz2":{
+"build":"py38h30f7421_1",
+"build_number":1,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"typing-extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"10d63c24cb700be01ea6b405ab0239c2c88df72422193476cd5eca464cc6250a",
+"size":2118917,
+"timestamp":1614809940787,
+"version":"1.8"
+},
+"pydantic-1.8-py39h46acfd9_1.tar.bz2":{
+"build":"py39h46acfd9_1",
+"build_number":1,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"typing-extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"7b63811951def480c596fdf4c62733a3fb4b1e9d814867fc560a31a0602ba3c0",
+"size":2027779,
+"timestamp":1614809937576,
+"version":"1.8"
+},
 "pyerfa-1.7.2-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
 "build_number":0,
@@ -23350,7 +23395,8 @@
 "libcxx >=11.0.1",
 "liblapack >=3.9.0,<4.0a0",
 "metis >=5.1.0,<5.2.0a0",
-"tbb >=2020.2"
+"tbb >=2020.2",
+"tbb <2021.0.0a0"
 ],
 "license":"LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
 "name":"suitesparse",
@@ -24077,7 +24123,7 @@
 "timestamp":1614602581130,
 "version":"1.8.0"
 },
-"treecorr-4.1.6-py38h3f7e68f_0.tar.bz2":{
+"treecorr-4.1.7-py38h3f7e68f_0.tar.bz2":{
 "build":"py38h3f7e68f_0",
 "build_number":0,
 "depends":[
@@ -24094,12 +24140,12 @@
 ],
 "license":"BSD-2-Clause",
 "name":"treecorr",
-"sha256":"c8a7c8c2b0f958616bb12d7162d4073613b77f3f8f93d124c67ca77622c0bfda",
-"size":753719,
-"timestamp":1613525874278,
-"version":"4.1.6"
+"sha256":"69ea7c224e9b5018aca74c582f3db3363d1a1e4f37b0911c2db05025b2aed480",
+"size":759138,
+"timestamp":1614808070239,
+"version":"4.1.7"
 },
-"treecorr-4.1.6-py39h93dc1e2_0.tar.bz2":{
+"treecorr-4.1.7-py39h93dc1e2_0.tar.bz2":{
 "build":"py39h93dc1e2_0",
 "build_number":0,
 "depends":[
@@ -24116,10 +24162,10 @@
 ],
 "license":"BSD-2-Clause",
 "name":"treecorr",
-"sha256":"c8fdf0153ac6fde424a4b5a6cb090f647479b402dd623fe1b29330b7ed6cb4c0",
-"size":754249,
-"timestamp":1613525830628,
-"version":"4.1.6"
+"sha256":"34f8e5da47280fd788baa098ecd2582ad5065ec1b7e3841ada2fcb94fbf019fe",
+"size":722854,
+"timestamp":1614808083645,
+"version":"4.1.7"
 },
 "trio-0.18.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",

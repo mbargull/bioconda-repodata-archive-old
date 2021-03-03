@@ -40649,6 +40649,86 @@
 "timestamp":1614793207942,
 "version":"0.2.0"
 },
+"jupyter_latex_envs-1.4.6-py36h270354c_1001.tar.bz2":{
+"build":"py36h270354c_1001",
+"build_number":1001,
+"depends":[
+"ipython",
+"jupyter_contrib_core >=0.3",
+"nbconvert",
+"notebook >=4.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"setuptools",
+"traitlets >=4.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_latex_envs",
+"sha256":"fb6268319c62cbfb312ae3f89d20586d110d8a845de39e6da343b3fa71d7a2d5",
+"size":771401,
+"timestamp":1614809558097,
+"version":"1.4.6"
+},
+"jupyter_latex_envs-1.4.6-py37h35e4cab_1001.tar.bz2":{
+"build":"py37h35e4cab_1001",
+"build_number":1001,
+"depends":[
+"ipython",
+"jupyter_contrib_core >=0.3",
+"nbconvert",
+"notebook >=4.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"setuptools",
+"traitlets >=4.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_latex_envs",
+"sha256":"ed04d92ef4f0c59f71e7187d02c1d9d9db6b3b1f0964311dde13e6738fc5b1dc",
+"size":771486,
+"timestamp":1614809406967,
+"version":"1.4.6"
+},
+"jupyter_latex_envs-1.4.6-py38hf8b3453_1001.tar.bz2":{
+"build":"py38hf8b3453_1001",
+"build_number":1001,
+"depends":[
+"ipython",
+"jupyter_contrib_core >=0.3",
+"nbconvert",
+"notebook >=4.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"traitlets >=4.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_latex_envs",
+"sha256":"d98dbf62ab3f437c8d64a7c1f3f70f6c7e988b00a2345ef4d242034481f46799",
+"size":739536,
+"timestamp":1614809513394,
+"version":"1.4.6"
+},
+"jupyter_latex_envs-1.4.6-py39hc1b9086_1001.tar.bz2":{
+"build":"py39hc1b9086_1001",
+"build_number":1001,
+"depends":[
+"ipython",
+"jupyter_contrib_core >=0.3",
+"nbconvert",
+"notebook >=4.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"traitlets >=4.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_latex_envs",
+"sha256":"5bb2c64cd3b4663fa87a1d116055249ecdbbe369315c2679a15904fe143f91e9",
+"size":767149,
+"timestamp":1614809290428,
+"version":"1.4.6"
+},
 "jupyter_server-1.4.1-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
@@ -50424,7 +50504,11 @@
 "build":"h12068cf_0",
 "build_number":0,
 "constrains":[
-"llvmdev   11.1.0"
+"llvmdev   11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm-tools 11.1.0.*"
 ],
 "depends":[
 "libllvm11 11.1.0 h6c99497_0",
@@ -50457,7 +50541,11 @@
 "build":"h6c99497_0",
 "build_number":0,
 "constrains":[
-"llvmdev   11.1.0"
+"llvmdev   11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*"
 ],
 "depends":[
 "libgcc-ng >=8.4.0",
@@ -50499,6 +50587,13 @@
 "llvmdev-11.1.0-h6c99497_0.tar.bz2":{
 "build":"h6c99497_0",
 "build_number":0,
+"constrains":[
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*"
+],
 "depends":[
 "libgcc-ng >=8.4.0",
 "libllvm11 11.1.0 h6c99497_0",
@@ -72990,6 +73085,88 @@
 "timestamp":1606819028312,
 "version":"1.7.3"
 },
+"pydantic-1.8-py36hc33305d_1.tar.bz2":{
+"build":"py36hc33305d_1",
+"build_number":1,
+"depends":[
+"dataclasses >=0.6",
+"libgcc-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"typing-extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"443be9d7c4754545d82336de1a782397e90016305a71d4313727536d51817499",
+"size":2344512,
+"timestamp":1614809898584,
+"version":"1.8"
+},
+"pydantic-1.8-py37h0630641_1.tar.bz2":{
+"build":"py37h0630641_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"typing-extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"02c78d829f056f761e244e5bc3705267f90ababda15c4be3e727842bb86ee9fe",
+"size":1789812,
+"timestamp":1614809886789,
+"version":"1.8"
+},
+"pydantic-1.8-py37h6642d69_1.tar.bz2":{
+"build":"py37h6642d69_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"typing-extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"fc27b32247d1fd1bc012cd6a15a3f6c9dd02efe6ecfd704e9205fe2f73765831",
+"size":2275811,
+"timestamp":1614809934885,
+"version":"1.8"
+},
+"pydantic-1.8-py38h98b8a6f_1.tar.bz2":{
+"build":"py38h98b8a6f_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"typing-extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"757920bae6b6f489f9d0b6cefbe90928b2f6d2d1129dc7fe40757ff44820e974",
+"size":2312933,
+"timestamp":1614809928785,
+"version":"1.8"
+},
+"pydantic-1.8-py39ha810350_1.tar.bz2":{
+"build":"py39ha810350_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"typing-extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"22b203dec12d9c9cb33ec4a0cb99c6cd1707108a9f1fc48b410754722d2b2bad",
+"size":2316356,
+"timestamp":1614809985071,
+"version":"1.8"
+},
 "pydot-1.4.2-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
@@ -81504,6 +81681,74 @@
 "size":96086,
 "timestamp":1610233239788,
 "version":"0.1.5"
+},
+"qgrid-1.3.1-py36h270354c_1.tar.bz2":{
+"build":"py36h270354c_1",
+"build_number":1,
+"depends":[
+"ipywidgets >=7.0.0",
+"notebook >=4.0.0",
+"pandas >=0.17.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"Apache 2.0",
+"name":"qgrid",
+"sha256":"0a8081543f682afaf393c73f41493cfecc0b9ea6ce071551fb70441ef0a7e0c6",
+"size":1540819,
+"timestamp":1614808696918,
+"version":"1.3.1"
+},
+"qgrid-1.3.1-py37h35e4cab_1.tar.bz2":{
+"build":"py37h35e4cab_1",
+"build_number":1,
+"depends":[
+"ipywidgets >=7.0.0",
+"notebook >=4.0.0",
+"pandas >=0.17.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"Apache 2.0",
+"name":"qgrid",
+"sha256":"9530f513c0e7d323a5f5c0dc7f2ef039f345c533e8042dd505d8069ca42c0889",
+"size":1542649,
+"timestamp":1614808489213,
+"version":"1.3.1"
+},
+"qgrid-1.3.1-py38hf8b3453_1.tar.bz2":{
+"build":"py38hf8b3453_1",
+"build_number":1,
+"depends":[
+"ipywidgets >=7.0.0",
+"notebook >=4.0.0",
+"pandas >=0.17.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache 2.0",
+"name":"qgrid",
+"sha256":"dbe3bf3586b2f62328c6d6ec0ff6af1a5aece1d300c6ab4e4f85c97583ad75b6",
+"size":1553456,
+"timestamp":1614808862702,
+"version":"1.3.1"
+},
+"qgrid-1.3.1-py39hc1b9086_1.tar.bz2":{
+"build":"py39hc1b9086_1",
+"build_number":1,
+"depends":[
+"ipywidgets >=7.0.0",
+"notebook >=4.0.0",
+"pandas >=0.17.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache 2.0",
+"name":"qgrid",
+"sha256":"ca73343fe7335dcdac57349bfc217d1a666c9442a224693a3963a9641e6f0564",
+"size":1552896,
+"timestamp":1614808700720,
+"version":"1.3.1"
 },
 "qhull-2020.2-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
@@ -99190,7 +99435,8 @@
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
 "metis >=5.1.0,<5.2.0a0",
-"tbb >=2020.2"
+"tbb >=2020.2",
+"tbb <2021.0.0a0"
 ],
 "license":"LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
 "name":"suitesparse",
@@ -99369,6 +99615,23 @@
 "sha256":"4ac82ac5da7733302511792029b8b25e534ea02c33089b195ea0892025c05c9b",
 "size":556434,
 "timestamp":1614805971519,
+"version":"4.2.1"
+},
+"supervisor-4.2.1-py36he7cccf2_0.tar.bz2":{
+"build":"py36he7cccf2_0",
+"build_number":0,
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"setuptools"
+],
+"license":"BSD-derived",
+"name":"supervisor",
+"sha256":"9f1f394fa2aaefabd856c469047c26208c49951c9daff23e58284eacb121a3d1",
+"size":565779,
+"timestamp":1614806306948,
 "version":"4.2.1"
 },
 "supervisor-4.2.1-py37h35e4cab_0.tar.bz2":{
@@ -99844,6 +100107,20 @@
 "sha256":"e1d88754c02bef54a07f9814059a2ae99647cae384a016113035d664dc8d5d9a",
 "size":1615060,
 "timestamp":1610404374287,
+"version":"2020.2"
+},
+"tbb-2020.2-h2acdbc0_4.tar.bz2":{
+"build":"h2acdbc0_4",
+"build_number":4,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"tbb",
+"sha256":"4dc7f33c7604428b6b0d9ccd86465dd25c4142db305acacb9803cb7514c28db0",
+"size":1616371,
+"timestamp":1614808732942,
 "version":"2020.2"
 },
 "tbb-2021.1.1-h2acdbc0_0.tar.bz2":{
