@@ -15553,49 +15553,27 @@
 "timestamp":1610129004508,
 "version":"3.2.6"
 },
-"clang-11-11.0.1-default_hf0ebb0c_0.tar.bz2":{
+"clang-11-11.1.0-default_hf0ebb0c_0.tar.bz2":{
 "build":"default_hf0ebb0c_0",
 "build_number":0,
 "constrains":[
-"clangxx 11.0.1",
-"llvm-tools 11.0.1",
-"clangdev 11.0.1",
-"clang-tools 11.0.1"
+"clangxx 11.1.0",
+"clang-tools 11.1.0",
+"llvm-tools 11.1.0",
+"clangdev 11.1.0"
 ],
 "depends":[
-"libclang-cpp11 11.0.1.*",
+"libclang-cpp11.1 11.1.0.*",
 "libgcc-ng >=8.4.0",
-"libllvm11 >=11.0.1,<11.1.0a0",
+"libllvm11 >=11.1.0,<11.2.0a0",
 "libstdcxx-ng >=8.4.0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"clang-11",
-"sha256":"483b616680b010c254a8706aa8eb19b5a2e8bcab350ca28ae547bb900c170d5d",
-"size":721809,
-"timestamp":1610534932660,
-"version":"11.0.1"
-},
-"clang-11-11.0.1-default_hf0ebb0c_1.tar.bz2":{
-"build":"default_hf0ebb0c_1",
-"build_number":1,
-"constrains":[
-"clangdev 11.0.1",
-"clangxx 11.0.1",
-"llvm-tools 11.0.1",
-"clang-tools 11.0.1"
-],
-"depends":[
-"libclang-cpp11 11.0.1.*",
-"libgcc-ng >=8.4.0",
-"libllvm11 >=11.0.1,<11.1.0a0",
-"libstdcxx-ng >=8.4.0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clang-11",
-"sha256":"cc26c0a68f113d035d0f32f3b1c7b3f070be19bbf2b0822a5e701fdc30df6411",
-"size":716643,
-"timestamp":1610742155468,
-"version":"11.0.1"
+"sha256":"908ced51e810fb6fefe21e544504a963286f21929357c77204441cdaa22e21b0",
+"size":722225,
+"timestamp":1614815299400,
+"version":"11.1.0"
 },
 "clang-11.0.1-ha3edaa6_0.tar.bz2":{
 "build":"ha3edaa6_0",
@@ -15639,55 +15617,39 @@
 "timestamp":1610742384513,
 "version":"11.0.1"
 },
-"clang-tools-11.0.1-default_hf0ebb0c_0.tar.bz2":{
+"clang-11.1.0-ha3edaa6_0.tar.bz2":{
+"build":"ha3edaa6_0",
+"build_number":0,
+"depends":[
+"clang-11 11.1.0 default_hf0ebb0c_0",
+"gcc_impl_linux-ppc64le"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang",
+"sha256":"4918d994679f58a7316fabf2e0c2b20f5f3758513421097cf11be4b0262160c8",
+"size":127134,
+"timestamp":1614815540082,
+"version":"11.1.0"
+},
+"clang-tools-11.1.0-default_hf0ebb0c_0.tar.bz2":{
 "build":"default_hf0ebb0c_0",
 "build_number":0,
 "constrains":[
-"clangdev 11.0.1",
-"libclang 11.0.1.*",
-"clang 11.0.1.*",
-"llvm 11.0.1.*",
-"llvm-tools 11.0.1.*",
-"llvmdev 11.0.1.*"
+"clangdev 11.1.0"
 ],
 "depends":[
-"clang 11.0.1 ha3edaa6_0",
-"clangxx 11.0.1 default_hb63b465_0",
+"clang 11.1.0 ha3edaa6_0",
+"clangxx 11.1.0 default_hb63b465_0",
 "libgcc-ng >=8.4.0",
-"libllvm11 >=11.0.1,<11.1.0a0",
+"libllvm11 >=11.1.0,<11.2.0a0",
 "libstdcxx-ng >=8.4.0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"clang-tools",
-"sha256":"1e67e35b25d5dffcb16fac3214a01da5654d2d425986ab98e33e85ef373ffdb4",
-"size":20308997,
-"timestamp":1610535424367,
-"version":"11.0.1"
-},
-"clang-tools-11.0.1-default_hf0ebb0c_1.tar.bz2":{
-"build":"default_hf0ebb0c_1",
-"build_number":1,
-"constrains":[
-"clangdev 11.0.1",
-"libclang 11.0.1.*",
-"clang 11.0.1.*",
-"llvm 11.0.1.*",
-"llvm-tools 11.0.1.*",
-"llvmdev 11.0.1.*"
-],
-"depends":[
-"clang 11.0.1 ha3edaa6_1",
-"clangxx 11.0.1 default_hb63b465_1",
-"libgcc-ng >=8.4.0",
-"libllvm11 >=11.0.1,<11.1.0a0",
-"libstdcxx-ng >=8.4.0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clang-tools",
-"sha256":"28a870cea095d5e42ce926c236020da1e5f2d58cf0e796753e68c725c3ee5d16",
-"size":20301614,
-"timestamp":1610742646685,
-"version":"11.0.1"
+"sha256":"a9842c20056bbf1277af66f32fb3ee392de4fb3afeb2b40ffd3ab19d24404f70",
+"size":20366808,
+"timestamp":1614815841595,
+"version":"11.1.0"
 },
 "clang_variant-1.0-cling_v0.6.tar.bz2":{
 "build":"cling_v0.6",
@@ -15760,25 +15722,25 @@
 "track_features":"non_default_clang",
 "version":"1.0"
 },
-"clangdev-11.0.1-default_hf0ebb0c_1.tar.bz2":{
-"build":"default_hf0ebb0c_1",
-"build_number":1,
+"clangdev-11.1.0-default_hf0ebb0c_0.tar.bz2":{
+"build":"default_hf0ebb0c_0",
+"build_number":0,
 "depends":[
-"clang 11.0.1 ha3edaa6_1",
-"clang-tools 11.0.1 default_hf0ebb0c_1",
-"clangxx 11.0.1 default_hb63b465_1",
-"libclang 11.0.1 default_hf0ebb0c_1",
-"libclang-cpp 11.0.1 default_hf0ebb0c_1",
+"clang 11.1.0 ha3edaa6_0",
+"clang-tools 11.1.0 default_hf0ebb0c_0",
+"clangxx 11.1.0 default_hb63b465_0",
+"libclang 11.1.0 default_hf0ebb0c_0",
+"libclang-cpp 11.1.0 default_hf0ebb0c_0",
 "libgcc-ng >=8.4.0",
 "libstdcxx-ng >=8.4.0",
-"llvmdev 11.0.1"
+"llvmdev 11.1.0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"clangdev",
-"sha256":"594fbd0b8d4a5a038b67efc3dc761b7e6196dbfc614fbb454748873dab20a7b5",
-"size":64373610,
-"timestamp":1610742760423,
-"version":"11.0.1"
+"sha256":"a2df3a1a778b070b0e828b3e3a001dbc2c610a0aaedabb0324c2f05d59937a39",
+"size":64358498,
+"timestamp":1614815962152,
+"version":"11.1.0"
 },
 "clangdev-5.0.0-h1e967ce_1009.tar.bz2":{
 "build":"h1e967ce_1009",
@@ -15901,6 +15863,19 @@
 "size":126822,
 "timestamp":1610742401959,
 "version":"11.0.1"
+},
+"clangxx-11.1.0-default_hb63b465_0.tar.bz2":{
+"build":"default_hb63b465_0",
+"build_number":0,
+"depends":[
+"clang 11.1.0 ha3edaa6_0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangxx",
+"sha256":"9a16e7b608db1cdc272cbf104cd2a3d82ac707a257163d5233abf7de46a703e5",
+"size":127006,
+"timestamp":1614815553721,
+"version":"11.1.0"
 },
 "clhep-2.4.4.0-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
@@ -44162,65 +44137,36 @@
 "timestamp":1601357764524,
 "version":"2.1"
 },
-"libclang-11.0.1-default_hf0ebb0c_0.tar.bz2":{
+"libclang-11.1.0-default_hf0ebb0c_0.tar.bz2":{
 "build":"default_hf0ebb0c_0",
 "build_number":0,
-"constrains":[
-"clang 11.0.1.*",
-"clang-tools 11.0.1.*",
-"llvm 11.0.1.*",
-"llvm-tools 11.0.1.*",
-"llvmdev 11.0.1.*"
-],
 "depends":[
 "libgcc-ng >=8.4.0",
-"libllvm11 >=11.0.1,<11.1.0a0",
+"libllvm11 >=11.1.0,<11.2.0a0",
 "libstdcxx-ng >=8.4.0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"libclang",
-"sha256":"fd0a64d82155e4ff7c57914faa35ca083358f7afc975f9b352e90cf1f1aead00",
-"size":22362135,
-"timestamp":1610535289757,
-"version":"11.0.1"
+"sha256":"e106d187cca027111be4c8e112cfeb594ad158677514995a9e463d4813508f63",
+"size":22372557,
+"timestamp":1614815691557,
+"version":"11.1.0"
 },
-"libclang-11.0.1-default_hf0ebb0c_1.tar.bz2":{
-"build":"default_hf0ebb0c_1",
-"build_number":1,
-"constrains":[
-"clang 11.0.1.*",
-"clang-tools 11.0.1.*",
-"llvm 11.0.1.*",
-"llvm-tools 11.0.1.*",
-"llvmdev 11.0.1.*"
-],
+"libclang-cpp-11.1.0-default_hf0ebb0c_0.tar.bz2":{
+"build":"default_hf0ebb0c_0",
+"build_number":0,
 "depends":[
+"libclang-cpp11.1 11.1.0 default_hf0ebb0c_0",
 "libgcc-ng >=8.4.0",
-"libllvm11 >=11.0.1,<11.1.0a0",
-"libstdcxx-ng >=8.4.0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"libclang",
-"sha256":"cf442e040af71de4cdc5aee0026e51ede59469153d9d6a6895f61bfc94735db1",
-"size":22354929,
-"timestamp":1610742506277,
-"version":"11.0.1"
-},
-"libclang-cpp-11.0.1-default_hf0ebb0c_1.tar.bz2":{
-"build":"default_hf0ebb0c_1",
-"build_number":1,
-"depends":[
-"libclang-cpp11 11.0.1 default_hf0ebb0c_1",
-"libgcc-ng >=8.4.0",
-"libllvm11 >=11.0.1,<11.1.0a0",
+"libllvm11 >=11.1.0,<11.2.0a0",
 "libstdcxx-ng >=8.4.0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"libclang-cpp",
-"sha256":"38dc875d7d5f177a85fe7b891fec4fbb2ce534b8625880f96f34fb1c4acd1096",
-"size":18857438,
-"timestamp":1610742284740,
-"version":"11.0.1"
+"sha256":"2b334c0165f341622a82fa1669bf57d24b0062a22ea1d7b1ac032b890ad1db98",
+"size":18868018,
+"timestamp":1614815432259,
+"version":"11.1.0"
 },
 "libclang-cpp10-10.0.1-default_hb85057a_0.tar.bz2":{
 "build":"default_hb85057a_0",
@@ -44266,6 +44212,21 @@
 "size":18941134,
 "timestamp":1610742009236,
 "version":"11.0.1"
+},
+"libclang-cpp11.1-11.1.0-default_hf0ebb0c_0.tar.bz2":{
+"build":"default_hf0ebb0c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libstdcxx-ng >=8.4.0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp11.1",
+"sha256":"222c1b388409ba8e1142832621f4e442b1112c7c6ae7c74c747412a1e2cd339e",
+"size":18873979,
+"timestamp":1614815148843,
+"version":"11.1.0"
 },
 "libcrc32c-1.1.1-h3b9df90_2.tar.bz2":{
 "build":"h3b9df90_2",
@@ -50575,30 +50536,6 @@
 "size":14877118,
 "timestamp":1614633215450,
 "version":"11.1.0"
-},
-"llvmdev-11.0.1-h6c99497_0.tar.bz2":{
-"build":"h6c99497_0",
-"build_number":0,
-"constrains":[
-"libclang 11.0.1.*",
-"clang 11.0.1.*",
-"clang-tools 11.0.1.*",
-"llvm 11.0.1.*",
-"llvm-tools 11.0.1.*"
-],
-"depends":[
-"libgcc-ng >=8.4.0",
-"libllvm11 11.0.1 h6c99497_0",
-"libstdcxx-ng >=8.4.0",
-"llvm-tools 11.0.1 h6c99497_0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvmdev",
-"sha256":"d3f02591cccada21c5c84d9803e4929c207359770ac293d2d7091f1dacee5a31",
-"size":49295878,
-"timestamp":1610501694821,
-"version":"11.0.1"
 },
 "llvmdev-11.1.0-h6c99497_0.tar.bz2":{
 "build":"h6c99497_0",
