@@ -539,20 +539,6 @@
 "timestamp":1611930062539,
 "version":"4.4.2"
 },
-"defusedxml-0.6.0-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"python"
-],
-"license":"PSF 2.0",
-"name":"defusedxml",
-"noarch":"python",
-"sha256":"23e196931cffd470d19459a159a609372558264a9487c1357175aac4f3cca475",
-"size":23686,
-"timestamp":1612808103391,
-"version":"0.6.0"
-},
 "expat-devel-cos6-i686-2.0.1-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -5233,25 +5219,25 @@
 "timestamp":1612211427652,
 "version":"3.3.0"
 },
-"boto3-1.17.19-pyhd3eb1b0_0.conda":{
+"boto3-1.17.20-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"botocore >=1.20.19,<1.21.0",
+"botocore >=1.20.20,<1.21.0",
 "jmespath >=0.7.1,<1.0.0",
 "python",
 "s3transfer >=0.3.0,<0.4.0"
 ],
-"legacy_bz2_md5":"052c7025419ef1fa901df3485c8c374b",
+"legacy_bz2_md5":"9a85c84c19cf0ccfc75f83c4542e2094",
 "license":"Apache-2.0",
 "name":"boto3",
 "noarch":"python",
-"sha256":"e42ded7effb37a56ef728cec8b9df3c215192be807d17975b437076ce8d8e2e7",
-"size":72241,
-"timestamp":1614874545850,
-"version":"1.17.19"
+"sha256":"535f642f6351ccb955a1e85c21961995e800af97549a9ff16c73decfc8fd4fbf",
+"size":72090,
+"timestamp":1614893317175,
+"version":"1.17.20"
 },
-"botocore-1.20.19-pyhd3eb1b0_1.conda":{
+"botocore-1.20.20-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -5260,14 +5246,14 @@
 "python-dateutil >=2.1,<3.0.0",
 "urllib3 >=1.25.4,<1.27"
 ],
-"legacy_bz2_md5":"5cc40ed59f8d8dee5d36252436365ed0",
+"legacy_bz2_md5":"7457491745f03699e58a63db607b444a",
 "license":"Apache-2.0",
 "name":"botocore",
 "noarch":"python",
-"sha256":"645ce17284378287e3a5593266f032c89c159354b0a909697616e58106c9c542",
-"size":3706481,
-"timestamp":1614796038025,
-"version":"1.20.19"
+"sha256":"9ce4008a985296f6ee6040402d44958defca08379f9050d252dba2249f099c88",
+"size":3706446,
+"timestamp":1614882702910,
+"version":"1.20.20"
 },
 "bs4-4.9.3-0.conda":{
 "build":"0",
@@ -7005,20 +6991,20 @@
 "timestamp":1584027029921,
 "version":"4.4.2"
 },
-"defusedxml-0.6.0-py_0.conda":{
-"build":"py_0",
+"defusedxml-0.7.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python"
 ],
-"legacy_bz2_md5":"db00390e2c4c3c3670d22a7bfba6a993",
+"legacy_bz2_md5":"220c0f4b82a0faa2d2d332e8964cd0a9",
 "license":"PSF 2.0",
 "name":"defusedxml",
 "noarch":"python",
-"sha256":"3292bfa60763387ee52a8f5fb6fdb3073b56b8710e7c8c23b9af28abe0fca1e6",
-"size":23998,
-"timestamp":1556080706081,
-"version":"0.6.0"
+"sha256":"45cc573853a6736d8f234d033770ad9c5d0dc2a1299ce2063e83fd3a23da3dfc",
+"size":23676,
+"timestamp":1614883070973,
+"version":"0.7.0"
 },
 "deprecated-1.2.11-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -7722,22 +7708,22 @@
 "timestamp":1592513384343,
 "version":"0.7.1"
 },
-"flask-caching-1.9.0-py_0.conda":{
-"build":"py_0",
+"flask-caching-1.10.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "flask",
 "python",
 "werkzeug >=0.12"
 ],
-"legacy_bz2_md5":"93e4c7108dafb42c6cd02111de599b94",
+"legacy_bz2_md5":"281e4ab3780ea90dfa2d7e3446dedcab",
 "license":"BSD-3-Clause",
 "name":"flask-caching",
 "noarch":"python",
-"sha256":"959ffbc7c9e4bfebfa4e7655ee28c2c4693494dc77f4e73dd87be23b120e50f7",
-"size":25360,
-"timestamp":1599768012418,
-"version":"1.9.0"
+"sha256":"25e07da8a783e6e3150ee76e483b4595ac6b8ecdb8e3a7aff30a0ee0f55e65b8",
+"size":27733,
+"timestamp":1614883518190,
+"version":"1.10.0"
 },
 "flask-compress-1.9.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -8818,7 +8804,7 @@
 "timestamp":1613980405889,
 "version":"1.25.1"
 },
-"google-auth-1.27.0-pyhd3eb1b0_0.conda":{
+"google-auth-1.27.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -8830,14 +8816,14 @@
 "setuptools >=40.3.0",
 "six >=1.9.0"
 ],
-"legacy_bz2_md5":"c256a996eb4e4969df74ac47f7820289",
+"legacy_bz2_md5":"e5cc21c93786e5211072e36c2b19499f",
 "license":"Apache-2.0",
 "name":"google-auth",
 "noarch":"python",
-"sha256":"8303ffee919b7217b729a70e5756161fffb60269eefedc378cd92c2d0a3b721b",
-"size":73532,
-"timestamp":1613588399339,
-"version":"1.27.0"
+"sha256":"c4d32c6c57e1cbeea8e9808a8019c4aeaf1f1bfc49debd4d8aa24c61535b0645",
+"size":73833,
+"timestamp":1614884007372,
+"version":"1.27.1"
 },
 "google-auth-oauthlib-0.4.2-pyhd3eb1b0_2.conda":{
 "build":"pyhd3eb1b0_2",

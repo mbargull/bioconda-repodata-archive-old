@@ -529,6 +529,23 @@
 "timestamp":1605217390663,
 "version":"20.1.0"
 },
+"arpack-3.7.0-h58ebc17_2.tar.bz2":{
+"build":"h58ebc17_2",
+"build_number":2,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.0.1",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.0.dev0",
+"liblapack >=3.9.0,<4.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"arpack",
+"sha256":"90bd932a2f8c5e5232003f47dc40b3dc50457bdc66eda64ed92a9e7e9db3c75f",
+"size":200200,
+"timestamp":1614888053198,
+"version":"3.7.0"
+},
 "arrow-cpp-3.0.0-py38h17ac6e2_0_cpu.tar.bz2":{
 "build":"py38h17ac6e2_0_cpu",
 "build_number":0,
@@ -3411,11 +3428,11 @@
 "timestamp":1606685959780,
 "version":"4.1"
 },
-"cctbx-2021.1-hce30654_0.tar.bz2":{
+"cctbx-2021.2-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
 "depends":[
-"cctbx-base >=2021.1,<2021.2.0a0",
+"cctbx-base >=2021.2,<2021.3.0a0",
 "ipython",
 "pyside2",
 "pyzmq",
@@ -3424,12 +3441,12 @@
 ],
 "license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
 "name":"cctbx",
-"sha256":"345a2e22b10298c088eea6ffde7c47a2026f983863f92a8b8d3d2b59d4703de9",
-"size":55751,
-"timestamp":1612397061717,
-"version":"2021.1"
+"sha256":"6571f25f0461617af7cf4d196fd7c32a9ffb31b1576da5450a1aad8b4c539a0e",
+"size":55397,
+"timestamp":1614886719068,
+"version":"2021.2"
 },
-"cctbx-base-2021.1-py38h40068c3_0.tar.bz2":{
+"cctbx-base-2021.2-py38h40068c3_0.tar.bz2":{
 "build":"py38h40068c3_0",
 "build_number":0,
 "depends":[
@@ -3453,12 +3470,12 @@
 ],
 "license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
 "name":"cctbx-base",
-"sha256":"130faaefc05ccd8605e9ebe304de42d3ff06651358944ac133f6c72c8fd52ea6",
-"size":62177630,
-"timestamp":1612396999870,
-"version":"2021.1"
+"sha256":"0fa481eccc6078a2394f7f6c5cc17037ff80ed83c3002929b01a1e4d0c5885af",
+"size":62247223,
+"timestamp":1614886656655,
+"version":"2021.2"
 },
-"cctbx-base-2021.1-py39h7a48225_0.tar.bz2":{
+"cctbx-base-2021.2-py39h7a48225_0.tar.bz2":{
 "build":"py39h7a48225_0",
 "build_number":0,
 "depends":[
@@ -3482,10 +3499,10 @@
 ],
 "license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
 "name":"cctbx-base",
-"sha256":"c277ffe32db40fe2927181dbb7e0d47ee0ecfccb2c8ce0db0d4aeb15ea2945c3",
-"size":61465171,
-"timestamp":1612397425227,
-"version":"2021.1"
+"sha256":"9ef2deebac3f4c552098b2d3846a464317d54d6da58fa522140036ba8f0ceb60",
+"size":61596293,
+"timestamp":1614886943101,
+"version":"2021.2"
 },
 "cctools-949.0.1-ha9384d2_18.tar.bz2":{
 "build":"ha9384d2_18",

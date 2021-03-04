@@ -7063,7 +7063,7 @@
 "timestamp":1612239944465,
 "version":"1.8.133"
 },
-"aws-sdk-cpp-1.8.153-he271ece_0.tar.bz2":{
+"aws-sdk-cpp-1.8.154-he271ece_0.tar.bz2":{
 "build":"he271ece_0",
 "build_number":0,
 "depends":[
@@ -7075,10 +7075,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"ed7495f57e493661000058b283cd8dac12fdd0f18da72de7d4a8b2cfe97f1488",
-"size":2109949,
-"timestamp":1614796012216,
-"version":"1.8.153"
+"sha256":"a2a6b5b6a0dc0e787a90a1de0c672d6426464c09c3ad6530e11600e8820e6617",
+"size":2110545,
+"timestamp":1614883191693,
+"version":"1.8.154"
 },
 "aws-xray-sdk-2.6.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -27137,7 +27137,7 @@
 "timestamp":1600927490075,
 "version":"1.22.4"
 },
-"grpc-cpp-1.36.0-h97de6d8_4.tar.bz2":{
+"grpc-cpp-1.36.1-h97de6d8_4.tar.bz2":{
 "build":"h97de6d8_4",
 "build_number":4,
 "depends":[
@@ -27148,10 +27148,10 @@
 ],
 "license":"Apache-2.0",
 "name":"grpc-cpp",
-"sha256":"5a421425e675f1e29495647f9fbb8e4f62c45e9d7094023d99a0f56b45e34955",
-"size":3729391,
-"timestamp":1614363132487,
-"version":"1.36.0"
+"sha256":"fcfad7800b76ca6f24af410329a9ad481f8ce328bd78ab53725bf5fa779c747c",
+"size":3732246,
+"timestamp":1614884654543,
+"version":"1.36.1"
 },
 "grpcio-1.35.0-py36h97de6d8_0.tar.bz2":{
 "build":"py36h97de6d8_0",
@@ -27317,7 +27317,7 @@
 "timestamp":1613730597185,
 "version":"1.35.0"
 },
-"grpcio-1.36.0-py36h97de6d8_1.tar.bz2":{
+"grpcio-1.36.1-py36h97de6d8_1.tar.bz2":{
 "build":"py36h97de6d8_1",
 "build_number":1,
 "depends":[
@@ -27333,12 +27333,12 @@
 ],
 "license":"Apache-2.0",
 "name":"grpcio",
-"sha256":"06ef6c91fdd8b7b55c09f03da8f98f9449d651556c77eefff19baeb920126fd2",
-"size":2066511,
-"timestamp":1614616497109,
-"version":"1.36.0"
+"sha256":"ebd036beaf88ef9c5c63985dfe97aaa9ac4e0860ff905e22470f293ec84c335a",
+"size":2087858,
+"timestamp":1614884533262,
+"version":"1.36.1"
 },
-"grpcio-1.36.0-py37h97de6d8_1.tar.bz2":{
+"grpcio-1.36.1-py37h97de6d8_1.tar.bz2":{
 "build":"py37h97de6d8_1",
 "build_number":1,
 "depends":[
@@ -27354,12 +27354,12 @@
 ],
 "license":"Apache-2.0",
 "name":"grpcio",
-"sha256":"7729f20f37eda003eda36b76e20643f711df27e9b37d08a706867c8c007414fd",
-"size":1838999,
-"timestamp":1614616331040,
-"version":"1.36.0"
+"sha256":"fd7da4f390f0e4a014c9ecad5535655997d0a7ec422830478071677572c80fe9",
+"size":1824933,
+"timestamp":1614884514317,
+"version":"1.36.1"
 },
-"grpcio-1.36.0-py38h97de6d8_1.tar.bz2":{
+"grpcio-1.36.1-py38h97de6d8_1.tar.bz2":{
 "build":"py38h97de6d8_1",
 "build_number":1,
 "depends":[
@@ -27375,12 +27375,12 @@
 ],
 "license":"Apache-2.0",
 "name":"grpcio",
-"sha256":"4da68a671125fe379b5a6e9a9a7ede7c5d6f3c3410341616454bef8b05735b95",
-"size":1854060,
-"timestamp":1614616533410,
-"version":"1.36.0"
+"sha256":"d79f302444c86f930b66b1c711c64a032381c8353b96fdba2f46ff402cdb7ea3",
+"size":1845482,
+"timestamp":1614884722247,
+"version":"1.36.1"
 },
-"grpcio-1.36.0-py39h97de6d8_1.tar.bz2":{
+"grpcio-1.36.1-py39h97de6d8_1.tar.bz2":{
 "build":"py39h97de6d8_1",
 "build_number":1,
 "depends":[
@@ -27396,10 +27396,10 @@
 ],
 "license":"Apache-2.0",
 "name":"grpcio",
-"sha256":"444b2f6013df9e9740231f90faa6858e26afa89df6285f77e4cdcad2980b7bd2",
-"size":2116714,
-"timestamp":1614616305620,
-"version":"1.36.0"
+"sha256":"ee150f183823ec21a35c1b2197b25447d052b544a928cb85aa992bd03043f080",
+"size":2107382,
+"timestamp":1614884498342,
+"version":"1.36.1"
 },
 "grpcio-gcp-0.2.2-py36_2.tar.bz2":{
 "build":"py36_2",
@@ -44674,6 +44674,75 @@
 "size":3641339,
 "timestamp":1600082318129,
 "version":"0.51.2"
+},
+"numba-0.52.0-py36hb2f4e1b_0.tar.bz2":{
+"build":"py36hb2f4e1b_0",
+"build_number":0,
+"constrains":[
+"cudatoolkit >=9.0",
+"scipy >=1.0",
+"libopenblas !=0.3.6"
+],
+"depends":[
+"libcxx >=10.0.0",
+"llvm-openmp >=10.0.0",
+"llvmlite >=0.35.0,<0.36.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"871e9e1cbbbbea6a552ccaa070063171c847b537669c965303c62ebe2b730684",
+"size":3711342,
+"timestamp":1614888240172,
+"version":"0.52.0"
+},
+"numba-0.52.0-py37hb2f4e1b_0.tar.bz2":{
+"build":"py37hb2f4e1b_0",
+"build_number":0,
+"constrains":[
+"cudatoolkit >=9.0",
+"scipy >=1.0",
+"libopenblas !=0.3.6"
+],
+"depends":[
+"libcxx >=10.0.0",
+"llvm-openmp >=10.0.0",
+"llvmlite >=0.35.0,<0.36.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"1f4b7ca634dda49297dc0e34fddbe0aa1b9efd297ce56f1b371b73592ee815f3",
+"size":3697551,
+"timestamp":1614888213138,
+"version":"0.52.0"
+},
+"numba-0.52.0-py38hb2f4e1b_0.tar.bz2":{
+"build":"py38hb2f4e1b_0",
+"build_number":0,
+"constrains":[
+"scipy >=1.0",
+"cudatoolkit >=9.0",
+"libopenblas !=0.3.6"
+],
+"depends":[
+"libcxx >=10.0.0",
+"llvm-openmp >=10.0.0",
+"llvmlite >=0.35.0,<0.36.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"3bdb673010edd0a83aee4b64990174904b47e684d955b4785e5804381f251136",
+"size":3709806,
+"timestamp":1614888195721,
+"version":"0.52.0"
 },
 "numcodecs-0.7.3-py36h23ab428_0.tar.bz2":{
 "build":"py36h23ab428_0",
