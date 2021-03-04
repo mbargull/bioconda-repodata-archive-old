@@ -8804,6 +8804,67 @@
 "timestamp":1613118646606,
 "version":"1.8.138"
 },
+"awscli-1.19.20-py36h270354c_0.tar.bz2":{
+"build":"py36h270354c_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.20",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"b72a38ab1463743f2fae9b8c27da2d6a496b38b967781f1f7a467c428a478384",
+"size":1931942,
+"timestamp":1614825904028,
+"version":"1.19.20"
+},
+"awscli-1.19.20-py36he7cccf2_0.tar.bz2":{
+"build":"py36he7cccf2_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.20",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"9e17b534a701781df40693b8d2f5e4813d5a95bbfd3c01bf5c1f3f7880e15cff",
+"size":1926428,
+"timestamp":1614825936772,
+"version":"1.19.20"
+},
+"awscli-1.19.20-py37h35e4cab_0.tar.bz2":{
+"build":"py37h35e4cab_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.20",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"cbe3fdff87f7d0755b273d9a9155882b4e13c535d6024d012550581255029a54",
+"size":1917296,
+"timestamp":1614825816749,
+"version":"1.19.20"
+},
 "awscli-1.19.20-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
@@ -48948,16 +49009,31 @@
 "timestamp":1614360446460,
 "version":"3.15.3"
 },
-"libprotobuf-static-3.15.3-ha3edaa6_0.tar.bz2":{
+"libprotobuf-3.15.4-h690f14c_0.tar.bz2":{
+"build":"h690f14c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libprotobuf",
+"sha256":"135109c348ddf753928813df96d27afc49dd287167975bd642b63c83bf84ae97",
+"size":2521317,
+"timestamp":1614825911557,
+"version":"3.15.4"
+},
+"libprotobuf-static-3.15.4-ha3edaa6_0.tar.bz2":{
 "build":"ha3edaa6_0",
 "build_number":0,
 "depends":[],
 "license":"BSD-3-Clause",
 "name":"libprotobuf-static",
-"sha256":"0fca77e3564bb726e31b4eb37799c26851507239aad5db80e4f63c1e17d68c5d",
-"size":3793154,
-"timestamp":1614360454817,
-"version":"3.15.3"
+"sha256":"b2cb2f55a894ffe70404b6afd365dc48db3a9c8d9a253db594de49a0164431a8",
+"size":3791395,
+"timestamp":1614825920691,
+"version":"3.15.4"
 },
 "libpython-static-3.9.2-h3b9df90_0_cpython.tar.bz2":{
 "build":"h3b9df90_0_cpython",
