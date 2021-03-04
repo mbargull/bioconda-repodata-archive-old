@@ -1436,6 +1436,23 @@
 "timestamp":1605217390663,
 "version":"20.1.0"
 },
+"arpack-3.7.0-h58ebc17_2.tar.bz2":{
+"build":"h58ebc17_2",
+"build_number":2,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.0.1",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.0.dev0",
+"liblapack >=3.9.0,<4.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"arpack",
+"requires":[],
+"size":200200,
+"timestamp":1614888053198,
+"version":"3.7.0"
+},
 "arrow-cpp-0.17.1-py38h1234567_15_cpu.tar.bz2":{
 "build":"py38h1234567_15_cpu",
 "build_number":15,
@@ -9236,6 +9253,24 @@
 "timestamp":1612397061717,
 "version":"2021.1"
 },
+"cctbx-2021.2-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"cctbx-base >=2021.2,<2021.3.0a0",
+"ipython",
+"pyside2",
+"pyzmq",
+"websockets",
+"wxpython"
+],
+"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"cctbx",
+"requires":[],
+"size":55397,
+"timestamp":1614886719068,
+"version":"2021.2"
+},
 "cctbx-base-2020.12-py38h40068c3_0.tar.bz2":{
 "build":"py38h40068c3_0",
 "build_number":0,
@@ -9351,6 +9386,64 @@
 "size":61465171,
 "timestamp":1612397425227,
 "version":"2021.1"
+},
+"cctbx-base-2021.2-py38h40068c3_0.tar.bz2":{
+"build":"py38h40068c3_0",
+"build_number":0,
+"depends":[
+"biopython",
+"boost >=1.74.0,<1.74.1.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"future",
+"libcxx >=11.0.1",
+"libsvm",
+"matplotlib-base",
+"mrcfile",
+"numpy >=1.19.5,<2.0a0",
+"pillow",
+"psutil",
+"python >=3.8,<3.9.0a0",
+"python.app",
+"python_abi 3.8.* *_cp38",
+"reportlab",
+"requests",
+"six"
+],
+"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"cctbx-base",
+"requires":[],
+"size":62247223,
+"timestamp":1614886656655,
+"version":"2021.2"
+},
+"cctbx-base-2021.2-py39h7a48225_0.tar.bz2":{
+"build":"py39h7a48225_0",
+"build_number":0,
+"depends":[
+"biopython",
+"boost >=1.74.0,<1.74.1.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"future",
+"libcxx >=11.0.1",
+"libsvm",
+"matplotlib-base",
+"mrcfile",
+"numpy >=1.19.5,<2.0a0",
+"pillow",
+"psutil",
+"python >=3.9,<3.10.0a0",
+"python.app",
+"python_abi 3.9.* *_cp39",
+"reportlab",
+"requests",
+"six"
+],
+"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"cctbx-base",
+"requires":[],
+"size":61596293,
+"timestamp":1614886943101,
+"version":"2021.2"
 },
 "cctools-949.0.1-ha9384d2_18.tar.bz2":{
 "build":"ha9384d2_18",
