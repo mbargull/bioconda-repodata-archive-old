@@ -25673,65 +25673,35 @@
 "timestamp":1611352167530,
 "version":"0.15.1"
 },
-"zstd-1.4.8-h5b28eab_1.tar.bz2":{
-"build":"h5b28eab_1",
-"build_number":1,
+"zstd-1.4.9-h5b28eab_0.tar.bz2":{
+"build":"h5b28eab_0",
+"build_number":0,
 "depends":[
-"libcxx >=11.0.0",
+"libcxx >=11.0.1",
 "lz4-c >=1.9.3,<1.9.4.0a0",
 "xz >=5.2.5,<5.3.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"zstd",
-"sha256":"d1f66f71a23f6f1e275e019cc76539cb470f09488f2128824ae1dacc96f6e147",
-"size":785264,
-"timestamp":1609442067938,
-"version":"1.4.8"
+"sha256":"6368720c03c85152629267b3520016d2849165528a358645892353876ba3929c",
+"size":426283,
+"timestamp":1614857039987,
+"version":"1.4.9"
 },
-"zstd-1.4.8-habb7944_0.tar.bz2":{
-"build":"habb7944_0",
-"build_number":0,
-"depends":[
-"libcxx >=11.0.0",
-"lz4-c >=1.9.2,<1.9.3.0a0",
-"xz >=5.2.5,<5.3.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"zstd",
-"sha256":"66bf9200de49fbd1825231a78f7986959256ad0822aa7bd453d07ac0a1f7eb30",
-"size":770635,
-"timestamp":1609422467386,
-"version":"1.4.8"
-},
-"zstd-static-1.4.8-h9f76cd9_0.tar.bz2":{
+"zstd-static-1.4.9-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.0",
-"zstd 1.4.8 habb7944_0"
+"libcxx >=11.0.1",
+"zstd 1.4.9 h5b28eab_0"
 ],
 "license":"BSD-3-Clause",
 "name":"zstd-static",
-"sha256":"f563ecabd9b1b3fa85ba1b60600ccc06a6635e34c98ffb40bea704126e850140",
-"size":361123,
-"timestamp":1609422485822,
-"version":"1.4.8"
-},
-"zstd-static-1.4.8-h9f76cd9_1.tar.bz2":{
-"build":"h9f76cd9_1",
-"build_number":1,
-"depends":[
-"libcxx >=11.0.0",
-"zstd 1.4.8 h5b28eab_1"
-],
-"license":"BSD-3-Clause",
-"name":"zstd-static",
-"sha256":"a7bf2e2c13b540b5d0ec400a04a5fff0fe124747db46d59bc1b20c29b98c1b9a",
-"size":360644,
-"timestamp":1609442091289,
-"version":"1.4.8"
+"sha256":"dd5d735f89c282cee89c64f3f9ea1eacd017dc58c0e1c0c9f41d61af54e00714",
+"size":325442,
+"timestamp":1614857055957,
+"version":"1.4.9"
 }
 },
 "packages.conda":{},
