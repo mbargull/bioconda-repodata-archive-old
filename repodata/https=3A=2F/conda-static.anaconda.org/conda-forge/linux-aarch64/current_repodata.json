@@ -42688,6 +42688,27 @@
 "timestamp":1606754845902,
 "version":"1.5.10"
 },
+"kaleido-core-0.2.0-he5a581e_0.tar.bz2":{
+"build":"he5a581e_0",
+"build_number":0,
+"depends":[
+"__glibc >=2.17,<3.0.a0",
+"expat >=2.2.10,<2.3.0a0",
+"fontconfig",
+"fonts-conda-forge",
+"libgcc-ng >=9.3.0",
+"mathjax 2.7.*",
+"nspr >=4.29,<5.0a0",
+"nss >=3.62,<4.0a0",
+"sqlite >=3.34.0,<4.0a0"
+],
+"license":"MIT",
+"name":"kaleido-core",
+"sha256":"8f08f54a9fc3f5620c556e8cf592105f541967275dcb178493a35c2e289e1f03",
+"size":65782503,
+"timestamp":1614867080336,
+"version":"0.2.0"
+},
 "keyring-21.2.1-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
@@ -112373,6 +112394,19 @@
 "timestamp":1551801550732,
 "version":"1.0.7"
 },
+"xorg-libice-1.0.10-h3557bc0_0.tar.bz2":{
+"build":"h3557bc0_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"xorg-libice",
+"sha256":"cb9bd494c7e510e71a1c72d415bea8858ab30ee77b79d486d52d2bb365cc8d6e",
+"size":61496,
+"timestamp":1614866980154,
+"version":"1.0.10"
+},
 "xorg-libice-1.0.10-h6dd45c4_0.tar.bz2":{
 "build":"h6dd45c4_0",
 "build_number":0,
@@ -112717,6 +112751,21 @@
 "timestamp":1572469507753,
 "version":"1.5.2"
 },
+"xorg-libxrender-0.9.10-h3557bc0_1003.tar.bz2":{
+"build":"h3557bc0_1003",
+"build_number":1003,
+"depends":[
+"libgcc-ng >=9.3.0",
+"xorg-libx11 >=1.7.0,<2.0a0",
+"xorg-renderproto"
+],
+"license":"MIT",
+"name":"xorg-libxrender",
+"sha256":"eb24f7bb38f6ce752c807e17fabf0a0845e43ecbd2c1eaaa52f081b39856e742",
+"size":33995,
+"timestamp":1614867401242,
+"version":"0.9.10"
+},
 "xorg-libxrender-0.9.10-h6dd45c4_1002.tar.bz2":{
 "build":"h6dd45c4_1002",
 "build_number":1002,
@@ -112811,6 +112860,19 @@
 "size":7673,
 "timestamp":1572462734024,
 "version":"1.14.2"
+},
+"xorg-renderproto-0.11.1-h3557bc0_1002.tar.bz2":{
+"build":"h3557bc0_1002",
+"build_number":1002,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"xorg-renderproto",
+"sha256":"e57e8b4a58f8c3b5011bf6cd66f499fca9fc5067981bb33f828750b168c3698d",
+"size":9612,
+"timestamp":1614866892676,
+"version":"0.11.1"
 },
 "xorg-renderproto-0.11.1-hda93590_1002.tar.bz2":{
 "build":"hda93590_1002",

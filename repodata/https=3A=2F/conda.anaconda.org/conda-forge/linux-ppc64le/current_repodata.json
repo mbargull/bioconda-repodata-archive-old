@@ -20003,6 +20003,25 @@
 "timestamp":1607599662952,
 "version":"20.2.1"
 },
+"dftbplus-20.2.1-nompi_hd6921e4_102.tar.bz2":{
+"build":"nompi_hd6921e4_102",
+"build_number":102,
+"depends":[
+"_openmp_mutex >=4.5",
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libnegf >=1.0.1,<1.1.0a0 nompi_*"
+],
+"license":"LGPL-3.0-or-later",
+"name":"dftbplus",
+"sha256":"1cd8003d8bf17f247939e3d5431070e484fc7b5a0850d8771e1430fdcfe11c8e",
+"size":10841419,
+"timestamp":1614865101251,
+"version":"20.2.1"
+},
 "dftd4-3.1.0-ha57107e_0.tar.bz2":{
 "build":"ha57107e_0",
 "build_number":0,
@@ -109005,6 +109024,19 @@
 "timestamp":1610028173532,
 "version":"1.0.7"
 },
+"xorg-libice-1.0.10-h4e0d66e_0.tar.bz2":{
+"build":"h4e0d66e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"xorg-libice",
+"sha256":"aaa80b6a8e920c2dd43b934592679642bf9341b66f8ff18531cf8467c6dc507c",
+"size":66494,
+"timestamp":1614866998317,
+"version":"1.0.10"
+},
 "xorg-libice-1.0.10-h6eb9509_0.tar.bz2":{
 "build":"h6eb9509_0",
 "build_number":0,
@@ -109351,6 +109383,21 @@
 "timestamp":1572469918481,
 "version":"1.5.2"
 },
+"xorg-libxrender-0.9.10-h4e0d66e_1003.tar.bz2":{
+"build":"h4e0d66e_1003",
+"build_number":1003,
+"depends":[
+"libgcc-ng >=9.3.0",
+"xorg-libx11 >=1.7.0,<2.0a0",
+"xorg-renderproto"
+],
+"license":"MIT",
+"name":"xorg-libxrender",
+"sha256":"e5d7fa44727a6093c3a89d53ca18a63810698ca7e923e3bcdc5c6a0d64c84d1d",
+"size":36321,
+"timestamp":1614867411018,
+"version":"0.9.10"
+},
 "xorg-libxrender-0.9.10-h6eb9509_1002.tar.bz2":{
 "build":"h6eb9509_1002",
 "build_number":1002,
@@ -109457,6 +109504,19 @@
 "sha256":"1ec212aaf6c819fa05837ca6497fc59e647b918e09208f49eb8d7ce2b88d3cc9",
 "size":9008,
 "timestamp":1551801666147,
+"version":"0.11.1"
+},
+"xorg-renderproto-0.11.1-h4e0d66e_1002.tar.bz2":{
+"build":"h4e0d66e_1002",
+"build_number":1002,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"xorg-renderproto",
+"sha256":"e458f82a33c9b55f3a439fed9bf86033e553a7ce95ecef13c902338828b6a86a",
+"size":9619,
+"timestamp":1614866828844,
 "version":"0.11.1"
 },
 "xorg-util-macros-1.19.3-h4e0d66e_0.tar.bz2":{
