@@ -48994,21 +48994,6 @@
 "timestamp":1607031919738,
 "version":"3.14.0"
 },
-"libprotobuf-3.15.3-h690f14c_0.tar.bz2":{
-"build":"h690f14c_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"libprotobuf",
-"sha256":"51b06c3422f6efc3fdcb14d31270bf62e55a32ab986960f603158dc7d32ef8ca",
-"size":2523642,
-"timestamp":1614360446460,
-"version":"3.15.3"
-},
 "libprotobuf-3.15.4-h690f14c_0.tar.bz2":{
 "build":"h690f14c_0",
 "build_number":0,
@@ -68476,13 +68461,13 @@
 "timestamp":1614612916253,
 "version":"8.0.0"
 },
-"protobuf-3.15.3-py36h08d3667_0.tar.bz2":{
+"protobuf-3.15.4-py36h08d3667_0.tar.bz2":{
 "build":"py36h08d3667_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libprotobuf 3.15.3.*",
-"libprotobuf >=3.15.3,<3.16.0a0",
+"libprotobuf 3.15.4.*",
+"libprotobuf >=3.15.4,<3.16.0a0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
@@ -68491,18 +68476,18 @@
 ],
 "license":"BSD-3-Clause",
 "name":"protobuf",
-"sha256":"c1bb47996c799802061df911e286e158a43fe4f095e91f19ed80bf0a9da69845",
-"size":346859,
-"timestamp":1614605726361,
-"version":"3.15.3"
+"sha256":"22144e964b79495c5bb92d2fa05db92260247918ff34d96dacb1632835d6599f",
+"size":347902,
+"timestamp":1614833603450,
+"version":"3.15.4"
 },
-"protobuf-3.15.3-py36hdee431b_0.tar.bz2":{
+"protobuf-3.15.4-py36hdee431b_0.tar.bz2":{
 "build":"py36hdee431b_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libprotobuf 3.15.3.*",
-"libprotobuf >=3.15.3,<3.16.0a0",
+"libprotobuf 3.15.4.*",
+"libprotobuf >=3.15.4,<3.16.0a0",
 "libstdcxx-ng >=9.3.0",
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
@@ -68512,18 +68497,18 @@
 ],
 "license":"BSD-3-Clause",
 "name":"protobuf",
-"sha256":"9dd33acdfd556e2b5358db69045390b61f2af1dd413014470b91bf45711c1579",
-"size":360723,
-"timestamp":1614609914972,
-"version":"3.15.3"
+"sha256":"1ce17675918adbf02c2c26a595f385f2dd6da108b03c816d7126a22ae4deb329",
+"size":349461,
+"timestamp":1614833500562,
+"version":"3.15.4"
 },
-"protobuf-3.15.3-py37hc9b93fd_0.tar.bz2":{
+"protobuf-3.15.4-py37hc9b93fd_0.tar.bz2":{
 "build":"py37hc9b93fd_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libprotobuf 3.15.3.*",
-"libprotobuf >=3.15.3,<3.16.0a0",
+"libprotobuf 3.15.4.*",
+"libprotobuf >=3.15.4,<3.16.0a0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
@@ -68532,39 +68517,18 @@
 ],
 "license":"BSD-3-Clause",
 "name":"protobuf",
-"sha256":"ea87f1590578e6d7caaf6facdf774f6202cef6c6cb6518dd60df248412e25e57",
-"size":347350,
-"timestamp":1614605713754,
-"version":"3.15.3"
+"sha256":"1696d8b8abfa727254025afc0e6225e8c39535074f9d96901f9a608dd47096d8",
+"size":347658,
+"timestamp":1614833612196,
+"version":"3.15.4"
 },
-"protobuf-3.15.3-py37hfc837b7_0.tar.bz2":{
-"build":"py37hfc837b7_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libprotobuf 3.15.3.*",
-"libprotobuf >=3.15.3,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"pypy3.7 >=7.3.3",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"setuptools",
-"six"
-],
-"license":"BSD-3-Clause",
-"name":"protobuf",
-"sha256":"affee1fd9045287d0c31cfe32a2e305ec450b73bc410eef36839d0a493de1811",
-"size":347192,
-"timestamp":1614605733026,
-"version":"3.15.3"
-},
-"protobuf-3.15.3-py38ha35a538_0.tar.bz2":{
+"protobuf-3.15.4-py38ha35a538_0.tar.bz2":{
 "build":"py38ha35a538_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libprotobuf 3.15.3.*",
-"libprotobuf >=3.15.3,<3.16.0a0",
+"libprotobuf 3.15.4.*",
+"libprotobuf >=3.15.4,<3.16.0a0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -68573,18 +68537,18 @@
 ],
 "license":"BSD-3-Clause",
 "name":"protobuf",
-"sha256":"ed3f6ab9feb0ca74fc60b6aab7598f5862cd9b0b46ec9501c70f63b8a3d85734",
-"size":349276,
-"timestamp":1614605753695,
-"version":"3.15.3"
+"sha256":"45c3570e53f6d5f3d615b4ef4a3e60bae1e2f022a38318a8e6b12e842957790d",
+"size":356729,
+"timestamp":1614833521985,
+"version":"3.15.4"
 },
-"protobuf-3.15.3-py39had50986_0.tar.bz2":{
+"protobuf-3.15.4-py39had50986_0.tar.bz2":{
 "build":"py39had50986_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libprotobuf 3.15.3.*",
-"libprotobuf >=3.15.3,<3.16.0a0",
+"libprotobuf 3.15.4.*",
+"libprotobuf >=3.15.4,<3.16.0a0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -68593,10 +68557,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"protobuf",
-"sha256":"d053a120d3d710f306a105fa295091c8e2697d07f0fbaa003e11507fba248006",
-"size":354340,
-"timestamp":1614605727010,
-"version":"3.15.3"
+"sha256":"7c02d092d008ab2c57d2321166355ceac4d399c8334e88282f31a2ae7258faa0",
+"size":355366,
+"timestamp":1614833595113,
+"version":"3.15.4"
 },
 "protoc-gen-go-1.4.3-h375a9b1_0.tar.bz2":{
 "build":"h375a9b1_0",
