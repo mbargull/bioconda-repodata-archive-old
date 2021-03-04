@@ -16109,48 +16109,6 @@
 "timestamp":1614815346771,
 "version":"11.1.0"
 },
-"clang-11.0.1-h8af1aa0_0.tar.bz2":{
-"build":"h8af1aa0_0",
-"build_number":0,
-"constrains":[
-"libclang 11.0.1.*",
-"clang-tools 11.0.1.*",
-"llvm 11.0.1.*",
-"llvm-tools 11.0.1.*",
-"llvmdev 11.0.1.*"
-],
-"depends":[
-"clang-11 11.0.1 default_h4839fef_0",
-"gcc_impl_linux-aarch64"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clang",
-"sha256":"ef4c8988f6422d6444ef151a1c7909339e460535ad44620c5f23106e8f6c3819",
-"size":126950,
-"timestamp":1610535132125,
-"version":"11.0.1"
-},
-"clang-11.0.1-h8af1aa0_1.tar.bz2":{
-"build":"h8af1aa0_1",
-"build_number":1,
-"constrains":[
-"libclang 11.0.1.*",
-"clang-tools 11.0.1.*",
-"llvm 11.0.1.*",
-"llvm-tools 11.0.1.*",
-"llvmdev 11.0.1.*"
-],
-"depends":[
-"clang-11 11.0.1 default_h4839fef_1",
-"gcc_impl_linux-aarch64"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clang",
-"sha256":"43c8eecd10139d1a786bc81aca6f43011d325ff89ed5ff88cd065da39c565026",
-"size":126907,
-"timestamp":1610742941571,
-"version":"11.0.1"
-},
 "clang-11.1.0-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
 "build_number":0,
@@ -16588,19 +16546,6 @@
 "timestamp":1602690519546,
 "version":"5.0.0"
 },
-"clangxx-11.0.1-default_h6215f28_1.tar.bz2":{
-"build":"default_h6215f28_1",
-"build_number":1,
-"depends":[
-"clang 11.0.1 h8af1aa0_1"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clangxx",
-"sha256":"814e6370e0d931278929d056e56c07481ad8dd2abaaa72a9ab8c88c9010c32b7",
-"size":126817,
-"timestamp":1610742952868,
-"version":"11.0.1"
-},
 "clangxx-11.1.0-default_h6215f28_0.tar.bz2":{
 "build":"default_h6215f28_0",
 "build_number":0,
@@ -17022,22 +16967,22 @@
 "timestamp":1597124508498,
 "version":"4.0.0"
 },
-"compiler-rt-11.0.1-hd62202e_0.tar.bz2":{
+"compiler-rt-11.1.0-hd62202e_0.tar.bz2":{
 "build":"hd62202e_0",
 "build_number":0,
 "depends":[
-"clang 11.0.1.*",
-"clangxx 11.0.1.*",
-"compiler-rt_linux-aarch64 11.0.1.*",
+"clang 11.1.0.*",
+"clangxx 11.1.0.*",
+"compiler-rt_linux-aarch64 11.1.0.*",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0"
 ],
 "license":"NCSA",
 "name":"compiler-rt",
-"sha256":"be3d72f43f1fa85f5086bd6d9ab10d84338beb601ed817f38c50b5efe35aebc1",
-"size":96161,
-"timestamp":1610784375931,
-"version":"11.0.1"
+"sha256":"8ea5ab3f3cf00e8156716b6357c8a92ecce62b35f39dc41b9585c1f2fbf12e41",
+"size":96166,
+"timestamp":1614880848668,
+"version":"11.1.0"
 },
 "compilers-1.1.3-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
