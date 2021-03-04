@@ -115660,9 +115660,9 @@
 "timestamp":1611352315083,
 "version":"0.15.1"
 },
-"zstd-1.4.8-h41fb7a4_1.tar.bz2":{
-"build":"h41fb7a4_1",
-"build_number":1,
+"zstd-1.4.9-h41fb7a4_0.tar.bz2":{
+"build":"h41fb7a4_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -115672,57 +115672,25 @@
 ],
 "license":"BSD-3-Clause",
 "name":"zstd",
-"sha256":"dc1bab23f5efb41890f44f9d625814cae8bd2e768b242fa657ccfa74d9bc47c6",
-"size":764738,
-"timestamp":1609443835766,
-"version":"1.4.8"
+"sha256":"f9c31d5ebec86179238ff09843e47725544b72ce21b58573e8ca0c167764c661",
+"size":442818,
+"timestamp":1614856684774,
+"version":"1.4.9"
 },
-"zstd-1.4.8-hbbd22bb_0.tar.bz2":{
-"build":"hbbd22bb_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"lz4-c >=1.9.2,<1.9.3.0a0",
-"xz >=5.2.5,<5.3.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"zstd",
-"sha256":"6c9cffaa0c88bb2d1dd7a32aff41719eaff6d1a4561502c856e35ba6bfeb85b3",
-"size":765554,
-"timestamp":1609422384492,
-"version":"1.4.8"
-},
-"zstd-static-1.4.8-h01db608_0.tar.bz2":{
+"zstd-static-1.4.9-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"zstd 1.4.8 hbbd22bb_0"
+"zstd 1.4.9 h41fb7a4_0"
 ],
 "license":"BSD-3-Clause",
 "name":"zstd-static",
-"sha256":"40998a3e9219dbc75087dd9caaf384d14ce2e5571c26b794f39bf126465d0e91",
-"size":333827,
-"timestamp":1609422414809,
-"version":"1.4.8"
-},
-"zstd-static-1.4.8-h01db608_1.tar.bz2":{
-"build":"h01db608_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"zstd 1.4.8 h41fb7a4_1"
-],
-"license":"BSD-3-Clause",
-"name":"zstd-static",
-"sha256":"c03f408599945094575f51260f093655171acd832a330e49f95359b3041865da",
-"size":333720,
-"timestamp":1609443863077,
-"version":"1.4.8"
+"sha256":"c5cf81a2a2c3766943b6446ec3dc4a16866d1a0d341a0d618c393d63bf773457",
+"size":332921,
+"timestamp":1614856709092,
+"version":"1.4.9"
 },
 "zziplib-0.13.69-he2b207e_1.tar.bz2":{
 "build":"he2b207e_1",
