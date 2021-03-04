@@ -73417,13 +73417,13 @@
 "timestamp":1610484004041,
 "version":"3.3.0"
 },
-"twisted-20.3.0-py36h140841e_0.conda":{
+"twisted-21.2.0-py36h140841e_0.conda":{
 "build":"py36h140841e_0",
 "build_number":0,
 "constrains":[
-"pyserial >=3.0",
 "h2 >=3.0,<4.0",
-"priority >=1.1.0,<2.0"
+"priority >=1.1.0,<2.0",
+"pyserial >=3.0"
 ],
 "depends":[
 "attrs >=17.4.0",
@@ -73443,55 +73443,21 @@
 "service_identity >=18.1.0",
 "zope.interface >=4.4.2"
 ],
-"legacy_bz2_md5":"ead59495f4b2837fb4da14b8505a7ae6",
+"legacy_bz2_md5":"0803d676e2cbd3d12c6480a0cc03904e",
 "license":"MIT",
 "name":"twisted",
-"sha256":"0800b63de3b54ea124b45f96bdf0f5190ff3e3bb8c4e2be29ca28134455163aa",
-"size":4275971,
-"timestamp":1614066311470,
-"version":"20.3.0"
+"sha256":"40f0f69c34d8338107bc3fe398dd9ac8c4aabd88650200a007d7f78cf6c571a7",
+"size":4343244,
+"timestamp":1614874499847,
+"version":"21.2.0"
 },
-"twisted-20.3.0-py36h7b6447c_0.conda":{
-"build":"py36h7b6447c_0",
-"build_number":0,
-"constrains":[
-"pyserial >=3.0",
-"h2 >=3.0,<4.0",
-"priority >=1.1.0,<2.0"
-],
-"depends":[
-"attrs >=17.4.0",
-"automat >=0.3.0",
-"bcrypt",
-"constantly >=15.1",
-"cryptography >=1.5",
-"hyperlink >=17.1.1",
-"idna >=0.6,!=2.3",
-"incremental >=16.10.1",
-"libgcc-ng >=7.3.0",
-"pip",
-"pyasn1",
-"pyhamcrest >=1.9.0",
-"pyopenssl >=16.0.0",
-"python >=3.6,<3.7.0a0",
-"service_identity >=18.1.0",
-"zope.interface >=4.4.2"
-],
-"legacy_bz2_md5":"48cd8b17e87e8829bd2da8bf917cff21",
-"license":"MIT",
-"name":"twisted",
-"sha256":"ae863879e14fb0023667157fc9457643c9965ac05b2859a227d0db966edadb58",
-"size":4223305,
-"timestamp":1586466509249,
-"version":"20.3.0"
-},
-"twisted-20.3.0-py37h140841e_0.conda":{
+"twisted-21.2.0-py37h140841e_0.conda":{
 "build":"py37h140841e_0",
 "build_number":0,
 "constrains":[
-"h2 >=3.0,<4.0",
 "pyserial >=3.0",
-"priority >=1.1.0,<2.0"
+"priority >=1.1.0,<2.0",
+"h2 >=3.0,<4.0"
 ],
 "depends":[
 "attrs >=17.4.0",
@@ -73511,49 +73477,15 @@
 "service_identity >=18.1.0",
 "zope.interface >=4.4.2"
 ],
-"legacy_bz2_md5":"6cb03f5601d10d4241e33c93b8521e59",
+"legacy_bz2_md5":"31f53c3e6c48ca6583fdbdad8eae6f35",
 "license":"MIT",
 "name":"twisted",
-"sha256":"ef2588b09089f3139ef63bfbf53b4aee526724b673b0a51729f2ef8cab21722c",
-"size":4274209,
-"timestamp":1614066292319,
-"version":"20.3.0"
+"sha256":"d6f902c96c3c17865e6875f71fdf9ee0e008962652682a71643cd28b8438094b",
+"size":4288510,
+"timestamp":1614874496240,
+"version":"21.2.0"
 },
-"twisted-20.3.0-py37h7b6447c_0.conda":{
-"build":"py37h7b6447c_0",
-"build_number":0,
-"constrains":[
-"pyserial >=3.0",
-"h2 >=3.0,<4.0",
-"priority >=1.1.0,<2.0"
-],
-"depends":[
-"attrs >=17.4.0",
-"automat >=0.3.0",
-"bcrypt",
-"constantly >=15.1",
-"cryptography >=1.5",
-"hyperlink >=17.1.1",
-"idna >=0.6,!=2.3",
-"incremental >=16.10.1",
-"libgcc-ng >=7.3.0",
-"pip",
-"pyasn1",
-"pyhamcrest >=1.9.0",
-"pyopenssl >=16.0.0",
-"python >=3.7,<3.8.0a0",
-"service_identity >=18.1.0",
-"zope.interface >=4.4.2"
-],
-"legacy_bz2_md5":"b20ad3c8abea4c84526e039b7d59e406",
-"license":"MIT",
-"name":"twisted",
-"sha256":"1865f5d34781693cf3f67747214ab0c44d2053a69b8052d94e253112dc0bfcc8",
-"size":4272846,
-"timestamp":1586466507689,
-"version":"20.3.0"
-},
-"twisted-20.3.0-py38h140841e_0.conda":{
+"twisted-21.2.0-py38h140841e_0.conda":{
 "build":"py38h140841e_0",
 "build_number":0,
 "constrains":[
@@ -73579,16 +73511,16 @@
 "service_identity >=18.1.0",
 "zope.interface >=4.4.2"
 ],
-"legacy_bz2_md5":"52000f5a69b12b40bf3ccfcef636f307",
+"legacy_bz2_md5":"4767ca4c3242a8db46074a1771d32e17",
 "license":"MIT",
 "name":"twisted",
-"sha256":"ba6ea24610f19004caa2d943a10fec966d6c8c35ad9315ec493f1d6135b0710d",
-"size":4313028,
-"timestamp":1614066311799,
-"version":"20.3.0"
+"sha256":"52d7b95e9c1488ada0c3bd6404524ba27929109dab544feebedaaad066b80a6f",
+"size":4377343,
+"timestamp":1614874502814,
+"version":"21.2.0"
 },
-"twisted-20.3.0-py38h7b6447c_0.conda":{
-"build":"py38h7b6447c_0",
+"twisted-21.2.0-py39h140841e_0.conda":{
+"build":"py39h140841e_0",
 "build_number":0,
 "constrains":[
 "pyserial >=3.0",
@@ -73609,51 +73541,17 @@
 "pyasn1",
 "pyhamcrest >=1.9.0",
 "pyopenssl >=16.0.0",
-"python >=3.8,<3.9.0a0",
-"service_identity >=18.1.0",
-"zope.interface >=4.4.2"
-],
-"legacy_bz2_md5":"a262c5e326ed1ea5fd65b72ebfd06f2f",
-"license":"MIT",
-"name":"twisted",
-"sha256":"4867b67c3c3cb70946be06644ee3e9dbf93c76cd3ef3d140d78572c50dd23f8a",
-"size":4313423,
-"timestamp":1586466509609,
-"version":"20.3.0"
-},
-"twisted-20.3.0-py39h140841e_0.conda":{
-"build":"py39h140841e_0",
-"build_number":0,
-"constrains":[
-"priority >=1.1.0,<2.0",
-"pyserial >=3.0",
-"h2 >=3.0,<4.0"
-],
-"depends":[
-"attrs >=17.4.0",
-"automat >=0.3.0",
-"bcrypt",
-"constantly >=15.1",
-"cryptography >=1.5",
-"hyperlink >=17.1.1",
-"idna >=0.6,!=2.3",
-"incremental >=16.10.1",
-"libgcc-ng >=7.3.0",
-"pip",
-"pyasn1",
-"pyhamcrest >=1.9.0",
-"pyopenssl >=16.0.0",
 "python >=3.9,<3.10.0a0",
 "service_identity >=18.1.0",
 "zope.interface >=4.4.2"
 ],
-"legacy_bz2_md5":"5908a896b7d7e4f47a9089c63813178b",
+"legacy_bz2_md5":"6ab804c488e29c28cb78b70f3c32036a",
 "license":"MIT",
 "name":"twisted",
-"sha256":"fc162aeda60770985adc13d19b8a4463a55399a5b81407191cdb356555b483ab",
-"size":4306142,
-"timestamp":1614068941477,
-"version":"20.3.0"
+"sha256":"751b69c2ec547ed2ac220409451c88f4def6fc401a6d70cc4c85a8715a1f7bb6",
+"size":4372611,
+"timestamp":1614874503001,
+"version":"21.2.0"
 },
 "twofish-0.3.0-py36h140841e_1000.conda":{
 "build":"py36h140841e_1000",
