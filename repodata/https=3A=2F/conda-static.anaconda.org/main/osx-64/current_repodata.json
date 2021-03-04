@@ -77827,49 +77827,15 @@
 "timestamp":1610483997537,
 "version":"3.3.0"
 },
-"twisted-20.3.0-py36h1de35cc_0.tar.bz2":{
-"build":"py36h1de35cc_0",
-"build_number":0,
-"constrains":[
-"pyserial >=3.0",
-"pyobjc-core",
-"pyobjc-framework-cocoa",
-"h2 >=3.0,<4.0",
-"priority >=1.1.0,<2.0"
-],
-"depends":[
-"attrs >=17.4.0",
-"automat >=0.3.0",
-"bcrypt",
-"constantly >=15.1",
-"cryptography >=1.5",
-"hyperlink >=17.1.1",
-"idna >=0.6,!=2.3",
-"incremental >=16.10.1",
-"pip",
-"pyasn1",
-"pyhamcrest >=1.9.0",
-"pyopenssl >=16.0.0",
-"python >=3.6,<3.7.0a0",
-"service_identity >=18.1.0",
-"zope.interface >=4.4.2"
-],
-"license":"MIT",
-"name":"twisted",
-"sha256":"7c6a6b04089da22ddd16ecdf9a8a1ef1b0621691f582309d79c395e851b64d28",
-"size":5242999,
-"timestamp":1586466679294,
-"version":"20.3.0"
-},
-"twisted-20.3.0-py36h9ed2024_0.tar.bz2":{
+"twisted-21.2.0-py36h9ed2024_0.tar.bz2":{
 "build":"py36h9ed2024_0",
 "build_number":0,
 "constrains":[
+"priority >=1.1.0,<2.0",
 "pyobjc-core",
-"h2 >=3.0,<4.0",
-"pyserial >=3.0",
 "pyobjc-framework-cocoa",
-"priority >=1.1.0,<2.0"
+"pyserial >=3.0",
+"h2 >=3.0,<4.0"
 ],
 "depends":[
 "attrs >=17.4.0",
@@ -77890,54 +77856,20 @@
 ],
 "license":"MIT",
 "name":"twisted",
-"sha256":"a024f2fbad18dd57c66d790d162f3e7da4d8e5bb218ec0ecfc40ca0c3cfeeb71",
-"size":5249118,
-"timestamp":1614066286872,
-"version":"20.3.0"
+"sha256":"7967cd2463bcfd669151f2160b97d7a5d62c6137ec0d86ceffd19fc780966df1",
+"size":5332519,
+"timestamp":1614874460349,
+"version":"21.2.0"
 },
-"twisted-20.3.0-py37h1de35cc_0.tar.bz2":{
-"build":"py37h1de35cc_0",
-"build_number":0,
-"constrains":[
-"pyserial >=3.0",
-"pyobjc-core",
-"pyobjc-framework-cocoa",
-"h2 >=3.0,<4.0",
-"priority >=1.1.0,<2.0"
-],
-"depends":[
-"attrs >=17.4.0",
-"automat >=0.3.0",
-"bcrypt",
-"constantly >=15.1",
-"cryptography >=1.5",
-"hyperlink >=17.1.1",
-"idna >=0.6,!=2.3",
-"incremental >=16.10.1",
-"pip",
-"pyasn1",
-"pyhamcrest >=1.9.0",
-"pyopenssl >=16.0.0",
-"python >=3.7,<3.8.0a0",
-"service_identity >=18.1.0",
-"zope.interface >=4.4.2"
-],
-"license":"MIT",
-"name":"twisted",
-"sha256":"37d30598946447bf9f962c9fa143da951cf33770b18b5cb394c28fe7d48c39b9",
-"size":5235699,
-"timestamp":1586466677944,
-"version":"20.3.0"
-},
-"twisted-20.3.0-py37h9ed2024_0.tar.bz2":{
+"twisted-21.2.0-py37h9ed2024_0.tar.bz2":{
 "build":"py37h9ed2024_0",
 "build_number":0,
 "constrains":[
-"priority >=1.1.0,<2.0",
-"pyobjc-core",
 "h2 >=3.0,<4.0",
+"pyobjc-core",
 "pyserial >=3.0",
-"pyobjc-framework-cocoa"
+"pyobjc-framework-cocoa",
+"priority >=1.1.0,<2.0"
 ],
 "depends":[
 "attrs >=17.4.0",
@@ -77958,54 +77890,20 @@
 ],
 "license":"MIT",
 "name":"twisted",
-"sha256":"5a748e5795cef3616dddfa8a4e99946b2995ba09e88e037ac4bb196b98457ac3",
-"size":5237853,
-"timestamp":1614066270269,
-"version":"20.3.0"
+"sha256":"39795cc1fdeffff278f0969ca1436c16da388f899734743b5fd93d91f71077e3",
+"size":5328933,
+"timestamp":1614874452442,
+"version":"21.2.0"
 },
-"twisted-20.3.0-py38h1de35cc_0.tar.bz2":{
-"build":"py38h1de35cc_0",
-"build_number":0,
-"constrains":[
-"pyserial >=3.0",
-"pyobjc-core",
-"pyobjc-framework-cocoa",
-"h2 >=3.0,<4.0",
-"priority >=1.1.0,<2.0"
-],
-"depends":[
-"attrs >=17.4.0",
-"automat >=0.3.0",
-"bcrypt",
-"constantly >=15.1",
-"cryptography >=1.5",
-"hyperlink >=17.1.1",
-"idna >=0.6,!=2.3",
-"incremental >=16.10.1",
-"pip",
-"pyasn1",
-"pyhamcrest >=1.9.0",
-"pyopenssl >=16.0.0",
-"python >=3.8,<3.9.0a0",
-"service_identity >=18.1.0",
-"zope.interface >=4.4.2"
-],
-"license":"MIT",
-"name":"twisted",
-"sha256":"89b613e532376c3092bac199deb74146787b847f929efec6abd93ef0bd41afd0",
-"size":5250634,
-"timestamp":1586467288518,
-"version":"20.3.0"
-},
-"twisted-20.3.0-py38h9ed2024_0.tar.bz2":{
+"twisted-21.2.0-py38h9ed2024_0.tar.bz2":{
 "build":"py38h9ed2024_0",
 "build_number":0,
 "constrains":[
-"h2 >=3.0,<4.0",
-"priority >=1.1.0,<2.0",
 "pyobjc-framework-cocoa",
+"priority >=1.1.0,<2.0",
 "pyobjc-core",
-"pyserial >=3.0"
+"pyserial >=3.0",
+"h2 >=3.0,<4.0"
 ],
 "depends":[
 "attrs >=17.4.0",
@@ -78026,20 +77924,20 @@
 ],
 "license":"MIT",
 "name":"twisted",
-"sha256":"2baa6a4ece6bed815f8f9a75b269a033c2820b3f8dee9bef6052b29925d069f5",
-"size":5253165,
-"timestamp":1614066276937,
-"version":"20.3.0"
+"sha256":"551c9b5c52d104abab2cf55dcad08e4969062f29ff52b2099bbf0f08c868e563",
+"size":5336338,
+"timestamp":1614874457260,
+"version":"21.2.0"
 },
-"twisted-20.3.0-py39h9ed2024_0.tar.bz2":{
+"twisted-21.2.0-py39h9ed2024_0.tar.bz2":{
 "build":"py39h9ed2024_0",
 "build_number":0,
 "constrains":[
-"priority >=1.1.0,<2.0",
 "pyobjc-core",
 "h2 >=3.0,<4.0",
-"pyserial >=3.0",
-"pyobjc-framework-cocoa"
+"pyobjc-framework-cocoa",
+"priority >=1.1.0,<2.0",
+"pyserial >=3.0"
 ],
 "depends":[
 "attrs >=17.4.0",
@@ -78060,10 +77958,10 @@
 ],
 "license":"MIT",
 "name":"twisted",
-"sha256":"a8f42c82703e85ef04d145cf95d69ffb7debb54a5fa7298274c8d33984a01851",
-"size":5253771,
-"timestamp":1614066272170,
-"version":"20.3.0"
+"sha256":"e6b6f1e255a4eca238976149193337dbe38e01317c9e21dbc3afee7619227da9",
+"size":5335852,
+"timestamp":1614874455294,
+"version":"21.2.0"
 },
 "twofish-0.3.0-py27h1de35cc_0.tar.bz2":{
 "build":"py27h1de35cc_0",

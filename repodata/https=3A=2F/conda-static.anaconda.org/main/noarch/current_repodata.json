@@ -1467,11 +1467,11 @@
 "timestamp":1612211427652,
 "version":"3.3.0"
 },
-"boto3-1.17.18-pyhd3eb1b0_0.tar.bz2":{
+"boto3-1.17.19-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"botocore >=1.20.18,<1.21.0",
+"botocore >=1.20.19,<1.21.0",
 "jmespath >=0.7.1,<1.0.0",
 "python",
 "s3transfer >=0.3.0,<0.4.0"
@@ -1479,10 +1479,10 @@
 "license":"Apache-2.0",
 "name":"boto3",
 "noarch":"python",
-"sha256":"331355b8ad11117de4a5f242ee6ca8a8f2b9e8169cea84b0e4537ade2fe73adc",
-"size":72239,
-"timestamp":1614715939682,
-"version":"1.17.18"
+"sha256":"bc398d87fab76e7cad5df0996784c7dd377fb3a2ab4f20410bf0ba8246ccebfa",
+"size":72261,
+"timestamp":1614874545850,
+"version":"1.17.19"
 },
 "botocore-1.20.19-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
@@ -4366,6 +4366,22 @@
 "size":16799,
 "timestamp":1589073777498,
 "version":"0.14.3"
+},
+"flask_cors-3.0.10-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"flask >=0.9",
+"python",
+"six"
+],
+"license":"MIT",
+"name":"flask_cors",
+"noarch":"python",
+"sha256":"9b2888541ebf773de0eb32e0f6814a398a1c388220e462397b651a7a333f028f",
+"size":16696,
+"timestamp":1614875244796,
+"version":"3.0.10"
 },
 "flit-3.0.0-py_0.tar.bz2":{
 "build":"py_0",
