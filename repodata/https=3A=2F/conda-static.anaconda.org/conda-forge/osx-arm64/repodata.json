@@ -28741,6 +28741,20 @@
 "timestamp":1614825904127,
 "version":"3.15.4"
 },
+"libprotobuf-3.15.5-habe5f53_0.tar.bz2":{
+"build":"habe5f53_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.0.1",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libprotobuf",
+"sha256":"7ab85f3b4243f4d79bce07aa01e4a7a21e4303ff266acfcc5269f762feeeb291",
+"size":2190260,
+"timestamp":1614918807196,
+"version":"3.15.5"
+},
 "libprotobuf-static-3.13.0-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -28828,6 +28842,17 @@
 "size":2556397,
 "timestamp":1614825911339,
 "version":"3.15.4"
+},
+"libprotobuf-static-3.15.5-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"libprotobuf-static",
+"sha256":"ec83275ea97dd348d2ea0ba4653458479ed340683031de36eedadf75072e7514",
+"size":2555749,
+"timestamp":1614918814283,
+"version":"3.15.5"
 },
 "libpython-static-3.8.5-hc88da5d_4_cpython.tar.bz2":{
 "build":"hc88da5d_4_cpython",
@@ -51212,6 +51237,43 @@
 "size":520047,
 "timestamp":1614802049463,
 "version":"2.4.0"
+},
+"snowflake-connector-python-2.4.1-py38h9b9bf68_0.tar.bz2":{
+"build":"py38h9b9bf68_0",
+"build_number":0,
+"constrains":[
+"pandas >1,<1.2"
+],
+"depends":[
+"arrow-cpp >=3.0.0,<3.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libcxx >=11.0.1",
+"oscrypto <2.0.0",
+"pyarrow >=3.0.0,<4.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<20.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"c37dae120a041b112cc46e2c36c78ad2e8f2f0785ba0a327e0e9183e8af30748",
+"size":517291,
+"timestamp":1614917383412,
+"version":"2.4.1"
 },
 "spacy-2.3.5-py38h3578e97_1.tar.bz2":{
 "build":"py38h3578e97_1",
