@@ -3752,6 +3752,20 @@
 "timestamp":1608315480368,
 "version":"949.0.1"
 },
+"cctools-949.0.1-ha9384d2_20.tar.bz2":{
+"build":"ha9384d2_20",
+"build_number":20,
+"depends":[
+"cctools_osx-arm64 949.0.1 h1c8944f_20",
+"ld64 530 h08716b2_20"
+],
+"license":"APSL-2.0",
+"name":"cctools",
+"sha256":"d8bf77228e46d6223df21395e9aadf89afa32eb8ca458e545a34e9b6c7b2e86e",
+"size":16465,
+"timestamp":1614955850778,
+"version":"949.0.1"
+},
 "cctools-949.0.1-hb5b78df_15.tar.bz2":{
 "build":"hb5b78df_15",
 "build_number":15,
@@ -3860,6 +3874,26 @@
 "timestamp":1608315403440,
 "version":"949.0.1"
 },
+"cctools_osx-64-949.0.1-hd734891_20.tar.bz2":{
+"build":"hd734891_20",
+"build_number":20,
+"constrains":[
+"ld64 530.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ld64_osx-64 >=530,<531.0a0",
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"APSL-2.0",
+"name":"cctools_osx-64",
+"sha256":"917e152a0c925f5757d130ed9645aeb0c08612b2e5280981b7702314ab5e99ac",
+"size":1858382,
+"timestamp":1614956003345,
+"version":"949.0.1"
+},
 "cctools_osx-arm64-949.0.1-h1c8944f_18.tar.bz2":{
 "build":"h1c8944f_18",
 "build_number":18,
@@ -3898,6 +3932,26 @@
 "sha256":"0ac39a7fdb533283899af4d3ba90c89bf350b329cdcd8e338043e51839237603",
 "size":1947583,
 "timestamp":1608315458344,
+"version":"949.0.1"
+},
+"cctools_osx-arm64-949.0.1-h1c8944f_20.tar.bz2":{
+"build":"h1c8944f_20",
+"build_number":20,
+"constrains":[
+"cctools 949.0.1.*",
+"ld64 530.*"
+],
+"depends":[
+"ld64_osx-arm64 >=530,<531.0a0",
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"APSL-2.0",
+"name":"cctools_osx-arm64",
+"sha256":"d19bb0ddf5c25da2bbafb0b4a72bee8561960e82ac6ffc74984d82c34e023b1e",
+"size":1852649,
+"timestamp":1614955829523,
 "version":"949.0.1"
 },
 "cctools_osx-arm64-949.0.1-h24a7231_15.tar.bz2":{
@@ -10837,6 +10891,23 @@
 "timestamp":1608315470553,
 "version":"530"
 },
+"ld64-530-h08716b2_20.tar.bz2":{
+"build":"h08716b2_20",
+"build_number":20,
+"constrains":[
+"cctools_osx-arm64 949.0.1.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ld64_osx-arm64 530 h8a2aa15_20"
+],
+"license":"APSL-2.0",
+"name":"ld64",
+"sha256":"adeddf3114b43bfa51eee42d5db16c2a2e5807adcf08a8a027f15486dc833ed3",
+"size":14142,
+"timestamp":1614955841155,
+"version":"530"
+},
 "ld64-530-h50e419e_15.tar.bz2":{
 "build":"h50e419e_15",
 "build_number":15,
@@ -10959,6 +11030,28 @@
 "timestamp":1608315370242,
 "version":"530"
 },
+"ld64_osx-64-530-h0ceb9f4_20.tar.bz2":{
+"build":"h0ceb9f4_20",
+"build_number":20,
+"constrains":[
+"ld 530.*",
+"cctools 949.0.1.*",
+"cctools_osx-64 949.0.1.*",
+"clang >=11.1.0,<12.0a0"
+],
+"depends":[
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"tapi >=1100.0.11,<1101.0a0"
+],
+"license":"APSL-2.0",
+"name":"ld64_osx-64",
+"sha256":"88f61e0900eab84ed9cdca2379c2d01f65554e4e696170a6348c8d9f2c5c303a",
+"size":1158741,
+"timestamp":1614955859528,
+"version":"530"
+},
 "ld64_osx-arm64-530-h42e8ac5_15.tar.bz2":{
 "build":"h42e8ac5_15",
 "build_number":15,
@@ -11045,6 +11138,28 @@
 "sha256":"9d1be524ee6603e913857bb5dab0d73a3262e920608fee00add3885a879ee1cd",
 "size":1247729,
 "timestamp":1608315424399,
+"version":"530"
+},
+"ld64_osx-arm64-530-h8a2aa15_20.tar.bz2":{
+"build":"h8a2aa15_20",
+"build_number":20,
+"constrains":[
+"clang >=11.1.0,<12.0a0",
+"cctools_osx-arm64 949.0.1.*",
+"cctools 949.0.1.*",
+"ld 530.*"
+],
+"depends":[
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"tapi >=1100.0.11,<1101.0a0"
+],
+"license":"APSL-2.0",
+"name":"ld64_osx-arm64",
+"sha256":"b17c878ebd4146253a05bd7221a3f51b083e94f5b5c6ab4f68f45175106f6524",
+"size":1154092,
+"timestamp":1614955691221,
 "version":"530"
 },
 "ld_impl_linux-64-2.35.1-hdd3f809_1.tar.bz2":{
@@ -25409,7 +25524,7 @@
 "timestamp":1614469573589,
 "version":"1.0.1"
 },
-"xeus-python-0.11.2-py38h99e22e2_0.tar.bz2":{
+"xeus-python-0.11.3-py38h99e22e2_0.tar.bz2":{
 "build":"py38h99e22e2_0",
 "build_number":0,
 "depends":[
@@ -25424,12 +25539,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"xeus-python",
-"sha256":"e903556448b69d6dad7d3bef8e2b5ac26ca28aa27270d59318609485831504c1",
-"size":692280,
-"timestamp":1613663386043,
-"version":"0.11.2"
+"sha256":"a4c13da7caf0daac24ba7eb0ed65d2642c5bf14de96de453a7fadf1145d30c34",
+"size":684265,
+"timestamp":1614956976130,
+"version":"0.11.3"
 },
-"xeus-python-0.11.2-py39hadf8219_0.tar.bz2":{
+"xeus-python-0.11.3-py39hadf8219_0.tar.bz2":{
 "build":"py39hadf8219_0",
 "build_number":0,
 "depends":[
@@ -25444,10 +25559,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"xeus-python",
-"sha256":"feb74aca6f0ff6af1c6afda5bf3363460b4c039117a4df61c3180d53aad265cc",
-"size":681932,
-"timestamp":1613662995469,
-"version":"0.11.2"
+"sha256":"1bafd40a016651274c68d5983e371813d134b2ace904450839894064dc5b2fe9",
+"size":690684,
+"timestamp":1614956962888,
+"version":"0.11.3"
 },
 "xeus-robot-0.3.0-py38h99e22e2_0.tar.bz2":{
 "build":"py38h99e22e2_0",
