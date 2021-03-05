@@ -17680,6 +17680,20 @@
 "timestamp":1584350909614,
 "version":"3.7.3"
 },
+"configurable-http-proxy-4.3.1-node12_hacb212c_0.tar.bz2":{
+"build":"node12_hacb212c_0",
+"build_number":0,
+"depends":[
+"nodejs 12.*",
+"nodejs >=12.19.0,<13.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"configurable-http-proxy",
+"sha256":"93760c9e265f7412a7e993fba461a6f13eaaf83eae3f31e73d504a9d45143deb",
+"size":816154,
+"timestamp":1614972871988,
+"version":"4.3.1"
+},
 "configurable-http-proxy-4.3.1-node14_h28630cb_0.tar.bz2":{
 "build":"node14_h28630cb_0",
 "build_number":0,
@@ -59681,6 +59695,63 @@
 "timestamp":1605783749237,
 "version":"2.7.0"
 },
+"nodejs-12.19.0-h0aea341_3.tar.bz2":{
+"build":"h0aea341_3",
+"build_number":3,
+"depends":[
+"icu >=68.1,<69.0a0",
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0",
+"libuv >=1.41.0,<1.42.0a0",
+"openssl >=1.1.1d",
+"openssl >=1.1.1j,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"nodejs",
+"sha256":"20c731afee354e88bb8f6971cad78d4058d8a78a1d39f5bf0ced5d65b100c686",
+"size":17456975,
+"timestamp":1614598339677,
+"version":"12.19.0"
+},
+"nodejs-12.19.0-h2bccc08_0.tar.bz2":{
+"build":"h2bccc08_0",
+"build_number":0,
+"depends":[
+"icu >=67.1,<68.0a0",
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0",
+"libuv >=1.40.0,<1.41.0a0",
+"openssl >=1.1.1d",
+"openssl >=1.1.1h,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"nodejs",
+"sha256":"b039458a634116922a974e35cad8bd7a2e9f84bed97fc4788396d2683a727cb1",
+"size":17438560,
+"timestamp":1602437357984,
+"version":"12.19.0"
+},
+"nodejs-12.19.0-h547315b_1.tar.bz2":{
+"build":"h547315b_1",
+"build_number":1,
+"depends":[
+"icu >=67.1,<68.0a0",
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0",
+"libuv >=1.40.0,<1.41.0a0",
+"openssl >=1.1.1d",
+"openssl >=1.1.1h,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"nodejs",
+"sha256":"23bebe9ebc9cd1dd55dcd7f48d5c88414c8790f8e7869ddcfe40a0dbbbd99b68",
+"size":17462594,
+"timestamp":1605352121882,
+"version":"12.19.0"
+},
 "nodejs-14.15.4-hc72f780_1.tar.bz2":{
 "build":"hc72f780_1",
 "build_number":1,
@@ -60282,6 +60353,25 @@
 "timestamp":1607010818422,
 "version":"0.52.0"
 },
+"numexpr-2.7.3-py36h584ddb8_0.tar.bz2":{
+"build":"py36h584ddb8_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.18.5,<2.0a0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"setuptools"
+],
+"license":"MIT",
+"name":"numexpr",
+"sha256":"0d6a5f35afd2a6707e38ed66308cd60d7eca27ccf05b5fcbe9c7045070c98b9e",
+"size":238070,
+"timestamp":1614973008584,
+"version":"2.7.3"
+},
 "numexpr-2.7.3-py36hab1a6e6_0.tar.bz2":{
 "build":"py36hab1a6e6_0",
 "build_number":0,
@@ -60298,6 +60388,25 @@
 "sha256":"b56f084ef2b61a1074f720c0073b4ccb5c6a0c2ac4101f38a1f762f0f2fb6f96",
 "size":237001,
 "timestamp":1614971636188,
+"version":"2.7.3"
+},
+"numexpr-2.7.3-py37h0eb6cc8_0.tar.bz2":{
+"build":"py37h0eb6cc8_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"setuptools"
+],
+"license":"MIT",
+"name":"numexpr",
+"sha256":"d292a78c638dba344612bea03cc46e7fe2505fcd5e15f4709c569f7f7f9b8c1d",
+"size":238852,
+"timestamp":1614973008596,
 "version":"2.7.3"
 },
 "numexpr-2.7.3-py37hc63ec6f_0.tar.bz2":{
@@ -60334,6 +60443,24 @@
 "sha256":"a92dafc4f0a0b0b7f5582840006b77cb8cdcf86a75cd1e8920c51c269a2417b2",
 "size":237763,
 "timestamp":1614971640140,
+"version":"2.7.3"
+},
+"numexpr-2.7.3-py39h6474468_0.tar.bz2":{
+"build":"py39h6474468_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools"
+],
+"license":"MIT",
+"name":"numexpr",
+"sha256":"e723452568939f8a451c62357753060a7379e8fb97b62867a41ebcbeeeed5223",
+"size":237711,
+"timestamp":1614972950986,
 "version":"2.7.3"
 },
 "numpy-1.20.1-py37h339abbf_0.tar.bz2":{
@@ -104543,7 +104670,7 @@
 "timestamp":1599476240089,
 "version":"6.0"
 },
-"uproot-4.0.5-py36h270354c_0.tar.bz2":{
+"uproot-4.0.6-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -104558,12 +104685,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"748060243da95dced13856b95e72b1703f9ff7f3cd60fdde60e38103e1dfdb8a",
-"size":4927,
-"timestamp":1614903408675,
-"version":"4.0.5"
+"sha256":"2daea26bf24006bed39fdabf6f354a0155b45c24445bb144405e3e583a87b0b6",
+"size":4937,
+"timestamp":1614972759865,
+"version":"4.0.6"
 },
-"uproot-4.0.5-py36he7cccf2_0.tar.bz2":{
+"uproot-4.0.6-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "depends":[
@@ -104578,12 +104705,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"f071e63b6ecfb4799b01dd36849531d9b494e5d79b20412e809befb016551183",
-"size":4900,
-"timestamp":1614904552358,
-"version":"4.0.5"
+"sha256":"ca1b6a2a5334ed3a88404cc2a4a3cd4040730d85d22db3dd8c977f56aa8c1a1d",
+"size":4903,
+"timestamp":1614972995030,
+"version":"4.0.6"
 },
-"uproot-4.0.5-py37h35e4cab_0.tar.bz2":{
+"uproot-4.0.6-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -104598,12 +104725,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"7d6a966b1314d92f0ca5f0294dea5c57f88bcadfaf4fb6853510da931fcf57dc",
-"size":4934,
-"timestamp":1614909966253,
-"version":"4.0.5"
+"sha256":"c82f700d5a8d45c58c048ce9efca965bb89e164d5c8fce9f129c956963cab121",
+"size":4925,
+"timestamp":1614972758446,
+"version":"4.0.6"
 },
-"uproot-4.0.5-py38hf8b3453_0.tar.bz2":{
+"uproot-4.0.6-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -104618,12 +104745,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"07f40caad46cdb9e01d30cc060ab70805dffd5c53b413ff2e2eeafc192f6fdc6",
-"size":4917,
-"timestamp":1614909956274,
-"version":"4.0.5"
+"sha256":"12e1a11346f72abdb1af0f9ec2d2928bc24af2151d8d42da113870483798c73e",
+"size":4935,
+"timestamp":1614972667062,
+"version":"4.0.6"
 },
-"uproot-4.0.5-py39hc1b9086_0.tar.bz2":{
+"uproot-4.0.6-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -104638,10 +104765,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"b3f1e042b77b927762511ddce4393d2ba2594fe9e5d6f23584521b6bce46b160",
-"size":4956,
-"timestamp":1614904518956,
-"version":"4.0.5"
+"sha256":"99e04247e2bbefc590fa5b26a925269fa1cb0611f81f65772313e1a0690451d5",
+"size":4948,
+"timestamp":1614972766738,
+"version":"4.0.6"
 },
 "uproot-base-3.13.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
