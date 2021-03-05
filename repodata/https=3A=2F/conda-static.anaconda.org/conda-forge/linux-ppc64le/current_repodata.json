@@ -8817,11 +8817,11 @@
 "timestamp":1613118646606,
 "version":"1.8.138"
 },
-"awscli-1.19.20-py36h270354c_0.tar.bz2":{
+"awscli-1.19.21-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.20",
+"botocore 1.20.21",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -8832,16 +8832,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"b72a38ab1463743f2fae9b8c27da2d6a496b38b967781f1f7a467c428a478384",
-"size":1931942,
-"timestamp":1614825904028,
-"version":"1.19.20"
+"sha256":"15edd2b4914921d5f144970e342eec0e69788a9fb375666be9b58bb834b8aa59",
+"size":1917392,
+"timestamp":1614908686398,
+"version":"1.19.21"
 },
-"awscli-1.19.20-py36he7cccf2_0.tar.bz2":{
+"awscli-1.19.21-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.20",
+"botocore 1.20.21",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.6 >=7.3.3",
@@ -8853,16 +8853,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"9e17b534a701781df40693b8d2f5e4813d5a95bbfd3c01bf5c1f3f7880e15cff",
-"size":1926428,
-"timestamp":1614825936772,
-"version":"1.19.20"
+"sha256":"f1c39c90f8af3936166769548ab3d85feee89bf0727f136e1548d328df8c0112",
+"size":1913411,
+"timestamp":1614911210669,
+"version":"1.19.21"
 },
-"awscli-1.19.20-py37h35e4cab_0.tar.bz2":{
+"awscli-1.19.21-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.20",
+"botocore 1.20.21",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -8873,16 +8873,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"cbe3fdff87f7d0755b273d9a9155882b4e13c535d6024d012550581255029a54",
-"size":1917296,
-"timestamp":1614825816749,
-"version":"1.19.20"
+"sha256":"3303f0a9979524b70888215c131a61c69ec22851d17e510ebc87bb684315b609",
+"size":1906417,
+"timestamp":1614908468072,
+"version":"1.19.21"
 },
-"awscli-1.19.20-py38hf8b3453_0.tar.bz2":{
+"awscli-1.19.21-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.20",
+"botocore 1.20.21",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -8893,16 +8893,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"460c14871fcd4e49d40564f5599ca9aae57a8c02759ea520d1bd40bbcb3fce0b",
-"size":1935387,
-"timestamp":1614822864863,
-"version":"1.19.20"
+"sha256":"8c4336ef5dd4ef0d3d618230656c2a7e81cbf6c4ce9887d2815b893b7c55d8f8",
+"size":1922619,
+"timestamp":1614909934332,
+"version":"1.19.21"
 },
-"awscli-1.19.20-py39hc1b9086_0.tar.bz2":{
+"awscli-1.19.21-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.20",
+"botocore 1.20.21",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.9,<3.10.0a0",
@@ -8913,10 +8913,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"80a2b392765c39bed169a1ed7c4f712d427e30e7cfd5f2b9703da829c3c6ad48",
-"size":1917692,
-"timestamp":1614822865527,
-"version":"1.19.20"
+"sha256":"683fafb41c6a84165bd7d7d7f6a75fdcab923d02b996198749e189ec8139186d",
+"size":1912726,
+"timestamp":1614908492202,
+"version":"1.19.21"
 },
 "backports.lzma-0.0.14-py36h1ad4117_3.tar.bz2":{
 "build":"py36h1ad4117_3",
@@ -104314,6 +104314,46 @@
 "sha256":"f071e63b6ecfb4799b01dd36849531d9b494e5d79b20412e809befb016551183",
 "size":4900,
 "timestamp":1614904552358,
+"version":"4.0.5"
+},
+"uproot-4.0.5-py37h35e4cab_0.tar.bz2":{
+"build":"py37h35e4cab_0",
+"build_number":0,
+"depends":[
+"awkward >=1",
+"lz4",
+"python >=3.7,<3.8.0a0",
+"python-xxhash",
+"python_abi 3.7.* *_cp37m",
+"uproot-base",
+"xrootd",
+"zstandard"
+],
+"license":"BSD-3-Clause",
+"name":"uproot",
+"sha256":"7d6a966b1314d92f0ca5f0294dea5c57f88bcadfaf4fb6853510da931fcf57dc",
+"size":4934,
+"timestamp":1614909966253,
+"version":"4.0.5"
+},
+"uproot-4.0.5-py38hf8b3453_0.tar.bz2":{
+"build":"py38hf8b3453_0",
+"build_number":0,
+"depends":[
+"awkward >=1",
+"lz4",
+"python >=3.8,<3.9.0a0",
+"python-xxhash",
+"python_abi 3.8.* *_cp38",
+"uproot-base",
+"xrootd",
+"zstandard"
+],
+"license":"BSD-3-Clause",
+"name":"uproot",
+"sha256":"07f40caad46cdb9e01d30cc060ab70805dffd5c53b413ff2e2eeafc192f6fdc6",
+"size":4917,
+"timestamp":1614909956274,
 "version":"4.0.5"
 },
 "uproot-4.0.5-py39hc1b9086_0.tar.bz2":{
