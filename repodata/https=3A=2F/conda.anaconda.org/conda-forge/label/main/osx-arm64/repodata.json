@@ -17854,6 +17854,44 @@
 "timestamp":1610647009193,
 "version":"2.10.4"
 },
+"freud-2.4.1-py38ha336496_1.tar.bz2":{
+"build":"py38ha336496_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.0.1",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"rowan >=1.2",
+"scipy >=1.1",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"freud",
+"requires":[],
+"size":1551379,
+"timestamp":1614962501755,
+"version":"2.4.1"
+},
+"freud-2.4.1-py39ha0bc353_1.tar.bz2":{
+"build":"py39ha0bc353_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.0.1",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"rowan >=1.2",
+"scipy >=1.1",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"freud",
+"requires":[],
+"size":1572509,
+"timestamp":1614962568377,
+"version":"2.4.1"
+},
 "fribidi-1.0.10-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -31035,6 +31073,22 @@
 "size":3552759,
 "timestamp":1610749022105,
 "version":"11.0.1"
+},
+"lld-11.1.0-hd91e211_0.tar.bz2":{
+"build":"hd91e211_0",
+"build_number":0,
+"constrains":[
+"llvm ==11.1.0"
+],
+"depends":[
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"NCSA",
+"name":"lld",
+"requires":[],
+"size":3560188,
+"timestamp":1614964316989,
+"version":"11.1.0"
 },
 "llvm-10.0.1-h95d0606_2.tar.bz2":{
 "build":"h95d0606_2",
