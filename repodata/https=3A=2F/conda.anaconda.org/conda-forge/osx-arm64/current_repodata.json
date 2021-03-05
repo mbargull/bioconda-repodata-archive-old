@@ -118,7 +118,7 @@
 "libffi >=3.3,<3.4.0a0",
 "libpng >=1.6.37,<1.7.0a0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -168,7 +168,7 @@
 "libffi >=3.3,<3.4.0a0",
 "libpng >=1.6.37,<1.7.0a0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -4333,6 +4333,13 @@
 "clang-11.1.0-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
+"constrains":[
+"libclang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*",
+"llvmdev 11.1.0.*"
+],
 "depends":[
 "clang-11 11.1.0 default_h87665d4_0"
 ],
@@ -4347,7 +4354,12 @@
 "build":"default_h87665d4_0",
 "build_number":0,
 "constrains":[
-"clangdev 11.1.0"
+"clangdev 11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*",
+"llvmdev 11.1.0.*"
 ],
 "depends":[
 "clang 11.1.0 hce30654_0",
@@ -6784,44 +6796,6 @@
 "size":894838,
 "timestamp":1610647009193,
 "version":"2.10.4"
-},
-"freud-2.4.1-py38ha336496_1.tar.bz2":{
-"build":"py38ha336496_1",
-"build_number":1,
-"depends":[
-"libcxx >=11.0.1",
-"numpy >=1.19.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"rowan >=1.2",
-"scipy >=1.1",
-"tbb >=2020.2,<2021.0.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"freud",
-"sha256":"e5aea9ee053757ed3fd4cd4973881c7706b59dc45f9b7992f24004bf9ece63a0",
-"size":1551379,
-"timestamp":1614962501755,
-"version":"2.4.1"
-},
-"freud-2.4.1-py39ha0bc353_1.tar.bz2":{
-"build":"py39ha0bc353_1",
-"build_number":1,
-"depends":[
-"libcxx >=11.0.1",
-"numpy >=1.19.5,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"rowan >=1.2",
-"scipy >=1.1",
-"tbb >=2020.2,<2021.0.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"freud",
-"sha256":"d14b06247070822ada37bd12119014d9f1dd12413914b29dac564d2ceacb6afb",
-"size":1572509,
-"timestamp":1614962568377,
-"version":"2.4.1"
 },
 "fribidi-1.0.10-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
@@ -11938,6 +11912,13 @@
 "libclang-11.1.0-default_h87665d4_0.tar.bz2":{
 "build":"default_h87665d4_0",
 "build_number":0,
+"constrains":[
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*",
+"llvmdev 11.1.0.*"
+],
 "depends":[
 "libcxx >=11.0.1",
 "libllvm11 >=11.1.0,<11.2.0a0"
@@ -16823,11 +16804,11 @@
 "timestamp":1609272846884,
 "version":"0.52.0"
 },
-"numexpr-2.7.2-py38h9b9bf68_0.tar.bz2":{
+"numexpr-2.7.3-py38h9b9bf68_0.tar.bz2":{
 "build":"py38h9b9bf68_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.0",
+"libcxx >=11.0.1",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -16835,16 +16816,16 @@
 ],
 "license":"MIT",
 "name":"numexpr",
-"sha256":"9cdeec8491826d56c6f4b2e28fbf2b8ab1bdfde630ac5466ec661947beafcd43",
-"size":126117,
-"timestamp":1610128063078,
-"version":"2.7.2"
+"sha256":"e1eb6e0dd770bec156f9db595bcdd7f143018bfe60c1f6ba70319de38ff5268c",
+"size":126988,
+"timestamp":1614971998026,
+"version":"2.7.3"
 },
-"numexpr-2.7.2-py39ha4bedbf_0.tar.bz2":{
+"numexpr-2.7.3-py39ha4bedbf_0.tar.bz2":{
 "build":"py39ha4bedbf_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.0",
+"libcxx >=11.0.1",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -16852,10 +16833,10 @@
 ],
 "license":"MIT",
 "name":"numexpr",
-"sha256":"0a618801b496a14f62422d4d7036b99336543746d1ad49f5bef7042be12309d6",
-"size":126647,
-"timestamp":1610128076090,
-"version":"2.7.2"
+"sha256":"22b771068da8a9e4bc3a8c502f069785c41dcc362e03d9184153d5d8aa7950ca",
+"size":127627,
+"timestamp":1614971771396,
+"version":"2.7.3"
 },
 "numpy-1.20.1-py38h9e6c65a_0.tar.bz2":{
 "build":"py38h9e6c65a_0",
@@ -18148,9 +18129,9 @@
 "timestamp":1613630097088,
 "version":"1.10.1"
 },
-"poetry-1.1.4-py38h10201cd_1.tar.bz2":{
-"build":"py38h10201cd_1",
-"build_number":1,
+"poetry-1.1.5-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
 "depends":[
 "cachecontrol >=0.12.4,<0.13.0",
 "cachy >=0.3.0,<0.4.0",
@@ -18176,14 +18157,14 @@
 ],
 "license":"MIT",
 "name":"poetry",
-"sha256":"282c0c022f187dae61a37f9fd977fdf97cd6828bbae41dee3ecfe53d9709c2e6",
-"size":242217,
-"timestamp":1607945522578,
-"version":"1.1.4"
+"sha256":"befadadcfa0b4a216eb30552b593fb2bfdeb54dd6e6dfc905bad5273b6305801",
+"size":245202,
+"timestamp":1614968516636,
+"version":"1.1.5"
 },
-"poetry-1.1.4-py39h2804cbe_1.tar.bz2":{
-"build":"py39h2804cbe_1",
-"build_number":1,
+"poetry-1.1.5-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
 "depends":[
 "cachecontrol >=0.12.4,<0.13.0",
 "cachy >=0.3.0,<0.4.0",
@@ -18209,10 +18190,10 @@
 ],
 "license":"MIT",
 "name":"poetry",
-"sha256":"769250b7052ad53be2034b9d54041b9930e2979005a3f6147975a75760dfb8b4",
-"size":245635,
-"timestamp":1607945563910,
-"version":"1.1.4"
+"sha256":"edd8986245c9b19d534e1c049cabca330f016a277f770aaf9d54dfac15c7c550",
+"size":245542,
+"timestamp":1614968510359,
+"version":"1.1.5"
 },
 "poppler-21.03.0-h288c6e0_0.tar.bz2":{
 "build":"h288c6e0_0",
@@ -25364,6 +25345,66 @@
 "timestamp":1610160919779,
 "version":"2.0.1"
 },
+"wxpython-4.1.1-py38h794d3e4_0.tar.bz2":{
+"build":"py38h794d3e4_0",
+"build_number":0,
+"depends":[
+"backports.lzma",
+"expat >=2.2.10,<2.3.0a0",
+"gettext >=0.19.8.1,<1.0a0",
+"jpeg >=9d,<10a",
+"libcxx >=11.0.1",
+"libiconv >=1.16,<1.17.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"pathlib2",
+"pthread-stubs",
+"pypubsub",
+"python >=3.8,<3.9.0a0",
+"python.app",
+"python_abi 3.8.* *_cp38",
+"requests",
+"setuptools",
+"six",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"wxpython",
+"sha256":"6a2db34acd379d593097166d28f01951c3e0877f3c2c64dd86bc87867ec7f93a",
+"size":30534360,
+"timestamp":1614969877451,
+"version":"4.1.1"
+},
+"wxpython-4.1.1-py39h28cb02c_0.tar.bz2":{
+"build":"py39h28cb02c_0",
+"build_number":0,
+"depends":[
+"backports.lzma",
+"expat >=2.2.10,<2.3.0a0",
+"gettext >=0.19.8.1,<1.0a0",
+"jpeg >=9d,<10a",
+"libcxx >=11.0.1",
+"libiconv >=1.16,<1.17.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"pathlib2",
+"pthread-stubs",
+"pypubsub",
+"python >=3.9,<3.10.0a0",
+"python.app",
+"python_abi 3.9.* *_cp39",
+"requests",
+"setuptools",
+"six",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"wxpython",
+"sha256":"459301958a2304ef4be5b5b3c13f90692bf4ce4f65f8c4c01565e5d7470c88ea",
+"size":29195206,
+"timestamp":1614969654817,
+"version":"4.1.1"
+},
 "x264-1!161.3030-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -26300,6 +26341,8 @@
 "clangxx_osx-arm64-11.0.0-hb84c830_9.tar.bz2",
 "cytoolz-0.11.0-py38h30f7421_2.tar.bz2",
 "cytoolz-0.11.0-py39h46acfd9_2.tar.bz2",
+"freud-2.4.1-py38ha336496_1.tar.bz2",
+"freud-2.4.1-py39ha0bc353_1.tar.bz2",
 "ipython-7.19.0-py38h2cb4d76_0.tar.bz2",
 "ipython-7.19.0-py39h32adebf_0.tar.bz2",
 "jedi-0.18.0-py38h10201cd_0.tar.bz2",
