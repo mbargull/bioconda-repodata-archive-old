@@ -9294,90 +9294,6 @@
 "timestamp":1614383413104,
 "version":"1.75.0"
 },
-"boost-cpp-1.70.0-h7b93d67_3.tar.bz2":{
-"build":"h7b93d67_3",
-"build_number":3,
-"constrains":[
-"libboost <0"
-],
-"depends":[
-"bzip2 >=1.0.8,<2.0a0",
-"icu >=67.1,<68.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"xz >=5.2.5,<5.3.0a0",
-"zstd >=1.4.4,<1.5.0.0a0"
-],
-"license":"BSL-1.0",
-"name":"boost-cpp",
-"sha256":"08acc5d5765bd7c99dc51ff0c726260bffd062d28739d66d6ab9adf300fe3e75",
-"size":23670349,
-"timestamp":1592952242985,
-"version":"1.70.0"
-},
-"boost-cpp-1.70.0-h8e57a91_2.tar.bz2":{
-"build":"h8e57a91_2",
-"build_number":2,
-"constrains":[
-"libboost <0"
-],
-"depends":[
-"bzip2 >=1.0.8,<2.0a0",
-"icu >=64.2,<65.0a0",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"xz >=5.2.4,<5.3.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Boost-1.0",
-"name":"boost-cpp",
-"sha256":"564de515a6ca7dd9cad274d08753a9229ab1d836a09ee57d113e5e826df6f379",
-"size":23538165,
-"timestamp":1563650482918,
-"version":"1.70.0"
-},
-"boost-cpp-1.70.0-he40288f_0.tar.bz2":{
-"build":"he40288f_0",
-"build_number":0,
-"constrains":[
-"libboost <0"
-],
-"depends":[
-"bzip2 >=1.0.6,<2.0a0",
-"icu >=60.2,<61.0a0",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"xz >=5.2.4,<5.3.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Boost-1.0",
-"name":"boost-cpp",
-"sha256":"e87ae219b49bc7b1660f7a32f3b740d3e15d1a830d8fab67d4d2c5c2aeb8f811",
-"size":23568598,
-"timestamp":1560447987021,
-"version":"1.70.0"
-},
-"boost-cpp-1.70.0-he40288f_1.tar.bz2":{
-"build":"he40288f_1",
-"build_number":1,
-"constrains":[
-"libboost <0"
-],
-"depends":[
-"bzip2 >=1.0.8,<2.0a0",
-"icu >=60.2,<61.0a0",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"xz >=5.2.4,<5.3.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Boost-1.0",
-"name":"boost-cpp",
-"sha256":"842ddd5eae591e18ee418fd092fb594706212eddc5be501612f13931dd0ea05b",
-"size":23600369,
-"timestamp":1563553098918,
-"version":"1.70.0"
-},
 "boost-cpp-1.72.0-h333a6ec_4.tar.bz2":{
 "build":"h333a6ec_4",
 "build_number":4,
@@ -47926,6 +47842,23 @@
 "timestamp":1600665870999,
 "version":"0.13.0"
 },
+"libthrift-0.14.0-hb5cdc64_0.tar.bz2":{
+"build":"hb5cdc64_0",
+"build_number":0,
+"depends":[
+"libevent >=2.1.10,<2.1.11.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1j,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libthrift",
+"sha256":"f9d82cfc4402967ae76b5e78b4329d2b6cebe2d50f4a74d14a867c2301ab74e3",
+"size":3841279,
+"timestamp":1614978848723,
+"version":"0.14.0"
+},
 "libtiff-4.2.0-h2294b54_0.tar.bz2":{
 "build":"h2294b54_0",
 "build_number":0,
@@ -58173,6 +58106,33 @@
 "timestamp":1614958461135,
 "version":"6.10.2"
 },
+"nordugrid-arc-6.10.2-py39h01c793c_1.tar.bz2":{
+"build":"py39h01c793c_1",
+"build_number":1,
+"depends":[
+"gct >=6.2.1550507116,<6.3.0a0",
+"gfal2 >=2.19.0,<2.20.0a0",
+"glibmm >=2.58.1,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.66.7,<3.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sigcpp-2.0 >=2.10.3",
+"sqlite >=3.34.0,<4.0a0",
+"xrootd >=5.1.0,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"nordugrid-arc",
+"sha256":"10c207423cd9eef93894192b55bfc5ddb3810b7f7171a790a392ae43dd83790d",
+"size":7742591,
+"timestamp":1614978305440,
+"version":"6.10.2"
+},
 "normaliz-3.8.5-h4e4fddc_0.tar.bz2":{
 "build":"h4e4fddc_0",
 "build_number":0,
@@ -58786,6 +58746,25 @@
 "timestamp":1614973470056,
 "version":"2.7.3"
 },
+"numexpr-2.7.3-py37h157fc04_0.tar.bz2":{
+"build":"py37h157fc04_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"setuptools"
+],
+"license":"MIT",
+"name":"numexpr",
+"sha256":"56673fb6f2ef20a99e28ea4c586f9df070a3c8a3d78b78f7737d446e50416e83",
+"size":245399,
+"timestamp":1614976766295,
+"version":"2.7.3"
+},
 "numexpr-2.7.3-py37h9ee2552_0.tar.bz2":{
 "build":"py37h9ee2552_0",
 "build_number":0,
@@ -58820,6 +58799,24 @@
 "sha256":"708ed1290bbc45eecd46c919862e7a1fb2c005342ff4e4caf1077fa6c25d2d7d",
 "size":245297,
 "timestamp":1614975027758,
+"version":"2.7.3"
+},
+"numexpr-2.7.3-py39h7b4a2eb_0.tar.bz2":{
+"build":"py39h7b4a2eb_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools"
+],
+"license":"MIT",
+"name":"numexpr",
+"sha256":"e4108302710dd3c15232154bf3771c4630830192e2a0c88445e7917373340e73",
+"size":245185,
+"timestamp":1614977665148,
 "version":"2.7.3"
 },
 "numpy-1.20.1-py37h541a193_0.tar.bz2":{
@@ -101006,185 +101003,37 @@
 "timestamp":1614851482709,
 "version":"0.13.0"
 },
-"thrift-compiler-0.13.0-h6c2bee4_6.tar.bz2":{
-"build":"h6c2bee4_6",
-"build_number":6,
-"depends":[
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"libthrift 0.13.0 h6c2bee4_6",
-"openssl >=1.1.1g,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"thrift-compiler",
-"sha256":"f3d57d6ed5785ae99cc4b2e3c41bb04839cb1a838cfa0a2a7fbbd6a47197b6aa",
-"size":16404457,
-"timestamp":1600666596035,
-"version":"0.13.0"
-},
-"thrift-compiler-0.13.0-h9e17ec7_6.tar.bz2":{
-"build":"h9e17ec7_6",
-"build_number":6,
-"depends":[
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"libthrift 0.13.0 h9e17ec7_6",
-"openssl >=1.1.1g,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"thrift-compiler",
-"sha256":"01a0a3abecdc11dad39bfce184e09e504b20ad5269358c90bff6dfd4577edf0b",
-"size":16400518,
-"timestamp":1600665929692,
-"version":"0.13.0"
-},
-"thrift-cpp-0.13.0-6.tar.bz2":{
-"build":"6",
-"build_number":6,
-"depends":[
-"libthrift 0.13.0 h9e17ec7_6",
-"thrift-compiler 0.13.0 h9e17ec7_6"
-],
-"license":"Apache-2.0",
-"name":"thrift-cpp",
-"sha256":"24d5bf3c98895cc9c12e1f50c27b6890919f5cc091cd4b8f2abe1b78ff8e106e",
-"size":9686,
-"timestamp":1600665957275,
-"version":"0.13.0"
-},
-"thrift-cpp-0.13.0-h62aa4f2_2.tar.bz2":{
-"build":"h62aa4f2_2",
-"build_number":2,
-"depends":[
-"boost-cpp >=1.72.0,<1.72.1.0a0",
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"openssl >=1.1.1d,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache 2.0",
-"name":"thrift-cpp",
-"sha256":"4ad9da91767968e44867b833919a22dad59c87a28cfd57ceef6aba6c1fc1d4f1",
-"size":19154404,
-"timestamp":1582461239124,
-"version":"0.13.0"
-},
-"thrift-cpp-0.13.0-h62aa4f2_3.tar.bz2":{
-"build":"h62aa4f2_3",
-"build_number":3,
-"constrains":[
-"boost-cpp >=1.72.0,<1.73.0a0"
-],
-"depends":[
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"openssl >=1.1.1g,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"thrift-cpp",
-"sha256":"ed4c75471d2e12c13dad9364065ebf302739e3a4c5d92f9ce38a8d243cb8bc32",
-"size":19860263,
-"timestamp":1597673344819,
-"version":"0.13.0"
-},
-"thrift-cpp-0.13.0-h6c2bee4_4.tar.bz2":{
-"build":"h6c2bee4_4",
-"build_number":4,
-"constrains":[
-"boost-cpp >=1.72.0,<1.73.0a0"
-],
-"depends":[
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"openssl >=1.1.1g,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"thrift-cpp",
-"sha256":"97ba34daed94315f67e8f3210129842d293ab5741bb4b81775ea2167ea534d3d",
-"size":19888508,
-"timestamp":1599860419853,
-"version":"0.13.0"
-},
-"thrift-cpp-0.13.0-h6c2bee4_5.tar.bz2":{
-"build":"h6c2bee4_5",
-"build_number":5,
-"depends":[
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"openssl >=1.1.1g,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"thrift-cpp",
-"sha256":"b9c618a4e2ccef369175fa3e370e4aa8f82b1cde23862284eb3a6eb48df0b8e6",
-"size":19830917,
-"timestamp":1600445088315,
-"version":"0.13.0"
-},
-"thrift-cpp-0.13.0-h9e17ec7_4.tar.bz2":{
-"build":"h9e17ec7_4",
-"build_number":4,
-"constrains":[
-"boost-cpp >=1.74.0,<1.75.0a0"
-],
-"depends":[
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"openssl >=1.1.1g,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"thrift-cpp",
-"sha256":"eb01a9832359edaed554d9329bac350ef6ec538817bc951b07c30a8c68f221ed",
-"size":19878571,
-"timestamp":1599860987700,
-"version":"0.13.0"
-},
-"thrift-cpp-0.13.0-h9e17ec7_5.tar.bz2":{
-"build":"h9e17ec7_5",
-"build_number":5,
-"depends":[
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"openssl >=1.1.1g,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"thrift-cpp",
-"sha256":"f9839962b5f13870d7a86203284f56a6ccad1fc33b4ad9edf09fa59bf57e4d11",
-"size":19880390,
-"timestamp":1600445565164,
-"version":"0.13.0"
-},
-"thrift-cpp-0.13.0-hf3afdfd_0.tar.bz2":{
-"build":"hf3afdfd_0",
+"thrift-compiler-0.14.0-hb5cdc64_0.tar.bz2":{
+"build":"hb5cdc64_0",
 "build_number":0,
 "depends":[
-"boost-cpp >=1.70.0,<1.70.1.0a0",
 "libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"openssl >=1.1.1a,<1.1.2a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libthrift 0.14.0 hb5cdc64_0",
+"openssl >=1.1.1j,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
-"license":"Apache 2.0",
+"license":"Apache-2.0",
+"name":"thrift-compiler",
+"sha256":"136c52e217f77fe76393bc0a8113f5c84911ebce5bf14728086c01eb2d31b2f0",
+"size":18336288,
+"timestamp":1614979011108,
+"version":"0.14.0"
+},
+"thrift-cpp-0.14.0-h8af1aa0_0.tar.bz2":{
+"build":"h8af1aa0_0",
+"build_number":0,
+"depends":[
+"libthrift 0.14.0 hb5cdc64_0",
+"thrift-compiler 0.14.0 hb5cdc64_0"
+],
+"license":"Apache-2.0",
 "name":"thrift-cpp",
-"sha256":"cda2b91adfeaca526849089791916a1185bca2183a5e41a0fb1b8e519bc2e334",
-"size":19192068,
-"timestamp":1581663486254,
-"version":"0.13.0"
+"sha256":"28e18d3295ffc044248571ce816487f156d693dd012752b3dce353fdc137b438",
+"size":11010,
+"timestamp":1614979096634,
+"version":"0.14.0"
 },
 "tidy-html5-5.7.28-he1b5a44_1.tar.bz2":{
 "build":"he1b5a44_1",
