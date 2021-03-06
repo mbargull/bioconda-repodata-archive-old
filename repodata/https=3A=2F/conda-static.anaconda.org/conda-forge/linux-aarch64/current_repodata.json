@@ -29387,14 +29387,14 @@
 "timestamp":1611189493166,
 "version":"1.35.0"
 },
-"grpc-cpp-1.36.1-h82492c4_0.tar.bz2":{
+"grpc-cpp-1.36.2-h82492c4_0.tar.bz2":{
 "build":"h82492c4_0",
 "build_number":0,
 "depends":[
 "abseil-cpp >=20200923.3,<20200923.4.0a0",
 "c-ares >=1.17.1,<2.0a0",
 "libgcc-ng >=9.3.0",
-"libprotobuf >=3.15.3,<3.16.0a0",
+"libprotobuf >=3.15.5,<3.16.0a0",
 "libstdcxx-ng >=9.3.0",
 "openssl >=1.1.1j,<1.1.2a",
 "re2 >=2020.11.1,<2020.11.2.0a0",
@@ -29402,10 +29402,10 @@
 ],
 "license":"Apache-2.0",
 "name":"grpc-cpp",
-"sha256":"528511b86c91bd4fdd5447792f4d135a8319378052218ebda2b708ba5431e406",
-"size":3475408,
-"timestamp":1614818361527,
-"version":"1.36.1"
+"sha256":"b0772fb72ac085d2ce1698d56095787eb65d3f5a93ea3d610ebb109dd33e0489",
+"size":3497734,
+"timestamp":1614992826552,
+"version":"1.36.2"
 },
 "grpcio-1.36.1-py36hf6e2dda_0.tar.bz2":{
 "build":"py36hf6e2dda_0",
@@ -85222,33 +85222,33 @@
 "timestamp":1613079680964,
 "version":"1.2.0.1"
 },
-"r-proxy-0.4_24-r36hcdcec82_1.tar.bz2":{
-"build":"r36hcdcec82_1",
-"build_number":1,
+"r-proxy-0.4_25-r36h96a179c_0.tar.bz2":{
+"build":"r36h96a179c_0",
+"build_number":0,
 "depends":[
-"libgcc-ng >=7.3.0",
+"libgcc-ng >=9.3.0",
 "r-base >=3.6,<3.7.0a0"
 ],
-"license":"GPL-2",
+"license":"GPL-2.0-only",
 "name":"r-proxy",
-"sha256":"2f2df1341586541aa5648b3de2809e20bfb6f588062adc3ba01c95fa9941ee51",
-"size":243449,
-"timestamp":1588671994160,
-"version":"0.4_24"
+"sha256":"bece30eb712b78c9b667263e565f166f14c23a8e0d5f6e06657e782fa723821e",
+"size":238491,
+"timestamp":1614991825994,
+"version":"0.4_25"
 },
-"r-proxy-0.4_24-r40hcdcec82_1.tar.bz2":{
-"build":"r40hcdcec82_1",
-"build_number":1,
+"r-proxy-0.4_25-r40h96a179c_0.tar.bz2":{
+"build":"r40h96a179c_0",
+"build_number":0,
 "depends":[
-"libgcc-ng >=7.3.0",
+"libgcc-ng >=9.3.0",
 "r-base >=4.0,<4.1.0a0"
 ],
-"license":"GPL-2",
+"license":"GPL-2.0-only",
 "name":"r-proxy",
-"sha256":"373e46a96dc8b7c152817e3ec96eec45df7a76c6ef1b3d3f4229ef36ffada98c",
-"size":242364,
-"timestamp":1588672267316,
-"version":"0.4_24"
+"sha256":"4b3941c2802cfe0618f5461e680c1d52522eadcf2ebdc9b5893316b5c3b97baf",
+"size":237267,
+"timestamp":1614992480417,
+"version":"0.4_25"
 },
 "r-pryr-0.1.4-r36h0357c0b_1003.tar.bz2":{
 "build":"r36h0357c0b_1003",
@@ -89085,7 +89085,7 @@
 "timestamp":1605270979519,
 "version":"2020.11.13"
 },
-"reportlab-3.5.60-py36h116d09a_0.tar.bz2":{
+"reportlab-3.5.63-py36h116d09a_0.tar.bz2":{
 "build":"py36h116d09a_0",
 "build_number":0,
 "depends":[
@@ -89097,12 +89097,12 @@
 ],
 "license":"BSD 3-Clause",
 "name":"reportlab",
-"sha256":"3331e1efeff7d0fb6ca556d9df45b4eb0b3cd042dbba25b9d063d7700f8e44a0",
-"size":2567441,
-"timestamp":1611326261205,
-"version":"3.5.60"
+"sha256":"91f27800d45b532d64209d450fdfe6c9599bda986c0a23de04bab4b0c299af57",
+"size":2570341,
+"timestamp":1614993086791,
+"version":"3.5.63"
 },
-"reportlab-3.5.60-py36h69ca871_0.tar.bz2":{
+"reportlab-3.5.63-py36h69ca871_0.tar.bz2":{
 "build":"py36h69ca871_0",
 "build_number":0,
 "depends":[
@@ -89115,12 +89115,12 @@
 ],
 "license":"BSD 3-Clause",
 "name":"reportlab",
-"sha256":"84f254402217d54f428d41f55194cf9e724dbe9ec649e9490980b035d14b5fa6",
-"size":2580469,
-"timestamp":1611326347135,
-"version":"3.5.60"
+"sha256":"a146c4cf801c06fe864f2e177d3f0370c7363ece01f4c1a6c70ec0d0cfc44e4a",
+"size":2574944,
+"timestamp":1614993308077,
+"version":"3.5.63"
 },
-"reportlab-3.5.60-py37h49369dd_0.tar.bz2":{
+"reportlab-3.5.63-py37h49369dd_0.tar.bz2":{
 "build":"py37h49369dd_0",
 "build_number":0,
 "depends":[
@@ -89132,12 +89132,12 @@
 ],
 "license":"BSD 3-Clause",
 "name":"reportlab",
-"sha256":"d381b0923dc8815eae1cdcccad7c124b752c1f1f003707e2811cd8d789108855",
-"size":2568879,
-"timestamp":1611326669141,
-"version":"3.5.60"
+"sha256":"52742327edf4991a329c2ae83483e1fd9642afb03dd455b30dadcef5b9c80466",
+"size":2543809,
+"timestamp":1614992778149,
+"version":"3.5.63"
 },
-"reportlab-3.5.60-py37he8de46e_0.tar.bz2":{
+"reportlab-3.5.63-py37he8de46e_0.tar.bz2":{
 "build":"py37he8de46e_0",
 "build_number":0,
 "depends":[
@@ -89150,12 +89150,12 @@
 ],
 "license":"BSD 3-Clause",
 "name":"reportlab",
-"sha256":"36fac7039ee3289eeda45953df4c47de86c65324ef98641fe4f10875ff035e42",
-"size":2585708,
-"timestamp":1611326905650,
-"version":"3.5.60"
+"sha256":"cb73d262c24b595579a0f388cc11bf5e3aa9e5153f3b330d3c73bd75249f6194",
+"size":2587426,
+"timestamp":1614992766989,
+"version":"3.5.63"
 },
-"reportlab-3.5.60-py38h3f7da81_0.tar.bz2":{
+"reportlab-3.5.63-py38h3f7da81_0.tar.bz2":{
 "build":"py38h3f7da81_0",
 "build_number":0,
 "depends":[
@@ -89167,12 +89167,12 @@
 ],
 "license":"BSD 3-Clause",
 "name":"reportlab",
-"sha256":"b91ebe9146f37eb8b8db42611127d7bcf3a9a8e0affb15afcf912f4a335f248f",
-"size":2561296,
-"timestamp":1611326240728,
-"version":"3.5.60"
+"sha256":"c6a56443582176a03ce2e52ec46d036297c8f3093bb73b545d51b1873e7bf361",
+"size":2535178,
+"timestamp":1614993044543,
+"version":"3.5.63"
 },
-"reportlab-3.5.60-py39h97cb7f8_0.tar.bz2":{
+"reportlab-3.5.63-py39h97cb7f8_0.tar.bz2":{
 "build":"py39h97cb7f8_0",
 "build_number":0,
 "depends":[
@@ -89184,10 +89184,10 @@
 ],
 "license":"BSD 3-Clause",
 "name":"reportlab",
-"sha256":"51235d62f76b6455828101e781e79e0e44f233458740e0b72cfaebdd0fb3ecc3",
-"size":2556482,
-"timestamp":1611326682615,
-"version":"3.5.60"
+"sha256":"8ddca7f9b7cc2985ea26e189256387d7b3f1966fa31788845f8457b6718b0d50",
+"size":2553723,
+"timestamp":1614993059461,
+"version":"3.5.63"
 },
 "reproc-14.2.1-hb9de7d4_0.tar.bz2":{
 "build":"hb9de7d4_0",
