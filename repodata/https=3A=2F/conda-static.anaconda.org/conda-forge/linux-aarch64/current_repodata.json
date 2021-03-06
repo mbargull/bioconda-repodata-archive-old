@@ -98266,6 +98266,42 @@
 "timestamp":1614737930038,
 "version":"4.0.0"
 },
+"spacy-3.0.3-py36hfae455c_0.tar.bz2":{
+"build":"py36hfae455c_0",
+"build_number":0,
+"depends":[
+"catalogue >=2.0.1,<2.1.0",
+"cymem >=2.0.2,<2.1.0",
+"cython-blis >=0.4.0,<0.8.0",
+"importlib_metadata >=0.20",
+"jinja2",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"murmurhash >=0.28.0,<1.1.0",
+"numpy >=1.16.6,<2.0a0",
+"packaging >=20.0",
+"pathy",
+"preshed >=3.0.2,<3.1.0",
+"pydantic >=1.7.1,<1.8.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"requests >=2.13.0,<3.0.0",
+"setuptools",
+"spacy-legacy >=3.0.0,<3.1.0",
+"srsly >=2.4.0,<3.0.0",
+"thinc >=8.0.0,<8.1.0",
+"tqdm >=4.38.0,<5.0.0",
+"typer >=0.3.0,<0.4.0",
+"typing_extensions >=3.7.4",
+"wasabi >=0.8.1,<1.1.0"
+],
+"license":"MIT",
+"name":"spacy",
+"sha256":"4a461c95dff8aa21d8aa7c3fd6e2dc0939cd49e543f98097f064e6059ed3a391",
+"size":10868200,
+"timestamp":1615021979491,
+"version":"3.0.3"
+},
 "spacy-3.0.3-py37h6031793_0.tar.bz2":{
 "build":"py37h6031793_0",
 "build_number":0,
@@ -98300,6 +98336,40 @@
 "sha256":"232bd8704ce444dd16cab7dccdd036fde36d7dc71e0cacd9f1ee6efc2e0d13aa",
 "size":10601817,
 "timestamp":1613312034517,
+"version":"3.0.3"
+},
+"spacy-3.0.3-py38h4031626_0.tar.bz2":{
+"build":"py38h4031626_0",
+"build_number":0,
+"depends":[
+"catalogue >=2.0.1,<2.1.0",
+"cymem >=2.0.2,<2.1.0",
+"cython-blis >=0.4.0,<0.8.0",
+"jinja2",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"murmurhash >=0.28.0,<1.1.0",
+"numpy >=1.16.6,<2.0a0",
+"packaging >=20.0",
+"pathy",
+"preshed >=3.0.2,<3.1.0",
+"pydantic >=1.7.1,<1.8.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"requests >=2.13.0,<3.0.0",
+"setuptools",
+"spacy-legacy >=3.0.0,<3.1.0",
+"srsly >=2.4.0,<3.0.0",
+"thinc >=8.0.0,<8.1.0",
+"tqdm >=4.38.0,<5.0.0",
+"typer >=0.3.0,<0.4.0",
+"wasabi >=0.8.1,<1.1.0"
+],
+"license":"MIT",
+"name":"spacy",
+"sha256":"2ea21a59a9a3499f9d75459d882abacacc4119a8b2f8fb9d15b6d56ea0594259",
+"size":10958021,
+"timestamp":1615021934211,
 "version":"3.0.3"
 },
 "spacy-3.0.3-py39h9f797f2_0.tar.bz2":{
@@ -105613,7 +105683,7 @@
 "timestamp":1606568142746,
 "version":"0.6.6"
 },
-"viztracer-0.12.0-py36h269c3a8_0.tar.bz2":{
+"viztracer-0.12.1-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
 "depends":[
@@ -105625,12 +105695,12 @@
 ],
 "license":"Apache-2.0",
 "name":"viztracer",
-"sha256":"4875c648dbe89c0f9fee41a7df04ec29280dfd2cd10bbb44a837b3c03ccf24cd",
-"size":688070,
-"timestamp":1614031380468,
-"version":"0.12.0"
+"sha256":"1e6492cf1e66add2ebc44d8d40b62f206902389ed041e3bc794a34e685963888",
+"size":693463,
+"timestamp":1615025873281,
+"version":"0.12.1"
 },
-"viztracer-0.12.0-py37hcd4c3ab_0.tar.bz2":{
+"viztracer-0.12.1-py37hcd4c3ab_0.tar.bz2":{
 "build":"py37hcd4c3ab_0",
 "build_number":0,
 "depends":[
@@ -105642,12 +105712,12 @@
 ],
 "license":"Apache-2.0",
 "name":"viztracer",
-"sha256":"e32b2df1c1e6ee6e68859a78b05c8c7b77cce53436fa8bd3624ba0423b5c2213",
-"size":687559,
-"timestamp":1614031384411,
-"version":"0.12.0"
+"sha256":"eb04b4584ee6e0a0bed02b88c7510b45a22d612808dbfe9f55831acb8f1d1848",
+"size":690455,
+"timestamp":1615026298947,
+"version":"0.12.1"
 },
-"viztracer-0.12.0-py38h9544abe_0.tar.bz2":{
+"viztracer-0.12.1-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
@@ -105659,12 +105729,12 @@
 ],
 "license":"Apache-2.0",
 "name":"viztracer",
-"sha256":"7f839f8f742a1a8db332850b7403fdca522927967876e95a4545916769cacf50",
-"size":697580,
-"timestamp":1614031816272,
-"version":"0.12.0"
+"sha256":"76d902975b9fe4c4efd960a9733fa58520d7be13f08c3aeed3a758c0b0d17225",
+"size":688774,
+"timestamp":1615025989488,
+"version":"0.12.1"
 },
-"viztracer-0.12.0-py39h14843e3_0.tar.bz2":{
+"viztracer-0.12.1-py39h14843e3_0.tar.bz2":{
 "build":"py39h14843e3_0",
 "build_number":0,
 "depends":[
@@ -105676,10 +105746,10 @@
 ],
 "license":"Apache-2.0",
 "name":"viztracer",
-"sha256":"672f1d8d79eccfab352fb2b9a85c5a4c4174de3372bb12e80f2a6e44bbefdc11",
-"size":686442,
-"timestamp":1614031589350,
-"version":"0.12.0"
+"sha256":"23aee552f4c09931d60005b1e895f7c32eac425ae971270ab56c446103a97e33",
+"size":690480,
+"timestamp":1615025995409,
+"version":"0.12.1"
 },
 "voms-2.1.0rc0-h2c113ba_1.tar.bz2":{
 "build":"h2c113ba_1",
