@@ -1771,102 +1771,6 @@
 "timestamp":1614898468981,
 "version":"0.5.2"
 },
-"aws-c-event-stream-0.2.6-h03b0fdb_3.tar.bz2":{
-"build":"h03b0fdb_3",
-"build_number":3,
-"depends":[
-"aws-c-common >=0.4.66,<0.4.67.0a0",
-"aws-c-io >=0.8.3,<0.8.4.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libcxx >=11.0.1"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"3732cf986f943f48e21640145a8d55809da742506edab3673e3412522a1ed6f4",
-"size":42340,
-"timestamp":1612688433080,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-h0d44b10_0.tar.bz2":{
-"build":"h0d44b10_0",
-"build_number":0,
-"depends":[
-"aws-c-common >=0.4.59,<0.4.60.0a0",
-"aws-c-io >=0.7.1,<0.7.2.0a0",
-"aws-checksums >=0.1.10,<0.1.11.0a0",
-"libcxx >=11.0.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"112106f5b63764bc011bcfbf79ddbecace1b40fdff9a506efc165d360fd67ee6",
-"size":42388,
-"timestamp":1607515833912,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-h464a8f3_4.tar.bz2":{
-"build":"h464a8f3_4",
-"build_number":4,
-"depends":[
-"aws-c-common >=0.4.67,<0.4.68.0a0",
-"aws-c-io >=0.8.3,<0.8.4.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libcxx >=11.0.1"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"c423657e4ed9a63a36a41f37a03b4a53c66f6ea16e77bf6d1d4d5721ace622f9",
-"size":42382,
-"timestamp":1613074945160,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-ha4471e2_1.tar.bz2":{
-"build":"ha4471e2_1",
-"build_number":1,
-"depends":[
-"aws-c-common >=0.4.65,<0.4.66.0a0",
-"aws-c-io >=0.8.0,<0.8.1.0a0",
-"aws-checksums >=0.1.10,<0.1.11.0a0",
-"libcxx >=11.0.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"e07254e885edc819fd312850d79a5cd6d948ba2e6746f7b5fd1ccd51fbdaed8d",
-"size":42359,
-"timestamp":1610432165156,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-hcd32331_2.tar.bz2":{
-"build":"hcd32331_2",
-"build_number":2,
-"depends":[
-"aws-c-common >=0.4.66,<0.4.67.0a0",
-"aws-c-io >=0.8.2,<0.8.3.0a0",
-"aws-checksums >=0.1.10,<0.1.11.0a0",
-"libcxx >=11.0.1"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"702cee8e7254d487d470e32414d9409c7b443b31b185648452778e837912b9aa",
-"size":42387,
-"timestamp":1612514082176,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-hcdd0404_5.tar.bz2":{
-"build":"hcdd0404_5",
-"build_number":5,
-"depends":[
-"aws-c-common >=0.5.1,<0.5.2.0a0",
-"aws-c-io >=0.9.0,<0.9.1.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libcxx >=11.0.1"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"de4489638c6ac76300edb21ededab04cc553a3924601b3780874365419e1aa30",
-"size":42387,
-"timestamp":1614105405427,
-"version":"0.2.6"
-},
 "aws-c-event-stream-0.2.7-h33d6dd2_1.tar.bz2":{
 "build":"h33d6dd2_1",
 "build_number":1,
@@ -2157,6 +2061,23 @@
 "size":3815630,
 "timestamp":1614320628362,
 "version":"1.8.138"
+},
+"aws-sdk-cpp-1.8.151-h507fe3e_0.tar.bz2":{
+"build":"h507fe3e_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.5.1,<0.5.2.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"libcurl >=7.75.0,<8.0a0",
+"libcxx >=11.1.0",
+"openssl >=1.1.1j,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"sha256":"d3138086457aa7d8b0534c103671079617996eac58f8a34b1a40d2345879a94b",
+"size":3872365,
+"timestamp":1615051406067,
+"version":"1.8.151"
 },
 "backports.lzma-0.0.14-py38he94ad69_3.tar.bz2":{
 "build":"py38he94ad69_3",
@@ -2771,7 +2692,7 @@
 "timestamp":1608638658328,
 "version":"1.21.0"
 },
-"boa-0.4.0-py38h10201cd_0.tar.bz2":{
+"boa-0.4.1-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "depends":[
@@ -2791,12 +2712,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boa",
-"sha256":"ee248ef34426a478fadb8e1db95da3a0a9f3a678bb6bb4155a07f180f6c05978",
-"size":78605,
-"timestamp":1614426837692,
-"version":"0.4.0"
+"sha256":"d57de105d6b77e5f143bc04948018a452636c4c3ed6bc3afd8bae43319616f44",
+"size":79233,
+"timestamp":1615051895677,
+"version":"0.4.1"
 },
-"boa-0.4.0-py39h2804cbe_0.tar.bz2":{
+"boa-0.4.1-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "depends":[
@@ -2816,10 +2737,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boa",
-"sha256":"30212e5626ff7ba0bccd1ce3217e2bf091175b1cf3b2ea28cec2e0b6fd1da2b9",
-"size":78650,
-"timestamp":1614426766476,
-"version":"0.4.0"
+"sha256":"6e4949c73b8c699f635c8dae2bd0ab5b69f80dfce539dc62ea7642e82909b5b0",
+"size":79325,
+"timestamp":1615052120194,
+"version":"0.4.1"
 },
 "bokeh-2.3.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",

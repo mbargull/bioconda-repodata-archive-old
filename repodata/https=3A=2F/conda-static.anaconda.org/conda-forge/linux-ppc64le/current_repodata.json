@@ -8808,91 +8808,6 @@
 "timestamp":1614898320946,
 "version":"0.5.2"
 },
-"aws-c-event-stream-0.2.6-h4a18934_5.tar.bz2":{
-"build":"h4a18934_5",
-"build_number":5,
-"depends":[
-"aws-c-common >=0.5.1,<0.5.2.0a0",
-"aws-c-io >=0.9.0,<0.9.1.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"ac51543c548bbc24f6083537047c6aad3df660cc78c464909eddc49f7973bfcf",
-"size":49872,
-"timestamp":1614105423604,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-h72aaf49_2.tar.bz2":{
-"build":"h72aaf49_2",
-"build_number":2,
-"depends":[
-"aws-c-common >=0.4.66,<0.4.67.0a0",
-"aws-c-io >=0.8.2,<0.8.3.0a0",
-"aws-checksums >=0.1.10,<0.1.11.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"531d927f207f072ffec2a8f17f27620334e091748bfe50b0405bbb99e35e3d52",
-"size":49860,
-"timestamp":1612514151644,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-ha665381_3.tar.bz2":{
-"build":"ha665381_3",
-"build_number":3,
-"depends":[
-"aws-c-common >=0.4.66,<0.4.67.0a0",
-"aws-c-io >=0.8.3,<0.8.4.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"8f7192b4c0c74c95ffa2ae1f4e47861ef37beb366e04cad82129ecb88b488d49",
-"size":49885,
-"timestamp":1612688523164,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-hb45462e_4.tar.bz2":{
-"build":"hb45462e_4",
-"build_number":4,
-"depends":[
-"aws-c-common >=0.4.67,<0.4.68.0a0",
-"aws-c-io >=0.8.3,<0.8.4.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"1653e3e1de5ef7caa320b9701ade5862c83fbccd2fbe3ce95fa2dfaf13a7c288",
-"size":49975,
-"timestamp":1613074867503,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-hf8fd2f9_1.tar.bz2":{
-"build":"hf8fd2f9_1",
-"build_number":1,
-"depends":[
-"aws-c-common >=0.4.65,<0.4.66.0a0",
-"aws-c-io >=0.8.0,<0.8.1.0a0",
-"aws-checksums >=0.1.10,<0.1.11.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"d624bfc72da5ac4c0c6a3b0a8e0000ed0d0422187db229f76a9f048e0db56ee8",
-"size":49855,
-"timestamp":1610454360672,
-"version":"0.2.6"
-},
 "aws-c-event-stream-0.2.7-h421232b_1.tar.bz2":{
 "build":"h421232b_1",
 "build_number":1,
@@ -9206,6 +9121,24 @@
 "size":4389656,
 "timestamp":1613118646606,
 "version":"1.8.138"
+},
+"aws-sdk-cpp-1.8.151-h2fa6871_0.tar.bz2":{
+"build":"h2fa6871_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.5.1,<0.5.2.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"libcurl >=7.75.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1j,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"sha256":"5688852c8530b50068a5bf6dc8000e20f92f10a3a75873093b1c8fe461f977de",
+"size":4476482,
+"timestamp":1615051252728,
+"version":"1.8.151"
 },
 "awscli-1.19.22-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
@@ -11738,7 +11671,7 @@
 "timestamp":1608638785599,
 "version":"1.21.0"
 },
-"boa-0.4.0-py36h270354c_0.tar.bz2":{
+"boa-0.4.1-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -11758,12 +11691,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boa",
-"sha256":"89fa28ac429222856520459d47600055edb10ba947ec3ed9a573e6244b74816c",
-"size":77793,
-"timestamp":1614426849646,
-"version":"0.4.0"
+"sha256":"5aff8f18b942120fc06c7683fcb42ffa7faed9b79b528f8a418f313468b9bb3c",
+"size":78596,
+"timestamp":1615051883336,
+"version":"0.4.1"
 },
-"boa-0.4.0-py37h35e4cab_0.tar.bz2":{
+"boa-0.4.1-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -11783,37 +11716,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boa",
-"sha256":"768ae2e8bc15868b64e9f5bf2a955a2c8e703e8cc0f109f65a8928fe289de634",
-"size":78048,
-"timestamp":1614426846426,
-"version":"0.4.0"
+"sha256":"56ef658246224111c8d4f0021626ad735346e5ceafda407c2ad735f94ef32265",
+"size":78718,
+"timestamp":1615051866177,
+"version":"0.4.1"
 },
-"boa-0.4.0-py38hf8b3453_0.tar.bz2":{
-"build":"py38hf8b3453_0",
-"build_number":0,
-"depends":[
-"conda-build >=3.20,<3.22",
-"dataclasses",
-"inotify_simple",
-"jinja2",
-"joblib",
-"json5",
-"jsonschema",
-"mamba >=0.7",
-"prompt_toolkit",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"rich",
-"ruamel.yaml"
-],
-"license":"BSD-3-Clause",
-"name":"boa",
-"sha256":"3a6aeb003dfcb228c1462b4cd0e9054e00f0f576a07894dc7b8bfff679a95503",
-"size":78350,
-"timestamp":1614426843104,
-"version":"0.4.0"
-},
-"boa-0.4.0-py39hc1b9086_0.tar.bz2":{
+"boa-0.4.1-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -11833,10 +11741,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boa",
-"sha256":"234d2b8dc7fd591b58d04ae6ea72c1edf87f85ac9299571553327fc5fd382c00",
-"size":78321,
-"timestamp":1614426834212,
-"version":"0.4.0"
+"sha256":"22b784334c92a3c6fb9f4b689df3d98fe626472dc7db988e7f84a88556530802",
+"size":79139,
+"timestamp":1615052005084,
+"version":"0.4.1"
 },
 "bokeh-2.3.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
