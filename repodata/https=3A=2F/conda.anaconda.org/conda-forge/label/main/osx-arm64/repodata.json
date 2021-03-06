@@ -6911,6 +6911,23 @@
 "timestamp":1614320628362,
 "version":"1.8.138"
 },
+"aws-sdk-cpp-1.8.151-h507fe3e_0.tar.bz2":{
+"build":"h507fe3e_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.5.1,<0.5.2.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"libcurl >=7.75.0,<8.0a0",
+"libcxx >=11.1.0",
+"openssl >=1.1.1j,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"requires":[],
+"size":3872365,
+"timestamp":1615051406067,
+"version":"1.8.151"
+},
 "aws-sdk-cpp-1.8.52-h0158dae_0.tar.bz2":{
 "build":"h0158dae_0",
 "build_number":0,
@@ -8166,6 +8183,31 @@
 "size":78650,
 "timestamp":1614426766476,
 "version":"0.4.0"
+},
+"boa-0.4.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"conda-build >=3.20,<3.22",
+"dataclasses",
+"inotify_simple",
+"jinja2",
+"joblib",
+"json5",
+"jsonschema",
+"mamba >=0.7",
+"prompt_toolkit",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"rich",
+"ruamel.yaml"
+],
+"license":"BSD-3-Clause",
+"name":"boa",
+"requires":[],
+"size":79233,
+"timestamp":1615051895677,
+"version":"0.4.1"
 },
 "bokeh-2.2.3-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
