@@ -10888,6 +10888,17 @@
 "timestamp":1614543736146,
 "version":"11.0.1"
 },
+"clang_bootstrap_osx-64-11.1.0-ha99727f_0.tar.bz2":{
+"build":"ha99727f_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"clang_bootstrap_osx-64",
+"requires":[],
+"size":55548456,
+"timestamp":1614986448254,
+"version":"11.1.0"
+},
 "clang_bootstrap_osx-arm64-11.0.0-h1741c7c_10.tar.bz2":{
 "build":"h1741c7c_10",
 "build_number":10,
@@ -11049,6 +11060,17 @@
 "size":54654472,
 "timestamp":1614543916319,
 "version":"11.0.1"
+},
+"clang_bootstrap_osx-arm64-11.1.0-h1741c7c_0.tar.bz2":{
+"build":"h1741c7c_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"clang_bootstrap_osx-arm64",
+"requires":[],
+"size":54444132,
+"timestamp":1614986930396,
+"version":"11.1.0"
 },
 "clang_osx-64-11.0.0-h36f49d1_0.tar.bz2":{
 "build":"h36f49d1_0",
@@ -11301,6 +11323,24 @@
 "timestamp":1614542075239,
 "version":"11.0.1"
 },
+"clang_osx-64-11.1.0-ha77c5c3_0.tar.bz2":{
+"build":"ha77c5c3_0",
+"build_number":0,
+"depends":[
+"cctools_osx-64",
+"clang 11.1.0.*",
+"compiler-rt 11.1.0.*",
+"ld64_osx-64",
+"ld64_osx-arm64",
+"llvm-tools 11.1.0.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-64",
+"requires":[],
+"size":16042,
+"timestamp":1614985063012,
+"version":"11.1.0"
+},
 "clang_osx-arm64-11.0.0-h54d7cd3_10.tar.bz2":{
 "build":"h54d7cd3_10",
 "build_number":10,
@@ -11538,6 +11578,23 @@
 "size":15891,
 "timestamp":1614542071184,
 "version":"11.0.1"
+},
+"clang_osx-arm64-11.1.0-h54d7cd3_0.tar.bz2":{
+"build":"h54d7cd3_0",
+"build_number":0,
+"depends":[
+"cctools_osx-arm64",
+"clang 11.1.0.*",
+"compiler-rt 11.1.0.*",
+"ld64_osx-arm64",
+"llvm-tools 11.1.0.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-arm64",
+"requires":[],
+"size":15940,
+"timestamp":1614985174287,
+"version":"11.1.0"
 },
 "clang_variant-1.0-cling_v0.7.tar.bz2":{
 "build":"cling_v0.7",
@@ -12105,6 +12162,22 @@
 "timestamp":1614542090863,
 "version":"11.0.1"
 },
+"clangxx_osx-64-11.1.0-h8d3ee1a_0.tar.bz2":{
+"build":"h8d3ee1a_0",
+"build_number":0,
+"depends":[
+"clang_osx-64 11.1.0 ha77c5c3_0",
+"clangxx 11.1.0.*",
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-64",
+"requires":[],
+"size":15678,
+"timestamp":1614985077189,
+"version":"11.1.0"
+},
 "clangxx_osx-arm64-11.0.0-h0c2fba2_4.tar.bz2":{
 "build":"h0c2fba2_4",
 "build_number":4,
@@ -12319,6 +12392,22 @@
 "size":15589,
 "timestamp":1614542091340,
 "version":"11.0.1"
+},
+"clangxx_osx-arm64-11.1.0-hb84c830_0.tar.bz2":{
+"build":"hb84c830_0",
+"build_number":0,
+"depends":[
+"clang_osx-arm64 11.1.0 h54d7cd3_0",
+"clangxx 11.1.0.*",
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-arm64",
+"requires":[],
+"size":15586,
+"timestamp":1614985188273,
+"version":"11.1.0"
 },
 "cli11-1.9.1-hc88da5d_2.tar.bz2":{
 "build":"hc88da5d_2",
@@ -20552,6 +20641,25 @@
 "size":2737779,
 "timestamp":1614813644092,
 "version":"1.36.1"
+},
+"grpc-cpp-1.36.2-h6055c98_0.tar.bz2":{
+"build":"h6055c98_0",
+"build_number":0,
+"depends":[
+"abseil-cpp >=20200923.3,<20200923.4.0a0",
+"c-ares >=1.17.1,<2.0a0",
+"libcxx >=11.0.1",
+"libprotobuf >=3.15.5,<3.16.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"re2 >=2020.11.1,<2020.11.2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpc-cpp",
+"requires":[],
+"size":2745573,
+"timestamp":1614989060111,
+"version":"1.36.2"
 },
 "grpcio-1.33.2-py38h446835f_2.tar.bz2":{
 "build":"py38h446835f_2",
@@ -49093,6 +49201,38 @@
 "size":2524292,
 "timestamp":1611326429768,
 "version":"3.5.60"
+},
+"reportlab-3.5.63-py38hf1a8077_0.tar.bz2":{
+"build":"py38hf1a8077_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"pillow >=2.4.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD 3-Clause",
+"name":"reportlab",
+"requires":[],
+"size":2555554,
+"timestamp":1614989885406,
+"version":"3.5.63"
+},
+"reportlab-3.5.63-py39h3f6938b_0.tar.bz2":{
+"build":"py39h3f6938b_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"pillow >=2.4.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD 3-Clause",
+"name":"reportlab",
+"requires":[],
+"size":2543757,
+"timestamp":1614989878564,
+"version":"3.5.63"
 },
 "reproc-14.2.0-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
