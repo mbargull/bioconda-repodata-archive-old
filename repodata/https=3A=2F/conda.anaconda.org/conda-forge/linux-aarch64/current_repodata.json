@@ -8239,6 +8239,23 @@
 "timestamp":1603046878166,
 "version":"3.9.0"
 },
+"blaspp-2020.10.02-h80c51b1_2.tar.bz2":{
+"build":"h80c51b1_2",
+"build_number":2,
+"depends":[
+"_openmp_mutex >=4.5",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"blaspp",
+"sha256":"9e7c43cde0d0a1cc9512366a45c26982b959ab90cc67117da2806dbc731d4293",
+"size":105803,
+"timestamp":1615198947356,
+"version":"2020.10.02"
+},
 "blessings-1.7-py36h2e20a7f_1004.tar.bz2":{
 "build":"py36h2e20a7f_1004",
 "build_number":1004,
@@ -39991,7 +40008,7 @@
 "timestamp":1606754845902,
 "version":"1.5.10"
 },
-"kaleido-core-0.2.0-he5a581e_0.tar.bz2":{
+"kaleido-core-0.2.1-he5a581e_0.tar.bz2":{
 "build":"he5a581e_0",
 "build_number":0,
 "depends":[
@@ -40007,10 +40024,25 @@
 ],
 "license":"MIT",
 "name":"kaleido-core",
-"sha256":"8f08f54a9fc3f5620c556e8cf592105f541967275dcb178493a35c2e289e1f03",
-"size":65782503,
-"timestamp":1614867080336,
-"version":"0.2.0"
+"sha256":"d3c7f4797566e6f983d16c2a87063a18e4b2d819a66230190a21584d70042755",
+"size":65750397,
+"timestamp":1615199465742,
+"version":"0.2.1"
+},
+"kealib-1.4.14-had8781f_2.tar.bz2":{
+"build":"had8781f_2",
+"build_number":2,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"kealib",
+"sha256":"d6f830f77cc98e11454768e956d1e65ab826d729f809ae5cf15ba13c33c42a4a",
+"size":150142,
+"timestamp":1615197836331,
+"version":"1.4.14"
 },
 "keyring-21.2.1-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
