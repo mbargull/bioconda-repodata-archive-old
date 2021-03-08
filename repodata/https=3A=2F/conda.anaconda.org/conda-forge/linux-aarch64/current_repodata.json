@@ -5448,108 +5448,6 @@
 "timestamp":1614898302627,
 "version":"0.5.2"
 },
-"aws-c-event-stream-0.2.6-h0c7c531_4.tar.bz2":{
-"build":"h0c7c531_4",
-"build_number":4,
-"depends":[
-"aws-c-common >=0.4.67,<0.4.68.0a0",
-"aws-c-io >=0.8.3,<0.8.4.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"1c448fed3937af5df3b629bc0065b690a81a4cf679c2a04afbbeb4524cddfadf",
-"size":48074,
-"timestamp":1613074863387,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-h60df931_3.tar.bz2":{
-"build":"h60df931_3",
-"build_number":3,
-"depends":[
-"aws-c-common >=0.4.66,<0.4.67.0a0",
-"aws-c-io >=0.8.3,<0.8.4.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"fd298fd753fb803969280f9d4d7958536ab48ee935b53c405c762efb0844d1a3",
-"size":48118,
-"timestamp":1612688497898,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-h6c0aa0c_0.tar.bz2":{
-"build":"h6c0aa0c_0",
-"build_number":0,
-"depends":[
-"aws-c-common >=0.4.59,<0.4.60.0a0",
-"aws-c-io >=0.6.5,<0.6.6.0a0",
-"aws-checksums >=0.1.10,<0.1.11.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"82b517e989a958c84e4b600fd7493ca7a0777c7d895bf028216d74e2ddf1fe75",
-"size":47795,
-"timestamp":1607515814748,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-h80e594c_1.tar.bz2":{
-"build":"h80e594c_1",
-"build_number":1,
-"depends":[
-"aws-c-common >=0.4.65,<0.4.66.0a0",
-"aws-c-io >=0.8.0,<0.8.1.0a0",
-"aws-checksums >=0.1.10,<0.1.11.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"89b61e36f9e41c367ff9ea629eeb466228a1c0eb424d8cdef48c46192b848bf3",
-"size":47871,
-"timestamp":1610436867007,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-ha43b735_2.tar.bz2":{
-"build":"ha43b735_2",
-"build_number":2,
-"depends":[
-"aws-c-common >=0.4.66,<0.4.67.0a0",
-"aws-c-io >=0.8.2,<0.8.3.0a0",
-"aws-checksums >=0.1.10,<0.1.11.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"20f8fd43c5077756ca71938a48ce9c740a1c4d2331458046b9b85c2dce5b702a",
-"size":48100,
-"timestamp":1612514120512,
-"version":"0.2.6"
-},
-"aws-c-event-stream-0.2.6-hcf5945b_5.tar.bz2":{
-"build":"hcf5945b_5",
-"build_number":5,
-"depends":[
-"aws-c-common >=0.5.1,<0.5.2.0a0",
-"aws-c-io >=0.9.0,<0.9.1.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-event-stream",
-"sha256":"ee3df25441f917b5fa466d46d737a7789a399491259020b1558f3ddaa21f6d71",
-"size":48013,
-"timestamp":1614105399185,
-"version":"0.2.6"
-},
 "aws-c-event-stream-0.2.7-h78ca776_1.tar.bz2":{
 "build":"h78ca776_1",
 "build_number":1,
@@ -5863,6 +5761,24 @@
 "size":4510800,
 "timestamp":1612957606847,
 "version":"1.8.138"
+},
+"aws-sdk-cpp-1.8.151-h8490dcc_1.tar.bz2":{
+"build":"h8490dcc_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.5.2,<0.5.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"libcurl >=7.75.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1j,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"sha256":"0877f96abe2ae8f065f6b326c3565aa7f8f4b5fd07d30f821d128d5c7b1617a6",
+"size":4584900,
+"timestamp":1615242095288,
+"version":"1.8.151"
 },
 "awscli-1.19.22-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
@@ -44436,7 +44352,7 @@
 "timestamp":1610748072889,
 "version":"2.6.2"
 },
-"libignition-common3-3.10.1-hccad563_0.tar.bz2":{
+"libignition-common3-3.11.0-hccad563_0.tar.bz2":{
 "build":"hccad563_0",
 "build_number":0,
 "depends":[
@@ -44444,7 +44360,7 @@
 "freeimage >=3.18.0,<3.19.0a0",
 "gts >=0.7.6,<0.8.0a0",
 "libgcc-ng >=9.3.0",
-"libglib >=2.66.4,<3.0a0",
+"libglib >=2.66.7,<3.0a0",
 "libignition-cmake2 >=2.6.2,<3.0a0",
 "libignition-math6 >=6.7.0,<7.0a0",
 "libstdcxx-ng >=9.3.0",
@@ -44453,10 +44369,10 @@
 ],
 "license":"Apache-2.0",
 "name":"libignition-common3",
-"sha256":"6d2fdedf34f5645e9918db07530d2354e0e412fe5baa8c2055713b8d774bbd45",
-"size":670107,
-"timestamp":1611527607076,
-"version":"3.10.1"
+"sha256":"862725d3a50a999b5b99e4b92b08c16bd2a97eea35c4a78c072ff07b1568e6e5",
+"size":686403,
+"timestamp":1615241528758,
+"version":"3.11.0"
 },
 "libignition-fuel-tools4-4.3.0-h79654bf_1.tar.bz2":{
 "build":"h79654bf_1",
