@@ -5690,6 +5690,22 @@
 "timestamp":1614945777406,
 "version":"0.9.1"
 },
+"aws-c-io-0.9.2-had6d2b4_0.tar.bz2":{
+"build":"had6d2b4_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.4.5,<0.4.6.0a0",
+"aws-c-common >=0.5.2,<0.5.3.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.0,<1.0.1.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"eb7991ae6738fa311f2d521061df5176ec91202be6db7199189e5398ee41358c",
+"size":123486,
+"timestamp":1615278055667,
+"version":"0.9.2"
+},
 "aws-checksums-0.1.11-h6b08df9_3.tar.bz2":{
 "build":"h6b08df9_3",
 "build_number":3,
@@ -106817,6 +106833,33 @@
 "timestamp":1615248954982,
 "version":"21.03"
 },
+"warpx-21.03-py36h6e52c29_3.tar.bz2":{
+"build":"py36h6e52c29_3",
+"build_number":3,
+"depends":[
+"_openmp_mutex >=4.5",
+"blaspp 2020.10.02.*",
+"fftw >=3.3.9,<4.0a0",
+"lapackpp 2020.10.02.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"openpmd-api * nompi_*",
+"openpmd-api 0.13.2.*",
+"periodictable",
+"picmistandard 0.0.14",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"scipy"
+],
+"license":"BSD-3-Clause-LBNL",
+"name":"warpx",
+"sha256":"f376a17353660414d82c815286ef805f3cc1485358dbb2276e64fa5784626d01",
+"size":1178355164,
+"timestamp":1615272370185,
+"version":"21.03"
+},
 "warpx-21.03-py36h99c505a_1.tar.bz2":{
 "build":"py36h99c505a_1",
 "build_number":1,
@@ -106867,6 +106910,33 @@
 "timestamp":1615248944239,
 "version":"21.03"
 },
+"warpx-21.03-py36h99c505a_3.tar.bz2":{
+"build":"py36h99c505a_3",
+"build_number":3,
+"depends":[
+"_openmp_mutex >=4.5",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blaspp 2020.10.02.*",
+"fftw >=3.3.9,<4.0a0",
+"lapackpp 2020.10.02.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"openpmd-api * nompi_*",
+"openpmd-api 0.13.2.*",
+"periodictable",
+"picmistandard 0.0.14",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"scipy"
+],
+"license":"BSD-3-Clause-LBNL",
+"name":"warpx",
+"sha256":"17ffa1acae1f4c3b31a3b9ecdc004261497a3f586ce0f188d7c8a3ffe3639bbf",
+"size":1178356086,
+"timestamp":1615272384612,
+"version":"21.03"
+},
 "warpx-21.03-py37h09b3027_0.tar.bz2":{
 "build":"py37h09b3027_0",
 "build_number":0,
@@ -106914,6 +106984,33 @@
 "sha256":"fe13d3194ce7a634270650373ad75af4f091e51f981b6e3789010b7ba9b9fd0c",
 "size":1143086643,
 "timestamp":1615184243689,
+"version":"21.03"
+},
+"warpx-21.03-py37h8fa212b_3.tar.bz2":{
+"build":"py37h8fa212b_3",
+"build_number":3,
+"depends":[
+"_openmp_mutex >=4.5",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blaspp 2020.10.02.*",
+"fftw >=3.3.9,<4.0a0",
+"lapackpp 2020.10.02.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"openpmd-api * nompi_*",
+"openpmd-api 0.13.2.*",
+"periodictable",
+"picmistandard 0.0.14",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"scipy"
+],
+"license":"BSD-3-Clause-LBNL",
+"name":"warpx",
+"sha256":"2cfdcd4079b09ba49980704a7753a46259247304bb8bec6d1aac66b8aae11a12",
+"size":1178359657,
+"timestamp":1615272941753,
 "version":"21.03"
 },
 "warpx-21.03-py38hf5021cc_1.tar.bz2":{
