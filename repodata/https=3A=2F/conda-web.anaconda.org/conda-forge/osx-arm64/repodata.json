@@ -19549,6 +19549,27 @@
 "timestamp":1614617291655,
 "version":"2.30.1"
 },
+"git-2.30.2-pl5320hf5a5368_0.tar.bz2":{
+"build":"pl5320hf5a5368_0",
+"build_number":0,
+"depends":[
+"curl >=7.75.0,<8.0a0",
+"expat >=2.2.10,<2.3.0a0",
+"gettext",
+"libiconv >=1.16,<1.17.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"pcre >=8.44,<9.0a0",
+"perl 5.*",
+"tk >=8.6.10,<8.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later and LGPL-2.1-or-later",
+"name":"git",
+"requires":[],
+"size":13016712,
+"timestamp":1615318639161,
+"version":"2.30.2"
+},
 "gl2ps-1.4.2-h17b34a0_0.tar.bz2":{
 "build":"h17b34a0_0",
 "build_number":0,
@@ -21523,6 +21544,36 @@
 "size":10928,
 "timestamp":1610915045297,
 "version":"2.8.110"
+},
+"gsw-3.4.0-py38h8369297_1.tar.bz2":{
+"build":"py38h8369297_1",
+"build_number":1,
+"depends":[
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"gsw",
+"requires":[],
+"size":2248570,
+"timestamp":1615320859567,
+"version":"3.4.0"
+},
+"gsw-3.4.0-py39h038c1d3_1.tar.bz2":{
+"build":"py39h038c1d3_1",
+"build_number":1,
+"depends":[
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"gsw",
+"requires":[],
+"size":2246778,
+"timestamp":1615320891107,
+"version":"3.4.0"
 },
 "gtest-1.10.0-h260d524_4.tar.bz2":{
 "build":"h260d524_4",
