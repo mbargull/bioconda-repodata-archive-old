@@ -20681,6 +20681,86 @@
 "timestamp":1602117456276,
 "version":"3.9"
 },
+"pytorch-1.8.0-cpu_py38h179404b_0.tar.bz2":{
+"build":"cpu_py38h179404b_0",
+"build_number":0,
+"depends":[
+"cffi",
+"future",
+"libblas >=3.9.0,<4.0a0",
+"libcblas",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libprotobuf >=3.15.5,<3.16.0a0",
+"llvm-openmp >=11.0.1",
+"ninja",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"sleef >=3.5.1,<4.0a0",
+"typing_extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"237bc4f2024e970d03e52be54207e2d0bd1c73718d1f19e1026ae58b5dae0c50",
+"size":33326647,
+"timestamp":1615260493288,
+"version":"1.8.0"
+},
+"pytorch-1.8.0-cpu_py39hff516c6_0.tar.bz2":{
+"build":"cpu_py39hff516c6_0",
+"build_number":0,
+"depends":[
+"cffi",
+"future",
+"libblas >=3.9.0,<4.0a0",
+"libcblas",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libprotobuf >=3.15.5,<3.16.0a0",
+"llvm-openmp >=11.0.1",
+"ninja",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sleef >=3.5.1,<4.0a0",
+"typing_extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"25c028fe5c6e309781bfd5b4f3e4781564732012bb4f58806406c96ae123e2de",
+"size":33276592,
+"timestamp":1615260524609,
+"version":"1.8.0"
+},
+"pytorch-cpu-1.8.0-cpu_py38hd610c6a_0.tar.bz2":{
+"build":"cpu_py38hd610c6a_0",
+"build_number":0,
+"depends":[
+"pytorch 1.8.0 cpu_py38h179404b_0"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch-cpu",
+"sha256":"c314ee8e05d19cc1b747236c0842d5ca711b9281d8122f80b14839a20d197a1b",
+"size":11703,
+"timestamp":1615260536984,
+"track_features":"pytorch-cpu",
+"version":"1.8.0"
+},
+"pytorch-cpu-1.8.0-cpu_py39hd610c6a_0.tar.bz2":{
+"build":"cpu_py39hd610c6a_0",
+"build_number":0,
+"depends":[
+"pytorch 1.8.0 cpu_py39hff516c6_0"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch-cpu",
+"sha256":"12aba674df95d658e686d791cf05b3265fa2e06d1e04ad72ab47fb1d7b62567d",
+"size":11713,
+"timestamp":1615260565029,
+"track_features":"pytorch-cpu",
+"version":"1.8.0"
+},
 "pywavelets-1.1.1-py38h8369297_3.tar.bz2":{
 "build":"py38h8369297_3",
 "build_number":3,
