@@ -12730,6 +12730,19 @@
 "timestamp":1597586845407,
 "version":"1.9.1"
 },
+"clinfo-3.0.21.02.21-h27ca646_0.tar.bz2":{
+"build":"h27ca646_0",
+"build_number":0,
+"depends":[
+"khronos-opencl-icd-loader >=2020.12.18"
+],
+"license":"CC0-1.0",
+"name":"clinfo",
+"sha256":"dabff0c64c473705bec1454fd81dc3e8b18fd00ec0812beb40e644ebb2b60cd8",
+"size":53934,
+"timestamp":1615323214887,
+"version":"3.0.21.02.21"
+},
 "clingo-5.4.1-py38h3f7e68f_0.tar.bz2":{
 "build":"py38h3f7e68f_0",
 "build_number":0,
@@ -21434,6 +21447,36 @@
 "size":10928,
 "timestamp":1610915045297,
 "version":"2.8.110"
+},
+"gsw-3.4.0-py38h8369297_1.tar.bz2":{
+"build":"py38h8369297_1",
+"build_number":1,
+"depends":[
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"gsw",
+"sha256":"6ea4bbd783ba2b93753e046795522194fa87d3924bca9b73344af653e61f4ca5",
+"size":2248570,
+"timestamp":1615320859567,
+"version":"3.4.0"
+},
+"gsw-3.4.0-py39h038c1d3_1.tar.bz2":{
+"build":"py39h038c1d3_1",
+"build_number":1,
+"depends":[
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"gsw",
+"sha256":"45496d511e7a1436b48809c64ef3b9debf103a881de0f8773c93f5726b46ea33",
+"size":2246778,
+"timestamp":1615320891107,
+"version":"3.4.0"
 },
 "gtest-1.10.0-h260d524_4.tar.bz2":{
 "build":"h260d524_4",
@@ -59261,6 +59304,36 @@
 "size":101530,
 "timestamp":1598700629174,
 "version":"1.2.11"
+},
+"zope.interface-5.2.0-py38h30f7421_1.tar.bz2":{
+"build":"py38h30f7421_1",
+"build_number":1,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools"
+],
+"license":"ZPL-2.1",
+"name":"zope.interface",
+"sha256":"6d28048fbe08fd0e32f2b2e60a0089951e5d5c4584fcafc4ff12bc2e872b9b35",
+"size":303832,
+"timestamp":1615321061909,
+"version":"5.2.0"
+},
+"zope.interface-5.2.0-py39h46acfd9_1.tar.bz2":{
+"build":"py39h46acfd9_1",
+"build_number":1,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools"
+],
+"license":"ZPL-2.1",
+"name":"zope.interface",
+"sha256":"270e5dfeeeb67d6ffcecfb13d5174cba0b62e97c97b69f31c478848bbe1acd52",
+"size":300025,
+"timestamp":1615321045286,
+"version":"5.2.0"
 },
 "zstandard-0.14.1-py38h3f7e68f_0.tar.bz2":{
 "build":"py38h3f7e68f_0",

@@ -13848,19 +13848,19 @@
 "timestamp":1596480682541,
 "version":"1.9.1"
 },
-"clinfo-2.2.18.04.06-h516909a_0.tar.bz2":{
-"build":"h516909a_0",
+"clinfo-3.0.21.02.21-hf897c2e_0.tar.bz2":{
+"build":"hf897c2e_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=7.5.0",
-"ocl-icd >=2.2.12,<3.0a0"
+"libgcc-ng >=9.3.0",
+"ocl-icd >=2.2.14,<3.0a0"
 ],
 "license":"CC0-1.0",
 "name":"clinfo",
-"sha256":"c5345b9cd0d6c220c6b76370ff24bc949137a02b89004fbc628f78a8c617ccf0",
-"size":47811,
-"timestamp":1597040345886,
-"version":"2.2.18.04.06"
+"sha256":"3e510605926f60b32a1c4039ef728966ee0e701b9f5ed1300e701d3cebd5c87e",
+"size":62467,
+"timestamp":1615323163969,
+"version":"3.0.21.02.21"
 },
 "cling-0.8-h6293a0b_0.tar.bz2":{
 "build":"h6293a0b_0",
@@ -27295,11 +27295,11 @@
 "timestamp":1604164550027,
 "version":"5.2.1"
 },
-"git-2.30.1-pl5320ha0a93e7_1.tar.bz2":{
-"build":"pl5320ha0a93e7_1",
-"build_number":1,
+"git-2.30.2-pl5320ha0a93e7_0.tar.bz2":{
+"build":"pl5320ha0a93e7_0",
+"build_number":0,
 "depends":[
-"curl >=7.71.1,<8.0a0",
+"curl >=7.75.0,<8.0a0",
 "expat >=2.2.10,<2.3.0a0",
 "gettext",
 "libgcc-ng >=9.3.0",
@@ -27312,32 +27312,10 @@
 ],
 "license":"GPL-2.0-or-later and LGPL-2.1-or-later",
 "name":"git",
-"sha256":"b87c005771c33d18ff645d38a5ef2fa49b1d1039fd498e753f0a45b3703e7126",
-"size":16726705,
-"timestamp":1614618717522,
-"version":"2.30.1"
-},
-"git-2.30.1-pl5320heef877d_0.tar.bz2":{
-"build":"pl5320heef877d_0",
-"build_number":0,
-"depends":[
-"curl >=7.71.1,<8.0a0",
-"expat >=2.2.10,<2.3.0a0",
-"gettext",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"pcre >=8.44,<9.0a0",
-"perl 5.*",
-"tk >=8.6.10,<8.7.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-2.0-or-later and LGPL-2.1-or-later",
-"name":"git",
-"sha256":"7ae5ae43ede9efd81e3fe90f5279aecdbe9aba6df5245250df03dc7714d61085",
-"size":16725526,
-"timestamp":1612936598629,
-"version":"2.30.1"
+"sha256":"ebb37eeb367a8184c08316a2931cf68d9a0749aa5da249e628f4e71677d20e64",
+"size":16815465,
+"timestamp":1615320256991,
+"version":"2.30.2"
 },
 "git-lfs-2.13.2-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
