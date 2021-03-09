@@ -13930,6 +13930,22 @@
 "timestamp":1615285544205,
 "version":"0.14.1"
 },
+"libthrift-0.14.1-h49bbdef_1.tar.bz2":{
+"build":"h49bbdef_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libthrift",
+"sha256":"bd2a2557895e0fd8526bbcf16c695d1fd438618eae21612fa59221e1a5112d28",
+"size":350609,
+"timestamp":1615295953610,
+"version":"0.14.1"
+},
 "libtiff-4.2.0-h70663a0_0.tar.bz2":{
 "build":"h70663a0_0",
 "build_number":0,
@@ -24316,6 +24332,23 @@
 "timestamp":1615285587040,
 "version":"0.14.1"
 },
+"thrift-compiler-0.14.1-h49bbdef_1.tar.bz2":{
+"build":"h49bbdef_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"libthrift 0.14.1 h49bbdef_1",
+"openssl >=1.1.1j,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"thrift-compiler",
+"sha256":"c7458da109dd829b0665a3b2044ed77ab597738d1063790d29bdea150751640b",
+"size":1484900,
+"timestamp":1615295993808,
+"version":"0.14.1"
+},
 "thrift-cpp-0.14.1-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
@@ -24328,6 +24361,20 @@
 "sha256":"350301ef4641ccb08e4349519cef70de29629a7212d99755496b14eca522b893",
 "size":10997,
 "timestamp":1615285597982,
+"version":"0.14.1"
+},
+"thrift-cpp-0.14.1-hce30654_1.tar.bz2":{
+"build":"hce30654_1",
+"build_number":1,
+"depends":[
+"libthrift 0.14.1 h49bbdef_1",
+"thrift-compiler 0.14.1 h49bbdef_1"
+],
+"license":"Apache-2.0",
+"name":"thrift-cpp",
+"sha256":"8b8114691de6f661d4e19bce3e4940a7122353d6b0e1f74cd488020a84f4e6a8",
+"size":11018,
+"timestamp":1615296004838,
 "version":"0.14.1"
 },
 "tiledb-2.2.4-h5d6922a_0.tar.bz2":{
