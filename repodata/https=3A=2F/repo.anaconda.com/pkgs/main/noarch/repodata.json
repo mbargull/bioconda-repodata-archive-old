@@ -11915,6 +11915,33 @@
 "timestamp":1613319430565,
 "version":"2021.2.0"
 },
+"dask-2021.3.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"bokeh >=1.0.0,!=2.0.0",
+"cloudpickle >=0.2.2",
+"cytoolz >=0.8.2",
+"dask-core 2021.3.0.*",
+"distributed >=2021.3.0",
+"fsspec >=0.6.0",
+"numpy >=1.15.1",
+"pandas >=0.25.0",
+"partd >=0.3.10",
+"python >=3.6",
+"toolz >=0.8.2"
+],
+"license":"BSD-3-Clause",
+"name":"dask",
+"noarch":"python",
+"sha256":"ed26308a8570a8bc265283ef117593349ae8cb3435746742fece4f2f82f4fd52",
+"size":4714,
+"timestamp":1615337568051,
+"version":"2021.3.0"
+},
 "dask-core-1.1.1-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -22105,6 +22132,22 @@
 "size":237732,
 "timestamp":1614967858793,
 "version":"6.4.3"
+},
+"hypothesis-6.6.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"attrs >=19.2.0",
+"python >=3.5",
+"sortedcontainers >=2.1.0,<3.0.0"
+],
+"license":"MPL 2.0",
+"name":"hypothesis",
+"noarch":"python",
+"sha256":"6ec9c74595cec30dcaa5536ef82d63e1c15df7809f15b8f8f659f09920b35684",
+"size":240262,
+"timestamp":1615141966896,
+"version":"6.6.0"
 },
 "hypothesis-6.6.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -62744,6 +62787,33 @@
 "timestamp":1613319430565,
 "version":"2021.2.0"
 },
+"dask-2021.3.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"bokeh >=1.0.0,!=2.0.0",
+"cloudpickle >=0.2.2",
+"cytoolz >=0.8.2",
+"dask-core 2021.3.0.*",
+"distributed >=2021.3.0",
+"fsspec >=0.6.0",
+"numpy >=1.15.1",
+"pandas >=0.25.0",
+"partd >=0.3.10",
+"python >=3.6",
+"toolz >=0.8.2"
+],
+"license":"BSD-3-Clause",
+"name":"dask",
+"noarch":"python",
+"sha256":"661bd6b9b6d34654740dc40f2af826d3b4dec96d3e301fe272b84d40e49ae06f",
+"size":5076,
+"timestamp":1615337568051,
+"version":"2021.3.0"
+},
 "dask-core-1.1.1-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -72364,6 +72434,22 @@
 "size":246134,
 "timestamp":1614967858793,
 "version":"6.4.3"
+},
+"hypothesis-6.6.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"attrs >=19.2.0",
+"python >=3.5",
+"sortedcontainers >=2.1.0,<3.0.0"
+],
+"license":"MPL 2.0",
+"name":"hypothesis",
+"noarch":"python",
+"sha256":"4a42c59c144fa0379af7bf0fae6f34db614ee570f16394bd308578e2bec4b1be",
+"size":248197,
+"timestamp":1615141966896,
+"version":"6.6.0"
 },
 "hypothesis-6.6.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
