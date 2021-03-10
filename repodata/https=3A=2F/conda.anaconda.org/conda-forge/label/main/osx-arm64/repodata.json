@@ -15212,6 +15212,23 @@
 "timestamp":1615326604789,
 "version":"3.6"
 },
+"cross-python_osx-64-3.6-9_cpython.tar.bz2":{
+"build":"9_cpython",
+"build_number":9,
+"depends":[
+"clang_osx-64",
+"crossenv >=1.0",
+"python 3.6.* *_cpython",
+"rsync",
+"sed"
+],
+"license":"LicenseRef-OTHER",
+"name":"cross-python_osx-64",
+"requires":[],
+"size":4203,
+"timestamp":1615402065966,
+"version":"3.6"
+},
 "cross-python_osx-64-3.7-6_cpython.tar.bz2":{
 "build":"6_cpython",
 "build_number":6,
@@ -15261,6 +15278,23 @@
 "requires":[],
 "size":4152,
 "timestamp":1615326784031,
+"version":"3.7"
+},
+"cross-python_osx-64-3.7-9_cpython.tar.bz2":{
+"build":"9_cpython",
+"build_number":9,
+"depends":[
+"clang_osx-64",
+"crossenv >=1.0",
+"python 3.7.* *_cpython",
+"rsync",
+"sed"
+],
+"license":"LicenseRef-OTHER",
+"name":"cross-python_osx-64",
+"requires":[],
+"size":4201,
+"timestamp":1615402025205,
 "version":"3.7"
 },
 "cross-python_osx-64-3.8-6_cpython.tar.bz2":{
@@ -15314,6 +15348,23 @@
 "timestamp":1615326537858,
 "version":"3.8"
 },
+"cross-python_osx-64-3.8-9_cpython.tar.bz2":{
+"build":"9_cpython",
+"build_number":9,
+"depends":[
+"clang_osx-64",
+"crossenv >=1.0",
+"python 3.8.* *_cpython",
+"rsync",
+"sed"
+],
+"license":"LicenseRef-OTHER",
+"name":"cross-python_osx-64",
+"requires":[],
+"size":4200,
+"timestamp":1615402216666,
+"version":"3.8"
+},
 "cross-python_osx-64-3.9-6_cpython.tar.bz2":{
 "build":"6_cpython",
 "build_number":6,
@@ -15363,6 +15414,23 @@
 "requires":[],
 "size":4175,
 "timestamp":1615326759737,
+"version":"3.9"
+},
+"cross-python_osx-64-3.9-9_cpython.tar.bz2":{
+"build":"9_cpython",
+"build_number":9,
+"depends":[
+"clang_osx-64",
+"crossenv >=1.0",
+"python 3.9.* *_cpython",
+"rsync",
+"sed"
+],
+"license":"LicenseRef-OTHER",
+"name":"cross-python_osx-64",
+"requires":[],
+"size":4207,
+"timestamp":1615402180942,
 "version":"3.9"
 },
 "cross-r-base-4.0.3-hce30654_3.tar.bz2":{
@@ -51427,6 +51495,38 @@
 "size":2543757,
 "timestamp":1614989878564,
 "version":"3.5.63"
+},
+"reportlab-3.5.65-py38hf1a8077_0.tar.bz2":{
+"build":"py38hf1a8077_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"pillow >=2.4.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD 3-Clause",
+"name":"reportlab",
+"requires":[],
+"size":2529933,
+"timestamp":1615403370414,
+"version":"3.5.65"
+},
+"reportlab-3.5.65-py39h3f6938b_0.tar.bz2":{
+"build":"py39h3f6938b_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"pillow >=2.4.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD 3-Clause",
+"name":"reportlab",
+"requires":[],
+"size":2515643,
+"timestamp":1615403411368,
+"version":"3.5.65"
 },
 "reproc-14.2.0-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
