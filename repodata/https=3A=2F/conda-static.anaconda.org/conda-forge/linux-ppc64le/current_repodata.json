@@ -63771,6 +63771,31 @@
 "timestamp":1615360591241,
 "version":"0.13.2"
 },
+"openpmd-api-0.13.2-mpi_mpich_py37h334d0ee_1.tar.bz2":{
+"build":"mpi_mpich_py37h334d0ee_1",
+"build_number":1,
+"depends":[
+"adios * mpi_mpich_*",
+"blosc",
+"bzip2",
+"hdf5 >=1.12.0,<1.12.1.0a0 mpi_mpich_*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpi4py",
+"mpich >=3.4,<3.5.0a0",
+"numpy >=1.15.0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"0fa4cc5fb3192d5bbffd397555835069390ce723edcecb4749f4b23e99de6ccd",
+"size":1874754,
+"timestamp":1615368285891,
+"version":"0.13.2"
+},
 "openpmd-api-0.13.2-mpi_mpich_py37hfa7fdc2_0.tar.bz2":{
 "build":"mpi_mpich_py37hfa7fdc2_0",
 "build_number":0,
@@ -91532,35 +91557,35 @@
 "timestamp":1598560785843,
 "version":"2.1.1"
 },
-"r-zoo-1.8_8-r36hd2b4baa_0.tar.bz2":{
-"build":"r36hd2b4baa_0",
+"r-zoo-1.8_9-r36h2be38b1_0.tar.bz2":{
+"build":"r36h2be38b1_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=8.2.0",
+"libgcc-ng >=9.3.0",
 "r-base >=3.6,<3.7.0a0",
 "r-lattice >=0.20_27"
 ],
-"license":"GPL-2 | GPL-3",
+"license":"GPL-2.0-or-later",
 "name":"r-zoo",
-"sha256":"837d143894dbec98ad14a11d27431f8a9858fbb741b1b7370f3f985b8c2bd82d",
-"size":1107571,
-"timestamp":1588453828987,
-"version":"1.8_8"
+"sha256":"581ec5e25f7ee0b0b3f189b81d9c5f1170e429d7a7c576f6af8ed8f9330995df",
+"size":1060134,
+"timestamp":1615369717949,
+"version":"1.8_9"
 },
-"r-zoo-1.8_8-r40hd2b4baa_0.tar.bz2":{
-"build":"r40hd2b4baa_0",
+"r-zoo-1.8_9-r40h2be38b1_0.tar.bz2":{
+"build":"r40h2be38b1_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=8.2.0",
+"libgcc-ng >=9.3.0",
 "r-base >=4.0,<4.1.0a0",
 "r-lattice >=0.20_27"
 ],
-"license":"GPL-2 | GPL-3",
+"license":"GPL-2.0-or-later",
 "name":"r-zoo",
-"sha256":"ed92b04aa9b041b00c9521df0176eec90baa9ac5a056daa672399ce368ccaa62",
-"size":1102188,
-"timestamp":1588453838624,
-"version":"1.8_8"
+"sha256":"85dee182aaf94b4f519dcd51139d54012850e0c7a473ae0a724b43dfe6eb4902",
+"size":1055859,
+"timestamp":1615369741852,
+"version":"1.8_9"
 },
 "rake_nltk-1.0.4-py36h270354c_3.tar.bz2":{
 "build":"py36h270354c_3",
