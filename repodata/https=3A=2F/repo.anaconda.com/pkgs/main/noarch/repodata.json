@@ -5112,6 +5112,23 @@
 "timestamp":1614893317175,
 "version":"1.17.20"
 },
+"boto3-1.17.21-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"botocore >=1.20.21,<1.21.0",
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"boto3",
+"noarch":"python",
+"sha256":"a1d0408c9f60213a3aa4055fe043e71442ab64fa81e2fa8db98ab6c8cb3e24f5",
+"size":72181,
+"timestamp":1615231937141,
+"version":"1.17.21"
+},
 "boto3-1.17.7-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -37280,6 +37297,21 @@
 "timestamp":1613849609443,
 "version":"2.8.0"
 },
+"pygments-2.8.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.5",
+"setuptools"
+],
+"license":"BSD-2-clause",
+"name":"pygments",
+"noarch":"python",
+"sha256":"4269a9793e80f1f1a1c338e989c97296f9e453ab4bf9fcaa8a3bfe3bc5bcfcbe",
+"size":754494,
+"timestamp":1615143383540,
+"version":"2.8.1"
+},
 "pyhamcrest-1.9.0-py_2.tar.bz2":{
 "build":"py_2",
 "build_number":2,
@@ -42265,6 +42297,23 @@
 "timestamp":1600460816415,
 "version":"4.3.2"
 },
+"radon-4.4.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"colorama >=0.3",
+"flake8-polyfill",
+"mando",
+"python"
+],
+"license":"MIT",
+"name":"radon",
+"noarch":"python",
+"sha256":"a7b737deed4a92b7a50ef579b9da02a35cd63ea2337e0b217b292db07b752a2f",
+"size":44506,
+"timestamp":1615235147118,
+"version":"4.4.0"
+},
 "radon-4.5.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -45853,6 +45902,37 @@
 "timestamp":1614023486137,
 "version":"3.5.1"
 },
+"sphinx-3.5.2-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"alabaster >=0.7,<0.8",
+"babel >=1.3,!=2.0",
+"colorama",
+"docutils >=0.12",
+"imagesize",
+"jinja2 >=2.3",
+"packaging",
+"pygments >=2.0",
+"python >=3.5",
+"requests >=2.5.0",
+"setuptools",
+"snowballstemmer >=1.1",
+"sphinxcontrib-applehelp",
+"sphinxcontrib-devhelp",
+"sphinxcontrib-htmlhelp",
+"sphinxcontrib-jsmath",
+"sphinxcontrib-qthelp",
+"sphinxcontrib-serializinghtml"
+],
+"license":"BSD-2-Clause",
+"name":"sphinx",
+"noarch":"python",
+"sha256":"f18709545424fb3d9f8fb8d6046161dbd3e758cfbbd47f4e2c5a17fd4fab7c89",
+"size":1493015,
+"timestamp":1615238108125,
+"version":"3.5.2"
+},
 "sphinx_rtd_theme-0.4.3-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -48204,6 +48284,22 @@
 "size":130484,
 "timestamp":1614972518654,
 "version":"2021.3.4"
+},
+"tifffile-2021.3.5-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"imagecodecs",
+"numpy >=1.15.1",
+"python >=3.6"
+],
+"license":"BSD-3-Clause",
+"name":"tifffile",
+"noarch":"python",
+"sha256":"d292c5c21070efae4fcdb17331e2755a2fd7e1c237f52989ab1548c486a2942d",
+"size":130706,
+"timestamp":1615231881943,
+"version":"2021.3.5"
 },
 "tobler-0.2.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -56223,6 +56319,23 @@
 "size":72090,
 "timestamp":1614893317175,
 "version":"1.17.20"
+},
+"boto3-1.17.21-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"botocore >=1.20.21,<1.21.0",
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"boto3",
+"noarch":"python",
+"sha256":"8691ba17b74477652f380527b19aad3eb54d14b3ab1ea67c17d53c4ed893c75f",
+"size":72149,
+"timestamp":1615231937141,
+"version":"1.17.21"
 },
 "boto3-1.17.7-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -85253,6 +85366,21 @@
 "timestamp":1613849609443,
 "version":"2.8.0"
 },
+"pygments-2.8.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.5",
+"setuptools"
+],
+"license":"BSD-2-clause",
+"name":"pygments",
+"noarch":"python",
+"sha256":"d532cd8e18715f2d2e4b7b00b1b23debe30310a6844a5969f9bacbaa0221346d",
+"size":720250,
+"timestamp":1615143383540,
+"version":"2.8.1"
+},
 "pyhamcrest-1.9.0-py_2.conda":{
 "build":"py_2",
 "build_number":2,
@@ -89958,6 +90086,23 @@
 "timestamp":1600460816415,
 "version":"4.3.2"
 },
+"radon-4.4.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"colorama >=0.3",
+"flake8-polyfill",
+"mando",
+"python"
+],
+"license":"MIT",
+"name":"radon",
+"noarch":"python",
+"sha256":"f19e049abe774b108b6485cb77caf85f708a77fc3f47117af8592f0d96e1a272",
+"size":45249,
+"timestamp":1615235147118,
+"version":"4.4.0"
+},
 "radon-4.5.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -93503,6 +93648,37 @@
 "timestamp":1614023486137,
 "version":"3.5.1"
 },
+"sphinx-3.5.2-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"alabaster >=0.7,<0.8",
+"babel >=1.3,!=2.0",
+"colorama",
+"docutils >=0.12",
+"imagesize",
+"jinja2 >=2.3",
+"packaging",
+"pygments >=2.0",
+"python >=3.5",
+"requests >=2.5.0",
+"setuptools",
+"snowballstemmer >=1.1",
+"sphinxcontrib-applehelp",
+"sphinxcontrib-devhelp",
+"sphinxcontrib-htmlhelp",
+"sphinxcontrib-jsmath",
+"sphinxcontrib-qthelp",
+"sphinxcontrib-serializinghtml"
+],
+"license":"BSD-2-Clause",
+"name":"sphinx",
+"noarch":"python",
+"sha256":"d0809a4aac6229a0a8032d50cc558f2cb7e7bdcebcbe4234a578b93073328303",
+"size":1174326,
+"timestamp":1615238108125,
+"version":"3.5.2"
+},
 "sphinx_rtd_theme-0.4.3-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -95626,6 +95802,22 @@
 "size":131876,
 "timestamp":1614972518654,
 "version":"2021.3.4"
+},
+"tifffile-2021.3.5-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"imagecodecs",
+"numpy >=1.15.1",
+"python >=3.6"
+],
+"license":"BSD-3-Clause",
+"name":"tifffile",
+"noarch":"python",
+"sha256":"87d60e814e7427102c334495cedfb3d8ef543538e65a01e82a5181b2227a6b6c",
+"size":131896,
+"timestamp":1615231881943,
+"version":"2021.3.5"
 },
 "tobler-0.2.0-py_0.conda":{
 "build":"py_0",

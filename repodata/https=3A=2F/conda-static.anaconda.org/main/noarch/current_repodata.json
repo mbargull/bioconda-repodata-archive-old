@@ -1467,11 +1467,11 @@
 "timestamp":1612211427652,
 "version":"3.3.0"
 },
-"boto3-1.17.20-pyhd3eb1b0_0.tar.bz2":{
+"boto3-1.17.21-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"botocore >=1.20.20,<1.21.0",
+"botocore >=1.20.21,<1.21.0",
 "jmespath >=0.7.1,<1.0.0",
 "python",
 "s3transfer >=0.3.0,<0.4.0"
@@ -1479,10 +1479,10 @@
 "license":"Apache-2.0",
 "name":"boto3",
 "noarch":"python",
-"sha256":"063dc97efeffc25fb64fce8c6cdf94c66a457c30b279376204987365eeb6b338",
-"size":72117,
-"timestamp":1614893317175,
-"version":"1.17.20"
+"sha256":"a1d0408c9f60213a3aa4055fe043e71442ab64fa81e2fa8db98ab6c8cb3e24f5",
+"size":72181,
+"timestamp":1615231937141,
+"version":"1.17.21"
 },
 "botocore-1.20.23-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
@@ -3101,7 +3101,7 @@
 "timestamp":1576596077057,
 "version":"4.4.1"
 },
-"dask-2021.2.0-pyhd3eb1b0_0.tar.bz2":{
+"dask-2021.3.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "constrains":[
@@ -3111,8 +3111,8 @@
 "bokeh >=1.0.0,!=2.0.0",
 "cloudpickle >=0.2.2",
 "cytoolz >=0.8.2",
-"dask-core 2021.2.0.*",
-"distributed >=2021.2.0",
+"dask-core 2021.3.0.*",
+"distributed >=2021.3.0",
 "fsspec >=0.6.0",
 "numpy >=1.15.1",
 "pandas >=0.25.0",
@@ -3123,25 +3123,10 @@
 "license":"BSD-3-Clause",
 "name":"dask",
 "noarch":"python",
-"sha256":"7dab8cbbad86ddc9d35a2bfa38e54581dbb2f327ebe12fe3a94cdbedad43dd0c",
-"size":4718,
-"timestamp":1613319430565,
-"version":"2021.2.0"
-},
-"dask-core-2021.2.0-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"python >=3.6",
-"pyyaml"
-],
-"license":"BSD-3-Clause",
-"name":"dask-core",
-"noarch":"python",
-"sha256":"165846f4f166b38382fa32eaf11301d63b168ae42eef39db0f66893df5bd2dcf",
-"size":697307,
-"timestamp":1613253235858,
-"version":"2021.2.0"
+"sha256":"ed26308a8570a8bc265283ef117593349ae8cb3435746742fece4f2f82f4fd52",
+"size":4714,
+"timestamp":1615337568051,
+"version":"2021.3.0"
 },
 "dask-core-2021.3.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -13314,7 +13299,7 @@
 "timestamp":1612299327246,
 "version":"1.54.1"
 },
-"pygments-2.8.0-pyhd3eb1b0_0.tar.bz2":{
+"pygments-2.8.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -13324,10 +13309,10 @@
 "license":"BSD-2-clause",
 "name":"pygments",
 "noarch":"python",
-"sha256":"aa78ff86a1ee427a875c3a62cbe1328ab6beacb652b92ccc87c5c5694dc8eb09",
-"size":755076,
-"timestamp":1613849609443,
-"version":"2.8.0"
+"sha256":"4269a9793e80f1f1a1c338e989c97296f9e453ab4bf9fcaa8a3bfe3bc5bcfcbe",
+"size":754494,
+"timestamp":1615143383540,
+"version":"2.8.1"
 },
 "pyhamcrest-2.0.2-py_0.tar.bz2":{
 "build":"py_0",
@@ -16014,7 +15999,7 @@
 "timestamp":1599705751072,
 "version":"1.0.8"
 },
-"sphinx-3.5.1-pyhd3eb1b0_0.tar.bz2":{
+"sphinx-3.5.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -16040,10 +16025,10 @@
 "license":"BSD-2-Clause",
 "name":"sphinx",
 "noarch":"python",
-"sha256":"a6841ab554d210bb157a9cdba2c0e3b8eeb0a44fe2b3c77164c9b995199fa776",
-"size":1494160,
-"timestamp":1614023486137,
-"version":"3.5.1"
+"sha256":"f18709545424fb3d9f8fb8d6046161dbd3e758cfbbd47f4e2c5a17fd4fab7c89",
+"size":1493015,
+"timestamp":1615238108125,
+"version":"3.5.2"
 },
 "sphinx_rtd_theme-0.4.3-py_0.tar.bz2":{
 "build":"py_0",
@@ -16975,7 +16960,7 @@
 "timestamp":1607553295880,
 "version":"0.1.1"
 },
-"tifffile-2021.3.4-pyhd3eb1b0_1.tar.bz2":{
+"tifffile-2021.3.5-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -16986,10 +16971,10 @@
 "license":"BSD-3-Clause",
 "name":"tifffile",
 "noarch":"python",
-"sha256":"72877ab8165ca8fde8ff728eb186b21919d687f575916dce92efce9f0e6f8b52",
-"size":130484,
-"timestamp":1614972518654,
-"version":"2021.3.4"
+"sha256":"d292c5c21070efae4fcdb17331e2755a2fd7e1c237f52989ab1548c486a2942d",
+"size":130706,
+"timestamp":1615231881943,
+"version":"2021.3.5"
 },
 "tobler-0.5.4-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
