@@ -5940,11 +5940,11 @@
 "timestamp":1615242095288,
 "version":"1.8.151"
 },
-"awscli-1.19.23-py36h2e20a7f_0.tar.bz2":{
+"awscli-1.19.24-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.23",
+"botocore 1.20.24",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.6 >=7.3.3",
@@ -5956,16 +5956,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"debe369aacab61d5669566627abddd17c9f5baf3d8330bd60634e28baf88f25a",
-"size":1926405,
-"timestamp":1615253177414,
-"version":"1.19.23"
+"sha256":"bd56f9d6374f02d6c7cb4fe90c5410fdee7f4f37794ea5601d7db81c3fc59652",
+"size":1915615,
+"timestamp":1615356514581,
+"version":"1.19.24"
 },
-"awscli-1.19.23-py36h704843e_0.tar.bz2":{
+"awscli-1.19.24-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.23",
+"botocore 1.20.24",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -5976,16 +5976,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"825ff964df4214d09a9b07c33346e4aa99f6605fdf07fe1388ce91091451c8af",
-"size":1909698,
-"timestamp":1615253935566,
-"version":"1.19.23"
+"sha256":"5f244653e84d61c8ed1c30c294d6e079ccf4a4ff04a7b56b801224ac01a92f90",
+"size":1914707,
+"timestamp":1615356769063,
+"version":"1.19.24"
 },
-"awscli-1.19.23-py37hd9ded2f_0.tar.bz2":{
+"awscli-1.19.24-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.23",
+"botocore 1.20.24",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -5996,16 +5996,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"06afb6f14ecebc2fa8d1b0c26b7e0f1b9a70450db1976a3ed42105cc1a34cafc",
-"size":1914526,
-"timestamp":1615254302254,
-"version":"1.19.23"
+"sha256":"b73406b9c594fe6b76c98fd9f4175f3bc9c2cfe261e809ba79b3ac171875d02b",
+"size":1919728,
+"timestamp":1615357375585,
+"version":"1.19.24"
 },
-"awscli-1.19.23-py38h2063c64_0.tar.bz2":{
+"awscli-1.19.24-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.23",
+"botocore 1.20.24",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -6016,16 +6016,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"5f54b3d0f0d0ad08f8e3b6cf80d126c13b9bd9e7f75f2b577b1bc13f854e65ff",
-"size":1935806,
-"timestamp":1615254936271,
-"version":"1.19.23"
+"sha256":"ef5c0864f15828b422faa9666b99fa60d78f8f2bc96fb4396d3b913de3bbf6f4",
+"size":1912401,
+"timestamp":1615358106480,
+"version":"1.19.24"
 },
-"awscli-1.19.23-py39ha65689a_0.tar.bz2":{
+"awscli-1.19.24-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.23",
+"botocore 1.20.24",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.9,<3.10.0a0",
@@ -6036,10 +6036,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"37b1acd888a741bb2d2a04cb3d67b9c30ae32b52f7028d6e508c1e09c11bacfa",
-"size":1915410,
-"timestamp":1615255692914,
-"version":"1.19.23"
+"sha256":"3e5e9ad46ba82b30118d36a252e626ac5a9b88c60dcba0542c2a6cac5bf68b83",
+"size":1916684,
+"timestamp":1615358831694,
+"version":"1.19.24"
 },
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
@@ -111285,6 +111285,25 @@
 "timestamp":1614469763417,
 "version":"0.11.0"
 },
+"xraylib-4.0.0-py36h7aa458d_6.tar.bz2":{
+"build":"py36h7aa458d_6",
+"build_number":6,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"BSD-3-Clause",
+"name":"xraylib",
+"sha256":"97142f3371523a2d5aae3bef2326bbb9c15927f751026a745224cd6df4a86948",
+"size":7680035,
+"timestamp":1615357771214,
+"version":"4.0.0"
+},
 "xraylib-4.0.0-py36hb776f7f_3.tar.bz2":{
 "build":"py36hb776f7f_3",
 "build_number":3,
@@ -111435,6 +111454,25 @@
 "timestamp":1602831360459,
 "version":"4.0.0"
 },
+"xraylib-4.0.0-py37hde974e9_6.tar.bz2":{
+"build":"py37hde974e9_6",
+"build_number":6,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-3-Clause",
+"name":"xraylib",
+"sha256":"1d7e88a03eea4c231e229ec68fa7f8ca3766fe64897942182db37db561d485c4",
+"size":7651722,
+"timestamp":1615358022155,
+"version":"4.0.0"
+},
 "xraylib-4.0.0-py38h40eb468_5.tar.bz2":{
 "build":"py38h40eb468_5",
 "build_number":5,
@@ -111452,6 +111490,25 @@
 "sha256":"3170874f654cb0133845fb7e037035abc6f6bb3b8766ab456254d98c75be901d",
 "size":7524547,
 "timestamp":1602831406380,
+"version":"4.0.0"
+},
+"xraylib-4.0.0-py38h5119b0f_6.tar.bz2":{
+"build":"py38h5119b0f_6",
+"build_number":6,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"xraylib",
+"sha256":"9ccca0675189782eea51e6e8cc167a1ac7ee8fa79c6b5089c0a95abd82244cbb",
+"size":7676314,
+"timestamp":1615357836058,
 "version":"4.0.0"
 },
 "xraylib-4.0.0-py38hc0e4925_3.tar.bz2":{
@@ -111565,6 +111622,25 @@
 "sha256":"bffb7cfde69b6f3916341ff6e75819140f232b2da28c0dd73103e07d356f5ca6",
 "size":7469154,
 "timestamp":1602831300065,
+"version":"4.0.0"
+},
+"xraylib-4.0.0-py39hd1b10d7_6.tar.bz2":{
+"build":"py39hd1b10d7_6",
+"build_number":6,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"xraylib",
+"sha256":"8018c35d68dfcd936b90d965c23d6ba3185289c42d57c3e1483584714550fecc",
+"size":7667345,
+"timestamp":1615357757404,
 "version":"4.0.0"
 },
 "xrootd-5.1.0-py36h94a5285_0.tar.bz2":{

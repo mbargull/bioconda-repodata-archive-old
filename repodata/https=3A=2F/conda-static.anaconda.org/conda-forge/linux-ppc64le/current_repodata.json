@@ -9318,11 +9318,11 @@
 "timestamp":1615051252728,
 "version":"1.8.151"
 },
-"awscli-1.19.23-py36h270354c_0.tar.bz2":{
+"awscli-1.19.24-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.23",
+"botocore 1.20.24",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -9333,37 +9333,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"0b72a10d5a61b5bcbc4f801831427fff9e316586f5de5bae7ec827de849a9b5a",
-"size":1922305,
-"timestamp":1615253318861,
-"version":"1.19.23"
+"sha256":"f634a6a0f612cee044fb5824410d4ce27db3e4f4b3641945355d0c87e246abad",
+"size":1912674,
+"timestamp":1615359939100,
+"version":"1.19.24"
 },
-"awscli-1.19.23-py36he7cccf2_0.tar.bz2":{
-"build":"py36he7cccf2_0",
-"build_number":0,
-"depends":[
-"botocore 1.20.23",
-"colorama >=0.2.5,<0.4.4",
-"docutils >=0.10,<0.16",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"pyyaml >=3.10,<5.5",
-"rsa >=3.1.2,<4.8",
-"s3transfer >=0.3.0,<0.4.0"
-],
-"license":"Apache-2.0",
-"name":"awscli",
-"sha256":"d5f187939f1e6363444cc66bf78fc01951e71bb09640100be25751256331fafc",
-"size":1925270,
-"timestamp":1615252028714,
-"version":"1.19.23"
-},
-"awscli-1.19.23-py37h35e4cab_0.tar.bz2":{
+"awscli-1.19.24-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.23",
+"botocore 1.20.24",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -9374,16 +9353,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"84eac464c74c2b09d56de19e40c8068caeba0dc0da565b3d88a242af7ef36b06",
-"size":1908474,
-"timestamp":1615251993809,
-"version":"1.19.23"
+"sha256":"df40d3058b828c48ab7a2aafe2a693cf0b6dc326bc777028285d07ac4ce86bd2",
+"size":1919102,
+"timestamp":1615359915229,
+"version":"1.19.24"
 },
-"awscli-1.19.23-py38hf8b3453_0.tar.bz2":{
+"awscli-1.19.24-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.23",
+"botocore 1.20.24",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -9394,16 +9373,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"fc5ff4751acbcf094e254cc0320d1202d782475baa4fd1d8fa4d9295482063cc",
-"size":1910414,
-"timestamp":1615253302228,
-"version":"1.19.23"
+"sha256":"9629dfdb3d9e15a16a67113b1c17694751c1bcc2a738984b1203d144af01c975",
+"size":1917799,
+"timestamp":1615359951976,
+"version":"1.19.24"
 },
-"awscli-1.19.23-py39hc1b9086_0.tar.bz2":{
+"awscli-1.19.24-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.23",
+"botocore 1.20.24",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.9,<3.10.0a0",
@@ -9414,10 +9393,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"c4ba038e1e82f332b9699b614473d0c58f990d0a4d085b4699800709e65f78eb",
-"size":1909384,
-"timestamp":1615253414783,
-"version":"1.19.23"
+"sha256":"870fb8da030849ef3ce773edd5e2e77f9d1fac362c6cb1a9cdb26cd60f17f9aa",
+"size":1912567,
+"timestamp":1615359914829,
+"version":"1.19.24"
 },
 "backports.lzma-0.0.14-py36h1ad4117_3.tar.bz2":{
 "build":"py36h1ad4117_3",
@@ -63745,6 +63724,32 @@
 "timestamp":1612304319279,
 "version":"0.13.2"
 },
+"openpmd-api-0.13.2-mpi_mpich_py36hee51da2_1.tar.bz2":{
+"build":"mpi_mpich_py36hee51da2_1",
+"build_number":1,
+"depends":[
+"adios * mpi_mpich_*",
+"adios2 * mpi_mpich_*",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpi4py",
+"mpich >=3.4,<3.5.0a0",
+"numpy >=1.15.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"1b2c3dddd95c4c2a16bb5098a321ac8fa752272dfaca04d9b0f1324d3d0f98eb",
+"size":2011707,
+"timestamp":1615360591241,
+"version":"0.13.2"
+},
 "openpmd-api-0.13.2-mpi_mpich_py37hfa7fdc2_0.tar.bz2":{
 "build":"mpi_mpich_py37hfa7fdc2_0",
 "build_number":0,
@@ -63821,6 +63826,32 @@
 "sha256":"90525da26608e4d1a29423ea5f43d2b857d6a46852bf1fdecd707252eb8a03b9",
 "size":1999923,
 "timestamp":1612308343895,
+"version":"0.13.2"
+},
+"openpmd-api-0.13.2-mpi_mpich_py38h78c6e08_1.tar.bz2":{
+"build":"mpi_mpich_py38h78c6e08_1",
+"build_number":1,
+"depends":[
+"adios * mpi_mpich_*",
+"adios2 * mpi_mpich_*",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpi4py",
+"mpich >=3.4,<3.5.0a0",
+"numpy >=1.15.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"d0a6b2044a36d5eda6b98ba53226e84286b35f8c890b76cb3b98b6931e9a94eb",
+"size":1998794,
+"timestamp":1615360520341,
 "version":"0.13.2"
 },
 "openpmd-api-0.13.2-mpi_mpich_py39h2d22980_0.tar.bz2":{
@@ -64079,6 +64110,32 @@
 "sha256":"66e581c97333c5c97d26eb1ebba4dd9d8a68e05caf0b3e8dae593ab8ccde6650",
 "size":1992983,
 "timestamp":1612305561311,
+"version":"0.13.2"
+},
+"openpmd-api-0.13.2-mpi_openmpi_py39hacf73f6_1.tar.bz2":{
+"build":"mpi_openmpi_py39hacf73f6_1",
+"build_number":1,
+"depends":[
+"adios * mpi_openmpi_*",
+"adios2 * mpi_openmpi_*",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpi4py",
+"numpy >=1.15.0",
+"openmpi >=4.1,<4.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"d906e7536d3880490831868b4f729dc683d0a8889da4513ecba78ffb9b42d859",
+"size":1994550,
+"timestamp":1615360684587,
 "version":"0.13.2"
 },
 "openpmd-api-0.13.2-nompi_py36h50f917d_100.tar.bz2":{
@@ -75185,6 +75242,25 @@
 "timestamp":1610574156405,
 "version":"2020.1"
 },
+"pymetis-2020.1-py36h0e93573_3.tar.bz2":{
+"build":"py36h0e93573_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"six"
+],
+"license":"Apache-2.0",
+"name":"pymetis",
+"sha256":"45b499dd5bcdce6db5efcc44c43759c1fc85313bcc1708ddf64d9016f6653811",
+"size":67374,
+"timestamp":1615356477094,
+"version":"2020.1"
+},
 "pymetis-2020.1-py36h13b2b29_1.tar.bz2":{
 "build":"py36h13b2b29_1",
 "build_number":1,
@@ -75312,6 +75388,25 @@
 "sha256":"1a2539696666201088eac70026a3500e03bb3ace645ec8ef4d9e48f4edc2389f",
 "size":66384,
 "timestamp":1610574177200,
+"version":"2020.1"
+},
+"pymetis-2020.1-py37h6286446_3.tar.bz2":{
+"build":"py37h6286446_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"six"
+],
+"license":"Apache-2.0",
+"name":"pymetis",
+"sha256":"bac65a234478cab34758f30780cfc91cc2d9fe85e85132fe0b91dda0addc1c46",
+"size":67621,
+"timestamp":1615356321186,
 "version":"2020.1"
 },
 "pymetis-2020.1-py37he32f4c6_2.tar.bz2":{
