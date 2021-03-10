@@ -9338,6 +9338,27 @@
 "timestamp":1615359939100,
 "version":"1.19.24"
 },
+"awscli-1.19.24-py36he7cccf2_0.tar.bz2":{
+"build":"py36he7cccf2_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.24",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"783a5ac3582da2c07ecd91e6431fcb5e5d54f37fb9c69d22bed38ef7deb3c572",
+"size":1912054,
+"timestamp":1615361967505,
+"version":"1.19.24"
+},
 "awscli-1.19.24-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
@@ -64086,6 +64107,32 @@
 "timestamp":1612305570231,
 "version":"0.13.2"
 },
+"openpmd-api-0.13.2-mpi_openmpi_py38h1636fdc_1.tar.bz2":{
+"build":"mpi_openmpi_py38h1636fdc_1",
+"build_number":1,
+"depends":[
+"adios * mpi_openmpi_*",
+"adios2 * mpi_openmpi_*",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpi4py",
+"numpy >=1.15.0",
+"openmpi >=4.1,<4.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"abfd241a21e80cfbede25774c7d776d82985595cb7aa5feb957e2b776b63954b",
+"size":1999589,
+"timestamp":1615362336311,
+"version":"0.13.2"
+},
 "openpmd-api-0.13.2-mpi_openmpi_py39hacf73f6_0.tar.bz2":{
 "build":"mpi_openmpi_py39hacf73f6_0",
 "build_number":0,
@@ -89041,7 +89088,7 @@
 "timestamp":1610727003659,
 "version":"1.0.6"
 },
-"r-rcpparmadillo-0.10.2.1.0-r36he16e135_0.tar.bz2":{
+"r-rcpparmadillo-0.10.2.2.0-r36he16e135_0.tar.bz2":{
 "build":"r36he16e135_0",
 "build_number":0,
 "depends":[
@@ -89054,12 +89101,12 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-rcpparmadillo",
-"sha256":"6466fec92c4cdef058c38f039dd4be6bbb940de042dfc4cf1a75d24dea49b5bc",
-"size":1283437,
-"timestamp":1612913189503,
-"version":"0.10.2.1.0"
+"sha256":"24b286451a1d83515493719d65a0b57c13e031e723a0d2f3f53f1e1bacbb3cdb",
+"size":1291292,
+"timestamp":1615361200802,
+"version":"0.10.2.2.0"
 },
-"r-rcpparmadillo-0.10.2.1.0-r40he16e135_0.tar.bz2":{
+"r-rcpparmadillo-0.10.2.2.0-r40he16e135_0.tar.bz2":{
 "build":"r40he16e135_0",
 "build_number":0,
 "depends":[
@@ -89072,10 +89119,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-rcpparmadillo",
-"sha256":"222d568c34a29813385bf3e29728e5cf13b8c93b876f4580261170c0b6357ea9",
-"size":1290341,
-"timestamp":1612912744667,
-"version":"0.10.2.1.0"
+"sha256":"5aaf22e1e8702bd12cffa8d116af9f157bf5d53625b2d35a8fa045c82568882b",
+"size":1283510,
+"timestamp":1615361053967,
+"version":"0.10.2.2.0"
 },
 "r-rcppeigen-0.3.3.9.1-r36he16e135_0.tar.bz2":{
 "build":"r36he16e135_0",
