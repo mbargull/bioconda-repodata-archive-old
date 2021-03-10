@@ -1238,6 +1238,34 @@
 "timestamp":1613673959370,
 "version":"3.0.0"
 },
+"antlr-python-runtime-4.9.1-py38h10201cd_1.tar.bz2":{
+"build":"py38h10201cd_1",
+"build_number":1,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"antlr-python-runtime",
+"sha256":"9656f194587502c0d547a7fed2ea7f39ba180e4c7f71b0a7f23f218f4e6f523a",
+"size":172362,
+"timestamp":1615384958198,
+"version":"4.9.1"
+},
+"antlr-python-runtime-4.9.1-py39h2804cbe_1.tar.bz2":{
+"build":"py39h2804cbe_1",
+"build_number":1,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"antlr-python-runtime",
+"sha256":"15c166cf8d0c708c9e2a35c019d5424ab52769e333c4927418ca109bebf14c9a",
+"size":172424,
+"timestamp":1615385112765,
+"version":"4.9.1"
+},
 "anyio-2.0.2-py38h10201cd_3.tar.bz2":{
 "build":"py38h10201cd_3",
 "build_number":3,
@@ -9104,6 +9132,38 @@
 "size":1348192,
 "timestamp":1613807545049,
 "version":"0.13.0"
+},
+"boost-histogram-1.0.0-py38h12a6f45_0.tar.bz2":{
+"build":"py38h12a6f45_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"boost-histogram",
+"sha256":"7addb9afc68c664c2bea071cd67e9008de13b7ef088590889e58f733ced734c4",
+"size":1067854,
+"timestamp":1615384506239,
+"version":"1.0.0"
+},
+"boost-histogram-1.0.0-py39h5a63225_0.tar.bz2":{
+"build":"py39h5a63225_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"boost-histogram",
+"sha256":"b880605109df7861bf5d9940a144fcefa9af3a52d47ac18e217e5b444b35059f",
+"size":1311317,
+"timestamp":1615384505339,
+"version":"1.0.0"
 },
 "bottleneck-1.3.2-py38h8369297_3.tar.bz2":{
 "build":"py38h8369297_3",
@@ -47496,6 +47556,21 @@
 "timestamp":1615372381706,
 "version":"0.8.1"
 },
+"pyrfr-0.8.1-py38h12a6f45_2.tar.bz2":{
+"build":"py38h12a6f45_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"7b19235caaea519ee4ac2f7a33ba3414261efe15acd00fbeb4340f6c9ebb7db9",
+"size":388155,
+"timestamp":1615384583887,
+"version":"0.8.1"
+},
 "pyrfr-0.8.1-py39h5a63225_1.tar.bz2":{
 "build":"py39h5a63225_1",
 "build_number":1,
@@ -47509,6 +47584,21 @@
 "sha256":"7f5a7d73f803de86f9031d3caa3a793ad9e1137602bc0c7e8105a0d55c525be1",
 "size":388202,
 "timestamp":1615372257972,
+"version":"0.8.1"
+},
+"pyrfr-0.8.1-py39h5a63225_2.tar.bz2":{
+"build":"py39h5a63225_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"5cb9814c74d29c8023e351604914f11c7bef41e094e3e09df5d06e0238b11080",
+"size":388291,
+"timestamp":1615384578274,
 "version":"0.8.1"
 },
 "pyrsistent-0.14.11-py38h30f7421_2.tar.bz2":{
@@ -54478,6 +54568,72 @@
 "size":9702028,
 "timestamp":1613311928060,
 "version":"3.0.3"
+},
+"spacy-3.0.4-py38h3578e97_0.tar.bz2":{
+"build":"py38h3578e97_0",
+"build_number":0,
+"depends":[
+"catalogue >=2.0.1,<2.1.0",
+"cymem >=2.0.2,<2.1.0",
+"cython-blis >=0.4.0,<0.8.0",
+"jinja2",
+"libcxx >=11.1.0",
+"murmurhash >=0.28.0,<1.1.0",
+"numpy >=1.19.5,<2.0a0",
+"packaging >=20.0",
+"pathy >=0.3.5",
+"preshed >=3.0.2,<3.1.0",
+"pydantic >=1.7.1,<1.8.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"requests >=2.13.0,<3.0.0",
+"setuptools",
+"spacy-legacy >=3.0.0,<3.1.0",
+"srsly >=2.4.0,<3.0.0",
+"thinc >=8.0.0,<8.1.0",
+"tqdm >=4.38.0,<5.0.0",
+"typer >=0.3.0,<0.4.0",
+"wasabi >=0.8.1,<1.1.0"
+],
+"license":"MIT",
+"name":"spacy",
+"sha256":"812e58fbdd1c5a6f447962c50c4180a5c3488f1bec59b23a76436487e0edd01f",
+"size":9688018,
+"timestamp":1615384144390,
+"version":"3.0.4"
+},
+"spacy-3.0.4-py39h6f7cd10_0.tar.bz2":{
+"build":"py39h6f7cd10_0",
+"build_number":0,
+"depends":[
+"catalogue >=2.0.1,<2.1.0",
+"cymem >=2.0.2,<2.1.0",
+"cython-blis >=0.4.0,<0.8.0",
+"jinja2",
+"libcxx >=11.1.0",
+"murmurhash >=0.28.0,<1.1.0",
+"numpy >=1.19.5,<2.0a0",
+"packaging >=20.0",
+"pathy >=0.3.5",
+"preshed >=3.0.2,<3.1.0",
+"pydantic >=1.7.1,<1.8.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"requests >=2.13.0,<3.0.0",
+"setuptools",
+"spacy-legacy >=3.0.0,<3.1.0",
+"srsly >=2.4.0,<3.0.0",
+"thinc >=8.0.0,<8.1.0",
+"tqdm >=4.38.0,<5.0.0",
+"typer >=0.3.0,<0.4.0",
+"wasabi >=0.8.1,<1.1.0"
+],
+"license":"MIT",
+"name":"spacy",
+"sha256":"772ea7ff2aca4e6d2bcc0a7682da74b7a599a35aad8d58afcc523c45cb9f2bf0",
+"size":9761934,
+"timestamp":1615384119684,
+"version":"3.0.4"
 },
 "spyder-kernels-1.10.1-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
