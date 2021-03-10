@@ -9720,10 +9720,11 @@
 "timestamp":1613500120715,
 "version":"1.75.0"
 },
-"boost-histogram-0.13.0-py36h28cc557_0.tar.bz2":{
+"boost-histogram-1.0.0-py36h28cc557_0.tar.bz2":{
 "build":"py36h28cc557_0",
 "build_number":0,
 "depends":[
+"dataclasses",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy",
@@ -9733,15 +9734,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boost-histogram",
-"sha256":"d715e71d78abf3a4b2cfb2b25f793af3149a2f87f8e95a78f33d74a685a80dda",
-"size":1091231,
-"timestamp":1613807314289,
-"version":"0.13.0"
+"sha256":"f8b376dc19987c68eca8321134649f227e496efabb64fb598fc081e27b10f10f",
+"size":1075938,
+"timestamp":1615390431585,
+"version":"1.0.0"
 },
-"boost-histogram-0.13.0-py36h72e8208_0.tar.bz2":{
+"boost-histogram-1.0.0-py36h72e8208_0.tar.bz2":{
 "build":"py36h72e8208_0",
 "build_number":0,
 "depends":[
+"dataclasses",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy",
@@ -9750,12 +9752,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boost-histogram",
-"sha256":"34fccb8fed99a29b12dd300584afe8ce370d0ebb6b4a5a431c2ace2bd1ce79ef",
-"size":1066128,
-"timestamp":1613808030260,
-"version":"0.13.0"
+"sha256":"de33992676484f8613251bb3daa98568e443ad1cb36bf4f43786aadb9cf2a6c6",
+"size":1057907,
+"timestamp":1615390421602,
+"version":"1.0.0"
 },
-"boost-histogram-0.13.0-py37h7ed3beb_0.tar.bz2":{
+"boost-histogram-1.0.0-py37h7ed3beb_0.tar.bz2":{
 "build":"py37h7ed3beb_0",
 "build_number":0,
 "depends":[
@@ -9767,12 +9769,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boost-histogram",
-"sha256":"ced1602d934b9f0e63c6187f9dc90ba08bb6197f8771c973e2d4eca070f9e67c",
-"size":1068886,
-"timestamp":1613807970692,
-"version":"0.13.0"
+"sha256":"044885ea99a00214507fd6b4cfdddbad92f9091dc68eb65653a074cc6ce2b760",
+"size":1067485,
+"timestamp":1615389951378,
+"version":"1.0.0"
 },
-"boost-histogram-0.13.0-py37hbc413c5_0.tar.bz2":{
+"boost-histogram-1.0.0-py37hbc413c5_0.tar.bz2":{
 "build":"py37hbc413c5_0",
 "build_number":0,
 "depends":[
@@ -9785,12 +9787,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boost-histogram",
-"sha256":"e10c0de3bc9f63860ae7a847056b196590ce761559794a07131774e779f68e1b",
-"size":1083944,
-"timestamp":1613807319723,
-"version":"0.13.0"
+"sha256":"3a30e60235bfd21cd57c6d804c696313c222f99b1cb5b237b8806e380a4b06a0",
+"size":1068556,
+"timestamp":1615389959483,
+"version":"1.0.0"
 },
-"boost-histogram-0.13.0-py38he922c84_0.tar.bz2":{
+"boost-histogram-1.0.0-py38he922c84_0.tar.bz2":{
 "build":"py38he922c84_0",
 "build_number":0,
 "depends":[
@@ -9802,12 +9804,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boost-histogram",
-"sha256":"4f24aee2c9b58c4369ff45731f0b043e2371e694ed67717a7816e91f8ef5f333",
-"size":1074313,
-"timestamp":1613807297044,
-"version":"0.13.0"
+"sha256":"be02721ce1148d800e7d2a9e5296694c1d6c20ef90526ef2dfa70ed2a6c251b9",
+"size":1065150,
+"timestamp":1615390662681,
+"version":"1.0.0"
 },
-"boost-histogram-0.13.0-py39hb300cb6_0.tar.bz2":{
+"boost-histogram-1.0.0-py39hb300cb6_0.tar.bz2":{
 "build":"py39hb300cb6_0",
 "build_number":0,
 "depends":[
@@ -9819,10 +9821,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boost-histogram",
-"sha256":"eabfc31b31f0f4ef2ec67d3efbafbc6da1a347e9c2725a5bdccfab36671d36c3",
-"size":1083648,
-"timestamp":1613807299598,
-"version":"0.13.0"
+"sha256":"8887a484d70dc89e71779869cd015da89dabc14db7eb87156765c314e543cde7",
+"size":1067251,
+"timestamp":1615390072754,
+"version":"1.0.0"
 },
 "bottleneck-1.3.2-py36h68bb277_1.tar.bz2":{
 "build":"py36h68bb277_1",
@@ -54999,6 +55001,21 @@
 "size":93129,
 "timestamp":1610122346490,
 "version":"1.0.2"
+},
+"msgspec-0.2.0-py38h9544abe_0.tar.bz2":{
+"build":"py38h9544abe_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"msgspec",
+"sha256":"57f42bf45150c50d55c2adecc6e4192b84c605d8f3cb797abea6f056484702d0",
+"size":52745,
+"timestamp":1615391164077,
+"version":"0.2.0"
 },
 "multidict-5.1.0-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
