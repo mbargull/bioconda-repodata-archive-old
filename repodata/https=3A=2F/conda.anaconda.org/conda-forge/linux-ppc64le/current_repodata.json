@@ -64029,6 +64029,31 @@
 "timestamp":1615345091328,
 "version":"0.13.2"
 },
+"openpmd-api-0.13.2-mpi_openmpi_py37ha76dd5b_1.tar.bz2":{
+"build":"mpi_openmpi_py37ha76dd5b_1",
+"build_number":1,
+"depends":[
+"adios * mpi_openmpi_*",
+"blosc",
+"bzip2",
+"hdf5 >=1.12.0,<1.12.1.0a0 mpi_openmpi_*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpi4py",
+"numpy >=1.15.0",
+"openmpi >=4.1,<4.2.0a0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"043fc84068d0b3a226f96f2696c3265e0d577b8a37c3b56dc92aad22410cf153",
+"size":1874838,
+"timestamp":1615367846053,
+"version":"0.13.2"
+},
 "openpmd-api-0.13.2-mpi_openmpi_py37hab750d2_0.tar.bz2":{
 "build":"mpi_openmpi_py37hab750d2_0",
 "build_number":0,
