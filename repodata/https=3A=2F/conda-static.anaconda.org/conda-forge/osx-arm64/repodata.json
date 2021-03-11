@@ -18340,6 +18340,25 @@
 "timestamp":1605447461399,
 "version":"1.1.0"
 },
+"fastparquet-0.5.0-py38h8369297_0.tar.bz2":{
+"build":"py38h8369297_0",
+"build_number":0,
+"depends":[
+"numba >=0.28",
+"numpy",
+"packaging",
+"pandas >=0.19",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"thrift >=0.11"
+],
+"license":"BSD-3-Clause",
+"name":"fastparquet",
+"sha256":"e07bf5747aa9dfad1512f764804c01fcfb1e7f2c57e2d73bf22f8545a5c24489",
+"size":176527,
+"timestamp":1615471455873,
+"version":"0.5.0"
+},
 "fd-find-8.1.1-h1efec70_1.tar.bz2":{
 "build":"h1efec70_1",
 "build_number":1,
@@ -33692,6 +33711,50 @@
 "timestamp":1615043735928,
 "version":"0.8.0"
 },
+"mamba-0.8.1-py38h13f8620_0.tar.bz2":{
+"build":"py38h13f8620_0",
+"build_number":0,
+"depends":[
+"conda >=4.8",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.75.0,<8.0a0",
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0",
+"libsolv >=0.7.17,<0.8.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"reproc-cpp >=14.2,<15.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mamba",
+"sha256":"bb9ad9f1c444842a62371e9adc3e98b46120d21ffd8816e7953e283fd988d5e3",
+"size":481344,
+"timestamp":1615471242873,
+"version":"0.8.1"
+},
+"mamba-0.8.1-py39h7f98bdb_0.tar.bz2":{
+"build":"py39h7f98bdb_0",
+"build_number":0,
+"depends":[
+"conda >=4.8",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.75.0,<8.0a0",
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0",
+"libsolv >=0.7.17,<0.8.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"reproc-cpp >=14.2,<15.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mamba",
+"sha256":"0904e1607fcb07536ec6ac660e0ce97b52c781c23c0112533595a454cf950f98",
+"size":599069,
+"timestamp":1615470745916,
+"version":"0.8.1"
+},
 "markupsafe-1.1.1-py38h30f7421_3.tar.bz2":{
 "build":"py38h30f7421_3",
 "build_number":3,
@@ -47933,6 +47996,52 @@
 "size":743750,
 "timestamp":1613600745946,
 "version":"2021.1.2"
+},
+"pyopencl-2021.1.3-py38h3578e97_0.tar.bz2":{
+"build":"py38h3578e97_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"ocl_icd_wrapper_apple",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytools",
+"setuptools",
+"six"
+],
+"license":"MIT",
+"name":"pyopencl",
+"sha256":"ba9b0f7a93fe6537d7c2600d86d59d9c8e0a72a618786dec2b394f9df9706f60",
+"size":746285,
+"timestamp":1615473486417,
+"version":"2021.1.3"
+},
+"pyopencl-2021.1.3-py39h6f7cd10_0.tar.bz2":{
+"build":"py39h6f7cd10_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"ocl_icd_wrapper_apple",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytools",
+"setuptools",
+"six"
+],
+"license":"MIT",
+"name":"pyopencl",
+"sha256":"a04ad542258278f0543461e422f083cdb6fd8c88ed9fb78fe968105ca11ac9c1",
+"size":747137,
+"timestamp":1615473714741,
+"version":"2021.1.3"
 },
 "pyproj-3.0.1-py38h743e829_1.tar.bz2":{
 "build":"py38h743e829_1",
