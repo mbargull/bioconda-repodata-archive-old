@@ -24037,6 +24037,46 @@
 "timestamp":1610325995804,
 "version":"1.1.0"
 },
+"fastparquet-0.5.0-py37h7b4cdb0_0.tar.bz2":{
+"build":"py37h7b4cdb0_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"numba >=0.28",
+"numpy",
+"packaging",
+"pandas >=0.19",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"thrift >=0.11"
+],
+"license":"BSD-3-Clause",
+"name":"fastparquet",
+"sha256":"07eac7ecf251571c3fe7cf62462adbaae066cea3ade3c0930505aa39c28fca93",
+"size":190492,
+"timestamp":1615471318520,
+"version":"0.5.0"
+},
+"fastparquet-0.5.0-py38hb861127_0.tar.bz2":{
+"build":"py38hb861127_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"numba >=0.28",
+"numpy",
+"packaging",
+"pandas >=0.19",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"thrift >=0.11"
+],
+"license":"BSD-3-Clause",
+"name":"fastparquet",
+"sha256":"d9332ed5977fb971ab0be298f747cf6e0fed4f404c1c2fe30b8e7dd915ea0e49",
+"size":193342,
+"timestamp":1615471311351,
+"version":"0.5.0"
+},
 "fcl-0.6.1-h67774e9_2.tar.bz2":{
 "build":"h67774e9_2",
 "build_number":2,
@@ -64133,7 +64173,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
@@ -64186,7 +64226,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
@@ -64210,7 +64250,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "pypy3.7 >=7.3.3",
 "python >=3.7,<3.8.0a0",
@@ -64263,7 +64303,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
@@ -64315,7 +64355,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -64367,7 +64407,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -77547,7 +77587,7 @@
 "timestamp":1610458230069,
 "version":"0.16.2"
 },
-"pyopencl-2021.1.2-py36haf9c0bc_0.tar.bz2":{
+"pyopencl-2021.1.3-py36haf9c0bc_0.tar.bz2":{
 "build":"py36haf9c0bc_0",
 "build_number":0,
 "depends":[
@@ -77566,12 +77606,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"1440d173a40007b40ade8fa0bbe3680de2157a44a80b33b8f77f6b45404f548c",
-"size":706101,
-"timestamp":1613603268667,
-"version":"2021.1.2"
+"sha256":"f020086767f551b8ee7339eb505521eef7ea2401b07ea75df95748efedffcfdd",
+"size":700206,
+"timestamp":1615475392782,
+"version":"2021.1.3"
 },
-"pyopencl-2021.1.2-py36hb178448_0.tar.bz2":{
+"pyopencl-2021.1.3-py36hb178448_0.tar.bz2":{
 "build":"py36hb178448_0",
 "build_number":0,
 "depends":[
@@ -77589,12 +77629,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"912231fa3ab1853296f694afe0c6385be8810f6b5c1bfa97d227c3dc9732d223",
-"size":731318,
-"timestamp":1613600522558,
-"version":"2021.1.2"
+"sha256":"dce6f058b6f4f738244d9d2f60b84070b7d0c685f248f7d0ede4938e80056e6d",
+"size":726499,
+"timestamp":1615475276464,
+"version":"2021.1.3"
 },
-"pyopencl-2021.1.2-py37h50ba158_0.tar.bz2":{
+"pyopencl-2021.1.3-py37h50ba158_0.tar.bz2":{
 "build":"py37h50ba158_0",
 "build_number":0,
 "depends":[
@@ -77613,12 +77653,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"ea8cc033941070ad1cf7b544226c177611f587cec530ebadcbd54bfa8de135ba",
-"size":700029,
-"timestamp":1613603359992,
-"version":"2021.1.2"
+"sha256":"bc0523fdd32d04e33298444facbb12db4fe8c08e2f79e61427880dc7ac8feb02",
+"size":691342,
+"timestamp":1615475252238,
+"version":"2021.1.3"
 },
-"pyopencl-2021.1.2-py37h8065206_0.tar.bz2":{
+"pyopencl-2021.1.3-py37h8065206_0.tar.bz2":{
 "build":"py37h8065206_0",
 "build_number":0,
 "depends":[
@@ -77636,12 +77676,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"ea25eba24330564f3078b4994040f7c5bc5db1c711564feb06ed977b70dd863c",
-"size":734238,
-"timestamp":1613603290464,
-"version":"2021.1.2"
+"sha256":"fc3f22513ce408a8e85b42b764bccc8a8bc8045a66d87b28469d1f3c7fd2d8b0",
+"size":729564,
+"timestamp":1615473479465,
+"version":"2021.1.3"
 },
-"pyopencl-2021.1.2-py38h400dda2_0.tar.bz2":{
+"pyopencl-2021.1.3-py38h400dda2_0.tar.bz2":{
 "build":"py38h400dda2_0",
 "build_number":0,
 "depends":[
@@ -77659,12 +77699,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"be9cb18ff0bab5ce6babe3c500849157533d00c1e7548219758cd51db9f2bf4d",
-"size":723788,
-"timestamp":1613600462025,
-"version":"2021.1.2"
+"sha256":"b79c775790e6d1ac5479dc1760c66fb3412df624fdfab70fbbf3871ddb9eb4f1",
+"size":707656,
+"timestamp":1615475310691,
+"version":"2021.1.3"
 },
-"pyopencl-2021.1.2-py39h31502c1_0.tar.bz2":{
+"pyopencl-2021.1.3-py39h31502c1_0.tar.bz2":{
 "build":"py39h31502c1_0",
 "build_number":0,
 "depends":[
@@ -77682,10 +77722,10 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"c63672067db0df1200d1f5d6a2278bd5fa64d11950ca9ebc65736ac10b53c71a",
-"size":722213,
-"timestamp":1613600560929,
-"version":"2021.1.2"
+"sha256":"4625089801f6bfc6279efe61d898df77ca5e05c8445f1d0b004aa31441404566",
+"size":717233,
+"timestamp":1615475398823,
+"version":"2021.1.3"
 },
 "pyopenssl-19.1.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -111020,6 +111060,24 @@
 "sha256":"40e26e446f7de77fc55739d9a6182fad0ee70fb0e84401408123e2a99123324e",
 "size":977135,
 "timestamp":1611651172010,
+"version":"0.3.0"
+},
+"xeus-sqlite-0.3.0-hb9b7751_1.tar.bz2":{
+"build":"hb9b7751_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"sqlite >=3.34.0,<4.0a0",
+"sqlitecpp >=3.1.1,<3.2.0a0",
+"xeus >=1.0.1,<1.1.0a0",
+"zeromq >=4.3.3,<4.4.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"xeus-sqlite",
+"sha256":"ed59e6f7b181889795362384f2bfa805649530e9a82d54946dccdc8bf424f059",
+"size":986940,
+"timestamp":1615471267691,
 "version":"0.3.0"
 },
 "xleaflet-0.13.1-h2acdbc0_1.tar.bz2":{
