@@ -46245,6 +46245,22 @@
 "timestamp":1597296124651,
 "version":"2.6.3"
 },
+"libflint-2.7.1-h1729a8e_nontl_1.tar.bz2":{
+"build":"h1729a8e_nontl_1",
+"build_number":1,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpfr >=4.0.2,<5.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libflint",
+"sha256":"fc367872e5b7afb54c6f855e32f6a7bdc01795c741a46f5806d41ec8d906dea6",
+"size":15168660,
+"timestamp":1615456438799,
+"version":"2.7.1"
+},
 "libflint-2.7.1-h33f31ad_0.tar.bz2":{
 "build":"h33f31ad_0",
 "build_number":0,
@@ -46260,6 +46276,24 @@
 "sha256":"dbe2fab7cb933e6915151d445bb9fb69bb5bf1abc7a1c8d557f373cdc7fc7cf2",
 "size":15336383,
 "timestamp":1611070569710,
+"version":"2.7.1"
+},
+"libflint-2.7.1-h44062c5_ntl_101.tar.bz2":{
+"build":"h44062c5_ntl_101",
+"build_number":101,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libflint",
+"sha256":"ad7512f08b9f432a5fb89a67e56d01c58a79f744d4955fc1d3cfcbffeaec60dc",
+"size":15335282,
+"timestamp":1615454712002,
+"track_features":"flint_with_nontl",
 "version":"2.7.1"
 },
 "libgcc-devel_linux-ppc64le-7.5.0-h73418f1_14.tar.bz2":{
