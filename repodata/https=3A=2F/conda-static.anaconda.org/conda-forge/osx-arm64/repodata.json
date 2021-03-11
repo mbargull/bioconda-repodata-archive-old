@@ -57254,6 +57254,39 @@
 "timestamp":1614274706099,
 "version":"0.7.0"
 },
+"torchvision-0.8.2-h10c60ff_0_cpu.tar.bz2":{
+"build":"h10c60ff_0_cpu",
+"build_number":0,
+"depends":[
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libpng >=1.6.37,<1.7.0a0",
+"numpy >=1.19.5,<2.0a0",
+"pillow >=4.1.1",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytorch * cpu*"
+],
+"license":"BSD-3-Clause",
+"name":"torchvision",
+"sha256":"9b41dab4b6df5f71caef995578ece9189613503362b102ba71e99e39eb88b627",
+"size":6852370,
+"timestamp":1615486423297,
+"version":"0.8.2"
+},
+"torchvision-cpu-0.8.2-hd610c6a_0.tar.bz2":{
+"build":"hd610c6a_0",
+"build_number":0,
+"depends":[
+"torchvision 0.8.2 *_cpu"
+],
+"license":"BSD-3-Clause",
+"name":"torchvision-cpu",
+"sha256":"5c71e7435c46db982c7693c7ec4bb89ebd33bd9bb32445689fbefa9dfcd367ec",
+"size":5420,
+"timestamp":1615486431692,
+"version":"0.8.2"
+},
 "tornado-6.1-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
 "build_number":0,
