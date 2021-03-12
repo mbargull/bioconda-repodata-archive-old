@@ -54880,6 +54880,20 @@
 "track_features":"mpich_external",
 "version":"3.4.1"
 },
+"mpich-3.4.1-external_4.tar.bz2":{
+"build":"external_4",
+"build_number":4,
+"depends":[
+"mpi 1.0 mpich"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich",
+"sha256":"7f37b6f38d6fa0e91b177d37a0d083fb05ec2274e2b2a5883efb62d5c0b5271f",
+"size":7378,
+"timestamp":1615579125654,
+"track_features":"mpich_external",
+"version":"3.4.1"
+},
 "mpich-3.4.1-h26b3c96_0.tar.bz2":{
 "build":"h26b3c96_0",
 "build_number":0,
@@ -54895,6 +54909,23 @@
 "sha256":"8004454447fb95fb7ed3a82b43eed3402db45e42dd4fab81140b5c362728e4c6",
 "size":9557585,
 "timestamp":1612104853936,
+"version":"3.4.1"
+},
+"mpich-3.4.1-h26b3c96_104.tar.bz2":{
+"build":"h26b3c96_104",
+"build_number":104,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpi 1.0 mpich"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich",
+"sha256":"bbaf612cdfaf12676720b484bfb16b4ee3640591ecb7256d55945d62510448a5",
+"size":9566465,
+"timestamp":1615579735411,
 "version":"3.4.1"
 },
 "mpich-3.4.1-h26b3c96_2.tar.bz2":{
@@ -54928,6 +54959,20 @@
 "timestamp":1612104873608,
 "version":"3.4.1"
 },
+"mpich-mpicc-3.4.1-h05efe27_104.tar.bz2":{
+"build":"h05efe27_104",
+"build_number":104,
+"depends":[
+"gcc_linux-aarch64 9.*",
+"mpich 3.4.1 h26b3c96_104"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich-mpicc",
+"sha256":"26038f1b6a0704ee02418ba79afc8fb986d928090f8d149f772ee7e4bb97871e",
+"size":7563,
+"timestamp":1615579752986,
+"version":"3.4.1"
+},
 "mpich-mpicc-3.4.1-h05efe27_2.tar.bz2":{
 "build":"h05efe27_2",
 "build_number":2,
@@ -54956,6 +55001,20 @@
 "timestamp":1612104877653,
 "version":"3.4.1"
 },
+"mpich-mpicxx-3.4.1-hf897c2e_104.tar.bz2":{
+"build":"hf897c2e_104",
+"build_number":104,
+"depends":[
+"gxx_linux-aarch64 9.*",
+"mpich 3.4.1 h26b3c96_104"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich-mpicxx",
+"sha256":"8fe6f49e8911bc217ba25c81fd6e54ad0edb8509774896b765ec38f8c928383a",
+"size":7537,
+"timestamp":1615579756964,
+"version":"3.4.1"
+},
 "mpich-mpicxx-3.4.1-hf897c2e_2.tar.bz2":{
 "build":"hf897c2e_2",
 "build_number":2,
@@ -54982,6 +55041,20 @@
 "sha256":"694235bde7873364fe4d313912c27aabd5e525917f9a3fbc4033faaec4460ded",
 "size":7635,
 "timestamp":1612104881695,
+"version":"3.4.1"
+},
+"mpich-mpifort-3.4.1-hd62202e_104.tar.bz2":{
+"build":"hd62202e_104",
+"build_number":104,
+"depends":[
+"gfortran_linux-aarch64 9.*",
+"mpich 3.4.1 h26b3c96_104"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich-mpifort",
+"sha256":"8fd2f53ec510cef5bd87e553a28300f0f1fec07ec05410e4ac236b0db47faa37",
+"size":7604,
+"timestamp":1615579761037,
 "version":"3.4.1"
 },
 "mpich-mpifort-3.4.1-hd62202e_2.tar.bz2":{

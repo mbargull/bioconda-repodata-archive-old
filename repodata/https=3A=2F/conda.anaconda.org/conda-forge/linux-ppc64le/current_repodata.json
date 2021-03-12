@@ -25929,18 +25929,18 @@
 "timestamp":1604247033180,
 "version":"2.10.4"
 },
-"freexl-1.0.5-h6eb9509_1002.tar.bz2":{
-"build":"h6eb9509_1002",
-"build_number":1002,
+"freexl-1.0.6-h4e0d66e_0.tar.bz2":{
+"build":"h4e0d66e_0",
+"build_number":0,
 "depends":[
-"libgcc-ng >=8.4.0"
+"libgcc-ng >=9.3.0"
 ],
-"license":"LGPL-2.1",
+"license":"MPL-1.1",
 "name":"freexl",
-"sha256":"9e3c383f542a80fde904dc4d322afa57893a294eefccb1e25c9f375e1397f06c",
-"size":55344,
-"timestamp":1594840128259,
-"version":"1.0.5"
+"sha256":"823a56398da4ddc1305f72787cf47c81270d45453f89f90256c52122209b95a4",
+"size":56899,
+"timestamp":1615579520065,
+"version":"1.0.6"
 },
 "freud-2.4.1-py36h46d8f46_1.tar.bz2":{
 "build":"py36h46d8f46_1",
@@ -56773,6 +56773,20 @@
 "sha256":"cdcc63595b97ea432b046a9875ae3d4d8a950295f4391f7585eb66d5bdbc9b96",
 "size":7433,
 "timestamp":1612256771624,
+"track_features":"mpich_external",
+"version":"3.4.1"
+},
+"mpich-3.4.1-external_4.tar.bz2":{
+"build":"external_4",
+"build_number":4,
+"depends":[
+"mpi 1.0 mpich"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich",
+"sha256":"98b26624b535fda851233dde80e5045efe3a9bd612b4f164240852179d80c838",
+"size":7363,
+"timestamp":1615579225131,
 "track_features":"mpich_external",
 "version":"3.4.1"
 },

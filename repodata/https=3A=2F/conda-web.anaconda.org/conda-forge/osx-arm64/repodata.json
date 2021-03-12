@@ -36217,6 +36217,22 @@
 "timestamp":1612106335587,
 "version":"3.4.1"
 },
+"mpich-3.4.1-hd4b5bf3_104.tar.bz2":{
+"build":"hd4b5bf3_104",
+"build_number":104,
+"depends":[
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.0.dev0",
+"mpi 1.0 mpich"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich",
+"requires":[],
+"size":6598156,
+"timestamp":1615581636971,
+"version":"3.4.1"
+},
 "mpich-3.4.1-hd4b5bf3_3.tar.bz2":{
 "build":"hd4b5bf3_3",
 "build_number":3,
@@ -36303,6 +36319,20 @@
 "timestamp":1612106347433,
 "version":"3.4.1"
 },
+"mpich-mpicc-3.4.1-he4d4495_104.tar.bz2":{
+"build":"he4d4495_104",
+"build_number":104,
+"depends":[
+"clang_osx-arm64 11.*",
+"mpich 3.4.1 hd4b5bf3_104"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich-mpicc",
+"requires":[],
+"size":7553,
+"timestamp":1615581651977,
+"version":"3.4.1"
+},
 "mpich-mpicc-3.4.1-he4d4495_3.tar.bz2":{
 "build":"he4d4495_3",
 "build_number":3,
@@ -36387,6 +36417,20 @@
 "timestamp":1612106351962,
 "version":"3.4.1"
 },
+"mpich-mpicxx-3.4.1-h27ca646_104.tar.bz2":{
+"build":"h27ca646_104",
+"build_number":104,
+"depends":[
+"clangxx_osx-arm64 11.*",
+"mpich 3.4.1 hd4b5bf3_104"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich-mpicxx",
+"requires":[],
+"size":7531,
+"timestamp":1615581656639,
+"version":"3.4.1"
+},
 "mpich-mpicxx-3.4.1-h27ca646_3.tar.bz2":{
 "build":"h27ca646_3",
 "build_number":3,
@@ -36469,6 +36513,20 @@
 "requires":[],
 "size":7635,
 "timestamp":1612106356344,
+"version":"3.4.1"
+},
+"mpich-mpifort-3.4.1-h260d524_104.tar.bz2":{
+"build":"h260d524_104",
+"build_number":104,
+"depends":[
+"gfortran_osx-arm64 11.*",
+"mpich 3.4.1 hd4b5bf3_104"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich-mpifort",
+"requires":[],
+"size":7600,
+"timestamp":1615581661364,
 "version":"3.4.1"
 },
 "mpich-mpifort-3.4.1-h260d524_3.tar.bz2":{
@@ -37548,6 +37606,29 @@
 "size":3710540,
 "timestamp":1609272846884,
 "version":"0.52.0"
+},
+"numba-0.53.0-py38ha636945_0.tar.bz2":{
+"build":"py38ha636945_0",
+"build_number":0,
+"constrains":[
+"cudatoolkit >=9.0",
+"scipy >=1.0"
+],
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.0.1",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"requires":[],
+"size":3796169,
+"timestamp":1615583657243,
+"version":"0.53.0"
 },
 "numexpr-2.7.2-py38h9b9bf68_0.tar.bz2":{
 "build":"py38h9b9bf68_0",
@@ -54267,6 +54348,19 @@
 "timestamp":1614108336474,
 "version":"1.0.0"
 },
+"s2n-1.0.1-hd5e6a67_0.tar.bz2":{
+"build":"hd5e6a67_0",
+"build_number":0,
+"depends":[
+"openssl >=1.1.1j,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"s2n",
+"requires":[],
+"size":291735,
+"timestamp":1615580871509,
+"version":"1.0.1"
+},
 "s2n-static-0.10.0-hf5adfa1_1.tar.bz2":{
 "build":"hf5adfa1_1",
 "build_number":1,
@@ -54343,6 +54437,17 @@
 "size":394078,
 "timestamp":1614108384015,
 "version":"1.0.0"
+},
+"s2n-static-1.0.1-h27ca646_0.tar.bz2":{
+"build":"h27ca646_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"s2n-static",
+"requires":[],
+"size":398122,
+"timestamp":1615580935391,
+"version":"1.0.1"
 },
 "sagemath-db-conway-polynomials-0.5.0-h4653dfc_1.tar.bz2":{
 "build":"h4653dfc_1",
