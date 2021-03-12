@@ -49836,21 +49836,6 @@
 "timestamp":1607031919738,
 "version":"3.14.0"
 },
-"libprotobuf-3.15.5-h690f14c_0.tar.bz2":{
-"build":"h690f14c_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"libprotobuf",
-"sha256":"430dd259f410a8bec0180d76ba1a890f91b2994cbbdf8c54d086a41c54c8b8b1",
-"size":2523721,
-"timestamp":1614918600484,
-"version":"3.15.5"
-},
 "libprotobuf-3.15.6-h690f14c_0.tar.bz2":{
 "build":"h690f14c_0",
 "build_number":0,
@@ -70135,13 +70120,13 @@
 "timestamp":1614612916253,
 "version":"8.0.0"
 },
-"protobuf-3.15.5-py36h08d3667_0.tar.bz2":{
+"protobuf-3.15.6-py36h08d3667_0.tar.bz2":{
 "build":"py36h08d3667_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libprotobuf 3.15.5.*",
-"libprotobuf >=3.15.5,<3.16.0a0",
+"libprotobuf 3.15.6.*",
+"libprotobuf >=3.15.6,<3.16.0a0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
@@ -70150,100 +70135,18 @@
 ],
 "license":"BSD-3-Clause",
 "name":"protobuf",
-"sha256":"a2fee5d7c8e2782cd1dbabb4655430ff08a3018b528929aa7a7d095731aa4b4b",
-"size":347345,
-"timestamp":1614932978923,
-"version":"3.15.5"
+"sha256":"bd58c84b5c5ca8547f42d24cd8205940f5f2f2246ddf786a16295b6bc37ec2b1",
+"size":347002,
+"timestamp":1615515481059,
+"version":"3.15.6"
 },
-"protobuf-3.15.5-py36hdee431b_0.tar.bz2":{
-"build":"py36hdee431b_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libprotobuf 3.15.5.*",
-"libprotobuf >=3.15.5,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"setuptools",
-"six"
-],
-"license":"BSD-3-Clause",
-"name":"protobuf",
-"sha256":"32b195eb39f4cb80b678c495b313a2436ba933362c3b735a7c9ba557a75fb9a6",
-"size":348004,
-"timestamp":1614933342485,
-"version":"3.15.5"
-},
-"protobuf-3.15.5-py37hc9b93fd_0.tar.bz2":{
-"build":"py37hc9b93fd_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libprotobuf 3.15.5.*",
-"libprotobuf >=3.15.5,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"setuptools",
-"six"
-],
-"license":"BSD-3-Clause",
-"name":"protobuf",
-"sha256":"d7b97e9928e228cffd8ab32f9d0acc0bab36f7f47e86622efaa1a34e220e3de0",
-"size":345018,
-"timestamp":1614933330583,
-"version":"3.15.5"
-},
-"protobuf-3.15.5-py37hfc837b7_0.tar.bz2":{
-"build":"py37hfc837b7_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libprotobuf 3.15.5.*",
-"libprotobuf >=3.15.5,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"pypy3.7 >=7.3.3",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"setuptools",
-"six"
-],
-"license":"BSD-3-Clause",
-"name":"protobuf",
-"sha256":"4fcb0b721a20078cdcd2424fee865db5aacfb2eb18f6d2a7251d88034616586c",
-"size":351769,
-"timestamp":1614933364868,
-"version":"3.15.5"
-},
-"protobuf-3.15.5-py38ha35a538_0.tar.bz2":{
-"build":"py38ha35a538_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libprotobuf 3.15.5.*",
-"libprotobuf >=3.15.5,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"setuptools",
-"six"
-],
-"license":"BSD-3-Clause",
-"name":"protobuf",
-"sha256":"fbae748f73007064e50b8fdfea7c346375258bc898eeb5e8a32fcf2936d8436d",
-"size":350507,
-"timestamp":1614933002878,
-"version":"3.15.5"
-},
-"protobuf-3.15.5-py39had50986_0.tar.bz2":{
+"protobuf-3.15.6-py39had50986_0.tar.bz2":{
 "build":"py39had50986_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libprotobuf 3.15.5.*",
-"libprotobuf >=3.15.5,<3.16.0a0",
+"libprotobuf 3.15.6.*",
+"libprotobuf >=3.15.6,<3.16.0a0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -70252,10 +70155,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"protobuf",
-"sha256":"dccc210123dee0de1a887ff11bf5d947022f4f589f67a8d34b8b6a74c10f29ee",
-"size":354493,
-"timestamp":1614933012470,
-"version":"3.15.5"
+"sha256":"2cc2ee005c971f8bf44eb7e7cbbb376953f9c3c900d4a34fccbb659f23b60e3c",
+"size":355359,
+"timestamp":1615515470784,
+"version":"3.15.6"
 },
 "protoc-gen-go-1.4.3-h375a9b1_0.tar.bz2":{
 "build":"h375a9b1_0",
