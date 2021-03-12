@@ -30831,22 +30831,6 @@
 "size":155612,
 "timestamp":1548310640031,
 "version":"1.1"
-},
-"zstd-1.3.7-h0b5b093_0.tar.bz2":{
-"build":"h0b5b093_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"xz >=5.2.4,<6.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD 3-Clause",
-"name":"zstd",
-"sha256":"c9bb2cfad699638af672245bf5e55d44e09ab010145dc0faebf5a4b3ea6823c5",
-"size":884684,
-"timestamp":1541459859027,
-"version":"1.3.7"
 }
 },
 "packages.conda":{
@@ -52113,6 +52097,26 @@
 "size":503570,
 "timestamp":1591038858478,
 "version":"4.1.0"
+},
+"libtiff-4.2.0-h0f43b92_0.conda":{
+"build":"h0f43b92_0",
+"build_number":0,
+"depends":[
+"jpeg >=9b,<10a",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"libwebp-base",
+"xz >=5.2.5,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.5,<1.4.6.0a0"
+],
+"legacy_bz2_md5":"e2942f7603c250c4523e5836183949f5",
+"license":"HPND",
+"name":"libtiff",
+"sha256":"6691e4e57c1b38500cec730641dafb8af431513b6bc43c6702978769edad359b",
+"size":516963,
+"timestamp":1615544159653,
+"version":"4.2.0"
 },
 "libtool-2.4.6-h7b6447c_1005.conda":{
 "build":"h7b6447c_1005",
