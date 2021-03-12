@@ -6160,11 +6160,11 @@
 "timestamp":1615242095288,
 "version":"1.8.151"
 },
-"awscli-1.19.25-py36h2e20a7f_0.tar.bz2":{
+"awscli-1.19.26-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.25",
+"botocore 1.20.26",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.6 >=7.3.3",
@@ -6176,16 +6176,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"4c212561cfa4af1c9f1caf86c9aeac2e5ba09d2c882ef071ab5295b717663757",
-"size":1912622,
-"timestamp":1615431720791,
-"version":"1.19.25"
+"sha256":"4512c741fdb4c480633e00a0feafad5d9c6e31f4e140eb58e14a92dcee87c525",
+"size":1920425,
+"timestamp":1615509285337,
+"version":"1.19.26"
 },
-"awscli-1.19.25-py36h704843e_0.tar.bz2":{
+"awscli-1.19.26-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.25",
+"botocore 1.20.26",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -6196,16 +6196,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"aaedc7bf5b7bfd3eeaa6592342af367c90cd43b69dda427d3fd68328539541ab",
-"size":1908017,
-"timestamp":1615431984600,
-"version":"1.19.25"
+"sha256":"ecc3f1cafab2dc7671c3e04d3f2246da77b26e3fcf1e6db65ca9acf82fd369fa",
+"size":1915514,
+"timestamp":1615509792726,
+"version":"1.19.26"
 },
-"awscli-1.19.25-py37hd9ded2f_0.tar.bz2":{
+"awscli-1.19.26-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.25",
+"botocore 1.20.26",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -6216,16 +6216,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"eb3274e2e4660d6b0811d14746cc6f32e8b6e27bca9fbd5ea0a7de0c3c0885d4",
-"size":1909457,
-"timestamp":1615432234949,
-"version":"1.19.25"
+"sha256":"54b36cd704806deaf29a99bef5eb685997f2b6b4702e1f95bbfc3eec10df9c96",
+"size":1911779,
+"timestamp":1615510047778,
+"version":"1.19.26"
 },
-"awscli-1.19.25-py38h2063c64_0.tar.bz2":{
+"awscli-1.19.26-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.25",
+"botocore 1.20.26",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -6236,30 +6236,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"07a1e5bd410e1f0e0151a60b7c6b7a1e2beb17a1606676eff92dc9a61d1b0096",
-"size":1920925,
-"timestamp":1615432489586,
-"version":"1.19.25"
-},
-"awscli-1.19.25-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"botocore 1.20.25",
-"colorama >=0.2.5,<0.4.4",
-"docutils >=0.10,<0.16",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pyyaml >=3.10,<5.5",
-"rsa >=3.1.2,<4.8",
-"s3transfer >=0.3.0,<0.4.0"
-],
-"license":"Apache-2.0",
-"name":"awscli",
-"sha256":"8d4523bd40e6ac0756aeaeed9254f2d2764a095273e5fd1546a328f3e6c1c24e",
-"size":1920924,
-"timestamp":1615432765279,
-"version":"1.19.25"
+"sha256":"3db99ab4161b238c6fd6b9bdd6a6254ea2724761ed829007418f3272f6505f7a",
+"size":1917009,
+"timestamp":1615510695112,
+"version":"1.19.26"
 },
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
@@ -47976,6 +47956,27 @@
 "size":1249575,
 "timestamp":1603559401655,
 "version":"2.72.0"
+},
+"libspatialite-5.0.1-h9fab732_4.tar.bz2":{
+"build":"h9fab732_4",
+"build_number":4,
+"depends":[
+"freexl >=1.0.5,<2.0a0",
+"geos >=3.9.1,<3.9.2.0a0",
+"libgcc-ng >=9.3.0",
+"librttopo >=1.1.0,<1.2.0a0",
+"libstdcxx-ng >=9.3.0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"proj >=8.0.0,<8.0.1.0a0",
+"sqlite >=3.34.0,<4.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MPL-1.1",
+"name":"libspatialite",
+"sha256":"d5a8cba8ab3f0dd7d42dd9d331a6de2b2730698c54b176a1050348530af53acb",
+"size":4393124,
+"timestamp":1615506707618,
+"version":"5.0.1"
 },
 "libssh-0.8.9-h8cfc5f6_0.tar.bz2":{
 "build":"h8cfc5f6_0",
