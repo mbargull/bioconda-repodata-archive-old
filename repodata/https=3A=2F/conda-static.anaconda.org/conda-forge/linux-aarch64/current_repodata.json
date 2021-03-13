@@ -28502,26 +28502,13 @@
 "timestamp":1615643543539,
 "version":"1.15.10"
 },
-"go-1.15.9-h06e7c03_0.tar.bz2":{
-"build":"h06e7c03_0",
-"build_number":0,
-"depends":[
-"_go_select ==2.2.0 nocgo"
-],
-"license":"BSD-3-Clause",
-"name":"go",
-"sha256":"6895a86106c03cfa3900b00fe5cc84d9bcc279f4a4147c903cdf99d9c59e23bf",
-"size":117325711,
-"timestamp":1615406590290,
-"version":"1.15.9"
-},
-"go-1.15.9-h61bf5ce_0.tar.bz2":{
+"go-1.15.10-h61bf5ce_0.tar.bz2":{
 "build":"h61bf5ce_0",
 "build_number":0,
 "constrains":[
-"gcc_linux-aarch64 9.*",
+"gxx_linux-aarch64 9.*",
 "gfortran_linux-aarch64 9.*",
-"gxx_linux-aarch64 9.*"
+"gcc_linux-aarch64 9.*"
 ],
 "depends":[
 "_go_select ==2.3.0 cgo",
@@ -28532,37 +28519,37 @@
 ],
 "license":"BSD-3-Clause",
 "name":"go",
-"sha256":"1a3ca891d2cc46f8bc15ff8ba18746b548c3ff2601f3df0d4a6d8b542a81c917",
-"size":117357670,
-"timestamp":1615407096216,
-"version":"1.15.9"
+"sha256":"44b0cb7dede040d7a3f593fca179c6a56eb081bf46f0ff6ef4355852a42873d6",
+"size":117411765,
+"timestamp":1615644001301,
+"version":"1.15.10"
 },
-"go-cgo-1.15.9-h117dc7d_0.tar.bz2":{
+"go-cgo-1.15.10-h117dc7d_0.tar.bz2":{
 "build":"h117dc7d_0",
 "build_number":0,
 "depends":[
 "gcc_linux-aarch64 9.*",
-"go 1.15.9 h61bf5ce_0"
+"go 1.15.10 h61bf5ce_0"
 ],
 "license":"BSD-3-Clause",
 "name":"go-cgo",
-"sha256":"3f203d54836c14263b5cb7cd86d1b6ad3478f179135e6724c59ef6f5f3209a28",
-"size":14473,
-"timestamp":1615407384377,
-"version":"1.15.9"
+"sha256":"f5339ac3da808f75d3c8cc31437c06537cf11b78e0eeaf250fdf7ab83e602350",
+"size":14503,
+"timestamp":1615644287959,
+"version":"1.15.10"
 },
-"go-cgo_linux-aarch64-1.15.9-h02f519c_0.tar.bz2":{
+"go-cgo_linux-aarch64-1.15.10-h02f519c_0.tar.bz2":{
 "build":"h02f519c_0",
 "build_number":0,
 "depends":[
-"go 1.15.9 h61bf5ce_0"
+"go 1.15.10 h61bf5ce_0"
 ],
 "license":"BSD-3-Clause",
 "name":"go-cgo_linux-aarch64",
-"sha256":"47f9d4c52d19dc6c6f43ecfb80a4c039c85b9c813cd05e0da8fde9b042701e19",
-"size":14947,
-"timestamp":1615407392248,
-"version":"1.15.9"
+"sha256":"8885c87cbb717de6f38081a2a21a88a2fbd4820fc2126a90505be3f7e7d7055c",
+"size":14977,
+"timestamp":1615644295477,
+"version":"1.15.10"
 },
 "go-dep-0.5.4-h652cbe9_1.tar.bz2":{
 "build":"h652cbe9_1",
