@@ -78754,140 +78754,33 @@
 "timestamp":1601405057606,
 "version":"1.4.0"
 },
-"python-symengine-0.6.1-py36h0f15581_3.tar.bz2":{
-"build":"py36h0f15581_3",
-"build_number":3,
+"python-symengine-0.7.0-py36h0f15581_0.tar.bz2":{
+"build":"py36h0f15581_0",
+"build_number":0,
 "depends":[
 "gmp >=6.2.1,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
+"libflint >=2.7.1,<2.8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpc >=1.1.0,<2.0a0",
 "mpfr >=4.0.2,<5.0a0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
-"symengine >=0.6.0,<0.7.0a0"
+"symengine >=0.7.0,<0.8.0a0"
 ],
 "license":"MIT",
 "name":"python-symengine",
-"sha256":"28d199d4f50dba402d35cf89df986c0115ef944e8a8ecc8f9bbb789c6b9ffcdf",
-"size":1193411,
-"timestamp":1610334512242,
-"version":"0.6.1"
+"sha256":"ead1de85fc80581d0a5439d6a47b663d00f72221dae7ff44a4a8b9383fa4f6cd",
+"size":1195633,
+"timestamp":1615709073822,
+"version":"0.7.0"
 },
-"python-symengine-0.6.1-py36h248fdca_0.tar.bz2":{
-"build":"py36h248fdca_0",
+"python-symengine-0.7.0-py36hb3c5b5d_0.tar.bz2":{
+"build":"py36hb3c5b5d_0",
 "build_number":0,
 "depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.5.2,<2.6.0a0",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"78a63e141423ff7b00aebbe71181edb8cb353e9312edfa478ab8fbabb1abb6e4",
-"size":1231592,
-"timestamp":1584400207590,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py36h248fdca_3.tar.bz2":{
-"build":"py36h248fdca_3",
-"build_number":3,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"3b4ae0159ea75404206d5247258bd8148d999cdce09e5520f1d53844598a20ba",
-"size":1134534,
-"timestamp":1602474799811,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py36h361dcd8_3.tar.bz2":{
-"build":"py36h361dcd8_3",
-"build_number":3,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"pypy3.6 >=7.3.2",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"bda1b0239599570649907f03dc8c8740380c439c48d412b2797f2d5d54279f64",
-"size":985351,
-"timestamp":1602475556664,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py36h63d925a_2.tar.bz2":{
-"build":"py36h63d925a_2",
-"build_number":2,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.6.0,<2.7.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"pypy3.6 >=7.3.1",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"95e343aa368a02a70402122b74f61ea7050e0203199bcc7339ee0f688aa9f3e7",
-"size":978401,
-"timestamp":1591547951582,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py36h686b841_2.tar.bz2":{
-"build":"py36h686b841_2",
-"build_number":2,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.6.0,<2.7.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"99cbef4e4b2e42594ef5bde8371d87a50f0bde09e3d36e13d4d462b1fa167f00",
-"size":1123496,
-"timestamp":1591547867242,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py36hb3c5b5d_3.tar.bz2":{
-"build":"py36hb3c5b5d_3",
-"build_number":3,
-"depends":[
 "gmp >=6.2.1,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
+"libflint >=2.7.1,<2.8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpc >=1.1.0,<2.0a0",
@@ -78895,21 +78788,21 @@
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6 *_pypy36_pp73",
-"symengine >=0.6.0,<0.7.0a0"
+"symengine >=0.7.0,<0.8.0a0"
 ],
 "license":"MIT",
 "name":"python-symengine",
-"sha256":"68809b99934a32ed5068a3abc270b2013678df876fded0997be8810e78682125",
-"size":977576,
-"timestamp":1610334566697,
-"version":"0.6.1"
+"sha256":"039e5ef24f0adf1c47c5a138c078ace6a0036a9bbcf6f1e6fd335ca1862c75d1",
+"size":979463,
+"timestamp":1615708382779,
+"version":"0.7.0"
 },
-"python-symengine-0.6.1-py37h9ef2e64_3.tar.bz2":{
-"build":"py37h9ef2e64_3",
-"build_number":3,
+"python-symengine-0.7.0-py37h9ef2e64_0.tar.bz2":{
+"build":"py37h9ef2e64_0",
+"build_number":0,
 "depends":[
 "gmp >=6.2.1,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
+"libflint >=2.7.1,<2.8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpc >=1.1.0,<2.0a0",
@@ -78917,224 +78810,77 @@
 "pypy3.7 >=7.3.3",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
-"symengine >=0.6.0,<0.7.0a0"
+"symengine >=0.7.0,<0.8.0a0"
 ],
 "license":"MIT",
 "name":"python-symengine",
-"sha256":"22329ab2593fd3c600e1b8d242e2becc7a21dab0988f936cc536551bc0ae430e",
-"size":965401,
-"timestamp":1610334729736,
-"version":"0.6.1"
+"sha256":"410e0f9ff585f1b8c2a1a0698452f2a4bc000315d4c2fcbfee269554fe685821",
+"size":968880,
+"timestamp":1615709232879,
+"version":"0.7.0"
 },
-"python-symengine-0.6.1-py37hd42a662_0.tar.bz2":{
-"build":"py37hd42a662_0",
+"python-symengine-0.7.0-py37hd8f0199_0.tar.bz2":{
+"build":"py37hd8f0199_0",
 "build_number":0,
 "depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.5.2,<2.6.0a0",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"09df65f8d7b374e0afe4c869c42cba61383a9eb20eb14c16d9017d813f5a5a38",
-"size":1232123,
-"timestamp":1584400189511,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py37hd42a662_3.tar.bz2":{
-"build":"py37hd42a662_3",
-"build_number":3,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"a209d8cca6c7e424ec09018f78edf35e5a95425efc90ef0550af55671bc5fbfa",
-"size":1111226,
-"timestamp":1602475361966,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py37hd4ee213_2.tar.bz2":{
-"build":"py37hd4ee213_2",
-"build_number":2,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.6.0,<2.7.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"68ed99e8b0a47f294541ee6b61c70bb5bd5c4b5cdd16d646c1a2a6b9b643365d",
-"size":1122665,
-"timestamp":1591548418669,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py37hd8f0199_3.tar.bz2":{
-"build":"py37hd8f0199_3",
-"build_number":3,
-"depends":[
 "gmp >=6.2.1,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
+"libflint >=2.7.1,<2.8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpc >=1.1.0,<2.0a0",
 "mpfr >=4.0.2,<5.0a0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
-"symengine >=0.6.0,<0.7.0a0"
+"symengine >=0.7.0,<0.8.0a0"
 ],
 "license":"MIT",
 "name":"python-symengine",
-"sha256":"8d575a935d8d7124f0d744522d767677e710f2084a24b92ce96b2ad546596b7f",
-"size":1183127,
-"timestamp":1610335679175,
-"version":"0.6.1"
+"sha256":"19a9aa1a13c2cb2fb8f6a48d9a4ee859cfe0bfd235134e781ab7eacc3caa7379",
+"size":1181763,
+"timestamp":1615708319387,
+"version":"0.7.0"
 },
-"python-symengine-0.6.1-py38h5b2b51c_0.tar.bz2":{
-"build":"py38h5b2b51c_0",
+"python-symengine-0.7.0-py38ha4bb88d_0.tar.bz2":{
+"build":"py38ha4bb88d_0",
 "build_number":0,
 "depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.5.2,<2.6.0a0",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"27adc49b036177fbfc7e308193b869ea79e15860cb9726824fce2c22712a4d80",
-"size":1274547,
-"timestamp":1584400146168,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py38h5b2b51c_3.tar.bz2":{
-"build":"py38h5b2b51c_3",
-"build_number":3,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"04abdb24d3f670ef4ddb880132af2612476026586a598422e0d32b32a8d3a51d",
-"size":1168819,
-"timestamp":1602475328998,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py38ha4bb88d_3.tar.bz2":{
-"build":"py38ha4bb88d_3",
-"build_number":3,
-"depends":[
 "gmp >=6.2.1,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
+"libflint >=2.7.1,<2.8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpc >=1.1.0,<2.0a0",
 "mpfr >=4.0.2,<5.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
-"symengine >=0.6.0,<0.7.0a0"
+"symengine >=0.7.0,<0.8.0a0"
 ],
 "license":"MIT",
 "name":"python-symengine",
-"sha256":"924da7836d47b74c50d26da3faac21c12d6a09a264d7d0e6de95e136a77c110c",
-"size":1212882,
-"timestamp":1610334943033,
-"version":"0.6.1"
+"sha256":"475ab6a1c7cb309e809c4317685663ee2b5f20f7961524f95ed2c95f05226962",
+"size":1215640,
+"timestamp":1615709013989,
+"version":"0.7.0"
 },
-"python-symengine-0.6.1-py38hecc8187_2.tar.bz2":{
-"build":"py38hecc8187_2",
-"build_number":2,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.6.0,<2.7.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"f99419c50bc80f30f02543e24f63b9637de4bac84f273cdadb0704671a179494",
-"size":1164041,
-"timestamp":1591548403407,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py39h59d0e78_3.tar.bz2":{
-"build":"py39h59d0e78_3",
-"build_number":3,
+"python-symengine-0.7.0-py39h59d0e78_0.tar.bz2":{
+"build":"py39h59d0e78_0",
+"build_number":0,
 "depends":[
 "gmp >=6.2.1,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
+"libflint >=2.7.1,<2.8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpc >=1.1.0,<2.0a0",
 "mpfr >=4.0.2,<5.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
-"symengine >=0.6.0,<0.7.0a0"
+"symengine >=0.7.0,<0.8.0a0"
 ],
 "license":"MIT",
 "name":"python-symengine",
-"sha256":"c2342ce39f3f482dfd3ee78ff8479860d48daf4ac0637c3152243780a8988c90",
-"size":1194866,
-"timestamp":1610335009509,
-"version":"0.6.1"
-},
-"python-symengine-0.6.1-py39hc0891dd_3.tar.bz2":{
-"build":"py39hc0891dd_3",
-"build_number":3,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.6.3,<2.7.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"symengine >=0.6.0,<0.7.0a0"
-],
-"license":"MIT",
-"name":"python-symengine",
-"sha256":"f8d149f9391bdffc8a2005a0932ce10c54f20fd6c813c0a281ff31a62f9f7bdc",
-"size":1165924,
-"timestamp":1602475333887,
-"version":"0.6.1"
+"sha256":"d63a599bd7dd049f1cd4b09c556825c7dab007bd04af97a0f5d7f12fac796eef",
+"size":1208677,
+"timestamp":1615708299731,
+"version":"0.7.0"
 },
 "python-xxhash-2.0.0-py36h269c3a8_1.tar.bz2":{
 "build":"py36h269c3a8_1",
@@ -101496,43 +101242,6 @@
 "size":444768,
 "timestamp":1594757750618,
 "version":"5.2.1"
-},
-"symengine-0.6.0-h800644d_1.tar.bz2":{
-"build":"h800644d_1",
-"build_number":1,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.6.0,<2.7.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0"
-],
-"license":"MIT",
-"name":"symengine",
-"sha256":"47320b674096ae2e64c7a9de58c9911a85dcaab1671335b9e57f6716b76abdc9",
-"size":11472958,
-"timestamp":1591506574729,
-"version":"0.6.0"
-},
-"symengine-0.6.0-h9603a25_0.tar.bz2":{
-"build":"h9603a25_0",
-"build_number":0,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libflint >=2.5.2,<2.6.0a0",
-"libflint >=2.5.2,<3.0a0",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0"
-],
-"license":"MIT",
-"name":"symengine",
-"sha256":"02d5bfbb6bb06e5456bbfb4e711c1ef9f1760f044717745ce78068c1cb2c43ac",
-"size":11451947,
-"timestamp":1581822933255,
-"version":"0.6.0"
 },
 "symengine-0.7.0-h9e7c665_0.tar.bz2":{
 "build":"h9e7c665_0",
