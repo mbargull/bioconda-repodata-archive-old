@@ -32056,6 +32056,20 @@
 "timestamp":1611089891251,
 "version":"0.7.17"
 },
+"libsolv-0.7.17-habe5f53_1.tar.bz2":{
+"build":"habe5f53_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv",
+"requires":[],
+"size":387342,
+"timestamp":1615758327546,
+"version":"0.7.17"
+},
 "libsolv-static-0.7.14-h74e0e61_5.tar.bz2":{
 "build":"h74e0e61_5",
 "build_number":5,
@@ -32114,6 +32128,21 @@
 "requires":[],
 "size":316251,
 "timestamp":1611089912946,
+"version":"0.7.17"
+},
+"libsolv-static-0.7.17-habe5f53_1.tar.bz2":{
+"build":"habe5f53_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libsolv 0.7.17 habe5f53_1",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv-static",
+"requires":[],
+"size":317291,
+"timestamp":1615758347561,
 "version":"0.7.17"
 },
 "libspatialindex-1.9.3-h9f76cd9_3.tar.bz2":{
