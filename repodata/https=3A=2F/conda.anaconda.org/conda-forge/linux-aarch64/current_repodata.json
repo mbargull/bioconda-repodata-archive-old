@@ -40121,6 +40121,91 @@
 "timestamp":1615909170574,
 "version":"1.5.12"
 },
+"kaggle-1.5.12-py37h4bcbb9b_0.tar.bz2":{
+"build":"py37h4bcbb9b_0",
+"build_number":0,
+"depends":[
+"certifi",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python-dateutil",
+"python-slugify",
+"python_abi 3.7 *_pypy37_pp73",
+"requests",
+"six >=1.10",
+"tqdm",
+"urllib3 >=1.21.1,<1.25"
+],
+"license":"Apache-2.0",
+"name":"kaggle",
+"sha256":"e698ad998be6ebcd57637028cff108f59700ff73a22f64678f30d68a26e86b0e",
+"size":104561,
+"timestamp":1615909362515,
+"version":"1.5.12"
+},
+"kaggle-1.5.12-py37hd9ded2f_0.tar.bz2":{
+"build":"py37hd9ded2f_0",
+"build_number":0,
+"depends":[
+"certifi",
+"python >=3.7,<3.8.0a0",
+"python-dateutil",
+"python-slugify",
+"python_abi 3.7.* *_cp37m",
+"requests",
+"six >=1.10",
+"tqdm",
+"urllib3 >=1.21.1,<1.25"
+],
+"license":"Apache-2.0",
+"name":"kaggle",
+"sha256":"ca16a5fd8630473b51a5a8ccd64bfbabfbdada6415a0eb2980fee672464568bc",
+"size":104885,
+"timestamp":1615909506025,
+"version":"1.5.12"
+},
+"kaggle-1.5.12-py38h2063c64_0.tar.bz2":{
+"build":"py38h2063c64_0",
+"build_number":0,
+"depends":[
+"certifi",
+"python >=3.8,<3.9.0a0",
+"python-dateutil",
+"python-slugify",
+"python_abi 3.8.* *_cp38",
+"requests",
+"six >=1.10",
+"tqdm",
+"urllib3 >=1.21.1,<1.25"
+],
+"license":"Apache-2.0",
+"name":"kaggle",
+"sha256":"8c980dd7515feed56ee2801703dc15103ac67c2812c96c2ce2a12583e9a92af2",
+"size":105255,
+"timestamp":1615909511027,
+"version":"1.5.12"
+},
+"kaggle-1.5.12-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
+"depends":[
+"certifi",
+"python >=3.9,<3.10.0a0",
+"python-dateutil",
+"python-slugify",
+"python_abi 3.9.* *_cp39",
+"requests",
+"six >=1.10",
+"tqdm",
+"urllib3 >=1.21.1,<1.25"
+],
+"license":"Apache-2.0",
+"name":"kaggle",
+"sha256":"6da9ba54d5873b0b2d7b9e765b6b1ea14cca3a3fe1fb140830bbf1676a909984",
+"size":105147,
+"timestamp":1615909542475,
+"version":"1.5.12"
+},
 "kaleido-core-0.2.1-he5a581e_0.tar.bz2":{
 "build":"he5a581e_0",
 "build_number":0,
@@ -74900,31 +74985,7 @@
 "timestamp":1610458178265,
 "version":"0.16.2"
 },
-"pyopencl-2021.1.3-py36h93b45c7_0.tar.bz2":{
-"build":"py36h93b45c7_0",
-"build_number":0,
-"depends":[
-"appdirs",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mako",
-"numpy >=1.18.5,<2.0a0",
-"ocl-icd >=2.2.14,<3.0a0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"pytools",
-"setuptools",
-"six"
-],
-"license":"MIT",
-"name":"pyopencl",
-"sha256":"5252e5a96a666f482f670085792e807ccafbf81fe21add5bd5dae305300c2e15",
-"size":706570,
-"timestamp":1615473934409,
-"version":"2021.1.3"
-},
-"pyopencl-2021.1.3-py36hfae455c_0.tar.bz2":{
+"pyopencl-2021.1.4-py36hfae455c_0.tar.bz2":{
 "build":"py36hfae455c_0",
 "build_number":0,
 "depends":[
@@ -74942,12 +75003,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"bede92e29f491de7d6eae73d38dd458ccc4abd3dc5d1f95085c516207838b0c9",
-"size":732982,
-"timestamp":1615473978514,
-"version":"2021.1.3"
+"sha256":"a2c8d06908a13cb90fcfb9900061a66dcc88aac1140506f1b8ddfb232f1deefb",
+"size":730927,
+"timestamp":1615911520956,
+"version":"2021.1.4"
 },
-"pyopencl-2021.1.3-py37h6031793_0.tar.bz2":{
+"pyopencl-2021.1.4-py37h6031793_0.tar.bz2":{
 "build":"py37h6031793_0",
 "build_number":0,
 "depends":[
@@ -74965,80 +75026,10 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"08ed878db017bad7e6116da31bc7639ef03209e1571bb35e401dafc244099b0a",
-"size":722555,
-"timestamp":1615473422576,
-"version":"2021.1.3"
-},
-"pyopencl-2021.1.3-py37hce16e70_0.tar.bz2":{
-"build":"py37hce16e70_0",
-"build_number":0,
-"depends":[
-"appdirs",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mako",
-"numpy >=1.19.5,<2.0a0",
-"ocl-icd >=2.2.14,<3.0a0",
-"pypy3.7 >=7.3.3",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"pytools",
-"setuptools",
-"six"
-],
-"license":"MIT",
-"name":"pyopencl",
-"sha256":"34b46494ab51cccb255e04e449107303e7526f516ab18def441ecefb63259072",
-"size":700077,
-"timestamp":1615473400672,
-"version":"2021.1.3"
-},
-"pyopencl-2021.1.3-py38h4031626_0.tar.bz2":{
-"build":"py38h4031626_0",
-"build_number":0,
-"depends":[
-"appdirs",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mako",
-"numpy >=1.16.6,<2.0a0",
-"ocl-icd >=2.2.14,<3.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pytools",
-"setuptools",
-"six"
-],
-"license":"MIT",
-"name":"pyopencl",
-"sha256":"7fa6074d95ad7ad038fd9e64aaa3c4f2efe11a65048cfc9edda14b4580850829",
-"size":719049,
-"timestamp":1615473400204,
-"version":"2021.1.3"
-},
-"pyopencl-2021.1.3-py39h9f797f2_0.tar.bz2":{
-"build":"py39h9f797f2_0",
-"build_number":0,
-"depends":[
-"appdirs",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mako",
-"numpy >=1.19.5,<2.0a0",
-"ocl-icd >=2.2.14,<3.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pytools",
-"setuptools",
-"six"
-],
-"license":"MIT",
-"name":"pyopencl",
-"sha256":"0ae2ed0d54d5c06d89fff98b809bd1a5de94d95cd49e2073892f0e147b7c2dfd",
-"size":726012,
-"timestamp":1615473929619,
-"version":"2021.1.3"
+"sha256":"ada734b1b73124d403880c56e7a4ea3d4397a234e1a3d0c9e175a742bf10bec5",
+"size":731554,
+"timestamp":1615911594616,
+"version":"2021.1.4"
 },
 "pyopenssl-19.1.0-py36_0.tar.bz2":{
 "build":"py36_0",
