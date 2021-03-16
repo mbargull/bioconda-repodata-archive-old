@@ -54074,20 +54074,24 @@
 "timestamp":1573738348537,
 "version":"3.4.5"
 },
-"nodejs-10.13.0-he6710b0_0.conda":{
-"build":"he6710b0_0",
+"nodejs-14.8.0-hda19d22_0.conda":{
+"build":"hda19d22_0",
 "build_number":0,
 "depends":[
+"icu >=68.1,<69.0a0",
 "libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0"
+"libstdcxx-ng >=7.3.0",
+"libuv >=1.40.0,<1.41.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
 ],
-"legacy_bz2_md5":"f321c1ade4d4c6486c2469d368a44a61",
+"legacy_bz2_md5":"c6d42fb65125619faa86becf15fb93c6",
 "license":"MIT",
 "name":"nodejs",
-"sha256":"59c8100a13b5f6ed5788467ebb49e66a2284da372f09592bd92bd16c89abe860",
-"size":13590904,
-"timestamp":1541177751056,
-"version":"10.13.0"
+"sha256":"65bfb8851fed059e0725f8e40cf785327866ca47414ce71c0aa64a9b566c2322",
+"size":13880875,
+"timestamp":1615888823149,
+"version":"14.8.0"
 },
 "nodejs-6.11.2-h3db8ef7_0.conda":{
 "build":"h3db8ef7_0",

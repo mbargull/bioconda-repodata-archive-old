@@ -50868,19 +50868,23 @@
 "timestamp":1573738348537,
 "version":"3.4.5"
 },
-"nodejs-10.13.0-he6710b0_0.tar.bz2":{
-"build":"he6710b0_0",
+"nodejs-14.8.0-hda19d22_0.tar.bz2":{
+"build":"hda19d22_0",
 "build_number":0,
 "depends":[
+"icu >=68.1,<69.0a0",
 "libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0"
+"libstdcxx-ng >=7.3.0",
+"libuv >=1.40.0,<1.41.0a0",
+"openssl >=1.1.1j,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"MIT",
 "name":"nodejs",
-"sha256":"ea93189ecdc6d8a4f6c82ea806fb7f2ffb7015bbe4fdf3395de77a1bbb09025d",
-"size":16190154,
-"timestamp":1541177751056,
-"version":"10.13.0"
+"sha256":"36ffbd552728354d3f730d55710d9e78163370e801151438c68234656e75c510",
+"size":16405627,
+"timestamp":1615888823149,
+"version":"14.8.0"
 },
 "nodejs-6.11.2-h3db8ef7_0.tar.bz2":{
 "build":"h3db8ef7_0",
