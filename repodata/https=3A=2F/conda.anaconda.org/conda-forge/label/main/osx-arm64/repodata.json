@@ -27104,6 +27104,21 @@
 "timestamp":1615918701521,
 "version":"23.0.0"
 },
+"keyring-23.0.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"importlib_metadata >=3.6",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"keyring",
+"requires":[],
+"size":50014,
+"timestamp":1615921152667,
+"version":"23.0.0"
+},
 "khronos-opencl-icd-loader-2020.06.16-h27ca646_1.tar.bz2":{
 "build":"h27ca646_1",
 "build_number":1,
@@ -32845,6 +32860,20 @@
 "requires":[],
 "size":621637,
 "timestamp":1612053866797,
+"version":"1.2.0"
+},
+"libwebp-base-1.2.0-h27ca646_1.tar.bz2":{
+"build":"h27ca646_1",
+"build_number":1,
+"constrains":[
+"libwebp 1.2.0"
+],
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"libwebp-base",
+"requires":[],
+"size":603588,
+"timestamp":1615919023791,
 "version":"1.2.0"
 },
 "libxcb-1.13-hd99320e_1003.tar.bz2":{
@@ -58732,6 +58761,26 @@
 "requires":[],
 "size":6877675,
 "timestamp":1615918786804,
+"version":"0.9.0"
+},
+"torchvision-0.9.0-py39hc5dd9f3_0_cpu.tar.bz2":{
+"build":"py39hc5dd9f3_0_cpu",
+"build_number":0,
+"depends":[
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libpng >=1.6.37,<1.7.0a0",
+"numpy >=1.19.5,<2.0a0",
+"pillow >=4.1.1",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytorch >=1.8.0 cpu*"
+],
+"license":"BSD-3-Clause",
+"name":"torchvision",
+"requires":[],
+"size":6903996,
+"timestamp":1615920402512,
 "version":"0.9.0"
 },
 "torchvision-cpu-0.8.2-hd610c6a_0.tar.bz2":{

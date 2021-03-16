@@ -18457,6 +18457,32 @@
 "timestamp":1592339557927,
 "version":"1.8.1"
 },
+"geoviews-1.8.1-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"bokeh >=2.0.0",
+"cartopy >=0.17.0",
+"datashader",
+"geopandas",
+"geoviews-core >=1.8.1,<1.8.2.0a0",
+"holoviews >=1.13.0",
+"netcdf4",
+"numpy >=1.0",
+"pandas",
+"param >=1.9.3,<2.0",
+"pyct",
+"python >=3.6",
+"xarray"
+],
+"license":"BSD-3-Clause",
+"name":"geoviews",
+"noarch":"python",
+"sha256":"e836d51d8214f5f799577c4dcca3407070bc126b3f95fae81b6896b619379c62",
+"size":10183,
+"timestamp":1615915777137,
+"version":"1.8.1"
+},
 "geoviews-core-1.6.2-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -18543,6 +18569,28 @@
 "sha256":"8670add6b13fc60a51903370aa58017eefbe7abbb8700b1a6226fbe373d798b3",
 "size":426496,
 "timestamp":1592339483299,
+"version":"1.8.1"
+},
+"geoviews-core-1.8.1-pyh06a4308_1.tar.bz2":{
+"build":"pyh06a4308_1",
+"build_number":1,
+"constrains":[
+"geoviews 1.8.1"
+],
+"depends":[
+"bokeh >=2.0.0",
+"cartopy >=0.17.0",
+"holoviews >=1.13.0",
+"numpy >=1.0",
+"param >=1.9.3",
+"python >=3.6"
+],
+"license":"BSD-3-Clause",
+"name":"geoviews-core",
+"noarch":"python",
+"sha256":"036c6122754be6b1882df174509083e0c38a7abedff832001362be3e942a542a",
+"size":423253,
+"timestamp":1615915685353,
 "version":"1.8.1"
 },
 "gettext-common-devel-cos7-ppc64le-0.19.8.1-0.tar.bz2":{
