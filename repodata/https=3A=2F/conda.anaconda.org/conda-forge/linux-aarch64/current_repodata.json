@@ -99220,75 +99220,9 @@
 "timestamp":1608383025922,
 "version":"3.5.1"
 },
-"slepc-3.14.0-h055ec95_0.tar.bz2":{
-"build":"h055ec95_0",
+"slepc-3.14.1-h8b66d5b_0.tar.bz2":{
+"build":"h8b66d5b_0",
 "build_number":0,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libcblas >=3.8.0,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libgfortran-ng",
-"libgfortran4 >=7.5.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=7.5.0",
-"openmpi >=4.0,<5.0.0a0",
-"petsc >=3.14.0,<3.15.0a0",
-"suitesparse >=5.6.0,<5.7.0a0"
-],
-"license":"BSD-2-Clause",
-"name":"slepc",
-"sha256":"697177ddc8a659d9b3a67a615f4cd41ab5dab2a8bfe6f978182b0caf7d321a5d",
-"size":5279976,
-"timestamp":1603963015040,
-"version":"3.14.0"
-},
-"slepc-3.14.0-h5daf478_1.tar.bz2":{
-"build":"h5daf478_1",
-"build_number":1,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libcblas >=3.8.0,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libgfortran-ng",
-"libgfortran4 >=7.5.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=7.5.0",
-"openmpi >=4.0,<5.0.0a0",
-"petsc >=3.14.0,<3.15.0a0",
-"suitesparse >=5.6.0,<5.7.0a0"
-],
-"license":"BSD-2-Clause",
-"name":"slepc",
-"sha256":"ec422e6f13a35096b30779c7891bd051fbc582ab9c5b74b6cc1aac3ce2ef10c0",
-"size":5264615,
-"timestamp":1604232737585,
-"version":"3.14.0"
-},
-"slepc-3.14.0-h8355e71_0.tar.bz2":{
-"build":"h8355e71_0",
-"build_number":0,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libcblas >=3.8.0,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libgfortran-ng",
-"libgfortran4 >=7.5.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpich >=3.3,<4.0.0a0",
-"petsc >=3.14.0,<3.15.0a0",
-"suitesparse >=5.6.0,<5.7.0a0"
-],
-"license":"BSD-2-Clause",
-"name":"slepc",
-"sha256":"71d32a9f56105ea720ce5feef18b60bd087da0ddb20a4f6bbc04ad8363889a2b",
-"size":3872277,
-"timestamp":1603962893885,
-"version":"3.14.0"
-},
-"slepc-3.14.0-h8b66d5b_1.tar.bz2":{
-"build":"h8b66d5b_1",
-"build_number":1,
 "depends":[
 "libblas >=3.8.0,<4.0a0",
 "libcblas >=3.8.0,<4.0a0",
@@ -99297,20 +99231,20 @@
 "libgfortran5 >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.3,<4.0.0a0",
-"petsc >=3.14.0,<3.15.0a0",
+"mpich >=3.4,<3.5.0a0",
+"petsc >=3.14.5,<3.15.0a0",
 "suitesparse >=5.6.0,<5.7.0a0"
 ],
 "license":"BSD-2-Clause",
 "name":"slepc",
-"sha256":"87b01564c8ac46d6644da9dea33829d14ba14f134cc75dcc0a19b7076fe8fe49",
-"size":3980246,
-"timestamp":1604232238927,
-"version":"3.14.0"
+"sha256":"0e065df4e202f18effe11abbf543ee1e18147fcb472e1e3957bf0583a81da6a5",
+"size":3995166,
+"timestamp":1615924816582,
+"version":"3.14.1"
 },
-"slepc-3.14.0-h8f345ab_1.tar.bz2":{
-"build":"h8f345ab_1",
-"build_number":1,
+"slepc-3.14.1-h8f345ab_0.tar.bz2":{
+"build":"h8f345ab_0",
+"build_number":0,
 "depends":[
 "libblas >=3.8.0,<4.0a0",
 "libcblas >=3.8.0,<4.0a0",
@@ -99319,38 +99253,16 @@
 "libgfortran5 >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"openmpi >=4.0,<5.0.0a0",
-"petsc >=3.14.0,<3.15.0a0",
+"openmpi >=4.1,<4.2.0a0",
+"petsc >=3.14.5,<3.15.0a0",
 "suitesparse >=5.6.0,<5.7.0a0"
 ],
 "license":"BSD-2-Clause",
 "name":"slepc",
-"sha256":"ef127041a981bb394e8f4db6a306abec7a4970a43f38fda38f42304f18001797",
-"size":5655146,
-"timestamp":1604232654998,
-"version":"3.14.0"
-},
-"slepc-3.14.0-hc2dbf3e_1.tar.bz2":{
-"build":"hc2dbf3e_1",
-"build_number":1,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libcblas >=3.8.0,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libgfortran-ng",
-"libgfortran4 >=7.5.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpich >=3.3,<4.0.0a0",
-"petsc >=3.14.0,<3.15.0a0",
-"suitesparse >=5.6.0,<5.7.0a0"
-],
-"license":"BSD-2-Clause",
-"name":"slepc",
-"sha256":"8d4a2c8e776cd8528723e25dd3efd3f994a276a610a2901ba071074358ddf7ab",
-"size":3869606,
-"timestamp":1604232437351,
-"version":"3.14.0"
+"sha256":"037cc579aadcc8c22a70f3dbf57a564301323b8752e8c3103985f22f956a5b06",
+"size":5702164,
+"timestamp":1615925225817,
+"version":"3.14.1"
 },
 "snappy-1.1.8-h54f1f3f_3.tar.bz2":{
 "build":"h54f1f3f_3",
