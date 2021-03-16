@@ -31971,6 +31971,68 @@
 "timestamp":1608273431557,
 "version":"1.7.0"
 },
+"importlib-metadata-3.7.3-py36hecd8cb5_1.conda":{
+"build":"py36hecd8cb5_1",
+"build_number":1,
+"depends":[
+"python >=3.6,<3.7.0a0",
+"typing_extensions >=3.6.4",
+"zipp >=0.5"
+],
+"legacy_bz2_md5":"f8f2700ea82c2a83907665d6da61409d",
+"license":"Apache-2.0",
+"name":"importlib-metadata",
+"sha256":"757d736c5cb6ff678741fe5074ef9b3a80f198e8085fc3d4d91a9c7b6f818ed4",
+"size":31448,
+"timestamp":1615900471614,
+"version":"3.7.3"
+},
+"importlib-metadata-3.7.3-py37hecd8cb5_1.conda":{
+"build":"py37hecd8cb5_1",
+"build_number":1,
+"depends":[
+"python >=3.7,<3.8.0a0",
+"typing_extensions >=3.6.4",
+"zipp >=0.5"
+],
+"legacy_bz2_md5":"f2659c3d4df17e7f9a75acca4e196b77",
+"license":"Apache-2.0",
+"name":"importlib-metadata",
+"sha256":"c65aa815e0d4f65f57c2e79d3470b2804ba7194c9490d439d0ad39d2c7768c37",
+"size":31591,
+"timestamp":1615900465337,
+"version":"3.7.3"
+},
+"importlib-metadata-3.7.3-py38hecd8cb5_1.conda":{
+"build":"py38hecd8cb5_1",
+"build_number":1,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"zipp >=0.5"
+],
+"legacy_bz2_md5":"c71e6de44ec4bd9c1fce7a18d556492b",
+"license":"Apache-2.0",
+"name":"importlib-metadata",
+"sha256":"311abbbaef7a4ee3a2027ac44f3805546e24fab61ed16adf43acf725ab34c6ee",
+"size":31621,
+"timestamp":1615900465607,
+"version":"3.7.3"
+},
+"importlib-metadata-3.7.3-py39hecd8cb5_1.conda":{
+"build":"py39hecd8cb5_1",
+"build_number":1,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"zipp >=0.5"
+],
+"legacy_bz2_md5":"9f73683883b137bd30b5cfce48a6248e",
+"license":"Apache-2.0",
+"name":"importlib-metadata",
+"sha256":"0bf249674c25bdeee7d6280210e8a2f32be42e0f66ab4b90877471760eb2f710",
+"size":31601,
+"timestamp":1615900470841,
+"version":"3.7.3"
+},
 "importlib_metadata-1.5.0-py36_0.conda":{
 "build":"py36_0",
 "build_number":0,
@@ -77861,20 +77923,20 @@
 "timestamp":1597935698095,
 "version":"3.33.0"
 },
-"sqlite-3.35.0-hce871da_0.conda":{
+"sqlite-3.35.1-hce871da_0.conda":{
 "build":"hce871da_0",
 "build_number":0,
 "depends":[
 "readline >=8.0,<9.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
-"legacy_bz2_md5":"262b4d15620ed87452018f56d2886ba4",
+"legacy_bz2_md5":"ad78ca79fd7345d358bee27389ef5d8e",
 "license":"Public-Domain (http://www.sqlite.org/copyright.html)",
 "name":"sqlite",
-"sha256":"3d3e04dde84a2e1d526ec5f9b23325631f41519ca717ff97381197cd5c4786e5",
-"size":1175249,
-"timestamp":1615820146934,
-"version":"3.35.0"
+"sha256":"094ea359002a12c08a6d4e77b0eeefc03ad16e50375fbe08bcefce844ca280f6",
+"size":1173056,
+"timestamp":1615837019375,
+"version":"3.35.1"
 },
 "sqlparse-0.2.4-py27_0.conda":{
 "build":"py27_0",
@@ -80607,7 +80669,7 @@
 "timestamp":1607372850989,
 "version":"0.9.1"
 },
-"terminado-0.9.2-py36hecd8cb5_0.conda":{
+"terminado-0.9.3-py36hecd8cb5_0.conda":{
 "build":"py36hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -80615,15 +80677,15 @@
 "python >=3.6,<3.7.0a0",
 "tornado >=4"
 ],
-"legacy_bz2_md5":"1bff61119fdc9b59f511d3fdd37bd5e9",
+"legacy_bz2_md5":"27cabf494119ae94347bf5770ba73a08",
 "license":"BSD-2-Clause",
 "name":"terminado",
-"sha256":"2feb74213384fc8eac0a2ef87b786d52b54b737ea45d1c34941da0dee39f1604",
-"size":25387,
-"timestamp":1609860809470,
-"version":"0.9.2"
+"sha256":"bb91860accec23c0689e24b81a55a333403cfe90ee600e8445d0812f360508a5",
+"size":25499,
+"timestamp":1615836995367,
+"version":"0.9.3"
 },
-"terminado-0.9.2-py37hecd8cb5_0.conda":{
+"terminado-0.9.3-py37hecd8cb5_0.conda":{
 "build":"py37hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -80631,15 +80693,15 @@
 "python >=3.7,<3.8.0a0",
 "tornado >=4"
 ],
-"legacy_bz2_md5":"3aa2635ffd1037a40f4d6001f00cd3c1",
+"legacy_bz2_md5":"0ba9f9562c86edd0573e421f819490bb",
 "license":"BSD-2-Clause",
 "name":"terminado",
-"sha256":"1b548d3c24aeb53e2fdcde960ba62ed0b7ffb0ef5365264364317de46e5b3547",
-"size":25546,
-"timestamp":1609788141728,
-"version":"0.9.2"
+"sha256":"d9f929eb4c07dfb8a422e3983d48d0008099b70d425d56879739e52108418137",
+"size":25659,
+"timestamp":1615837006137,
+"version":"0.9.3"
 },
-"terminado-0.9.2-py38hecd8cb5_0.conda":{
+"terminado-0.9.3-py38hecd8cb5_0.conda":{
 "build":"py38hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -80647,15 +80709,15 @@
 "python >=3.8,<3.9.0a0",
 "tornado >=4"
 ],
-"legacy_bz2_md5":"2d3e0a70011da21b4c3b541749cfed84",
+"legacy_bz2_md5":"c8054e3608c4b59de80388290e3d4301",
 "license":"BSD-2-Clause",
 "name":"terminado",
-"sha256":"a74e38d94f27fb1e4acd77bd8bfc69c3d527c9e2d8e39cd67aa2cacff8b8b99c",
-"size":25681,
-"timestamp":1609788142631,
-"version":"0.9.2"
+"sha256":"3b353e0c0616f29991399d33b81d7656b3af315e58e7d74d95450d30822e4423",
+"size":25616,
+"timestamp":1615837028437,
+"version":"0.9.3"
 },
-"terminado-0.9.2-py39hecd8cb5_0.conda":{
+"terminado-0.9.3-py39hecd8cb5_0.conda":{
 "build":"py39hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -80663,13 +80725,13 @@
 "python >=3.9,<3.10.0a0",
 "tornado >=4"
 ],
-"legacy_bz2_md5":"39e058f41415b0fe0af1546d4e94986c",
+"legacy_bz2_md5":"6b058232919599259a2d7befcb2b86a2",
 "license":"BSD-2-Clause",
 "name":"terminado",
-"sha256":"ccaba4c02d2d96ec8a9514713684e9b5599c6b952dcdc5f96200f4f744569a7d",
-"size":25520,
-"timestamp":1609788159054,
-"version":"0.9.2"
+"sha256":"f96795170062d43755d9218e009b6e4cd1dc22686891314386b16ba9bf995589",
+"size":25709,
+"timestamp":1615836998319,
+"version":"0.9.3"
 },
 "testfixtures-6.5.0-py27_0.conda":{
 "build":"py27_0",
