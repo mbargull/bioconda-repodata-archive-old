@@ -52708,66 +52708,14 @@
 "timestamp":1611369332164,
 "version":"100.3.0"
 },
-"mongodb-4.2.12-h0f2e68d_1.tar.bz2":{
-"build":"h0f2e68d_1",
-"build_number":1,
-"depends":[
-"abseil-cpp >=20200923.3,<20200923.4.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"icu >=68.1,<69.0a0",
-"libcurl >=7.71.1,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1i,<1.1.2a",
-"pcre >=8.44,<9.0a0",
-"snappy >=1.1.8,<2.0a0",
-"sqlite >=3.34.0,<4.0a0",
-"yaml-cpp >=0.6.3,<0.6.4.0a0",
-"yaml-cpp >=0.6.3,<0.7.0a0",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
-],
-"license":"SSPL-1.0",
-"name":"mongodb",
-"sha256":"6ec9b9443e17a47f392b1dcb5ebfa05d207319c28d221f78df75479b0f7bf5ff",
-"size":43568781,
-"timestamp":1611258570408,
-"version":"4.2.12"
-},
-"mongodb-4.2.12-h9adcd98_0.tar.bz2":{
-"build":"h9adcd98_0",
+"mongodb-4.2.13-hcdeed8d_0.tar.bz2":{
+"build":"hcdeed8d_0",
 "build_number":0,
 "depends":[
 "abseil-cpp >=20200923.3,<20200923.4.0a0",
 "boost-cpp >=1.74.0,<1.74.1.0a0",
-"icu >=67.1,<68.0a0",
-"libcurl >=7.71.1,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1i,<1.1.2a",
-"pcre >=8.44,<9.0a0",
-"snappy >=1.1.8,<2.0a0",
-"sqlite >=3.34.0,<4.0a0",
-"yaml-cpp >=0.6.3,<0.6.4.0a0",
-"yaml-cpp >=0.6.3,<0.7.0a0",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
-],
-"license":"SSPL-1.0",
-"name":"mongodb",
-"sha256":"50b8bfaab644d7975afec2e109fac62fd6e5e1395a570026a3ad125411a8a539",
-"size":43610383,
-"timestamp":1611195548470,
-"version":"4.2.12"
-},
-"mongodb-4.2.12-hcdeed8d_2.tar.bz2":{
-"build":"hcdeed8d_2",
-"build_number":2,
-"depends":[
-"abseil-cpp >=20200923.3,<20200923.4.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
 "icu >=68.1,<69.0a0",
-"libcurl >=7.71.1,<8.0a0",
+"libcurl >=7.75.0,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "openssl >=1.1.1j,<1.1.2a",
@@ -52777,14 +52725,14 @@
 "yaml-cpp >=0.6.3,<0.6.4.0a0",
 "yaml-cpp >=0.6.3,<0.7.0a0",
 "zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
+"zstd >=1.4.9,<1.5.0a0"
 ],
 "license":"SSPL-1.0",
 "name":"mongodb",
-"sha256":"300504e6889521a9f6097ca40e3363824532241a2a6d21f2ff74f4284b15cc6c",
-"size":43582261,
-"timestamp":1614641608707,
-"version":"4.2.12"
+"sha256":"192ade79613bd155298b7630308d09bfc69467a7d7af350a7824fc66951f66b5",
+"size":43824054,
+"timestamp":1615956086944,
+"version":"4.2.13"
 },
 "mono-6.12.0.90-h469bdbd_0.tar.bz2":{
 "build":"h469bdbd_0",
@@ -96452,7 +96400,7 @@
 "timestamp":1611080870633,
 "version":"0.24.1"
 },
-"scipy-1.6.0-py37h4bd7c5a_0.tar.bz2":{
+"scipy-1.6.1-py37h4bd7c5a_0.tar.bz2":{
 "build":"py37h4bd7c5a_0",
 "build_number":0,
 "depends":[
@@ -96470,12 +96418,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"scipy",
-"sha256":"871e5230f4655ba861ae9b0932359af21558432cdf31381decab35d4e49260f2",
-"size":21795642,
-"timestamp":1610426793280,
-"version":"1.6.0"
+"sha256":"22c63612fb09f62ff1027d8319d0b6deac446adcd3b54ce3283463259afc597e",
+"size":21814672,
+"timestamp":1615957472476,
+"version":"1.6.1"
 },
-"scipy-1.6.0-py37ha47f2f3_0.tar.bz2":{
+"scipy-1.6.1-py37ha47f2f3_0.tar.bz2":{
 "build":"py37ha47f2f3_0",
 "build_number":0,
 "depends":[
@@ -96486,18 +96434,18 @@
 "libgfortran5 >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
+"numpy >=1.16.6,<2.0a0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
 ],
 "license":"BSD-3-Clause",
 "name":"scipy",
-"sha256":"b5eb23c487708a2a2925f49e4bee4f9f9d5a2d6ad547739f2b25de7619f16241",
-"size":22132731,
-"timestamp":1609459020868,
-"version":"1.6.0"
+"sha256":"e881d6cbc0190ae459b67cd9f46fa7434f4294218a1a41c3269114eb81877d4f",
+"size":22046848,
+"timestamp":1615957136741,
+"version":"1.6.1"
 },
-"scipy-1.6.0-py38hbe71561_0.tar.bz2":{
+"scipy-1.6.1-py38hbe71561_0.tar.bz2":{
 "build":"py38hbe71561_0",
 "build_number":0,
 "depends":[
@@ -96514,12 +96462,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"scipy",
-"sha256":"68a99231c0ac62a4b2650ecb178cf0d38ce3077d411a1c9cce6f2120e598819c",
-"size":22120902,
-"timestamp":1609458981793,
-"version":"1.6.0"
+"sha256":"ba17a52bf32c741d8f3fc912254ec70f159f404cc3836157d59bcf0af302aaa3",
+"size":22128179,
+"timestamp":1615957108180,
+"version":"1.6.1"
 },
-"scipy-1.6.0-py39h5c7b0d2_0.tar.bz2":{
+"scipy-1.6.1-py39h5c7b0d2_0.tar.bz2":{
 "build":"py39h5c7b0d2_0",
 "build_number":0,
 "depends":[
@@ -96536,10 +96484,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"scipy",
-"sha256":"d008d2e8c4ee30f537ac0f03ebbbf3ac5271c080e897d3e0a9a0592c932ae1da",
-"size":22248510,
-"timestamp":1610426841525,
-"version":"1.6.0"
+"sha256":"0e8f82a1453334f8b776646b23a5c4bbc3a588d55671eb4f1e38ed7ec0d82674",
+"size":22329028,
+"timestamp":1615957575026,
+"version":"1.6.1"
 },
 "scons-4.1.0.post1-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
