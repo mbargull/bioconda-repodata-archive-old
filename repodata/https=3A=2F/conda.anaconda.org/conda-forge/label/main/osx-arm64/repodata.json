@@ -19817,6 +19817,21 @@
 "timestamp":1612064687656,
 "version":"10.2.1"
 },
+"gfortran-10.2.1-h462763d_14.tar.bz2":{
+"build":"h462763d_14",
+"build_number":14,
+"depends":[
+"cctools",
+"gfortran_osx-arm64",
+"ld64"
+],
+"license":"GPL-3.0-or-later WITH GCC-exception-3.1",
+"name":"gfortran",
+"requires":[],
+"size":20552,
+"timestamp":1615949980901,
+"version":"10.2.1"
+},
 "gfortran-11.0.0.dev0-h85ff328_13.tar.bz2":{
 "build":"h85ff328_13",
 "build_number":13,
@@ -19831,6 +19846,21 @@
 "size":20418,
 "timestamp":1612064681916,
 "version":"11.0.0.dev0"
+},
+"gfortran-11.0.1.dev0-h40eb566_14.tar.bz2":{
+"build":"h40eb566_14",
+"build_number":14,
+"depends":[
+"cctools",
+"gfortran_osx-arm64",
+"ld64"
+],
+"license":"GPL-3.0-or-later WITH GCC-exception-3.1",
+"name":"gfortran",
+"requires":[],
+"size":20562,
+"timestamp":1615950174738,
+"version":"11.0.1.dev0"
 },
 "gfortran_impl_osx-arm64-10.2.1-h98a6218_16.tar.bz2":{
 "build":"h98a6218_16",
@@ -20310,6 +20340,26 @@
 "timestamp":1612064684830,
 "version":"10.2.1"
 },
+"gfortran_osx-arm64-10.2.1-h57527a5_14.tar.bz2":{
+"build":"h57527a5_14",
+"build_number":14,
+"depends":[
+"cctools_osx-arm64",
+"clang",
+"clang_osx-arm64",
+"gfortran_impl_osx-arm64 10.2.1",
+"ld64_osx-arm64",
+"libgfortran 5.*",
+"libgfortran-devel_osx-arm64 10.2.1",
+"libgfortran5 >=10.2.1"
+],
+"license":"GPL-3.0-or-later WITH GCC-exception-3.1",
+"name":"gfortran_osx-arm64",
+"requires":[],
+"size":21978,
+"timestamp":1615949977387,
+"version":"10.2.1"
+},
 "gfortran_osx-arm64-11.0.0.dev0-h1e81685_11.tar.bz2":{
 "build":"h1e81685_11",
 "build_number":11,
@@ -20447,6 +20497,26 @@
 "size":21562,
 "timestamp":1600698833705,
 "version":"11.0.0.dev0"
+},
+"gfortran_osx-arm64-11.0.1.dev0-h57527a5_14.tar.bz2":{
+"build":"h57527a5_14",
+"build_number":14,
+"depends":[
+"cctools_osx-arm64",
+"clang",
+"clang_osx-arm64",
+"gfortran_impl_osx-arm64 11.0.1.dev0",
+"ld64_osx-arm64",
+"libgfortran 5.*",
+"libgfortran-devel_osx-arm64 11.0.1.dev0",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"GPL-3.0-or-later WITH GCC-exception-3.1",
+"name":"gfortran_osx-arm64",
+"requires":[],
+"size":21866,
+"timestamp":1615950171919,
+"version":"11.0.1.dev0"
 },
 "giflib-5.2.1-h27ca646_2.tar.bz2":{
 "build":"h27ca646_2",
