@@ -7242,7 +7242,7 @@
 "timestamp":1615054861731,
 "version":"1.8.156"
 },
-"aws-sdk-cpp-1.8.161-hce553d0_0.tar.bz2":{
+"aws-sdk-cpp-1.8.162-hce553d0_0.tar.bz2":{
 "build":"hce553d0_0",
 "build_number":0,
 "depends":[
@@ -7255,10 +7255,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"494b73d6ea12aaa26aea73696cee2af00a95ab658c7281fd98afe5312d1a50b1",
-"size":2413021,
-"timestamp":1615661073307,
-"version":"1.8.161"
+"sha256":"1fe707ae2aedf36fa9e56abf2a206e3adb16e6fda8710397707d898e142414fc",
+"size":2420086,
+"timestamp":1615920922679,
+"version":"1.8.162"
 },
 "aws-xray-sdk-2.6.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -32896,7 +32896,7 @@
 "timestamp":1600927577486,
 "version":"1.22.4"
 },
-"grpc-cpp-1.36.2-h2157cd5_4.tar.bz2":{
+"grpc-cpp-1.36.3-h2157cd5_4.tar.bz2":{
 "build":"h2157cd5_4",
 "build_number":4,
 "depends":[
@@ -32908,10 +32908,10 @@
 ],
 "license":"Apache-2.0",
 "name":"grpc-cpp",
-"sha256":"a74d4124b51c86ddbd401a94306cc67c28c4f75abafea4370da6ba4ea6f5395c",
-"size":4630694,
-"timestamp":1615315917420,
-"version":"1.36.2"
+"sha256":"bb71d714aab6d08395c22784b388ee5bb9eaca9c652b7af43f812a3bd1bf7d8e",
+"size":4637928,
+"timestamp":1615921849401,
+"version":"1.36.3"
 },
 "grpcio-1.35.0-py36h2157cd5_1.tar.bz2":{
 "build":"py36h2157cd5_1",
@@ -34180,7 +34180,7 @@
 "timestamp":1593435707459,
 "version":"2.4.0"
 },
-"harfbuzz-2.7.4-h6f93f22_0.tar.bz2":{
+"harfbuzz-2.8.0-h6f93f22_0.tar.bz2":{
 "build":"h6f93f22_0",
 "build_number":0,
 "depends":[
@@ -34194,10 +34194,10 @@
 ],
 "license":"MIT",
 "name":"harfbuzz",
-"sha256":"e641477ff89e32a1ffbc5efb7ced6db5442592263e5e75f8f698b95bf55698e5",
-"size":1920075,
-"timestamp":1615344138620,
-"version":"2.7.4"
+"sha256":"f746d4562f6d927feca2a42313f3bc075d01d96b48024679598c8276ddf26ffd",
+"size":1948702,
+"timestamp":1615920026036,
+"version":"2.8.0"
 },
 "hdf4-4.2.13-h1976432_1.tar.bz2":{
 "build":"h1976432_1",
@@ -54469,21 +54469,21 @@
 "timestamp":1522877116711,
 "version":"2.3.0"
 },
-"openldap-2.4.57-he2b52b7_0.tar.bz2":{
+"openldap-2.4.58-he2b52b7_0.tar.bz2":{
 "build":"he2b52b7_0",
 "build_number":0,
 "depends":[
 "cyrus-sasl >=2.1.26,<3.0a0",
 "libgcc-ng >=7.3.0",
 "libstdcxx-ng >=7.3.0",
-"openssl >=1.1.1i,<1.1.2a"
+"openssl >=1.1.1j,<1.1.2a"
 ],
 "license":"OLDAP-2.8",
 "name":"openldap",
-"sha256":"7d817981ff7ed0551eb6c2950b3db9749d1aad6b0a1ab1c1454881d35b2dd254",
-"size":1381404,
-"timestamp":1611875242859,
-"version":"2.4.57"
+"sha256":"afa335fba50c2e6cc58a58b8fe1ef357b0ae8ef3caacadf81deb492df346b9eb",
+"size":1392878,
+"timestamp":1615922801332,
+"version":"2.4.58"
 },
 "openmpi-4.0.2-hb1b8bf9_1.tar.bz2":{
 "build":"hb1b8bf9_1",
@@ -90912,7 +90912,7 @@
 "timestamp":1614000075154,
 "version":"1.7"
 },
-"virtualenv-20.4.2-py36h06a4308_1.tar.bz2":{
+"virtualenv-20.4.3-py36h06a4308_1.tar.bz2":{
 "build":"py36h06a4308_1",
 "build_number":1,
 "depends":[
@@ -90926,12 +90926,12 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"3f55b76dc6ecaf054ae88a068e40411148decbc654a55743d114eecd34cd7280",
-"size":6776402,
-"timestamp":1612471166542,
-"version":"20.4.2"
+"sha256":"dc8ee9b244485f8bca9bee9e2d65a76210a2e43f030f2f06ad7ca3820aa9255d",
+"size":6777026,
+"timestamp":1615923547866,
+"version":"20.4.3"
 },
-"virtualenv-20.4.2-py37h06a4308_1.tar.bz2":{
+"virtualenv-20.4.3-py37h06a4308_1.tar.bz2":{
 "build":"py37h06a4308_1",
 "build_number":1,
 "depends":[
@@ -90944,12 +90944,12 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"d5031698ebf61b0a08c96de6906586c89cdfd787b6b8375198fb08ed394ca0d6",
-"size":6806895,
-"timestamp":1612470471159,
-"version":"20.4.2"
+"sha256":"f67618fbfcdb640b2c3490a0961bca287b54cfdd372428fbd1ad75c2fa1f05fa",
+"size":6701248,
+"timestamp":1615923648635,
+"version":"20.4.3"
 },
-"virtualenv-20.4.2-py38h06a4308_1.tar.bz2":{
+"virtualenv-20.4.3-py38h06a4308_1.tar.bz2":{
 "build":"py38h06a4308_1",
 "build_number":1,
 "depends":[
@@ -90961,12 +90961,12 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"a6b287510eee03a22db772aaa78a2747321e3ee33c2a3f925be8d306b920489a",
-"size":6700490,
-"timestamp":1612471152542,
-"version":"20.4.2"
+"sha256":"e59b144f66d17fee0f731e053205eae9ce0a61d124089dff52726cf0545493b0",
+"size":6777160,
+"timestamp":1615923660506,
+"version":"20.4.3"
 },
-"virtualenv-20.4.2-py39h06a4308_1.tar.bz2":{
+"virtualenv-20.4.3-py39h06a4308_1.tar.bz2":{
 "build":"py39h06a4308_1",
 "build_number":1,
 "depends":[
@@ -90978,10 +90978,10 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"a74d22666b210f6942dcd5afcb658c9a9a731adbf009c2d6794d175fe6356a9b",
-"size":6701655,
-"timestamp":1613233973739,
-"version":"20.4.2"
+"sha256":"fe41e8831a308293b562193c7b6e724595fb777d0a95b2e938fa0825237204e7",
+"size":6813416,
+"timestamp":1615921791128,
+"version":"20.4.3"
 },
 "vispy-0.5.3-py27hee6b756_0.tar.bz2":{
 "build":"py27hee6b756_0",
