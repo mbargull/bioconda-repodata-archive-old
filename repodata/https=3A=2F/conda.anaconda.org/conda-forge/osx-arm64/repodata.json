@@ -21910,6 +21910,36 @@
 "timestamp":1615970193435,
 "version":"0.4.17"
 },
+"greenlet-1.0.0-py38h3f7e68f_0.tar.bz2":{
+"build":"py38h3f7e68f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"greenlet",
+"sha256":"0df0279c3cab4ac73f4e8799901eb7a7fe15a9401b59da500353df1f2fa92b99",
+"size":82890,
+"timestamp":1615997645833,
+"version":"1.0.0"
+},
+"greenlet-1.0.0-py39h93dc1e2_0.tar.bz2":{
+"build":"py39h93dc1e2_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"greenlet",
+"sha256":"87b5e032d31d865c2f236d7a9cb9a5c921b8975c2ffad92f929b839e654c9043",
+"size":82903,
+"timestamp":1615997841402,
+"version":"1.0.0"
+},
 "grpc-cpp-1.32.0-h0f6fb72_1.tar.bz2":{
 "build":"h0f6fb72_1",
 "build_number":1,
@@ -23780,6 +23810,40 @@
 "size":8386561,
 "timestamp":1615924582176,
 "version":"2.9.5"
+},
+"hoomd-2.9.6-cpu_py38h24e02b5_0.tar.bz2":{
+"build":"cpu_py38h24e02b5_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"hoomd",
+"sha256":"21f1ecdb16f376784c1e28b24d48e640bf8bbf2d3a62262abee147b4ab84e143",
+"size":8292063,
+"timestamp":1615997064261,
+"version":"2.9.6"
+},
+"hoomd-2.9.6-cpu_py39hfcfab2c_0.tar.bz2":{
+"build":"cpu_py39hfcfab2c_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"hoomd",
+"sha256":"ed103155e1af17de9c0932591fe4fea9496226b94775d2f87924ad6f59015bcf",
+"size":8283000,
+"timestamp":1615995444339,
+"version":"2.9.6"
 },
 "htop-3.0.3-hfbdcbf2_0.tar.bz2":{
 "build":"hfbdcbf2_0",
@@ -39103,6 +39167,17 @@
 "size":1327523,
 "timestamp":1609583121350,
 "version":"2.1.1"
+},
+"openjdk-8.0.282-h27ca646_0.tar.bz2":{
+"build":"h27ca646_0",
+"build_number":0,
+"depends":[],
+"license":"GPL-2.0-or-later WITH Classpath-exception-2.0",
+"name":"openjdk",
+"sha256":"f3662ecc2d892596558fdb06eb25a97cd0f8e0d2c76c28144fb9a2f16a2c764d",
+"size":44934444,
+"timestamp":1615996746097,
+"version":"8.0.282"
 },
 "openjpeg-2.3.1-hfb99f25_3.tar.bz2":{
 "build":"hfb99f25_3",
