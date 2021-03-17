@@ -26651,9 +26651,29 @@
 "timestamp":1614294939302,
 "version":"9.3.0"
 },
-"gfortran_impl_osx-arm64-11.0.0.dev0-h36c711b_15.tar.bz2":{
-"build":"h36c711b_15",
-"build_number":15,
+"gfortran_impl_osx-64-9.3.0-hbc21ee6_20.tar.bz2":{
+"build":"hbc21ee6_20",
+"build_number":20,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"isl >=0.22.1,<0.23.0a0",
+"libgcc-ng >=9.3.0",
+"libiconv >=1.16,<1.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mpc >=1.1.0,<2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"gfortran_impl_osx-64",
+"sha256":"20c7bea23e0a5716b3fd996192bf6e5d430b21e022f8f007dc2a3472b2c5e2eb",
+"size":11584587,
+"timestamp":1615938616678,
+"version":"9.3.0"
+},
+"gfortran_impl_osx-arm64-11.0.1.dev0-hdf5ea86_20.tar.bz2":{
+"build":"hdf5ea86_20",
+"build_number":20,
 "depends":[
 "gmp >=6.2.1,<7.0a0",
 "isl >=0.22.1,<0.23.0a0",
@@ -26666,310 +26686,10 @@
 ],
 "license":"GPL-3.0-only WITH GCC-exception-3.1",
 "name":"gfortran_impl_osx-arm64",
-"sha256":"cf051eb01df8d9ddf727de4306d4aed3235eccaf53dc4e14dcdd2b58b48e45b5",
-"size":13138471,
-"timestamp":1608656921532,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h36c711b_16.tar.bz2":{
-"build":"h36c711b_16",
-"build_number":16,
-"depends":[
-"gmp >=6.2.1,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=9.3.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"79309c595743507cddb771dc2021da74ece0c0855f852c8c1095fe83eb7e7c0a",
-"size":13524227,
-"timestamp":1610543191256,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h36c711b_17.tar.bz2":{
-"build":"h36c711b_17",
-"build_number":17,
-"depends":[
-"gmp >=6.2.1,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=9.3.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"80a12826cc7c1faaacc8b9bcf17e9f70a4903091498ad70c0aad616ffbc7c19a",
-"size":13526976,
-"timestamp":1611335459206,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h36c711b_18.tar.bz2":{
-"build":"h36c711b_18",
-"build_number":18,
-"depends":[
-"gmp >=6.2.1,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=9.3.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"18a4f219abb5d33e5bebdfaf53e5ff7f118e7e30f83036148217205a78995812",
-"size":13709246,
-"timestamp":1613196353898,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h36c711b_19.tar.bz2":{
-"build":"h36c711b_19",
-"build_number":19,
-"depends":[
-"gmp >=6.2.1,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=9.3.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"6977a337042b8f6ec17d87a791211fcff39e197277188df1460f3e010ded8818",
-"size":13710029,
-"timestamp":1614296369299,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h3835b31_14.tar.bz2":{
-"build":"h3835b31_14",
-"build_number":14,
-"depends":[
-"gmp >=6.2.1,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"e499e859441dfbb5303061ad5b760b049d9697279c35699611f7ad857af729d9",
-"size":13519760,
-"timestamp":1608583217737,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h9d40d87_10.tar.bz2":{
-"build":"h9d40d87_10",
-"build_number":10,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"3d29c3e50f1833d9e094d4a865f005b87921aa141af006e2b336cd3139f0aa73",
-"size":13371558,
-"timestamp":1600723725780,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h9d40d87_11.tar.bz2":{
-"build":"h9d40d87_11",
-"build_number":11,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"114a18cb8538b2e45b92838ff82dcf42f82edf15ced2dc9461bf666380a3cab1",
-"size":13399241,
-"timestamp":1600762382642,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h9d40d87_4.tar.bz2":{
-"build":"h9d40d87_4",
-"build_number":4,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"c84e5b8003ebfd0e750b66b96de4fa853ea21007a1165d7d6a6f88e4a6ceaf41",
-"size":13376650,
-"timestamp":1599454907568,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h9d40d87_5.tar.bz2":{
-"build":"h9d40d87_5",
-"build_number":5,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"7b8707a8cdb918257251b5f814dade5d9e6888bca4410bbecac6ff61a97e91b5",
-"size":13379715,
-"timestamp":1599505997647,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h9d40d87_6.tar.bz2":{
-"build":"h9d40d87_6",
-"build_number":6,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"24b4273989c6e299e4369f642ced5802bc4f0157b04dbc40860939fa4582bbc4",
-"size":13408014,
-"timestamp":1599944542004,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h9d40d87_7.tar.bz2":{
-"build":"h9d40d87_7",
-"build_number":7,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"b51306542840224b2f3fbb7e6a11725c0f773e83835d807d851e9ab3e6278acc",
-"size":13388730,
-"timestamp":1600620072752,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h9d40d87_8.tar.bz2":{
-"build":"h9d40d87_8",
-"build_number":8,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"87d9fae969b9258fd6a2ec8c2c511779385baf373c234a4cd0fe178c01eaec66",
-"size":13372522,
-"timestamp":1600667318039,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-h9d40d87_9.tar.bz2":{
-"build":"h9d40d87_9",
-"build_number":9,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"cf57fc2605c42ffd47df94c39cc925856cc7a92add4c8433be1cb00225d382ae",
-"size":13381709,
-"timestamp":1600710639620,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-hfd48ba8_12.tar.bz2":{
-"build":"hfd48ba8_12",
-"build_number":12,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"13d88e125e5e958d0cef5469108526378b1b9f29b5d7a1c0b8a31b624c410151",
-"size":13534596,
-"timestamp":1602090649900,
-"version":"11.0.0.dev0"
-},
-"gfortran_impl_osx-arm64-11.0.0.dev0-hfd48ba8_13.tar.bz2":{
-"build":"hfd48ba8_13",
-"build_number":13,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"isl >=0.22.1,<0.23.0a0",
-"libgcc-ng >=7.5.0",
-"libiconv >=1.16,<1.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"mpc >=1.1.0,<2.0a0",
-"mpfr >=4.0.2,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_osx-arm64",
-"sha256":"a2900e4a2d40062c901e73151e96d0bb6866a1e9ebc6666189440a97c3c706b3",
-"size":13528828,
-"timestamp":1603002620342,
-"version":"11.0.0.dev0"
+"sha256":"ef80df3a342dd2a892170b4c7cea1953eb0493451cdd48fb2f45dc2d107abecd",
+"size":13732954,
+"timestamp":1615938380205,
+"version":"11.0.1.dev0"
 },
 "gfortran_linux-aarch64-7.5.0-h89f2c17_30.tar.bz2":{
 "build":"h89f2c17_30",
