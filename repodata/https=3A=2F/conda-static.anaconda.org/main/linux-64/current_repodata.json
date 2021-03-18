@@ -94111,6 +94111,37 @@
 "timestamp":1602701579750,
 "version":"4.3.3"
 },
+"zeromq-4.3.4-h2531618_0.tar.bz2":{
+"build":"h2531618_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"libstdcxx-ng >=7.3.0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"zeromq",
+"sha256":"95c82f0f889e8cbd0abe00cdc1ef22591293f741055179dcb973cf0830e63ee3",
+"size":366479,
+"timestamp":1616055552392,
+"version":"4.3.4"
+},
+"zeromq-static-4.3.4-h2531618_0.tar.bz2":{
+"build":"h2531618_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"libstdcxx-ng >=7.3.0",
+"zeromq 4.3.4 h2531618_0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"zeromq-static",
+"sha256":"074b1dc02b1fba52b9a89e11de00fb59a5da9bf24824acc39f54c0adfd3a6b84",
+"size":413211,
+"timestamp":1616055563935,
+"version":"4.3.4"
+},
 "zfp-0.5.5-h2531618_4.tar.bz2":{
 "build":"h2531618_4",
 "build_number":4,

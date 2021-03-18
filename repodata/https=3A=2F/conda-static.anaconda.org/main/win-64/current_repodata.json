@@ -79660,6 +79660,37 @@
 "timestamp":1602704979034,
 "version":"4.3.3"
 },
+"zeromq-4.3.4-hd77b12b_0.tar.bz2":{
+"build":"hd77b12b_0",
+"build_number":0,
+"depends":[
+"libsodium >=1.0.18,<1.0.19.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"zeromq",
+"sha256":"fd8e6a0fcf36c191c5c2bb6cc0bd9dde7ad98cb1d936062a923e75d99c793114",
+"size":9430705,
+"timestamp":1616055773485,
+"version":"4.3.4"
+},
+"zeromq-static-4.3.4-hd77b12b_0.tar.bz2":{
+"build":"hd77b12b_0",
+"build_number":0,
+"depends":[
+"libsodium >=1.0.18,<1.0.19.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0",
+"zeromq 4.3.4 hd77b12b_0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"zeromq-static",
+"sha256":"b6c43cc529f51ee7df9964c177e0bbaabb60c908ce337a7d755541d1483f0344",
+"size":18379,
+"timestamp":1616055795537,
+"version":"4.3.4"
+},
 "zfp-0.5.5-hd77b12b_4.tar.bz2":{
 "build":"hd77b12b_4",
 "build_number":4,
