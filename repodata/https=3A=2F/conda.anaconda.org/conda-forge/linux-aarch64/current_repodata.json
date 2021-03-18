@@ -59084,6 +59084,30 @@
 "timestamp":1615723753709,
 "version":"0.53.0"
 },
+"numba-0.53.0-py37h1af6f4b_1.tar.bz2":{
+"build":"py37h1af6f4b_1",
+"build_number":1,
+"constrains":[
+"cudatoolkit >=9.0",
+"scipy >=1.0",
+"tbb  >=2019.5,<=2020.3"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"e33f4e67ed992a3fd2ce7a2e7ff131e29ee9b23f9e4676e1ebe218fc88099a18",
+"size":3854837,
+"timestamp":1616041275420,
+"version":"0.53.0"
+},
 "numba-0.53.0-py37h9ee2552_0.tar.bz2":{
 "build":"py37h9ee2552_0",
 "build_number":0,
@@ -67143,16 +67167,16 @@
 "timestamp":1615515347983,
 "version":"3.15.6"
 },
-"protoc-gen-go-1.4.3-h375a9b1_0.tar.bz2":{
-"build":"h375a9b1_0",
+"protoc-gen-go-1.5.1-h652cbe9_0.tar.bz2":{
+"build":"h652cbe9_0",
 "build_number":0,
 "depends":[],
 "license":"BSD-3-Clause",
 "name":"protoc-gen-go",
-"sha256":"1e14eef564f8ef7973a3740b549ef1910d404bc1f8214fdc4bbeb1efc0bcc059",
-"size":3522402,
-"timestamp":1602770430743,
-"version":"1.4.3"
+"sha256":"6306da3188397702d8bb1b337f9aab2b2f2b9f2764f9e8c9ecec2b7fc9dd4d16",
+"size":3523484,
+"timestamp":1616040548553,
+"version":"1.5.1"
 },
 "psutil-5.8.0-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
