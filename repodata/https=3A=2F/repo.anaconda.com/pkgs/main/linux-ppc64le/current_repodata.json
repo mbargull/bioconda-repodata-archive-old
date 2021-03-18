@@ -35760,7 +35760,7 @@
 "timestamp":1615054884215,
 "version":"1.8.156"
 },
-"aws-sdk-cpp-1.8.162-h6205695_0.conda":{
+"aws-sdk-cpp-1.8.163-h6205695_0.conda":{
 "build":"h6205695_0",
 "build_number":0,
 "depends":[
@@ -35771,13 +35771,13 @@
 "libstdcxx-ng >=7.3.0",
 "openssl >=1.1.1j,<1.1.2a"
 ],
-"legacy_bz2_md5":"faec2b37ddb34fb537a98e26fb8569e4",
+"legacy_bz2_md5":"44f5c1c9e97de51de40289a172fbbac4",
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"d432274e36a2eb25bd86dc58e171fefb1f03736bf5e17a9475b31b87a2783c3a",
-"size":1875960,
-"timestamp":1615920953942,
-"version":"1.8.162"
+"sha256":"0976339639a8356ee5c90e76d2b76611fe9d872a8815ed9507874a1836780c77",
+"size":1876917,
+"timestamp":1616007397913,
+"version":"1.8.163"
 },
 "aws-xray-sdk-2.6.0-py36_0.conda":{
 "build":"py36_0",
@@ -50688,6 +50688,115 @@
 "timestamp":1615395063921,
 "version":"0.9.1"
 },
+"jupyter_server-1.4.1-py36h6ffa863_0.conda":{
+"build":"py36h6ffa863_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"dataclasses",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.6,<3.7.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"legacy_bz2_md5":"0080e2031f274a473bcb3cae24ee84a1",
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"b9e006aff60cdcee77331b833a9ce59e57db9c816622437c3e4996d0207b2b2d",
+"size":318505,
+"timestamp":1616084116221,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py37h6ffa863_0.conda":{
+"build":"py37h6ffa863_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.7,<3.8.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"legacy_bz2_md5":"1617b3f665f8cc8c2092701956fa02dc",
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"ab8dc981d9bbc0534a9a41ba5e308f2ce750297dca10b786d1569d8343f25475",
+"size":322358,
+"timestamp":1616084112728,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py38h6ffa863_0.conda":{
+"build":"py38h6ffa863_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.8,<3.9.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"legacy_bz2_md5":"81ab102f4026fc4781e3ba7be4e08faf",
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"598c10f22f74c8f26bfd64cce97f1b7afe7b5a739017f5f3cf7a58cf1ab0884a",
+"size":322763,
+"timestamp":1616084090833,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py39h6ffa863_0.conda":{
+"build":"py39h6ffa863_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.9,<3.10.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"legacy_bz2_md5":"de42f21dd03c2c49981d938e5f32ace0",
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"c16b3c87e8cd08c98779ad556deea2cd8aa58dd01cef45d17575c581a8398fa2",
+"size":323911,
+"timestamp":1616084093522,
+"version":"1.4.1"
+},
 "jupyterhub-1.3.0-py36h6ffa863_1.conda":{
 "build":"py36h6ffa863_1",
 "build_number":1,
@@ -52536,6 +52645,21 @@
 "size":32784209,
 "timestamp":1614803731780,
 "version":"3.9.2"
+},
+"libspatialindex-1.9.3-h29c3540_0.conda":{
+"build":"h29c3540_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0"
+],
+"legacy_bz2_md5":"3169aa1e21e6859574e472efff493b65",
+"license":"MIT",
+"name":"libspatialindex",
+"sha256":"ec6e08e3c8ec3bb961e3a6ae99a8b73e46294b3f6528bdac4777c83be6bae7d9",
+"size":2224572,
+"timestamp":1616086776095,
+"version":"1.9.3"
 },
 "libssh2-1.9.0-h1ba5d50_1.conda":{
 "build":"h1ba5d50_1",

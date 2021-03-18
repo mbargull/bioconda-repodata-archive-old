@@ -6831,7 +6831,7 @@
 "timestamp":1615055045670,
 "version":"1.8.156"
 },
-"aws-sdk-cpp-1.8.162-hd77b12b_0.conda":{
+"aws-sdk-cpp-1.8.163-hd77b12b_0.conda":{
 "build":"hd77b12b_0",
 "build_number":0,
 "depends":[
@@ -6841,13 +6841,13 @@
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"be464278603deea5de43d07ab44004bb",
+"legacy_bz2_md5":"ab7315eccefce5545da0c9fdb5a57132",
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"fd478b365982d3118206694ab4c4591996717bd0b30db924a7c351eca7731b84",
-"size":2541346,
-"timestamp":1615921143242,
-"version":"1.8.162"
+"sha256":"e7ac5e3fccdc0ddde188d90eefe6dc9a1399002757ee36732e9ce4fba784ce6c",
+"size":2529756,
+"timestamp":1616007631330,
+"version":"1.8.163"
 },
 "aws-xray-sdk-2.6.0-py36_0.conda":{
 "build":"py36_0",
@@ -34036,6 +34036,119 @@
 "timestamp":1536855466556,
 "version":"2.1.0"
 },
+"jupyter_server-1.4.1-py36haa95532_0.conda":{
+"build":"py36haa95532_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"dataclasses",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.6,<3.7.0a0",
+"pywin32 >=1.0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"legacy_bz2_md5":"bfe1845c6e3ae8d81266c2c2e0b37648",
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"dc9bb8ecb7a0ccc985308d474e6e1482f4260f59f18187eacb5c9796d09e78ea",
+"size":335065,
+"timestamp":1616084197645,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py37haa95532_0.conda":{
+"build":"py37haa95532_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.7,<3.8.0a0",
+"pywin32 >=1.0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"legacy_bz2_md5":"9bc1dcdb1a37bfaa39d56aeca15f88cf",
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"b2c740061a00af293f550cf5c93ced055d9b604b806d0cc3d07390b5f981b6e1",
+"size":335754,
+"timestamp":1616084335394,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py38haa95532_0.conda":{
+"build":"py38haa95532_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.8,<3.9.0a0",
+"pywin32 >=1.0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"legacy_bz2_md5":"a09adb10827e1eb73bf90734527ddd2e",
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"d2fe019aa3a224f9b8e59cf6074c4c643b3730ee63ce3ec6cbf86cfadcc224df",
+"size":339751,
+"timestamp":1616084372536,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py39haa95532_0.conda":{
+"build":"py39haa95532_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.9,<3.10.0a0",
+"pywin32 >=1.0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"legacy_bz2_md5":"4ce4f40ddea78ea93a1eb3dc4bbc2b29",
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"8bae456f30024cbad49f5780ac2ec2d3726a40e67db3ec315ea92c13ce8b97e4",
+"size":336301,
+"timestamp":1616084373082,
+"version":"1.4.1"
+},
 "jupyterhub-1.3.0-py36haa95532_1.conda":{
 "build":"py36haa95532_1",
 "build_number":1,
@@ -37342,6 +37455,21 @@
 "sha256":"8d7520d1b016d0f20d97b1e93d00e188390d9cc32c515b537cac6e256b87e8f0",
 "size":359840,
 "timestamp":1573154469706,
+"version":"1.9.3"
+},
+"libspatialindex-1.9.3-h6c2663c_0.conda":{
+"build":"h6c2663c_0",
+"build_number":0,
+"depends":[
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"legacy_bz2_md5":"91aa29bbc065cd3b53c7410ab683c9dd",
+"license":"MIT",
+"name":"libspatialindex",
+"sha256":"944afdeebe524ce6c0d8b9da32da7bbba1881670110f6616b143de6b3b11cd20",
+"size":359321,
+"timestamp":1616086916558,
 "version":"1.9.3"
 },
 "libspatialite-4.3.0a-h383548d_18.conda":{
