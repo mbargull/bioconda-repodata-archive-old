@@ -12868,7 +12868,7 @@
 "timestamp":1613503329635,
 "version":"1.75.0"
 },
-"boost-histogram-1.0.0-py36hfbfb870_0.tar.bz2":{
+"boost-histogram-1.0.1-py36hfbfb870_0.tar.bz2":{
 "build":"py36hfbfb870_0",
 "build_number":0,
 "depends":[
@@ -12877,16 +12877,17 @@
 "libstdcxx-ng >=9.3.0",
 "numpy",
 "python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
+"python_abi 3.6.* *_cp36m",
+"typing_extensions"
 ],
 "license":"BSD-3-Clause",
 "name":"boost-histogram",
-"sha256":"85f9d6044e2186b679aa9808827f4a3b918adc624d40ac14665966b32cd98dbe",
-"size":1083681,
-"timestamp":1615384528122,
-"version":"1.0.0"
+"sha256":"97051a4a8b23755d616998204aead64e8ad107ade7bc361fe740198fb4c9a8e4",
+"size":1087672,
+"timestamp":1616022249926,
+"version":"1.0.1"
 },
-"boost-histogram-1.0.0-py37hb529c66_0.tar.bz2":{
+"boost-histogram-1.0.1-py37hb529c66_0.tar.bz2":{
 "build":"py37hb529c66_0",
 "build_number":0,
 "depends":[
@@ -12894,16 +12895,17 @@
 "libstdcxx-ng >=9.3.0",
 "numpy",
 "python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
+"python_abi 3.7.* *_cp37m",
+"typing_extensions"
 ],
 "license":"BSD-3-Clause",
 "name":"boost-histogram",
-"sha256":"47d4c8c67ce29756dfc919c81ebaacad03d61ac2398fcd201f90ec1ccd877c7e",
-"size":1082635,
-"timestamp":1615384564465,
-"version":"1.0.0"
+"sha256":"f99b1e319d426f59f61541283f236e8583382b2ee4b782dde2369504a8195d98",
+"size":1076461,
+"timestamp":1616022258950,
+"version":"1.0.1"
 },
-"boost-histogram-1.0.0-py38hc3f6d71_0.tar.bz2":{
+"boost-histogram-1.0.1-py38hc3f6d71_0.tar.bz2":{
 "build":"py38hc3f6d71_0",
 "build_number":0,
 "depends":[
@@ -12915,12 +12917,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boost-histogram",
-"sha256":"4e1835a43278b61a613db6521739e852752f7272912883858628796919c7104f",
-"size":1067687,
-"timestamp":1615384512157,
-"version":"1.0.0"
+"sha256":"984422a5923cb0d503be40d996d977a9913010661463f5cad4dcc75d14777ceb",
+"size":1076384,
+"timestamp":1616022246977,
+"version":"1.0.1"
 },
-"boost-histogram-1.0.0-py39h75f00f6_0.tar.bz2":{
+"boost-histogram-1.0.1-py39h75f00f6_0.tar.bz2":{
 "build":"py39h75f00f6_0",
 "build_number":0,
 "depends":[
@@ -12932,10 +12934,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boost-histogram",
-"sha256":"70d37f3b3220dbb41dec2c8362ac67eae0a40110ebef73b81070926f16c7c77a",
-"size":1074938,
-"timestamp":1615384499771,
-"version":"1.0.0"
+"sha256":"2216ac6af5145e83175e7f7130344401ae997959222edb07fc0e780f137ee90a",
+"size":1078699,
+"timestamp":1616022219875,
+"version":"1.0.1"
 },
 "bottleneck-1.3.2-py36h3dc0c6d_1.tar.bz2":{
 "build":"py36h3dc0c6d_1",
@@ -89434,6 +89436,38 @@
 "size":433648,
 "timestamp":1588565011099,
 "version":"2019.11.13"
+},
+"r-profvis-0.3.7-r36h2be38b1_0.tar.bz2":{
+"build":"r36h2be38b1_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=3.6,<3.7.0a0",
+"r-htmlwidgets >=0.3.2",
+"r-stringr"
+],
+"license":"GPL-3.0-only",
+"name":"r-profvis",
+"sha256":"a2fe77b52ffed34bccada541f153ddfbb7da4cef1156a1dce169e0e8eec01f9b",
+"size":194712,
+"timestamp":1616023739815,
+"version":"0.3.7"
+},
+"r-profvis-0.3.7-r40h2be38b1_0.tar.bz2":{
+"build":"r40h2be38b1_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-htmlwidgets >=0.3.2",
+"r-stringr"
+],
+"license":"GPL-3.0-only",
+"name":"r-profvis",
+"sha256":"94904e4d8d74d6cf49283ff42961f329e2512fec6105dab704057b975dabb1c0",
+"size":195018,
+"timestamp":1616023744732,
+"version":"0.3.7"
 },
 "r-promises-1.2.0.1-r36h6203a36_0.tar.bz2":{
 "build":"r36h6203a36_0",
