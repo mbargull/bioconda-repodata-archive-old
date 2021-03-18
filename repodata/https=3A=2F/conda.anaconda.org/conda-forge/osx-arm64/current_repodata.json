@@ -6610,12 +6610,12 @@
 "timestamp":1608058450585,
 "version":"5.39"
 },
-"fish-3.2.0-h4e17f28_0.tar.bz2":{
+"fish-3.2.1-h4e17f28_0.tar.bz2":{
 "build":"h4e17f28_0",
 "build_number":0,
 "depends":[
 "gettext >=0.19.8.1,<1.0a0",
-"libcxx >=11.0.1",
+"libcxx >=11.1.0",
 "ncurses >=6.2,<6.3.0a0",
 "pcre2 >=10.36,<10.37.0a0",
 "readline >=8.0,<9.0a0",
@@ -6623,10 +6623,10 @@
 ],
 "license":"GPL-2.0-only AND BSD-3-Clause",
 "name":"fish",
-"sha256":"170cdd3a1bdbd647fc882e0d82a114d7019dd7592ce731d680e1f463f742a16b",
-"size":4036973,
-"timestamp":1614616908205,
-"version":"3.2.0"
+"sha256":"33c5dd7c44f8eae4803118f57f44724409b5cc28acadbdb1368988a0da8b3613",
+"size":4051930,
+"timestamp":1616048867162,
+"version":"3.2.1"
 },
 "fitsio-1.1.4-py38hb02bdbf_0.tar.bz2":{
 "build":"py38hb02bdbf_0",
@@ -22574,6 +22574,66 @@
 "size":2718246,
 "timestamp":1615467442425,
 "version":"5.7.1"
+},
+"roboticstoolbox-python-0.9.1-py38h30f7421_2.tar.bz2":{
+"build":"py38h30f7421_2",
+"build_number":2,
+"depends":[
+"ansitable",
+"bullet",
+"imageio",
+"imageio-ffmpeg",
+"matplotlib-base",
+"numpy >=1.18.0",
+"numpy-stl",
+"pgraph-python",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"qpsolvers",
+"rtb-data",
+"scipy",
+"spatialmath-python >=0.9.2",
+"swift-sim >=0.8.1",
+"sympy",
+"vpython"
+],
+"license":"MIT",
+"name":"roboticstoolbox-python",
+"sha256":"e925d158e0abf4c43edb25ff2092acd18e902aa398fafba4f4d507162f8fd0e7",
+"size":455304,
+"timestamp":1616050816329,
+"version":"0.9.1"
+},
+"roboticstoolbox-python-0.9.1-py39h46acfd9_2.tar.bz2":{
+"build":"py39h46acfd9_2",
+"build_number":2,
+"depends":[
+"ansitable",
+"bullet",
+"imageio",
+"imageio-ffmpeg",
+"matplotlib-base",
+"numpy >=1.18.0",
+"numpy-stl",
+"pgraph-python",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"qpsolvers",
+"rtb-data",
+"scipy",
+"spatialmath-python >=0.9.2",
+"swift-sim >=0.8.1",
+"sympy",
+"vpython"
+],
+"license":"MIT",
+"name":"roboticstoolbox-python",
+"sha256":"88571666e2bafbc0f6aff5d528f00844279f7cc895fa6c8a45ba50783afbaaf6",
+"size":452305,
+"timestamp":1616050756725,
+"version":"0.9.1"
 },
 "root-6.22.6-py38he9c1451_0.tar.bz2":{
 "build":"py38he9c1451_0",
