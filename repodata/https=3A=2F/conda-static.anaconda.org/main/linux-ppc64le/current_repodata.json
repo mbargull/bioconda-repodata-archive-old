@@ -6317,7 +6317,7 @@
 "timestamp":1615054884215,
 "version":"1.8.156"
 },
-"aws-sdk-cpp-1.8.163-h6205695_0.tar.bz2":{
+"aws-sdk-cpp-1.8.164-h6205695_0.tar.bz2":{
 "build":"h6205695_0",
 "build_number":0,
 "depends":[
@@ -6330,10 +6330,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"e3b20198ae79acfce998d9fbc3f61d559836ddbe0a78f602f6e092ddcd9af08e",
-"size":2282308,
-"timestamp":1616007397913,
-"version":"1.8.163"
+"sha256":"051f790deaa0444138fd6824bd131aefa37189db900d68a7945cd35b1a487ce9",
+"size":2282834,
+"timestamp":1616093845494,
+"version":"1.8.164"
 },
 "aws-xray-sdk-2.6.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -13817,53 +13817,85 @@
 "timestamp":1531054976438,
 "version":"15.1.0"
 },
-"constructor-3.0.2-py36_0.tar.bz2":{
-"build":"py36_0",
+"constructor-3.2.0-py36h6ffa863_0.tar.bz2":{
+"build":"py36h6ffa863_0",
 "build_number":0,
 "depends":[
+"chardet",
 "conda >=4.6",
 "conda-standalone",
+"pip",
 "python >=3.6,<3.7.0a0",
-"ruamel_yaml >=0.11.14,<0.16"
+"ruamel_yaml >=0.11.14,<0.16",
+"setuptools",
+"wheel"
 ],
-"license":"BSD 3-Clause",
+"license":"BSD-3-Clause",
 "name":"constructor",
-"sha256":"a1c40b7c0cef21e91ddb055ad6bfc41f53e9d6087c4c4a4e1368da70cd3081cc",
-"size":77574,
-"timestamp":1598032256459,
-"version":"3.0.2"
+"sha256":"e3c8ae94b5bf6899e92f7808bbb517ba011413c339c4df862eacd0a44876259b",
+"size":169535,
+"timestamp":1616147709846,
+"version":"3.2.0"
 },
-"constructor-3.0.2-py37_0.tar.bz2":{
-"build":"py37_0",
+"constructor-3.2.0-py37h6ffa863_0.tar.bz2":{
+"build":"py37h6ffa863_0",
 "build_number":0,
 "depends":[
+"chardet",
 "conda >=4.6",
 "conda-standalone",
+"pip",
 "python >=3.7,<3.8.0a0",
-"ruamel_yaml >=0.11.14,<0.16"
+"ruamel_yaml >=0.11.14,<0.16",
+"setuptools",
+"wheel"
 ],
-"license":"BSD 3-Clause",
+"license":"BSD-3-Clause",
 "name":"constructor",
-"sha256":"115c1b4f9591ba26495486316c4c166e3abbb044c03e392c430745810205fd79",
-"size":77527,
-"timestamp":1598032245557,
-"version":"3.0.2"
+"sha256":"e5ad595071353fef90b108fe5b86c82ebbae503361be28db298f445c4e7909ac",
+"size":169731,
+"timestamp":1616147897679,
+"version":"3.2.0"
 },
-"constructor-3.0.2-py38_0.tar.bz2":{
-"build":"py38_0",
+"constructor-3.2.0-py38h6ffa863_0.tar.bz2":{
+"build":"py38h6ffa863_0",
 "build_number":0,
 "depends":[
+"chardet",
 "conda >=4.6",
 "conda-standalone",
+"pip",
 "python >=3.8,<3.9.0a0",
-"ruamel_yaml >=0.11.14,<0.16"
+"ruamel_yaml >=0.11.14,<0.16",
+"setuptools",
+"wheel"
 ],
-"license":"BSD 3-Clause",
+"license":"BSD-3-Clause",
 "name":"constructor",
-"sha256":"2cd623be7ed612029b50323301d0ac91a9059dfd0a0049cb4510395c124f01ac",
-"size":77667,
-"timestamp":1598032288163,
-"version":"3.0.2"
+"sha256":"86595dc64af31986bccc396eece984f6ed206a7ed277f807f627b3d058a8039d",
+"size":169774,
+"timestamp":1616147711125,
+"version":"3.2.0"
+},
+"constructor-3.2.0-py39h6ffa863_0.tar.bz2":{
+"build":"py39h6ffa863_0",
+"build_number":0,
+"depends":[
+"chardet",
+"conda >=4.6",
+"conda-standalone",
+"pip",
+"python >=3.9,<3.10.0a0",
+"ruamel_yaml >=0.11.14,<0.16",
+"setuptools",
+"wheel"
+],
+"license":"BSD-3-Clause",
+"name":"constructor",
+"sha256":"6314961c534a54e0b5774d624cfbb15c81184e2f42c622a42eb9935bd900fddd",
+"size":170018,
+"timestamp":1616148886322,
+"version":"3.2.0"
 },
 "contextlib2-0.5.5-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -59473,7 +59505,7 @@
 "timestamp":1602786760799,
 "version":"2020.10.15"
 },
-"regex-2020.11.13-py36h140841e_0.tar.bz2":{
+"regex-2021.3.17-py36h140841e_0.tar.bz2":{
 "build":"py36h140841e_0",
 "build_number":0,
 "depends":[
@@ -59482,12 +59514,12 @@
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"d137faf6542d8783c79f59e2557d6789304b8c920444d7797e452feeaf6dbab0",
-"size":373545,
-"timestamp":1606773036762,
-"version":"2020.11.13"
+"sha256":"7b31bd524e115a300893581322653c5d6143291a3f87111657b18e26ac630d24",
+"size":382753,
+"timestamp":1616096041387,
+"version":"2021.3.17"
 },
-"regex-2020.11.13-py37h140841e_0.tar.bz2":{
+"regex-2021.3.17-py37h140841e_0.tar.bz2":{
 "build":"py37h140841e_0",
 "build_number":0,
 "depends":[
@@ -59496,12 +59528,12 @@
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"1afda92108a307d66311c7028dae142b6a5f1dcbcd7f429890c2004c96cebbee",
-"size":371205,
-"timestamp":1606773038451,
-"version":"2020.11.13"
+"sha256":"39135f95d36c6ca8b9ff9b87a67429bd39b3323320fda3b5d13bb3aba6154d35",
+"size":373326,
+"timestamp":1616096044493,
+"version":"2021.3.17"
 },
-"regex-2020.11.13-py38h140841e_0.tar.bz2":{
+"regex-2021.3.17-py38h140841e_0.tar.bz2":{
 "build":"py38h140841e_0",
 "build_number":0,
 "depends":[
@@ -59510,12 +59542,12 @@
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"344a263072c61d2a9faa0ab36540acf5446bbe2a98cd7037dcd9d9d4001b018f",
-"size":383963,
-"timestamp":1606773051870,
-"version":"2020.11.13"
+"sha256":"7c1d3279b1a68800ce32bcd91f97447faf24b2c6249117c466be0bd77e53d448",
+"size":378896,
+"timestamp":1616096034226,
+"version":"2021.3.17"
 },
-"regex-2020.11.13-py39h140841e_0.tar.bz2":{
+"regex-2021.3.17-py39h140841e_0.tar.bz2":{
 "build":"py39h140841e_0",
 "build_number":0,
 "depends":[
@@ -59524,10 +59556,10 @@
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"f26b3b27a8dd35d210ae187aa02709366492e8bf6fa0fbf9e394901f734fc25a",
-"size":377224,
-"timestamp":1606773084362,
-"version":"2020.11.13"
+"sha256":"d315659a460ed8bcbd3838e346ae0e98a80117b9be1b0b97b051416ca97d602f",
+"size":377136,
+"timestamp":1616096038060,
+"version":"2021.3.17"
 },
 "reportlab-3.5.65-py36hf2fe1d4_1.tar.bz2":{
 "build":"py36hf2fe1d4_1",
@@ -65447,7 +65479,7 @@
 "timestamp":1597935754147,
 "version":"3.33.0"
 },
-"sqlite-3.35.1-hd7247d8_0.tar.bz2":{
+"sqlite-3.35.2-hd7247d8_0.tar.bz2":{
 "build":"hd7247d8_0",
 "build_number":0,
 "depends":[
@@ -65457,10 +65489,10 @@
 ],
 "license":"Public-Domain (http://www.sqlite.org/copyright.html)",
 "name":"sqlite",
-"sha256":"6ddfc16cff2ac4668d6d963ad24ccb815df6274ce2e4efa1223ef194d47501cd",
-"size":1814858,
-"timestamp":1615836994983,
-"version":"3.35.1"
+"sha256":"f51f6f449eb73581718ba8ca84be3b9e7e53bdb69b5e834a2b8c17d7510b97ce",
+"size":1810934,
+"timestamp":1616096203865,
+"version":"3.35.2"
 },
 "sqlparse-0.2.4-py27_0.tar.bz2":{
 "build":"py27_0",
