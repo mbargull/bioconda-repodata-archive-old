@@ -7256,41 +7256,28 @@
 "timestamp":1601311844409,
 "version":"0.1.0"
 },
-"jupyterlab-2.2.6-py_0.tar.bz2":{
-"build":"py_0",
+"jupyterlab-3.0.11-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
+"ipython",
 "jinja2 >=2.10",
-"jupyterlab_server >=1.1.0,<2.0.0",
-"notebook >=4.3.1",
-"python >=3.5",
-"tornado !=6.0.0,!=6.0.1,!=6.0.2"
+"jupyter-packaging >=0.7.3,<0.8.0",
+"jupyter_core",
+"jupyter_server >=1.4,<2",
+"jupyterlab_server >=2.3,<3",
+"nbclassic >=0.2,<1",
+"packaging",
+"python >=3.6",
+"tornado >=6.1"
 ],
 "license":"BSD-3-Clause",
 "name":"jupyterlab",
 "noarch":"python",
-"sha256":"b7f479610e36da6464c8f048682b1d81f2fa09d4471dbafbee6539d95a9cd167",
-"size":6164246,
-"timestamp":1598376289158,
-"version":"2.2.6"
-},
-"jupyterlab-2.2.6-pyhd3eb1b0_1.tar.bz2":{
-"build":"pyhd3eb1b0_1",
-"build_number":1,
-"depends":[
-"jinja2 >=2.10",
-"jupyterlab_server >=1.1.0,<2.0.0",
-"notebook >=4.3.1",
-"python >=3.5",
-"tornado !=6.0.0,!=6.0.1,!=6.0.2"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterlab",
-"noarch":"python",
-"sha256":"58949244a03d6fc47848a380e5bd7df2fd6af2fdffea8d3e363fd5995be8303f",
-"size":6125181,
-"timestamp":1615894836100,
-"version":"2.2.6"
+"sha256":"493b533ee4d20e20ad60377dd2fb9069ae690856047e84b026b684c3c948cdcd",
+"size":5924315,
+"timestamp":1616167862215,
+"version":"3.0.11"
 },
 "jupyterlab_launcher-0.13.1-py_2.tar.bz2":{
 "build":"py_2",
@@ -7321,25 +7308,6 @@
 "size":8173,
 "timestamp":1601490751973,
 "version":"0.1.2"
-},
-"jupyterlab_server-1.2.0-py_0.tar.bz2":{
-"build":"py_0",
-"build_number":0,
-"depends":[
-"jinja2 >=2.10",
-"json5",
-"jsonschema >=3.0.1",
-"notebook >=4.2.0",
-"python >=3.5",
-"requests"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterlab_server",
-"noarch":"python",
-"sha256":"4287bfef79d02533b1293671875158d119632fd89098b87c51d3c733d6a340f4",
-"size":24928,
-"timestamp":1594164480694,
-"version":"1.2.0"
 },
 "jupyterlab_server-2.3.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
