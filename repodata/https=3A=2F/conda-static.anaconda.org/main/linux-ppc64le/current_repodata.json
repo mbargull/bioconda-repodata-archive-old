@@ -3483,12 +3483,12 @@
 "timestamp":1613036407737,
 "version":"1.5.2"
 },
-"anyio-2.1.0-py36h6ffa863_0.tar.bz2":{
+"anyio-2.2.0-py36h6ffa863_0.tar.bz2":{
 "build":"py36h6ffa863_0",
 "build_number":0,
 "constrains":[
-"trio >=0.16",
-"curio >=1.4"
+"curio >=1.4",
+"trio >=0.16"
 ],
 "depends":[
 "async_generator",
@@ -3500,12 +3500,12 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"b6287aef76c29d6ac63fa5855cbc5681dee3008a91301500afc4cc0a35ca343e",
-"size":115255,
-"timestamp":1616176636895,
-"version":"2.1.0"
+"sha256":"4e0c86b46b1105e0f0aaa677fc224f71163178740ed78198e6bc1857da760565",
+"size":117455,
+"timestamp":1616177810541,
+"version":"2.2.0"
 },
-"anyio-2.1.0-py37h6ffa863_0.tar.bz2":{
+"anyio-2.2.0-py37h6ffa863_0.tar.bz2":{
 "build":"py37h6ffa863_0",
 "build_number":0,
 "constrains":[
@@ -3520,17 +3520,17 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"6439216f573adc524a02ba47bf7b36f7343c16bb74787fbc49fed27eb240e53b",
-"size":115412,
-"timestamp":1616176630022,
-"version":"2.1.0"
+"sha256":"5b18cff15575005bab06e4ab0818fa6e87559b891577b3f8508f3a8e2fcf4dae",
+"size":117576,
+"timestamp":1616177800277,
+"version":"2.2.0"
 },
-"anyio-2.1.0-py38h6ffa863_0.tar.bz2":{
+"anyio-2.2.0-py38h6ffa863_0.tar.bz2":{
 "build":"py38h6ffa863_0",
 "build_number":0,
 "constrains":[
-"curio >=1.4",
-"trio >=0.16"
+"trio >=0.16",
+"curio >=1.4"
 ],
 "depends":[
 "idna >=2.8",
@@ -3539,17 +3539,17 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"5763d128f10ddde495e588957ed11b40fa11ab97797f7b00c5226f523c7abf7b",
-"size":116424,
-"timestamp":1616177104765,
-"version":"2.1.0"
+"sha256":"e0296c8b37e30c2eb7d9302ce1324ac3fbe637808ab9552012c07dd876472e34",
+"size":118153,
+"timestamp":1616177797743,
+"version":"2.2.0"
 },
-"anyio-2.1.0-py39h6ffa863_0.tar.bz2":{
+"anyio-2.2.0-py39h6ffa863_0.tar.bz2":{
 "build":"py39h6ffa863_0",
 "build_number":0,
 "constrains":[
-"trio >=0.16",
-"curio >=1.4"
+"curio >=1.4",
+"trio >=0.16"
 ],
 "depends":[
 "idna >=2.8",
@@ -3558,10 +3558,10 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"841f21d6b8ec41f6550a333a6983fe8d1b2af09cf87bfc66a5a062dd585f4acb",
-"size":117067,
-"timestamp":1616176642489,
-"version":"2.1.0"
+"sha256":"2b96b32c2e89697780b217800458e1349aff6360ffa62e2b8c3c3ee2c720bca5",
+"size":118379,
+"timestamp":1616177810610,
+"version":"2.2.0"
 },
 "anyjson-0.3.3-py27_1.tar.bz2":{
 "build":"py27_1",
@@ -69841,7 +69841,30 @@
 "timestamp":1522777506289,
 "version":"2.2"
 },
-"twine-3.4.0-py36h6ffa863_1.tar.bz2":{
+"twine-3.4.1-py36h6ffa863_0.tar.bz2":{
+"build":"py36h6ffa863_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.3",
+"importlib_metadata >=3.6",
+"keyring >=15.1",
+"pkginfo >=1.4.2",
+"python >=3.6,<3.7.0a0",
+"readme_renderer >=21.0",
+"requests >=2.20",
+"requests-toolbelt >=0.8.0,!=0.9.0",
+"rfc3986 >=1.4.0",
+"setuptools >=0.7.0",
+"tqdm >=4.14"
+],
+"license":"Apache-2.0",
+"name":"twine",
+"sha256":"5da54f92e6a780af24d13af635d556f1132b0f9ae3801622ab52e959f159b304",
+"size":47970,
+"timestamp":1616171713900,
+"version":"3.4.1"
+},
+"twine-3.4.1-py36h6ffa863_1.tar.bz2":{
 "build":"py36h6ffa863_1",
 "build_number":1,
 "depends":[
@@ -69859,12 +69882,35 @@
 ],
 "license":"Apache-2.0",
 "name":"twine",
-"sha256":"056c02e96b5069ce8143c904374289800f3617af72dd2b6a09115283992f9a3a",
-"size":47906,
-"timestamp":1615911077980,
-"version":"3.4.0"
+"sha256":"9e1b9224c4977d6cb5e50d402817d5b29dba63b4a969f7544000d661a2775f6d",
+"size":48049,
+"timestamp":1616010123254,
+"version":"3.4.1"
 },
-"twine-3.4.0-py37h6ffa863_1.tar.bz2":{
+"twine-3.4.1-py37h6ffa863_0.tar.bz2":{
+"build":"py37h6ffa863_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.3",
+"importlib_metadata >=3.6",
+"keyring >=15.1",
+"pkginfo >=1.4.2",
+"python >=3.7,<3.8.0a0",
+"readme_renderer >=21.0",
+"requests >=2.20",
+"requests-toolbelt >=0.8.0,!=0.9.0",
+"rfc3986 >=1.4.0",
+"setuptools >=0.7.0",
+"tqdm >=4.14"
+],
+"license":"Apache-2.0",
+"name":"twine",
+"sha256":"c30f289f79892f531d437a8786a8f0ed04f639cbb46d47ad2f894fbb63879136",
+"size":48128,
+"timestamp":1616171704291,
+"version":"3.4.1"
+},
+"twine-3.4.1-py37h6ffa863_1.tar.bz2":{
 "build":"py37h6ffa863_1",
 "build_number":1,
 "depends":[
@@ -69882,12 +69928,35 @@
 ],
 "license":"Apache-2.0",
 "name":"twine",
-"sha256":"8f0d707b472f5fd9bf30246719b7ed0718e7d1fd62f2691f2e310a200a9cc703",
-"size":47986,
-"timestamp":1615911072575,
-"version":"3.4.0"
+"sha256":"816c75cf61d410dad31c0fbca4c3ff7f061ba630856ba527b5eaf7796e6ada17",
+"size":48154,
+"timestamp":1616010130850,
+"version":"3.4.1"
 },
-"twine-3.4.0-py38h6ffa863_1.tar.bz2":{
+"twine-3.4.1-py38h6ffa863_0.tar.bz2":{
+"build":"py38h6ffa863_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.3",
+"importlib_metadata >=3.6",
+"keyring >=15.1",
+"pkginfo >=1.4.2",
+"python >=3.8,<3.9.0a0",
+"readme_renderer >=21.0",
+"requests >=2.20",
+"requests-toolbelt >=0.8.0,!=0.9.0",
+"rfc3986 >=1.4.0",
+"setuptools >=0.7.0",
+"tqdm >=4.14"
+],
+"license":"Apache-2.0",
+"name":"twine",
+"sha256":"968019136f9f80c294087746676817be2e7272b98c8a8593b71e0e905668dfd2",
+"size":48394,
+"timestamp":1616171697400,
+"version":"3.4.1"
+},
+"twine-3.4.1-py38h6ffa863_1.tar.bz2":{
 "build":"py38h6ffa863_1",
 "build_number":1,
 "depends":[
@@ -69905,12 +69974,35 @@
 ],
 "license":"Apache-2.0",
 "name":"twine",
-"sha256":"a54da1d8bf035ab73d91459af2010573b5c02a6187533b69ff42407de91dcaab",
-"size":48246,
-"timestamp":1615911079026,
-"version":"3.4.0"
+"sha256":"2d6b765af66ccd9bff167f9b466e8c7adcbafd155b2cba05e4ed6bcbbc694698",
+"size":48360,
+"timestamp":1616010114681,
+"version":"3.4.1"
 },
-"twine-3.4.0-py39h6ffa863_1.tar.bz2":{
+"twine-3.4.1-py39h6ffa863_0.tar.bz2":{
+"build":"py39h6ffa863_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.3",
+"importlib_metadata >=3.6",
+"keyring >=15.1",
+"pkginfo >=1.4.2",
+"python >=3.9,<3.10.0a0",
+"readme_renderer >=21.0",
+"requests >=2.20",
+"requests-toolbelt >=0.8.0,!=0.9.0",
+"rfc3986 >=1.4.0",
+"setuptools >=0.7.0",
+"tqdm >=4.14"
+],
+"license":"Apache-2.0",
+"name":"twine",
+"sha256":"0fba3429e5ef4a79da0c4cf11c7aac670637f4a6136a8ef3754f08aac7dd7266",
+"size":48472,
+"timestamp":1616171713235,
+"version":"3.4.1"
+},
+"twine-3.4.1-py39h6ffa863_1.tar.bz2":{
 "build":"py39h6ffa863_1",
 "build_number":1,
 "depends":[
@@ -69928,10 +70020,10 @@
 ],
 "license":"Apache-2.0",
 "name":"twine",
-"sha256":"6f49f0690b7ad52f0e15c8a22e63a8982fd441f64bf7abc73fd03d0ca751a955",
-"size":48334,
-"timestamp":1615911080833,
-"version":"3.4.0"
+"sha256":"863a38e2506eea01202358195d38c5d85090539cc9a8fca0715c777319ca059c",
+"size":48456,
+"timestamp":1616083454263,
+"version":"3.4.1"
 },
 "twisted-21.2.0-py36h140841e_0.tar.bz2":{
 "build":"py36h140841e_0",

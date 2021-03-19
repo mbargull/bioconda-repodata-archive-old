@@ -9509,6 +9509,50 @@
 "timestamp":1605281942888,
 "version":"1.0.5"
 },
+"impact-t-2.1-mpi_mpich_h1f17dfd_1.tar.bz2":{
+"build":"mpi_mpich_h1f17dfd_1",
+"build_number":1,
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"mpich >=3.4.1,<4.0a0"
+],
+"license":"BSD-3-Clause-LBNL",
+"name":"impact-t",
+"sha256":"cf98aefeeb5194e08ce23f557a0ea23464bc41262fc2804334a7a2e98038c12e",
+"size":875872,
+"timestamp":1616186830323,
+"version":"2.1"
+},
+"impact-t-2.1-mpi_openmpi_hab807de_1.tar.bz2":{
+"build":"mpi_openmpi_hab807de_1",
+"build_number":1,
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"openmpi >=4.1.0,<5.0a0"
+],
+"license":"BSD-3-Clause-LBNL",
+"name":"impact-t",
+"sha256":"9e19e01bf4ab1efa3ecff2ab0ad2a58089c6e1d75a64bff601c4f03d4867514f",
+"size":876585,
+"timestamp":1616186758730,
+"version":"2.1"
+},
+"impact-t-2.1-nompi_hb0d34d1_101.tar.bz2":{
+"build":"nompi_hb0d34d1_101",
+"build_number":101,
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause-LBNL",
+"name":"impact-t",
+"sha256":"22652c132608cd59d3fd9e16a890281d16edde38f23cabc0c6e0cf9d66478a4f",
+"size":439528,
+"timestamp":1616186693787,
+"version":"2.1"
+},
 "importlib-metadata-3.7.3-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
