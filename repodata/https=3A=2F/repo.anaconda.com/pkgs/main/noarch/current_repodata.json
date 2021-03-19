@@ -10358,43 +10358,29 @@
 "timestamp":1601311844409,
 "version":"0.1.0"
 },
-"jupyterlab-2.2.6-py_0.conda":{
-"build":"py_0",
+"jupyterlab-3.0.11-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
+"ipython",
 "jinja2 >=2.10",
-"jupyterlab_server >=1.1.0,<2.0.0",
-"notebook >=4.3.1",
-"python >=3.5",
-"tornado !=6.0.0,!=6.0.1,!=6.0.2"
+"jupyter-packaging >=0.7.3,<0.8.0",
+"jupyter_core",
+"jupyter_server >=1.4,<2",
+"jupyterlab_server >=2.3,<3",
+"nbclassic >=0.2,<1",
+"packaging",
+"python >=3.6",
+"tornado >=6.1"
 ],
-"legacy_bz2_md5":"509913b146b2d749f8543732bc939a27",
+"legacy_bz2_md5":"188c781217e8f3db07a024638a849983",
 "license":"BSD-3-Clause",
 "name":"jupyterlab",
 "noarch":"python",
-"sha256":"becd4295f7470a946974d11edc8cd3ed4eef636d4599a7a8345956c5a341643c",
-"size":3539109,
-"timestamp":1598376289158,
-"version":"2.2.6"
-},
-"jupyterlab-2.2.6-pyhd3eb1b0_1.conda":{
-"build":"pyhd3eb1b0_1",
-"build_number":1,
-"depends":[
-"jinja2 >=2.10",
-"jupyterlab_server >=1.1.0,<2.0.0",
-"notebook >=4.3.1",
-"python >=3.5",
-"tornado !=6.0.0,!=6.0.1,!=6.0.2"
-],
-"legacy_bz2_md5":"18ebad55701f3b7a42cdf95051ea74be",
-"license":"BSD-3-Clause",
-"name":"jupyterlab",
-"noarch":"python",
-"sha256":"dc8c151cf8c825243b7c744398352ce0455d57c8e4a19e8d2823a13002358c1c",
-"size":3539061,
-"timestamp":1615894836100,
-"version":"2.2.6"
+"sha256":"395653e47f6230c76a1e3e24e9b2644a7bd550504b0b2edb2e4a244aaa9baa78",
+"size":3675929,
+"timestamp":1616167862215,
+"version":"3.0.11"
 },
 "jupyterlab_launcher-0.13.1-py_2.conda":{
 "build":"py_2",
@@ -10427,26 +10413,6 @@
 "size":8254,
 "timestamp":1601490751973,
 "version":"0.1.2"
-},
-"jupyterlab_server-1.2.0-py_0.conda":{
-"build":"py_0",
-"build_number":0,
-"depends":[
-"jinja2 >=2.10",
-"json5",
-"jsonschema >=3.0.1",
-"notebook >=4.2.0",
-"python >=3.5",
-"requests"
-],
-"legacy_bz2_md5":"314e9533e01cd4b9e5a36f83444555c1",
-"license":"BSD-3-Clause",
-"name":"jupyterlab_server",
-"noarch":"python",
-"sha256":"f83306102f0e30bef8adb83c7c6ebc660eea9346ae4dcfdf46e18f7c1b136731",
-"size":25165,
-"timestamp":1594164480694,
-"version":"1.2.0"
 },
 "jupyterlab_server-2.3.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -18313,20 +18279,20 @@
 "timestamp":1608674363010,
 "version":"0.5.4"
 },
-"toml-0.10.1-py_0.conda":{
-"build":"py_0",
+"toml-0.10.2-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python"
+"python >=2.7"
 ],
-"legacy_bz2_md5":"93523ebfee95e873e2dd14e77c692620",
+"legacy_bz2_md5":"c879bdd2c6714030b3b0f7aea4e84f0d",
 "license":"MIT",
 "name":"toml",
 "noarch":"python",
-"sha256":"ece8f8fb87fcdd4b41e98d6adcc95712ecbceb7d6b08d14bb0215889130f19a3",
-"size":20565,
-"timestamp":1592853744871,
-"version":"0.10.1"
+"sha256":"c50b132439b0260e4b43649ce30171a4792e186c6f3d657e5936578d4ee3fc56",
+"size":20302,
+"timestamp":1616166645426,
+"version":"0.10.2"
 },
 "toolz-0.11.1-py_0.conda":{
 "build":"py_0",
