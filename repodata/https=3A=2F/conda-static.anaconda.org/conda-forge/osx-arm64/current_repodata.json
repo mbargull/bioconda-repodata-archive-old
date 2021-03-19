@@ -24782,6 +24782,19 @@
 "timestamp":1614788329015,
 "version":"2021.1.1"
 },
+"tbb-2021.1.1-h260d524_1.tar.bz2":{
+"build":"h260d524_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"tbb",
+"sha256":"1d78485e6abd847eed716aa7bd7c1d3affefc1ce4224538970d828661fd9a498",
+"size":120660,
+"timestamp":1616157053913,
+"version":"2021.1.1"
+},
 "tbb-devel-2021.1.1-h260d524_0.tar.bz2":{
 "build":"h260d524_0",
 "build_number":0,
@@ -24794,6 +24807,20 @@
 "sha256":"e290f280a93782f2da769d0c76f36766016c88cc688c5c272b052a259aa63c02",
 "size":907624,
 "timestamp":1614788350064,
+"version":"2021.1.1"
+},
+"tbb-devel-2021.1.1-h260d524_1.tar.bz2":{
+"build":"h260d524_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"tbb 2021.1.1 h260d524_1"
+],
+"license":"Apache-2.0",
+"name":"tbb-devel",
+"sha256":"c367ecac4f4245f495c11dc37aa0955862d8a97f8802b69f8e24bbb1e34ac548",
+"size":903366,
+"timestamp":1616157073675,
 "version":"2021.1.1"
 },
 "tbb4py-2021.1.1-py38h1cdb9a1_0.tar.bz2":{
@@ -24810,6 +24837,22 @@
 "sha256":"b9e21cbb4cf18f20433bc8635ac8d2bf68935c55a4c1413b831d3c4826cca216",
 "size":55107,
 "timestamp":1614788456913,
+"version":"2021.1.1"
+},
+"tbb4py-2021.1.1-py38h1cdb9a1_1.tar.bz2":{
+"build":"py38h1cdb9a1_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tbb >=2021.1.1"
+],
+"license":"Apache 2.0",
+"name":"tbb4py",
+"sha256":"f64c5b961e02657a4ddb8e292e7ba12c742038df057793120496b999f818e914",
+"size":55447,
+"timestamp":1616157172137,
 "version":"2021.1.1"
 },
 "terminado-0.9.3-py38h10201cd_0.tar.bz2":{

@@ -53920,6 +53920,38 @@
 "timestamp":1615403411368,
 "version":"3.5.65"
 },
+"reportlab-3.5.66-py38hf1a8077_0.tar.bz2":{
+"build":"py38hf1a8077_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"pillow >=2.4.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD 3-Clause",
+"name":"reportlab",
+"requires":[],
+"size":2522559,
+"timestamp":1616159969494,
+"version":"3.5.66"
+},
+"reportlab-3.5.66-py39h3f6938b_0.tar.bz2":{
+"build":"py39h3f6938b_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"pillow >=2.4.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD 3-Clause",
+"name":"reportlab",
+"requires":[],
+"size":2520518,
+"timestamp":1616159905546,
+"version":"3.5.66"
+},
 "reproc-14.2.0-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -58840,6 +58872,19 @@
 "timestamp":1614788329015,
 "version":"2021.1.1"
 },
+"tbb-2021.1.1-h260d524_1.tar.bz2":{
+"build":"h260d524_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"tbb",
+"requires":[],
+"size":120660,
+"timestamp":1616157053913,
+"version":"2021.1.1"
+},
 "tbb-devel-2020.2-h260d524_1.tar.bz2":{
 "build":"h260d524_1",
 "build_number":1,
@@ -58908,6 +58953,20 @@
 "requires":[],
 "size":907624,
 "timestamp":1614788350064,
+"version":"2021.1.1"
+},
+"tbb-devel-2021.1.1-h260d524_1.tar.bz2":{
+"build":"h260d524_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"tbb 2021.1.1 h260d524_1"
+],
+"license":"Apache-2.0",
+"name":"tbb-devel",
+"requires":[],
+"size":903366,
+"timestamp":1616157073675,
 "version":"2021.1.1"
 },
 "tbb4py-2020.2-py38h12a6f45_1.tar.bz2":{
@@ -58988,6 +59047,22 @@
 "requires":[],
 "size":55107,
 "timestamp":1614788456913,
+"version":"2021.1.1"
+},
+"tbb4py-2021.1.1-py38h1cdb9a1_1.tar.bz2":{
+"build":"py38h1cdb9a1_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tbb >=2021.1.1"
+],
+"license":"Apache 2.0",
+"name":"tbb4py",
+"requires":[],
+"size":55447,
+"timestamp":1616157172137,
 "version":"2021.1.1"
 },
 "terminado-0.9.1-py38h10201cd_1.tar.bz2":{
