@@ -39429,6 +39429,36 @@
 "timestamp":1616104209620,
 "version":"0.6.0"
 },
+"openai-0.6.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"requests >=2.20"
+],
+"license":"MIT",
+"name":"openai",
+"requires":[],
+"size":211694,
+"timestamp":1616137932253,
+"version":"0.6.1"
+},
+"openai-0.6.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"requests >=2.20"
+],
+"license":"MIT",
+"name":"openai",
+"requires":[],
+"size":211503,
+"timestamp":1616137711709,
+"version":"0.6.1"
+},
 "openblas-0.3.11-openmp_he77e1ca_1.tar.bz2":{
 "build":"openmp_he77e1ca_1",
 "build_number":1,
@@ -39962,6 +39992,23 @@
 "timestamp":1614352441387,
 "version":"4.1.0"
 },
+"openmpi-4.1.0-h385ff2b_3.tar.bz2":{
+"build":"h385ff2b_3",
+"build_number":3,
+"depends":[
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"mpi 1.0 openmpi",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi",
+"requires":[],
+"size":3239431,
+"timestamp":1616135624615,
+"version":"4.1.0"
+},
 "openmpi-mpicc-4.0.5-h27ca646_3.tar.bz2":{
 "build":"h27ca646_3",
 "build_number":3,
@@ -40030,6 +40077,20 @@
 "requires":[],
 "size":17968,
 "timestamp":1614352450611,
+"version":"4.1.0"
+},
+"openmpi-mpicc-4.1.0-h27ca646_3.tar.bz2":{
+"build":"h27ca646_3",
+"build_number":3,
+"depends":[
+"clang_osx-arm64 11.*",
+"openmpi 4.1.0 h385ff2b_3"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpicc",
+"requires":[],
+"size":17976,
+"timestamp":1616135633188,
 "version":"4.1.0"
 },
 "openmpi-mpicxx-4.0.5-h260d524_3.tar.bz2":{
@@ -40102,6 +40163,20 @@
 "timestamp":1614352455358,
 "version":"4.1.0"
 },
+"openmpi-mpicxx-4.1.0-h260d524_3.tar.bz2":{
+"build":"h260d524_3",
+"build_number":3,
+"depends":[
+"clangxx_osx-arm64 11.*",
+"openmpi 4.1.0 h385ff2b_3"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpicxx",
+"requires":[],
+"size":17989,
+"timestamp":1616135637822,
+"version":"4.1.0"
+},
 "openmpi-mpifort-4.0.5-hd73cc70_3.tar.bz2":{
 "build":"hd73cc70_3",
 "build_number":3,
@@ -40170,6 +40245,20 @@
 "requires":[],
 "size":18040,
 "timestamp":1614352460056,
+"version":"4.1.0"
+},
+"openmpi-mpifort-4.1.0-hd73cc70_3.tar.bz2":{
+"build":"hd73cc70_3",
+"build_number":3,
+"depends":[
+"gfortran_osx-arm64 11.*",
+"openmpi 4.1.0 h385ff2b_3"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpifort",
+"requires":[],
+"size":18068,
+"timestamp":1616135642456,
 "version":"4.1.0"
 },
 "openssh-8.4p1-hff6e12b_0.tar.bz2":{
