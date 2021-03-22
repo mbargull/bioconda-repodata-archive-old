@@ -34097,16 +34097,30 @@
 "timestamp":1594191919501,
 "version":"0.3.10"
 },
-"libopenblas-static-0.3.10-0.tar.bz2":{
-"build":"0",
+"libopenblas-0.3.13-h989ec91_0.tar.bz2":{
+"build":"h989ec91_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libgfortran-ng >=7,<8.0a0"
+],
+"license":"BSD",
+"name":"libopenblas",
+"sha256":"38c859afaad754ea64f48efd479114896dd61351d986aa9be90c11caae4f3242",
+"size":5633232,
+"timestamp":1616440757444,
+"version":"0.3.13"
+},
+"libopenblas-static-0.3.13-h6ffa863_0.tar.bz2":{
+"build":"h6ffa863_0",
 "build_number":0,
 "depends":[],
 "license":"BSD",
 "name":"libopenblas-static",
-"sha256":"1ca3026459b39e21609c7b8ad11733988b4c9aa33ea6089e4fa9d16df3bef269",
-"size":5842573,
-"timestamp":1594191925199,
-"version":"0.3.10"
+"sha256":"a21888c4e68858c3be209183d5447aee6bfc05a411b560e13d98235761e0625e",
+"size":5870653,
+"timestamp":1616440762987,
+"version":"0.3.13"
 },
 "libopencv-3.4.1-h8fa1ad8_3.tar.bz2":{
 "build":"h8fa1ad8_3",
@@ -41207,6 +41221,22 @@
 "timestamp":1594191932935,
 "version":"0.3.10"
 },
+"openblas-0.3.13-h6ffa863_0.tar.bz2":{
+"build":"h6ffa863_0",
+"build_number":0,
+"depends":[
+"blas 1.0 openblas",
+"libopenblas 0.3.13 h989ec91_0",
+"nomkl 3.0 h6ffa863_0",
+"openblas-devel 0.3.13 h6ffa863_0"
+],
+"license":"BSD",
+"name":"openblas",
+"sha256":"0f382565b8efb2c2ad366060e46e4cc524a0df54d3e5221c172f24f3225f9a77",
+"size":21136,
+"timestamp":1616440771082,
+"version":"0.3.13"
+},
 "openblas-devel-0.3.10-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -41220,6 +41250,20 @@
 "size":53506,
 "timestamp":1594191931972,
 "version":"0.3.10"
+},
+"openblas-devel-0.3.13-h6ffa863_0.tar.bz2":{
+"build":"h6ffa863_0",
+"build_number":0,
+"depends":[
+"libopenblas 0.3.13 h989ec91_0",
+"nomkl 3.0 h6ffa863_0",
+"blas * openblas"
+],
+"name":"openblas-devel",
+"sha256":"62d18df743bab19f49b6946af0acfed175a44c0f74a66d5bb46268a2b160ff57",
+"size":54938,
+"timestamp":1616440770262,
+"version":"0.3.13"
 },
 "opencv-3.4.1-py27h40b0b35_3.tar.bz2":{
 "build":"py27h40b0b35_3",

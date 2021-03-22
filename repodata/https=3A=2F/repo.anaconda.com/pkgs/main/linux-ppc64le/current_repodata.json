@@ -52652,17 +52652,32 @@
 "timestamp":1594191919501,
 "version":"0.3.10"
 },
-"libopenblas-static-0.3.10-0.conda":{
-"build":"0",
+"libopenblas-0.3.13-h989ec91_0.conda":{
+"build":"h989ec91_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libgfortran-ng >=7,<8.0a0"
+],
+"legacy_bz2_md5":"38b1e1918ded62fd5ec7d9129b27ff94",
+"license":"BSD",
+"name":"libopenblas",
+"sha256":"94e10fab351e30c3fa73cbdb3a573c27c0c64c4741d86d446fe31cd6ff7a7649",
+"size":3907984,
+"timestamp":1616440757444,
+"version":"0.3.13"
+},
+"libopenblas-static-0.3.13-h6ffa863_0.conda":{
+"build":"h6ffa863_0",
 "build_number":0,
 "depends":[],
-"legacy_bz2_md5":"78cdf472080f55cdecb8a1ae6767290c",
+"legacy_bz2_md5":"8df71de7f1ce4af2d254fc9d02cbd3dc",
 "license":"BSD",
 "name":"libopenblas-static",
-"sha256":"8095255bf4188f248b3c5a4b636c72293f67952ac6da2e3ad1e1cb7822ffa0ca",
-"size":3811512,
-"timestamp":1594191925199,
-"version":"0.3.10"
+"sha256":"fc1906029947e77ecdc85969e474417907b5c0b3ff38d2710165c3feb630599c",
+"size":3827787,
+"timestamp":1616440762987,
+"version":"0.3.13"
 },
 "libpq-12.2-h9ae4a2f_0.conda":{
 "build":"h9ae4a2f_0",
@@ -56974,6 +56989,23 @@
 "timestamp":1594191932935,
 "version":"0.3.10"
 },
+"openblas-0.3.13-h6ffa863_0.conda":{
+"build":"h6ffa863_0",
+"build_number":0,
+"depends":[
+"blas 1.0 openblas",
+"libopenblas 0.3.13 h989ec91_0",
+"nomkl 3.0 h6ffa863_0",
+"openblas-devel 0.3.13 h6ffa863_0"
+],
+"legacy_bz2_md5":"2a1125500b4f4eecb22bdf32308489bf",
+"license":"BSD",
+"name":"openblas",
+"sha256":"f378313a710e24d6decfe371ca3f9c7f4f5fdaa3afe61f092f96a6a6cc515cfa",
+"size":21766,
+"timestamp":1616440771082,
+"version":"0.3.13"
+},
 "openblas-devel-0.3.10-0.conda":{
 "build":"0",
 "build_number":0,
@@ -56988,6 +57020,21 @@
 "size":59720,
 "timestamp":1594191931972,
 "version":"0.3.10"
+},
+"openblas-devel-0.3.13-h6ffa863_0.conda":{
+"build":"h6ffa863_0",
+"build_number":0,
+"depends":[
+"libopenblas 0.3.13 h989ec91_0",
+"nomkl 3.0 h6ffa863_0",
+"blas * openblas"
+],
+"legacy_bz2_md5":"6c2d206096f6c86e57326c69aa071d9c",
+"name":"openblas-devel",
+"sha256":"20613e106241b924d618cab0640b2b5381d117eb7f081d902cfc6e825baeed2b",
+"size":61165,
+"timestamp":1616440770262,
+"version":"0.3.13"
 },
 "openjpeg-2.3.0-hef292c2_0.conda":{
 "build":"hef292c2_0",
