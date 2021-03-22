@@ -6317,7 +6317,7 @@
 "timestamp":1615054884215,
 "version":"1.8.156"
 },
-"aws-sdk-cpp-1.8.164-h6205695_0.tar.bz2":{
+"aws-sdk-cpp-1.8.166-h6205695_0.tar.bz2":{
 "build":"h6205695_0",
 "build_number":0,
 "depends":[
@@ -6330,10 +6330,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"051f790deaa0444138fd6824bd131aefa37189db900d68a7945cd35b1a487ce9",
-"size":2282834,
-"timestamp":1616093845494,
-"version":"1.8.164"
+"sha256":"79af1e2e3a0b5a8bf3e04ba735ffee54898f651133c0439b88bcae147ae5d9eb",
+"size":2306573,
+"timestamp":1616268709235,
+"version":"1.8.166"
 },
 "aws-xray-sdk-2.6.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -10788,22 +10788,73 @@
 "timestamp":1614177078672,
 "version":"3.18.0"
 },
-"cassandra-driver-3.24.0-py38h14c3975_0.tar.bz2":{
-"build":"py38h14c3975_0",
+"cassandra-driver-3.25.0-py36h140841e_0.tar.bz2":{
+"build":"py36h140841e_0",
 "build_number":0,
 "depends":[
 "libev >=4.33,<4.34.0a0",
-"libgcc-ng >=8.2.0",
+"libgcc-ng >=7.3.0",
+"numpy",
+"python >=3.6,<3.7.0a0",
+"six >=1.9"
+],
+"license":"Apache",
+"name":"cassandra-driver",
+"sha256":"a297fb0838efd079d2fb19c454aedd0344eff2d8567be51130b199eee298b9e7",
+"size":3454463,
+"timestamp":1616180979685,
+"version":"3.25.0"
+},
+"cassandra-driver-3.25.0-py37h140841e_0.tar.bz2":{
+"build":"py37h140841e_0",
+"build_number":0,
+"depends":[
+"libev >=4.33,<4.34.0a0",
+"libgcc-ng >=7.3.0",
+"numpy",
+"python >=3.7,<3.8.0a0",
+"six >=1.9"
+],
+"license":"Apache",
+"name":"cassandra-driver",
+"sha256":"bf3306ee120070ffc6933eb89a2e0d61a015cf38733bac542e1c8dff097b17ec",
+"size":3440750,
+"timestamp":1616180974882,
+"version":"3.25.0"
+},
+"cassandra-driver-3.25.0-py38h140841e_0.tar.bz2":{
+"build":"py38h140841e_0",
+"build_number":0,
+"depends":[
+"libev >=4.33,<4.34.0a0",
+"libgcc-ng >=7.3.0",
 "numpy",
 "python >=3.8,<3.9.0a0",
 "six >=1.9"
 ],
 "license":"Apache",
 "name":"cassandra-driver",
-"sha256":"a0134abd1a58c2ca34977d6d789d017561ae5d059b97e2f5369534e762ce14d1",
-"size":3826760,
-"timestamp":1597171274578,
-"version":"3.24.0"
+"sha256":"74ad28bc15627d15a31dc991e1c6c16824eda108934c35c4d633f33b8b488049",
+"size":3661835,
+"timestamp":1616180946699,
+"version":"3.25.0"
+},
+"cassandra-driver-3.25.0-py39h140841e_0.tar.bz2":{
+"build":"py39h140841e_0",
+"build_number":0,
+"depends":[
+"libev >=4.33,<4.34.0a0",
+"libgcc-ng >=7.3.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"six >=1.9"
+],
+"license":"Apache",
+"name":"cassandra-driver",
+"sha256":"ff918d4d1b8425b4e8badccf62937ffcc538329f796295803aa8b9b61486b125",
+"size":3640166,
+"timestamp":1616180920313,
+"version":"3.25.0"
 },
 "casuarius-1.1-py27he6710b0_2.tar.bz2":{
 "build":"py27he6710b0_2",
@@ -19732,7 +19783,7 @@
 "timestamp":1614080171290,
 "version":"0.9"
 },
-"fastavro-1.3.3-py36h140841e_0.tar.bz2":{
+"fastavro-1.3.4-py36h140841e_0.tar.bz2":{
 "build":"py36h140841e_0",
 "build_number":0,
 "depends":[
@@ -19742,12 +19793,12 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"cbb397e9decc5e17566eec427f56a2249624f52f326ae302a8eb68e16aeb08fd",
-"size":451079,
-"timestamp":1615661581787,
-"version":"1.3.3"
+"sha256":"9bf111723b32974ae490b943778f568fd91068ec6bd9b2e711dcb33569937872",
+"size":449075,
+"timestamp":1616269008641,
+"version":"1.3.4"
 },
-"fastavro-1.3.3-py37h140841e_0.tar.bz2":{
+"fastavro-1.3.4-py37h140841e_0.tar.bz2":{
 "build":"py37h140841e_0",
 "build_number":0,
 "depends":[
@@ -19757,12 +19808,12 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"6c976fd572cca4be99b1ce24581c177ed461197fb6c20425a4705b21a3687e70",
-"size":446730,
-"timestamp":1615661581998,
-"version":"1.3.3"
+"sha256":"7dec4b8b68d7a092550d8e0078fbf50bf54ee2b48934395003ea81374f3044f2",
+"size":449093,
+"timestamp":1616269006383,
+"version":"1.3.4"
 },
-"fastavro-1.3.3-py38h140841e_0.tar.bz2":{
+"fastavro-1.3.4-py38h140841e_0.tar.bz2":{
 "build":"py38h140841e_0",
 "build_number":0,
 "depends":[
@@ -19772,12 +19823,12 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"04de8235e097f415e3ff5ec4cbdee45f01c65e8806214ed6baf0f9e17f6cc6b3",
-"size":471873,
-"timestamp":1615820764664,
-"version":"1.3.3"
+"sha256":"e8d7fc9e318c04d8a71ffc439a1779a74db908e3ef5f7fa5aca0ae91b4952256",
+"size":474111,
+"timestamp":1616268976424,
+"version":"1.3.4"
 },
-"fastavro-1.3.3-py39h140841e_0.tar.bz2":{
+"fastavro-1.3.4-py39h140841e_0.tar.bz2":{
 "build":"py39h140841e_0",
 "build_number":0,
 "depends":[
@@ -19787,10 +19838,10 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"a429b209dc87cb1654c2745fb629dc74c854f11f6f753ba98d0c04d0bc5bdf0e",
-"size":470481,
-"timestamp":1615661545765,
-"version":"1.3.3"
+"sha256":"e800a04b6c7423de9464ae8952ba8a5fcc3a7b4e1269f2c65c9fa7fe46217759",
+"size":470245,
+"timestamp":1616268971722,
+"version":"1.3.4"
 },
 "fastcache-1.1.0-py27h7b6447c_0.tar.bz2":{
 "build":"py27h7b6447c_0",
@@ -23498,7 +23549,7 @@
 "timestamp":1587124987996,
 "version":"3.6.5"
 },
-"gobject-introspection-1.67.1-py36h36b56d4_1.tar.bz2":{
+"gobject-introspection-1.68.0-py36h36b56d4_1.tar.bz2":{
 "build":"py36h36b56d4_1",
 "build_number":1,
 "depends":[
@@ -23509,12 +23560,12 @@
 ],
 "license":"LGPL-2.0-or-later",
 "name":"gobject-introspection",
-"sha256":"ba8500382b1cf1ead0ee82fbbb7ee3e237a613715900076094de7d462ea543fa",
-"size":1598924,
-"timestamp":1615662035104,
-"version":"1.67.1"
+"sha256":"1d56291b77b7be8b801a8ea0306e27d1c895de5b48f9243f4669b1ba6aaf1729",
+"size":1634463,
+"timestamp":1616427997766,
+"version":"1.68.0"
 },
-"gobject-introspection-1.67.1-py37h36b56d4_1.tar.bz2":{
+"gobject-introspection-1.68.0-py37h36b56d4_1.tar.bz2":{
 "build":"py37h36b56d4_1",
 "build_number":1,
 "depends":[
@@ -23525,12 +23576,12 @@
 ],
 "license":"LGPL-2.0-or-later",
 "name":"gobject-introspection",
-"sha256":"71b61966875debed30840f045d4d25ed1b88a12a5022bf8060dd5f106a39bbea",
-"size":1614916,
-"timestamp":1615662053312,
-"version":"1.67.1"
+"sha256":"2c6d5428f1cb1ac24cd89fff9d6cceb318d0f8fddfa2408f8588d0c91f445229",
+"size":1597817,
+"timestamp":1616269310622,
+"version":"1.68.0"
 },
-"gobject-introspection-1.67.1-py38h36b56d4_1.tar.bz2":{
+"gobject-introspection-1.68.0-py38h36b56d4_1.tar.bz2":{
 "build":"py38h36b56d4_1",
 "build_number":1,
 "depends":[
@@ -23541,12 +23592,12 @@
 ],
 "license":"LGPL-2.0-or-later",
 "name":"gobject-introspection",
-"sha256":"d92b26809bde3b3b76632549e22c3bd8ba9de7051401873124f2bb9b8646257e",
-"size":1623740,
-"timestamp":1615662042063,
-"version":"1.67.1"
+"sha256":"4259f921d9308f2ad4d85040d253810925f1a8646019abda89dbf63054ff9214",
+"size":1623083,
+"timestamp":1616269348318,
+"version":"1.68.0"
 },
-"gobject-introspection-1.67.1-py39h36b56d4_1.tar.bz2":{
+"gobject-introspection-1.68.0-py39h36b56d4_1.tar.bz2":{
 "build":"py39h36b56d4_1",
 "build_number":1,
 "depends":[
@@ -23557,10 +23608,10 @@
 ],
 "license":"LGPL-2.0-or-later",
 "name":"gobject-introspection",
-"sha256":"18b69978b3344438c1b4a162ada75d6a6632159b2363f72fb2deb45a2c192d6f",
-"size":1601362,
-"timestamp":1615662017721,
-"version":"1.67.1"
+"sha256":"a4fbd82dd023967281bb8815c87d3ba615d578d59cbb75eab52b3aac5dce43d4",
+"size":1622896,
+"timestamp":1616269346415,
+"version":"1.68.0"
 },
 "google-api-core-1.22.2-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -24345,7 +24396,7 @@
 "timestamp":1600927674940,
 "version":"1.22.4"
 },
-"grpc-cpp-1.36.3-hedb86c2_4.tar.bz2":{
+"grpc-cpp-1.36.4-hedb86c2_4.tar.bz2":{
 "build":"hedb86c2_4",
 "build_number":4,
 "depends":[
@@ -24357,10 +24408,10 @@
 ],
 "license":"Apache-2.0",
 "name":"grpc-cpp",
-"sha256":"0b29bad038f0b68460185c294f66c889c41b86fca922d5ad114f0503f9c61e4d",
-"size":4997764,
-"timestamp":1615921880551,
-"version":"1.36.3"
+"sha256":"81c7e6d2401c9dbb98d5e75bf4ff3086f07a6cd1ffe346c52e05bfa8b4e0c249",
+"size":5010769,
+"timestamp":1616181965957,
+"version":"1.36.4"
 },
 "grpcio-1.35.0-py36hedb86c2_0.tar.bz2":{
 "build":"py36hedb86c2_0",
@@ -46001,7 +46052,7 @@
 "timestamp":1615564132627,
 "version":"1.1.5"
 },
-"pomegranate-0.14.2-py36h10f4dd4_0.tar.bz2":{
+"pomegranate-0.14.3-py36h10f4dd4_0.tar.bz2":{
 "build":"py36h10f4dd4_0",
 "build_number":0,
 "depends":[
@@ -46016,12 +46067,12 @@
 ],
 "license":"MIT",
 "name":"pomegranate",
-"sha256":"a08c24ae3af3247a35d51ccdaab70c779c98f6f00728f5e71cf6e0ca00bfd306",
-"size":5430228,
-"timestamp":1613765860801,
-"version":"0.14.2"
+"sha256":"9578656b97a59749096de11391a87089c3b7c3f0cc38d90259c53309daeab225",
+"size":5473645,
+"timestamp":1616184229017,
+"version":"0.14.3"
 },
-"pomegranate-0.14.2-py37h10f4dd4_0.tar.bz2":{
+"pomegranate-0.14.3-py37h10f4dd4_0.tar.bz2":{
 "build":"py37h10f4dd4_0",
 "build_number":0,
 "depends":[
@@ -46036,12 +46087,12 @@
 ],
 "license":"MIT",
 "name":"pomegranate",
-"sha256":"9e6df7008e63bc13310e6fd977c3d794b30db14d0735b91df21c3054f5102a56",
-"size":5411061,
-"timestamp":1613765849865,
-"version":"0.14.2"
+"sha256":"1578edf5dc6f8faadd615563438a8aa5cb5bc067190738d2203f985550840035",
+"size":5485446,
+"timestamp":1616184227058,
+"version":"0.14.3"
 },
-"pomegranate-0.14.2-py38h10f4dd4_0.tar.bz2":{
+"pomegranate-0.14.3-py38h10f4dd4_0.tar.bz2":{
 "build":"py38h10f4dd4_0",
 "build_number":0,
 "depends":[
@@ -46056,12 +46107,12 @@
 ],
 "license":"MIT",
 "name":"pomegranate",
-"sha256":"7b4481dab16f7ac9fe985d88f157f11f032947310c8e70f8a979d0e447744174",
-"size":5516624,
-"timestamp":1613765823101,
-"version":"0.14.2"
+"sha256":"2e47f519ac60d78e1aada47ed3bc3ca726dd2b35b33c998b738e50abeb687527",
+"size":5615574,
+"timestamp":1616184222318,
+"version":"0.14.3"
 },
-"pomegranate-0.14.2-py39h10f4dd4_0.tar.bz2":{
+"pomegranate-0.14.3-py39h10f4dd4_0.tar.bz2":{
 "build":"py39h10f4dd4_0",
 "build_number":0,
 "depends":[
@@ -46076,10 +46127,10 @@
 ],
 "license":"MIT",
 "name":"pomegranate",
-"sha256":"c8c38762370048115b2976354a998b4e062340b2b702fb415233348dbb32fd8e",
-"size":5551120,
-"timestamp":1613765843893,
-"version":"0.14.2"
+"sha256":"83db5c3752752e45c9b6881b86239cad5de04cfb6d33c3265a4466c73725de10",
+"size":5612881,
+"timestamp":1616184217491,
+"version":"0.14.3"
 },
 "poppler-0.81.0-he6a58d2_1.tar.bz2":{
 "build":"he6a58d2_1",
@@ -59573,7 +59624,7 @@
 "timestamp":1616096038060,
 "version":"2021.3.17"
 },
-"reportlab-3.5.65-py36hf2fe1d4_1.tar.bz2":{
+"reportlab-3.5.66-py36hf2fe1d4_1.tar.bz2":{
 "build":"py36hf2fe1d4_1",
 "build_number":1,
 "depends":[
@@ -59584,12 +59635,12 @@
 ],
 "license":"BSD 3-Clause",
 "name":"reportlab",
-"sha256":"3754fd4250ebf0ca8e6490a7bc25be8f76e3103f5b8d13cb670902940dbce2da",
-"size":2571780,
-"timestamp":1615548524841,
-"version":"3.5.65"
+"sha256":"918bceecc31788d060dd6ab2860354addf79f1f5cfd12152557fc1fd0bc41295",
+"size":2573164,
+"timestamp":1616183204423,
+"version":"3.5.66"
 },
-"reportlab-3.5.65-py37hf2fe1d4_1.tar.bz2":{
+"reportlab-3.5.66-py37hf2fe1d4_1.tar.bz2":{
 "build":"py37hf2fe1d4_1",
 "build_number":1,
 "depends":[
@@ -59600,12 +59651,12 @@
 ],
 "license":"BSD 3-Clause",
 "name":"reportlab",
-"sha256":"423ea63bbcf2e952d03e9053fb11accbfda69e2fb0e3366132662e9ba4150f73",
-"size":2562306,
-"timestamp":1615548510981,
-"version":"3.5.65"
+"sha256":"944f664d3d99de1c0c9351d723bf016f6a04d03c1c2f482768caf072d0810a28",
+"size":2567030,
+"timestamp":1616183207201,
+"version":"3.5.66"
 },
-"reportlab-3.5.65-py38hf2fe1d4_1.tar.bz2":{
+"reportlab-3.5.66-py38hf2fe1d4_1.tar.bz2":{
 "build":"py38hf2fe1d4_1",
 "build_number":1,
 "depends":[
@@ -59616,12 +59667,12 @@
 ],
 "license":"BSD 3-Clause",
 "name":"reportlab",
-"sha256":"e2e8f1b6d4064a279e6e72d07aa7e9e6ef9d19dbf95737cd85c6b13d6a03dcae",
-"size":2558610,
-"timestamp":1615548560845,
-"version":"3.5.65"
+"sha256":"40f30ec01b807660f60d71a25115c0a0ffd5a99609cf978ba9885ba84630db1f",
+"size":2575291,
+"timestamp":1616183196387,
+"version":"3.5.66"
 },
-"reportlab-3.5.65-py39hf2fe1d4_1.tar.bz2":{
+"reportlab-3.5.66-py39hf2fe1d4_1.tar.bz2":{
 "build":"py39hf2fe1d4_1",
 "build_number":1,
 "depends":[
@@ -59632,10 +59683,10 @@
 ],
 "license":"BSD 3-Clause",
 "name":"reportlab",
-"sha256":"dfdf0cffea478ea42a14760de43e2250577f1d04f9ebc1c69bdbf6d88e7db75f",
-"size":2549052,
-"timestamp":1615548565111,
-"version":"3.5.65"
+"sha256":"e92e972f3c0382b57b7e093d6325d3e5ee63cc30489a270bcf7e575031d3746f",
+"size":2553172,
+"timestamp":1616183194525,
+"version":"3.5.66"
 },
 "repoze.lru-0.7-py27_0.tar.bz2":{
 "build":"py27_0",

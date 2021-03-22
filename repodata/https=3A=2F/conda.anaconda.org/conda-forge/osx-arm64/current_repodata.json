@@ -7158,39 +7158,22 @@
 "timestamp":1597622095487,
 "version":"1.18"
 },
-"gdk-pixbuf-2.42.2-h7f36f56_1.tar.bz2":{
-"build":"h7f36f56_1",
-"build_number":1,
-"depends":[
-"jpeg >=9d,<10a",
-"libglib >=2.66.3,<3.0a0",
-"libpng >=1.6.37,<1.7.0a0",
-"libtiff >=4.1.0,<5.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LGPL-2.1-or-later",
-"name":"gdk-pixbuf",
-"sha256":"22c80a1c6f0189bc11d35e11be10681046dfd7ae6897cd1d8be9ee6ab7b686db",
-"size":603995,
-"timestamp":1607505423242,
-"version":"2.42.2"
-},
-"gdk-pixbuf-2.42.2-h7f36f56_2.tar.bz2":{
-"build":"h7f36f56_2",
+"gdk-pixbuf-2.42.4-he3e2a2f_2.tar.bz2":{
+"build":"he3e2a2f_2",
 "build_number":2,
 "depends":[
 "jpeg >=9d,<10a",
-"libglib >=2.66.4,<3.0a0",
+"libglib >=2.68.0,<3.0a0",
 "libpng >=1.6.37,<1.7.0a0",
-"libtiff >=4.1.0,<5.0a0",
+"libtiff >=4.2.0,<5.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"LGPL-2.1-or-later",
 "name":"gdk-pixbuf",
-"sha256":"6b5bfce60ad105906f195430374ea25f49c5df2c345aaa3eba06fbbb8e98da1a",
-"size":601336,
-"timestamp":1608731861029,
-"version":"2.42.2"
+"sha256":"382807aafa4508cfd0f7059f527271a6e04252dbae573500c0a118c81f941b29",
+"size":597964,
+"timestamp":1616428221874,
+"version":"2.42.4"
 },
 "genesis2-2.6-mpi_mpich_h66472c3_1.tar.bz2":{
 "build":"mpi_mpich_h66472c3_1",
@@ -8769,6 +8752,24 @@
 "sha256":"711c041084d5c9dbe30d5629b3a31076e5346e11c32a5ff6df96c28a86384541",
 "size":1528675,
 "timestamp":1615930025297,
+"version":"2.8.0"
+},
+"harfbuzz-2.8.0-h2a75196_1.tar.bz2":{
+"build":"h2a75196_1",
+"build_number":1,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"freetype >=2.10.4,<3.0a0",
+"graphite2",
+"icu >=68.1,<69.0a0",
+"libcxx >=11.1.0",
+"libglib >=2.68.0,<3.0a0"
+],
+"license":"MIT",
+"name":"harfbuzz",
+"sha256":"8c0c68577588581049c49f21475c666d3d0fd226c39de327dd3080848dea6d50",
+"size":1528956,
+"timestamp":1616429721021,
 "version":"2.8.0"
 },
 "hdbscan-0.8.27-py38h8369297_0.tar.bz2":{
