@@ -6908,6 +6908,22 @@
 "timestamp":1611256535215,
 "version":"4.0.0"
 },
+"bazel-4.0.0-h01db608_2.tar.bz2":{
+"build":"h01db608_2",
+"build_number":2,
+"depends":[
+"grpc-cpp >=1.36.4,<1.37.0a0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.15.6,<3.16.0a0",
+"openjdk >=8"
+],
+"license":"Apache-2.0",
+"name":"bazel",
+"sha256":"6e201f9bd708cef06c7d254eb496ad5a4204a8c82c22d3232dcb0fa456fd6e34",
+"size":25377665,
+"timestamp":1616504097454,
+"version":"4.0.0"
+},
 "bc-1.07.1-h516909a_0.tar.bz2":{
 "build":"h516909a_0",
 "build_number":0,
@@ -11404,6 +11420,32 @@
 "sha256":"9ba06680960d28284bcfb713a1e02410d4ed9831cc933b3857b0cbe6a80b86ba",
 "size":1805674,
 "timestamp":1563591008908,
+"version":"1.16.0"
+},
+"cairo-1.16.0-h2b21b7e_1008.tar.bz2":{
+"build":"h2b21b7e_1008",
+"build_number":1008,
+"depends":[
+"fontconfig >=2.13.1,<3.0a0",
+"freetype >=2.10.4,<3.0a0",
+"icu >=68.1,<69.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.0,<3.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libxcb",
+"pixman >=0.40.0,<1.0a0",
+"xorg-libice",
+"xorg-libsm",
+"xorg-libx11",
+"xorg-libxext",
+"xorg-libxrender",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL 2.1 or MPL 1.1",
+"name":"cairo",
+"sha256":"e95064db7f56907aec97afdd38adb734e539ea385eb21625de759a4ffaf091dc",
+"size":1787994,
+"timestamp":1616505222963,
 "version":"1.16.0"
 },
 "cairo-1.16.0-h3fc0475_1004.tar.bz2":{
@@ -100288,7 +100330,7 @@
 "timestamp":1616211158067,
 "version":"1.4.2"
 },
-"sqlite-3.34.0-h43e6a2a_0.tar.bz2":{
+"sqlite-3.35.2-h43e6a2a_0.tar.bz2":{
 "build":"h43e6a2a_0",
 "build_number":0,
 "depends":[
@@ -100299,10 +100341,10 @@
 ],
 "license":"Public-Domain (http://www.sqlite.org/copyright.html)",
 "name":"sqlite",
-"sha256":"ac4bbbe0fc0f6e2dd4de0ada74f283840b182beb6baec42dc674958d66db5eee",
-"size":1951984,
-"timestamp":1606911771058,
-"version":"3.34.0"
+"sha256":"8fc055e3f679f8232b8411ec0d45347e01ce2729ae696ede1c34fdc21f1185ba",
+"size":1974508,
+"timestamp":1616505386824,
+"version":"3.35.2"
 },
 "sqlitecpp-3.1.1-h73b71aa_0.tar.bz2":{
 "build":"h73b71aa_0",
