@@ -6284,6 +6284,46 @@
 "timestamp":1616476342131,
 "version":"1.19.34"
 },
+"awscli-1.19.34-py38h2063c64_0.tar.bz2":{
+"build":"py38h2063c64_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.34",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"24639b056a23d1c6f1bbfc6c3192c2b75d8c9373d7d9516bbcab0a6d6bfbb150",
+"size":1922758,
+"timestamp":1616477104223,
+"version":"1.19.34"
+},
+"awscli-1.19.34-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.34",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"bf9d1882262c72c3cf506f9eaa3514099101c85c126dbe7b449abfc52c0b521a",
+"size":1924977,
+"timestamp":1616477475241,
+"version":"1.19.34"
+},
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
 "build_number":3,
@@ -115544,284 +115584,97 @@
 "timestamp":1616328489723,
 "version":"5.3.0"
 },
-"zopfli-0.1.7-py36h269c3a8_3.tar.bz2":{
-"build":"py36h269c3a8_3",
-"build_number":3,
+"zopfli-0.1.8-py36h269c3a8_0.tar.bz2":{
+"build":"py36h269c3a8_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m"
 ],
-"license":"Apache 2.0",
+"license":"Apache-2.0",
 "name":"zopfli",
-"sha256":"ccefc52b4b01bd4aab251415a439dd47272a362cc9a32609126bbe2811f03824",
-"size":42675,
-"timestamp":1610307344208,
-"version":"0.1.7"
+"sha256":"fe74858a2104c51d94c48cf630aab11751701234adf3d780804b0f0f67fb3c0f",
+"size":42652,
+"timestamp":1616478365181,
+"version":"0.1.8"
 },
-"zopfli-0.1.7-py36h516909a_0.tar.bz2":{
-"build":"py36h516909a_0",
+"zopfli-0.1.8-py36h9b67645_0.tar.bz2":{
+"build":"py36h9b67645_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp36m"
-],
-"depends":[
-"libgcc-ng >=7.3.0",
-"python >=3.6,<3.7.0a0"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"c6c84cfa037944b79a4c5d5caff451e1591d5c9447fa1fc52ec5b5587b337f3b",
-"size":39143,
-"timestamp":1582783226089,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py36h8c4c3a4_1.tar.bz2":{
-"build":"py36h8c4c3a4_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"4e238f081c7cdc481f682bf3fcaa1eb53f6a087cda64c76d20c0d840f47fea5e",
-"size":39567,
-"timestamp":1584556603620,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py36h8c4c3a4_2.tar.bz2":{
-"build":"py36h8c4c3a4_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=7.5.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"b3ab9ba413b148afec8fca80e79bf8a4358eef40fa9e44007524f0f61030f0f1",
-"size":39530,
-"timestamp":1602417641320,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py36h97a6639_1.tar.bz2":{
-"build":"py36h97a6639_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"16a13b6e03396bbde6c53887a812c2f6b3a8af4760297f53b147fc613fd202e3",
-"size":39634,
-"timestamp":1584556820438,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py36h97a6639_2.tar.bz2":{
-"build":"py36h97a6639_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=7.5.0",
-"pypy3.6 >=7.3.2",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"6e2108b1b35dc052ca249964a7b773535a36030e344d2875221cee554e32eb76",
-"size":39614,
-"timestamp":1602417498956,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py36h9b67645_3.tar.bz2":{
-"build":"py36h9b67645_3",
-"build_number":3,
 "depends":[
 "libgcc-ng >=9.3.0",
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6 *_pypy36_pp73"
 ],
-"license":"Apache 2.0",
+"license":"Apache-2.0",
 "name":"zopfli",
-"sha256":"ea94c9f8204663a2e616bb792303ba7bb7c883c0c1777b8ed2861b5234d53745",
-"size":42701,
-"timestamp":1610307607840,
-"version":"0.1.7"
+"sha256":"79111fc9016cf04374c0d5bd42c1bac4cf69d5fc544b3ec86b82d3ccbfb3eea7",
+"size":42741,
+"timestamp":1616478702848,
+"version":"0.1.8"
 },
-"zopfli-0.1.7-py37h1283c21_3.tar.bz2":{
-"build":"py37h1283c21_3",
-"build_number":3,
+"zopfli-0.1.8-py37h1283c21_0.tar.bz2":{
+"build":"py37h1283c21_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "pypy3.7 >=7.3.3",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
-"license":"Apache 2.0",
+"license":"Apache-2.0",
 "name":"zopfli",
-"sha256":"4df96a1d0ac5661685806863ea1c20d9e7ef4f1b86946187a6f2c6e131ed164b",
-"size":42744,
-"timestamp":1610307655889,
-"version":"0.1.7"
+"sha256":"9c1bc62d955614025f7d6daec1bb0bbbc8c36129d8ae23a25a755753cc8a6505",
+"size":42654,
+"timestamp":1616478374017,
+"version":"0.1.8"
 },
-"zopfli-0.1.7-py37h516909a_0.tar.bz2":{
-"build":"py37h516909a_0",
+"zopfli-0.1.8-py37hcd4c3ab_0.tar.bz2":{
+"build":"py37hcd4c3ab_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp37m"
-],
-"depends":[
-"libgcc-ng >=7.3.0",
-"python >=3.7,<3.8.0a0"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"9b2468d54085c0eafbe694fccc0bf27f83fc414da870128066a7eb0a6b0782cb",
-"size":39129,
-"timestamp":1582783222589,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py37h8f50634_1.tar.bz2":{
-"build":"py37h8f50634_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"a83093f447235ff0a52a72913b23fb85d200c4cd3ba558755350aee553f585a4",
-"size":39555,
-"timestamp":1584556759824,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py37h8f50634_2.tar.bz2":{
-"build":"py37h8f50634_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=7.5.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"fbd3d30f270c1521ff2194af94e42888bb28049da63f5c4752409d969fe017b5",
-"size":39563,
-"timestamp":1602417672177,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py37hcd4c3ab_3.tar.bz2":{
-"build":"py37hcd4c3ab_3",
-"build_number":3,
 "depends":[
 "libgcc-ng >=9.3.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
 ],
-"license":"Apache 2.0",
+"license":"Apache-2.0",
 "name":"zopfli",
-"sha256":"0328c779ab0f83040389c3b0a8e4b047884406418e5eba38a27831831a7d2fbf",
-"size":42714,
-"timestamp":1610307373243,
-"version":"0.1.7"
+"sha256":"1dce3f9c4441211f3308c15a0b0cdc1086a01a04d6ab48f6cdba4bb329ee3fb7",
+"size":42673,
+"timestamp":1616478362503,
+"version":"0.1.8"
 },
-"zopfli-0.1.7-py38h1e0a361_1.tar.bz2":{
-"build":"py38h1e0a361_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"7c05fce8edce0337ce87ebbe1969572c5e66020bc4ceff9384fe2bf7bdd25d49",
-"size":39514,
-"timestamp":1584556603656,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py38h1e0a361_2.tar.bz2":{
-"build":"py38h1e0a361_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=7.5.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"4b42d0aa64e6dcc3ceaf302a886d1976ff22db83372d8bfc92f6f28bb1dd7875",
-"size":39523,
-"timestamp":1602417938448,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py38h516909a_0.tar.bz2":{
-"build":"py38h516909a_0",
+"zopfli-0.1.8-py38h9544abe_0.tar.bz2":{
+"build":"py38h9544abe_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp38"
-],
-"depends":[
-"libgcc-ng >=7.3.0",
-"python >=3.8,<3.9.0a0"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"3aa2a4f7ae9245ed6148dfeabae9e90cc826b1e00254f64da498a6df198d4232",
-"size":39250,
-"timestamp":1582783224171,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py38h9544abe_3.tar.bz2":{
-"build":"py38h9544abe_3",
-"build_number":3,
 "depends":[
 "libgcc-ng >=9.3.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
-"license":"Apache 2.0",
+"license":"Apache-2.0",
 "name":"zopfli",
-"sha256":"1193747c13cb41e76586bff14e4438d3b6713255e486366e67ac646e97f5eb48",
-"size":42632,
-"timestamp":1610307518264,
-"version":"0.1.7"
+"sha256":"7788a51d88a0b1ea4ef7785926c5b73ae1aa4a64617e46c4504ca33c3c3ca080",
+"size":42643,
+"timestamp":1616478675595,
+"version":"0.1.8"
 },
-"zopfli-0.1.7-py39h07f9747_2.tar.bz2":{
-"build":"py39h07f9747_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=7.5.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"Apache 2.0",
-"name":"zopfli",
-"sha256":"52a112c1bc1f59e92ae9cbee3b5c6b79a03e3ad70ac63beaa28520d10d7d0c36",
-"size":39613,
-"timestamp":1602417994075,
-"version":"0.1.7"
-},
-"zopfli-0.1.7-py39h14843e3_3.tar.bz2":{
-"build":"py39h14843e3_3",
-"build_number":3,
+"zopfli-0.1.8-py39h14843e3_0.tar.bz2":{
+"build":"py39h14843e3_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
-"license":"Apache 2.0",
+"license":"Apache-2.0",
 "name":"zopfli",
-"sha256":"4e9b0cb816710854578aff21d3c808ed6dd5a42d5a13cd6462bd2b854ffa73f3",
-"size":42754,
-"timestamp":1610307557835,
-"version":"0.1.7"
+"sha256":"77f960d1a386068acd01a1d102b10514a83bcfbefba588afc22c5d411d55923a",
+"size":42721,
+"timestamp":1616478686970,
+"version":"0.1.8"
 },
 "zstandard-0.15.2-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
