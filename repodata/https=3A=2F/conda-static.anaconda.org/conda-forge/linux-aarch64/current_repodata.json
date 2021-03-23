@@ -8905,6 +8905,34 @@
 "timestamp":1595524008995,
 "version":"0.73.0.debian_1.sage_2016_08_02"
 },
+"blosc-1.20.1-h01db608_0.tar.bz2":{
+"build":"h01db608_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"blosc",
+"sha256":"0c4a963ce543c33fb830daaaadf646428a9c764438284f5caf50c1b1c56ede37",
+"size":853895,
+"timestamp":1607285794363,
+"version":"1.20.1"
+},
+"blosc-1.20.1-h54f1f3f_0.tar.bz2":{
+"build":"h54f1f3f_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0"
+],
+"license":"BSD-3-Clause",
+"name":"blosc",
+"sha256":"4893254d11ce87ca68729e86c6214ba772fd4ea799a42308e3b0edfeadcedc34",
+"size":911173,
+"timestamp":1599591132224,
+"version":"1.20.1"
+},
 "blosc-1.21.0-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
 "build_number":0,
@@ -103794,89 +103822,8 @@
 "timestamp":1602269038673,
 "version":"0.7.0"
 },
-"tomopy-1.9.1-py36h03c44f0_101.tar.bz2":{
-"build":"py36h03c44f0_101",
-"build_number":101,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"733c87dc00423a2993bfe65ce462269b44e1e97a0505a91b78efe4de16aaec4b",
-"size":3361228,
-"timestamp":1604353585302,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py36h03c44f0_102.tar.bz2":{
-"build":"py36h03c44f0_102",
-"build_number":102,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"a45fdd8b639239cefdde3424939f4ba79714a3f2c328ccccc22f1c216443b59a",
-"size":3388927,
-"timestamp":1613534089570,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py36h03c44f0_103.tar.bz2":{
-"build":"py36h03c44f0_103",
-"build_number":103,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"15b295ed039475cbb45b546c1a1b96ddc653a5d79ef9993223c2a61ac11787a8",
-"size":3431491,
-"timestamp":1613590689775,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py36heaac5e2_100.tar.bz2":{
-"build":"py36heaac5e2_100",
+"tomopy-1.9.2-py36h03c44f0_100.tar.bz2":{
+"build":"py36h03c44f0_100",
 "build_number":100,
 "constrains":[
 "astra-toolbox >1.8"
@@ -103897,13 +103844,13 @@
 ],
 "license":"BSD-3-Clause",
 "name":"tomopy",
-"sha256":"87623347da63eaffc2b4433f8e46d00fc022b69735e0abaf9a9442115cd4fef1",
-"size":3468542,
-"timestamp":1603381148909,
-"version":"1.9.1"
+"sha256":"204e6687b8999513ccd2a894790f840a72e023ec8240f65a13b838ca96506cf6",
+"size":3299076,
+"timestamp":1616520656388,
+"version":"1.9.2"
 },
-"tomopy-1.9.1-py37h18caca3_100.tar.bz2":{
-"build":"py37h18caca3_100",
+"tomopy-1.9.2-py37ha5492de_100.tar.bz2":{
+"build":"py37ha5492de_100",
 "build_number":100,
 "constrains":[
 "astra-toolbox >1.8"
@@ -103924,94 +103871,13 @@
 ],
 "license":"BSD-3-Clause",
 "name":"tomopy",
-"sha256":"cfa2db3e928c13b1af7e9a83d155d3c63c0c4019731fcaec020a4f1ccb4bd3ee",
-"size":3295982,
-"timestamp":1603381149235,
-"version":"1.9.1"
+"sha256":"20708d36f1d410b885f6136fd0dbe7624492e307c0cea919da3731be0209df38",
+"size":3455205,
+"timestamp":1616520780403,
+"version":"1.9.2"
 },
-"tomopy-1.9.1-py37ha5492de_101.tar.bz2":{
-"build":"py37ha5492de_101",
-"build_number":101,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"6f09694e25e7a7d640f34704add8c45777b0837eac081d4519517dcb555a64e6",
-"size":3447786,
-"timestamp":1604354214867,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py37ha5492de_102.tar.bz2":{
-"build":"py37ha5492de_102",
-"build_number":102,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"384c1766f19e7e8f360c7cf4dc9abfda157b79bbd549da2c527e4c42539e3cdd",
-"size":3387405,
-"timestamp":1613533569518,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py37ha5492de_103.tar.bz2":{
-"build":"py37ha5492de_103",
-"build_number":103,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"6f7cb05a0185506eb7026d4148cac6ab644b0b662465628f12176a911c282419",
-"size":3441531,
-"timestamp":1613590102488,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py38ha2e5455_100.tar.bz2":{
-"build":"py38ha2e5455_100",
+"tomopy-1.9.2-py38hce8fde1_100.tar.bz2":{
+"build":"py38hce8fde1_100",
 "build_number":100,
 "constrains":[
 "astra-toolbox >1.8"
@@ -104032,95 +103898,14 @@
 ],
 "license":"BSD-3-Clause",
 "name":"tomopy",
-"sha256":"26c9630ff599019e8faba150cd70aff74b89fd67a472b090296e6b41d7d8e2c3",
-"size":3454207,
-"timestamp":1603380968121,
-"version":"1.9.1"
+"sha256":"a42ca1c5e4a517e48b061269e1db0b8a346b5e039559387bbad659749bf88fe1",
+"size":3428066,
+"timestamp":1616521272626,
+"version":"1.9.2"
 },
-"tomopy-1.9.1-py38hce8fde1_101.tar.bz2":{
-"build":"py38hce8fde1_101",
-"build_number":101,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"e0aae9b936df8774fc5c6a05b3c7c1517c7986f38970f8071c9f16761e558296",
-"size":3450573,
-"timestamp":1604354210428,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py38hce8fde1_102.tar.bz2":{
-"build":"py38hce8fde1_102",
-"build_number":102,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"dd320961bef3e8bd1659a374366eaba17f23d4e4ac6bb258bcd3b38d25465156",
-"size":3456124,
-"timestamp":1613534237428,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py38hce8fde1_103.tar.bz2":{
-"build":"py38hce8fde1_103",
-"build_number":103,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"cef5a1e9d2f1f733f5959430b70c643329514f4fbfd74ad4957844b2a6d67730",
-"size":3446511,
-"timestamp":1613590096022,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py39hd449c93_101.tar.bz2":{
-"build":"py39hd449c93_101",
-"build_number":101,
+"tomopy-1.9.2-py39hd449c93_100.tar.bz2":{
+"build":"py39hd449c93_100",
+"build_number":100,
 "constrains":[
 "astra-toolbox >1.8"
 ],
@@ -104140,64 +103925,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"tomopy",
-"sha256":"10e5e6f20004687da875a935619a169d400c186b3b566aa99cfa7aea7ef89c71",
-"size":3445519,
-"timestamp":1604354378641,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py39hd449c93_102.tar.bz2":{
-"build":"py39hd449c93_102",
-"build_number":102,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"6556c6bfa08be4452e815ffe94ad96ee595207332b3d0f95ef9399b66eb57481",
-"size":3420544,
-"timestamp":1613534312329,
-"version":"1.9.1"
-},
-"tomopy-1.9.1-py39hd449c93_103.tar.bz2":{
-"build":"py39hd449c93_103",
-"build_number":103,
-"constrains":[
-"astra-toolbox >1.8"
-],
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"nomkl",
-"numexpr",
-"numpy >1.12",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pywavelets",
-"scikit-image",
-"scipy",
-"setuptools",
-"tifffile"
-],
-"license":"BSD-3-Clause",
-"name":"tomopy",
-"sha256":"a5e7d87b29cd29b6199b2a3dacb592fcaae7c700923a347e72dedd53100066a4",
-"size":3445836,
-"timestamp":1613590893263,
-"version":"1.9.1"
+"sha256":"6aed56d79e326fb391229c050d61204a95ed958630d550433eade8234383a041",
+"size":3453365,
+"timestamp":1616521335165,
+"version":"1.9.2"
 },
 "tornado-6.1-py36h269c3a8_1.tar.bz2":{
 "build":"py36h269c3a8_1",
@@ -113844,26 +113575,26 @@
 "timestamp":1606409783933,
 "version":"0.2.6"
 },
-"xtensor-io-0.12.3-h6293a0b_0.tar.bz2":{
-"build":"h6293a0b_0",
+"xtensor-io-0.12.4-hd62202e_0.tar.bz2":{
+"build":"hd62202e_0",
 "build_number":0,
 "depends":[
-"blosc >=1.20.1,<2.0a0",
-"cpp-filesystem >=1.3.8,<1.4.0a0",
-"highfive >=2.1.1,<2.2.0a0",
+"blosc >=1.20,<1.21",
+"cpp-filesystem >=1.3,<1.4",
+"highfive >=2.0,<2.2",
 "libgcc-ng >=9.3.0",
-"libsndfile >=1.0.31,<1.1.0a0",
+"libsndfile >=1.0.28,<1.1",
 "libstdcxx-ng >=9.3.0",
-"openimageio >=2.2.12,<2.3.0a0",
-"xtensor >=0.23.2,<0.24.0a0",
-"zlib >=1.2.11,<1.3.0a0"
+"openimageio >=2.1,<2.3",
+"xtensor >=0.23.3,<0.24.0a0",
+"zlib"
 ],
 "license":"BSD-3-Clause",
 "name":"xtensor-io",
-"sha256":"872dad33b4109ffcc738f74af6b30ac382b2bd24ea35c0cf44fd4fbd545016e5",
-"size":37508,
-"timestamp":1616169536491,
-"version":"0.12.3"
+"sha256":"ac4a6073b08e6062b327b0945f368fec0873dd5c50e2f92c63001c3e112bdc0b",
+"size":36705,
+"timestamp":1616522173490,
+"version":"0.12.4"
 },
 "xtl-0.7.2-hd62202e_0.tar.bz2":{
 "build":"hd62202e_0",
