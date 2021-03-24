@@ -9618,6 +9618,26 @@
 "timestamp":1615051252728,
 "version":"1.8.151"
 },
+"awscli-1.19.35-py36h270354c_0.tar.bz2":{
+"build":"py36h270354c_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.35",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"b3f05e9d5d579b3ed802cef6cb7c817a47bd9afff2d19358d71eeeb18ab73835",
+"size":1912953,
+"timestamp":1616544139421,
+"version":"1.19.35"
+},
 "awscli-1.19.35-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
@@ -9657,6 +9677,46 @@
 "sha256":"a330a858a63ceed0b6cdbc3d49db5dd3a77c7693ddc7a12d429359e4d3b290cf",
 "size":1924012,
 "timestamp":1616542433510,
+"version":"1.19.35"
+},
+"awscli-1.19.35-py38hf8b3453_0.tar.bz2":{
+"build":"py38hf8b3453_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.35",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"ac9ac782b1b439263c99c0bbc4964f46dacf2792fba47f331c84773e837629dc",
+"size":1917503,
+"timestamp":1616545712606,
+"version":"1.19.35"
+},
+"awscli-1.19.35-py39hc1b9086_0.tar.bz2":{
+"build":"py39hc1b9086_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.35",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"3aef709cac666ed85a6734b57c3c0dab992b7ae2bcd131b4f75cbd39d4ea6470",
+"size":1924321,
+"timestamp":1616544037257,
 "version":"1.19.35"
 },
 "backports.lzma-0.0.14-py36h1ad4117_3.tar.bz2":{
@@ -41965,11 +42025,12 @@
 "timestamp":1614809290428,
 "version":"1.4.6"
 },
-"jupyter_server-1.4.1-py36h270354c_0.tar.bz2":{
+"jupyter_server-1.5.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
 "anyio >=2.0.2",
+"argon2-cffi",
 "dataclasses",
 "ipython_genutils",
 "jinja2",
@@ -41988,16 +42049,17 @@
 ],
 "license":"BSD-3-Clause",
 "name":"jupyter_server",
-"sha256":"4d7500419bdb926b83564ee101b357109b30c05d0fee2059035fd88d3cbb946a",
-"size":328203,
-"timestamp":1614029360490,
-"version":"1.4.1"
+"sha256":"6ffc3b8ebe69932d86cfe173e54337670bfc850ac3915846d0e46b3c0da9f870",
+"size":431630,
+"timestamp":1616544405489,
+"version":"1.5.0"
 },
-"jupyter_server-1.4.1-py36he7cccf2_0.tar.bz2":{
+"jupyter_server-1.5.0-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "depends":[
 "anyio >=2.0.2",
+"argon2-cffi",
 "dataclasses",
 "ipython_genutils",
 "jinja2",
@@ -42017,16 +42079,17 @@
 ],
 "license":"BSD-3-Clause",
 "name":"jupyter_server",
-"sha256":"a1ba0fab815949a1845ba74f3b9c9b519aceadd3fb05f40515ad670101011f2a",
-"size":329003,
-"timestamp":1614029454026,
-"version":"1.4.1"
+"sha256":"bfe942d5547b3a4985b3a94f7a5587b65b80cc5ba09d9d140722ec00d2b3294b",
+"size":428559,
+"timestamp":1616544272916,
+"version":"1.5.0"
 },
-"jupyter_server-1.4.1-py37h35e4cab_0.tar.bz2":{
+"jupyter_server-1.5.0-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
 "anyio >=2.0.2",
+"argon2-cffi",
 "ipython_genutils",
 "jinja2",
 "jupyter_client >=6.1.1",
@@ -42044,16 +42107,17 @@
 ],
 "license":"BSD-3-Clause",
 "name":"jupyter_server",
-"sha256":"a675c1383328e1116914c631b63e191688927b05de6d9c28b040ca5ab17e8f25",
-"size":329702,
-"timestamp":1614029258085,
-"version":"1.4.1"
+"sha256":"81e611fdf43aa2a2cec9df95cd68a561ed70bac777b52f1bf9b3bfc0d0c2b46b",
+"size":434240,
+"timestamp":1616544313306,
+"version":"1.5.0"
 },
-"jupyter_server-1.4.1-py38hf8b3453_0.tar.bz2":{
+"jupyter_server-1.5.0-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
 "anyio >=2.0.2",
+"argon2-cffi",
 "ipython_genutils",
 "jinja2",
 "jupyter_client >=6.1.1",
@@ -42071,16 +42135,17 @@
 ],
 "license":"BSD-3-Clause",
 "name":"jupyter_server",
-"sha256":"1a0d6573064e787fdc17b38865ac971e5a2472cecbf6e3e309c1bdb637b3851b",
-"size":327945,
-"timestamp":1614029287137,
-"version":"1.4.1"
+"sha256":"94703009f7357fb93697094cacb2b3c60535ebb57a8f7ffcc6e8aba502c39724",
+"size":426709,
+"timestamp":1616544392720,
+"version":"1.5.0"
 },
-"jupyter_server-1.4.1-py39hc1b9086_0.tar.bz2":{
+"jupyter_server-1.5.0-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
 "anyio >=2.0.2",
+"argon2-cffi",
 "ipython_genutils",
 "jinja2",
 "jupyter_client >=6.1.1",
@@ -42098,10 +42163,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"jupyter_server",
-"sha256":"fe946b795f724d278fa7efe83a69677039d4120179dfdd382056ce9e261bf7b4",
-"size":327392,
-"timestamp":1614029372405,
-"version":"1.4.1"
+"sha256":"851c755c8255999eea1fdfb048556bbf84239f3c97106624c075f27d5071b338",
+"size":428272,
+"timestamp":1616544450891,
+"version":"1.5.0"
 },
 "jupyterhub-1.3.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
