@@ -46637,6 +46637,22 @@
 "timestamp":1616485046932,
 "version":"0.16.2"
 },
+"libode-0.16.2-h01db608_5.tar.bz2":{
+"build":"h01db608_5",
+"build_number":5,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pthread-stubs",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-or-later OR BSD-4-Clause",
+"name":"libode",
+"sha256":"e2ebfba3b48514dcb797cdbf87efd6d6ce7781fb43c0fc03ee996c34bfd99460",
+"size":514229,
+"timestamp":1616591794693,
+"version":"0.16.2"
+},
 "libode-0.16.2-h54f1f3f_1.tar.bz2":{
 "build":"h54f1f3f_1",
 "build_number":1,
@@ -75266,6 +75282,23 @@
 "timestamp":1616485050498,
 "version":"0.16.2"
 },
+"pyode-0.16.2-h8af1aa0_5.tar.bz2":{
+"build":"h8af1aa0_5",
+"build_number":5,
+"depends":[
+"libgcc-ng",
+"libode",
+"libstdcxx-ng",
+"pthread-stubs",
+"python 3.8.*"
+],
+"license":"LGPL-2.1-or-later OR BSD-4-Clause",
+"name":"pyode",
+"sha256":"939278729259abaee38a0ed3f59816369fbc19c350fa03765e8a6e4e7f27c779",
+"size":190479,
+"timestamp":1616591798874,
+"version":"0.16.2"
+},
 "pyopencl-2021.1.4-py36h93b45c7_0.tar.bz2":{
 "build":"py36h93b45c7_0",
 "build_number":0,
@@ -101512,6 +101545,22 @@
 "timestamp":1612429577537,
 "version":"5.7.0"
 },
+"sundials-5.7.0-ha6463bd_0.tar.bz2":{
+"build":"ha6463bd_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"suitesparse >=5.7.2,<6.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"sundials",
+"sha256":"84b36eca140074a0a1a79b4d1c9a47b922ed220e5c8fafb50a226bd895b5fb08",
+"size":1022407,
+"timestamp":1616589406383,
+"version":"5.7.0"
+},
 "superlu-5.2.2-he1ec49c_0.tar.bz2":{
 "build":"he1ec49c_0",
 "build_number":0,
@@ -113662,41 +113711,21 @@
 "timestamp":1616516101296,
 "version":"0.23.3"
 },
-"xtensor-blas-0.19.0-h68867b3_0.tar.bz2":{
-"build":"h68867b3_0",
+"xtensor-blas-0.19.1-hd62202e_0.tar.bz2":{
+"build":"hd62202e_0",
 "build_number":0,
 "depends":[
-"libblas >=3.8.0,<4.0a0",
-"libcblas >=3.8.0,<4.0a0",
+"blas-devel",
 "libgcc-ng >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"xtensor >=0.23.0,<0.24.0a0"
+"xtensor >=0.23.3,<0.24.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"xtensor-blas",
-"sha256":"1d27949d5d2d38ef0fe9aaca5db4bef3e349d68bece4afe385607c4e6a055354",
-"size":266771,
-"timestamp":1611307114285,
-"version":"0.19.0"
-},
-"xtensor-blas-0.19.0-h68867b3_1.tar.bz2":{
-"build":"h68867b3_1",
-"build_number":1,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libcblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=9.3.0",
-"xtensor >=0.23.1,<0.24.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"xtensor-blas",
-"sha256":"05e44ac7d0ea26461f8fdda9a734255128bf2c9d1e8c2ef31ab48596e339f492",
-"size":261270,
-"timestamp":1614468801634,
-"version":"0.19.0"
+"sha256":"9fcc27faa5be2e716cc2fe9bc8b2690c943f6dc1550f1032fb54ad41cdce2a3a",
+"size":264807,
+"timestamp":1616592543191,
+"version":"0.19.1"
 },
 "xtensor-fftw-0.2.6-hd62202e_1.tar.bz2":{
 "build":"hd62202e_1",
