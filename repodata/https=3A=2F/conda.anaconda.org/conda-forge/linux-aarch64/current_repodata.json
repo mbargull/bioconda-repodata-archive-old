@@ -6240,11 +6240,11 @@
 "timestamp":1615242095288,
 "version":"1.8.151"
 },
-"awscli-1.19.35-py36h2e20a7f_0.tar.bz2":{
+"awscli-1.19.36-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.35",
+"botocore 1.20.36",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.6 >=7.3.3",
@@ -6256,16 +6256,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"b910be9030b004e01dbf2645994f26b450811343ef8608d00e89bc1359a9aee3",
-"size":1919824,
-"timestamp":1616542339704,
-"version":"1.19.35"
+"sha256":"a9c7cff32a8895fc6d1d79d2f9cd3ab0ee0158914550e347700ea699579840a1",
+"size":1924498,
+"timestamp":1616633662199,
+"version":"1.19.36"
 },
-"awscli-1.19.35-py36h704843e_0.tar.bz2":{
+"awscli-1.19.36-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.35",
+"botocore 1.20.36",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -6276,16 +6276,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"d815824f93a7c3b94d3cebf13ef27991940f73c5c53a0ab59d30dc5a983364ee",
-"size":1923191,
-"timestamp":1616542947775,
-"version":"1.19.35"
+"sha256":"110105084785eb14d47bb37e910853c1b5e91974022e5c381638d4f6acc1bf58",
+"size":1913641,
+"timestamp":1616634437910,
+"version":"1.19.36"
 },
-"awscli-1.19.35-py37hd9ded2f_0.tar.bz2":{
+"awscli-1.19.36-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.35",
+"botocore 1.20.36",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -6296,16 +6296,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"3f508961914039cb9f255699ed8c58ce25bcc447ad07c191ec6bbc94107c123e",
-"size":1922001,
-"timestamp":1616543315095,
-"version":"1.19.35"
+"sha256":"9041e60150bebc362e753fed3cfb0e1adb9de4b888ddeb10b8996ef148675702",
+"size":1923447,
+"timestamp":1616635346180,
+"version":"1.19.36"
 },
-"awscli-1.19.35-py38h2063c64_0.tar.bz2":{
+"awscli-1.19.36-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.35",
+"botocore 1.20.36",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -6316,16 +6316,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"867b42feeb240ce8630b02fcb2ef3921fdcb71f7b6ee522a3be8de98f058bde9",
-"size":1920211,
-"timestamp":1616543584685,
-"version":"1.19.35"
+"sha256":"67d55871889294e177d0fe6a354cede771c68e349b5e919aff7a13423f1801ac",
+"size":1926742,
+"timestamp":1616636101378,
+"version":"1.19.36"
 },
-"awscli-1.19.35-py39ha65689a_0.tar.bz2":{
+"awscli-1.19.36-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.35",
+"botocore 1.20.36",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.9,<3.10.0a0",
@@ -6336,10 +6336,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"e0a489d285feeea1b14e44e3c4538d434407a371fe5a0258799199deffc019d1",
-"size":1916736,
-"timestamp":1616543837799,
-"version":"1.19.35"
+"sha256":"de4f1a100bda9aade6c96dadcb2c2999bf288709823bf5e46ff7b48d8fd60133",
+"size":1926354,
+"timestamp":1616637009033,
+"version":"1.19.36"
 },
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
@@ -18191,6 +18191,33 @@
 "sha256":"4d95ad1179f61b3f462328cee3f72f7f5ab29b0d15cfe7c8eafc5437341d9a1e",
 "size":15259845,
 "timestamp":1616146899222,
+"version":"6.9.5"
+},
+"dartsim-6.9.5-h5bfd2f5_3.tar.bz2":{
+"build":"h5bfd2f5_3",
+"build_number":3,
+"depends":[
+"assimp >=5.0.1,<5.1.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"bullet",
+"console_bridge >=1.0.1,<1.1.0a0",
+"eigen",
+"fcl >=0.6.1,<0.7.0a0",
+"flann >=1.9.1,<1.9.2.0a0",
+"libccd >=2.1,<2.2.0a0",
+"libgcc-ng >=9.3.0",
+"libode",
+"libstdcxx-ng >=9.3.0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"octomap >=1.9.5,<1.10.0a0",
+"tinyxml2 >=8.0.0,<8.1.0a0",
+"urdfdom >=2.3.3,<2.4.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"dartsim",
+"sha256":"35d36bfed3cb7fac07ee9df94d400f1821131a91c807db5a3a48bedb30a0d6ed",
+"size":15256127,
+"timestamp":1616633568112,
 "version":"6.9.5"
 },
 "dataclasses-0.7-py36h9f0ad1d_0.tar.bz2":{
@@ -102850,7 +102877,7 @@
 "timestamp":1570553389324,
 "version":"5.7.28"
 },
-"tiledb-2.2.6-hf5515e5_0.tar.bz2":{
+"tiledb-2.2.7-hf5515e5_0.tar.bz2":{
 "build":"hf5515e5_0",
 "build_number":0,
 "depends":[
@@ -102863,10 +102890,10 @@
 ],
 "license":"MIT",
 "name":"tiledb",
-"sha256":"48392c8f8bfd5b1ab22f76fbaa6ace757ae34e1606d4163dfea5c4f0b46c194d",
-"size":4187384,
-"timestamp":1616086943925,
-"version":"2.2.6"
+"sha256":"b6ca814702495831a0e8860d79c45c0e932faaed53fa8be8cd8dffc566939826",
+"size":4187688,
+"timestamp":1616637372051,
+"version":"2.2.7"
 },
 "tini-0.18.0-h14c3975_1001.tar.bz2":{
 "build":"h14c3975_1001",
