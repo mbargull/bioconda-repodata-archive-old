@@ -6924,6 +6924,22 @@
 "timestamp":1616504097454,
 "version":"4.0.0"
 },
+"bazel-4.0.0-h29471df_3.tar.bz2":{
+"build":"h29471df_3",
+"build_number":3,
+"depends":[
+"grpc-cpp >=1.36.4,<1.37.0a0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.15.6,<3.16.0a0",
+"openjdk >=8"
+],
+"license":"Apache-2.0",
+"name":"bazel",
+"sha256":"e20c9ea1fbdfc695cca7987aba83737cda202b5c683c83b49b44567cd711a137",
+"size":23863847,
+"timestamp":1616671630880,
+"version":"4.0.0"
+},
 "bc-1.07.1-h516909a_0.tar.bz2":{
 "build":"h516909a_0",
 "build_number":0,
@@ -107965,6 +107981,25 @@
 "timestamp":1615900017576,
 "version":"2021.02.1"
 },
+"vscode-jupyter-2021.02.1-py36h90d456b_4.tar.bz2":{
+"build":"py36h90d456b_4",
+"build_number":4,
+"depends":[
+"__glibc >=2.17,<3.0.a0",
+"code-server >=3.9",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"MIT",
+"name":"vscode-jupyter",
+"sha256":"3d13e0e9e61eca68d5d310800b6f092173172559a19e8e4d8615b10bf2debe4e",
+"size":16244910,
+"timestamp":1616671665076,
+"version":"2021.02.1"
+},
 "vscode-jupyter-2021.02.1-py36ha18ea0a_3.tar.bz2":{
 "build":"py36ha18ea0a_3",
 "build_number":3,
@@ -107982,6 +108017,26 @@
 "sha256":"2c79ad9be66618c005d6f6defe144b28d86ef5dd66df35e8bf4d26e0902b5740",
 "size":16286922,
 "timestamp":1615900067130,
+"version":"2021.02.1"
+},
+"vscode-jupyter-2021.02.1-py36hcae0fc4_4.tar.bz2":{
+"build":"py36hcae0fc4_4",
+"build_number":4,
+"depends":[
+"__glibc >=2.17,<3.0.a0",
+"code-server >=3.9",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"MIT",
+"name":"vscode-jupyter",
+"sha256":"c7e5a4e2c5e942921deb8bcd8b32e713494cdb4c89eda00aeeedab77de4c5a51",
+"size":16173893,
+"timestamp":1616671506445,
 "version":"2021.02.1"
 },
 "vscode-jupyter-2021.02.1-py37h1d834f3_3.tar.bz2":{
@@ -108137,6 +108192,65 @@
 "timestamp":1615914913141,
 "version":"2021.2.582707922"
 },
+"vscode-python-2021.2.582707922-py36ha9f966f_4.tar.bz2":{
+"build":"py36ha9f966f_4",
+"build_number":4,
+"depends":[
+"code-server >=3.9",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"nodejs >=12.19.0,<13.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"vscode-jupyter"
+],
+"license":"MIT",
+"name":"vscode-python",
+"sha256":"5d9e6f812c34a47b96a5f153fcab825e3ecb0f1c486fd402e5cd80fd3cb4e812",
+"size":13515282,
+"timestamp":1616671951557,
+"version":"2021.2.582707922"
+},
+"vscode-python-2021.2.582707922-py36hcfc9fd2_4.tar.bz2":{
+"build":"py36hcfc9fd2_4",
+"build_number":4,
+"depends":[
+"code-server >=3.9",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"nodejs >=12.19.0,<13.0a0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"vscode-jupyter"
+],
+"license":"MIT",
+"name":"vscode-python",
+"sha256":"16c9180959f2a1829179773d7761674a4bbdb05ca34f944ed2584d82036394c8",
+"size":13577381,
+"timestamp":1616671922305,
+"version":"2021.2.582707922"
+},
+"vscode-python-2021.2.582707922-py37h22fba1d_4.tar.bz2":{
+"build":"py37h22fba1d_4",
+"build_number":4,
+"depends":[
+"code-server >=3.9",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"nodejs >=12.19.0,<13.0a0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"vscode-jupyter"
+],
+"license":"MIT",
+"name":"vscode-python",
+"sha256":"fcc59319a51fba904ebbafb16582fdf279f266c9e99e92f6540973a4b4604d64",
+"size":13581697,
+"timestamp":1616671944027,
+"version":"2021.2.582707922"
+},
 "vscode-python-2021.2.582707922-py37h7c5df11_2.tar.bz2":{
 "build":"py37h7c5df11_2",
 "build_number":2,
@@ -108285,6 +108399,25 @@
 "sha256":"615ebef39dd2842f3f2bdd5ef6f630e231bf29cd8875fa5d2ca178ae1f3e044b",
 "size":13548774,
 "timestamp":1615915629736,
+"version":"2021.2.582707922"
+},
+"vscode-python-2021.2.582707922-py39h7f19da4_4.tar.bz2":{
+"build":"py39h7f19da4_4",
+"build_number":4,
+"depends":[
+"code-server >=3.9",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"nodejs >=12.19.0,<13.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"vscode-jupyter"
+],
+"license":"MIT",
+"name":"vscode-python",
+"sha256":"4eecec7a67436a6fd4a8ab448075c4a9a67fa893ffb3a10db31e1234188003fb",
+"size":13480239,
+"timestamp":1616671938888,
 "version":"2021.2.582707922"
 },
 "waf-2.0.8-py36h269c3a8_1005.tar.bz2":{
