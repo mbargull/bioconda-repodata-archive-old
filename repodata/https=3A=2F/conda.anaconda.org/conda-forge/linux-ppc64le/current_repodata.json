@@ -24215,6 +24215,20 @@
 "timestamp":1611858309696,
 "version":"2.2.10"
 },
+"expat-2.3.0-h3b9df90_0.tar.bz2":{
+"build":"h3b9df90_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"expat",
+"sha256":"5d3467eeb28bc3eb8b7d2535ea562cddfe8e676ab84334817900faaadc9b1076",
+"size":164233,
+"timestamp":1616693848999,
+"version":"2.3.0"
+},
 "fabio-0.11.0-py36h719e50f_1.tar.bz2":{
 "build":"py36h719e50f_1",
 "build_number":1,
@@ -42879,7 +42893,7 @@
 "timestamp":1607549925721,
 "version":"21.2.1"
 },
-"keyring-23.0.0-py36h270354c_0.tar.bz2":{
+"keyring-23.0.1-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -42891,12 +42905,30 @@
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"54c3ea40bdbe463bc2d063ef4e65d3f180a67fabac2d3693c6c2649fd676c3e4",
-"size":49393,
-"timestamp":1615918609949,
-"version":"23.0.0"
+"sha256":"47d6fa0f318d31620d214c80d5f4032c34a2f20a8818150a150baf350c6746d2",
+"size":49718,
+"timestamp":1616689405715,
+"version":"23.0.1"
 },
-"keyring-23.0.0-py37h35e4cab_0.tar.bz2":{
+"keyring-23.0.1-py36he7cccf2_0.tar.bz2":{
+"build":"py36he7cccf2_0",
+"build_number":0,
+"depends":[
+"importlib_metadata >=3.6",
+"jeepney >=0.4.2",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"secretstorage >=3.2"
+],
+"license":"MIT",
+"name":"keyring",
+"sha256":"43f65e2953a2054fe6fdd7eff6ed2735beeb7208eed8a0afc4b4ef14cc83be9a",
+"size":49970,
+"timestamp":1616689380188,
+"version":"23.0.1"
+},
+"keyring-23.0.1-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -42908,12 +42940,12 @@
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"6f6fc281d2028174874e7258ee92e78a3d2aa2eddc45cfc7b0542ec20941749c",
-"size":49347,
-"timestamp":1615918677534,
-"version":"23.0.0"
+"sha256":"ee827c9d0a46a97ca7f30ea0caf0ac762810b725f984aeb9028858a084647e3f",
+"size":49684,
+"timestamp":1616690146080,
+"version":"23.0.1"
 },
-"keyring-23.0.0-py37hadc05a3_0.tar.bz2":{
+"keyring-23.0.1-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
@@ -42926,12 +42958,12 @@
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"ce14c6eff4e2c4d075bc43eecf13b5760d14fa5ea2fd230dc062c2e6f8474fa7",
-"size":49647,
-"timestamp":1615918612239,
-"version":"23.0.0"
+"sha256":"f09d709fa3a2aad6adce260306c87f2df808957f730ee847771b08e3d295096f",
+"size":49980,
+"timestamp":1616689424428,
+"version":"23.0.1"
 },
-"keyring-23.0.0-py38hf8b3453_0.tar.bz2":{
+"keyring-23.0.1-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -42943,12 +42975,12 @@
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"c4b01999efaeba127866acec66c59ef9790759e2c9f6d2114703cf5e6e1b441c",
-"size":49526,
-"timestamp":1615918959948,
-"version":"23.0.0"
+"sha256":"3e28e3fa8805a1291475d1bccd516491e12b88d6da1088f61506ec83dc4bf998",
+"size":49879,
+"timestamp":1616689382184,
+"version":"23.0.1"
 },
-"keyring-23.0.0-py39hc1b9086_0.tar.bz2":{
+"keyring-23.0.1-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -42960,10 +42992,10 @@
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"5093e23d7eb95fe98e915fb156320e5a52144b8434f3633693aee12d760138c5",
-"size":49629,
-"timestamp":1615918675461,
-"version":"23.0.0"
+"sha256":"bec111cc4a00ffacd429b3a7a3995085e766fbdb719e5251df60ea6ca4d2f16b",
+"size":50002,
+"timestamp":1616690143032,
+"version":"23.0.1"
 },
 "kiwisolver-1.3.1-py36h004869e_1.tar.bz2":{
 "build":"py36h004869e_1",
@@ -49497,7 +49529,7 @@
 "timestamp":1612628811943,
 "version":"4.5.1"
 },
-"libopenssl-static-1.1.1j-h4e0d66e_0.tar.bz2":{
+"libopenssl-static-1.1.1k-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
 "build_number":0,
 "depends":[
@@ -49505,10 +49537,10 @@
 ],
 "license":"OpenSSL",
 "name":"libopenssl-static",
-"sha256":"80195958d3714c1498f2997f75d027196aeb952d330b5d4922029db868816fc5",
-"size":2084480,
-"timestamp":1613504370095,
-"version":"1.1.1j"
+"sha256":"2514c97b8973e43d540e3221f06122a31c0a64bcd70af7b0adb916e893738a7d",
+"size":2087246,
+"timestamp":1616692315150,
+"version":"1.1.1k"
 },
 "libopus-1.3.1-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
@@ -65548,7 +65580,7 @@
 "timestamp":1614765930082,
 "version":"8.5p1"
 },
-"openssl-1.1.1j-h4e0d66e_0.tar.bz2":{
+"openssl-1.1.1k-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
 "build_number":0,
 "depends":[
@@ -65557,10 +65589,10 @@
 ],
 "license":"OpenSSL",
 "name":"openssl",
-"sha256":"1ca4bce0b5af6fe9d6a61cba19f8b693fd0a77bdf1ff4a63a432ed2a4af0aef7",
-"size":2302715,
-"timestamp":1613504401904,
-"version":"1.1.1j"
+"sha256":"a7a71527a3d3a2613bf76155dd905373797116e5fdb30d6b851602544ec6e593",
+"size":2308189,
+"timestamp":1616692345694,
+"version":"1.1.1k"
 },
 "orc-1.6.7-h80e5910_1.tar.bz2":{
 "build":"h80e5910_1",

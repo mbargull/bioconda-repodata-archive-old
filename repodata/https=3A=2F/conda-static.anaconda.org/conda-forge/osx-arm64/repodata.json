@@ -18778,6 +18778,19 @@
 "timestamp":1597597396218,
 "version":"2.2.9"
 },
+"expat-2.3.0-h9f76cd9_0.tar.bz2":{
+"build":"h9f76cd9_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"MIT",
+"name":"expat",
+"sha256":"f5aaad495191b09d0c7369b61a4f5463c229d62f6ad2b72f159e44450704d6a6",
+"size":136547,
+"timestamp":1616693031704,
+"version":"2.3.0"
+},
 "fastavro-1.2.3-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
 "build_number":0,
@@ -28060,6 +28073,36 @@
 "timestamp":1615921152667,
 "version":"23.0.0"
 },
+"keyring-23.0.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"importlib_metadata >=3.6",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"keyring",
+"sha256":"b4e7b0be6c99de1a7790a9451752560b809c7728f62587a3d95c9230f6c3a617",
+"size":50195,
+"timestamp":1616690966540,
+"version":"23.0.1"
+},
+"keyring-23.0.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"importlib_metadata >=3.6",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"keyring",
+"sha256":"49ff0605cbfa9e5283a7fa621bb63d56908dd6e60fad5fa44a699b3018e316e4",
+"size":50341,
+"timestamp":1616690055579,
+"version":"23.0.1"
+},
 "khronos-opencl-icd-loader-2020.06.16-h27ca646_1.tar.bz2":{
 "build":"h27ca646_1",
 "build_number":1,
@@ -32389,6 +32432,17 @@
 "timestamp":1613502752497,
 "version":"1.1.1j"
 },
+"libopenssl-static-1.1.1k-h27ca646_0.tar.bz2":{
+"build":"h27ca646_0",
+"build_number":0,
+"depends":[],
+"license":"OpenSSL",
+"name":"libopenssl-static",
+"sha256":"329f25b8a41efebe2fd6030aeab746a97163191166f6a39b390eaa39a1a32161",
+"size":1571328,
+"timestamp":1616692900778,
+"version":"1.1.1k"
+},
 "libopus-1.3.1-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -35297,6 +35351,36 @@
 "size":1352864,
 "timestamp":1616532610176,
 "version":"4.6.3"
+},
+"lz4-3.1.3-py38h54244f8_0.tar.bz2":{
+"build":"py38h54244f8_0",
+"build_number":0,
+"depends":[
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"lz4",
+"sha256":"972b2df4ebdd3b034f393e9aa4d4ea6a4cfc311a3dcfe33eecaba7241dbbdafc",
+"size":138824,
+"timestamp":1616693402432,
+"version":"3.1.3"
+},
+"lz4-3.1.3-py39h5ce705e_0.tar.bz2":{
+"build":"py39h5ce705e_0",
+"build_number":0,
+"depends":[
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"lz4",
+"sha256":"d5e14ece56ef6210e6cac1c0d2fa48a45f76ca6c400e034e60a89668fe9599c6",
+"size":138851,
+"timestamp":1616693264026,
+"version":"3.1.3"
 },
 "lz4-c-1.9.2-hc88da5d_2.tar.bz2":{
 "build":"hc88da5d_2",
@@ -41506,6 +41590,19 @@
 "size":1858428,
 "timestamp":1613502794686,
 "version":"1.1.1j"
+},
+"openssl-1.1.1k-h27ca646_0.tar.bz2":{
+"build":"h27ca646_0",
+"build_number":0,
+"depends":[
+"ca-certificates"
+],
+"license":"OpenSSL",
+"name":"openssl",
+"sha256":"471690da78fcea7613d890a33e8c342e8ff81df82f66a8e14ffa2174140b76f1",
+"size":1864785,
+"timestamp":1616692944077,
+"version":"1.1.1k"
 },
 "openstacksdk-0.52.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
