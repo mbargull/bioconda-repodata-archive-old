@@ -22022,6 +22022,36 @@
 "timestamp":1614498274592,
 "version":"1.52.0"
 },
+"googleapis-common-protos-1.53.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"protobuf >=3.12.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"googleapis-common-protos",
+"sha256":"08565506c48c425b4fb1caa05b086b8fcd06668acaa3ac9602616469ee1c756d",
+"size":130580,
+"timestamp":1616711061874,
+"version":"1.53.0"
+},
+"googleapis-common-protos-1.53.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"protobuf >=3.12.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"googleapis-common-protos",
+"sha256":"8af23b3615f7a54b1e6c8b4af5cba50414107821121bc9e64043959cf59f658c",
+"size":130066,
+"timestamp":1616711036559,
+"version":"1.53.0"
+},
 "googleapis-common-protos-grpc-1.52.0-h150bfb4_1.tar.bz2":{
 "build":"h150bfb4_1",
 "build_number":1,
@@ -22051,6 +22081,36 @@
 "size":9703,
 "timestamp":1614498304369,
 "version":"1.52.0"
+},
+"googleapis-common-protos-grpc-1.53.0-h150bfb4_0.tar.bz2":{
+"build":"h150bfb4_0",
+"build_number":0,
+"depends":[
+"googleapis-common-protos >=1.53,<1.54.0a0",
+"grpcio",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"googleapis-common-protos-grpc",
+"sha256":"f893b242cdf25dfc50445b2fda4dea13ad205d57ef806aa013b86d4872f48de3",
+"size":9745,
+"timestamp":1616711089621,
+"version":"1.53.0"
+},
+"googleapis-common-protos-grpc-1.53.0-hdf13c20_0.tar.bz2":{
+"build":"hdf13c20_0",
+"build_number":0,
+"depends":[
+"googleapis-common-protos >=1.53,<1.54.0a0",
+"grpcio",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"googleapis-common-protos-grpc",
+"sha256":"7a72f72268e2c0ba9f7cf9392de0da380f19db1c568f72292fb75303af73aa86",
+"size":9750,
+"timestamp":1616711059942,
+"version":"1.53.0"
 },
 "googleapis-cpp-0.10.0-h0b51dfa_10.tar.bz2":{
 "build":"h0b51dfa_10",
@@ -33363,6 +33423,24 @@
 "timestamp":1612351789227,
 "version":"2.50.3"
 },
+"librsvg-2.50.3-h4e05811_2.tar.bz2":{
+"build":"h4e05811_2",
+"build_number":2,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"gdk-pixbuf >=2.42.4,<3.0a0",
+"gettext >=0.19.8.1,<1.0a0",
+"libglib >=2.68.0,<3.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"pango >=1.48.3,<1.49.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"librsvg",
+"sha256":"328a8807ab3d447e5b2348280bf8187e94ba21bfba0cbebd97f5d0e4d9a6fe10",
+"size":4961028,
+"timestamp":1616707522867,
+"version":"2.50.3"
+},
 "librttopo-1.1.0-hf7bfa32_6.tar.bz2":{
 "build":"hf7bfa32_6",
 "build_number":6,
@@ -39863,6 +39941,54 @@
 "size":3821468,
 "timestamp":1616028846021,
 "version":"0.53.0"
+},
+"numba-0.53.1-py38ha636945_0.tar.bz2":{
+"build":"py38ha636945_0",
+"build_number":0,
+"constrains":[
+"tbb  >=2019.5,<=2020.3",
+"cudatoolkit >=9.0",
+"scipy >=1.0"
+],
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"bef54f3e9993745e6a855bfcf2d6d72fdeaa7bdf420d9c0d476d720320060e96",
+"size":3815108,
+"timestamp":1616708157076,
+"version":"0.53.1"
+},
+"numba-0.53.1-py39ha9a9b91_0.tar.bz2":{
+"build":"py39ha9a9b91_0",
+"build_number":0,
+"constrains":[
+"tbb  >=2019.5,<=2020.3",
+"scipy >=1.0",
+"cudatoolkit >=9.0"
+],
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"1e28127c242722547318354b7f7c77594e0654b61e741db1863b7f45492a4f81",
+"size":3814132,
+"timestamp":1616708180472,
+"version":"0.53.1"
 },
 "numexpr-2.7.2-py38h9b9bf68_0.tar.bz2":{
 "build":"py38h9b9bf68_0",
