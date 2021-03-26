@@ -58963,6 +58963,54 @@
 "timestamp":1616709697592,
 "version":"0.53.1"
 },
+"numba-0.53.1-py37h8fcff9c_0.tar.bz2":{
+"build":"py37h8fcff9c_0",
+"build_number":0,
+"constrains":[
+"cudatoolkit >=9.0",
+"scipy >=1.0",
+"tbb  >=2019.5,<=2020.3"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"9feeac1f7b236685e54b8084acf6731ab07e932cfc2b62379ae0f85105f00537",
+"size":3849436,
+"timestamp":1616710744804,
+"version":"0.53.1"
+},
+"numba-0.53.1-py38h36652ae_0.tar.bz2":{
+"build":"py38h36652ae_0",
+"build_number":0,
+"constrains":[
+"tbb  >=2019.5,<=2020.3",
+"cudatoolkit >=9.0",
+"scipy >=1.0"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"f19945ec45b5be20c047bd0b480c9a5e569bb37acd4cbbd226574d740bcf3a63",
+"size":3855908,
+"timestamp":1616711195750,
+"version":"0.53.1"
+},
 "numba-0.53.1-py39h468c7cd_0.tar.bz2":{
 "build":"py39h468c7cd_0",
 "build_number":0,
@@ -99738,7 +99786,7 @@
 "timestamp":1615468173390,
 "version":"3.0.5"
 },
-"spdlog-1.8.3-hd62202e_0.tar.bz2":{
+"spdlog-1.8.5-hd62202e_0.tar.bz2":{
 "build":"hd62202e_0",
 "build_number":0,
 "depends":[
@@ -99747,10 +99795,10 @@
 ],
 "license":"MIT",
 "name":"spdlog",
-"sha256":"a926cca64cf9335cd46994e00eb308f4abdf2702b87d7680209a1833057ed95b",
-"size":360194,
-"timestamp":1616677143406,
-"version":"1.8.3"
+"sha256":"1a6644998e6d2822bb32075434a754d7033309e43107f7ee3eef1a228a0f3422",
+"size":360186,
+"timestamp":1616712138542,
+"version":"1.8.5"
 },
 "spyder-kernels-1.10.2-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
