@@ -17235,6 +17235,21 @@
 "timestamp":1609539272814,
 "version":"6.2.32"
 },
+"dbus-1.13.6-h7e028eb_2.tar.bz2":{
+"build":"h7e028eb_2",
+"build_number":2,
+"depends":[
+"expat >=2.3.0,<2.4.0a0",
+"glib",
+"libglib >=2.68.0,<3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"dbus",
+"requires":[],
+"size":573011,
+"timestamp":1616778969874,
+"version":"1.13.6"
+},
 "dbus-1.13.6-ha7043be_1.tar.bz2":{
 "build":"ha7043be_1",
 "build_number":1,
@@ -21216,6 +21231,27 @@
 "size":13012800,
 "timestamp":1614617291655,
 "version":"2.30.1"
+},
+"git-2.30.2-pl5320hef5408d_1.tar.bz2":{
+"build":"pl5320hef5408d_1",
+"build_number":1,
+"depends":[
+"curl >=7.75.0,<8.0a0",
+"expat >=2.3.0,<2.4.0a0",
+"gettext",
+"libiconv >=1.16,<1.17.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"pcre >=8.44,<9.0a0",
+"perl 5.*",
+"tk >=8.6.10,<8.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later and LGPL-2.1-or-later",
+"name":"git",
+"requires":[],
+"size":13001091,
+"timestamp":1616780591431,
+"version":"2.30.2"
 },
 "git-2.30.2-pl5320hf5a5368_0.tar.bz2":{
 "build":"pl5320hf5a5368_0",
@@ -30792,6 +30828,29 @@
 "timestamp":1605515109719,
 "version":"2.2.5"
 },
+"libgd-2.3.0-h4ce9b39_2.tar.bz2":{
+"build":"h4ce9b39_2",
+"build_number":2,
+"depends":[
+"expat >=2.3.0,<2.4.0a0",
+"fontconfig >=2.13.1,<3.0a0",
+"freetype >=2.10.4,<3.0a0",
+"icu >=68.1,<69.0a0",
+"jpeg >=9d,<10a",
+"libiconv >=1.16,<1.17.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libwebp",
+"libwebp-base >=1.1.0,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GD",
+"name":"libgd",
+"requires":[],
+"size":260370,
+"timestamp":1616780514856,
+"version":"2.3.0"
+},
 "libgd-2.3.0-h60cb510_0.tar.bz2":{
 "build":"h60cb510_0",
 "build_number":0,
@@ -33959,6 +34018,20 @@
 "timestamp":1615758327546,
 "version":"0.7.17"
 },
+"libsolv-0.7.18-habe5f53_0.tar.bz2":{
+"build":"habe5f53_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv",
+"requires":[],
+"size":385381,
+"timestamp":1616780167248,
+"version":"0.7.18"
+},
 "libsolv-static-0.7.14-h74e0e61_5.tar.bz2":{
 "build":"h74e0e61_5",
 "build_number":5,
@@ -34033,6 +34106,21 @@
 "size":317291,
 "timestamp":1615758347561,
 "version":"0.7.17"
+},
+"libsolv-static-0.7.18-habe5f53_0.tar.bz2":{
+"build":"habe5f53_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libsolv 0.7.18 habe5f53_0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv-static",
+"requires":[],
+"size":316421,
+"timestamp":1616780187264,
+"version":"0.7.18"
 },
 "libspatialindex-1.9.3-h9f76cd9_3.tar.bz2":{
 "build":"h9f76cd9_3",

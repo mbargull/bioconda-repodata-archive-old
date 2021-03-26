@@ -16401,6 +16401,20 @@
 "timestamp":1615284201794,
 "version":"4.0.3"
 },
+"cross-r-base-4.0.3-h8af1aa0_8.tar.bz2":{
+"build":"h8af1aa0_8",
+"build_number":8,
+"depends":[
+"r-base 4.0.3 h03bfd82_8",
+"rsync"
+],
+"license":"GPL-2.0-or-later",
+"name":"cross-r-base",
+"sha256":"56027bc8faff88a227fe058afef6104dc994a07acbad93e24d77d284906f9f2d",
+"size":33310,
+"timestamp":1616774725320,
+"version":"4.0.3"
+},
 "crosstool-ng-1.24.0.132_gc74611b1-he28a2e2_0.tar.bz2":{
 "build":"he28a2e2_0",
 "build_number":0,
@@ -81550,6 +81564,54 @@
 "timestamp":1587480997958,
 "version":"3.6.3"
 },
+"r-base-3.6.3-h6cb4ecd_7.tar.bz2":{
+"build":"h6cb4ecd_7",
+"build_number":7,
+"depends":[
+"_r-mutex 1.* anacondar_1",
+"bwidget",
+"bzip2 >=1.0.8,<2.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"curl",
+"freetype >=2.10.4,<3.0a0",
+"gcc_linux-aarch64 >=9",
+"gfortran_linux-aarch64 9.*",
+"gsl >=2.6,<2.7.0a0",
+"gxx_linux-aarch64 >=9",
+"icu >=68.1,<69.0a0",
+"jpeg >=9d,<10a",
+"krb5 >=1.17.1,<1.18.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcurl >=7.75.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libglib >=2.68.0,<3.0a0",
+"liblapack >=3.8.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"make",
+"ncurses >=6.2,<6.3.0a0",
+"pango >=1.48.3,<1.49.0a0",
+"pcre >=8.44,<9.0a0",
+"readline >=8.0,<9.0a0",
+"sed",
+"tk >=8.6.10,<8.7.0a0",
+"tktable",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-base",
+"sha256":"18f1eff876f227ab24e5e268f315d058045da7aaee54c7ea97a4e78e045aa5ca",
+"size":24636685,
+"timestamp":1616774612665,
+"version":"3.6.3"
+},
 "r-base-3.6.3-h9acab97_4.tar.bz2":{
 "build":"h9acab97_4",
 "build_number":4,
@@ -81831,6 +81893,55 @@
 "size":24623630,
 "timestamp":1610488053703,
 "version":"3.6.3"
+},
+"r-base-4.0.3-h03bfd82_8.tar.bz2":{
+"build":"h03bfd82_8",
+"build_number":8,
+"depends":[
+"_r-mutex 1.* anacondar_1",
+"bwidget",
+"bzip2 >=1.0.8,<2.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"curl",
+"freetype >=2.10.4,<3.0a0",
+"gcc_linux-aarch64 >=9",
+"gfortran_linux-aarch64 9.*",
+"gsl >=2.6,<2.7.0a0",
+"gxx_linux-aarch64 >=9",
+"icu >=68.1,<69.0a0",
+"jpeg >=9d,<10a",
+"krb5 >=1.17.1,<1.18.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcurl >=7.75.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libglib >=2.68.0,<3.0a0",
+"liblapack >=3.8.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"make",
+"ncurses >=6.2,<6.3.0a0",
+"pango >=1.48.3,<1.49.0a0",
+"pcre2 >=10.36,<10.37.0a0",
+"readline >=8.0,<9.0a0",
+"sed",
+"tk >=8.6.10,<8.7.0a0",
+"tktable",
+"xorg-libxt",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-base",
+"sha256":"191fe7906a70e5eafff43724d77e93c78fe24b741c55d8f55339c70b689a30ef",
+"size":24955081,
+"timestamp":1616774705730,
+"version":"4.0.3"
 },
 "r-base-4.0.3-h098fcec_4.tar.bz2":{
 "build":"h098fcec_4",
@@ -93954,20 +94065,20 @@
 "timestamp":1609443821382,
 "version":"1.49.0"
 },
-"rust-1.50.0-hce1f27d_0.tar.bz2":{
+"rust-1.51.0-hce1f27d_0.tar.bz2":{
 "build":"hce1f27d_0",
 "build_number":0,
 "depends":[
 "gcc_impl_linux-aarch64",
 "libgcc-ng >=9.3.0",
-"rust-std-aarch64-unknown-linux-gnu 1.50.0 ha15b78c_0"
+"rust-std-aarch64-unknown-linux-gnu 1.51.0 ha15b78c_0"
 ],
 "license":"MIT",
 "name":"rust",
-"sha256":"edb2c10aec8ed29728742585187400ac4826bc31f1ad36888f3da1e2d9cec22e",
-"size":256150068,
-"timestamp":1614371096879,
-"version":"1.50.0"
+"sha256":"5249445e89e14c4f7ff4e168cc59152188aca2f84be2dfe7057a7af06952d760",
+"size":259021460,
+"timestamp":1616771550381,
+"version":"1.51.0"
 },
 "rust_linux-aarch64-1.49.0-hc0208dc_0.tar.bz2":{
 "build":"hc0208dc_0",
