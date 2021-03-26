@@ -30525,6 +30525,21 @@
 "timestamp":1612821083827,
 "version":"3.20.6"
 },
+"libdap4-3.20.6-h8510809_2.tar.bz2":{
+"build":"h8510809_2",
+"build_number":2,
+"depends":[
+"curl >=7.75.0,<8.0a0",
+"libcxx >=11.1.0",
+"libxml2 >=2.9.10,<2.10.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"libdap4",
+"requires":[],
+"size":2235866,
+"timestamp":1616781538186,
+"version":"3.20.6"
+},
 "libdb-6.2.32-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
@@ -31912,6 +31927,22 @@
 "size":703430,
 "timestamp":1615488761458,
 "version":"2.0.5"
+},
+"libkml-1.3.0-h0e10842_1013.tar.bz2":{
+"build":"h0e10842_1013",
+"build_number":1013,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"expat >=2.3.0,<2.4.0a0",
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"libkml",
+"requires":[],
+"size":475746,
+"timestamp":1616780735432,
+"version":"1.3.0"
 },
 "libkml-1.3.0-h28e2201_1012.tar.bz2":{
 "build":"h28e2201_1012",
@@ -36630,6 +36661,36 @@
 "timestamp":1611859101845,
 "version":"3.3.4"
 },
+"matplotlib-3.4.0-py38h150bfb4_0.tar.bz2":{
+"build":"py38h150bfb4_0",
+"build_number":0,
+"depends":[
+"matplotlib-base >=3.4.0,<3.4.1.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib",
+"requires":[],
+"size":6438,
+"timestamp":1616782672962,
+"version":"3.4.0"
+},
+"matplotlib-3.4.0-py39hdf13c20_0.tar.bz2":{
+"build":"py39hdf13c20_0",
+"build_number":0,
+"depends":[
+"matplotlib-base >=3.4.0,<3.4.1.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib",
+"requires":[],
+"size":6439,
+"timestamp":1616782855499,
+"version":"3.4.0"
+},
 "matplotlib-base-3.3.2-py38ha029820_1.tar.bz2":{
 "build":"py38ha029820_1",
 "build_number":1,
@@ -36797,6 +36858,62 @@
 "size":7088589,
 "timestamp":1611859075973,
 "version":"3.3.4"
+},
+"matplotlib-base-3.4.0-py38ha029820_0.tar.bz2":{
+"build":"py38ha029820_0",
+"build_number":0,
+"constrains":[
+"__osx >=11.0"
+],
+"depends":[
+"certifi >=2020.06.20",
+"cycler >=0.10",
+"freetype >=2.10.4,<3.0a0",
+"kiwisolver >=1.0.1",
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"pillow >=6.2.0",
+"pyparsing >=2.2.1",
+"python >=3.8,<3.9.0a0",
+"python-dateutil >=2.1",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"tornado"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib-base",
+"requires":[],
+"size":7531332,
+"timestamp":1616782641148,
+"version":"3.4.0"
+},
+"matplotlib-base-3.4.0-py39h3e8bbd8_0.tar.bz2":{
+"build":"py39h3e8bbd8_0",
+"build_number":0,
+"constrains":[
+"__osx >=11.0"
+],
+"depends":[
+"certifi >=2020.06.20",
+"cycler >=0.10",
+"freetype >=2.10.4,<3.0a0",
+"kiwisolver >=1.0.1",
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"pillow >=6.2.0",
+"pyparsing >=2.2.1",
+"python >=3.9,<3.10.0a0",
+"python-dateutil >=2.1",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"tornado"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib-base",
+"requires":[],
+"size":7534691,
+"timestamp":1616782827680,
+"version":"3.4.0"
 },
 "maturin-0.9.0-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
@@ -60159,6 +60276,36 @@
 "size":2317069,
 "timestamp":1616210662067,
 "version":"1.4.2"
+},
+"sqlalchemy-1.4.3-py38h30f7421_0.tar.bz2":{
+"build":"py38h30f7421_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"requires":[],
+"size":2335635,
+"timestamp":1616781785509,
+"version":"1.4.3"
+},
+"sqlalchemy-1.4.3-py39h46acfd9_0.tar.bz2":{
+"build":"py39h46acfd9_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"requires":[],
+"size":2326025,
+"timestamp":1616781843099,
+"version":"1.4.3"
 },
 "sqlite-3.32.3-h75b4277_1.tar.bz2":{
 "build":"h75b4277_1",
