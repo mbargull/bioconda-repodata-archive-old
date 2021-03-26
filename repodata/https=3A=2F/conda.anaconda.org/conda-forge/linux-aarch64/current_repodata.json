@@ -6321,6 +6321,26 @@
 "timestamp":1616790448948,
 "version":"1.19.38"
 },
+"awscli-1.19.38-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.38",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.3.0,<0.4.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"9da6cbc5a6db303759f5b58c09cd7aa22a74bd7296a2c4f2070c28ea268d504c",
+"size":1926479,
+"timestamp":1616791181345,
+"version":"1.19.38"
+},
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
 "build_number":3,
@@ -50928,6 +50948,29 @@
 "sha256":"4b0ca0c228534a7f9d903036bc01a310f1595416dcc679eb9a6d639984088973",
 "size":718304,
 "timestamp":1616791019298,
+"version":"0.9.1"
+},
+"mamba-0.9.1-py38h9d6459c_0.tar.bz2":{
+"build":"py38h9d6459c_0",
+"build_number":0,
+"depends":[
+"conda >=4.8",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.75.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libiconv >=1.16,<1.17.0a0",
+"libsolv >=0.7.18,<0.8.0a0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"reproc-cpp >=14.2,<15.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mamba",
+"sha256":"6e0c1e590ef512744dbb39570d4d2394da541404bef7441ef819f978f68fa196",
+"size":709701,
+"timestamp":1616791835924,
 "version":"0.9.1"
 },
 "mamba-0.9.1-py39he574936_0.tar.bz2":{
