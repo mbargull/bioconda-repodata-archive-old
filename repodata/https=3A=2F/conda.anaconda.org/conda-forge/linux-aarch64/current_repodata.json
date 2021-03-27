@@ -26062,6 +26062,25 @@
 "timestamp":1616795933006,
 "version":"3.2.2"
 },
+"gdal-3.2.2-py36h88b6f4b_1.tar.bz2":{
+"build":"py36h88b6f4b_1",
+"build_number":1,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libgcc-ng >=9.3.0",
+"libgdal 3.2.2 hfeda641_1",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"MIT",
+"name":"gdal",
+"sha256":"5c38e7cb29be4c9cbda262cd3518c12ebdff136def454bdf093063c7c188e007",
+"size":1351164,
+"timestamp":1616831215225,
+"version":"3.2.2"
+},
 "gdal-3.2.2-py37hd373b50_0.tar.bz2":{
 "build":"py37hd373b50_0",
 "build_number":0,
@@ -26079,6 +26098,25 @@
 "sha256":"1a77e77a45c4aed80e85034101179abb6c5973c290557abff018c8ddfbf37757",
 "size":1499170,
 "timestamp":1616794859583,
+"version":"3.2.2"
+},
+"gdal-3.2.2-py37hd373b50_1.tar.bz2":{
+"build":"py37hd373b50_1",
+"build_number":1,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libgcc-ng >=9.3.0",
+"libgdal 3.2.2 hfeda641_1",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"MIT",
+"name":"gdal",
+"sha256":"86c2430f1bea0a4f6d83194afc312af305abf27d06a099860adafaa7d86f62b0",
+"size":1350100,
+"timestamp":1616830762980,
 "version":"3.2.2"
 },
 "gdal-3.2.2-py38hc6a7b3a_0.tar.bz2":{
@@ -26100,6 +26138,25 @@
 "timestamp":1616795397238,
 "version":"3.2.2"
 },
+"gdal-3.2.2-py38hc6a7b3a_1.tar.bz2":{
+"build":"py38hc6a7b3a_1",
+"build_number":1,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libgcc-ng >=9.3.0",
+"libgdal 3.2.2 hfeda641_1",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"gdal",
+"sha256":"638122738b42a1664408113db582152d583c147a545a2a58532eac8473bf1795",
+"size":1360042,
+"timestamp":1616830311658,
+"version":"3.2.2"
+},
 "gdal-3.2.2-py39h84809f1_0.tar.bz2":{
 "build":"py39h84809f1_0",
 "build_number":0,
@@ -26117,6 +26174,25 @@
 "sha256":"5986445d94c32bb902a750e0cc120c8d3b9f5012de10df0831850ee7e3a5d8d1",
 "size":1513954,
 "timestamp":1616796471416,
+"version":"3.2.2"
+},
+"gdal-3.2.2-py39h84809f1_1.tar.bz2":{
+"build":"py39h84809f1_1",
+"build_number":1,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libgcc-ng >=9.3.0",
+"libgdal 3.2.2 hfeda641_1",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"gdal",
+"sha256":"a56db5ae493e4b0731daf8fb28b6b0ba06dd90c04cc47c9277f6d1b81ae109b1",
+"size":1358784,
+"timestamp":1616829852300,
 "version":"3.2.2"
 },
 "gdbm-1.18-h0a1914f_1.tar.bz2":{
@@ -29836,35 +29912,9 @@
 "timestamp":1616622322438,
 "version":"2.24.33"
 },
-"gtk3-3.24.27-h2eff803_0.tar.bz2":{
-"build":"h2eff803_0",
+"gtk3-3.24.28-he71cf37_0.tar.bz2":{
+"build":"he71cf37_0",
 "build_number":0,
-"depends":[
-"at-spi2-atk >=2.38.0,<3.0a0",
-"atk-1.0 >=2.36.0",
-"cairo >=1.16.0,<1.17.0a0",
-"epoxy >=1.5.5,<1.6.0a0",
-"fontconfig >=2.13.1,<3.0a0",
-"freetype >=2.10.4,<3.0a0",
-"fribidi >=1.0.10,<2.0a0",
-"gdk-pixbuf >=2.42.2,<3.0a0",
-"glib-tools",
-"harfbuzz >=2.7.4,<3.0a0",
-"hicolor-icon-theme",
-"libgcc-ng >=9.3.0",
-"libglib >=2.66.7,<3.0a0",
-"pango >=1.42.4,<1.43.0a0"
-],
-"license":"LGPL-2.0-or-later",
-"name":"gtk3",
-"sha256":"9ba7274445c12235235b609d4a7b2412a245cbe608f7fcb6ef6952fcc405124c",
-"size":10166945,
-"timestamp":1615599613141,
-"version":"3.24.27"
-},
-"gtk3-3.24.27-he71cf37_1.tar.bz2":{
-"build":"he71cf37_1",
-"build_number":1,
 "depends":[
 "at-spi2-atk >=2.38.0,<3.0a0",
 "atk-1.0 >=2.36.0",
@@ -29884,10 +29934,10 @@
 ],
 "license":"LGPL-2.0-or-later",
 "name":"gtk3",
-"sha256":"b672d124d1e72414cce345f7e8f66255bc4401c865c6ffbe17cecc02648dd9d6",
-"size":10156359,
-"timestamp":1616607242286,
-"version":"3.24.27"
+"sha256":"bfcaa9bc65de177d6f587c90d2c207d25d0552bd182bc2dd52cf2edec62f4228",
+"size":10161052,
+"timestamp":1616831323368,
+"version":"3.24.28"
 },
 "gts-0.7.6-hb6842a0_2.tar.bz2":{
 "build":"hb6842a0_2",
@@ -44194,6 +44244,51 @@
 "sha256":"01ef6bb37c221198f8bda2e3f16711cde1e17253cebca9d605108e4ce9459948",
 "size":12470093,
 "timestamp":1616794241370,
+"version":"3.2.2"
+},
+"libgdal-3.2.2-hfeda641_1.tar.bz2":{
+"build":"hfeda641_1",
+"build_number":1,
+"depends":[
+"cfitsio >=3.470,<3.471.0a0",
+"expat >=2.3.0,<2.4.0a0",
+"freexl >=1.0.6,<2.0a0",
+"geos >=3.9.1,<3.9.2.0a0",
+"geotiff >=1.6.0,<1.6.1.0a0",
+"giflib >=5.2.1,<5.3.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"icu >=68.1,<69.0a0",
+"jpeg >=9d,<10a",
+"json-c >=0.15,<0.16.0a0",
+"kealib >=1.4.14,<1.5.0a0",
+"libgcc-ng >=9.3.0",
+"libkml >=1.3.0,<1.4.0a0",
+"libnetcdf >=4.7.4,<4.7.5.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libpq >=13.1,<14.0a0",
+"libspatialite >=5.0.1,<5.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"libuuid >=2.32.1,<3.0a0",
+"libwebp-base",
+"libxml2 >=2.9.10,<2.10.0a0",
+"openjpeg >=2.4.0,<2.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"pcre >=8.44,<9.0a0",
+"poppler >=21.3.0,<21.4.0a0",
+"postgresql",
+"proj >=8.0.0,<8.0.1.0a0",
+"sqlite >=3.35.3,<4.0a0",
+"tiledb >=2.2.7,<2.3.0a0",
+"xerces-c >=3.2.3,<3.3.0a0",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"name":"libgdal",
+"sha256":"cfe63d58be89e99fdd56749ffa069e41a2874afb0f8aca5e188f76ff7f647538",
+"size":12385094,
+"timestamp":1616829309059,
 "version":"3.2.2"
 },
 "libgdsii-0.21-hc9558a2_3.tar.bz2":{
