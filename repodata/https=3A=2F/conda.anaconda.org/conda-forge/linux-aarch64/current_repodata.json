@@ -11166,6 +11166,23 @@
 "timestamp":1616597270398,
 "version":"3.09"
 },
+"bullet-cpp-3.09-h7b4a2eb_1.tar.bz2":{
+"build":"h7b4a2eb_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python_abi 3.9.* *_cp39",
+"xorg-libx11",
+"xorg-libxext"
+],
+"license":"Zlib",
+"name":"bullet-cpp",
+"sha256":"7b7086cc076ba2dd7a53d2899e887e7304f66c2f2aebb05e8120fa8aa30379a5",
+"size":43881904,
+"timestamp":1616866510289,
+"version":"3.09"
+},
 "bullet-cpp-3.09-h9ee2552_0.tar.bz2":{
 "build":"h9ee2552_0",
 "build_number":0,
@@ -11183,6 +11200,23 @@
 "timestamp":1616597257538,
 "version":"3.09"
 },
+"bullet-cpp-3.09-ha200abb_1.tar.bz2":{
+"build":"ha200abb_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python_abi 3.7.* *_cp37m",
+"xorg-libx11",
+"xorg-libxext"
+],
+"license":"Zlib",
+"name":"bullet-cpp",
+"sha256":"1d87dc6b22cef7b6bdbaea557328ac907a4c260f154ea73b04517753f21e45be",
+"size":43935577,
+"timestamp":1616865625791,
+"version":"3.09"
+},
 "bullet-cpp-3.09-ha63b481_0.tar.bz2":{
 "build":"ha63b481_0",
 "build_number":0,
@@ -11198,6 +11232,23 @@
 "sha256":"04ffe7d9b160f5e30a610c7e36672335f5f9738533ef61ddb5bfc6448f5824c9",
 "size":43695525,
 "timestamp":1616598065998,
+"version":"3.09"
+},
+"bullet-cpp-3.09-hf2e80fd_1.tar.bz2":{
+"build":"hf2e80fd_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python_abi 3.8.* *_cp38",
+"xorg-libx11",
+"xorg-libxext"
+],
+"license":"Zlib",
+"name":"bullet-cpp",
+"sha256":"d10e5ce9a7e3a8b40106aa6da703881e0a08b824b6adb67d902beefed5260230",
+"size":43894413,
+"timestamp":1616866026815,
 "version":"3.09"
 },
 "bwidget-1.9.14-0.tar.bz2":{
@@ -71128,6 +71179,24 @@
 "timestamp":1616597469609,
 "version":"3.09"
 },
+"pybullet-3.09-py37ha200abb_1.tar.bz2":{
+"build":"py37ha200abb_1",
+"build_number":1,
+"depends":[
+"bullet-cpp 3.09 ha200abb_1",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"Zlib",
+"name":"pybullet",
+"sha256":"189b566538c25d7c403992ae3602f5cd3aac9509aacf5b2edb4450f31e95b792",
+"size":65671585,
+"timestamp":1616865833834,
+"version":"3.09"
+},
 "pybullet-3.09-py38h36e2a69_0.tar.bz2":{
 "build":"py38h36e2a69_0",
 "build_number":0,
@@ -71146,6 +71215,24 @@
 "timestamp":1616598773567,
 "version":"3.09"
 },
+"pybullet-3.09-py38hf2e80fd_1.tar.bz2":{
+"build":"py38hf2e80fd_1",
+"build_number":1,
+"depends":[
+"bullet-cpp 3.09 hf2e80fd_1",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Zlib",
+"name":"pybullet",
+"sha256":"e4727f179593fe96080eda87b23a6756d3616d8048af98658ad7256dda5acc1e",
+"size":65644767,
+"timestamp":1616866235395,
+"version":"3.09"
+},
 "pybullet-3.09-py39h7b4a2eb_0.tar.bz2":{
 "build":"py39h7b4a2eb_0",
 "build_number":0,
@@ -71162,6 +71249,24 @@
 "sha256":"839019df3fb19bd7ce5b9a885df302b613ac099f25d7e36935edcb4aabd06c37",
 "size":65591587,
 "timestamp":1616597485173,
+"version":"3.09"
+},
+"pybullet-3.09-py39h7b4a2eb_1.tar.bz2":{
+"build":"py39h7b4a2eb_1",
+"build_number":1,
+"depends":[
+"bullet-cpp 3.09 h7b4a2eb_1",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Zlib",
+"name":"pybullet",
+"sha256":"06451cc0e323558bff11d39fb576c6521332e7caa5399af483cdd9b5ce49d4f2",
+"size":65598639,
+"timestamp":1616866721049,
 "version":"3.09"
 },
 "pycairo-1.20.0-py36h165f9dd_0.tar.bz2":{

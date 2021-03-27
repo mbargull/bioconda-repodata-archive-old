@@ -14180,73 +14180,87 @@
 "timestamp":1593288258068,
 "version":"0.1"
 },
-"bullet-2.89-py36hab1a6e6_2.tar.bz2":{
-"build":"py36hab1a6e6_2",
-"build_number":2,
+"bullet-3.09-ha3edaa6_1.tar.bz2":{
+"build":"ha3edaa6_1",
+"build_number":1,
 "depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
+"bullet-cpp 3.09 h4242a24_1",
+"pybullet 3.09 py36h4242a24_1"
 ],
 "license":"Zlib",
 "name":"bullet",
-"sha256":"213ffc390c934d095a9ecf7c59fcc5095bc29053612a57abd2cecd55f9198bfc",
-"size":5318553,
-"timestamp":1610994109247,
-"version":"2.89"
+"sha256":"bb3d1cad104ee18ed2cbefe790f945967e7ba3a4ed4991ad72a2167446d124eb",
+"size":6161,
+"timestamp":1616866774445,
+"version":"3.09"
 },
-"bullet-2.89-py37hc63ec6f_2.tar.bz2":{
-"build":"py37hc63ec6f_2",
-"build_number":2,
+"bullet-cpp-3.09-h4242a24_1.tar.bz2":{
+"build":"h4242a24_1",
+"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
+"python_abi 3.6.* *_cp36m",
+"xorg-libx11",
+"xorg-libxext"
 ],
 "license":"Zlib",
-"name":"bullet",
-"sha256":"79d86ad3de3199a8792ecbe17878da8ddf966fc90b51e1976facf270475d6836",
-"size":5308622,
-"timestamp":1610994067853,
-"version":"2.89"
+"name":"bullet-cpp",
+"sha256":"c608397921b2cda3fd3d172fc950319a47bbebbc1fb59ad42bb576b810d0ec02",
+"size":43655464,
+"timestamp":1616866229993,
+"version":"3.09"
 },
-"bullet-2.89-py38h7ba5fa1_2.tar.bz2":{
-"build":"py38h7ba5fa1_2",
-"build_number":2,
+"bullet-cpp-3.09-h6474468_1.tar.bz2":{
+"build":"h6474468_1",
+"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"numpy >=1.16.6,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
+"python_abi 3.9.* *_cp39",
+"xorg-libx11",
+"xorg-libxext"
 ],
 "license":"Zlib",
-"name":"bullet",
-"sha256":"0080c9ca9756438c2450f8b636bb242b6960e991fc5ac2cc4fe6e28d81480d98",
-"size":5297064,
-"timestamp":1610994058789,
-"version":"2.89"
+"name":"bullet-cpp",
+"sha256":"2f87efd5308ea2ed4c1d721d11e846df6b91d9402803f6ca4973123e8617281e",
+"size":43539264,
+"timestamp":1616868025710,
+"version":"3.09"
 },
-"bullet-2.89-py39h6474468_2.tar.bz2":{
-"build":"py39h6474468_2",
-"build_number":2,
+"bullet-cpp-3.09-h92aa891_1.tar.bz2":{
+"build":"h92aa891_1",
+"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"numpy >=1.19.5,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
+"python_abi 3.8.* *_cp38",
+"xorg-libx11",
+"xorg-libxext"
 ],
 "license":"Zlib",
-"name":"bullet",
-"sha256":"eb53326cd51e02e8a8d24d56bf984aff62fb0b48b16d5bf1c1c920dc80ef73c2",
-"size":5311587,
-"timestamp":1610993954313,
-"version":"2.89"
+"name":"bullet-cpp",
+"sha256":"827f6b18fed179e51e5422b7a025ddc98ab276a2668982dcf8d205c16d455a87",
+"size":43603650,
+"timestamp":1616866311036,
+"version":"3.09"
+},
+"bullet-cpp-3.09-hc8de3aa_1.tar.bz2":{
+"build":"hc8de3aa_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python_abi 3.7.* *_cp37m",
+"xorg-libx11",
+"xorg-libxext"
+],
+"license":"Zlib",
+"name":"bullet-cpp",
+"sha256":"d56abbdcc9b791a78c1a06b7d716f4828faa84b37355fdd8719b09f0e77b078b",
+"size":43692386,
+"timestamp":1616866329784,
+"version":"3.09"
 },
 "bwidget-1.9.14-0.tar.bz2":{
 "build":"0",
@@ -17553,7 +17567,7 @@
 "timestamp":1610716392703,
 "version":"3.21.4"
 },
-"conda-forge-ci-setup-3.8.1-py36h39e6b5e_0.tar.bz2":{
+"conda-forge-ci-setup-3.9.0-py36h39e6b5e_0.tar.bz2":{
 "build":"py36h39e6b5e_0",
 "build_number":0,
 "depends":[
@@ -17575,12 +17589,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda-forge-ci-setup",
-"sha256":"b51307e1835d603ee53df5f8b94749e396f77233adc91e178f7375787ca09d40",
-"size":36884,
-"timestamp":1616201376070,
-"version":"3.8.1"
+"sha256":"6cfc7a87dea9894ff11b1714c898b1f0eb434d1ae55eeba8daed46beaabfbbed",
+"size":36574,
+"timestamp":1616868957423,
+"version":"3.9.0"
 },
-"conda-forge-ci-setup-3.8.1-py37hc0e485a_0.tar.bz2":{
+"conda-forge-ci-setup-3.9.0-py37hc0e485a_0.tar.bz2":{
 "build":"py37hc0e485a_0",
 "build_number":0,
 "depends":[
@@ -17602,12 +17616,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda-forge-ci-setup",
-"sha256":"f1f83bd07f4e2263e1caeab922f12119018b86081131790cd4fd62d7256392f2",
-"size":36930,
-"timestamp":1616201375163,
-"version":"3.8.1"
+"sha256":"cc85889cd8599a8a5f4aab2746f9394fb069827dfe5b9603e0ba5b469657a66e",
+"size":36584,
+"timestamp":1616868944171,
+"version":"3.9.0"
 },
-"conda-forge-ci-setup-3.8.1-py38h6345821_0.tar.bz2":{
+"conda-forge-ci-setup-3.9.0-py38h6345821_0.tar.bz2":{
 "build":"py38h6345821_0",
 "build_number":0,
 "depends":[
@@ -17629,12 +17643,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda-forge-ci-setup",
-"sha256":"e083d14767705abb97a461059a6ca798072f05302666f52734f713f27e75cafd",
-"size":36955,
-"timestamp":1616201405599,
-"version":"3.8.1"
+"sha256":"08e72b86725586dc365c9dc6bd4ba0684e3b8fb5b82bea640f4c28d76bcde5f4",
+"size":36724,
+"timestamp":1616868935062,
+"version":"3.9.0"
 },
-"conda-forge-ci-setup-3.8.1-py39hf727b71_0.tar.bz2":{
+"conda-forge-ci-setup-3.9.0-py39hf727b71_0.tar.bz2":{
 "build":"py39hf727b71_0",
 "build_number":0,
 "depends":[
@@ -17656,10 +17670,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda-forge-ci-setup",
-"sha256":"c1b049ff830daae537f06148ecae7f988f1c355b8a02a7ebb06ca00582950c67",
-"size":37096,
-"timestamp":1616201264996,
-"version":"3.8.1"
+"sha256":"5e685787c96580a9d910294422964346cab02c9b357f3278aa50a55a500ac3c2",
+"size":36742,
+"timestamp":1616868950452,
+"version":"3.9.0"
 },
 "conda-package-handling-1.7.2-py36h6906c01_0.tar.bz2":{
 "build":"py36h6906c01_0",
@@ -74426,6 +74440,78 @@
 "size":9268,
 "timestamp":1613149751072,
 "version":"0.2.9"
+},
+"pybullet-3.09-py36h4242a24_1.tar.bz2":{
+"build":"py36h4242a24_1",
+"build_number":1,
+"depends":[
+"bullet-cpp 3.09 h4242a24_1",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"Zlib",
+"name":"pybullet",
+"sha256":"355f778c1efd2f4ba45ab6b35081a0d73cc976e2182bb8bdc0fcd97cc3df444d",
+"size":66168720,
+"timestamp":1616866723970,
+"version":"3.09"
+},
+"pybullet-3.09-py37hc8de3aa_1.tar.bz2":{
+"build":"py37hc8de3aa_1",
+"build_number":1,
+"depends":[
+"bullet-cpp 3.09 hc8de3aa_1",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"Zlib",
+"name":"pybullet",
+"sha256":"27ee47d82392c40fe4481ddc59ae1f71534103403805436afe26eb73afbe6209",
+"size":66010749,
+"timestamp":1616866836181,
+"version":"3.09"
+},
+"pybullet-3.09-py38h92aa891_1.tar.bz2":{
+"build":"py38h92aa891_1",
+"build_number":1,
+"depends":[
+"bullet-cpp 3.09 h92aa891_1",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Zlib",
+"name":"pybullet",
+"sha256":"c6753b3c662a05fc9edbba101aa0f039a04cd6bfb8985987a4b98d7e31d5dffa",
+"size":65935236,
+"timestamp":1616866822298,
+"version":"3.09"
+},
+"pybullet-3.09-py39h6474468_1.tar.bz2":{
+"build":"py39h6474468_1",
+"build_number":1,
+"depends":[
+"bullet-cpp 3.09 h6474468_1",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Zlib",
+"name":"pybullet",
+"sha256":"d90ea08c4d2aad76b7f13e5a0ca0e884493a384a5ad4b3671b03b9578f587fde",
+"size":65965135,
+"timestamp":1616868501650,
+"version":"3.09"
 },
 "pycairo-1.20.0-py36h77240ca_0.tar.bz2":{
 "build":"py36h77240ca_0",
