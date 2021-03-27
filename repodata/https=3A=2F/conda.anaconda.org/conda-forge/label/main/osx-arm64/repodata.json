@@ -7253,6 +7253,20 @@
 "timestamp":1616085920872,
 "version":"0.9.3"
 },
+"aws-c-io-0.9.4-h816e6ec_1.tar.bz2":{
+"build":"h816e6ec_1",
+"build_number":1,
+"depends":[
+"aws-c-cal >=0.4.5,<0.4.6.0a0",
+"aws-c-common >=0.5.2,<0.5.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"requires":[],
+"size":110880,
+"timestamp":1616878009172,
+"version":"0.9.4"
+},
 "aws-c-io-0.9.4-hb1046ea_0.tar.bz2":{
 "build":"hb1046ea_0",
 "build_number":0,
@@ -21831,6 +21845,19 @@
 "requires":[],
 "size":1049772,
 "timestamp":1606060524042,
+"version":"4.65"
+},
+"glpk-4.65-h6d7a090_1004.tar.bz2":{
+"build":"h6d7a090_1004",
+"build_number":1004,
+"depends":[
+"gmp >=6.2.1,<7.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"glpk",
+"requires":[],
+"size":1044072,
+"timestamp":1616879769247,
 "version":"4.65"
 },
 "gmock-1.10.0-h260d524_6.tar.bz2":{
@@ -59266,6 +59293,48 @@
 "size":18978889,
 "timestamp":1615957009925,
 "version":"1.6.1"
+},
+"scipy-1.6.2-py38hd0c9ec0_0.tar.bz2":{
+"build":"py38hd0c9ec0_0",
+"build_number":0,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack >=3.9.0,<4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"scipy",
+"requires":[],
+"size":18941165,
+"timestamp":1616879795427,
+"version":"1.6.2"
+},
+"scipy-1.6.2-py39h5060c3b_0.tar.bz2":{
+"build":"py39h5060c3b_0",
+"build_number":0,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack >=3.9.0,<4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"scipy",
+"requires":[],
+"size":18981746,
+"timestamp":1616879683284,
+"version":"1.6.2"
 },
 "scons-4.0.1-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
