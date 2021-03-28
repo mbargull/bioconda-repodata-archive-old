@@ -28473,6 +28473,20 @@
 "timestamp":1606060328181,
 "version":"4.65"
 },
+"glpk-4.65-h719063d_1004.tar.bz2":{
+"build":"h719063d_1004",
+"build_number":1004,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=7.5.0"
+],
+"license":"GPL-3.0-or-later",
+"name":"glpk",
+"sha256":"146ed2b4b59cc70a01a1cb2f5ccd1f45aa002a50b27b84ba63d494a349fb00fd",
+"size":1160674,
+"timestamp":1616885824760,
+"version":"4.65"
+},
 "glpk-4.65-he80fd80_1002.tar.bz2":{
 "build":"he80fd80_1002",
 "build_number":1002,
@@ -35427,6 +35441,27 @@
 "sha256":"2dc9bff402948327c08404be6c324c74f83d162b66c2a945a945d4668e594359",
 "size":1036758,
 "timestamp":1616514644489,
+"version":"0.9.1"
+},
+"igraph-0.9.1-hf1a871e_1.tar.bz2":{
+"build":"hf1a871e_1",
+"build_number":1,
+"depends":[
+"arpack >=3.7.0,<3.7.1.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"suitesparse >=5.7.2,<6.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"igraph",
+"sha256":"b2981bb74926c87a5267bd3c048cf5f9e815e2f04bac3dc7e2336a78adfdefba",
+"size":1043207,
+"timestamp":1616886590301,
 "version":"0.9.1"
 },
 "ilmbase-2.5.5-h469bdbd_0.tar.bz2":{
@@ -97387,6 +97422,29 @@
 "timestamp":1611080870633,
 "version":"0.24.1"
 },
+"scipy-1.6.2-py37h4bd7c5a_0.tar.bz2":{
+"build":"py37h4bd7c5a_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"BSD-3-Clause",
+"name":"scipy",
+"sha256":"c5321c8829c348dbe2e2fba0951df67a079e4837b2c7fdfa90dace30827ac178",
+"size":21805149,
+"timestamp":1616884783084,
+"version":"1.6.2"
+},
 "scipy-1.6.2-py37hfd90c25_0.tar.bz2":{
 "build":"py37hfd90c25_0",
 "build_number":0,
@@ -97429,6 +97487,28 @@
 "sha256":"4508675cbf20ca361a34fa5e2b38291266ffcdcec1687200d963bed24ebf7505",
 "size":22233126,
 "timestamp":1616883885848,
+"version":"1.6.2"
+},
+"scipy-1.6.2-py39h5c7b0d2_0.tar.bz2":{
+"build":"py39h5c7b0d2_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"scipy",
+"sha256":"98ddb3dd03e24aba282ef6c2e5ed78b829ab5ee6dc6fc26c517a646714135275",
+"size":22277245,
+"timestamp":1616885204817,
 "version":"1.6.2"
 },
 "scons-4.1.0.post1-py36h2e20a7f_0.tar.bz2":{
