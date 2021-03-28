@@ -61870,7 +61870,7 @@
 "timestamp":1614972950986,
 "version":"2.7.3"
 },
-"numpy-1.20.1-py37h339abbf_0.tar.bz2":{
+"numpy-1.20.2-py37h339abbf_0.tar.bz2":{
 "build":"py37h339abbf_0",
 "build_number":0,
 "depends":[
@@ -61884,13 +61884,13 @@
 ],
 "license":"BSD-3-Clause",
 "name":"numpy",
-"sha256":"d01e9165b1d66f893c0cf390cd7d0848f67262ce2ed8415d9e579b3043b6f9f5",
-"size":5882297,
-"timestamp":1612954094352,
-"version":"1.20.1"
+"sha256":"d1bc8e2326772d8e1868ecb244414ee32463d9567e8b5bcc3ffd45f028f07a7c",
+"size":5823890,
+"timestamp":1616933781865,
+"version":"1.20.2"
 },
-"numpy-1.20.1-py37ha4ee695_0.tar.bz2":{
-"build":"py37ha4ee695_0",
+"numpy-1.20.2-py37h955498a_0.tar.bz2":{
+"build":"py37h955498a_0",
 "build_number":0,
 "depends":[
 "libblas >=3.8.0,<4.0a0",
@@ -61902,13 +61902,13 @@
 ],
 "license":"BSD-3-Clause",
 "name":"numpy",
-"sha256":"a040d0d1ffc88e11b26b6ca47264b309130c9a587bf16027a1070e71b89e886e",
-"size":6044467,
-"timestamp":1612956076725,
-"version":"1.20.1"
+"sha256":"66acb5fd9d738a2e0a23b655e0ab9fb7301c1e5e8cb83944883e1f325940fdc9",
+"size":6042042,
+"timestamp":1616933671883,
+"version":"1.20.2"
 },
-"numpy-1.20.1-py38he4b3509_0.tar.bz2":{
-"build":"py38he4b3509_0",
+"numpy-1.20.2-py38h81bd36e_0.tar.bz2":{
+"build":"py38h81bd36e_0",
 "build_number":0,
 "depends":[
 "libblas >=3.8.0,<4.0a0",
@@ -61920,28 +61920,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"numpy",
-"sha256":"b8d3d9258f4772421e345376078ab28276e5aa85ef2e4e739d193cd7158a6523",
-"size":6080558,
-"timestamp":1612957125069,
-"version":"1.20.1"
-},
-"numpy-1.20.1-py39he089932_0.tar.bz2":{
-"build":"py39he089932_0",
-"build_number":0,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libcblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"numpy",
-"sha256":"09d0c7c4515835b9d305728926d03a5332db9e703d4bfe0c0497ff5d397c2063",
-"size":6076092,
-"timestamp":1612956062280,
-"version":"1.20.1"
+"sha256":"f5e478a2580012bc5b37b4893eeb5eaf3d45f498186ecf4ae6680830dbc4f2c6",
+"size":6117597,
+"timestamp":1616933670385,
+"version":"1.20.2"
 },
 "numpy-stl-2.15.1-py36h719e50f_1.tar.bz2":{
 "build":"py36h719e50f_1",
@@ -86547,6 +86529,20 @@
 "timestamp":1608742834270,
 "version":"1.0.2"
 },
+"r-curl-4.3-r36h2be38b1_1.tar.bz2":{
+"build":"r36h2be38b1_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=3.6,<3.7.0a0"
+],
+"license":"MIT",
+"name":"r-curl",
+"sha256":"c3528d9b1cbc6a7ca0fbb845045869fddc6938fa5239ed1512a00e85924bec60",
+"size":723323,
+"timestamp":1616934810758,
+"version":"4.3"
+},
 "r-curl-4.3-r36hd2b4baa_0.tar.bz2":{
 "build":"r36hd2b4baa_0",
 "build_number":0,
@@ -86573,6 +86569,20 @@
 "sha256":"282242a01779bf0ce79461a831c72cd88af8d7c36a8b1d50d7620611be78dce6",
 "size":713805,
 "timestamp":1588305814800,
+"version":"4.3"
+},
+"r-curl-4.3-r40h2be38b1_1.tar.bz2":{
+"build":"r40h2be38b1_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"MIT",
+"name":"r-curl",
+"sha256":"e0329891728d30cf510f697f287e5d833da190c4387a9996790984aee0723917",
+"size":726188,
+"timestamp":1616934857267,
 "version":"4.3"
 },
 "r-curl-4.3-r40hd2b4baa_1.tar.bz2":{
@@ -93995,8 +94005,8 @@
 "timestamp":1588780195368,
 "version":"5.0.0"
 },
-"rdkit-2020.09.5-py36h6a8580d_0.tar.bz2":{
-"build":"py36h6a8580d_0",
+"rdkit-2021.03.1-py36ha5e65f9_0.tar.bz2":{
+"build":"py36ha5e65f9_0",
 "build_number":0,
 "depends":[
 "boost >=1.74.0,<1.74.1.0a0",
@@ -94005,7 +94015,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "matplotlib-base",
-"numpy >=1.16.6,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "pandas",
 "pillow",
 "pycairo",
@@ -94016,13 +94026,13 @@
 ],
 "license":"BSD-3-Clause",
 "name":"rdkit",
-"sha256":"2b9378c9010c11d19a23c03648e11bb3008da30c18468a11a51b18937151c762",
-"size":27297484,
-"timestamp":1614699279708,
-"version":"2020.09.5"
+"sha256":"56cbebe4ab94406512b279564a1b79ed2d7ab22d27c156259db0ff211e3534f4",
+"size":40106066,
+"timestamp":1616934135726,
+"version":"2021.03.1"
 },
-"rdkit-2020.09.5-py37h9a14a44_0.tar.bz2":{
-"build":"py37h9a14a44_0",
+"rdkit-2021.03.1-py37hcc0d4c2_0.tar.bz2":{
+"build":"py37hcc0d4c2_0",
 "build_number":0,
 "depends":[
 "boost >=1.74.0,<1.74.1.0a0",
@@ -94031,7 +94041,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "matplotlib-base",
-"numpy >=1.16.6,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "pandas",
 "pillow",
 "pycairo",
@@ -94042,13 +94052,13 @@
 ],
 "license":"BSD-3-Clause",
 "name":"rdkit",
-"sha256":"ba60d8d6678335c0c7d4222723bbc5f5a3c788a5a902d7ce9fa874a784917267",
-"size":27089891,
-"timestamp":1614699325111,
-"version":"2020.09.5"
+"sha256":"8b4f8c66e194771230ae00af30e0947dfe34419faec7784e2ad98f3934e1ec72",
+"size":40052826,
+"timestamp":1616932249948,
+"version":"2021.03.1"
 },
-"rdkit-2020.09.5-py38h52d2988_0.tar.bz2":{
-"build":"py38h52d2988_0",
+"rdkit-2021.03.1-py38h4489ad2_0.tar.bz2":{
+"build":"py38h4489ad2_0",
 "build_number":0,
 "depends":[
 "boost >=1.74.0,<1.74.1.0a0",
@@ -94057,7 +94067,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "matplotlib-base",
-"numpy >=1.16.6,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "pandas",
 "pillow",
 "pycairo",
@@ -94068,38 +94078,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"rdkit",
-"sha256":"4858d28ab190109804276c042339ef17bb8d693812cc0e6e8387e44a0bbf89c9",
-"size":27388274,
-"timestamp":1614698995704,
-"version":"2020.09.5"
+"sha256":"181710fe663e2d8fed8ed621a34d1508042b3abbbfb9e38115a4d2b67edfdbee",
+"size":40147901,
+"timestamp":1616934260403,
+"version":"2021.03.1"
 },
-"rdkit-2020.09.5-py39h584b56c_0.tar.bz2":{
-"build":"py39h584b56c_0",
-"build_number":0,
-"depends":[
-"boost >=1.74.0,<1.74.1.0a0",
-"cairo >=1.16.0,<1.17.0a0",
-"freetype >=2.10.4,<3.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"numpy >=1.19.5,<2.0a0",
-"pandas",
-"pillow",
-"pycairo",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"reportlab",
-"sqlalchemy"
-],
-"license":"BSD-3-Clause",
-"name":"rdkit",
-"sha256":"0f4e1ecedabef7abf7eb171e34edbbd41090ed513a3c5b1f6b2ab49d73a39e76",
-"size":27290369,
-"timestamp":1614700114032,
-"version":"2020.09.5"
-},
-"rdkit-dev-2020.09.5-ha3edaa6_0.tar.bz2":{
+"rdkit-dev-2021.03.1-ha3edaa6_0.tar.bz2":{
 "build":"ha3edaa6_0",
 "build_number":0,
 "depends":[
@@ -94107,10 +94091,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"rdkit-dev",
-"sha256":"516ebdce80ed175eed26463fe452722fc7fccfed2f7410a66942db31f8810b5d",
-"size":5317,
-"timestamp":1614699095411,
-"version":"2020.09.5"
+"sha256":"45449aeb969417bb09ce3c956c4843955bb07e101a2651ad0121c83c78b8cf87",
+"size":5327,
+"timestamp":1616932457693,
+"version":"2021.03.1"
 },
 "re2-2020.11.01-hea85c5d_0.tar.bz2":{
 "build":"hea85c5d_0",
