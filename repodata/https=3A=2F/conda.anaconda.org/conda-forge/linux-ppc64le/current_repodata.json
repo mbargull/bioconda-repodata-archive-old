@@ -48891,6 +48891,37 @@
 "timestamp":1609194710539,
 "version":"0.9.72"
 },
+"libmlir-11.1.0-h2acdbc0_0.tar.bz2":{
+"build":"h2acdbc0_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libmlir11 11.1.0 h2acdbc0_0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libmlir",
+"sha256":"cfc15382308214eeed455b447893800a21d243484da9ae80961f41209845519d",
+"size":4494071,
+"timestamp":1617001990028,
+"version":"11.1.0"
+},
+"libmlir11-11.1.0-h2acdbc0_0.tar.bz2":{
+"build":"h2acdbc0_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libmlir11",
+"sha256":"896af4abc696e4f578365f3395dcaa5e59ed92ce7c33b43ec9c72551b33d2134",
+"size":4487162,
+"timestamp":1617001921845,
+"version":"11.1.0"
+},
 "libnegf-1.0.1-mpi_mpich_hb27407b_0.tar.bz2":{
 "build":"mpi_mpich_hb27407b_0",
 "build_number":0,
@@ -55236,6 +55267,22 @@
 "size":7652607,
 "timestamp":1614682494889,
 "version":"1.14.1"
+},
+"mlir-11.1.0-h2acdbc0_0.tar.bz2":{
+"build":"h2acdbc0_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libmlir 11.1.0 h2acdbc0_0",
+"libstdcxx-ng >=9.3.0",
+"llvmdev 11.1.0.*"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"mlir",
+"sha256":"03c0699398f23b6cc94db881c04e0da6c80d0da13fc18d954c6753a5d971b785",
+"size":18209874,
+"timestamp":1617002060624,
+"version":"11.1.0"
 },
 "mock-4.0.3-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",

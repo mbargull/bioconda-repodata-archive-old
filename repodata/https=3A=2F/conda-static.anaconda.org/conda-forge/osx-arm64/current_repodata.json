@@ -13678,6 +13678,35 @@
 "timestamp":1608058446728,
 "version":"5.39"
 },
+"libmlir-11.1.0-h666519e_0.tar.bz2":{
+"build":"h666519e_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libmlir11 11.1.0 h666519e_0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libmlir",
+"sha256":"b527a391699821ac7f9eb9edb691c1f760605e9e1ace7db6249a41f92b93b8d2",
+"size":3126385,
+"timestamp":1617003407855,
+"version":"11.1.0"
+},
+"libmlir11-11.1.0-h666519e_0.tar.bz2":{
+"build":"h666519e_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libmlir11",
+"sha256":"0a25d43fa3ca7b6dee4c368554dce7b7849324bef7dd6510a63d741f4a618751",
+"size":3125908,
+"timestamp":1617003327518,
+"version":"11.1.0"
+},
 "libnghttp2-1.43.0-hf3018f0_0.tar.bz2":{
 "build":"hf3018f0_0",
 "build_number":0,
@@ -15852,6 +15881,21 @@
 "size":7648329,
 "timestamp":1614682688101,
 "version":"1.14.1"
+},
+"mlir-11.1.0-h666519e_0.tar.bz2":{
+"build":"h666519e_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libmlir 11.1.0 h666519e_0",
+"llvmdev 11.1.0.*"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"mlir",
+"sha256":"b1a65256f1646d8a52dc0333f0e6fe668b7b5d7898b4d01a9c235a2eea58977c",
+"size":12181982,
+"timestamp":1617003529579,
+"version":"11.1.0"
 },
 "mock-4.0.3-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
