@@ -59961,9 +59961,26 @@
 "timestamp":1616933486676,
 "version":"1.20.2"
 },
-"numpy-stl-2.15.1-py36h725b0e1_1.tar.bz2":{
-"build":"py36h725b0e1_1",
-"build_number":1,
+"numpy-stl-2.16.0-py36h1215cef_0.tar.bz2":{
+"build":"py36h1215cef_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python-utils",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"BSD-3-Clause",
+"name":"numpy-stl",
+"sha256":"4300e20d34e179c28bfdfd22afcccbed876a8ac70bd2235e33c321f68fc35a4c",
+"size":40834,
+"timestamp":1616979648334,
+"version":"2.16.0"
+},
+"numpy-stl-2.16.0-py36h725b0e1_0.tar.bz2":{
+"build":"py36h725b0e1_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "numpy >=1.18.5,<2.0a0",
@@ -59974,48 +59991,14 @@
 ],
 "license":"BSD-3-Clause",
 "name":"numpy-stl",
-"sha256":"735a65912fa74107f14efecf041d9a4aab098265054aeb26d65b67bb91566033",
-"size":43242,
-"timestamp":1615972386763,
-"version":"2.15.1"
+"sha256":"02290423c7a7665f5f7e155e294a67c055258dae84c82a6b8417039538d8d2e7",
+"size":43474,
+"timestamp":1616979934263,
+"version":"2.16.0"
 },
-"numpy-stl-2.15.1-py36hbf47836_1.tar.bz2":{
-"build":"py36hbf47836_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16.6,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python-utils",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"BSD-3-Clause",
-"name":"numpy-stl",
-"sha256":"d74100eb9f30e41111cc00b3f457962d26521558e2c27382cf424a08ae881f96",
-"size":40580,
-"timestamp":1615972788487,
-"version":"2.15.1"
-},
-"numpy-stl-2.15.1-py37h498761e_1.tar.bz2":{
-"build":"py37h498761e_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16.6,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python-utils",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"BSD-3-Clause",
-"name":"numpy-stl",
-"sha256":"8a7837bcd4a7b3379049a349583d7a9444cdd318ec20c5b1d575eec05dece530",
-"size":39874,
-"timestamp":1615972797365,
-"version":"2.15.1"
-},
-"numpy-stl-2.15.1-py37h9d4e727_1.tar.bz2":{
-"build":"py37h9d4e727_1",
-"build_number":1,
+"numpy-stl-2.16.0-py37h9d4e727_0.tar.bz2":{
+"build":"py37h9d4e727_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
@@ -60026,31 +60009,48 @@
 ],
 "license":"BSD-3-Clause",
 "name":"numpy-stl",
-"sha256":"1e7c681c59feee3426616489e1700105cd29d7f4f19d34b2def95abc101c80ab",
-"size":42895,
-"timestamp":1615972799687,
-"version":"2.15.1"
+"sha256":"ef59d74ad80fcb279b179ad1a01ee803ef6b35990e6e74bfac1ee7954470ee76",
+"size":43102,
+"timestamp":1616979925665,
+"version":"2.16.0"
 },
-"numpy-stl-2.15.1-py38h18962e6_1.tar.bz2":{
-"build":"py38h18962e6_1",
-"build_number":1,
+"numpy-stl-2.16.0-py37hcf9a365_0.tar.bz2":{
+"build":"py37hcf9a365_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"numpy >=1.16.6,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python-utils",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-3-Clause",
+"name":"numpy-stl",
+"sha256":"8a43a28d5d56ce683b2d2e942e5affc9fbf6d2e3415c6c1da28cbed79b6f5bde",
+"size":40166,
+"timestamp":1616980072077,
+"version":"2.16.0"
+},
+"numpy-stl-2.16.0-py38h84f73bf_0.tar.bz2":{
+"build":"py38h84f73bf_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python-utils",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"BSD-3-Clause",
 "name":"numpy-stl",
-"sha256":"69f7b5d7ec3cf9580fb4eee2f3df1e6663cc7401af6c8a6ebd7e10d82e894697",
-"size":39435,
-"timestamp":1615972373055,
-"version":"2.15.1"
+"sha256":"7f1c83399c7beabc3559515c5aa090b39eb42d9c0114cd637c23796dc6776bb9",
+"size":39658,
+"timestamp":1616979649180,
+"version":"2.16.0"
 },
-"numpy-stl-2.15.1-py39hb8e759d_1.tar.bz2":{
-"build":"py39hb8e759d_1",
-"build_number":1,
+"numpy-stl-2.16.0-py39hb8e759d_0.tar.bz2":{
+"build":"py39hb8e759d_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
@@ -60060,10 +60060,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"numpy-stl",
-"sha256":"3ae989b97f9221c05478bab0e83cd2320dfea60a794eaba909fe7e4ace8b0637",
-"size":34501,
-"timestamp":1615972754592,
-"version":"2.15.1"
+"sha256":"1c3bdca19d56678e6d86dab08132826a85b37d710508a4e0450afd0efc12e85e",
+"size":34718,
+"timestamp":1616980322060,
+"version":"2.16.0"
 },
 "nvtx-0.2.3-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
