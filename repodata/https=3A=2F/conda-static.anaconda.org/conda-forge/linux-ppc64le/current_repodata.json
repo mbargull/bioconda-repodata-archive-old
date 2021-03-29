@@ -10440,6 +10440,23 @@
 "timestamp":1617011098749,
 "version":"4.0.0"
 },
+"bazel-4.0.0-ha9c4678_5.tar.bz2":{
+"build":"ha9c4678_5",
+"build_number":5,
+"depends":[
+"grpc-cpp >=1.36.4,<1.37.0a0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.15.6,<3.16.0a0",
+"libstdcxx-ng >=9.3.0",
+"openjdk >=8"
+],
+"license":"Apache-2.0",
+"name":"bazel",
+"sha256":"48ab7058923142e3d4069b909245e5c6064d7c8d9e8c6c78558d869cf45899cd",
+"size":41793691,
+"timestamp":1617051721775,
+"version":"4.0.0"
+},
 "bc-1.07.1-h6eb9509_0.tar.bz2":{
 "build":"h6eb9509_0",
 "build_number":0,
@@ -81361,6 +81378,30 @@
 "sha256":"6c465190be41133b5f860bc93500f575d85911bdfa8fa1bbf058ed128234d67e",
 "size":1397200,
 "timestamp":1617050329206,
+"version":"0.9.1"
+},
+"python-igraph-0.9.1-py37h463d9dd_0.tar.bz2":{
+"build":"py37h463d9dd_0",
+"build_number":0,
+"depends":[
+"arpack >=3.7.0,<3.7.1.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"suitesparse >=5.7.2,<6.0a0",
+"texttable >=1.6.2"
+],
+"license":"GPL-2.0-or-later",
+"name":"python-igraph",
+"sha256":"47b136f5b1e3041b162a652b9d9038e2115fdaae68accb0618cbca895228a8d7",
+"size":1400212,
+"timestamp":1617050481849,
 "version":"0.9.1"
 },
 "python-igraph-0.9.1-py38hb7bc74a_0.tar.bz2":{
