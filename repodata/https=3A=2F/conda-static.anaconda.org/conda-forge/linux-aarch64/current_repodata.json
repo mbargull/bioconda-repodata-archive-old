@@ -30255,360 +30255,97 @@
 "timestamp":1615730867181,
 "version":"2.3.0"
 },
-"gunicorn-20.0.4-py36_0.tar.bz2":{
-"build":"py36_0",
+"gunicorn-20.1.0-py36h2e20a7f_0.tar.bz2":{
+"build":"py36h2e20a7f_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp36m"
-],
-"depends":[
-"python >=3.6,<3.7.0a0",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"6f6a8d5c7fe8d626c23d36dd7a1f6dc10d3902818f460ff180ce66e3980841d3",
-"size":119585,
-"timestamp":1574823184998,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py36h2e20a7f_2.tar.bz2":{
-"build":"py36h2e20a7f_2",
-"build_number":2,
 "depends":[
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6 *_pypy36_pp73",
-"setuptools"
+"setuptools >=3.0"
 ],
 "license":"MIT",
 "name":"gunicorn",
-"sha256":"3e53cab2255210486c17074bfae7808ea16e714d5206d019bbc910f86d1d375e",
-"size":120090,
-"timestamp":1608074716589,
-"version":"20.0.4"
+"sha256":"45a5472c899b2f5ce573e71ac22693e42d578ab0bad4fffd36695e948259a697",
+"size":120753,
+"timestamp":1617043610547,
+"version":"20.1.0"
 },
-"gunicorn-20.0.4-py36h2e20a7f_3.tar.bz2":{
-"build":"py36h2e20a7f_3",
-"build_number":3,
-"depends":[
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"88b8293537b9b9c6b2b80b4ce1b1c928f5dd6a0115128ca56ade0e081fb96d9f",
-"size":120005,
-"timestamp":1610148073911,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py36h704843e_2.tar.bz2":{
-"build":"py36h704843e_2",
-"build_number":2,
-"depends":[
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"1926d042249b3272b4cc47adb3bea1ae137e599ba8baa380a033c1ccb9e78934",
-"size":119971,
-"timestamp":1608074948348,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py36h704843e_3.tar.bz2":{
-"build":"py36h704843e_3",
-"build_number":3,
-"depends":[
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"aeab9461af07a00a452ecff6a8a768fd43c438a8ebc24c5a803a5aa46f1993c5",
-"size":120250,
-"timestamp":1610148087275,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py36h9f0ad1d_1.tar.bz2":{
-"build":"py36h9f0ad1d_1",
-"build_number":1,
-"depends":[
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"35d6a37d1ce941a5a46245bb987456f56069e560865eddeb14a05ca3a8c4ee5d",
-"size":119750,
-"timestamp":1584314726390,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py36h9f0ad1d_2.tar.bz2":{
-"build":"py36h9f0ad1d_2",
-"build_number":2,
-"depends":[
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"a79fec854a921dede64adb8b51ef999b2e0c8071eee88ad09dc4a2924a08c06c",
-"size":120035,
-"timestamp":1602243353918,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py36hc560c46_1.tar.bz2":{
-"build":"py36hc560c46_1",
-"build_number":1,
-"depends":[
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"89d88c78f9739bd49f172be7ebc9e5d86bc1ac313751365c465419d3cc5736c3",
-"size":119949,
-"timestamp":1584314755841,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py36hc560c46_2.tar.bz2":{
-"build":"py36hc560c46_2",
-"build_number":2,
-"depends":[
-"pypy3.6 >=7.3.2",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"2b8774081e4bfa0d0bdff9a99b0d9e2cb27ef73fce2b71e72031b609be5b39c0",
-"size":120172,
-"timestamp":1602243577671,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py37_0.tar.bz2":{
-"build":"py37_0",
+"gunicorn-20.1.0-py36h704843e_0.tar.bz2":{
+"build":"py36h704843e_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp37m"
-],
 "depends":[
-"python >=3.7,<3.8.0a0",
-"setuptools"
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"setuptools >=3.0"
 ],
 "license":"MIT",
 "name":"gunicorn",
-"sha256":"1f4e9407e6d44b8cd9a0b9eafb06858c26c9ca8d52c96f687c2528dadd31cb66",
-"size":119777,
-"timestamp":1574823279407,
-"version":"20.0.4"
+"sha256":"8e11e9d0861ef12274671db0f1ce5ec468e0db58546beea0351e63b289b4cc61",
+"size":121012,
+"timestamp":1617043662121,
+"version":"20.1.0"
 },
-"gunicorn-20.0.4-py37h4bcbb9b_3.tar.bz2":{
-"build":"py37h4bcbb9b_3",
-"build_number":3,
+"gunicorn-20.1.0-py37h4bcbb9b_0.tar.bz2":{
+"build":"py37h4bcbb9b_0",
+"build_number":0,
 "depends":[
 "pypy3.7 >=7.3.3",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
-"setuptools"
+"setuptools >=3.0"
 ],
 "license":"MIT",
 "name":"gunicorn",
-"sha256":"9ca935c423ee3fa7620a0515f3862d86c2f28809cb4914991bf3eb25738da130",
-"size":120085,
-"timestamp":1610148182668,
-"version":"20.0.4"
+"sha256":"3b9f3036c72106d699dc55e187f6bf036235d9885c07b90e3dc28b26e5be0ded",
+"size":120772,
+"timestamp":1617044086280,
+"version":"20.1.0"
 },
-"gunicorn-20.0.4-py37hc8dfbb8_1.tar.bz2":{
-"build":"py37hc8dfbb8_1",
-"build_number":1,
-"depends":[
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"5afef29879a950cb9827131375a6f420faf1445016950452fb7c41492f1728bf",
-"size":119953,
-"timestamp":1584314599632,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py37hc8dfbb8_2.tar.bz2":{
-"build":"py37hc8dfbb8_2",
-"build_number":2,
-"depends":[
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"abfd37654f5708b81f3d8c8bb19a6dcd261cb0066008682b6a4a4b1ffccf4357",
-"size":120214,
-"timestamp":1602243544845,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py37hd9ded2f_2.tar.bz2":{
-"build":"py37hd9ded2f_2",
-"build_number":2,
-"depends":[
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"f2c85d1449e64a29c977736f7c12ac3ef35553912169e84310ec473f4021e06c",
-"size":120455,
-"timestamp":1608075231690,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py37hd9ded2f_3.tar.bz2":{
-"build":"py37hd9ded2f_3",
-"build_number":3,
-"depends":[
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"aa182f5fea3ae356f5a678220b5dec6b6b637acfe9b9ce8e519642c796fc4c28",
-"size":120396,
-"timestamp":1610148235192,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py38_0.tar.bz2":{
-"build":"py38_0",
+"gunicorn-20.1.0-py37hd9ded2f_0.tar.bz2":{
+"build":"py37hd9ded2f_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp38"
-],
 "depends":[
-"python >=3.8,<3.9.0a0",
-"setuptools"
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"setuptools >=3.0"
 ],
 "license":"MIT",
 "name":"gunicorn",
-"sha256":"194e062316ce416c3bafb77ef5ebf13c527b22133c63c65f44d053a6e4cd2f1e",
-"size":120024,
-"timestamp":1574823209345,
-"version":"20.0.4"
+"sha256":"fae889c550163e82dabab2905ab8cd6e99644e8491e857daacd902f7c7921ff2",
+"size":121234,
+"timestamp":1617044357975,
+"version":"20.1.0"
 },
-"gunicorn-20.0.4-py38h2063c64_2.tar.bz2":{
-"build":"py38h2063c64_2",
-"build_number":2,
-"depends":[
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"e8b027bce9e8462d201e3e22f37074611ed56db33fa9e1d76ebf61ff8b863927",
-"size":120565,
-"timestamp":1608074981713,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py38h2063c64_3.tar.bz2":{
-"build":"py38h2063c64_3",
-"build_number":3,
+"gunicorn-20.1.0-py38h2063c64_0.tar.bz2":{
+"build":"py38h2063c64_0",
+"build_number":0,
 "depends":[
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
-"setuptools"
+"setuptools >=3.0"
 ],
 "license":"MIT",
 "name":"gunicorn",
-"sha256":"d879cb3c4451db6ebd2e950047c4cbbaf848d774a3cbb48e6d244edfe6c27518",
-"size":120506,
-"timestamp":1610148232612,
-"version":"20.0.4"
+"sha256":"8f696196213b4f67ce564c57308a8dd0623912f815cd8d5fb55635f952f9e3b8",
+"size":121324,
+"timestamp":1617044138695,
+"version":"20.1.0"
 },
-"gunicorn-20.0.4-py38h32f6830_1.tar.bz2":{
-"build":"py38h32f6830_1",
-"build_number":1,
-"depends":[
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"f35778196f9e8b12248004a80f5dfa74b2e89c96e119d3422aefd74c547d1abc",
-"size":119862,
-"timestamp":1584314735246,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py38h32f6830_2.tar.bz2":{
-"build":"py38h32f6830_2",
-"build_number":2,
-"depends":[
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"f69f0a7db9bf0f94c945663114d800fc9f6dd0bcb486e898cb854222f0206fbc",
-"size":120429,
-"timestamp":1602243405545,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py39ha65689a_2.tar.bz2":{
-"build":"py39ha65689a_2",
-"build_number":2,
+"gunicorn-20.1.0-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
 "depends":[
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
-"setuptools"
+"setuptools >=3.0"
 ],
 "license":"MIT",
 "name":"gunicorn",
-"sha256":"d393d8b54b213fb50666ff182c56cd2ec56d8eaac68ec5146d72206776edf328",
-"size":121028,
-"timestamp":1608075116654,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py39ha65689a_3.tar.bz2":{
-"build":"py39ha65689a_3",
-"build_number":3,
-"depends":[
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"40ef65d9de6ffee8e7a4915d949fff34a96ce8d3ea7c5f9609c010b13c1ad418",
-"size":120929,
-"timestamp":1610148246398,
-"version":"20.0.4"
-},
-"gunicorn-20.0.4-py39hde42818_2.tar.bz2":{
-"build":"py39hde42818_2",
-"build_number":2,
-"depends":[
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"setuptools"
-],
-"license":"MIT",
-"name":"gunicorn",
-"sha256":"633838a7633c134ea902d0012436ffa8a70e90da672a0c50348358562c25eb35",
-"size":120573,
-"timestamp":1602243504010,
-"version":"20.0.4"
+"sha256":"d17a6e3ae2c89f6b58266b865724cf4556b6cbebdfd3400b658d1b6f05256184",
+"size":121779,
+"timestamp":1617044181555,
+"version":"20.1.0"
 },
 "gxx_impl_linux-aarch64-7.5.0-h5138952_10.tar.bz2":{
 "build":"h5138952_10",
