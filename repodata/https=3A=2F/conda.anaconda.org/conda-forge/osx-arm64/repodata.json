@@ -1299,6 +1299,54 @@
 "timestamp":1615441990750,
 "version":"3.1.0"
 },
+"ansible-3.2.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"ansible-base",
+"boto",
+"cryptography",
+"httplib2",
+"jinja2",
+"openstacksdk",
+"paramiko",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"setuptools",
+"six"
+],
+"license":"GPL-3.0-only",
+"name":"ansible",
+"sha256":"ae4d6a67a7af094bc2ea37296832555a23ae1b91c2abc1ffcf03649090cd1862",
+"size":43295009,
+"timestamp":1617136156124,
+"version":"3.2.0"
+},
+"ansible-3.2.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"ansible-base",
+"boto",
+"cryptography",
+"httplib2",
+"jinja2",
+"openstacksdk",
+"paramiko",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"setuptools",
+"six"
+],
+"license":"GPL-3.0-only",
+"name":"ansible",
+"sha256":"02d9dd7d16d7afac3444c724d89628053ecc87e6e17a91f1af54cca0488cbd2a",
+"size":43305912,
+"timestamp":1617136394648,
+"version":"3.2.0"
+},
 "antlr-python-runtime-4.7.2-py38h10201cd_1002.tar.bz2":{
 "build":"py38h10201cd_1002",
 "build_number":1002,
@@ -26874,6 +26922,44 @@
 "size":171715,
 "timestamp":1613853157761,
 "version":"5.5.0"
+},
+"ipykernel-5.5.3-py38h2cb4d76_0.tar.bz2":{
+"build":"py38h2cb4d76_0",
+"build_number":0,
+"depends":[
+"ipython >=5.0",
+"jupyter_client",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyzmq !=21",
+"tornado >=4.2",
+"traitlets >=4.1"
+],
+"license":"BSD-3-Clause",
+"name":"ipykernel",
+"sha256":"3f20a9497b2ac52015328ac7f6d1458495f5728ea7a1219b3b75765e05ec9fa8",
+"size":171363,
+"timestamp":1617137318482,
+"version":"5.5.3"
+},
+"ipykernel-5.5.3-py39h32adebf_0.tar.bz2":{
+"build":"py39h32adebf_0",
+"build_number":0,
+"depends":[
+"ipython >=5.0",
+"jupyter_client",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyzmq !=21",
+"tornado >=4.2",
+"traitlets >=4.1"
+],
+"license":"BSD-3-Clause",
+"name":"ipykernel",
+"sha256":"3425a5c68e6956b39bb2939f9b969c5183e19adb16bc2610352d898313841e49",
+"size":171639,
+"timestamp":1617137356830,
+"version":"5.5.3"
 },
 "ipyparallel-6.3.0-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
