@@ -14382,13 +14382,13 @@
 "timestamp":1605225031180,
 "version":"1.22"
 },
-"cmake-3.19.6-h5e8844f_0.tar.bz2":{
+"cmake-3.19.7-h5e8844f_0.tar.bz2":{
 "build":"h5e8844f_0",
 "build_number":0,
 "depends":[
 "bzip2 >=1.0.8,<2.0a0",
-"expat >=2.2.10,<3.0.0a0",
-"libcurl >=7.71.1,<8.0a0",
+"expat >=2.2.10,<2.3.0a0",
+"libcurl >=7.75.0,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "libuv",
@@ -14396,14 +14396,14 @@
 "rhash",
 "xz >=5.2.5,<5.3.0a0",
 "zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
+"zstd >=1.4.9,<1.5.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"cmake",
-"sha256":"637fbbe9d3cd131ef9275be7920cd085f629040ce809edc6af863305aad47e70",
-"size":14144953,
-"timestamp":1614189261225,
-"version":"3.19.6"
+"sha256":"ce467fd0769239052b6a30ee19ec4025b5563f7f57cc5405f51dba1287133db2",
+"size":14148856,
+"timestamp":1617130797073,
+"version":"3.19.7"
 },
 "cmake-no-system-3.16.5-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
@@ -22293,6 +22293,20 @@
 "size":671938,
 "timestamp":1591114439112,
 "version":"0.9.0"
+},
+"expat-2.2.10-h3621d8e_0.tar.bz2":{
+"build":"h3621d8e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"expat",
+"sha256":"239d51aea73d8ce5a9c81c1e2b2e91af3c8e6b710c41b13155aa61690ea71c24",
+"size":144377,
+"timestamp":1611858020300,
+"version":"2.2.10"
 },
 "expat-2.3.0-h3621d8e_0.tar.bz2":{
 "build":"h3621d8e_0",
