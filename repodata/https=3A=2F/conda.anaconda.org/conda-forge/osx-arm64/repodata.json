@@ -14135,6 +14135,58 @@
 "timestamp":1607108686467,
 "version":"1.1.3"
 },
+"conda-4.10.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"constrains":[
+"conda-env >=2.6",
+"conda-build >=3",
+"cytoolz >=0.8.1",
+"setuptools >=31.0.1"
+],
+"depends":[
+"conda-package-handling >=1.3.0",
+"pycosat >=0.6.3",
+"pyopenssl >=16.2.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"requests >=2.18.4,<3",
+"ruamel_yaml >=0.11.14,<0.16",
+"setuptools >=31.0.1"
+],
+"license":"BSD-3-Clause",
+"name":"conda",
+"sha256":"9a74c9b35e0f539a003c6fb3f0325be0a719cab51622d2f77c740aa9689205eb",
+"size":3181738,
+"timestamp":1617199544027,
+"version":"4.10.0"
+},
+"conda-4.10.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"constrains":[
+"setuptools >=31.0.1",
+"cytoolz >=0.8.1",
+"conda-build >=3",
+"conda-env >=2.6"
+],
+"depends":[
+"conda-package-handling >=1.3.0",
+"pycosat >=0.6.3",
+"pyopenssl >=16.2.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"requests >=2.18.4,<3",
+"ruamel_yaml >=0.11.14,<0.16",
+"setuptools >=31.0.1"
+],
+"license":"BSD-3-Clause",
+"name":"conda",
+"sha256":"9cddf79c16349a7ea04c92ed1019ae54ea1ceff8810688b5f1bfbbb159728a62",
+"size":3235649,
+"timestamp":1617199561960,
+"version":"4.10.0"
+},
 "conda-4.8.5-py38h045b1e1_2.tar.bz2":{
 "build":"py38h045b1e1_2",
 "build_number":2,
@@ -61859,6 +61911,36 @@
 "size":2326025,
 "timestamp":1616781843099,
 "version":"1.4.3"
+},
+"sqlalchemy-1.4.4-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"004e8dc6187ca38cf8011142b7063f7416ed289eeac142a5b159c0a7d6418839",
+"size":2329428,
+"timestamp":1617199508526,
+"version":"1.4.4"
+},
+"sqlalchemy-1.4.4-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"5be988dc7f54687a1d7bebcceba16faeeddb49e6741d18b6623153d571e99cf2",
+"size":2335361,
+"timestamp":1617199499629,
+"version":"1.4.4"
 },
 "sqlite-3.32.3-h75b4277_1.tar.bz2":{
 "build":"h75b4277_1",

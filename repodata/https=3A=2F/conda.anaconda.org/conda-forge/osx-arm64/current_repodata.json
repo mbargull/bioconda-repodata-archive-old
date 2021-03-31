@@ -5078,13 +5078,14 @@
 "timestamp":1607108686467,
 "version":"1.1.3"
 },
-"conda-4.9.2-py38h10201cd_0.tar.bz2":{
+"conda-4.10.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "constrains":[
-"conda-build >=3",
 "conda-env >=2.6",
-"cytoolz >=0.8.1"
+"conda-build >=3",
+"cytoolz >=0.8.1",
+"setuptools >=31.0.1"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -5098,18 +5099,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"fd2ad409aff0a768fa1b1c2dc533a0d1d6ad0be28d500fe8ad162301c71ab7b8",
-"size":3193638,
-"timestamp":1605214038405,
-"version":"4.9.2"
+"sha256":"9a74c9b35e0f539a003c6fb3f0325be0a719cab51622d2f77c740aa9689205eb",
+"size":3181738,
+"timestamp":1617199544027,
+"version":"4.10.0"
 },
-"conda-4.9.2-py39h2804cbe_0.tar.bz2":{
+"conda-4.10.0-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "constrains":[
+"setuptools >=31.0.1",
+"cytoolz >=0.8.1",
 "conda-build >=3",
-"conda-env >=2.6",
-"cytoolz >=0.8.1"
+"conda-env >=2.6"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -5123,10 +5125,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"88903ada8230d44dbbfad870722445737ec171866aa29f254502503bc5130e41",
-"size":3218281,
-"timestamp":1605214041836,
-"version":"4.9.2"
+"sha256":"9cddf79c16349a7ea04c92ed1019ae54ea1ceff8810688b5f1bfbbb159728a62",
+"size":3235649,
+"timestamp":1617199561960,
+"version":"4.10.0"
 },
 "conda-build-3.21.4-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -25674,8 +25676,8 @@
 "timestamp":1613943757816,
 "version":"1.10.2"
 },
-"sqlalchemy-1.4.3-py38h30f7421_0.tar.bz2":{
-"build":"py38h30f7421_0",
+"sqlalchemy-1.4.4-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
 "build_number":0,
 "depends":[
 "greenlet !=0.4.17",
@@ -25684,13 +25686,13 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"67a2370cc7d9368219bbe70dea4015c25f4cd69915a0c5eb3308536d049f9b12",
-"size":2335635,
-"timestamp":1616781785509,
-"version":"1.4.3"
+"sha256":"004e8dc6187ca38cf8011142b7063f7416ed289eeac142a5b159c0a7d6418839",
+"size":2329428,
+"timestamp":1617199508526,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py39h46acfd9_0.tar.bz2":{
-"build":"py39h46acfd9_0",
+"sqlalchemy-1.4.4-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
 "build_number":0,
 "depends":[
 "greenlet !=0.4.17",
@@ -25699,10 +25701,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"a1e38cf09fea2e76334ab619f0230f9d15fdc49db59509cc75ca5175357ca0f5",
-"size":2326025,
-"timestamp":1616781843099,
-"version":"1.4.3"
+"sha256":"5be988dc7f54687a1d7bebcceba16faeeddb49e6741d18b6623153d571e99cf2",
+"size":2335361,
+"timestamp":1617199499629,
+"version":"1.4.4"
 },
 "sqlite-3.35.3-h6d56c25_0.tar.bz2":{
 "build":"h6d56c25_0",

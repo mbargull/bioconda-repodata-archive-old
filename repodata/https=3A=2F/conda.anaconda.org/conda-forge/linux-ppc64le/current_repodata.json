@@ -17406,12 +17406,13 @@
 "timestamp":1607108497644,
 "version":"1.1.3"
 },
-"conda-4.9.2-py36h270354c_0.tar.bz2":{
+"conda-4.10.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "constrains":[
-"conda-build >=3",
+"setuptools >=31.0.1",
 "conda-env >=2.6",
+"conda-build >=3",
 "cytoolz >=0.8.1"
 ],
 "depends":[
@@ -17426,24 +17427,25 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"61b97bb5f1c37739f756346aca1dbfca0d279dc292f69a4fcde01aa958d9959a",
-"size":3220937,
-"timestamp":1605214793181,
-"version":"4.9.2"
+"sha256":"0b0a2245aacf3a99666d79ea857fac609c53df2551b1d064c34fbf666896957d",
+"size":3225723,
+"timestamp":1617199613060,
+"version":"4.10.0"
 },
-"conda-4.9.2-py36he7cccf2_0.tar.bz2":{
+"conda-4.10.0-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "constrains":[
-"conda-build >=3",
+"setuptools >=31.0.1",
 "conda-env >=2.6",
+"conda-build >=3",
 "cytoolz >=0.8.1"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
 "pycosat >=0.6.3",
 "pyopenssl >=16.2.0",
-"pypy3.6 >=7.3.2",
+"pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6 *_pypy36_pp73",
 "requests >=2.18.4,<3",
@@ -17452,18 +17454,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"3819781b7d5069134d42113a8a3fc76fed96a6413e63b8110a098d4d3f5118c4",
-"size":3199143,
-"timestamp":1605214641432,
-"version":"4.9.2"
+"sha256":"6682e40ab120e42604bb0fe9db3d82d93d7761882b402fb1edd11896e963260b",
+"size":3195374,
+"timestamp":1617199577776,
+"version":"4.10.0"
 },
-"conda-4.9.2-py37h35e4cab_0.tar.bz2":{
+"conda-4.10.0-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "constrains":[
 "conda-build >=3",
+"cytoolz >=0.8.1",
 "conda-env >=2.6",
-"cytoolz >=0.8.1"
+"setuptools >=31.0.1"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -17477,18 +17480,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"2f5e603f4425a0a3cd59093de5b48941648ce2a13bf816a6b3f6f2ad46ccce24",
-"size":3184333,
-"timestamp":1605214794885,
-"version":"4.9.2"
+"sha256":"e0cbf2f9a0950f90689c4025dee45de449eb9b913ee32f8187d5866dd1adfc7d",
+"size":3194271,
+"timestamp":1617199646851,
+"version":"4.10.0"
 },
-"conda-4.9.2-py38hf8b3453_0.tar.bz2":{
+"conda-4.10.0-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "constrains":[
-"conda-build >=3",
 "conda-env >=2.6",
-"cytoolz >=0.8.1"
+"setuptools >=31.0.1",
+"cytoolz >=0.8.1",
+"conda-build >=3"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -17502,17 +17506,18 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"7c553d7b1c7138c25365ff039c6c8240dbf6a7ae171718fc6192af1e01621a4a",
-"size":3188797,
-"timestamp":1605214894640,
-"version":"4.9.2"
+"sha256":"5ac7437b37ec9252873fbd5b18826b4a8ff136e6383acfd1acb1d4523c937072",
+"size":3190460,
+"timestamp":1617199643203,
+"version":"4.10.0"
 },
-"conda-4.9.2-py39hc1b9086_0.tar.bz2":{
+"conda-4.10.0-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "constrains":[
-"conda-build >=3",
 "conda-env >=2.6",
+"setuptools >=31.0.1",
+"conda-build >=3",
 "cytoolz >=0.8.1"
 ],
 "depends":[
@@ -17527,10 +17532,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"babaec6fde3050df687495759830633061704ac1ce4b4c114742eec8994ce883",
-"size":3212186,
-"timestamp":1605215183590,
-"version":"4.9.2"
+"sha256":"4fcf848a36af3fc0ed855818ff0f414921b5a482624e6aebd316bfc570ae96de",
+"size":3215833,
+"timestamp":1617199496045,
+"version":"4.10.0"
 },
 "conda-build-3.21.4-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
@@ -29024,6 +29029,26 @@
 "timestamp":1617175554881,
 "version":"3.8.3"
 },
+"gensim-3.8.3-py36h08d3667_4.tar.bz2":{
+"build":"py36h08d3667_4",
+"build_number":4,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"scipy >=0.18.1",
+"six >=1.5.0",
+"smart_open >=1.8.1"
+],
+"license":"LGPL-2.1-only",
+"name":"gensim",
+"sha256":"2bd9281ea94549e11043c298c8ea844074062b5e61ee687e662586b2709361c9",
+"size":24005212,
+"timestamp":1617198200623,
+"version":"3.8.3"
+},
 "gensim-3.8.3-py36hd724563_2.tar.bz2":{
 "build":"py36hd724563_2",
 "build_number":2,
@@ -29084,6 +29109,26 @@
 "timestamp":1617176386836,
 "version":"3.8.3"
 },
+"gensim-3.8.3-py37hc9b93fd_4.tar.bz2":{
+"build":"py37hc9b93fd_4",
+"build_number":4,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.20.2,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"scipy >=0.18.1",
+"six >=1.5.0",
+"smart_open >=1.8.1"
+],
+"license":"LGPL-2.1-only",
+"name":"gensim",
+"sha256":"138179c1b6ae490e1845f0f002254eab9b75f64378557f3dbeb6fe2f6d37001c",
+"size":23949695,
+"timestamp":1617199147281,
+"version":"3.8.3"
+},
 "gensim-3.8.3-py38ha35a538_3.tar.bz2":{
 "build":"py38ha35a538_3",
 "build_number":3,
@@ -29104,6 +29149,26 @@
 "timestamp":1617177131883,
 "version":"3.8.3"
 },
+"gensim-3.8.3-py38ha35a538_4.tar.bz2":{
+"build":"py38ha35a538_4",
+"build_number":4,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.20.2,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy >=0.18.1",
+"six >=1.5.0",
+"smart_open >=1.8.1"
+],
+"license":"LGPL-2.1-only",
+"name":"gensim",
+"sha256":"59bfe1f3329a8248a168aae4313743f0d48dcb008df8c7e176debd89a3dcd8df",
+"size":23941068,
+"timestamp":1617199996542,
+"version":"3.8.3"
+},
 "gensim-3.8.3-py39had50986_3.tar.bz2":{
 "build":"py39had50986_3",
 "build_number":3,
@@ -29122,6 +29187,26 @@
 "sha256":"aaa1b9d6c3067c28b59a08aa72c830f57d8482e87977d294f49d93cff0ebe72b",
 "size":23793751,
 "timestamp":1617177927737,
+"version":"3.8.3"
+},
+"gensim-3.8.3-py39had50986_4.tar.bz2":{
+"build":"py39had50986_4",
+"build_number":4,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.20.2,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy >=0.18.1",
+"six >=1.5.0",
+"smart_open >=1.8.1"
+],
+"license":"LGPL-2.1-only",
+"name":"gensim",
+"sha256":"0ff7fe013264796dd316b1a4d8ea5a1dcac2a7ae164e72bebdd6dd055a8ef6e5",
+"size":23954526,
+"timestamp":1617200755300,
 "version":"3.8.3"
 },
 "geographiclib-cpp-1.51-h2acdbc0_1.tar.bz2":{
@@ -47748,6 +47833,21 @@
 "sha256":"0f16f73e1f3777e3c46890492fffe099af25b0fd80e28aa82717b4ffbe28b0f4",
 "size":88769,
 "timestamp":1611413169492,
+"version":"1.1.0"
+},
+"libignition-plugin1-1.1.0-h3b9df90_4.tar.bz2":{
+"build":"h3b9df90_4",
+"build_number":4,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libignition-cmake2 >=2.7.0,<3.0a0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"libignition-plugin1",
+"sha256":"39abcbb9fbd8c09ac6510bacc6290dad2297825e0a08b7b939e1927231287f24",
+"size":88541,
+"timestamp":1617198777364,
 "version":"1.1.0"
 },
 "libignition-tools1-1.1.0-h619c64f_0.tar.bz2":{
@@ -102156,7 +102256,7 @@
 "timestamp":1613943759099,
 "version":"1.10.2"
 },
-"sqlalchemy-1.4.3-py36hc33305d_0.tar.bz2":{
+"sqlalchemy-1.4.4-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -102168,12 +102268,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"b62b27cf66a8259e7e01687c65a7ae5bff0d28e7653f2876b028b69b2529c8cc",
-"size":2322612,
-"timestamp":1616782506764,
-"version":"1.4.3"
+"sha256":"0ab82ef9f4968f8715bf09f26b7933ad718d01e87c77a3752d87e592dbcb1bec",
+"size":2319932,
+"timestamp":1617200066878,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py36hfa8c849_0.tar.bz2":{
+"sqlalchemy-1.4.4-py36hfa8c849_0.tar.bz2":{
 "build":"py36hfa8c849_0",
 "build_number":0,
 "depends":[
@@ -102186,12 +102286,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"28bbc5b8e8141440d00a89fc196c49ca25687ab0efce189765bb35d9d1d9c645",
-"size":2323345,
-"timestamp":1616782488034,
-"version":"1.4.3"
+"sha256":"73eb80065026afdd1048b493a7dd51e3311e732878cf8623cbfaefc371d76e71",
+"size":2322345,
+"timestamp":1617200167085,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py37h0630641_0.tar.bz2":{
+"sqlalchemy-1.4.4-py37h0630641_0.tar.bz2":{
 "build":"py37h0630641_0",
 "build_number":0,
 "depends":[
@@ -102204,12 +102304,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"62df7e427a616422c3f55db8ed523ce23c64595472fa32929f1cb076480636c5",
-"size":2318609,
-"timestamp":1616782133508,
-"version":"1.4.3"
+"sha256":"951a94b5a31544d36a114738ac88ce6dba3db10db7ce9491440a8c7a0571af24",
+"size":2324750,
+"timestamp":1617200238177,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py37h6642d69_0.tar.bz2":{
+"sqlalchemy-1.4.4-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -102221,12 +102321,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"901ffd3996c0a1f22b73b0edfed768b46c108a7fa44a7b16c44ec3dbb7945a8a",
-"size":2321239,
-"timestamp":1616782242612,
-"version":"1.4.3"
+"sha256":"51ca02464faf9cc275165d548a02aa2e39b6fc7cb74b4531af33eb22880bc237",
+"size":2321193,
+"timestamp":1617199886239,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py38h98b8a6f_0.tar.bz2":{
+"sqlalchemy-1.4.4-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -102237,12 +102337,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"ae6e196f413bbca14322c48f060f3a07c1903160f8e53d053b1b77d3fb22d8ef",
-"size":2337269,
-"timestamp":1616782359909,
-"version":"1.4.3"
+"sha256":"e49d7f11932fee2c30fa5b95ad19a240dc11678b5ed5611693724a67fc3ddde8",
+"size":2339327,
+"timestamp":1617199958231,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py39ha810350_0.tar.bz2":{
+"sqlalchemy-1.4.4-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -102253,10 +102353,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"af071184e7b8ad5b08aa8a0aa721ed7173aa65474465494eaec0fc4a6c5ba4b0",
-"size":2337718,
-"timestamp":1616782427144,
-"version":"1.4.3"
+"sha256":"bb32e04b3188d4ba94dae624072db6d328de8fb476ea35384e57dba3de1b996f",
+"size":2339838,
+"timestamp":1617199918800,
+"version":"1.4.4"
 },
 "sqlite-3.35.2-h961021d_0.tar.bz2":{
 "build":"h961021d_0",

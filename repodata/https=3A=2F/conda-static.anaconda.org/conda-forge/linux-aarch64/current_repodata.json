@@ -14864,19 +14864,20 @@
 "timestamp":1607108819810,
 "version":"1.1.3"
 },
-"conda-4.9.2-py36h2e20a7f_0.tar.bz2":{
+"conda-4.10.0-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "constrains":[
-"conda-build >=3",
+"setuptools >=31.0.1",
 "conda-env >=2.6",
-"cytoolz >=0.8.1"
+"cytoolz >=0.8.1",
+"conda-build >=3"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
 "pycosat >=0.6.3",
 "pyopenssl >=16.2.0",
-"pypy3.6 >=7.3.2",
+"pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6 *_pypy36_pp73",
 "requests >=2.18.4,<3",
@@ -14885,18 +14886,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"b5262d29dcee8ba33863e3a0a07f7abdf4f782f88845015982f3ebe74516a977",
-"size":3189304,
-"timestamp":1605214459952,
-"version":"4.9.2"
+"sha256":"3a4219bde7107f6ef8aaa990b03fc84408b5dbd838329272ffa4905da4fe1f3e",
+"size":3218038,
+"timestamp":1617199742620,
+"version":"4.10.0"
 },
-"conda-4.9.2-py36h704843e_0.tar.bz2":{
+"conda-4.10.0-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "constrains":[
-"conda-build >=3",
+"cytoolz >=0.8.1",
+"setuptools >=31.0.1",
 "conda-env >=2.6",
-"cytoolz >=0.8.1"
+"conda-build >=3"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -14910,18 +14912,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"a03a5a000feaec05692b78405f6ace3d67b0411aca090a37343d035eccca75d5",
-"size":3200796,
-"timestamp":1605214780611,
-"version":"4.9.2"
+"sha256":"b67e665e0df5d6339be6e5f5756e314a8b9a883c8c932a104ccffb1da03de438",
+"size":3227888,
+"timestamp":1617199406995,
+"version":"4.10.0"
 },
-"conda-4.9.2-py37hd9ded2f_0.tar.bz2":{
+"conda-4.10.0-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "constrains":[
+"cytoolz >=0.8.1",
 "conda-build >=3",
-"conda-env >=2.6",
-"cytoolz >=0.8.1"
+"setuptools >=31.0.1",
+"conda-env >=2.6"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -14935,18 +14938,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"106941a4e7c583f694c3edfa5c8df52c3ee797d92bd5f88d3cb180cbe08cd40b",
-"size":3214619,
-"timestamp":1605214570674,
-"version":"4.9.2"
+"sha256":"5945da229fba92b07a1f3e2e08f11e1fc1afa77f8fab5f87eac57db9f95f3a0b",
+"size":3198502,
+"timestamp":1617199731675,
+"version":"4.10.0"
 },
-"conda-4.9.2-py38h2063c64_0.tar.bz2":{
+"conda-4.10.0-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "constrains":[
-"conda-build >=3",
+"setuptools >=31.0.1",
 "conda-env >=2.6",
-"cytoolz >=0.8.1"
+"cytoolz >=0.8.1",
+"conda-build >=3"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -14960,18 +14964,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"462766b0525854350c914f5ae84767b6a4671c253a1de5d9be9c231d43d9c6c3",
-"size":3212756,
-"timestamp":1605214563044,
-"version":"4.9.2"
+"sha256":"dca9f0626e9ed58eae1d6b822dfe212d8075517cbff5f1cb587f0cf86a6a4506",
+"size":3198376,
+"timestamp":1617199405629,
+"version":"4.10.0"
 },
-"conda-4.9.2-py39ha65689a_0.tar.bz2":{
+"conda-4.10.0-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "constrains":[
+"setuptools >=31.0.1",
+"cytoolz >=0.8.1",
 "conda-build >=3",
-"conda-env >=2.6",
-"cytoolz >=0.8.1"
+"conda-env >=2.6"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -14985,10 +14990,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"a3cb8a9596f8f69faa0cdcdb7677d212d154bf3b19c8bfbb86ce4e342b3c3edd",
-"size":3206316,
-"timestamp":1605214873292,
-"version":"4.9.2"
+"sha256":"8f9053184877401575b69b77eae6b2f1cc82945f6c4b5992ffdcd89c724595d9",
+"size":3211946,
+"timestamp":1617199701209,
+"version":"4.10.0"
 },
 "conda-build-3.21.4-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
@@ -45173,6 +45178,21 @@
 "sha256":"8559bae89286417cd7ea7c7ce3f06d806444d6783b92402c82c76fbf139e256c",
 "size":86443,
 "timestamp":1611413347996,
+"version":"1.1.0"
+},
+"libignition-plugin1-1.1.0-h01db608_4.tar.bz2":{
+"build":"h01db608_4",
+"build_number":4,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libignition-cmake2 >=2.7.0,<3.0a0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"libignition-plugin1",
+"sha256":"302c12bd917bae0c5c0b00fe8ca83c7fdb126bd485f61098f3cfcb37a7cbc677",
+"size":86281,
+"timestamp":1617198568430,
 "version":"1.1.0"
 },
 "libignition-tools1-1.1.0-ha768e4a_0.tar.bz2":{
@@ -101406,7 +101426,7 @@
 "timestamp":1613943805374,
 "version":"1.10.2"
 },
-"sqlalchemy-1.4.3-py36h269c3a8_0.tar.bz2":{
+"sqlalchemy-1.4.4-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
 "depends":[
@@ -101418,12 +101438,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"3a3a251c39d2dc4124d0dd03f44fb310813c7ea146f6dc48b35ba6ac4a5296f5",
-"size":2315539,
-"timestamp":1616782235498,
-"version":"1.4.3"
+"sha256":"12eb2d777b9fb7f51d0cb9088123af8f3a4285867ec865522e8f6332e50444db",
+"size":2324686,
+"timestamp":1617200218226,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py36h9b67645_0.tar.bz2":{
+"sqlalchemy-1.4.4-py36h9b67645_0.tar.bz2":{
 "build":"py36h9b67645_0",
 "build_number":0,
 "depends":[
@@ -101436,12 +101456,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"a1c0acd421d69a31a3fa4519c7602040a841a4a9b70e815b2bfe288b99dbfd78",
-"size":2318989,
-"timestamp":1616782433711,
-"version":"1.4.3"
+"sha256":"d1776ac21e3f81717f37a030c1d6f87b17b9d82a41743d1cdb49001f1bbee5d2",
+"size":2321574,
+"timestamp":1617200016685,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py37h1283c21_0.tar.bz2":{
+"sqlalchemy-1.4.4-py37h1283c21_0.tar.bz2":{
 "build":"py37h1283c21_0",
 "build_number":0,
 "depends":[
@@ -101454,12 +101474,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"f7dbf59a6f55972fc16f7b755b56cc82ea3692e885b8d36ef5c9d0d3ab3f0b37",
-"size":2324059,
-"timestamp":1616782548183,
-"version":"1.4.3"
+"sha256":"eb9415de14545701ac1c3236093cd2f0b0287edec99dead7455a55808bbadee7",
+"size":2323686,
+"timestamp":1617200144453,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py37hcd4c3ab_0.tar.bz2":{
+"sqlalchemy-1.4.4-py37hcd4c3ab_0.tar.bz2":{
 "build":"py37hcd4c3ab_0",
 "build_number":0,
 "depends":[
@@ -101471,12 +101491,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"937f8304c7e0f0a795ceb80d1e53a08ab7bd1527fef3f676be0d35a01fb49f62",
-"size":2322048,
-"timestamp":1616782326636,
-"version":"1.4.3"
+"sha256":"5b15ff951ee501fcd733a5ec440b597f53dc48ffe30e7fdc2c70ef07dfb23f30",
+"size":2319012,
+"timestamp":1617200158399,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py38h9544abe_0.tar.bz2":{
+"sqlalchemy-1.4.4-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
@@ -101487,12 +101507,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"765427c3805ea3a81397c0b442690b4708829a37a93d4355ff1624a90437ce72",
-"size":2331249,
-"timestamp":1616782400607,
-"version":"1.4.3"
+"sha256":"f93cc360047bc96f703f08aa473e89d6cdf9c5a85781bd1e36f2be04663102cf",
+"size":2334851,
+"timestamp":1617200155279,
+"version":"1.4.4"
 },
-"sqlalchemy-1.4.3-py39h14843e3_0.tar.bz2":{
+"sqlalchemy-1.4.4-py39h14843e3_0.tar.bz2":{
 "build":"py39h14843e3_0",
 "build_number":0,
 "depends":[
@@ -101503,10 +101523,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"0ce0367784d5db594decbf4790b5b558dc4063a4a55475705ed7f20066d722d9",
-"size":2336666,
-"timestamp":1616782413152,
-"version":"1.4.3"
+"sha256":"c6ab9017d00c3834ad8484f36a7299cc7033d49c004a57d15839613a262e84c0",
+"size":2330839,
+"timestamp":1617200071703,
+"version":"1.4.4"
 },
 "sqlite-3.35.3-h43e6a2a_0.tar.bz2":{
 "build":"h43e6a2a_0",
