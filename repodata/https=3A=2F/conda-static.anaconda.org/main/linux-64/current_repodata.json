@@ -7462,7 +7462,7 @@
 "timestamp":1615054861731,
 "version":"1.8.156"
 },
-"aws-sdk-cpp-1.8.174-hce553d0_0.tar.bz2":{
+"aws-sdk-cpp-1.8.175-hce553d0_0.tar.bz2":{
 "build":"hce553d0_0",
 "build_number":0,
 "depends":[
@@ -7475,10 +7475,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"09d172ac95b6aa5ed0bf4ecfafb19308b0a46d03bcc8d44b27f44af4dbca9a65",
-"size":2441672,
-"timestamp":1617133484311,
-"version":"1.8.174"
+"sha256":"281c7d9ebde0ee08843e6e39c55ee94b1724d32ec2cd52909055b7d317b2215b",
+"size":2439297,
+"timestamp":1617221600812,
+"version":"1.8.175"
 },
 "aws-xray-sdk-2.6.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -93709,6 +93709,58 @@
 "timestamp":1607030039533,
 "version":"2.0.1"
 },
+"wurlitzer-2.1.0-py36h06a4308_0.tar.bz2":{
+"build":"py36h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.6,<3.7.0a0"
+],
+"license":"MIT",
+"name":"wurlitzer",
+"sha256":"b500745ca693e01cfbab3e6148efb8a27ad386f494b656476ac59585e14c23fd",
+"size":13665,
+"timestamp":1617222183401,
+"version":"2.1.0"
+},
+"wurlitzer-2.1.0-py37h06a4308_0.tar.bz2":{
+"build":"py37h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.7,<3.8.0a0"
+],
+"license":"MIT",
+"name":"wurlitzer",
+"sha256":"398daf4631adc6e45a98702ed8153ebb953939ef747846759f676a228824c1b3",
+"size":13724,
+"timestamp":1617224693898,
+"version":"2.1.0"
+},
+"wurlitzer-2.1.0-py38h06a4308_0.tar.bz2":{
+"build":"py38h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0"
+],
+"license":"MIT",
+"name":"wurlitzer",
+"sha256":"90c3d2e4373f1e95ab8889c040980191049f353e9bc768f20deef1ae933b5d44",
+"size":13684,
+"timestamp":1617224697519,
+"version":"2.1.0"
+},
+"wurlitzer-2.1.0-py39h06a4308_0.tar.bz2":{
+"build":"py39h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0"
+],
+"license":"MIT",
+"name":"wurlitzer",
+"sha256":"ba7f4fcc2fffff7a4d5cd19e2ea0df9e2a38f950a6c301b0e4383a71333c8e16",
+"size":13747,
+"timestamp":1617224676532,
+"version":"2.1.0"
+},
 "wxpython-4.0.4-py27hc99224d_0.tar.bz2":{
 "build":"py27hc99224d_0",
 "build_number":0,
@@ -95790,6 +95842,23 @@
 "size":733540,
 "timestamp":1595964883124,
 "version":"1.4.5"
+},
+"zstd-1.4.9-haebb681_0.tar.bz2":{
+"build":"haebb681_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"lz4-c >=1.9.3,<1.10.0a0",
+"xz >=5.2.5,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"zstd",
+"sha256":"d1969321874e6d0a7b9994a043830e453a5caab9c3d89690351ba658700ab611",
+"size":828849,
+"timestamp":1617228573594,
+"version":"1.4.9"
 },
 "zstd-static-1.4.5-he6710b0_0.tar.bz2":{
 "build":"he6710b0_0",
