@@ -44854,19 +44854,19 @@
 "timestamp":1573744137343,
 "version":"2.3.0"
 },
-"libignition-cmake2-2.6.2-h01db608_1.tar.bz2":{
-"build":"h01db608_1",
-"build_number":1,
+"libignition-cmake2-2.7.0-h01db608_0.tar.bz2":{
+"build":"h01db608_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0"
 ],
 "license":"Apache-2.0",
 "name":"libignition-cmake2",
-"sha256":"56ac33e19da26a1379b594b858953d61aef1389a62b1b7e39037d9e6720c34a2",
-"size":241571,
-"timestamp":1610748072889,
-"version":"2.6.2"
+"sha256":"2b3f435f9743add3e42a4e51860eacc26519de87d0af5cf10c816ffbc243559d",
+"size":221994,
+"timestamp":1617177530908,
+"version":"2.7.0"
 },
 "libignition-common3-3.11.1-hccad563_0.tar.bz2":{
 "build":"hccad563_0",
@@ -64175,8 +64175,39 @@
 "timestamp":1604808900216,
 "version":"5.32.0"
 },
-"petsc-3.14.5-h31b4ba7_0.tar.bz2":{
-"build":"h31b4ba7_0",
+"petsc-3.14.6-h4a68c7c_0.tar.bz2":{
+"build":"h4a68c7c_0",
+"build_number":0,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"hypre >=2.18.2,<2.19.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"mpich >=3.4.1,<4.0a0",
+"mumps-mpi >=5.2.1,<5.2.2.0a0",
+"parmetis >=4.0.3,<4.1.0a0",
+"ptscotch >=6.0.9,<6.0.10.0a0",
+"scalapack >=2.0.2,<2.1.0a0",
+"scotch >=6.0.9,<6.0.10.0a0",
+"suitesparse >=5.7.2,<5.8.0a0",
+"superlu",
+"superlu_dist"
+],
+"license":"BSD-2-Clause",
+"name":"petsc",
+"sha256":"0d82ae838a39a4ad6ddba2bb56c4dca879e264878ad76d8e19a45361d94f46b5",
+"size":9782174,
+"timestamp":1617175918735,
+"version":"3.14.6"
+},
+"petsc-3.14.6-h4f168bf_0.tar.bz2":{
+"build":"h4f168bf_0",
 "build_number":0,
 "depends":[
 "hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
@@ -64195,49 +64226,18 @@
 "ptscotch >=6.0.9,<6.0.10.0a0",
 "scalapack >=2.0.2,<2.1.0a0",
 "scotch >=6.0.9,<6.0.10.0a0",
-"suitesparse >=5.6.0,<5.7.0a0",
+"suitesparse >=5.7.2,<5.8.0a0",
 "superlu"
 ],
 "license":"BSD-2-Clause",
 "name":"petsc",
-"sha256":"cdfad97581b45276ae8c14fda4d247a83250a86f6d32db74e939f4d1cfcb4b3d",
-"size":13242735,
-"timestamp":1614862734126,
-"version":"3.14.5"
+"sha256":"476c1f37aad3a7b726640e68c55eb8dc946d7cc513add160d6916e437f680ddf",
+"size":13226619,
+"timestamp":1617177808734,
+"version":"3.14.6"
 },
-"petsc-3.14.5-h63bc62e_0.tar.bz2":{
-"build":"h63bc62e_0",
-"build_number":0,
-"depends":[
-"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
-"hypre >=2.18.2,<2.19.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libcblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=9.3.0",
-"metis >=5.1.0,<5.2.0a0",
-"mpich >=3.4.1,<4.0a0",
-"mumps-mpi >=5.2.1,<5.2.2.0a0",
-"parmetis >=4.0.3,<4.1.0a0",
-"ptscotch >=6.0.9,<6.0.10.0a0",
-"scalapack >=2.0.2,<2.1.0a0",
-"scotch >=6.0.9,<6.0.10.0a0",
-"suitesparse >=5.6.0,<5.7.0a0",
-"superlu",
-"superlu_dist"
-],
-"license":"BSD-2-Clause",
-"name":"petsc",
-"sha256":"6895302a9a12b4de82e5a1e4578c24d3c96683f97772226d081a9556521d8ad2",
-"size":9774350,
-"timestamp":1614862425290,
-"version":"3.14.5"
-},
-"petsc-3.14.5-hb233ee1_0.tar.bz2":{
-"build":"hb233ee1_0",
+"petsc-3.14.6-hcac8233_0.tar.bz2":{
+"build":"hcac8233_0",
 "build_number":0,
 "depends":[
 "hdf5 >=1.10.6,<1.10.7.0a0",
@@ -64256,21 +64256,21 @@
 "ptscotch >=6.0.9,<6.0.10.0a0",
 "scalapack >=2.0.2,<2.1.0a0",
 "scotch >=6.0.9,<6.0.10.0a0",
-"suitesparse >=5.6.0,<5.7.0a0",
+"suitesparse >=5.7.2,<5.8.0a0",
 "superlu"
 ],
 "license":"BSD-2-Clause",
 "name":"petsc",
-"sha256":"2a4767354e528e9051db60d527dd3fd4d6f9f32971511487a6392960f2ad08d8",
-"size":13231655,
-"timestamp":1614862741785,
-"version":"3.14.5"
+"sha256":"08fed20c8862626954bd1ce6affeffac453e40024145b2ef8c97ea91e0fdd5ac",
+"size":13234560,
+"timestamp":1617178006207,
+"version":"3.14.6"
 },
-"petsc-3.14.5-he0cd343_0.tar.bz2":{
-"build":"he0cd343_0",
+"petsc-3.14.6-hd4a82c8_0.tar.bz2":{
+"build":"hd4a82c8_0",
 "build_number":0,
 "depends":[
-"hdf5 >=1.10.6,<1.10.7.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
 "hypre >=2.18.2,<2.19.0a0",
 "libblas >=3.8.0,<4.0a0",
 "libcblas >=3.8.0,<4.0a0",
@@ -64286,16 +64286,16 @@
 "ptscotch >=6.0.9,<6.0.10.0a0",
 "scalapack >=2.0.2,<2.1.0a0",
 "scotch >=6.0.9,<6.0.10.0a0",
-"suitesparse >=5.6.0,<5.7.0a0",
+"suitesparse >=5.7.2,<5.8.0a0",
 "superlu",
 "superlu_dist"
 ],
 "license":"BSD-2-Clause",
 "name":"petsc",
-"sha256":"05640ff1966edb73a5a33ed00df4466d2b22602f6880d0ead8fb66760c8eace2",
-"size":9786204,
-"timestamp":1614863222400,
-"version":"3.14.5"
+"sha256":"3199975906fee2ba5ba93d5de7b02ff7b86113cdd0515f2d0349985bcb305acd",
+"size":9795880,
+"timestamp":1617175820097,
+"version":"3.14.6"
 },
 "petsc4py-3.14.1-py36h1a69d87_1.tar.bz2":{
 "build":"py36h1a69d87_1",

@@ -29004,6 +29004,26 @@
 "timestamp":1616428639165,
 "version":"2.42.4"
 },
+"gensim-3.8.3-py36h08d3667_3.tar.bz2":{
+"build":"py36h08d3667_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"scipy >=0.18.1",
+"six >=1.5.0",
+"smart_open >=1.8.1"
+],
+"license":"LGPL-2.1-only",
+"name":"gensim",
+"sha256":"77764b9febf9e821c33d2872a13795e42714245ba8d50478e210bb320019d987",
+"size":23997465,
+"timestamp":1617175554881,
+"version":"3.8.3"
+},
 "gensim-3.8.3-py36hd724563_2.tar.bz2":{
 "build":"py36hd724563_2",
 "build_number":2,
@@ -29042,6 +29062,66 @@
 "sha256":"2abcfd92cccd375957206b3bac9b2e25e64328df57db6c2e26ef81d54e329a77",
 "size":23913991,
 "timestamp":1589443571075,
+"version":"3.8.3"
+},
+"gensim-3.8.3-py37hc9b93fd_3.tar.bz2":{
+"build":"py37hc9b93fd_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.20.2,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"scipy >=0.18.1",
+"six >=1.5.0",
+"smart_open >=1.8.1"
+],
+"license":"LGPL-2.1-only",
+"name":"gensim",
+"sha256":"d1c812a17cbb2325a02441bb0a5263f6c9723be5207053ef2bfca5fc356a21cd",
+"size":23795527,
+"timestamp":1617176386836,
+"version":"3.8.3"
+},
+"gensim-3.8.3-py38ha35a538_3.tar.bz2":{
+"build":"py38ha35a538_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.20.2,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy >=0.18.1",
+"six >=1.5.0",
+"smart_open >=1.8.1"
+],
+"license":"LGPL-2.1-only",
+"name":"gensim",
+"sha256":"b75a7a45e3a5f4dd814887c1b49c208f8b1522bd46372fd6c999b9dcd4d6829e",
+"size":23889567,
+"timestamp":1617177131883,
+"version":"3.8.3"
+},
+"gensim-3.8.3-py39had50986_3.tar.bz2":{
+"build":"py39had50986_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.20.2,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy >=0.18.1",
+"six >=1.5.0",
+"smart_open >=1.8.1"
+],
+"license":"LGPL-2.1-only",
+"name":"gensim",
+"sha256":"aaa1b9d6c3067c28b59a08aa72c830f57d8482e87977d294f49d93cff0ebe72b",
+"size":23793751,
+"timestamp":1617177927737,
 "version":"3.8.3"
 },
 "geographiclib-cpp-1.51-h2acdbc0_1.tar.bz2":{
@@ -47373,19 +47453,19 @@
 "timestamp":1573744337624,
 "version":"2.3.0"
 },
-"libignition-cmake2-2.6.2-h3b9df90_1.tar.bz2":{
-"build":"h3b9df90_1",
-"build_number":1,
+"libignition-cmake2-2.7.0-h3b9df90_0.tar.bz2":{
+"build":"h3b9df90_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0"
 ],
 "license":"Apache-2.0",
 "name":"libignition-cmake2",
-"sha256":"d18c101fe87416709cb515079f173bc0d8b79eb8cce1a8afca51db39bb6d6002",
-"size":229753,
-"timestamp":1610746933943,
-"version":"2.6.2"
+"sha256":"18a697061780ed36170cc994d5db01ff7320b13f243647981890ac63be9fa720",
+"size":235378,
+"timestamp":1617177699081,
+"version":"2.7.0"
 },
 "libignition-common3-3.11.1-h154c2bb_0.tar.bz2":{
 "build":"h154c2bb_0",
@@ -67669,6 +67749,36 @@
 "size":13839212,
 "timestamp":1604807646271,
 "version":"5.32.0"
+},
+"petsc-3.14.6-h0159e13_0.tar.bz2":{
+"build":"h0159e13_0",
+"build_number":0,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"hypre >=2.18.2,<2.19.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"mumps-mpi >=5.2.1,<5.2.2.0a0",
+"openmpi >=4.1.0,<5.0a0",
+"parmetis >=4.0.3,<4.1.0a0",
+"ptscotch >=6.0.9,<6.0.10.0a0",
+"scalapack >=2.0.2,<2.1.0a0",
+"scotch >=6.0.9,<6.0.10.0a0",
+"suitesparse >=5.7.2,<5.8.0a0",
+"superlu"
+],
+"license":"BSD-2-Clause",
+"name":"petsc",
+"sha256":"89d2727a557c50105a54fb4485609822c1f743365397c01b2644010ff51c7913",
+"size":13256323,
+"timestamp":1617175378364,
+"version":"3.14.6"
 },
 "petsc-3.14.6-h6cc5dad_0.tar.bz2":{
 "build":"h6cc5dad_0",
