@@ -19239,22 +19239,22 @@
 "timestamp":1582789501766,
 "version":"7.0.0"
 },
-"cudatoolkit-11.2.1-h4f55fa5_8.tar.bz2":{
-"build":"h4f55fa5_8",
+"cudatoolkit-11.2.2-h1e649d6_8.tar.bz2":{
+"build":"h1e649d6_8",
 "build_number":8,
 "constrains":[
-"__cuda >=11.2.1"
+"__cuda >=11.2.2"
 ],
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0"
 ],
-"license":"NVIDIA End User License Agreement",
+"license":"LicenseRef-NVIDIA-End-User-License-Agreement",
 "name":"cudatoolkit",
-"sha256":"64fdbb9f7b5817fe570bc19a9c928ad258786c1def9ef28bd425e4610899fb96",
-"size":920844727,
-"timestamp":1613148278325,
-"version":"11.2.1"
+"sha256":"a5d90ab16a397afebf3cac4ce8f48a8a44e66e9432cce3bd45002310b28f5382",
+"size":921163693,
+"timestamp":1617211191003,
+"version":"11.2.2"
 },
 "cunit-2.1.3-hb209c28_1001.tar.bz2":{
 "build":"hb209c28_1001",
@@ -19302,22 +19302,22 @@
 "timestamp":1561146593715,
 "version":"0.9"
 },
-"curl-7.75.0-h86bdb50_0.tar.bz2":{
+"curl-7.76.0-h86bdb50_0.tar.bz2":{
 "build":"h86bdb50_0",
 "build_number":0,
 "depends":[
 "krb5 >=1.17.1,<1.18.0a0",
-"libcurl 7.75.0 hf726fd8_0",
+"libcurl 7.76.0 hf726fd8_0",
 "libgcc-ng >=9.3.0",
 "libssh2 >=1.9.0,<2.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"curl",
 "name":"curl",
-"sha256":"28b8dc0542c9f060fe5676b6bde2cf7aa34533686e8eb5328097a325e78e59a0",
-"size":94607,
-"timestamp":1614962511066,
-"version":"7.75.0"
+"sha256":"e250fc5ddc7650520731f6b18f89db9ff5c11282dbe25e40ff8556f3067119a3",
+"size":95363,
+"timestamp":1617213203905,
+"version":"7.76.0"
 },
 "cvxopt-1.2.6-py36h3571a5e_0.tar.bz2":{
 "build":"py36h3571a5e_0",
@@ -45489,7 +45489,7 @@
 "timestamp":1572469439505,
 "version":"2.2.12"
 },
-"libcurl-7.75.0-hf726fd8_0.tar.bz2":{
+"libcurl-7.76.0-hf726fd8_0.tar.bz2":{
 "build":"hf726fd8_0",
 "build_number":0,
 "depends":[
@@ -45497,33 +45497,33 @@
 "libgcc-ng >=9.3.0",
 "libnghttp2 >=1.43.0,<2.0a0",
 "libssh2 >=1.9.0,<2.0a0",
-"openssl >=1.1.1j,<1.1.2a",
+"openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"curl",
 "name":"libcurl",
-"sha256":"7afa6f1fb1b0cf07b4b08cff661cdb73a4b6b2a68a0b19e70cb2b69643aaa2a3",
-"size":369159,
-"timestamp":1614962482785,
-"version":"7.75.0"
+"sha256":"f2ad569557de59d89999d6155166ed8bc52d80fdd79b051a33908f7b04dc2a93",
+"size":365625,
+"timestamp":1617213169617,
+"version":"7.76.0"
 },
-"libcurl-static-7.75.0-hf726fd8_0.tar.bz2":{
+"libcurl-static-7.76.0-hf726fd8_0.tar.bz2":{
 "build":"hf726fd8_0",
 "build_number":0,
 "depends":[
 "krb5 >=1.17.1,<1.18.0a0",
-"libcurl 7.75.0 hf726fd8_0",
+"libcurl 7.76.0 hf726fd8_0",
 "libgcc-ng >=9.3.0",
 "libssh2 >=1.9.0,<2.0a0",
-"openssl >=1.1.1j,<1.1.2a",
+"openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"curl",
 "name":"libcurl-static",
-"sha256":"824ad65b238adbb6c788e039dcf00d7dce5cbd823c16177fdf857914bce40fe6",
-"size":424667,
-"timestamp":1614962548029,
-"version":"7.75.0"
+"sha256":"f12cdf8b88b9e0675023359503943d09b78420d877ed6f7a7160f327431bc231",
+"size":426287,
+"timestamp":1617213231259,
+"version":"7.76.0"
 },
 "libcxx-8.0.0-3.tar.bz2":{
 "build":"3",
@@ -54162,154 +54162,68 @@
 "timestamp":1610128033521,
 "version":"1.1.1"
 },
-"matplotlib-3.3.4-py36h270354c_0.tar.bz2":{
-"build":"py36h270354c_0",
-"build_number":0,
-"depends":[
-"matplotlib-base >=3.3.4,<3.3.5.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"LicenseRef-PSF-based",
-"name":"matplotlib",
-"sha256":"6f0562c9d87e444dcf5ca0686840e691606871d29bd4fdfb8b5e3390116685ef",
-"size":6461,
-"timestamp":1611859627428,
-"version":"3.3.4"
-},
-"matplotlib-3.3.4-py36he7cccf2_0.tar.bz2":{
-"build":"py36he7cccf2_0",
-"build_number":0,
-"depends":[
-"matplotlib-base >=3.3.4,<3.3.5.0a0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"LicenseRef-PSF-based",
-"name":"matplotlib",
-"sha256":"d36975a6d2809390fd51fb994a41649b248c38cce82ada114d0729384e01c0e7",
-"size":6512,
-"timestamp":1611859656997,
-"version":"3.3.4"
-},
-"matplotlib-3.3.4-py37h35e4cab_0.tar.bz2":{
+"matplotlib-3.4.1-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
-"matplotlib-base >=3.3.4,<3.3.5.0a0",
+"matplotlib-base >=3.4.1,<3.4.2.0a0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
 ],
 "license":"LicenseRef-PSF-based",
 "name":"matplotlib",
-"sha256":"de3e117440ff9fc22f94a751713d4682317bfe00f49c380d6adc3c0e6f46582b",
-"size":6468,
-"timestamp":1611859658740,
-"version":"3.3.4"
+"sha256":"467c2aaba7ad05401daa33ffdac699f85def2f2409ebe0fe9812c199ab3cf026",
+"size":6849,
+"timestamp":1617213233404,
+"version":"3.4.1"
 },
-"matplotlib-3.3.4-py37hadc05a3_0.tar.bz2":{
+"matplotlib-3.4.1-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
-"matplotlib-base >=3.3.4,<3.3.5.0a0",
+"matplotlib-base >=3.4.1,<3.4.2.0a0",
 "pypy3.7 >=7.3.3",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"LicenseRef-PSF-based",
 "name":"matplotlib",
-"sha256":"f0d51836aa8251397cce17913ad25cfdb8dcecf285aee8fa054b05c40d95aeb4",
-"size":6545,
-"timestamp":1611859674436,
-"version":"3.3.4"
+"sha256":"63207bff479e30830dc3911865561712ae26ee29910b9b79292cf53d39aa889f",
+"size":6908,
+"timestamp":1617213617371,
+"version":"3.4.1"
 },
-"matplotlib-3.3.4-py38hf8b3453_0.tar.bz2":{
+"matplotlib-3.4.1-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
-"matplotlib-base >=3.3.4,<3.3.5.0a0",
+"matplotlib-base >=3.4.1,<3.4.2.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"LicenseRef-PSF-based",
 "name":"matplotlib",
-"sha256":"33a16f5edc42476602986ce5d8582744bce4612f39c9c5501129c731c20a722f",
-"size":6459,
-"timestamp":1611859651350,
-"version":"3.3.4"
+"sha256":"83f00db80b99ab52f7dad112f0cd6810b88fccd5420b5d367e5adc3ccdf82c54",
+"size":6841,
+"timestamp":1617213228965,
+"version":"3.4.1"
 },
-"matplotlib-3.3.4-py39hc1b9086_0.tar.bz2":{
+"matplotlib-3.4.1-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
-"matplotlib-base >=3.3.4,<3.3.5.0a0",
+"matplotlib-base >=3.4.1,<3.4.2.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"LicenseRef-PSF-based",
 "name":"matplotlib",
-"sha256":"62834d95c531ae2aa04b8d781cc3ceb82239deeb07aacc6de33696ef0acbcd19",
-"size":6486,
-"timestamp":1611859658728,
-"version":"3.3.4"
+"sha256":"caf5f77694188688b267a3a95be07aac480389c65d0509c77ade49a2c913be2e",
+"size":6857,
+"timestamp":1617213617739,
+"version":"3.4.1"
 },
-"matplotlib-base-3.3.4-py36h3c00b15_0.tar.bz2":{
-"build":"py36h3c00b15_0",
-"build_number":0,
-"depends":[
-"certifi >=2020.06.20",
-"cycler >=0.10",
-"freetype >=2.10.4,<3.0a0",
-"kiwisolver >=1.0.1",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
-"pillow >=6.2.0",
-"pyparsing >=2.0.3,!=2.0.4,!=2.1.2,!=2.1.6",
-"python >=3.6,<3.7.0a0",
-"python-dateutil >=2.1",
-"python_abi 3.6.* *_cp36m",
-"setuptools",
-"tk >=8.6.10,<8.7.0a0",
-"tornado"
-],
-"license":"LicenseRef-PSF-based",
-"name":"matplotlib-base",
-"sha256":"12796374a6352beb4ecd1b051ae2811e0c117880703a56e3c4acddf8fd64abb0",
-"size":7099871,
-"timestamp":1611859560682,
-"version":"3.3.4"
-},
-"matplotlib-base-3.3.4-py36h4c2baec_0.tar.bz2":{
-"build":"py36h4c2baec_0",
-"build_number":0,
-"depends":[
-"certifi >=2020.06.20",
-"cycler >=0.10",
-"freetype >=2.10.4,<3.0a0",
-"kiwisolver >=1.0.1",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.18.5,<2.0a0",
-"pillow >=6.2.0",
-"pyparsing >=2.0.3,!=2.0.4,!=2.1.2,!=2.1.6",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python-dateutil >=2.1",
-"python_abi 3.6 *_pypy36_pp73",
-"setuptools",
-"tk >=8.6.10,<8.7.0a0",
-"tornado"
-],
-"license":"LicenseRef-PSF-based",
-"name":"matplotlib-base",
-"sha256":"72fa01c79d6a06a330a200a34d98f8181431bcab013026838e461f74be6d284b",
-"size":7169911,
-"timestamp":1611859577133,
-"version":"3.3.4"
-},
-"matplotlib-base-3.3.4-py37h1af0afc_0.tar.bz2":{
+"matplotlib-base-3.4.1-py37h1af0afc_0.tar.bz2":{
 "build":"py37h1af0afc_0",
 "build_number":0,
 "depends":[
@@ -54321,7 +54235,7 @@
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
 "pillow >=6.2.0",
-"pyparsing >=2.0.3,!=2.0.4,!=2.1.2,!=2.1.6",
+"pyparsing >=2.2.1",
 "pypy3.7 >=7.3.3",
 "python >=3.7,<3.8.0a0",
 "python-dateutil >=2.1",
@@ -54332,13 +54246,13 @@
 ],
 "license":"LicenseRef-PSF-based",
 "name":"matplotlib-base",
-"sha256":"cfd74231a052f52755539dc29f1dca6d8beb473ee704cabcac2e64fec51e06ca",
-"size":7103074,
-"timestamp":1611859595632,
-"version":"3.3.4"
+"sha256":"4f984753a0e42bcfa9f82e7fb5b03509b2e75fc6bada03a6af4cfd0dab1099c4",
+"size":7659316,
+"timestamp":1617213574644,
+"version":"3.4.1"
 },
-"matplotlib-base-3.3.4-py37h95ca415_0.tar.bz2":{
-"build":"py37h95ca415_0",
+"matplotlib-base-3.4.1-py37hf057fce_0.tar.bz2":{
+"build":"py37hf057fce_0",
 "build_number":0,
 "depends":[
 "certifi >=2020.06.20",
@@ -54347,9 +54261,9 @@
 "kiwisolver >=1.0.1",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "pillow >=6.2.0",
-"pyparsing >=2.0.3,!=2.0.4,!=2.1.2,!=2.1.6",
+"pyparsing >=2.2.1",
 "python >=3.7,<3.8.0a0",
 "python-dateutil >=2.1",
 "python_abi 3.7.* *_cp37m",
@@ -54359,13 +54273,13 @@
 ],
 "license":"LicenseRef-PSF-based",
 "name":"matplotlib-base",
-"sha256":"69f24f67ecd29ebd9f667de166f9686a0acfe7727b94174ae3b31f33a330ca49",
-"size":7068856,
-"timestamp":1611859585108,
-"version":"3.3.4"
+"sha256":"09e61cecad259a4fcc3e157cda273d8f95e53a97f99db7e547e8fac4b787063e",
+"size":7601995,
+"timestamp":1617213196765,
+"version":"3.4.1"
 },
-"matplotlib-base-3.3.4-py38h0a39d5d_0.tar.bz2":{
-"build":"py38h0a39d5d_0",
+"matplotlib-base-3.4.1-py38h86b1c06_0.tar.bz2":{
+"build":"py38h86b1c06_0",
 "build_number":0,
 "depends":[
 "certifi >=2020.06.20",
@@ -54374,9 +54288,9 @@
 "kiwisolver >=1.0.1",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"numpy >=1.16.6,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "pillow >=6.2.0",
-"pyparsing >=2.0.3,!=2.0.4,!=2.1.2,!=2.1.6",
+"pyparsing >=2.2.1",
 "python >=3.8,<3.9.0a0",
 "python-dateutil >=2.1",
 "python_abi 3.8.* *_cp38",
@@ -54386,12 +54300,12 @@
 ],
 "license":"LicenseRef-PSF-based",
 "name":"matplotlib-base",
-"sha256":"b18c8fe46bc7b87e548c3cc739f6326c0b527386ef4e25dfad3e700733b98348",
-"size":7117139,
-"timestamp":1611859580746,
-"version":"3.3.4"
+"sha256":"6570b3783e6979030684f5fba6380c8a4981c3847c11bf30e27f2c5ee9dca6ac",
+"size":7613517,
+"timestamp":1617213192973,
+"version":"3.4.1"
 },
-"matplotlib-base-3.3.4-py39hf26b4c6_0.tar.bz2":{
+"matplotlib-base-3.4.1-py39hf26b4c6_0.tar.bz2":{
 "build":"py39hf26b4c6_0",
 "build_number":0,
 "depends":[
@@ -54403,7 +54317,7 @@
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
 "pillow >=6.2.0",
-"pyparsing >=2.0.3,!=2.0.4,!=2.1.2,!=2.1.6",
+"pyparsing >=2.2.1",
 "python >=3.9,<3.10.0a0",
 "python-dateutil >=2.1",
 "python_abi 3.9.* *_cp39",
@@ -54413,10 +54327,10 @@
 ],
 "license":"LicenseRef-PSF-based",
 "name":"matplotlib-base",
-"sha256":"0410a0b315a50ecba9ac8245fcbbf10413509768f19a5512dc5e085f981352e3",
-"size":7170243,
-"timestamp":1611859584509,
-"version":"3.3.4"
+"sha256":"d10de1f29e77d39483942cdf7bfe3914cdccaff5c3a2ac0219ad4488b5319572",
+"size":7667892,
+"timestamp":1617213581056,
+"version":"3.4.1"
 },
 "maturin-0.9.1-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
@@ -110232,20 +110146,20 @@
 "timestamp":1616020548040,
 "version":"7.6.1"
 },
-"vsce-1.87.0-h5b768f2_0.tar.bz2":{
+"vsce-1.87.1-h5b768f2_0.tar.bz2":{
 "build":"h5b768f2_0",
 "build_number":0,
 "depends":[
-"nodejs >=15.10.0,<16.0a0"
+"nodejs >=15.12.0,<16.0a0"
 ],
 "license":"MIT",
 "name":"vsce",
-"sha256":"42b4f08c79022dfe70f752a2bfaad8e9fb204ebbbc78f7c587b03fd966fb5711",
-"size":1324304,
-"timestamp":1615731159062,
-"version":"1.87.0"
+"sha256":"eaaee1413bb9383914992acbfb4ca4d830bc176ca73eb08d7336b8195377575a",
+"size":1316354,
+"timestamp":1617215446514,
+"version":"1.87.1"
 },
-"vsce-1.87.0-h9abf1ab_0.tar.bz2":{
+"vsce-1.87.1-h9abf1ab_0.tar.bz2":{
 "build":"h9abf1ab_0",
 "build_number":0,
 "depends":[
@@ -110253,12 +110167,12 @@
 ],
 "license":"MIT",
 "name":"vsce",
-"sha256":"bd5d0b3173ffb51ab069f080ad9afa513389cf712b35023a2b204870e81a3fc6",
-"size":1321941,
-"timestamp":1615731404815,
-"version":"1.87.0"
+"sha256":"6f3976a3217d7ba2be8cea80279780d5a09dd6eb9a1887d58ec72a2786ed72e7",
+"size":1335156,
+"timestamp":1617215459527,
+"version":"1.87.1"
 },
-"vsce-1.87.0-hfb1ecab_0.tar.bz2":{
+"vsce-1.87.1-hfb1ecab_0.tar.bz2":{
 "build":"hfb1ecab_0",
 "build_number":0,
 "depends":[
@@ -110266,10 +110180,10 @@
 ],
 "license":"MIT",
 "name":"vsce",
-"sha256":"e9958ba5f1f7bced08ae52b716d4c35f22d43a3767ed2c3a8087ba1104aed388",
-"size":1320124,
-"timestamp":1615731149540,
-"version":"1.87.0"
+"sha256":"37eb2c15cc8ba7e1d4e24a7016bbecd6c78abeb7edf8120fc8a844d73b0e2d4b",
+"size":1319177,
+"timestamp":1617215378462,
+"version":"1.87.1"
 },
 "vtk-9.0.1-no_osmesa_py36h4831313_105.tar.bz2":{
 "build":"no_osmesa_py36h4831313_105",
