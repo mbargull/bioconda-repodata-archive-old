@@ -33632,6 +33632,35 @@
 "timestamp":1609881402580,
 "version":"4.5.0"
 },
+"libopencv-4.5.1-py38hb421fe0_1.tar.bz2":{
+"build":"py38hb421fe0_1",
+"build_number":1,
+"depends":[
+"ffmpeg >=4.3.1,<5.0a0",
+"freetype >=2.10.4,<3.0a0",
+"harfbuzz >=2.8.0,<3.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jasper >=2.0.14,<3.0a0",
+"jpeg >=9d,<10a",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libglib >=2.68.0,<3.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"liblapacke >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libprotobuf >=3.15.6,<3.16.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libwebp-base >=1.1.0,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libopencv",
+"sha256":"46ab4dfcc29d86e20b0cd72681d64460e5d49908005003317b19718a514e519d",
+"size":17298620,
+"timestamp":1617301786966,
+"version":"4.5.1"
+},
 "libopencv-4.5.1-py38hc2fea30_0.tar.bz2":{
 "build":"py38hc2fea30_0",
 "build_number":0,
@@ -33658,6 +33687,35 @@
 "sha256":"4259dc25172098ca809aa83c12ec17eb00ff68fd6c171511cf208d29d77d7522",
 "size":17827286,
 "timestamp":1612625950386,
+"version":"4.5.1"
+},
+"libopencv-4.5.1-py39h9e916e0_1.tar.bz2":{
+"build":"py39h9e916e0_1",
+"build_number":1,
+"depends":[
+"ffmpeg >=4.3.1,<5.0a0",
+"freetype >=2.10.4,<3.0a0",
+"harfbuzz >=2.8.0,<3.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jasper >=2.0.14,<3.0a0",
+"jpeg >=9d,<10a",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libglib >=2.68.0,<3.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"liblapacke >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libprotobuf >=3.15.6,<3.16.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libwebp-base >=1.1.0,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libopencv",
+"sha256":"ca2bf3f750b91cfbf997dbf0ba62d7f7d115f604ab2a5a36e1e2f0c8299b82a8",
+"size":17313754,
+"timestamp":1617301694868,
 "version":"4.5.1"
 },
 "libopencv-4.5.1-py39hd230a0b_0.tar.bz2":{
@@ -42613,6 +42671,21 @@
 "timestamp":1612626013475,
 "version":"4.5.1"
 },
+"opencv-4.5.1-py38h150bfb4_1.tar.bz2":{
+"build":"py38h150bfb4_1",
+"build_number":1,
+"depends":[
+"libopencv 4.5.1 py38hb421fe0_1",
+"py-opencv 4.5.1 py38hab544c7_1",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"opencv",
+"sha256":"2d772cf7760befdd677b1dc31f2f385bdf05db3b9e50fd34ebe105fce59e4279",
+"size":21793,
+"timestamp":1617301851224,
+"version":"4.5.1"
+},
 "opencv-4.5.1-py39hdf13c20_0.tar.bz2":{
 "build":"py39hdf13c20_0",
 "build_number":0,
@@ -42626,6 +42699,21 @@
 "sha256":"15a78f4952dadce8da64bceecedf5cd578be730fd76b76ac3c596ac6c50bb427",
 "size":21700,
 "timestamp":1612626113521,
+"version":"4.5.1"
+},
+"opencv-4.5.1-py39hdf13c20_1.tar.bz2":{
+"build":"py39hdf13c20_1",
+"build_number":1,
+"depends":[
+"libopencv 4.5.1 py39h9e916e0_1",
+"py-opencv 4.5.1 py39hfa6204d_1",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"opencv",
+"sha256":"28078ee0176b2eaf2690c1d5f79e9563f6d1abb63e8dd18a41c21671cba5a90f",
+"size":21795,
+"timestamp":1617301763506,
 "version":"4.5.1"
 },
 "openexr-2.5.3-h0238b49_1.tar.bz2":{
@@ -47185,6 +47273,22 @@
 "timestamp":1612625990160,
 "version":"4.5.1"
 },
+"py-opencv-4.5.1-py38hab544c7_1.tar.bz2":{
+"build":"py38hab544c7_1",
+"build_number":1,
+"depends":[
+"libopencv 4.5.1 py38hb421fe0_1",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"py-opencv",
+"sha256":"1f32ff9fd4a9c251dff8c42f147133fd3ee33a1558c6199ececc9dcd4d1b0df2",
+"size":1151939,
+"timestamp":1617301827542,
+"version":"4.5.1"
+},
 "py-opencv-4.5.1-py39hfa6204d_0.tar.bz2":{
 "build":"py39hfa6204d_0",
 "build_number":0,
@@ -47199,6 +47303,22 @@
 "sha256":"427710b9f53007f49dcd2020ba340611f0a0cfe43caa3588d978e9cdcfc8dda9",
 "size":1152437,
 "timestamp":1612626092068,
+"version":"4.5.1"
+},
+"py-opencv-4.5.1-py39hfa6204d_1.tar.bz2":{
+"build":"py39hfa6204d_1",
+"build_number":1,
+"depends":[
+"libopencv 4.5.1 py39h9e916e0_1",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"py-opencv",
+"sha256":"b9444391ece43dbd7707f5bafbd214013c4b6ffe532d226321b11c303b132f07",
+"size":1152677,
+"timestamp":1617301737522,
 "version":"4.5.1"
 },
 "py-plumed-2.7.0-py38h3f7e68f_0.tar.bz2":{
