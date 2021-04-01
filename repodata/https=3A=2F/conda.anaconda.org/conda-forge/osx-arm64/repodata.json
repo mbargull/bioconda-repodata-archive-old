@@ -68622,6 +68622,37 @@
 "timestamp":1607379904979,
 "version":"0.5.5"
 },
+"zfp-0.5.5-hbdafb3b_5.tar.bz2":{
+"build":"hbdafb3b_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"zfp",
+"sha256":"44bbbde4b0dc5e1ba3fde809f6111acde8a1616b256ab931fa84a182fabc1bb5",
+"size":166611,
+"timestamp":1617295755693,
+"version":"0.5.5"
+},
+"zfpy-0.5.5-py38h3777fb4_5.tar.bz2":{
+"build":"py38h3777fb4_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zfp 0.5.5 hbdafb3b_5"
+],
+"license":"BSD-3-Clause",
+"name":"zfpy",
+"sha256":"fc68acb59382b24193e53dc3bf2b89b581c30ab3dd422876b7f04b19384e8e8e",
+"size":84134,
+"timestamp":1617295886655,
+"version":"0.5.5"
+},
 "zfpy-0.5.5-py38h9b9bf68_4.tar.bz2":{
 "build":"py38h9b9bf68_4",
 "build_number":4,
@@ -68637,6 +68668,23 @@
 "sha256":"9f559b0373dd1d30813aa3c48f2137e235358ccb84df3c8a23d3467bace1ff37",
 "size":84127,
 "timestamp":1607380029644,
+"version":"0.5.5"
+},
+"zfpy-0.5.5-py39h7f752ed_5.tar.bz2":{
+"build":"py39h7f752ed_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zfp 0.5.5 hbdafb3b_5"
+],
+"license":"BSD-3-Clause",
+"name":"zfpy",
+"sha256":"1088a0b1c3893553db098908ff4c326e7c87c26a7e7cbb14d50194f7dda301c1",
+"size":87371,
+"timestamp":1617296000497,
 "version":"0.5.5"
 },
 "zfpy-0.5.5-py39ha4bedbf_4.tar.bz2":{
