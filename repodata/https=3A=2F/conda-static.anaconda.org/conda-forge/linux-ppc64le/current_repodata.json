@@ -28928,10 +28928,11 @@
 "timestamp":1616428639165,
 "version":"2.42.4"
 },
-"gensim-3.8.3-py36h08d3667_3.tar.bz2":{
-"build":"py36h08d3667_3",
-"build_number":3,
+"gensim-4.0.0-py36h08d3667_0.tar.bz2":{
+"build":"py36h08d3667_0",
+"build_number":0,
 "depends":[
+"dataclasses",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
@@ -28943,114 +28944,36 @@
 ],
 "license":"LGPL-2.1-only",
 "name":"gensim",
-"sha256":"77764b9febf9e821c33d2872a13795e42714245ba8d50478e210bb320019d987",
-"size":23997465,
-"timestamp":1617175554881,
-"version":"3.8.3"
+"sha256":"e9ed4b63acf94650c49f6ab950ef8860274ecc5e871510630d9b1f83b13b0dc6",
+"size":23411525,
+"timestamp":1617252924242,
+"version":"4.0.0"
 },
-"gensim-3.8.3-py36h08d3667_4.tar.bz2":{
-"build":"py36h08d3667_4",
-"build_number":4,
+"gensim-4.0.0-py36hdee431b_0.tar.bz2":{
+"build":"py36hdee431b_0",
+"build_number":0,
 "depends":[
+"dataclasses",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
+"pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
+"python_abi 3.6 *_pypy36_pp73",
 "scipy >=0.18.1",
 "six >=1.5.0",
 "smart_open >=1.8.1"
 ],
 "license":"LGPL-2.1-only",
 "name":"gensim",
-"sha256":"2bd9281ea94549e11043c298c8ea844074062b5e61ee687e662586b2709361c9",
-"size":24005212,
-"timestamp":1617198200623,
-"version":"3.8.3"
+"sha256":"66b999369ced7557ccffa60b2f773a06c1405118c5d28a305d8b6b01fef0e500",
+"size":23493101,
+"timestamp":1617252094678,
+"version":"4.0.0"
 },
-"gensim-3.8.3-py36hd724563_2.tar.bz2":{
-"build":"py36hd724563_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.2.0",
-"libstdcxx-ng >=8.2.0",
-"numpy >=1.18.1,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"scipy >=0.18.1",
-"six >=1.5.0",
-"smart_open >=1.2.1"
-],
-"license":"LGPL-2.1-only",
-"name":"gensim",
-"sha256":"31030ed7f3fb2cdfd625fd6228a2df9db475de3e4dbbb9d63a63cbaf5324bda0",
-"size":23896025,
-"timestamp":1589441627530,
-"version":"3.8.3"
-},
-"gensim-3.8.3-py37hb809cae_2.tar.bz2":{
-"build":"py37hb809cae_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.2.0",
-"libstdcxx-ng >=8.2.0",
-"numpy >=1.18.4,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"scipy >=0.18.1",
-"six >=1.5.0",
-"smart_open >=1.2.1"
-],
-"license":"LGPL-2.1-only",
-"name":"gensim",
-"sha256":"2abcfd92cccd375957206b3bac9b2e25e64328df57db6c2e26ef81d54e329a77",
-"size":23913991,
-"timestamp":1589443571075,
-"version":"3.8.3"
-},
-"gensim-3.8.3-py37hc9b93fd_3.tar.bz2":{
-"build":"py37hc9b93fd_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.20.2,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"scipy >=0.18.1",
-"six >=1.5.0",
-"smart_open >=1.8.1"
-],
-"license":"LGPL-2.1-only",
-"name":"gensim",
-"sha256":"d1c812a17cbb2325a02441bb0a5263f6c9723be5207053ef2bfca5fc356a21cd",
-"size":23795527,
-"timestamp":1617176386836,
-"version":"3.8.3"
-},
-"gensim-3.8.3-py37hc9b93fd_4.tar.bz2":{
-"build":"py37hc9b93fd_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.20.2,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"scipy >=0.18.1",
-"six >=1.5.0",
-"smart_open >=1.8.1"
-],
-"license":"LGPL-2.1-only",
-"name":"gensim",
-"sha256":"138179c1b6ae490e1845f0f002254eab9b75f64378557f3dbeb6fe2f6d37001c",
-"size":23949695,
-"timestamp":1617199147281,
-"version":"3.8.3"
-},
-"gensim-3.8.3-py38ha35a538_3.tar.bz2":{
-"build":"py38ha35a538_3",
-"build_number":3,
+"gensim-4.0.0-py38ha35a538_0.tar.bz2":{
+"build":"py38ha35a538_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -29063,70 +28986,10 @@
 ],
 "license":"LGPL-2.1-only",
 "name":"gensim",
-"sha256":"b75a7a45e3a5f4dd814887c1b49c208f8b1522bd46372fd6c999b9dcd4d6829e",
-"size":23889567,
-"timestamp":1617177131883,
-"version":"3.8.3"
-},
-"gensim-3.8.3-py38ha35a538_4.tar.bz2":{
-"build":"py38ha35a538_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.20.2,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"scipy >=0.18.1",
-"six >=1.5.0",
-"smart_open >=1.8.1"
-],
-"license":"LGPL-2.1-only",
-"name":"gensim",
-"sha256":"59bfe1f3329a8248a168aae4313743f0d48dcb008df8c7e176debd89a3dcd8df",
-"size":23941068,
-"timestamp":1617199996542,
-"version":"3.8.3"
-},
-"gensim-3.8.3-py39had50986_3.tar.bz2":{
-"build":"py39had50986_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.20.2,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"scipy >=0.18.1",
-"six >=1.5.0",
-"smart_open >=1.8.1"
-],
-"license":"LGPL-2.1-only",
-"name":"gensim",
-"sha256":"aaa1b9d6c3067c28b59a08aa72c830f57d8482e87977d294f49d93cff0ebe72b",
-"size":23793751,
-"timestamp":1617177927737,
-"version":"3.8.3"
-},
-"gensim-3.8.3-py39had50986_4.tar.bz2":{
-"build":"py39had50986_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.20.2,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"scipy >=0.18.1",
-"six >=1.5.0",
-"smart_open >=1.8.1"
-],
-"license":"LGPL-2.1-only",
-"name":"gensim",
-"sha256":"0ff7fe013264796dd316b1a4d8ea5a1dcac2a7ae164e72bebdd6dd055a8ef6e5",
-"size":23954526,
-"timestamp":1617200755300,
-"version":"3.8.3"
+"sha256":"686806166fb57447ae8f68e6c00ea98c3d096dda83d6b175c72cc2d22a177eab",
+"size":23531126,
+"timestamp":1617253809983,
+"version":"4.0.0"
 },
 "geographiclib-cpp-1.51-h2acdbc0_1.tar.bz2":{
 "build":"h2acdbc0_1",
