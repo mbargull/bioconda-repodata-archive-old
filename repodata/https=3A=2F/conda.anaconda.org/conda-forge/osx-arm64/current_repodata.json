@@ -17596,6 +17596,34 @@
 "timestamp":1615498608769,
 "version":"2.0.6"
 },
+"onednn-2.2-tbb_hb6067a2_0.tar.bz2":{
+"build":"tbb_hb6067a2_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"sha256":"fe6862005ef0b5452554540d420d2392506d3d7089cca842253c0059b6131d91",
+"size":3525527,
+"timestamp":1617265316694,
+"version":"2.2"
+},
+"onednn-cpu-tbb-2.2-tbb_hce30654_0.tar.bz2":{
+"build":"tbb_hce30654_0",
+"build_number":0,
+"depends":[
+"onednn 2.2 tbb_hb6067a2_0"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-tbb",
+"sha256":"a6eb72792b7a68dbdee8200daa9bcc4d15e945be8273742365f403ffd4ea1dac",
+"size":8217,
+"timestamp":1617265332274,
+"version":"2.2"
+},
 "oniguruma-6.9.3-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -23775,6 +23803,19 @@
 "size":185851,
 "timestamp":1604234762186,
 "version":"2020.11.01"
+},
+"re2-2021.04.01-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"re2",
+"sha256":"8973546c47d4100202bbfc48d2871fe206da6c24243ef7ced2085cd60fef10ef",
+"size":185958,
+"timestamp":1617262223153,
+"version":"2021.04.01"
 },
 "re2c-2.1.1-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
