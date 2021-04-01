@@ -69064,6 +69064,37 @@
 "timestamp":1607379904979,
 "version":"0.5.5"
 },
+"zfp-0.5.5-hbdafb3b_5.tar.bz2":{
+"build":"hbdafb3b_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"zfp",
+"requires":[],
+"size":166611,
+"timestamp":1617295755693,
+"version":"0.5.5"
+},
+"zfpy-0.5.5-py38h3777fb4_5.tar.bz2":{
+"build":"py38h3777fb4_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zfp 0.5.5 hbdafb3b_5"
+],
+"license":"BSD-3-Clause",
+"name":"zfpy",
+"requires":[],
+"size":84134,
+"timestamp":1617295886655,
+"version":"0.5.5"
+},
 "zfpy-0.5.5-py38h9b9bf68_4.tar.bz2":{
 "build":"py38h9b9bf68_4",
 "build_number":4,
@@ -69079,6 +69110,23 @@
 "requires":[],
 "size":84127,
 "timestamp":1607380029644,
+"version":"0.5.5"
+},
+"zfpy-0.5.5-py39h7f752ed_5.tar.bz2":{
+"build":"py39h7f752ed_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zfp 0.5.5 hbdafb3b_5"
+],
+"license":"BSD-3-Clause",
+"name":"zfpy",
+"requires":[],
+"size":87371,
+"timestamp":1617296000497,
 "version":"0.5.5"
 },
 "zfpy-0.5.5-py39ha4bedbf_4.tar.bz2":{
