@@ -38282,7 +38282,7 @@
 "timestamp":1613175424414,
 "version":"2.5.5"
 },
-"imagecodecs-2021.1.28-py37ha4f83ef_0.tar.bz2":{
+"imagecodecs-2021.2.26-py37ha4f83ef_0.tar.bz2":{
 "build":"py37ha4f83ef_0",
 "build_number":0,
 "depends":[
@@ -38313,16 +38313,16 @@
 "xz >=5.2.5,<5.3.0a0",
 "zfp >=0.5.5,<1.0a0",
 "zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
+"zstd >=1.4.9,<1.5.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"imagecodecs",
-"sha256":"4ea0dadb5566c54bf75644938c90438cc45eb2e981d274808d72b5df8250e1b5",
-"size":7018999,
-"timestamp":1614195262238,
-"version":"2021.1.28"
+"sha256":"0b880581ac22835f7df0d7709bed7e29b7a6c058bbb3e2e32605a8dc28081c5f",
+"size":6986950,
+"timestamp":1617393001626,
+"version":"2021.2.26"
 },
-"imagecodecs-2021.1.28-py37hafd80fd_0.tar.bz2":{
+"imagecodecs-2021.2.26-py37hafd80fd_0.tar.bz2":{
 "build":"py37hafd80fd_0",
 "build_number":0,
 "depends":[
@@ -38354,16 +38354,16 @@
 "xz >=5.2.5,<5.3.0a0",
 "zfp >=0.5.5,<1.0a0",
 "zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
+"zstd >=1.4.9,<1.5.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"imagecodecs",
-"sha256":"068b850b8ee3e38d0e754206522ccba4ed30c01845ccb1b8f09c641bcc9f016d",
-"size":6584400,
-"timestamp":1614195895948,
-"version":"2021.1.28"
+"sha256":"19c08bba33099b71d940f60587c267980bc0d95e42a8d69f6f9a91129f825461",
+"size":6615603,
+"timestamp":1617393855101,
+"version":"2021.2.26"
 },
-"imagecodecs-2021.1.28-py38hc7310ca_0.tar.bz2":{
+"imagecodecs-2021.2.26-py38hc7310ca_0.tar.bz2":{
 "build":"py38hc7310ca_0",
 "build_number":0,
 "depends":[
@@ -38394,16 +38394,16 @@
 "xz >=5.2.5,<5.3.0a0",
 "zfp >=0.5.5,<1.0a0",
 "zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
+"zstd >=1.4.9,<1.5.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"imagecodecs",
-"sha256":"077ff0748c4556dc2c1f004e641d7f5e714810100f02e192692b992213eae439",
-"size":7038932,
-"timestamp":1614195260613,
-"version":"2021.1.28"
+"sha256":"35710e828d7df915613eaf791b275f1b34d96b4102ceb6db18736f4cd3f2352b",
+"size":7021141,
+"timestamp":1617393086679,
+"version":"2021.2.26"
 },
-"imagecodecs-2021.1.28-py39h751ce76_0.tar.bz2":{
+"imagecodecs-2021.2.26-py39h751ce76_0.tar.bz2":{
 "build":"py39h751ce76_0",
 "build_number":0,
 "depends":[
@@ -38434,14 +38434,14 @@
 "xz >=5.2.5,<5.3.0a0",
 "zfp >=0.5.5,<1.0a0",
 "zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
+"zstd >=1.4.9,<1.5.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"imagecodecs",
-"sha256":"703d8b11572421baff560de4cfef49eef06c229393bcdaeb59343434e9eae607",
-"size":7042207,
-"timestamp":1614195199324,
-"version":"2021.1.28"
+"sha256":"a0a98f024956f8f4998fe357de12ce2bd451d48eb9d89fb561b282f2c813c1e3",
+"size":7040467,
+"timestamp":1617393080395,
+"version":"2021.2.26"
 },
 "imagecodecs-lite-2019.12.3-py36h2254977_0.tar.bz2":{
 "build":"py36h2254977_0",
@@ -48326,6 +48326,22 @@
 "sha256":"4c54d4e8bad620c92b128109e46d4b691691c7774e1ee7fb6c799f82a997edbb",
 "size":23549,
 "timestamp":1617280470466,
+"version":"1.0.0"
+},
+"libignition-utils1-1.0.0-h3b9df90_1.tar.bz2":{
+"build":"h3b9df90_1",
+"build_number":1,
+"depends":[
+"cli11",
+"libgcc-ng >=9.3.0",
+"libignition-cmake2 >=2.7.0,<3.0a0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"libignition-utils1",
+"sha256":"7fc3e82b28da373c04b2aaa9b642cd3eabd15b57ec8f2575d0b352fcfcef5d04",
+"size":23528,
+"timestamp":1617392972563,
 "version":"1.0.0"
 },
 "libjpeg-turbo-2.0.5-h4e0d66e_0.tar.bz2":{
@@ -103475,7 +103491,7 @@
 "timestamp":1617328841954,
 "version":"2.0.0"
 },
-"sqlalchemy-1.4.4-py36hc33305d_0.tar.bz2":{
+"sqlalchemy-1.4.5-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -103487,12 +103503,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"0ab82ef9f4968f8715bf09f26b7933ad718d01e87c77a3752d87e592dbcb1bec",
-"size":2319932,
-"timestamp":1617200066878,
-"version":"1.4.4"
+"sha256":"c7cf518cc5f152d567177177bd52c0c18690c73def60da64083e5aafe1e706a6",
+"size":2325916,
+"timestamp":1617392777660,
+"version":"1.4.5"
 },
-"sqlalchemy-1.4.4-py36hfa8c849_0.tar.bz2":{
+"sqlalchemy-1.4.5-py36hfa8c849_0.tar.bz2":{
 "build":"py36hfa8c849_0",
 "build_number":0,
 "depends":[
@@ -103505,12 +103521,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"73eb80065026afdd1048b493a7dd51e3311e732878cf8623cbfaefc371d76e71",
-"size":2322345,
-"timestamp":1617200167085,
-"version":"1.4.4"
+"sha256":"564a967bcc3e3032f017a7e26af4ca2cc6995d8b6ef5458c8a39d6c17a29e194",
+"size":2324340,
+"timestamp":1617392948713,
+"version":"1.4.5"
 },
-"sqlalchemy-1.4.4-py37h0630641_0.tar.bz2":{
+"sqlalchemy-1.4.5-py37h0630641_0.tar.bz2":{
 "build":"py37h0630641_0",
 "build_number":0,
 "depends":[
@@ -103523,12 +103539,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"951a94b5a31544d36a114738ac88ce6dba3db10db7ce9491440a8c7a0571af24",
-"size":2324750,
-"timestamp":1617200238177,
-"version":"1.4.4"
+"sha256":"97260017a3908653da94f8b418a72085abeb7570a374426b681632a6c2969be9",
+"size":2324433,
+"timestamp":1617393034971,
+"version":"1.4.5"
 },
-"sqlalchemy-1.4.4-py37h6642d69_0.tar.bz2":{
+"sqlalchemy-1.4.5-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -103540,12 +103556,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"51ca02464faf9cc275165d548a02aa2e39b6fc7cb74b4531af33eb22880bc237",
-"size":2321193,
-"timestamp":1617199886239,
-"version":"1.4.4"
+"sha256":"25e463a17ef7ef0f7653c5b764596172f0f35664667fbd13b28eecf05d3935c9",
+"size":2322076,
+"timestamp":1617393027121,
+"version":"1.4.5"
 },
-"sqlalchemy-1.4.4-py38h98b8a6f_0.tar.bz2":{
+"sqlalchemy-1.4.5-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -103556,12 +103572,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"e49d7f11932fee2c30fa5b95ad19a240dc11678b5ed5611693724a67fc3ddde8",
-"size":2339327,
-"timestamp":1617199958231,
-"version":"1.4.4"
+"sha256":"643e20626c75e11d9a77330d4729364d157290de14e535a24f8e858962c4ae5e",
+"size":2337139,
+"timestamp":1617392779729,
+"version":"1.4.5"
 },
-"sqlalchemy-1.4.4-py39ha810350_0.tar.bz2":{
+"sqlalchemy-1.4.5-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -103572,10 +103588,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"bb32e04b3188d4ba94dae624072db6d328de8fb476ea35384e57dba3de1b996f",
-"size":2339838,
-"timestamp":1617199918800,
-"version":"1.4.4"
+"sha256":"01801fc75de86f9d3711da16282540c6dddb0d67d40c7106cd198feb131a13bb",
+"size":2341015,
+"timestamp":1617392785133,
+"version":"1.4.5"
 },
 "sqlite-3.35.2-h961021d_0.tar.bz2":{
 "build":"h961021d_0",
