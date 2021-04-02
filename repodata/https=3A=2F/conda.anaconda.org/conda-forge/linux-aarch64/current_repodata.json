@@ -110692,33 +110692,19 @@
 "timestamp":1617215225105,
 "version":"1.87.1"
 },
-"vscode-icons-11.2.0-h8af1aa0_0.tar.bz2":{
+"vscode-icons-11.3.0-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
 "build_number":0,
-"depends":[
-"code-server >=1.40.2",
-"nodejs >=12.19.0,<13.0a0"
-],
-"license":"MIT",
-"name":"vscode-icons",
-"sha256":"dcc91fdd3663abfa9a3e881c82356482ffffd64a68b1aaa4846e1af4094865c3",
-"size":1225598,
-"timestamp":1615828357918,
-"version":"11.2.0"
-},
-"vscode-icons-11.2.0-h8af1aa0_1.tar.bz2":{
-"build":"h8af1aa0_1",
-"build_number":1,
 "depends":[
 "code-server >=3.9",
 "nodejs >=12.19.0,<13.0a0"
 ],
 "license":"MIT",
 "name":"vscode-icons",
-"sha256":"3d48e9a99f0a281bc7fa6bee01335395d509876fd3c45438b2ab7631570f6322",
-"size":1222509,
-"timestamp":1616061868596,
-"version":"11.2.0"
+"sha256":"3053ce6ac5fde1a3847e00b960f6b091761727086cb3ea7775a5d37207c6c2d2",
+"size":1228159,
+"timestamp":1617388319932,
+"version":"11.3.0"
 },
 "vscode-jupyter-2021.3.1-py36h90d456b_0.tar.bz2":{
 "build":"py36h90d456b_0",
@@ -111509,6 +111495,60 @@
 "sha256":"5768f0bea87677967d4163c4fd38be7eed5a8d1f5a731609a512562535039d3f",
 "size":1186112165,
 "timestamp":1617384094539,
+"version":"21.04"
+},
+"warpx-21.04-py38hf5021cc_0.tar.bz2":{
+"build":"py38hf5021cc_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex >=4.5",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blaspp 2020.10.02.*",
+"fftw >=3.3.9,<4.0a0",
+"lapackpp 2020.10.02.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"openpmd-api * nompi_*",
+"openpmd-api 0.13.2.*",
+"periodictable",
+"picmistandard 0.0.14",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy"
+],
+"license":"BSD-3-Clause-LBNL",
+"name":"warpx",
+"sha256":"e29824830e7c47b81d6ad6b1e2a4160a73408e358bffa55cc7d0c3d9991a659e",
+"size":1186079584,
+"timestamp":1617385711247,
+"version":"21.04"
+},
+"warpx-21.04-py39h03fafd6_0.tar.bz2":{
+"build":"py39h03fafd6_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex >=4.5",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blaspp 2020.10.02.*",
+"fftw >=3.3.9,<4.0a0",
+"lapackpp 2020.10.02.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"openpmd-api * nompi_*",
+"openpmd-api 0.13.2.*",
+"periodictable",
+"picmistandard 0.0.14",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy"
+],
+"license":"BSD-3-Clause-LBNL",
+"name":"warpx",
+"sha256":"a030318aa4e94416a6cdf6378bf9f0c0d365e72fd3bb8043fd5dd122133a9588",
+"size":1185988170,
+"timestamp":1617385838901,
 "version":"21.04"
 },
 "watchdog-2.0.2-py36h2e20a7f_0.tar.bz2":{
