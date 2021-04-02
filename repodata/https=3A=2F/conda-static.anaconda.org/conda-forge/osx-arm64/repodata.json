@@ -36366,7 +36366,11 @@
 "build":"h95d0606_1",
 "build_number":1,
 "constrains":[
-"llvmdev   11.1.0"
+"llvmdev   11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm-tools 11.1.0.*"
 ],
 "depends":[
 "libllvm11 11.1.0 h93073aa_1",
@@ -36573,7 +36577,11 @@
 "build":"h93073aa_1",
 "build_number":1,
 "constrains":[
-"llvmdev   11.1.0"
+"llvmdev   11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*"
 ],
 "depends":[
 "libllvm11 11.1.0 h93073aa_1",
@@ -36746,6 +36754,13 @@
 "llvmdev-11.1.0-h93073aa_1.tar.bz2":{
 "build":"h93073aa_1",
 "build_number":1,
+"constrains":[
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*"
+],
 "depends":[
 "libcxx >=11.a0",
 "libllvm11 11.1.0 h93073aa_1",
