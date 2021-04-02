@@ -722,6 +722,50 @@
 "timestamp":1614942617925,
 "version":"2.7.0"
 },
+"aesara-2.0.4-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"clang_osx-arm64 11.*",
+"clangxx_osx-arm64 11.*",
+"filelock",
+"numpy >=1.9.1",
+"pygpu >=0.7.0,<0.8",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy >=0.14",
+"setuptools",
+"six >=1.9.0"
+],
+"license":"BSD-3-Clause",
+"name":"aesara",
+"requires":[],
+"size":2285680,
+"timestamp":1617320225714,
+"version":"2.0.4"
+},
+"aesara-2.0.4-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"clang_osx-arm64 11.*",
+"clangxx_osx-arm64 11.*",
+"filelock",
+"numpy >=1.9.1",
+"pygpu >=0.7.0,<0.8",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy >=0.14",
+"setuptools",
+"six >=1.9.0"
+],
+"license":"BSD-3-Clause",
+"name":"aesara",
+"requires":[],
+"size":2281668,
+"timestamp":1617320225175,
+"version":"2.0.4"
+},
 "afterimage-1.21-h0eede88_1003.tar.bz2":{
 "build":"h0eede88_1003",
 "build_number":1003,
@@ -56909,6 +56953,36 @@
 "size":475340,
 "timestamp":1613479154369,
 "version":"22.0.3"
+},
+"pyzstd-0.14.4-py38hc7fc19c_2.tar.bz2":{
+"build":"py38hc7fc19c_2",
+"build_number":2,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"pyzstd",
+"requires":[],
+"size":86885,
+"timestamp":1617321194620,
+"version":"0.14.4"
+},
+"pyzstd-0.14.4-py39he58f1d0_2.tar.bz2":{
+"build":"py39he58f1d0_2",
+"build_number":2,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"pyzstd",
+"requires":[],
+"size":86982,
+"timestamp":1617321209519,
+"version":"0.14.4"
 },
 "qd-2.3.22-he4d4495_1003.tar.bz2":{
 "build":"he4d4495_1003",

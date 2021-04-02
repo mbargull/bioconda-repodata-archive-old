@@ -387,6 +387,50 @@
 "timestamp":1614942617925,
 "version":"2.7.0"
 },
+"aesara-2.0.4-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"clang_osx-arm64 11.*",
+"clangxx_osx-arm64 11.*",
+"filelock",
+"numpy >=1.9.1",
+"pygpu >=0.7.0,<0.8",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy >=0.14",
+"setuptools",
+"six >=1.9.0"
+],
+"license":"BSD-3-Clause",
+"name":"aesara",
+"sha256":"eb258d6d646f8377d2511e2e106171ff88ae0dc623fd27f6bfae5a3444713e7a",
+"size":2285680,
+"timestamp":1617320225714,
+"version":"2.0.4"
+},
+"aesara-2.0.4-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"clang_osx-arm64 11.*",
+"clangxx_osx-arm64 11.*",
+"filelock",
+"numpy >=1.9.1",
+"pygpu >=0.7.0,<0.8",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy >=0.14",
+"setuptools",
+"six >=1.9.0"
+],
+"license":"BSD-3-Clause",
+"name":"aesara",
+"sha256":"36ddd2dfeae6b08439e40f6aebfd40d7a672efdce4a80f0d3cd455f21e5f7de3",
+"size":2281668,
+"timestamp":1617320225175,
+"version":"2.0.4"
+},
 "afterimage-1.21-h0eede88_1003.tar.bz2":{
 "build":"h0eede88_1003",
 "build_number":1003,
@@ -23257,6 +23301,36 @@
 "timestamp":1613479154369,
 "version":"22.0.3"
 },
+"pyzstd-0.14.4-py38hc7fc19c_2.tar.bz2":{
+"build":"py38hc7fc19c_2",
+"build_number":2,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"pyzstd",
+"sha256":"4626622c5282915746518653632f2223e1e2931e45e7b41b9ee97b5759070149",
+"size":86885,
+"timestamp":1617321194620,
+"version":"0.14.4"
+},
+"pyzstd-0.14.4-py39he58f1d0_2.tar.bz2":{
+"build":"py39he58f1d0_2",
+"build_number":2,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"pyzstd",
+"sha256":"ecf3174c10d9d9fd554d8d993b14e710e53fb1c95f38a3e67d30cb8f0799bbdb",
+"size":86982,
+"timestamp":1617321209519,
+"version":"0.14.4"
+},
 "qd-2.3.22-he4d4495_1003.tar.bz2":{
 "build":"he4d4495_1003",
 "build_number":1003,
@@ -25317,29 +25391,29 @@
 "timestamp":1605371407165,
 "version":"0.8"
 },
-"s2n-1.0.2-hd5e6a67_0.tar.bz2":{
-"build":"hd5e6a67_0",
+"s2n-1.0.3-hbae9a57_0.tar.bz2":{
+"build":"hbae9a57_0",
 "build_number":0,
 "depends":[
 "openssl >=1.1.1k,<1.1.2a"
 ],
 "license":"Apache-2.0",
 "name":"s2n",
-"sha256":"1b6e13506f6d775db70cb389e6482f47d6ecdbde9d55f9b4496257940497474e",
-"size":296475,
-"timestamp":1616787320014,
-"version":"1.0.2"
+"sha256":"dac07c6f61acc38564e113a6560f0d4157db027a2cf344f76af37599de6cdb7a",
+"size":298850,
+"timestamp":1617318581614,
+"version":"1.0.3"
 },
-"s2n-static-1.0.2-h27ca646_0.tar.bz2":{
-"build":"h27ca646_0",
+"s2n-static-1.0.3-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
 "build_number":0,
 "depends":[],
 "license":"Apache-2.0",
 "name":"s2n-static",
-"sha256":"e26446a1fff1f5f66c8a282f517f6cc42bc94da50fb9f0e5c5875307930fb0d1",
-"size":405157,
-"timestamp":1616787365261,
-"version":"1.0.2"
+"sha256":"c2d1d0e1dd33d7926263d26dc073f113a63715259d3e7c0c6e9e31975055302a",
+"size":408088,
+"timestamp":1617318629648,
+"version":"1.0.3"
 },
 "sagemath-db-conway-polynomials-0.5.0-h4653dfc_1.tar.bz2":{
 "build":"h4653dfc_1",
