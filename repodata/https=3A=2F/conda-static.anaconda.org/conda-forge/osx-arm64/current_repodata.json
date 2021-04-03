@@ -5310,7 +5310,7 @@
 "timestamp":1610716789109,
 "version":"3.21.4"
 },
-"conda-forge-ci-setup-3.9.1-py38h970ee7d_0.tar.bz2":{
+"conda-forge-ci-setup-3.9.2-py38h970ee7d_0.tar.bz2":{
 "build":"py38h970ee7d_0",
 "build_number":0,
 "depends":[
@@ -5332,12 +5332,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda-forge-ci-setup",
-"sha256":"a2f68a6c0fcc31b32448c027ddf46b605923a20c6c1f4a542cbc8af4c03b2929",
-"size":36827,
-"timestamp":1617220840539,
-"version":"3.9.1"
+"sha256":"fb89a114f83d653086222dc096c4caa121ac1538395c68372690f26c327172a8",
+"size":36925,
+"timestamp":1617426849782,
+"version":"3.9.2"
 },
-"conda-forge-ci-setup-3.9.1-py39h6861412_0.tar.bz2":{
+"conda-forge-ci-setup-3.9.2-py39h6861412_0.tar.bz2":{
 "build":"py39h6861412_0",
 "build_number":0,
 "depends":[
@@ -5359,10 +5359,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda-forge-ci-setup",
-"sha256":"38892b9776e504d207cde3e3bbb9707bb17cbf8ea55c337b358e7c4f332e3d80",
-"size":36933,
-"timestamp":1617220851770,
-"version":"3.9.1"
+"sha256":"b34a624ea5a6813f0950a4ec1607e3ba67311bcb7ddec548eef8a6c5f39c258b",
+"size":37028,
+"timestamp":1617426857363,
+"version":"3.9.2"
 },
 "conda-package-handling-1.7.2-py38h51573d8_0.tar.bz2":{
 "build":"py38h51573d8_0",
@@ -14392,16 +14392,30 @@
 "timestamp":1615505282398,
 "version":"3.15.6"
 },
-"libprotobuf-static-3.15.6-hce30654_0.tar.bz2":{
+"libprotobuf-3.15.7-hccf11d3_0.tar.bz2":{
+"build":"hccf11d3_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libprotobuf",
+"sha256":"04e95908d218b2185dc3f596a5cbf3e6c2136a1661152841ccea6230ab13709c",
+"size":2208126,
+"timestamp":1617426361427,
+"version":"3.15.7"
+},
+"libprotobuf-static-3.15.7-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
 "depends":[],
 "license":"BSD-3-Clause",
 "name":"libprotobuf-static",
-"sha256":"f0c2230d20a352d354de1e527b13fd283fa9fb4ef80f6a80f48f87811517a85a",
-"size":2555360,
-"timestamp":1615505289544,
-"version":"3.15.6"
+"sha256":"5e40833a9d436a5e4bccadbf1600312f3f8d352b1c4cc0e9adbb5ecb206c2e05",
+"size":2556299,
+"timestamp":1617426368044,
+"version":"3.15.7"
 },
 "libpython-static-3.9.2-h9f76cd9_0_cpython.tar.bz2":{
 "build":"h9f76cd9_0_cpython",
@@ -22275,31 +22289,8 @@
 "timestamp":1610633710870,
 "version":"4.0.30"
 },
-"pyopencl-2021.1.4-py38h1e2c3d9_1.tar.bz2":{
-"build":"py38h1e2c3d9_1",
-"build_number":1,
-"depends":[
-"appdirs",
-"khronos-opencl-icd-loader >=2020.12.18",
-"libcxx >=11.1.0",
-"mako",
-"numpy >=1.19.5,<2.0a0",
-"ocl_icd_wrapper_apple",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pytools",
-"setuptools",
-"six"
-],
-"license":"MIT",
-"name":"pyopencl",
-"sha256":"b9109e1eb5ae0e9b05aaf3bc8ad48893e760b716fb59dfa0eaef15414e3be53f",
-"size":751788,
-"timestamp":1617376428927,
-"version":"2021.1.4"
-},
-"pyopencl-2021.1.4-py38h3578e97_0.tar.bz2":{
-"build":"py38h3578e97_0",
+"pyopencl-2021.1.5-py38h1e2c3d9_0.tar.bz2":{
+"build":"py38h1e2c3d9_0",
 "build_number":0,
 "depends":[
 "appdirs",
@@ -22311,18 +22302,17 @@
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "pytools",
-"setuptools",
-"six"
+"setuptools"
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"85cdd81d19c6d5d36fa2a853d36d42f5f5acc3b48b71ba6540acea8502f82d10",
-"size":728256,
-"timestamp":1615911111417,
-"version":"2021.1.4"
+"sha256":"8811af7ff4855cfce0499a2def77782a48498d50e9e0908453c982426b41c131",
+"size":759231,
+"timestamp":1617427605989,
+"version":"2021.1.5"
 },
-"pyopencl-2021.1.4-py39h6f7cd10_0.tar.bz2":{
-"build":"py39h6f7cd10_0",
+"pyopencl-2021.1.5-py39h776e71f_0.tar.bz2":{
+"build":"py39h776e71f_0",
 "build_number":0,
 "depends":[
 "appdirs",
@@ -22334,38 +22324,14 @@
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "pytools",
-"setuptools",
-"six"
+"setuptools"
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"0e4d9062ebc25cae884faa775ea6c409faac9725240d08a245a7fa7fecefc41d",
-"size":760238,
-"timestamp":1615913130313,
-"version":"2021.1.4"
-},
-"pyopencl-2021.1.4-py39h776e71f_1.tar.bz2":{
-"build":"py39h776e71f_1",
-"build_number":1,
-"depends":[
-"appdirs",
-"khronos-opencl-icd-loader >=2020.12.18",
-"libcxx >=11.1.0",
-"mako",
-"numpy >=1.19.5,<2.0a0",
-"ocl_icd_wrapper_apple",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pytools",
-"setuptools",
-"six"
-],
-"license":"MIT",
-"name":"pyopencl",
-"sha256":"b31ff01cf282ec4750d2f2984e778c0e852af32f0d7144bdc748c1ccde367010",
-"size":746068,
-"timestamp":1617376236540,
-"version":"2021.1.4"
+"sha256":"cc20b811f5674060ff71ab022e52babd5318273af3515311ff4b173ab353cca9",
+"size":748555,
+"timestamp":1617427281857,
+"version":"2021.1.5"
 },
 "pyproj-3.0.1-py38h743e829_1.tar.bz2":{
 "build":"py38h743e829_1",

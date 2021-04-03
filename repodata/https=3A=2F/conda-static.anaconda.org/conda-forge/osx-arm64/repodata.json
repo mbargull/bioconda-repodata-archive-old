@@ -16103,6 +16103,60 @@
 "timestamp":1617220851770,
 "version":"3.9.1"
 },
+"conda-forge-ci-setup-3.9.2-py38h970ee7d_0.tar.bz2":{
+"build":"py38h970ee7d_0",
+"build_number":0,
+"depends":[
+"anaconda-client",
+"click",
+"conda >=4.3",
+"conda-build 3.*",
+"conda-env",
+"git",
+"jinja2",
+"jq",
+"pip",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"requests",
+"ruamel_yaml",
+"shyaml"
+],
+"license":"BSD-3-Clause",
+"name":"conda-forge-ci-setup",
+"sha256":"fb89a114f83d653086222dc096c4caa121ac1538395c68372690f26c327172a8",
+"size":36925,
+"timestamp":1617426849782,
+"version":"3.9.2"
+},
+"conda-forge-ci-setup-3.9.2-py39h6861412_0.tar.bz2":{
+"build":"py39h6861412_0",
+"build_number":0,
+"depends":[
+"anaconda-client",
+"click",
+"conda >=4.3",
+"conda-build 3.*",
+"conda-env",
+"git",
+"jinja2",
+"jq",
+"pip",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"requests",
+"ruamel_yaml",
+"shyaml"
+],
+"license":"BSD-3-Clause",
+"name":"conda-forge-ci-setup",
+"sha256":"b34a624ea5a6813f0950a4ec1607e3ba67311bcb7ddec548eef8a6c5f39c258b",
+"size":37028,
+"timestamp":1617426857363,
+"version":"3.9.2"
+},
 "conda-package-handling-1.7.0-py38h51573d8_6.tar.bz2":{
 "build":"py38h51573d8_6",
 "build_number":6,
@@ -34760,6 +34814,20 @@
 "timestamp":1615505282398,
 "version":"3.15.6"
 },
+"libprotobuf-3.15.7-hccf11d3_0.tar.bz2":{
+"build":"hccf11d3_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libprotobuf",
+"sha256":"04e95908d218b2185dc3f596a5cbf3e6c2136a1661152841ccea6230ab13709c",
+"size":2208126,
+"timestamp":1617426361427,
+"version":"3.15.7"
+},
 "libprotobuf-static-3.13.0-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -34869,6 +34937,17 @@
 "size":2555360,
 "timestamp":1615505289544,
 "version":"3.15.6"
+},
+"libprotobuf-static-3.15.7-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"libprotobuf-static",
+"sha256":"5e40833a9d436a5e4bccadbf1600312f3f8d352b1c4cc0e9adbb5ecb206c2e05",
+"size":2556299,
+"timestamp":1617426368044,
+"version":"3.15.7"
 },
 "libpython-static-3.8.5-hc88da5d_4_cpython.tar.bz2":{
 "build":"hc88da5d_4_cpython",
@@ -54748,6 +54827,50 @@
 "size":746068,
 "timestamp":1617376236540,
 "version":"2021.1.4"
+},
+"pyopencl-2021.1.5-py38h1e2c3d9_0.tar.bz2":{
+"build":"py38h1e2c3d9_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"ocl_icd_wrapper_apple",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytools",
+"setuptools"
+],
+"license":"MIT",
+"name":"pyopencl",
+"sha256":"8811af7ff4855cfce0499a2def77782a48498d50e9e0908453c982426b41c131",
+"size":759231,
+"timestamp":1617427605989,
+"version":"2021.1.5"
+},
+"pyopencl-2021.1.5-py39h776e71f_0.tar.bz2":{
+"build":"py39h776e71f_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"ocl_icd_wrapper_apple",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytools",
+"setuptools"
+],
+"license":"MIT",
+"name":"pyopencl",
+"sha256":"cc20b811f5674060ff71ab022e52babd5318273af3515311ff4b173ab353cca9",
+"size":748555,
+"timestamp":1617427281857,
+"version":"2021.1.5"
 },
 "pyproj-3.0.1-py38h743e829_1.tar.bz2":{
 "build":"py38h743e829_1",
