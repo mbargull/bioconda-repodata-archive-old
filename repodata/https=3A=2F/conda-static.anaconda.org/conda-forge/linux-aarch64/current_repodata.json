@@ -33892,6 +33892,26 @@
 "timestamp":1610149199528,
 "version":"1.12.0"
 },
+"hdf5-1.12.0-mpi_mpich_h1d4cc76_7.tar.bz2":{
+"build":"mpi_mpich_h1d4cc76_7",
+"build_number":7,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpich >=3.4,<3.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"sha256":"1ca93fc0b353c2d16ef5e6110f8a68e1e3db6151e7106902cf46255e55f4cbb8",
+"size":4011359,
+"timestamp":1617653808605,
+"version":"1.12.0"
+},
 "hdf5-1.12.0-mpi_mpich_h58e33ef_1.tar.bz2":{
 "build":"mpi_mpich_h58e33ef_1",
 "build_number":1,
@@ -34046,6 +34066,26 @@
 "sha256":"b3ac9285b7106446b2b7611cb33eae4ba9aa85af92d77f7946ed6c175104bbb7",
 "size":4013690,
 "timestamp":1610147942026,
+"version":"1.12.0"
+},
+"hdf5-1.12.0-mpi_openmpi_h3eac370_7.tar.bz2":{
+"build":"mpi_openmpi_h3eac370_7",
+"build_number":7,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openmpi >=4.1,<4.2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"sha256":"66e3d1ba0dfddc92df6932e86fb5cac903434add40fdbf8f2b7f800cd388b821",
+"size":4079550,
+"timestamp":1617653678751,
 "version":"1.12.0"
 },
 "hdf5-1.12.0-mpi_openmpi_h64fafd2_2.tar.bz2":{
@@ -34272,6 +34312,25 @@
 "timestamp":1610147839016,
 "version":"1.12.0"
 },
+"hdf5-1.12.0-nompi_h774d4d8_107.tar.bz2":{
+"build":"nompi_h774d4d8_107",
+"build_number":107,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"sha256":"5ff9ffda86578250fd268175aa33dc0312e93a0f38f9498cc6eeb99b1ef01110",
+"size":3835708,
+"timestamp":1617653585615,
+"version":"1.12.0"
+},
 "hdf5-static-1.12.0-mpi_mpich_h52bacdc_3.tar.bz2":{
 "build":"mpi_mpich_h52bacdc_3",
 "build_number":3,
@@ -34338,6 +34397,23 @@
 "sha256":"0331854dd8f5b889537d717813f5441b841e1595a57e0aa6bda88b298c6c5bf2",
 "size":3024376,
 "timestamp":1610149300159,
+"version":"1.12.0"
+},
+"hdf5-static-1.12.0-mpi_mpich_h52bacdc_7.tar.bz2":{
+"build":"mpi_mpich_h52bacdc_7",
+"build_number":7,
+"depends":[
+"hdf5 1.12.0 mpi_mpich_h1d4cc76_7",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"sha256":"38c7f28767721fb2182cf5d9180e02e3c54340c2c417db564dbee966ca108ee8",
+"size":3024397,
+"timestamp":1617653923623,
 "version":"1.12.0"
 },
 "hdf5-static-1.12.0-mpi_mpich_h822747d_2.tar.bz2":{
@@ -34540,6 +34616,23 @@
 "timestamp":1610147975322,
 "version":"1.12.0"
 },
+"hdf5-static-1.12.0-mpi_openmpi_he5d11da_7.tar.bz2":{
+"build":"mpi_openmpi_he5d11da_7",
+"build_number":7,
+"depends":[
+"hdf5 1.12.0 mpi_openmpi_h3eac370_7",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"sha256":"4223ee92ad5c986d72da46d1629f5c38ce6304502eda5007eb7dc433f100e16d",
+"size":3025582,
+"timestamp":1617653792449,
+"version":"1.12.0"
+},
 "hdf5-static-1.12.0-nompi_h9e43d8c_103.tar.bz2":{
 "build":"nompi_h9e43d8c_103",
 "build_number":103,
@@ -34606,6 +34699,23 @@
 "sha256":"ca93921f0df6318dcc4591056197e1bfd4540d2675b3fca0a533aeacd08d1ab5",
 "size":2908383,
 "timestamp":1610147873689,
+"version":"1.12.0"
+},
+"hdf5-static-1.12.0-nompi_h9e43d8c_107.tar.bz2":{
+"build":"nompi_h9e43d8c_107",
+"build_number":107,
+"depends":[
+"hdf5 1.12.0 nompi_h774d4d8_107",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"sha256":"d3c6a70d7ddcf4528df86d42dfb7e874b347f3aa149b8e3849fe0f5e100df6e6",
+"size":2909129,
+"timestamp":1617653706854,
 "version":"1.12.0"
 },
 "hdf5-static-1.12.0-nompi_h9fc0770_102.tar.bz2":{
@@ -76719,29 +76829,7 @@
 "timestamp":1616591798874,
 "version":"0.16.2"
 },
-"pyopencl-2021.1.5-py36h2e26b47_0.tar.bz2":{
-"build":"py36h2e26b47_0",
-"build_number":0,
-"depends":[
-"appdirs",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mako",
-"numpy >=1.17.5,<2.0a0",
-"ocl-icd >=2.3.0,<3.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"pytools",
-"setuptools"
-],
-"license":"MIT",
-"name":"pyopencl",
-"sha256":"d6a1d99cee7b77a22ecd690b7f02158bfdc91967c75dc0d2c37292054f2006e1",
-"size":734682,
-"timestamp":1617427779162,
-"version":"2021.1.5"
-},
-"pyopencl-2021.1.5-py36h93b45c7_0.tar.bz2":{
+"pyopencl-2021.1.6-py36h93b45c7_0.tar.bz2":{
 "build":"py36h93b45c7_0",
 "build_number":0,
 "depends":[
@@ -76759,12 +76847,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"f0d99ba12b93f16e335a29497246f97c233fb5995e3e345189191af517a64717",
-"size":705717,
-"timestamp":1617427435092,
-"version":"2021.1.5"
+"sha256":"d43e81ef10120549520ce29ff38b54cf4d11bb1631f3e4b586b301248684ad45",
+"size":707993,
+"timestamp":1617655916985,
+"version":"2021.1.6"
 },
-"pyopencl-2021.1.5-py37h2603c11_0.tar.bz2":{
+"pyopencl-2021.1.6-py37h2603c11_0.tar.bz2":{
 "build":"py37h2603c11_0",
 "build_number":0,
 "depends":[
@@ -76781,12 +76869,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"3106fa8c11439c9b154ba37bbba81b21ef1e7d08f5db7abb01e738fac46b87d2",
-"size":729158,
-"timestamp":1617427417178,
-"version":"2021.1.5"
+"sha256":"7e3b85ad643e11eac825f6be94797a254de580355f11636788bba2ba19fed973",
+"size":728886,
+"timestamp":1617655932974,
+"version":"2021.1.6"
 },
-"pyopencl-2021.1.5-py37hce16e70_0.tar.bz2":{
+"pyopencl-2021.1.6-py37hce16e70_0.tar.bz2":{
 "build":"py37hce16e70_0",
 "build_number":0,
 "depends":[
@@ -76804,12 +76892,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"02e6064d9d9c1ea50da3c11474bb0d674f47c56b1d543ce573933c7c180b5f85",
-"size":712960,
-"timestamp":1617427798580,
-"version":"2021.1.5"
+"sha256":"a30e291178b31c05b5d369733b5470a2db26bf32dc5a8ba75938c74ef5cbf759",
+"size":709661,
+"timestamp":1617656611898,
+"version":"2021.1.6"
 },
-"pyopencl-2021.1.5-py38h5bf94d8_0.tar.bz2":{
+"pyopencl-2021.1.6-py38h5bf94d8_0.tar.bz2":{
 "build":"py38h5bf94d8_0",
 "build_number":0,
 "depends":[
@@ -76826,12 +76914,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"bd1e090cd10f4fec72650c119bfe3ff3e10858e4333767bfb654444e4d492e78",
-"size":704597,
-"timestamp":1617427403771,
-"version":"2021.1.5"
+"sha256":"e7ddafff39c744af11f628dde22c341780f6f68b08cb3701f1fd827e9dd4e7e4",
+"size":710612,
+"timestamp":1617655906053,
+"version":"2021.1.6"
 },
-"pyopencl-2021.1.5-py39h9f797f2_0.tar.bz2":{
+"pyopencl-2021.1.6-py39h9f797f2_0.tar.bz2":{
 "build":"py39h9f797f2_0",
 "build_number":0,
 "depends":[
@@ -76848,10 +76936,10 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"5830ef5eda6e06e9fc10a6232ad35994769744522bfb99ec975e57bbfd7579a9",
-"size":725843,
-"timestamp":1617427807106,
-"version":"2021.1.5"
+"sha256":"d8d7da8a0a79c6c55b5945f52a5712797642c787e51afb2bf06210eb8c47c4dd",
+"size":722190,
+"timestamp":1617656299783,
+"version":"2021.1.6"
 },
 "pyopenssl-19.1.0-py36_0.tar.bz2":{
 "build":"py36_0",
