@@ -11348,6 +11348,20 @@
 "timestamp":1614955850778,
 "version":"949.0.1"
 },
+"cctools-949.0.1-ha9384d2_21.tar.bz2":{
+"build":"ha9384d2_21",
+"build_number":21,
+"depends":[
+"cctools_osx-arm64 949.0.1 h92b3a8a_21",
+"ld64 530 h08716b2_21"
+],
+"license":"APSL-2.0",
+"name":"cctools",
+"sha256":"d25867b5b53fdd73e7971d9e9c7079c73d5c7e101b62672101524139c95c6850",
+"size":16524,
+"timestamp":1617641771934,
+"version":"949.0.1"
+},
 "cctools-949.0.1-hb5b78df_15.tar.bz2":{
 "build":"hb5b78df_15",
 "build_number":15,
@@ -11476,6 +11490,26 @@
 "timestamp":1614956003345,
 "version":"949.0.1"
 },
+"cctools_osx-64-949.0.1-hed2cfe4_21.tar.bz2":{
+"build":"hed2cfe4_21",
+"build_number":21,
+"constrains":[
+"cctools 949.0.1.*",
+"ld64 530.*"
+],
+"depends":[
+"ld64_osx-64 >=530,<531.0a0",
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"APSL-2.0",
+"name":"cctools_osx-64",
+"sha256":"d3c406a375743fdcec06692e29d98b2a4ba9a246d3646a54657f95761bd96a47",
+"size":1933639,
+"timestamp":1617641598507,
+"version":"949.0.1"
+},
 "cctools_osx-arm64-949.0.1-h1c8944f_18.tar.bz2":{
 "build":"h1c8944f_18",
 "build_number":18,
@@ -11574,6 +11608,26 @@
 "sha256":"0f68e24063dad0a5832df65769be30e5d3f2b70d6ff74695fadae231001414f4",
 "size":1901284,
 "timestamp":1602960467122,
+"version":"949.0.1"
+},
+"cctools_osx-arm64-949.0.1-h92b3a8a_21.tar.bz2":{
+"build":"h92b3a8a_21",
+"build_number":21,
+"constrains":[
+"ld64 530.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ld64_osx-arm64 >=530,<531.0a0",
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"APSL-2.0",
+"name":"cctools_osx-arm64",
+"sha256":"6e770fabf2f63ee8ecb01d2b7501bdf9e5e99a9b3e62de63580e6c96dc33afca",
+"size":1859156,
+"timestamp":1617641752425,
 "version":"949.0.1"
 },
 "cddlib-1!0.94j-h47c7c1a_1001.tar.bz2":{
@@ -30424,6 +30478,23 @@
 "timestamp":1614955841155,
 "version":"530"
 },
+"ld64-530-h08716b2_21.tar.bz2":{
+"build":"h08716b2_21",
+"build_number":21,
+"constrains":[
+"cctools_osx-arm64 949.0.1.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ld64_osx-arm64 530 ha291f0b_21"
+],
+"license":"APSL-2.0",
+"name":"ld64",
+"sha256":"55c25d8b8c47ddfb79d3f87cc2bddb882189080eaffb6087ee3ff728d7ae5026",
+"size":14197,
+"timestamp":1617641763077,
+"version":"530"
+},
 "ld64-530-h50e419e_15.tar.bz2":{
 "build":"h50e419e_15",
 "build_number":15,
@@ -30568,6 +30639,28 @@
 "timestamp":1614955859528,
 "version":"530"
 },
+"ld64_osx-64-530-hbeead03_21.tar.bz2":{
+"build":"hbeead03_21",
+"build_number":21,
+"constrains":[
+"cctools 949.0.1.*",
+"cctools_osx-64 949.0.1.*",
+"ld 530.*",
+"clang >=11.1.0,<12.0a0"
+],
+"depends":[
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"tapi >=1100.0.11,<1101.0a0"
+],
+"license":"APSL-2.0",
+"name":"ld64_osx-64",
+"sha256":"ac98690c92614796628689fffc247fb048e92fc36e437751e0b1eee83fb886d4",
+"size":1282723,
+"timestamp":1617641455360,
+"version":"530"
+},
 "ld64_osx-arm64-530-h42e8ac5_15.tar.bz2":{
 "build":"h42e8ac5_15",
 "build_number":15,
@@ -30676,6 +30769,28 @@
 "sha256":"b17c878ebd4146253a05bd7221a3f51b083e94f5b5c6ab4f68f45175106f6524",
 "size":1154092,
 "timestamp":1614955691221,
+"version":"530"
+},
+"ld64_osx-arm64-530-ha291f0b_21.tar.bz2":{
+"build":"ha291f0b_21",
+"build_number":21,
+"constrains":[
+"cctools_osx-arm64 949.0.1.*",
+"ld 530.*",
+"clang >=11.1.0,<12.0a0",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"tapi >=1100.0.11,<1101.0a0"
+],
+"license":"APSL-2.0",
+"name":"ld64_osx-arm64",
+"sha256":"ea3510da06c18b39e1ea8160c41cfacca575e8b7020c8185326606df2a20ddd0",
+"size":1265191,
+"timestamp":1617641617404,
 "version":"530"
 },
 "ld_impl_linux-64-2.35.1-hdd3f809_1.tar.bz2":{
@@ -67557,6 +67672,38 @@
 "size":691754,
 "timestamp":1615078518352,
 "version":"0.12.2"
+},
+"viztracer-0.12.3-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"orjson",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"rich"
+],
+"license":"Apache-2.0",
+"name":"viztracer",
+"sha256":"1318765a952d38dfdcf216ae0f08957c784ed1d6528d1889f68fae79b092127e",
+"size":695421,
+"timestamp":1617642733668,
+"version":"0.12.3"
+},
+"viztracer-0.12.3-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"orjson",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"rich"
+],
+"license":"Apache-2.0",
+"name":"viztracer",
+"sha256":"ae785b2c042ef1c40b37b3a0a070f23208340f433a57a38d2c7fa2856d04b245",
+"size":689312,
+"timestamp":1617642768999,
+"version":"0.12.3"
 },
 "waf-2.0.8-py38h30f7421_1005.tar.bz2":{
 "build":"py38h30f7421_1005",
