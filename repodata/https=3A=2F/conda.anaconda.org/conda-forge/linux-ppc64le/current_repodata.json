@@ -36373,6 +36373,26 @@
 "timestamp":1610146718553,
 "version":"1.12.0"
 },
+"hdf5-1.12.0-mpi_mpich_hda62196_7.tar.bz2":{
+"build":"mpi_mpich_hda62196_7",
+"build_number":7,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpich >=3.4,<3.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"sha256":"6c5041b08b143807e6dc6e2174c2fefe50305f9afb0a3a933aa65eb99e3c4a2f",
+"size":3974301,
+"timestamp":1617659349581,
+"version":"1.12.0"
+},
 "hdf5-1.12.0-mpi_openmpi_h168f69e_0.tar.bz2":{
 "build":"mpi_openmpi_h168f69e_0",
 "build_number":0,
@@ -36468,6 +36488,26 @@
 "sha256":"eff7c1c04c6fa9f74c3598a4c976abe391fc0ae16b16af6becd09d8727eeea81",
 "size":3954037,
 "timestamp":1610144031448,
+"version":"1.12.0"
+},
+"hdf5-1.12.0-mpi_openmpi_h2cd0a35_7.tar.bz2":{
+"build":"mpi_openmpi_h2cd0a35_7",
+"build_number":7,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openmpi >=4.1,<4.2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"sha256":"a3dab98373d37e72c0449e3a37f28b97fcf5e61734831cf4928e4d007d9937db",
+"size":4021954,
+"timestamp":1617658307624,
 "version":"1.12.0"
 },
 "hdf5-1.12.0-mpi_openmpi_h64fafd2_2.tar.bz2":{
@@ -36622,6 +36662,25 @@
 "sha256":"8b01c43a47991bde23037dbcc4594793054d5a97ee8a4711c0e91cae46d24688",
 "size":3747132,
 "timestamp":1610144393748,
+"version":"1.12.0"
+},
+"hdf5-1.12.0-nompi_h437d42d_107.tar.bz2":{
+"build":"nompi_h437d42d_107",
+"build_number":107,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"sha256":"4b599dfe0f13ba965be99cc271aef8cee9b2289b2a7b28fd7acef328195ac5bc",
+"size":3731886,
+"timestamp":1617657302084,
 "version":"1.12.0"
 },
 "hdf5-1.12.0-nompi_h9bc996f_100.tar.bz2":{
@@ -36794,6 +36853,23 @@
 "timestamp":1610146843906,
 "version":"1.12.0"
 },
+"hdf5-static-1.12.0-mpi_mpich_h69c9f57_7.tar.bz2":{
+"build":"mpi_mpich_h69c9f57_7",
+"build_number":7,
+"depends":[
+"hdf5 1.12.0 mpi_mpich_hda62196_7",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"sha256":"834b9ebde0f7f52bac3a64f1f6cd57d756013fa8f05ad68c695299df42f945a8",
+"size":3620333,
+"timestamp":1617659465870,
+"version":"1.12.0"
+},
 "hdf5-static-1.12.0-mpi_mpich_h822747d_2.tar.bz2":{
 "build":"mpi_mpich_h822747d_2",
 "build_number":2,
@@ -36877,6 +36953,23 @@
 "sha256":"54dd720e2e007cb6cc388c2f01d942b107cb53fbafd7b2041607755ec8be355b",
 "size":3622557,
 "timestamp":1610144159834,
+"version":"1.12.0"
+},
+"hdf5-static-1.12.0-mpi_openmpi_h0f56a57_7.tar.bz2":{
+"build":"mpi_openmpi_h0f56a57_7",
+"build_number":7,
+"depends":[
+"hdf5 1.12.0 mpi_openmpi_h2cd0a35_7",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"sha256":"40cd6551eee2d8b8bc4f5338db63ad0b8392722a093c3c424a8dc7646c36aef3",
+"size":3614583,
+"timestamp":1617658459777,
 "version":"1.12.0"
 },
 "hdf5-static-1.12.0-mpi_openmpi_h879bd0b_2.tar.bz2":{
@@ -37077,6 +37170,23 @@
 "sha256":"962198e62e5fc026b0eac3ab89609be7b8eaeaebf405c1f2e5e6afe2f6bb87eb",
 "size":3465477,
 "timestamp":1610144552387,
+"version":"1.12.0"
+},
+"hdf5-static-1.12.0-nompi_hfa90fbc_107.tar.bz2":{
+"build":"nompi_hfa90fbc_107",
+"build_number":107,
+"depends":[
+"hdf5 1.12.0 nompi_h437d42d_107",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"sha256":"212d00cc79158ddaef97f9bf7f1307d8b1ec659dbc7618ffba09ae3d014a4bd2",
+"size":3462760,
+"timestamp":1617657454550,
 "version":"1.12.0"
 },
 "hdf5plugin-2.3.2-py36h917c65c_1.tar.bz2":{
@@ -48940,6 +49050,21 @@
 "timestamp":1617303306415,
 "version":"11.1.0"
 },
+"libllvm11-11.1.0-h6c99497_2.tar.bz2":{
+"build":"h6c99497_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libllvm11",
+"sha256":"39f2d98dacbd2ef7b61bfd057a35dd516734ff97c61d016e23f9cd43a9885602",
+"size":31928012,
+"timestamp":1617659274762,
+"version":"11.1.0"
+},
 "libllvm9-9.0.1-hc9558a2_0.tar.bz2":{
 "build":"hc9558a2_0",
 "build_number":0,
@@ -52255,6 +52380,23 @@
 "timestamp":1617303342603,
 "version":"11.1.0"
 },
+"llvm-11.1.0-h12068cf_2.tar.bz2":{
+"build":"h12068cf_2",
+"build_number":2,
+"constrains":[
+"llvmdev   11.1.0"
+],
+"depends":[
+"libllvm11 11.1.0 h6c99497_2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvm",
+"sha256":"eccb50faf90abcc447d8aaacb7005de154df75f657d1ca7e5ab1d49c569ec724",
+"size":51327,
+"timestamp":1617659305681,
+"version":"11.1.0"
+},
 "llvm-openmp-11.1.0-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
 "build_number":0,
@@ -52317,6 +52459,25 @@
 "timestamp":1617303401174,
 "version":"11.1.0"
 },
+"llvm-tools-11.1.0-h6c99497_2.tar.bz2":{
+"build":"h6c99497_2",
+"build_number":2,
+"constrains":[
+"llvmdev   11.1.0"
+],
+"depends":[
+"libgcc-ng >=8.4.0",
+"libllvm11 11.1.0 h6c99497_2",
+"libstdcxx-ng >=8.4.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvm-tools",
+"sha256":"3aa5a06d4ec72d6152d7d01adde12e7ba55ea090c3b668bda035018da5788598",
+"size":14881648,
+"timestamp":1617659363242,
+"version":"11.1.0"
+},
 "llvmdev-11.1.0-h6c99497_0.tar.bz2":{
 "build":"h6c99497_0",
 "build_number":0,
@@ -52363,6 +52524,23 @@
 "sha256":"cc732b806fb24083f2aed5375de159285185c5ba3b5df02991d921d2cbee4ddc",
 "size":49299809,
 "timestamp":1617303462538,
+"version":"11.1.0"
+},
+"llvmdev-11.1.0-h6c99497_2.tar.bz2":{
+"build":"h6c99497_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libllvm11 11.1.0 h6c99497_2",
+"libstdcxx-ng >=8.4.0",
+"llvm-tools 11.1.0 h6c99497_2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvmdev",
+"sha256":"450f50eebf751f2172048bc60e632a1341ca1511e80b90dd17d256ae70653c4e",
+"size":49387651,
+"timestamp":1617659417877,
 "version":"11.1.0"
 },
 "llvmlite-0.36.0-py36h010bef4_0.tar.bz2":{
