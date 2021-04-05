@@ -9558,6 +9558,25 @@
 "timestamp":1610137590103,
 "version":"1.12.0"
 },
+"hdf5-1.12.0-mpi_openmpi_h0e1e6cd_7.tar.bz2":{
+"build":"mpi_openmpi_h0e1e6cd_7",
+"build_number":7,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"openmpi >=4.1,<4.2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"sha256":"c5ec03c2d659214799eb89871b850a1c4dd862ec9144b7e7975a842b6fdfdcc0",
+"size":3381135,
+"timestamp":1617652779323,
+"version":"1.12.0"
+},
 "hdf5-1.12.0-mpi_openmpi_hfa5ed71_5.tar.bz2":{
 "build":"mpi_openmpi_hfa5ed71_5",
 "build_number":5,
@@ -9594,6 +9613,24 @@
 "sha256":"b7e7511b2fdba0dcaa30031c2691697f2f742ef7a0f8dd395f8569635737af5c",
 "size":3186873,
 "timestamp":1610137285453,
+"version":"1.12.0"
+},
+"hdf5-1.12.0-nompi_had0e5e0_107.tar.bz2":{
+"build":"nompi_had0e5e0_107",
+"build_number":107,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"sha256":"79bde5381be9a6bc9696173e1be7dfb7c2675e1d4efee5105b8d66cb7cb93a16",
+"size":3200246,
+"timestamp":1617652701171,
 "version":"1.12.0"
 },
 "hdf5-1.12.0-nompi_hbd21d90_105.tar.bz2":{
@@ -9724,6 +9761,22 @@
 "timestamp":1610137627967,
 "version":"1.12.0"
 },
+"hdf5-static-1.12.0-mpi_openmpi_h6e848c2_7.tar.bz2":{
+"build":"mpi_openmpi_h6e848c2_7",
+"build_number":7,
+"depends":[
+"hdf5 1.12.0 mpi_openmpi_h0e1e6cd_7",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"sha256":"34829c7f5ed45c9a94078fbf418045fa8d6e0860e67fb279461c555ef3dd8236",
+"size":3000404,
+"timestamp":1617652812310,
+"version":"1.12.0"
+},
 "hdf5-static-1.12.0-mpi_openmpi_h9d90dea_5.tar.bz2":{
 "build":"mpi_openmpi_h9d90dea_5",
 "build_number":5,
@@ -9754,6 +9807,22 @@
 "sha256":"32a1bbba4eaeab0504e7481778f6022a447be9fa4eee9005422f6046b9cd2e74",
 "size":3000591,
 "timestamp":1610137316594,
+"version":"1.12.0"
+},
+"hdf5-static-1.12.0-nompi_h18eddcc_107.tar.bz2":{
+"build":"nompi_h18eddcc_107",
+"build_number":107,
+"depends":[
+"hdf5 1.12.0 nompi_had0e5e0_107",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"sha256":"0c952cb6d613b44aa5d293ee6fad80940c0f3888cb81db65a7dcc00ed65e2970",
+"size":2879646,
+"timestamp":1617652734519,
 "version":"1.12.0"
 },
 "hdf5-static-1.12.0-nompi_h3ecb07b_105.tar.bz2":{
