@@ -3930,7 +3930,7 @@
 "timestamp":1608141466818,
 "version":"1.1.3"
 },
-"adal-1.2.6-pyhd3eb1b0_0.conda":{
+"adal-1.2.7-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -3940,14 +3940,14 @@
 "python-dateutil >=2.1.0",
 "requests >=2.0.0"
 ],
-"legacy_bz2_md5":"5c7531664d49a2ae7aa51e9279a563bd",
+"legacy_bz2_md5":"da050286bd4df015cb879332af335537",
 "license":"MIT",
 "name":"adal",
 "noarch":"python",
-"sha256":"02f3477f3193ea2b390c4dfd8ed082cb43e5ac4a0698eda354a8ca22be04ca46",
-"size":37289,
-"timestamp":1611340536039,
-"version":"1.2.6"
+"sha256":"9cbc3ef2b4195694d4717d98d9180322f2b091ff9edaccb795a94584965d3935",
+"size":37466,
+"timestamp":1617654115065,
+"version":"1.2.7"
 },
 "affine-2.3.0-py_0.conda":{
 "build":"py_0",
@@ -4501,20 +4501,20 @@
 "timestamp":1548714427462,
 "version":"0.3.3"
 },
-"asgiref-3.3.1-pyhd3eb1b0_0.conda":{
+"asgiref-3.3.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python >=3.5"
 ],
-"legacy_bz2_md5":"36c1a6cad9278202133127131e6276dd",
+"legacy_bz2_md5":"0a58bf7213eab7dfc7fd18ef583e0ef9",
 "license":"BSD-3-Clause",
 "name":"asgiref",
 "noarch":"python",
-"sha256":"ceb351869e68681257ecdf1b609784e43a4539f03a3e997252b8b6349a2044ff",
-"size":22016,
-"timestamp":1605055811345,
-"version":"3.3.1"
+"sha256":"659724016f365c533ed24dad9b30897b14a9f2f4ab7bf09f8e5713f256fed420",
+"size":23885,
+"timestamp":1617654550827,
+"version":"3.3.2"
 },
 "asn1crypto-1.4.0-py_0.conda":{
 "build":"py_0",
@@ -6637,7 +6637,7 @@
 "timestamp":1576596077057,
 "version":"4.4.1"
 },
-"dask-2021.3.1-pyhd3eb1b0_0.conda":{
+"dask-2021.4.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "constrains":[
@@ -6646,40 +6646,20 @@
 "depends":[
 "bokeh >=1.0.0,!=2.0.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.3.1.*",
-"distributed >=2021.3.1",
-"numpy >=1.15.1",
+"dask-core 2021.4.0.*",
+"distributed >=2021.4.0",
+"numpy >=1.16",
 "pandas >=0.25.0",
 "python >=3.7"
 ],
-"legacy_bz2_md5":"630e2511f4639702428de14ed89cbe45",
+"legacy_bz2_md5":"35f08a74c9409c5216d62146b821bde2",
 "license":"BSD-3-Clause",
 "name":"dask",
 "noarch":"python",
-"sha256":"06faa7ca39d16b53c4e7b0bd8c3e2d2372edc6d3c220e80b8a6600fa4ce628c4",
-"size":5083,
-"timestamp":1617226500898,
-"version":"2021.3.1"
-},
-"dask-core-2021.3.1-pyhd3eb1b0_0.conda":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"python >=3.7",
-"cloudpickle >=1.1.1",
-"fsspec >=0.6.0",
-"partd >= 0.3.10",
-"pyyaml",
-"toolz >=0.8.2"
-],
-"legacy_bz2_md5":"354c8113fa8f1e3eb1f18cec0653ccd2",
-"license":"BSD-3-Clause",
-"name":"dask-core",
-"noarch":"python",
-"sha256":"01b156180170d2901ee851a82df4e8eb056a05209fa258b047f9f13c3927cc8d",
-"size":682920,
-"timestamp":1617117402827,
-"version":"2021.3.1"
+"sha256":"aa55ed43e87364c6b020c89a5cd4e96b03b132eb4f4c9cd3ecadc9a55a118308",
+"size":5043,
+"timestamp":1617652309890,
+"version":"2021.4.0"
 },
 "dask-core-2021.4.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -8870,7 +8850,7 @@
 "timestamp":1613414847537,
 "version":"1.6.0"
 },
-"google-cloud-storage-1.37.0-pyhd3eb1b0_0.conda":{
+"google-cloud-storage-1.37.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -8883,14 +8863,14 @@
 "yarl <1.6.0,>=1.0",
 "yarl >=1.0,<1.6.0"
 ],
-"legacy_bz2_md5":"d8c20254935871856041c0023acaa9dc",
+"legacy_bz2_md5":"eef01f4900595f378ed8b2768b301423",
 "license":"Apache-2.0",
 "name":"google-cloud-storage",
 "noarch":"python",
-"sha256":"33257b6254c621c9fbdc9741a1ee8402bdb0c3df17c79844d611fb4de2892383",
-"size":71741,
-"timestamp":1616701848432,
-"version":"1.37.0"
+"sha256":"8d782dacd36c113c7aa4f98f2e7c3601c70f000e29c0b582719724f19a3df9f4",
+"size":71742,
+"timestamp":1617655851378,
+"version":"1.37.1"
 },
 "google-pasta-0.2.0-py_0.conda":{
 "build":"py_0",
@@ -8951,6 +8931,21 @@
 "size":309562,
 "timestamp":1530612592442,
 "version":"3.0.4"
+},
+"grin-1.3.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3"
+],
+"legacy_bz2_md5":"504481543d2a4f0e4637e16ee3937e77",
+"license":"BSD-3-Clause",
+"name":"grin",
+"noarch":"python",
+"sha256":"4ae955086ac7ddc4389a12157eab05f549b43acbf03a46dd2b28ea338b4abdd5",
+"size":21134,
+"timestamp":1617694186692,
+"version":"1.3.0"
 },
 "gtk2-cos6-i686-2.24.23-h00b7b85_0.conda":{
 "build":"h00b7b85_0",
@@ -9304,7 +9299,7 @@
 "timestamp":1610130777135,
 "version":"21.0.0"
 },
-"hypothesis-6.8.4-pyhd3eb1b0_0.conda":{
+"hypothesis-6.8.5-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -9312,14 +9307,14 @@
 "python >=3.5",
 "sortedcontainers >=2.1.0,<3.0.0"
 ],
-"legacy_bz2_md5":"f96df00bb660b7a26a050c8e052ff3f8",
+"legacy_bz2_md5":"7456a1d3bf9ee2479513caf0d7394948",
 "license":"MPL 2.0",
 "name":"hypothesis",
 "noarch":"python",
-"sha256":"98dbe7425ad3aaa8f2670149ef120f3f771f84e7af20ddb48c9a951f0e71d734",
-"size":248928,
-"timestamp":1617382140077,
-"version":"6.8.4"
+"sha256":"c27a4beee908b236a42b67dc3d6dfabea8c0f2e0414e78d7620bdd10c7afb950",
+"size":248296,
+"timestamp":1617656096180,
+"version":"6.8.5"
 },
 "icalendar-4.0.7-py_0.conda":{
 "build":"py_0",
