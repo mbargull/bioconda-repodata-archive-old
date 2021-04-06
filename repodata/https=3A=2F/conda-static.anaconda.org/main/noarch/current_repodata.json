@@ -48,7 +48,7 @@
 "timestamp":1608141466818,
 "version":"1.1.3"
 },
-"adal-1.2.6-pyhd3eb1b0_0.tar.bz2":{
+"adal-1.2.7-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -61,10 +61,10 @@
 "license":"MIT",
 "name":"adal",
 "noarch":"python",
-"sha256":"9dfd7b39c52c444570527f57cc27c659e9da11171ce46901f11d0ad7c515fbe8",
-"size":36536,
-"timestamp":1611340536039,
-"version":"1.2.6"
+"sha256":"1bf1e54928e25dedfb3d2c95a77156a9e15d017c2ec69f84f8ed4f67ba34879a",
+"size":36626,
+"timestamp":1617654115065,
+"version":"1.2.7"
 },
 "affine-2.3.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -701,7 +701,7 @@
 "timestamp":1548714427462,
 "version":"0.3.3"
 },
-"asgiref-3.3.1-pyhd3eb1b0_0.tar.bz2":{
+"asgiref-3.3.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -710,10 +710,10 @@
 "license":"BSD-3-Clause",
 "name":"asgiref",
 "noarch":"python",
-"sha256":"31b79a98eb0061b535c85a115daa2b661b503397b7765bd564b87dff5db243dd",
-"size":20319,
-"timestamp":1605055811345,
-"version":"3.3.1"
+"sha256":"c4950e23257b5ff50573356759288fc50afd3016e3e24870f27b82c5fc091882",
+"size":22175,
+"timestamp":1617654550827,
+"version":"3.3.2"
 },
 "asn1crypto-1.4.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -3085,7 +3085,7 @@
 "timestamp":1576596077057,
 "version":"4.4.1"
 },
-"dask-2021.3.1-pyhd3eb1b0_0.tar.bz2":{
+"dask-2021.4.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "constrains":[
@@ -3094,38 +3094,19 @@
 "depends":[
 "bokeh >=1.0.0,!=2.0.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.3.1.*",
-"distributed >=2021.3.1",
-"numpy >=1.15.1",
+"dask-core 2021.4.0.*",
+"distributed >=2021.4.0",
+"numpy >=1.16",
 "pandas >=0.25.0",
 "python >=3.7"
 ],
 "license":"BSD-3-Clause",
 "name":"dask",
 "noarch":"python",
-"sha256":"ef9d6a6764302644d0f64067d4c2c074e0bb08f372bc1fcd88414bb412c3c5d9",
-"size":4738,
-"timestamp":1617226500898,
-"version":"2021.3.1"
-},
-"dask-core-2021.3.1-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"python >=3.7",
-"cloudpickle >=1.1.1",
-"fsspec >=0.6.0",
-"partd >= 0.3.10",
-"pyyaml",
-"toolz >=0.8.2"
-],
-"license":"BSD-3-Clause",
-"name":"dask-core",
-"noarch":"python",
-"sha256":"ab07520f2ad40ac3a3c85f99b37a1988ab583d3aa1878d3c1ec3405e9418db88",
-"size":729308,
-"timestamp":1617117402827,
-"version":"2021.3.1"
+"sha256":"89fd4ebfbd0f4b8879e400642713eba6237cc17eb3d016854864b15943361cb7",
+"size":4654,
+"timestamp":1617652309890,
+"version":"2021.4.0"
 },
 "dask-core-2021.4.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -5528,7 +5509,7 @@
 "timestamp":1613414847537,
 "version":"1.6.0"
 },
-"google-cloud-storage-1.37.0-pyhd3eb1b0_0.tar.bz2":{
+"google-cloud-storage-1.37.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -5544,10 +5525,10 @@
 "license":"Apache-2.0",
 "name":"google-cloud-storage",
 "noarch":"python",
-"sha256":"916e41249bab703f98a74e4c622e2184f8f36179eb1e5778e856649e64b33880",
-"size":72430,
-"timestamp":1616701848432,
-"version":"1.37.0"
+"sha256":"80373604cbb568de8bed474228481392f59ddb2fd757f7b29a1c678a98616880",
+"size":72589,
+"timestamp":1617655851378,
+"version":"1.37.1"
 },
 "google-pasta-0.2.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -5604,6 +5585,20 @@
 "size":332735,
 "timestamp":1530612592442,
 "version":"3.0.4"
+},
+"grin-1.3.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3"
+],
+"license":"BSD-3-Clause",
+"name":"grin",
+"noarch":"python",
+"sha256":"16e145e455eec55ad7f266bf635e0c9ae014e5d420d4da93f8d7cee97e0ff754",
+"size":19961,
+"timestamp":1617694186692,
+"version":"1.3.0"
 },
 "gtk2-cos6-i686-2.24.23-h00b7b85_0.tar.bz2":{
 "build":"h00b7b85_0",
@@ -6067,7 +6062,7 @@
 "timestamp":1610130777135,
 "version":"21.0.0"
 },
-"hypothesis-6.8.4-pyhd3eb1b0_0.tar.bz2":{
+"hypothesis-6.8.5-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -6078,10 +6073,10 @@
 "license":"MPL 2.0",
 "name":"hypothesis",
 "noarch":"python",
-"sha256":"80207a55a55617595ea2c237dcacd7b25580361ee5115d81ff0f7a1ae34df574",
-"size":242883,
-"timestamp":1617382140077,
-"version":"6.8.4"
+"sha256":"10ad322fdb3afa0d72d06e163f8794fb13449dae1b6a73d471096c94ca4d7bdb",
+"size":241446,
+"timestamp":1617656096180,
+"version":"6.8.5"
 },
 "icalendar-4.0.7-py_0.tar.bz2":{
 "build":"py_0",
