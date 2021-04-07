@@ -3564,6 +3564,21 @@
 "timestamp":1607541129811,
 "version":"0.21.2"
 },
+"binaryornot-0.4.4-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"chardet",
+"python"
+],
+"license":"BSD-3-Clause",
+"name":"binaryornot",
+"noarch":"python",
+"sha256":"c296884100790a616f04e0fe39d470e1e835199e47f9de9bc3d7cbf2b3cf41a6",
+"size":384275,
+"timestamp":1617751563788,
+"version":"0.4.4"
+},
 "black-19.10b0-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -10287,6 +10302,30 @@
 "size":13277,
 "timestamp":1585075624208,
 "version":"2.4"
+},
+"cookiecutter-1.7.2-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"binaryornot >=0.4.4",
+"click >=7.0",
+"jinja2 <3.0.0a0",
+"jinja2-time >=0.2.0",
+"markupsafe <2.0.0",
+"poyo >=0.5.0",
+"python",
+"python-slugify >=4.0.0",
+"requests >=2.23.0",
+"six >=1.10",
+"whichcraft >=0.4.0"
+],
+"license":"BSD-3-Clause",
+"name":"cookiecutter",
+"noarch":"python",
+"sha256":"d4cb16df28a85cd6f50c2828e6e1e4cbda7b83c963817ae54ba262de1ba1fd42",
+"size":90724,
+"timestamp":1617748969629,
+"version":"1.7.2"
 },
 "cookies-2.2.1-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
@@ -25680,6 +25719,22 @@
 "timestamp":1612213176846,
 "version":"2.11.3"
 },
+"jinja2-time-0.2.0-pyhd3eb1b0_2.tar.bz2":{
+"build":"pyhd3eb1b0_2",
+"build_number":2,
+"depends":[
+"arrow <0.15",
+"jinja2",
+"python"
+],
+"license":"MIT",
+"name":"jinja2-time",
+"noarch":"python",
+"sha256":"85203818d5e2e650149a11a70aed5e0cf852795bb60f07b22ee417f5d6326921",
+"size":14754,
+"timestamp":1617751564389,
+"version":"0.2.0"
+},
 "jira-2.0.0-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -38076,6 +38131,20 @@
 "size":8994,
 "timestamp":1613763507122,
 "version":"2.7.1"
+},
+"poyo-0.5.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"MIT",
+"name":"poyo",
+"noarch":"python",
+"sha256":"b1fe39e898113235e069b7d3db1a70b998d800e96ef4cf2d96ea8ae08eab7c79",
+"size":17220,
+"timestamp":1617751562886,
+"version":"0.5.0"
 },
 "prison-0.1.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -53245,6 +53314,20 @@
 "timestamp":1607973297157,
 "version":"0.36.2"
 },
+"whichcraft-0.6.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"BSD-3-Clause",
+"name":"whichcraft",
+"noarch":"python",
+"sha256":"23de421c8beb1a9d6e451f7acbd02005f063572c37491373e08e60298b8b60fe",
+"size":11364,
+"timestamp":1617751333399,
+"version":"0.6.1"
+},
 "whoosh-2.7.4-py_1.tar.bz2":{
 "build":"py_1",
 "build_number":1,
@@ -57721,6 +57804,21 @@
 "size":33357,
 "timestamp":1607541129811,
 "version":"0.21.2"
+},
+"binaryornot-0.4.4-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"chardet",
+"python"
+],
+"license":"BSD-3-Clause",
+"name":"binaryornot",
+"noarch":"python",
+"sha256":"aba34273441259bb15f07b1708caa352100c250b566252d7e8fd3cdb33950f9b",
+"size":359191,
+"timestamp":1617751563788,
+"version":"0.4.4"
 },
 "black-19.10b0-py_0.conda":{
 "build":"py_0",
@@ -64270,6 +64368,30 @@
 "size":12403,
 "timestamp":1585075624208,
 "version":"2.4"
+},
+"cookiecutter-1.7.2-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"binaryornot >=0.4.4",
+"click >=7.0",
+"jinja2 <3.0.0a0",
+"jinja2-time >=0.2.0",
+"markupsafe <2.0.0",
+"poyo >=0.5.0",
+"python",
+"python-slugify >=4.0.0",
+"requests >=2.23.0",
+"six >=1.10",
+"whichcraft >=0.4.0"
+],
+"license":"BSD-3-Clause",
+"name":"cookiecutter",
+"noarch":"python",
+"sha256":"a510590c301e32b254f015fc505f3aa3f8b8c7737ddf7785184f47a6e28fb841",
+"size":87844,
+"timestamp":1617748969629,
+"version":"1.7.2"
 },
 "cookies-2.2.1-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
@@ -78804,6 +78926,22 @@
 "timestamp":1612213176846,
 "version":"2.11.3"
 },
+"jinja2-time-0.2.0-pyhd3eb1b0_2.conda":{
+"build":"pyhd3eb1b0_2",
+"build_number":2,
+"depends":[
+"arrow <0.15",
+"jinja2",
+"python"
+],
+"license":"MIT",
+"name":"jinja2-time",
+"noarch":"python",
+"sha256":"c25c74b4798c17b47fc777d97b434acbb49099a8b28e7d5f980017491866b4a9",
+"size":17090,
+"timestamp":1617751564389,
+"version":"0.2.0"
+},
 "jira-2.0.0-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -89183,6 +89321,20 @@
 "size":9230,
 "timestamp":1613763507122,
 "version":"2.7.1"
+},
+"poyo-0.5.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"MIT",
+"name":"poyo",
+"noarch":"python",
+"sha256":"1cbed33d8ebb093c37b2959d9cd5405e9b7b266b272b626efbb7b5c6618661b3",
+"size":17703,
+"timestamp":1617751562886,
+"version":"0.5.0"
 },
 "prison-0.1.0-py_0.conda":{
 "build":"py_0",
@@ -103537,6 +103689,20 @@
 "size":33337,
 "timestamp":1607973297157,
 "version":"0.36.2"
+},
+"whichcraft-0.6.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"BSD-3-Clause",
+"name":"whichcraft",
+"noarch":"python",
+"sha256":"b8f252614b41f073772c64a5d0357c60ca8dc6a4cf91277872c8484e2293a06f",
+"size":11403,
+"timestamp":1617751333399,
+"version":"0.6.1"
 },
 "whoosh-2.7.4-py_1.conda":{
 "build":"py_1",
