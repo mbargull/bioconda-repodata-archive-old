@@ -7069,6 +7069,23 @@
 "timestamp":1617111187375,
 "version":"4.0.0"
 },
+"bazel-4.0.0-h3221fd4_7.tar.bz2":{
+"build":"h3221fd4_7",
+"build_number":7,
+"depends":[
+"grpc-cpp >=1.37.0,<1.38.0a0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.15.7,<3.16.0a0",
+"libstdcxx-ng >=9.3.0",
+"openjdk >=8"
+],
+"license":"Apache-2.0",
+"name":"bazel",
+"sha256":"03219edc1783f31dc08df07784c578dcda7555ed5ec2e096f76aadfe7f73f081",
+"size":41724004,
+"timestamp":1617890899724,
+"version":"4.0.0"
+},
 "bc-1.07.1-h516909a_0.tar.bz2":{
 "build":"h516909a_0",
 "build_number":0,
@@ -39424,6 +39441,36 @@
 "timestamp":1614812785466,
 "version":"1.4.6"
 },
+"jupyter_server-1.6.0-py36h2e20a7f_0.tar.bz2":{
+"build":"py36h2e20a7f_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"argon2-cffi",
+"dataclasses",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"b758cb007ba368f502232b06e7f8351ef98de7507e8659702695f4392863db3a",
+"size":426976,
+"timestamp":1617885889065,
+"version":"1.6.0"
+},
 "jupyter_server-1.6.0-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
@@ -39507,6 +39554,34 @@
 "sha256":"40a66241bfa5c27beabfff72a6f99e056247df8de65d23c470a0bec335bbb420",
 "size":431912,
 "timestamp":1617885574743,
+"version":"1.6.0"
+},
+"jupyter_server-1.6.0-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"argon2-cffi",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"bc41d8ecf7a80764466443493956487260997b094420be2f49d63235f37edbe7",
+"size":431660,
+"timestamp":1617885678028,
 "version":"1.6.0"
 },
 "jupyterhub-1.3.0-py36h2e20a7f_0.tar.bz2":{

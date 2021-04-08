@@ -2572,6 +2572,23 @@
 "timestamp":1616670303038,
 "version":"4.0.0"
 },
+"bazel-4.0.0-h8eb4617_7.tar.bz2":{
+"build":"h8eb4617_7",
+"build_number":7,
+"depends":[
+"grpc-cpp >=1.37.0,<1.38.0a0",
+"ijar",
+"libcxx >=11.1.0",
+"libprotobuf >=3.15.7,<3.16.0a0",
+"openjdk >=8"
+],
+"license":"Apache-2.0",
+"name":"bazel",
+"sha256":"d303c4f1ac399467641ce866da279f0206f965559e30775b60362f967048b14b",
+"size":43727172,
+"timestamp":1617891275916,
+"version":"4.0.0"
+},
 "bazel-4.0.0-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
@@ -11233,6 +11250,34 @@
 "size":482445,
 "timestamp":1614793200116,
 "version":"0.4.1"
+},
+"jupyter_server-1.6.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"argon2-cffi",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"da3a1179666b0142c214503bbec93e3f3a7dd5a67d596cd9babb94609601e116",
+"size":439608,
+"timestamp":1617885949871,
+"version":"1.6.0"
 },
 "jupyter_server-1.6.0-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
@@ -19959,6 +20004,28 @@
 "timestamp":1613073046436,
 "version":"1.0.0"
 },
+"pillow-8.1.2-py38h5351710_1.tar.bz2":{
+"build":"py38h5351710_1",
+"build_number":1,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg >=9d,<10a",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"olefile",
+"openjpeg >=2.4.0,<3.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tk >=8.6.10,<8.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"9e3fb1c071c7c9561c320dd32c1842615d3c5c74c6c48f35425a90fcfa7ed47d",
+"size":663251,
+"timestamp":1617888881605,
+"version":"8.1.2"
+},
 "pillow-8.1.2-py38h5cebd47_0.tar.bz2":{
 "build":"py38h5cebd47_0",
 "build_number":0,
@@ -19978,6 +20045,28 @@
 "sha256":"91a1ad405d490491982c4d370ece0cbff26c25c89f7ce8eb5783776ffd2b9eaa",
 "size":649325,
 "timestamp":1615244224822,
+"version":"8.1.2"
+},
+"pillow-8.1.2-py39h282ff46_1.tar.bz2":{
+"build":"py39h282ff46_1",
+"build_number":1,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg >=9d,<10a",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"olefile",
+"openjpeg >=2.4.0,<3.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tk >=8.6.10,<8.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"a87eb6970bdc3136d07fb96d7dbb160280ff95ab64d28316c83e3ce020c6a2cb",
+"size":652436,
+"timestamp":1617888979856,
 "version":"8.1.2"
 },
 "pillow-8.1.2-py39hf007017_0.tar.bz2":{
