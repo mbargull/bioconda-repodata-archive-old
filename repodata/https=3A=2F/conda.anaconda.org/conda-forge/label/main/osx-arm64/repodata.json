@@ -7855,6 +7855,20 @@
 "timestamp":1617368623299,
 "version":"0.9.4"
 },
+"aws-c-io-0.9.4-h816e6ec_3.tar.bz2":{
+"build":"h816e6ec_3",
+"build_number":3,
+"depends":[
+"aws-c-cal >=0.4.5,<0.4.6.0a0",
+"aws-c-common >=0.5.2,<0.5.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"requires":[],
+"size":110810,
+"timestamp":1617870565784,
+"version":"0.9.4"
+},
 "aws-c-io-0.9.4-hb1046ea_0.tar.bz2":{
 "build":"hb1046ea_0",
 "build_number":0,
@@ -66393,6 +66407,19 @@
 "timestamp":1616157053913,
 "version":"2021.1.1"
 },
+"tbb-2021.2.0-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"tbb",
+"requires":[],
+"size":122759,
+"timestamp":1617870316372,
+"version":"2021.2.0"
+},
 "tbb-devel-2020.2-h260d524_1.tar.bz2":{
 "build":"h260d524_1",
 "build_number":1,
@@ -66476,6 +66503,20 @@
 "size":903366,
 "timestamp":1616157073675,
 "version":"2021.1.1"
+},
+"tbb-devel-2021.2.0-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"tbb 2021.2.0 hc021e02_0"
+],
+"license":"Apache-2.0",
+"name":"tbb-devel",
+"requires":[],
+"size":921933,
+"timestamp":1617870396050,
+"version":"2021.2.0"
 },
 "tbb4py-2020.2-py38h12a6f45_1.tar.bz2":{
 "build":"py38h12a6f45_1",
@@ -66572,6 +66613,22 @@
 "size":55447,
 "timestamp":1616157172137,
 "version":"2021.1.1"
+},
+"tbb4py-2021.2.0-py38he878d44_0.tar.bz2":{
+"build":"py38he878d44_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tbb >=2021.2.0"
+],
+"license":"Apache 2.0",
+"name":"tbb4py",
+"requires":[],
+"size":55672,
+"timestamp":1617870784702,
+"version":"2021.2.0"
 },
 "terminado-0.9.1-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
