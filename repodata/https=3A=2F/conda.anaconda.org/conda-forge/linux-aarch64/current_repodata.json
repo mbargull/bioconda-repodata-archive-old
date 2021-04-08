@@ -6319,11 +6319,11 @@
 "timestamp":1615242095288,
 "version":"1.8.151"
 },
-"awscli-1.19.46-py36h2e20a7f_0.tar.bz2":{
+"awscli-1.19.47-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.46",
+"botocore 1.20.47",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.6 >=7.3.3",
@@ -6335,16 +6335,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"ce12dee9289fbf4c8125679241a19745470e9e422ef8edb0dbdc7e0a5473f5e0",
-"size":1930677,
-"timestamp":1617760025784,
-"version":"1.19.46"
+"sha256":"b1e9047568cd1dba4fc70edabed62fce39e57202d854fa587c3f051819767f83",
+"size":1928722,
+"timestamp":1617848757372,
+"version":"1.19.47"
 },
-"awscli-1.19.46-py36h704843e_0.tar.bz2":{
+"awscli-1.19.47-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.46",
+"botocore 1.20.47",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -6355,16 +6355,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"f4f054298d9cb59486811e6885c681f255c546d1275cb4648717afead5cee74a",
-"size":1943418,
-"timestamp":1617760300939,
-"version":"1.19.46"
+"sha256":"c9d6f7672ef64c7e770918b43f65c59c92fc90b1ec7d32675e5bca9490842658",
+"size":1946157,
+"timestamp":1617849080554,
+"version":"1.19.47"
 },
-"awscli-1.19.46-py37hd9ded2f_0.tar.bz2":{
+"awscli-1.19.47-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.46",
+"botocore 1.20.47",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -6375,16 +6375,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"0a1f4452fd45834040c2ec886f28fa21ebe2fa3de51ee7de1d9d0b7113f9f16f",
-"size":1920223,
-"timestamp":1617760948331,
-"version":"1.19.46"
+"sha256":"2e6bf082e84c98d8d371069897815924baf942cbabd4e6ca3a0e810eaf00dda6",
+"size":1940407,
+"timestamp":1617849361937,
+"version":"1.19.47"
 },
-"awscli-1.19.46-py38h2063c64_0.tar.bz2":{
+"awscli-1.19.47-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.46",
+"botocore 1.20.47",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -6395,30 +6395,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"edf075ebe1a453aa81e27f43ccfbf9a1c63abd4091f1e1eb585896083501d2d0",
-"size":1918287,
-"timestamp":1617761320319,
-"version":"1.19.46"
-},
-"awscli-1.19.46-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"botocore 1.20.46",
-"colorama >=0.2.5,<0.4.4",
-"docutils >=0.10,<0.16",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pyyaml >=3.10,<5.5",
-"rsa >=3.1.2,<4.8",
-"s3transfer >=0.3.0,<0.4.0"
-],
-"license":"Apache-2.0",
-"name":"awscli",
-"sha256":"25ab0cb3b12ef9e8f556e660a3f81822cc2ece8ec73ac9dfd4d2083acff53fe0",
-"size":1937295,
-"timestamp":1617761589401,
-"version":"1.19.46"
+"sha256":"e0bd228eb79c677ccab4a336fbe65ebd8697e1fd8baa39c406bed33bce09eeb8",
+"size":1937629,
+"timestamp":1617849619003,
+"version":"1.19.47"
 },
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
@@ -29707,6 +29687,48 @@
 "sha256":"ef7ad33e5f7ce7d7bafbbfa91646ae1ec5bdf78b24ea4ded9b8cd8356ed0236e",
 "size":2607503,
 "timestamp":1617844149389,
+"version":"1.37.0"
+},
+"grpcio-1.37.0-py38h72d72fb_0.tar.bz2":{
+"build":"py38h72d72fb_0",
+"build_number":0,
+"depends":[
+"c-ares >=1.17.1,<2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"six >=1.5.2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpcio",
+"sha256":"cfe13098da302301376bee6cd41c722f85ab74f45a1d35addd2c0fccfe24b23d",
+"size":2605605,
+"timestamp":1617845066766,
+"version":"1.37.0"
+},
+"grpcio-1.37.0-py39hf7c81b1_0.tar.bz2":{
+"build":"py39hf7c81b1_0",
+"build_number":0,
+"depends":[
+"c-ares >=1.17.1,<2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"six >=1.5.2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpcio",
+"sha256":"7d2264f7770cf5d7f08263b68e7a91771cad2ba724feb014a28ae770335b683e",
+"size":2596600,
+"timestamp":1617846033972,
 "version":"1.37.0"
 },
 "gsd-2.4.1-py36h725b0e1_0.tar.bz2":{
