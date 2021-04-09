@@ -17483,20 +17483,6 @@
 "timestamp":1607706813216,
 "version":"4.0.0"
 },
-"charls-2.1.0-he6710b0_2.tar.bz2":{
-"build":"he6710b0_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0"
-],
-"license":"BSD-3-Clause",
-"name":"charls",
-"sha256":"761aba1a10a3a6c85e3a711ab0c6781842af5cb92f034eaba745d32e59fd05ea",
-"size":157045,
-"timestamp":1593198212427,
-"version":"2.1.0"
-},
 "charls-2.2.0-h2531618_0.tar.bz2":{
 "build":"h2531618_0",
 "build_number":0,
@@ -36152,19 +36138,20 @@
 "timestamp":1611752520139,
 "version":"1.1.0"
 },
-"imagecodecs-2021.1.11-py37h581e88b_1.tar.bz2":{
-"build":"py37h581e88b_1",
-"build_number":1,
+"imagecodecs-2021.3.31-py37h581e88b_0.tar.bz2":{
+"build":"py37h581e88b_0",
+"build_number":0,
 "depends":[
-"blosc >=1.20.1,<2.0a0",
+"blosc >=1.21.0,<2.0a0",
+"brotli >=1.0.9,<1.1.0a0",
 "brotli >=1.0.9,<2.0a0",
 "brunsli >=0.1,<1.0a0",
 "bzip2 >=1.0.8,<2.0a0",
-"charls >=2.1.0,<2.2.0a0",
+"charls >=2.2.0,<2.3.0a0",
 "giflib >=5.1.4,<5.2.0a0",
 "jpeg >=9b,<10a",
 "jxrlib >=1.1,<1.2.0a0",
-"lcms2 >=2.11,<3.0a0",
+"lcms2 >=2.12,<3.0a0",
 "lerc >=2.2.1,<3.0a0",
 "libaec >=1.0.4,<2.0a0",
 "libdeflate >=1.7,<1.8.0a0",
@@ -36186,24 +36173,25 @@
 ],
 "license":"BSD-3-Clause",
 "name":"imagecodecs",
-"sha256":"664a38a02922476e29b8606b7605d8ca54e5f868e6699e8533c3534f425b8221",
-"size":6704747,
-"timestamp":1611258496132,
-"version":"2021.1.11"
+"sha256":"529911456523ec7dffbfd15e619db9f900ca9b935aadae72424a702416e2ff12",
+"size":6965562,
+"timestamp":1617993657920,
+"version":"2021.3.31"
 },
-"imagecodecs-2021.1.11-py38h581e88b_1.tar.bz2":{
-"build":"py38h581e88b_1",
-"build_number":1,
+"imagecodecs-2021.3.31-py38h581e88b_0.tar.bz2":{
+"build":"py38h581e88b_0",
+"build_number":0,
 "depends":[
-"blosc >=1.20.1,<2.0a0",
+"blosc >=1.21.0,<2.0a0",
+"brotli >=1.0.9,<1.1.0a0",
 "brotli >=1.0.9,<2.0a0",
 "brunsli >=0.1,<1.0a0",
 "bzip2 >=1.0.8,<2.0a0",
-"charls >=2.1.0,<2.2.0a0",
+"charls >=2.2.0,<2.3.0a0",
 "giflib >=5.1.4,<5.2.0a0",
 "jpeg >=9b,<10a",
 "jxrlib >=1.1,<1.2.0a0",
-"lcms2 >=2.11,<3.0a0",
+"lcms2 >=2.12,<3.0a0",
 "lerc >=2.2.1,<3.0a0",
 "libaec >=1.0.4,<2.0a0",
 "libdeflate >=1.7,<1.8.0a0",
@@ -36225,24 +36213,25 @@
 ],
 "license":"BSD-3-Clause",
 "name":"imagecodecs",
-"sha256":"cf17061a6366ac819342d14d1421017cc702d3cee3c187478a4dc463109a636b",
-"size":6773240,
-"timestamp":1611258357258,
-"version":"2021.1.11"
+"sha256":"668735f2ab811a61fb4b34263b2b29e230e9678df8942cc92b0424b7380398c1",
+"size":7134448,
+"timestamp":1617996579272,
+"version":"2021.3.31"
 },
-"imagecodecs-2021.1.11-py39h581e88b_1.tar.bz2":{
-"build":"py39h581e88b_1",
-"build_number":1,
+"imagecodecs-2021.3.31-py39h581e88b_0.tar.bz2":{
+"build":"py39h581e88b_0",
+"build_number":0,
 "depends":[
-"blosc >=1.20.1,<2.0a0",
+"blosc >=1.21.0,<2.0a0",
+"brotli >=1.0.9,<1.1.0a0",
 "brotli >=1.0.9,<2.0a0",
 "brunsli >=0.1,<1.0a0",
 "bzip2 >=1.0.8,<2.0a0",
-"charls >=2.1.0,<2.2.0a0",
+"charls >=2.2.0,<2.3.0a0",
 "giflib >=5.1.4,<5.2.0a0",
 "jpeg >=9b,<10a",
 "jxrlib >=1.1,<1.2.0a0",
-"lcms2 >=2.11,<3.0a0",
+"lcms2 >=2.12,<3.0a0",
 "lerc >=2.2.1,<3.0a0",
 "libaec >=1.0.4,<2.0a0",
 "libdeflate >=1.7,<1.8.0a0",
@@ -36264,10 +36253,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"imagecodecs",
-"sha256":"70dd7d3c9a7dba2ae558e467927126241f3aca008ee1307357d2d4d8f492e327",
-"size":6747627,
-"timestamp":1611258475326,
-"version":"2021.1.11"
+"sha256":"3c79bc7e780f88326fd4cbd372acdcb1b9088bd9895e0e8a59e99370f78fdd4b",
+"size":7056128,
+"timestamp":1617996588573,
+"version":"2021.3.31"
 },
 "imageio-2.6.1-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -95175,6 +95164,20 @@
 "timestamp":1611240514082,
 "version":"0.5.5"
 },
+"zfp-0.5.5-h2531618_6.tar.bz2":{
+"build":"h2531618_6",
+"build_number":6,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"zfp",
+"sha256":"8abde3518c029924ad11278cb3ff83b7060f3dd854439601c06b40978ed2e009",
+"size":202418,
+"timestamp":1617995968460,
+"version":"0.5.5"
+},
 "zfpy-0.5.5-py36ha9443f7_4.tar.bz2":{
 "build":"py36ha9443f7_4",
 "build_number":4,
@@ -95190,6 +95193,23 @@
 "sha256":"a386100fe8bb0b59ce9109ebd2ff67f64c1b37ef9e6608f510888e61011f0fcc",
 "size":109134,
 "timestamp":1611240547318,
+"version":"0.5.5"
+},
+"zfpy-0.5.5-py36ha9443f7_6.tar.bz2":{
+"build":"py36ha9443f7_6",
+"build_number":6,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"zfp 0.5.5 h2531618_6"
+],
+"license":"BSD-3-Clause",
+"name":"zfpy",
+"sha256":"f49ce36ef485a1d0c6876554e0ec4b5d158ac01454293a918b975b233fe56512",
+"size":109428,
+"timestamp":1617996045289,
 "version":"0.5.5"
 },
 "zfpy-0.5.5-py37ha9443f7_4.tar.bz2":{
@@ -95209,6 +95229,23 @@
 "timestamp":1611240610773,
 "version":"0.5.5"
 },
+"zfpy-0.5.5-py37ha9443f7_6.tar.bz2":{
+"build":"py37ha9443f7_6",
+"build_number":6,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"zfp 0.5.5 h2531618_6"
+],
+"license":"BSD-3-Clause",
+"name":"zfpy",
+"sha256":"8c6ccab0ddda3a4bd774a94a2864f84861d3335f76d3c75d891c0567227dcef3",
+"size":109571,
+"timestamp":1617996111387,
+"version":"0.5.5"
+},
 "zfpy-0.5.5-py38ha9443f7_4.tar.bz2":{
 "build":"py38ha9443f7_4",
 "build_number":4,
@@ -95226,6 +95263,23 @@
 "timestamp":1611240640020,
 "version":"0.5.5"
 },
+"zfpy-0.5.5-py38ha9443f7_6.tar.bz2":{
+"build":"py38ha9443f7_6",
+"build_number":6,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"zfp 0.5.5 h2531618_6"
+],
+"license":"BSD-3-Clause",
+"name":"zfpy",
+"sha256":"4aa7d395c8952026bf91894b5d23fb1c56be8e3c52d3e93811e5ed3aa4ba3785",
+"size":111835,
+"timestamp":1617996078685,
+"version":"0.5.5"
+},
 "zfpy-0.5.5-py39ha9443f7_4.tar.bz2":{
 "build":"py39ha9443f7_4",
 "build_number":4,
@@ -95241,6 +95295,23 @@
 "sha256":"b9fa06dd28e001e85eff3909420a688b8e6e5a7b0f4b63876ee910172e6ffc3d",
 "size":111547,
 "timestamp":1611240580899,
+"version":"0.5.5"
+},
+"zfpy-0.5.5-py39ha9443f7_6.tar.bz2":{
+"build":"py39ha9443f7_6",
+"build_number":6,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"zfp 0.5.5 h2531618_6"
+],
+"license":"BSD-3-Clause",
+"name":"zfpy",
+"sha256":"106cb1c24dde87ff7d854c2d9118a354b056fd36e2385bb0a0c163b8094beeec",
+"size":112141,
+"timestamp":1617996005524,
 "version":"0.5.5"
 },
 "zict-0.1.4-py27_0.tar.bz2":{
