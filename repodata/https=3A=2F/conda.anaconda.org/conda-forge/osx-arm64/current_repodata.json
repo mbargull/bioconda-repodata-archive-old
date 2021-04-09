@@ -14547,6 +14547,22 @@
 "timestamp":1609782099374,
 "version":"1.4"
 },
+"libode-0.16.2-py38hc470f4d_5.tar.bz2":{
+"build":"py38hc470f4d_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"pthread-stubs",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-or-later OR BSD-4-Clause",
+"name":"libode",
+"sha256":"27f56e419a2bc5a60bfd1fe3541e0eda6238d0e729201bedddc62e634760c57f",
+"size":436627,
+"timestamp":1617968027944,
+"version":"0.16.2"
+},
 "libogg-1.3.4-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -23010,6 +23026,22 @@
 "size":66419,
 "timestamp":1610633710870,
 "version":"4.0.30"
+},
+"pyode-0.16.2-hce30654_5.tar.bz2":{
+"build":"hce30654_5",
+"build_number":5,
+"depends":[
+"libcxx",
+"libode",
+"pthread-stubs",
+"python 3.8.*"
+],
+"license":"LGPL-2.1-or-later OR BSD-4-Clause",
+"name":"pyode",
+"sha256":"867e8a5150aa7427ea0c4ff95dbdb9ee891d7daef555c954deefbfc81014ffec",
+"size":172392,
+"timestamp":1617968039921,
+"version":"0.16.2"
 },
 "pyopencl-2021.1.6-py38h1e2c3d9_0.tar.bz2":{
 "build":"py38h1e2c3d9_0",
