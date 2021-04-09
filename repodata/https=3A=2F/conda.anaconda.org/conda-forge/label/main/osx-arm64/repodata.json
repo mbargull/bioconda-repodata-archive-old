@@ -8928,6 +8928,23 @@
 "timestamp":1609872739783,
 "version":"2.103"
 },
+"blas-2.104-netlib.tar.bz2":{
+"build":"netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0 4_h880f123_netlib",
+"libcblas 3.9.0 4_h880f123_netlib",
+"liblapack 3.9.0 4_h880f123_netlib",
+"liblapacke 3.9.0 4_h880f123_netlib",
+"libtmglib 3.9.0 4_h880f123_netlib"
+],
+"license":"BSD-3-Clause",
+"name":"blas",
+"requires":[],
+"size":13836,
+"timestamp":1617995237457,
+"version":"2.104"
+},
 "blas-2.105-openblas.tar.bz2":{
 "build":"openblas",
 "build_number":5,
@@ -32581,6 +32598,24 @@
 "timestamp":1605743494348,
 "version":"3.9.0"
 },
+"libblas-3.9.0-4_h880f123_netlib.tar.bz2":{
+"build":"4_h880f123_netlib",
+"build_number":4,
+"constrains":[
+"blas * netlib"
+],
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libblas",
+"requires":[],
+"size":171968,
+"timestamp":1617995174742,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
 "libblas-3.9.0-4_openblas.tar.bz2":{
 "build":"4_openblas",
 "build_number":4,
@@ -32900,6 +32935,22 @@
 "requires":[],
 "size":11315,
 "timestamp":1605743508334,
+"version":"3.9.0"
+},
+"libcblas-3.9.0-4_h880f123_netlib.tar.bz2":{
+"build":"4_h880f123_netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libcblas",
+"requires":[],
+"size":49815,
+"timestamp":1617995199201,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "libcblas-3.9.0-4_openblas.tar.bz2":{
@@ -35277,6 +35328,22 @@
 "timestamp":1605743521024,
 "version":"3.9.0"
 },
+"liblapack-3.9.0-4_h880f123_netlib.tar.bz2":{
+"build":"4_h880f123_netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"liblapack",
+"requires":[],
+"size":2933957,
+"timestamp":1617995211753,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
 "liblapack-3.9.0-4_openblas.tar.bz2":{
 "build":"4_openblas",
 "build_number":4,
@@ -35491,6 +35558,24 @@
 "requires":[],
 "size":11313,
 "timestamp":1605743534153,
+"version":"3.9.0"
+},
+"liblapacke-3.9.0-4_h880f123_netlib.tar.bz2":{
+"build":"4_h880f123_netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0.*",
+"libcblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack 3.9.0.*"
+],
+"license":"BSD-3-Clause",
+"name":"liblapacke",
+"requires":[],
+"size":496383,
+"timestamp":1617995228709,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "liblapacke-3.9.0-4_openblas.tar.bz2":{
@@ -37752,6 +37837,24 @@
 "size":607727,
 "timestamp":1608420568561,
 "version":"4.2.0"
+},
+"libtmglib-3.9.0-4_h880f123_netlib.tar.bz2":{
+"build":"4_h880f123_netlib",
+"build_number":4,
+"constrains":[
+"blas * netlib"
+],
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libtmglib",
+"requires":[],
+"size":146540,
+"timestamp":1617995186553,
+"track_features":"blas_netlib",
+"version":"3.9.0"
 },
 "libtool-2.4.6-h19f5b89_1006.tar.bz2":{
 "build":"h19f5b89_1006",
@@ -66102,6 +66205,36 @@
 "size":2340780,
 "timestamp":1617782044318,
 "version":"1.4.6"
+},
+"sqlalchemy-1.4.7-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"requires":[],
+"size":2344061,
+"timestamp":1617995201064,
+"version":"1.4.7"
+},
+"sqlalchemy-1.4.7-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"requires":[],
+"size":2342347,
+"timestamp":1617995211373,
+"version":"1.4.7"
 },
 "sqlite-3.32.3-h75b4277_1.tar.bz2":{
 "build":"h75b4277_1",
