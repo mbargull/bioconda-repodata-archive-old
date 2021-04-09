@@ -15112,6 +15112,32 @@
 "timestamp":1613186696427,
 "version":"2.5.1"
 },
+"cantera-2.5.1-py38h0038c2a_1.tar.bz2":{
+"build":"py38h0038c2a_1",
+"build_number":1,
+"depends":[
+"fmt >=7.1.2,<8.0a0",
+"h5py",
+"libblas >=3.8.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"ruamel_yaml",
+"setuptools",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"cantera",
+"sha256":"5d50184d4559a7509b9c873662c51a2bcf19fa3b3148b5e273a6a3be8ba527c0",
+"size":2079333,
+"timestamp":1617977336032,
+"version":"2.5.1"
+},
 "cantera-2.5.1-py38h1b92d76_0.tar.bz2":{
 "build":"py38h1b92d76_0",
 "build_number":0,
@@ -45153,6 +45179,24 @@
 "timestamp":1605467286809,
 "version":"1.2.7"
 },
+"libcantera-2.5.1-h0038c2a_1.tar.bz2":{
+"build":"h0038c2a_1",
+"build_number":1,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera",
+"sha256":"7f8f0e7f05037ced000e981e3e959be8aa47893bbbe4e2009a458b921675c92c",
+"size":1716039,
+"timestamp":1617976681991,
+"version":"2.5.1"
+},
 "libcantera-2.5.1-h1834db7_0.tar.bz2":{
 "build":"h1834db7_0",
 "build_number":0,
@@ -45223,6 +45267,25 @@
 "sha256":"87b55d5dca3325d4536156bb313420e317e15b469ea025bb3003de836df37e46",
 "size":1879372,
 "timestamp":1613185115434,
+"version":"2.5.1"
+},
+"libcantera-devel-2.5.1-h0038c2a_1.tar.bz2":{
+"build":"h0038c2a_1",
+"build_number":1,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera-devel",
+"sha256":"66d19c5c1e79c880d79c77300c7eff6580b79dc145963a2cc272756ea99c4017",
+"size":11872963,
+"timestamp":1617976845285,
 "version":"2.5.1"
 },
 "libcantera-devel-2.5.1-h1834db7_0.tar.bz2":{
