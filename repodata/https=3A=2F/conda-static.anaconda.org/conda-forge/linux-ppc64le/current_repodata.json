@@ -26287,6 +26287,33 @@
 "timestamp":1617955374313,
 "version":"1.3.4"
 },
+"fltk-1.3.4-h47ed5a7_1004.tar.bz2":{
+"build":"h47ed5a7_1004",
+"build_number":1004,
+"depends":[
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libglu",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=9.3.0",
+"libxcb",
+"xorg-libice",
+"xorg-libsm",
+"xorg-libx11",
+"xorg-libxau",
+"xorg-libxdmcp",
+"xorg-libxext",
+"xorg-libxfixes",
+"xorg-libxrender",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.0",
+"name":"fltk",
+"sha256":"0fbea4ab830ca621d5a300a7c83f689eab2d6eb6d1554695a27718c201f0ac86",
+"size":2270756,
+"timestamp":1617994330976,
+"version":"1.3.4"
+},
 "fmt-7.1.2-hecf720e_0.tar.bz2":{
 "build":"hecf720e_0",
 "build_number":0,
@@ -45055,6 +45082,25 @@
 "timestamp":1605745013978,
 "version":"3.9.0"
 },
+"libblas-3.9.0-4_h671bf74_netlib.tar.bz2":{
+"build":"4_h671bf74_netlib",
+"build_number":4,
+"constrains":[
+"blas * netlib"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"libblas",
+"sha256":"f60fe8895c25ca3858d290c292c80624e9da7cab16ed771ee4886d87cd95bf72",
+"size":191520,
+"timestamp":1617995734249,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
 "libblas-3.9.0-4_openblas.tar.bz2":{
 "build":"4_openblas",
 "build_number":4,
@@ -45815,6 +45861,23 @@
 "sha256":"ea2efade9e6a2090c5b7435db7131a8ac58e639eb8a06f4a68cdd2bf3bfadef3",
 "size":11298,
 "timestamp":1605745056147,
+"version":"3.9.0"
+},
+"libcblas-3.9.0-4_h671bf74_netlib.tar.bz2":{
+"build":"4_h671bf74_netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0.*",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"libcblas",
+"sha256":"126d2de1cddaa10e6228114b113c18ae22a5ef76b10e28b39cf5ed0b1e3a1705",
+"size":53185,
+"timestamp":1617995776890,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "libcblas-3.9.0-4_openblas.tar.bz2":{
@@ -49095,6 +49158,23 @@
 "timestamp":1605745097362,
 "version":"3.9.0"
 },
+"liblapack-3.9.0-4_h671bf74_netlib.tar.bz2":{
+"build":"4_h671bf74_netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0.*",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"liblapack",
+"sha256":"2f157e291f08648f51721b7f2a0f41ddf207084e95935b6056bfe04501ed7c5f",
+"size":3210066,
+"timestamp":1617995799445,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
 "liblapack-3.9.0-4_openblas.tar.bz2":{
 "build":"4_openblas",
 "build_number":4,
@@ -49407,6 +49487,25 @@
 "sha256":"c14d54b3189b283b9a74897f9914add9696d702bb3292e536c749d642471018b",
 "size":11301,
 "timestamp":1605745140667,
+"version":"3.9.0"
+},
+"liblapacke-3.9.0-4_h671bf74_netlib.tar.bz2":{
+"build":"4_h671bf74_netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0.*",
+"libcblas 3.9.0.*",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack 3.9.0.*"
+],
+"license":"BSD-3-Clause",
+"name":"liblapacke",
+"sha256":"ecbbaaf0ce7c35dde79345cb5a6a79ada5c80a3904df94fe877124a9cef4d6f0",
+"size":642428,
+"timestamp":1617995824636,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "liblapacke-3.9.0-4_openblas.tar.bz2":{
@@ -52180,6 +52279,25 @@
 "size":841646,
 "timestamp":1608420577696,
 "version":"4.2.0"
+},
+"libtmglib-3.9.0-4_h671bf74_netlib.tar.bz2":{
+"build":"4_h671bf74_netlib",
+"build_number":4,
+"constrains":[
+"blas * netlib"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"libtmglib",
+"sha256":"6cd286f8c5addb4aa53629c26cdcf59ca295d53bcf45b0d43fb5399621f7c619",
+"size":156209,
+"timestamp":1617995755864,
+"track_features":"blas_netlib",
+"version":"3.9.0"
 },
 "libtool-2.4.6-h14c3975_1002.tar.bz2":{
 "build":"h14c3975_1002",
@@ -104001,42 +104119,7 @@
 "timestamp":1617408268639,
 "version":"2.0.1"
 },
-"sqlalchemy-1.4.6-py36hc33305d_0.tar.bz2":{
-"build":"py36hc33305d_0",
-"build_number":0,
-"depends":[
-"greenlet !=0.4.17",
-"importlib-metadata",
-"libgcc-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"MIT",
-"name":"sqlalchemy",
-"sha256":"fb322bc8e12d31c84a78d93c046b630c61a3d3e6fe7a6a52608ed5eb6035e88a",
-"size":2332877,
-"timestamp":1617782691008,
-"version":"1.4.6"
-},
-"sqlalchemy-1.4.6-py36hfa8c849_0.tar.bz2":{
-"build":"py36hfa8c849_0",
-"build_number":0,
-"depends":[
-"greenlet !=0.4.17",
-"importlib-metadata",
-"libgcc-ng >=9.3.0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"MIT",
-"name":"sqlalchemy",
-"sha256":"37bbe9c059b8a61670df8f74b66943953d4294b679937ffa2e7984e85874b59f",
-"size":2332252,
-"timestamp":1617782518847,
-"version":"1.4.6"
-},
-"sqlalchemy-1.4.6-py37h0630641_0.tar.bz2":{
+"sqlalchemy-1.4.7-py37h0630641_0.tar.bz2":{
 "build":"py37h0630641_0",
 "build_number":0,
 "depends":[
@@ -104049,12 +104132,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"f3806c658ae97b8dc0830b508f03af5e086094a28cb1e67be48f73800d973029",
-"size":2332717,
-"timestamp":1617782357771,
-"version":"1.4.6"
+"sha256":"64bce903cd928013bdfac588af85765a90a1aac23f2c532a2a346d44a62f847d",
+"size":2327757,
+"timestamp":1617995767687,
+"version":"1.4.7"
 },
-"sqlalchemy-1.4.6-py37h6642d69_0.tar.bz2":{
+"sqlalchemy-1.4.7-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -104066,28 +104149,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"d335e82a5358a28e42414621b41c366b8c9484dadbec223d3eb5ce3b704bfee4",
-"size":2331634,
-"timestamp":1617782334353,
-"version":"1.4.6"
+"sha256":"c1f7047cb39c72959dda758fbcf79569f7284e28c957038e9404949962d0e25c",
+"size":2327163,
+"timestamp":1617995510274,
+"version":"1.4.7"
 },
-"sqlalchemy-1.4.6-py38h98b8a6f_0.tar.bz2":{
-"build":"py38h98b8a6f_0",
-"build_number":0,
-"depends":[
-"greenlet !=0.4.17",
-"libgcc-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"MIT",
-"name":"sqlalchemy",
-"sha256":"2d7de26c2d02f4c7bcea4e8c58af1bbade3e15391ef17e5b4ba765c5499060a5",
-"size":2339635,
-"timestamp":1617782347640,
-"version":"1.4.6"
-},
-"sqlalchemy-1.4.6-py39ha810350_0.tar.bz2":{
+"sqlalchemy-1.4.7-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -104098,10 +104165,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"852e831356f9a63d7c8ea54f496ed3e37ec145d13c33f2bba8ff499cf50d9b57",
-"size":2343187,
-"timestamp":1617782556360,
-"version":"1.4.6"
+"sha256":"030b1ba09b4d580a712477864136b9b16cf376c0541d244001bacb4dc90640cc",
+"size":2343611,
+"timestamp":1617995804202,
+"version":"1.4.7"
 },
 "sqlite-3.35.2-h961021d_0.tar.bz2":{
 "build":"h961021d_0",
