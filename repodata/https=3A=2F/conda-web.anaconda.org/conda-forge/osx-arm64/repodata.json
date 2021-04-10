@@ -18072,6 +18072,42 @@
 "timestamp":1614936080061,
 "version":"1.1.11"
 },
+"cvxpy-1.1.12-py38h150bfb4_0.tar.bz2":{
+"build":"py38h150bfb4_0",
+"build_number":0,
+"depends":[
+"cvxpy-base 1.1.12 py38h3777fb4_0",
+"ecos >=2",
+"osqp >=0.4.1",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scs >=1.1.6"
+],
+"license":"Apache-2.0",
+"name":"cvxpy",
+"requires":[],
+"size":82954,
+"timestamp":1618054655789,
+"version":"1.1.12"
+},
+"cvxpy-1.1.12-py39hdf13c20_0.tar.bz2":{
+"build":"py39hdf13c20_0",
+"build_number":0,
+"depends":[
+"cvxpy-base 1.1.12 py39h7f752ed_0",
+"ecos >=2",
+"osqp >=0.4.1",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scs >=1.1.6"
+],
+"license":"Apache-2.0",
+"name":"cvxpy",
+"requires":[],
+"size":83032,
+"timestamp":1618054688414,
+"version":"1.1.12"
+},
 "cvxpy-1.1.7-py38h150bfb4_1.tar.bz2":{
 "build":"py38h150bfb4_1",
 "build_number":1,
@@ -18211,6 +18247,40 @@
 "size":922655,
 "timestamp":1614936055235,
 "version":"1.1.11"
+},
+"cvxpy-base-1.1.12-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy >=1.1.0"
+],
+"license":"Apache-2.0",
+"name":"cvxpy-base",
+"requires":[],
+"size":930694,
+"timestamp":1618054633654,
+"version":"1.1.12"
+},
+"cvxpy-base-1.1.12-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy >=1.1.0"
+],
+"license":"Apache-2.0",
+"name":"cvxpy-base",
+"requires":[],
+"size":934267,
+"timestamp":1618054665079,
+"version":"1.1.12"
 },
 "cvxpy-base-1.1.7-py38h9b9bf68_1.tar.bz2":{
 "build":"py38h9b9bf68_1",
