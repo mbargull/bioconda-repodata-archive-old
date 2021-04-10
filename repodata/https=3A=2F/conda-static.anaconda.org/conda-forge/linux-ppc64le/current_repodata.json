@@ -22828,99 +22828,9 @@
 "timestamp":1605238369184,
 "version":"7.0.4"
 },
-"ecos-2.0.7.post1-py36h3dc0c6d_2.tar.bz2":{
-"build":"py36h3dc0c6d_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.2.0",
-"numpy >=1.18.1,<2.0a0",
-"pypy3.6 >=7.3.1",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"scipy >=0.9"
-],
-"license":"GPL-3.0",
-"name":"ecos",
-"sha256":"ca6145d4fc06313e4ba89eaa6706f66cc9f3af123f586909ac8631395a25124b",
-"size":91199,
-"timestamp":1586629826295,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py36h422eb20_2.tar.bz2":{
-"build":"py36h422eb20_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.2.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"scipy >=0.9"
-],
-"license":"GPL-3.0",
-"name":"ecos",
-"sha256":"ba5996f5e3b77615fa47d094cf8229732f26f6f3c98f0bec61b7ff71601a3db4",
-"size":90717,
-"timestamp":1586629661994,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py36h426b966_0.tar.bz2":{
-"build":"py36h426b966_0",
+"ecos-2.0.8-py36h719e50f_0.tar.bz2":{
+"build":"py36h719e50f_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp36m"
-],
-"depends":[
-"libgcc-ng >=8.2.0",
-"numpy >=1.16.4,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"scipy >=0.9"
-],
-"license":"GPL-3.0",
-"name":"ecos",
-"sha256":"dc95d5eea6879340ad1aae69a0bbedcab45a7c140c663a7f46dae161a17f3daf",
-"size":90518,
-"timestamp":1570727609841,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py36h426b966_1.tar.bz2":{
-"build":"py36h426b966_1",
-"build_number":1,
-"constrains":[
-"python_abi * *_cp36m"
-],
-"depends":[
-"libgcc-ng >=8.2.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"scipy >=0.9"
-],
-"license":"GPL-3.0",
-"name":"ecos",
-"sha256":"69b865f6ba5e630596cbed1f2d46b1d2024e1e724767bcb4bbf1b771e138f874",
-"size":90580,
-"timestamp":1581011228005,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py36h523ffd7_3.tar.bz2":{
-"build":"py36h523ffd7_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=8.4.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"82eb386132e248e6d56a817c5794c7d70a4f49d52ab8c3a150766c8d336d0123",
-"size":90830,
-"timestamp":1604278566001,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py36h719e50f_3.tar.bz2":{
-"build":"py36h719e50f_3",
-"build_number":3,
 "depends":[
 "libgcc-ng >=9.3.0",
 "numpy >=1.18.5,<2.0a0",
@@ -22931,84 +22841,31 @@
 ],
 "license":"GPL-3.0-only",
 "name":"ecos",
-"sha256":"94c0155e3a54019218f664fe110bf193c95771f097a2e249b10d1752464d65a1",
-"size":88963,
-"timestamp":1609509991654,
-"version":"2.0.7.post1"
+"sha256":"acb25b5521dfb2750c3fc3465a349598e46d6e400a9a8d219daad02df5feca25",
+"size":94219,
+"timestamp":1618080979195,
+"version":"2.0.8"
 },
-"ecos-2.0.7.post1-py36h719e50f_4.tar.bz2":{
-"build":"py36h719e50f_4",
-"build_number":4,
+"ecos-2.0.8-py36hbb576b2_0.tar.bz2":{
+"build":"py36hbb576b2_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"numpy >=1.18.5,<2.0a0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"f1f7b2620fbab2666c8f4fe4cbc3e2e9be9d392539a4a2c214a91c3c2c7af4f0",
-"size":88923,
-"timestamp":1610612083426,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py36h8a70033_3.tar.bz2":{
-"build":"py36h8a70033_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=8.4.0",
-"numpy >=1.18.5,<2.0a0",
-"pypy3.6 >=7.3.2",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"b0a5838892ad7ea1056001ef789e0b2c8b5344a58aca23124c993aa8a44505e0",
-"size":91370,
-"timestamp":1604279001621,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py36hfc038e5_3.tar.bz2":{
-"build":"py36hfc038e5_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
 "scipy >=1.1"
 ],
 "license":"GPL-3.0-only",
 "name":"ecos",
-"sha256":"966fe42498ce17e393dbd515f5facb42a7e817d1b3a2ecbf5158f053842f48ed",
-"size":88617,
-"timestamp":1609510077334,
-"version":"2.0.7.post1"
+"sha256":"b2c81b47e661c45e3efbf4b1a5879f98c5f43f1bc99c56e6b362dc95f0f4a2bf",
+"size":93899,
+"timestamp":1618081693250,
+"version":"2.0.8"
 },
-"ecos-2.0.7.post1-py36hfc038e5_4.tar.bz2":{
-"build":"py36hfc038e5_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"59b90d51393e3af84672365122869b3ffdef665a0870c1ff01cb43ffca0a28a5",
-"size":88599,
-"timestamp":1610612073820,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py37h290ce0f_3.tar.bz2":{
-"build":"py37h290ce0f_3",
-"build_number":3,
+"ecos-2.0.8-py37h290ce0f_0.tar.bz2":{
+"build":"py37h290ce0f_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
@@ -23019,261 +22876,48 @@
 ],
 "license":"GPL-3.0-only",
 "name":"ecos",
-"sha256":"4776a08efcdf3e856221ac95a019ee2b9f7a221253a6680d9120832e845e2a74",
-"size":88962,
-"timestamp":1610537304418,
-"version":"2.0.7.post1"
+"sha256":"e6a2f87547a4a673f6dcbb065adf35d9abd4e69fa67403a393a41b2cf17cae83",
+"size":94265,
+"timestamp":1618081053668,
+"version":"2.0.8"
 },
-"ecos-2.0.7.post1-py37h290ce0f_4.tar.bz2":{
-"build":"py37h290ce0f_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.19.5,<2.0a0",
-"pypy3.7 >=7.3.3",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"be5996851e4fc96e6f2e7646400bc18755e84ccfee553fdf326880b435bb0292",
-"size":88908,
-"timestamp":1610612067026,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py37h426b966_0.tar.bz2":{
-"build":"py37h426b966_0",
+"ecos-2.0.8-py37h2bca185_0.tar.bz2":{
+"build":"py37h2bca185_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp37m"
-],
-"depends":[
-"libgcc-ng >=8.2.0",
-"numpy >=1.16.4,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"scipy >=0.9"
-],
-"license":"GPL-3.0",
-"name":"ecos",
-"sha256":"a13bdf48891931419d82c2d223cc40618e668e2dff36354f3b1f4a86dacf4ee9",
-"size":90507,
-"timestamp":1570726465454,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py37h426b966_1.tar.bz2":{
-"build":"py37h426b966_1",
-"build_number":1,
-"constrains":[
-"python_abi * *_cp37m"
-],
-"depends":[
-"libgcc-ng >=8.2.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"scipy >=0.9"
-],
-"license":"GPL-3.0",
-"name":"ecos",
-"sha256":"e9fe5e0fa069669821324a3decd681c966b85cdbd0cf9e1cef9ed0ba751d0b77",
-"size":90590,
-"timestamp":1581011490859,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py37h8b9eddc_2.tar.bz2":{
-"build":"py37h8b9eddc_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.2.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"scipy >=0.9"
-],
-"license":"GPL-3.0",
-"name":"ecos",
-"sha256":"60798387b5e8cfef16d146adb67d1d663aed32e164bf0e268160e3f22ea7401d",
-"size":90632,
-"timestamp":1586629659126,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py37hcb33c13_3.tar.bz2":{
-"build":"py37hcb33c13_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=8.4.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"858bba7e3671ed061ec516e82a7c7152b45c09a50c78edc0dc6ae6090cc068f4",
-"size":90851,
-"timestamp":1604278593391,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py37hf96a986_3.tar.bz2":{
-"build":"py37hf96a986_3",
-"build_number":3,
 "depends":[
 "libgcc-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
 "scipy >=1.1"
 ],
 "license":"GPL-3.0-only",
 "name":"ecos",
-"sha256":"82a2d3f5cf8c1f4132a1da66208208f4486f89b1b43ec8c01cd59506ec390ff8",
-"size":88623,
-"timestamp":1609509955001,
-"version":"2.0.7.post1"
+"sha256":"7b08da29bebc610247e8aa3bf19f4cc59f1f84ebf9dcb3dd7ecae075767955d7",
+"size":93994,
+"timestamp":1618081395384,
+"version":"2.0.8"
 },
-"ecos-2.0.7.post1-py37hf96a986_4.tar.bz2":{
-"build":"py37hf96a986_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"5062f5be2265adc7e60f192c2d88310215d843b702d87577c3b0f033cb3b9e5b",
-"size":88580,
-"timestamp":1610612035318,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py38h3583793_2.tar.bz2":{
-"build":"py38h3583793_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.2.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"scipy >=0.9"
-],
-"license":"GPL-3.0",
-"name":"ecos",
-"sha256":"2f67b181163fd340e6d1778efb3e36c8775c1e09a8da33b52d76c470de047054",
-"size":91410,
-"timestamp":1586629723099,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py38h426b966_0.tar.bz2":{
-"build":"py38h426b966_0",
+"ecos-2.0.8-py38ha240331_0.tar.bz2":{
+"build":"py38ha240331_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp38"
-],
-"depends":[
-"libgcc-ng >=8.2.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"scipy >=0.9"
-],
-"license":"GPL-3.0",
-"name":"ecos",
-"sha256":"5c7a0bc2122f755b845ec24c5a95cdd5c9d9e7cbc0e8e56b6d0840863a04180b",
-"size":91197,
-"timestamp":1574108401237,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py38h426b966_1.tar.bz2":{
-"build":"py38h426b966_1",
-"build_number":1,
-"constrains":[
-"python_abi * *_cp38"
-],
-"depends":[
-"libgcc-ng >=8.2.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"scipy >=0.9"
-],
-"license":"GPL-3.0",
-"name":"ecos",
-"sha256":"99e80e5351b1cb6ab97b0506afbf0e1950ed05ecc20d7b8cac44bacd8b988fe6",
-"size":91293,
-"timestamp":1581011521810,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py38h65870a3_3.tar.bz2":{
-"build":"py38h65870a3_3",
-"build_number":3,
 "depends":[
 "libgcc-ng >=9.3.0",
-"numpy >=1.16.6,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "scipy >=1.1"
 ],
 "license":"GPL-3.0-only",
 "name":"ecos",
-"sha256":"ff457d39095a3a6efed590fb060484f84f92ab9e6d86404ddddd9f773766b2c9",
-"size":88974,
-"timestamp":1609510088567,
-"version":"2.0.7.post1"
+"sha256":"b5fb69611742f6758112b2b9a92561f8747439506156458763db267c8056b44e",
+"size":94224,
+"timestamp":1618081364642,
+"version":"2.0.8"
 },
-"ecos-2.0.7.post1-py38h65870a3_4.tar.bz2":{
-"build":"py38h65870a3_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16.6,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"6d42689cfa4e06f21ebe3b808342fc143fc6128a6b83892fc66b4539adf330df",
-"size":88951,
-"timestamp":1610612037421,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py38hd278f4c_3.tar.bz2":{
-"build":"py38hd278f4c_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=8.4.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"9dee6935eabc8fd71ca13c50d9a70cfa835d90e6598c7ce19667a203b4cdd1ad",
-"size":91357,
-"timestamp":1604278935374,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py39h50b74dd_3.tar.bz2":{
-"build":"py39h50b74dd_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.19.4,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"564b8bd97279c113e63f480ebd6efdff786c74911013ce91d7731b75273dc99d",
-"size":89016,
-"timestamp":1609509932825,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py39h50b74dd_4.tar.bz2":{
-"build":"py39h50b74dd_4",
-"build_number":4,
+"ecos-2.0.8-py39h50b74dd_0.tar.bz2":{
+"build":"py39h50b74dd_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
@@ -23283,27 +22927,10 @@
 ],
 "license":"GPL-3.0-only",
 "name":"ecos",
-"sha256":"30e9511001244b89479f0f03f6df883fd5bc06fbb9e427d9334f7e5564aaa8c3",
-"size":88974,
-"timestamp":1610612047431,
-"version":"2.0.7.post1"
-},
-"ecos-2.0.7.post1-py39h85a669d_3.tar.bz2":{
-"build":"py39h85a669d_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=8.4.0",
-"numpy >=1.19.2,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"scipy >=1.1"
-],
-"license":"GPL-3.0-only",
-"name":"ecos",
-"sha256":"1d8ee57ca768b059992084112819c795039129e381c16948ea5b29d0bec8e32a",
-"size":91472,
-"timestamp":1604279014720,
-"version":"2.0.7.post1"
+"sha256":"73d8cdc424ee488a3cfff4a6c4a011294f3493cd312b162042092fd9aa1bfa27",
+"size":94330,
+"timestamp":1618081018848,
+"version":"2.0.8"
 },
 "editdistance-0.5.3-py36h08d3667_2.tar.bz2":{
 "build":"py36h08d3667_2",
@@ -105444,47 +105071,19 @@
 "timestamp":1605790498570,
 "version":"6.22.03"
 },
-"teensy_loader_cli-2.1.2-h6eb9509_0.tar.bz2":{
-"build":"h6eb9509_0",
+"teensy_loader_cli-2.1.3-h4e0d66e_0.tar.bz2":{
+"build":"h4e0d66e_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=8.4.0",
+"libgcc-ng >=9.3.0",
 "libusb-compat >=0.1.12,<1.0a0"
 ],
 "license":"GPL-3.0-only",
 "name":"teensy_loader_cli",
-"sha256":"cf0cbe215494594a03171cde551fc9c22ecf7f9c05164fc1655082f9f33a2560",
-"size":27701,
-"timestamp":1595031588830,
-"version":"2.1.2"
-},
-"teensy_loader_cli-2.1.2-h6eb9509_1.tar.bz2":{
-"build":"h6eb9509_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libusb-compat >=0.1.12,<1.0a0"
-],
-"license":"GPL-3.0-only",
-"name":"teensy_loader_cli",
-"sha256":"109c998488e6d40f6a92bd80d361047bcc441a951c6807456ed62053fbd45db8",
-"size":27551,
-"timestamp":1595028393540,
-"version":"2.1.2"
-},
-"teensy_loader_cli-2.1.2-h6eb9509_2.tar.bz2":{
-"build":"h6eb9509_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libusb-compat >=0.1.12,<1.0a0"
-],
-"license":"GPL-3.0-only",
-"name":"teensy_loader_cli",
-"sha256":"97070390e2c117cb93b8182c45e504b656e71eaffd7d76c200d7055d0dcbcfe1",
-"size":27559,
-"timestamp":1595028389540,
-"version":"2.1.2"
+"sha256":"936e89f273e8d356962b25d8e7369df2f06538eb0dbf87e4fd600f837f6151d6",
+"size":27709,
+"timestamp":1618080805819,
+"version":"2.1.3"
 },
 "tempita-0.5.3dev-py36h270354c_1002.tar.bz2":{
 "build":"py36h270354c_1002",
