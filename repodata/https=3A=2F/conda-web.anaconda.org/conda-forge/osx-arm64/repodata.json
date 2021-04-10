@@ -8945,6 +8945,25 @@
 "timestamp":1617995237457,
 "version":"2.104"
 },
+"blas-2.105-netlib.tar.bz2":{
+"build":"netlib",
+"build_number":5,
+"depends":[
+"blas-devel 3.9.0 5_netlib",
+"libblas 3.9.0 5_h880f123_netlib",
+"libcblas 3.9.0 5_h880f123_netlib",
+"liblapack 3.9.0 5_h880f123_netlib",
+"liblapacke 3.9.0 5_h880f123_netlib",
+"libtmglib 3.9.0 5_h880f123_netlib"
+],
+"license":"BSD-3-Clause",
+"name":"blas",
+"requires":[],
+"size":13860,
+"timestamp":1618011829888,
+"track_features":"blas_netlib",
+"version":"2.105"
+},
 "blas-2.105-openblas.tar.bz2":{
 "build":"openblas",
 "build_number":5,
@@ -9177,6 +9196,23 @@
 "requires":[],
 "size":11009,
 "timestamp":1609353585803,
+"version":"3.9.0"
+},
+"blas-devel-3.9.0-5_netlib.tar.bz2":{
+"build":"5_netlib",
+"build_number":5,
+"depends":[
+"libblas 3.9.0 5_h880f123_netlib",
+"libcblas 3.9.0 5_h880f123_netlib",
+"liblapack 3.9.0 5_h880f123_netlib",
+"liblapacke 3.9.0 5_h880f123_netlib"
+],
+"license":"BSD-3-Clause",
+"name":"blas-devel",
+"requires":[],
+"size":13705,
+"timestamp":1618011822933,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "blas-devel-3.9.0-5_openblas.tar.bz2":{
@@ -32684,6 +32720,24 @@
 "timestamp":1609353467927,
 "version":"3.9.0"
 },
+"libblas-3.9.0-5_h880f123_netlib.tar.bz2":{
+"build":"5_h880f123_netlib",
+"build_number":5,
+"constrains":[
+"blas * netlib"
+],
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libblas",
+"requires":[],
+"size":172005,
+"timestamp":1618011768895,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
 "libblas-3.9.0-5_openblas.tar.bz2":{
 "build":"5_openblas",
 "build_number":5,
@@ -33017,6 +33071,22 @@
 "requires":[],
 "size":11342,
 "timestamp":1609353487056,
+"version":"3.9.0"
+},
+"libcblas-3.9.0-5_h880f123_netlib.tar.bz2":{
+"build":"5_h880f123_netlib",
+"build_number":5,
+"depends":[
+"libblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libcblas",
+"requires":[],
+"size":49825,
+"timestamp":1618011792310,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "libcblas-3.9.0-5_openblas.tar.bz2":{
@@ -35432,6 +35502,22 @@
 "timestamp":1609353503264,
 "version":"3.9.0"
 },
+"liblapack-3.9.0-5_h880f123_netlib.tar.bz2":{
+"build":"5_h880f123_netlib",
+"build_number":5,
+"depends":[
+"libblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"liblapack",
+"requires":[],
+"size":2933234,
+"timestamp":1618011803818,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
 "liblapack-3.9.0-5_openblas.tar.bz2":{
 "build":"5_openblas",
 "build_number":5,
@@ -35664,6 +35750,24 @@
 "requires":[],
 "size":11343,
 "timestamp":1609353516821,
+"version":"3.9.0"
+},
+"liblapacke-3.9.0-5_h880f123_netlib.tar.bz2":{
+"build":"5_h880f123_netlib",
+"build_number":5,
+"depends":[
+"libblas 3.9.0.*",
+"libcblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack 3.9.0.*"
+],
+"license":"BSD-3-Clause",
+"name":"liblapacke",
+"requires":[],
+"size":506226,
+"timestamp":1618011819100,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "liblapacke-3.9.0-5_openblas.tar.bz2":{
@@ -37923,6 +38027,24 @@
 "requires":[],
 "size":146540,
 "timestamp":1617995186553,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
+"libtmglib-3.9.0-5_h880f123_netlib.tar.bz2":{
+"build":"5_h880f123_netlib",
+"build_number":5,
+"constrains":[
+"blas * netlib"
+],
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libtmglib",
+"requires":[],
+"size":146696,
+"timestamp":1618011780264,
 "track_features":"blas_netlib",
 "version":"3.9.0"
 },
@@ -67193,6 +67315,44 @@
 "size":11409024,
 "timestamp":1610127601667,
 "version":"1.7.1"
+},
+"sympy-1.8-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"constrains":[
+"antlr-python-runtime >=4.7,<4.8"
+],
+"depends":[
+"gmpy2 >=2.0.8",
+"mpmath >=0.19",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"sympy",
+"requires":[],
+"size":11701770,
+"timestamp":1618015644379,
+"version":"1.8"
+},
+"sympy-1.8-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"constrains":[
+"antlr-python-runtime >=4.7,<4.8"
+],
+"depends":[
+"gmpy2 >=2.0.8",
+"mpmath >=0.19",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"sympy",
+"requires":[],
+"size":11660718,
+"timestamp":1618016058360,
+"version":"1.8"
 },
 "tachyon-0.99b6-hfb72b2a_1001.tar.bz2":{
 "build":"hfb72b2a_1001",
