@@ -8941,6 +8941,25 @@
 "timestamp":1617995237457,
 "version":"2.104"
 },
+"blas-2.105-netlib.tar.bz2":{
+"build":"netlib",
+"build_number":5,
+"depends":[
+"blas-devel 3.9.0 5_netlib",
+"libblas 3.9.0 5_h880f123_netlib",
+"libcblas 3.9.0 5_h880f123_netlib",
+"liblapack 3.9.0 5_h880f123_netlib",
+"liblapacke 3.9.0 5_h880f123_netlib",
+"libtmglib 3.9.0 5_h880f123_netlib"
+],
+"license":"BSD-3-Clause",
+"name":"blas",
+"sha256":"16856dea27f6355f9b98e0b43b171bc510e30b47237f036b880d9c8f46675b3d",
+"size":13860,
+"timestamp":1618011829888,
+"track_features":"blas_netlib",
+"version":"2.105"
+},
 "blas-2.105-openblas.tar.bz2":{
 "build":"openblas",
 "build_number":5,
@@ -9173,6 +9192,23 @@
 "sha256":"e13e5b09c4030becef97d1361b0a8aa6e6e3a5d6aeb12d0ecbda94063266ba12",
 "size":11009,
 "timestamp":1609353585803,
+"version":"3.9.0"
+},
+"blas-devel-3.9.0-5_netlib.tar.bz2":{
+"build":"5_netlib",
+"build_number":5,
+"depends":[
+"libblas 3.9.0 5_h880f123_netlib",
+"libcblas 3.9.0 5_h880f123_netlib",
+"liblapack 3.9.0 5_h880f123_netlib",
+"liblapacke 3.9.0 5_h880f123_netlib"
+],
+"license":"BSD-3-Clause",
+"name":"blas-devel",
+"sha256":"1f07564149edc836039a653345a05db2f8e51b998b05be29d584528468f33306",
+"size":13705,
+"timestamp":1618011822933,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "blas-devel-3.9.0-5_openblas.tar.bz2":{
@@ -32221,6 +32257,24 @@
 "timestamp":1609353467927,
 "version":"3.9.0"
 },
+"libblas-3.9.0-5_h880f123_netlib.tar.bz2":{
+"build":"5_h880f123_netlib",
+"build_number":5,
+"constrains":[
+"blas * netlib"
+],
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libblas",
+"sha256":"99403de29ae451c744180d87d2e9ceb21a88865a42bd2ea2d313bc19989eb4fd",
+"size":172005,
+"timestamp":1618011768895,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
 "libblas-3.9.0-5_openblas.tar.bz2":{
 "build":"5_openblas",
 "build_number":5,
@@ -32554,6 +32608,22 @@
 "sha256":"9183c8a10488ea6d86bb0a93e5792ec636090833490a4205476fc032eb9852e3",
 "size":11342,
 "timestamp":1609353487056,
+"version":"3.9.0"
+},
+"libcblas-3.9.0-5_h880f123_netlib.tar.bz2":{
+"build":"5_h880f123_netlib",
+"build_number":5,
+"depends":[
+"libblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libcblas",
+"sha256":"ed01c48fa2aabdbba996c3040424202a8ddf50e7dc106265d42eaf70fb6cdab8",
+"size":49825,
+"timestamp":1618011792310,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "libcblas-3.9.0-5_openblas.tar.bz2":{
@@ -35011,6 +35081,22 @@
 "timestamp":1609353503264,
 "version":"3.9.0"
 },
+"liblapack-3.9.0-5_h880f123_netlib.tar.bz2":{
+"build":"5_h880f123_netlib",
+"build_number":5,
+"depends":[
+"libblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"liblapack",
+"sha256":"fd9d3c2a8e9afe4b9af20af5256608d1590d44b1f5f1767de076c2899dcb4ca3",
+"size":2933234,
+"timestamp":1618011803818,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
 "liblapack-3.9.0-5_openblas.tar.bz2":{
 "build":"5_openblas",
 "build_number":5,
@@ -35243,6 +35329,24 @@
 "sha256":"95188da99b4a4a318bed2e00c724e2aea884605bb3428e24f4f7fc3280edcd2f",
 "size":11343,
 "timestamp":1609353516821,
+"version":"3.9.0"
+},
+"liblapacke-3.9.0-5_h880f123_netlib.tar.bz2":{
+"build":"5_h880f123_netlib",
+"build_number":5,
+"depends":[
+"libblas 3.9.0.*",
+"libcblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack 3.9.0.*"
+],
+"license":"BSD-3-Clause",
+"name":"liblapacke",
+"sha256":"e49f87afa0ad4b8c08f97b73525204f3e82ff9104f2fd99fd4345fe243bc6fe7",
+"size":506226,
+"timestamp":1618011819100,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "liblapacke-3.9.0-5_openblas.tar.bz2":{
@@ -37514,6 +37618,24 @@
 "sha256":"7de29d90a3f606c8167ee5d7b5a876c1d8009ab3ce2ff178c474df48292dd4ea",
 "size":146540,
 "timestamp":1617995186553,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
+"libtmglib-3.9.0-5_h880f123_netlib.tar.bz2":{
+"build":"5_h880f123_netlib",
+"build_number":5,
+"constrains":[
+"blas * netlib"
+],
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libtmglib",
+"sha256":"2668bb428c40130b217d580e823824e2dd0931d308b3fb0c0f2cfef7117afbef",
+"size":146696,
+"timestamp":1618011780264,
 "track_features":"blas_netlib",
 "version":"3.9.0"
 },
@@ -66790,6 +66912,44 @@
 "size":11409024,
 "timestamp":1610127601667,
 "version":"1.7.1"
+},
+"sympy-1.8-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"constrains":[
+"antlr-python-runtime >=4.7,<4.8"
+],
+"depends":[
+"gmpy2 >=2.0.8",
+"mpmath >=0.19",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"sympy",
+"sha256":"94059c803769799fc29bce0c923a63a3d071795f36b147858647271774545d3c",
+"size":11701770,
+"timestamp":1618015644379,
+"version":"1.8"
+},
+"sympy-1.8-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"constrains":[
+"antlr-python-runtime >=4.7,<4.8"
+],
+"depends":[
+"gmpy2 >=2.0.8",
+"mpmath >=0.19",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"sympy",
+"sha256":"1b948d7084592ab9a9916ffd33a330b9b8605fa44327824f4af9c260f029820d",
+"size":11660718,
+"timestamp":1618016058360,
+"version":"1.8"
 },
 "tachyon-0.99b6-hfb72b2a_1001.tar.bz2":{
 "build":"hfb72b2a_1001",
