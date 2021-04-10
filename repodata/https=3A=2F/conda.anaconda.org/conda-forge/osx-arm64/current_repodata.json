@@ -8974,6 +8974,25 @@
 "timestamp":1617283875495,
 "version":"1.36.4"
 },
+"grpc-cpp-1.37.0-h69ac71c_1.tar.bz2":{
+"build":"h69ac71c_1",
+"build_number":1,
+"depends":[
+"abseil-cpp >=20210324.0,<20210324.1.0a0",
+"c-ares >=1.17.1,<2.0a0",
+"libcxx >=11.1.0",
+"libprotobuf >=3.15.7,<3.16.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"re2 >=2021.4.1,<2021.4.2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpc-cpp",
+"sha256":"21d508ff49cbb067facfe8fd030dbe1fb9c190c96467699a173675294194eea2",
+"size":2842127,
+"timestamp":1618058435906,
+"version":"1.37.0"
+},
 "grpc-cpp-1.37.0-hfad0885_0.tar.bz2":{
 "build":"hfad0885_0",
 "build_number":0,
@@ -15201,16 +15220,30 @@
 "timestamp":1617426361427,
 "version":"3.15.7"
 },
-"libprotobuf-static-3.15.7-hce30654_0.tar.bz2":{
+"libprotobuf-3.15.8-hccf11d3_0.tar.bz2":{
+"build":"hccf11d3_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libprotobuf",
+"sha256":"96173cc59c218c1dd2585b2b78ce83aff545da1365ee1fa5c56ba21d6e44d503",
+"size":2210124,
+"timestamp":1618058931411,
+"version":"3.15.8"
+},
+"libprotobuf-static-3.15.8-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
 "depends":[],
 "license":"BSD-3-Clause",
 "name":"libprotobuf-static",
-"sha256":"5e40833a9d436a5e4bccadbf1600312f3f8d352b1c4cc0e9adbb5ecb206c2e05",
-"size":2556299,
-"timestamp":1617426368044,
-"version":"3.15.7"
+"sha256":"94c9f019567c821db59a835a56eb815af26cad5b4ea534d254ba21d46a17000d",
+"size":2556183,
+"timestamp":1618058938170,
+"version":"3.15.8"
 },
 "libpython-static-3.9.2-h9f76cd9_0_cpython.tar.bz2":{
 "build":"h9f76cd9_0_cpython",
@@ -18831,7 +18864,7 @@
 "timestamp":1615498608769,
 "version":"2.0.6"
 },
-"onednn-2.2-tbb_hb6067a2_0.tar.bz2":{
+"onednn-2.2.1-tbb_hb6067a2_0.tar.bz2":{
 "build":"tbb_hb6067a2_0",
 "build_number":0,
 "depends":[
@@ -18841,23 +18874,23 @@
 ],
 "license":"Apache-2.0",
 "name":"onednn",
-"sha256":"fe6862005ef0b5452554540d420d2392506d3d7089cca842253c0059b6131d91",
-"size":3525527,
-"timestamp":1617265316694,
-"version":"2.2"
+"sha256":"36ff693cb49e8b79f70bc580cd82303ab2cd5bba4ee32aca32c8ab6778afa43d",
+"size":3529450,
+"timestamp":1618059000145,
+"version":"2.2.1"
 },
-"onednn-cpu-tbb-2.2-tbb_hce30654_0.tar.bz2":{
+"onednn-cpu-tbb-2.2.1-tbb_hce30654_0.tar.bz2":{
 "build":"tbb_hce30654_0",
 "build_number":0,
 "depends":[
-"onednn 2.2 tbb_hb6067a2_0"
+"onednn 2.2.1 tbb_hb6067a2_0"
 ],
 "license":"Apache-2.0",
 "name":"onednn-cpu-tbb",
-"sha256":"a6eb72792b7a68dbdee8200daa9bcc4d15e945be8273742365f403ffd4ea1dac",
-"size":8217,
-"timestamp":1617265332274,
-"version":"2.2"
+"sha256":"bb189dddec1f057cc96abaf44947fc4f0544048ac5c1d421f165a0bfe898b5b4",
+"size":8222,
+"timestamp":1618059012936,
+"version":"2.2.1"
 },
 "oniguruma-6.9.3-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
