@@ -5095,6 +5095,17 @@
 "timestamp":1614986448254,
 "version":"11.1.0"
 },
+"clang_bootstrap_osx-64-11.1.0-ha99727f_1.tar.bz2":{
+"build":"ha99727f_1",
+"build_number":1,
+"depends":[],
+"license":"Apache-2.0",
+"name":"clang_bootstrap_osx-64",
+"sha256":"124090a23886340bd62615b8bca9a3d3060ad879a9db85fae80a6a7348477c8d",
+"size":56594793,
+"timestamp":1618414396274,
+"version":"11.1.0"
+},
 "clang_bootstrap_osx-arm64-11.1.0-h1741c7c_0.tar.bz2":{
 "build":"h1741c7c_0",
 "build_number":0,
@@ -5104,6 +5115,17 @@
 "sha256":"b059fa5962bf17b1fd2b64400c4e0748b147525669a7864d3ad644b890255bfa",
 "size":54444132,
 "timestamp":1614986930396,
+"version":"11.1.0"
+},
+"clang_bootstrap_osx-arm64-11.1.0-h1741c7c_1.tar.bz2":{
+"build":"h1741c7c_1",
+"build_number":1,
+"depends":[],
+"license":"Apache-2.0",
+"name":"clang_bootstrap_osx-arm64",
+"sha256":"b25a702a58cebf1b09e48ddeb26e902d5b655c8e9f8ff1274f9947780d3489a0",
+"size":54691465,
+"timestamp":1618415488644,
 "version":"11.1.0"
 },
 "clang_osx-64-11.1.0-ha77c5c3_0.tar.bz2":{
@@ -5124,6 +5146,25 @@
 "timestamp":1614985063012,
 "version":"11.1.0"
 },
+"clang_osx-64-11.1.0-ha77c5c3_1.tar.bz2":{
+"build":"ha77c5c3_1",
+"build_number":1,
+"depends":[
+"cctools_osx-64",
+"cctools_osx-arm64",
+"clang 11.1.0.*",
+"compiler-rt 11.1.0.*",
+"ld64_osx-64",
+"ld64_osx-arm64",
+"llvm-tools 11.1.0.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-64",
+"sha256":"7945fa293037838847d1438e79cb7f2ca7d38ff6b7efe1d525f1029a1d069b34",
+"size":16071,
+"timestamp":1618412215677,
+"version":"11.1.0"
+},
 "clang_osx-arm64-11.1.0-h54d7cd3_0.tar.bz2":{
 "build":"h54d7cd3_0",
 "build_number":0,
@@ -5139,6 +5180,23 @@
 "sha256":"ef66951508154dd318812dda411a07a4079ee9ce0a41c618efdeb3dba9c5dd46",
 "size":15940,
 "timestamp":1614985174287,
+"version":"11.1.0"
+},
+"clang_osx-arm64-11.1.0-h54d7cd3_1.tar.bz2":{
+"build":"h54d7cd3_1",
+"build_number":1,
+"depends":[
+"cctools_osx-arm64",
+"clang 11.1.0.*",
+"compiler-rt 11.1.0.*",
+"ld64_osx-arm64",
+"llvm-tools 11.1.0.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-arm64",
+"sha256":"24590535c22231c737a446b99b15283f2c3ba6d4735d9dc8fce83a5f9fdd702d",
+"size":15979,
+"timestamp":1618413169936,
 "version":"11.1.0"
 },
 "clang_variant-1.0-cling_v0.7.tar.bz2":{
@@ -5236,6 +5294,22 @@
 "timestamp":1614985077189,
 "version":"11.1.0"
 },
+"clangxx_osx-64-11.1.0-h8d3ee1a_1.tar.bz2":{
+"build":"h8d3ee1a_1",
+"build_number":1,
+"depends":[
+"clang_osx-64 11.1.0 ha77c5c3_1",
+"clangxx 11.1.0.*",
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-64",
+"sha256":"ab2bac2c8dfe6c3da58e40a0a45f9949340f26f1df134f47fb7d640284316931",
+"size":15788,
+"timestamp":1618412246702,
+"version":"11.1.0"
+},
 "clangxx_osx-arm64-11.1.0-hb84c830_0.tar.bz2":{
 "build":"hb84c830_0",
 "build_number":0,
@@ -5250,6 +5324,22 @@
 "sha256":"b13374141d5dec3c668d12d6fd20005854625cea8f36a99a340e4975e3fd95d0",
 "size":15586,
 "timestamp":1614985188273,
+"version":"11.1.0"
+},
+"clangxx_osx-arm64-11.1.0-hb84c830_1.tar.bz2":{
+"build":"hb84c830_1",
+"build_number":1,
+"depends":[
+"clang_osx-arm64 11.1.0 h54d7cd3_1",
+"clangxx 11.1.0.*",
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-arm64",
+"sha256":"7c93f85f65717dc440e6b1b1ca1382519b6d601d959b97322a660ce9c926687e",
+"size":15705,
+"timestamp":1618413198063,
 "version":"11.1.0"
 },
 "cli11-1.9.1-hc88da5d_2.tar.bz2":{
@@ -25850,7 +25940,7 @@
 "timestamp":1610722887712,
 "version":"0.20_41"
 },
-"r-lightgbm-3.2.0-r40h8ea1354_0.tar.bz2":{
+"r-lightgbm-3.2.1-r40h8ea1354_0.tar.bz2":{
 "build":"r40h8ea1354_0",
 "build_number":0,
 "depends":[
@@ -25863,10 +25953,10 @@
 ],
 "license":"MIT",
 "name":"r-lightgbm",
-"sha256":"8f6a053f4a9e9ae53e3b90542f0dbde130f4ea524e69d7cfb1cc5bf456143a2d",
-"size":1368777,
-"timestamp":1618406940129,
-"version":"3.2.0"
+"sha256":"38b5ff93c04849c4e761cc45ab0ebb9ce259ba192d6fded3a7e2d632a5ba849c",
+"size":1373615,
+"timestamp":1618413908304,
+"version":"3.2.1"
 },
 "r-magrittr-2.0.1-r40h4d528fc_1.tar.bz2":{
 "build":"r40h4d528fc_1",
