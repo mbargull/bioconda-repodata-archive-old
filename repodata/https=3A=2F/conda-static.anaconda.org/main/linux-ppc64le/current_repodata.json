@@ -10605,27 +10605,16 @@
 "timestamp":1615235703719,
 "version":"2020.10.14"
 },
-"ca-certificates-2021.1.19-h6ffa863_0.tar.bz2":{
-"build":"h6ffa863_0",
-"build_number":0,
-"depends":[],
-"license":"MPL 2.0",
-"name":"ca-certificates",
-"sha256":"dca81d6d692ff6b6a9041665122653ba3700a3a9b822da4e828099202ca51775",
-"size":130501,
-"timestamp":1611082178315,
-"version":"2021.1.19"
-},
-"ca-certificates-2021.1.19-h6ffa863_1.tar.bz2":{
+"ca-certificates-2021.4.13-h6ffa863_1.tar.bz2":{
 "build":"h6ffa863_1",
 "build_number":1,
 "depends":[],
 "license":"MPL 2.0",
 "name":"ca-certificates",
-"sha256":"175dc508d11b36e3537390ea0cc1a983011dcb467998bd8b23e70d4ec5bf1d1c",
-"size":127855,
-"timestamp":1615236586782,
-"version":"2021.1.19"
+"sha256":"9ff03757ddcc5897fc1e4b3c82811404cde586bd4420b26f84e2a56d9acc316c",
+"size":122688,
+"timestamp":1618385699337,
+"version":"2021.4.13"
 },
 "cachecontrol-0.12.5-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -42475,7 +42464,25 @@
 "timestamp":1607707994169,
 "version":"1.1.3"
 },
-"pandas-1.2.3-py37haab0e66_0.tar.bz2":{
+"pandas-1.2.4-py37h29c3540_0.tar.bz2":{
+"build":"py37h29c3540_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.19.2,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python-dateutil >=2.7.3",
+"pytz >=2017.3"
+],
+"license":"BSD-3-Clause",
+"name":"pandas",
+"sha256":"23bdfe115991be1a6c8538de44bc613b117e13b93b50fbf0f3ec50171a9f98fa",
+"size":11436032,
+"timestamp":1618366316155,
+"version":"1.2.4"
+},
+"pandas-1.2.4-py37haab0e66_0.tar.bz2":{
 "build":"py37haab0e66_0",
 "build_number":0,
 "depends":[
@@ -42488,12 +42495,30 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"69da064894c4a0ce61bbcc6545cb81a3799f521d25637112e0e9006b368e24bf",
-"size":11431869,
-"timestamp":1614711674047,
-"version":"1.2.3"
+"sha256":"b017687183956fe96f0be4aab0be0b801a9c0e0110e6009e011d5fd8369ea1cf",
+"size":11451107,
+"timestamp":1618264779839,
+"version":"1.2.4"
 },
-"pandas-1.2.3-py38haab0e66_0.tar.bz2":{
+"pandas-1.2.4-py38h29c3540_0.tar.bz2":{
+"build":"py38h29c3540_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.19.2,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python-dateutil >=2.7.3",
+"pytz >=2017.3"
+],
+"license":"BSD-3-Clause",
+"name":"pandas",
+"sha256":"a58b41f8d42aac4d470ef1defa5e968b1c6e7ef118ba01e0683bfca9f20513d8",
+"size":11759796,
+"timestamp":1618365892686,
+"version":"1.2.4"
+},
+"pandas-1.2.4-py38haab0e66_0.tar.bz2":{
 "build":"py38haab0e66_0",
 "build_number":0,
 "depends":[
@@ -42506,12 +42531,30 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"dfe25a4a854f5c29c8e7d70a08c32307b8ca85bb283e66505d926f2213e6de8e",
-"size":11786773,
-"timestamp":1614717149652,
-"version":"1.2.3"
+"sha256":"8a5677e81ae0302cc992810920de1eb8bc7f719a9252c88d30f49eb97efad316",
+"size":11766614,
+"timestamp":1618264774283,
+"version":"1.2.4"
 },
-"pandas-1.2.3-py39haab0e66_0.tar.bz2":{
+"pandas-1.2.4-py39h29c3540_0.tar.bz2":{
+"build":"py39h29c3540_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.19.2,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python-dateutil >=2.7.3",
+"pytz >=2017.3"
+],
+"license":"BSD-3-Clause",
+"name":"pandas",
+"sha256":"5312d938130a93d011c4a00d975b67ae55b7130ce07abde3c6570ecd3dcd6c5b",
+"size":11770209,
+"timestamp":1618365888657,
+"version":"1.2.4"
+},
+"pandas-1.2.4-py39haab0e66_0.tar.bz2":{
 "build":"py39haab0e66_0",
 "build_number":0,
 "depends":[
@@ -42524,10 +42567,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"e0265fb5142adfea20f7b39b8cb5d8cadc8bca47f2e18b51df7db79a2158c995",
-"size":11756004,
-"timestamp":1614711678452,
-"version":"1.2.3"
+"sha256":"427eeb0cd323603d172d65479b2133dadcb52432d6337f90b28d472b7c825539",
+"size":11803018,
+"timestamp":1618264637963,
+"version":"1.2.4"
 },
 "pandas-datareader-0.7.0-py27_0.tar.bz2":{
 "build":"py27_0",
