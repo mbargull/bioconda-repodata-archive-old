@@ -21574,6 +21574,23 @@
 "timestamp":1615471455873,
 "version":"0.5.0"
 },
+"fcl-0.6.1-hda9dc21_3.tar.bz2":{
+"build":"hda9dc21_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"flann >=1.9.1,<1.9.2.0a0",
+"libccd >=2.1,<2.2.0a0",
+"libcxx >=11.1.0",
+"octomap >=1.9.6,<1.10.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"fcl",
+"sha256":"ef8a4386881e2c0fdbfdbb8e15ec215f1d47afc59f87569996f9635c642173c2",
+"size":1369972,
+"timestamp":1618398155223,
+"version":"0.6.1"
+},
 "fd-find-8.1.1-h1efec70_1.tar.bz2":{
 "build":"h1efec70_1",
 "build_number":1,
@@ -35980,6 +35997,34 @@
 "timestamp":1617458623374,
 "version":"1.2.0"
 },
+"libignition-tools1-1.1.0-h69bbded_0.tar.bz2":{
+"build":"h69bbded_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"ruby"
+],
+"license":"Apache-2.0",
+"name":"libignition-tools1",
+"sha256":"f1dedb032cd051f13d3341020bdc688f09e0cb926a20156d0e514c14071eab02",
+"size":8247,
+"timestamp":1618399181954,
+"version":"1.1.0"
+},
+"libignition-tools1-1.1.0-h6c7faf4_0.tar.bz2":{
+"build":"h6c7faf4_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"ruby"
+],
+"license":"Apache-2.0",
+"name":"libignition-tools1",
+"sha256":"18dae2dc633c8e587700c3727cdb08505b7d22482f761e449aa3822b91c9c51a",
+"size":8245,
+"timestamp":1618399020994,
+"version":"1.1.0"
+},
 "libignition-utils1-1.0.0-hbdafb3b_1.tar.bz2":{
 "build":"hbdafb3b_1",
 "build_number":1,
@@ -48250,6 +48295,20 @@
 "timestamp":1615056447000,
 "version":"3.5.1"
 },
+"orocos-kdl-1.4.0-hc470f4d_0.tar.bz2":{
+"build":"hc470f4d_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libcxx >=11.1.0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"orocos-kdl",
+"sha256":"cb8194de27b6284bcb8bdb57e1754b9ff079f0bec2bad2b1d3afc90b644e4e46",
+"size":303312,
+"timestamp":1618396186124,
+"version":"1.4.0"
+},
 "osqp-0.6.2-py38h9b9bf68_1.tar.bz2":{
 "build":"py38h9b9bf68_1",
 "build_number":1,
@@ -59982,6 +60041,22 @@
 "timestamp":1617303701611,
 "version":"1.10.2"
 },
+"python-blosc-1.10.2-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"blosc >=1.21.0,<2.0a0",
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"python-blosc",
+"sha256":"9dba8e3f855169b5b79884944a712b10098eab729b2ecd2af9005e3b0a1e0bd4",
+"size":414286,
+"timestamp":1618399312551,
+"version":"1.10.2"
+},
 "python-framel-8.41.1-py38h8369297_1.tar.bz2":{
 "build":"py38h8369297_1",
 "build_number":1,
@@ -60149,6 +60224,24 @@
 "size":56691,
 "timestamp":1610327581025,
 "version":"2.9"
+},
+"python-orocos-kdl-1.4.0-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libcxx >=11.1.0",
+"orocos-kdl",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"sip"
+],
+"license":"LGPL-2.1-or-later",
+"name":"python-orocos-kdl",
+"sha256":"d4d00065421fee0e99945f5eb92dc62e99ea463206f7324a1fd83d3a62cf9bcd",
+"size":126848,
+"timestamp":1618396302648,
+"version":"1.4.0"
 },
 "python-rapidjson-1.0-py38h3f7e68f_0.tar.bz2":{
 "build":"py38h3f7e68f_0",
@@ -70849,6 +70942,38 @@
 "timestamp":1611830208962,
 "version":"6.0"
 },
+"urdfdom-1.0.4-hc021e02_3.tar.bz2":{
+"build":"hc021e02_3",
+"build_number":3,
+"depends":[
+"console_bridge >=1.0.1,<1.1.0a0",
+"libcxx >=11.1.0",
+"tinyxml",
+"urdfdom_headers"
+],
+"license":"BSD-3-Clause",
+"name":"urdfdom",
+"sha256":"0a65ee0da0b8e199117714d2dcdf17c040c58239f605d55f5be7e6add6fd20a3",
+"size":114763,
+"timestamp":1618396567688,
+"version":"1.0.4"
+},
+"urdfdom-2.3.3-hc021e02_1.tar.bz2":{
+"build":"hc021e02_1",
+"build_number":1,
+"depends":[
+"console_bridge >=1.0.1,<1.1.0a0",
+"libcxx >=11.1.0",
+"tinyxml",
+"urdfdom_headers"
+],
+"license":"BSD-3-Clause",
+"name":"urdfdom",
+"sha256":"69796a87485323d8b3123a8471154ffc13dbbd2633602b7f38c0335c9698bae2",
+"size":118046,
+"timestamp":1618396219873,
+"version":"2.3.3"
+},
 "urdfdom_headers-1.0.5-hc021e02_2.tar.bz2":{
 "build":"hc021e02_2",
 "build_number":2,
@@ -73652,6 +73777,17 @@
 "size":1494430,
 "timestamp":1614802962667,
 "version":"0.9.27"
+},
+"xorg-compositeproto-0.4.2-h3422bc3_1001.tar.bz2":{
+"build":"h3422bc3_1001",
+"build_number":1001,
+"depends":[],
+"license":"MIT",
+"name":"xorg-compositeproto",
+"sha256":"d9e66e7175e86dafb0fd54c1bc45772c84db65c18fdc5622c0b9d4c01f4364f6",
+"size":12494,
+"timestamp":1618399010760,
+"version":"0.4.2"
 },
 "xorg-fixesproto-5.0-h3422bc3_1002.tar.bz2":{
 "build":"h3422bc3_1002",
