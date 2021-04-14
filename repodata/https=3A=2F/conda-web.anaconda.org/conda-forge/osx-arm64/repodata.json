@@ -21649,6 +21649,23 @@
 "timestamp":1615471455873,
 "version":"0.5.0"
 },
+"fcl-0.6.1-hda9dc21_3.tar.bz2":{
+"build":"hda9dc21_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"flann >=1.9.1,<1.9.2.0a0",
+"libccd >=2.1,<2.2.0a0",
+"libcxx >=11.1.0",
+"octomap >=1.9.6,<1.10.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"fcl",
+"requires":[],
+"size":1369972,
+"timestamp":1618398155223,
+"version":"0.6.1"
+},
 "fd-find-8.1.1-h1efec70_1.tar.bz2":{
 "build":"h1efec70_1",
 "build_number":1,
@@ -36401,6 +36418,20 @@
 "timestamp":1617458623374,
 "version":"1.2.0"
 },
+"libignition-tools1-1.1.0-h6c7faf4_0.tar.bz2":{
+"build":"h6c7faf4_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"ruby"
+],
+"license":"Apache-2.0",
+"name":"libignition-tools1",
+"requires":[],
+"size":8245,
+"timestamp":1618399020994,
+"version":"1.1.0"
+},
 "libignition-utils1-1.0.0-hbdafb3b_1.tar.bz2":{
 "build":"hbdafb3b_1",
 "build_number":1,
@@ -48583,6 +48614,20 @@
 "timestamp":1615056447000,
 "version":"3.5.1"
 },
+"orocos-kdl-1.4.0-hc470f4d_0.tar.bz2":{
+"build":"hc470f4d_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libcxx >=11.1.0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"orocos-kdl",
+"requires":[],
+"size":303312,
+"timestamp":1618396186124,
+"version":"1.4.0"
+},
 "osqp-0.6.2-py38h9b9bf68_1.tar.bz2":{
 "build":"py38h9b9bf68_1",
 "build_number":1,
@@ -60553,6 +60598,24 @@
 "timestamp":1610327581025,
 "version":"2.9"
 },
+"python-orocos-kdl-1.4.0-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libcxx >=11.1.0",
+"orocos-kdl",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"sip"
+],
+"license":"LGPL-2.1-or-later",
+"name":"python-orocos-kdl",
+"requires":[],
+"size":126848,
+"timestamp":1618396302648,
+"version":"1.4.0"
+},
 "python-rapidjson-1.0-py38h3f7e68f_0.tar.bz2":{
 "build":"py38h3f7e68f_0",
 "build_number":0,
@@ -71248,6 +71311,38 @@
 "timestamp":1611830208962,
 "version":"6.0"
 },
+"urdfdom-1.0.4-hc021e02_3.tar.bz2":{
+"build":"hc021e02_3",
+"build_number":3,
+"depends":[
+"console_bridge >=1.0.1,<1.1.0a0",
+"libcxx >=11.1.0",
+"tinyxml",
+"urdfdom_headers"
+],
+"license":"BSD-3-Clause",
+"name":"urdfdom",
+"requires":[],
+"size":114763,
+"timestamp":1618396567688,
+"version":"1.0.4"
+},
+"urdfdom-2.3.3-hc021e02_1.tar.bz2":{
+"build":"hc021e02_1",
+"build_number":1,
+"depends":[
+"console_bridge >=1.0.1,<1.1.0a0",
+"libcxx >=11.1.0",
+"tinyxml",
+"urdfdom_headers"
+],
+"license":"BSD-3-Clause",
+"name":"urdfdom",
+"requires":[],
+"size":118046,
+"timestamp":1618396219873,
+"version":"2.3.3"
+},
 "urdfdom_headers-1.0.5-hc021e02_2.tar.bz2":{
 "build":"hc021e02_2",
 "build_number":2,
@@ -74051,6 +74146,17 @@
 "size":1494430,
 "timestamp":1614802962667,
 "version":"0.9.27"
+},
+"xorg-compositeproto-0.4.2-h3422bc3_1001.tar.bz2":{
+"build":"h3422bc3_1001",
+"build_number":1001,
+"depends":[],
+"license":"MIT",
+"name":"xorg-compositeproto",
+"requires":[],
+"size":12494,
+"timestamp":1618399010760,
+"version":"0.4.2"
 },
 "xorg-fixesproto-5.0-h3422bc3_1002.tar.bz2":{
 "build":"h3422bc3_1002",
