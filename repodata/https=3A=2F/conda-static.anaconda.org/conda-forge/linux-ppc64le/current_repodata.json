@@ -17763,63 +17763,10 @@
 "timestamp":1607108497644,
 "version":"1.1.3"
 },
-"conda-4.10.0-py36h270354c_0.tar.bz2":{
-"build":"py36h270354c_0",
-"build_number":0,
-"constrains":[
-"setuptools >=31.0.1",
-"conda-env >=2.6",
-"conda-build >=3",
-"cytoolz >=0.8.1"
-],
-"depends":[
-"conda-package-handling >=1.3.0",
-"pycosat >=0.6.3",
-"pyopenssl >=16.2.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"requests >=2.18.4,<3",
-"ruamel_yaml >=0.11.14,<0.16",
-"setuptools >=31.0.1"
-],
-"license":"BSD-3-Clause",
-"name":"conda",
-"sha256":"0b0a2245aacf3a99666d79ea857fac609c53df2551b1d064c34fbf666896957d",
-"size":3225723,
-"timestamp":1617199613060,
-"version":"4.10.0"
-},
-"conda-4.10.0-py36he7cccf2_0.tar.bz2":{
+"conda-4.10.1-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "constrains":[
-"setuptools >=31.0.1",
-"conda-env >=2.6",
-"conda-build >=3",
-"cytoolz >=0.8.1"
-],
-"depends":[
-"conda-package-handling >=1.3.0",
-"pycosat >=0.6.3",
-"pyopenssl >=16.2.0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"requests >=2.18.4,<3",
-"ruamel_yaml >=0.11.14,<0.16",
-"setuptools >=31.0.1"
-],
-"license":"BSD-3-Clause",
-"name":"conda",
-"sha256":"6682e40ab120e42604bb0fe9db3d82d93d7761882b402fb1edd11896e963260b",
-"size":3195374,
-"timestamp":1617199577776,
-"version":"4.10.0"
-},
-"conda-4.10.0-py36he7cccf2_1.tar.bz2":{
-"build":"py36he7cccf2_1",
-"build_number":1,
-"constrains":[
 "cytoolz >=0.8.1",
 "conda-env >=2.6",
 "conda-build >=3"
@@ -17837,126 +17784,48 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"2e055b0bea65a044ce5004167860abf624df472abee9aec8e7af8ebfc32e3bb6",
-"size":3211723,
-"timestamp":1617344090632,
-"version":"4.10.0"
+"sha256":"d274a5f33e95b623384f6af3c64ea079e64bb1228ea20995fe05bae1b60810d1",
+"size":3221123,
+"timestamp":1618441644830,
+"version":"4.10.1"
 },
-"conda-4.10.0-py37h35e4cab_0.tar.bz2":{
-"build":"py37h35e4cab_0",
-"build_number":0,
-"constrains":[
-"conda-build >=3",
-"cytoolz >=0.8.1",
-"conda-env >=2.6",
-"setuptools >=31.0.1"
-],
-"depends":[
-"conda-package-handling >=1.3.0",
-"pycosat >=0.6.3",
-"pyopenssl >=16.2.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"requests >=2.18.4,<3",
-"ruamel_yaml >=0.11.14,<0.16",
-"setuptools >=31.0.1"
-],
-"license":"BSD-3-Clause",
-"name":"conda",
-"sha256":"e0cbf2f9a0950f90689c4025dee45de449eb9b913ee32f8187d5866dd1adfc7d",
-"size":3194271,
-"timestamp":1617199646851,
-"version":"4.10.0"
-},
-"conda-4.10.0-py37h35e4cab_1.tar.bz2":{
-"build":"py37h35e4cab_1",
-"build_number":1,
-"constrains":[
-"conda-env >=2.6",
-"conda-build >=3",
-"cytoolz >=0.8.1"
-],
-"depends":[
-"conda-package-handling >=1.3.0",
-"pycosat >=0.6.3",
-"pyopenssl >=16.2.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"requests >=2.18.4,<3",
-"ruamel_yaml >=0.11.14,<0.16",
-"setuptools >=31.0.1"
-],
-"license":"BSD-3-Clause",
-"name":"conda",
-"sha256":"f9e2b91529d6c3e1f28ae98cda875d7c25eaba53a40319b332bcf4f0078054d1",
-"size":3207443,
-"timestamp":1617344134169,
-"version":"4.10.0"
-},
-"conda-4.10.0-py38hf8b3453_0.tar.bz2":{
+"conda-4.10.1-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "constrains":[
-"conda-env >=2.6",
-"setuptools >=31.0.1",
 "cytoolz >=0.8.1",
+"conda-build >=3",
+"conda-env >=2.6"
+],
+"depends":[
+"conda-package-handling >=1.3.0",
+"pycosat >=0.6.3",
+"pyopenssl >=16.2.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"requests >=2.18.4,<3",
+"ruamel_yaml >=0.11.14,<0.16",
+"setuptools >=31.0.1"
+],
+"license":"BSD-3-Clause",
+"name":"conda",
+"sha256":"8249bea1e69929640aa674006b35fc9a0ae1eb4e29c7fa7ce4c0d05c4a89e696",
+"size":3211568,
+"timestamp":1618441613014,
+"version":"4.10.1"
+},
+"conda-4.10.1-py39hc1b9086_0.tar.bz2":{
+"build":"py39hc1b9086_0",
+"build_number":0,
+"constrains":[
+"cytoolz >=0.8.1",
+"conda-env >=2.6",
 "conda-build >=3"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
 "pycosat >=0.6.3",
 "pyopenssl >=16.2.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"requests >=2.18.4,<3",
-"ruamel_yaml >=0.11.14,<0.16",
-"setuptools >=31.0.1"
-],
-"license":"BSD-3-Clause",
-"name":"conda",
-"sha256":"5ac7437b37ec9252873fbd5b18826b4a8ff136e6383acfd1acb1d4523c937072",
-"size":3190460,
-"timestamp":1617199643203,
-"version":"4.10.0"
-},
-"conda-4.10.0-py38hf8b3453_1.tar.bz2":{
-"build":"py38hf8b3453_1",
-"build_number":1,
-"constrains":[
-"conda-build >=3",
-"conda-env >=2.6",
-"cytoolz >=0.8.1"
-],
-"depends":[
-"conda-package-handling >=1.3.0",
-"pycosat >=0.6.3",
-"pyopenssl >=16.2.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"requests >=2.18.4,<3",
-"ruamel_yaml >=0.11.14,<0.16",
-"setuptools >=31.0.1"
-],
-"license":"BSD-3-Clause",
-"name":"conda",
-"sha256":"055d13f6e23cab747b35085d818bbeba90cca5c272b0b249fab04331ce185926",
-"size":3199642,
-"timestamp":1617344111426,
-"version":"4.10.0"
-},
-"conda-4.10.0-py39hc1b9086_0.tar.bz2":{
-"build":"py39hc1b9086_0",
-"build_number":0,
-"constrains":[
-"conda-env >=2.6",
-"setuptools >=31.0.1",
-"conda-build >=3",
-"cytoolz >=0.8.1"
-],
-"depends":[
-"conda-package-handling >=1.3.0",
-"pycosat >=0.6.3",
-"pyopenssl >=16.2.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "requests >=2.18.4,<3",
@@ -17965,35 +17834,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"4fcf848a36af3fc0ed855818ff0f414921b5a482624e6aebd316bfc570ae96de",
-"size":3215833,
-"timestamp":1617199496045,
-"version":"4.10.0"
-},
-"conda-4.10.0-py39hc1b9086_1.tar.bz2":{
-"build":"py39hc1b9086_1",
-"build_number":1,
-"constrains":[
-"conda-build >=3",
-"conda-env >=2.6",
-"cytoolz >=0.8.1"
-],
-"depends":[
-"conda-package-handling >=1.3.0",
-"pycosat >=0.6.3",
-"pyopenssl >=16.2.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"requests >=2.18.4,<3",
-"ruamel_yaml >=0.11.14,<0.16",
-"setuptools >=31.0.1"
-],
-"license":"BSD-3-Clause",
-"name":"conda",
-"sha256":"ee42d2d3397ea1ec332d4daff26d21517d468c6e93beadc4c7982e0b06a8bd07",
-"size":3188812,
-"timestamp":1617344116154,
-"version":"4.10.0"
+"sha256":"9b8faa3168409f1c8a1866c43b2b53f1c81668cdc4d8520b54211ecfd80752bb",
+"size":3197942,
+"timestamp":1618441656489,
+"version":"4.10.1"
 },
 "conda-build-3.21.4-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
@@ -56615,6 +56459,32 @@
 "sha256":"97ef627d1ac37b8992269fab0585a811e657edffe0798deb3507c73523e7ac37",
 "size":45130989,
 "timestamp":1615955661353,
+"version":"4.2.13"
+},
+"mongodb-4.2.13-hee07590_1.tar.bz2":{
+"build":"hee07590_1",
+"build_number":1,
+"depends":[
+"abseil-cpp >=20210324.0,<20210324.1.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"icu >=68.1,<69.0a0",
+"libcurl >=7.76.0,<8.0a0",
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0",
+"openssl >=1.1.1k,<1.1.2a",
+"pcre >=8.44,<9.0a0",
+"snappy >=1.1.8,<2.0a0",
+"sqlite >=3.35.2,<4.0a0",
+"yaml-cpp >=0.6.3,<0.6.4.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"SSPL-1.0",
+"name":"mongodb",
+"sha256":"6876eede117448cf8f0d4c6cb3610b396fe75550e0639fadfcac7acf7a560eca",
+"size":45428960,
+"timestamp":1618437514153,
 "version":"4.2.13"
 },
 "mongoengine-0.22.1-py36h270354c_0.tar.bz2":{
