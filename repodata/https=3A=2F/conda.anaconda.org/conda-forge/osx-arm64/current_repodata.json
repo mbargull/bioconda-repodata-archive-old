@@ -7112,6 +7112,38 @@
 "timestamp":1610127291028,
 "version":"0.5.3"
 },
+"editdistance-s-1.0.0-py38h1670459_1.tar.bz2":{
+"build":"py38h1670459_1",
+"build_number":1,
+"depends":[
+"cffi >=1",
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"editdistance-s",
+"sha256":"fb101789a4f79aa9c1cc256bdaac9e8908d564076a95bdbef570d641a2b87640",
+"size":18373,
+"timestamp":1618497908700,
+"version":"1.0.0"
+},
+"editdistance-s-1.0.0-py39h4d2d688_1.tar.bz2":{
+"build":"py39h4d2d688_1",
+"build_number":1,
+"depends":[
+"cffi >=1",
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"editdistance-s",
+"sha256":"74c092d77c2a49618eb2760a63764b7c4e88cf21152837d9170ed4d214d19b61",
+"size":18571,
+"timestamp":1618498669785,
+"version":"1.0.0"
+},
 "eigen-3.3.9-h260d524_0.tar.bz2":{
 "build":"h260d524_0",
 "build_number":0,
@@ -23271,6 +23303,36 @@
 "timestamp":1613255756104,
 "version":"1.0.0"
 },
+"pycairo-1.20.0-py38h13f96a6_1.tar.bz2":{
+"build":"py38h13f96a6_1",
+"build_number":1,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-only OR MPL-1.1",
+"name":"pycairo",
+"sha256":"2779ffcdfabae93f06d457d9399c1bb8ddcef12ddf0653342974687309aacc06",
+"size":73078,
+"timestamp":1618503038783,
+"version":"1.20.0"
+},
+"pycairo-1.20.0-py39h551958b_1.tar.bz2":{
+"build":"py39h551958b_1",
+"build_number":1,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-2.1-only OR MPL-1.1",
+"name":"pycairo",
+"sha256":"aef3f37c40563cad1e39ddc85f64bdf0200229e1ce497717e96bd91719292b46",
+"size":73417,
+"timestamp":1618503472714,
+"version":"1.20.0"
+},
 "pycosat-0.6.3-py38h30f7421_1006.tar.bz2":{
 "build":"py38h30f7421_1006",
 "build_number":1006,
@@ -24192,9 +24254,9 @@
 "timestamp":1615369538632,
 "version":"2019.1"
 },
-"pyrfr-0.8.1-py38h12a6f45_1.tar.bz2":{
-"build":"py38h12a6f45_1",
-"build_number":1,
+"pyrfr-0.8.2-py38h1670459_0.tar.bz2":{
+"build":"py38h1670459_0",
+"build_number":0,
 "depends":[
 "libcxx >=11.1.0",
 "python >=3.8,<3.9.0a0",
@@ -24202,29 +24264,14 @@
 ],
 "license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
 "name":"pyrfr",
-"sha256":"bcaf0f7ea53b7a1824e0f28b12128e1532b2bdde8f857a0e0cea70d6cd74b824",
-"size":386935,
-"timestamp":1615372381706,
-"version":"0.8.1"
+"sha256":"8973aebe3273786c9949a223e517ce1783dd798940cf1098b6e4006bbddbd10c",
+"size":391866,
+"timestamp":1618501614895,
+"version":"0.8.2"
 },
-"pyrfr-0.8.1-py38h12a6f45_2.tar.bz2":{
-"build":"py38h12a6f45_2",
-"build_number":2,
-"depends":[
-"libcxx >=11.1.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
-"name":"pyrfr",
-"sha256":"7b19235caaea519ee4ac2f7a33ba3414261efe15acd00fbeb4340f6c9ebb7db9",
-"size":388155,
-"timestamp":1615384583887,
-"version":"0.8.1"
-},
-"pyrfr-0.8.1-py39h5a63225_1.tar.bz2":{
-"build":"py39h5a63225_1",
-"build_number":1,
+"pyrfr-0.8.2-py39h4d2d688_0.tar.bz2":{
+"build":"py39h4d2d688_0",
+"build_number":0,
 "depends":[
 "libcxx >=11.1.0",
 "python >=3.9,<3.10.0a0",
@@ -24232,25 +24279,10 @@
 ],
 "license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
 "name":"pyrfr",
-"sha256":"7f5a7d73f803de86f9031d3caa3a793ad9e1137602bc0c7e8105a0d55c525be1",
-"size":388202,
-"timestamp":1615372257972,
-"version":"0.8.1"
-},
-"pyrfr-0.8.1-py39h5a63225_2.tar.bz2":{
-"build":"py39h5a63225_2",
-"build_number":2,
-"depends":[
-"libcxx >=11.1.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
-"name":"pyrfr",
-"sha256":"5cb9814c74d29c8023e351604914f11c7bef41e094e3e09df5d06e0238b11080",
-"size":388291,
-"timestamp":1615384578274,
-"version":"0.8.1"
+"sha256":"9b8cdf8260ee0d0f1bb253574db500695d8539dbaaa619adcfa777d4631b528e",
+"size":391251,
+"timestamp":1618500543884,
+"version":"0.8.2"
 },
 "pyrsistent-0.14.11-py38h30f7421_2.tar.bz2":{
 "build":"py38h30f7421_2",

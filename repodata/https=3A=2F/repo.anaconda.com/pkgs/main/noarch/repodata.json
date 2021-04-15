@@ -3422,6 +3422,22 @@
 "timestamp":1617198526331,
 "version":"1.6.3"
 },
+"backports.functools_lru_cache-1.6.4-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"backports",
+"python",
+"setuptools"
+],
+"license":"MIT",
+"name":"backports.functools_lru_cache",
+"noarch":"python",
+"sha256":"0541f72a1e412c76719bc5a25314da636543d3c6ef92799bd2aa72bc568e90d8",
+"size":9284,
+"timestamp":1618170204423,
+"version":"1.6.4"
+},
 "backports.shutil_get_terminal_size-1.0.0-pyhd3eb1b0_3.tar.bz2":{
 "build":"pyhd3eb1b0_3",
 "build_number":3,
@@ -35941,6 +35957,27 @@
 "timestamp":1617998427056,
 "version":"0.11.2"
 },
+"panel-0.11.3-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"bokeh >=2.3,<2.4",
+"markdown",
+"param >=1.10.0",
+"pyct >=0.4.4",
+"python >=3",
+"pyviz_comms >=0.7.4",
+"requests",
+"tqdm"
+],
+"license":"BSD-3-Clause",
+"name":"panel",
+"noarch":"python",
+"sha256":"1f71637f7531f70d079646a3459a6b586dcba0177d8bb6a86c3ea5fc2b40c998",
+"size":7012500,
+"timestamp":1618437292878,
+"version":"0.11.3"
+},
 "panel-0.4.0-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -58364,6 +58401,22 @@
 "size":9636,
 "timestamp":1617198526331,
 "version":"1.6.3"
+},
+"backports.functools_lru_cache-1.6.4-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"backports",
+"python",
+"setuptools"
+],
+"license":"MIT",
+"name":"backports.functools_lru_cache",
+"noarch":"python",
+"sha256":"cfb1cdf68acde202cc75092e3c0764a1f19b1599c8d06020d811ba495508f6b4",
+"size":9618,
+"timestamp":1618170204423,
+"version":"1.6.4"
 },
 "backports.shutil_get_terminal_size-1.0.0-pyhd3eb1b0_3.conda":{
 "build":"pyhd3eb1b0_3",
@@ -87974,6 +88027,27 @@
 "size":5811990,
 "timestamp":1617998427056,
 "version":"0.11.2"
+},
+"panel-0.11.3-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"bokeh >=2.3,<2.4",
+"markdown",
+"param >=1.10.0",
+"pyct >=0.4.4",
+"python >=3",
+"pyviz_comms >=0.7.4",
+"requests",
+"tqdm"
+],
+"license":"BSD-3-Clause",
+"name":"panel",
+"noarch":"python",
+"sha256":"3255f6351a7813f3960a8351611067372958a93352d54ddd71a57e1365246114",
+"size":5790444,
+"timestamp":1618437292878,
+"version":"0.11.3"
 },
 "panel-0.4.0-0.conda":{
 "build":"0",
