@@ -6171,21 +6171,21 @@
 "timestamp":1617557169769,
 "version":"2.1.3"
 },
-"curl-7.76.0-h9d22e36_0.tar.bz2":{
+"curl-7.76.1-h9d22e36_0.tar.bz2":{
 "build":"h9d22e36_0",
 "build_number":0,
 "depends":[
 "krb5 >=1.17.1,<1.18.0a0",
-"libcurl 7.76.0 h0ebd9f5_0",
+"libcurl 7.76.1 h0ebd9f5_0",
 "libssh2 >=1.9.0,<2.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"curl",
 "name":"curl",
-"sha256":"02f812ac85750cd536be1131a8d83525927850ebd07405a1e2f9a3ed5bc3c760",
-"size":140237,
-"timestamp":1617213130353,
-"version":"7.76.0"
+"sha256":"9a49c352769983db38720141df3ad6dc70942e4739daa8b4786426f42c411434",
+"size":140287,
+"timestamp":1618448721860,
+"version":"7.76.1"
 },
 "cvxopt-1.2.6-py38hdf93f0b_0.tar.bz2":{
 "build":"py38hdf93f0b_0",
@@ -6360,35 +6360,35 @@
 "timestamp":1610649495197,
 "version":"2.1.27"
 },
-"cython-0.29.22-py38h3f7e68f_0.tar.bz2":{
-"build":"py38h3f7e68f_0",
+"cython-0.29.23-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.1",
+"libcxx >=11.1.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"Apache-2.0",
 "name":"cython",
-"sha256":"a303bcf17c0fee1d572cfe12cfe693c1e0e515b2cac2c2bf10c840d14bf6c226",
-"size":2107882,
-"timestamp":1613867370972,
-"version":"0.29.22"
+"sha256":"10df92a71921cd736acc21b5aa591a58cd7318f371595342f6561dfd4ef43c7b",
+"size":2110087,
+"timestamp":1618445612252,
+"version":"0.29.23"
 },
-"cython-0.29.22-py39h93dc1e2_0.tar.bz2":{
-"build":"py39h93dc1e2_0",
+"cython-0.29.23-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.1",
+"libcxx >=11.1.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"Apache-2.0",
 "name":"cython",
-"sha256":"028367c098d07a07006c46b4b531f5c27b55b8f1f4d8dd1b6ca9fa1afaf92a01",
-"size":2115539,
-"timestamp":1613867569312,
-"version":"0.29.22"
+"sha256":"6b15e147084a471ba2a9eb1ba91dd474da265872efcf99c5b857fa4ab13700ac",
+"size":2113063,
+"timestamp":1618445604299,
+"version":"0.29.23"
 },
 "cython-blis-0.7.4-py38h8369297_0.tar.bz2":{
 "build":"py38h8369297_0",
@@ -13701,7 +13701,7 @@
 "timestamp":1610448839886,
 "version":"1.1.1"
 },
-"libcurl-7.76.0-h0ebd9f5_0.tar.bz2":{
+"libcurl-7.76.1-h0ebd9f5_0.tar.bz2":{
 "build":"h0ebd9f5_0",
 "build_number":0,
 "depends":[
@@ -13713,27 +13713,27 @@
 ],
 "license":"curl",
 "name":"libcurl",
-"sha256":"4208fe21bd59f18097c8c8763a166ee19aa1dc1163312411d617577903135b5e",
-"size":319841,
-"timestamp":1617213108208,
-"version":"7.76.0"
+"sha256":"d14917293e19ae3f49aa985d8d72c94b855f1f74be3c73ba5656698938ef3458",
+"size":319678,
+"timestamp":1618448701291,
+"version":"7.76.1"
 },
-"libcurl-static-7.76.0-h0ebd9f5_0.tar.bz2":{
+"libcurl-static-7.76.1-h0ebd9f5_0.tar.bz2":{
 "build":"h0ebd9f5_0",
 "build_number":0,
 "depends":[
 "krb5 >=1.17.1,<1.18.0a0",
-"libcurl 7.76.0 h0ebd9f5_0",
+"libcurl 7.76.1 h0ebd9f5_0",
 "libssh2 >=1.9.0,<2.0a0",
 "openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"curl",
 "name":"libcurl-static",
-"sha256":"226fe3121855ceb1d3406466b6e36740be8263e94483e976b807b7fc77603160",
-"size":348848,
-"timestamp":1617213149208,
-"version":"7.76.0"
+"sha256":"fdc54744e1c7673ec933f40e649c03ef2594164d1245a3c2d4c931e104d6cb25",
+"size":348854,
+"timestamp":1618448739684,
+"version":"7.76.1"
 },
 "libcxx-11.1.0-h168391b_0.tar.bz2":{
 "build":"h168391b_0",
@@ -21364,7 +21364,7 @@
 "timestamp":1613630097088,
 "version":"1.10.1"
 },
-"poetry-1.1.5-py38h10201cd_0.tar.bz2":{
+"poetry-1.1.6-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "depends":[
@@ -21392,12 +21392,12 @@
 ],
 "license":"MIT",
 "name":"poetry",
-"sha256":"befadadcfa0b4a216eb30552b593fb2bfdeb54dd6e6dfc905bad5273b6305801",
-"size":245202,
-"timestamp":1614968516636,
-"version":"1.1.5"
+"sha256":"3324e2fb44d45df6e546362d8fbf54f08b45d1482d247aba48b4a418a7e54dbd",
+"size":246012,
+"timestamp":1618445198409,
+"version":"1.1.6"
 },
-"poetry-1.1.5-py39h2804cbe_0.tar.bz2":{
+"poetry-1.1.6-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "depends":[
@@ -21425,10 +21425,10 @@
 ],
 "license":"MIT",
 "name":"poetry",
-"sha256":"edd8986245c9b19d534e1c049cabca330f016a277f770aaf9d54dfac15c7c550",
-"size":245542,
-"timestamp":1614968510359,
-"version":"1.1.5"
+"sha256":"084979125688c605893065d11ebdb3013de0be7d28ed433e60b27d05ad280873",
+"size":241702,
+"timestamp":1618445186601,
+"version":"1.1.6"
 },
 "poppler-21.03.0-h288c6e0_0.tar.bz2":{
 "build":"h288c6e0_0",
