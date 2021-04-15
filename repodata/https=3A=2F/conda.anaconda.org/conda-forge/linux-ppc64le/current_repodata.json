@@ -63477,7 +63477,7 @@
 "timestamp":1618212129694,
 "version":"4.2.4"
 },
-"oniguruma-6.9.7-h4e0d66e_0.tar.bz2":{
+"oniguruma-6.9.7.1-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
 "build_number":0,
 "depends":[
@@ -63485,10 +63485,10 @@
 ],
 "license":"BSD-2-Clause",
 "name":"oniguruma",
-"sha256":"a425b9f2cfe87526e7043d3d60bff115f0d01a7043cd65cae6cdc696cd55307f",
-"size":528745,
-"timestamp":1618423453161,
-"version":"6.9.7"
+"sha256":"8d27d152a0081eecd8915b4c488680cc3839fe92cd071770e6a92c6c631abd2c",
+"size":527547,
+"timestamp":1618505106561,
+"version":"6.9.7.1"
 },
 "onnx-1.8.1-py36h2f36dbf_1.tar.bz2":{
 "build":"py36h2f36dbf_1",
@@ -66994,22 +66994,7 @@
 "timestamp":1611404412802,
 "version":"1.6.7"
 },
-"orjson-3.5.1-py36hc33305d_0.tar.bz2":{
-"build":"py36hc33305d_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"Apache-2.0",
-"name":"orjson",
-"sha256":"5d4d7e1f8cbef9468d15a94f975e2b7ba2fe9505447b2a8ce25a91c7ed71fe00",
-"size":258507,
-"timestamp":1615056178801,
-"version":"3.5.1"
-},
-"orjson-3.5.1-py37h6642d69_0.tar.bz2":{
+"orjson-3.5.2-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -67019,12 +67004,12 @@
 ],
 "license":"Apache-2.0",
 "name":"orjson",
-"sha256":"1cc850454ee018c412d1ddd287a108bd15b39edfb5e0a8f6bad04e1be1827a24",
-"size":258488,
-"timestamp":1615056123945,
-"version":"3.5.1"
+"sha256":"1a556a4e634ec7a133df6544ed8502222e8010c7f4aea0974fbcea498ba3cc4c",
+"size":259197,
+"timestamp":1618506878156,
+"version":"3.5.2"
 },
-"orjson-3.5.1-py38h98b8a6f_0.tar.bz2":{
+"orjson-3.5.2-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -67034,12 +67019,12 @@
 ],
 "license":"Apache-2.0",
 "name":"orjson",
-"sha256":"5380afc9defffa6f9446196ea1b27c763b0fcd3c78d2b1b3926d9089c7ab637c",
-"size":258488,
-"timestamp":1615056251016,
-"version":"3.5.1"
+"sha256":"940d6aa292a1b149bd615562fea092fb1d6a4446d250bf90077ae22eb3105410",
+"size":259157,
+"timestamp":1618506904356,
+"version":"3.5.2"
 },
-"orjson-3.5.1-py39ha810350_0.tar.bz2":{
+"orjson-3.5.2-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -67049,10 +67034,10 @@
 ],
 "license":"Apache-2.0",
 "name":"orjson",
-"sha256":"84498984a5cf65217210b91301f5ac7ba53b18d08f7e32f5dee85cf5a0eaaccb",
-"size":258492,
-"timestamp":1615056267597,
-"version":"3.5.1"
+"sha256":"649640cc0a62b0e83500e3dfc181eec615846cd12488cf1e1433eb9eba857f6d",
+"size":259207,
+"timestamp":1618506909129,
+"version":"3.5.2"
 },
 "orocos-kdl-1.4.0-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
@@ -76199,6 +76184,22 @@
 "timestamp":1602429421981,
 "version":"1.20.0"
 },
+"pycairo-1.20.0-py36ha75650e_1.tar.bz2":{
+"build":"py36ha75650e_1",
+"build_number":1,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"LGPL-2.1-only OR MPL-1.1",
+"name":"pycairo",
+"sha256":"630f00f99bd2c8d8664a23276f2eadcb67b26705a9fa42e855d77b5772487bc7",
+"size":81422,
+"timestamp":1618503662949,
+"version":"1.20.0"
+},
 "pycairo-1.20.0-py36hbd2f71c_0.tar.bz2":{
 "build":"py36hbd2f71c_0",
 "build_number":0,
@@ -76309,6 +76310,22 @@
 "sha256":"d60455b504cec9c007edd3a607863a76a4f4b124637b73b3b3b5298db284a512",
 "size":90368,
 "timestamp":1602429562178,
+"version":"1.20.0"
+},
+"pycairo-1.20.0-py38he958f33_1.tar.bz2":{
+"build":"py38he958f33_1",
+"build_number":1,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-only OR MPL-1.1",
+"name":"pycairo",
+"sha256":"1279885f8e11b6308602e29a766bab78ba239953716b190e1a273d5be6a1596e",
+"size":81559,
+"timestamp":1618504066039,
 "version":"1.20.0"
 },
 "pycairo-1.20.0-py39h03f1ce7_1.tar.bz2":{
@@ -103721,7 +103738,7 @@
 "timestamp":1617408268639,
 "version":"2.0.1"
 },
-"sqlalchemy-1.4.7-py36hc33305d_0.tar.bz2":{
+"sqlalchemy-1.4.8-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -103733,12 +103750,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"4cbd08c6be4d1c2a73ba01a0a3ca125022c2f91bd977cac46bbb8ce1437de9d9",
-"size":2330739,
-"timestamp":1617995893948,
-"version":"1.4.7"
+"sha256":"7449fff357409a13cda9fb1ea75abcce68e489b604076069c1d272e8fe2396d0",
+"size":2336576,
+"timestamp":1618507016943,
+"version":"1.4.8"
 },
-"sqlalchemy-1.4.7-py36hfa8c849_0.tar.bz2":{
+"sqlalchemy-1.4.8-py36hfa8c849_0.tar.bz2":{
 "build":"py36hfa8c849_0",
 "build_number":0,
 "depends":[
@@ -103751,77 +103768,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"41439c09da3802381aeed82094f89ecd72eca5dac02cdb004f08e56ffdf9486c",
-"size":2328967,
-"timestamp":1617995885000,
-"version":"1.4.7"
-},
-"sqlalchemy-1.4.7-py37h0630641_0.tar.bz2":{
-"build":"py37h0630641_0",
-"build_number":0,
-"depends":[
-"greenlet !=0.4.17",
-"importlib-metadata",
-"libgcc-ng >=9.3.0",
-"pypy3.7 >=7.3.3",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73"
-],
-"license":"MIT",
-"name":"sqlalchemy",
-"sha256":"64bce903cd928013bdfac588af85765a90a1aac23f2c532a2a346d44a62f847d",
-"size":2327757,
-"timestamp":1617995767687,
-"version":"1.4.7"
-},
-"sqlalchemy-1.4.7-py37h6642d69_0.tar.bz2":{
-"build":"py37h6642d69_0",
-"build_number":0,
-"depends":[
-"greenlet !=0.4.17",
-"importlib-metadata",
-"libgcc-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"MIT",
-"name":"sqlalchemy",
-"sha256":"c1f7047cb39c72959dda758fbcf79569f7284e28c957038e9404949962d0e25c",
-"size":2327163,
-"timestamp":1617995510274,
-"version":"1.4.7"
-},
-"sqlalchemy-1.4.7-py38h98b8a6f_0.tar.bz2":{
-"build":"py38h98b8a6f_0",
-"build_number":0,
-"depends":[
-"greenlet !=0.4.17",
-"libgcc-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"MIT",
-"name":"sqlalchemy",
-"sha256":"25b22367df2bee5049b8211b5c773dec232fe93211c9fe12137bbdc0052cc011",
-"size":2347375,
-"timestamp":1617995956630,
-"version":"1.4.7"
-},
-"sqlalchemy-1.4.7-py39ha810350_0.tar.bz2":{
-"build":"py39ha810350_0",
-"build_number":0,
-"depends":[
-"greenlet !=0.4.17",
-"libgcc-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"MIT",
-"name":"sqlalchemy",
-"sha256":"030b1ba09b4d580a712477864136b9b16cf376c0541d244001bacb4dc90640cc",
-"size":2343611,
-"timestamp":1617995804202,
-"version":"1.4.7"
+"sha256":"c7c0d8dc93b5d322d46b07dbd856fa74691c6ab47af83ed5685f8d458a137942",
+"size":2338024,
+"timestamp":1618507049334,
+"version":"1.4.8"
 },
 "sqlite-3.35.2-h961021d_0.tar.bz2":{
 "build":"h961021d_0",

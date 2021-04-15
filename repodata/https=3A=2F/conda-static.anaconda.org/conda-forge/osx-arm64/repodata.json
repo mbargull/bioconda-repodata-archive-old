@@ -46492,6 +46492,17 @@
 "timestamp":1618422888698,
 "version":"6.9.7"
 },
+"oniguruma-6.9.7.1-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"BSD-2-Clause",
+"name":"oniguruma",
+"sha256":"45ee94c1a45d84cead4f25e43432bebde70f5995551c5e8e95657b8b107a0aa8",
+"size":377990,
+"timestamp":1618504772537,
+"version":"6.9.7.1"
+},
 "onnx-1.8.1-py38h458c681_1.tar.bz2":{
 "build":"py38h458c681_1",
 "build_number":1,
@@ -48707,6 +48718,34 @@
 "size":233498,
 "timestamp":1615056447000,
 "version":"3.5.1"
+},
+"orjson-3.5.2-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"orjson",
+"sha256":"155f3bf9682c40fd482f181c84b2259ba2c167d4622351d3218df1e6ee8a23e4",
+"size":232488,
+"timestamp":1618507019963,
+"version":"3.5.2"
+},
+"orjson-3.5.2-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"orjson",
+"sha256":"a8a7e9a4b416259fda45598540a34cfcb85d52b6a87f80bba32bed87f8513629",
+"size":232583,
+"timestamp":1618506879911,
+"version":"3.5.2"
 },
 "orocos-kdl-1.4.0-hc470f4d_0.tar.bz2":{
 "build":"hc470f4d_0",
@@ -68985,6 +69024,36 @@
 "size":2342347,
 "timestamp":1617995211373,
 "version":"1.4.7"
+},
+"sqlalchemy-1.4.8-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"58cbc0289a655730f89debdd9ff4933a857c3663aadb4253e34c5bf27fd6156d",
+"size":2349320,
+"timestamp":1618506801187,
+"version":"1.4.8"
+},
+"sqlalchemy-1.4.8-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"b57da3d2cf065ddf85ade12c05cf1aa6586194a72417dae58cb176163a848113",
+"size":2347215,
+"timestamp":1618507016947,
+"version":"1.4.8"
 },
 "sqlite-3.32.3-h75b4277_1.tar.bz2":{
 "build":"h75b4277_1",
