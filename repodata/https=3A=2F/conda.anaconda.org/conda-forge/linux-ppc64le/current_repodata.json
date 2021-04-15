@@ -61956,6 +61956,17 @@
 "timestamp":1606568778368,
 "version":"1.10.2"
 },
+"nlohmann_json-3.9.1-h3b9df90_1.tar.bz2":{
+"build":"h3b9df90_1",
+"build_number":1,
+"depends":[],
+"license":"MIT",
+"name":"nlohmann_json",
+"sha256":"2dd326d8ef1c4a1cc21abb5a8d72a9254e65a88ca44577ab4163054e27b5dba6",
+"size":125319,
+"timestamp":1618511127671,
+"version":"3.9.1"
+},
 "nlohmann_json-3.9.1-hb209c28_0.tar.bz2":{
 "build":"hb209c28_0",
 "build_number":0,
@@ -76279,6 +76290,23 @@
 "timestamp":1602429470510,
 "version":"1.20.0"
 },
+"pycairo-1.20.0-py37h1d871a5_1.tar.bz2":{
+"build":"py37h1d871a5_1",
+"build_number":1,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"libgcc-ng >=9.3.0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"LGPL-2.1-only OR MPL-1.1",
+"name":"pycairo",
+"sha256":"3009fa381d7f130145a0344f7a3c29ccf70aad89ce37468a946e3a87542dd5da",
+"size":81309,
+"timestamp":1618513629698,
+"version":"1.20.0"
+},
 "pycairo-1.20.0-py37h85fe480_0.tar.bz2":{
 "build":"py37h85fe480_0",
 "build_number":0,
@@ -80798,6 +80826,104 @@
 "size":622873,
 "timestamp":1604437064410,
 "version":"1.9.9"
+},
+"pyrfr-0.8.2-py36h004869e_0.tar.bz2":{
+"build":"py36h004869e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"ee5cb3569d1f1ad02c04da3e1a4c4c47ff6427dad26c1c1c7e97ee3075705aa1",
+"size":462410,
+"timestamp":1618511436061,
+"version":"0.8.2"
+},
+"pyrfr-0.8.2-py36he013ba8_0.tar.bz2":{
+"build":"py36he013ba8_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"3d9429e96352be518d46e29091b594f3df245b1d6a6cd9709c573652ed85958a",
+"size":461540,
+"timestamp":1618511534099,
+"version":"0.8.2"
+},
+"pyrfr-0.8.2-py37h0d693e4_0.tar.bz2":{
+"build":"py37h0d693e4_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"697341c067762c736e59e17e7f48967ff8ec52a3831dad8f3989079a318a1a0a",
+"size":457615,
+"timestamp":1618511550792,
+"version":"0.8.2"
+},
+"pyrfr-0.8.2-py37h6f961b3_0.tar.bz2":{
+"build":"py37h6f961b3_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"1ff1d12c74bfa815ea65c3a83a14a5b03bd1a8481fcc4e181125c93df657c752",
+"size":459061,
+"timestamp":1618511588320,
+"version":"0.8.2"
+},
+"pyrfr-0.8.2-py38h06b7ddb_0.tar.bz2":{
+"build":"py38h06b7ddb_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"25806181622586521482a8a4ee75c53066bcfe6850a0a9e28144a521b8567811",
+"size":456285,
+"timestamp":1618511570959,
+"version":"0.8.2"
+},
+"pyrfr-0.8.2-py39h4d17caa_0.tar.bz2":{
+"build":"py39h4d17caa_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"bf5d8ed97a016045ffec274310df5d7e387b0f6cd7c2f65210422ba712edd95e",
+"size":457102,
+"timestamp":1618511507697,
+"version":"0.8.2"
 },
 "pyrsistent-0.14.11-py27h14c3975_0.tar.bz2":{
 "build":"py27h14c3975_0",
@@ -86647,6 +86773,20 @@
 "sha256":"cc1d00789e172c82a60343691e8351b7274c651259620959096d6e17e14d0195",
 "size":2354489,
 "timestamp":1610608340834,
+"version":"2020.2"
+},
+"qhull-2020.2-h2acdbc0_1.tar.bz2":{
+"build":"h2acdbc0_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Qhull",
+"name":"qhull",
+"sha256":"5d14d43e7e094d100b5aaffef1cacb15b0381521a9c3dcd9c80c6e9823769e66",
+"size":2384876,
+"timestamp":1618511147553,
 "version":"2020.2"
 },
 "quadprog-0.1.8-py36h004869e_2.tar.bz2":{

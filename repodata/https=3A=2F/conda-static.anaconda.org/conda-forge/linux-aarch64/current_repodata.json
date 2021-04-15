@@ -59945,6 +59945,17 @@
 "timestamp":1606568312868,
 "version":"1.10.2"
 },
+"nlohmann_json-3.9.1-h01db608_1.tar.bz2":{
+"build":"h01db608_1",
+"build_number":1,
+"depends":[],
+"license":"MIT",
+"name":"nlohmann_json",
+"sha256":"916a33da3f9bf9286d5986c093783892fc4e89fe5b1ef1fbb3860561daada321",
+"size":125409,
+"timestamp":1618511865064,
+"version":"3.9.1"
+},
 "nlohmann_json-3.9.1-he1b5a44_0.tar.bz2":{
 "build":"he1b5a44_0",
 "build_number":0,
@@ -74059,6 +74070,23 @@
 "timestamp":1602428946075,
 "version":"1.20.0"
 },
+"pycairo-1.20.0-py37h3cf3506_1.tar.bz2":{
+"build":"py37h3cf3506_1",
+"build_number":1,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"libgcc-ng >=9.3.0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"LGPL-2.1-only OR MPL-1.1",
+"name":"pycairo",
+"sha256":"9c05f3f6a60920e0bcf010fcfe9bd6a0dd77a71c327be87c1554d9c0c46099fa",
+"size":80046,
+"timestamp":1618514016552,
+"version":"1.20.0"
+},
 "pycairo-1.20.0-py37h81a31a7_1.tar.bz2":{
 "build":"py37h81a31a7_1",
 "build_number":1,
@@ -78958,6 +78986,104 @@
 "size":172918,
 "timestamp":1617027442570,
 "version":"5.12.1"
+},
+"pyrfr-0.8.2-py36h28cc557_0.tar.bz2":{
+"build":"py36h28cc557_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"c7c809cb82bc73f787461c40f43f2733978a70394fdece83b16d088c5bc5c1a8",
+"size":459498,
+"timestamp":1618511987240,
+"version":"0.8.2"
+},
+"pyrfr-0.8.2-py36h72e8208_0.tar.bz2":{
+"build":"py36h72e8208_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"9a44204ce0d301ceac4996ea3f9b7fa4727e52e03c2e22b4b0e0824b297806ca",
+"size":454777,
+"timestamp":1618512003313,
+"version":"0.8.2"
+},
+"pyrfr-0.8.2-py37h7ed3beb_0.tar.bz2":{
+"build":"py37h7ed3beb_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"48b17f1c882322f84514fd9ed49813fe31564bd6f26a95aaca3ff0ee27e1a42e",
+"size":459677,
+"timestamp":1618512165460,
+"version":"0.8.2"
+},
+"pyrfr-0.8.2-py37hbc413c5_0.tar.bz2":{
+"build":"py37hbc413c5_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"21dd38721884563309828996e069e397457e770c0709605f7fdcb6e0a1311327",
+"size":460554,
+"timestamp":1618512040483,
+"version":"0.8.2"
+},
+"pyrfr-0.8.2-py38he922c84_0.tar.bz2":{
+"build":"py38he922c84_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"981bf2e8b9a1f6f88d1bd90b76da5e8de9c05d9a28bf4ed76eb8f328877cf1a5",
+"size":457004,
+"timestamp":1618512287796,
+"version":"0.8.2"
+},
+"pyrfr-0.8.2-py39hb300cb6_0.tar.bz2":{
+"build":"py39hb300cb6_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+"name":"pyrfr",
+"sha256":"6a481bdd2f9e9bc9b28359d60dfeb1a16d836d0f4df830a6d687a454d7a5b8b9",
+"size":457001,
+"timestamp":1618512318607,
+"version":"0.8.2"
 },
 "pyrsistent-0.14.11-py27h14c3975_0.tar.bz2":{
 "build":"py27h14c3975_0",
@@ -84933,6 +85059,20 @@
 "sha256":"6dbc98fc0d96929e1f2829d1d1fe349673dc737b492ad124d2c9ca6cbf32e083",
 "size":2169575,
 "timestamp":1610615422281,
+"version":"2020.2"
+},
+"qhull-2020.2-hd62202e_1.tar.bz2":{
+"build":"hd62202e_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Qhull",
+"name":"qhull",
+"sha256":"cfa341edfa124de46a6baa841fb0b33c1e2d9a218b52a0ecb9b5d39b8a90fbcf",
+"size":2170848,
+"timestamp":1618512373562,
 "version":"2020.2"
 },
 "qt-5.12.9-hbfd4b83_4.tar.bz2":{
