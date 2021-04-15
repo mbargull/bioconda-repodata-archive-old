@@ -15347,52 +15347,67 @@
 "timestamp":1617985540676,
 "version":"2.5.1"
 },
-"catalogue-2.0.2-py36h270354c_0.tar.bz2":{
-"build":"py36h270354c_0",
-"build_number":0,
-"depends":[
-"importlib_metadata >=0.20,<3.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"MIT",
-"name":"catalogue",
-"sha256":"0d0bcde7a473bf59570dc3280cccb471625197dd61168ca0071506a93442a621",
-"size":17553,
-"timestamp":1618335768028,
-"version":"2.0.2"
-},
-"catalogue-2.0.2-py36he7cccf2_0.tar.bz2":{
+"catalogue-2.0.3-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "depends":[
-"importlib_metadata >=0.20,<3.3.0",
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
+"python_abi 3.6 *_pypy36_pp73",
+"typing-extensions >=3.6.4",
+"zipp >=0.5"
 ],
 "license":"MIT",
 "name":"catalogue",
-"sha256":"6eefa951fce85d0f03c1f5730b5ff6e2a0daefd2e842375a746ffaf810e25fcd",
-"size":17685,
-"timestamp":1618335753684,
-"version":"2.0.2"
+"sha256":"cff06abf478a6b4344c7619c46542e171893d87eb00f6fc32d6e2ee44069810d",
+"size":30977,
+"timestamp":1618489039373,
+"version":"2.0.3"
 },
-"catalogue-2.0.2-py37hadc05a3_0.tar.bz2":{
+"catalogue-2.0.3-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
-"importlib_metadata >=0.20,<3.3.0",
 "pypy3.7 >=7.3.3",
 "python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73"
+"python_abi 3.7 *_pypy37_pp73",
+"typing-extensions >=3.6.4",
+"zipp >=0.5"
 ],
 "license":"MIT",
 "name":"catalogue",
-"sha256":"0f5f5cfac80e51a68c9bf01ba37de52c68f341ec60a1ab5579290ad59973334c",
-"size":17671,
-"timestamp":1618335739592,
-"version":"2.0.2"
+"sha256":"1b3c31a287f7c3e591cc2b5884a3c1347921156c2121880e71ac6a60ca52ff29",
+"size":31008,
+"timestamp":1618489009659,
+"version":"2.0.3"
+},
+"catalogue-2.0.3-py38hf8b3453_0.tar.bz2":{
+"build":"py38hf8b3453_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"catalogue",
+"sha256":"a5a49af6b62a557479b3c5a38233c0b32836fec94f83461fc2fdb4818fdf5511",
+"size":30951,
+"timestamp":1618489080003,
+"version":"2.0.3"
+},
+"catalogue-2.0.3-py39hc1b9086_0.tar.bz2":{
+"build":"py39hc1b9086_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"catalogue",
+"sha256":"e54abd2bcf339a485654e66687d9361de3bdba00af96a3573f5478d3821df42d",
+"size":30942,
+"timestamp":1618489034033,
+"version":"2.0.3"
 },
 "catch2-2.13.4-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
@@ -117103,7 +117118,7 @@
 "timestamp":1616253862589,
 "version":"0.9.2"
 },
-"zope.interface-5.3.0-py36hc33305d_0.tar.bz2":{
+"zope.interface-5.4.0-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -117114,12 +117129,12 @@
 ],
 "license":"ZPL-2.1",
 "name":"zope.interface",
-"sha256":"b7287011446181b90ac98864124eab4679e5bb18209c57e9d5984adeb5df1ca8",
-"size":318739,
-"timestamp":1616328486107,
-"version":"5.3.0"
+"sha256":"b15b492bda07ba8a520ec130c619a7626ffe5e4780e7f606def7b52a6d10e6a8",
+"size":326583,
+"timestamp":1618486873929,
+"version":"5.4.0"
 },
-"zope.interface-5.3.0-py36hfa8c849_0.tar.bz2":{
+"zope.interface-5.4.0-py36hfa8c849_0.tar.bz2":{
 "build":"py36hfa8c849_0",
 "build_number":0,
 "depends":[
@@ -117131,12 +117146,12 @@
 ],
 "license":"ZPL-2.1",
 "name":"zope.interface",
-"sha256":"fb05a39b1b84c723332b75d0fbd29c354456008b7377b35e90562a7b35642f4c",
-"size":310178,
-"timestamp":1616328586559,
-"version":"5.3.0"
+"sha256":"b903c17f97d3eb94e0267a8e56b25f30461f5e5a306656c2b03ed6c0ac4c1a17",
+"size":316975,
+"timestamp":1618486868155,
+"version":"5.4.0"
 },
-"zope.interface-5.3.0-py37h0630641_0.tar.bz2":{
+"zope.interface-5.4.0-py37h0630641_0.tar.bz2":{
 "build":"py37h0630641_0",
 "build_number":0,
 "depends":[
@@ -117148,12 +117163,12 @@
 ],
 "license":"ZPL-2.1",
 "name":"zope.interface",
-"sha256":"d46dc77c2047a9bf4c59a03e5553e42743c57bedee5528148877878a04769cb1",
-"size":316537,
-"timestamp":1616328615253,
-"version":"5.3.0"
+"sha256":"1a86a068013725f42e01dba0a7ec55c0587584a9914f91b7dc534041774f85d4",
+"size":317278,
+"timestamp":1618486869805,
+"version":"5.4.0"
 },
-"zope.interface-5.3.0-py37h6642d69_0.tar.bz2":{
+"zope.interface-5.4.0-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -117164,12 +117179,12 @@
 ],
 "license":"ZPL-2.1",
 "name":"zope.interface",
-"sha256":"437a8d000732a1f1b8fbe212119560382d1949132d76eaf803c0ad6778e5102a",
-"size":322645,
-"timestamp":1616328239929,
-"version":"5.3.0"
+"sha256":"e50b63a1dbb323a99dad2623cc2dd714ddfa4d3f92a6d4f9b192ffbb371fe2d6",
+"size":330654,
+"timestamp":1618486620387,
+"version":"5.4.0"
 },
-"zope.interface-5.3.0-py38h98b8a6f_0.tar.bz2":{
+"zope.interface-5.4.0-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -117180,12 +117195,12 @@
 ],
 "license":"ZPL-2.1",
 "name":"zope.interface",
-"sha256":"0932062c83209f5c690d5a42179ac4fcd03569c0f68f4a6e9a8689057a62de46",
-"size":319940,
-"timestamp":1616328393624,
-"version":"5.3.0"
+"sha256":"a9ad275d6073344f57f2abbd57dce04de964129a11e067034f6424499d902e5e",
+"size":329169,
+"timestamp":1618486839507,
+"version":"5.4.0"
 },
-"zope.interface-5.3.0-py39ha810350_0.tar.bz2":{
+"zope.interface-5.4.0-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -117196,10 +117211,10 @@
 ],
 "license":"ZPL-2.1",
 "name":"zope.interface",
-"sha256":"afa3f796acb7cba63fc30df2476d00c2b6f10ca0d04852e0e8832b4881ccb1b4",
-"size":318906,
-"timestamp":1616328590880,
-"version":"5.3.0"
+"sha256":"f9974f825009c35be85e4a99815535c288a85fa6be0035d99a0d580a6c989e8d",
+"size":329975,
+"timestamp":1618486553409,
+"version":"5.4.0"
 },
 "zopfli-0.1.8-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
