@@ -35969,28 +35969,29 @@
 "timestamp":1609872558520,
 "version":"1.8.1"
 },
-"luigi-3.0.2-py36h6ffa863_0.tar.bz2":{
+"luigi-3.0.3-py36h6ffa863_0.tar.bz2":{
 "build":"py36h6ffa863_0",
 "build_number":0,
 "constrains":[
-"prometheus_client ==0.5.0",
-"toml <2.0.0"
+"toml <2.0.0",
+"prometheus_client ==0.5.0"
 ],
 "depends":[
 "python >=3.6,<3.7.0a0",
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"c414809a6f150122c18f33da96d6912c5558d5b7d16e7f1b513673133bca87a0",
-"size":1225423,
-"timestamp":1613676284072,
-"version":"3.0.2"
+"sha256":"5b614ab47b93dfe5e812b9dd3344164aa6066b33b968c54e2eb3e5bf4283b34c",
+"size":1214396,
+"timestamp":1618564456157,
+"version":"3.0.3"
 },
-"luigi-3.0.2-py37h6ffa863_0.tar.bz2":{
+"luigi-3.0.3-py37h6ffa863_0.tar.bz2":{
 "build":"py37h6ffa863_0",
 "build_number":0,
 "constrains":[
@@ -36002,16 +36003,17 @@
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"707f1523e756a08cb072ae4480e8b2e5d79d37c0d0dda1b12b1e824e97e744a2",
-"size":1221578,
-"timestamp":1613676278096,
-"version":"3.0.2"
+"sha256":"8a39f6941e2c09cadfaa13c78001e062f2d2543b063952e7df7ece531ec49846",
+"size":1242017,
+"timestamp":1618564402381,
+"version":"3.0.3"
 },
-"luigi-3.0.2-py38h6ffa863_0.tar.bz2":{
+"luigi-3.0.3-py38h6ffa863_0.tar.bz2":{
 "build":"py38h6ffa863_0",
 "build_number":0,
 "constrains":[
@@ -36023,35 +36025,37 @@
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"954d059fde24ae12a44d45454df5e6afa1f0c164ff56bd3ad4b4067f1e7325b7",
-"size":1226013,
-"timestamp":1613679188554,
-"version":"3.0.2"
+"sha256":"86f5a9f23de9b0c73f3201ec53d436ebb21b7b65fe9e2ffc641414af99c8ccb9",
+"size":1228276,
+"timestamp":1618564384468,
+"version":"3.0.3"
 },
-"luigi-3.0.2-py39h6ffa863_0.tar.bz2":{
+"luigi-3.0.3-py39h6ffa863_0.tar.bz2":{
 "build":"py39h6ffa863_0",
 "build_number":0,
 "constrains":[
-"toml <2.0.0",
-"prometheus_client ==0.5.0"
+"prometheus_client ==0.5.0",
+"toml <2.0.0"
 ],
 "depends":[
 "python >=3.9,<3.10.0a0",
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"c00c5a3b6984ca3b107234a65e95240081a455cee70d44709822441c71de8995",
-"size":1235167,
-"timestamp":1613676284559,
-"version":"3.0.2"
+"sha256":"c16fa0d14f436c3bde94f53de1667afa35a0f5590923114a286411dfd9490fd4",
+"size":1227614,
+"timestamp":1618564395224,
+"version":"3.0.3"
 },
 "lxml-4.6.1-py36hefd8a0e_0.tar.bz2":{
 "build":"py36hefd8a0e_0",
@@ -67911,6 +67915,62 @@
 "size":25279,
 "timestamp":1545232042468,
 "version":"1.14"
+},
+"tenacity-6.3.1-py36h6ffa863_0.tar.bz2":{
+"build":"py36h6ffa863_0",
+"build_number":0,
+"depends":[
+"python >=3.6,<3.7.0a0",
+"six >=1.9.0"
+],
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"96a6edbed71bb297463ac6df2b6a6982a3916d6258ba51dac0ee725ec092e48d",
+"size":37348,
+"timestamp":1608241854832,
+"version":"6.3.1"
+},
+"tenacity-6.3.1-py37h6ffa863_0.tar.bz2":{
+"build":"py37h6ffa863_0",
+"build_number":0,
+"depends":[
+"python >=3.7,<3.8.0a0",
+"six >=1.9.0"
+],
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"330a111bed3e38779ec21cb8d657a17a99dd1c22adde1627c48b73790e30bd2c",
+"size":37435,
+"timestamp":1608241852629,
+"version":"6.3.1"
+},
+"tenacity-6.3.1-py38h6ffa863_0.tar.bz2":{
+"build":"py38h6ffa863_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"six >=1.9.0"
+],
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"9703365b37e525aa08dbbd90ca130e275f8843aba73b3ef9db34f059bcbb657e",
+"size":37586,
+"timestamp":1608241851351,
+"version":"6.3.1"
+},
+"tenacity-6.3.1-py39h6ffa863_0.tar.bz2":{
+"build":"py39h6ffa863_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"six >=1.9.0"
+],
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"0fb30f96ae409dda6ad77b3e6d09044979976222a9f9c25966f33b0e8d2746a8",
+"size":37619,
+"timestamp":1608241843118,
+"version":"6.3.1"
 },
 "tenacity-7.0.0-py36h6ffa863_0.tar.bz2":{
 "build":"py36h6ffa863_0",
