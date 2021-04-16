@@ -45974,6 +45974,22 @@
 "timestamp":1618573998290,
 "version":"3.63"
 },
+"nss-3.64-h353d031_0.tar.bz2":{
+"build":"h353d031_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"nspr >=4.30,<5.0a0",
+"sqlite >=3.35.4,<4.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MPL-2.0",
+"name":"nss",
+"sha256":"a6bc9a07f4b8f03f44368018a6fb12c1508f4b6543a25f593d8c2048accf123a",
+"size":1983978,
+"timestamp":1618579771323,
+"version":"3.64"
+},
 "nsync-1.24.0-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
@@ -74994,6 +75010,28 @@
 "sha256":"c06046cdc2311081f7d2ed31260ecbcc1a1f8e7c7720ba4c6b5bad79995c58c2",
 "size":124329,
 "timestamp":1616493394639,
+"version":"0.3.2"
+},
+"xeus-robot-0.3.2-py39h311c4f9_1.tar.bz2":{
+"build":"py39h311c4f9_1",
+"build_number":1,
+"depends":[
+"jupyterlab_robotmode",
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"robotframework-interpreter >=0.6.6,<0.7",
+"robotframework-lsp >=0.12,<0.14",
+"xeus >=1.0.1,<1.1.0a0",
+"xeus-python >=0.12.1,<0.13",
+"xeus-python >=0.12.3,<0.13.0a0",
+"zeromq >=4.3.3,<4.4.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"xeus-robot",
+"sha256":"845c0733064d1afdacb996623d901a17da7bcdd2656467eac16f44c9217237c2",
+"size":124620,
+"timestamp":1618583796188,
 "version":"0.3.2"
 },
 "xeus-robot-0.3.2-py39hadf8219_0.tar.bz2":{
