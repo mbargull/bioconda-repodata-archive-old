@@ -49443,29 +49443,30 @@
 "timestamp":1617378599650,
 "version":"3.6.0"
 },
-"luigi-3.0.2-py36h06a4308_0.conda":{
+"luigi-3.0.3-py36h06a4308_0.conda":{
 "build":"py36h06a4308_0",
 "build_number":0,
 "constrains":[
-"toml <2.0.0",
-"prometheus_client ==0.5.0"
+"prometheus_client ==0.5.0",
+"toml <2.0.0"
 ],
 "depends":[
 "python >=3.6,<3.7.0a0",
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
-"legacy_bz2_md5":"87e4c42f6388a8178ada115287bb5637",
+"legacy_bz2_md5":"d1f14df259280a2c765878637b54d5b6",
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"a8fb823e17a09b0d5b52bc945926f58c5c79eed8b0a43c43d4f0ebc3f0bb7308",
-"size":1117677,
-"timestamp":1613676287421,
-"version":"3.0.2"
+"sha256":"920c41374db9021ff9ddbcddbe4744a5e761c357b00c1bdb97c2b4b0f258d1b8",
+"size":1126683,
+"timestamp":1618564379343,
+"version":"3.0.3"
 },
-"luigi-3.0.2-py37h06a4308_0.conda":{
+"luigi-3.0.3-py37h06a4308_0.conda":{
 "build":"py37h06a4308_0",
 "build_number":0,
 "constrains":[
@@ -49477,17 +49478,18 @@
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
-"legacy_bz2_md5":"ce1ce95e30253c2603e826fd3b6b46b8",
+"legacy_bz2_md5":"c9daa2fd4eb05dc731aae1ac51b3ac29",
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"675d34725abbef5adbb4536aba7c0b19e8a71f0aa75c58e41141506dbe28cd40",
-"size":1126311,
-"timestamp":1613676270974,
-"version":"3.0.2"
+"sha256":"e6ef18c1a4eb4200a15ac78cdb564734754f0d9e34a067cd9e265589af65ee32",
+"size":1119709,
+"timestamp":1618564378459,
+"version":"3.0.3"
 },
-"luigi-3.0.2-py38h06a4308_0.conda":{
+"luigi-3.0.3-py38h06a4308_0.conda":{
 "build":"py38h06a4308_0",
 "build_number":0,
 "constrains":[
@@ -49499,17 +49501,18 @@
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
-"legacy_bz2_md5":"e5f729ff12caf7a86ab0324ccf2c57ae",
+"legacy_bz2_md5":"af4237015bd02c649b28385567bf9706",
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"29460cb7d81b2e2c2137707ac30ea3eff17cf2e9f5449431eb074f8a51f57789",
-"size":1123520,
-"timestamp":1613676162812,
-"version":"3.0.2"
+"sha256":"c773e668451ae7e727bf803913efa745e1f1a760ea3662164ff60f8958bbe25c",
+"size":1126851,
+"timestamp":1618564380541,
+"version":"3.0.3"
 },
-"luigi-3.0.2-py39h06a4308_0.conda":{
+"luigi-3.0.3-py39h06a4308_0.conda":{
 "build":"py39h06a4308_0",
 "build_number":0,
 "constrains":[
@@ -49521,15 +49524,16 @@
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
-"legacy_bz2_md5":"1b4cf04dd0a1af5358999192edf9aa06",
+"legacy_bz2_md5":"d91f90f40b7299fb9d0027aa31292933",
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"20493e2beca982a83141efdfeeca2c810b3dc670548cd3edee521f8029129c84",
-"size":1122772,
-"timestamp":1613676287504,
-"version":"3.0.2"
+"sha256":"b54c1605c8e50eb216fe4398d439bd04f33dfb909f4a89865c37f843fb547bb5",
+"size":1124063,
+"timestamp":1618564378157,
+"version":"3.0.3"
 },
 "lxml-4.6.1-py36hefd8a0e_0.conda":{
 "build":"py36hefd8a0e_0",
@@ -90885,6 +90889,66 @@
 "size":26005,
 "timestamp":1545232206748,
 "version":"1.14"
+},
+"tenacity-6.3.1-py36h06a4308_0.conda":{
+"build":"py36h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.6,<3.7.0a0",
+"six >=1.9.0"
+],
+"legacy_bz2_md5":"ac2fa91c68842c5aef4c92d7b2b51719",
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"3e269bd605c75d96865ce0f0d9f197a109e1eebae1f4f6ac60c55f7da37c9941",
+"size":36968,
+"timestamp":1608241858736,
+"version":"6.3.1"
+},
+"tenacity-6.3.1-py37h06a4308_0.conda":{
+"build":"py37h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.7,<3.8.0a0",
+"six >=1.9.0"
+],
+"legacy_bz2_md5":"3c0bfd0cded04da6711687f5f73196cc",
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"febd076f38d13e46bd040780ee3a466128b0014669322b031619ffd5728df866",
+"size":36861,
+"timestamp":1608241858819,
+"version":"6.3.1"
+},
+"tenacity-6.3.1-py38h06a4308_0.conda":{
+"build":"py38h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"six >=1.9.0"
+],
+"legacy_bz2_md5":"ffce64a0e6e0199bbf6991286f206260",
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"5f85150334e09bf8fc672374b5145c07a10c382f82cfedd0666f2fa773fc4412",
+"size":37436,
+"timestamp":1608241856685,
+"version":"6.3.1"
+},
+"tenacity-6.3.1-py39h06a4308_0.conda":{
+"build":"py39h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"six >=1.9.0"
+],
+"legacy_bz2_md5":"902e51e995e637ab69110f3415182c13",
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"bb31ae59373a00dc94aa1f409fbf090a8230a4707c75c91683cb666215210b05",
+"size":37116,
+"timestamp":1608241837906,
+"version":"6.3.1"
 },
 "tenacity-7.0.0-py36h06a4308_0.conda":{
 "build":"py36h06a4308_0",
