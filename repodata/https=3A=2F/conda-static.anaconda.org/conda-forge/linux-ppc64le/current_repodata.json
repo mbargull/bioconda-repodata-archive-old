@@ -19517,6 +19517,23 @@
 "timestamp":1618448759675,
 "version":"7.76.1"
 },
+"curl-7.76.1-h86bdb50_1.tar.bz2":{
+"build":"h86bdb50_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"libcurl 7.76.1 hf726fd8_1",
+"libgcc-ng >=9.3.0",
+"libssh2 >=1.9.0,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"curl",
+"name":"curl",
+"sha256":"033a4f7e03eb680cef7a5550accedc932b4c562c37399f8025fbdf153867ee9c",
+"size":95378,
+"timestamp":1618747729287,
+"version":"7.76.1"
+},
 "cvxopt-1.2.6-py36h3571a5e_0.tar.bz2":{
 "build":"py36h3571a5e_0",
 "build_number":0,
@@ -45755,6 +45772,24 @@
 "timestamp":1618448729743,
 "version":"7.76.1"
 },
+"libcurl-7.76.1-hf726fd8_1.tar.bz2":{
+"build":"hf726fd8_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"libgcc-ng >=9.3.0",
+"libnghttp2 >=1.43.0,<2.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"curl",
+"name":"libcurl",
+"sha256":"711d4457a744ea03ea5a57c49da6c18547d25bfe27ec268a767833474a907269",
+"size":368120,
+"timestamp":1618747699656,
+"version":"7.76.1"
+},
 "libcurl-static-7.76.1-hf726fd8_0.tar.bz2":{
 "build":"hf726fd8_0",
 "build_number":0,
@@ -45771,6 +45806,24 @@
 "sha256":"833b6aeefe746727048bc865767ff14b00da152b6e3396561fa436129999f64d",
 "size":425780,
 "timestamp":1618448793064,
+"version":"7.76.1"
+},
+"libcurl-static-7.76.1-hf726fd8_1.tar.bz2":{
+"build":"hf726fd8_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"libcurl 7.76.1 hf726fd8_1",
+"libgcc-ng >=9.3.0",
+"libssh2 >=1.9.0,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"curl",
+"name":"libcurl-static",
+"sha256":"5266b086c59263bb9996c8d7a697a35866273e2e87eeda0172b0b4f5e80b175f",
+"size":426408,
+"timestamp":1618747758071,
 "version":"7.76.1"
 },
 "libcxx-8.0.0-3.tar.bz2":{
@@ -49883,6 +49936,51 @@
 "size":1632018,
 "timestamp":1603310553967,
 "version":"4.7.4"
+},
+"libnetcdf-4.8.0-mpi_openmpi_h760ef44_1.tar.bz2":{
+"build":"mpi_openmpi_h760ef44_1",
+"build_number":1,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.13,<4.3.0a0",
+"hdf5 * mpi_openmpi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libzip >=1.7.3,<2.0a0",
+"openmpi >=4.1.0,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"aedb63b7266b27f9019812dbfd127d86c16a8fbd149e1b0169c8bdf79eafee50",
+"size":1579136,
+"timestamp":1618747817121,
+"version":"4.8.0"
+},
+"libnetcdf-4.8.0-nompi_h95a5f92_101.tar.bz2":{
+"build":"nompi_h95a5f92_101",
+"build_number":101,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.13,<4.3.0a0",
+"hdf5 * nompi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libzip >=1.7.3,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"93b1605f3e5d6db7f1f3eed63a7b359e1b22cad910c2afe1ba227d4e762e7999",
+"size":1575579,
+"timestamp":1618747702928,
+"version":"4.8.0"
 },
 "libnghttp2-1.43.0-h42039ad_0.tar.bz2":{
 "build":"h42039ad_0",
