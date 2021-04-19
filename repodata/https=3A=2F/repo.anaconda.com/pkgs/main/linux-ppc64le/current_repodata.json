@@ -35917,19 +35917,19 @@
 "timestamp":1612239597671,
 "version":"0.4.65"
 },
-"aws-c-common-0.5.4-h140841e_0.conda":{
+"aws-c-common-0.5.6-h140841e_0.conda":{
 "build":"h140841e_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=7.3.0"
 ],
-"legacy_bz2_md5":"a1e3ce81c84d4a88b27b8d0c655121b7",
+"legacy_bz2_md5":"80702a5dabc74c305fb88e88f39cd197",
 "license":"Apache-2.0",
 "name":"aws-c-common",
-"sha256":"f0c1aa46ade523e430b4eba1286caa0a6d7733954af25256510d44fc915432fa",
-"size":165720,
-"timestamp":1617985077997,
-"version":"0.5.4"
+"sha256":"5a3d74781fe61fb345d1c663ea5a0c19ac9e8bf47e9a41e9d94746821be9577d",
+"size":165729,
+"timestamp":1618693695863,
+"version":"0.5.6"
 },
 "aws-c-event-stream-0.1.6-h29c3540_5.conda":{
 "build":"h29c3540_5",
@@ -44900,7 +44900,7 @@
 "timestamp":1614080171290,
 "version":"0.9"
 },
-"fastavro-1.3.5-py36h140841e_0.conda":{
+"fastavro-1.4.0-py36h140841e_0.conda":{
 "build":"py36h140841e_0",
 "build_number":0,
 "depends":[
@@ -44908,15 +44908,15 @@
 "python >=3.6,<3.7.0a0",
 "pytz"
 ],
-"legacy_bz2_md5":"8266c864ce3724874c86b2f23fa6fdc5",
+"legacy_bz2_md5":"3995381322c5b24ab3c9fd1fe3355253",
 "license":"MIT",
 "name":"fastavro",
-"sha256":"b5e12ba19c78b54154b812d3360df36dfd613e856eb210578eb82b15a8f5e6a9",
-"size":406786,
-"timestamp":1617222406110,
-"version":"1.3.5"
+"sha256":"c8d5f7e976446d7647fc03ee2083e02c535b749cc52b04165cb90a8afe14bbd6",
+"size":409194,
+"timestamp":1618694100555,
+"version":"1.4.0"
 },
-"fastavro-1.3.5-py37h140841e_0.conda":{
+"fastavro-1.4.0-py37h140841e_0.conda":{
 "build":"py37h140841e_0",
 "build_number":0,
 "depends":[
@@ -44924,15 +44924,15 @@
 "python >=3.7,<3.8.0a0",
 "pytz"
 ],
-"legacy_bz2_md5":"50603a459104b46d0e81f06080871676",
+"legacy_bz2_md5":"ecf5723bf75f3c8e71929a3892181c87",
 "license":"MIT",
 "name":"fastavro",
-"sha256":"efa96d02d15da3377f5f9862fd324f41c730e41e9927243e527799576164a939",
-"size":405592,
-"timestamp":1617222367886,
-"version":"1.3.5"
+"sha256":"457294785649afd7c49d0c790eb19d559c52d562488ae8028531003b58d58559",
+"size":406492,
+"timestamp":1618694099123,
+"version":"1.4.0"
 },
-"fastavro-1.3.5-py38h140841e_0.conda":{
+"fastavro-1.4.0-py38h140841e_0.conda":{
 "build":"py38h140841e_0",
 "build_number":0,
 "depends":[
@@ -44940,15 +44940,15 @@
 "python >=3.8,<3.9.0a0",
 "pytz"
 ],
-"legacy_bz2_md5":"ada0e7bb2036ecf2f02b00b300024b16",
+"legacy_bz2_md5":"a3a87320d3d763411012b2d905f3ca97",
 "license":"MIT",
 "name":"fastavro",
-"sha256":"dd8bfa749d2c7cd41238e686813a85c3f29d9c31a688e1f5951fff6a5b92a16a",
-"size":426431,
-"timestamp":1617222361893,
-"version":"1.3.5"
+"sha256":"f8e11e165a1065315f63fff2f9eff468cd8eb83b98ed841497e2fa6cb9f14580",
+"size":427817,
+"timestamp":1618694073785,
+"version":"1.4.0"
 },
-"fastavro-1.3.5-py39h140841e_0.conda":{
+"fastavro-1.4.0-py39h140841e_0.conda":{
 "build":"py39h140841e_0",
 "build_number":0,
 "depends":[
@@ -44956,13 +44956,13 @@
 "python >=3.9,<3.10.0a0",
 "pytz"
 ],
-"legacy_bz2_md5":"193ac4f638a523460510abb85b7fb567",
+"legacy_bz2_md5":"e6641736753a66519572dc45a65298a7",
 "license":"MIT",
 "name":"fastavro",
-"sha256":"272f2b307ecd423050dc41fe8e3ba0f037c9887d99a7572852ec1bb44bff06ca",
-"size":427407,
-"timestamp":1617222402056,
-"version":"1.3.5"
+"sha256":"86b144ab264d6cc27acaabb640fcc2fe34e510a231949977efceb2a73dc2df99",
+"size":428733,
+"timestamp":1618789129069,
+"version":"1.4.0"
 },
 "fastcache-1.1.0-py38h7b6447c_0.conda":{
 "build":"py38h7b6447c_0",
@@ -66485,53 +66485,69 @@
 "timestamp":1600459138923,
 "version":"1.4.2"
 },
-"pytest-benchmark-3.2.3-py36_0.conda":{
-"build":"py36_0",
+"pytest-benchmark-3.4.1-py36h6ffa863_0.conda":{
+"build":"py36h6ffa863_0",
 "build_number":0,
 "depends":[
 "py-cpuinfo",
 "pytest >=3.8",
 "python >=3.6,<3.7.0a0"
 ],
-"legacy_bz2_md5":"5cef1eed92bc859b15f4a64f389a79f7",
+"legacy_bz2_md5":"dc160e67687db89c9a9bd236a1f6a3b9",
 "license":"BSD 2-clause",
 "name":"pytest-benchmark",
-"sha256":"236c5faf374d8d25a81a56d0b16bc8c09f5ed9331098cfed52d801f7f96bcb1e",
-"size":83143,
-"timestamp":1600459201531,
-"version":"3.2.3"
+"sha256":"fc5004623b430a2a83fa07d7c0ed6cb1a643e974404755bdc83cb04077aa9dbc",
+"size":85220,
+"timestamp":1618695650585,
+"version":"3.4.1"
 },
-"pytest-benchmark-3.2.3-py37_0.conda":{
-"build":"py37_0",
+"pytest-benchmark-3.4.1-py37h6ffa863_0.conda":{
+"build":"py37h6ffa863_0",
 "build_number":0,
 "depends":[
 "py-cpuinfo",
 "pytest >=3.8",
 "python >=3.7,<3.8.0a0"
 ],
-"legacy_bz2_md5":"88cfbc66a7d18ea4ce5be6e1a3b33f24",
+"legacy_bz2_md5":"fb3b14639d68545ff307069c3d4553bb",
 "license":"BSD 2-clause",
 "name":"pytest-benchmark",
-"sha256":"19892facc6dd8487e206eacb2a59a12e0c68447fa13b090f9f4fe2a6133e665d",
-"size":83513,
-"timestamp":1600459201120,
-"version":"3.2.3"
+"sha256":"ca2afcc2f6a04136246f42a13f2153e912d10c8dd397fd070207ec085bb926be",
+"size":84278,
+"timestamp":1618695652950,
+"version":"3.4.1"
 },
-"pytest-benchmark-3.2.3-py38_0.conda":{
-"build":"py38_0",
+"pytest-benchmark-3.4.1-py38h6ffa863_0.conda":{
+"build":"py38h6ffa863_0",
 "build_number":0,
 "depends":[
 "py-cpuinfo",
 "pytest >=3.8",
 "python >=3.8,<3.9.0a0"
 ],
-"legacy_bz2_md5":"dcb1eb46a9f547a7764790f1b3e2cceb",
+"legacy_bz2_md5":"1f3f8a7b3ea8959a0c7148bcb8f5dca3",
 "license":"BSD 2-clause",
 "name":"pytest-benchmark",
-"sha256":"eaca85e4ee9ac5f2453046fc08f59b34536968d1f2bb63b9162c9bb1742b5499",
-"size":83702,
-"timestamp":1600459194810,
-"version":"3.2.3"
+"sha256":"fbb657d6807dc9d84892ad12306012f41f955260710be075df2f0b07776f0c63",
+"size":84774,
+"timestamp":1618695647275,
+"version":"3.4.1"
+},
+"pytest-benchmark-3.4.1-py39h6ffa863_0.conda":{
+"build":"py39h6ffa863_0",
+"build_number":0,
+"depends":[
+"py-cpuinfo",
+"pytest >=3.8",
+"python >=3.9,<3.10.0a0"
+],
+"legacy_bz2_md5":"0045d683eb497d513173d0bd5c8489c7",
+"license":"BSD 2-clause",
+"name":"pytest-benchmark",
+"sha256":"03b5fd6a880ca856efee22c4db8171d2e838a24629fe2d83f2d3f59c937768fc",
+"size":84616,
+"timestamp":1618798849523,
+"version":"3.4.1"
 },
 "pytest-doctestplus-0.3.0-py36_0.conda":{
 "build":"py36_0",
