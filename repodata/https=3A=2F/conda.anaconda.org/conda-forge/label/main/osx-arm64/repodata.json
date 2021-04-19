@@ -59979,6 +59979,23 @@
 "timestamp":1610673431532,
 "version":"1.4.0"
 },
+"pynacl-1.4.0-py38hea4295b_2.tar.bz2":{
+"build":"py38hea4295b_2",
+"build_number":2,
+"depends":[
+"cffi >=1.4.1",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"six"
+],
+"license":"Apache-2.0",
+"name":"pynacl",
+"requires":[],
+"size":1398206,
+"timestamp":1618857258163,
+"version":"1.4.0"
+},
 "pynacl-1.4.0-py39h46acfd9_2.tar.bz2":{
 "build":"py39h46acfd9_2",
 "build_number":2,
@@ -59994,6 +60011,23 @@
 "requires":[],
 "size":1393334,
 "timestamp":1610673349888,
+"version":"1.4.0"
+},
+"pynacl-1.4.0-py39h5161555_2.tar.bz2":{
+"build":"py39h5161555_2",
+"build_number":2,
+"depends":[
+"cffi >=1.4.1",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"six"
+],
+"license":"Apache-2.0",
+"name":"pynacl",
+"requires":[],
+"size":1390726,
+"timestamp":1618857413484,
 "version":"1.4.0"
 },
 "pynisher-0.6.3-py38h10201cd_1.tar.bz2":{
@@ -69480,6 +69514,43 @@
 "size":517291,
 "timestamp":1614917383412,
 "version":"2.4.1"
+},
+"snowflake-connector-python-2.4.2-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"constrains":[
+"pandas >1,<1.2"
+],
+"depends":[
+"arrow-cpp >=3.0.0,<3.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libcxx >=11.1.0",
+"oscrypto <2.0.0",
+"pyarrow >=3.0.0,<4.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<20.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"requires":[],
+"size":525097,
+"timestamp":1618857338611,
+"version":"2.4.2"
 },
 "spacy-2.3.5-py38h3578e97_1.tar.bz2":{
 "build":"py38h3578e97_1",
