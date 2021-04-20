@@ -47353,7 +47353,7 @@
 "timestamp":1593534095099,
 "version":"5.39"
 },
-"libmamba-0.10.0-h9aab707_0.tar.bz2":{
+"libmamba-0.11.0-h9aab707_0.tar.bz2":{
 "build":"h9aab707_0",
 "build_number":0,
 "depends":[
@@ -47368,10 +47368,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libmamba",
-"sha256":"7fb65233fec59e00de6265898951b5b25868c85890619f7efcef44041ad504b7",
-"size":851092,
-"timestamp":1618595001034,
-"version":"0.10.0"
+"sha256":"1192bdf57907c4a91cf772df7c69ed1ddcf5a180d3399659688f2bf48f81cd95",
+"size":863897,
+"timestamp":1618910193871,
+"version":"0.11.0"
 },
 "libmamba-0.5.3-ha2add3b_0.tar.bz2":{
 "build":"ha2add3b_0",
@@ -112041,30 +112041,12 @@
 "timestamp":1616765314129,
 "version":"2021.3.1"
 },
-"vscode-python-2021.3.680753044-py36ha9f966f_0.tar.bz2":{
-"build":"py36ha9f966f_0",
+"vscode-python-2021.4.765268190-py36h199905c_0.tar.bz2":{
+"build":"py36h199905c_0",
 "build_number":0,
 "depends":[
 "code-server >=3.9.2",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"nodejs >=12.19.0,<13.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"vscode-jupyter"
-],
-"license":"MIT",
-"name":"vscode-python",
-"sha256":"889a17f71f8c8b9ba29ea6104dca721f66937fd6ad0f47e3ec81a5148f073b56",
-"size":13268128,
-"timestamp":1616757227415,
-"version":"2021.3.680753044"
-},
-"vscode-python-2021.3.680753044-py36hcfc9fd2_0.tar.bz2":{
-"build":"py36hcfc9fd2_0",
-"build_number":0,
-"depends":[
-"code-server >=3.9.2",
+"jpeg >=9d,<10a",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "nodejs >=12.19.0,<13.0a0",
@@ -112075,16 +112057,37 @@
 ],
 "license":"MIT",
 "name":"vscode-python",
-"sha256":"17ff6d7c639358b45dc038ba1563f0001b3063d6daf78d2c7d607a25f0a897c0",
-"size":13343627,
-"timestamp":1616755653865,
-"version":"2021.3.680753044"
+"sha256":"1131b014db131ec4d7600ba4336633849868846afe1f9c69b6fa248164b1c713",
+"size":13322619,
+"timestamp":1618910152859,
+"version":"2021.4.765268190"
 },
-"vscode-python-2021.3.680753044-py37h22fba1d_0.tar.bz2":{
-"build":"py37h22fba1d_0",
+"vscode-python-2021.4.765268190-py36hb5f992e_0.tar.bz2":{
+"build":"py36hb5f992e_0",
 "build_number":0,
 "depends":[
 "code-server >=3.9.2",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"nodejs >=12.19.0,<13.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"vscode-jupyter"
+],
+"license":"MIT",
+"name":"vscode-python",
+"sha256":"97ab8d74a89d5d05330d0fec6beeaf894eefe5ba6fa8075021fd6e95be64386f",
+"size":13292699,
+"timestamp":1618908389029,
+"version":"2021.4.765268190"
+},
+"vscode-python-2021.4.765268190-py37h8a0c11d_0.tar.bz2":{
+"build":"py37h8a0c11d_0",
+"build_number":0,
+"depends":[
+"code-server >=3.9.2",
+"jpeg >=9d,<10a",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "nodejs >=12.19.0,<13.0a0",
@@ -112095,16 +112098,17 @@
 ],
 "license":"MIT",
 "name":"vscode-python",
-"sha256":"3f9823254eac944c4753e74bf385b4089a34898dd46c4a675d1ed05187d9de4e",
-"size":13320353,
-"timestamp":1616755653934,
-"version":"2021.3.680753044"
+"sha256":"bd10279b04bad69e06f5403481691dd75e7fb618150eebec53b62e816d62c49d",
+"size":13310305,
+"timestamp":1618908373369,
+"version":"2021.4.765268190"
 },
-"vscode-python-2021.3.680753044-py37h5b539c4_0.tar.bz2":{
-"build":"py37h5b539c4_0",
+"vscode-python-2021.4.765268190-py37h9f04ec2_0.tar.bz2":{
+"build":"py37h9f04ec2_0",
 "build_number":0,
 "depends":[
 "code-server >=3.9.2",
+"jpeg >=9d,<10a",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "nodejs >=12.19.0,<13.0a0",
@@ -112114,16 +112118,17 @@
 ],
 "license":"MIT",
 "name":"vscode-python",
-"sha256":"6e746857ed618e3044d762899b03084419239bbe42afa63156da9efca564ce14",
-"size":13317047,
-"timestamp":1616755633627,
-"version":"2021.3.680753044"
+"sha256":"2298beffa1adb4b3c6d013cc8e8ba2c38f260ff9e4a4bd9d725b35df7c90b793",
+"size":13311608,
+"timestamp":1618908355496,
+"version":"2021.4.765268190"
 },
-"vscode-python-2021.3.680753044-py38h6f88173_0.tar.bz2":{
-"build":"py38h6f88173_0",
+"vscode-python-2021.4.765268190-py38h3713418_0.tar.bz2":{
+"build":"py38h3713418_0",
 "build_number":0,
 "depends":[
 "code-server >=3.9.2",
+"jpeg >=9d,<10a",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "nodejs >=12.19.0,<13.0a0",
@@ -112133,16 +112138,17 @@
 ],
 "license":"MIT",
 "name":"vscode-python",
-"sha256":"873993c74f05e49ae8612da560f5cf1788a5574ba902c7c5a93ad8bc12166177",
-"size":13297213,
-"timestamp":1616755644802,
-"version":"2021.3.680753044"
+"sha256":"e7f23bc13afd7d453038c1b45450b133cdcfb34df282e00ad0bd014ea83a5dfd",
+"size":13335248,
+"timestamp":1618910094719,
+"version":"2021.4.765268190"
 },
-"vscode-python-2021.3.680753044-py39h7f19da4_0.tar.bz2":{
-"build":"py39h7f19da4_0",
+"vscode-python-2021.4.765268190-py39he2ccdd3_0.tar.bz2":{
+"build":"py39he2ccdd3_0",
 "build_number":0,
 "depends":[
 "code-server >=3.9.2",
+"jpeg >=9d,<10a",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "nodejs >=12.19.0,<13.0a0",
@@ -112152,10 +112158,10 @@
 ],
 "license":"MIT",
 "name":"vscode-python",
-"sha256":"2de0cd08490f10d3897283702dfe6d31556c1d2ea1f18dbee19b073d739cd71f",
-"size":13309736,
-"timestamp":1616757248648,
-"version":"2021.3.680753044"
+"sha256":"d74e8f5d8619b5d423b6c034c55af64e68c015d1fe2e56c0b8d1ada0bac5d609",
+"size":13345562,
+"timestamp":1618908386927,
+"version":"2021.4.765268190"
 },
 "vtk-9.0.1-no_osmesa_py36h075df38_107.tar.bz2":{
 "build":"no_osmesa_py36h075df38_107",
