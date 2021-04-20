@@ -53007,7 +53007,7 @@
 "timestamp":1612735045564,
 "version":"0.1"
 },
-"mamba-0.10.0-py36h1eb8ba7_0.tar.bz2":{
+"mamba-0.11.1-py36h1eb8ba7_0.tar.bz2":{
 "build":"py36h1eb8ba7_0",
 "build_number":0,
 "depends":[
@@ -53026,12 +53026,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"95f559232d7461286c7f9f6f9ceccdc37bbe4c80e4e807d972ed3d878b1dc865",
-"size":716628,
-"timestamp":1618658119748,
-"version":"0.10.0"
+"sha256":"1819ffdd1637246c6e6811dee118c644e62872d722a8e02ae31bc73974c09d5b",
+"size":718175,
+"timestamp":1618937759508,
+"version":"0.11.1"
 },
-"mamba-0.10.0-py36he1ca912_0.tar.bz2":{
+"mamba-0.11.1-py36he1ca912_0.tar.bz2":{
 "build":"py36he1ca912_0",
 "build_number":0,
 "depends":[
@@ -53049,12 +53049,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"19d2c7eb6bca799f6c8b3bfd889f252e0d6fe181ca2c6a98da535f02866287d4",
-"size":717265,
-"timestamp":1618659019463,
-"version":"0.10.0"
+"sha256":"dc37b31f64c5acf9aaf3a82b58ec37536bf3bf2d9a8f9906a148b61fd2ee8933",
+"size":720729,
+"timestamp":1618937794353,
+"version":"0.11.1"
 },
-"mamba-0.10.0-py37hf14380e_0.tar.bz2":{
+"mamba-0.11.1-py37hf14380e_0.tar.bz2":{
 "build":"py37hf14380e_0",
 "build_number":0,
 "depends":[
@@ -53072,12 +53072,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"a268cf2446d4d06063192b298b7c8be907f7e6f45d500a760456557dd7d1dd4c",
-"size":718062,
-"timestamp":1618658120408,
-"version":"0.10.0"
+"sha256":"4a6ab0b292be0a6903b441a5eedd6c8ad20b2b44c2451b8110de07a5ac28dfbc",
+"size":720454,
+"timestamp":1618937803116,
+"version":"0.11.1"
 },
-"mamba-0.10.0-py38h9d6459c_0.tar.bz2":{
+"mamba-0.11.1-py38h9d6459c_0.tar.bz2":{
 "build":"py38h9d6459c_0",
 "build_number":0,
 "depends":[
@@ -53095,12 +53095,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"01970f060b91955e41bc9f292444f78e609bbe9f091bea275341e948f84c65df",
-"size":714996,
-"timestamp":1618658959982,
-"version":"0.10.0"
+"sha256":"47e13f7c3e4479ee466cddcd4aec1642dfb01af3a1b445d58669086eea4a2b3e",
+"size":713255,
+"timestamp":1618938343469,
+"version":"0.11.1"
 },
-"mamba-0.10.0-py39he574936_0.tar.bz2":{
+"mamba-0.11.1-py39he574936_0.tar.bz2":{
 "build":"py39he574936_0",
 "build_number":0,
 "depends":[
@@ -53118,10 +53118,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"02d11083fa5ef9dfd1faf6ffcd839efd5e4cb224ac1405316be3bc9716acd588",
-"size":709809,
-"timestamp":1618658989232,
-"version":"0.10.0"
+"sha256":"48eb2da5d52a6ee538dc745640b2fe681987be0135393006da10154463e6c255",
+"size":714705,
+"timestamp":1618938383056,
+"version":"0.11.1"
 },
 "markupsafe-1.1.1-py27h14c3975_0.tar.bz2":{
 "build":"py27h14c3975_0",
@@ -96050,49 +96050,25 @@
 "timestamp":1616050991237,
 "version":"0.9.1"
 },
-"root-6.22.8-py37h43f94fb_3.tar.bz2":{
-"build":"py37h43f94fb_3",
-"build_number":3,
+"root-6.24.0-py37ha200abb_0.tar.bz2":{
+"build":"py37ha200abb_0",
+"build_number":0,
 "depends":[
 "compilers",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
+"ipython",
 "metakernel",
 "notebook",
+"numba",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
-"root-binaries 6.22.8 py37h43f94fb_3",
-"root-dependencies 6.22.8 py37h43f94fb_3",
-"root_base 6.22.8 py37h4fd6113_3"
+"root_base 6.24.0 py37hd8ea93a_0"
 ],
 "license":"LGPL-2.1-only",
 "name":"root",
-"sha256":"2643f4b92f88a84a25d5a8b924afe3509b3152d97c7b7dd38fc33ff57ee1405c",
-"size":24959,
-"timestamp":1618402480454,
-"version":"6.22.8"
-},
-"root-6.22.8-py38h7637778_2.tar.bz2":{
-"build":"py38h7637778_2",
-"build_number":2,
-"depends":[
-"compilers",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"metakernel",
-"notebook",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"root-binaries 6.22.8 py38h7637778_2",
-"root-dependencies 6.22.8 py38h7637778_2",
-"root_base 6.22.8 py38hfcda472_2"
-],
-"license":"LGPL-2.1-only",
-"name":"root",
-"sha256":"330e492df47748b5b566180072e5055c416c59594e8087fe2fe177dfafc6708f",
-"size":24127,
-"timestamp":1616312544158,
-"version":"6.22.8"
+"sha256":"878f324bcf595729655661aedd50f776ea5ce1122062259cc216b67eada37377",
+"size":26424,
+"timestamp":1618936588373,
+"version":"6.24.0"
 },
 "root-binaries-6.22.8-py37h43f94fb_3.tar.bz2":{
 "build":"py37h43f94fb_3",
@@ -96405,6 +96381,71 @@
 "size":150199171,
 "timestamp":1616312246779,
 "version":"6.22.8"
+},
+"root_base-6.24.0-py37hd8ea93a_0.tar.bz2":{
+"build":"py37hd8ea93a_0",
+"build_number":0,
+"constrains":[
+"numba >=0.52",
+"root5 9999",
+"cling 9999"
+],
+"depends":[
+"afterimage >=1.21,<1.22.0a0",
+"cffi",
+"cfitsio >=3.470,<3.471.0a0",
+"davix >=0.7.6,<0.8.0a0",
+"fftw >=3.3.9,<4.0a0",
+"freetype >=2.10.4,<3.0a0",
+"ftgl >=2.4.0,<2.4.1.0a0",
+"gcc_linux-aarch64 9.*",
+"gdk-pixbuf >=2.42.6,<3.0a0",
+"giflib >=5.2.1,<5.3.0a0",
+"gl2ps >=1.4.2,<1.4.3.0a0",
+"glew >=2.1.0,<2.2.0a0",
+"graphviz >=2.40.1,<3.0a0",
+"gsl >=2.6,<2.7.0a0",
+"gxx_linux-aarch64 9.*",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libcxx >=8,<9.0a0",
+"libgcc-ng >=9.3.0",
+"libglu",
+"libllvm9 >=9.0.1,<9.1.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"librsvg >=2.50.3,<3.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"nlohmann_json",
+"numpy >=1.17.5,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"pcre >=8.44,<9.0a0",
+"pythia8 >=8.304,<8.400.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"sqlite >=3.35.4,<4.0a0",
+"sysroot_linux-64",
+"tbb >=2020.2,<2021.0.0a0",
+"vdt >=0.4.3,<0.4.4.0a0",
+"vector-classes >=1.4.1,<1.5.0a0",
+"xorg-libx11",
+"xorg-libxext",
+"xorg-libxft",
+"xorg-libxpm",
+"xrootd >=5.1.1,<6.0a0",
+"xxhash >=0.8.0,<0.8.1.0a0",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"LGPL-2.1-only",
+"name":"root_base",
+"sha256":"6e9e4155a20c817c1a1f3bc8f9f0ad229a3dfeef04ef9c44af2966f653144bdb",
+"size":169417093,
+"timestamp":1618936351142,
+"version":"6.24.0"
 },
 "rosdep-0.20.0-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
@@ -117500,7 +117541,7 @@
 "timestamp":1606390778227,
 "version":"0.21.10"
 },
-"xtensor-0.23.6-hd62202e_0.tar.bz2":{
+"xtensor-0.23.7-hd62202e_0.tar.bz2":{
 "build":"hd62202e_0",
 "build_number":0,
 "depends":[
@@ -117510,10 +117551,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"xtensor",
-"sha256":"83f644ce83e60300bf225aba9b245e162f945bf7e47fc713c952ad82b26a1662",
-"size":185570,
-"timestamp":1618637260529,
-"version":"0.23.6"
+"sha256":"ce9f35f21016d3b6c8aa432b4c8f7e46f68d5ec328e98a3e4406dbe59e912e7a",
+"size":185586,
+"timestamp":1618939618980,
+"version":"0.23.7"
 },
 "xtensor-blas-0.19.1-hd62202e_0.tar.bz2":{
 "build":"hd62202e_0",
