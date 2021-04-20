@@ -13269,6 +13269,29 @@
 "timestamp":1618913357448,
 "version":"9.0.1"
 },
+"clang-9-9.0.1-root_62400_hc36a31c_1.tar.bz2":{
+"build":"root_62400_hc36a31c_1",
+"build_number":1,
+"constrains":[
+"clang-tools 9.0.1",
+"clangxx 9.0.1",
+"llvm-tools 9.0.1",
+"clangdev 9.0.1"
+],
+"depends":[
+"libclang-cpp9 9.0.1.*",
+"libcxx >=11.1.0",
+"libllvm9 >=9.0.1,<9.1.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"NCSA",
+"name":"clang-9",
+"requires":[],
+"size":27031105,
+"timestamp":1618914272601,
+"track_features":"cling",
+"version":"9.0.1"
+},
 "clang-9.0.1-default_h3e0e8d0_1.tar.bz2":{
 "build":"default_h3e0e8d0_1",
 "build_number":1,
@@ -13280,6 +13303,20 @@
 "requires":[],
 "size":194777,
 "timestamp":1618913578226,
+"version":"9.0.1"
+},
+"clang-9.0.1-root_62400_hc1abe25_1.tar.bz2":{
+"build":"root_62400_hc1abe25_1",
+"build_number":1,
+"depends":[
+"clang-9 9.0.1 root_62400_hc36a31c_1"
+],
+"license":"NCSA",
+"name":"clang",
+"requires":[],
+"size":195275,
+"timestamp":1618914614439,
+"track_features":"cling",
 "version":"9.0.1"
 },
 "clang-tools-11.0.0-default_h8065f19_0.tar.bz2":{
@@ -13413,6 +13450,26 @@
 "requires":[],
 "size":65035848,
 "timestamp":1618915067313,
+"version":"9.0.1"
+},
+"clang-tools-9.0.1-root_62400_h70dedbf_1.tar.bz2":{
+"build":"root_62400_h70dedbf_1",
+"build_number":1,
+"constrains":[
+"clangdev 9.0.1"
+],
+"depends":[
+"clang 9.0.1 root_62400_hc1abe25_1",
+"clangxx 9.0.1 root_62400_hcf8c838_1",
+"libcxx >=11.1.0",
+"libllvm9 >=9.0.1,<9.1.0a0"
+],
+"license":"NCSA",
+"name":"clang-tools",
+"requires":[],
+"size":131008072,
+"timestamp":1618917947906,
+"track_features":"cling",
 "version":"9.0.1"
 },
 "clang_bootstrap_osx-64-11.0.0-h36f49d1_0.tar.bz2":{
@@ -14635,6 +14692,26 @@
 "timestamp":1618915177244,
 "version":"9.0.1"
 },
+"clangdev-9.0.1-root_62400_h70dedbf_1.tar.bz2":{
+"build":"root_62400_h70dedbf_1",
+"build_number":1,
+"depends":[
+"clang 9.0.1 root_62400_hc1abe25_1",
+"clang-tools 9.0.1 root_62400_h70dedbf_1",
+"clangxx 9.0.1 root_62400_hcf8c838_1",
+"libclang 9.0.1 root_62400_h70dedbf_1",
+"libclang-cpp 9.0.1 root_62400_hc36a31c_1",
+"libcxx >=11.1.0",
+"llvmdev 9.0.1"
+],
+"license":"NCSA",
+"name":"clangdev",
+"requires":[],
+"size":21248385,
+"timestamp":1618918087778,
+"track_features":"cling",
+"version":"9.0.1"
+},
 "clangxx-11.0.0-default_h71b95ef_0.tar.bz2":{
 "build":"default_h71b95ef_0",
 "build_number":0,
@@ -14725,6 +14802,21 @@
 "requires":[],
 "size":194928,
 "timestamp":1618913590014,
+"version":"9.0.1"
+},
+"clangxx-9.0.1-root_62400_hcf8c838_1.tar.bz2":{
+"build":"root_62400_hcf8c838_1",
+"build_number":1,
+"depends":[
+"clang 9.0.1 root_62400_hc1abe25_1",
+"clang-9 9.0.1 root_62400_hc36a31c_1"
+],
+"license":"NCSA",
+"name":"clangxx",
+"requires":[],
+"size":195368,
+"timestamp":1618914625862,
+"track_features":"cling",
 "version":"9.0.1"
 },
 "clangxx_osx-64-11.0.0-h2eb8eaa_1.tar.bz2":{
@@ -35249,6 +35341,21 @@
 "timestamp":1618913829809,
 "version":"9.0.1"
 },
+"libclang-9.0.1-root_62400_h70dedbf_1.tar.bz2":{
+"build":"root_62400_h70dedbf_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm9 >=9.0.1,<9.1.0a0"
+],
+"license":"NCSA",
+"name":"libclang",
+"requires":[],
+"size":43451723,
+"timestamp":1618916062412,
+"track_features":"cling",
+"version":"9.0.1"
+},
 "libclang-cpp-11.0.0-default_h8065f19_0.tar.bz2":{
 "build":"default_h8065f19_0",
 "build_number":0,
@@ -35355,6 +35462,23 @@
 "timestamp":1618913559368,
 "version":"9.0.1"
 },
+"libclang-cpp-9.0.1-root_62400_hc36a31c_1.tar.bz2":{
+"build":"root_62400_hc36a31c_1",
+"build_number":1,
+"depends":[
+"libclang-cpp9 9.0.1 root_62400_hc36a31c_1",
+"libcxx >=11.1.0",
+"libllvm9 >=9.0.1,<9.1.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"NCSA",
+"name":"libclang-cpp",
+"requires":[],
+"size":16466409,
+"timestamp":1618914591804,
+"track_features":"cling",
+"version":"9.0.1"
+},
 "libclang-cpp11-11.0.0-default_h8065f19_0.tar.bz2":{
 "build":"default_h8065f19_0",
 "build_number":0,
@@ -35452,6 +35576,22 @@
 "requires":[],
 "size":10465209,
 "timestamp":1618913219732,
+"version":"9.0.1"
+},
+"libclang-cpp9-9.0.1-root_62400_hc36a31c_1.tar.bz2":{
+"build":"root_62400_hc36a31c_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm9 >=9.0.1,<9.1.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"NCSA",
+"name":"libclang-cpp9",
+"requires":[],
+"size":16465805,
+"timestamp":1618913177648,
+"track_features":"cling",
 "version":"9.0.1"
 },
 "libcrc32c-1.1.1-h9f76cd9_2.tar.bz2":{
@@ -40804,6 +40944,44 @@
 "size":1074983,
 "timestamp":1616435883576,
 "version":"3.2.0"
+},
+"lightgbm-3.2.1-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scikit-learn !=0.22.0",
+"scipy"
+],
+"license":"MIT",
+"name":"lightgbm",
+"requires":[],
+"size":1055125,
+"timestamp":1618923204625,
+"version":"3.2.1"
+},
+"lightgbm-3.2.1-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scikit-learn !=0.22.0",
+"scipy"
+],
+"license":"MIT",
+"name":"lightgbm",
+"requires":[],
+"size":1072510,
+"timestamp":1618923223074,
+"version":"3.2.1"
 },
 "ligo-segments-1.3.0-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
@@ -74637,6 +74815,42 @@
 "size":6702747,
 "timestamp":1615900418090,
 "version":"20.4.3"
+},
+"virtualenv-20.4.4-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"appdirs >=1.4.3,<2",
+"distlib >=0.3.0,<1",
+"filelock >=3.0.0,<4",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"six >=1.9.0,<2"
+],
+"license":"MIT",
+"name":"virtualenv",
+"requires":[],
+"size":6830177,
+"timestamp":1618918089558,
+"version":"20.4.4"
+},
+"virtualenv-20.4.4-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"appdirs >=1.4.3,<2",
+"distlib >=0.3.0,<1",
+"filelock >=3.0.0,<4",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"six >=1.9.0,<2"
+],
+"license":"MIT",
+"name":"virtualenv",
+"requires":[],
+"size":6699248,
+"timestamp":1618917879546,
+"version":"20.4.4"
 },
 "viztracer-0.11.3-py38h30f7421_2.tar.bz2":{
 "build":"py38h30f7421_2",

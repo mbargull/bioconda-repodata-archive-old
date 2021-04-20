@@ -14122,6 +14122,77 @@
 "timestamp":1614815567487,
 "version":"11.1.0"
 },
+"clang-9-9.0.1-default_hf9dac01_1.tar.bz2":{
+"build":"default_hf9dac01_1",
+"build_number":1,
+"constrains":[
+"clangdev 9.0.1",
+"llvm-tools 9.0.1",
+"clang-tools 9.0.1",
+"clangxx 9.0.1"
+],
+"depends":[
+"libclang-cpp9 9.0.1.*",
+"libgcc-ng >=9.3.0",
+"libllvm9 >=9.0.1,<9.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"NCSA",
+"name":"clang-9",
+"sha256":"c0ca2bc1dbe912bebf2a55f290f85979b051cc2ecbd0ea0894c421c536ced64c",
+"size":627833,
+"timestamp":1618913834124,
+"version":"9.0.1"
+},
+"clang-9-9.0.1-hcc_hec9f26d_1.tar.bz2":{
+"build":"hcc_hec9f26d_1",
+"build_number":1,
+"constrains":[
+"clangxx 9.0.1",
+"clangdev 9.0.1",
+"llvm-tools 9.0.1",
+"clang-tools 9.0.1"
+],
+"depends":[
+"libclang-cpp9 9.0.1.*",
+"libgcc-ng >=9.3.0",
+"libllvm9 >=9.0.1,<9.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"NCSA",
+"name":"clang-9",
+"sha256":"f6a88b33be25dd43b34919885d5958e11f5dab1554f8f8bccb0e38de170ba67c",
+"size":622442,
+"timestamp":1618913477495,
+"track_features":"hcc",
+"version":"9.0.1"
+},
+"clang-9-9.0.1-root_62400_h34bba00_1.tar.bz2":{
+"build":"root_62400_h34bba00_1",
+"build_number":1,
+"constrains":[
+"clang-tools 9.0.1",
+"clangxx 9.0.1",
+"clangdev 9.0.1",
+"llvm-tools 9.0.1"
+],
+"depends":[
+"libclang-cpp9 9.0.1.*",
+"libgcc-ng >=9.3.0",
+"libllvm9 >=9.0.1,<9.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"NCSA",
+"name":"clang-9",
+"sha256":"5f401465e8fb0a93117832c17dc6c88a4e70609856c597f96b03de4aefb3a34c",
+"size":39065294,
+"timestamp":1618913439111,
+"track_features":"cling",
+"version":"9.0.1"
+},
 "clang-tools-11.1.0-default_h4839fef_0.tar.bz2":{
 "build":"default_h4839fef_0",
 "build_number":0,
@@ -41239,16 +41310,16 @@
 "timestamp":1616507173913,
 "version":"1.6.0"
 },
-"lazygit-0.27.4-h8af1aa0_0.tar.bz2":{
+"lazygit-0.28-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
 "build_number":0,
 "depends":[],
 "license":"MIT",
 "name":"lazygit",
-"sha256":"0815bb720ee7e07a2dfa95c70b5ece067f5fd3980f3e034c47aae529567baf3a",
-"size":3746878,
-"timestamp":1618112085499,
-"version":"0.27.4"
+"sha256":"d01e82313279aba38d00e9e2e1ae0c2925252ced822f2338c10305e39c58f8c7",
+"size":3772432,
+"timestamp":1618913575642,
+"version":"0.28"
 },
 "lbenv-2.1.1-py36h2e20a7f_1.tar.bz2":{
 "build":"py36h2e20a7f_1",
@@ -43448,6 +43519,56 @@
 "size":18403014,
 "timestamp":1614815204534,
 "version":"11.1.0"
+},
+"libclang-cpp9-9.0.1-default_hf9dac01_1.tar.bz2":{
+"build":"default_hf9dac01_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libllvm9 >=9.0.1,<9.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"NCSA",
+"name":"libclang-cpp9",
+"sha256":"e3d9297d8a8325eaa6007542a615aff5009779749d40c6a188f27820b0d19d0a",
+"size":14910639,
+"timestamp":1618913751414,
+"version":"9.0.1"
+},
+"libclang-cpp9-9.0.1-hcc_hec9f26d_1.tar.bz2":{
+"build":"hcc_hec9f26d_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libllvm9 >=9.0.1,<9.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"NCSA",
+"name":"libclang-cpp9",
+"sha256":"9b6ab9fd8f189b1e9ff1f03ddf5ce15b28e43d4b125eabc1a909675b1752ba53",
+"size":15019674,
+"timestamp":1618913400419,
+"track_features":"hcc",
+"version":"9.0.1"
+},
+"libclang-cpp9-9.0.1-root_62400_h34bba00_1.tar.bz2":{
+"build":"root_62400_h34bba00_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libllvm9 >=9.0.1,<9.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"NCSA",
+"name":"libclang-cpp9",
+"sha256":"82e946100d669cf9bb669ac2e8c113980a1bdd5d475554ba1680b001327ff262",
+"size":24048951,
+"timestamp":1618913337792,
+"track_features":"cling",
+"version":"9.0.1"
 },
 "libcrc32c-1.1.1-h01db608_2.tar.bz2":{
 "build":"h01db608_2",
@@ -53758,16 +53879,16 @@
 "timestamp":1598945765801,
 "version":"5.1.0"
 },
-"micromamba-0.9.2-0.tar.bz2":{
+"micromamba-0.11.0-0.tar.bz2":{
 "build":"0",
 "build_number":0,
 "depends":[],
 "license":"BSD-3-Clause AND MIT AND OpenSSL",
 "name":"micromamba",
-"sha256":"22b9d7da8e6fb17c017bfaa819aa665b528e4ce1f51bb0ff4a5a92aee0599f56",
-"size":5470013,
-"timestamp":1617273360420,
-"version":"0.9.2"
+"sha256":"c8d16aa17c5017ab9261a216a01adc3295e734d8367a4176d6231cd567358033",
+"size":5556720,
+"timestamp":1618912889461,
+"version":"0.11.0"
 },
 "mimalloc-2.0.1-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
@@ -111029,7 +111150,7 @@
 "timestamp":1618690987116,
 "version":"1.4.1"
 },
-"virtualenv-20.4.3-py36h2e20a7f_0.tar.bz2":{
+"virtualenv-20.4.4-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
@@ -111045,12 +111166,12 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"4fe2ddb3258785c860d843b944cb783f04c82deae22546c44e283de5cac04055",
-"size":6697608,
-"timestamp":1615900669406,
-"version":"20.4.3"
+"sha256":"cd4140a5d7a9dbf12889df1c28aa2955f1a50a19cc845bfce2fc746e62b79b42",
+"size":6809630,
+"timestamp":1618918382603,
+"version":"20.4.4"
 },
-"virtualenv-20.4.3-py36h704843e_0.tar.bz2":{
+"virtualenv-20.4.4-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -111065,12 +111186,12 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"b2e64d797ea87db756a0b65b251cd7a664610203b60f7d69883f2765d8ae632d",
-"size":6775351,
-"timestamp":1615900671678,
-"version":"20.4.3"
+"sha256":"09d93292c25a7c6148b628d824db1dff9862ed582843966f10f723874950484f",
+"size":6831677,
+"timestamp":1618918287650,
+"version":"20.4.4"
 },
-"virtualenv-20.4.3-py37h4bcbb9b_0.tar.bz2":{
+"virtualenv-20.4.4-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
@@ -111085,12 +111206,31 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"7d0e9a7a6620afd8afdd91ab8d57785206910cd6898560c61561f21c54e52491",
-"size":6709852,
-"timestamp":1615900712240,
-"version":"20.4.3"
+"sha256":"f432db0d43d3087aa10fa4b9302635299ca543265c0b3339441a4b1b5f7aa0fa",
+"size":6796557,
+"timestamp":1618918378252,
+"version":"20.4.4"
 },
-"virtualenv-20.4.3-py38h2063c64_0.tar.bz2":{
+"virtualenv-20.4.4-py37hd9ded2f_0.tar.bz2":{
+"build":"py37hd9ded2f_0",
+"build_number":0,
+"depends":[
+"appdirs >=1.4.3,<2",
+"distlib >=0.3.0,<1",
+"filelock >=3.0.0,<4",
+"importlib-metadata >=0.12",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"six >=1.9.0,<2"
+],
+"license":"MIT",
+"name":"virtualenv",
+"sha256":"17a0dc5ae4d30704dc20388b9cccbb9077a74a93646e4ba01329d4c12696598c",
+"size":6783685,
+"timestamp":1618918158528,
+"version":"20.4.4"
+},
+"virtualenv-20.4.4-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
@@ -111103,12 +111243,12 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"46785eaf4008bdb7f075b69cfacf60cf5bccccd4f4bb4bb55e8806606f321879",
-"size":6701357,
-"timestamp":1615900815253,
-"version":"20.4.3"
+"sha256":"b9f4d700dfdcc6f43c199b1f4b55bf13a421d5f7969954bf12bf5bcf118f273e",
+"size":6701170,
+"timestamp":1618918308790,
+"version":"20.4.4"
 },
-"virtualenv-20.4.3-py39ha65689a_0.tar.bz2":{
+"virtualenv-20.4.4-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
@@ -111121,10 +111261,10 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"5114d2642b430170eb37536f6d3f0ab40fb2200c4aa57e1486c9ecc39b32d822",
-"size":6701662,
-"timestamp":1615900677873,
-"version":"20.4.3"
+"sha256":"5b9b18248ff583190ae89090c9c56c443a9bcb804a4124e8dde35623bf4a9ddc",
+"size":6833222,
+"timestamp":1618918306676,
+"version":"20.4.4"
 },
 "vispy-0.6.6-py36h2ae8db5_0.tar.bz2":{
 "build":"py36h2ae8db5_0",
