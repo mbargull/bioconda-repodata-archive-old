@@ -43561,19 +43561,19 @@
 "timestamp":1560112207081,
 "version":"9.1.0"
 },
-"libgcrypt-1.9.2-h27cfd23_0.tar.bz2":{
+"libgcrypt-1.9.3-h27cfd23_0.tar.bz2":{
 "build":"h27cfd23_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=7.3.0",
-"libgpg-error >=1.41,<2.0a0"
+"libgpg-error >=1.42,<2.0a0"
 ],
-"license":"GPL-2.0",
+"license":"LGPL-2.1-or-later AND GPL-2.0-or-later",
 "name":"libgcrypt",
-"sha256":"43032cccf7c3550297a645907fe55db53dfb527c624c24c8c7fabee63042f290",
-"size":678724,
-"timestamp":1613588719411,
-"version":"1.9.2"
+"sha256":"fdcfe5505d001d04673cb04e4220e40a30e7fadae347e28d32b856f72def7158",
+"size":693852,
+"timestamp":1618922221586,
+"version":"1.9.3"
 },
 "libgd-2.2.5-h0db58fd_3.tar.bz2":{
 "build":"h0db58fd_3",
@@ -70920,21 +70920,7 @@
 "timestamp":1574087049100,
 "version":"0.5.0"
 },
-"pytest-asyncio-0.14.0-py36_1.tar.bz2":{
-"build":"py36_1",
-"build_number":1,
-"depends":[
-"pytest >=5.4",
-"python >=3.6,<3.7.0a0"
-],
-"license":"Apache-2.0",
-"name":"pytest-asyncio",
-"sha256":"3dd4d66460fb485df766995f6d8682893a418df153a1e167906a4bb4ea577c38",
-"size":18848,
-"timestamp":1600459011187,
-"version":"0.14.0"
-},
-"pytest-asyncio-0.14.0-py36h06a4308_1.tar.bz2":{
+"pytest-asyncio-0.15.0-py36h06a4308_1.tar.bz2":{
 "build":"py36h06a4308_1",
 "build_number":1,
 "depends":[
@@ -70943,26 +70929,12 @@
 ],
 "license":"Apache-2.0",
 "name":"pytest-asyncio",
-"sha256":"d05dc1530b5cb4039cd89cacd4eebe3b5af5d2ac83e717cb57722c31a0decdf6",
-"size":21831,
-"timestamp":1615906731302,
-"version":"0.14.0"
+"sha256":"aa581b44cf50d54a2e8890ecb20f4a0ab3bfa1251b0fecfe6a2aebc05405d449",
+"size":18992,
+"timestamp":1618866151102,
+"version":"0.15.0"
 },
-"pytest-asyncio-0.14.0-py37_1.tar.bz2":{
-"build":"py37_1",
-"build_number":1,
-"depends":[
-"pytest >=5.4",
-"python >=3.7,<3.8.0a0"
-],
-"license":"Apache-2.0",
-"name":"pytest-asyncio",
-"sha256":"fad7591a20d815999fede459ca2a99389d25452c2695a663aca440d6e2f9e53a",
-"size":18857,
-"timestamp":1600459003842,
-"version":"0.14.0"
-},
-"pytest-asyncio-0.14.0-py37h06a4308_1.tar.bz2":{
+"pytest-asyncio-0.15.0-py37h06a4308_1.tar.bz2":{
 "build":"py37h06a4308_1",
 "build_number":1,
 "depends":[
@@ -70971,26 +70943,12 @@
 ],
 "license":"Apache-2.0",
 "name":"pytest-asyncio",
-"sha256":"14a1a7ba87194802960360479f28354a65648117d5cab235d62347fe812cf775",
-"size":21823,
-"timestamp":1615907356691,
-"version":"0.14.0"
+"sha256":"f4da13d0e2030d593c5a3a01918ccb28640d4eb5a42ae49d4e65d526c6fd29d3",
+"size":18979,
+"timestamp":1618869493987,
+"version":"0.15.0"
 },
-"pytest-asyncio-0.14.0-py38_1.tar.bz2":{
-"build":"py38_1",
-"build_number":1,
-"depends":[
-"pytest >=5.4",
-"python >=3.8,<3.9.0a0"
-],
-"license":"Apache-2.0",
-"name":"pytest-asyncio",
-"sha256":"9fcfb38b84d357db30924c2089008431b6834931355c720155dbed9dbfa93896",
-"size":18921,
-"timestamp":1600459020586,
-"version":"0.14.0"
-},
-"pytest-asyncio-0.14.0-py38h06a4308_1.tar.bz2":{
+"pytest-asyncio-0.15.0-py38h06a4308_1.tar.bz2":{
 "build":"py38h06a4308_1",
 "build_number":1,
 "depends":[
@@ -70999,12 +70957,12 @@
 ],
 "license":"Apache-2.0",
 "name":"pytest-asyncio",
-"sha256":"5a4839c5b589a01a210964f54d48c259fcb1559708cc73c131390e5ef377833d",
-"size":21911,
-"timestamp":1615907374660,
-"version":"0.14.0"
+"sha256":"e123a9a90bb791a8dda7411054634f7b9c354fbb8984edf5a6351b582b6c0e0b",
+"size":19062,
+"timestamp":1618869495577,
+"version":"0.15.0"
 },
-"pytest-asyncio-0.14.0-py39h06a4308_1.tar.bz2":{
+"pytest-asyncio-0.15.0-py39h06a4308_1.tar.bz2":{
 "build":"py39h06a4308_1",
 "build_number":1,
 "depends":[
@@ -71013,10 +70971,10 @@
 ],
 "license":"Apache-2.0",
 "name":"pytest-asyncio",
-"sha256":"79633eb543f730862b6cdde493eabda71f01c2a2428fb8d15aba37efd276e3ef",
-"size":21911,
-"timestamp":1615907361396,
-"version":"0.14.0"
+"sha256":"1b31983fa644c8eed37280dfff2b62db5b8f945898a2fe43b3b12b0731a22c34",
+"size":19079,
+"timestamp":1618906077120,
+"version":"0.15.0"
 },
 "pytest-base-url-1.4.2-py36_0.tar.bz2":{
 "build":"py36_0",
