@@ -15281,6 +15281,32 @@
 "timestamp":1618441780145,
 "version":"4.10.1"
 },
+"conda-4.10.1-py37h4bcbb9b_0.tar.bz2":{
+"build":"py37h4bcbb9b_0",
+"build_number":0,
+"constrains":[
+"cytoolz >=0.8.1",
+"conda-build >=3",
+"conda-env >=2.6"
+],
+"depends":[
+"conda-package-handling >=1.3.0",
+"pycosat >=0.6.3",
+"pyopenssl >=16.2.0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"requests >=2.18.4,<3",
+"ruamel_yaml >=0.11.14,<0.16",
+"setuptools >=31.0.1"
+],
+"license":"BSD-3-Clause",
+"name":"conda",
+"sha256":"86e0a32272f212d2e7d8825740ecf904f00dde9a3621e3a307a7b76aa0371ee7",
+"size":3183556,
+"timestamp":1619021062445,
+"version":"4.10.1"
+},
 "conda-4.10.1-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
@@ -47492,7 +47518,7 @@
 "timestamp":1593534095099,
 "version":"5.39"
 },
-"libmamba-0.11.2-h9aab707_0.tar.bz2":{
+"libmamba-0.11.3-h9aab707_0.tar.bz2":{
 "build":"h9aab707_0",
 "build_number":0,
 "depends":[
@@ -47507,10 +47533,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libmamba",
-"sha256":"f45543e8ddd342dd25e2d7c5761dd9efdbf49e4bbd9c46d582702d74abbad606",
-"size":865129,
-"timestamp":1618998454610,
-"version":"0.11.2"
+"sha256":"128d461d500b658fa4283804852d4926db0e4c3db96c57cf818d80c4c434e746",
+"size":868425,
+"timestamp":1619019928039,
+"version":"0.11.3"
 },
 "libmamba-0.5.3-ha2add3b_0.tar.bz2":{
 "build":"ha2add3b_0",
@@ -61750,6 +61776,28 @@
 "sha256":"a256ee77e071853b59129d8dac3825f119e32f2c2f1cc6fcfe2f11a35ecfc669",
 "size":28149227,
 "timestamp":1616980842258,
+"version":"7.5.1"
+},
+"occt-7.5.1-he8282bd_2.tar.bz2":{
+"build":"he8282bd_2",
+"build_number":2,
+"depends":[
+"fontconfig >=2.13.1,<3.0a0",
+"fonts-conda-ecosystem",
+"freeimage >=3.18.0,<3.19.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"rapidjson",
+"tbb >=2020.2,<2021.0.0a0",
+"vtk >=9.0.1,<9.0.2.0a0",
+"xorg-libxt"
+],
+"license":"LGPL-2.1-only",
+"name":"occt",
+"sha256":"462751949034deb8b7252bfcc0588a2ebebee923896e6b3aaadc2ab5cb20b533",
+"size":28129319,
+"timestamp":1619021994505,
 "version":"7.5.1"
 },
 "ocl-icd-2.3.0-hf897c2e_0.tar.bz2":{
