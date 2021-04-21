@@ -1536,6 +1536,54 @@
 "timestamp":1617136394648,
 "version":"3.2.0"
 },
+"ansible-3.3.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"ansible-base",
+"boto",
+"cryptography",
+"httplib2",
+"jinja2",
+"openstacksdk",
+"paramiko",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"setuptools",
+"six"
+],
+"license":"GPL-3.0-only",
+"name":"ansible",
+"sha256":"3e1a4007480618f14ce780f45486d8cc16a7f2a2db46b1e6466d840028fe450f",
+"size":43748786,
+"timestamp":1619013031717,
+"version":"3.3.0"
+},
+"ansible-3.3.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"ansible-base",
+"boto",
+"cryptography",
+"httplib2",
+"jinja2",
+"openstacksdk",
+"paramiko",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"setuptools",
+"six"
+],
+"license":"GPL-3.0-only",
+"name":"ansible",
+"sha256":"8409e5eef99fe40f9831e7492142cb407d5fc43f728e06b4ea13793922873bcc",
+"size":43625237,
+"timestamp":1619013069707,
+"version":"3.3.0"
+},
 "antlr-python-runtime-4.7.2-py38h10201cd_1002.tar.bz2":{
 "build":"py38h10201cd_1002",
 "build_number":1002,
@@ -15434,6 +15482,22 @@
 "timestamp":1618964798083,
 "version":"5.5.0"
 },
+"clingo-5.5.0-py38h6f2b01f_3.tar.bz2":{
+"build":"py38h6f2b01f_3",
+"build_number":3,
+"depends":[
+"cffi",
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"clingo",
+"sha256":"d010475f6a0075b96b1b0f6559346c6cc37083f8cd12fa2d172d442a67528092",
+"size":2319895,
+"timestamp":1619019416923,
+"version":"5.5.0"
+},
 "clingo-5.5.0-py39hfb83b0d_0.tar.bz2":{
 "build":"py39hfb83b0d_0",
 "build_number":0,
@@ -15479,6 +15543,22 @@
 "sha256":"9ec08af8d3a4fc979a51045521de91ea0cb8dbde2692c487fb35ccc2d6e17599",
 "size":2272432,
 "timestamp":1618964765898,
+"version":"5.5.0"
+},
+"clingo-5.5.0-py39hfb83b0d_3.tar.bz2":{
+"build":"py39hfb83b0d_3",
+"build_number":3,
+"depends":[
+"cffi",
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"clingo",
+"sha256":"fde0df2cfff2ef1d53b9437f5d7648214e93bf55bfb0edfc0ee4fba27017850b",
+"size":2297397,
+"timestamp":1619018493290,
 "version":"5.5.0"
 },
 "cliquer-1.22-h27ca646_0.tar.bz2":{
@@ -30460,6 +30540,36 @@
 "size":27959,
 "timestamp":1617068656104,
 "version":"3.9.1"
+},
+"importlib-metadata-4.0.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zipp >=0.5"
+],
+"license":"Apache-2.0",
+"name":"importlib-metadata",
+"sha256":"d1c52db5e7fac94920b6801976b21cf9015b04309e9a24f2c2c2f2c0916e37e7",
+"size":30888,
+"timestamp":1619012645602,
+"version":"4.0.1"
+},
+"importlib-metadata-4.0.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zipp >=0.5"
+],
+"license":"Apache-2.0",
+"name":"importlib-metadata",
+"sha256":"3fdf35792c67315e1ebc489199ceda57ccac26c66e36cda9f668a159eb5d1506",
+"size":30965,
+"timestamp":1619013063922,
+"version":"4.0.1"
 },
 "importlib_resources-5.1.2-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -60280,6 +60390,44 @@
 "size":1530354,
 "timestamp":1612287347330,
 "version":"4.2"
+},
+"pyinstaller-4.3-py38h95a778e_0.tar.bz2":{
+"build":"py38h95a778e_0",
+"build_number":0,
+"depends":[
+"altgraph",
+"macholib >=1.8",
+"pyinstaller-hooks-contrib >=2020.6",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later WITH Bootloader-exception",
+"name":"pyinstaller",
+"sha256":"70c773c775afdc1c5a329dfb952734a0ad91887eea58106bc7a20364598ac108",
+"size":1545720,
+"timestamp":1619016734260,
+"version":"4.3"
+},
+"pyinstaller-4.3-py39h3753aae_0.tar.bz2":{
+"build":"py39h3753aae_0",
+"build_number":0,
+"depends":[
+"altgraph",
+"macholib >=1.8",
+"pyinstaller-hooks-contrib >=2020.6",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later WITH Bootloader-exception",
+"name":"pyinstaller",
+"sha256":"eb5e13901a2bcb18522852e35babada116ed8fadd5c77a2a1303afb8374eb77a",
+"size":1518087,
+"timestamp":1619016748859,
+"version":"4.3"
 },
 "pykerberos-1.2.1-py38h8c8ea35_4.tar.bz2":{
 "build":"py38h8c8ea35_4",
