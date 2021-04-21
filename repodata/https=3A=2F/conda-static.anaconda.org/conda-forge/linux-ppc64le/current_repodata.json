@@ -103772,7 +103772,7 @@
 "timestamp":1617408268639,
 "version":"2.0.1"
 },
-"sqlalchemy-1.4.9-py36hc33305d_0.tar.bz2":{
+"sqlalchemy-1.4.10-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -103784,12 +103784,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"bb56c4569a02e332123fe9a8b30627869824c732a7e48917ee59c7d33bcf4e53",
-"size":2337125,
-"timestamp":1618646727646,
-"version":"1.4.9"
+"sha256":"0336d931bd9156fef4836c65d637a0da793d50e74c60d84b68228edcf8a93213",
+"size":2339528,
+"timestamp":1618978155495,
+"version":"1.4.10"
 },
-"sqlalchemy-1.4.9-py36hfa8c849_0.tar.bz2":{
+"sqlalchemy-1.4.10-py36hfa8c849_0.tar.bz2":{
 "build":"py36hfa8c849_0",
 "build_number":0,
 "depends":[
@@ -103802,12 +103802,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"7f9d06d38098574c6fb61c814ba79a0fc9fe4ec2f334b25836d10a088801c946",
-"size":2337184,
-"timestamp":1618646828838,
-"version":"1.4.9"
+"sha256":"f419ed2cabd84d7c7f7f5615428fd2c2d9f4df485c916b5827a8c9e9b2b10335",
+"size":2339471,
+"timestamp":1618978219404,
+"version":"1.4.10"
 },
-"sqlalchemy-1.4.9-py37h0630641_0.tar.bz2":{
+"sqlalchemy-1.4.10-py37h0630641_0.tar.bz2":{
 "build":"py37h0630641_0",
 "build_number":0,
 "depends":[
@@ -103820,12 +103820,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"b7964c04dd5b945bb28b76c281fa28d61feeeb65dbdeafb5b82bceed8b23ec7f",
-"size":2334718,
-"timestamp":1618646592936,
-"version":"1.4.9"
+"sha256":"eddc6521ed9c06b7a0b4f15fdbd339f05622884503063bd5f0b0df8ee26857b0",
+"size":2339864,
+"timestamp":1618978218157,
+"version":"1.4.10"
 },
-"sqlalchemy-1.4.9-py37h6642d69_0.tar.bz2":{
+"sqlalchemy-1.4.10-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -103837,12 +103837,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"dc0f0e8a298590208e282be1bf91f890af485d5e348551867f8af5bb2334ee18",
-"size":2337135,
-"timestamp":1618646470058,
-"version":"1.4.9"
+"sha256":"efd9f219eb6ad46612c3e83af54f596180c51d747ecf06b49516251234a5ceea",
+"size":2339284,
+"timestamp":1618978218301,
+"version":"1.4.10"
 },
-"sqlalchemy-1.4.9-py38h98b8a6f_0.tar.bz2":{
+"sqlalchemy-1.4.10-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -103853,12 +103853,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"8b0dba003235426d5ca47621f93ad3f57589d98849a8532cc1362f51536e02b1",
-"size":2354145,
-"timestamp":1618646495218,
-"version":"1.4.9"
+"sha256":"1ef0933b9591359d9a09c3c48273fd0b6b43ac103c5a601e61ec56a2ed21465a",
+"size":2354382,
+"timestamp":1618978059195,
+"version":"1.4.10"
 },
-"sqlalchemy-1.4.9-py39ha810350_0.tar.bz2":{
+"sqlalchemy-1.4.10-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -103869,10 +103869,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"1cf60e01cffafcca102079bd88b66d9ad85a447bb6f2e23e53c175cfed0ea277",
-"size":2351362,
-"timestamp":1618646481831,
-"version":"1.4.9"
+"sha256":"a5e1b2cda606affd71f9c07be177687abc0e5a99d4c79094bab87d91edc8111c",
+"size":2347979,
+"timestamp":1618978168066,
+"version":"1.4.10"
 },
 "sqlite-3.35.4-h961021d_0.tar.bz2":{
 "build":"h961021d_0",
@@ -111303,6 +111303,52 @@
 "timestamp":1616883408156,
 "version":"9.0.1"
 },
+"vtk-9.0.1-no_osmesa_py36h7032fea_107.tar.bz2":{
+"build":"no_osmesa_py36h7032fea_107",
+"build_number":107,
+"constrains":[
+"paraview ==9999999999"
+],
+"depends":[
+"double-conversion >=3.1.5,<3.2.0a0",
+"eigen",
+"expat >=2.3.0,<3.0a0",
+"ffmpeg >=4.3.1,<5.0a0",
+"freetype >=2.10.4,<3.0a0",
+"gl2ps >=1.4.2,<1.4.3.0a0",
+"glew >=2.1.0,<2.2.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"jsoncpp >=1.9.4,<1.9.5.0a0",
+"libgcc-ng >=9.3.0",
+"libnetcdf >=4.8.0,<4.8.1.0a0",
+"libogg >=1.3.4,<1.4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtheora >=1.1.1,<1.2.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"loguru",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"proj >=7.2.0,<7.2.1.0a0",
+"pugixml >=1.11.4,<1.12.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"sqlite >=3.35.4,<4.0a0",
+"tbb >=2020.2,<2021.0.0a0",
+"tbb-devel",
+"tk >=8.6.10,<8.7.0a0",
+"utfcpp",
+"xorg-libxt",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"vtk",
+"sha256":"bb1ca7059eb56ca4640b102b7f466500549dbf1f6359674ab9be1d1584511476",
+"size":36883676,
+"timestamp":1618983372076,
+"version":"9.0.1"
+},
 "vtk-9.0.1-no_osmesa_py36hb50af98_107.tar.bz2":{
 "build":"no_osmesa_py36hb50af98_107",
 "build_number":107,
@@ -111347,6 +111393,52 @@
 "sha256":"3ea9eb2cd89b6dc828d6689805e2a975858173e4d02160aeda658b04acf4f1a9",
 "size":36936169,
 "timestamp":1618885847713,
+"version":"9.0.1"
+},
+"vtk-9.0.1-no_osmesa_py37h2c00bc9_107.tar.bz2":{
+"build":"no_osmesa_py37h2c00bc9_107",
+"build_number":107,
+"constrains":[
+"paraview ==9999999999"
+],
+"depends":[
+"double-conversion >=3.1.5,<3.2.0a0",
+"eigen",
+"expat >=2.3.0,<3.0a0",
+"ffmpeg >=4.3.1,<5.0a0",
+"freetype >=2.10.4,<3.0a0",
+"gl2ps >=1.4.2,<1.4.3.0a0",
+"glew >=2.1.0,<2.2.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"jsoncpp >=1.9.4,<1.9.5.0a0",
+"libgcc-ng >=9.3.0",
+"libnetcdf >=4.8.0,<4.8.1.0a0",
+"libogg >=1.3.4,<1.4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtheora >=1.1.1,<1.2.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"loguru",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"proj >=7.2.0,<7.2.1.0a0",
+"pugixml >=1.11.4,<1.12.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"sqlite >=3.35.4,<4.0a0",
+"tbb >=2020.2,<2021.0.0a0",
+"tbb-devel",
+"tk >=8.6.10,<8.7.0a0",
+"utfcpp",
+"xorg-libxt",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"vtk",
+"sha256":"55ca9b5e8266973e39c5747c855aaf99d300b9d1bb5036754d972933f395862d",
+"size":36901244,
+"timestamp":1618982897661,
 "version":"9.0.1"
 },
 "vtk-9.0.1-no_osmesa_py37h5d2e003_107.tar.bz2":{
@@ -111533,6 +111625,52 @@
 "timestamp":1617881175762,
 "version":"9.0.1"
 },
+"vtk-9.0.1-no_osmesa_py38h422b017_107.tar.bz2":{
+"build":"no_osmesa_py38h422b017_107",
+"build_number":107,
+"constrains":[
+"paraview ==9999999999"
+],
+"depends":[
+"double-conversion >=3.1.5,<3.2.0a0",
+"eigen",
+"expat >=2.3.0,<3.0a0",
+"ffmpeg >=4.3.1,<5.0a0",
+"freetype >=2.10.4,<3.0a0",
+"gl2ps >=1.4.2,<1.4.3.0a0",
+"glew >=2.1.0,<2.2.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"jsoncpp >=1.9.4,<1.9.5.0a0",
+"libgcc-ng >=9.3.0",
+"libnetcdf >=4.8.0,<4.8.1.0a0",
+"libogg >=1.3.4,<1.4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtheora >=1.1.1,<1.2.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"loguru",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"proj >=7.2.0,<7.2.1.0a0",
+"pugixml >=1.11.4,<1.12.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"sqlite >=3.35.4,<4.0a0",
+"tbb >=2020.2,<2021.0.0a0",
+"tbb-devel",
+"tk >=8.6.10,<8.7.0a0",
+"utfcpp",
+"xorg-libxt",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"vtk",
+"sha256":"1799d9a75bd2b124d5219cc7d331a1b3c08a271960dd2e90c83ac93c9019aecf",
+"size":36899356,
+"timestamp":1618982883079,
+"version":"9.0.1"
+},
 "vtk-9.0.1-no_osmesa_py38h8582e99_107.tar.bz2":{
 "build":"no_osmesa_py38h8582e99_107",
 "build_number":107,
@@ -111623,6 +111761,52 @@
 "sha256":"134a7ed58f9364b437fcc4ffd7ec67a52adffe63abd0e807c663c3eab7736974",
 "size":36972983,
 "timestamp":1616882764943,
+"version":"9.0.1"
+},
+"vtk-9.0.1-no_osmesa_py39h644ea7d_107.tar.bz2":{
+"build":"no_osmesa_py39h644ea7d_107",
+"build_number":107,
+"constrains":[
+"paraview ==9999999999"
+],
+"depends":[
+"double-conversion >=3.1.5,<3.2.0a0",
+"eigen",
+"expat >=2.3.0,<3.0a0",
+"ffmpeg >=4.3.1,<5.0a0",
+"freetype >=2.10.4,<3.0a0",
+"gl2ps >=1.4.2,<1.4.3.0a0",
+"glew >=2.1.0,<2.2.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"jsoncpp >=1.9.4,<1.9.5.0a0",
+"libgcc-ng >=9.3.0",
+"libnetcdf >=4.8.0,<4.8.1.0a0",
+"libogg >=1.3.4,<1.4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtheora >=1.1.1,<1.2.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"loguru",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"proj >=7.2.0,<7.2.1.0a0",
+"pugixml >=1.11.4,<1.12.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sqlite >=3.35.4,<4.0a0",
+"tbb >=2020.2,<2021.0.0a0",
+"tbb-devel",
+"tk >=8.6.10,<8.7.0a0",
+"utfcpp",
+"xorg-libxt",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"vtk",
+"sha256":"845ebab05e03b12fbe321429c057e4a467ead59cfca16b1c52da7d9818f58f13",
+"size":36936970,
+"timestamp":1618983375325,
 "version":"9.0.1"
 },
 "vtk-9.0.1-no_osmesa_py39h87fd3d2_106.tar.bz2":{
