@@ -16287,50 +16287,20 @@
 "timestamp":1608298277581,
 "version":"12.3"
 },
-"libpq-13.1-h022277a_0.tar.bz2":{
-"build":"h022277a_0",
-"build_number":0,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"libpq",
-"sha256":"b6c351d2b32f74313dfa9f6e118b011e759a79918949ccc31fc19a98fa2d4c63",
-"size":2826818,
-"timestamp":1613071930274,
-"version":"13.1"
-},
-"libpq-13.1-h022277a_1.tar.bz2":{
-"build":"h022277a_1",
-"build_number":1,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"libpq",
-"sha256":"7c22ec99f6ea1cd70cc8d0148e890d728ff97c1c19d46b897627b83f89a2b378",
-"size":2815524,
-"timestamp":1613310576738,
-"version":"13.1"
-},
-"libpq-13.1-h022277a_2.tar.bz2":{
-"build":"h022277a_2",
+"libpq-13.2-h3948d5d_2.tar.bz2":{
+"build":"h3948d5d_2",
 "build_number":2,
 "depends":[
 "krb5 >=1.17.1,<1.18.0a0",
-"openssl >=1.1.1j,<1.1.2a",
+"openssl >=1.1.1k,<1.1.2a",
 "readline >=8.0,<9.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "name":"libpq",
-"sha256":"04f44add6a4a19ea343443ee7b511c2527be9433ac53d92389b60777ca966744",
-"size":2797560,
-"timestamp":1614689697892,
-"version":"13.1"
+"sha256":"aac9fede624dd877e712d99816faf5b8a106406c08bc52dd55101d1d087fcba2",
+"size":2833685,
+"timestamp":1619123119013,
+"version":"13.2"
 },
 "libprotobuf-3.14.0-habe5f53_0.tar.bz2":{
 "build":"habe5f53_0",
@@ -22361,186 +22331,66 @@
 "timestamp":1616699431284,
 "version":"19.6.0"
 },
-"postgresql-13.1-h3cf2113_0.tar.bz2":{
-"build":"h3cf2113_0",
-"build_number":0,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libpq 13.1 h022277a_0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"readline >=8.0,<9.0a0",
-"tzcode",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql",
-"sha256":"94dbd2c8f79bc3ba346a7a21f1926149a7ecba91c2d1f36529beafe9198c65c9",
-"size":4786224,
-"timestamp":1613071985214,
-"version":"13.1"
-},
-"postgresql-13.1-h3cf2113_1.tar.bz2":{
-"build":"h3cf2113_1",
-"build_number":1,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libpq 13.1 h022277a_1",
-"libxml2 >=2.9.10,<2.10.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"readline >=8.0,<9.0a0",
-"tzcode",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql",
-"sha256":"e10599a4d93d6919043ba3971cc104996b301f24ee5865fe4851f79cf810aeec",
-"size":4784640,
-"timestamp":1613310640219,
-"version":"13.1"
-},
-"postgresql-13.1-h3cf2113_2.tar.bz2":{
-"build":"h3cf2113_2",
+"postgresql-13.2-h736fb64_2.tar.bz2":{
+"build":"h736fb64_2",
 "build_number":2,
 "depends":[
 "krb5 >=1.17.1,<1.18.0a0",
-"libpq 13.1 h022277a_2",
+"libpq 13.2 h3948d5d_2",
 "libxml2 >=2.9.10,<2.10.0a0",
-"openssl >=1.1.1j,<1.1.2a",
+"openssl >=1.1.1k,<1.1.2a",
 "readline >=8.0,<9.0a0",
 "tzcode",
 "tzdata",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "name":"postgresql",
-"sha256":"82f046eac58205a0b923e148709cd89bfaa6a9c1b50e31d80e90d9d0527f4c5e",
-"size":4751739,
-"timestamp":1614689756581,
-"version":"13.1"
+"sha256":"1e954e8a7c17a7b8123ff8d3d6125001bc55b2d7ee8d273051b07e0212cc465b",
+"size":4766174,
+"timestamp":1619123170494,
+"version":"13.2"
 },
-"postgresql-plpython-13.1-py38ha403c59_0.tar.bz2":{
-"build":"py38ha403c59_0",
-"build_number":0,
-"depends":[
-"krb5",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"libxslt >=1.1.33,<2.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"postgresql 13.1 h3cf2113_0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql-plpython",
-"sha256":"6dd732fc0341ba691b89a200280f422db1e32470fd58edb4386ce7458bebb2f0",
-"size":61542,
-"timestamp":1613072127822,
-"version":"13.1"
-},
-"postgresql-plpython-13.1-py38ha403c59_1.tar.bz2":{
-"build":"py38ha403c59_1",
-"build_number":1,
-"depends":[
-"krb5",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"libxslt >=1.1.33,<2.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"postgresql 13.1 h3cf2113_1",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql-plpython",
-"sha256":"28b79385a115172b2939472e421fbe17b500555732a6b54b37602492b1a16949",
-"size":61504,
-"timestamp":1613310797517,
-"version":"13.1"
-},
-"postgresql-plpython-13.1-py38ha403c59_2.tar.bz2":{
-"build":"py38ha403c59_2",
+"postgresql-plpython-13.2-py38h6d1f5d7_2.tar.bz2":{
+"build":"py38h6d1f5d7_2",
 "build_number":2,
 "depends":[
 "krb5",
 "libuuid >=2.32.1,<3.0a0",
 "libxml2 >=2.9.10,<2.10.0a0",
 "libxslt >=1.1.33,<2.0a0",
-"openssl >=1.1.1j,<1.1.2a",
-"postgresql 13.1 h3cf2113_2",
+"openssl >=1.1.1k,<1.1.2a",
+"postgresql 13.2 h736fb64_2",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "readline >=8.0,<9.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "name":"postgresql-plpython",
-"sha256":"6baa5d96db6ca44caa29456257edc80fd0586b90c2d14878ef3c2debf20900b4",
-"size":61530,
-"timestamp":1614690048504,
-"version":"13.1"
+"sha256":"9bad9ad9e1486b729ef2ac478989251c34ee4c0ee24026595c3cc06d6cf48f80",
+"size":61931,
+"timestamp":1619123308042,
+"version":"13.2"
 },
-"postgresql-plpython-13.1-py39h6d6eb99_0.tar.bz2":{
-"build":"py39h6d6eb99_0",
-"build_number":0,
-"depends":[
-"krb5",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"libxslt >=1.1.33,<2.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"postgresql 13.1 h3cf2113_0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql-plpython",
-"sha256":"6c78538ac9284177ed1e7ea92f09cc09e7956bf856f7d32f0ceea8dd37be092f",
-"size":61750,
-"timestamp":1613072264226,
-"version":"13.1"
-},
-"postgresql-plpython-13.1-py39h6d6eb99_1.tar.bz2":{
-"build":"py39h6d6eb99_1",
-"build_number":1,
-"depends":[
-"krb5",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"libxslt >=1.1.33,<2.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"postgresql 13.1 h3cf2113_1",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql-plpython",
-"sha256":"c214e912a787a1b5ce9e5704bb55eb8e4099442d448ac8daeb360c32844ce22e",
-"size":61718,
-"timestamp":1613310941693,
-"version":"13.1"
-},
-"postgresql-plpython-13.1-py39h6d6eb99_2.tar.bz2":{
-"build":"py39h6d6eb99_2",
+"postgresql-plpython-13.2-py39h8a2d7b5_2.tar.bz2":{
+"build":"py39h8a2d7b5_2",
 "build_number":2,
 "depends":[
 "krb5",
 "libuuid >=2.32.1,<3.0a0",
 "libxml2 >=2.9.10,<2.10.0a0",
 "libxslt >=1.1.33,<2.0a0",
-"openssl >=1.1.1j,<1.1.2a",
-"postgresql 13.1 h3cf2113_2",
+"openssl >=1.1.1k,<1.1.2a",
+"postgresql 13.2 h736fb64_2",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "readline >=8.0,<9.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "name":"postgresql-plpython",
-"sha256":"d5363be5088c1d5f99eb68a3f06a4844056119b92865c677200e713b61061d23",
-"size":61743,
-"timestamp":1614689908310,
-"version":"13.1"
+"sha256":"ff36ee63e81a77547b264e5dccab56318e85524a5993516e08af5bf772b3a51d",
+"size":62117,
+"timestamp":1619123437466,
+"version":"13.2"
 },
 "ppl-1.2-h2eaf5e3_1003.tar.bz2":{
 "build":"h2eaf5e3_1003",
@@ -29528,7 +29378,7 @@
 "timestamp":1619069415593,
 "version":"1.4.11"
 },
-"sqlite-3.35.4-hc49ca36_0.tar.bz2":{
+"sqlite-3.35.5-hc49ca36_0.tar.bz2":{
 "build":"hc49ca36_0",
 "build_number":0,
 "depends":[
@@ -29538,10 +29388,10 @@
 ],
 "license":"Unlicense",
 "name":"sqlite",
-"sha256":"f4bf0aaee1bc13d00ebf13ea0adfa032b691948a0018814fe0005b1cecbbab2f",
-"size":1681296,
-"timestamp":1617644964273,
-"version":"3.35.4"
+"sha256":"bb1952131c71148f0b75720305c8714e008635ca3b6942657fe06b3265b58399",
+"size":1687688,
+"timestamp":1619123194559,
+"version":"3.35.5"
 },
 "squashfs-tools-4.4-h3d4c77b_1.tar.bz2":{
 "build":"h3d4c77b_1",

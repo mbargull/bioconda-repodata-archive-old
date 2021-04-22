@@ -7711,6 +7711,57 @@
 "timestamp":1615400959311,
 "version":"1.19.2"
 },
+"numpy-1.20.1-py37hfce5e02_0.tar.bz2":{
+"build":"py37hfce5e02_0",
+"build_number":0,
+"depends":[
+"blas * openblas",
+"libgcc-ng >=10.2.0",
+"libopenblas >=0.3.10,<1.0a0",
+"numpy-base 1.20.1 py37h53d150a_0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"0cca2025d03ea8cce0d577a04b333639a80e631fea73eaa98696d3c10f6a4b9b",
+"size":8825,
+"timestamp":1619118974823,
+"version":"1.20.1"
+},
+"numpy-1.20.1-py38hfce5e02_0.tar.bz2":{
+"build":"py38hfce5e02_0",
+"build_number":0,
+"depends":[
+"blas * openblas",
+"libgcc-ng >=10.2.0",
+"libopenblas >=0.3.10,<1.0a0",
+"numpy-base 1.20.1 py38h53d150a_0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"8a8a6ccee7023fcd1d35788708ccc590e7a108719a293db7007e293d71699840",
+"size":8823,
+"timestamp":1619119398930,
+"version":"1.20.1"
+},
+"numpy-1.20.1-py39hfce5e02_0.tar.bz2":{
+"build":"py39hfce5e02_0",
+"build_number":0,
+"depends":[
+"blas * openblas",
+"libgcc-ng >=10.2.0",
+"libopenblas >=0.3.10,<1.0a0",
+"numpy-base 1.20.1 py39h53d150a_0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"f72349ac8c8979e009652c4713afb4002879af0c3599d17f8fbbe3d81f5b7a37",
+"size":8829,
+"timestamp":1619118493379,
+"version":"1.20.1"
+},
 "numpy-base-1.16.6-py37h0361ad9_2.tar.bz2":{
 "build":"py37h0361ad9_2",
 "build_number":2,
@@ -7827,6 +7878,63 @@
 "size":5479836,
 "timestamp":1615400950082,
 "version":"1.19.2"
+},
+"numpy-base-1.20.1-py37h53d150a_0.tar.bz2":{
+"build":"py37h53d150a_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.1 py37hfce5e02_0"
+],
+"depends":[
+"blas * openblas",
+"libgcc-ng >=10.2.0",
+"libopenblas >=0.3.10,<1.0a0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"cb7a6fed443489359c71715654bb3c4ef67e77ebbfd717266375eaa8bfea65ee",
+"size":5800482,
+"timestamp":1619118966755,
+"version":"1.20.1"
+},
+"numpy-base-1.20.1-py38h53d150a_0.tar.bz2":{
+"build":"py38h53d150a_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.1 py38hfce5e02_0"
+],
+"depends":[
+"blas * openblas",
+"libgcc-ng >=10.2.0",
+"libopenblas >=0.3.10,<1.0a0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"6c89908c038022cfde1e9828fa43b8c228956cc6753da16d335ddd911dcd7a35",
+"size":5860822,
+"timestamp":1619119390912,
+"version":"1.20.1"
+},
+"numpy-base-1.20.1-py39h53d150a_0.tar.bz2":{
+"build":"py39h53d150a_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.1 py39hfce5e02_0"
+],
+"depends":[
+"blas * openblas",
+"libgcc-ng >=10.2.0",
+"libopenblas >=0.3.10,<1.0a0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"b9f1dbf72604ed8a6df434a0649b08657e070b3a67b5f5fe9e9863353697cee2",
+"size":5832880,
+"timestamp":1619118484935,
+"version":"1.20.1"
 },
 "numpy-devel-1.16.6-py37h0571fa2_2.tar.bz2":{
 "build":"py37h0571fa2_2",

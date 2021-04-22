@@ -31415,6 +31415,18 @@
 "timestamp":1598362196986,
 "version":"2020.2"
 },
+"intel-openmp-2021.2.0-haa95532_616.conda":{
+"build":"haa95532_616",
+"build_number":616,
+"depends":[],
+"legacy_bz2_md5":"114b007234526046ff6894a78bd65933",
+"license":"LicenseRef-ProprietaryIntel",
+"name":"intel-openmp",
+"sha256":"2fadb30b0e8670f59dedf29738a2cbaa6d1da8d79ad189d912239680beae31c5",
+"size":1909887,
+"timestamp":1618534242973,
+"version":"2021.2.0"
+},
 "intervals-0.9.1-py36haa95532_0.conda":{
 "build":"py36haa95532_0",
 "build_number":0,
@@ -41658,21 +41670,35 @@
 "timestamp":1598362636257,
 "version":"2020.2"
 },
-"mkl-devel-2020.2-257.conda":{
-"build":"257",
-"build_number":257,
+"mkl-2021.2.0-haa95532_296.conda":{
+"build":"haa95532_296",
+"build_number":296,
+"depends":[
+"intel-openmp 2021.*"
+],
+"legacy_bz2_md5":"72d5c430f440e32537b29107f1f439fe",
+"license":"LicenseRef-ProprietaryIntel",
+"name":"mkl",
+"sha256":"fdbb88f7bf72c4dea6068488e916654785d01fd54e67c54dc989652418ca2689",
+"size":121140748,
+"timestamp":1618534718327,
+"version":"2021.2.0"
+},
+"mkl-devel-2021.2.0-hb8b2395_296.conda":{
+"build":"hb8b2395_296",
+"build_number":296,
 "depends":[
 "blas * mkl",
-"mkl 2020.2 256",
-"mkl-include 2020.2 256"
+"mkl 2021.2.0 haa95532_296",
+"mkl-include 2021.2.0 haa95532_296"
 ],
-"legacy_bz2_md5":"0c8e97575f80d126f2b30fe051169a63",
+"legacy_bz2_md5":"4ff1224e4178160216ea49338fb54e5c",
 "license":"LicenseRef-ProprietaryIntel",
 "name":"mkl-devel",
-"sha256":"5dd0a03d7e5bde65c8c9aa2716c2d3025e3e3af6cb75c200e4ccc8a1734c0eb7",
-"size":2797091,
-"timestamp":1598362909979,
-"version":"2020.2"
+"sha256":"824369e625ba09f115c4ed7f7df02a31ecfd0c4fb0ae1b87f5c6703754f9561a",
+"size":2968994,
+"timestamp":1618534912419,
+"version":"2021.2.0"
 },
 "mkl-dnn-0.19-h7ef1ec2_1.conda":{
 "build":"h7ef1ec2_1",
@@ -41702,17 +41728,17 @@
 "timestamp":1559526609846,
 "version":"2019.4"
 },
-"mkl-include-2020.2-256.conda":{
-"build":"256",
-"build_number":256,
+"mkl-include-2021.2.0-haa95532_296.conda":{
+"build":"haa95532_296",
+"build_number":296,
 "depends":[],
-"legacy_bz2_md5":"0230b8012b1f910b05c37dc7ed8dd748",
+"legacy_bz2_md5":"90e93d616da726f4eb7fbf9b66b8ed5d",
 "license":"LicenseRef-ProprietaryIntel",
 "name":"mkl-include",
-"sha256":"d0ece63122961b341a2c9de0d998312fda58801580fa76146d2378402a477609",
-"size":555633,
-"timestamp":1598362204098,
-"version":"2020.2"
+"sha256":"bdd2f49e67f30abce04bfd8130c7906dccc63a575ba214763fcf6c4b8b9ff6f9",
+"size":617234,
+"timestamp":1618534251925,
+"version":"2021.2.0"
 },
 "mkl-service-2.3.0-py27h0b88c2a_0.conda":{
 "build":"py27h0b88c2a_0",
@@ -75688,72 +75714,104 @@
 "timestamp":1600548031952,
 "version":"2020.3"
 },
-"tbb-devel-2020.3-h74a9793_0.conda":{
-"build":"h74a9793_0",
+"tbb-2021.2.0-h59b6b97_0.conda":{
+"build":"h59b6b97_0",
 "build_number":0,
 "depends":[
-"tbb 2020.3 h74a9793_0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"64a8f121493dde8a6172266c54db1a51",
+"legacy_bz2_md5":"376263caa9ff3f374f6d2972bafba916",
+"license":"Apache-2.0",
+"name":"tbb",
+"sha256":"33f5791dd3d2b291334e5dcaf2f8a55beeee8c3acc6032d81508ba433d53d5be",
+"size":140564,
+"timestamp":1618505038092,
+"version":"2021.2.0"
+},
+"tbb-devel-2021.2.0-h59b6b97_0.conda":{
+"build":"h59b6b97_0",
+"build_number":0,
+"depends":[
+"tbb 2021.2.0 h59b6b97_0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"legacy_bz2_md5":"7cbf94e13261fb7d22669020aa273f7f",
 "license":"Apache-2.0",
 "name":"tbb-devel",
-"sha256":"fbfd3fbb104f24724a615d89fd92b6c4e36b68802055bdc54adedd13f8a2db40",
-"size":1670156,
-"timestamp":1600548065381,
-"version":"2020.3"
+"sha256":"68b65b25e6c1a2da5993d43a2cd6fe94847b78e32e83bf9d0f56e1737fbbbed8",
+"size":972161,
+"timestamp":1618505057425,
+"version":"2021.2.0"
 },
-"tbb4py-2020.3-py36h74a9793_0.conda":{
-"build":"py36h74a9793_0",
+"tbb4py-2021.2.0-py36h59b6b97_0.conda":{
+"build":"py36h59b6b97_0",
 "build_number":0,
 "depends":[
 "python >=3.6,<3.7.0a0",
-"tbb >=2020.3",
+"tbb >=2021.2.0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"bdce837b48a69f413872c90e59764760",
+"legacy_bz2_md5":"1b4e01689d4b19511a89ef50d0a0e1d0",
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"8d05396b89205699044dfc8bd7c42dd8119c0a6df8c851269b390b6e98bae16e",
-"size":61067,
-"timestamp":1600548128697,
-"version":"2020.3"
+"sha256":"6db7b73e8412ea36aa6b4b69d57e112f7b8f48796693f95f2f100194741296a7",
+"size":73688,
+"timestamp":1618505216533,
+"version":"2021.2.0"
 },
-"tbb4py-2020.3-py37h74a9793_0.conda":{
-"build":"py37h74a9793_0",
+"tbb4py-2021.2.0-py37h59b6b97_0.conda":{
+"build":"py37h59b6b97_0",
 "build_number":0,
 "depends":[
 "python >=3.7,<3.8.0a0",
-"tbb >=2020.3",
+"tbb >=2021.2.0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"7fb4e89e8c60816e1aa816f4448cd26d",
+"legacy_bz2_md5":"0695731af0c4b6c51f11298533f8a528",
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"9707b631363ff0cd190ab741a212a4fd11cb6cf59ff6777babed33e1f580fd47",
-"size":61129,
-"timestamp":1600548156871,
-"version":"2020.3"
+"sha256":"c942ab0358a1eb1e93ec8fdc61752459c6b5d84989b8f06d191f6a1bea574c4d",
+"size":73719,
+"timestamp":1618505267013,
+"version":"2021.2.0"
 },
-"tbb4py-2020.3-py38h74a9793_0.conda":{
-"build":"py38h74a9793_0",
+"tbb4py-2021.2.0-py38h59b6b97_0.conda":{
+"build":"py38h59b6b97_0",
 "build_number":0,
 "depends":[
 "python >=3.8,<3.9.0a0",
-"tbb >=2020.3",
+"tbb >=2021.2.0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"3473a683568a95fb7e1ef6be944a72ec",
+"legacy_bz2_md5":"087165e714e59c20e7c9a58c5b87d82e",
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"b4d24c88e9f2ab35b0903760bab4ff40bb3ac6bc6b2bf53231a6ee3f9672bf0f",
-"size":60939,
-"timestamp":1600548101656,
-"version":"2020.3"
+"sha256":"fa0f3bc8246d30a0f555f15ec48200412d1d38368ca4d5109f28a3ff1f17bad5",
+"size":73345,
+"timestamp":1618505118030,
+"version":"2021.2.0"
+},
+"tbb4py-2021.2.0-py39h59b6b97_0.conda":{
+"build":"py39h59b6b97_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"tbb >=2021.2.0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"legacy_bz2_md5":"fa074a1b7b8da5e57657fa1f727c80ea",
+"license":"Apache 2.0",
+"name":"tbb4py",
+"sha256":"2c718cd60a8fe0e05e479b791c55d6d7847d8c31d511ad88a4f14778c1a1eca3",
+"size":73483,
+"timestamp":1618505168538,
+"version":"2021.2.0"
 },
 "tblib-1.3.2-py27h8ae915c_0.conda":{
 "build":"py27h8ae915c_0",
