@@ -35889,6 +35889,30 @@
 "timestamp":1618596232217,
 "version":"1.6.2"
 },
+"hyperspy-1.6.2-py37hd9ded2f_2.tar.bz2":{
+"build":"py37hd9ded2f_2",
+"build_number":2,
+"depends":[
+"hyperspy-base 1.6.2 py37hcd4c3ab_2",
+"hyperspy-gui-ipywidgets >=1.3",
+"hyperspy-gui-traitsui >=1.3",
+"imagecodecs",
+"matplotlib",
+"mrcz",
+"pyqt",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pyusid >=0.0.7",
+"scikit-learn",
+"sidpy"
+],
+"license":"GPL-3.0-or-later",
+"name":"hyperspy",
+"sha256":"9ce19a85de3bd0133dc368fdcc91c2aca1e28fc7f9aa30d9c4b4f2ca3cec4b87",
+"size":15180,
+"timestamp":1619167912453,
+"version":"1.6.2"
+},
 "hyperspy-1.6.2-py38h2063c64_1.tar.bz2":{
 "build":"py38h2063c64_1",
 "build_number":1,
@@ -35911,6 +35935,30 @@
 "sha256":"dc3b220d3bbe5a96ddaab0b6f86a21379471f14f7dc95b472f1da76048f12a0b",
 "size":15164,
 "timestamp":1618607074975,
+"version":"1.6.2"
+},
+"hyperspy-1.6.2-py38h2063c64_2.tar.bz2":{
+"build":"py38h2063c64_2",
+"build_number":2,
+"depends":[
+"hyperspy-base 1.6.2 py38h9544abe_2",
+"hyperspy-gui-ipywidgets >=1.3",
+"hyperspy-gui-traitsui >=1.3",
+"imagecodecs",
+"matplotlib",
+"mrcz",
+"pyqt",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyusid >=0.0.7",
+"scikit-learn",
+"sidpy"
+],
+"license":"GPL-3.0-or-later",
+"name":"hyperspy",
+"sha256":"ef284d5b84c5a128c9a84874cad87608bd96d9992ff25c50819be27ede16fa5d",
+"size":15160,
+"timestamp":1619167907184,
 "version":"1.6.2"
 },
 "hyperspy-1.6.2-py39ha65689a_1.tar.bz2":{
@@ -36054,6 +36102,45 @@
 "timestamp":1618596188447,
 "version":"1.6.2"
 },
+"hyperspy-base-1.6.2-py37hcd4c3ab_2.tar.bz2":{
+"build":"py37hcd4c3ab_2",
+"build_number":2,
+"depends":[
+"dask-core >2.1.0",
+"dill",
+"h5py",
+"imageio",
+"ipyparallel",
+"ipython",
+"libgcc-ng >=9.3.0",
+"matplotlib-base >=3.1.0",
+"natsort",
+"numba",
+"numexpr",
+"numpy >=1.17.1",
+"pint >=0.10",
+"prettytable",
+"python >=3.7,<3.8.0a0",
+"python-dateutil >=2.5",
+"python_abi 3.7.* *_cp37m",
+"pyyaml",
+"requests",
+"scikit-image >=0.15",
+"scipy >=1.1",
+"sparse",
+"sympy",
+"tifffile >=2018.10.18",
+"toolz",
+"tqdm >=4.9.0",
+"traits >=4.5"
+],
+"license":"GPL-3.0-or-later",
+"name":"hyperspy-base",
+"sha256":"86a1ba985426123525d0e1906f6bc2a33f02cbb20f37747dbd219b06e44dcf09",
+"size":28644199,
+"timestamp":1619167868690,
+"version":"1.6.2"
+},
 "hyperspy-base-1.6.2-py38h9544abe_1.tar.bz2":{
 "build":"py38h9544abe_1",
 "build_number":1,
@@ -36091,6 +36178,45 @@
 "sha256":"72a91a48a8c552add49ef67afec93963945a103e3d5f9ef73f140e6bdfd1de0a",
 "size":28592115,
 "timestamp":1618607032070,
+"version":"1.6.2"
+},
+"hyperspy-base-1.6.2-py38h9544abe_2.tar.bz2":{
+"build":"py38h9544abe_2",
+"build_number":2,
+"depends":[
+"dask-core >2.1.0",
+"dill",
+"h5py",
+"imageio",
+"ipyparallel",
+"ipython",
+"libgcc-ng >=9.3.0",
+"matplotlib-base >=3.1.0",
+"natsort",
+"numba",
+"numexpr",
+"numpy >=1.17.1",
+"pint >=0.10",
+"prettytable",
+"python >=3.8,<3.9.0a0",
+"python-dateutil >=2.5",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"requests",
+"scikit-image >=0.15",
+"scipy >=1.1",
+"sparse",
+"sympy",
+"tifffile >=2018.10.18",
+"toolz",
+"tqdm >=4.9.0",
+"traits >=4.5"
+],
+"license":"GPL-3.0-or-later",
+"name":"hyperspy-base",
+"sha256":"8448c31612046033dc0330d9a6398427e60b0d00d626b24d1d230e6efd76685c",
+"size":28555386,
+"timestamp":1619167864695,
 "version":"1.6.2"
 },
 "hyperspy-base-1.6.2-py39h14843e3_1.tar.bz2":{
@@ -99296,7 +99422,21 @@
 "timestamp":1617798711060,
 "version":"1.0.4"
 },
-"s2n-static-1.0.4-hf897c2e_0.tar.bz2":{
+"s2n-1.0.5-h6aed413_0.tar.bz2":{
+"build":"h6aed413_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"s2n",
+"sha256":"66e4cb4c23e06844c8f01438cf5fc88e2d25946d18282681977fd4a8ee692500",
+"size":391782,
+"timestamp":1619169647370,
+"version":"1.0.5"
+},
+"s2n-static-1.0.5-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",
 "build_number":0,
 "depends":[
@@ -99304,10 +99444,10 @@
 ],
 "license":"Apache-2.0",
 "name":"s2n-static",
-"sha256":"6c0c0bac3ae5a03971e2387f12bb89670a0a0fb5d86ddc2abffc3e87baed4eb5",
-"size":461513,
-"timestamp":1617798763076,
-"version":"1.0.4"
+"sha256":"2a0f69ec312c94e5c8c1614b86a054ffbabde97b2024e04bb9229270b5a6c876",
+"size":493844,
+"timestamp":1619169698907,
+"version":"1.0.5"
 },
 "s3transfer-0.3.3-py36h9f0ad1d_0.tar.bz2":{
 "build":"py36h9f0ad1d_0",
