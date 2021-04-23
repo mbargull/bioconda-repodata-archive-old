@@ -48224,6 +48224,30 @@
 "timestamp":1617439342099,
 "version":"1.9.6"
 },
+"ogre-1.10.12-h6ffd33c_7.tar.bz2":{
+"build":"h6ffd33c_7",
+"build_number":7,
+"depends":[
+"freeimage >=3.18.0,<3.19.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libcxx >=11.1.0",
+"openexr >=2.5.5,<2.6.0a0",
+"pugixml >=1.11.4,<1.12.0a0",
+"sdl2",
+"swig",
+"xorg-libx11",
+"xorg-libxaw",
+"xorg-libxt",
+"zlib >=1.2.11,<1.3.0a0",
+"zziplib >=0.13.69,<0.14.0a0"
+],
+"license":"MIT",
+"name":"ogre",
+"sha256":"3c16dd34cf92fa4872d7788573bfcd3a098134f0fd1375088a8f5d574a5ec0d1",
+"size":117202680,
+"timestamp":1619139105089,
+"version":"1.10.12"
+},
 "ogre-1.12.11-h0aef09b_0.tar.bz2":{
 "build":"h0aef09b_0",
 "build_number":0,
@@ -49465,6 +49489,23 @@
 "timestamp":1616534031168,
 "version":"4.1.0"
 },
+"openmpi-4.1.0-h3abb732_5.tar.bz2":{
+"build":"h3abb732_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"mpi 1.0 openmpi",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi",
+"sha256":"8bcb333d4a5c04565c5d7454d401f2d3995e6956bf75040eda2a7719cc49c446",
+"size":3252116,
+"timestamp":1619158643961,
+"version":"4.1.0"
+},
 "openmpi-mpicc-4.0.5-h27ca646_3.tar.bz2":{
 "build":"h27ca646_3",
 "build_number":3,
@@ -49561,6 +49602,20 @@
 "sha256":"e74ac0f183f4f9509c25d66a833521e00abc0fda94bf0d3c8a5595bf4d5e7dff",
 "size":18016,
 "timestamp":1616534040970,
+"version":"4.1.0"
+},
+"openmpi-mpicc-4.1.0-h3422bc3_5.tar.bz2":{
+"build":"h3422bc3_5",
+"build_number":5,
+"depends":[
+"clang_osx-arm64 11.*",
+"openmpi 4.1.0 h3abb732_5"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpicc",
+"sha256":"82564977f63dc22b368374eaf6e495b1a528a76b5065aa833077cc0a2e4a67ef",
+"size":18306,
+"timestamp":1619158653417,
 "version":"4.1.0"
 },
 "openmpi-mpicxx-4.0.5-h260d524_3.tar.bz2":{
@@ -49661,6 +49716,20 @@
 "timestamp":1616534046122,
 "version":"4.1.0"
 },
+"openmpi-mpicxx-4.1.0-hc021e02_5.tar.bz2":{
+"build":"hc021e02_5",
+"build_number":5,
+"depends":[
+"clangxx_osx-arm64 11.*",
+"openmpi 4.1.0 h3abb732_5"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpicxx",
+"sha256":"e382e14f9c549cdb653ff6ddb8a9f68f8dbed4a7b49d36f7866c140e047b1731",
+"size":18323,
+"timestamp":1619158658228,
+"version":"4.1.0"
+},
 "openmpi-mpifort-4.0.5-hd73cc70_3.tar.bz2":{
 "build":"hd73cc70_3",
 "build_number":3,
@@ -49688,6 +49757,20 @@
 "size":8830,
 "timestamp":1606319836585,
 "version":"4.0.5"
+},
+"openmpi-mpifort-4.1.0-h069cf10_5.tar.bz2":{
+"build":"h069cf10_5",
+"build_number":5,
+"depends":[
+"gfortran_osx-arm64 11.*",
+"openmpi 4.1.0 h3abb732_5"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpifort",
+"sha256":"286b3db67963a77a3f22f2dbd2e4da96de4a4ca93f695e04a7211b1bf7438648",
+"size":18382,
+"timestamp":1619158663002,
+"version":"4.1.0"
 },
 "openmpi-mpifort-4.1.0-hd73cc70_0.tar.bz2":{
 "build":"hd73cc70_0",
