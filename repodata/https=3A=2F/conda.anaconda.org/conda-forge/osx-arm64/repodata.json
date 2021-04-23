@@ -49489,23 +49489,6 @@
 "timestamp":1616534031168,
 "version":"4.1.0"
 },
-"openmpi-4.1.0-h3abb732_5.tar.bz2":{
-"build":"h3abb732_5",
-"build_number":5,
-"depends":[
-"libcxx >=11.1.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.1.dev0",
-"mpi 1.0 openmpi",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"openmpi",
-"sha256":"8bcb333d4a5c04565c5d7454d401f2d3995e6956bf75040eda2a7719cc49c446",
-"size":3252116,
-"timestamp":1619158643961,
-"version":"4.1.0"
-},
 "openmpi-mpicc-4.0.5-h27ca646_3.tar.bz2":{
 "build":"h27ca646_3",
 "build_number":3,
@@ -49602,20 +49585,6 @@
 "sha256":"e74ac0f183f4f9509c25d66a833521e00abc0fda94bf0d3c8a5595bf4d5e7dff",
 "size":18016,
 "timestamp":1616534040970,
-"version":"4.1.0"
-},
-"openmpi-mpicc-4.1.0-h3422bc3_5.tar.bz2":{
-"build":"h3422bc3_5",
-"build_number":5,
-"depends":[
-"clang_osx-arm64 11.*",
-"openmpi 4.1.0 h3abb732_5"
-],
-"license":"BSD-3-Clause",
-"name":"openmpi-mpicc",
-"sha256":"82564977f63dc22b368374eaf6e495b1a528a76b5065aa833077cc0a2e4a67ef",
-"size":18306,
-"timestamp":1619158653417,
 "version":"4.1.0"
 },
 "openmpi-mpicxx-4.0.5-h260d524_3.tar.bz2":{
@@ -49716,20 +49685,6 @@
 "timestamp":1616534046122,
 "version":"4.1.0"
 },
-"openmpi-mpicxx-4.1.0-hc021e02_5.tar.bz2":{
-"build":"hc021e02_5",
-"build_number":5,
-"depends":[
-"clangxx_osx-arm64 11.*",
-"openmpi 4.1.0 h3abb732_5"
-],
-"license":"BSD-3-Clause",
-"name":"openmpi-mpicxx",
-"sha256":"e382e14f9c549cdb653ff6ddb8a9f68f8dbed4a7b49d36f7866c140e047b1731",
-"size":18323,
-"timestamp":1619158658228,
-"version":"4.1.0"
-},
 "openmpi-mpifort-4.0.5-hd73cc70_3.tar.bz2":{
 "build":"hd73cc70_3",
 "build_number":3,
@@ -49757,20 +49712,6 @@
 "size":8830,
 "timestamp":1606319836585,
 "version":"4.0.5"
-},
-"openmpi-mpifort-4.1.0-h069cf10_5.tar.bz2":{
-"build":"h069cf10_5",
-"build_number":5,
-"depends":[
-"gfortran_osx-arm64 11.*",
-"openmpi 4.1.0 h3abb732_5"
-],
-"license":"BSD-3-Clause",
-"name":"openmpi-mpifort",
-"sha256":"286b3db67963a77a3f22f2dbd2e4da96de4a4ca93f695e04a7211b1bf7438648",
-"size":18382,
-"timestamp":1619158663002,
-"version":"4.1.0"
 },
 "openmpi-mpifort-4.1.0-hd73cc70_0.tar.bz2":{
 "build":"hd73cc70_0",
@@ -69316,19 +69257,6 @@
 "timestamp":1617799524068,
 "version":"1.0.4"
 },
-"s2n-1.0.5-hbae9a57_0.tar.bz2":{
-"build":"hbae9a57_0",
-"build_number":0,
-"depends":[
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"s2n",
-"sha256":"71d608adf2d48f8edbf3963a6704b15833b9c301e1a323946df56ebeae43e586",
-"size":310876,
-"timestamp":1619169643989,
-"version":"1.0.5"
-},
 "s2n-static-0.10.0-hf5adfa1_1.tar.bz2":{
 "build":"hf5adfa1_1",
 "build_number":1,
@@ -69449,17 +69377,6 @@
 "size":409936,
 "timestamp":1617799579798,
 "version":"1.0.4"
-},
-"s2n-static-1.0.5-h3422bc3_0.tar.bz2":{
-"build":"h3422bc3_0",
-"build_number":0,
-"depends":[],
-"license":"Apache-2.0",
-"name":"s2n-static",
-"sha256":"984a33ff02cca37c95a795fe57190b568354cf0bf12e5704e48267ee01193210",
-"size":423444,
-"timestamp":1619169690557,
-"version":"1.0.5"
 },
 "sagemath-db-conway-polynomials-0.5.0-h4653dfc_1.tar.bz2":{
 "build":"h4653dfc_1",
