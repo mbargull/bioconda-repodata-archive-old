@@ -35778,6 +35778,82 @@
 "timestamp":1610107317500,
 "version":"0.1.1"
 },
+"httptools-0.2.0-py36h269c3a8_0.tar.bz2":{
+"build":"py36h269c3a8_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"MIT",
+"name":"httptools",
+"sha256":"8e43b221a4135bc22cf720b42814d4678974255ea2b1c0f71de51427c70b1942",
+"size":130805,
+"timestamp":1619272393034,
+"version":"0.2.0"
+},
+"httptools-0.2.0-py37h1283c21_0.tar.bz2":{
+"build":"py37h1283c21_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"MIT",
+"name":"httptools",
+"sha256":"70968bd4a9fb9dd3d716e5d2a73a5fe8546752885ac29a16b12e0e6a189c1bbf",
+"size":118836,
+"timestamp":1619272416762,
+"version":"0.2.0"
+},
+"httptools-0.2.0-py37hcd4c3ab_0.tar.bz2":{
+"build":"py37hcd4c3ab_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"MIT",
+"name":"httptools",
+"sha256":"97ea6b6beb3f08c46b0be211b7ecb0a01b8d56131df1a238af013de1cd383daf",
+"size":130586,
+"timestamp":1619272031711,
+"version":"0.2.0"
+},
+"httptools-0.2.0-py38h9544abe_0.tar.bz2":{
+"build":"py38h9544abe_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"httptools",
+"sha256":"b9a3e341377bcadd7cce097ed7161adbeb0d296961c0208671e7fcd4f9f9a0d1",
+"size":131556,
+"timestamp":1619272021539,
+"version":"0.2.0"
+},
+"httptools-0.2.0-py39h14843e3_0.tar.bz2":{
+"build":"py39h14843e3_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"httptools",
+"sha256":"906cfd98bc795845f4c17ce36e50140976c28a45e9ae95f36fbe08f9c32ad1d3",
+"size":130305,
+"timestamp":1619272029561,
+"version":"0.2.0"
+},
 "hub-2.14.2-hc7d050b_0.tar.bz2":{
 "build":"hc7d050b_0",
 "build_number":0,
@@ -87178,47 +87254,33 @@
 "timestamp":1598778369166,
 "version":"4.0.5"
 },
-"r-bitops-1.0_6-r36hcdcec82_1003.tar.bz2":{
-"build":"r36hcdcec82_1003",
-"build_number":1003,
+"r-bitops-1.0_7-r36h96a179c_0.tar.bz2":{
+"build":"r36h96a179c_0",
+"build_number":0,
 "depends":[
-"libgcc-ng >=7.3.0",
+"libgcc-ng >=9.3.0",
 "r-base >=3.6,<3.7.0a0"
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-bitops",
-"sha256":"501977e1ded692e0b07d7ff7c7e3ea916e03ddf3019921295c36589bd5522e34",
-"size":40192,
-"timestamp":1588061624655,
-"version":"1.0_6"
+"sha256":"050ad32598f30205867d9d91f56a8c328beaea1af309bec6760a387f0c2c1650",
+"size":44636,
+"timestamp":1619273532273,
+"version":"1.0_7"
 },
-"r-bitops-1.0_6-r36hcdcec82_1004.tar.bz2":{
-"build":"r36hcdcec82_1004",
-"build_number":1004,
+"r-bitops-1.0_7-r40h96a179c_0.tar.bz2":{
+"build":"r40h96a179c_0",
+"build_number":0,
 "depends":[
-"libgcc-ng >=7.3.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-bitops",
-"sha256":"e9ff5c8f70cf99604c63a714bb3fe32b5669ceb2969f05128b80c56a0ef434c9",
-"size":40240,
-"timestamp":1588353345046,
-"version":"1.0_6"
-},
-"r-bitops-1.0_6-r40hcdcec82_1004.tar.bz2":{
-"build":"r40hcdcec82_1004",
-"build_number":1004,
-"depends":[
-"libgcc-ng >=7.3.0",
+"libgcc-ng >=9.3.0",
 "r-base >=4.0,<4.1.0a0"
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-bitops",
-"sha256":"c5cac150b40946ba0fff52ae2ae6af97aea81d2aa11d01c3413413f2b00de40a",
-"size":40363,
-"timestamp":1588353345297,
-"version":"1.0_6"
+"sha256":"ad0a8141617c5d627848131a49be815990d364b4cedd175ec93595998852ab06",
+"size":44655,
+"timestamp":1619273068276,
+"version":"1.0_7"
 },
 "r-brio-1.1.2-r36h96a179c_0.tar.bz2":{
 "build":"r36h96a179c_0",
