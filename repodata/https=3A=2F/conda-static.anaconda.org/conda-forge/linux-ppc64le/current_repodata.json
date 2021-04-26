@@ -8561,85 +8561,30 @@
 "timestamp":1619355325347,
 "version":"2.5.6"
 },
-"astropy-4.2-py37h0630641_1.tar.bz2":{
-"build":"py37h0630641_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16",
-"numpy >=1.19.5,<2.0a0",
-"pyerfa",
-"pypy3.7 >=7.3.3",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"e6410857dfb3c2c8bcb165860b6cb8f4d2706117cc96cb26313bb66d1a68cca1",
-"size":7868244,
-"timestamp":1611182819690,
-"version":"4.2"
-},
-"astropy-4.2-py37h290ce0f_2.tar.bz2":{
-"build":"py37h290ce0f_2",
-"build_number":2,
+"astropy-4.2.1-py37h290ce0f_0.tar.bz2":{
+"build":"py37h290ce0f_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "numpy >=1.17",
 "numpy >=1.19.5,<2.0a0",
 "pyerfa",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"BSD-3-Clause",
 "name":"astropy",
-"sha256":"0e0888fdab9f33b939b4cb2fc05508b95c910f52508815a3d65dad26e265fba6",
-"size":7852859,
-"timestamp":1612734878998,
-"version":"4.2"
+"sha256":"9fd5c120bcb3a35449328138076448751d3ec4e279212271c6770012ffc87586",
+"size":7991874,
+"timestamp":1619469081504,
+"version":"4.2.1"
 },
-"astropy-4.2-py37h6642d69_0.tar.bz2":{
+"astropy-4.2.1-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"numpy >=1.16",
-"numpy >=1.19.4,<2.0a0",
-"pyerfa",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"232dcd2216a130ca71b300b616e18984ded7161d07ab58a0480d78a260c58a33",
-"size":7894186,
-"timestamp":1606675050997,
-"version":"4.2"
-},
-"astropy-4.2-py37h6642d69_1.tar.bz2":{
-"build":"py37h6642d69_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16",
-"numpy >=1.19.5,<2.0a0",
-"pyerfa",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"92a0135a331705d37c529a87d7f856231ff94c2770e89115f230608ab6f31d6d",
-"size":7893307,
-"timestamp":1610312661011,
-"version":"4.2"
-},
-"astropy-4.2-py37h6642d69_2.tar.bz2":{
-"build":"py37h6642d69_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
 "numpy >=1.17",
 "numpy >=1.17.5,<2.0a0",
 "pyerfa",
@@ -8648,52 +8593,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"astropy",
-"sha256":"08f94e0ce37fdd0d3c26bc62f07f289a6f1b3eefd10dfb84f58d29f541a16b32",
-"size":7983694,
-"timestamp":1612734806423,
-"version":"4.2"
+"sha256":"089e15f8bb08884563d8fa351d0e7efa308d3e6d6dcfe6d942323e32ad829f8b",
+"size":7947089,
+"timestamp":1619469041609,
+"version":"4.2.1"
 },
-"astropy-4.2-py38h98b8a6f_0.tar.bz2":{
+"astropy-4.2.1-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"numpy >=1.16",
-"numpy >=1.19.4,<2.0a0",
-"pyerfa",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"b2f7ac696a87711f71aa08e45a708e6215d034da81a0da427ddecb7a4025e5f0",
-"size":7914949,
-"timestamp":1606675043575,
-"version":"4.2"
-},
-"astropy-4.2-py38h98b8a6f_1.tar.bz2":{
-"build":"py38h98b8a6f_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16",
-"numpy >=1.19.5,<2.0a0",
-"pyerfa",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"741798d1baa8dcc75830d02e3614c923ffdde7c173be87672ea5062902e3226e",
-"size":7932949,
-"timestamp":1610312631271,
-"version":"4.2"
-},
-"astropy-4.2-py38h98b8a6f_2.tar.bz2":{
-"build":"py38h98b8a6f_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
 "numpy >=1.17",
 "numpy >=1.17.5,<2.0a0",
 "pyerfa",
@@ -8702,14 +8611,14 @@
 ],
 "license":"BSD-3-Clause",
 "name":"astropy",
-"sha256":"c87a30903038caa61c152265cb560a2ad8019b08f44f4ec9eb5d748e7d9210d8",
-"size":7974089,
-"timestamp":1612734805925,
-"version":"4.2"
+"sha256":"587eb4ee1e69d1f5421133555f57b9bd5bea3c85a9e75584c93354cd0702467e",
+"size":7938874,
+"timestamp":1619469039251,
+"version":"4.2.1"
 },
-"astropy-4.2-py39h50b74dd_2.tar.bz2":{
-"build":"py39h50b74dd_2",
-"build_number":2,
+"astropy-4.2.1-py39h50b74dd_0.tar.bz2":{
+"build":"py39h50b74dd_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "numpy >=1.17",
@@ -8720,46 +8629,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"astropy",
-"sha256":"fed16897d1e663e04d5fc2741f1ebf13f5d4a49d2ab28d81e78307d5ed38f739",
-"size":7938694,
-"timestamp":1612734803737,
-"version":"4.2"
-},
-"astropy-4.2-py39ha810350_0.tar.bz2":{
-"build":"py39ha810350_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16",
-"numpy >=1.19.4,<2.0a0",
-"pyerfa",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"460b667568c0442c80bb9a2a57a485101667414c3ee80604abf66de772a22f62",
-"size":7881356,
-"timestamp":1606675029496,
-"version":"4.2"
-},
-"astropy-4.2-py39ha810350_1.tar.bz2":{
-"build":"py39ha810350_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.16",
-"numpy >=1.19.5,<2.0a0",
-"pyerfa",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"b3bec48843b9fb0c23160afcef7b78a617fc0d1e0b2a06f61283860961cbff4b",
-"size":8005431,
-"timestamp":1610312663781,
-"version":"4.2"
+"sha256":"b4f48fb46530aa37905d64d900cbaabe4cf676fba1ee648749b82444954b5458",
+"size":7933897,
+"timestamp":1619469015338,
+"version":"4.2.1"
 },
 "astropy-healpix-0.5-py36h523ffd7_1.tar.bz2":{
 "build":"py36h523ffd7_1",
