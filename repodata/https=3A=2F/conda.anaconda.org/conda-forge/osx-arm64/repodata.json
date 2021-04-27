@@ -45994,6 +45994,21 @@
 "timestamp":1611038106457,
 "version":"3.0.3"
 },
+"mpi4py-3.0.3-py38hbcaf744_6.tar.bz2":{
+"build":"py38hbcaf744_6",
+"build_number":6,
+"depends":[
+"openmpi >=4.1,<4.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"26d9e301205494351cb6a9aa0cf40672821a8be057853e734c80a1d22a4b2223",
+"size":556194,
+"timestamp":1619540414711,
+"version":"3.0.3"
+},
 "mpi4py-3.0.3-py38he13af2c_2.tar.bz2":{
 "build":"py38he13af2c_2",
 "build_number":2,
@@ -46052,6 +46067,21 @@
 "sha256":"71bf6075464ef537948e5bb3e6c3699d63eb88a03fce7d6f1c3ca34983bb6e1b",
 "size":555456,
 "timestamp":1611038072810,
+"version":"3.0.3"
+},
+"mpi4py-3.0.3-py38hf5adb80_6.tar.bz2":{
+"build":"py38hf5adb80_6",
+"build_number":6,
+"depends":[
+"mpich >=3.4,<3.5.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"99471f2d8df2f1ea745fafad20ce94344fb7b17d21fe24217573315d39840d65",
+"size":555097,
+"timestamp":1619540240671,
 "version":"3.0.3"
 },
 "mpi4py-3.0.3-py39h5261f31_2.tar.bz2":{
@@ -46114,6 +46144,21 @@
 "timestamp":1611038111950,
 "version":"3.0.3"
 },
+"mpi4py-3.0.3-py39h5eed30b_6.tar.bz2":{
+"build":"py39h5eed30b_6",
+"build_number":6,
+"depends":[
+"openmpi >=4.1,<4.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"941204cc5c2c283d8ce34bc5007eafd91a05b12909129028bb083560c182d2d4",
+"size":551726,
+"timestamp":1619540201477,
+"version":"3.0.3"
+},
 "mpi4py-3.0.3-py39hcca3467_2.tar.bz2":{
 "build":"py39hcca3467_2",
 "build_number":2,
@@ -46172,6 +46217,21 @@
 "sha256":"af5eb76ddd1a51b3939cb02c820f77174d70d55a09d9a60e66d9270af043f786",
 "size":552407,
 "timestamp":1611038073873,
+"version":"3.0.3"
+},
+"mpi4py-3.0.3-py39hee4813e_6.tar.bz2":{
+"build":"py39hee4813e_6",
+"build_number":6,
+"depends":[
+"mpich >=3.4,<3.5.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"47c4af73803f24183ce60430589f3fbd8398ad55e90eb261e3153725cfd0e2a1",
+"size":551810,
+"timestamp":1619540226291,
 "version":"3.0.3"
 },
 "mpich-3.3.2-external_5.tar.bz2":{
@@ -71774,6 +71834,80 @@
 "sha256":"7fc637d9d2a84492310f91f2e019199e8c0f8b1602c2f480615b151f1adaa965",
 "size":525097,
 "timestamp":1618857338611,
+"version":"2.4.2"
+},
+"snowflake-connector-python-2.4.2-py38h3777fb4_1.tar.bz2":{
+"build":"py38h3777fb4_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.2"
+],
+"depends":[
+"arrow-cpp >=3.0.0,<3.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libcxx >=11.1.0",
+"oscrypto <2.0.0",
+"pyarrow >=3.0.0,<4.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<20.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"677b92970b690a29a1e869f29e1a1b5c4db3ee87b1066a9f754a0e38143304ad",
+"size":522870,
+"timestamp":1619538949859,
+"version":"2.4.2"
+},
+"snowflake-connector-python-2.4.2-py39h7f752ed_1.tar.bz2":{
+"build":"py39h7f752ed_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.2"
+],
+"depends":[
+"arrow-cpp >=3.0.0,<3.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libcxx >=11.1.0",
+"oscrypto <2.0.0",
+"pyarrow >=3.0.0,<4.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<20.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"9cdf47a6e1fb8be143c38516cc6d0ed8e86511356ca62e31f22de7af93d43800",
+"size":520850,
+"timestamp":1619539689857,
 "version":"2.4.2"
 },
 "spacy-2.3.5-py38h3578e97_1.tar.bz2":{
