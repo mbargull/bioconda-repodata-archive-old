@@ -45621,6 +45621,42 @@
 "timestamp":1619515016551,
 "version":"1.16.0"
 },
+"mlflow-1.16.0-py39h3c3ad29_0.tar.bz2":{
+"build":"py39h3c3ad29_0",
+"build_number":0,
+"constrains":[
+"mlflow-skinny <0a0"
+],
+"depends":[
+"alembic <=1.4.1",
+"click >=7.0",
+"cloudpickle",
+"databricks-cli >=0.8.7",
+"docker-py >=4.0.0",
+"entrypoints",
+"flask",
+"gitpython >=2.1.0",
+"gunicorn",
+"numpy",
+"pandas",
+"prometheus_flask_exporter",
+"protobuf >=3.6.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytz",
+"pyyaml",
+"querystring_parser",
+"requests >=2.17.3",
+"sqlalchemy",
+"sqlparse >=0.3.1"
+],
+"license":"Apache-2.0",
+"name":"mlflow",
+"requires":[],
+"size":4567159,
+"timestamp":1619515210916,
+"version":"1.16.0"
+},
 "mlflow-skinny-1.14.0-py38hd971646_1.tar.bz2":{
 "build":"py38hd971646_1",
 "build_number":1,
@@ -46052,6 +46088,21 @@
 "requires":[],
 "size":7646768,
 "timestamp":1619515047086,
+"version":"1.16.0"
+},
+"mlflow-ui-dbg-1.16.0-py39h850b689_0.tar.bz2":{
+"build":"py39h850b689_0",
+"build_number":0,
+"depends":[
+"mlflow 1.16.0 py39h3c3ad29_0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"mlflow-ui-dbg",
+"requires":[],
+"size":7652639,
+"timestamp":1619515244067,
 "version":"1.16.0"
 },
 "mlir-11.1.0-h666519e_0.tar.bz2":{
