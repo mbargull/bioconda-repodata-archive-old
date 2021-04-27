@@ -104797,11 +104797,11 @@
 "timestamp":1602538325445,
 "version":"1.2.0"
 },
-"snowflake-connector-python-2.4.2-py36h215fddc_0.tar.bz2":{
+"snowflake-connector-python-2.4.3-py36h215fddc_0.tar.bz2":{
 "build":"py36h215fddc_0",
 "build_number":0,
 "constrains":[
-"pandas >1,<1.2"
+"pandas >1,<1.3"
 ],
 "depends":[
 "arrow-cpp >=3.0.0,<3.0.1.0a0",
@@ -104822,7 +104822,7 @@
 "pyarrow >=3.0.0,<4.0a0",
 "pycryptodomex >=3.2,!=3.5.0,<4.0.0",
 "pyjwt <3.0.0",
-"pyopenssl >=16.2.0,<20.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
 "pytz <2021.0",
@@ -104831,55 +104831,16 @@
 ],
 "license":"Apache-2.0",
 "name":"snowflake-connector-python",
-"sha256":"d1e94ee824008afdfb1bb9d6e86fea8f951ae6063657b5db8ec7121a11c2e206",
-"size":705139,
-"timestamp":1618859037850,
-"version":"2.4.2"
+"sha256":"65291f24feb91fe85b3e11fd90768a11798ead02e814371f039bce324d25ab64",
+"size":710714,
+"timestamp":1619549535934,
+"version":"2.4.3"
 },
-"snowflake-connector-python-2.4.2-py36h215fddc_1.tar.bz2":{
-"build":"py36h215fddc_1",
-"build_number":1,
-"constrains":[
-"pandas >1,<1.2"
-],
-"depends":[
-"arrow-cpp >=3.0.0,<3.0.1.0a0",
-"asn1crypto >0.24.0,<2.0.0",
-"azure-common <2",
-"azure-storage-blob >=12.0.0,<13.0.0",
-"boto3 >=1.4.4,<2.0.0",
-"certifi <2021.0.0",
-"certifi >=2017.4.17",
-"cffi >=1.9,<2.0.0",
-"chardet >=3.0.2,<4",
-"cryptography >=2.5.0,<4.0.0",
-"dataclasses",
-"idna >=2.5,<3",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"oscrypto <2.0.0",
-"pyarrow >=3.0.0,<4.0a0",
-"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
-"pyjwt <3.0.0",
-"pyopenssl >=16.2.0,<20.0.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"pytz <2021.0",
-"requests <3.0.0",
-"setuptools >34.0.0"
-],
-"license":"Apache-2.0",
-"name":"snowflake-connector-python",
-"sha256":"c8447e77ac7a8ad5c6a76ced03ce62ff87f523063a5602b25d6894d81c790e52",
-"size":707829,
-"timestamp":1619539938035,
-"version":"2.4.2"
-},
-"snowflake-connector-python-2.4.2-py37ha200abb_0.tar.bz2":{
+"snowflake-connector-python-2.4.3-py37ha200abb_0.tar.bz2":{
 "build":"py37ha200abb_0",
 "build_number":0,
 "constrains":[
-"pandas >1,<1.2"
+"pandas >1,<1.3"
 ],
 "depends":[
 "arrow-cpp >=3.0.0,<3.0.1.0a0",
@@ -104899,7 +104860,7 @@
 "pyarrow >=3.0.0,<4.0a0",
 "pycryptodomex >=3.2,!=3.5.0,<4.0.0",
 "pyjwt <3.0.0",
-"pyopenssl >=16.2.0,<20.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
 "pytz <2021.0",
@@ -104908,54 +104869,16 @@
 ],
 "license":"Apache-2.0",
 "name":"snowflake-connector-python",
-"sha256":"621034a51b1b05b0fb19356096536225eca293293925b5558d33276d22e5d7dd",
-"size":701358,
-"timestamp":1618860015996,
-"version":"2.4.2"
+"sha256":"22f39e1b7b0c274f44e19a47a892997645a70b2866d5a46db5adf437fa3c2eb7",
+"size":723143,
+"timestamp":1619548772883,
+"version":"2.4.3"
 },
-"snowflake-connector-python-2.4.2-py37ha200abb_1.tar.bz2":{
-"build":"py37ha200abb_1",
-"build_number":1,
-"constrains":[
-"pandas >1,<1.2"
-],
-"depends":[
-"arrow-cpp >=3.0.0,<3.0.1.0a0",
-"asn1crypto >0.24.0,<2.0.0",
-"azure-common <2",
-"azure-storage-blob >=12.0.0,<13.0.0",
-"boto3 >=1.4.4,<2.0.0",
-"certifi <2021.0.0",
-"certifi >=2017.4.17",
-"cffi >=1.9,<2.0.0",
-"chardet >=3.0.2,<4",
-"cryptography >=2.5.0,<4.0.0",
-"idna >=2.5,<3",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"oscrypto <2.0.0",
-"pyarrow >=3.0.0,<4.0a0",
-"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
-"pyjwt <3.0.0",
-"pyopenssl >=16.2.0,<20.0.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"pytz <2021.0",
-"requests <3.0.0",
-"setuptools >34.0.0"
-],
-"license":"Apache-2.0",
-"name":"snowflake-connector-python",
-"sha256":"27454a99688e4b7813e11bf05a3ffaa07676672edc73402c75d5ab7f858bc984",
-"size":695028,
-"timestamp":1619539465121,
-"version":"2.4.2"
-},
-"snowflake-connector-python-2.4.2-py38hf2e80fd_0.tar.bz2":{
+"snowflake-connector-python-2.4.3-py38hf2e80fd_0.tar.bz2":{
 "build":"py38hf2e80fd_0",
 "build_number":0,
 "constrains":[
-"pandas >1,<1.2"
+"pandas >1,<1.3"
 ],
 "depends":[
 "arrow-cpp >=3.0.0,<3.0.1.0a0",
@@ -104975,7 +104898,7 @@
 "pyarrow >=3.0.0,<4.0a0",
 "pycryptodomex >=3.2,!=3.5.0,<4.0.0",
 "pyjwt <3.0.0",
-"pyopenssl >=16.2.0,<20.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "pytz <2021.0",
@@ -104984,16 +104907,16 @@
 ],
 "license":"Apache-2.0",
 "name":"snowflake-connector-python",
-"sha256":"d7ae95224390924ba984bc566ca9ee84ceced5ce74ba8e33e62c025ed54a65a4",
-"size":715357,
-"timestamp":1618859993116,
-"version":"2.4.2"
+"sha256":"f672e7dedade3a5be084cbbee2da83aac787b839c5957d6fb03503d48aa5f724",
+"size":726190,
+"timestamp":1619548821954,
+"version":"2.4.3"
 },
-"snowflake-connector-python-2.4.2-py38hf2e80fd_1.tar.bz2":{
-"build":"py38hf2e80fd_1",
-"build_number":1,
+"snowflake-connector-python-2.4.3-py39h7b4a2eb_0.tar.bz2":{
+"build":"py39h7b4a2eb_0",
+"build_number":0,
 "constrains":[
-"pandas >1,<1.2"
+"pandas >1,<1.3"
 ],
 "depends":[
 "arrow-cpp >=3.0.0,<3.0.1.0a0",
@@ -105013,45 +104936,7 @@
 "pyarrow >=3.0.0,<4.0a0",
 "pycryptodomex >=3.2,!=3.5.0,<4.0.0",
 "pyjwt <3.0.0",
-"pyopenssl >=16.2.0,<20.0.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pytz <2021.0",
-"requests <3.0.0",
-"setuptools >34.0.0"
-],
-"license":"Apache-2.0",
-"name":"snowflake-connector-python",
-"sha256":"6ddfdb186fbf25976e1a33ac988e952a1af43d716ed0fe938819bbef2191779b",
-"size":709684,
-"timestamp":1619539978565,
-"version":"2.4.2"
-},
-"snowflake-connector-python-2.4.2-py39h7b4a2eb_1.tar.bz2":{
-"build":"py39h7b4a2eb_1",
-"build_number":1,
-"constrains":[
-"pandas >1,<1.2"
-],
-"depends":[
-"arrow-cpp >=3.0.0,<3.0.1.0a0",
-"asn1crypto >0.24.0,<2.0.0",
-"azure-common <2",
-"azure-storage-blob >=12.0.0,<13.0.0",
-"boto3 >=1.4.4,<2.0.0",
-"certifi <2021.0.0",
-"certifi >=2017.4.17",
-"cffi >=1.9,<2.0.0",
-"chardet >=3.0.2,<4",
-"cryptography >=2.5.0,<4.0.0",
-"idna >=2.5,<3",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"oscrypto <2.0.0",
-"pyarrow >=3.0.0,<4.0a0",
-"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
-"pyjwt <3.0.0",
-"pyopenssl >=16.2.0,<20.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "pytz <2021.0",
@@ -105060,10 +104945,10 @@
 ],
 "license":"Apache-2.0",
 "name":"snowflake-connector-python",
-"sha256":"e85b8946c7e1aaa706fbcb2991c411eb1c0ee8b2aa5dd7d174fb558476e74e1b",
-"size":721387,
-"timestamp":1619540532015,
-"version":"2.4.2"
+"sha256":"33e71dbd64278a82a56aee7afc907d4938ef1ef1660c8588c3056a1ca24f36ef",
+"size":729798,
+"timestamp":1619548889898,
+"version":"2.4.3"
 },
 "soupsieve-2.0.1-py36h9f0ad1d_0.tar.bz2":{
 "build":"py36h9f0ad1d_0",
