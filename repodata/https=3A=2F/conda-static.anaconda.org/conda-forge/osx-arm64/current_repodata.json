@@ -5625,6 +5625,30 @@
 "timestamp":1615573264824,
 "version":"0.5.3"
 },
+"coin-or-utils-2.11.4-h8c5c8f5_1.tar.bz2":{
+"build":"h8c5c8f5_1",
+"build_number":1,
+"constrains":[
+"coincbc * *_metapackage"
+],
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack >=3.9.0,<4.0a0",
+"liblapacke >=3.9.0,<4.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"EPL-2.0",
+"name":"coin-or-utils",
+"sha256":"fa894dffc55f7a5bb4167ecd023a8b88e20fdb92f6482b18dd4868110c103b31",
+"size":632981,
+"timestamp":1619694948514,
+"version":"2.11.4"
+},
 "colorlog-5.0.1-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -30322,7 +30346,7 @@
 "timestamp":1610083966882,
 "version":"49.6.0"
 },
-"shap-0.38.0-py38h3777fb4_0.tar.bz2":{
+"shap-0.38.1-py38h3777fb4_0.tar.bz2":{
 "build":"py38h3777fb4_0",
 "build_number":0,
 "depends":[
@@ -30342,10 +30366,35 @@
 ],
 "license":"MIT",
 "name":"shap",
-"sha256":"9fc872fc58076557209fa1607bdfa03585e1f27987eceecdf2e55c0c52ef9b61",
-"size":563534,
-"timestamp":1619691706200,
-"version":"0.38.0"
+"sha256":"56f87e17d3b1e27c83d4e2caf963a31fc541969f7930648c9a1a3fca261b7826",
+"size":547168,
+"timestamp":1619695189419,
+"version":"0.38.1"
+},
+"shap-0.38.1-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"ipython",
+"libcxx >=11.1.0",
+"matplotlib-base",
+"numba",
+"numpy",
+"pandas",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scikit-image",
+"scikit-learn",
+"scipy",
+"slicer 0.0.7.*",
+"tqdm >4.25.0"
+],
+"license":"MIT",
+"name":"shap",
+"sha256":"0412692443ede7f85a50fe9629e24ee026b57262355237ba38a03a0d95db82f0",
+"size":541183,
+"timestamp":1619695186356,
+"version":"0.38.1"
 },
 "simplejson-3.17.2-py38h30f7421_1.tar.bz2":{
 "build":"py38h30f7421_1",
