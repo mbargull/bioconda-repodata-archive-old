@@ -49549,6 +49549,21 @@
 "timestamp":1618059000145,
 "version":"2.2.1"
 },
+"onednn-2.2.2-tbb_hb6067a2_0.tar.bz2":{
+"build":"tbb_hb6067a2_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"requires":[],
+"size":3529165,
+"timestamp":1619681038728,
+"version":"2.2.2"
+},
 "onednn-cpu-tbb-2.2-tbb_hce30654_0.tar.bz2":{
 "build":"tbb_hce30654_0",
 "build_number":0,
@@ -49574,6 +49589,19 @@
 "size":8222,
 "timestamp":1618059012936,
 "version":"2.2.1"
+},
+"onednn-cpu-tbb-2.2.2-tbb_hce30654_0.tar.bz2":{
+"build":"tbb_hce30654_0",
+"build_number":0,
+"depends":[
+"onednn 2.2.2 tbb_hb6067a2_0"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-tbb",
+"requires":[],
+"size":8253,
+"timestamp":1619681053408,
+"version":"2.2.2"
 },
 "oniguruma-6.9.3-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
