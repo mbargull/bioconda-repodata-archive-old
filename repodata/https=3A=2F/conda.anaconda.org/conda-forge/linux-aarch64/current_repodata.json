@@ -14763,13 +14763,13 @@
 "timestamp":1605225031180,
 "version":"1.22"
 },
-"cmake-3.20.1-h4bdbfb5_0.tar.bz2":{
+"cmake-3.20.2-h4bdbfb5_0.tar.bz2":{
 "build":"h4bdbfb5_0",
 "build_number":0,
 "depends":[
 "bzip2 >=1.0.8,<2.0a0",
 "expat >=2.3.0,<3.0a0",
-"libcurl >=7.76.0,<8.0a0",
+"libcurl >=7.76.1,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "libuv",
@@ -14781,10 +14781,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"cmake",
-"sha256":"459ddbfdc5f06e4204dfcb9e4ed5ed87c1fe8e3bbac8fd336e28fbed407d08cd",
-"size":14832787,
-"timestamp":1617910081205,
-"version":"3.20.1"
+"sha256":"6a14a3fac8fccf5178fa2dd0e716f98052644bd50c45d2fe1bd77d4d75213a3c",
+"size":14869415,
+"timestamp":1619719969868,
+"version":"3.20.2"
 },
 "cmake-no-system-3.16.5-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
@@ -63966,245 +63966,106 @@
 "timestamp":1598817696814,
 "version":"2.4.52"
 },
-"openmm-7.5.0-py36h27f9790_5.tar.bz2":{
-"build":"py36h27f9790_5",
-"build_number":5,
+"openmm-7.5.1-py36h98525e9_0.tar.bz2":{
+"build":"py36h98525e9_0",
+"build_number":0,
 "depends":[
 "fftw >=3.3.9,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
 "numpy",
-"ocl-icd >=2.2.14,<3.0a0",
+"ocl-icd >=2.3.0,<3.0a0",
 "ocl-icd-system",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"openmm",
-"sha256":"ff38274ed02c6590d74bd52be4e39190bd8806ccadef36b8638b13464d328731",
-"size":10139951,
-"timestamp":1611304557202,
-"version":"7.5.0"
+"sha256":"d975b9d22db31a964e99bc5f8787ac3ccf74225c41a42640bed540ace46b8aa9",
+"size":9944133,
+"timestamp":1619718102641,
+"version":"7.5.1"
 },
-"openmm-7.5.0-py36h27f9790_6.tar.bz2":{
-"build":"py36h27f9790_6",
-"build_number":6,
+"openmm-7.5.1-py37h78988cf_0.tar.bz2":{
+"build":"py37h78988cf_0",
+"build_number":0,
 "depends":[
 "fftw >=3.3.9,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"numpy",
-"ocl-icd >=2.2.14,<3.0a0",
-"ocl-icd-system",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"a30db1015f55de280929266303f0e3b08d451ad9271a01e3fb8443deb02cb494",
-"size":10121902,
-"timestamp":1613570820692,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py36h845b816_4.tar.bz2":{
-"build":"py36h845b816_4",
-"build_number":4,
-"depends":[
-"fftw >=3.3.8,<4.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy",
-"ocl-icd >=2.2.13,<3.0a0",
+"ocl-icd >=2.3.0,<3.0a0",
 "ocl-icd-system",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"openmm",
-"sha256":"d4e3e3bf6758970a01d53173e1312d1a0c8f9b3a88bb0b2d6a7ccf1f23bcc0a4",
-"size":9938813,
-"timestamp":1607620149152,
-"version":"7.5.0"
+"sha256":"d4deb6be190b1faea2db8eba2ef8c48c2440a6a5fda5b0db18efb84cc89286db",
+"size":9976149,
+"timestamp":1619717250952,
+"version":"7.5.1"
 },
-"openmm-7.5.0-py37h20bd923_5.tar.bz2":{
-"build":"py37h20bd923_5",
-"build_number":5,
+"openmm-7.5.1-py37h9eb491c_0.tar.bz2":{
+"build":"py37h9eb491c_0",
+"build_number":0,
 "depends":[
 "fftw >=3.3.9,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
 "numpy",
-"ocl-icd >=2.2.14,<3.0a0",
+"ocl-icd >=2.3.0,<3.0a0",
 "ocl-icd-system",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"openmm",
-"sha256":"0cb54c32aa09b88cd259f435a08c0ddbcb66543dd0fe3ccad16df445cebeb6df",
-"size":10164772,
-"timestamp":1611305392485,
-"version":"7.5.0"
+"sha256":"b0da70a96337e0a1497ef2d42cc2c9ee3271dfd625b4df4d708c474bfb5bfcb1",
+"size":9907311,
+"timestamp":1619718131376,
+"version":"7.5.1"
 },
-"openmm-7.5.0-py37h20bd923_6.tar.bz2":{
-"build":"py37h20bd923_6",
-"build_number":6,
+"openmm-7.5.1-py38h62e8dde_0.tar.bz2":{
+"build":"py38h62e8dde_0",
+"build_number":0,
 "depends":[
 "fftw >=3.3.9,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"numpy",
-"ocl-icd >=2.2.14,<3.0a0",
-"ocl-icd-system",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"8a71cbf13cf13acf504fb782fdf6c077ae0f5e998ff0e8812fe19f63c6344995",
-"size":10132929,
-"timestamp":1613570009415,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py37h366a670_4.tar.bz2":{
-"build":"py37h366a670_4",
-"build_number":4,
-"depends":[
-"fftw >=3.3.8,<4.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy",
-"ocl-icd >=2.2.13,<3.0a0",
-"ocl-icd-system",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"f006509e6a87fdc66ff6724fe3abdf820377fd488be71a0313eab8cbad02440d",
-"size":9916943,
-"timestamp":1607620841781,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py38h80f425c_5.tar.bz2":{
-"build":"py38h80f425c_5",
-"build_number":5,
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"numpy",
-"ocl-icd >=2.2.14,<3.0a0",
+"ocl-icd >=2.3.0,<3.0a0",
 "ocl-icd-system",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"openmm",
-"sha256":"73d617b14336f9d9ddfcb77d79aa030d93ad5a32ed8f60a65f961de934068a18",
-"size":10195530,
-"timestamp":1611305341824,
-"version":"7.5.0"
+"sha256":"1c50fc8f5b0dc090aa130869d582491ff08be7faa1df4d1e5de985f4b1a722a0",
+"size":9944047,
+"timestamp":1619717216285,
+"version":"7.5.1"
 },
-"openmm-7.5.0-py38h80f425c_6.tar.bz2":{
-"build":"py38h80f425c_6",
-"build_number":6,
+"openmm-7.5.1-py39h85abb0c_0.tar.bz2":{
+"build":"py39h85abb0c_0",
+"build_number":0,
 "depends":[
 "fftw >=3.3.9,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"numpy",
-"ocl-icd >=2.2.14,<3.0a0",
-"ocl-icd-system",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"7adfc2b86723f257231fa66bd966504d5f154b556ffdf9034b0a65c6c1ab59af",
-"size":10155062,
-"timestamp":1613570791772,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py38hc63fd3b_4.tar.bz2":{
-"build":"py38hc63fd3b_4",
-"build_number":4,
-"depends":[
-"fftw >=3.3.8,<4.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy",
-"ocl-icd >=2.2.13,<3.0a0",
-"ocl-icd-system",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"9cb6d3d9a3110c31a4666d787b3dc1efe9a03977f9fa8392e54d36a857f9d50c",
-"size":9942988,
-"timestamp":1607620162722,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py39h85abb0c_4.tar.bz2":{
-"build":"py39h85abb0c_4",
-"build_number":4,
-"depends":[
-"fftw >=3.3.8,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy",
-"ocl-icd >=2.2.13,<3.0a0",
+"ocl-icd >=2.3.0,<3.0a0",
 "ocl-icd-system",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"openmm",
-"sha256":"0102423bac59dbd6481af7efecc9ad8366763d3f93ef92e0179afac1ff5106fc",
-"size":9923240,
-"timestamp":1607620798278,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py39hd36249d_5.tar.bz2":{
-"build":"py39hd36249d_5",
-"build_number":5,
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"numpy",
-"ocl-icd >=2.2.14,<3.0a0",
-"ocl-icd-system",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"8fb46d3dd003d2e5ec236574aa136d6a387f0387ab20adf4b55b5e18628aa357",
-"size":10092292,
-"timestamp":1611305326506,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py39hd36249d_6.tar.bz2":{
-"build":"py39hd36249d_6",
-"build_number":6,
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"numpy",
-"ocl-icd >=2.2.14,<3.0a0",
-"ocl-icd-system",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"00ee8c30b1a6d8977cc3e4c6c0eb18ac3c94e853ee812c37a3b27640d8dd3e00",
-"size":10142371,
-"timestamp":1613570809200,
-"version":"7.5.0"
+"sha256":"ccd4500ce8cc50145f3c71949a1f5bc51f54ed69eccff5a34466ee534d408a77",
+"size":9974914,
+"timestamp":1619718125937,
+"version":"7.5.1"
 },
 "openmpi-4.1.1-h0e8a5b7_0.tar.bz2":{
 "build":"h0e8a5b7_0",
@@ -94310,7 +94171,7 @@
 "timestamp":1588365341721,
 "version":"0.1_4"
 },
-"r-vctrs-0.3.6-r36h96a179c_0.tar.bz2":{
+"r-vctrs-0.3.8-r36h96a179c_0.tar.bz2":{
 "build":"r36h96a179c_0",
 "build_number":0,
 "depends":[
@@ -94325,12 +94186,12 @@
 ],
 "license":"GPL-3.0-only",
 "name":"r-vctrs",
-"sha256":"9ebc5b9f901636a4863e5bd39b203cbd2cd26bc8644ed00262d6e2c371942ec5",
-"size":1117455,
-"timestamp":1608207070458,
-"version":"0.3.6"
+"sha256":"abb3d76055149cde2bfa6c48be34bbd84594c72008d662f09d1d7f739151443a",
+"size":1122825,
+"timestamp":1619718994978,
+"version":"0.3.8"
 },
-"r-vctrs-0.3.6-r40h96a179c_0.tar.bz2":{
+"r-vctrs-0.3.8-r40h96a179c_0.tar.bz2":{
 "build":"r40h96a179c_0",
 "build_number":0,
 "depends":[
@@ -94345,10 +94206,10 @@
 ],
 "license":"GPL-3.0-only",
 "name":"r-vctrs",
-"sha256":"06d1abe3857865a9e129215b2274b88fc1c86c8b7072c990a89ba0920e2169b2",
-"size":1138102,
-"timestamp":1608206579332,
-"version":"0.3.6"
+"sha256":"341f649bb654e6a4a8f28abceeecd079cb499453b7e42dbe5daefcd845d4d82a",
+"size":1146592,
+"timestamp":1619719492201,
+"version":"0.3.8"
 },
 "r-xfun-0.20-r36h96a179c_0.tar.bz2":{
 "build":"r36h96a179c_0",
