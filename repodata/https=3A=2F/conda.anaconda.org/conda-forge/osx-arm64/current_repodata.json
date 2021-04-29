@@ -5576,13 +5576,13 @@
 "timestamp":1605225163641,
 "version":"1.22"
 },
-"cmake-3.20.1-h748e51f_0.tar.bz2":{
+"cmake-3.20.2-h748e51f_0.tar.bz2":{
 "build":"h748e51f_0",
 "build_number":0,
 "depends":[
 "bzip2 >=1.0.8,<2.0a0",
 "expat >=2.3.0,<3.0a0",
-"libcurl >=7.76.0,<8.0a0",
+"libcurl >=7.76.1,<8.0a0",
 "libcxx >=11.1.0",
 "libuv",
 "ncurses >=6.2,<6.3.0a0",
@@ -5593,10 +5593,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"cmake",
-"sha256":"675f1f247ef22eeaf5173f93243c742c08a959236fe8cf0ad4845c36e7cc3d3f",
-"size":13270768,
-"timestamp":1617910750407,
-"version":"3.20.1"
+"sha256":"ce910954e5f6ec2c4781c69df9f6a1e622f60c6f9e92ce4453acfeb06c542490",
+"size":13300324,
+"timestamp":1619720952352,
+"version":"3.20.2"
 },
 "cmake-no-system-3.16.5-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
@@ -7300,7 +7300,7 @@
 "timestamp":1605238316947,
 "version":"7.0.4"
 },
-"econml-0.9.1-py38h3777fb4_0.tar.bz2":{
+"econml-0.9.2-py38h3777fb4_0.tar.bz2":{
 "build":"py38h3777fb4_0",
 "build_number":0,
 "depends":[
@@ -7321,10 +7321,36 @@
 ],
 "license":"BSD-3-Clause",
 "name":"econml",
-"sha256":"3f090214a32f9c1e2df7a10f078d24cc7c62442a9be5e8291d8fe63d2260b766",
-"size":723884,
-"timestamp":1619713706283,
-"version":"0.9.1"
+"sha256":"0af9dff0d362a06f2039bf72652cabd2420dc45927ca0761e7028654dc46510b",
+"size":744898,
+"timestamp":1619723436421,
+"version":"0.9.2"
+},
+"econml-0.9.2-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"dowhy",
+"joblib >=0.13.0",
+"libcxx >=11.1.0",
+"numba !=0.42.1",
+"numpy",
+"pandas",
+"python >=3.9,<3.10.0a0",
+"python-graphviz",
+"python_abi 3.9.* *_cp39",
+"scikit-learn >=0.24",
+"scipy >1.4.0",
+"shap 0.38.1.*",
+"sparse",
+"statsmodels >=0.9"
+],
+"license":"BSD-3-Clause",
+"name":"econml",
+"sha256":"623f98b252190afe76eb6cae8d2f4f1df5c21629b88a6047a905970dba23721e",
+"size":750848,
+"timestamp":1619723598751,
+"version":"0.9.2"
 },
 "ecos-2.0.8-py38h691f20f_0.tar.bz2":{
 "build":"py38h691f20f_0",
