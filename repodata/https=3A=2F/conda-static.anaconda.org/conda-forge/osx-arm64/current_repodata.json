@@ -7273,6 +7273,32 @@
 "timestamp":1605238316947,
 "version":"7.0.4"
 },
+"econml-0.9.0-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"dowhy",
+"joblib >=0.13.0",
+"libcxx >=11.1.0",
+"numba !=0.42.1",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python-graphviz",
+"python_abi 3.8.* *_cp38",
+"scikit-learn >=0.24",
+"scipy >1.4.0",
+"shap ~=0.38.1",
+"sparse",
+"statsmodels >=0.9"
+],
+"license":"Apache-2.0",
+"name":"econml",
+"sha256":"481c248bd5ec9ff6a6feac3e35f3b43d17cb481aa6065056b87cc2a2385a4580",
+"size":751565,
+"timestamp":1619707368789,
+"version":"0.9.0"
+},
 "ecos-2.0.8-py38h691f20f_0.tar.bz2":{
 "build":"py38h691f20f_0",
 "build_number":0,
@@ -30456,6 +30482,56 @@
 "size":961404,
 "timestamp":1610083966882,
 "version":"49.6.0"
+},
+"shap-0.38.1-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"ipython",
+"libcxx >=11.1.0",
+"matplotlib-base",
+"numba",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scikit-image",
+"scikit-learn",
+"scipy",
+"slicer 0.0.7.*",
+"tqdm >4.25.0"
+],
+"license":"MIT",
+"name":"shap",
+"sha256":"56f87e17d3b1e27c83d4e2caf963a31fc541969f7930648c9a1a3fca261b7826",
+"size":547168,
+"timestamp":1619695189419,
+"version":"0.38.1"
+},
+"shap-0.38.1-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"ipython",
+"libcxx >=11.1.0",
+"matplotlib-base",
+"numba",
+"numpy",
+"pandas",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scikit-image",
+"scikit-learn",
+"scipy",
+"slicer 0.0.7.*",
+"tqdm >4.25.0"
+],
+"license":"MIT",
+"name":"shap",
+"sha256":"0412692443ede7f85a50fe9629e24ee026b57262355237ba38a03a0d95db82f0",
+"size":541183,
+"timestamp":1619695186356,
+"version":"0.38.1"
 },
 "shap-0.39.0-py38h3777fb4_0.tar.bz2":{
 "build":"py38h3777fb4_0",
