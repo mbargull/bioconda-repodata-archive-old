@@ -9800,6 +9800,19 @@
 "timestamp":1614898320946,
 "version":"0.5.2"
 },
+"aws-c-common-0.5.6-h4e0d66e_0.tar.bz2":{
+"build":"h4e0d66e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"6b70aefd56466c3462fe8088f62cdd06bd9fc5530dee5e9958ed3980eb13c294",
+"size":177430,
+"timestamp":1619818483462,
+"version":"0.5.6"
+},
 "aws-c-event-stream-0.2.7-h421232b_1.tar.bz2":{
 "build":"h421232b_1",
 "build_number":1,
@@ -39673,7 +39686,7 @@
 "timestamp":1572838303070,
 "version":"2.6.1"
 },
-"iminuit-2.4.0-py36h08d3667_0.tar.bz2":{
+"iminuit-2.5.0-py36h08d3667_0.tar.bz2":{
 "build":"py36h08d3667_0",
 "build_number":0,
 "depends":[
@@ -39685,12 +39698,12 @@
 ],
 "license":"LGPL-2.0-or-later",
 "name":"iminuit",
-"sha256":"4be0e856fd0f5bbbd59cdbbbbc038932d3bcae367dc1b14baa1184e62e0b4966",
-"size":353205,
-"timestamp":1613009528110,
-"version":"2.4.0"
+"sha256":"a83d8733a8c7f2274c89168c70aea82feedb5e0dcce975b2317de23d0fc27cf6",
+"size":350289,
+"timestamp":1619821091371,
+"version":"2.5.0"
 },
-"iminuit-2.4.0-py36hdee431b_0.tar.bz2":{
+"iminuit-2.5.0-py36hdee431b_0.tar.bz2":{
 "build":"py36hdee431b_0",
 "build_number":0,
 "depends":[
@@ -39703,79 +39716,28 @@
 ],
 "license":"LGPL-2.0-or-later",
 "name":"iminuit",
-"sha256":"1b4b85182c958c9706bfd362fb553539f497b23af605cbdb9570229bda0ef699",
-"size":342919,
-"timestamp":1613009504665,
-"version":"2.4.0"
+"sha256":"340e1e55a22cb445c6315a796cd4dbb1b31326925dac25cf91038dfce49fb392",
+"size":344335,
+"timestamp":1619821014735,
+"version":"2.5.0"
 },
-"iminuit-2.4.0-py37hc9b93fd_0.tar.bz2":{
-"build":"py37hc9b93fd_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"LGPL-2.0-or-later",
-"name":"iminuit",
-"sha256":"169d0a77584fb6973944749de8bac503e78bb989caa769818267283d3f3172bd",
-"size":342202,
-"timestamp":1613009546854,
-"version":"2.4.0"
-},
-"iminuit-2.4.0-py37hfc837b7_0.tar.bz2":{
+"iminuit-2.5.0-py37hfc837b7_0.tar.bz2":{
 "build":"py37hfc837b7_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"LGPL-2.0-or-later",
 "name":"iminuit",
-"sha256":"698864410f619acc16ccd64c9f10fbe368edec19c68bbbd2a7231535f2337bbb",
-"size":339777,
-"timestamp":1613009495299,
-"version":"2.4.0"
-},
-"iminuit-2.4.0-py38ha35a538_0.tar.bz2":{
-"build":"py38ha35a538_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"LGPL-2.0-or-later",
-"name":"iminuit",
-"sha256":"9eac1304317db59c2df9c3bdd5e026d058d2834e7350b66a0b5f985781180b3a",
-"size":338104,
-"timestamp":1613009534329,
-"version":"2.4.0"
-},
-"iminuit-2.4.0-py39had50986_0.tar.bz2":{
-"build":"py39had50986_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-2.0-or-later",
-"name":"iminuit",
-"sha256":"9a53182e1d14d5d0aa8c0c4f862092e87f65a6cf15624ae508a128407f02c8d5",
-"size":338206,
-"timestamp":1613010973728,
-"version":"2.4.0"
+"sha256":"682a4cf6a1ce77700e1d8fa1c70fcfaa126f2ea2d272e72f42f7427477ca8b98",
+"size":345073,
+"timestamp":1619821064209,
+"version":"2.5.0"
 },
 "iml-1.0.5-h13e8a9d_1002.tar.bz2":{
 "build":"h13e8a9d_1002",
@@ -91986,6 +91948,22 @@
 "sha256":"1f24e8cb07c6b65aad2d4038b1f58d3ae1c5bea4c0a248196178900c9a52601a",
 "size":1331048,
 "timestamp":1619817274376,
+"version":"1.4.4"
+},
+"r-openssl-1.4.4-r40h771793e_0.tar.bz2":{
+"build":"r40h771793e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"r-askpass",
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"MIT",
+"name":"r-openssl",
+"sha256":"a8f1db4633ac5072e6a93802250928d9b33d1cb8b1d2ae1c26df36949837fe1c",
+"size":1376060,
+"timestamp":1619817823881,
 "version":"1.4.4"
 },
 "r-openxlsx-4.2.3-r36h3903f03_0.tar.bz2":{
