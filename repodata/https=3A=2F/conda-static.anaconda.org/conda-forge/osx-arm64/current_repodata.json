@@ -20988,91 +20988,30 @@
 "timestamp":1610761373816,
 "version":"2.4.52"
 },
-"openmm-7.5.0-py38h30dc6d2_5_khronos.tar.bz2":{
-"build":"py38h30dc6d2_5_khronos",
-"build_number":5,
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"khronos-opencl-icd-loader >=2020.12.18",
-"libcxx >=11.0.0",
-"numpy",
-"ocl_icd_wrapper_apple",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"514cfe9377a6ce454f8adda09d91594cf4a46963571555263da50fc7182f8da7",
-"size":15264729,
-"timestamp":1611305189876,
-"track_features":"openmm_opencl_khronos",
-"version":"7.5.0"
-},
-"openmm-7.5.0-py38h30dc6d2_6_khronos.tar.bz2":{
-"build":"py38h30dc6d2_6_khronos",
-"build_number":6,
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"khronos-opencl-icd-loader >=2020.12.18",
-"libcxx >=11.0.1",
-"numpy",
-"ocl_icd_wrapper_apple",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"46be83d31018e98f0d04e155f6681d089a279a99c94b4795e71a34bb17e99e7b",
-"size":15353928,
-"timestamp":1613571039264,
-"track_features":"openmm_opencl_khronos",
-"version":"7.5.0"
-},
-"openmm-7.5.0-py38h924a75a_5_apple.tar.bz2":{
-"build":"py38h924a75a_5_apple",
-"build_number":5,
+"openmm-7.5.1-py38h16587b9_0_apple.tar.bz2":{
+"build":"py38h16587b9_0_apple",
+"build_number":0,
 "constrains":[
 "khronos-opencl-icd-loader  ==9999999999",
 "ocl_icd_wrapper_apple      ==9999999999"
 ],
 "depends":[
 "fftw >=3.3.9,<4.0a0",
-"libcxx >=11.0.0",
+"libcxx >=11.1.0",
 "numpy",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"openmm",
-"sha256":"73730c6850982f335cc97daa1882ac9a7abe78cd601259901ff1ed66e98b5e87",
-"size":15298196,
-"timestamp":1611305518224,
-"version":"7.5.0"
+"sha256":"e1696eabbf7988fe1f1bb670138124b71a17ce1725952b656dceaaf67ed4af6c",
+"size":15378764,
+"timestamp":1619769162453,
+"version":"7.5.1"
 },
-"openmm-7.5.0-py38h924a75a_6_apple.tar.bz2":{
-"build":"py38h924a75a_6_apple",
-"build_number":6,
-"constrains":[
-"ocl_icd_wrapper_apple      ==9999999999",
-"khronos-opencl-icd-loader  ==9999999999"
-],
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"libcxx >=11.0.1",
-"numpy",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"937af0e0f1091adef46558655f159a6a7496127dee54a84bfb66032e33a3d5db",
-"size":15289658,
-"timestamp":1613571085166,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py38hc785a2f_6_khronos.tar.bz2":{
-"build":"py38hc785a2f_6_khronos",
-"build_number":6,
+"openmm-7.5.1-py38h7e504e9_0_khronos.tar.bz2":{
+"build":"py38h7e504e9_0_khronos",
+"build_number":0,
 "depends":[
 "fftw >=3.3.9,<4.0a0",
 "khronos-opencl-icd-loader >=2020.12.18",
@@ -21084,15 +21023,35 @@
 ],
 "license":"LGPL-3.0-or-later",
 "name":"openmm",
-"sha256":"0bbd6bd128e137cec25f281508854402ab04556b9bd51a7e37c35464299de246",
-"size":15326063,
-"timestamp":1617183861152,
+"sha256":"8950ea513438ad349cf30d0fbf2c85acb858e938606167d14d251f0057135590",
+"size":15292761,
+"timestamp":1619769192226,
 "track_features":"openmm_opencl_khronos",
-"version":"7.5.0"
+"version":"7.5.1"
 },
-"openmm-7.5.0-py38he9b6564_6_apple.tar.bz2":{
-"build":"py38he9b6564_6_apple",
-"build_number":6,
+"openmm-7.5.1-py39h9d5585d_0_khronos.tar.bz2":{
+"build":"py39h9d5585d_0_khronos",
+"build_number":0,
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"numpy",
+"ocl_icd_wrapper_apple",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openmm",
+"sha256":"baf139c20b07714dd723b310d97f27c848ca434257b221422823a4b229b81382",
+"size":15309954,
+"timestamp":1619769121075,
+"track_features":"openmm_opencl_khronos",
+"version":"7.5.1"
+},
+"openmm-7.5.1-py39hce39229_0_apple.tar.bz2":{
+"build":"py39hce39229_0_apple",
+"build_number":0,
 "constrains":[
 "ocl_icd_wrapper_apple      ==9999999999",
 "khronos-opencl-icd-loader  ==9999999999"
@@ -21101,138 +21060,15 @@
 "fftw >=3.3.9,<4.0a0",
 "libcxx >=11.1.0",
 "numpy",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"e19fddebfa582093ed3a2cf8427ace6f8dc6bc8bc24be19ef188a47b1b293a9b",
-"size":15347718,
-"timestamp":1617183994654,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py39h2b5339a_6_apple.tar.bz2":{
-"build":"py39h2b5339a_6_apple",
-"build_number":6,
-"constrains":[
-"khronos-opencl-icd-loader  ==9999999999",
-"ocl_icd_wrapper_apple      ==9999999999"
-],
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"libcxx >=11.1.0",
-"numpy",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"openmm",
-"sha256":"55926f10bde8cbde974d6ea831650f2681257bf44a4725661c368ba0c8597595",
-"size":15251355,
-"timestamp":1617184020425,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py39h38d4924_6_khronos.tar.bz2":{
-"build":"py39h38d4924_6_khronos",
-"build_number":6,
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"khronos-opencl-icd-loader >=2020.12.18",
-"libcxx >=11.1.0",
-"numpy",
-"ocl_icd_wrapper_apple",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"4e27dc58c9ac4d27201356d316152f630b94f3ec4984eff3b5d8b67c32431e3a",
-"size":15336779,
-"timestamp":1617183950591,
-"track_features":"openmm_opencl_khronos",
-"version":"7.5.0"
-},
-"openmm-7.5.0-py39h6e78953_5_khronos.tar.bz2":{
-"build":"py39h6e78953_5_khronos",
-"build_number":5,
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"khronos-opencl-icd-loader >=2020.12.18",
-"libcxx >=11.0.0",
-"numpy",
-"ocl_icd_wrapper_apple",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"f9088a36e2b4f0d00701a556a75c825b1419063031337710131d4260a6408dc4",
-"size":15272627,
-"timestamp":1611305380634,
-"track_features":"openmm_opencl_khronos",
-"version":"7.5.0"
-},
-"openmm-7.5.0-py39h6e78953_6_khronos.tar.bz2":{
-"build":"py39h6e78953_6_khronos",
-"build_number":6,
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"khronos-opencl-icd-loader >=2020.12.18",
-"libcxx >=11.0.1",
-"numpy",
-"ocl_icd_wrapper_apple",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"58ccfe1f03330b8c6d9ee782bca04e8a9f63faa1f4a61595f2f611e57c8e1b5b",
-"size":15252205,
-"timestamp":1613570861426,
-"track_features":"openmm_opencl_khronos",
-"version":"7.5.0"
-},
-"openmm-7.5.0-py39h8b6b0f2_5_apple.tar.bz2":{
-"build":"py39h8b6b0f2_5_apple",
-"build_number":5,
-"constrains":[
-"khronos-opencl-icd-loader  ==9999999999",
-"ocl_icd_wrapper_apple      ==9999999999"
-],
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"libcxx >=11.0.0",
-"numpy",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"6075b5cb570c3904dc5813794b5de716a734b5561eb050270905de57d7f7d2f8",
-"size":15242538,
-"timestamp":1611305218510,
-"version":"7.5.0"
-},
-"openmm-7.5.0-py39h8b6b0f2_6_apple.tar.bz2":{
-"build":"py39h8b6b0f2_6_apple",
-"build_number":6,
-"constrains":[
-"khronos-opencl-icd-loader  ==9999999999",
-"ocl_icd_wrapper_apple      ==9999999999"
-],
-"depends":[
-"fftw >=3.3.9,<4.0a0",
-"libcxx >=11.0.1",
-"numpy",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-3.0-or-later",
-"name":"openmm",
-"sha256":"2266c3189b28be33146bfcae70506a05860ec88e619903c2da2bb3aa970af12c",
-"size":15343318,
-"timestamp":1613570991822,
-"version":"7.5.0"
+"sha256":"48c704e6dc65c226516d9c7088dccd7af575c40f6d61df15c57ac0535e3ad3f7",
+"size":15263413,
+"timestamp":1619769184024,
+"version":"7.5.1"
 },
 "openmpi-4.1.1-h3abb732_0.tar.bz2":{
 "build":"h3abb732_0",

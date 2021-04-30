@@ -50833,6 +50833,88 @@
 "timestamp":1613570991822,
 "version":"7.5.0"
 },
+"openmm-7.5.1-py38h16587b9_0_apple.tar.bz2":{
+"build":"py38h16587b9_0_apple",
+"build_number":0,
+"constrains":[
+"khronos-opencl-icd-loader  ==9999999999",
+"ocl_icd_wrapper_apple      ==9999999999"
+],
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openmm",
+"sha256":"e1696eabbf7988fe1f1bb670138124b71a17ce1725952b656dceaaf67ed4af6c",
+"size":15378764,
+"timestamp":1619769162453,
+"version":"7.5.1"
+},
+"openmm-7.5.1-py38h7e504e9_0_khronos.tar.bz2":{
+"build":"py38h7e504e9_0_khronos",
+"build_number":0,
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"numpy",
+"ocl_icd_wrapper_apple",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openmm",
+"sha256":"8950ea513438ad349cf30d0fbf2c85acb858e938606167d14d251f0057135590",
+"size":15292761,
+"timestamp":1619769192226,
+"track_features":"openmm_opencl_khronos",
+"version":"7.5.1"
+},
+"openmm-7.5.1-py39h9d5585d_0_khronos.tar.bz2":{
+"build":"py39h9d5585d_0_khronos",
+"build_number":0,
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"numpy",
+"ocl_icd_wrapper_apple",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openmm",
+"sha256":"baf139c20b07714dd723b310d97f27c848ca434257b221422823a4b229b81382",
+"size":15309954,
+"timestamp":1619769121075,
+"track_features":"openmm_opencl_khronos",
+"version":"7.5.1"
+},
+"openmm-7.5.1-py39hce39229_0_apple.tar.bz2":{
+"build":"py39hce39229_0_apple",
+"build_number":0,
+"constrains":[
+"ocl_icd_wrapper_apple      ==9999999999",
+"khronos-opencl-icd-loader  ==9999999999"
+],
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openmm",
+"sha256":"48c704e6dc65c226516d9c7088dccd7af575c40f6d61df15c57ac0535e3ad3f7",
+"size":15263413,
+"timestamp":1619769184024,
+"version":"7.5.1"
+},
 "openmpi-4.0.5-h385ff2b_3.tar.bz2":{
 "build":"h385ff2b_3",
 "build_number":3,
