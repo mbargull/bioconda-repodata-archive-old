@@ -53846,6 +53846,20 @@
 "timestamp":1615568818387,
 "version":"0.36.0"
 },
+"log4cpp-1.1.3-h3b9df90_1002.tar.bz2":{
+"build":"h3b9df90_1002",
+"build_number":1002,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"log4cpp",
+"sha256":"382a1258e4fefe34bc10ffb77e30edd1e99c00ca534ab83868c1b3159a04a68d",
+"size":314154,
+"timestamp":1619803874561,
+"version":"1.1.3"
+},
 "log4cxx-0.11.0-h3c4f53e_0.tar.bz2":{
 "build":"h3c4f53e_0",
 "build_number":0,
@@ -108700,6 +108714,146 @@
 "size":192838,
 "timestamp":1616785917513,
 "version":"2.2.27.27"
+},
+"uhd-4.0.0.0-py36h7162bf0_4.tar.bz2":{
+"build":"py36h7162bf0_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pyyaml",
+"requests",
+"ruamel.yaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"uhd",
+"sha256":"cc9229454cb7defb9cde0cbab6b78d3a4a030e60160a0a2b87c1c259b32ec85a",
+"size":7267977,
+"timestamp":1619804648719,
+"version":"4.0.0.0"
+},
+"uhd-4.0.0.0-py36haf59199_4.tar.bz2":{
+"build":"py36haf59199_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.18.5,<2.0a0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"pyyaml",
+"requests",
+"ruamel.yaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"uhd",
+"sha256":"2058bc6008627438ebb623acae2cca8c0ad357dab24759a318cd1534abc26726",
+"size":7254155,
+"timestamp":1619804177180,
+"version":"4.0.0.0"
+},
+"uhd-4.0.0.0-py37h3ee96d1_4.tar.bz2":{
+"build":"py37h3ee96d1_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pyyaml",
+"requests",
+"ruamel.yaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"uhd",
+"sha256":"5b5bc1514149978231434c1bfa169f9906556b471cfda82a83524a463b626d61",
+"size":7321013,
+"timestamp":1619804618081,
+"version":"4.0.0.0"
+},
+"uhd-4.0.0.0-py37hde4a6a7_4.tar.bz2":{
+"build":"py37hde4a6a7_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.19.5,<2.0a0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"pyyaml",
+"requests",
+"ruamel.yaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"uhd",
+"sha256":"1dbe1ddb25cab50c1195c21235986009e639b462d1a78eb2821363776e0aec38",
+"size":7270013,
+"timestamp":1619805165127,
+"version":"4.0.0.0"
+},
+"uhd-4.0.0.0-py38h390711e_4.tar.bz2":{
+"build":"py38h390711e_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"requests",
+"ruamel.yaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"uhd",
+"sha256":"f6eb06fe380e9724d1275ebd562e1a15a3953c4a8bdd6fab224f8c6924cb0677",
+"size":7230803,
+"timestamp":1619805265731,
+"version":"4.0.0.0"
+},
+"uhd-4.0.0.0-py39h569cd96_4.tar.bz2":{
+"build":"py39h569cd96_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"requests",
+"ruamel.yaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"uhd",
+"sha256":"bd0b697e3c517a2be1c0980908de0f0bcba1c5d15fcaa4977e7c18ebf1545c50",
+"size":7299078,
+"timestamp":1619804892500,
+"version":"4.0.0.0"
 },
 "ujson-1.35-py36h1a3b5e7_1003.tar.bz2":{
 "build":"py36h1a3b5e7_1003",
