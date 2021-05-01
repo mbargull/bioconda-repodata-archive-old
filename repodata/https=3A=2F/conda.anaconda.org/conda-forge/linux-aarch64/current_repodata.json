@@ -5438,7 +5438,7 @@
 "timestamp":1605163163692,
 "version":"2.38.0"
 },
-"at-spi2-core-2.40.0-h1f2db35_0.tar.bz2":{
+"at-spi2-core-2.40.1-h1f2db35_0.tar.bz2":{
 "build":"h1f2db35_0",
 "build_number":0,
 "depends":[
@@ -5451,10 +5451,10 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"at-spi2-core",
-"sha256":"fca8425b63773d4b8920db8af028c0561cde352b16228cbcab830692c2208f86",
-"size":620102,
-"timestamp":1619108235553,
-"version":"2.40.0"
+"sha256":"1afce904d19e1c8552ff555522ed1633451455fd3fe56a2af77a1b708fec5558",
+"size":623329,
+"timestamp":1619894682963,
+"version":"2.40.1"
 },
 "atk-1.0-2.36.0-h2923d19_2.tar.bz2":{
 "build":"h2923d19_2",
@@ -6271,6 +6271,23 @@
 "size":170851,
 "timestamp":1619825869072,
 "version":"0.5.8"
+},
+"aws-c-event-stream-0.2.7-h2b2d6b4_2.tar.bz2":{
+"build":"h2b2d6b4_2",
+"build_number":2,
+"depends":[
+"aws-c-common >=0.5.8,<0.5.9.0a0",
+"aws-c-io >=0.9.4,<0.9.5.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"c2fe1ab792f50c25cd3e5e2df4be55a5337d5b9c8208457b545a7a5df74d1292",
+"size":48025,
+"timestamp":1619896350933,
+"version":"0.2.7"
 },
 "aws-c-event-stream-0.2.7-h78ca776_1.tar.bz2":{
 "build":"h78ca776_1",
