@@ -9696,72 +9696,20 @@
 "timestamp":1614936370517,
 "version":"0.4.5"
 },
-"aws-c-common-0.4.59-h04a9297_0.tar.bz2":{
-"build":"h04a9297_0",
+"aws-c-cal-0.5.5-ha039362_0.tar.bz2":{
+"build":"ha039362_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0"
+"aws-c-common >=0.5.8,<0.5.9.0a0",
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
 ],
 "license":"Apache-2.0",
-"name":"aws-c-common",
-"sha256":"acc6c6b2af09a20cb9ce1776e98095aac86ee919e6e7c5eee00442fc1d6b90e6",
-"size":174929,
-"timestamp":1605526830463,
-"version":"0.4.59"
-},
-"aws-c-common-0.4.59-h339bb43_1.tar.bz2":{
-"build":"h339bb43_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=8.4.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-common",
-"sha256":"c537667bb6095177e149b007229fb2ee089e48127b714e2bd457703d2b2c0077",
-"size":175037,
-"timestamp":1605533564735,
-"version":"0.4.59"
-},
-"aws-c-common-0.4.59-hb209c28_0.tar.bz2":{
-"build":"hb209c28_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-common",
-"sha256":"0754b752f18871322d100580b8e3e28d37c4eacfdb7bf59e3839daed8f9954e1",
-"size":174748,
-"timestamp":1601551074928,
-"version":"0.4.59"
-},
-"aws-c-common-0.4.63-h4e0d66e_0.tar.bz2":{
-"build":"h4e0d66e_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-common",
-"sha256":"f2ea2cf60f6e83f7a8b3142868677da02893193b2abd17f9c27635ae39769e77",
-"size":170670,
-"timestamp":1607511096599,
-"version":"0.4.63"
-},
-"aws-c-common-0.4.65-h4e0d66e_0.tar.bz2":{
-"build":"h4e0d66e_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-common",
-"sha256":"a9c9678e6705660884d07e7c2ad90169749a21ff55fdfdcdef241c0ccfb694fd",
-"size":175964,
-"timestamp":1610315563311,
-"version":"0.4.65"
+"name":"aws-c-cal",
+"sha256":"488cfafc6e21bec09a4a154afed24706c55d5ca3133765189b7017425e71ac41",
+"size":34656,
+"timestamp":1619897714969,
+"version":"0.5.5"
 },
 "aws-c-common-0.4.66-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
@@ -9942,6 +9890,22 @@
 "size":128112,
 "timestamp":1614814437672,
 "version":"0.9.1"
+},
+"aws-c-io-0.9.10-hb38e06a_0.tar.bz2":{
+"build":"hb38e06a_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.4.5,<0.4.6.0a0",
+"aws-c-common >=0.5.8,<0.5.9.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.5,<1.0.6.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"e8157fb16347c84076ed44845e46dd923f8cfd010f2b06319c7eeeb68abe0d65",
+"size":130965,
+"timestamp":1619897598796,
+"version":"0.9.10"
 },
 "aws-c-io-0.9.4-h00c8964_1.tar.bz2":{
 "build":"h00c8964_1",
@@ -24673,7 +24637,7 @@
 "timestamp":1602328057721,
 "version":"1.1.10"
 },
-"epoxy-1.5.6-h4e0d66e_0.tar.bz2":{
+"epoxy-1.5.7-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
 "build_number":0,
 "depends":[
@@ -24681,10 +24645,10 @@
 ],
 "license":"MIT",
 "name":"epoxy",
-"sha256":"565789652c802466fa2f625797ab9d4115d29d5b0233fd01e7203394d77d28dc",
-"size":1552308,
-"timestamp":1619783799358,
-"version":"1.5.6"
+"sha256":"0811083f5fe0921f0452766b62e56862df7176d94ecb8bbf15d9ced2a6cbf147",
+"size":1549795,
+"timestamp":1619897592643,
+"version":"1.5.7"
 },
 "eth-utils-1.10.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
@@ -99274,62 +99238,6 @@
 "size":39213,
 "timestamp":1572500115887,
 "version":"0.8"
-},
-"s2n-1.0.1-h97db324_0.tar.bz2":{
-"build":"h97db324_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"openssl >=1.1.1j,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"s2n",
-"sha256":"f46104bba6638a7bafd3a1b46fc1bcf324fabee7248fd42bc4e88569b569f54e",
-"size":392587,
-"timestamp":1615580761214,
-"version":"1.0.1"
-},
-"s2n-1.0.2-h97db324_0.tar.bz2":{
-"build":"h97db324_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"s2n",
-"sha256":"cf2f43d3150d18454a7487616ab4ad7d96da82d7d6a29233c0c635bad749f551",
-"size":399500,
-"timestamp":1616787336931,
-"version":"1.0.2"
-},
-"s2n-1.0.3-h97db324_0.tar.bz2":{
-"build":"h97db324_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"s2n",
-"sha256":"22a3a89828ef06726d3e241ca038f7e1b840e22f2377adbdf57b1f39a26304e7",
-"size":402178,
-"timestamp":1617318396213,
-"version":"1.0.3"
-},
-"s2n-1.0.4-h97db324_0.tar.bz2":{
-"build":"h97db324_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"s2n",
-"sha256":"3d5f15ebd4032e439fee6517ab8a01614cee1af4168653b571f1c246dd36f1b6",
-"size":402547,
-"timestamp":1617798698496,
-"version":"1.0.4"
 },
 "s2n-1.0.5-h97db324_0.tar.bz2":{
 "build":"h97db324_0",
