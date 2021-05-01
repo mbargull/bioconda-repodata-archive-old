@@ -50941,77 +50941,6 @@
 "timestamp":1593852294922,
 "version":"1.3.7"
 },
-"libwebp-1.1.0-h25833ff_4.tar.bz2":{
-"build":"h25833ff_4",
-"build_number":4,
-"depends":[
-"giflib >=5.2.1,<5.3.0a0",
-"jpeg >=9d,<10a",
-"libgcc-ng >=7.5.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libtiff >=4.1.0,<5.0a0",
-"libwebp-base 1.1.0.*"
-],
-"license":"BSD-3-Clause",
-"name":"libwebp",
-"sha256":"16c59dba752fbcc1c47e881600acc4c241cc4c8930b60952cb1ad457eb5f87d0",
-"size":88750,
-"timestamp":1605379195389,
-"version":"1.1.0"
-},
-"libwebp-1.1.0-h56121f0_0.tar.bz2":{
-"build":"h56121f0_0",
-"build_number":0,
-"depends":[
-"giflib >=5.2.1,<5.3.0a0",
-"jpeg >=9c,<10a",
-"libgcc-ng >=7.3.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libtiff >=4.1.0,<5.0a0"
-],
-"license":"Google",
-"name":"libwebp",
-"sha256":"ad816beb5fa7fec0102e91086f99fd74c1db996e70ef70fac2c9fab368643664",
-"size":1002341,
-"timestamp":1578420204833,
-"version":"1.1.0"
-},
-"libwebp-1.1.0-h56121f0_2.tar.bz2":{
-"build":"h56121f0_2",
-"build_number":2,
-"depends":[
-"giflib >=5.2.1,<5.3.0a0",
-"jpeg >=9c,<10a",
-"libgcc-ng >=7.3.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libtiff >=4.1.0,<5.0a0",
-"libwebp-base 1.1.0 2"
-],
-"license":"Google",
-"name":"libwebp",
-"sha256":"ee5498f9e5d1dfdce70343d753cf55915e1869ea06ee36ff6090317ff2142a79",
-"size":92602,
-"timestamp":1578751062729,
-"version":"1.1.0"
-},
-"libwebp-1.1.0-h56121f0_4.tar.bz2":{
-"build":"h56121f0_4",
-"build_number":4,
-"depends":[
-"giflib >=5.2.1,<5.3.0a0",
-"jpeg >=9c,<10a",
-"libgcc-ng >=7.3.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libtiff >=4.1.0,<5.0a0",
-"libwebp-base 1.1.0.*"
-],
-"license":"BSD-3-Clause",
-"name":"libwebp",
-"sha256":"e5527f1ff41171058cfa57551c7762885c19ae7dc6b01966527542e57dbe6fdb",
-"size":91507,
-"timestamp":1584859817769,
-"version":"1.1.0"
-},
 "libwebp-1.2.0-h21830e5_0.tar.bz2":{
 "build":"h21830e5_0",
 "build_number":0,
@@ -63359,8 +63288,8 @@
 "timestamp":1590115604590,
 "version":"2.1.1"
 },
-"openimageio-2.2.12-h6d17d7d_0.tar.bz2":{
-"build":"h6d17d7d_0",
+"openimageio-2.2.14-h312d207_0.tar.bz2":{
+"build":"h312d207_0",
 "build_number":0,
 "depends":[
 "boost >=1.74.0,<1.74.1.0a0",
@@ -63373,95 +63302,95 @@
 "libraw >=0.20.2,<0.21.0a0",
 "libstdcxx-ng >=9.3.0",
 "libtiff >=4.2.0,<5.0a0",
-"libwebp >=1.1.0,<1.2.0a0",
-"libwebp-base >=1.1.0,<2.0a0",
-"openexr >=2.5.5,<2.6.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"BSD-3-Clause",
-"name":"openimageio",
-"sha256":"0f1f6ede837438d958acdcb9db1fd0a95d0b4bd9ce1cebd7a3fd724085efa591",
-"size":3956394,
-"timestamp":1614675841316,
-"version":"2.2.12"
-},
-"openimageio-2.2.12-h79f421e_0.tar.bz2":{
-"build":"h79f421e_0",
-"build_number":0,
-"depends":[
-"boost >=1.74.0,<1.74.1.0a0",
-"ffmpeg >=4.3.1,<4.4.0a0",
-"ffmpeg >=4.3.1,<5.0a0",
-"giflib >=5.2.1,<5.3.0a0",
-"jpeg >=9d,<10a",
-"libgcc-ng >=9.3.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libraw >=0.20.2,<0.21.0a0",
-"libstdcxx-ng >=9.3.0",
-"libtiff >=4.2.0,<5.0a0",
-"libwebp >=1.1.0,<1.2.0a0",
-"libwebp-base >=1.1.0,<2.0a0",
-"openexr >=2.5.5,<2.6.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"openimageio",
-"sha256":"7c082c259c9c425a63ebc94b3d84887b3f4db2358ececbf7637900b3689df6f3",
-"size":3961876,
-"timestamp":1614676836747,
-"version":"2.2.12"
-},
-"openimageio-2.2.12-h883e4f3_0.tar.bz2":{
-"build":"h883e4f3_0",
-"build_number":0,
-"depends":[
-"boost >=1.74.0,<1.74.1.0a0",
-"ffmpeg >=4.3.1,<4.4.0a0",
-"ffmpeg >=4.3.1,<5.0a0",
-"giflib >=5.2.1,<5.3.0a0",
-"jpeg >=9d,<10a",
-"libgcc-ng >=9.3.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libraw >=0.20.2,<0.21.0a0",
-"libstdcxx-ng >=9.3.0",
-"libtiff >=4.2.0,<5.0a0",
-"libwebp >=1.1.0,<1.2.0a0",
-"libwebp-base >=1.1.0,<2.0a0",
-"openexr >=2.5.5,<2.6.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"BSD-3-Clause",
-"name":"openimageio",
-"sha256":"50025d985509282d73865382575d344d43b902997e374712accc970c80720543",
-"size":3964990,
-"timestamp":1614677914911,
-"version":"2.2.12"
-},
-"openimageio-2.2.12-hd7e26f1_0.tar.bz2":{
-"build":"hd7e26f1_0",
-"build_number":0,
-"depends":[
-"boost >=1.74.0,<1.74.1.0a0",
-"ffmpeg >=4.3.1,<4.4.0a0",
-"ffmpeg >=4.3.1,<5.0a0",
-"giflib >=5.2.1,<5.3.0a0",
-"jpeg >=9d,<10a",
-"libgcc-ng >=9.3.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libraw >=0.20.2,<0.21.0a0",
-"libstdcxx-ng >=9.3.0",
-"libtiff >=4.2.0,<5.0a0",
-"libwebp >=1.1.0,<1.2.0a0",
-"libwebp-base >=1.1.0,<2.0a0",
+"libwebp >=1.2.0,<1.3.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
 "openexr >=2.5.5,<2.6.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"BSD-3-Clause",
 "name":"openimageio",
-"sha256":"0982b043a5368c4585aa9b6d5a839edf6a321f88a0067e30d954747d6a576cb1",
-"size":3960464,
-"timestamp":1614677950865,
-"version":"2.2.12"
+"sha256":"a74cf5ebf2930a2211feb151700c54396a29c106a95d496b571fa8550a63c6e4",
+"size":3941835,
+"timestamp":1619903089956,
+"version":"2.2.14"
+},
+"openimageio-2.2.14-h7ccb89c_0.tar.bz2":{
+"build":"h7ccb89c_0",
+"build_number":0,
+"depends":[
+"boost >=1.74.0,<1.74.1.0a0",
+"ffmpeg >=4.3.1,<4.4.0a0",
+"ffmpeg >=4.3.1,<5.0a0",
+"giflib >=5.2.1,<5.3.0a0",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libpng >=1.6.37,<1.7.0a0",
+"libraw >=0.20.2,<0.21.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"libwebp >=1.2.0,<1.3.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
+"openexr >=2.5.5,<2.6.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-3-Clause",
+"name":"openimageio",
+"sha256":"2c9b19affe29494fb5f0da47308eae31563a83833ab415dc8807ac6a9df36598",
+"size":3959146,
+"timestamp":1619902002789,
+"version":"2.2.14"
+},
+"openimageio-2.2.14-h9add70f_0.tar.bz2":{
+"build":"h9add70f_0",
+"build_number":0,
+"depends":[
+"boost >=1.74.0,<1.74.1.0a0",
+"ffmpeg >=4.3.1,<4.4.0a0",
+"ffmpeg >=4.3.1,<5.0a0",
+"giflib >=5.2.1,<5.3.0a0",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libpng >=1.6.37,<1.7.0a0",
+"libraw >=0.20.2,<0.21.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"libwebp >=1.2.0,<1.3.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
+"openexr >=2.5.5,<2.6.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"BSD-3-Clause",
+"name":"openimageio",
+"sha256":"e67264847da1dc1f56d07166acf52aa714f1f7045dc4bda646f132c5eb5c7dcb",
+"size":3971292,
+"timestamp":1619901863021,
+"version":"2.2.14"
+},
+"openimageio-2.2.14-hab7439a_0.tar.bz2":{
+"build":"hab7439a_0",
+"build_number":0,
+"depends":[
+"boost >=1.74.0,<1.74.1.0a0",
+"ffmpeg >=4.3.1,<4.4.0a0",
+"ffmpeg >=4.3.1,<5.0a0",
+"giflib >=5.2.1,<5.3.0a0",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libpng >=1.6.37,<1.7.0a0",
+"libraw >=0.20.2,<0.21.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"libwebp >=1.2.0,<1.3.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
+"openexr >=2.5.5,<2.6.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"openimageio",
+"sha256":"633fddf9ad3226f193931c18bddf8ac32d004d006ffcf52173a3432dbe4e4214",
+"size":3950408,
+"timestamp":1619903144302,
+"version":"2.2.14"
 },
 "openjdk-11.0.9.1-h01784e5_0.tar.bz2":{
 "build":"h01784e5_0",
@@ -71724,8 +71653,8 @@
 "timestamp":1619750300490,
 "version":"4.5.2"
 },
-"py-openimageio-2.2.12-py36h6d17d7d_0.tar.bz2":{
-"build":"py36h6d17d7d_0",
+"py-openimageio-2.2.14-py36h9add70f_0.tar.bz2":{
+"build":"py36h9add70f_0",
 "build_number":0,
 "depends":[
 "ffmpeg >=4.3.1,<5.0a0",
@@ -71735,21 +71664,21 @@
 "libpng >=1.6.37,<1.7.0a0",
 "libstdcxx-ng >=9.3.0",
 "libtiff >=4.2.0,<5.0a0",
-"libwebp-base >=1.1.0,<2.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
 "openexr >=2.5.5,<2.6.0a0",
-"openimageio 2.2.12 h6d17d7d_0",
+"openimageio 2.2.14 h9add70f_0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m"
 ],
 "license":"BSD-3-Clause",
 "name":"py-openimageio",
-"sha256":"7dbf2a8085677fc5389fc122c989993b1901cfdaa6352ad1511930c84e652136",
-"size":489363,
-"timestamp":1614676053119,
-"version":"2.2.12"
+"sha256":"a50460958faccaa29154e571e20af5473f24ba80664eb6390e03ac55875d33f9",
+"size":489818,
+"timestamp":1619902099098,
+"version":"2.2.14"
 },
-"py-openimageio-2.2.12-py37h883e4f3_0.tar.bz2":{
-"build":"py37h883e4f3_0",
+"py-openimageio-2.2.14-py37h7ccb89c_0.tar.bz2":{
+"build":"py37h7ccb89c_0",
 "build_number":0,
 "depends":[
 "ffmpeg >=4.3.1,<5.0a0",
@@ -71759,21 +71688,21 @@
 "libpng >=1.6.37,<1.7.0a0",
 "libstdcxx-ng >=9.3.0",
 "libtiff >=4.2.0,<5.0a0",
-"libwebp-base >=1.1.0,<2.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
 "openexr >=2.5.5,<2.6.0a0",
-"openimageio 2.2.12 h883e4f3_0",
+"openimageio 2.2.14 h7ccb89c_0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
 ],
 "license":"BSD-3-Clause",
 "name":"py-openimageio",
-"sha256":"7886684b9ab062a73e1b7167e1ea8a7bbfc492f8384099b910d7501188ccb096",
-"size":488854,
-"timestamp":1614678613321,
-"version":"2.2.12"
+"sha256":"152925ab272ac9479eff6b6470b1004a95c553152fd13ccc96ab7d333a8d60ce",
+"size":489419,
+"timestamp":1619902216795,
+"version":"2.2.14"
 },
-"py-openimageio-2.2.12-py38hd7e26f1_0.tar.bz2":{
-"build":"py38hd7e26f1_0",
+"py-openimageio-2.2.14-py38h312d207_0.tar.bz2":{
+"build":"py38h312d207_0",
 "build_number":0,
 "depends":[
 "ffmpeg >=4.3.1,<5.0a0",
@@ -71783,21 +71712,21 @@
 "libpng >=1.6.37,<1.7.0a0",
 "libstdcxx-ng >=9.3.0",
 "libtiff >=4.2.0,<5.0a0",
-"libwebp-base >=1.1.0,<2.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
 "openexr >=2.5.5,<2.6.0a0",
-"openimageio 2.2.12 hd7e26f1_0",
+"openimageio 2.2.14 h312d207_0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"BSD-3-Clause",
 "name":"py-openimageio",
-"sha256":"84e816788dc39db4b1f9511bb75a4f805a2c6c8f9d2690c7e118271f32990bd7",
-"size":474444,
-"timestamp":1614678464175,
-"version":"2.2.12"
+"sha256":"e4176962202c8f7d8a11c8d5afc572cd059d53bed6f76c08b948473b4c8fd554",
+"size":476186,
+"timestamp":1619903577058,
+"version":"2.2.14"
 },
-"py-openimageio-2.2.12-py39h79f421e_0.tar.bz2":{
-"build":"py39h79f421e_0",
+"py-openimageio-2.2.14-py39hab7439a_0.tar.bz2":{
+"build":"py39hab7439a_0",
 "build_number":0,
 "depends":[
 "ffmpeg >=4.3.1,<5.0a0",
@@ -71807,18 +71736,18 @@
 "libpng >=1.6.37,<1.7.0a0",
 "libstdcxx-ng >=9.3.0",
 "libtiff >=4.2.0,<5.0a0",
-"libwebp-base >=1.1.0,<2.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
 "openexr >=2.5.5,<2.6.0a0",
-"openimageio 2.2.12 h79f421e_0",
+"openimageio 2.2.14 hab7439a_0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"BSD-3-Clause",
 "name":"py-openimageio",
-"sha256":"d0eb9f897ee93baf2f7933ed7acce1f84f0fe42d240dc4f209aa3d3c41b16df9",
-"size":478520,
-"timestamp":1614677001182,
-"version":"2.2.12"
+"sha256":"00160c265de1c78682e5de7bda6162052c2b59ff707da68634da6edeed32f631",
+"size":476481,
+"timestamp":1619903565767,
+"version":"2.2.14"
 },
 "pyarrow-3.0.0-py36h29a9230_4_cpu.tar.bz2":{
 "build":"py36h29a9230_4_cpu",
