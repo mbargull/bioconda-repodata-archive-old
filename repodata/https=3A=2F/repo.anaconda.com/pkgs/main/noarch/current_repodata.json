@@ -6174,22 +6174,23 @@
 "timestamp":1611347598829,
 "version":"1.0.3"
 },
-"conda-token-0.2.0-pyhd3eb1b0_0.conda":{
+"conda-token-0.3.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "conda >=4.3",
+"conda-content-trust",
 "packaging",
 "python"
 ],
-"legacy_bz2_md5":"3991ed2afceea11685b61e10fbb39bfa",
+"legacy_bz2_md5":"31148e8df523fbeeb9fb3880b9f50875",
 "license":"BSD-3-Clause",
 "name":"conda-token",
 "noarch":"python",
-"sha256":"adffba4f67ca026934c2f9ff1663f5949ccfe627cc9612f5612f3d96c2c92a7d",
-"size":9487,
-"timestamp":1613597748728,
-"version":"0.2.0"
+"sha256":"6764feb92b1da78bb2a8a769d2b660a1c562349e2ad9ffefbc3fe686f28708d6",
+"size":9963,
+"timestamp":1620077022841,
+"version":"0.3.0"
 },
 "conda-verify-3.4.2-py_0.conda":{
 "build":"py_0",
@@ -7837,24 +7838,24 @@
 "timestamp":1605109413341,
 "version":"3.25.0"
 },
-"flask-jwt-extended-4.1.0-pyhd3eb1b0_0.conda":{
+"flask-jwt-extended-4.2.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"flask >=1.0",
-"pyjwt >=1.6.4",
+"flask >=1.0,<2.0",
+"pyjwt >=2.0,<3.0",
 "python",
 "six",
 "werkzeug >=0.14"
 ],
-"legacy_bz2_md5":"0047ccbb0a04de1458cb3fb17f75bd1c",
+"legacy_bz2_md5":"178de58546ad520bd3c96b05e6fc7820",
 "license":"MIT",
 "name":"flask-jwt-extended",
 "noarch":"python",
-"sha256":"2c410ad2ada0cf5b00890d57310924918443a7fd1bb52b2c6434bacff9592087",
-"size":19793,
-"timestamp":1615412057890,
-"version":"4.1.0"
+"sha256":"b3a8164bbe8dd62eb3b5a97ac57c2451db34c3cc8b9293b5f53a772a9a3dd28f",
+"size":20237,
+"timestamp":1620068677827,
+"version":"4.2.0"
 },
 "flask-login-0.5.0-py_0.conda":{
 "build":"py_0",
@@ -12263,7 +12264,7 @@
 "timestamp":1574192361011,
 "version":"1.5.1"
 },
-"marshmallow-sqlalchemy-0.24.3-pyhd3eb1b0_0.conda":{
+"marshmallow-sqlalchemy-0.25.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -12271,14 +12272,14 @@
 "python >=3.6",
 "sqlalchemy >=1.2.0"
 ],
-"legacy_bz2_md5":"4fc33a0700fb4c8774a9fc21ed178fba",
+"legacy_bz2_md5":"b57721b5f9891560aedc65f16f7f7883",
 "license":"MIT",
 "name":"marshmallow-sqlalchemy",
 "noarch":"python",
-"sha256":"f16eca1f7be3c6972e955675651e2960337b2bd887c7bdd295677edd2666967b",
-"size":18685,
-"timestamp":1619528321983,
-"version":"0.24.3"
+"sha256":"08229f0b8c8a08cce393e66033b25bab784ca10b4ea9d6b25348d5d3909adb4e",
+"size":18680,
+"timestamp":1619998279149,
+"version":"0.25.0"
 },
 "meld3-2.0.0-py_0.conda":{
 "build":"py_0",
@@ -16271,23 +16272,23 @@
 "timestamp":1564754920459,
 "version":"1.1.1"
 },
-"python-slugify-4.0.1-py_0.conda":{
-"build":"py_0",
+"python-slugify-5.0.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python",
+"python >=3.6",
 "text-unidecode >=1.3",
 "unidecode >=1.1.1"
 ],
-"legacy_bz2_md5":"d9cabf88812921d6f9fb5d93e6d15c89",
+"legacy_bz2_md5":"ed1d8d719e68589d344a6299d563d5c4",
 "license":"MIT",
 "name":"python-slugify",
 "namespace_in_name":true,
 "noarch":"python",
-"sha256":"4300a34c234171d07267a6e2b1add8325f182b0ddb39f637829e70b06a259b94",
-"size":13043,
-"timestamp":1600462619470,
-"version":"4.0.1"
+"sha256":"81159776d110df90da1822b1e1d8d91f95ba0876e6b4d87fef9b63c862fb4da4",
+"size":13102,
+"timestamp":1620065369602,
+"version":"5.0.0"
 },
 "python-socketio-5.1.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",

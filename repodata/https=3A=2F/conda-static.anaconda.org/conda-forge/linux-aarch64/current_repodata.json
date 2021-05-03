@@ -9861,11 +9861,11 @@
 "timestamp":1602549968099,
 "version":"1.74.0"
 },
-"boost-1.75.0-py36h2e26b47_0.tar.bz2":{
+"boost-1.76.0-py36h2e26b47_0.tar.bz2":{
 "build":"py36h2e26b47_0",
 "build_number":0,
 "depends":[
-"boost-cpp 1.75.0.*",
+"boost-cpp 1.76.0.*",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
@@ -9874,53 +9874,16 @@
 ],
 "license":"BSL-1.0",
 "name":"boost",
-"sha256":"6fcc6aa2924bbef04df117e08683459033cc747f3bce0f0beaee242967368008",
-"size":353223,
-"timestamp":1618869464439,
-"version":"1.75.0"
+"sha256":"8041b151f4b059feeb970b618f6e7d4b79e3b769ad427338a0eefceb1b8ca656",
+"size":352726,
+"timestamp":1620073457528,
+"version":"1.76.0"
 },
-"boost-1.75.0-py36h93b45c7_0.tar.bz2":{
-"build":"py36h93b45c7_0",
-"build_number":0,
-"depends":[
-"boost-cpp 1.75.0.*",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.18.5,<2.0a0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"BSL-1.0",
-"name":"boost",
-"sha256":"8850387df146a406c10d93f4f574d096ff042ac680efb00d7c1b502ee6fbf3d8",
-"size":360926,
-"timestamp":1614382438220,
-"version":"1.75.0"
-},
-"boost-1.75.0-py36hfae455c_0.tar.bz2":{
-"build":"py36hfae455c_0",
-"build_number":0,
-"depends":[
-"boost-cpp 1.75.0.*",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.16.6,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"BSL-1.0",
-"name":"boost",
-"sha256":"280c2eb076b21f74891094edd292ebf50acbeb69fbb10a0f5060bb4700186eb9",
-"size":335924,
-"timestamp":1614380071779,
-"version":"1.75.0"
-},
-"boost-1.75.0-py37h2603c11_0.tar.bz2":{
+"boost-1.76.0-py37h2603c11_0.tar.bz2":{
 "build":"py37h2603c11_0",
 "build_number":0,
 "depends":[
-"boost-cpp 1.75.0.*",
+"boost-cpp 1.76.0.*",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
@@ -9929,71 +9892,16 @@
 ],
 "license":"BSL-1.0",
 "name":"boost",
-"sha256":"a55b4ebaea4ef4b6418cafd0695cb84c54b98fe34a8d4a1cb4fd527103c5971e",
-"size":335465,
-"timestamp":1618870006851,
-"version":"1.75.0"
+"sha256":"8b96dcdfd4632641a82c5d9df961103c617344d9f5f7413d50b902a373b46db6",
+"size":343400,
+"timestamp":1620074689048,
+"version":"1.76.0"
 },
-"boost-1.75.0-py37h6031793_0.tar.bz2":{
-"build":"py37h6031793_0",
-"build_number":0,
-"depends":[
-"boost-cpp 1.75.0.*",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.16.6,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"BSL-1.0",
-"name":"boost",
-"sha256":"7bbbc640850e5d535360e2d2d3a1ec1ba8ac686595475fffbfcad8491019ae4a",
-"size":351840,
-"timestamp":1614381353135,
-"version":"1.75.0"
-},
-"boost-1.75.0-py37hce16e70_0.tar.bz2":{
-"build":"py37hce16e70_0",
-"build_number":0,
-"depends":[
-"boost-cpp 1.75.0.*",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.19.5,<2.0a0",
-"pypy3.7 >=7.3.3",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73"
-],
-"license":"BSL-1.0",
-"name":"boost",
-"sha256":"a092e478b7914a0f5467e4d1d7154a7ac69869c77828b289885fec0cc435e070",
-"size":373646,
-"timestamp":1614382930737,
-"version":"1.75.0"
-},
-"boost-1.75.0-py38h4031626_0.tar.bz2":{
-"build":"py38h4031626_0",
-"build_number":0,
-"depends":[
-"boost-cpp 1.75.0.*",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.16.6,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSL-1.0",
-"name":"boost",
-"sha256":"64eb8c4f0216a14ca32ebee3f3fa60d791e35663338d32c96fa04a15b70cae99",
-"size":366054,
-"timestamp":1614381942430,
-"version":"1.75.0"
-},
-"boost-1.75.0-py38h5bf94d8_0.tar.bz2":{
+"boost-1.76.0-py38h5bf94d8_0.tar.bz2":{
 "build":"py38h5bf94d8_0",
 "build_number":0,
 "depends":[
-"boost-cpp 1.75.0.*",
+"boost-cpp 1.76.0.*",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
@@ -10002,28 +9910,10 @@
 ],
 "license":"BSL-1.0",
 "name":"boost",
-"sha256":"71603b261873aabf422940cf1047c7f5fa01379bf9e372d0be4f6891c9a03e82",
-"size":349756,
-"timestamp":1618870536267,
-"version":"1.75.0"
-},
-"boost-1.75.0-py39h9f797f2_0.tar.bz2":{
-"build":"py39h9f797f2_0",
-"build_number":0,
-"depends":[
-"boost-cpp 1.75.0.*",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.19.5,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSL-1.0",
-"name":"boost",
-"sha256":"a031ad37e41a64f15b40448d3e08dc42c35e44158609e514473f9c3e652c8471",
-"size":373264,
-"timestamp":1614383413104,
-"version":"1.75.0"
+"sha256":"20db888ee192b4ff6531b89110b3dfa181a67fb84f0ca92f3a6a2bb7cdacf39e",
+"size":366231,
+"timestamp":1620076049246,
+"version":"1.76.0"
 },
 "boost-cpp-1.72.0-h333a6ec_4.tar.bz2":{
 "build":"h333a6ec_4",

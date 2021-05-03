@@ -11235,59 +11235,20 @@
 "timestamp":1539203414730,
 "version":"1.1"
 },
-"catalogue-2.0.3-py36h6ffa863_0.tar.bz2":{
-"build":"py36h6ffa863_0",
-"build_number":0,
-"depends":[
-"importlib_metadata >=0.20",
-"python >=3.6,<3.7.0a0"
-],
-"license":"MIT",
-"name":"catalogue",
-"sha256":"6fdf2779137491d1ebe833a0f2c9c94cbce56425ac9b570ed2a1573a4f1d406e",
-"size":30540,
-"timestamp":1618521505744,
-"version":"2.0.3"
-},
-"catalogue-2.0.3-py37h6ffa863_0.tar.bz2":{
-"build":"py37h6ffa863_0",
-"build_number":0,
-"depends":[
-"importlib_metadata >=0.20",
-"python >=3.7,<3.8.0a0"
-],
-"license":"MIT",
-"name":"catalogue",
-"sha256":"082b9a609de146082dc7ea64409dfae6d470888391ed0e088366e7117ebc6afa",
-"size":30590,
-"timestamp":1618521515921,
-"version":"2.0.3"
-},
-"catalogue-2.0.3-py38h6ffa863_0.tar.bz2":{
-"build":"py38h6ffa863_0",
-"build_number":0,
-"depends":[
-"python >=3.8,<3.9.0a0"
-],
-"license":"MIT",
-"name":"catalogue",
-"sha256":"6efd9cba99f86cc644c502e36d76cda3fdc23fc070990fd56d0062476998f8eb",
-"size":30762,
-"timestamp":1618521513813,
-"version":"2.0.3"
-},
-"catalogue-2.0.3-py39h6ffa863_0.tar.bz2":{
+"catalogue-2.0.4-py39h6ffa863_0.tar.bz2":{
 "build":"py39h6ffa863_0",
 "build_number":0,
 "depends":[
-"python >=3.9,<3.10.0a0"
+"python >=3.9,<3.10.0a0",
+"typing-extensions >=3.6.4",
+"zipp >=0.5"
 ],
 "license":"MIT",
 "name":"catalogue",
-"sha256":"c0d224883d7784a97af787f56dbb252008f135380b155dc1682ff346f987bf05",
-"size":30861,
-"timestamp":1618601337334,
-"version":"2.0.3"
+"sha256":"eff28d3d2442d204966193f95dc0f20afd19609c133ed54da49d2a31deabd031",
+"size":30950,
+"timestamp":1620048270726,
+"version":"2.0.4"
 },
 "ccache-3.7.9-hfe4627d_0.tar.bz2":{
 "build":"hfe4627d_0",
@@ -27401,7 +27362,7 @@
 "timestamp":1536074361448,
 "version":"1.1.0"
 },
-"iminuit-2.4.0-py36h29c3540_0.tar.bz2":{
+"iminuit-2.6.0-py36h29c3540_0.tar.bz2":{
 "build":"py36h29c3540_0",
 "build_number":0,
 "depends":[
@@ -27412,12 +27373,12 @@
 ],
 "license":"LGPL-2.1-or-later AND MIT",
 "name":"iminuit",
-"sha256":"f77141657a7a64948e6d5d403823f9f6f8ee1284ebb2b2f475babf2f77ace759",
-"size":349862,
-"timestamp":1619189441746,
-"version":"2.4.0"
+"sha256":"66258898cca91dc0d75752048f8ce7d7fbc6b4dc38eeee6c5b0c50eb9751024d",
+"size":350464,
+"timestamp":1619997457580,
+"version":"2.6.0"
 },
-"iminuit-2.4.0-py37h29c3540_0.tar.bz2":{
+"iminuit-2.6.0-py37h29c3540_0.tar.bz2":{
 "build":"py37h29c3540_0",
 "build_number":0,
 "depends":[
@@ -27428,12 +27389,12 @@
 ],
 "license":"LGPL-2.1-or-later AND MIT",
 "name":"iminuit",
-"sha256":"b2ff538a184ff478dc0fe55c4d012911562865c631eadeaf3ca00a2c7181a2ca",
-"size":343806,
-"timestamp":1619189400876,
-"version":"2.4.0"
+"sha256":"eab592f78494540eff667a02f46d1ad813cab2b227c1a615ba71762e0633cd25",
+"size":350518,
+"timestamp":1619997458927,
+"version":"2.6.0"
 },
-"iminuit-2.4.0-py38h29c3540_0.tar.bz2":{
+"iminuit-2.6.0-py38h29c3540_0.tar.bz2":{
 "build":"py38h29c3540_0",
 "build_number":0,
 "depends":[
@@ -27444,12 +27405,12 @@
 ],
 "license":"LGPL-2.1-or-later AND MIT",
 "name":"iminuit",
-"sha256":"4310930bdd9c25d7411fbd6442340675ac2fa7a7e00636985a325dc37a326508",
-"size":352706,
-"timestamp":1619189409691,
-"version":"2.4.0"
+"sha256":"330d9fa4fc444a60d1ea8f5b1c2c0022bba6d85813add93c829a4eaf231172de",
+"size":348598,
+"timestamp":1619997469260,
+"version":"2.6.0"
 },
-"iminuit-2.4.0-py39h29c3540_0.tar.bz2":{
+"iminuit-2.6.0-py39h29c3540_0.tar.bz2":{
 "build":"py39h29c3540_0",
 "build_number":0,
 "depends":[
@@ -27460,10 +27421,10 @@
 ],
 "license":"LGPL-2.1-or-later AND MIT",
 "name":"iminuit",
-"sha256":"273337f74574d0dfe7eb8f3e1c460f11fa60b7d2617ceb8225db4cc067eafeb4",
-"size":341315,
-"timestamp":1619189444466,
-"version":"2.4.0"
+"sha256":"83b015f77fb6e9b8a0307dfd250c5f1e994f39ed201a43a3ee08e3fc3584ab79",
+"size":356714,
+"timestamp":1619997477955,
+"version":"2.6.0"
 },
 "immutables-0.15-py36h140841e_0.tar.bz2":{
 "build":"py36h140841e_0",
