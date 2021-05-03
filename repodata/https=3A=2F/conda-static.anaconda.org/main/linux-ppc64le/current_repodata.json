@@ -35277,6 +35277,20 @@
 "timestamp":1593535514594,
 "version":"1.14"
 },
+"libxgboost-1.3.3-h29c3540_0.tar.bz2":{
+"build":"h29c3540_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0"
+],
+"license":"Apache-2.0",
+"name":"libxgboost",
+"sha256":"e0b5c2316a54a68e71bde7048cfa5d69e686cc76fdeb0eac13a02bb9885c38c1",
+"size":3802141,
+"timestamp":1619728461544,
+"version":"1.3.3"
+},
 "libxml2-2.9.10-h871c0c7_3.tar.bz2":{
 "build":"h871c0c7_3",
 "build_number":3,
@@ -49286,6 +49300,134 @@
 "size":1315989,
 "timestamp":1530776649966,
 "version":"3.4.1"
+},
+"py-xgboost-1.3.3-py36h6ffa863_0.tar.bz2":{
+"build":"py36h6ffa863_0",
+"build_number":0,
+"depends":[
+"_py-xgboost-mutex 2.0 cpu_0",
+"libxgboost 1.3.3 h29c3540_0",
+"numpy",
+"python >=3.6,<3.7.0a0",
+"scikit-learn",
+"scipy"
+],
+"license":"Apache-2.0",
+"name":"py-xgboost",
+"sha256":"90e6550f6485a6bd9a05e647354b75f8ddcac56299f94eb739e6687b4b8c0ef9",
+"size":138687,
+"timestamp":1619728482337,
+"version":"1.3.3"
+},
+"py-xgboost-1.3.3-py37h6ffa863_0.tar.bz2":{
+"build":"py37h6ffa863_0",
+"build_number":0,
+"depends":[
+"_py-xgboost-mutex 2.0 cpu_0",
+"libxgboost 1.3.3 h29c3540_0",
+"numpy",
+"python >=3.7,<3.8.0a0",
+"scikit-learn",
+"scipy"
+],
+"license":"Apache-2.0",
+"name":"py-xgboost",
+"sha256":"fe76c76965cdeeeb7e36a5a1bef560d6607641fa088a9cc3ef91ad84e13607fe",
+"size":138886,
+"timestamp":1619728491367,
+"version":"1.3.3"
+},
+"py-xgboost-1.3.3-py38h6ffa863_0.tar.bz2":{
+"build":"py38h6ffa863_0",
+"build_number":0,
+"depends":[
+"_py-xgboost-mutex 2.0 cpu_0",
+"libxgboost 1.3.3 h29c3540_0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"scikit-learn",
+"scipy"
+],
+"license":"Apache-2.0",
+"name":"py-xgboost",
+"sha256":"8649bd9e2c05a64d85222d7dc2f53c1c1bbcc8a307b3171109228f51c453c498",
+"size":139522,
+"timestamp":1619728473272,
+"version":"1.3.3"
+},
+"py-xgboost-1.3.3-py39h6ffa863_0.tar.bz2":{
+"build":"py39h6ffa863_0",
+"build_number":0,
+"depends":[
+"_py-xgboost-mutex 2.0 cpu_0",
+"libxgboost 1.3.3 h29c3540_0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"scikit-learn",
+"scipy"
+],
+"license":"Apache-2.0",
+"name":"py-xgboost",
+"sha256":"38b3b73bbb1680cabbcc6767c35b7b906ead2e1ae5560cb935f95d5120ed3930",
+"size":139270,
+"timestamp":1619728500953,
+"version":"1.3.3"
+},
+"py-xgboost-cpu-1.3.3-py36h6ffa863_0.tar.bz2":{
+"build":"py36h6ffa863_0",
+"build_number":0,
+"depends":[
+"py-xgboost 1.3.3 py36h6ffa863_0",
+"python >=3.6,<3.7.0a0"
+],
+"license":"Apache-2.0",
+"name":"py-xgboost-cpu",
+"sha256":"b3458f091d68d2f64d5b6346143cb7102a6e1977692d0905b890f3018f0f2ccc",
+"size":22542,
+"timestamp":1619728527856,
+"version":"1.3.3"
+},
+"py-xgboost-cpu-1.3.3-py37h6ffa863_0.tar.bz2":{
+"build":"py37h6ffa863_0",
+"build_number":0,
+"depends":[
+"py-xgboost 1.3.3 py37h6ffa863_0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"Apache-2.0",
+"name":"py-xgboost-cpu",
+"sha256":"1c180d0ced63d8fc181c892a14f53308b76d9ade88cb355ee1c253163d9786e8",
+"size":22535,
+"timestamp":1619728540527,
+"version":"1.3.3"
+},
+"py-xgboost-cpu-1.3.3-py38h6ffa863_0.tar.bz2":{
+"build":"py38h6ffa863_0",
+"build_number":0,
+"depends":[
+"py-xgboost 1.3.3 py38h6ffa863_0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"Apache-2.0",
+"name":"py-xgboost-cpu",
+"sha256":"59539f48d421f4b5d0369a339fe3e26343a354780760c9761f80f98cbfdf8e93",
+"size":22535,
+"timestamp":1619728514090,
+"version":"1.3.3"
+},
+"py-xgboost-cpu-1.3.3-py39h6ffa863_0.tar.bz2":{
+"build":"py39h6ffa863_0",
+"build_number":0,
+"depends":[
+"py-xgboost 1.3.3 py39h6ffa863_0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"Apache-2.0",
+"name":"py-xgboost-cpu",
+"sha256":"861dae342304b087864d583e80b5ea02abd610cdf171ebc20b7024c2504f8e97",
+"size":22553,
+"timestamp":1619728553235,
+"version":"1.3.3"
 },
 "py4j-0.10.7-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -75132,6 +75274,62 @@
 "size":3858900,
 "timestamp":1599879066253,
 "version":"3.2.3"
+},
+"xgboost-1.3.3-py36h6ffa863_0.tar.bz2":{
+"build":"py36h6ffa863_0",
+"build_number":0,
+"depends":[
+"py-xgboost 1.3.3 py36h6ffa863_0",
+"python >=3.6,<3.7.0a0"
+],
+"license":"Apache-2.0",
+"name":"xgboost",
+"sha256":"38595f135d78ee2140e36c38db2fa622d8715e7fcd6948c286465701a7dc37b3",
+"size":22539,
+"timestamp":1619728564393,
+"version":"1.3.3"
+},
+"xgboost-1.3.3-py37h6ffa863_0.tar.bz2":{
+"build":"py37h6ffa863_0",
+"build_number":0,
+"depends":[
+"py-xgboost 1.3.3 py37h6ffa863_0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"Apache-2.0",
+"name":"xgboost",
+"sha256":"ad770589dcf50b405f5ebb167584f635d2befa9c802135a395f58dd1f006b0ab",
+"size":22520,
+"timestamp":1619728569914,
+"version":"1.3.3"
+},
+"xgboost-1.3.3-py38h6ffa863_0.tar.bz2":{
+"build":"py38h6ffa863_0",
+"build_number":0,
+"depends":[
+"py-xgboost 1.3.3 py38h6ffa863_0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"Apache-2.0",
+"name":"xgboost",
+"sha256":"f9a692005db75d5d2f212ede1073d3bb5ebc798d76e69e2a1f687a59867dd94a",
+"size":22518,
+"timestamp":1619728558872,
+"version":"1.3.3"
+},
+"xgboost-1.3.3-py39h6ffa863_0.tar.bz2":{
+"build":"py39h6ffa863_0",
+"build_number":0,
+"depends":[
+"py-xgboost 1.3.3 py39h6ffa863_0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"Apache-2.0",
+"name":"xgboost",
+"sha256":"2a59f336eef17c781f1fc56ff56d50d671c2c4d7f34c7cad800998d6cd033637",
+"size":22565,
+"timestamp":1619728575865,
+"version":"1.3.3"
 },
 "xlrd-1.2.0-py27_0.tar.bz2":{
 "build":"py27_0",

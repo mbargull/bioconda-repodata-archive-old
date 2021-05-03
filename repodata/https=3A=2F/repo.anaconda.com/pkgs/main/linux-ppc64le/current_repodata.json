@@ -38884,63 +38884,21 @@
 "timestamp":1616180920313,
 "version":"3.25.0"
 },
-"catalogue-2.0.3-py36h6ffa863_0.conda":{
-"build":"py36h6ffa863_0",
-"build_number":0,
-"depends":[
-"importlib_metadata >=0.20",
-"python >=3.6,<3.7.0a0"
-],
-"legacy_bz2_md5":"fddfeb8441c4a0ceefe178fece062289",
-"license":"MIT",
-"name":"catalogue",
-"sha256":"85af60f6b4e00030e6e81fd2d6266355ed5ef952355c73da238c9dfe0aa8b8d3",
-"size":32069,
-"timestamp":1618521505744,
-"version":"2.0.3"
-},
-"catalogue-2.0.3-py37h6ffa863_0.conda":{
-"build":"py37h6ffa863_0",
-"build_number":0,
-"depends":[
-"importlib_metadata >=0.20",
-"python >=3.7,<3.8.0a0"
-],
-"legacy_bz2_md5":"11782afc21e7a4d47690b714272f71d5",
-"license":"MIT",
-"name":"catalogue",
-"sha256":"71f551c3b9b6357c136de286577c0b2a8aac09129e98b2c45b1aee35f86cc4b1",
-"size":32102,
-"timestamp":1618521515921,
-"version":"2.0.3"
-},
-"catalogue-2.0.3-py38h6ffa863_0.conda":{
-"build":"py38h6ffa863_0",
-"build_number":0,
-"depends":[
-"python >=3.8,<3.9.0a0"
-],
-"legacy_bz2_md5":"8cf64f92b191e09924189db83b840f0d",
-"license":"MIT",
-"name":"catalogue",
-"sha256":"761b188cd1094bfa5e5835b1d730a897c06b4357e2990eb9db86e754c814e0e7",
-"size":32270,
-"timestamp":1618521513813,
-"version":"2.0.3"
-},
-"catalogue-2.0.3-py39h6ffa863_0.conda":{
+"catalogue-2.0.4-py39h6ffa863_0.conda":{
 "build":"py39h6ffa863_0",
 "build_number":0,
 "depends":[
-"python >=3.9,<3.10.0a0"
+"python >=3.9,<3.10.0a0",
+"typing-extensions >=3.6.4",
+"zipp >=0.5"
 ],
-"legacy_bz2_md5":"2c7b2ce33cadb41ba489d779878782cd",
+"legacy_bz2_md5":"bb52fd7c649f511438846c880b14550e",
 "license":"MIT",
 "name":"catalogue",
-"sha256":"583ffa38245c7453ab02068a952d5e2c3d32a3fd5767924cb45ef73dccfb394c",
-"size":32417,
-"timestamp":1618601337334,
-"version":"2.0.3"
+"sha256":"c0a899f4f6f92027a6c40eff0c06689e8b84db56544048ca2662ca342fc21001",
+"size":32410,
+"timestamp":1620048270726,
+"version":"2.0.4"
 },
 "ccache-3.7.9-hfe4627d_0.conda":{
 "build":"hfe4627d_0",
@@ -48845,7 +48803,7 @@
 "timestamp":1579719202587,
 "version":"2.6.1"
 },
-"iminuit-2.4.0-py36h29c3540_0.conda":{
+"iminuit-2.6.0-py36h29c3540_0.conda":{
 "build":"py36h29c3540_0",
 "build_number":0,
 "depends":[
@@ -48854,15 +48812,15 @@
 "numpy",
 "python >=3.6,<3.7.0a0"
 ],
-"legacy_bz2_md5":"f4679bb76b3d9dc032a8fb1f653f10b3",
+"legacy_bz2_md5":"724d712e19356d0ff64a78404267bbfc",
 "license":"LGPL-2.1-or-later AND MIT",
 "name":"iminuit",
-"sha256":"448aad01d085bb63f977313ff24e2862076c51aff85bef8c27bbf12f8ac56443",
-"size":322813,
-"timestamp":1619189441746,
-"version":"2.4.0"
+"sha256":"1c6052a8cb8cd4154a261affa82a6ad85a0bf618401ee0a5ad2ee3c760344dc6",
+"size":330809,
+"timestamp":1619997457580,
+"version":"2.6.0"
 },
-"iminuit-2.4.0-py37h29c3540_0.conda":{
+"iminuit-2.6.0-py37h29c3540_0.conda":{
 "build":"py37h29c3540_0",
 "build_number":0,
 "depends":[
@@ -48871,15 +48829,15 @@
 "numpy",
 "python >=3.7,<3.8.0a0"
 ],
-"legacy_bz2_md5":"88bfd195c36cebcaed030369ca48df05",
+"legacy_bz2_md5":"29efe8bb1e2d8308b1bfb93690d4bf95",
 "license":"LGPL-2.1-or-later AND MIT",
 "name":"iminuit",
-"sha256":"fbf07c48376f1559dd214993e11688ad158a2b3cc3f14a596417544cce5ed0d0",
-"size":325091,
-"timestamp":1619189400876,
-"version":"2.4.0"
+"sha256":"65d07c73ae228cb1eeb5f2f3f8e918a44bb8bb8814170b9faacf40c5dcae8927",
+"size":330860,
+"timestamp":1619997458927,
+"version":"2.6.0"
 },
-"iminuit-2.4.0-py38h29c3540_0.conda":{
+"iminuit-2.6.0-py38h29c3540_0.conda":{
 "build":"py38h29c3540_0",
 "build_number":0,
 "depends":[
@@ -48888,15 +48846,15 @@
 "numpy",
 "python >=3.8,<3.9.0a0"
 ],
-"legacy_bz2_md5":"f83730d02e3b2c5415904655db4e21fc",
+"legacy_bz2_md5":"49f8ff9135ed55858ebab51a7c58b0b6",
 "license":"LGPL-2.1-or-later AND MIT",
 "name":"iminuit",
-"sha256":"f3f9da6ab8f092d19e7d631a464c7270efea4b980984740d730eece0b5b77121",
-"size":324956,
-"timestamp":1619189409691,
-"version":"2.4.0"
+"sha256":"22c6215a0dd38697a0286d6e43438f3aad1f9d06ae11488a996971925e12cecb",
+"size":330397,
+"timestamp":1619997469260,
+"version":"2.6.0"
 },
-"iminuit-2.4.0-py39h29c3540_0.conda":{
+"iminuit-2.6.0-py39h29c3540_0.conda":{
 "build":"py39h29c3540_0",
 "build_number":0,
 "depends":[
@@ -48905,13 +48863,13 @@
 "numpy",
 "python >=3.9,<3.10.0a0"
 ],
-"legacy_bz2_md5":"980f0047ac16ddc5591e339a293fc7fd",
+"legacy_bz2_md5":"3a4ca71a7aac208a9c80cef31201f0a5",
 "license":"LGPL-2.1-or-later AND MIT",
 "name":"iminuit",
-"sha256":"adbd18ca191b89ae748cd7078961b50e2b7b7b00f2fc470ba9135fb356317eb8",
-"size":324209,
-"timestamp":1619189444466,
-"version":"2.4.0"
+"sha256":"207cc65010adf5d909699ad94703a05b30fad7145d63d52862c81133303e3568",
+"size":330723,
+"timestamp":1619997477955,
+"version":"2.6.0"
 },
 "immutables-0.15-py36h140841e_0.conda":{
 "build":"py36h140841e_0",
