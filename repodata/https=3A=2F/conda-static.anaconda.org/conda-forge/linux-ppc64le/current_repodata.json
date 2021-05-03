@@ -51384,11 +51384,11 @@
 "timestamp":1603561518479,
 "version":"0.3.12"
 },
-"libopenblas-0.3.13-openmp_hd33982b_0.tar.bz2":{
+"libopenblas-0.3.15-openmp_hd33982b_0.tar.bz2":{
 "build":"openmp_hd33982b_0",
 "build_number":0,
 "constrains":[
-"openblas >=0.3.13,<0.3.14.0a0"
+"openblas >=0.3.15,<0.3.16.0a0"
 ],
 "depends":[
 "_openmp_mutex * *_llvm",
@@ -51396,21 +51396,21 @@
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
-"llvm-openmp >=11.0.0"
+"llvm-openmp >=11.1.0"
 ],
 "license":"BSD-3-Clause",
 "name":"libopenblas",
-"sha256":"b0b4ca96580297bd912168741fc3d5761dd5a43e9896a4e39827fe833a6bd145",
-"size":5708556,
-"timestamp":1607802163717,
+"sha256":"a749863b2b3081199efd13423aedea31c2014db4b17f2b8c3936994f08e3e85a",
+"size":5731641,
+"timestamp":1620024179780,
 "track_features":"openblas_threading_openmp",
-"version":"0.3.13"
+"version":"0.3.15"
 },
-"libopenblas-0.3.13-pthreads_h486567c_0.tar.bz2":{
+"libopenblas-0.3.15-pthreads_h486567c_0.tar.bz2":{
 "build":"pthreads_h486567c_0",
 "build_number":0,
 "constrains":[
-"openblas >=0.3.13,<0.3.14.0a0"
+"openblas >=0.3.15,<0.3.16.0a0"
 ],
 "depends":[
 "libgcc-ng >=9.3.0",
@@ -51419,16 +51419,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libopenblas",
-"sha256":"67b917e4451c4b6b179147d4fa88cb1a68403447addd7be832764aedac33742a",
-"size":5702709,
-"timestamp":1607802169327,
-"version":"0.3.13"
+"sha256":"8c139eed09728c855f6ff1e961dde873607967aa79b215fd28bd3b168ac59ac9",
+"size":5719074,
+"timestamp":1620024916994,
+"version":"0.3.15"
 },
-"libopenblas-ilp64-0.3.13-openmp_h518357c_0.tar.bz2":{
+"libopenblas-ilp64-0.3.15-openmp_h518357c_0.tar.bz2":{
 "build":"openmp_h518357c_0",
 "build_number":0,
 "constrains":[
-"openblas-ilp64 >=0.3.13,<0.3.14.0a0"
+"openblas-ilp64 >=0.3.15,<0.3.16.0a0"
 ],
 "depends":[
 "_openmp_mutex * *_llvm",
@@ -51436,21 +51436,21 @@
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
-"llvm-openmp >=11.0.0"
+"llvm-openmp >=11.1.0"
 ],
 "license":"BSD-3-Clause",
 "name":"libopenblas-ilp64",
-"sha256":"ac33c99d9fada2fdf593dd116da8378b4b35a0dfbfba539b4904eb1221a74254",
-"size":5531234,
-"timestamp":1607802171324,
+"sha256":"31c8640cf7bb866311ee7b0339df7bea590b44fd1347dc60549cba43b8ceeddd",
+"size":5557362,
+"timestamp":1620024930637,
 "track_features":"openblas_threading_openmp",
-"version":"0.3.13"
+"version":"0.3.15"
 },
-"libopenblas-ilp64-0.3.13-pthreads_h95902a2_0.tar.bz2":{
+"libopenblas-ilp64-0.3.15-pthreads_h95902a2_0.tar.bz2":{
 "build":"pthreads_h95902a2_0",
 "build_number":0,
 "constrains":[
-"openblas-ilp64 >=0.3.13,<0.3.14.0a0"
+"openblas-ilp64 >=0.3.15,<0.3.16.0a0"
 ],
 "depends":[
 "libgcc-ng >=9.3.0",
@@ -51459,10 +51459,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libopenblas-ilp64",
-"sha256":"c17acbe9300cba4ec793f2dc522a64b2332c22ff6dc3f468b950eb1cf88dc053",
-"size":5508449,
-"timestamp":1607802165523,
-"version":"0.3.13"
+"sha256":"c6a622b5f0d6f024880d8035d9c97fd462db2877a9f3b979a6c94be5af337ad6",
+"size":5552704,
+"timestamp":1620024921280,
+"version":"0.3.15"
 },
 "libopencv-4.5.2-py39h75ec52a_0.tar.bz2":{
 "build":"py39h75ec52a_0",
@@ -65136,7 +65136,7 @@
 "timestamp":1618297284160,
 "version":"0.6.3"
 },
-"openblas-0.3.13-openmp_h25a920f_0.tar.bz2":{
+"openblas-0.3.15-openmp_h25a920f_0.tar.bz2":{
 "build":"openmp_h25a920f_0",
 "build_number":0,
 "depends":[
@@ -65145,59 +65145,59 @@
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
-"libopenblas 0.3.13 openmp_hd33982b_0",
-"llvm-openmp >=11.0.0"
+"libopenblas 0.3.15 openmp_hd33982b_0",
+"llvm-openmp >=11.1.0"
 ],
 "license":"BSD-3-Clause",
 "name":"openblas",
-"sha256":"694c8d7fbf9fc9b76aa59b2d4a0dea15af390ab7447bd5bdf3bb839d377c628b",
-"size":7132611,
-"timestamp":1607802172589,
+"sha256":"db78482242558a008a753c9fcf0854d6fc16c9e6b58d372300586b0629b60ee8",
+"size":7160157,
+"timestamp":1620024193611,
 "track_features":"openblas_threading_openmp",
-"version":"0.3.13"
+"version":"0.3.15"
 },
-"openblas-0.3.13-pthreads_h92053e5_0.tar.bz2":{
+"openblas-0.3.15-pthreads_h92053e5_0.tar.bz2":{
 "build":"pthreads_h92053e5_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
-"libopenblas 0.3.13 pthreads_h486567c_0"
+"libopenblas 0.3.15 pthreads_h486567c_0"
 ],
 "license":"BSD-3-Clause",
 "name":"openblas",
-"sha256":"f7824097baa01330378bc8b32a235c099f6d509175dcc92b52bfca7529f96747",
-"size":7119988,
-"timestamp":1607802178211,
-"version":"0.3.13"
+"sha256":"ff3b6fc4be4e0ae64d83c46f2977109d36ed87f3654aa1c3e56fb0f40ae64254",
+"size":7164174,
+"timestamp":1620024928633,
+"version":"0.3.15"
 },
-"openblas-ilp64-0.3.13-openmp_h7ab38bd_0.tar.bz2":{
+"openblas-ilp64-0.3.15-openmp_h7ab38bd_0.tar.bz2":{
 "build":"openmp_h7ab38bd_0",
 "build_number":0,
 "depends":[
-"libopenblas-ilp64 0.3.13 openmp_h518357c_0"
+"libopenblas-ilp64 0.3.15 openmp_h518357c_0"
 ],
 "license":"BSD-3-Clause",
 "name":"openblas-ilp64",
-"sha256":"81128690dff469cc82eab86aae14f33c5c6135368d9b641b5203da37f0b5a417",
-"size":6997121,
-"timestamp":1607802180197,
+"sha256":"54ccf33bac6ccadbb78239e5ec4e4a13fb801274131c5ceb52fa50ed1989a0d7",
+"size":7000567,
+"timestamp":1620024941988,
 "track_features":"openblas_threading_openmp",
-"version":"0.3.13"
+"version":"0.3.15"
 },
-"openblas-ilp64-0.3.13-pthreads_h264c1ae_0.tar.bz2":{
+"openblas-ilp64-0.3.15-pthreads_h264c1ae_0.tar.bz2":{
 "build":"pthreads_h264c1ae_0",
 "build_number":0,
 "depends":[
-"libopenblas-ilp64 0.3.13 pthreads_h95902a2_0"
+"libopenblas-ilp64 0.3.15 pthreads_h95902a2_0"
 ],
 "license":"BSD-3-Clause",
 "name":"openblas-ilp64",
-"sha256":"54756d65f548cae913afe7c946e1bb30c32c5464e8d77a074ee68326950acec0",
-"size":6977734,
-"timestamp":1607802174400,
-"version":"0.3.13"
+"sha256":"99cb9fd79b1135395fe692f43febb6392125c4e1da51d8755c2517f623a62d2f",
+"size":6989982,
+"timestamp":1620024938436,
+"version":"0.3.15"
 },
 "opencv-4.5.2-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
@@ -103187,6 +103187,122 @@
 "timestamp":1619548707327,
 "version":"2.4.3"
 },
+"snowflake-connector-python-2.4.3-py36h92df570_1.tar.bz2":{
+"build":"py36h92df570_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=3.0.0,<3.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"dataclasses",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=3.0.0,<4.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"6dfe9cfaecb254a82f3d89b2401e315dca6e7b27a508fd5a90d70ef462841784",
+"size":522852,
+"timestamp":1620024991336,
+"version":"2.4.3"
+},
+"snowflake-connector-python-2.4.3-py36hecb6f1b_1.tar.bz2":{
+"build":"py36hecb6f1b_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=4.0.0,<4.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"dataclasses",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=4.0.0,<5.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"075dff78a25e1cf278dd03ca1a6a15d647dfbad76b9efccc15ac0cdb9db7d559",
+"size":521179,
+"timestamp":1620025043541,
+"version":"2.4.3"
+},
+"snowflake-connector-python-2.4.3-py37h0b99db5_1.tar.bz2":{
+"build":"py37h0b99db5_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=4.0.0,<4.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=4.0.0,<5.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"3f6bf86d745f5aa7435ea8d64a80793b592ab13a67832530e531d4c45b82f508",
+"size":524785,
+"timestamp":1620025066294,
+"version":"2.4.3"
+},
 "snowflake-connector-python-2.4.3-py37h9dc9190_0.tar.bz2":{
 "build":"py37h9dc9190_0",
 "build_number":0,
@@ -103223,6 +103339,44 @@
 "sha256":"7c0518c989fcb8461e1055c8a629a17771e74d5412eca439281f2959a2fba928",
 "size":517684,
 "timestamp":1619548727424,
+"version":"2.4.3"
+},
+"snowflake-connector-python-2.4.3-py37hd2c3d22_1.tar.bz2":{
+"build":"py37hd2c3d22_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=3.0.0,<3.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=3.0.0,<4.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"c31a0f6119b3fa2cbf02b38e52cbd84a66f4e552eb26e3e9beb04eac43c68013",
+"size":523016,
+"timestamp":1620025060079,
 "version":"2.4.3"
 },
 "snowflake-connector-python-2.4.3-py38h302ae05_0.tar.bz2":{
@@ -103263,6 +103417,120 @@
 "timestamp":1619548711541,
 "version":"2.4.3"
 },
+"snowflake-connector-python-2.4.3-py38hd3f8a55_1.tar.bz2":{
+"build":"py38hd3f8a55_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=3.0.0,<3.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=3.0.0,<4.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"3f89e05ae17c4157b26fcff58353119ae8540915b9ff8bcd0673afea76153ed7",
+"size":525644,
+"timestamp":1620025047507,
+"version":"2.4.3"
+},
+"snowflake-connector-python-2.4.3-py38he8874bf_1.tar.bz2":{
+"build":"py38he8874bf_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=4.0.0,<4.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=4.0.0,<5.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"b3efb9a6bebcdec36ed97d74cd73df280818ef1e3a17d786da12bab758bcccdd",
+"size":527243,
+"timestamp":1620024997814,
+"version":"2.4.3"
+},
+"snowflake-connector-python-2.4.3-py39h48ed692_1.tar.bz2":{
+"build":"py39h48ed692_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=4.0.0,<4.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=4.0.0,<5.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"df6ae4247f40fa08fe77ff219add08c67074872f8fbd98657b3991d4c1a040f1",
+"size":527034,
+"timestamp":1620024970709,
+"version":"2.4.3"
+},
 "snowflake-connector-python-2.4.3-py39h92fcf75_0.tar.bz2":{
 "build":"py39h92fcf75_0",
 "build_number":0,
@@ -103299,6 +103567,44 @@
 "sha256":"9575200e7259aa0167c9a905e0e42e15cc9b8f1633879a992c92914075ca2551",
 "size":526673,
 "timestamp":1619548733429,
+"version":"2.4.3"
+},
+"snowflake-connector-python-2.4.3-py39haecda89_1.tar.bz2":{
+"build":"py39haecda89_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=3.0.0,<3.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=3.0.0,<4.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"82da4f287a8655b36e3b5b3e2598a0aaad452e7cf9cd8c2d50e320dc28a7a625",
+"size":527193,
+"timestamp":1620025016914,
 "version":"2.4.3"
 },
 "soupsieve-2.0.1-py36h9f0ad1d_0.tar.bz2":{
