@@ -9821,6 +9821,25 @@
 "timestamp":1612393972707,
 "version":"2.108"
 },
+"blas-2.109-openblas.tar.bz2":{
+"build":"openblas",
+"build_number":9,
+"depends":[
+"blas-devel 3.9.0 9_openblas",
+"libblas 3.9.0 9_openblas",
+"libcblas 3.9.0 9_openblas",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack 3.9.0 9_openblas",
+"liblapacke 3.9.0 9_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"blas",
+"sha256":"af29cb179403bf1db1ee52105597a8d599103ac602382494512430a90127a27b",
+"size":12261,
+"timestamp":1620063101895,
+"version":"2.109"
+},
 "blas-2.2-netlib.tar.bz2":{
 "build":"netlib",
 "build_number":2,
@@ -10058,6 +10077,23 @@
 "sha256":"ea89105ef729f11d307558b99d8876792099d8bcf90f5dab84a37aeec2515b11",
 "size":11611,
 "timestamp":1612393934236,
+"version":"3.9.0"
+},
+"blas-devel-3.9.0-9_openblas.tar.bz2":{
+"build":"9_openblas",
+"build_number":9,
+"depends":[
+"libblas 3.9.0 9_openblas",
+"libcblas 3.9.0 9_openblas",
+"liblapack 3.9.0 9_openblas",
+"liblapacke 3.9.0 9_openblas",
+"openblas"
+],
+"license":"BSD-3-Clause",
+"name":"blas-devel",
+"sha256":"e51619899a4536598ec045189c2aedb75b195e12dfa2baa2842a55f82d406ed9",
+"size":11666,
+"timestamp":1620063055586,
 "version":"3.9.0"
 },
 "blas-devel-3.9.0-netlib.tar.bz2":{
@@ -36281,6 +36317,26 @@
 "timestamp":1612393898570,
 "version":"3.9.0"
 },
+"libblas-3.9.0-9_openblas.tar.bz2":{
+"build":"9_openblas",
+"build_number":9,
+"constrains":[
+"liblapacke 3.9.0 9_openblas",
+"blas * openblas",
+"liblapack 3.9.0 9_openblas",
+"libcblas 3.9.0 9_openblas"
+],
+"depends":[
+"libopenblas >=0.3.15,<0.3.16.0a0",
+"libopenblas >=0.3.15,<1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libblas",
+"sha256":"94bcaae851bab206298524188f16ceb3985e84ea8b86a6f7965b66f04f90dcb3",
+"size":11792,
+"timestamp":1620063016499,
+"version":"3.9.0"
+},
 "libbraiding-1.1-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
@@ -36622,6 +36678,24 @@
 "sha256":"7bc6267d4b6bb2015de8c4f72aa9ee26905e11031f7210fdb9cc67dc360c4ee8",
 "size":11633,
 "timestamp":1612393907703,
+"version":"3.9.0"
+},
+"libcblas-3.9.0-9_openblas.tar.bz2":{
+"build":"9_openblas",
+"build_number":9,
+"constrains":[
+"blas * openblas",
+"liblapack 3.9.0 9_openblas",
+"liblapacke 3.9.0 9_openblas"
+],
+"depends":[
+"libblas 3.9.0 9_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"libcblas",
+"sha256":"ea1439fc61a0a08adafc1bab93658678e1d8bf855d9efc0b4d8d91ea62c74cf5",
+"size":11681,
+"timestamp":1620063026445,
 "version":"3.9.0"
 },
 "libccd-2.1-hbdafb3b_1.tar.bz2":{
@@ -39398,6 +39472,24 @@
 "timestamp":1612393916291,
 "version":"3.9.0"
 },
+"liblapack-3.9.0-9_openblas.tar.bz2":{
+"build":"9_openblas",
+"build_number":9,
+"constrains":[
+"liblapacke 3.9.0 9_openblas",
+"blas * openblas",
+"libcblas 3.9.0 9_openblas"
+],
+"depends":[
+"libblas 3.9.0 9_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"liblapack",
+"sha256":"28c9eb2219d67ffdba4a918305285d17e38d73fcd9411be565308bac1bb4301e",
+"size":11673,
+"timestamp":1620063035885,
+"version":"3.9.0"
+},
 "liblapacke-3.9.0-0_h2ec9a88_netlib.tar.bz2":{
 "build":"0_h2ec9a88_netlib",
 "build_number":0,
@@ -39648,6 +39740,24 @@
 "sha256":"cbb3bfb93af878d4bdcf8a9a8a8b8687eeb3177dfde6fc2c24833e68415ff725",
 "size":11608,
 "timestamp":1612393925197,
+"version":"3.9.0"
+},
+"liblapacke-3.9.0-9_openblas.tar.bz2":{
+"build":"9_openblas",
+"build_number":9,
+"constrains":[
+"blas * openblas"
+],
+"depends":[
+"libblas 3.9.0 9_openblas",
+"libcblas 3.9.0 9_openblas",
+"liblapack 3.9.0 9_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"liblapacke",
+"sha256":"59a786643295f219b3dbee3e45a442007ede503c3ad94f161f4b1e9b5c5b8d72",
+"size":11690,
+"timestamp":1620063045610,
 "version":"3.9.0"
 },
 "liblief-0.10.1-hb904e53_2.tar.bz2":{
