@@ -5179,9 +5179,9 @@
 "timestamp":1591752603786,
 "version":"1.2.3"
 },
-"ambertools-20.15-py36h3995154_2.tar.bz2":{
-"build":"py36h3995154_2",
-"build_number":2,
+"ambertools-21.0-py36h84d8312_0.tar.bz2":{
+"build":"py36h84d8312_0",
+"build_number":0,
 "constrains":[
 "ambermini ==9999999999"
 ],
@@ -5203,11 +5203,12 @@
 "matplotlib-base",
 "netcdf-fortran >=4.5.3,<4.6.0a0",
 "numpy",
-"parmed >=3.3.0,<4.0.0a",
+"packmol",
+"parmed >=3.4.1,<4.0.0a",
 "perl",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
-"readline >=8.0,<9.0a0",
+"readline >=8.1,<9.0a0",
 "scipy",
 "xorg-libx11",
 "xorg-libxext",
@@ -5216,97 +5217,14 @@
 ],
 "license":"Multiple",
 "name":"ambertools",
-"sha256":"4c88b6b9475ddc9e908b08d97df22642484a50aebdf12187494a971e8af21f4f",
-"size":103921532,
-"timestamp":1619046653667,
-"version":"20.15"
+"sha256":"5bd0e64a36c82f12f71994298cb117aeffc58ba0dfe0e59cfe89594515b573cf",
+"size":96700564,
+"timestamp":1620044162548,
+"version":"21.0"
 },
-"ambertools-20.15-py36hcdded9c_0.tar.bz2":{
-"build":"py36hcdded9c_0",
+"ambertools-21.0-py39h6738a45_0.tar.bz2":{
+"build":"py39h6738a45_0",
 "build_number":0,
-"constrains":[
-"ambermini ==9999999999"
-],
-"depends":[
-"_openmp_mutex >=4.5",
-"arpack >=3.7.0,<3.7.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
-"cython",
-"fftw >=3.3.9,<4.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libgomp",
-"liblapack >=3.8.0,<4.0a0",
-"libnetcdf >=4.7.4,<4.7.5.0a0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"netcdf-fortran >=4.5.3,<4.6.0a0",
-"numpy",
-"perl",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"readline >=8.0,<9.0a0",
-"scipy",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxt",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Multiple",
-"name":"ambertools",
-"sha256":"ae5aa973b612469b92dabdcbd4244cc9d59708632608876488561e40b71f7fe2",
-"size":104867770,
-"timestamp":1611236424657,
-"version":"20.15"
-},
-"ambertools-20.15-py36hcdded9c_1.tar.bz2":{
-"build":"py36hcdded9c_1",
-"build_number":1,
-"constrains":[
-"ambermini ==9999999999"
-],
-"depends":[
-"_openmp_mutex >=4.5",
-"arpack >=3.7.0,<3.7.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
-"cython",
-"fftw >=3.3.9,<4.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libgomp",
-"liblapack >=3.8.0,<4.0a0",
-"libnetcdf >=4.7.4,<4.7.5.0a0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"netcdf-fortran >=4.5.3,<4.6.0a0",
-"numpy",
-"parmed >=3.3.0,<4.0.0a",
-"perl",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"readline >=8.0,<9.0a0",
-"scipy",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxt",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Multiple",
-"name":"ambertools",
-"sha256":"2d9e73c16313fbdf568d9d147590cedb405eb9a9e767dccbcfb9aca1190e7a3c",
-"size":103958618,
-"timestamp":1612552631008,
-"version":"20.15"
-},
-"ambertools-20.15-py37h55712b0_2.tar.bz2":{
-"build":"py37h55712b0_2",
-"build_number":2,
 "constrains":[
 "ambermini ==9999999999"
 ],
@@ -5328,261 +5246,12 @@
 "matplotlib-base",
 "netcdf-fortran >=4.5.3,<4.6.0a0",
 "numpy",
-"parmed >=3.3.0,<4.0.0a",
-"perl",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"readline >=8.0,<9.0a0",
-"scipy",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxt",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Multiple",
-"name":"ambertools",
-"sha256":"066a851a5b984ed36dd2d8616e596ff832f7f74ef4950a5583344ec1b56ae053",
-"size":104014951,
-"timestamp":1619049993713,
-"version":"20.15"
-},
-"ambertools-20.15-py37hbbf439e_0.tar.bz2":{
-"build":"py37hbbf439e_0",
-"build_number":0,
-"constrains":[
-"ambermini ==9999999999"
-],
-"depends":[
-"_openmp_mutex >=4.5",
-"arpack >=3.7.0,<3.7.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
-"cython",
-"fftw >=3.3.9,<4.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libgomp",
-"liblapack >=3.8.0,<4.0a0",
-"libnetcdf >=4.7.4,<4.7.5.0a0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"netcdf-fortran >=4.5.3,<4.6.0a0",
-"numpy",
-"perl",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"readline >=8.0,<9.0a0",
-"scipy",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxt",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Multiple",
-"name":"ambertools",
-"sha256":"6c13e47e68a43fb7e1e1640e51fccd6c3787be8cff11bca6f572689554299a60",
-"size":104986016,
-"timestamp":1611237165204,
-"version":"20.15"
-},
-"ambertools-20.15-py37hbbf439e_1.tar.bz2":{
-"build":"py37hbbf439e_1",
-"build_number":1,
-"constrains":[
-"ambermini ==9999999999"
-],
-"depends":[
-"_openmp_mutex >=4.5",
-"arpack >=3.7.0,<3.7.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
-"cython",
-"fftw >=3.3.9,<4.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libgomp",
-"liblapack >=3.8.0,<4.0a0",
-"libnetcdf >=4.7.4,<4.7.5.0a0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"netcdf-fortran >=4.5.3,<4.6.0a0",
-"numpy",
-"parmed >=3.3.0,<4.0.0a",
-"perl",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"readline >=8.0,<9.0a0",
-"scipy",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxt",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Multiple",
-"name":"ambertools",
-"sha256":"80d49ff15e80dc550b1b9e477109e70ac79899300a567cfbbab4b0abcf4ab016",
-"size":104055383,
-"timestamp":1612556202004,
-"version":"20.15"
-},
-"ambertools-20.15-py38h85cf152_2.tar.bz2":{
-"build":"py38h85cf152_2",
-"build_number":2,
-"constrains":[
-"ambermini ==9999999999"
-],
-"depends":[
-"_openmp_mutex >=4.5",
-"arpack >=3.7.0,<3.7.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
-"cython",
-"fftw >=3.3.9,<4.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libgomp",
-"liblapack >=3.8.0,<4.0a0",
-"libnetcdf >=4.8.0,<4.8.1.0a0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"netcdf-fortran >=4.5.3,<4.6.0a0",
-"numpy",
-"parmed >=3.3.0,<4.0.0a",
-"perl",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"readline >=8.0,<9.0a0",
-"scipy",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxt",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Multiple",
-"name":"ambertools",
-"sha256":"f4e6e95d2b1b26deb0909e362be0fe8cded60ff2ca6dc9b8472a8c95fc24f523",
-"size":103802914,
-"timestamp":1619045775540,
-"version":"20.15"
-},
-"ambertools-20.15-py38haed5e60_0.tar.bz2":{
-"build":"py38haed5e60_0",
-"build_number":0,
-"constrains":[
-"ambermini ==9999999999"
-],
-"depends":[
-"_openmp_mutex >=4.5",
-"arpack >=3.7.0,<3.7.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
-"cython",
-"fftw >=3.3.9,<4.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libgomp",
-"liblapack >=3.8.0,<4.0a0",
-"libnetcdf >=4.7.4,<4.7.5.0a0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"netcdf-fortran >=4.5.3,<4.6.0a0",
-"numpy",
-"perl",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"readline >=8.0,<9.0a0",
-"scipy",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxt",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Multiple",
-"name":"ambertools",
-"sha256":"e50f66a45aa1ac20d86373d9c346e3f167c0fa025eac0281c30d52fdef1e8624",
-"size":104585450,
-"timestamp":1611236893586,
-"version":"20.15"
-},
-"ambertools-20.15-py38haed5e60_1.tar.bz2":{
-"build":"py38haed5e60_1",
-"build_number":1,
-"constrains":[
-"ambermini ==9999999999"
-],
-"depends":[
-"_openmp_mutex >=4.5",
-"arpack >=3.7.0,<3.7.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
-"cython",
-"fftw >=3.3.9,<4.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libgomp",
-"liblapack >=3.8.0,<4.0a0",
-"libnetcdf >=4.7.4,<4.7.5.0a0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"netcdf-fortran >=4.5.3,<4.6.0a0",
-"numpy",
-"parmed >=3.3.0,<4.0.0a",
-"perl",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"readline >=8.0,<9.0a0",
-"scipy",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxt",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Multiple",
-"name":"ambertools",
-"sha256":"678d510db64165212548b8ea22c59036d0a1d54148471ff2de090cda920c2ede",
-"size":103719327,
-"timestamp":1612552404814,
-"version":"20.15"
-},
-"ambertools-20.15-py39h5b5daff_2.tar.bz2":{
-"build":"py39h5b5daff_2",
-"build_number":2,
-"constrains":[
-"ambermini ==9999999999"
-],
-"depends":[
-"_openmp_mutex >=4.5",
-"arpack >=3.7.0,<3.7.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
-"cython",
-"fftw >=3.3.9,<4.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libgomp",
-"liblapack >=3.8.0,<4.0a0",
-"libnetcdf >=4.8.0,<4.8.1.0a0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"netcdf-fortran >=4.5.3,<4.6.0a0",
-"numpy",
-"parmed >=3.3.0,<4.0.0a",
+"packmol",
+"parmed >=3.4.1,<4.0.0a",
 "perl",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
-"readline >=8.0,<9.0a0",
+"readline >=8.1,<9.0a0",
 "scipy",
 "xorg-libx11",
 "xorg-libxext",
@@ -5591,93 +5260,10 @@
 ],
 "license":"Multiple",
 "name":"ambertools",
-"sha256":"63ecef33ee2f3ffd9dfb9560ca8e6b5b7d4e05dda47924f76b7447198bd93547",
-"size":103740339,
-"timestamp":1619049275581,
-"version":"20.15"
-},
-"ambertools-20.15-py39ha586a1f_0.tar.bz2":{
-"build":"py39ha586a1f_0",
-"build_number":0,
-"constrains":[
-"ambermini ==9999999999"
-],
-"depends":[
-"_openmp_mutex >=4.5",
-"arpack >=3.7.0,<3.7.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
-"cython",
-"fftw >=3.3.9,<4.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libgomp",
-"liblapack >=3.8.0,<4.0a0",
-"libnetcdf >=4.7.4,<4.7.5.0a0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"netcdf-fortran >=4.5.3,<4.6.0a0",
-"numpy",
-"perl",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"readline >=8.0,<9.0a0",
-"scipy",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxt",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Multiple",
-"name":"ambertools",
-"sha256":"8d7b251333d3d2fba94f5dd01708ee9968fa426f8da2426a29a9ae09ddd7b821",
-"size":104590102,
-"timestamp":1611234092974,
-"version":"20.15"
-},
-"ambertools-20.15-py39ha586a1f_1.tar.bz2":{
-"build":"py39ha586a1f_1",
-"build_number":1,
-"constrains":[
-"ambermini ==9999999999"
-],
-"depends":[
-"_openmp_mutex >=4.5",
-"arpack >=3.7.0,<3.7.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
-"cython",
-"fftw >=3.3.9,<4.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libgomp",
-"liblapack >=3.8.0,<4.0a0",
-"libnetcdf >=4.7.4,<4.7.5.0a0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"netcdf-fortran >=4.5.3,<4.6.0a0",
-"numpy",
-"parmed >=3.3.0,<4.0.0a",
-"perl",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"readline >=8.0,<9.0a0",
-"scipy",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxt",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Multiple",
-"name":"ambertools",
-"sha256":"c3e0297d2e8186a22135eb9bce5944c0a183b6163698ff51904186fd72cd5d96",
-"size":103693982,
-"timestamp":1612550162616,
-"version":"20.15"
+"sha256":"b01ce97c25725d0c9eb705eefac1ddb792c2a4751753414f5d5a699a48e7432e",
+"size":96483878,
+"timestamp":1620044267900,
+"version":"21.0"
 },
 "antlr-python-runtime-4.9.2-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
@@ -88350,7 +87936,7 @@
 "timestamp":1588348071513,
 "version":"2.0.0"
 },
-"r-class-7.3_18-r36h2be38b1_0.tar.bz2":{
+"r-class-7.3_19-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
 "build_number":0,
 "depends":[
@@ -88360,12 +87946,12 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-class",
-"sha256":"84b9eb021c5130a7f74ce02091c27c440f55bb98f14da37d1ec4ec51431a8a79",
-"size":112460,
-"timestamp":1611489749148,
-"version":"7.3_18"
+"sha256":"02f2429890fb6a01a6e4a9395c6b1439460e93f22da295528552a3d19710394d",
+"size":112172,
+"timestamp":1620045071774,
+"version":"7.3_19"
 },
-"r-class-7.3_18-r40h2be38b1_0.tar.bz2":{
+"r-class-7.3_19-r40h2be38b1_0.tar.bz2":{
 "build":"r40h2be38b1_0",
 "build_number":0,
 "depends":[
@@ -88375,10 +87961,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-class",
-"sha256":"dcf4f3a5c442eae2c86b280a10d4dfa9cbc59a5bd8593f82b3ff656cfc38a192",
-"size":112615,
-"timestamp":1611489665254,
-"version":"7.3_18"
+"sha256":"61e7851521751e4b35631671c739681d5676c0a877412836f18b86942a4be0f5",
+"size":112489,
+"timestamp":1620045584516,
+"version":"7.3_19"
 },
 "r-classint-0.4_3-r36h2c7be84_1.tar.bz2":{
 "build":"r36h2c7be84_1",
@@ -91021,7 +90607,7 @@
 "timestamp":1588533180530,
 "version":"1.1"
 },
-"r-mass-7.3_53.1-r36h2be38b1_0.tar.bz2":{
+"r-mass-7.3_54-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
 "build_number":0,
 "depends":[
@@ -91030,12 +90616,12 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-mass",
-"sha256":"93e042984b88ea591441ee21f77510886f6f52105df30470caecfcbb45d3ca3c",
-"size":1194995,
-"timestamp":1613284983167,
-"version":"7.3_53.1"
+"sha256":"7d328dc425d24ec5f9381861510913491f81f9f12f8d2157ee7db2648ce588d8",
+"size":1194108,
+"timestamp":1620045645327,
+"version":"7.3_54"
 },
-"r-mass-7.3_53.1-r40h2be38b1_0.tar.bz2":{
+"r-mass-7.3_54-r40h2be38b1_0.tar.bz2":{
 "build":"r40h2be38b1_0",
 "build_number":0,
 "depends":[
@@ -91044,10 +90630,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-mass",
-"sha256":"ea34054b623bb1859e5c4b66c20b4306f576129b1a6307e1b60875333d6708cd",
-"size":1190270,
-"timestamp":1613284760050,
-"version":"7.3_53.1"
+"sha256":"eafdebd743536322bd2619f8ba9f1b471d0b176f8daec6ea5716ac72ebcacc9b",
+"size":1184495,
+"timestamp":1620045849318,
+"version":"7.3_54"
 },
 "r-matrix-1.3_2-r36hff0e79f_0.tar.bz2":{
 "build":"r36hff0e79f_0",
@@ -91742,7 +91328,7 @@
 "timestamp":1593717150284,
 "version":"1.2.2.2"
 },
-"r-nnet-7.3_15-r36h2be38b1_0.tar.bz2":{
+"r-nnet-7.3_16-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
 "build_number":0,
 "depends":[
@@ -91752,12 +91338,12 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-nnet",
-"sha256":"c9fa70cb0cc99d8be3e31a039e9ab0910c5ae4da257dd08c846c8895cbdcd367",
-"size":140480,
-"timestamp":1611489365350,
-"version":"7.3_15"
+"sha256":"2cead3a72b35978cbc79fba3b3839d84271b9e506ef0c61581302b94c122500d",
+"size":140406,
+"timestamp":1620045320364,
+"version":"7.3_16"
 },
-"r-nnet-7.3_15-r40h2be38b1_0.tar.bz2":{
+"r-nnet-7.3_16-r40h2be38b1_0.tar.bz2":{
 "build":"r40h2be38b1_0",
 "build_number":0,
 "depends":[
@@ -91767,10 +91353,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-nnet",
-"sha256":"3531fe3485155c3b203ad8ce6810c02f9740e7d753538d03794e9e22f6b00a2f",
-"size":140098,
-"timestamp":1611489504707,
-"version":"7.3_15"
+"sha256":"931059e9ce402a1c89c344d0ee3e3317a6211a4bc16ca59db52980d9fd9a0b38",
+"size":140028,
+"timestamp":1620045543217,
+"version":"7.3_16"
 },
 "r-nnls-1.4-r36h2c7be84_1005.tar.bz2":{
 "build":"r36h2c7be84_1005",
@@ -94205,7 +93791,7 @@
 "timestamp":1613658201709,
 "version":"1.81"
 },
-"r-spatial-7.3_13-r36h2be38b1_0.tar.bz2":{
+"r-spatial-7.3_14-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
 "build_number":0,
 "depends":[
@@ -94214,12 +93800,12 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-spatial",
-"sha256":"b74a7c31652ee3c35f0d67f7969a119e221c8fc390911ad43a7fd3cb7be5da83",
-"size":164117,
-"timestamp":1611489859754,
-"version":"7.3_13"
+"sha256":"2603fcfb2e4f7b148d3c3a16a4df825db3a74231f0224eecb1dc2e4f6476e667",
+"size":164063,
+"timestamp":1620045504722,
+"version":"7.3_14"
 },
-"r-spatial-7.3_13-r40h2be38b1_0.tar.bz2":{
+"r-spatial-7.3_14-r40h2be38b1_0.tar.bz2":{
 "build":"r40h2be38b1_0",
 "build_number":0,
 "depends":[
@@ -94228,10 +93814,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-spatial",
-"sha256":"06c8dd86ac192049d344abada4f7a9b6fa1dc9983bd9d7c05cf617f7b08f600d",
-"size":163536,
-"timestamp":1611489703666,
-"version":"7.3_13"
+"sha256":"bd2582b47aff9203a6bc03fbd486ecf1f8351a3675fd4eb27cf8962acf49077f",
+"size":163494,
+"timestamp":1620046035931,
+"version":"7.3_14"
 },
 "r-statmod-1.4.35-r36h3875876_0.tar.bz2":{
 "build":"r36h3875876_0",

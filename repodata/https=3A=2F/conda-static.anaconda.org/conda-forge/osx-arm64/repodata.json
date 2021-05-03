@@ -39857,6 +39857,25 @@
 "timestamp":1619773424364,
 "version":"0.12.1"
 },
+"libmamba-0.12.2-h238089d_0.tar.bz2":{
+"build":"h238089d_0",
+"build_number":0,
+"depends":[
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libsolv >=0.7.18,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"reproc-cpp >=14.2,<15.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libmamba",
+"sha256":"6767baec7db7a481ce62134e6678cd079a18e8017379991585f0f2dc6a971fbf",
+"size":671903,
+"timestamp":1620045210882,
+"version":"0.12.2"
+},
 "libmlir-11.1.0-h666519e_0.tar.bz2":{
 "build":"h666519e_0",
 "build_number":0,
@@ -44482,6 +44501,50 @@
 "size":593531,
 "timestamp":1619773271929,
 "version":"0.12.1"
+},
+"mamba-0.12.2-py38h932ed75_0.tar.bz2":{
+"build":"py38h932ed75_0",
+"build_number":0,
+"depends":[
+"conda >=4.8",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0",
+"libsolv >=0.7.18,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"reproc-cpp >=14.2,<15.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mamba",
+"sha256":"76d5b494a5be71d6833825c0c8ad71c91c7904ea1d51741645b4b39719c2cf6d",
+"size":490610,
+"timestamp":1620044962031,
+"version":"0.12.2"
+},
+"mamba-0.12.2-py39he886a54_0.tar.bz2":{
+"build":"py39he886a54_0",
+"build_number":0,
+"depends":[
+"conda >=4.8",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0",
+"libsolv >=0.7.18,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"reproc-cpp >=14.2,<15.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mamba",
+"sha256":"806cee4f369094283e28bcf793117a2fca265117cc44d1325c62e4cf71c7141b",
+"size":597805,
+"timestamp":1620044913823,
+"version":"0.12.2"
 },
 "mamba-0.7.10-py38h13f8620_0.tar.bz2":{
 "build":"py38h13f8620_0",
@@ -67217,6 +67280,20 @@
 "timestamp":1611488958791,
 "version":"7.3_18"
 },
+"r-class-7.3_19-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-mass"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-class",
+"sha256":"f50ba08ca40bac1db839ddebe5620e1fc0dbdce71a7ba70c2b4e09508d1fb37b",
+"size":108329,
+"timestamp":1620044654556,
+"version":"7.3_19"
+},
 "r-cluster-2.1.0-r40h09a9d6b_4.tar.bz2":{
 "build":"r40h09a9d6b_4",
 "build_number":4,
@@ -67472,6 +67549,19 @@
 "timestamp":1613284260862,
 "version":"7.3_53.1"
 },
+"r-mass-7.3_54-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-mass",
+"sha256":"70fda67b67bad3f0104ca3cbaf03c93cd5d2c4c6a5b697e19ebef6da6215e6fc",
+"size":1177160,
+"timestamp":1620045305663,
+"version":"7.3_54"
+},
 "r-matrix-1.3_2-r40hdd02fd4_0.tar.bz2":{
 "build":"r40hdd02fd4_0",
 "build_number":0,
@@ -67610,6 +67700,20 @@
 "timestamp":1611488892028,
 "version":"7.3_15"
 },
+"r-nnet-7.3_16-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-mass"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-nnet",
+"sha256":"e1e73b7494a91a8351a593f748440bdb5075508b08b7cd8afdc47e75552c360d",
+"size":134141,
+"timestamp":1620044619749,
+"version":"7.3_16"
+},
 "r-rappdirs-0.3.1-r40h4d528fc_1004.tar.bz2":{
 "build":"r40h4d528fc_1004",
 "build_number":1004,
@@ -67719,6 +67823,19 @@
 "size":156262,
 "timestamp":1611488974053,
 "version":"7.3_13"
+},
+"r-spatial-7.3_14-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-spatial",
+"sha256":"c5c433bdf5d8ba5ad1b19c9bbb85ef662377b82125afcbd0daa9099b453cacba",
+"size":156884,
+"timestamp":1620045136522,
+"version":"7.3_14"
 },
 "r-stringi-1.5.3-r40h95b1f10_1.tar.bz2":{
 "build":"r40h95b1f10_1",
@@ -77054,6 +77171,27 @@
 "size":324107906,
 "timestamp":1618234710693,
 "version":"4.1.1"
+},
+"tf2onnx-1.8.2-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"onnx >=1.4.1",
+"python >=3.8,<3.9.0a0",
+"python-flatbuffers",
+"python_abi 3.8.* *_cp38",
+"requests",
+"six",
+"tensorflow >=1.5"
+],
+"license":"MIT",
+"name":"tf2onnx",
+"sha256":"28d2b7084585025c3b65c3e570bc0ded9687a577349ce61365b7b5b16f729087",
+"size":423199,
+"timestamp":1620046380364,
+"version":"1.8.2"
 },
 "thinc-7.4.5-py38h3578e97_2.tar.bz2":{
 "build":"py38h3578e97_2",
