@@ -28727,36 +28727,6 @@
 "timestamp":1611125303516,
 "version":"3.10.0"
 },
-"kernel-headers_linux-aarch64-4.18.0-h2ca1c70_10.tar.bz2":{
-"build":"h2ca1c70_10",
-"build_number":10,
-"constrains":[
-"sysroot_linux-aarch64 ==2.17"
-],
-"depends":[],
-"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
-"name":"kernel-headers_linux-aarch64",
-"noarch":"generic",
-"sha256":"d0fe19778e2f5f96985b24fa3bd092115288affd957b8accc0559cff8eda457a",
-"size":1135550,
-"timestamp":1610539679292,
-"version":"4.18.0"
-},
-"kernel-headers_linux-aarch64-4.18.0-hcebdbab_10.tar.bz2":{
-"build":"hcebdbab_10",
-"build_number":10,
-"constrains":[
-"sysroot_linux-aarch64 ==2.17"
-],
-"depends":[],
-"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
-"name":"kernel-headers_linux-aarch64",
-"noarch":"generic",
-"sha256":"c7767b03d30472fe159b4b7897be1ed15dd0e9dbb93a92e8997cb7af78f811ab",
-"size":1136920,
-"timestamp":1611125151527,
-"version":"4.18.0"
-},
 "kernel-headers_linux-ppc64le-3.10.0-h1da2f99_10.tar.bz2":{
 "build":"h1da2f99_10",
 "build_number":10,
@@ -51511,20 +51481,6 @@
 "size":34168696,
 "timestamp":1611125308904,
 "track_features":"sysroot_linux-64_2.17",
-"version":"2.17"
-},
-"sysroot_linux-aarch64-2.17-he88851e_10.tar.bz2":{
-"build":"he88851e_10",
-"build_number":10,
-"depends":[
-"kernel-headers_linux-aarch64 4.18.0 hcebdbab_10"
-],
-"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
-"name":"sysroot_linux-aarch64",
-"noarch":"generic",
-"sha256":"c46dbf92c55f3dba4fa503f494ae611bd241cf5d12479cca2bb3f925cbc133ed",
-"size":33832484,
-"timestamp":1611125157388,
 "version":"2.17"
 },
 "sysroot_linux-ppc64le-2.17-h302c3fa_10.tar.bz2":{
