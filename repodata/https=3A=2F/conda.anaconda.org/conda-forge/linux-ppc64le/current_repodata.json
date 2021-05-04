@@ -227,20 +227,6 @@
 "timestamp":1582045286547,
 "version":"4.5"
 },
-"abseil-cpp-20200923.3-h3b9df90_0.tar.bz2":{
-"build":"h3b9df90_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"abseil-cpp",
-"sha256":"12f277bd72d0906b9bea988dbce8ce2589ad45e3121ee54b4cb8bf1da64050e4",
-"size":1010303,
-"timestamp":1611131348799,
-"version":"20200923.3"
-},
 "abseil-cpp-20210324.0-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
 "build_number":0,
@@ -9248,6 +9234,21 @@
 "timestamp":1619897714969,
 "version":"0.5.5"
 },
+"aws-c-cal-0.5.6-h1406d18_1.tar.bz2":{
+"build":"h1406d18_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.5.10,<0.5.11.0a0",
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"sha256":"aba7ca3a2f79ab4c12bf6c796cd4592a8bf8149f04bd722a80655bdc9ab64016",
+"size":35408,
+"timestamp":1620108914734,
+"version":"0.5.6"
+},
 "aws-c-cal-0.5.6-ha039362_0.tar.bz2":{
 "build":"ha039362_0",
 "build_number":0,
@@ -9610,6 +9611,20 @@
 "timestamp":1614936327210,
 "version":"0.1.11"
 },
+"aws-checksums-0.1.11-h88f3385_5.tar.bz2":{
+"build":"h88f3385_5",
+"build_number":5,
+"depends":[
+"aws-c-common >=0.5.10,<0.5.11.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-checksums",
+"sha256":"794ad74674ab2806830e4a4ee70703d6ab9e3bae2ad7d41e944ca24dd1cedf71",
+"size":51038,
+"timestamp":1620108994146,
+"version":"0.1.11"
+},
 "aws-checksums-0.1.11-h9097221_4.tar.bz2":{
 "build":"h9097221_4",
 "build_number":4,
@@ -9710,11 +9725,11 @@
 "timestamp":1620072771604,
 "version":"1.8.186"
 },
-"awscli-1.19.63-py36h270354c_0.tar.bz2":{
+"awscli-1.19.64-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.63",
+"botocore 1.20.64",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -9725,16 +9740,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"c496885cf0fabd196c580b70123e1d4d16dd2705bc08ad337aaac155ec5b330d",
-"size":1931851,
-"timestamp":1620101363507,
-"version":"1.19.63"
+"sha256":"a602b8c9de655bb9c26aa2b88a443653660867ffe7735ffabcd93d082291ae4d",
+"size":1919929,
+"timestamp":1620111496857,
+"version":"1.19.64"
 },
-"awscli-1.19.63-py36he7cccf2_0.tar.bz2":{
+"awscli-1.19.64-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.63",
+"botocore 1.20.64",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.6 >=7.3.3",
@@ -9746,16 +9761,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"efdf6008c266d8c59516cdf6a43a7ba413e1d71ef3752c86b3a7539ebcfd4caa",
-"size":1939716,
-"timestamp":1620101796887,
-"version":"1.19.63"
+"sha256":"fc405170c33382d33affba83db9b17647f4addea967d70ad57807b25f25404e9",
+"size":1937834,
+"timestamp":1620111433018,
+"version":"1.19.64"
 },
-"awscli-1.19.63-py37h35e4cab_0.tar.bz2":{
+"awscli-1.19.64-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.63",
+"botocore 1.20.64",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -9766,16 +9781,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"d9172accc2109d20bc02459a21cfc823124912d65b5b83be54a11fdc32883ecf",
-"size":1928461,
-"timestamp":1620101362977,
-"version":"1.19.63"
+"sha256":"405ed7b8d02997a9282eccf77686cddc10545d48673eaa8eef87f9798144a162",
+"size":1929215,
+"timestamp":1620111398874,
+"version":"1.19.64"
 },
-"awscli-1.19.63-py38hf8b3453_0.tar.bz2":{
+"awscli-1.19.64-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.63",
+"botocore 1.20.64",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -9786,16 +9801,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"601cef1e5a2020bb55f303c136ccbe60c21905a18ac5e8b83f8452bae80d5168",
-"size":1933440,
-"timestamp":1620102088814,
-"version":"1.19.63"
+"sha256":"8170bede80e41bdcc77c7e3bec0b5a2902d8fd856450ca0dc8b0f1c1e12f6552",
+"size":1932554,
+"timestamp":1620111364390,
+"version":"1.19.64"
 },
-"awscli-1.19.63-py39hc1b9086_0.tar.bz2":{
+"awscli-1.19.64-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.63",
+"botocore 1.20.64",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.9,<3.10.0a0",
@@ -9806,10 +9821,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"74fc116e945bc2ba22ff3836cfc7eacf464967f547719eeaa910148a92e6b273",
-"size":1928062,
-"timestamp":1620101961051,
-"version":"1.19.63"
+"sha256":"3f1882ba5d3cdcaee52ab49118ee90a507da798a59c69245e4f39316b96e279a",
+"size":1932050,
+"timestamp":1620111339361,
+"version":"1.19.64"
 },
 "backports.lzma-0.0.14-py36h1ad4117_3.tar.bz2":{
 "build":"py36h1ad4117_3",
@@ -56860,46 +56875,20 @@
 "timestamp":1616528563874,
 "version":"100.3.1"
 },
-"mongodb-4.2.13-h45ddb23_0.tar.bz2":{
-"build":"h45ddb23_0",
+"mongodb-4.2.14-hee07590_0.tar.bz2":{
+"build":"hee07590_0",
 "build_number":0,
-"depends":[
-"abseil-cpp >=20200923.3,<20200923.4.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"icu >=68.1,<69.0a0",
-"libcurl >=7.75.0,<8.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"openssl >=1.1.1j,<1.1.2a",
-"pcre >=8.44,<9.0a0",
-"snappy >=1.1.8,<2.0a0",
-"sqlite >=3.34.0,<4.0a0",
-"yaml-cpp >=0.6.3,<0.6.4.0a0",
-"yaml-cpp >=0.6.3,<0.7.0a0",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.9,<1.5.0a0"
-],
-"license":"SSPL-1.0",
-"name":"mongodb",
-"sha256":"97ef627d1ac37b8992269fab0585a811e657edffe0798deb3507c73523e7ac37",
-"size":45130989,
-"timestamp":1615955661353,
-"version":"4.2.13"
-},
-"mongodb-4.2.13-hee07590_1.tar.bz2":{
-"build":"hee07590_1",
-"build_number":1,
 "depends":[
 "abseil-cpp >=20210324.0,<20210324.1.0a0",
 "boost-cpp >=1.74.0,<1.74.1.0a0",
 "icu >=68.1,<69.0a0",
-"libcurl >=7.76.0,<8.0a0",
+"libcurl >=7.76.1,<8.0a0",
 "libgcc-ng >=8.4.0",
 "libstdcxx-ng >=8.4.0",
 "openssl >=1.1.1k,<1.1.2a",
 "pcre >=8.44,<9.0a0",
 "snappy >=1.1.8,<2.0a0",
-"sqlite >=3.35.2,<4.0a0",
+"sqlite >=3.35.5,<4.0a0",
 "yaml-cpp >=0.6.3,<0.6.4.0a0",
 "yaml-cpp >=0.6.3,<0.7.0a0",
 "zlib >=1.2.11,<1.3.0a0",
@@ -56907,10 +56896,10 @@
 ],
 "license":"SSPL-1.0",
 "name":"mongodb",
-"sha256":"6876eede117448cf8f0d4c6cb3610b396fe75550e0639fadfcac7acf7a560eca",
-"size":45428960,
-"timestamp":1618437514153,
-"version":"4.2.13"
+"sha256":"f792ea5d87e86f9f9a394d2d531c8d3d356239d145caeefbd4bc664d1e132b5b",
+"size":45621992,
+"timestamp":1620111016114,
+"version":"4.2.14"
 },
 "mongoengine-0.22.1-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",

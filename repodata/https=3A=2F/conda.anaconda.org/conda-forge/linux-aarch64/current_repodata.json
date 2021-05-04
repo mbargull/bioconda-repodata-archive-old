@@ -175,20 +175,6 @@
 "timestamp":1582045296509,
 "version":"4.5"
 },
-"abseil-cpp-20200923.3-h01db608_0.tar.bz2":{
-"build":"h01db608_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"abseil-cpp",
-"sha256":"fb60726017bebc645ddd5fd0eeb5bb8fbe6f60e1d58502271389cd97637e2b3e",
-"size":988719,
-"timestamp":1611131247843,
-"version":"20200923.3"
-},
 "abseil-cpp-20210324.0-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
 "build_number":0,
@@ -6005,6 +5991,21 @@
 "timestamp":1619897644102,
 "version":"0.5.5"
 },
+"aws-c-cal-0.5.6-h342086c_1.tar.bz2":{
+"build":"h342086c_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.5.10,<0.5.11.0a0",
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"sha256":"7da2c5b7d9448e1652b0c21e5428d2e281c13c71fa03f0a6fff965c134756379",
+"size":33925,
+"timestamp":1620108918813,
+"version":"0.5.6"
+},
 "aws-c-cal-0.5.6-hc3f70ce_0.tar.bz2":{
 "build":"hc3f70ce_0",
 "build_number":0,
@@ -6325,6 +6326,20 @@
 "timestamp":1616877935246,
 "version":"0.9.4"
 },
+"aws-checksums-0.1.11-h4590dbc_5.tar.bz2":{
+"build":"h4590dbc_5",
+"build_number":5,
+"depends":[
+"aws-c-common >=0.5.10,<0.5.11.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-checksums",
+"sha256":"c40c866bd3b92d7d678efc4f5fab602bf8978154c47be97a8f32c2bed597eac0",
+"size":50452,
+"timestamp":1620108931552,
+"version":"0.1.11"
+},
 "aws-checksums-0.1.11-h6b08df9_3.tar.bz2":{
 "build":"h6b08df9_3",
 "build_number":3,
@@ -6449,11 +6464,11 @@
 "timestamp":1620072850674,
 "version":"1.8.186"
 },
-"awscli-1.19.63-py36h2e20a7f_0.tar.bz2":{
+"awscli-1.19.64-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.63",
+"botocore 1.20.64",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.6 >=7.3.3",
@@ -6465,16 +6480,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"1a62a3d64f2eff82d9102493a86bd6e6fe559a4cd14a18c126f3d0a6780aa34f",
-"size":1933177,
-"timestamp":1620101710096,
-"version":"1.19.63"
+"sha256":"0b4c8f79c039855e80a5e204ae377a97e7ed7056f266dfc2107662c7b402632e",
+"size":1953010,
+"timestamp":1620111639734,
+"version":"1.19.64"
 },
-"awscli-1.19.63-py36h704843e_0.tar.bz2":{
+"awscli-1.19.64-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.63",
+"botocore 1.20.64",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -6485,16 +6500,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"4db5285234925b99367dc8e691a4809356d437e8c1e6046c575bde0370add180",
-"size":1933667,
-"timestamp":1620102107502,
-"version":"1.19.63"
+"sha256":"63e149ef13ba8df763145eafd8fef54a6d532ddba5be1db4acfd8b8cc39aa2dd",
+"size":1922573,
+"timestamp":1620112051253,
+"version":"1.19.64"
 },
-"awscli-1.19.63-py37hd9ded2f_0.tar.bz2":{
+"awscli-1.19.64-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.63",
+"botocore 1.20.64",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -6505,50 +6520,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"39be23b32f8440c7d69e4169d6f16d411340f391333ff399d19d7cef4393696d",
-"size":1944078,
-"timestamp":1620102396136,
-"version":"1.19.63"
-},
-"awscli-1.19.63-py38h2063c64_0.tar.bz2":{
-"build":"py38h2063c64_0",
-"build_number":0,
-"depends":[
-"botocore 1.20.63",
-"colorama >=0.2.5,<0.4.4",
-"docutils >=0.10,<0.16",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pyyaml >=3.10,<5.5",
-"rsa >=3.1.2,<4.8",
-"s3transfer >=0.4.0,<0.5.0"
-],
-"license":"Apache-2.0",
-"name":"awscli",
-"sha256":"8f56b4dad4cb42fbcac7631059948c51a3ae815d9a869f8049a4a0261720d223",
-"size":1932265,
-"timestamp":1620102670591,
-"version":"1.19.63"
-},
-"awscli-1.19.63-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"botocore 1.20.63",
-"colorama >=0.2.5,<0.4.4",
-"docutils >=0.10,<0.16",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pyyaml >=3.10,<5.5",
-"rsa >=3.1.2,<4.8",
-"s3transfer >=0.4.0,<0.5.0"
-],
-"license":"Apache-2.0",
-"name":"awscli",
-"sha256":"3fdd677fb598b2973728d6ff525b32a09e14c58dce48d5c3a1dd025ad5fa0777",
-"size":1926213,
-"timestamp":1620103313903,
-"version":"1.19.63"
+"sha256":"5156b8ae6caabba46375b21aa58436b867395f5620fc0b28bdbfc4462ed0da1b",
+"size":1945288,
+"timestamp":1620112331754,
+"version":"1.19.64"
 },
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
@@ -55152,46 +55127,20 @@
 "timestamp":1616528830969,
 "version":"100.3.1"
 },
-"mongodb-4.2.13-hcdeed8d_0.tar.bz2":{
-"build":"hcdeed8d_0",
+"mongodb-4.2.14-hd28e272_0.tar.bz2":{
+"build":"hd28e272_0",
 "build_number":0,
-"depends":[
-"abseil-cpp >=20200923.3,<20200923.4.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"icu >=68.1,<69.0a0",
-"libcurl >=7.75.0,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1j,<1.1.2a",
-"pcre >=8.44,<9.0a0",
-"snappy >=1.1.8,<2.0a0",
-"sqlite >=3.34.0,<4.0a0",
-"yaml-cpp >=0.6.3,<0.6.4.0a0",
-"yaml-cpp >=0.6.3,<0.7.0a0",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.9,<1.5.0a0"
-],
-"license":"SSPL-1.0",
-"name":"mongodb",
-"sha256":"192ade79613bd155298b7630308d09bfc69467a7d7af350a7824fc66951f66b5",
-"size":43824054,
-"timestamp":1615956086944,
-"version":"4.2.13"
-},
-"mongodb-4.2.13-hd28e272_1.tar.bz2":{
-"build":"hd28e272_1",
-"build_number":1,
 "depends":[
 "abseil-cpp >=20210324.0,<20210324.1.0a0",
 "boost-cpp >=1.74.0,<1.74.1.0a0",
 "icu >=68.1,<69.0a0",
-"libcurl >=7.76.0,<8.0a0",
+"libcurl >=7.76.1,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "openssl >=1.1.1k,<1.1.2a",
 "pcre >=8.44,<9.0a0",
 "snappy >=1.1.8,<2.0a0",
-"sqlite >=3.35.4,<4.0a0",
+"sqlite >=3.35.5,<4.0a0",
 "yaml-cpp >=0.6.3,<0.6.4.0a0",
 "yaml-cpp >=0.6.3,<0.7.0a0",
 "zlib >=1.2.11,<1.3.0a0",
@@ -55199,10 +55148,10 @@
 ],
 "license":"SSPL-1.0",
 "name":"mongodb",
-"sha256":"3ea749d3ae01ebfcdcce5e02f46389ab2931d6dda8ab3cc23c4ce8d3e7317f21",
-"size":43817031,
-"timestamp":1618437834236,
-"version":"4.2.13"
+"sha256":"b8cc8ad9058ce015de74c8cfff6b141434ac4387a48ca8727507fde545cb0d90",
+"size":43419262,
+"timestamp":1620111421336,
+"version":"4.2.14"
 },
 "mono-6.12.0.90-h469bdbd_0.tar.bz2":{
 "build":"h469bdbd_0",
