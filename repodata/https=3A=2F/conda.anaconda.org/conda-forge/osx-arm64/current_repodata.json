@@ -23584,6 +23584,27 @@
 "timestamp":1618204554981,
 "version":"2.0.0"
 },
+"pyarrow-2.0.0-py38h5211c98_33_cpu.tar.bz2":{
+"build":"py38h5211c98_33_cpu",
+"build_number":33,
+"constrains":[
+"arrow-cpp-proc * cpu"
+],
+"depends":[
+"arrow-cpp 2.0.0 py38h4950105_33_cpu",
+"libcxx >=11.1.0",
+"numpy >=1.16,<2.0a0",
+"parquet-cpp 1.5.1.*",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"pyarrow",
+"sha256":"912739094c6b9b39546c4a53e2c0122b66904bac6e1282ce071b7e144efd0e51",
+"size":2128532,
+"timestamp":1620117069661,
+"version":"2.0.0"
+},
 "pyarrow-2.0.0-py38h88a775f_10_cpu.tar.bz2":{
 "build":"py38h88a775f_10_cpu",
 "build_number":10,
