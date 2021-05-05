@@ -86630,13 +86630,14 @@
 "timestamp":1616025878022,
 "version":"0.1.8"
 },
-"qutip-4.6.0-py36h416786f_1.tar.bz2":{
-"build":"py36h416786f_1",
-"build_number":1,
+"qutip-4.6.1-py36h416786f_0.tar.bz2":{
+"build":"py36h416786f_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
+"packaging",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
 "scipy >=1.0",
@@ -86644,56 +86645,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"qutip",
-"sha256":"35fc08a964ff9738b12be2c69c1cd3156f2abce1e1440ab8a966cdff9c738ec6",
-"size":5944189,
-"timestamp":1618182498952,
-"version":"4.6.0"
+"sha256":"9ef4d8715220f7b715158ddf71058b7ed739d5aaddf569a7c49cdfe8763231bd",
+"size":5980371,
+"timestamp":1620218841242,
+"version":"4.6.1"
 },
-"qutip-4.6.0-py36h416786f_2.tar.bz2":{
-"build":"py36h416786f_2",
-"build_number":2,
+"qutip-4.6.1-py37heb9fb97_0.tar.bz2":{
+"build":"py37heb9fb97_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"scipy >=1.0",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"qutip",
-"sha256":"a392d38206ccfb69623d4e03d2080c6249cc8ae7553c20eccec674e8096cdf20",
-"size":5923967,
-"timestamp":1618188392728,
-"version":"4.6.0"
-},
-"qutip-4.6.0-py36h416786f_3.tar.bz2":{
-"build":"py36h416786f_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.17.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"scipy >=1.0",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"qutip",
-"sha256":"c9ff7c637c5f2ec0b965d879dd59d71ee5bae982d6b21c0e58008a01791afd39",
-"size":5968149,
-"timestamp":1620213742919,
-"version":"4.6.0"
-},
-"qutip-4.6.0-py37heb9fb97_1.tar.bz2":{
-"build":"py37heb9fb97_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.17.5,<2.0a0",
+"packaging",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
 "scipy >=1.0",
@@ -86701,56 +86665,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"qutip",
-"sha256":"eeb0654a14d2d1a583540b84bf3b0e082ce3dfe20b1a852c376c144b3a6421ae",
-"size":5936700,
-"timestamp":1618182253761,
-"version":"4.6.0"
+"sha256":"a9772c7841563584123d4fa6ea942bd7c606711a285692d1ff3bac0b3dbe86f0",
+"size":5924954,
+"timestamp":1620218824276,
+"version":"4.6.1"
 },
-"qutip-4.6.0-py37heb9fb97_2.tar.bz2":{
-"build":"py37heb9fb97_2",
-"build_number":2,
+"qutip-4.6.1-py38h188d082_0.tar.bz2":{
+"build":"py38h188d082_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"scipy >=1.0",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"qutip",
-"sha256":"01cc7c9bb0ef3d756b2107825e0967d2b6fb4e26b35b639d8bb33de710ada73c",
-"size":5931233,
-"timestamp":1618188007065,
-"version":"4.6.0"
-},
-"qutip-4.6.0-py37heb9fb97_3.tar.bz2":{
-"build":"py37heb9fb97_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.17.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"scipy >=1.0",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"qutip",
-"sha256":"bb02bc10f0d56d789df0ad09347d8c3daa81c2418f5b8ed2aa2c8928bf16b40a",
-"size":5916136,
-"timestamp":1620213656465,
-"version":"4.6.0"
-},
-"qutip-4.6.0-py38h188d082_1.tar.bz2":{
-"build":"py38h188d082_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.17.5,<2.0a0",
+"packaging",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "scipy >=1.0",
@@ -86758,56 +86685,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"qutip",
-"sha256":"8b78adfd98fadd35118d52062163358faff043902ebceac49e7911dea17605d3",
-"size":5952030,
-"timestamp":1618182490136,
-"version":"4.6.0"
+"sha256":"6ba777011d9f906b9e428d4bd6a59cfc6369d5a16c3974b0b730cf0f55526ef4",
+"size":5952144,
+"timestamp":1620219214374,
+"version":"4.6.1"
 },
-"qutip-4.6.0-py38h188d082_2.tar.bz2":{
-"build":"py38h188d082_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.17.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"scipy >=1.0",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"qutip",
-"sha256":"b3b08e2fe09856c08efda750ebf2bd887809ad4dfdf6a5aca4a0d4b23a2f09a9",
-"size":5951747,
-"timestamp":1618187958277,
-"version":"4.6.0"
-},
-"qutip-4.6.0-py38h188d082_3.tar.bz2":{
-"build":"py38h188d082_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.17.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"scipy >=1.0",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"qutip",
-"sha256":"1f38b50dc78aa3cb6c400f421efcfe958392f50d3d6fe57ab57be79755b02e74",
-"size":5920976,
-"timestamp":1620213718698,
-"version":"4.6.0"
-},
-"qutip-4.6.0-py39h31502c1_1.tar.bz2":{
-"build":"py39h31502c1_1",
-"build_number":1,
+"qutip-4.6.1-py39h31502c1_0.tar.bz2":{
+"build":"py39h31502c1_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
+"packaging",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "scipy >=1.0",
@@ -86815,48 +86705,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"qutip",
-"sha256":"d5ec16afa033dfc2b8d754508a32d4fd784fff5e311eab6c8d4e9804958496b0",
-"size":5789506,
-"timestamp":1618182483461,
-"version":"4.6.0"
-},
-"qutip-4.6.0-py39h31502c1_2.tar.bz2":{
-"build":"py39h31502c1_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.19.5,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"scipy >=1.0",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"qutip",
-"sha256":"cfbd3db888e72229cc4210acdeb67e6957bc782db28e421b7c211b7054ee6411",
-"size":5761157,
-"timestamp":1618187967644,
-"version":"4.6.0"
-},
-"qutip-4.6.0-py39h31502c1_3.tar.bz2":{
-"build":"py39h31502c1_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.19.5,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"scipy >=1.0",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"qutip",
-"sha256":"7b1c3f5d07a3c5c03957e045947b74a57c6db0b5b032a86b21d8a3341233b409",
-"size":5772335,
-"timestamp":1620217468308,
-"version":"4.6.0"
+"sha256":"ea5e5a9aeb1b44bd02b3b0e83851d96e8c018eabf3dfeecc28afb79c2cda0ea6",
+"size":5782939,
+"timestamp":1620219195607,
+"version":"4.6.1"
 },
 "r-acepack-1.4.1-r36h2c7be84_1004.tar.bz2":{
 "build":"r36h2c7be84_1004",
