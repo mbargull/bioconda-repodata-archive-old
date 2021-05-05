@@ -13527,6 +13527,23 @@
 "timestamp":1619747848144,
 "version":"1.0.2"
 },
+"boost_mp11-1.76.0-h3b9df90_0.tar.bz2":{
+"build":"h3b9df90_0",
+"build_number":0,
+"constrains":[
+"boost-cpp <0a0"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"BSL-1.0",
+"name":"boost_mp11",
+"sha256":"692f5f0d6d48ba3a50638b8bf75409e135f5ded860e48ba262aa4cc83112a750",
+"size":23236,
+"timestamp":1620213637938,
+"version":"1.76.0"
+},
 "bottleneck-1.3.2-py36h3dc0c6d_1.tar.bz2":{
 "build":"py36h3dc0c6d_1",
 "build_number":1,
@@ -46696,6 +46713,20 @@
 "timestamp":1601886407349,
 "version":"3.20.6"
 },
+"libdate-3.0.0-h3b9df90_0.tar.bz2":{
+"build":"h3b9df90_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"libdate",
+"sha256":"448f5b1d133983cdd0183f7ab371e657c3cc4e11a2d43d06a9db443b9a7b6486",
+"size":30652,
+"timestamp":1620213653107,
+"version":"3.0.0"
+},
 "libdb-6.2.32-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
 "build_number":0,
@@ -67494,6 +67525,20 @@
 "timestamp":1616692345694,
 "version":"1.1.1k"
 },
+"optional-lite-3.4.0-h3b9df90_0.tar.bz2":{
+"build":"h3b9df90_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"BSL-1.0",
+"name":"optional-lite",
+"sha256":"1ccb463931c86ddcf5784603583a961cb9e9652db25c4650c73349d29fc01744",
+"size":14459,
+"timestamp":1620213900207,
+"version":"3.4.0"
+},
 "orc-1.6.7-h80e5910_1.tar.bz2":{
 "build":"h80e5910_1",
 "build_number":1,
@@ -72656,6 +72701,26 @@
 "size":3267074,
 "timestamp":1614612916253,
 "version":"8.0.0"
+},
+"proj-8.0.1-h7148cf8_0.tar.bz2":{
+"build":"h7148cf8_0",
+"build_number":0,
+"constrains":[
+"proj4 ==999999999999"
+],
+"depends":[
+"libcurl >=7.76.1,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"sqlite >=3.35.5,<4.0a0"
+],
+"license":"MIT",
+"name":"proj",
+"sha256":"6027449fd6a4506ee3531f5a758e73eb4bbab8c3ce3308ec3ba6300040ba64f2",
+"size":3251319,
+"timestamp":1620213876308,
+"version":"8.0.1"
 },
 "promise-2.3-py36he7cccf2_3.tar.bz2":{
 "build":"py36he7cccf2_3",
@@ -86603,6 +86668,25 @@
 "timestamp":1618188392728,
 "version":"4.6.0"
 },
+"qutip-4.6.0-py36h416786f_3.tar.bz2":{
+"build":"py36h416786f_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"scipy >=1.0",
+"setuptools"
+],
+"license":"BSD-3-Clause",
+"name":"qutip",
+"sha256":"c9ff7c637c5f2ec0b965d879dd59d71ee5bae982d6b21c0e58008a01791afd39",
+"size":5968149,
+"timestamp":1620213742919,
+"version":"4.6.0"
+},
 "qutip-4.6.0-py37heb9fb97_1.tar.bz2":{
 "build":"py37heb9fb97_1",
 "build_number":1,
@@ -86641,6 +86725,25 @@
 "timestamp":1618188007065,
 "version":"4.6.0"
 },
+"qutip-4.6.0-py37heb9fb97_3.tar.bz2":{
+"build":"py37heb9fb97_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"scipy >=1.0",
+"setuptools"
+],
+"license":"BSD-3-Clause",
+"name":"qutip",
+"sha256":"bb02bc10f0d56d789df0ad09347d8c3daa81c2418f5b8ed2aa2c8928bf16b40a",
+"size":5916136,
+"timestamp":1620213656465,
+"version":"4.6.0"
+},
 "qutip-4.6.0-py38h188d082_1.tar.bz2":{
 "build":"py38h188d082_1",
 "build_number":1,
@@ -86677,6 +86780,25 @@
 "sha256":"b3b08e2fe09856c08efda750ebf2bd887809ad4dfdf6a5aca4a0d4b23a2f09a9",
 "size":5951747,
 "timestamp":1618187958277,
+"version":"4.6.0"
+},
+"qutip-4.6.0-py38h188d082_3.tar.bz2":{
+"build":"py38h188d082_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy >=1.0",
+"setuptools"
+],
+"license":"BSD-3-Clause",
+"name":"qutip",
+"sha256":"1f38b50dc78aa3cb6c400f421efcfe958392f50d3d6fe57ab57be79755b02e74",
+"size":5920976,
+"timestamp":1620213718698,
 "version":"4.6.0"
 },
 "qutip-4.6.0-py39h31502c1_1.tar.bz2":{
@@ -99095,6 +99217,20 @@
 "size":93772,
 "timestamp":1602630943051,
 "version":"0.3.3"
+},
+"safeint-3.0.26-h3b9df90_0.tar.bz2":{
+"build":"h3b9df90_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"safeint",
+"sha256":"860abac79dc44c68ace2e86d20a3d972247e48ee9206eb06c0c1b156bc7eba20",
+"size":33630,
+"timestamp":1620213744556,
+"version":"3.0.26"
 },
 "sagelib-9.2-py36h23e8ec0_1.tar.bz2":{
 "build":"py36h23e8ec0_1",
