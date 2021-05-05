@@ -51687,6 +51687,20 @@
 "timestamp":1618059000145,
 "version":"2.2.1"
 },
+"onednn-2.2.2-omp_h64143aa_1.tar.bz2":{
+"build":"omp_h64143aa_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"requires":[],
+"size":2903679,
+"timestamp":1620247739352,
+"version":"2.2.2"
+},
 "onednn-2.2.2-tbb_hb6067a2_0.tar.bz2":{
 "build":"tbb_hb6067a2_0",
 "build_number":0,
@@ -51700,6 +51714,35 @@
 "requires":[],
 "size":3529165,
 "timestamp":1619681038728,
+"version":"2.2.2"
+},
+"onednn-2.2.2-tbb_hfa56021_1.tar.bz2":{
+"build":"tbb_hfa56021_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"requires":[],
+"size":3516637,
+"timestamp":1620247697258,
+"track_features":"onednn-tbb",
+"version":"2.2.2"
+},
+"onednn-cpu-omp-2.2.2-omp_hf6a6809_1.tar.bz2":{
+"build":"omp_hf6a6809_1",
+"build_number":1,
+"depends":[
+"onednn 2.2.2 omp_h64143aa_1"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-omp",
+"requires":[],
+"size":8290,
+"timestamp":1620247752055,
 "version":"2.2.2"
 },
 "onednn-cpu-tbb-2.2-tbb_hce30654_0.tar.bz2":{
@@ -51727,6 +51770,19 @@
 "size":8222,
 "timestamp":1618059012936,
 "version":"2.2.1"
+},
+"onednn-cpu-tbb-2.2.2-tbb_h20de0cc_1.tar.bz2":{
+"build":"tbb_h20de0cc_1",
+"build_number":1,
+"depends":[
+"onednn 2.2.2 tbb_hfa56021_1"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-tbb",
+"requires":[],
+"size":8296,
+"timestamp":1620247711542,
+"version":"2.2.2"
 },
 "onednn-cpu-tbb-2.2.2-tbb_hce30654_0.tar.bz2":{
 "build":"tbb_hce30654_0",
@@ -82136,6 +82192,34 @@
 "size":92716,
 "timestamp":1610749798005,
 "version":"8.1"
+},
+"websockets-9.0.1-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"websockets",
+"requires":[],
+"size":114000,
+"timestamp":1620247329314,
+"version":"9.0.1"
+},
+"websockets-9.0.1-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"websockets",
+"requires":[],
+"size":114151,
+"timestamp":1620247304341,
+"version":"9.0.1"
 },
 "widgetsnbextension-3.5.1-py38h10201cd_4.tar.bz2":{
 "build":"py38h10201cd_4",
