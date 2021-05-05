@@ -11043,7 +11043,7 @@
 "timestamp":1569368756343,
 "version":"2.0.6"
 },
-"moto-2.0.5-pyhd3eb1b0_0.tar.bz2":{
+"moto-2.0.6-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -11053,35 +11053,40 @@
 "botocore >=1.12.201",
 "cfn-lint >=0.4.0",
 "click",
-"cryptography >=2.3.0",
+"cryptography >=3.3.1",
 "docker-py >=2.5.1",
+"ecdsa <0.15",
 "flask",
 "flask_cors",
+"idna <3,>=2.5",
 "inflection",
 "jinja2 >=2.10.1",
 "jsondiff 1.1.2.*",
 "lxml",
 "mock",
+"more-itertools",
 "prompt_toolkit",
-"python >=3.3",
+"python >=3.5",
 "python-dateutil >=2.1,<3.0.0",
-"python-jose <4.0.0",
+"python-jose >=3.1.0,<4.0.0",
 "pytz",
 "pyyaml >=5.1",
 "requests >=2.5",
 "responses >=0.9.0",
+"setuptools",
 "six >1.9",
 "sshpubkeys >=3.1.0,<4.0",
 "werkzeug",
-"xmltodict"
+"xmltodict",
+"zipp"
 ],
 "license":"Apache-2.0",
 "name":"moto",
 "noarch":"python",
-"sha256":"c8ee74cc8fe61b6c3167908ebe94adcfc4382491a53ba80149951779927f8a3d",
-"size":1300103,
-"timestamp":1618221216882,
-"version":"2.0.5"
+"sha256":"0357001aefd4932847279c7095032f937d342360ae72f25ee710de728c66df2b",
+"size":1305071,
+"timestamp":1620166449634,
+"version":"2.0.6"
 },
 "mpl-scatter-density-0.7-py_0.tar.bz2":{
 "build":"py_0",
