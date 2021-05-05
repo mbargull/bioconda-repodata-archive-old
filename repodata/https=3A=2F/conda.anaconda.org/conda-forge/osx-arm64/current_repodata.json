@@ -21018,6 +21018,20 @@
 "timestamp":1615498608769,
 "version":"2.0.6"
 },
+"onednn-2.2.2-omp_h64143aa_1.tar.bz2":{
+"build":"omp_h64143aa_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"sha256":"96df70f621bcd12f39c4bdce6e12aed8e2521dc6aeca0d1e38a91939375ba437",
+"size":2903679,
+"timestamp":1620247739352,
+"version":"2.2.2"
+},
 "onednn-2.2.2-tbb_hb6067a2_0.tar.bz2":{
 "build":"tbb_hb6067a2_0",
 "build_number":0,
@@ -21031,6 +21045,48 @@
 "sha256":"be9ea6f028e40cf7ca3c186112a66e3f6fec09ba47601568e2677c1026326a26",
 "size":3529165,
 "timestamp":1619681038728,
+"version":"2.2.2"
+},
+"onednn-2.2.2-tbb_hfa56021_1.tar.bz2":{
+"build":"tbb_hfa56021_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"sha256":"4f282aeacd5fe2c339f899e0d2b7e84c716381a1b08bae2c32a6a7562d7b8cca",
+"size":3516637,
+"timestamp":1620247697258,
+"track_features":"onednn-tbb",
+"version":"2.2.2"
+},
+"onednn-cpu-omp-2.2.2-omp_hf6a6809_1.tar.bz2":{
+"build":"omp_hf6a6809_1",
+"build_number":1,
+"depends":[
+"onednn 2.2.2 omp_h64143aa_1"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-omp",
+"sha256":"fcea3616b55dd9c14f5cef37735b8920d01a06ac382a20776417b690a50a1b05",
+"size":8290,
+"timestamp":1620247752055,
+"version":"2.2.2"
+},
+"onednn-cpu-tbb-2.2.2-tbb_h20de0cc_1.tar.bz2":{
+"build":"tbb_h20de0cc_1",
+"build_number":1,
+"depends":[
+"onednn 2.2.2 tbb_hfa56021_1"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-tbb",
+"sha256":"be333cf03c500df75577a2e4bd3f8c4d10f53de82f8a504a8b4a1fec4ce8b9be",
+"size":8296,
+"timestamp":1620247711542,
 "version":"2.2.2"
 },
 "onednn-cpu-tbb-2.2.2-tbb_hce30654_0.tar.bz2":{
@@ -30170,7 +30226,7 @@
 "timestamp":1605371407165,
 "version":"0.8"
 },
-"s2n-1.0.5-hbae9a57_0.tar.bz2":{
+"s2n-1.0.6-hbae9a57_0.tar.bz2":{
 "build":"hbae9a57_0",
 "build_number":0,
 "depends":[
@@ -30178,21 +30234,21 @@
 ],
 "license":"Apache-2.0",
 "name":"s2n",
-"sha256":"71d608adf2d48f8edbf3963a6704b15833b9c301e1a323946df56ebeae43e586",
-"size":310876,
-"timestamp":1619169643989,
-"version":"1.0.5"
+"sha256":"5e5cae64f2133c3e17cd124a4ebedc59d6a37080b4e99b93e1dd9bd94773ec94",
+"size":319117,
+"timestamp":1620249599356,
+"version":"1.0.6"
 },
-"s2n-static-1.0.5-h3422bc3_0.tar.bz2":{
+"s2n-static-1.0.6-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
 "depends":[],
 "license":"Apache-2.0",
 "name":"s2n-static",
-"sha256":"984a33ff02cca37c95a795fe57190b568354cf0bf12e5704e48267ee01193210",
-"size":423444,
-"timestamp":1619169690557,
-"version":"1.0.5"
+"sha256":"8232c17b5083fe7f7d75e133fa7aa6b8d390eaf5f1bccefa6a6db171f79d7a0f",
+"size":434796,
+"timestamp":1620249659165,
+"version":"1.0.6"
 },
 "safeint-3.0.26-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
@@ -33855,6 +33911,34 @@
 "size":92716,
 "timestamp":1610749798005,
 "version":"8.1"
+},
+"websockets-9.0.1-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"websockets",
+"sha256":"3691658cf12ea66c9c949c06827167dcc22a821372aa88e42f3d376a2da8b55b",
+"size":114000,
+"timestamp":1620247329314,
+"version":"9.0.1"
+},
+"websockets-9.0.1-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"websockets",
+"sha256":"afd6b6e9d3ec3ffeab9e95f09ef86efdb83edca3ddc769aa6ee0586f738f295d",
+"size":114151,
+"timestamp":1620247304341,
+"version":"9.0.1"
 },
 "widgetsnbextension-3.5.1-py38h10201cd_4.tar.bz2":{
 "build":"py38h10201cd_4",
