@@ -6232,6 +6232,19 @@
 "timestamp":1620090577926,
 "version":"0.5.10"
 },
+"aws-c-common-0.5.11-hf897c2e_0.tar.bz2":{
+"build":"hf897c2e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"93d9d414270d6435238a006d585dd880f388f0ea26a70829ad32a61cb0fbef92",
+"size":170671,
+"timestamp":1620255542248,
+"version":"0.5.11"
+},
 "aws-c-common-0.5.2-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",
 "build_number":0,
@@ -38303,7 +38316,7 @@
 "timestamp":1614742844706,
 "version":"5.3.0"
 },
-"ipykernel-5.5.3-py36h103942d_0.tar.bz2":{
+"ipykernel-5.5.4-py36h103942d_0.tar.bz2":{
 "build":"py36h103942d_0",
 "build_number":0,
 "depends":[
@@ -38317,12 +38330,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"8c7634d4ea53dbaea4332b10cb245d6afa1111a3ab37348da024992b13d0c9e1",
-"size":170175,
-"timestamp":1617138969769,
-"version":"5.5.3"
+"sha256":"7eb606dfdc68824b9b5f0ad3943c04031690c9116848dded93a4500d5beac0a4",
+"size":170129,
+"timestamp":1620254577096,
+"version":"5.5.4"
 },
-"ipykernel-5.5.3-py36h5407763_0.tar.bz2":{
+"ipykernel-5.5.4-py36h5407763_0.tar.bz2":{
 "build":"py36h5407763_0",
 "build_number":0,
 "depends":[
@@ -38337,18 +38350,18 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"11456b07560d4ae11919937f092a7bb70ccfcbcbf5cf1d93c2de3b353988aa26",
-"size":171487,
-"timestamp":1617139284551,
-"version":"5.5.3"
+"sha256":"97b928e3b2708587ab5f30b0f35e69fbe55013cbefa2bb6b3c62b520e1bc5416",
+"size":171490,
+"timestamp":1620255143402,
+"version":"5.5.4"
 },
-"ipykernel-5.5.3-py37h9e1f083_0.tar.bz2":{
+"ipykernel-5.5.4-py37h9e1f083_0.tar.bz2":{
 "build":"py37h9e1f083_0",
 "build_number":0,
 "depends":[
 "ipython >=5.0",
 "jupyter_client",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "pyzmq !=21",
@@ -38357,12 +38370,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"feccef2affd909c661c1b992d84acd9872ab984233212b75d1ad041c1980b284",
-"size":171370,
-"timestamp":1617139338012,
-"version":"5.5.3"
+"sha256":"6e237658cf8d1ce3674709ab967ef5ea7afb72d63d2b7cb9d561f28a1069f445",
+"size":171066,
+"timestamp":1620254853216,
+"version":"5.5.4"
 },
-"ipykernel-5.5.3-py37ha2c4c82_0.tar.bz2":{
+"ipykernel-5.5.4-py37ha2c4c82_0.tar.bz2":{
 "build":"py37ha2c4c82_0",
 "build_number":0,
 "depends":[
@@ -38376,12 +38389,31 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"ac806695a4b29705b6555179a1c582978d1fb0c5b7b3ac617d5d3689e781d383",
-"size":170364,
-"timestamp":1617139015476,
-"version":"5.5.3"
+"sha256":"b2700cb79dcf089c4b9d6d99223f3dd7a8fa99d1e408695a81df178d618a3b2d",
+"size":170391,
+"timestamp":1620254578055,
+"version":"5.5.4"
 },
-"ipykernel-5.5.3-py39hef158d4_0.tar.bz2":{
+"ipykernel-5.5.4-py38h22d914e_0.tar.bz2":{
+"build":"py38h22d914e_0",
+"build_number":0,
+"depends":[
+"ipython >=5.0",
+"jupyter_client",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyzmq !=21",
+"tornado >=4.2",
+"traitlets >=4.1"
+],
+"license":"BSD-3-Clause",
+"name":"ipykernel",
+"sha256":"0bdbcf0adbef951c584aa5b7cd02243d64067d1a343957564046ade7d802ca07",
+"size":170850,
+"timestamp":1620255086270,
+"version":"5.5.4"
+},
+"ipykernel-5.5.4-py39hef158d4_0.tar.bz2":{
 "build":"py39hef158d4_0",
 "build_number":0,
 "depends":[
@@ -38395,10 +38427,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"e6f722598a22055ec8e292d2d31b33d373849a4074ccbe489f2b111b3188c275",
-"size":171119,
-"timestamp":1617139665504,
-"version":"5.5.3"
+"sha256":"7b5b1d864b89ca0dfbf88402d1b207f79a811dc44fc33de06bf15666b53e9fa3",
+"size":171137,
+"timestamp":1620254845362,
+"version":"5.5.4"
 },
 "ipyparallel-6.3.0-py36h2e20a7f_2.tar.bz2":{
 "build":"py36h2e20a7f_2",
@@ -38776,32 +38808,7 @@
 "timestamp":1602736888258,
 "version":"6.3.0"
 },
-"ipython-7.23.0-py37h9e1f083_0.tar.bz2":{
-"build":"py37h9e1f083_0",
-"build_number":0,
-"depends":[
-"backcall",
-"decorator",
-"jedi >=0.16,<1.0",
-"matplotlib-inline",
-"pexpect >4.3",
-"pickleshare",
-"prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
-"pygments",
-"pypy3.7 >=7.3.4",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"setuptools >=18.5",
-"traitlets >=4.2"
-],
-"license":"BSD-3-Clause",
-"name":"ipython",
-"sha256":"33ac9f6ce462bde60db13ade77175b0e903e2b851e2f4a379c4c2ebbf0519947",
-"size":1176087,
-"timestamp":1619827583222,
-"version":"7.23.0"
-},
-"ipython-7.23.0-py37ha2c4c82_0.tar.bz2":{
+"ipython-7.23.1-py37ha2c4c82_0.tar.bz2":{
 "build":"py37ha2c4c82_0",
 "build_number":0,
 "depends":[
@@ -38820,12 +38827,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipython",
-"sha256":"35ab15ee6b6c68a73bdb7711d51121f5cc9949f34db4ae3c1b81973f8ae75244",
-"size":1168033,
-"timestamp":1619827237514,
-"version":"7.23.0"
+"sha256":"c14e515eb9fd9a486c0152faa6a8e49c07a5c19b47633389dfb4bc4793f0756a",
+"size":1172189,
+"timestamp":1620254823293,
+"version":"7.23.1"
 },
-"ipython-7.23.0-py38h22d914e_0.tar.bz2":{
+"ipython-7.23.1-py38h22d914e_0.tar.bz2":{
 "build":"py38h22d914e_0",
 "build_number":0,
 "depends":[
@@ -38844,12 +38851,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipython",
-"sha256":"03a32f7f3d6c2f25cd4f94af30f0dde3fdc93aed0932138048ea8076c0768f86",
-"size":1174042,
-"timestamp":1619827265859,
-"version":"7.23.0"
+"sha256":"e402ec06e96b0c92a2dc89cf312c5bc93074c22cb7dc6ecf468ac76731ee1de0",
+"size":1172445,
+"timestamp":1620254495893,
+"version":"7.23.1"
 },
-"ipython-7.23.0-py39hef158d4_0.tar.bz2":{
+"ipython-7.23.1-py39hef158d4_0.tar.bz2":{
 "build":"py39hef158d4_0",
 "build_number":0,
 "depends":[
@@ -38868,10 +38875,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipython",
-"sha256":"05332a0b9585229015a20f3eef68b93980fc7a9b6f546ed2737f352747801594",
-"size":1176360,
-"timestamp":1619827599523,
-"version":"7.23.0"
+"sha256":"6793cdc4c1bd443e467f2853860aecaf6d38dd7fb181bed8f21fa5f84718c54e",
+"size":1177426,
+"timestamp":1620254503532,
+"version":"7.23.1"
 },
 "isl-0.22.1-he17e9d3_1.tar.bz2":{
 "build":"he17e9d3_1",
@@ -107958,7 +107965,7 @@
 "timestamp":1604105651344,
 "version":"6.1"
 },
-"tox-3.23.0-py36h2e20a7f_0.tar.bz2":{
+"tox-3.23.1-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
@@ -107976,12 +107983,12 @@
 ],
 "license":"MIT",
 "name":"tox",
-"sha256":"e2d598d4b7705db55356889af8b41895c1f2938feedd67af469d7e9e3faf15d7",
-"size":134845,
-"timestamp":1614786099827,
-"version":"3.23.0"
+"sha256":"c6a6b4d8f0f561d799cf8ac48a60af22f2dacf2cf78bb1c9001265b383020d20",
+"size":134931,
+"timestamp":1620254127605,
+"version":"3.23.1"
 },
-"tox-3.23.0-py36h704843e_0.tar.bz2":{
+"tox-3.23.1-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -107998,12 +108005,12 @@
 ],
 "license":"MIT",
 "name":"tox",
-"sha256":"417b2912588389a518a981844c4a784099809f531d58cbb9aa82f9bf77992e7f",
-"size":133877,
-"timestamp":1614785798948,
-"version":"3.23.0"
+"sha256":"707282c9e22698e08f4253ef22a5d88ad0284cfd5093758861a8eea879176fa3",
+"size":133887,
+"timestamp":1620254122860,
+"version":"3.23.1"
 },
-"tox-3.23.0-py37h4bcbb9b_0.tar.bz2":{
+"tox-3.23.1-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
@@ -108012,7 +108019,7 @@
 "packaging >=14",
 "pluggy >=0.12.0,<1",
 "py >=1.4.17,<2",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "six >=1.14.0,<2",
@@ -108021,12 +108028,12 @@
 ],
 "license":"MIT",
 "name":"tox",
-"sha256":"75ec27a62a39c8258cbb2cea8908e0c53fcbe5453ea4474ed54c34d02361796a",
-"size":134662,
-"timestamp":1614786108096,
-"version":"3.23.0"
+"sha256":"3130c7da9e6e6009456feed12173fb895747eb5d8d91a504e5d63eed0572001d",
+"size":134776,
+"timestamp":1620254425432,
+"version":"3.23.1"
 },
-"tox-3.23.0-py37hd9ded2f_0.tar.bz2":{
+"tox-3.23.1-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
@@ -108043,12 +108050,12 @@
 ],
 "license":"MIT",
 "name":"tox",
-"sha256":"e0b4d1646dfaf25c604dc29da938b06ffd3fc3924f9a056c20f2fad116c16195",
-"size":133904,
-"timestamp":1614786080736,
-"version":"3.23.0"
+"sha256":"e56077ffbee9377d66dd7d8a022893e6f0d3cc708a04caffa1bfa0732a0eb6f8",
+"size":134037,
+"timestamp":1620254122878,
+"version":"3.23.1"
 },
-"tox-3.23.0-py38h2063c64_0.tar.bz2":{
+"tox-3.23.1-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
@@ -108064,12 +108071,12 @@
 ],
 "license":"MIT",
 "name":"tox",
-"sha256":"2d956afb522b20fd4f3cd1847bf67e82b4148eab23b9b0167f6da7380c3d993d",
-"size":134520,
-"timestamp":1614785796710,
-"version":"3.23.0"
+"sha256":"c64816cd4483f1853eb6d6566746173b249b019264730da78dce869fc1f9fc91",
+"size":134673,
+"timestamp":1620254293319,
+"version":"3.23.1"
 },
-"tox-3.23.0-py39ha65689a_0.tar.bz2":{
+"tox-3.23.1-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
@@ -108085,10 +108092,10 @@
 ],
 "license":"MIT",
 "name":"tox",
-"sha256":"9cdef93bb921e2cf041ca9d11179460a4fc63d427edfee0211a1c8e3e9036494",
-"size":134903,
-"timestamp":1614785804796,
-"version":"3.23.0"
+"sha256":"d9eae7ed3016dd98c1fcd15c7710bb19a3425510e0563c862b185e7e95ed4d03",
+"size":135109,
+"timestamp":1620254332370,
+"version":"3.23.1"
 },
 "tqdm-4.38.0-py36_1.tar.bz2":{
 "build":"py36_1",
