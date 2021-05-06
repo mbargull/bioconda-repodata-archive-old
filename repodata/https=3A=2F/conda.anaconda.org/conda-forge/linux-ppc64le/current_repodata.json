@@ -110928,6 +110928,20 @@
 "timestamp":1617642772603,
 "version":"0.12.3"
 },
+"volk-2.4.1-h3b9df90_2.tar.bz2":{
+"build":"h3b9df90_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"GPL-3.0-or-later AND Apache-2.0",
+"name":"volk",
+"sha256":"5ef08fd0bf38446da23819bc2ee226cf3e972826697b342f77b741dab508d7ef",
+"size":415601,
+"timestamp":1620268759405,
+"version":"2.4.1"
+},
 "volk-2.4.1-py36h599f18c_1.tar.bz2":{
 "build":"py36h599f18c_1",
 "build_number":1,
@@ -111024,6 +111038,20 @@
 "sha256":"20d4cb39cb718a548796fcc1bd965f14e4b26fc2d0f013e91dc10590ad72d2e9",
 "size":459978,
 "timestamp":1620240134020,
+"version":"2.4.1"
+},
+"volk-dev-2.4.1-ha3edaa6_2.tar.bz2":{
+"build":"ha3edaa6_2",
+"build_number":2,
+"depends":[
+"volk 2.4.1 h3b9df90_2",
+"volk-modtool 2.4.1 py_2"
+],
+"license":"GPL-3.0-or-later AND Apache-2.0",
+"name":"volk-dev",
+"sha256":"86d52c87b92db10660ff4bae2f1a50b69f727fcc873701668294863e8c99c4be",
+"size":19880,
+"timestamp":1620268792828,
 "version":"2.4.1"
 },
 "voms-2.1.0rc0-h44c82fe_1.tar.bz2":{
