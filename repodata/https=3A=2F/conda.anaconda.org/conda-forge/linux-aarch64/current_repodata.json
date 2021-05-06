@@ -6180,6 +6180,21 @@
 "timestamp":1620185830430,
 "version":"0.5.7"
 },
+"aws-c-cal-0.5.7-haa9bbd6_1.tar.bz2":{
+"build":"haa9bbd6_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"sha256":"803860f14a5f6d9c8fc58a919bb91305b46c45004bfa273f4cd5de418daa24f3",
+"size":33931,
+"timestamp":1620285654028,
+"version":"0.5.7"
+},
 "aws-c-common-0.4.66-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",
 "build_number":0,
@@ -6403,6 +6418,22 @@
 "timestamp":1614945777406,
 "version":"0.9.1"
 },
+"aws-c-io-0.9.11-h148b165_2.tar.bz2":{
+"build":"h148b165_2",
+"build_number":2,
+"depends":[
+"aws-c-cal >=0.5.7,<0.5.8.0a0",
+"aws-c-common >=0.5.10,<0.5.11.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.6,<1.0.7.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"32aaa03d1d6ca1884b45f7b67e9b9613917f1ebf627c118dc74c6e21ad0cb62f",
+"size":125828,
+"timestamp":1620285604774,
+"version":"0.9.11"
+},
 "aws-c-io-0.9.11-h79968a5_1.tar.bz2":{
 "build":"h79968a5_1",
 "build_number":1,
@@ -6530,6 +6561,20 @@
 "size":124648,
 "timestamp":1616877935246,
 "version":"0.9.4"
+},
+"aws-checksums-0.1.11-h183d49f_6.tar.bz2":{
+"build":"h183d49f_6",
+"build_number":6,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-checksums",
+"sha256":"ef11ecfb53c8bb5ad435f0534d6a1b5a6323c6ef8a806f7b68424d5b783de4c4",
+"size":50429,
+"timestamp":1620285659312,
+"version":"0.1.11"
 },
 "aws-checksums-0.1.11-h4590dbc_5.tar.bz2":{
 "build":"h4590dbc_5",
