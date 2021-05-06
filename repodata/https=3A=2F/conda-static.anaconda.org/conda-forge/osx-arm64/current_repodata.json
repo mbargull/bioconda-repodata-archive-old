@@ -2142,48 +2142,6 @@
 "timestamp":1618285208708,
 "version":"1.2.2"
 },
-"aws-c-cal-0.5.5-he5a0616_0.tar.bz2":{
-"build":"he5a0616_0",
-"build_number":0,
-"depends":[
-"aws-c-common >=0.5.8,<0.5.9.0a0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"aws-c-cal",
-"sha256":"42a290778566044f06e1814d15eb14976ef34a83e945d24192c865b6177e7953",
-"size":28306,
-"timestamp":1619897685532,
-"version":"0.5.5"
-},
-"aws-c-cal-0.5.6-ha4d83bd_1.tar.bz2":{
-"build":"ha4d83bd_1",
-"build_number":1,
-"depends":[
-"aws-c-common >=0.5.10,<0.5.11.0a0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"aws-c-cal",
-"sha256":"00ab6ff07c5c5a456edec0cb95eb8fe755190278bb9aea9b0ab3a89a37bc8c9c",
-"size":28345,
-"timestamp":1620108929995,
-"version":"0.5.6"
-},
-"aws-c-cal-0.5.6-he5a0616_0.tar.bz2":{
-"build":"he5a0616_0",
-"build_number":0,
-"depends":[
-"aws-c-common >=0.5.8,<0.5.9.0a0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"aws-c-cal",
-"sha256":"36d0c529d72ce42ed43b12268c0d29258f3655a85f5ee9d2fe47e48f3b44caaa",
-"size":28295,
-"timestamp":1620083647999,
-"version":"0.5.6"
-},
 "aws-c-cal-0.5.7-h7dd2e97_1.tar.bz2":{
 "build":"h7dd2e97_1",
 "build_number":1,
@@ -2480,6 +2438,20 @@
 "size":112399,
 "timestamp":1620071379253,
 "version":"0.9.11"
+},
+"aws-c-io-0.9.12-h3b87e79_0.tar.bz2":{
+"build":"h3b87e79_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.7,<0.5.8.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"665f949b1854e9618f24e6983d41a8c5f69cfdd242a7e41550bf530f7328db18",
+"size":112307,
+"timestamp":1620332375000,
+"version":"0.9.12"
 },
 "aws-c-io-0.9.4-h816e6ec_1.tar.bz2":{
 "build":"h816e6ec_1",
@@ -9896,8 +9868,8 @@
 "timestamp":1611273041928,
 "version":"0.13.6"
 },
-"greenlet-1.0.0-py38h3f7e68f_0.tar.bz2":{
-"build":"py38h3f7e68f_0",
+"greenlet-1.1.0-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
 "build_number":0,
 "depends":[
 "libcxx >=11.1.0",
@@ -9906,13 +9878,13 @@
 ],
 "license":"MIT",
 "name":"greenlet",
-"sha256":"0df0279c3cab4ac73f4e8799901eb7a7fe15a9401b59da500353df1f2fa92b99",
-"size":82890,
-"timestamp":1615997645833,
-"version":"1.0.0"
+"sha256":"3d8c5f28dd8e59305f2fb88409765a7caf374b7ac2a9b93ee3796c06f641b0f1",
+"size":83114,
+"timestamp":1620327801462,
+"version":"1.1.0"
 },
-"greenlet-1.0.0-py39h93dc1e2_0.tar.bz2":{
-"build":"py39h93dc1e2_0",
+"greenlet-1.1.0-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
 "build_number":0,
 "depends":[
 "libcxx >=11.1.0",
@@ -9921,10 +9893,10 @@
 ],
 "license":"MIT",
 "name":"greenlet",
-"sha256":"87b5e032d31d865c2f236d7a9cb9a5c921b8975c2ffad92f929b839e654c9043",
-"size":82903,
-"timestamp":1615997841402,
-"version":"1.0.0"
+"sha256":"bb9babd72c8b87e330d0525485863c8d54a0390efe4165c47efbd8d08991f783",
+"size":83161,
+"timestamp":1620327791749,
+"version":"1.1.0"
 },
 "grpc-cpp-1.34.1-h03030bc_1.tar.bz2":{
 "build":"h03030bc_1",
@@ -23388,16 +23360,16 @@
 "timestamp":1618571656470,
 "version":"2.7.1"
 },
-"py-spy-0.3.5-h3422bc3_0.tar.bz2":{
+"py-spy-0.3.6-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
 "depends":[],
 "license":"MIT",
 "name":"py-spy",
-"sha256":"ae03672490bf49c4736c5a24f82b21648e7f1dab82d22710464476b77df741a1",
-"size":1252527,
-"timestamp":1618402420719,
-"version":"0.3.5"
+"sha256":"0b3d8dce6a6a700c26b817fdd2fa97df66377e16b726780f589ed5a9fa25858d",
+"size":1259263,
+"timestamp":1620328205296,
+"version":"0.3.6"
 },
 "pyarrow-2.0.0-py38h4908e6c_15_cpu.tar.bz2":{
 "build":"py38h4908e6c_15_cpu",
