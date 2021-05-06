@@ -37212,6 +37212,104 @@
 "timestamp":1618493005612,
 "version":"0.9.2"
 },
+"ihm-0.19-py36h269c3a8_3.tar.bz2":{
+"build":"py36h269c3a8_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"msgpack-python",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"MIT",
+"name":"ihm",
+"sha256":"cfc59441c81a5d006abd7ecacbdee1791e83c4a47790dfd05aa5bf802931ff6f",
+"size":241928,
+"timestamp":1620336293250,
+"version":"0.19"
+},
+"ihm-0.19-py36h9b67645_3.tar.bz2":{
+"build":"py36h9b67645_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"msgpack-python",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73"
+],
+"license":"MIT",
+"name":"ihm",
+"sha256":"d5885ff8a2058e55b8deb1efb0403c87d191c036dbc86e3c7376626ace078c7a",
+"size":250190,
+"timestamp":1620336300657,
+"version":"0.19"
+},
+"ihm-0.19-py37h1283c21_3.tar.bz2":{
+"build":"py37h1283c21_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"msgpack-python",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"MIT",
+"name":"ihm",
+"sha256":"ba14ac0185540c09377e6678b3a389928ee471bdbaadd06699502b2aff0997fc",
+"size":252479,
+"timestamp":1620336301279,
+"version":"0.19"
+},
+"ihm-0.19-py37hcd4c3ab_3.tar.bz2":{
+"build":"py37hcd4c3ab_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"msgpack-python",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"MIT",
+"name":"ihm",
+"sha256":"af2f8fc6f0924deb0b8dd05ce52936abeca97bfc3926a81a3ab74b08cccd6661",
+"size":241488,
+"timestamp":1620336294348,
+"version":"0.19"
+},
+"ihm-0.19-py38h9544abe_3.tar.bz2":{
+"build":"py38h9544abe_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"msgpack-python",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"ihm",
+"sha256":"c7b63e1f024479016cf5f1796c7d577e28b0c3272114dc031bf2d830762519d6",
+"size":245778,
+"timestamp":1620336511178,
+"version":"0.19"
+},
+"ihm-0.19-py39h14843e3_3.tar.bz2":{
+"build":"py39h14843e3_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"msgpack-python",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"ihm",
+"sha256":"0a8e1e36de312f9a72d767441f97f4ad9947209a849d82b78269894ec7d38d53",
+"size":246080,
+"timestamp":1620336522997,
+"version":"0.19"
+},
 "ilmbase-2.5.5-h469bdbd_0.tar.bz2":{
 "build":"h469bdbd_0",
 "build_number":0,
@@ -62876,6 +62974,33 @@
 "size":2501112,
 "timestamp":1616491335986,
 "version":"1.5.2"
+},
+"onednn-2.2.2-omp_h99c1edd_1.tar.bz2":{
+"build":"omp_h99c1edd_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"sha256":"f3e0c0c001986c71419c618bd59aad619c8aacde2e3072cb180da5cb7928f9d9",
+"size":4101348,
+"timestamp":1620332310019,
+"version":"2.2.2"
+},
+"onednn-cpu-omp-2.2.2-omp_h5f79612_1.tar.bz2":{
+"build":"omp_h5f79612_1",
+"build_number":1,
+"depends":[
+"onednn 2.2.2 omp_h99c1edd_1"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-omp",
+"sha256":"6710ce9e81db673fe60451eed75349d283cc14292c635073da5c8d3f671f0781",
+"size":8283,
+"timestamp":1620332380046,
+"version":"2.2.2"
 },
 "oniguruma-6.9.7.1-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",
