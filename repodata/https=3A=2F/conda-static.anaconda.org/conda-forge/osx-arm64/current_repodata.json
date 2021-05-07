@@ -16874,16 +16874,30 @@
 "timestamp":1618058931411,
 "version":"3.15.8"
 },
-"libprotobuf-static-3.15.8-hce30654_0.tar.bz2":{
+"libprotobuf-3.16.0-hccf11d3_0.tar.bz2":{
+"build":"hccf11d3_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libprotobuf",
+"sha256":"71ce0b0acf3fcf70fcaa322a757c2f48e2046fc1bc19eb279e1522aca84577b5",
+"size":2170324,
+"timestamp":1620374276977,
+"version":"3.16.0"
+},
+"libprotobuf-static-3.16.0-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
 "depends":[],
 "license":"BSD-3-Clause",
 "name":"libprotobuf-static",
-"sha256":"94c9f019567c821db59a835a56eb815af26cad5b4ea534d254ba21d46a17000d",
-"size":2556183,
-"timestamp":1618058938170,
-"version":"3.15.8"
+"sha256":"4f18003fe2f5c690a03bf7200208a337921bd3a165f79ea90d89a0c93b0eeb70",
+"size":2527470,
+"timestamp":1620374283993,
+"version":"3.16.0"
 },
 "libpython-static-3.9.2-h9f76cd9_0_cpython.tar.bz2":{
 "build":"h9f76cd9_0_cpython",
@@ -25414,35 +25428,35 @@
 "timestamp":1611726869414,
 "version":"2.6.2"
 },
-"pybind11_json-0.2.9-py38h12a6f45_0.tar.bz2":{
-"build":"py38h12a6f45_0",
+"pybind11_json-0.2.10-py38h1670459_0.tar.bz2":{
+"build":"py38h1670459_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.1",
+"libcxx >=11.1.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"BSD-3-Clause",
 "name":"pybind11_json",
-"sha256":"b610da91519c8055218ffc0feab6ea26334b8cbf0949ea5be2df8fd56d2c8cc7",
-"size":9465,
-"timestamp":1613148919865,
-"version":"0.2.9"
+"sha256":"c6f52c69bd90114a1c455db81205f01f733a454ba0ee731f013a46e4af80dfaa",
+"size":9510,
+"timestamp":1620375052002,
+"version":"0.2.10"
 },
-"pybind11_json-0.2.9-py39h5a63225_0.tar.bz2":{
-"build":"py39h5a63225_0",
+"pybind11_json-0.2.10-py39h4d2d688_0.tar.bz2":{
+"build":"py39h4d2d688_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.1",
+"libcxx >=11.1.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"BSD-3-Clause",
 "name":"pybind11_json",
-"sha256":"70398aaa9e62ac4614b61f0c7ed395e8fe9000f71ca5f7d9ceb9db9df1fb58a6",
-"size":9479,
-"timestamp":1613148780971,
-"version":"0.2.9"
+"sha256":"40dd5cefb61a908c3013fbb66edd1453ad24cd2dfb6f0d1ef6235f9f4df120ce",
+"size":9513,
+"timestamp":1620375042092,
+"version":"0.2.10"
 },
 "pybtex-0.24.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
