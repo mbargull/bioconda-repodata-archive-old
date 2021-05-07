@@ -6836,6 +6836,46 @@
 "timestamp":1620349108876,
 "version":"1.19.68"
 },
+"awscli-1.19.68-py38h2063c64_0.tar.bz2":{
+"build":"py38h2063c64_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.68",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.4.0,<0.5.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"97b731bdc1e2120fd4d27f092acce4e6b98b4be496cc26d02abd32858fc0f316",
+"size":1946804,
+"timestamp":1620349759594,
+"version":"1.19.68"
+},
+"awscli-1.19.68-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.68",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.4.0,<0.5.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"14d63c03a374a659ede04a770de4273f6350e1cc02b897f7100b92e8a51f860c",
+"size":1937262,
+"timestamp":1620350157049,
+"version":"1.19.68"
+},
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
 "build_number":3,
@@ -23127,10 +23167,11 @@
 "timestamp":1605447522361,
 "version":"1.1.0"
 },
-"fastparquet-0.5.0-py36h3c00cb0_0.tar.bz2":{
-"build":"py36h3c00cb0_0",
+"fastparquet-0.6.0-py36hbe810f4_0.tar.bz2":{
+"build":"py36hbe810f4_0",
 "build_number":0,
 "depends":[
+"cramjam >=2.3.0",
 "libgcc-ng >=9.3.0",
 "numba >=0.28",
 "numpy",
@@ -23142,35 +23183,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"f80296aff73bf7ec613e103511abbf383b2ea587f2b31c331cb1875bac41d283",
-"size":189097,
-"timestamp":1615471239308,
-"version":"0.5.0"
+"sha256":"bff193165cbfc0b08fb48349e20756e755bb17626812d9a7fa7341bc66aa0a5e",
+"size":293113,
+"timestamp":1620351104613,
+"version":"0.6.0"
 },
-"fastparquet-0.5.0-py36h3c00cb0_1.tar.bz2":{
-"build":"py36h3c00cb0_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numba >=0.28",
-"numpy",
-"packaging",
-"pandas >=0.19",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"thrift >=0.11"
-],
-"license":"BSD-3-Clause",
-"name":"fastparquet",
-"sha256":"74857668fb4695dcbae10a1a19433d48f38c0c325626553e62266280047d82a2",
-"size":193732,
-"timestamp":1619039523688,
-"version":"0.5.0"
-},
-"fastparquet-0.5.0-py37h555cd67_0.tar.bz2":{
-"build":"py37h555cd67_0",
+"fastparquet-0.6.0-py37h32d76ca_0.tar.bz2":{
+"build":"py37h32d76ca_0",
 "build_number":0,
 "depends":[
+"cramjam >=2.3.0",
 "libgcc-ng >=9.3.0",
 "numba >=0.28",
 "numpy",
@@ -23182,15 +23204,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"d47ba6603fdfa77e6f67b63677cc54a1a0a66f9b4f6b84caa472f6f012322284",
-"size":191564,
-"timestamp":1615471261541,
-"version":"0.5.0"
+"sha256":"6202b182ac0bffa4b1da421a089573c1b012383bdb8efb0e9a5a4c8e4c82aac4",
+"size":299454,
+"timestamp":1620351096190,
+"version":"0.6.0"
 },
-"fastparquet-0.5.0-py38he276fbc_0.tar.bz2":{
-"build":"py38he276fbc_0",
+"fastparquet-0.6.0-py38h5c1ee58_0.tar.bz2":{
+"build":"py38h5c1ee58_0",
 "build_number":0,
 "depends":[
+"cramjam >=2.3.0",
 "libgcc-ng >=9.3.0",
 "numba >=0.28",
 "numpy",
@@ -23202,35 +23225,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"e400a4f81cccbc03f2d5554c0dabbc7e35a40359fd639cca6df1b38e008f4390",
-"size":189972,
-"timestamp":1615471264318,
-"version":"0.5.0"
+"sha256":"0ace309441b33405b197c6e326e97537b694e889c77990af972decd99f7c4bd5",
+"size":297670,
+"timestamp":1620351032921,
+"version":"0.6.0"
 },
-"fastparquet-0.5.0-py38he276fbc_1.tar.bz2":{
-"build":"py38he276fbc_1",
-"build_number":1,
+"fastparquet-0.6.0-py39h5cfbcb9_0.tar.bz2":{
+"build":"py39h5cfbcb9_0",
+"build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
-"numba >=0.28",
-"numpy",
-"packaging",
-"pandas >=0.19",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"thrift >=0.11"
-],
-"license":"BSD-3-Clause",
-"name":"fastparquet",
-"sha256":"6422fde44b3806ebef1670a33963fb4abd53e4e721eb293fefa53c90f3cb907d",
-"size":191829,
-"timestamp":1619039517360,
-"version":"0.5.0"
-},
-"fastparquet-0.5.0-py39h5cfbcb9_1.tar.bz2":{
-"build":"py39h5cfbcb9_1",
-"build_number":1,
-"depends":[
+"cramjam >=2.3.0",
 "libgcc-ng >=9.3.0",
 "numba >=0.28",
 "numpy",
@@ -23242,10 +23246,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"bea84e403721b3234dd2c70fd514e60a1819185e53956cadba843453a7e37eb2",
-"size":180636,
-"timestamp":1619039556264,
-"version":"0.5.0"
+"sha256":"ad75ec9a030806b59166f02cb5841c9417e7b61581e8b48b56c35cb3de97725e",
+"size":282331,
+"timestamp":1620351056703,
+"version":"0.6.0"
 },
 "fcl-0.6.1-h618491c_3.tar.bz2":{
 "build":"h618491c_3",
