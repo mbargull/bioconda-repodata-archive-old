@@ -31528,6 +31528,36 @@
 "timestamp":1620336444318,
 "version":"0.19"
 },
+"ihm-0.20-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"msgpack-python",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"ihm",
+"sha256":"494020c1e22a596309ff7ac8708dcc2de91432fc80b8427e92267b982d3a7dce",
+"size":243090,
+"timestamp":1620346956427,
+"version":"0.20"
+},
+"ihm-0.20-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"msgpack-python",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"ihm",
+"sha256":"592079d515c7118e69f188f6fac9171453a7c3e64e80cadb7ab8eca178b21fb4",
+"size":242602,
+"timestamp":1620346948215,
+"version":"0.20"
+},
 "ijar-4.0.0-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
@@ -77230,6 +77260,36 @@
 "timestamp":1620078188191,
 "version":"1.4.13"
 },
+"sqlalchemy-1.4.14-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"3f348b8fcc7d715676c8d2363c47961083d2b28ba6d1350be5d89d714901789f",
+"size":2366266,
+"timestamp":1620346489134,
+"version":"1.4.14"
+},
+"sqlalchemy-1.4.14-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"f654a0ece5c1e8e69d6a4cdd586c655e44eba1678401f888eda262f16c04cbe2",
+"size":2360853,
+"timestamp":1620346470914,
+"version":"1.4.14"
+},
 "sqlalchemy-1.4.2-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
 "build_number":0,
@@ -80426,6 +80486,50 @@
 "size":932521,
 "timestamp":1619918855816,
 "version":"4.2.0"
+},
+"treecorr-4.2.1-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"cffi",
+"fitsio",
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"lsstdesc.coord",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml"
+],
+"license":"BSD-2-Clause",
+"name":"treecorr",
+"sha256":"f05b41a91594e2dfa01e4e40164ce7a435f6f8a8bf663886f02a92364e66c439",
+"size":930882,
+"timestamp":1620347742321,
+"version":"4.2.1"
+},
+"treecorr-4.2.1-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"cffi",
+"fitsio",
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"lsstdesc.coord",
+"numpy",
+"pandas",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml"
+],
+"license":"BSD-2-Clause",
+"name":"treecorr",
+"sha256":"28360fdcf73131e26955c69ae6fb7239a2b760f0937ed36d24f1c4fdcae4b9ca",
+"size":938132,
+"timestamp":1620347729402,
+"version":"4.2.1"
 },
 "trio-0.17.0-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
