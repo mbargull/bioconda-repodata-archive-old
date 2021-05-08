@@ -7686,6 +7686,23 @@
 "timestamp":1617890899724,
 "version":"4.0.0"
 },
+"bazel-4.0.0-h502eac7_8.tar.bz2":{
+"build":"h502eac7_8",
+"build_number":8,
+"depends":[
+"grpc-cpp >=1.37.1,<1.38.0a0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"openjdk >=8"
+],
+"license":"Apache-2.0",
+"name":"bazel",
+"sha256":"a987cb15ae16ab2a63c680b3d266c3a55f07311ea207dffceab017943457b298",
+"size":41786072,
+"timestamp":1620484162102,
+"version":"4.0.0"
+},
 "bc-1.07.1-h516909a_0.tar.bz2":{
 "build":"h516909a_0",
 "build_number":0,
@@ -59823,6 +59840,46 @@
 "timestamp":1613932592018,
 "version":"8.0.23"
 },
+"mysql-connector-python-8.0.23-py36hd15bf97_2.tar.bz2":{
+"build":"py36hd15bf97_2",
+"build_number":2,
+"depends":[
+"dnspython >=1.16.0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mysql-libs >=8.0.23,<8.0.24.0a0",
+"protobuf >=3.0.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
+"name":"mysql-connector-python",
+"sha256":"01f633869b6195235ff5106f1f4cd328544b2eace6d160bb963c6c9ac03853f2",
+"size":784152,
+"timestamp":1620481558544,
+"version":"8.0.23"
+},
+"mysql-connector-python-8.0.23-py37h7bac46b_2.tar.bz2":{
+"build":"py37h7bac46b_2",
+"build_number":2,
+"depends":[
+"dnspython >=1.16.0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mysql-libs >=8.0.23,<8.0.24.0a0",
+"protobuf >=3.0.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
+"name":"mysql-connector-python",
+"sha256":"65816623af9dd12a9505680cb44f0ae4b13d4d3a825a3dab0ac3729a698f878e",
+"size":784491,
+"timestamp":1620482692090,
+"version":"8.0.23"
+},
 "mysql-connector-python-8.0.23-py37h7cfc2c7_1.tar.bz2":{
 "build":"py37h7cfc2c7_1",
 "build_number":1,
@@ -59862,6 +59919,27 @@
 "sha256":"b840a4c49c6b08b7aa2cc75fd5f9800d15b50a5840637cd2857c1ed1f97e5214",
 "size":795007,
 "timestamp":1613932949689,
+"version":"8.0.23"
+},
+"mysql-connector-python-8.0.23-py37h95c3082_2.tar.bz2":{
+"build":"py37h95c3082_2",
+"build_number":2,
+"depends":[
+"dnspython >=1.16.0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mysql-libs >=8.0.23,<8.0.24.0a0",
+"protobuf >=3.0.0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
+"name":"mysql-connector-python",
+"sha256":"1d08134f7e13615e3a487e76447d1b43f0411eba2cccd29faeb1e7f8a70ef5ae",
+"size":793896,
+"timestamp":1620481952257,
 "version":"8.0.23"
 },
 "mysql-connector-python-8.0.23-py37had250b0_0.tar.bz2":{
@@ -59925,6 +60003,26 @@
 "timestamp":1611325206150,
 "version":"8.0.23"
 },
+"mysql-connector-python-8.0.23-py38hc3c07d0_2.tar.bz2":{
+"build":"py38hc3c07d0_2",
+"build_number":2,
+"depends":[
+"dnspython >=1.16.0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mysql-libs >=8.0.23,<8.0.24.0a0",
+"protobuf >=3.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
+"name":"mysql-connector-python",
+"sha256":"308b9bb574f165cda808e9e9373bf651672e7a408285d49ab1dac71fec899eb3",
+"size":778194,
+"timestamp":1620483479279,
+"version":"8.0.23"
+},
 "mysql-connector-python-8.0.23-py38hfce875b_1.tar.bz2":{
 "build":"py38hfce875b_1",
 "build_number":1,
@@ -59943,6 +60041,26 @@
 "sha256":"4b883b8cf837322456b0e0f1080fb57e1c72d306a3b9e159cf00cc62c117cac5",
 "size":786043,
 "timestamp":1613933981162,
+"version":"8.0.23"
+},
+"mysql-connector-python-8.0.23-py39h190d019_2.tar.bz2":{
+"build":"py39h190d019_2",
+"build_number":2,
+"depends":[
+"dnspython >=1.16.0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mysql-libs >=8.0.23,<8.0.24.0a0",
+"protobuf >=3.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
+"name":"mysql-connector-python",
+"sha256":"d8ccc7ddb55ebe5a00a8b3d55d7ec4f74f925b9a6f401f99f358892e3d775559",
+"size":801423,
+"timestamp":1620484286217,
 "version":"8.0.23"
 },
 "mysql-connector-python-8.0.23-py39hb896e3b_1.tar.bz2":{
