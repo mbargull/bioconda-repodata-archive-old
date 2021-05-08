@@ -47303,6 +47303,36 @@
 "timestamp":1617213776048,
 "version":"3.4.1"
 },
+"matplotlib-3.4.2-py38h150bfb4_0.tar.bz2":{
+"build":"py38h150bfb4_0",
+"build_number":0,
+"depends":[
+"matplotlib-base >=3.4.2,<3.4.3.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib",
+"requires":[],
+"size":6876,
+"timestamp":1620506410482,
+"version":"3.4.2"
+},
+"matplotlib-3.4.2-py39hdf13c20_0.tar.bz2":{
+"build":"py39hdf13c20_0",
+"build_number":0,
+"depends":[
+"matplotlib-base >=3.4.2,<3.4.3.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib",
+"requires":[],
+"size":6865,
+"timestamp":1620506394587,
+"version":"3.4.2"
+},
 "matplotlib-base-3.3.2-py38ha029820_1.tar.bz2":{
 "build":"py38ha029820_1",
 "build_number":1,
@@ -47582,6 +47612,62 @@
 "size":7591805,
 "timestamp":1617213716803,
 "version":"3.4.1"
+},
+"matplotlib-base-3.4.2-py38hb140015_0.tar.bz2":{
+"build":"py38hb140015_0",
+"build_number":0,
+"constrains":[
+"__osx >=11.0"
+],
+"depends":[
+"certifi >=2020.06.20",
+"cycler >=0.10",
+"freetype >=2.10.4,<3.0a0",
+"kiwisolver >=1.0.1",
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"pillow >=6.2.0",
+"pyparsing >=2.2.1",
+"python >=3.8,<3.9.0a0",
+"python-dateutil >=2.1",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"tornado"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib-base",
+"requires":[],
+"size":7626443,
+"timestamp":1620506383454,
+"version":"3.4.2"
+},
+"matplotlib-base-3.4.2-py39h5aa4fe7_0.tar.bz2":{
+"build":"py39h5aa4fe7_0",
+"build_number":0,
+"constrains":[
+"__osx >=11.0"
+],
+"depends":[
+"certifi >=2020.06.20",
+"cycler >=0.10",
+"freetype >=2.10.4,<3.0a0",
+"kiwisolver >=1.0.1",
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"pillow >=6.2.0",
+"pyparsing >=2.2.1",
+"python >=3.9,<3.10.0a0",
+"python-dateutil >=2.1",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"tornado"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib-base",
+"requires":[],
+"size":7576670,
+"timestamp":1620506368399,
+"version":"3.4.2"
 },
 "maturin-0.9.0-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
