@@ -1752,6 +1752,41 @@
 "timestamp":1619594531763,
 "version":"4.0.0"
 },
+"arrow-cpp-4.0.0-py38h7c9bbbf_2_cpu.tar.bz2":{
+"build":"py38h7c9bbbf_2_cpu",
+"build_number":2,
+"constrains":[
+"arrow-cpp-proc * cpu"
+],
+"depends":[
+"aws-sdk-cpp >=1.8.186,<1.8.187.0a0",
+"brotli >=1.0.9,<2.0a0",
+"bzip2 >=1.0.8,<2.0a0",
+"c-ares >=1.17.1,<2.0a0",
+"gflags >=2.2.2,<2.3.0a0",
+"glog >=0.4.0,<0.5.0a0",
+"grpc-cpp >=1.37.1,<1.38.0a0",
+"libcxx >=11.1.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libthrift >=0.14.1,<0.15.0a0",
+"libutf8proc >=2.6.1,<3.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"numpy >=1.16,<2.0a0",
+"orc >=1.6.7,<1.6.8.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"re2 >=2021.4.1,<2021.4.2.0a0",
+"snappy >=1.1.8,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"Apache-2.0",
+"name":"arrow-cpp",
+"sha256":"4e7c7b1315c81fed2c8c115df2d13a64a12ffbf4403168299008f2b8f4c35553",
+"size":5477777,
+"timestamp":1620479553720,
+"version":"4.0.0"
+},
 "arrow-cpp-4.0.0-py39h9a833ae_1_cpu.tar.bz2":{
 "build":"py39h9a833ae_1_cpu",
 "build_number":1,
@@ -1785,6 +1820,41 @@
 "sha256":"1bbd51bb2919cb259a73b8cb713937349f99b050e68242ce03c5bc21dfb0e159",
 "size":5478019,
 "timestamp":1620113747013,
+"version":"4.0.0"
+},
+"arrow-cpp-4.0.0-py39hc31b32d_2_cpu.tar.bz2":{
+"build":"py39hc31b32d_2_cpu",
+"build_number":2,
+"constrains":[
+"arrow-cpp-proc * cpu"
+],
+"depends":[
+"aws-sdk-cpp >=1.8.186,<1.8.187.0a0",
+"brotli >=1.0.9,<2.0a0",
+"bzip2 >=1.0.8,<2.0a0",
+"c-ares >=1.17.1,<2.0a0",
+"gflags >=2.2.2,<2.3.0a0",
+"glog >=0.4.0,<0.5.0a0",
+"grpc-cpp >=1.37.1,<1.38.0a0",
+"libcxx >=11.1.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libthrift >=0.14.1,<0.15.0a0",
+"libutf8proc >=2.6.1,<3.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"numpy >=1.16,<2.0a0",
+"orc >=1.6.7,<1.6.8.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"re2 >=2021.4.1,<2021.4.2.0a0",
+"snappy >=1.1.8,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"Apache-2.0",
+"name":"arrow-cpp",
+"sha256":"86abd92b895bcb2e05934c29596dd3ec70c87978cb72566aff7d841a0333e890",
+"size":5481211,
+"timestamp":1620479595753,
 "version":"4.0.0"
 },
 "arrow-cpp-4.0.0-py39hea50c2d_0_cpu.tar.bz2":{
@@ -25448,6 +25518,27 @@
 "timestamp":1620114022629,
 "version":"4.0.0"
 },
+"pyarrow-4.0.0-py38h5211c98_2_cpu.tar.bz2":{
+"build":"py38h5211c98_2_cpu",
+"build_number":2,
+"constrains":[
+"arrow-cpp-proc * cpu"
+],
+"depends":[
+"arrow-cpp 4.0.0 py38h7c9bbbf_2_cpu",
+"libcxx >=11.1.0",
+"numpy >=1.16,<2.0a0",
+"parquet-cpp 1.5.1.*",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"pyarrow",
+"sha256":"662b10a1067818a7da246514658902ddc8c56897a98140a55669fc9781576c10",
+"size":2284714,
+"timestamp":1620479835665,
+"version":"4.0.0"
+},
 "pyarrow-4.0.0-py39h6134bab_0_cpu.tar.bz2":{
 "build":"py39h6134bab_0_cpu",
 "build_number":0,
@@ -25490,6 +25581,27 @@
 "timestamp":1620114042443,
 "version":"4.0.0"
 },
+"pyarrow-4.0.0-py39h6134bab_2_cpu.tar.bz2":{
+"build":"py39h6134bab_2_cpu",
+"build_number":2,
+"constrains":[
+"arrow-cpp-proc * cpu"
+],
+"depends":[
+"arrow-cpp 4.0.0 py39hc31b32d_2_cpu",
+"libcxx >=11.1.0",
+"numpy >=1.16,<2.0a0",
+"parquet-cpp 1.5.1.*",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"pyarrow",
+"sha256":"83673ea99a4e90976221468e5389f4f3649985eaf5b4f2f373a9eaa4d3264423",
+"size":2331727,
+"timestamp":1620479900223,
+"version":"4.0.0"
+},
 "pyarrow-tests-4.0.0-py38h5211c98_0_cpu.tar.bz2":{
 "build":"py38h5211c98_0_cpu",
 "build_number":0,
@@ -25528,6 +25640,25 @@
 "timestamp":1620114102033,
 "version":"4.0.0"
 },
+"pyarrow-tests-4.0.0-py38h5211c98_2_cpu.tar.bz2":{
+"build":"py38h5211c98_2_cpu",
+"build_number":2,
+"constrains":[
+"arrow-cpp-proc * cpu"
+],
+"depends":[
+"libcxx >=11.1.0",
+"pyarrow 4.0.0 py38h5211c98_2_cpu",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"pyarrow-tests",
+"sha256":"909588331771654464f494a76269f6afc018718de844044d503c34b8d8777b3c",
+"size":626109,
+"timestamp":1620479914741,
+"version":"4.0.0"
+},
 "pyarrow-tests-4.0.0-py39h6134bab_0_cpu.tar.bz2":{
 "build":"py39h6134bab_0_cpu",
 "build_number":0,
@@ -25564,6 +25695,25 @@
 "sha256":"ae4ae2b4f59f53e5d22773b94f2654516154466dfc9fcc5f667ed7bd5663dfe7",
 "size":628496,
 "timestamp":1620114140051,
+"version":"4.0.0"
+},
+"pyarrow-tests-4.0.0-py39h6134bab_2_cpu.tar.bz2":{
+"build":"py39h6134bab_2_cpu",
+"build_number":2,
+"constrains":[
+"arrow-cpp-proc * cpu"
+],
+"depends":[
+"libcxx >=11.1.0",
+"pyarrow 4.0.0 py39h6134bab_2_cpu",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"pyarrow-tests",
+"sha256":"bddc4b91e9b16a61da1ed4b624e951da1bf3261e3ebd5001873b01912308249d",
+"size":629788,
+"timestamp":1620479985558,
 "version":"4.0.0"
 },
 "pybind11-2.6.2-py38h12a6f45_0.tar.bz2":{
