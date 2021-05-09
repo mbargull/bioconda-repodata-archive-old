@@ -48843,7 +48843,7 @@
 "timestamp":1617054343546,
 "version":"11.1.0"
 },
-"libnegf-1.0.1-mpi_mpich_h478e2f9_0.tar.bz2":{
+"libnegf-1.0.2-mpi_mpich_h478e2f9_0.tar.bz2":{
 "build":"mpi_mpich_h478e2f9_0",
 "build_number":0,
 "depends":[
@@ -48852,18 +48852,18 @@
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
-"mpich >=3.3,<4.0.0a0",
+"mpich >=3.4,<3.5.0a0",
 "mpifx * mpi_mpich_*",
-"mpifx >=1.0,<2.0a0 mpi_mpich_*"
+"mpifx >=1.1,<2.0a0 mpi_mpich_*"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"libnegf",
-"sha256":"99b8842e8f84d0c938294d83017e4f5b6678322460302e44bc14fc243edb0587",
-"size":772762,
-"timestamp":1606400123111,
-"version":"1.0.1"
+"sha256":"bba2e4f0f9a7338e2eee0864bb1521aa600b90816989a268619bb1b3adb6a03d",
+"size":735746,
+"timestamp":1620595237234,
+"version":"1.0.2"
 },
-"libnegf-1.0.1-mpi_openmpi_h152c2b8_0.tar.bz2":{
+"libnegf-1.0.2-mpi_openmpi_h152c2b8_0.tar.bz2":{
 "build":"mpi_openmpi_h152c2b8_0",
 "build_number":0,
 "depends":[
@@ -48873,17 +48873,17 @@
 "libgfortran5 >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "mpifx * mpi_openmpi_*",
-"mpifx >=1.0,<2.0a0 mpi_openmpi_*",
-"openmpi >=4.0,<5.0.0a0"
+"mpifx >=1.1,<2.0a0 mpi_openmpi_*",
+"openmpi >=4.1,<4.2.0a0"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"libnegf",
-"sha256":"e5eac5175a0aed2f223f0c3335767206b2d65b0e8d748e5132f4caca9e7cafd7",
-"size":754606,
-"timestamp":1606400455440,
-"version":"1.0.1"
+"sha256":"8cf74fea12a111bd33dadd710a18e7ee2bcb00061a4c6bb8085597db7c6f7ec5",
+"size":788008,
+"timestamp":1620595525038,
+"version":"1.0.2"
 },
-"libnegf-1.0.1-nompi_h7c86739_100.tar.bz2":{
+"libnegf-1.0.2-nompi_h7c86739_100.tar.bz2":{
 "build":"nompi_h7c86739_100",
 "build_number":100,
 "depends":[
@@ -48895,10 +48895,10 @@
 ],
 "license":"LGPL-3.0-or-later",
 "name":"libnegf",
-"sha256":"22ff1a812bb10551a6a43826e2da149af182a508d699318b03bdb52862b8bcf5",
-"size":688173,
-"timestamp":1606400113313,
-"version":"1.0.1"
+"sha256":"54c841c1d9cdc01f5f08194f89f674528f4ef587535a8f6383df3dd2f5bf64c6",
+"size":681451,
+"timestamp":1620595228809,
+"version":"1.0.2"
 },
 "libnetcdf-4.7.4-mpi_mpich_h3c5f974_4.tar.bz2":{
 "build":"mpi_mpich_h3c5f974_4",
