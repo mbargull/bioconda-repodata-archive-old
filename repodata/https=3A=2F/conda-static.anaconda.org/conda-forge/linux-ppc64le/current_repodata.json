@@ -50595,6 +50595,43 @@
 "timestamp":1606400266121,
 "version":"1.0.1"
 },
+"libnegf-1.0.2-mpi_openmpi_h11bec1d_0.tar.bz2":{
+"build":"mpi_openmpi_h11bec1d_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"mpifx * mpi_openmpi_*",
+"mpifx >=1.1,<2.0a0 mpi_openmpi_*",
+"openmpi >=4.1,<4.2.0a0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"libnegf",
+"sha256":"5ed737058b1c9ea8c416e424fc4ec7280b53051810be92a2df232945c099b3aa",
+"size":834534,
+"timestamp":1620595389615,
+"version":"1.0.2"
+},
+"libnegf-1.0.2-nompi_hd6921e4_100.tar.bz2":{
+"build":"nompi_hd6921e4_100",
+"build_number":100,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"libnegf",
+"sha256":"ebd549a3d9a6595b000ce3ddb7728619408471c777e53a6b69512659967ba584",
+"size":723487,
+"timestamp":1620595117648,
+"version":"1.0.2"
+},
 "libnetcdf-4.7.4-mpi_mpich_h33cd782_7.tar.bz2":{
 "build":"mpi_mpich_h33cd782_7",
 "build_number":7,
