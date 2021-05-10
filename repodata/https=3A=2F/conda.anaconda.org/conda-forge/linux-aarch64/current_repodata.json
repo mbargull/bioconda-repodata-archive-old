@@ -29507,6 +29507,21 @@
 "timestamp":1560707944091,
 "version":"0.4.0"
 },
+"glog-0.5.0-hbffda88_0.tar.bz2":{
+"build":"hbffda88_0",
+"build_number":0,
+"depends":[
+"gflags >=2.2.2,<2.3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"glog",
+"sha256":"6f3a7440799003fb2b05cc12c50d58704d7e2abc8b0e94332c199c70f54afca4",
+"size":107455,
+"timestamp":1620638866889,
+"version":"0.5.0"
+},
 "glpk-4.65-h719063d_1003.tar.bz2":{
 "build":"h719063d_1003",
 "build_number":1003,
@@ -55269,6 +55284,43 @@
 "timestamp":1605116351549,
 "version":"0.8.4"
 },
+"mlflow-1.17.0-py36h5593f33_0.tar.bz2":{
+"build":"py36h5593f33_0",
+"build_number":0,
+"constrains":[
+"mlflow-skinny <0a0"
+],
+"depends":[
+"alembic <=1.4.1",
+"click >=7.0",
+"cloudpickle",
+"databricks-cli >=0.8.7",
+"docker-py >=4.0.0",
+"entrypoints",
+"flask",
+"gitpython >=2.1.0",
+"gunicorn",
+"numpy",
+"pandas",
+"prometheus_flask_exporter",
+"protobuf >=3.6.0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"pytz",
+"pyyaml",
+"querystring_parser",
+"requests >=2.17.3",
+"sqlalchemy",
+"sqlparse >=0.3.1"
+],
+"license":"Apache-2.0",
+"name":"mlflow",
+"sha256":"42262a8599c526f1e5e744b7860f58a199333bc1d68863b24423e09586a111ea",
+"size":4574482,
+"timestamp":1620637020730,
+"version":"1.17.0"
+},
 "mlflow-1.17.0-py36hc1656ca_0.tar.bz2":{
 "build":"py36hc1656ca_0",
 "build_number":0,
@@ -55339,6 +55391,42 @@
 "sha256":"1da12949990e1ca4b9fa05f902c9033dc667484801ee00daf93a04aad787d0c3",
 "size":4539913,
 "timestamp":1620636782496,
+"version":"1.17.0"
+},
+"mlflow-1.17.0-py38h3fee7d2_0.tar.bz2":{
+"build":"py38h3fee7d2_0",
+"build_number":0,
+"constrains":[
+"mlflow-skinny <0a0"
+],
+"depends":[
+"alembic <=1.4.1",
+"click >=7.0",
+"cloudpickle",
+"databricks-cli >=0.8.7",
+"docker-py >=4.0.0",
+"entrypoints",
+"flask",
+"gitpython >=2.1.0",
+"gunicorn",
+"numpy",
+"pandas",
+"prometheus_flask_exporter",
+"protobuf >=3.6.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz",
+"pyyaml",
+"querystring_parser",
+"requests >=2.17.3",
+"sqlalchemy",
+"sqlparse >=0.3.1"
+],
+"license":"Apache-2.0",
+"name":"mlflow",
+"sha256":"9eebdab324513657567610c42beec01c828aab67c8f3ba20b26ddbb414f59845",
+"size":4420426,
+"timestamp":1620637341272,
 "version":"1.17.0"
 },
 "mlflow-1.17.0-py39hf199097_0.tar.bz2":{
@@ -55456,6 +55544,74 @@
 "timestamp":1620637101045,
 "version":"1.17.0"
 },
+"mlflow-skinny-1.17.0-py38h9072390_0.tar.bz2":{
+"build":"py38h9072390_0",
+"build_number":0,
+"constrains":[
+"mlflow <0a0"
+],
+"depends":[
+"click >=7.0",
+"cloudpickle",
+"databricks-cli >=0.8.7",
+"entrypoints",
+"gitpython >=2.1.0",
+"protobuf >=3.6.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz",
+"pyyaml",
+"requests >=2.17.3"
+],
+"license":"Apache-2.0",
+"name":"mlflow-skinny",
+"sha256":"aef97d2e68b6af4127c77632b6941593e6af25a36a08ded6c51ce79e3972b1a4",
+"size":743920,
+"timestamp":1620637304791,
+"version":"1.17.0"
+},
+"mlflow-skinny-1.17.0-py39h1ec4aa1_0.tar.bz2":{
+"build":"py39h1ec4aa1_0",
+"build_number":0,
+"constrains":[
+"mlflow <0a0"
+],
+"depends":[
+"click >=7.0",
+"cloudpickle",
+"databricks-cli >=0.8.7",
+"entrypoints",
+"gitpython >=2.1.0",
+"protobuf >=3.6.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytz",
+"pyyaml",
+"requests >=2.17.3"
+],
+"license":"Apache-2.0",
+"name":"mlflow-skinny",
+"sha256":"b2bf2475adf89d38b53044be70df5fe9b1d478a7460ebf08dad6d2eeefad4ecf",
+"size":741215,
+"timestamp":1620637315829,
+"version":"1.17.0"
+},
+"mlflow-ui-dbg-1.17.0-py36h5593f33_0.tar.bz2":{
+"build":"py36h5593f33_0",
+"build_number":0,
+"depends":[
+"mlflow 1.17.0 py36h5593f33_0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73"
+],
+"license":"Apache-2.0",
+"name":"mlflow-ui-dbg",
+"sha256":"04c7f603d64d23a7d8e43c5af5fb41ed69b52b7e94b7d32801b2c25f502de059",
+"size":7653059,
+"timestamp":1620637114798,
+"version":"1.17.0"
+},
 "mlflow-ui-dbg-1.17.0-py36hc1656ca_0.tar.bz2":{
 "build":"py36hc1656ca_0",
 "build_number":0,
@@ -55484,6 +55640,21 @@
 "sha256":"99b476bc13d5ebc9ab9500ce77219e3e0f4b63e743203a6440d780c20bb0c184",
 "size":7655593,
 "timestamp":1620636811683,
+"version":"1.17.0"
+},
+"mlflow-ui-dbg-1.17.0-py38h3fee7d2_0.tar.bz2":{
+"build":"py38h3fee7d2_0",
+"build_number":0,
+"depends":[
+"mlflow 1.17.0 py38h3fee7d2_0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"mlflow-ui-dbg",
+"sha256":"0e9696f39cea3776b1c880313e23344c19b29dfe12553e57a1d877bf2ff6ad36",
+"size":7654666,
+"timestamp":1620637429130,
 "version":"1.17.0"
 },
 "mlflow-ui-dbg-1.17.0-py39hf199097_0.tar.bz2":{
