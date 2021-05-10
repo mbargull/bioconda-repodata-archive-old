@@ -9628,6 +9628,20 @@
 "timestamp":1619825907321,
 "version":"0.5.8"
 },
+"aws-c-compression-0.2.11-hf332d29_0.tar.bz2":{
+"build":"hf332d29_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-compression",
+"sha256":"95fcaea021fc962021a0ed8d98319866ef8ba26cbd2774ce0873ad38eb0a7aa3",
+"size":18310,
+"timestamp":1620656881107,
+"version":"0.2.11"
+},
 "aws-c-event-stream-0.2.7-h223e5b4_2.tar.bz2":{
 "build":"h223e5b4_2",
 "build_number":2,
@@ -32883,6 +32897,26 @@
 "timestamp":1617287808018,
 "version":"1.36.4"
 },
+"grpc-cpp-1.37.1-h6fef646_2.tar.bz2":{
+"build":"h6fef646_2",
+"build_number":2,
+"depends":[
+"abseil-cpp >=20210324.1,<20210324.2.0a0",
+"c-ares >=1.17.1,<2.0a0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"re2 >=2021.4.1,<2021.4.2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpc-cpp",
+"sha256":"a9f55cf67edc08460d513e1036117a94c172795b6e8ae8ad78749354d31a5839",
+"size":3686987,
+"timestamp":1620660290569,
+"version":"1.37.1"
+},
 "grpc-cpp-1.37.1-hc570c64_1.tar.bz2":{
 "build":"hc570c64_1",
 "build_number":1,
@@ -50571,26 +50605,6 @@
 "size":313033,
 "timestamp":1608058287468,
 "version":"5.39"
-},
-"libmamba-0.11.3-h443b2dd_0.tar.bz2":{
-"build":"h443b2dd_0",
-"build_number":0,
-"depends":[
-"libarchive >=3.5.1,<3.6.0a0",
-"libcurl >=7.76.1,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libsolv >=0.7.18,<0.8.0a0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a",
-"reproc-cpp >=14.2,<15.0a0",
-"yaml-cpp >=0.6.3,<0.7.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"libmamba",
-"sha256":"b918444f870ce12a1d75f3b80822cc2c9838de064790addeb84b5b8144bf739b",
-"size":889419,
-"timestamp":1619020272569,
-"version":"0.11.3"
 },
 "libmamba-0.12.3-h443b2dd_0.tar.bz2":{
 "build":"h443b2dd_0",
@@ -97265,107 +97279,39 @@
 "timestamp":1610028003999,
 "version":"1.4.1"
 },
-"rhumba-0.1.0-r36h3b9df90_0.tar.bz2":{
-"build":"r36h3b9df90_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libmamba >=0.11.3,<0.12.0a0",
-"libstdcxx-ng >=9.3.0",
-"r-base >=3.6,<3.7.0a0",
-"r-rcpp"
-],
-"license":"BSD-3-Clause",
-"name":"rhumba",
-"sha256":"ece021de8b9155e224103023443c5d23a0b26ac833c906acf89c0c392844b0b1",
-"size":54195,
-"timestamp":1619081528547,
-"version":"0.1.0"
-},
-"rhumba-0.1.0-r36h3b9df90_1.tar.bz2":{
-"build":"r36h3b9df90_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libmamba >=0.11.3,<0.12.0a0",
-"libstdcxx-ng >=9.3.0",
-"r-base >=3.6,<3.7.0a0",
-"r-rcpp"
-],
-"license":"BSD-3-Clause",
-"name":"rhumba",
-"sha256":"652fa8efb33d47e72c7572a300d475f5f59f26b2510d8b7068b862ba16aae33d",
-"size":54316,
-"timestamp":1619251315828,
-"version":"0.1.0"
-},
-"rhumba-0.1.0-r36h3b9df90_2.tar.bz2":{
+"rhumba-0.1.1-r36h3b9df90_2.tar.bz2":{
 "build":"r36h3b9df90_2",
 "build_number":2,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libmamba >=0.12.0,<0.13.0a0",
+"libmamba >=0.12.3,<0.13.0a0",
 "libstdcxx-ng >=9.3.0",
 "r-base >=3.6,<3.7.0a0",
 "r-rcpp"
 ],
 "license":"BSD-3-Clause",
 "name":"rhumba",
-"sha256":"f16de31b06f2749ce3f21a77786e3f716983a659a128aa5de9ca699ede5faf5e",
-"size":54354,
-"timestamp":1619508259268,
-"version":"0.1.0"
+"sha256":"e287c901e7ff6f5d5d9429e2b3681f37efa1e6221ffac57c154820e59bb5482c",
+"size":54573,
+"timestamp":1620659122411,
+"version":"0.1.1"
 },
-"rhumba-0.1.0-r40h3b9df90_0.tar.bz2":{
-"build":"r40h3b9df90_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libmamba >=0.11.3,<0.12.0a0",
-"libstdcxx-ng >=9.3.0",
-"r-base >=4.0,<4.1.0a0",
-"r-rcpp"
-],
-"license":"BSD-3-Clause",
-"name":"rhumba",
-"sha256":"d66dc22e027d0cf32c7ff39798f8e2f013531017c72f0b00301be98927c11040",
-"size":54227,
-"timestamp":1619081574925,
-"version":"0.1.0"
-},
-"rhumba-0.1.0-r40h3b9df90_1.tar.bz2":{
-"build":"r40h3b9df90_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libmamba >=0.11.3,<0.12.0a0",
-"libstdcxx-ng >=9.3.0",
-"r-base >=4.0,<4.1.0a0",
-"r-rcpp"
-],
-"license":"BSD-3-Clause",
-"name":"rhumba",
-"sha256":"dd79e51a028d45982e8c93c3977d3715544e4617ab212b9e7600155a7dad1074",
-"size":54349,
-"timestamp":1619251317531,
-"version":"0.1.0"
-},
-"rhumba-0.1.0-r40h3b9df90_2.tar.bz2":{
+"rhumba-0.1.1-r40h3b9df90_2.tar.bz2":{
 "build":"r40h3b9df90_2",
 "build_number":2,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libmamba >=0.12.0,<0.13.0a0",
+"libmamba >=0.12.3,<0.13.0a0",
 "libstdcxx-ng >=9.3.0",
 "r-base >=4.0,<4.1.0a0",
 "r-rcpp"
 ],
 "license":"BSD-3-Clause",
 "name":"rhumba",
-"sha256":"90156852a13e5a40cb3acfb48b81adddcb36a61d571921476287c179ee0643fc",
-"size":54358,
-"timestamp":1619508289355,
-"version":"0.1.0"
+"sha256":"fe9d75108f3e86164bc9c472d6099a3386c5826b1a50e5d1d85dd601e2ef6a27",
+"size":54533,
+"timestamp":1620659568332,
+"version":"0.1.1"
 },
 "rich-10.1.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",

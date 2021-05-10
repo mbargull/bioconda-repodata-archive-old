@@ -8643,6 +8643,19 @@
 "timestamp":1619825902881,
 "version":"0.5.8"
 },
+"aws-c-compression-0.2.11-h3b87e79_0.tar.bz2":{
+"build":"h3b87e79_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-compression",
+"sha256":"90e98f14f3a80685f00ab113d293b6daaf2e2a92d51cf99a120319e17e3473c0",
+"size":16757,
+"timestamp":1620657104343,
+"version":"0.2.11"
+},
 "aws-c-event-stream-0.1.6-h0d44b10_6.tar.bz2":{
 "build":"h0d44b10_6",
 "build_number":6,
@@ -29296,6 +29309,25 @@
 "sha256":"9c7000ae89188c21687018f6b20622aa1a529f8e51d1dc972e77d10f4a2f8cf3",
 "size":2810581,
 "timestamp":1619752775868,
+"version":"1.37.1"
+},
+"grpc-cpp-1.37.1-h73154ff_2.tar.bz2":{
+"build":"h73154ff_2",
+"build_number":2,
+"depends":[
+"abseil-cpp >=20210324.1,<20210324.2.0a0",
+"c-ares >=1.17.1,<2.0a0",
+"libcxx >=11.1.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"re2 >=2021.4.1,<2021.4.2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpc-cpp",
+"sha256":"f71ba28ddddc17a18d9c1694124ef27b860e63e7de857a73343fd9f0ff349221",
+"size":2844630,
+"timestamp":1620657039283,
 "version":"1.37.1"
 },
 "grpc-cpp-1.37.1-hf75bc15_1.tar.bz2":{
@@ -59350,6 +59382,38 @@
 "timestamp":1617473845195,
 "version":"1.11.4"
 },
+"pulp-2.4-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"amply >=0.1.2",
+"coincbc",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"pulp",
+"sha256":"86e66e3b84ed65cc303c5c24f7033343c1042a27b3104a00be1d355bcc58e4e0",
+"size":133915,
+"timestamp":1620657856190,
+"version":"2.4"
+},
+"pulp-2.4-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"amply >=0.1.2",
+"coincbc",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"pulp",
+"sha256":"4290582a77d246859143b41d271fbb72031970d9fd323cede0d130f31d135951",
+"size":133711,
+"timestamp":1620657563918,
+"version":"2.4"
+},
 "py-lief-0.10.1-py38h339a965_2.tar.bz2":{
 "build":"py38h339a965_2",
 "build_number":2,
@@ -72741,6 +72805,22 @@
 "size":51936,
 "timestamp":1619508453669,
 "version":"0.1.0"
+},
+"rhumba-0.1.1-r40hc470f4d_2.tar.bz2":{
+"build":"r40hc470f4d_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"libmamba >=0.12.3,<0.13.0a0",
+"r-base >=4.0,<4.1.0a0",
+"r-rcpp"
+],
+"license":"BSD-3-Clause",
+"name":"rhumba",
+"sha256":"0a087d0adf183a97cfe45286439dee6c3e63ff4de39710e4e6247185d48890f8",
+"size":52302,
+"timestamp":1620659412324,
+"version":"0.1.1"
 },
 "rich-10.0.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
