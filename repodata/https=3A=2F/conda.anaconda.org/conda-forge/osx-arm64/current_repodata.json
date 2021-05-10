@@ -5329,6 +5329,27 @@
 "timestamp":1610312710524,
 "version":"2.2.0"
 },
+"clang-11-11.1.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"constrains":[
+"clangdev 11.1.0",
+"clang-tools 11.1.0",
+"llvm-tools 11.1.0",
+"clangxx 11.1.0"
+],
+"depends":[
+"libclang-cpp11.1 11.1.0.*",
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-11",
+"sha256":"8ecacef94e628bb9932c07651787a57ca755708aa08e776ca2ff9a6d162f22fb",
+"size":691257,
+"timestamp":1620642394951,
+"version":"11.1.0"
+},
 "clang-11-11.1.0-default_h87665d4_0.tar.bz2":{
 "build":"default_h87665d4_0",
 "build_number":0,
@@ -5368,6 +5389,19 @@
 "sha256":"669ce9b18e09549ef6cbb8d2c3e3408eac6dd44ba292da5615d47db7b1d8b5bc",
 "size":126945,
 "timestamp":1614815977061,
+"version":"11.1.0"
+},
+"clang-11.1.0-hce30654_1.tar.bz2":{
+"build":"hce30654_1",
+"build_number":1,
+"depends":[
+"clang-11 11.1.0 default_h0fdd720_1"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang",
+"sha256":"162f1af32a8ba2d8e863dfa3b703d9940397f9efd8d613fe379747122a2f38bb",
+"size":127646,
+"timestamp":1620642671536,
 "version":"11.1.0"
 },
 "clang-9-9.0.1-default_h86191a3_1.tar.bz2":{
@@ -5414,6 +5448,25 @@
 "timestamp":1618914272601,
 "track_features":"cling",
 "version":"9.0.1"
+},
+"clang-tools-11.1.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"constrains":[
+"clangdev 11.1.0"
+],
+"depends":[
+"clang 11.1.0 hce30654_1",
+"clangxx 11.1.0 default_h8b1a7b7_1",
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-tools",
+"sha256":"e2947973051274b9f34b9bb82dc5ce6f41953058309248da0701846e805dfe30",
+"size":12077148,
+"timestamp":1620643768238,
+"version":"11.1.0"
 },
 "clang-tools-11.1.0-default_h87665d4_0.tar.bz2":{
 "build":"default_h87665d4_0",
@@ -5601,6 +5654,25 @@
 "track_features":"non_default_clang",
 "version":"1.0"
 },
+"clangdev-11.1.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"clang 11.1.0 hce30654_1",
+"clang-tools 11.1.0 default_h0fdd720_1",
+"clangxx 11.1.0 default_h8b1a7b7_1",
+"libclang 11.1.0 default_h0fdd720_1",
+"libclang-cpp 11.1.0 default_h0fdd720_1",
+"libcxx >=11.1.0",
+"llvmdev 11.1.0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangdev",
+"sha256":"56d47189305d1e464658a5bc7ba4a1e051bb4fb48ef0c898f9b8199efe726c80",
+"size":25180278,
+"timestamp":1620643833293,
+"version":"11.1.0"
+},
 "clangdev-11.1.0-default_h87665d4_0.tar.bz2":{
 "build":"default_h87665d4_0",
 "build_number":0,
@@ -5618,6 +5690,19 @@
 "sha256":"853b35c4c65a18b6953efb1b0efdaf086d63d847ab21e80db6b652ea3c7ad279",
 "size":25125345,
 "timestamp":1614817107815,
+"version":"11.1.0"
+},
+"clangxx-11.1.0-default_h8b1a7b7_1.tar.bz2":{
+"build":"default_h8b1a7b7_1",
+"build_number":1,
+"depends":[
+"clang 11.1.0 hce30654_1"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangxx",
+"sha256":"0deae856b53c1d68879590f3b97d576340fd0e4daaba4bf09b77715370be24f2",
+"size":127718,
+"timestamp":1620642681570,
 "version":"11.1.0"
 },
 "clangxx-11.1.0-default_hbe4449c_0.tar.bz2":{
@@ -14705,6 +14790,20 @@
 "timestamp":1617432076147,
 "version":"2.1"
 },
+"libclang-11.1.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang",
+"sha256":"3d2635fdf3674535fa83c35ded7d26c012caa36828ce46565e26ea32d8bd088e",
+"size":13862634,
+"timestamp":1620642835054,
+"version":"11.1.0"
+},
 "libclang-11.1.0-default_h87665d4_0.tar.bz2":{
 "build":"default_h87665d4_0",
 "build_number":0,
@@ -14724,6 +14823,21 @@
 "sha256":"b3e70e4bababeef3a92c23ba30fd0bb435f30a9c8eaacbd4c4fa1fef8db1a736",
 "size":13864940,
 "timestamp":1614816130525,
+"version":"11.1.0"
+},
+"libclang-cpp-11.1.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"libclang-cpp11.1 11.1.0 default_h0fdd720_1",
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp",
+"sha256":"ebf6b0191727b83793b57dba619db0397f86b677e9fb2e02dedcd550645ab931",
+"size":12101549,
+"timestamp":1620642653288,
 "version":"11.1.0"
 },
 "libclang-cpp-11.1.0-default_h87665d4_0.tar.bz2":{
@@ -14768,6 +14882,20 @@
 "size":12101287,
 "timestamp":1610741704351,
 "version":"11.0.1"
+},
+"libclang-cpp11.1-11.1.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp11.1",
+"sha256":"36f93b68de66c2055c81583ee9e6c865ea97b058df000f1fa59e2f1a5dfb8076",
+"size":12100386,
+"timestamp":1620642074039,
+"version":"11.1.0"
 },
 "libclang-cpp11.1-11.1.0-default_h87665d4_0.tar.bz2":{
 "build":"default_h87665d4_0",
@@ -16651,7 +16779,7 @@
 "timestamp":1619188441644,
 "version":"0.11.3"
 },
-"libmamba-0.12.2-h238089d_0.tar.bz2":{
+"libmamba-0.12.3-h238089d_0.tar.bz2":{
 "build":"h238089d_0",
 "build_number":0,
 "depends":[
@@ -16665,10 +16793,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libmamba",
-"sha256":"6767baec7db7a481ce62134e6678cd079a18e8017379991585f0f2dc6a971fbf",
-"size":671903,
-"timestamp":1620045210882,
-"version":"0.12.2"
+"sha256":"4c1cddb501ad9aa2fc42c36c6867f2abe15bba1cc341157c69ab648e1f9a7aa7",
+"size":675218,
+"timestamp":1620646676357,
+"version":"0.12.3"
 },
 "libmlir-11.1.0-h666519e_0.tar.bz2":{
 "build":"h666519e_0",
@@ -28830,35 +28958,20 @@
 "timestamp":1620045136522,
 "version":"7.3_14"
 },
-"r-stringi-1.5.3-r40h95b1f10_1.tar.bz2":{
-"build":"r40h95b1f10_1",
-"build_number":1,
-"depends":[
-"icu >=68.1,<69.0a0",
-"libcxx >=11.0.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"FOSS",
-"name":"r-stringi",
-"sha256":"f9e165ba2c94f410dd5c231571cf050af62e215ba02329237921b1b80d2adcc7",
-"size":781914,
-"timestamp":1610731073600,
-"version":"1.5.3"
-},
-"r-stringi-1.5.3-r40hbbf37cb_0.tar.bz2":{
-"build":"r40hbbf37cb_0",
+"r-stringi-1.6.1-r40h4558816_0.tar.bz2":{
+"build":"r40h4558816_0",
 "build_number":0,
 "depends":[
-"icu >=67.1,<68.0a0",
-"libcxx >=11.0.0",
+"icu >=68.1,<69.0a0",
+"libcxx >=11.1.0",
 "r-base >=4.0,<4.1.0a0"
 ],
 "license":"FOSS",
 "name":"r-stringi",
-"sha256":"748abc32d8e38574401ebf3654c24c237cdce021908ae428150d1d5e20d73729",
-"size":787337,
-"timestamp":1610699981249,
-"version":"1.5.3"
+"sha256":"5fe0a1178232579278b47f8cb41ad1cfe1ce3a01ccc9550a0a1982aa60f86877",
+"size":792590,
+"timestamp":1620649207140,
+"version":"1.6.1"
 },
 "r-survival-3.2_10-r40h4d528fc_0.tar.bz2":{
 "build":"r40h4d528fc_0",
