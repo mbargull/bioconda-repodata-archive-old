@@ -5407,6 +5407,13 @@
 "clang-11.1.0-hce30654_1.tar.bz2":{
 "build":"hce30654_1",
 "build_number":1,
+"constrains":[
+"libclang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*",
+"llvmdev 11.1.0.*"
+],
 "depends":[
 "clang-11 11.1.0 default_h0fdd720_1"
 ],
@@ -5466,7 +5473,12 @@
 "build":"default_h0fdd720_1",
 "build_number":1,
 "constrains":[
-"clangdev 11.1.0"
+"clangdev 11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*",
+"llvmdev 11.1.0.*"
 ],
 "depends":[
 "clang 11.1.0 hce30654_1",
@@ -14825,6 +14837,13 @@
 "libclang-11.1.0-default_h0fdd720_1.tar.bz2":{
 "build":"default_h0fdd720_1",
 "build_number":1,
+"constrains":[
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*",
+"llvmdev 11.1.0.*"
+],
 "depends":[
 "libcxx >=11.1.0",
 "libllvm11 >=11.1.0,<11.2.0a0"
@@ -28672,6 +28691,19 @@
 "timestamp":1607285378475,
 "version":"4.0.3"
 },
+"r-brio-1.1.2-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"MIT",
+"name":"r-brio",
+"sha256":"917f5a4e3a19166eb8aabac08bef5ce20f5c2282e1ac9b92971704b262323f35",
+"size":37938,
+"timestamp":1620662739709,
+"version":"1.1.2"
+},
 "r-class-7.3_19-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
 "build_number":0,
@@ -29031,6 +29063,19 @@
 "size":6618802,
 "timestamp":1615916057193,
 "version":"3.2_10"
+},
+"r-utf8-1.2.1-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"Apache-2.0",
+"name":"r-utf8",
+"sha256":"ad355120692469fe96d9826ac5bae6f7dd9e664a799a85ee6a28f18fa08e02b1",
+"size":164151,
+"timestamp":1620663452931,
+"version":"1.2.1"
 },
 "r-v8-3.4.2-r40hce18151_0.tar.bz2":{
 "build":"r40hce18151_0",
@@ -35625,7 +35670,7 @@
 "timestamp":1615378074853,
 "version":"5.1.1"
 },
-"xsimd-7.5.1-hc021e02_0.tar.bz2":{
+"xsimd-7.5.0-hc021e02_0.tar.bz2":{
 "build":"hc021e02_0",
 "build_number":0,
 "depends":[
@@ -35633,10 +35678,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"xsimd",
-"sha256":"f03f16f41ce61e49179ddabb354de3dbf7eac8621cbf9aee75c129c77ef32eef",
-"size":110328,
-"timestamp":1620655340113,
-"version":"7.5.1"
+"sha256":"9b96c6591eef4c688bb34125f7b4c569e2c616bc7000dad5331e178a48ba2df8",
+"size":109138,
+"timestamp":1619020721580,
+"version":"7.5.0"
 },
 "xtensor-0.23.9-hc021e02_0.tar.bz2":{
 "build":"hc021e02_0",
@@ -36228,6 +36273,7 @@
 "poppler-0.89.0-he8df601_4.tar.bz2",
 "python-3.8.5-h05baefb_9_cpython.tar.bz2",
 "r-lattice-0.20_41-r40h5d35f5b_2.tar.bz2",
+"xsimd-7.5.1-hc021e02_0.tar.bz2",
 "xtl-0.6.24-h260d524_0.tar.bz2"
 ],
 "repodata_version":1

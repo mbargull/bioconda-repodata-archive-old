@@ -17410,6 +17410,13 @@
 "clang-11.1.0-ha3edaa6_1.tar.bz2":{
 "build":"ha3edaa6_1",
 "build_number":1,
+"constrains":[
+"libclang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*",
+"llvmdev 11.1.0.*"
+],
 "depends":[
 "clang-11 11.1.0 default_hf0ebb0c_1",
 "gcc_impl_linux-ppc64le"
@@ -17521,7 +17528,12 @@
 "build":"default_hf0ebb0c_1",
 "build_number":1,
 "constrains":[
-"clangdev 11.1.0"
+"clangdev 11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*",
+"llvmdev 11.1.0.*"
 ],
 "depends":[
 "clang 11.1.0 ha3edaa6_1",
@@ -46766,6 +46778,13 @@
 "libclang-11.1.0-default_hf0ebb0c_1.tar.bz2":{
 "build":"default_hf0ebb0c_1",
 "build_number":1,
+"constrains":[
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*",
+"llvmdev 11.1.0.*"
+],
 "depends":[
 "libgcc-ng >=8.4.0",
 "libllvm11 >=11.1.0,<11.2.0a0",
@@ -50711,7 +50730,7 @@
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "mpifx * mpi_mpich_*",
 "mpifx >=1.1,<2.0a0 mpi_mpich_*"
 ],
@@ -59861,7 +59880,7 @@
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
-"mpich >=3.4,<3.5.0a0"
+"mpich >=3.4,<4.0.0a0"
 ],
 "license":"BSD-2-Clause",
 "name":"mpifx",
@@ -113865,7 +113884,7 @@
 "timestamp":1607555469727,
 "version":"20.12"
 },
-"watchdog-2.1.0-py36h270354c_0.tar.bz2":{
+"watchdog-2.1.1-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -113876,12 +113895,12 @@
 ],
 "license":"Apache-2.0",
 "name":"watchdog",
-"sha256":"d0e72a960f4fb0e297314a9b01af79ca2dd5e2e2ffa70eeecc7ec929e857aae4",
-"size":93777,
-"timestamp":1620191916007,
-"version":"2.1.0"
+"sha256":"adcc1bacf1dcd1be9419dc2244cfa4c28208611786881a8457c4075ee1c0a49e",
+"size":93835,
+"timestamp":1620662083836,
+"version":"2.1.1"
 },
-"watchdog-2.1.0-py36he7cccf2_0.tar.bz2":{
+"watchdog-2.1.1-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "depends":[
@@ -113893,12 +113912,12 @@
 ],
 "license":"Apache-2.0",
 "name":"watchdog",
-"sha256":"617354a9c633625efd27a442f69e24d9cf37344ad99d5f77102784706e39c5bd",
-"size":94118,
-"timestamp":1620191890727,
-"version":"2.1.0"
+"sha256":"ef2dcf3447bfd10693c023c7f1b6c9f5e9f112b0321d47f7ed17bf9fb1c887a6",
+"size":94318,
+"timestamp":1620661847083,
+"version":"2.1.1"
 },
-"watchdog-2.1.0-py37h35e4cab_0.tar.bz2":{
+"watchdog-2.1.1-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -113909,12 +113928,12 @@
 ],
 "license":"Apache-2.0",
 "name":"watchdog",
-"sha256":"f46ff2da7c8979e531bd3082469ba487571b847db945565ced3f9ca7acc97ee5",
-"size":93847,
-"timestamp":1620191849575,
-"version":"2.1.0"
+"sha256":"5c36cf1f59cb74c4333493400a7ecce0204c25820df59fb714ade42cefbf4937",
+"size":93945,
+"timestamp":1620662066896,
+"version":"2.1.1"
 },
-"watchdog-2.1.0-py37hadc05a3_0.tar.bz2":{
+"watchdog-2.1.1-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
@@ -113926,12 +113945,12 @@
 ],
 "license":"Apache-2.0",
 "name":"watchdog",
-"sha256":"eb1240b1a8e46ba98cf9fff090ba422ef47864e0dca150cfaefd02c749e09c47",
-"size":94054,
-"timestamp":1620192287131,
-"version":"2.1.0"
+"sha256":"e09461261300bf3ad6754a788df97d6927e73fc510bf41a47397cfe70266cfa8",
+"size":94168,
+"timestamp":1620662115095,
+"version":"2.1.1"
 },
-"watchdog-2.1.0-py38hf8b3453_0.tar.bz2":{
+"watchdog-2.1.1-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -113942,12 +113961,12 @@
 ],
 "license":"Apache-2.0",
 "name":"watchdog",
-"sha256":"b405764c499c31635c7721b7462c548668b73c1f15362a58bd9eb29bd7bb486a",
-"size":94070,
-"timestamp":1620191961383,
-"version":"2.1.0"
+"sha256":"b5ad81fad31b1c916df1246c998d328a22bbde26937b9bdf647108b7fb99f0c8",
+"size":94093,
+"timestamp":1620661894531,
+"version":"2.1.1"
 },
-"watchdog-2.1.0-py39hc1b9086_0.tar.bz2":{
+"watchdog-2.1.1-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -113958,10 +113977,10 @@
 ],
 "license":"Apache-2.0",
 "name":"watchdog",
-"sha256":"9d76262ad78a0c7b98502437b1ae64eadbec63f07b0c408de9d28885a58efca0",
-"size":94182,
-"timestamp":1620191857152,
-"version":"2.1.0"
+"sha256":"b6f03ba47179d3183e04e2bce61df25cfddce00738daa5f4a7e38f0c103074b9",
+"size":94286,
+"timestamp":1620661820196,
+"version":"2.1.1"
 },
 "web3-5.19.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
