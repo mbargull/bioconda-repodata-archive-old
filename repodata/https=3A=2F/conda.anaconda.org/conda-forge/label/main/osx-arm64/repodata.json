@@ -17476,6 +17476,24 @@
 "timestamp":1619694948514,
 "version":"2.11.4"
 },
+"coincbc-2.10.5-hca96968_1.tar.bz2":{
+"build":"hca96968_1",
+"build_number":1,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack >=3.9.0,<4.0a0"
+],
+"license":"Eclipse v1.0",
+"name":"coincbc",
+"requires":[],
+"size":9079219,
+"timestamp":1620638473312,
+"version":"2.10.5"
+},
 "colorlog-4.7.2-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -23305,6 +23323,60 @@
 "timestamp":1619784481244,
 "version":"0.10.0"
 },
+"econml-0.11.0-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"dowhy",
+"joblib >=0.13.0",
+"libcxx >=11.1.0",
+"lightgbm",
+"numba !=0.42.1",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python-graphviz",
+"python_abi 3.8.* *_cp38",
+"scikit-learn >=0.24",
+"scipy >1.4.0",
+"shap 0.38.1.*",
+"sparse",
+"statsmodels >=0.9"
+],
+"license":"BSD-3-Clause",
+"name":"econml",
+"requires":[],
+"size":819487,
+"timestamp":1620638538786,
+"version":"0.11.0"
+},
+"econml-0.11.0-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"dowhy",
+"joblib >=0.13.0",
+"libcxx >=11.1.0",
+"lightgbm",
+"numba !=0.42.1",
+"numpy",
+"pandas",
+"python >=3.9,<3.10.0a0",
+"python-graphviz",
+"python_abi 3.9.* *_cp39",
+"scikit-learn >=0.24",
+"scipy >1.4.0",
+"shap 0.38.1.*",
+"sparse",
+"statsmodels >=0.9"
+],
+"license":"BSD-3-Clause",
+"name":"econml",
+"requires":[],
+"size":830229,
+"timestamp":1620638451372,
+"version":"0.11.0"
+},
 "econml-0.9.0-py38h3777fb4_0.tar.bz2":{
 "build":"py38h3777fb4_0",
 "build_number":0,
@@ -27558,6 +27630,20 @@
 "size":86226,
 "timestamp":1599639129529,
 "version":"0.4.0"
+},
+"glog-0.5.0-h5c6a83d_0.tar.bz2":{
+"build":"h5c6a83d_0",
+"build_number":0,
+"depends":[
+"gflags >=2.2.2,<2.3.0a0",
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"glog",
+"requires":[],
+"size":94823,
+"timestamp":1620639034839,
+"version":"0.5.0"
 },
 "glpk-4.65-h47c7c1a_1003.tar.bz2":{
 "build":"h47c7c1a_1003",
