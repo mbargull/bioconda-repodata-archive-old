@@ -50498,6 +50498,22 @@
 "timestamp":1620420117445,
 "version":"8.0.23"
 },
+"mysql-8.0.24-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"mysql-client 8.0.24 h4845073_0",
+"mysql-common 8.0.24 hce30654_0",
+"mysql-devel 8.0.24 hce30654_0",
+"mysql-libs 8.0.24 h53f7ac3_0",
+"mysql-server 8.0.24 hf2833a7_0"
+],
+"name":"mysql",
+"sha256":"2cfc8e29e38e7739232a38609aa217f3ef1b5cad195d31535ff280a6f7f6b40b",
+"size":211481,
+"timestamp":1620608531228,
+"version":"8.0.24"
+},
 "mysql-client-8.0.23-h2d65e16_0.tar.bz2":{
 "build":"h2d65e16_0",
 "build_number":0,
@@ -50552,6 +50568,24 @@
 "timestamp":1620419489227,
 "version":"8.0.23"
 },
+"mysql-client-8.0.24-h4845073_0.tar.bz2":{
+"build":"h4845073_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libedit >=3.1.20191231,<3.2.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"mysql-common 8.0.24 hce30654_0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"name":"mysql-client",
+"sha256":"99660a61379fec4dd59894003584a6b3c3347a7f22e2018529d4449e6d9baa68",
+"size":35363938,
+"timestamp":1620607980540,
+"version":"8.0.24"
+},
 "mysql-common-8.0.23-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
@@ -50581,6 +50615,16 @@
 "size":1621396,
 "timestamp":1620419411788,
 "version":"8.0.23"
+},
+"mysql-common-8.0.24-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[],
+"name":"mysql-common",
+"sha256":"6ed152cf31673b2d6c83966e3e1ecc8f34ea743c4e158d2ec5a79260ce8226f3",
+"size":1624675,
+"timestamp":1620607902939,
+"version":"8.0.24"
 },
 "mysql-devel-8.0.23-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
@@ -50617,6 +50661,18 @@
 "size":2120741,
 "timestamp":1620420102623,
 "version":"8.0.23"
+},
+"mysql-devel-8.0.24-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"mysql-libs 8.0.24 h53f7ac3_0"
+],
+"name":"mysql-devel",
+"sha256":"baa331560d5b8c7918f0fbaadb6f9b354f4853a9f98c1505eb30b67aaacbef7e",
+"size":2113708,
+"timestamp":1620608516030,
+"version":"8.0.24"
 },
 "mysql-libs-8.0.23-h4ccdf2d_0.tar.bz2":{
 "build":"h4ccdf2d_0",
@@ -50665,6 +50721,22 @@
 "size":1908972,
 "timestamp":1620419535320,
 "version":"8.0.23"
+},
+"mysql-libs-8.0.24-h53f7ac3_0.tar.bz2":{
+"build":"h53f7ac3_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"mysql-common 8.0.24 hce30654_0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"name":"mysql-libs",
+"sha256":"2495c4420e38e7b65896816f3cfad572500d21b90fd3d76ae01c4f22852459a9",
+"size":1895070,
+"timestamp":1620608026347,
+"version":"8.0.24"
 },
 "mysql-server-8.0.23-h168b65e_1.tar.bz2":{
 "build":"h168b65e_1",
@@ -50731,6 +50803,28 @@
 "size":23747832,
 "timestamp":1620420052020,
 "version":"8.0.23"
+},
+"mysql-server-8.0.24-hf2833a7_0.tar.bz2":{
+"build":"hf2833a7_0",
+"build_number":0,
+"depends":[
+"cyrus-sasl >=2.1.27,<3.0a0",
+"icu >=68.1,<69.0a0",
+"libcxx >=11.1.0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"macports-legacy-support >=1.0.1,<2.0a0",
+"mysql-common 8.0.24 hce30654_0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"name":"mysql-server",
+"sha256":"9ab73ebcb9dd32187a8a5103c332790d5273edce62a2d892f34c08a4a8e1f3bc",
+"size":24095018,
+"timestamp":1620608466529,
+"version":"8.0.24"
 },
 "nasm-2.14.02-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
@@ -79256,6 +79350,42 @@
 "size":563713,
 "timestamp":1614875004918,
 "version":"4.2.2"
+},
+"swift-sim-0.9.5-py38h691f20f_0.tar.bz2":{
+"build":"py38h691f20f_0",
+"build_number":0,
+"depends":[
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"spatialgeometry >=0.1.0",
+"spatialmath-python",
+"websockets"
+],
+"license":"MIT",
+"name":"swift-sim",
+"sha256":"2ccccb45047651236030a5fd9805b4192d09ce86585ca1c5cda7d44aaff2f4ab",
+"size":23278281,
+"timestamp":1620607174412,
+"version":"0.9.5"
+},
+"swift-sim-0.9.5-py39h20ef057_0.tar.bz2":{
+"build":"py39h20ef057_0",
+"build_number":0,
+"depends":[
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"spatialgeometry >=0.1.0",
+"spatialmath-python",
+"websockets"
+],
+"license":"MIT",
+"name":"swift-sim",
+"sha256":"d25488f28ab1c686309a40297c4f81e8aae6bdf1b57f7a120f88461a52ef7e5f",
+"size":23368471,
+"timestamp":1620607177543,
+"version":"0.9.5"
 },
 "swig-4.0.2-h9f76cd9_1.tar.bz2":{
 "build":"h9f76cd9_1",
