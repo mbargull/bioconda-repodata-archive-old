@@ -59871,6 +59871,87 @@
 "timestamp":1620652557060,
 "version":"8.0.24"
 },
+"mysql-connector-python-8.0.24-py37h7bac46b_0.tar.bz2":{
+"build":"py37h7bac46b_0",
+"build_number":0,
+"depends":[
+"dnspython >=1.16.0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mysql-libs >=8.0.24,<8.0.25.0a0",
+"protobuf >=3.0.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
+"name":"mysql-connector-python",
+"sha256":"47e5c008cbd280521d1dcf217680ecb2546d12e685e5f42a395ad432ecf91b0a",
+"size":670760,
+"timestamp":1620654147207,
+"version":"8.0.24"
+},
+"mysql-connector-python-8.0.24-py37h95c3082_0.tar.bz2":{
+"build":"py37h95c3082_0",
+"build_number":0,
+"depends":[
+"dnspython >=1.16.0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mysql-libs >=8.0.24,<8.0.25.0a0",
+"protobuf >=3.0.0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
+"name":"mysql-connector-python",
+"sha256":"a55e40789601f2e36f21e3a5a6f860b1e9713565ceeed715c6562356190440a8",
+"size":684971,
+"timestamp":1620653324534,
+"version":"8.0.24"
+},
+"mysql-connector-python-8.0.24-py38hc3c07d0_0.tar.bz2":{
+"build":"py38hc3c07d0_0",
+"build_number":0,
+"depends":[
+"dnspython >=1.16.0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mysql-libs >=8.0.24,<8.0.25.0a0",
+"protobuf >=3.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
+"name":"mysql-connector-python",
+"sha256":"aa31278ff5d5207e345cb517d98a0f645b83756449f78eac56d15b2fd9b84daa",
+"size":696187,
+"timestamp":1620654513857,
+"version":"8.0.24"
+},
+"mysql-connector-python-8.0.24-py39h190d019_0.tar.bz2":{
+"build":"py39h190d019_0",
+"build_number":0,
+"depends":[
+"dnspython >=1.16.0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mysql-libs >=8.0.24,<8.0.25.0a0",
+"protobuf >=3.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
+"name":"mysql-connector-python",
+"sha256":"f66d6b0aeea404696456b645d5b3c26c2fb3be714395e07e2c95b14587cc922c",
+"size":679477,
+"timestamp":1620654813645,
+"version":"8.0.24"
+},
 "mysql-devel-8.0.24-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
 "build_number":0,
@@ -93371,41 +93452,9 @@
 "timestamp":1620045152951,
 "version":"7.3_14"
 },
-"r-statmod-1.4.35-r36h6e990d7_0.tar.bz2":{
-"build":"r36h6e990d7_0",
+"r-statmod-1.4.36-r36h6783c1e_0.tar.bz2":{
+"build":"r36h6783c1e_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libgfortran-ng",
-"libgfortran4 >=7.5.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"GPL-2 | GPL-3",
-"name":"r-statmod",
-"sha256":"3608ff71362435fb6066e070f9699f88495bde9a30760017ccad28a7c2d2d52c",
-"size":286786,
-"timestamp":1603134133769,
-"version":"1.4.35"
-},
-"r-statmod-1.4.35-r36h6e990d7_1.tar.bz2":{
-"build":"r36h6e990d7_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libgfortran-ng",
-"libgfortran4 >=7.5.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-statmod",
-"sha256":"acc7a834a02f167a4b39301e4f9faff67c106953a3909319fffe33fd69303460",
-"size":286593,
-"timestamp":1603215448602,
-"version":"1.4.35"
-},
-"r-statmod-1.4.35-r36h86c2bf4_1.tar.bz2":{
-"build":"r36h86c2bf4_1",
-"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
@@ -93414,46 +93463,14 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-statmod",
-"sha256":"7c224ef94d0e852bb58e9bfddd9214a730011af471baa37a74e68e80cfe3de0c",
-"size":286481,
-"timestamp":1603215087523,
-"version":"1.4.35"
+"sha256":"42beabd637a9e5545ebec32db5f5d96bbebcd83820309d654f6e45de95cb6e80",
+"size":289148,
+"timestamp":1620655272792,
+"version":"1.4.36"
 },
-"r-statmod-1.4.35-r40h6e990d7_0.tar.bz2":{
-"build":"r40h6e990d7_0",
+"r-statmod-1.4.36-r40h6783c1e_0.tar.bz2":{
+"build":"r40h6783c1e_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libgfortran-ng",
-"libgfortran4 >=7.5.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"GPL-2 | GPL-3",
-"name":"r-statmod",
-"sha256":"4003c57b37ead18b281ef89e476574845c57355e860787cad454ebc88b6ac028",
-"size":284050,
-"timestamp":1603134512745,
-"version":"1.4.35"
-},
-"r-statmod-1.4.35-r40h6e990d7_1.tar.bz2":{
-"build":"r40h6e990d7_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libgfortran-ng",
-"libgfortran4 >=7.5.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-statmod",
-"sha256":"6adb02082f838aab116d0adb21d344335a2c25e968b248ab4d69b39944196d02",
-"size":284263,
-"timestamp":1603215108893,
-"version":"1.4.35"
-},
-"r-statmod-1.4.35-r40h86c2bf4_1.tar.bz2":{
-"build":"r40h86c2bf4_1",
-"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
@@ -93462,10 +93479,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-statmod",
-"sha256":"b63c5fd2f34360fcf7298e2d4ce191553eba8930a680e33a794bc3b06d037f76",
-"size":284138,
-"timestamp":1603215103998,
-"version":"1.4.35"
+"sha256":"7b5724bc62e76c5db67b1806bcc45008566b7400ebaa65a4d62e607fc86f36a2",
+"size":286811,
+"timestamp":1620654749472,
+"version":"1.4.36"
 },
 "r-stringdist-0.9.6.3-r36h96a179c_0.tar.bz2":{
 "build":"r36h96a179c_0",
