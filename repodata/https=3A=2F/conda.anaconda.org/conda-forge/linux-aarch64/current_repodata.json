@@ -13639,6 +13639,28 @@
 "timestamp":1607673883661,
 "version":"2.0.0"
 },
+"ceres-solver-2.0.0-h0f7e311_2.tar.bz2":{
+"build":"h0f7e311_2",
+"build_number":2,
+"depends":[
+"eigen",
+"gflags >=2.2.2,<2.3.0a0",
+"glog >=0.5.0,<0.6.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"suitesparse >=5.7.2,<6.0a0",
+"tbb"
+],
+"license":"BSD-3-Clause",
+"name":"ceres-solver",
+"sha256":"2e7b66f577da59d6a32301cc702069fe0c54e513fd1ec26b4dd330e6caa248d7",
+"size":1141939,
+"timestamp":1620714707443,
+"version":"2.0.0"
+},
 "ceres-solver-2.0.0-h5e31d7b_0.tar.bz2":{
 "build":"h5e31d7b_0",
 "build_number":0,
@@ -81472,6 +81494,32 @@
 "sha256":"82703d6a4213e04734bd8a59560f590a900e541b509553a582d4c19d48817250",
 "size":12592995,
 "timestamp":1620685948416,
+"version":"3.8.10"
+},
+"python-3.8.10-h4f4e160_1_cpython.tar.bz2":{
+"build":"h4f4e160_1_cpython",
+"build_number":1,
+"constrains":[
+"python_abi 3.8.* *_cp38"
+],
+"depends":[
+"ld_impl_linux-aarch64 >=2.34",
+"libffi >=3.3,<3.4.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"ncurses >=6.2,<6.3.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.1,<9.0a0",
+"sqlite >=3.35.5,<4.0a0",
+"tk >=8.6.10,<8.7.0a0",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Python-2.0",
+"name":"python",
+"sha256":"12adcf8c1fb07df8170bd44d07fe6d845c8c2687228a6d771f55d980d3a41193",
+"size":12548630,
+"timestamp":1620714419946,
 "version":"3.8.10"
 },
 "python-3.9.4-h3bd6a85_0_cpython.tar.bz2":{
