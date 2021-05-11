@@ -12110,6 +12110,50 @@
 "timestamp":1617883290452,
 "version":"2.3.1"
 },
+"bokeh-2.3.2-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"jinja2 >=2.7",
+"numpy >=1.11.3",
+"packaging >=16.8",
+"pillow >=7.1.0",
+"python >=3.8,<3.9.0a0",
+"python-dateutil >=2.1",
+"python_abi 3.8.* *_cp38",
+"pyyaml >=3.10",
+"tornado >=5.1",
+"typing_extensions >=3.7.4"
+],
+"license":"BSD-3-Clause",
+"name":"bokeh",
+"requires":[],
+"size":8602716,
+"timestamp":1620738900482,
+"version":"2.3.2"
+},
+"bokeh-2.3.2-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"jinja2 >=2.7",
+"numpy >=1.11.3",
+"packaging >=16.8",
+"pillow >=7.1.0",
+"python >=3.9,<3.10.0a0",
+"python-dateutil >=2.1",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=3.10",
+"tornado >=5.1",
+"typing_extensions >=3.7.4"
+],
+"license":"BSD-3-Clause",
+"name":"bokeh",
+"requires":[],
+"size":8635242,
+"timestamp":1620738671686,
+"version":"2.3.2"
+},
 "boost-1.74.0-py38h3578e97_2.tar.bz2":{
 "build":"py38h3578e97_2",
 "build_number":2,
@@ -20184,6 +20228,17 @@
 "size":16988,
 "timestamp":1613634376566,
 "version":"1.0.1"
+},
+"containers-common-0.31.0-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"containers-common",
+"requires":[],
+"size":8572,
+"timestamp":1620736814359,
+"version":"0.31.0"
 },
 "coverage-5.3-py38h30f7421_1.tar.bz2":{
 "build":"py38h30f7421_1",
@@ -72119,6 +72174,20 @@
 "timestamp":1620679235186,
 "version":"4.0.4"
 },
+"r-bit64-4.0.5-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-bit >=4.0.0"
+],
+"license":"GPL-2.0-only",
+"name":"r-bit64",
+"requires":[],
+"size":506930,
+"timestamp":1620738116843,
+"version":"4.0.5"
+},
 "r-brio-1.1.2-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
 "build_number":0,
@@ -72299,6 +72368,19 @@
 "size":208804,
 "timestamp":1620677364770,
 "version":"0.6.27"
+},
+"r-fansi-0.4.2-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-fansi",
+"requires":[],
+"size":196536,
+"timestamp":1620736812327,
+"version":"0.4.2"
 },
 "r-foreign-0.8_81-r40h4d528fc_0.tar.bz2":{
 "build":"r40h4d528fc_0",
@@ -72649,6 +72731,34 @@
 "timestamp":1620044619749,
 "version":"7.3_16"
 },
+"r-ps-1.6.0-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"r-ps",
+"requires":[],
+"size":298538,
+"timestamp":1620736829637,
+"version":"1.6.0"
+},
+"r-purrr-0.3.4-r40h6f62c66_1.tar.bz2":{
+"build":"r40h6f62c66_1",
+"build_number":1,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-magrittr >=1.5",
+"r-rlang >=0.3.1"
+],
+"license":"GPL-3.0-only",
+"name":"r-purrr",
+"requires":[],
+"size":418625,
+"timestamp":1620738803220,
+"version":"0.3.4"
+},
 "r-rappdirs-0.3.1-r40h4d528fc_1004.tar.bz2":{
 "build":"r40h4d528fc_1004",
 "build_number":1004,
@@ -72701,6 +72811,21 @@
 "size":2106561,
 "timestamp":1611593669211,
 "version":"1.0.6"
+},
+"r-rcppcnpy-0.2.10-r40h8ea1354_2.tar.bz2":{
+"build":"r40h8ea1354_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.0,<4.1.0a0",
+"r-rcpp"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-rcppcnpy",
+"requires":[],
+"size":453043,
+"timestamp":1620738158652,
+"version":"0.2.10"
 },
 "r-reticulate-1.18-r40hb5ea4c3_0.tar.bz2":{
 "build":"r40hb5ea4c3_0",
@@ -77231,6 +77356,19 @@
 "size":198889183,
 "timestamp":1620395861446,
 "version":"1.52.0"
+},
+"rust-1.52.1-h4ff7c5d_0.tar.bz2":{
+"build":"h4ff7c5d_0",
+"build_number":0,
+"depends":[
+"rust-std-aarch64-apple-darwin 1.52.1 hf1a8007_0"
+],
+"license":"MIT",
+"name":"rust",
+"requires":[],
+"size":199214420,
+"timestamp":1620737281806,
+"version":"1.52.1"
 },
 "rust_osx-arm64-1.49.0-hdf7d419_0.tar.bz2":{
 "build":"hdf7d419_0",
