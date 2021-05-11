@@ -17369,6 +17369,20 @@
 "timestamp":1620669920104,
 "version":"11.1.0"
 },
+"clhpp-2.0.10-hbdafb3b_1002.tar.bz2":{
+"build":"hbdafb3b_1002",
+"build_number":1002,
+"depends":[
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"clhpp",
+"requires":[],
+"size":55850,
+"timestamp":1620745717545,
+"version":"2.0.10"
+},
 "cli11-1.9.1-hc88da5d_2.tar.bz2":{
 "build":"hc88da5d_2",
 "build_number":2,
@@ -23735,6 +23749,36 @@
 "size":253647,
 "timestamp":1618152533886,
 "version":"1.1.10"
+},
+"dukpy-0.2.3-py38hea4295b_1.tar.bz2":{
+"build":"py38hea4295b_1",
+"build_number":1,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"webassets"
+],
+"license":"MIT",
+"name":"dukpy",
+"requires":[],
+"size":1037774,
+"timestamp":1620745832660,
+"version":"0.2.3"
+},
+"dukpy-0.2.3-py39h5161555_1.tar.bz2":{
+"build":"py39h5161555_1",
+"build_number":1,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"webassets"
+],
+"license":"MIT",
+"name":"dukpy",
+"requires":[],
+"size":1018086,
+"timestamp":1620745822760,
+"version":"0.2.3"
 },
 "dulwich-0.20.21-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
@@ -72838,6 +72882,21 @@
 "size":134141,
 "timestamp":1620044619749,
 "version":"7.3_16"
+},
+"r-processx-3.5.2-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-ps >=1.2.0",
+"r-r6"
+],
+"license":"MIT",
+"name":"r-processx",
+"requires":[],
+"size":309719,
+"timestamp":1620746273614,
+"version":"3.5.2"
 },
 "r-ps-1.6.0-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",

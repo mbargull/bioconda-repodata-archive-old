@@ -12106,6 +12106,50 @@
 "timestamp":1617883290452,
 "version":"2.3.1"
 },
+"bokeh-2.3.2-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"jinja2 >=2.7",
+"numpy >=1.11.3",
+"packaging >=16.8",
+"pillow >=7.1.0",
+"python >=3.8,<3.9.0a0",
+"python-dateutil >=2.1",
+"python_abi 3.8.* *_cp38",
+"pyyaml >=3.10",
+"tornado >=5.1",
+"typing_extensions >=3.7.4"
+],
+"license":"BSD-3-Clause",
+"name":"bokeh",
+"sha256":"9d22af72e9e7b057b438dd5eaa8dab7efddc5e78428599bb3d44e86f4514b029",
+"size":8602716,
+"timestamp":1620738900482,
+"version":"2.3.2"
+},
+"bokeh-2.3.2-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"jinja2 >=2.7",
+"numpy >=1.11.3",
+"packaging >=16.8",
+"pillow >=7.1.0",
+"python >=3.9,<3.10.0a0",
+"python-dateutil >=2.1",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=3.10",
+"tornado >=5.1",
+"typing_extensions >=3.7.4"
+],
+"license":"BSD-3-Clause",
+"name":"bokeh",
+"sha256":"bb92712e718711cb742d778605a6fb8d4a9ac65b85357d6e29ec6a23f55fd710",
+"size":8635242,
+"timestamp":1620738671686,
+"version":"2.3.2"
+},
 "boost-1.74.0-py38h3578e97_2.tar.bz2":{
 "build":"py38h3578e97_2",
 "build_number":2,
@@ -51649,6 +51693,22 @@
 "timestamp":1620608531228,
 "version":"8.0.24"
 },
+"mysql-8.0.25-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"mysql-client 8.0.25 h4845073_0",
+"mysql-common 8.0.25 hce30654_0",
+"mysql-devel 8.0.25 hce30654_0",
+"mysql-libs 8.0.25 h53f7ac3_0",
+"mysql-server 8.0.25 hf2833a7_0"
+],
+"name":"mysql",
+"sha256":"0d4862151cc39c3096f2707ee0fc6dc05a87fbce354c5e788746d6ddf3b2444e",
+"size":189777,
+"timestamp":1620742633700,
+"version":"8.0.25"
+},
 "mysql-client-8.0.23-h2d65e16_0.tar.bz2":{
 "build":"h2d65e16_0",
 "build_number":0,
@@ -51721,6 +51781,24 @@
 "timestamp":1620607980540,
 "version":"8.0.24"
 },
+"mysql-client-8.0.25-h4845073_0.tar.bz2":{
+"build":"h4845073_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libedit >=3.1.20191231,<3.2.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"mysql-common 8.0.25 hce30654_0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"name":"mysql-client",
+"sha256":"e6fad678a14465dbe0c8bde4fc5651a0129d42716759f4a747899e260673983b",
+"size":35470384,
+"timestamp":1620741608176,
+"version":"8.0.25"
+},
 "mysql-common-8.0.23-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
@@ -51760,6 +51838,16 @@
 "size":1624675,
 "timestamp":1620607902939,
 "version":"8.0.24"
+},
+"mysql-common-8.0.25-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[],
+"name":"mysql-common",
+"sha256":"3772e73b64d306d344e59799101b90e42769a97305edb75c7a5dfd95b8081cbb",
+"size":1634735,
+"timestamp":1620741507160,
+"version":"8.0.25"
 },
 "mysql-devel-8.0.23-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
@@ -51808,6 +51896,18 @@
 "size":2113708,
 "timestamp":1620608516030,
 "version":"8.0.24"
+},
+"mysql-devel-8.0.25-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"mysql-libs 8.0.25 h53f7ac3_0"
+],
+"name":"mysql-devel",
+"sha256":"768d0fdb7b6250123848e54123e5cc5289ea1b3b43f90fb204d121727e861e65",
+"size":2149599,
+"timestamp":1620742612665,
+"version":"8.0.25"
 },
 "mysql-libs-8.0.23-h4ccdf2d_0.tar.bz2":{
 "build":"h4ccdf2d_0",
@@ -51872,6 +51972,22 @@
 "size":1895070,
 "timestamp":1620608026347,
 "version":"8.0.24"
+},
+"mysql-libs-8.0.25-h53f7ac3_0.tar.bz2":{
+"build":"h53f7ac3_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"mysql-common 8.0.25 hce30654_0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"name":"mysql-libs",
+"sha256":"245689109bea53915758ec0cd4aa88564d0d83e02237af4c9fce95f99e2d3b53",
+"size":1853852,
+"timestamp":1620741656339,
+"version":"8.0.25"
 },
 "mysql-server-8.0.23-h168b65e_1.tar.bz2":{
 "build":"h168b65e_1",
@@ -51960,6 +52076,28 @@
 "size":24095018,
 "timestamp":1620608466529,
 "version":"8.0.24"
+},
+"mysql-server-8.0.25-hf2833a7_0.tar.bz2":{
+"build":"hf2833a7_0",
+"build_number":0,
+"depends":[
+"cyrus-sasl >=2.1.27,<3.0a0",
+"icu >=68.1,<69.0a0",
+"libcxx >=11.1.0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"macports-legacy-support >=1.0.1,<2.0a0",
+"mysql-common 8.0.25 hce30654_0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"name":"mysql-server",
+"sha256":"5ab6c0bb1a04f85219b1264c8d1dd33a37fa50689ddc7c827b004eed37ee7a01",
+"size":24127347,
+"timestamp":1620742544159,
+"version":"8.0.25"
 },
 "nasm-2.14.02-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
@@ -71790,6 +71928,20 @@
 "timestamp":1620679235186,
 "version":"4.0.4"
 },
+"r-bit64-4.0.5-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-bit >=4.0.0"
+],
+"license":"GPL-2.0-only",
+"name":"r-bit64",
+"sha256":"4ac1b80f11a49e7e310a7308897a1eed2a97f4904f91b8444e7dd3cff4ed5e85",
+"size":506930,
+"timestamp":1620738116843,
+"version":"4.0.5"
+},
 "r-brio-1.1.2-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
 "build_number":0,
@@ -71970,6 +72122,20 @@
 "size":208804,
 "timestamp":1620677364770,
 "version":"0.6.27"
+},
+"r-ellipsis-0.3.2-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-rlang >=0.3.0"
+],
+"license":"MIT",
+"name":"r-ellipsis",
+"sha256":"29534788a7b17582fa95bf0547fce1da33e3b3781804838e41c539300b627e57",
+"size":42391,
+"timestamp":1620742565888,
+"version":"0.3.2"
 },
 "r-fansi-0.4.2-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
@@ -72333,6 +72499,21 @@
 "timestamp":1620736829637,
 "version":"1.6.0"
 },
+"r-purrr-0.3.4-r40h6f62c66_1.tar.bz2":{
+"build":"r40h6f62c66_1",
+"build_number":1,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-magrittr >=1.5",
+"r-rlang >=0.3.1"
+],
+"license":"GPL-3.0-only",
+"name":"r-purrr",
+"sha256":"ad1cc7ed1c751ce2b8d1245fb341fe1363fc089e21d28ec4f03dc0acbb05094c",
+"size":418625,
+"timestamp":1620738803220,
+"version":"0.3.4"
+},
 "r-rappdirs-0.3.1-r40h4d528fc_1004.tar.bz2":{
 "build":"r40h4d528fc_1004",
 "build_number":1004,
@@ -72385,6 +72566,21 @@
 "size":2106561,
 "timestamp":1611593669211,
 "version":"1.0.6"
+},
+"r-rcppcnpy-0.2.10-r40h8ea1354_2.tar.bz2":{
+"build":"r40h8ea1354_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.0,<4.1.0a0",
+"r-rcpp"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-rcppcnpy",
+"sha256":"53aa2c51b5281576d39eb43e42c55a4bf2723abd39589b104fabc976292a374f",
+"size":453043,
+"timestamp":1620738158652,
+"version":"0.2.10"
 },
 "r-reticulate-1.18-r40hb5ea4c3_0.tar.bz2":{
 "build":"r40hb5ea4c3_0",
@@ -76920,6 +77116,19 @@
 "size":198889183,
 "timestamp":1620395861446,
 "version":"1.52.0"
+},
+"rust-1.52.1-h4ff7c5d_0.tar.bz2":{
+"build":"h4ff7c5d_0",
+"build_number":0,
+"depends":[
+"rust-std-aarch64-apple-darwin 1.52.1 hf1a8007_0"
+],
+"license":"MIT",
+"name":"rust",
+"sha256":"5eb77dda3710feacd1f4adbac5f202749c89edad5cbc178352328887f920160c",
+"size":199214420,
+"timestamp":1620737281806,
+"version":"1.52.1"
 },
 "rust_osx-arm64-1.49.0-hdf7d419_0.tar.bz2":{
 "build":"hdf7d419_0",
