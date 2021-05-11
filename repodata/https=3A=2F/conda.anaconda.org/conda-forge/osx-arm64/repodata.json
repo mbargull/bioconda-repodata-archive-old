@@ -9751,6 +9751,21 @@
 "timestamp":1619882318903,
 "version":"0.9.4"
 },
+"aws-c-mqtt-0.7.6-h3b87e79_0.tar.bz2":{
+"build":"h3b87e79_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.12,<0.9.13.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"d162e960a50b4429a5d9a4b9c76216b5f9c2557bf06365f12af0ffecf2c6ed17",
+"size":50666,
+"timestamp":1620761439800,
+"version":"0.7.6"
+},
 "aws-checksums-0.1.10-h2b027d1_0.tar.bz2":{
 "build":"h2b027d1_0",
 "build_number":0,
@@ -21054,6 +21069,20 @@
 "size":33303,
 "timestamp":1616774626194,
 "version":"4.0.3"
+},
+"cross-r-base-4.0.5-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"r-base 4.0.5 h2d964fd_0",
+"rsync"
+],
+"license":"GPL-2.0-or-later",
+"name":"cross-r-base",
+"sha256":"58b0aef7b9266bb1f79df0d6c5f15d7953ba8d82559a82c5acb3adf8f4379c9c",
+"size":32738,
+"timestamp":1620761362666,
+"version":"4.0.5"
 },
 "cryptography-3.1-py38h689ceed_0.tar.bz2":{
 "build":"py38h689ceed_0",
@@ -72038,6 +72067,53 @@
 "timestamp":1607285378475,
 "version":"4.0.3"
 },
+"r-base-4.0.5-h2d964fd_0.tar.bz2":{
+"build":"h2d964fd_0",
+"build_number":0,
+"depends":[
+"_r-mutex 1.* anacondar_1",
+"bwidget",
+"bzip2 >=1.0.8,<2.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"clang_osx-arm64 >=11",
+"clangxx_osx-arm64 >=11",
+"curl",
+"freetype >=2.10.4,<3.0a0",
+"gfortran_osx-arm64 11.*",
+"gsl >=2.6,<2.7.0a0",
+"icu >=68.1,<69.0a0",
+"jpeg >=9d,<10a",
+"krb5 >=1.17.1,<1.18.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"libglib >=2.68.1,<3.0a0",
+"libiconv >=1.16,<1.17.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"llvm-openmp >=11.1.0",
+"make",
+"ncurses >=6.2,<6.3.0a0",
+"pango >=1.48.4,<1.49.0a0",
+"pcre2 >=10.36,<10.37.0a0",
+"readline >=8.1,<9.0a0",
+"tk >=8.6.10,<8.7.0a0",
+"tktable",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-base",
+"sha256":"1a6aa09c70a4558fad02c7944fc6f4b52f0af789d4605fce006e15652bdd1e91",
+"size":26282624,
+"timestamp":1620761343581,
+"version":"4.0.5"
+},
 "r-bit-4.0.4-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
 "build_number":0,
@@ -72940,6 +73016,25 @@
 "size":793523,
 "timestamp":1620583565021,
 "version":"3.4.2"
+},
+"r-vctrs-0.3.8-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-backports",
+"r-base >=4.0,<4.1.0a0",
+"r-digest",
+"r-ellipsis >=0.2.0",
+"r-glue",
+"r-rlang >=0.4.0",
+"r-zeallot"
+],
+"license":"GPL-3.0-only",
+"name":"r-vctrs",
+"sha256":"e39c18e554807e366aae2c8b1ca146651a78f71ee64281e8f57d665514a714eb",
+"size":1105338,
+"timestamp":1620762197859,
+"version":"0.3.8"
 },
 "r-yaml-2.2.1-r40h4d528fc_1.tar.bz2":{
 "build":"r40h4d528fc_1",

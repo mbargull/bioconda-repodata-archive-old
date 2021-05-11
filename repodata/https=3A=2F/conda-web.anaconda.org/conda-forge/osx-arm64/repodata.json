@@ -54470,6 +54470,36 @@
 "timestamp":1620247739352,
 "version":"2.2.2"
 },
+"onednn-2.2.2-omp_h64143aa_2.tar.bz2":{
+"build":"omp_h64143aa_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"requires":[],
+"size":2911697,
+"timestamp":1620766581538,
+"version":"2.2.2"
+},
+"onednn-2.2.2-tbb_h429de2a_2.tar.bz2":{
+"build":"tbb_h429de2a_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"tbb >=2021.2.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"requires":[],
+"size":3580093,
+"timestamp":1620766501293,
+"track_features":"onednn-tbb",
+"version":"2.2.2"
+},
 "onednn-2.2.2-tbb_hb6067a2_0.tar.bz2":{
 "build":"tbb_hb6067a2_0",
 "build_number":0,
@@ -54514,6 +54544,19 @@
 "timestamp":1620247752055,
 "version":"2.2.2"
 },
+"onednn-cpu-omp-2.2.2-omp_hf6a6809_2.tar.bz2":{
+"build":"omp_hf6a6809_2",
+"build_number":2,
+"depends":[
+"onednn 2.2.2 omp_h64143aa_2"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-omp",
+"requires":[],
+"size":8725,
+"timestamp":1620766594949,
+"version":"2.2.2"
+},
 "onednn-cpu-tbb-2.2-tbb_hce30654_0.tar.bz2":{
 "build":"tbb_hce30654_0",
 "build_number":0,
@@ -54551,6 +54594,19 @@
 "requires":[],
 "size":8296,
 "timestamp":1620247711542,
+"version":"2.2.2"
+},
+"onednn-cpu-tbb-2.2.2-tbb_h20de0cc_2.tar.bz2":{
+"build":"tbb_h20de0cc_2",
+"build_number":2,
+"depends":[
+"onednn 2.2.2 tbb_h429de2a_2"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-tbb",
+"requires":[],
+"size":8717,
+"timestamp":1620766515630,
 "version":"2.2.2"
 },
 "onednn-cpu-tbb-2.2.2-tbb_hce30654_0.tar.bz2":{
@@ -87212,6 +87268,17 @@
 "requires":[],
 "size":36920,
 "timestamp":1614622659673,
+"version":"1.1.4"
+},
+"xdrfile-1.1.4-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"BSD-2-Clause",
+"name":"xdrfile",
+"requires":[],
+"size":36990,
+"timestamp":1620765134247,
 "version":"1.1.4"
 },
 "xerces-c-3.2.3-h4fb8152_2.tar.bz2":{
