@@ -9889,6 +9889,21 @@
 "timestamp":1620761439800,
 "version":"0.7.6"
 },
+"aws-c-mqtt-0.7.6-hb6344a0_1.tar.bz2":{
+"build":"hb6344a0_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.12,<0.9.13.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"2d9fa9d003fb6b1645752e24a6b05cb6622fd2cfdb27cfe00f916f49c931f7b9",
+"size":50660,
+"timestamp":1620831610469,
+"version":"0.7.6"
+},
 "aws-checksums-0.1.10-h2b027d1_0.tar.bz2":{
 "build":"h2b027d1_0",
 "build_number":0,
@@ -25615,6 +25630,44 @@
 "size":266878,
 "timestamp":1620351213331,
 "version":"0.6.0"
+},
+"fastparquet-0.6.1-py38h691f20f_0.tar.bz2":{
+"build":"py38h691f20f_0",
+"build_number":0,
+"depends":[
+"cramjam >=2.3.0",
+"fsspec",
+"numpy",
+"pandas >=0.19",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"thrift >=0.11"
+],
+"license":"BSD-3-Clause",
+"name":"fastparquet",
+"sha256":"4f7e73a040af70291367a6b3dc9b26c29021d275fcc36aa3eb16315748dd0a90",
+"size":424028,
+"timestamp":1620825570461,
+"version":"0.6.1"
+},
+"fastparquet-0.6.1-py39h20ef057_0.tar.bz2":{
+"build":"py39h20ef057_0",
+"build_number":0,
+"depends":[
+"cramjam >=2.3.0",
+"fsspec",
+"numpy",
+"pandas >=0.19",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"thrift >=0.11"
+],
+"license":"BSD-3-Clause",
+"name":"fastparquet",
+"sha256":"7764ff50c0e2a61429437c2f7cc5f18adedabce6d83718432643fc09c27a5af1",
+"size":412198,
+"timestamp":1620825564898,
+"version":"0.6.1"
 },
 "fcl-0.6.1-hda9dc21_3.tar.bz2":{
 "build":"hda9dc21_3",

@@ -10503,7 +10503,7 @@
 "timestamp":1607609923036,
 "version":"2.2.3"
 },
-"bokeh-2.3.1-py36h06a4308_0.tar.bz2":{
+"bokeh-2.3.2-py36h06a4308_0.tar.bz2":{
 "build":"py36h06a4308_0",
 "build_number":0,
 "depends":[
@@ -10519,16 +10519,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"bokeh",
-"sha256":"f8fc9f95bc4e7d80887c157e8116708e9dd29bba4d77566193af5651338210cb",
-"size":8599752,
-"timestamp":1617827408739,
-"version":"2.3.1"
+"sha256":"53b49ee66a27c37b9199da5dfba9bf51ffeedea01ab504ad96ddd63f233c1b88",
+"size":8638939,
+"timestamp":1620710103177,
+"version":"2.3.2"
 },
-"bokeh-2.3.1-py37h06a4308_0.tar.bz2":{
+"bokeh-2.3.2-py37h06a4308_0.tar.bz2":{
 "build":"py37h06a4308_0",
 "build_number":0,
 "depends":[
-"jinja2 >=2.7",
+"jinja2 >=2.9",
 "numpy >=1.11.3",
 "packaging >=16.8",
 "pillow >=7.1.0",
@@ -10540,16 +10540,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"bokeh",
-"sha256":"c550e620aa6f096aba93e83bc7cfc01b2f70c377db57ed9a3a410647c4def4ca",
-"size":8577249,
-"timestamp":1617827411766,
-"version":"2.3.1"
+"sha256":"00c4d7f43c744b55010db8cdda41e05a3f0a3d9138552f283f18b9e9a3c28f1c",
+"size":8611448,
+"timestamp":1620783950233,
+"version":"2.3.2"
 },
-"bokeh-2.3.1-py38h06a4308_0.tar.bz2":{
+"bokeh-2.3.2-py38h06a4308_0.tar.bz2":{
 "build":"py38h06a4308_0",
 "build_number":0,
 "depends":[
-"jinja2 >=2.7",
+"jinja2 >=2.9",
 "numpy >=1.11.3",
 "packaging >=16.8",
 "pillow >=7.1.0",
@@ -10561,16 +10561,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"bokeh",
-"sha256":"fea48744ef972a891c343142c129db055800f574b07d473226724db80a6dede9",
-"size":8627237,
-"timestamp":1617824600429,
-"version":"2.3.1"
+"sha256":"b33fe9ffef457fab1a1fce51af5ed8295870d759f001f94036020e27f582849e",
+"size":8624853,
+"timestamp":1620779653740,
+"version":"2.3.2"
 },
-"bokeh-2.3.1-py39h06a4308_0.tar.bz2":{
+"bokeh-2.3.2-py39h06a4308_0.tar.bz2":{
 "build":"py39h06a4308_0",
 "build_number":0,
 "depends":[
-"jinja2 >=2.7",
+"jinja2 >=2.9",
 "numpy >=1.11.3",
 "packaging >=16.8",
 "pillow >=7.1.0",
@@ -10582,10 +10582,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"bokeh",
-"sha256":"9f4c1cf40e2c2c7d204b87c78204aa3ae3787afcc5161957ceb8c2e735c7722f",
-"size":8625497,
-"timestamp":1617826622252,
-"version":"2.3.1"
+"sha256":"d6ff45c5cc12c0283f21948dd577b925e90611daf30d946e136c788071467110",
+"size":8703164,
+"timestamp":1620783948095,
+"version":"2.3.2"
 },
 "boost-1.73.0-py36_10.tar.bz2":{
 "build":"py36_10",
@@ -29136,19 +29136,19 @@
 "timestamp":1537203907549,
 "version":"0.14.2"
 },
-"flatbuffers-1.12.0-h2531618_0.tar.bz2":{
+"flatbuffers-2.0.0-h2531618_0.tar.bz2":{
 "build":"h2531618_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=7.3.0",
 "libstdcxx-ng >=7.3.0"
 ],
-"license":"Apache 2.0",
+"license":"Apache-2.0",
 "name":"flatbuffers",
-"sha256":"a11164ad224883149820d68017f9e3fa1ab7f96b215cd4e5c0b1995c2a346616",
-"size":1105518,
-"timestamp":1607037188008,
-"version":"1.12.0"
+"sha256":"0f707d1ee049635311f66f1c0801546af184156751088384851b7b1d33d293f4",
+"size":1219349,
+"timestamp":1620825878215,
+"version":"2.0.0"
 },
 "flex-2.6.4-ha10e3a4_1.tar.bz2":{
 "build":"ha10e3a4_1",
@@ -93768,6 +93768,78 @@
 "size":91447,
 "timestamp":1612471167917,
 "version":"1.0.2"
+},
+"watchdog-2.1.1-py36h06a4308_0.tar.bz2":{
+"build":"py36h06a4308_0",
+"build_number":0,
+"constrains":[
+"__osx >=10.13"
+],
+"depends":[
+"argh >=0.24.1",
+"python >=3.6,<3.7.0a0",
+"pyyaml >=3.10"
+],
+"license":"Apache-2.0",
+"name":"watchdog",
+"sha256":"2b8f8a137871db94a555054227c32939ec53a8cc25b64d6e1b96c62dedf48184",
+"size":94107,
+"timestamp":1620778287704,
+"version":"2.1.1"
+},
+"watchdog-2.1.1-py37h06a4308_0.tar.bz2":{
+"build":"py37h06a4308_0",
+"build_number":0,
+"constrains":[
+"__osx >=10.13"
+],
+"depends":[
+"argh >=0.24.1",
+"python >=3.7,<3.8.0a0",
+"pyyaml >=3.10"
+],
+"license":"Apache-2.0",
+"name":"watchdog",
+"sha256":"64fd6ebc998cc62c32261edddd5c541303db464ff5ea0bf74dab0c9306663cab",
+"size":94288,
+"timestamp":1620778285799,
+"version":"2.1.1"
+},
+"watchdog-2.1.1-py38h06a4308_0.tar.bz2":{
+"build":"py38h06a4308_0",
+"build_number":0,
+"constrains":[
+"__osx >=10.13"
+],
+"depends":[
+"argh >=0.24.1",
+"python >=3.8,<3.9.0a0",
+"pyyaml >=3.10"
+],
+"license":"Apache-2.0",
+"name":"watchdog",
+"sha256":"2d7b50dc235d1c31cdd81c825e229aefdcbbdaedacf47d1270439a603e476d5c",
+"size":94499,
+"timestamp":1620778241018,
+"version":"2.1.1"
+},
+"watchdog-2.1.1-py39h06a4308_0.tar.bz2":{
+"build":"py39h06a4308_0",
+"build_number":0,
+"constrains":[
+"__osx >=10.13"
+],
+"depends":[
+"argh >=0.24.1",
+"python >=3.9,<3.10.0a0",
+"pyyaml >=3.10"
+],
+"license":"Apache-2.0",
+"name":"watchdog",
+"sha256":"555983b3e018809430e33625c85fcad7798be3cc0a7e1484ea0bb56f6f8f31df",
+"size":94618,
+"timestamp":1620773990409,
+"version":"2.1.1"
 },
 "wcwidth-0.1.7-py27_0.tar.bz2":{
 "build":"py27_0",

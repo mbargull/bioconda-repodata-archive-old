@@ -10261,6 +10261,22 @@
 "timestamp":1619882312282,
 "version":"0.9.4"
 },
+"aws-c-mqtt-0.7.6-hd211556_1.tar.bz2":{
+"build":"hd211556_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.12,<0.9.13.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"6a0312ee8e95292f298d6ae203dae4db9e0e103bb2bd7140f53b4e78eb6760ed",
+"size":62298,
+"timestamp":1620831474286,
+"version":"0.7.6"
+},
 "aws-c-mqtt-0.7.6-hf332d29_0.tar.bz2":{
 "build":"hf332d29_0",
 "build_number":0,
@@ -25855,15 +25871,14 @@
 "timestamp":1610325995804,
 "version":"1.1.0"
 },
-"fastparquet-0.6.0-py36ha96d7dc_0.tar.bz2":{
+"fastparquet-0.6.1-py36ha96d7dc_0.tar.bz2":{
 "build":"py36ha96d7dc_0",
 "build_number":0,
 "depends":[
 "cramjam >=2.3.0",
+"fsspec",
 "libgcc-ng >=9.3.0",
-"numba >=0.28",
 "numpy",
-"packaging",
 "pandas >=0.19",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
@@ -25871,20 +25886,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"58a56bcbefe053c24ab571b3380046cbcf6cb12f20f97de1587f918c811a771c",
-"size":284427,
-"timestamp":1620351084714,
-"version":"0.6.0"
+"sha256":"35772f4432a1a6d3aa246f0ab652b7acf4e03838446da35397335d7695e61f80",
+"size":459129,
+"timestamp":1620825439566,
+"version":"0.6.1"
 },
-"fastparquet-0.6.0-py37he662d02_0.tar.bz2":{
+"fastparquet-0.6.1-py37he662d02_0.tar.bz2":{
 "build":"py37he662d02_0",
 "build_number":0,
 "depends":[
 "cramjam >=2.3.0",
+"fsspec",
 "libgcc-ng >=9.3.0",
-"numba >=0.28",
 "numpy",
-"packaging",
 "pandas >=0.19",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
@@ -25892,20 +25906,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"a0c44e7badaa568679040f896689778e8f2963a122ee9ba5a688385026502cc4",
-"size":296231,
-"timestamp":1620351107095,
-"version":"0.6.0"
+"sha256":"418965c0a54518eeb9956528d7acbcae3e5508d8172ab4de90532500b5335940",
+"size":479606,
+"timestamp":1620825511699,
+"version":"0.6.1"
 },
-"fastparquet-0.6.0-py38h9d9f2af_0.tar.bz2":{
+"fastparquet-0.6.1-py38h9d9f2af_0.tar.bz2":{
 "build":"py38h9d9f2af_0",
 "build_number":0,
 "depends":[
 "cramjam >=2.3.0",
+"fsspec",
 "libgcc-ng >=9.3.0",
-"numba >=0.28",
 "numpy",
-"packaging",
 "pandas >=0.19",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -25913,20 +25926,19 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"e3075ebff9e9dd8aea42b618ffceef69619ed9253311dbc2f9275fb8132fb51a",
-"size":285964,
-"timestamp":1620351076357,
-"version":"0.6.0"
+"sha256":"ee3f1298479c32ab688e526bbd9b1aa77055cea3592162ab5478f4e6b1d0990b",
+"size":457384,
+"timestamp":1620825459918,
+"version":"0.6.1"
 },
-"fastparquet-0.6.0-py39h3084282_0.tar.bz2":{
+"fastparquet-0.6.1-py39h3084282_0.tar.bz2":{
 "build":"py39h3084282_0",
 "build_number":0,
 "depends":[
 "cramjam >=2.3.0",
+"fsspec",
 "libgcc-ng >=9.3.0",
-"numba >=0.28",
 "numpy",
-"packaging",
 "pandas >=0.19",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -25934,10 +25946,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"aa47178cbb674a66399c784ce98eeaae1095d98ac9d703d6bd6325d02a61c6c2",
-"size":282958,
-"timestamp":1620351042710,
-"version":"0.6.0"
+"sha256":"602d63b97366cf1ffdccd1068ce7d6ad36901b37a9a666e56a25942f7913d137",
+"size":446058,
+"timestamp":1620825427807,
+"version":"0.6.1"
 },
 "fcl-0.6.1-h1aa9605_3.tar.bz2":{
 "build":"h1aa9605_3",
