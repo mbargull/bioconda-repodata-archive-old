@@ -49934,6 +49934,21 @@
 "timestamp":1602556769998,
 "version":"0.10.1"
 },
+"liblimesuite-20.10.0-h01db608_1.tar.bz2":{
+"build":"h01db608_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0"
+],
+"license":"Apache-2.0 AND MIT AND BSD-3-Clause",
+"name":"liblimesuite",
+"sha256":"4eb6e6c89303f18d2fcdc8b10de162f2cfd51398eac0d3f6b791be56175bcba6",
+"size":437325,
+"timestamp":1620839067935,
+"version":"20.10.0"
+},
 "libllvm10-10.0.1-h6293a0b_2.tar.bz2":{
 "build":"h6293a0b_2",
 "build_number":2,
@@ -53220,6 +53235,24 @@
 "size":1991521,
 "timestamp":1618923403599,
 "version":"3.2.1"
+},
+"limesuite-20.10.0-h1c39f02_1.tar.bz2":{
+"build":"h1c39f02_1",
+"build_number":1,
+"depends":[
+"glew >=2.1.0,<2.2.0a0",
+"libgcc-ng >=9.3.0",
+"liblimesuite 20.10.0 h01db608_1",
+"libstdcxx-ng >=9.3.0",
+"soapysdr-module-lms7 20.10.0 hd71efff_1",
+"wxwidgets >=3.1.3,<3.2.0a0"
+],
+"license":"Apache-2.0 AND MIT AND BSD-3-Clause",
+"name":"limesuite",
+"sha256":"c75c201a999477bd92c749e7612d9eb13318ecc6a4303c6d2966c079227362b3",
+"size":2254732,
+"timestamp":1620839204283,
+"version":"20.10.0"
 },
 "linbox-1.6.3-h03cd913_2.tar.bz2":{
 "build":"h03cd913_2",
@@ -105593,6 +105626,22 @@
 "size":690019,
 "timestamp":1620791332366,
 "version":"0.8.0"
+},
+"soapysdr-module-lms7-20.10.0-hd71efff_1.tar.bz2":{
+"build":"hd71efff_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"liblimesuite 20.10.0 h01db608_1",
+"libstdcxx-ng >=9.3.0",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"Apache-2.0 AND MIT AND BSD-3-Clause",
+"name":"soapysdr-module-lms7",
+"sha256":"3263e76f409fa08286baea82dee32ec4c4b09a82c0b7a0e7f17e3757d42b74df",
+"size":73940,
+"timestamp":1620839108776,
+"version":"20.10.0"
 },
 "soapysdr-module-remote-0.5.2-he88f3d8_2.tar.bz2":{
 "build":"he88f3d8_2",
