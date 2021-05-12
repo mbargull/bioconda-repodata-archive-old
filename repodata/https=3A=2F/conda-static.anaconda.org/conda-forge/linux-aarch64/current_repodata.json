@@ -44698,6 +44698,19 @@
 "timestamp":1584380398632,
 "version":"1.0.4"
 },
+"libaio-0.3.112-hf897c2e_0.tar.bz2":{
+"build":"hf897c2e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"LGPL-2.0-or-later",
+"name":"libaio",
+"sha256":"bd780dd02d8dbc48c052b57cca2459ae154646a1cb5dc565d78a1a667a0cd96f",
+"size":18948,
+"timestamp":1620785350376,
+"version":"0.3.112"
+},
 "libapr-1.7.0-hf897c2e_3.tar.bz2":{
 "build":"hf897c2e_3",
 "build_number":3,
@@ -117478,6 +117491,37 @@
 "size":13619,
 "timestamp":1617142812845,
 "version":"2.1.0"
+},
+"wxwidgets-3.1.3-h6b1637d_4.tar.bz2":{
+"build":"h6b1637d_4",
+"build_number":4,
+"depends":[
+"adwaita-icon-theme",
+"cairo >=1.16.0,<1.17.0a0",
+"expat >=2.3.0,<3.0a0",
+"fontconfig >=2.13.1,<3.0a0",
+"fonts-conda-ecosystem",
+"gdk-pixbuf >=2.42.6,<3.0a0",
+"gtk3 >=3.24.28,<4.0a0",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.1,<3.0a0",
+"libiconv >=1.16,<1.17.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"pango >=1.48.4,<1.49.0a0",
+"xorg-libsm",
+"xorg-libx11",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-wxWindows",
+"name":"wxwidgets",
+"sha256":"b029c9b7497992d8a9dde351084c6e87c22306e0316e0d484d542449bfc37a20",
+"size":9871405,
+"timestamp":1620786289386,
+"version":"3.1.3"
 },
 "x264-1!152.20180806-h14c3975_0.tar.bz2":{
 "build":"h14c3975_0",
