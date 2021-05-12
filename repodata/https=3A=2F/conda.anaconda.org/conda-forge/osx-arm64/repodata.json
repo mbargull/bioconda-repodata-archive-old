@@ -29830,6 +29830,25 @@
 "timestamp":1617544336187,
 "version":"1.15.1"
 },
+"gpy-1.10.0-py38h691f20f_0.tar.bz2":{
+"build":"py38h691f20f_0",
+"build_number":0,
+"depends":[
+"matplotlib-base",
+"numpy >=1.19.5,<2.0a0",
+"paramz >=0.9.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy >=0.16",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"gpy",
+"sha256":"14b5125cabec298968d75d2ade74779fbc42e4eefa52d8338f0f27acedd94a1d",
+"size":1546800,
+"timestamp":1620821849161,
+"version":"1.10.0"
+},
 "gpy-1.9.9-py38h8369297_7.tar.bz2":{
 "build":"py38h8369297_7",
 "build_number":7,
@@ -68335,6 +68354,21 @@
 "timestamp":1614893456060,
 "version":"1.8.1"
 },
+"pydantic-1.8.2-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"typing-extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pydantic",
+"sha256":"c2dac22098afefacdb6b23136d4248cbc44da031198f0ae3878da8ceb35ef7df",
+"size":2131435,
+"timestamp":1620821952191,
+"version":"1.8.2"
+},
 "pydantic-1.8.2-py39h5161555_0.tar.bz2":{
 "build":"py39h5161555_0",
 "build_number":0,
@@ -72610,6 +72644,27 @@
 "timestamp":1616025900376,
 "version":"0.1.8"
 },
+"r-arrow-4.0.0-r40hc470f4d_0.tar.bz2":{
+"build":"r40hc470f4d_0",
+"build_number":0,
+"depends":[
+"arrow-cpp >=4.0.0,<4.0.1.0a0",
+"libcxx >=11.1.0",
+"r-assertthat",
+"r-base >=4.0,<4.1.0a0",
+"r-bit64",
+"r-purrr",
+"r-r6",
+"r-rlang",
+"r-tidyselect"
+],
+"license":"Apache-2.0",
+"name":"r-arrow",
+"sha256":"5f18f07198b89c2e6c48befcf49e5b18033d806e87990ee9e679d6b5a74a035c",
+"size":3576655,
+"timestamp":1620822366911,
+"version":"4.0.0"
+},
 "r-backports-1.2.1-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
 "build_number":0,
@@ -73825,6 +73880,39 @@
 "size":6693159,
 "timestamp":1615738295208,
 "version":"3.2_9"
+},
+"r-testthat-3.0.2-r40h8ea1354_0.tar.bz2":{
+"build":"r40h8ea1354_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.0,<4.1.0a0",
+"r-brio",
+"r-callr >=3.5.1",
+"r-cli",
+"r-crayon >=1.3.4",
+"r-desc",
+"r-digest",
+"r-ellipsis >=0.2.0",
+"r-evaluate",
+"r-jsonlite",
+"r-lifecycle",
+"r-magrittr",
+"r-pkgload",
+"r-praise",
+"r-processx",
+"r-ps >=1.3.4",
+"r-r6 >=2.2.0",
+"r-rlang >=0.4.1",
+"r-waldo >=0.2.1",
+"r-withr >=2.0.0"
+],
+"license":"MIT",
+"name":"r-testthat",
+"sha256":"3a9e8ee86d835a4c3970a77c0636af9741c115f59d701fdaacf068c85a0fd2a7",
+"size":1648507,
+"timestamp":1620823672604,
+"version":"3.0.2"
 },
 "r-tibble-3.1.1-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
