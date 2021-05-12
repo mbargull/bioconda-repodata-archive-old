@@ -32018,38 +32018,38 @@
 "timestamp":1602058935313,
 "version":"2.1.0"
 },
-"glib-2.68.1-h3b9df90_0.tar.bz2":{
+"glib-2.68.2-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
 "build_number":0,
 "depends":[
 "gettext >=0.19.8.1,<1.0a0",
-"glib-tools 2.68.1 h3b9df90_0",
+"glib-tools 2.68.2 h3b9df90_0",
 "libgcc-ng >=9.3.0",
-"libglib 2.68.1 hba309c5_0",
+"libglib 2.68.2 hba309c5_0",
 "libstdcxx-ng >=9.3.0",
 "python *"
 ],
 "license":"LGPL-2.1-or-later",
 "name":"glib",
-"sha256":"a27e76fa6ab04d941c29e568c776b8ce112201e9b064c8b5ca995b0a5f486b3f",
-"size":467368,
-"timestamp":1617996212571,
-"version":"2.68.1"
+"sha256":"3b055582f0a71bff976aa40ee60e93ebed1ac825b2670910c14ee397c7f9e207",
+"size":455868,
+"timestamp":1620796000111,
+"version":"2.68.2"
 },
-"glib-tools-2.68.1-h3b9df90_0.tar.bz2":{
+"glib-tools-2.68.2-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libglib 2.68.1 hba309c5_0",
+"libglib 2.68.2 hba309c5_0",
 "libstdcxx-ng >=9.3.0"
 ],
 "license":"LGPL-2.1-or-later",
 "name":"glib-tools",
-"sha256":"5a62d320b6ce2a05be580127130f35cd69f2125b86953c706d7354dfeacb330a",
-"size":96236,
-"timestamp":1617996155835,
-"version":"2.68.1"
+"sha256":"d45f362c40c042a833cb4c8684c7bb983fc934fd7266a4fe4d9fa14dea922ea3",
+"size":96185,
+"timestamp":1620795941343,
+"version":"2.68.2"
 },
 "glibmm-2.58.1-h41d83cb_1.tar.bz2":{
 "build":"h41d83cb_1",
@@ -49806,11 +49806,11 @@
 "timestamp":1614619457816,
 "version":"1.1.0"
 },
-"libglib-2.68.1-hba309c5_0.tar.bz2":{
+"libglib-2.68.2-hba309c5_0.tar.bz2":{
 "build":"hba309c5_0",
 "build_number":0,
 "constrains":[
-"glib 2.68.1 *_0"
+"glib 2.68.2 *_0"
 ],
 "depends":[
 "gettext >=0.19.8.1,<1.0a0",
@@ -49823,10 +49823,10 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"libglib",
-"sha256":"0a5ab7098df32b932993f64de2261c91e5202efbd9d24a7e5eff8eedbbf0f640",
-"size":3271259,
-"timestamp":1617996094159,
-"version":"2.68.1"
+"sha256":"a0666953a2c5344a78a23a6e20591c7d988c917db1617c578da73dbd6529ccc9",
+"size":3296370,
+"timestamp":1620795879285,
+"version":"2.68.2"
 },
 "libglu-9.0.0-hb209c28_1001.tar.bz2":{
 "build":"hb209c28_1001",
@@ -105478,6 +105478,40 @@
 "timestamp":1620782311519,
 "version":"0.8.0"
 },
+"soapysdr-module-uhd-0.4.1-hb2f6859_3.tar.bz2":{
+"build":"hb2f6859_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"soapysdr-module-uhd",
+"sha256":"77d764c2891611efbe50dd08d9a5212a9e85b346a526a1ce85ea7824490dde36",
+"size":243149,
+"timestamp":1620795582653,
+"version":"0.4.1"
+},
+"soapysdr-module-uhd-0.4.1-hc5fe709_2.tar.bz2":{
+"build":"hc5fe709_2",
+"build_number":2,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=3.15.0,<3.15.1.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"soapysdr-module-uhd",
+"sha256":"052c524a0b7ebf8c3ea950b35f586f86d4afdea8c38698aba1823ddc1534f73d",
+"size":247274,
+"timestamp":1620795737072,
+"version":"0.4.1"
+},
 "soupsieve-2.0.1-py36h9f0ad1d_0.tar.bz2":{
 "build":"py36h9f0ad1d_0",
 "build_number":0,
@@ -110990,6 +111024,134 @@
 "size":192838,
 "timestamp":1616785917513,
 "version":"2.2.27.27"
+},
+"uhd-3.15.0.0-py36h7162bf0_6.tar.bz2":{
+"build":"py36h7162bf0_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"requests"
+],
+"license":"GPL-3.0-only",
+"name":"uhd",
+"sha256":"b790ef63ed5fefdc5dd0e66226a619aadaf78e8b90c9a717e9360e5ed7304c75",
+"size":8614078,
+"timestamp":1619811938013,
+"version":"3.15.0.0"
+},
+"uhd-3.15.0.0-py36haf59199_6.tar.bz2":{
+"build":"py36haf59199_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.18.5,<2.0a0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"requests"
+],
+"license":"GPL-3.0-only",
+"name":"uhd",
+"sha256":"3f11ea19fb10e1190ebea71c043804f7612544407b5bbb778687a4a84fde4f7a",
+"size":8663956,
+"timestamp":1619805735704,
+"version":"3.15.0.0"
+},
+"uhd-3.15.0.0-py37h3ee96d1_6.tar.bz2":{
+"build":"py37h3ee96d1_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"requests"
+],
+"license":"GPL-3.0-only",
+"name":"uhd",
+"sha256":"dcfe391b1e2740c3abce519aa6e841401b845fe8a8d758eb2a89ce5c7265de32",
+"size":8607374,
+"timestamp":1619805782978,
+"version":"3.15.0.0"
+},
+"uhd-3.15.0.0-py37hde4a6a7_6.tar.bz2":{
+"build":"py37hde4a6a7_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.19.5,<2.0a0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"requests"
+],
+"license":"GPL-3.0-only",
+"name":"uhd",
+"sha256":"96909f5c1c41d58d10e13559aecf3980fdb452d869e19ef6783bb09e2e568241",
+"size":8582905,
+"timestamp":1619805539524,
+"version":"3.15.0.0"
+},
+"uhd-3.15.0.0-py38h390711e_6.tar.bz2":{
+"build":"py38h390711e_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"requests"
+],
+"license":"GPL-3.0-only",
+"name":"uhd",
+"sha256":"6f745efcefd2cffae09b9319b8a1fcc5a85414d684c334e648d520f4a6458069",
+"size":8631804,
+"timestamp":1619805535146,
+"version":"3.15.0.0"
+},
+"uhd-3.15.0.0-py39h569cd96_6.tar.bz2":{
+"build":"py39h569cd96_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"requests"
+],
+"license":"GPL-3.0-only",
+"name":"uhd",
+"sha256":"34ace5282885e9cfc6cd2c6b343c32618387a3f51d4be310f6b4e70604e21138",
+"size":8625414,
+"timestamp":1619805850554,
+"version":"3.15.0.0"
 },
 "uhd-4.0.0.0-py36h7162bf0_4.tar.bz2":{
 "build":"py36h7162bf0_4",

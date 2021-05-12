@@ -7242,6 +7242,67 @@
 "timestamp":1620793767776,
 "version":"1.19.71"
 },
+"awscli-1.19.71-py36h704843e_0.tar.bz2":{
+"build":"py36h704843e_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.71",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.4.0,<0.5.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"c52e1810e6e49f441c6c36324a96b0482c198f1446705506e24144744b417352",
+"size":1949373,
+"timestamp":1620794668368,
+"version":"1.19.71"
+},
+"awscli-1.19.71-py37h4bcbb9b_0.tar.bz2":{
+"build":"py37h4bcbb9b_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.71",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.4.0,<0.5.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"02b3839071a760791c10daf81656140220959646a1c75618585c16023019b6cc",
+"size":1943193,
+"timestamp":1620795574299,
+"version":"1.19.71"
+},
+"awscli-1.19.71-py37hd9ded2f_0.tar.bz2":{
+"build":"py37hd9ded2f_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.71",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.4.0,<0.5.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"1dabdf50ca922c85a2fad9fb2d4c25a44871071d4db638aecda4d9625a376635",
+"size":1938581,
+"timestamp":1620796482123,
+"version":"1.19.71"
+},
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
 "build_number":3,
@@ -29657,23 +29718,23 @@
 "timestamp":1602059425402,
 "version":"2.1.0"
 },
-"glib-2.68.1-h01db608_0.tar.bz2":{
+"glib-2.68.2-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
 "build_number":0,
 "depends":[
 "gettext >=0.19.8.1,<1.0a0",
-"glib-tools 2.68.1 h01db608_0",
+"glib-tools 2.68.2 h01db608_0",
 "libgcc-ng >=9.3.0",
-"libglib 2.68.1 he97b138_0",
+"libglib 2.68.2 he97b138_0",
 "libstdcxx-ng >=9.3.0",
 "python *"
 ],
 "license":"LGPL-2.1-or-later",
 "name":"glib",
-"sha256":"234521284878ecb5e5147b655979f96869951297d4ef0a00f4483ad406132406",
-"size":453546,
-"timestamp":1617996605474,
-"version":"2.68.1"
+"sha256":"8e08a8750d2425bab4c1de3e8cc54ce70cf847215bc8be58c788a10fe9afcc27",
+"size":456849,
+"timestamp":1620796686752,
+"version":"2.68.2"
 },
 "glib-networking-2.68.1-h19eebd0_0.tar.bz2":{
 "build":"h19eebd0_0",
@@ -29692,20 +29753,20 @@
 "timestamp":1619155303455,
 "version":"2.68.1"
 },
-"glib-tools-2.68.1-h01db608_0.tar.bz2":{
+"glib-tools-2.68.2-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libglib 2.68.1 he97b138_0",
+"libglib 2.68.2 he97b138_0",
 "libstdcxx-ng >=9.3.0"
 ],
 "license":"LGPL-2.1-or-later",
 "name":"glib-tools",
-"sha256":"e5f28627c9e0a4f9333d262aabbc4cf792d5ca17fe1960c00aad6fd6e3b6348a",
-"size":93656,
-"timestamp":1617996556295,
-"version":"2.68.1"
+"sha256":"94e4ce65f30cdb12cf431465a88d0971043c930228cbd029b572f21194649961",
+"size":93680,
+"timestamp":1620796636598,
+"version":"2.68.2"
 },
 "glibmm-2.58.1-h86bba41_1.tar.bz2":{
 "build":"h86bba41_1",
@@ -48059,11 +48120,11 @@
 "timestamp":1614624710451,
 "version":"1.1.0"
 },
-"libglib-2.68.1-he97b138_0.tar.bz2":{
+"libglib-2.68.2-he97b138_0.tar.bz2":{
 "build":"he97b138_0",
 "build_number":0,
 "constrains":[
-"glib 2.68.1 *_0"
+"glib 2.68.2 *_0"
 ],
 "depends":[
 "gettext >=0.19.8.1,<1.0a0",
@@ -48076,10 +48137,10 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"libglib",
-"sha256":"d0971d2cf5c517b829e69208bca15faec8f89d16002078c9e74833747de4f707",
-"size":3224005,
-"timestamp":1617996504151,
-"version":"2.68.1"
+"sha256":"fc6218dbefeeae0c3b7da41025fb6a1ca8c6393380f4ad49e3db3bd4534942b4",
+"size":3224869,
+"timestamp":1620796582971,
+"version":"2.68.2"
 },
 "libglu-9.0.0-he1b5a44_1001.tar.bz2":{
 "build":"he1b5a44_1001",
@@ -105447,6 +105508,23 @@
 "size":690019,
 "timestamp":1620791332366,
 "version":"0.8.0"
+},
+"soapysdr-module-uhd-0.4.1-h3f41669_3.tar.bz2":{
+"build":"h3f41669_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"soapysdr-module-uhd",
+"sha256":"f3a23c7c289b8c0aa254cfa249f9091d10264277d7473bdd1f9bc4088b90389e",
+"size":240840,
+"timestamp":1620796491009,
+"version":"0.4.1"
 },
 "soupsieve-2.0.1-py36h9f0ad1d_0.tar.bz2":{
 "build":"py36h9f0ad1d_0",
