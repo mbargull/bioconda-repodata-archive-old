@@ -49077,6 +49077,36 @@
 "timestamp":1617400647185,
 "version":"1.0.0"
 },
+"libiio-0.21-h8af1aa0_5.tar.bz2":{
+"build":"h8af1aa0_5",
+"build_number":5,
+"depends":[
+"libiio-c 0.21 h34f4286_5",
+"pylibiio 0.21 py_5"
+],
+"license":"LGPL-2.1-or-later AND GPL-3.0-or-later",
+"name":"libiio",
+"sha256":"5ae09882195ed1a2b6847ce00468f5447bd5ef7b58a4c559277a72d6215e4ee3",
+"size":18556,
+"timestamp":1620847035884,
+"version":"0.21"
+},
+"libiio-c-0.21-h34f4286_5.tar.bz2":{
+"build":"h34f4286_5",
+"build_number":5,
+"depends":[
+"libaio >=0.3.112,<0.4.0a0",
+"libgcc-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"libxml2 >=2.9.10,<2.10.0a0"
+],
+"license":"LGPL-2.1-or-later AND GPL-3.0-or-later",
+"name":"libiio-c",
+"sha256":"6d75d8dd2a2c86251b9186c1d9e594b9d44ddebf9ee22cbfb5e5ab91919d2cc8",
+"size":171697,
+"timestamp":1620846982470,
+"version":"0.21"
+},
 "libjpeg-turbo-2.1.0-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",
 "build_number":0,
@@ -96474,7 +96504,7 @@
 "timestamp":1620659503517,
 "version":"0.1.1"
 },
-"rich-10.1.0-py36h704843e_0.tar.bz2":{
+"rich-10.2.0-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -96488,12 +96518,12 @@
 ],
 "license":"MIT",
 "name":"rich",
-"sha256":"941eae89969b23e155a900777d2d01050b0dd47c60a2ae9486888ce2f0dd43ba",
-"size":337163,
-"timestamp":1617453329995,
-"version":"10.1.0"
+"sha256":"d9204f0ac640048f378cdd0bcbc09309f59d96bd00e9aa2004750485e3a5b873",
+"size":344190,
+"timestamp":1620849375335,
+"version":"10.2.0"
 },
-"rich-10.1.0-py37hd9ded2f_0.tar.bz2":{
+"rich-10.2.0-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
@@ -96506,46 +96536,10 @@
 ],
 "license":"MIT",
 "name":"rich",
-"sha256":"81a94d40999b99b5f60cec1e3d50bc43eb9893ff21ee50c36ae39dec815a83ff",
-"size":335369,
-"timestamp":1617453651021,
-"version":"10.1.0"
-},
-"rich-10.1.0-py38h2063c64_0.tar.bz2":{
-"build":"py38h2063c64_0",
-"build_number":0,
-"depends":[
-"colorama >=0.4.0,<0.5.0",
-"commonmark >=0.9.0,<0.10.0",
-"pygments >=2.6.0,<3.0.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"typing_extensions >=3.7.4,<4.0.0"
-],
-"license":"MIT",
-"name":"rich",
-"sha256":"09182b4ee22551aa89a9e5bbd5c63371a23e85baf41e28b8736f1975d05e70e2",
-"size":340986,
-"timestamp":1617454214922,
-"version":"10.1.0"
-},
-"rich-10.1.0-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"colorama >=0.4.0,<0.5.0",
-"commonmark >=0.9.0,<0.10.0",
-"pygments >=2.6.0,<3.0.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"typing_extensions >=3.7.4,<4.0.0"
-],
-"license":"MIT",
-"name":"rich",
-"sha256":"132d490156e1b72bede6a39cdcc041cae59381379454a8365456901d0e8e8d6c",
-"size":340035,
-"timestamp":1617454521508,
-"version":"10.1.0"
+"sha256":"121e5e2ec41766b5de3f6476c03ed9b852de8d1eb35d90f0223d68d64c13bd7d",
+"size":342336,
+"timestamp":1620849623535,
+"version":"10.2.0"
 },
 "ripgrep-12.1.1-h516909a_0.tar.bz2":{
 "build":"h516909a_0",

@@ -16857,6 +16857,37 @@
 "timestamp":1617458574586,
 "version":"1.0.0"
 },
+"libiio-0.21-hce30654_5.tar.bz2":{
+"build":"hce30654_5",
+"build_number":5,
+"depends":[
+"libiio-c 0.21 h3188beb_5",
+"pylibiio 0.21 py_5"
+],
+"license":"LGPL-2.1-or-later AND GPL-3.0-or-later",
+"name":"libiio",
+"sha256":"5d5cde7435434dd05c72299c551b9d9123928565b1716f983e1cb0193b99eae7",
+"size":18595,
+"timestamp":1620846423095,
+"version":"0.21"
+},
+"libiio-c-0.21-h3188beb_5.tar.bz2":{
+"build":"h3188beb_5",
+"build_number":5,
+"constrains":[
+"__osx >=11.0"
+],
+"depends":[
+"libusb >=1.0.24,<2.0a0",
+"libxml2 >=2.9.10,<2.10.0a0"
+],
+"license":"LGPL-2.1-or-later AND GPL-3.0-or-later",
+"name":"libiio-c",
+"sha256":"ad3d1594e37148a6781bf580da27819929db0fb825d204576c77613a67572ad3",
+"size":112437,
+"timestamp":1620846327400,
+"version":"0.21"
+},
 "libjpeg-turbo-2.1.0-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
@@ -17550,6 +17581,20 @@
 "sha256":"9ce8a2fdce800c0a6999eee1a0716b8828ffbdaeef53d14a0d6d7886b8f324eb",
 "size":23499293,
 "timestamp":1620733363925,
+"version":"12.0.0"
+},
+"libllvm12-12.0.0-h93073aa_1.tar.bz2":{
+"build":"h93073aa_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libllvm12",
+"sha256":"c68a3d11124c387fb98236b237084ff44b8907f9f10e6c4cf017420597be1fc9",
+"size":23469565,
+"timestamp":1620845890660,
 "version":"12.0.0"
 },
 "libllvm9-9.0.1-h0238b49_2.tar.bz2":{
@@ -18932,6 +18977,23 @@
 "timestamp":1620733387428,
 "version":"12.0.0"
 },
+"llvm-12.0.0-h95d0606_1.tar.bz2":{
+"build":"h95d0606_1",
+"build_number":1,
+"constrains":[
+"llvmdev   12.0.0"
+],
+"depends":[
+"libllvm12 12.0.0 h93073aa_1",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvm",
+"sha256":"eb4de38d973dcf96006474ae29a251c37d6d2386ce0e668f420a6961db842dd6",
+"size":51402,
+"timestamp":1620845914683,
+"version":"12.0.0"
+},
 "llvm-openmp-11.1.0-hb3022d6_0.tar.bz2":{
 "build":"hb3022d6_0",
 "build_number":0,
@@ -19044,6 +19106,23 @@
 "timestamp":1620733739792,
 "version":"12.0.0"
 },
+"llvm-tools-12.0.0-h93073aa_1.tar.bz2":{
+"build":"h93073aa_1",
+"build_number":1,
+"constrains":[
+"llvmdev   12.0.0"
+],
+"depends":[
+"libllvm12 12.0.0 h93073aa_1",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvm-tools",
+"sha256":"3042fbc82e7d092871c7d26405f2264194b656e5df87f38d1def4ef4931aff2d",
+"size":11358918,
+"timestamp":1620846259385,
+"version":"12.0.0"
+},
 "llvmdev-11.1.0-h4468dd5_0.tar.bz2":{
 "build":"h4468dd5_0",
 "build_number":0,
@@ -19127,6 +19206,22 @@
 "sha256":"95b065e77f3a6bb31fa99b0d0c887388e5186a3916b0f5f80e63477d272cbceb",
 "size":40759907,
 "timestamp":1620734198668,
+"version":"12.0.0"
+},
+"llvmdev-12.0.0-h93073aa_1.tar.bz2":{
+"build":"h93073aa_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.a0",
+"libllvm12 12.0.0 h93073aa_1",
+"llvm-tools 12.0.0 h93073aa_1",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvmdev",
+"sha256":"5be2486ab38741ad3cb6161fb9305a789aa10187a86f59d0d324072741421839",
+"size":40775118,
+"timestamp":1620846712113,
 "version":"12.0.0"
 },
 "llvmlite-0.36.0-py38h57246dd_0.tar.bz2":{
@@ -30537,7 +30632,7 @@
 "timestamp":1620659412324,
 "version":"0.1.1"
 },
-"rich-10.1.0-py38h10201cd_0.tar.bz2":{
+"rich-10.2.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "depends":[
@@ -30550,12 +30645,12 @@
 ],
 "license":"MIT",
 "name":"rich",
-"sha256":"0f2097f8e4ee6f64ed7c0c9a7f488dae087e1adcc2c1fe27e6bbc9d99f635b58",
-"size":337590,
-"timestamp":1617453094904,
-"version":"10.1.0"
+"sha256":"16b425859491ec19bf8963f2a52fc0439700f538a4c8e4189ecffd95e7aefd89",
+"size":346076,
+"timestamp":1620849065830,
+"version":"10.2.0"
 },
-"rich-10.1.0-py39h2804cbe_0.tar.bz2":{
+"rich-10.2.0-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "depends":[
@@ -30568,10 +30663,10 @@
 ],
 "license":"MIT",
 "name":"rich",
-"sha256":"b8544a4dc856b51326d59f70d92f0b78178d41581b5e294c821ee16e2dd0195f",
-"size":340659,
-"timestamp":1617453104314,
-"version":"10.1.0"
+"sha256":"cf3d619de6111ec14555298dd3ce00529bb8ad3ab4ae7e26393d98c2c4582e39",
+"size":341917,
+"timestamp":1620849092437,
+"version":"10.2.0"
 },
 "ripgrep-12.1.1-h1f0153e_1.tar.bz2":{
 "build":"h1f0153e_1",
@@ -33892,7 +33987,7 @@
 "timestamp":1618234710693,
 "version":"4.1.1"
 },
-"tf2onnx-1.8.4-py38h3777fb4_0.tar.bz2":{
+"tf2onnx-1.8.5-py38h3777fb4_0.tar.bz2":{
 "build":"py38h3777fb4_0",
 "build_number":0,
 "depends":[
@@ -33903,17 +33998,17 @@
 "python-flatbuffers",
 "python_abi 3.8.* *_cp38",
 "requests",
-"six",
+"six 1.15.*",
 "tensorflow >=1.5"
 ],
 "license":"MIT",
 "name":"tf2onnx",
-"sha256":"e074a2cdd6a2c7c1c41b5378e9db6ec63aecab616615f6cd597df6b48cc66f66",
-"size":458491,
-"timestamp":1620055853699,
-"version":"1.8.4"
+"sha256":"3127c661ec82c185b8c97f46e1e83861d91a6108b52c89f560d3570aaecec90c",
+"size":490792,
+"timestamp":1620846355661,
+"version":"1.8.5"
 },
-"tf2onnx-1.8.4-py39h7f752ed_0.tar.bz2":{
+"tf2onnx-1.8.5-py39h7f752ed_0.tar.bz2":{
 "build":"py39h7f752ed_0",
 "build_number":0,
 "depends":[
@@ -33924,15 +34019,15 @@
 "python-flatbuffers",
 "python_abi 3.9.* *_cp39",
 "requests",
-"six",
+"six 1.15.*",
 "tensorflow >=1.5"
 ],
 "license":"MIT",
 "name":"tf2onnx",
-"sha256":"7ccc92ed92f9df1f16824f35bd4c638997151fe61cca4acd9ee60f5f7c43270c",
-"size":456082,
-"timestamp":1620055801682,
-"version":"1.8.4"
+"sha256":"8923f7c1d822162e5b1b7bc321ca8c958bc4ae8f4afb4335771845a0b754a9d1",
+"size":492160,
+"timestamp":1620846303893,
+"version":"1.8.5"
 },
 "thinc-8.0.3-py38h1e2c3d9_0.tar.bz2":{
 "build":"py38h1e2c3d9_0",
