@@ -9939,6 +9939,23 @@
 "timestamp":1620135551876,
 "version":"0.2.7"
 },
+"aws-c-event-stream-0.2.7-h86f4e07_5.tar.bz2":{
+"build":"h86f4e07_5",
+"build_number":5,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-io >=0.9.12,<0.9.13.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"7a7b4f31aa6552ef165972fc136a75c41dae229f9764a6d6402f8a72660a5fbf",
+"size":49966,
+"timestamp":1620818492362,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-hb3d90f7_4.tar.bz2":{
 "build":"hb3d90f7_4",
 "build_number":4,
@@ -79715,9 +79732,9 @@
 "timestamp":1606819028312,
 "version":"1.7.3"
 },
-"pydantic-1.8.1-py36hc33305d_1.tar.bz2":{
-"build":"py36hc33305d_1",
-"build_number":1,
+"pydantic-1.8.2-py36hc33305d_0.tar.bz2":{
+"build":"py36hc33305d_0",
+"build_number":0,
 "depends":[
 "dataclasses >=0.6",
 "libgcc-ng >=9.3.0",
@@ -79727,31 +79744,31 @@
 ],
 "license":"MIT",
 "name":"pydantic",
-"sha256":"3be65db6b7c15b54f94f9c2f44be2783a07b4d022a1b0d3bc1fb3b940612c07d",
-"size":2380343,
-"timestamp":1614893938245,
-"version":"1.8.1"
+"sha256":"8a7f5e83cec0f3ed585386af24fbb13818663807176942b34ef6ff395a63b3e8",
+"size":2387598,
+"timestamp":1620820562960,
+"version":"1.8.2"
 },
-"pydantic-1.8.1-py37h0630641_1.tar.bz2":{
-"build":"py37h0630641_1",
-"build_number":1,
+"pydantic-1.8.2-py37h0630641_0.tar.bz2":{
+"build":"py37h0630641_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "typing-extensions >=3.7.4.3"
 ],
 "license":"MIT",
 "name":"pydantic",
-"sha256":"8c9d6041c1d774f964c7e06c1a431840382dc5336606b40c721be8db060ebcc8",
-"size":1767990,
-"timestamp":1614895939684,
-"version":"1.8.1"
+"sha256":"5cc722055e72740342bf031ea32aad198073b092d2061eb8e64ff092a51c358a",
+"size":1786817,
+"timestamp":1620820513648,
+"version":"1.8.2"
 },
-"pydantic-1.8.1-py37h6642d69_1.tar.bz2":{
-"build":"py37h6642d69_1",
-"build_number":1,
+"pydantic-1.8.2-py37h6642d69_0.tar.bz2":{
+"build":"py37h6642d69_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "python >=3.7,<3.8.0a0",
@@ -79760,14 +79777,14 @@
 ],
 "license":"MIT",
 "name":"pydantic",
-"sha256":"ab7b7964cb914890dbbbe1ede107dba2bbda674f1d021ed71be965c38c197c00",
-"size":2294937,
-"timestamp":1614895700347,
-"version":"1.8.1"
+"sha256":"063e3456939f3a7613287ebd6bc40a808b86da5da849950c4703b284f6c39b76",
+"size":2287725,
+"timestamp":1620820400012,
+"version":"1.8.2"
 },
-"pydantic-1.8.1-py38h98b8a6f_1.tar.bz2":{
-"build":"py38h98b8a6f_1",
-"build_number":1,
+"pydantic-1.8.2-py38h98b8a6f_0.tar.bz2":{
+"build":"py38h98b8a6f_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "python >=3.8,<3.9.0a0",
@@ -79776,14 +79793,14 @@
 ],
 "license":"MIT",
 "name":"pydantic",
-"sha256":"aaeb0e91f720be27e121839621154ba8d83923e3cef0e52122b8cd271ea6b85c",
-"size":2320698,
-"timestamp":1614895962375,
-"version":"1.8.1"
+"sha256":"bd9ee55be1dae0ff2efd9e38704cca97ce84e95321beae333adc2d4ded2e0611",
+"size":2335521,
+"timestamp":1620820398071,
+"version":"1.8.2"
 },
-"pydantic-1.8.1-py39ha810350_1.tar.bz2":{
-"build":"py39ha810350_1",
-"build_number":1,
+"pydantic-1.8.2-py39ha810350_0.tar.bz2":{
+"build":"py39ha810350_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "python >=3.9,<3.10.0a0",
@@ -79792,10 +79809,10 @@
 ],
 "license":"MIT",
 "name":"pydantic",
-"sha256":"c41f92c0ece51e389e51adfe5df952a333f88cacade39a816c0dabb6b07a0cb6",
-"size":2317867,
-"timestamp":1614895726326,
-"version":"1.8.1"
+"sha256":"46703fdfd356a2b4e33f383656fbc5eecd79f4a9f624d8e28f52dabd004166a6",
+"size":2324783,
+"timestamp":1620820507887,
+"version":"1.8.2"
 },
 "pydot-1.4.2-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
