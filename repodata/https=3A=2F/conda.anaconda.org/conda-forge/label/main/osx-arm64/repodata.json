@@ -9367,6 +9367,22 @@
 "timestamp":1619896365692,
 "version":"0.2.7"
 },
+"aws-c-event-stream-0.2.7-hb7afabf_5.tar.bz2":{
+"build":"hb7afabf_5",
+"build_number":5,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-io >=0.9.12,<0.9.13.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"requires":[],
+"size":42470,
+"timestamp":1620818688177,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-hcdd0404_0.tar.bz2":{
 "build":"hcdd0404_0",
 "build_number":0,
@@ -9412,6 +9428,21 @@
 "requires":[],
 "size":130899,
 "timestamp":1620721060684,
+"version":"0.6.4"
+},
+"aws-c-http-0.6.4-hb6344a0_1.tar.bz2":{
+"build":"hb6344a0_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-compression >=0.2.11,<0.2.12.0a0",
+"aws-c-io >=0.9.12,<0.9.13.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"requires":[],
+"size":130997,
+"timestamp":1620818463232,
 "version":"0.6.4"
 },
 "aws-c-io-0.6.5-h3723fa0_0.tar.bz2":{
@@ -30040,6 +30071,25 @@
 "size":439731,
 "timestamp":1617544336187,
 "version":"1.15.1"
+},
+"gpy-1.10.0-py38h691f20f_0.tar.bz2":{
+"build":"py38h691f20f_0",
+"build_number":0,
+"depends":[
+"matplotlib-base",
+"numpy >=1.19.5,<2.0a0",
+"paramz >=0.9.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy >=0.16",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"gpy",
+"requires":[],
+"size":1546800,
+"timestamp":1620821849161,
+"version":"1.10.0"
 },
 "gpy-1.9.9-py38h8369297_7.tar.bz2":{
 "build":"py38h8369297_7",
@@ -68634,6 +68684,36 @@
 "timestamp":1614893456060,
 "version":"1.8.1"
 },
+"pydantic-1.8.2-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"typing-extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pydantic",
+"requires":[],
+"size":2131435,
+"timestamp":1620821952191,
+"version":"1.8.2"
+},
+"pydantic-1.8.2-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"typing-extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pydantic",
+"requires":[],
+"size":2028101,
+"timestamp":1620820397818,
+"version":"1.8.2"
+},
 "pydot-1.4.2-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -72903,6 +72983,27 @@
 "size":98707,
 "timestamp":1616025900376,
 "version":"0.1.8"
+},
+"r-arrow-4.0.0-r40hc470f4d_0.tar.bz2":{
+"build":"r40hc470f4d_0",
+"build_number":0,
+"depends":[
+"arrow-cpp >=4.0.0,<4.0.1.0a0",
+"libcxx >=11.1.0",
+"r-assertthat",
+"r-base >=4.0,<4.1.0a0",
+"r-bit64",
+"r-purrr",
+"r-r6",
+"r-rlang",
+"r-tidyselect"
+],
+"license":"Apache-2.0",
+"name":"r-arrow",
+"requires":[],
+"size":3576655,
+"timestamp":1620822366911,
+"version":"4.0.0"
 },
 "r-backports-1.2.1-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
