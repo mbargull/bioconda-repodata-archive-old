@@ -9736,6 +9736,23 @@
 "timestamp":1606258855255,
 "version":"0.4.5"
 },
+"aws-c-auth-0.5.2-hd211556_0.tar.bz2":{
+"build":"hd211556_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.7,<0.5.8.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.12,<0.9.13.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"5222b7694c80af881868037500fb18403939eb5c2a955c2f81ecf3c7a9877c4d",
+"size":113025,
+"timestamp":1620932301265,
+"version":"0.5.2"
+},
 "aws-c-cal-0.5.7-h1406d18_0.tar.bz2":{
 "build":"h1406d18_0",
 "build_number":0,
@@ -22674,7 +22691,7 @@
 "libmbd >=0.12.1,<0.13.0a0 mpi_mpich_*",
 "libnegf * mpi_mpich_*",
 "libnegf >=1.0.3,<1.1.0a0 mpi_mpich_*",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "mpifx * mpi_mpich_*",
 "mpifx >=1.1,<1.2.0a0 mpi_mpich_*",
 "scalapack",
@@ -22881,7 +22898,7 @@
 "openssl !=1.1.1e"
 ],
 "depends":[
-"click >=6.6",
+"click >=6.6,<8.0.0",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
 "dask-core >=2021.03.0",
@@ -22904,6 +22921,36 @@
 "timestamp":1619219406817,
 "version":"2021.4.1"
 },
+"distributed-2021.4.1-py37h35e4cab_1.tar.bz2":{
+"build":"py37h35e4cab_1",
+"build_number":1,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"click >=6.6,<8.0.0",
+"cloudpickle >=1.5.0",
+"cytoolz >=0.8.2",
+"dask-core >=2021.03.0",
+"msgpack-python >=0.6.0",
+"psutil >=5.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pyyaml",
+"setuptools",
+"sortedcontainers !=2.0.0,!=2.0.1",
+"tblib >=1.6.0",
+"toolz >=0.8.2",
+"tornado >=5",
+"zict >=0.1.3"
+],
+"license":"BSD-3-Clause",
+"name":"distributed",
+"sha256":"b95d6736a9f0938498d2892402e4881389b6f62ff867a6f951ad3bb979d8a62d",
+"size":1160300,
+"timestamp":1620931991996,
+"version":"2021.4.1"
+},
 "distributed-2021.4.1-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
@@ -22911,7 +22958,7 @@
 "openssl !=1.1.1e"
 ],
 "depends":[
-"click >=6.6",
+"click >=6.6,<8.0.0",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
 "dask-core >=2021.03.0",
@@ -22935,6 +22982,37 @@
 "timestamp":1619219355089,
 "version":"2021.4.1"
 },
+"distributed-2021.4.1-py37hadc05a3_1.tar.bz2":{
+"build":"py37hadc05a3_1",
+"build_number":1,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"click >=6.6,<8.0.0",
+"cloudpickle >=1.5.0",
+"cytoolz >=0.8.2",
+"dask-core >=2021.03.0",
+"msgpack-python >=0.6.0",
+"psutil >=5.0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"pyyaml",
+"setuptools",
+"sortedcontainers !=2.0.0,!=2.0.1",
+"tblib >=1.6.0",
+"toolz >=0.8.2",
+"tornado >=5",
+"zict >=0.1.3"
+],
+"license":"BSD-3-Clause",
+"name":"distributed",
+"sha256":"e1e07d62c5e5222b06a349a8e661c64ea9ea88ae3fb8341b36fd7fbf08270b15",
+"size":1174167,
+"timestamp":1620931998628,
+"version":"2021.4.1"
+},
 "distributed-2021.4.1-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
@@ -22942,7 +23020,7 @@
 "openssl !=1.1.1e"
 ],
 "depends":[
-"click >=6.6",
+"click >=6.6,<8.0.0",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
 "dask-core >=2021.03.0",
@@ -22965,6 +23043,36 @@
 "timestamp":1619219413678,
 "version":"2021.4.1"
 },
+"distributed-2021.4.1-py38hf8b3453_1.tar.bz2":{
+"build":"py38hf8b3453_1",
+"build_number":1,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"click >=6.6,<8.0.0",
+"cloudpickle >=1.5.0",
+"cytoolz >=0.8.2",
+"dask-core >=2021.03.0",
+"msgpack-python >=0.6.0",
+"psutil >=5.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"setuptools",
+"sortedcontainers !=2.0.0,!=2.0.1",
+"tblib >=1.6.0",
+"toolz >=0.8.2",
+"tornado >=6.0.3",
+"zict >=0.1.3"
+],
+"license":"BSD-3-Clause",
+"name":"distributed",
+"sha256":"33bac2bd268fd4f606ca0fc07080da0f30a5ef4244bc704e18b094797d67ce5c",
+"size":1170477,
+"timestamp":1620931648165,
+"version":"2021.4.1"
+},
 "distributed-2021.4.1-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
@@ -22972,7 +23080,7 @@
 "openssl !=1.1.1e"
 ],
 "depends":[
-"click >=6.6",
+"click >=6.6,<8.0.0",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
 "dask-core >=2021.03.0",
@@ -22993,6 +23101,36 @@
 "sha256":"1f1dd1946fc61364589f03f54754f4f5329581bc8f97418a144d7e7fabd7294d",
 "size":1175088,
 "timestamp":1619219265131,
+"version":"2021.4.1"
+},
+"distributed-2021.4.1-py39hc1b9086_1.tar.bz2":{
+"build":"py39hc1b9086_1",
+"build_number":1,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"click >=6.6,<8.0.0",
+"cloudpickle >=1.5.0",
+"cytoolz >=0.8.2",
+"dask-core >=2021.03.0",
+"msgpack-python >=0.6.0",
+"psutil >=5.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"setuptools",
+"sortedcontainers !=2.0.0,!=2.0.1",
+"tblib >=1.6.0",
+"toolz >=0.8.2",
+"tornado >=6.0.3",
+"zict >=0.1.3"
+],
+"license":"BSD-3-Clause",
+"name":"distributed",
+"sha256":"04878e8eae26753329763c0f4b9f81ff27c071099f2390af71b7e6cb79978506",
+"size":1172289,
+"timestamp":1620931913100,
 "version":"2021.4.1"
 },
 "django-3.0.6-py36h9f0ad1d_0.tar.bz2":{
@@ -51981,7 +52119,7 @@
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "scalapack"
 ],
 "license":"MPL-2.0",
@@ -55237,7 +55375,11 @@
 "build":"h12068cf_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.0"
+"llvmdev   12.0.0",
+"libclang 12.0.0.*",
+"clang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm-tools 12.0.0.*"
 ],
 "depends":[
 "libllvm12 12.0.0 h6c99497_0",
@@ -55254,7 +55396,11 @@
 "build":"h12068cf_1",
 "build_number":1,
 "constrains":[
-"llvmdev   12.0.0"
+"llvmdev   12.0.0",
+"libclang 12.0.0.*",
+"clang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm-tools 12.0.0.*"
 ],
 "depends":[
 "libllvm12 12.0.0 h6c99497_1",
@@ -55303,7 +55449,11 @@
 "build":"h6c99497_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.0"
+"llvmdev   12.0.0",
+"libclang 12.0.0.*",
+"clang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*"
 ],
 "depends":[
 "libgcc-ng >=8.4.0",
@@ -55322,7 +55472,11 @@
 "build":"h6c99497_1",
 "build_number":1,
 "constrains":[
-"llvmdev   12.0.0"
+"llvmdev   12.0.0",
+"libclang 12.0.0.*",
+"clang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*"
 ],
 "depends":[
 "libgcc-ng >=8.4.0",
@@ -55412,6 +55566,13 @@
 "llvmdev-12.0.0-h6c99497_0.tar.bz2":{
 "build":"h6c99497_0",
 "build_number":0,
+"constrains":[
+"libclang 12.0.0.*",
+"clang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*"
+],
 "depends":[
 "libgcc-ng >=8.4.0",
 "libllvm12 12.0.0 h6c99497_0",
@@ -55429,6 +55590,13 @@
 "llvmdev-12.0.0-h6c99497_1.tar.bz2":{
 "build":"h6c99497_1",
 "build_number":1,
+"constrains":[
+"libclang 12.0.0.*",
+"clang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*"
+],
 "depends":[
 "libgcc-ng >=8.4.0",
 "libllvm12 12.0.0 h6c99497_1",
@@ -58946,6 +59114,20 @@
 "size":85902,
 "timestamp":1556338047797,
 "version":"4.3.0"
+},
+"moreutils-0.65-h5f62468_1.tar.bz2":{
+"build":"h5f62468_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"perl"
+],
+"license":"GPL-2.0-only",
+"name":"moreutils",
+"sha256":"9c3d1c310087e32c8ab0e804bf83d4ab638cca475519dd20b4f8e36b9695cd74",
+"size":52497,
+"timestamp":1620932254329,
+"version":"0.65"
 },
 "mpb-1.11.1-mpi_mpich_h7462faf_2.tar.bz2":{
 "build":"mpi_mpich_h7462faf_2",
