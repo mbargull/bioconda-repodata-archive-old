@@ -39881,6 +39881,19 @@
 "timestamp":1620862357933,
 "version":"0.2"
 },
+"libad9361-iio-0.2-h9ae8fd0_2.tar.bz2":{
+"build":"h9ae8fd0_2",
+"build_number":2,
+"depends":[
+"libiio >=0.21,<0.22.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libad9361-iio",
+"requires":[],
+"size":106418,
+"timestamp":1620938522503,
+"version":"0.2"
+},
 "libaec-1.0.4-h9f76cd9_1.tar.bz2":{
 "build":"h9f76cd9_1",
 "build_number":1,
@@ -43401,6 +43414,20 @@
 "timestamp":1620846423095,
 "version":"0.21"
 },
+"libiio-0.21-hce30654_6.tar.bz2":{
+"build":"hce30654_6",
+"build_number":6,
+"depends":[
+"libiio-c 0.21 h3188beb_6",
+"pylibiio 0.21 py_6"
+],
+"license":"LGPL-2.1-or-later AND GPL-3.0-or-later",
+"name":"libiio",
+"requires":[],
+"size":18576,
+"timestamp":1620939046359,
+"version":"0.21"
+},
 "libiio-c-0.21-h3188beb_5.tar.bz2":{
 "build":"h3188beb_5",
 "build_number":5,
@@ -43416,6 +43443,23 @@
 "requires":[],
 "size":112437,
 "timestamp":1620846327400,
+"version":"0.21"
+},
+"libiio-c-0.21-h3188beb_6.tar.bz2":{
+"build":"h3188beb_6",
+"build_number":6,
+"constrains":[
+"__osx >=11.0"
+],
+"depends":[
+"libusb >=1.0.24,<2.0a0",
+"libxml2 >=2.9.11,<2.10.0a0"
+],
+"license":"LGPL-2.1-or-later AND GPL-3.0-or-later",
+"name":"libiio-c",
+"requires":[],
+"size":112337,
+"timestamp":1620938945464,
 "version":"0.21"
 },
 "libjpeg-turbo-2.0.5-h27ca646_0.tar.bz2":{
@@ -82342,6 +82386,22 @@
 "size":63230,
 "timestamp":1620839021732,
 "version":"20.10.0"
+},
+"soapysdr-module-plutosdr-0.2.1-h1c51a56_2.tar.bz2":{
+"build":"h1c51a56_2",
+"build_number":2,
+"depends":[
+"libad9361-iio >=0.2,<0.3.0a0",
+"libcxx >=11.1.0",
+"libiio >=0.21,<0.22.0a0",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"soapysdr-module-plutosdr",
+"requires":[],
+"size":47219,
+"timestamp":1620937478280,
+"version":"0.2.1"
 },
 "soapysdr-module-remote-0.5.2-h4306ade_2.tar.bz2":{
 "build":"h4306ade_2",
