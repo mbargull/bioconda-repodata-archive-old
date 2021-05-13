@@ -75593,6 +75593,56 @@
 "timestamp":1618994652419,
 "version":"2021.03.1"
 },
+"rdkit-2021.03.2-py38hbcbf861_0.tar.bz2":{
+"build":"py38hbcbf861_0",
+"build_number":0,
+"depends":[
+"boost >=1.74.0,<1.74.1.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libcxx >=11.1.0",
+"matplotlib-base",
+"numpy >=1.19.5,<2.0a0",
+"pandas",
+"pillow",
+"pycairo",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"reportlab",
+"sqlalchemy"
+],
+"license":"BSD-3-Clause",
+"name":"rdkit",
+"requires":[],
+"size":37829081,
+"timestamp":1620894973770,
+"version":"2021.03.2"
+},
+"rdkit-2021.03.2-py39h29b70d0_0.tar.bz2":{
+"build":"py39h29b70d0_0",
+"build_number":0,
+"depends":[
+"boost >=1.74.0,<1.74.1.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libcxx >=11.1.0",
+"matplotlib-base",
+"numpy >=1.19.5,<2.0a0",
+"pandas",
+"pillow",
+"pycairo",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"reportlab",
+"sqlalchemy"
+],
+"license":"BSD-3-Clause",
+"name":"rdkit",
+"requires":[],
+"size":37743740,
+"timestamp":1620894737983,
+"version":"2021.03.2"
+},
 "rdkit-dev-2021.03.1-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
@@ -75605,6 +75655,19 @@
 "size":5383,
 "timestamp":1618994722255,
 "version":"2021.03.1"
+},
+"rdkit-dev-2021.03.2-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"rdkit"
+],
+"license":"BSD-3-Clause",
+"name":"rdkit-dev",
+"requires":[],
+"size":5378,
+"timestamp":1620894784666,
+"version":"2021.03.2"
 },
 "re2-2020.08.01-hc88da5d_0.tar.bz2":{
 "build":"hc88da5d_0",
