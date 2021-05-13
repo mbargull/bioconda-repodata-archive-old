@@ -18184,6 +18184,21 @@
 "timestamp":1620895292764,
 "version":"8.0.0"
 },
+"click-8.0.0-py36he7cccf2_0.tar.bz2":{
+"build":"py36he7cccf2_0",
+"build_number":0,
+"depends":[
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73"
+],
+"license":"BSD-3-Clause",
+"name":"click",
+"sha256":"7cef97a24fc8002823152c42a787c245a09bf2f1ca823e22f531e9db495bcc27",
+"size":147858,
+"timestamp":1620904218122,
+"version":"8.0.0"
+},
 "click-8.0.0-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
@@ -18196,6 +18211,21 @@
 "sha256":"e51b848360c158add124ad6953c559fcfa6415b5054a6e10567e9d6c27e401d6",
 "size":147622,
 "timestamp":1620895327868,
+"version":"8.0.0"
+},
+"click-8.0.0-py37hadc05a3_0.tar.bz2":{
+"build":"py37hadc05a3_0",
+"build_number":0,
+"depends":[
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"BSD-3-Clause",
+"name":"click",
+"sha256":"876e3a4cf5996822ff65c7d43c61c00711bcc6390496dd0e8f3b672662441157",
+"size":147869,
+"timestamp":1620900348888,
 "version":"8.0.0"
 },
 "click-8.0.0-py38hf8b3453_0.tar.bz2":{
@@ -48196,6 +48226,22 @@
 "size":127462,
 "timestamp":1589147387819,
 "version":"4.5.0"
+},
+"libcups-2.2.12-h9498048_2.tar.bz2":{
+"build":"h9498048_2",
+"build_number":2,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.0-or-later",
+"name":"libcups",
+"sha256":"873a19214d0aa6a7f2b2b8e1efd1581614e4221822ea14777b555713dacb65f6",
+"size":6733288,
+"timestamp":1620904694994,
+"version":"2.2.12"
 },
 "libcups-2.2.12-hd4bece1_1.tar.bz2":{
 "build":"hd4bece1_1",
@@ -97691,85 +97737,7 @@
 "timestamp":1588780195368,
 "version":"5.0.0"
 },
-"rdkit-2021.03.1-py36ha5e65f9_0.tar.bz2":{
-"build":"py36ha5e65f9_0",
-"build_number":0,
-"depends":[
-"boost >=1.74.0,<1.74.1.0a0",
-"cairo >=1.16.0,<1.17.0a0",
-"freetype >=2.10.4,<3.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"numpy >=1.17.5,<2.0a0",
-"pandas",
-"pillow",
-"pycairo",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"reportlab",
-"sqlalchemy"
-],
-"license":"BSD-3-Clause",
-"name":"rdkit",
-"sha256":"56cbebe4ab94406512b279564a1b79ed2d7ab22d27c156259db0ff211e3534f4",
-"size":40106066,
-"timestamp":1616934135726,
-"version":"2021.03.1"
-},
-"rdkit-2021.03.1-py37hcc0d4c2_0.tar.bz2":{
-"build":"py37hcc0d4c2_0",
-"build_number":0,
-"depends":[
-"boost >=1.74.0,<1.74.1.0a0",
-"cairo >=1.16.0,<1.17.0a0",
-"freetype >=2.10.4,<3.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"numpy >=1.17.5,<2.0a0",
-"pandas",
-"pillow",
-"pycairo",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"reportlab",
-"sqlalchemy"
-],
-"license":"BSD-3-Clause",
-"name":"rdkit",
-"sha256":"8b4f8c66e194771230ae00af30e0947dfe34419faec7784e2ad98f3934e1ec72",
-"size":40052826,
-"timestamp":1616932249948,
-"version":"2021.03.1"
-},
-"rdkit-2021.03.1-py38h4489ad2_0.tar.bz2":{
-"build":"py38h4489ad2_0",
-"build_number":0,
-"depends":[
-"boost >=1.74.0,<1.74.1.0a0",
-"cairo >=1.16.0,<1.17.0a0",
-"freetype >=2.10.4,<3.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"numpy >=1.17.5,<2.0a0",
-"pandas",
-"pillow",
-"pycairo",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"reportlab",
-"sqlalchemy"
-],
-"license":"BSD-3-Clause",
-"name":"rdkit",
-"sha256":"181710fe663e2d8fed8ed621a34d1508042b3abbbfb9e38115a4d2b67edfdbee",
-"size":40147901,
-"timestamp":1616934260403,
-"version":"2021.03.1"
-},
-"rdkit-2021.03.1-py39h584b56c_0.tar.bz2":{
+"rdkit-2021.03.2-py39h584b56c_0.tar.bz2":{
 "build":"py39h584b56c_0",
 "build_number":0,
 "depends":[
@@ -97790,12 +97758,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"rdkit",
-"sha256":"1f14d26b0a93f6aa9e896961ef210b992a775605f5afe1737a467aac90b5a0ed",
-"size":40261113,
-"timestamp":1616936018145,
-"version":"2021.03.1"
+"sha256":"7a00dd42b1469bca7de5965d385e6880612c863e1997750fd439a1f7b0adfa83",
+"size":40157605,
+"timestamp":1620902874984,
+"version":"2021.03.2"
 },
-"rdkit-dev-2021.03.1-ha3edaa6_0.tar.bz2":{
+"rdkit-dev-2021.03.2-ha3edaa6_0.tar.bz2":{
 "build":"ha3edaa6_0",
 "build_number":0,
 "depends":[
@@ -97803,10 +97771,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"rdkit-dev",
-"sha256":"45449aeb969417bb09ce3c956c4843955bb07e101a2651ad0121c83c78b8cf87",
-"size":5327,
-"timestamp":1616932457693,
-"version":"2021.03.1"
+"sha256":"a9fa7d7d3be506aa3eb63e40957f267dde15d5d8a2f566c17721d0af92749b5f",
+"size":5364,
+"timestamp":1620903050684,
+"version":"2021.03.2"
 },
 "re2-2021.04.01-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
