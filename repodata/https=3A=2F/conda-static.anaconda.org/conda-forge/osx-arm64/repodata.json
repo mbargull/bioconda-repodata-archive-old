@@ -22554,6 +22554,20 @@
 "timestamp":1609539272814,
 "version":"6.2.32"
 },
+"db-6.2.32-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libdb 6.2.32 hbdafb3b_0"
+],
+"license":"AGPL-3.0-only",
+"name":"db",
+"sha256":"6b86efab024ed821bf061a0a5ddd111e087725168736d4ae81bcf12e2c6702bc",
+"size":18244,
+"timestamp":1620868659804,
+"version":"6.2.32"
+},
 "dbus-1.13.6-h7e028eb_2.tar.bz2":{
 "build":"h7e028eb_2",
 "build_number":2,
@@ -37722,6 +37736,122 @@
 "timestamp":1619053503249,
 "version":"1.6.4"
 },
+"jupyter_server-1.7.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"anyio >=3.0.1,<4",
+"argon2-cffi",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.6.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1",
+"websocket-client"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"48a856a2a22a9622c701fb1a32372e732e8f1e40ab4f4a2cb84492368325d6c8",
+"size":438157,
+"timestamp":1620869114406,
+"version":"1.7.0"
+},
+"jupyter_server-1.7.0-py38h10201cd_1.tar.bz2":{
+"build":"py38h10201cd_1",
+"build_number":1,
+"depends":[
+"anyio >=3.0.1,<4",
+"argon2-cffi",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.6.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1",
+"websocket-client"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"d4908db16c8b6beeaf602b39241af5d10d071d87095fed6903ce8b057e3f5f0a",
+"size":451511,
+"timestamp":1620871041403,
+"version":"1.7.0"
+},
+"jupyter_server-1.7.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"anyio >=3.0.1,<4",
+"argon2-cffi",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.6.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1",
+"websocket-client"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"74c6585b76b7934a85eca1cef354035b355291725da41c939a10b6a61aae4d67",
+"size":436181,
+"timestamp":1620869093086,
+"version":"1.7.0"
+},
+"jupyter_server-1.7.0-py39h2804cbe_1.tar.bz2":{
+"build":"py39h2804cbe_1",
+"build_number":1,
+"depends":[
+"anyio >=3.0.1,<4",
+"argon2-cffi",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.6.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1",
+"websocket-client"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"9fd7cdd27e749ec4b19d4e061c0887659dab3c72acdb202bea1f27a1ee393554",
+"size":443476,
+"timestamp":1620871021703,
+"version":"1.7.0"
+},
 "jxrlib-1.1-h27ca646_2.tar.bz2":{
 "build":"h27ca646_2",
 "build_number":2,
@@ -40853,6 +40983,19 @@
 "sha256":"4b4eac8b2d8d99f2694764c907b7a10e07524ab392397d0c8962986509654c69",
 "size":23909532,
 "timestamp":1609539218043,
+"version":"6.2.32"
+},
+"libdb-6.2.32-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"AGPL-3.0-only",
+"name":"libdb",
+"sha256":"3312ddbf6e39730cf047abbfaadc83682f2e6f7db2928f0590a1c19f86be0e54",
+"size":23936115,
+"timestamp":1620868603289,
 "version":"6.2.32"
 },
 "libdeflate-1.7-h27ca646_1.tar.bz2":{
@@ -49291,6 +49434,34 @@
 "size":27141,
 "timestamp":1602267533821,
 "version":"1.1.1"
+},
+"markupsafe-2.0.0-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"markupsafe",
+"sha256":"0fe4fa8ba370810b4700def655dc4e7ca0a905a20af878e594eb15bf24601cd6",
+"size":22147,
+"timestamp":1620868621136,
+"version":"2.0.0"
+},
+"markupsafe-2.0.0-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"markupsafe",
+"sha256":"aa3a2ac56276ff31121f060b26000b16eb7ff9739deb0c0409587ba5404472a9",
+"size":22106,
+"timestamp":1620868620824,
+"version":"2.0.0"
 },
 "matplotlib-3.3.2-py38h150bfb4_1.tar.bz2":{
 "build":"py38h150bfb4_1",
@@ -61579,6 +61750,38 @@
 "sha256":"16467b8b173b00f4d6816185a1d2a829732b339cc2fc578d74bba0e8dd18864b",
 "size":156379,
 "timestamp":1614021404015,
+"version":"2.8.6"
+},
+"psycopg2-2.8.6-py38hbfad3ef_3.tar.bz2":{
+"build":"py38hbfad3ef_3",
+"build_number":3,
+"depends":[
+"libpq >=13.2,<14.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"psycopg2",
+"sha256":"502c2f5938f5f61f1bc6d8be59d423e8c430546450290e3c57353761a1ba37c1",
+"size":156999,
+"timestamp":1620868978963,
+"version":"2.8.6"
+},
+"psycopg2-2.8.6-py39h082f845_3.tar.bz2":{
+"build":"py39h082f845_3",
+"build_number":3,
+"depends":[
+"libpq >=13.2,<14.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"psycopg2",
+"sha256":"131453b8d658358096708e2c7b3702cbd33ad26e8eaca2d1374fb644df3b79d4",
+"size":156823,
+"timestamp":1620868946183,
 "version":"2.8.6"
 },
 "psycopg2-2.8.6-py39h0bed37e_1.tar.bz2":{
@@ -84334,6 +84537,22 @@
 "size":26930,
 "timestamp":1617048930022,
 "version":"0.9.4"
+},
+"terminado-0.9.5-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"ptyprocess",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tornado >=4"
+],
+"license":"BSD-2-Clause",
+"name":"terminado",
+"sha256":"fe2f91b7745adab3131dff2c7a33581610715cb4f2ffad9d4cac57bb7561e134",
+"size":26985,
+"timestamp":1620873217385,
+"version":"0.9.5"
 },
 "tesseract-4.1.1-h51a4805_4.tar.bz2":{
 "build":"h51a4805_4",
