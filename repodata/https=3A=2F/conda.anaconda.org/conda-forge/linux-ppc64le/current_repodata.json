@@ -20021,6 +20021,57 @@
 "timestamp":1617468785823,
 "version":"3.2.1"
 },
+"constructor-3.2.1-py37h35e4cab_1.tar.bz2":{
+"build":"py37h35e4cab_1",
+"build_number":1,
+"depends":[
+"conda >=4.6",
+"conda-standalone",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"ruamel_yaml >=0.11.14,<0.16"
+],
+"license":"BSD-3-Clause",
+"name":"constructor",
+"sha256":"6abfd8a51d9d8e09fd69128b596126b71e1cffa598fd5271ae3837aed3ae7792",
+"size":165678,
+"timestamp":1620921353597,
+"version":"3.2.1"
+},
+"constructor-3.2.1-py38hf8b3453_1.tar.bz2":{
+"build":"py38hf8b3453_1",
+"build_number":1,
+"depends":[
+"conda >=4.6",
+"conda-standalone",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"ruamel_yaml >=0.11.14,<0.16"
+],
+"license":"BSD-3-Clause",
+"name":"constructor",
+"sha256":"6c0beb517431defbec18c72d9840b5c50767c1f2b7d8383b8ef2c063829e74cf",
+"size":165783,
+"timestamp":1620921447726,
+"version":"3.2.1"
+},
+"constructor-3.2.1-py39hc1b9086_1.tar.bz2":{
+"build":"py39hc1b9086_1",
+"build_number":1,
+"depends":[
+"conda >=4.6",
+"conda-standalone",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"ruamel_yaml >=0.11.14,<0.16"
+],
+"license":"BSD-3-Clause",
+"name":"constructor",
+"sha256":"599e3974e02d5fb7b12b0ae7139ce38a7a0746799b5cc861386880722dbdd341",
+"size":165836,
+"timestamp":1620921469643,
+"version":"3.2.1"
+},
 "coreutils-8.31-h6eb9509_0.tar.bz2":{
 "build":"h6eb9509_0",
 "build_number":0,
@@ -22258,6 +22309,24 @@
 "size":723695,
 "timestamp":1604337309595,
 "version":"1.13.6"
+},
+"dcap-2.47.12-h3d6c4c6_3.tar.bz2":{
+"build":"h3d6c4c6_3",
+"build_number":3,
+"depends":[
+"gct >=6.2.1550507116,<6.3.0a0",
+"krb5 >=1.19.1,<1.20.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.0-only",
+"name":"dcap",
+"sha256":"ed79cbf3d35f8d973df873cebe23ed298762af7abd210ffeae8e1ca0f093528a",
+"size":330462,
+"timestamp":1620920996799,
+"version":"2.47.12"
 },
 "dcap-2.47.12-hb757787_2.tar.bz2":{
 "build":"hb757787_2",
@@ -41536,7 +41605,7 @@
 "timestamp":1589805208588,
 "version":"1.5.0"
 },
-"importlib_resources-5.1.2-py36h270354c_0.tar.bz2":{
+"importlib_resources-5.1.3-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -41547,12 +41616,12 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib_resources",
-"sha256":"75825efb896d8b1097b855a7c4fd7b9b21678986d4e3f9ffda4499ebe59d6b78",
-"size":37584,
-"timestamp":1614893199432,
-"version":"5.1.2"
+"sha256":"665cab5d69ffdfa70cfea8d407c8c574e1ceafc66678925529ea1c4738b8c142",
+"size":38994,
+"timestamp":1620920950561,
+"version":"5.1.3"
 },
-"importlib_resources-5.1.2-py36he7cccf2_0.tar.bz2":{
+"importlib_resources-5.1.3-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "depends":[
@@ -41564,12 +41633,12 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib_resources",
-"sha256":"fc68edd9e2562e02b382b3db6e7fd1ea79faf6fd93d1466b45fdb82ca1f81b26",
-"size":37923,
-"timestamp":1614893301238,
-"version":"5.1.2"
+"sha256":"c3f3400d17ebccb18e70ce475ce1390fa459c330036fa7c843ce0ab7e44092ca",
+"size":39281,
+"timestamp":1620920904038,
+"version":"5.1.3"
 },
-"importlib_resources-5.1.2-py37h35e4cab_0.tar.bz2":{
+"importlib_resources-5.1.3-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -41580,29 +41649,29 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib_resources",
-"sha256":"90560b56bf6e3dda0b2d8bd13c7ed93fd4950a8b56ce83c6fda26b2cbde211fe",
-"size":37712,
-"timestamp":1614893280321,
-"version":"5.1.2"
+"sha256":"384db5f540bf5fd4d1fbb0470457eb555bff5b082ad1d1ea1df27d2ab63eb623",
+"size":39053,
+"timestamp":1620920668349,
+"version":"5.1.3"
 },
-"importlib_resources-5.1.2-py37hadc05a3_0.tar.bz2":{
+"importlib_resources-5.1.3-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
 "importlib_metadata",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "zipp >=0.4"
 ],
 "license":"Apache-2.0",
 "name":"importlib_resources",
-"sha256":"b86fb7201e88f1f3e81e920aaf4c58eee84369d0a70c9577dd2fad1a874749e7",
-"size":37972,
-"timestamp":1614893281377,
-"version":"5.1.2"
+"sha256":"85786ecc1cffcc2eb19498b8b4b590349cda42ea1d90c3369e860b5eec6c5f38",
+"size":39341,
+"timestamp":1620920958629,
+"version":"5.1.3"
 },
-"importlib_resources-5.1.2-py38hf8b3453_0.tar.bz2":{
+"importlib_resources-5.1.3-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -41611,12 +41680,12 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib_resources",
-"sha256":"e3e9c0ed162fcaa8347425621effe65a420317825ea3d8cf5c1af5b4eada488b",
-"size":38001,
-"timestamp":1614893094315,
-"version":"5.1.2"
+"sha256":"f14583b4be2671600d621cdf0fc7ca2ff9f6b3419aedb2645a3ab964cf1aec98",
+"size":39405,
+"timestamp":1620920565078,
+"version":"5.1.3"
 },
-"importlib_resources-5.1.2-py39hc1b9086_0.tar.bz2":{
+"importlib_resources-5.1.3-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -41625,10 +41694,10 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib_resources",
-"sha256":"71c52dd8193bc4979a6574a6edccd238da24dc66bf33607e4200f5a91651f42d",
-"size":38105,
-"timestamp":1614892999727,
-"version":"5.1.2"
+"sha256":"7a0e00c16f1086c9050beb0c3fd2c32e30a01887426e41b8bd2762012f409d6f",
+"size":39500,
+"timestamp":1620920864595,
+"version":"5.1.3"
 },
 "inflect-5.3.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
