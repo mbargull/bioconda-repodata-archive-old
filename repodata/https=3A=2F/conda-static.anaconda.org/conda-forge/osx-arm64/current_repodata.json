@@ -3043,16 +3043,16 @@
 "timestamp":1606235187035,
 "version":"0.0.14"
 },
-"bat-0.18.0-h6ee1f66_0.tar.bz2":{
-"build":"h6ee1f66_0",
+"bat-0.18.1-h822aac1_0.tar.bz2":{
+"build":"h822aac1_0",
 "build_number":0,
 "depends":[],
 "license":"MIT",
 "name":"bat",
-"sha256":"eb655302166e7c2814c1849f265578f17980c176efb64f8306fd8ff15bd3e15b",
-"size":2270042,
-"timestamp":1614560073817,
-"version":"0.18.0"
+"sha256":"8772da60f029463af8bebd4079430da92953768b8d5f5ac1f9d7c6bed9e19dce",
+"size":2264210,
+"timestamp":1620864275576,
+"version":"0.18.1"
 },
 "bazel-4.0.0-h36652e0_2.tar.bz2":{
 "build":"h36652e0_2",
@@ -14088,23 +14088,40 @@
 "timestamp":1605658716250,
 "version":"1.17.2"
 },
-"krb5-static-1.17.2-h17618d6_0.tar.bz2":{
-"build":"h17618d6_0",
+"krb5-1.19.1-hd92b7a7_0.tar.bz2":{
+"build":"hd92b7a7_0",
 "build_number":0,
 "depends":[
-"krb5 1.17.2 h17618d6_0",
-"libcxx >=11.0.0",
+"libcxx >=11.1.0",
 "libedit >=3.1.20191231,<3.2.0a0",
 "libedit >=3.1.20191231,<4.0a0",
-"openssl >=1.1.1h,<1.1.2a",
+"openssl >=1.1.1k,<1.1.2a",
+"tk >=8.6.10,<8.7.0a0"
+],
+"license":"MIT",
+"name":"krb5",
+"sha256":"fefef533f0c7dcff755943f78d408e98f4250c0dbb22b98c74c705a09c0ea1ab",
+"size":1309946,
+"timestamp":1620865652558,
+"version":"1.19.1"
+},
+"krb5-static-1.19.1-hd92b7a7_0.tar.bz2":{
+"build":"hd92b7a7_0",
+"build_number":0,
+"depends":[
+"krb5 1.19.1 hd92b7a7_0",
+"libcxx >=11.1.0",
+"libedit >=3.1.20191231,<3.2.0a0",
+"libedit >=3.1.20191231,<4.0a0",
+"openssl >=1.1.1k,<1.1.2a",
 "tk >=8.6.10,<8.7.0a0"
 ],
 "license":"MIT",
 "name":"krb5-static",
-"sha256":"ee695f74ddf78bcd4f417658c95bcb1ab2918d51609813e544e6c8e9294d554a",
-"size":939710,
-"timestamp":1605658946608,
-"version":"1.17.2"
+"sha256":"b95e642bdc922dc6f8cc0d001e792daa7871a1e88df0ad1c183859005c07f32a",
+"size":929397,
+"timestamp":1620865840919,
+"version":"1.19.1"
 },
 "lame-3.100-h27ca646_1001.tar.bz2":{
 "build":"h27ca646_1001",

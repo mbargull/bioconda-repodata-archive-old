@@ -11221,7 +11221,7 @@
 "timestamp":1600222741336,
 "version":"5.0.018"
 },
-"bat-0.18.0-ha57a3a6_0.tar.bz2":{
+"bat-0.18.1-ha57a3a6_0.tar.bz2":{
 "build":"ha57a3a6_0",
 "build_number":0,
 "depends":[
@@ -11229,10 +11229,10 @@
 ],
 "license":"MIT",
 "name":"bat",
-"sha256":"57b72ab0c8e407fc7b6ea21506f0dd7ddf16dd0630dced1ec5e3a510654b2ba2",
-"size":2545603,
-"timestamp":1614560007575,
-"version":"0.18.0"
+"sha256":"b4e9953a05147ab3d35a23afbba8a0873d8d579a6fdbb1a7146fd6e818abe0e2",
+"size":2571756,
+"timestamp":1620864578552,
+"version":"0.18.1"
 },
 "bazel-4.0.0-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
@@ -45371,24 +45371,42 @@
 "timestamp":1605660712084,
 "version":"1.17.2"
 },
-"krb5-static-1.17.2-h2004cfc_0.tar.bz2":{
-"build":"h2004cfc_0",
+"krb5-1.19.1-haf43566_0.tar.bz2":{
+"build":"haf43566_0",
 "build_number":0,
 "depends":[
-"krb5 1.17.2 h2004cfc_0",
 "libedit >=3.1.20191231,<3.2.0a0",
 "libedit >=3.1.20191231,<4.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"openssl >=1.1.1h,<1.1.2a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"tk >=8.6.10,<8.7.0a0"
+],
+"license":"MIT",
+"name":"krb5",
+"sha256":"879b4b0dbdb1f017282cb499ec9a453c4126784ea6540db582e3b21d026c7996",
+"size":1693758,
+"timestamp":1620865625080,
+"version":"1.19.1"
+},
+"krb5-static-1.19.1-haf43566_0.tar.bz2":{
+"build":"haf43566_0",
+"build_number":0,
+"depends":[
+"krb5 1.19.1 haf43566_0",
+"libedit >=3.1.20191231,<3.2.0a0",
+"libedit >=3.1.20191231,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
 "tk >=8.6.10,<8.7.0a0"
 ],
 "license":"MIT",
 "name":"krb5-static",
-"sha256":"8f6fbadaa1c23bc73832d2ec79b7d2d2c2658741d5743dc17f328c925b0d4bff",
-"size":1132940,
-"timestamp":1605660866259,
-"version":"1.17.2"
+"sha256":"8ed74ec9e04d20edc56b51ee9caef4bf9552f9beeaa0f4e3ac85cd33d3b0e9f9",
+"size":1345650,
+"timestamp":1620865814212,
+"version":"1.19.1"
 },
 "lame-3.100-h14c3975_1001.tar.bz2":{
 "build":"h14c3975_1001",
@@ -109797,6 +109815,46 @@
 "timestamp":1614603090286,
 "version":"1.8.0"
 },
+"treelite-1.3.0-py36h090232a_0.tar.bz2":{
+"build":"py36h090232a_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex >=4.5",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"scipy"
+],
+"license":"Apache-2.0",
+"name":"treelite",
+"sha256":"d07bd3cbbc291714ea31632600d24bb4ce9ec4ed7637b98eea2ccf2ad2b2778d",
+"size":3062609,
+"timestamp":1620862879883,
+"version":"1.3.0"
+},
+"treelite-1.3.0-py36h9e91daa_0.tar.bz2":{
+"build":"py36h9e91daa_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex >=4.5",
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0",
+"numpy",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"scipy"
+],
+"license":"Apache-2.0",
+"name":"treelite",
+"sha256":"7ecc3480ebb029e2aedf4f1fa649c5c643a14b93606db6ecab242f95ddee0a9f",
+"size":3119137,
+"timestamp":1620862676687,
+"version":"1.3.0"
+},
 "treelite-1.3.0-py36ha9b4aa8_0.tar.bz2":{
 "build":"py36ha9b4aa8_0",
 "build_number":0,
@@ -109814,6 +109872,25 @@
 "sha256":"8099743020a96ddb7991cc15e25e2bd6c792797d4048eaf8a53fd5904c439f98",
 "size":3117847,
 "timestamp":1620862294940,
+"version":"1.3.0"
+},
+"treelite-1.3.0-py36hcbe17e8_0.tar.bz2":{
+"build":"py36hcbe17e8_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex >=4.5",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"scipy"
+],
+"license":"Apache-2.0",
+"name":"treelite",
+"sha256":"dfdf703eddaf99aff21401a009cc222a6310b7db7a129850ba9dd802cd392882",
+"size":3065714,
+"timestamp":1620862798802,
 "version":"1.3.0"
 },
 "treelite-1.3.0-py37h0dae0c2_0.tar.bz2":{
@@ -109853,6 +109930,26 @@
 "sha256":"0428c2b8326e1f5648510b93dc92fd497160d4627fef608b2c8b6b744ea8febd",
 "size":3085958,
 "timestamp":1620862570771,
+"version":"1.3.0"
+},
+"treelite-1.3.0-py37h1cab9d7_0.tar.bz2":{
+"build":"py37h1cab9d7_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex >=4.5",
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0",
+"numpy",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"scipy"
+],
+"license":"Apache-2.0",
+"name":"treelite",
+"sha256":"fa2018a51f6e14ab1245f0ece962ba3c53207f161b36f47e4c78a9aeb86c8cba",
+"size":3119537,
+"timestamp":1620862588586,
 "version":"1.3.0"
 },
 "treelite-1.3.0-py37haa818c6_0.tar.bz2":{
@@ -109910,6 +110007,25 @@
 "sha256":"e862e96f6c943e183c3793ae759cd3ab462680d70cccf97fbdd6ba0b90a4e7b1",
 "size":3114236,
 "timestamp":1620861937060,
+"version":"1.3.0"
+},
+"treelite-1.3.0-py39h2040943_0.tar.bz2":{
+"build":"py39h2040943_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex >=4.5",
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy"
+],
+"license":"Apache-2.0",
+"name":"treelite",
+"sha256":"04e95dad4a7aed2bef7cba102aacaaeb791f9f65ad8f8acb19e2651cec813ada",
+"size":3126702,
+"timestamp":1620862707809,
 "version":"1.3.0"
 },
 "treelite-1.3.0-py39h968280d_0.tar.bz2":{
