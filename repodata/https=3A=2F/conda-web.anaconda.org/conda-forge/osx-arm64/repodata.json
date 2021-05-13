@@ -8670,6 +8670,22 @@
 "timestamp":1620671999615,
 "version":"1.2.3"
 },
+"aws-c-auth-0.5.2-hb6344a0_0.tar.bz2":{
+"build":"hb6344a0_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.7,<0.5.8.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.12,<0.9.13.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"requires":[],
+"size":87658,
+"timestamp":1620932312524,
+"version":"0.5.2"
+},
 "aws-c-cal-0.4.5-h4a0ed9c_4.tar.bz2":{
 "build":"h4a0ed9c_4",
 "build_number":4,
@@ -23452,6 +23468,36 @@
 "timestamp":1619218961468,
 "version":"2021.4.1"
 },
+"distributed-2021.4.1-py38h10201cd_1.tar.bz2":{
+"build":"py38h10201cd_1",
+"build_number":1,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"click >=6.6,<8.0.0",
+"cloudpickle >=1.5.0",
+"cytoolz >=0.8.2",
+"dask-core >=2021.03.0",
+"msgpack-python >=0.6.0",
+"psutil >=5.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"setuptools",
+"sortedcontainers !=2.0.0,!=2.0.1",
+"tblib >=1.6.0",
+"toolz >=0.8.2",
+"tornado >=6.0.3",
+"zict >=0.1.3"
+],
+"license":"BSD-3-Clause",
+"name":"distributed",
+"requires":[],
+"size":1172572,
+"timestamp":1620931455524,
+"version":"2021.4.1"
+},
 "distributed-2021.4.1-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
@@ -23480,6 +23526,36 @@
 "requires":[],
 "size":1174229,
 "timestamp":1619218946542,
+"version":"2021.4.1"
+},
+"distributed-2021.4.1-py39h2804cbe_1.tar.bz2":{
+"build":"py39h2804cbe_1",
+"build_number":1,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"click >=6.6,<8.0.0",
+"cloudpickle >=1.5.0",
+"cytoolz >=0.8.2",
+"dask-core >=2021.03.0",
+"msgpack-python >=0.6.0",
+"psutil >=5.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"setuptools",
+"sortedcontainers !=2.0.0,!=2.0.1",
+"tblib >=1.6.0",
+"toolz >=0.8.2",
+"tornado >=6.0.3",
+"zict >=0.1.3"
+],
+"license":"BSD-3-Clause",
+"name":"distributed",
+"requires":[],
+"size":1170002,
+"timestamp":1620931439612,
 "version":"2021.4.1"
 },
 "docker-py-4.4.0-py38h10201cd_0.tar.bz2":{
@@ -52273,6 +52349,19 @@
 "size":52678,
 "timestamp":1610147647705,
 "version":"4.0.3"
+},
+"moreutils-0.65-h9b22ae9_1.tar.bz2":{
+"build":"h9b22ae9_1",
+"build_number":1,
+"depends":[
+"perl"
+],
+"license":"GPL-2.0-only",
+"name":"moreutils",
+"requires":[],
+"size":42507,
+"timestamp":1620932292181,
+"version":"0.65"
 },
 "mpc-1.1.0-hb760245_1009.tar.bz2":{
 "build":"hb760245_1009",
