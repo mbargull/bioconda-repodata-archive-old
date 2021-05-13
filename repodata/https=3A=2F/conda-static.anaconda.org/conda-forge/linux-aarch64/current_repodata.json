@@ -30297,9 +30297,9 @@
 "timestamp":1605238184369,
 "version":"2.1.0b1"
 },
-"gmsh-4.6.0-h92c2329_1.tar.bz2":{
-"build":"h92c2329_1",
-"build_number":1,
+"gmsh-4.8.4-h92c2329_0.tar.bz2":{
+"build":"h92c2329_0",
+"build_number":0,
 "depends":[
 "gmp >=6.2.1,<7.0a0",
 "jpeg >=9d,<10a",
@@ -30319,37 +30319,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"gmsh",
-"sha256":"214f88e5ab9677da4abacc96a94c649ffb5ef84f638de9744669265fa054f875",
-"size":80399007,
-"timestamp":1617984270640,
-"version":"4.6.0"
-},
-"gmsh-4.6.0-h92c2329_2.tar.bz2":{
-"build":"h92c2329_2",
-"build_number":2,
-"depends":[
-"gmp >=6.2.1,<7.0a0",
-"jpeg >=9d,<10a",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libglu",
-"liblapack >=3.8.0,<4.0a0",
-"libpng >=1.6.37,<1.7.0a0",
-"libstdcxx-ng >=9.3.0",
-"occt >=7.5.1,<7.6.0a0",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxfixes",
-"xorg-libxmu",
-"xorg-libxrender",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"gmsh",
-"sha256":"403e8ae581354bbf8cfc0cfe053c814787b742e214e34f6101d4d7c73cfcf846",
-"size":80204225,
-"timestamp":1619041918307,
-"version":"4.6.0"
+"sha256":"92e0015d477f62d24718f61aa245786fa2f666209350379b99fe365baf6d9b6e",
+"size":113383906,
+"timestamp":1620906405341,
+"version":"4.8.4"
 },
 "gn-0.0.20200909083119-h01db608_2.tar.bz2":{
 "build":"h01db608_2",
@@ -46630,6 +46603,22 @@
 "size":120052,
 "timestamp":1614102548125,
 "version":"4.5.0"
+},
+"libcups-2.2.12-h5ca083f_2.tar.bz2":{
+"build":"h5ca083f_2",
+"build_number":2,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.0-or-later",
+"name":"libcups",
+"sha256":"3407ca5c6fcf4895fe2b230a8c9db78c4ce757477b7083abed13504b2c324d84",
+"size":6676121,
+"timestamp":1620904882014,
+"version":"2.2.12"
 },
 "libcups-2.2.12-h6ffcb39_0.tar.bz2":{
 "build":"h6ffcb39_0",
@@ -64198,30 +64187,9 @@
 "timestamp":1575299164350,
 "version":"2.49"
 },
-"occt-7.5.1-he8282bd_1.tar.bz2":{
-"build":"he8282bd_1",
-"build_number":1,
-"depends":[
-"fontconfig >=2.13.1,<3.0a0",
-"freeimage >=3.18.0,<3.19.0a0",
-"freetype >=2.10.4,<3.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"rapidjson",
-"tbb >=2020.2,<2021.0.0a0",
-"vtk >=9.0.1,<9.0.2.0a0",
-"xorg-libxt"
-],
-"license":"LGPL-2.1",
-"name":"occt",
-"sha256":"a256ee77e071853b59129d8dac3825f119e32f2c2f1cc6fcfe2f11a35ecfc669",
-"size":28149227,
-"timestamp":1616980842258,
-"version":"7.5.1"
-},
-"occt-7.5.1-he8282bd_2.tar.bz2":{
-"build":"he8282bd_2",
-"build_number":2,
+"occt-7.5.2-he8282bd_0.tar.bz2":{
+"build":"he8282bd_0",
+"build_number":0,
 "depends":[
 "fontconfig >=2.13.1,<3.0a0",
 "fonts-conda-ecosystem",
@@ -64236,10 +64204,10 @@
 ],
 "license":"LGPL-2.1-only",
 "name":"occt",
-"sha256":"462751949034deb8b7252bfcc0588a2ebebee923896e6b3aaadc2ab5cb20b533",
-"size":28129319,
-"timestamp":1619021994505,
-"version":"7.5.1"
+"sha256":"27d6e2c949ddfdab87f98ace41ed4d0e6b7f77cf8e34e4ad9d9e6eabe6b1a67b",
+"size":28056626,
+"timestamp":1620907666944,
+"version":"7.5.2"
 },
 "ocl-icd-2.3.0-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",

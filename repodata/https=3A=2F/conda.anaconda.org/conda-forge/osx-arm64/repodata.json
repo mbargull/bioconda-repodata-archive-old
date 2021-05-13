@@ -28740,6 +28740,26 @@
 "timestamp":1619042354444,
 "version":"4.6.0"
 },
+"gmsh-4.8.4-h79b900e_0.tar.bz2":{
+"build":"h79b900e_0",
+"build_number":0,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"jpeg >=9d,<10a",
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"occt >=7.5.1,<7.6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"gmsh",
+"sha256":"3da7d1de25fd49b93feb4bcdc27de83a97c3d801d7c2008f2af5d77691eba4fe",
+"size":9690862,
+"timestamp":1620907441252,
+"version":"4.8.4"
+},
 "gn-0.0.20200909083119-hbdafb3b_2.tar.bz2":{
 "build":"hbdafb3b_2",
 "build_number":2,
@@ -59832,6 +59852,27 @@
 "timestamp":1618572255208,
 "version":"2.7.1"
 },
+"plumed-2.7.1-nompi_hc3d2076_1.tar.bz2":{
+"build":"nompi_hc3d2076_1",
+"build_number":1,
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"gawk",
+"gsl >=2.6,<2.7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"llvm-openmp >=11.1.0",
+"xdrfile >=1.1.4,<1.1.5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-3.0",
+"name":"plumed",
+"sha256":"78addc8c738822d78ea9ddde7e257a57bc79f154f6ba4bcb0d4ce7807c3e2854",
+"size":2869805,
+"timestamp":1620906509474,
+"version":"2.7.1"
+},
 "pocl-1.6-h6ab694e_0.tar.bz2":{
 "build":"h6ab694e_0",
 "build_number":0,
@@ -70596,6 +70637,40 @@
 "size":54696,
 "timestamp":1615369538632,
 "version":"2019.1"
+},
+"pyqmix-2021.1.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"cffi",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"ruamel.yaml"
+],
+"license":"GPL-3.0",
+"name":"pyqmix",
+"sha256":"806fb70038a630fd23a11c79f4acd737059badc126462b6a6de4f41a2ca1a09f",
+"size":54800,
+"timestamp":1620906072846,
+"version":"2021.1.1"
+},
+"pyqmix-2021.1.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"cffi",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"ruamel.yaml"
+],
+"license":"GPL-3.0",
+"name":"pyqmix",
+"sha256":"191004a45b84020a6d7fdc8ae9050c4454dc9f86af174088d065d8e9739eaa1e",
+"size":54830,
+"timestamp":1620906064049,
+"version":"2021.1.1"
 },
 "pyrfr-0.8.1-py38h12a6f45_1.tar.bz2":{
 "build":"py38h12a6f45_1",

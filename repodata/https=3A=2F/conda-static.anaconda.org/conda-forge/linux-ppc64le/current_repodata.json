@@ -32493,9 +32493,9 @@
 "timestamp":1605238312196,
 "version":"2.1.0b1"
 },
-"gmsh-4.6.0-h92fbcc5_1.tar.bz2":{
-"build":"h92fbcc5_1",
-"build_number":1,
+"gmsh-4.8.4-h92fbcc5_0.tar.bz2":{
+"build":"h92fbcc5_0",
+"build_number":0,
 "depends":[
 "gmp >=6.2.1,<7.0a0",
 "jpeg >=9d,<10a",
@@ -32515,37 +32515,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"gmsh",
-"sha256":"6228efb7f80de4c638116f15b391596682f2996007236bf1a5045f957a1fe839",
-"size":100649888,
-"timestamp":1617984514052,
-"version":"4.6.0"
-},
-"gmsh-4.6.0-h92fbcc5_2.tar.bz2":{
-"build":"h92fbcc5_2",
-"build_number":2,
-"depends":[
-"gmp >=6.2.1,<7.0a0",
-"jpeg >=9d,<10a",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libglu",
-"liblapack >=3.8.0,<4.0a0",
-"libpng >=1.6.37,<1.7.0a0",
-"libstdcxx-ng >=9.3.0",
-"occt >=7.5.1,<7.6.0a0",
-"xorg-libx11",
-"xorg-libxext",
-"xorg-libxfixes",
-"xorg-libxmu",
-"xorg-libxrender",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"gmsh",
-"sha256":"fc0d1f42cbcb134d232081e3a3b92780f0f5c6e056107363c3e2ec70047e9c99",
-"size":100625199,
-"timestamp":1619042589024,
-"version":"4.6.0"
+"sha256":"1eff5dad9162706aa6b101975012a582b0c571922657cbd380f7e60354bcf8e5",
+"size":142091491,
+"timestamp":1620907695824,
+"version":"4.8.4"
 },
 "gn-0.0.20200909083119-h3b9df90_2.tar.bz2":{
 "build":"h3b9df90_2",
@@ -65578,11 +65551,12 @@
 "timestamp":1575299216297,
 "version":"2.49"
 },
-"occt-7.5.1-h6a989d4_1.tar.bz2":{
-"build":"h6a989d4_1",
-"build_number":1,
+"occt-7.5.2-h6a989d4_0.tar.bz2":{
+"build":"h6a989d4_0",
+"build_number":0,
 "depends":[
 "fontconfig >=2.13.1,<3.0a0",
+"fonts-conda-ecosystem",
 "freeimage >=3.18.0,<3.19.0a0",
 "freetype >=2.10.4,<3.0a0",
 "libgcc-ng >=9.3.0",
@@ -65592,12 +65566,12 @@
 "vtk >=9.0.1,<9.0.2.0a0",
 "xorg-libxt"
 ],
-"license":"LGPL-2.1",
+"license":"LGPL-2.1-only",
 "name":"occt",
-"sha256":"405ef63e7ff05160dcb8cd9c32a4daa9d40b2d0dc1a4b011fea28c2aec39293e",
-"size":28513831,
-"timestamp":1616982273459,
-"version":"7.5.1"
+"sha256":"87d853986e073ef35c758af3464aa7e30c07a4f967eb72e24d065728474f00be",
+"size":28510174,
+"timestamp":1620908691254,
+"version":"7.5.2"
 },
 "ocl-icd-2.3.0-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
@@ -97736,6 +97710,84 @@
 "size":390380,
 "timestamp":1588780195368,
 "version":"5.0.0"
+},
+"rdkit-2021.03.2-py36ha5e65f9_0.tar.bz2":{
+"build":"py36ha5e65f9_0",
+"build_number":0,
+"depends":[
+"boost >=1.74.0,<1.74.1.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"matplotlib-base",
+"numpy >=1.17.5,<2.0a0",
+"pandas",
+"pillow",
+"pycairo",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"reportlab",
+"sqlalchemy"
+],
+"license":"BSD-3-Clause",
+"name":"rdkit",
+"sha256":"c3b590c42e963d03a0eed6f851008991968dd71b2b32fb33aed116e2db913e7c",
+"size":40121133,
+"timestamp":1620907523856,
+"version":"2021.03.2"
+},
+"rdkit-2021.03.2-py37hcc0d4c2_0.tar.bz2":{
+"build":"py37hcc0d4c2_0",
+"build_number":0,
+"depends":[
+"boost >=1.74.0,<1.74.1.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"matplotlib-base",
+"numpy >=1.17.5,<2.0a0",
+"pandas",
+"pillow",
+"pycairo",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"reportlab",
+"sqlalchemy"
+],
+"license":"BSD-3-Clause",
+"name":"rdkit",
+"sha256":"19ea05e20c5a7dc322c3894e2b30d1112e20e1c0815fc1e021d2ba4a82e029cb",
+"size":40241739,
+"timestamp":1620907798481,
+"version":"2021.03.2"
+},
+"rdkit-2021.03.2-py38h4489ad2_0.tar.bz2":{
+"build":"py38h4489ad2_0",
+"build_number":0,
+"depends":[
+"boost >=1.74.0,<1.74.1.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"matplotlib-base",
+"numpy >=1.17.5,<2.0a0",
+"pandas",
+"pillow",
+"pycairo",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"reportlab",
+"sqlalchemy"
+],
+"license":"BSD-3-Clause",
+"name":"rdkit",
+"sha256":"d002aab671e6f7f7c3999e706c921e06d9a671855ddd21f84248847aff90c42c",
+"size":40348225,
+"timestamp":1620904412208,
+"version":"2021.03.2"
 },
 "rdkit-2021.03.2-py39h584b56c_0.tar.bz2":{
 "build":"py39h584b56c_0",
