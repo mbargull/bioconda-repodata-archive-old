@@ -20525,6 +20525,20 @@
 "timestamp":1620755837179,
 "version":"4.0.5"
 },
+"cross-r-base-4.0.5-ha3edaa6_1.tar.bz2":{
+"build":"ha3edaa6_1",
+"build_number":1,
+"depends":[
+"r-base 4.0.5 h0f82cec_1",
+"rsync"
+],
+"license":"GPL-2.0-or-later",
+"name":"cross-r-base",
+"sha256":"085ef6300a9fcb3674b24adf6917818fa87027361aa2be3126a05bb70e3a115d",
+"size":32723,
+"timestamp":1621014667342,
+"version":"4.0.5"
+},
 "crosstool-ng-1.24.0.132_gc74611b1-h41a240f_0.tar.bz2":{
 "build":"h41a240f_0",
 "build_number":0,
@@ -33771,6 +33785,86 @@
 "timestamp":1620948702586,
 "version":"3.9.1.0"
 },
+"gnuradio-soapy-2.1.3.1-py36hde1a51b_3.tar.bz2":{
+"build":"py36hde1a51b_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-soapy",
+"sha256":"6c0b812f4dc0e1de2a57e3ab1ff85e770bab7820ac58ab4bcc0ab0018a0718e1",
+"size":244909,
+"timestamp":1621013975592,
+"version":"2.1.3.1"
+},
+"gnuradio-soapy-2.1.3.1-py37hd57cea0_3.tar.bz2":{
+"build":"py37hd57cea0_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-soapy",
+"sha256":"41f987b6b46c9a5f6e85a243ff6d2599fc28e054805b2654c2b35c3a7015c324",
+"size":243121,
+"timestamp":1621014295355,
+"version":"2.1.3.1"
+},
+"gnuradio-soapy-2.1.3.1-py38h929e7d3_3.tar.bz2":{
+"build":"py38h929e7d3_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-soapy",
+"sha256":"4b81521bfecbe76f27922d5cdb21efc054daa398142440860c23100a47b30f88",
+"size":242959,
+"timestamp":1621014176339,
+"version":"2.1.3.1"
+},
+"gnuradio-soapy-2.1.3.1-py39hc991fc7_3.tar.bz2":{
+"build":"py39hc991fc7_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-soapy",
+"sha256":"1484063cdc9d21e507acf36570999c392202f30b0134ce51d06d4870e9f38009",
+"size":241566,
+"timestamp":1621014200404,
+"version":"2.1.3.1"
+},
 "gnuradio-uhd-3.9.1.0-py36h9dc7a33_4.tar.bz2":{
 "build":"py36h9dc7a33_4",
 "build_number":4,
@@ -38210,6 +38304,22 @@
 "sha256":"3e97da02696d1c42f0107689d81db5e46aff3afc6f716c6ce1d26dd88dd1125d",
 "size":1127357,
 "timestamp":1620961898494,
+"version":"4.2.15"
+},
+"hdf4-4.2.15-h1475b77_2.tar.bz2":{
+"build":"h1475b77_2",
+"build_number":2,
+"depends":[
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"hdf4",
+"sha256":"a76aaffa87a47aed5196f5507bc01a0fa9574611f065f8f2f5b0f6bcc25b5314",
+"size":1129442,
+"timestamp":1621013792387,
 "version":"4.2.15"
 },
 "hdf5-1.10.5-mpi_mpich_h36eb85f_1003.tar.bz2":{
@@ -54376,25 +54486,9 @@
 "timestamp":1607445156824,
 "version":"12.3"
 },
-"libpq-13.2-h475683a_2.tar.bz2":{
-"build":"h475683a_2",
-"build_number":2,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libgcc-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"libpq",
-"sha256":"1380d85d02de8d2a51a19710a58989250ec718ad259789f7581464b67a680ff2",
-"size":3034732,
-"timestamp":1619123201300,
-"version":"13.2"
-},
-"libpq-13.2-he9d5e3e_3.tar.bz2":{
-"build":"he9d5e3e_3",
-"build_number":3,
+"libpq-13.3-he9d5e3e_0.tar.bz2":{
+"build":"he9d5e3e_0",
+"build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
 "libgcc-ng >=9.3.0",
@@ -54403,10 +54497,10 @@
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "name":"libpq",
-"sha256":"977b20b51235f21892d7b6e2d7b2dc9bedb131de1a957326e5bb54097eea5c27",
-"size":2964978,
-"timestamp":1620952500175,
-"version":"13.2"
+"sha256":"87cd8ec81a884f9b0ee2c2c8562a4af5dbc15048af10300973732f68b10d2063",
+"size":2952874,
+"timestamp":1621012610230,
+"version":"13.3"
 },
 "libprotobuf-3.13.0.1-hb61f777_0.tar.bz2":{
 "build":"hb61f777_0",
@@ -75009,14 +75103,14 @@
 "timestamp":1620429258262,
 "version":"19.6.0"
 },
-"postgresql-13.2-h90e3369_3.tar.bz2":{
-"build":"h90e3369_3",
-"build_number":3,
+"postgresql-13.3-h90e3369_0.tar.bz2":{
+"build":"h90e3369_0",
+"build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
 "libgcc-ng >=9.3.0",
-"libpq 13.2 he9d5e3e_3",
-"libxml2 >=2.9.11,<2.10.0a0",
+"libpq 13.3 he9d5e3e_0",
+"libxml2 >=2.9.12,<2.10.0a0",
 "openssl >=1.1.1k,<1.1.2a",
 "readline >=8.1,<9.0a0",
 "tzcode",
@@ -75024,206 +75118,98 @@
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "name":"postgresql",
-"sha256":"9b3641701af66134df8fbc67307fe644b244b872a52d21fc4db8e63be85dba38",
-"size":6030825,
-"timestamp":1620952560448,
-"version":"13.2"
+"sha256":"922fdac4257d838286f9bac4e6ea813267819a5fa3e331effa548bdff9c6226f",
+"size":6069097,
+"timestamp":1621012663941,
+"version":"13.3"
 },
-"postgresql-13.2-hc357c00_2.tar.bz2":{
-"build":"hc357c00_2",
-"build_number":2,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libgcc-ng >=9.3.0",
-"libpq 13.2 h475683a_2",
-"libxml2 >=2.9.10,<2.10.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"readline >=8.0,<9.0a0",
-"tzcode",
-"tzdata",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql",
-"sha256":"3cbd54cacd4619fb46c96a990b9f19fa18840144fbf7687670ed2ca6ea6061ac",
-"size":6068445,
-"timestamp":1619123255413,
-"version":"13.2"
-},
-"postgresql-plpython-13.2-py36h18a5c82_3.tar.bz2":{
-"build":"py36h18a5c82_3",
-"build_number":3,
+"postgresql-plpython-13.3-py36h18a5c82_0.tar.bz2":{
+"build":"py36h18a5c82_0",
+"build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
 "libgcc-ng >=9.3.0",
 "libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.11,<2.10.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
 "libxslt >=1.1.33,<2.0a0",
 "openssl >=1.1.1k,<1.1.2a",
-"postgresql 13.2 h90e3369_3",
+"postgresql 13.3 h90e3369_0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
 "readline >=8.1,<9.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "name":"postgresql-plpython",
-"sha256":"02fe15350ae6ee0d3d0613dce08b87cc6bdb234b56b226f54f329d906a542082",
-"size":69798,
-"timestamp":1620952723864,
-"version":"13.2"
+"sha256":"45fe203783c010eaf33f880ab82dbb1cdbc8d33d7edb0b7ae0a953e5ac9e6b52",
+"size":69813,
+"timestamp":1621012738189,
+"version":"13.3"
 },
-"postgresql-plpython-13.2-py36h90698fe_2.tar.bz2":{
-"build":"py36h90698fe_2",
-"build_number":2,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libgcc-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"libxslt >=1.1.33,<2.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"postgresql 13.2 hc357c00_2",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql-plpython",
-"sha256":"69874520a245b9e521129cfd38cff9425ec217bedcc56c4ae5d756db83e86e81",
-"size":69768,
-"timestamp":1619123527646,
-"version":"13.2"
-},
-"postgresql-plpython-13.2-py37hd24ad1d_2.tar.bz2":{
-"build":"py37hd24ad1d_2",
-"build_number":2,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libgcc-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"libxslt >=1.1.33,<2.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"postgresql 13.2 hc357c00_2",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql-plpython",
-"sha256":"75ef9998dca15f3f09991946f97ded5890d1d58d27eb29ee7ad78b0c8affff9f",
-"size":69791,
-"timestamp":1619123328991,
-"version":"13.2"
-},
-"postgresql-plpython-13.2-py37he7e37fd_3.tar.bz2":{
-"build":"py37he7e37fd_3",
-"build_number":3,
+"postgresql-plpython-13.3-py37he7e37fd_0.tar.bz2":{
+"build":"py37he7e37fd_0",
+"build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
 "libgcc-ng >=9.3.0",
 "libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.11,<2.10.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
 "libxslt >=1.1.33,<2.0a0",
 "openssl >=1.1.1k,<1.1.2a",
-"postgresql 13.2 h90e3369_3",
+"postgresql 13.3 h90e3369_0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
 "readline >=8.1,<9.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "name":"postgresql-plpython",
-"sha256":"a926b1cf4c19fcbb49fd9fc50e2dd7feb75a21a9a02a8c61c827ecb89187c7ef",
-"size":69794,
-"timestamp":1620952873006,
-"version":"13.2"
+"sha256":"783de036f497915822a8b907d2655a66a8d17051bb08d519560c89ff3eea7cc8",
+"size":69781,
+"timestamp":1621012877593,
+"version":"13.3"
 },
-"postgresql-plpython-13.2-py38h3f3b1ff_2.tar.bz2":{
-"build":"py38h3f3b1ff_2",
-"build_number":2,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libgcc-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"libxslt >=1.1.33,<2.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"postgresql 13.2 hc357c00_2",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql-plpython",
-"sha256":"bf8f9e37b81ce546be5c7c46786a964b6e9853cbd7875eee23b9b9ccb0ae9d90",
-"size":69887,
-"timestamp":1619123396838,
-"version":"13.2"
-},
-"postgresql-plpython-13.2-py38h9070554_3.tar.bz2":{
-"build":"py38h9070554_3",
-"build_number":3,
+"postgresql-plpython-13.3-py38h9070554_0.tar.bz2":{
+"build":"py38h9070554_0",
+"build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
 "libgcc-ng >=9.3.0",
 "libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.11,<2.10.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
 "libxslt >=1.1.33,<2.0a0",
 "openssl >=1.1.1k,<1.1.2a",
-"postgresql 13.2 h90e3369_3",
+"postgresql 13.3 h90e3369_0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "readline >=8.1,<9.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "name":"postgresql-plpython",
-"sha256":"0179f20c90b301cff2035d19cd116df8876a1142f0669200ac4a4973ca09f5c9",
-"size":69879,
-"timestamp":1620952642864,
-"version":"13.2"
+"sha256":"8ebc211fd36f21bf6ac585d9dcc57fb173ecf59fae69a003524c6fdb225ec451",
+"size":69910,
+"timestamp":1621012944164,
+"version":"13.3"
 },
-"postgresql-plpython-13.2-py39h90439d0_3.tar.bz2":{
-"build":"py39h90439d0_3",
-"build_number":3,
+"postgresql-plpython-13.3-py39h90439d0_0.tar.bz2":{
+"build":"py39h90439d0_0",
+"build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
 "libgcc-ng >=9.3.0",
 "libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.11,<2.10.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
 "libxslt >=1.1.33,<2.0a0",
 "openssl >=1.1.1k,<1.1.2a",
-"postgresql 13.2 h90e3369_3",
+"postgresql 13.3 h90e3369_0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "readline >=8.1,<9.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "name":"postgresql-plpython",
-"sha256":"1ccd3e21ddcd6d2033589051ded206517c3d03f57c29e4250e5520ca3a506104",
-"size":69930,
-"timestamp":1620952800219,
-"version":"13.2"
-},
-"postgresql-plpython-13.2-py39ha738620_2.tar.bz2":{
-"build":"py39ha738620_2",
-"build_number":2,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libgcc-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"libxslt >=1.1.33,<2.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"postgresql 13.2 hc357c00_2",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"postgresql-plpython",
-"sha256":"97ab7562c97b297cfe551686247f8ba95b57e411b3548d1a1ba66eae026a43cc",
-"size":69943,
-"timestamp":1619123462966,
-"version":"13.2"
+"sha256":"bc2b6d6621d6ec2020864ce30a76212bdbedc2d52457e64c85f74563d88cddeb",
+"size":69919,
+"timestamp":1621012806392,
+"version":"13.3"
 },
 "ppl-1.2-h6007b49_1003.tar.bz2":{
 "build":"h6007b49_1003",
@@ -90771,6 +90757,55 @@
 "size":24760961,
 "timestamp":1610483234035,
 "version":"3.6.3"
+},
+"r-base-4.0.5-h0f82cec_1.tar.bz2":{
+"build":"h0f82cec_1",
+"build_number":1,
+"depends":[
+"_r-mutex 1.* anacondar_1",
+"bwidget",
+"bzip2 >=1.0.8,<2.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"curl",
+"freetype >=2.10.4,<3.0a0",
+"gcc_linux-ppc64le >=9",
+"gfortran_linux-ppc64le 9.*",
+"gsl >=2.6,<2.7.0a0",
+"gxx_linux-ppc64le >=9",
+"icu >=68.1,<69.0a0",
+"jpeg >=9d,<10a",
+"krb5 >=1.19.1,<1.20.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libglib >=2.68.2,<3.0a0",
+"liblapack >=3.8.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.2.0,<5.0a0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"make",
+"ncurses >=6.2,<6.3.0a0",
+"pango >=1.48.4,<1.49.0a0",
+"pcre2 >=10.36,<10.37.0a0",
+"readline >=8.1,<9.0a0",
+"sed",
+"tk >=8.6.10,<8.7.0a0",
+"tktable",
+"xorg-libxt",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-base",
+"sha256":"92b92ff7457279f757f2a619d6df26fba884d0a791c3ba4b96d16d6fdb5971da",
+"size":25198617,
+"timestamp":1621014649038,
+"version":"4.0.5"
 },
 "r-base-4.0.5-h8c1f821_0.tar.bz2":{
 "build":"h8c1f821_0",
