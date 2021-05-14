@@ -29928,6 +29928,44 @@
 "timestamp":1620949937966,
 "version":"3.9.1.0"
 },
+"gnuradio-soapy-2.1.3.1-py38h64adcb3_3.tar.bz2":{
+"build":"py38h64adcb3_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"libcxx >=11.1.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-soapy",
+"requires":[],
+"size":202202,
+"timestamp":1621014092091,
+"version":"2.1.3.1"
+},
+"gnuradio-soapy-2.1.3.1-py39h0fef4b3_3.tar.bz2":{
+"build":"py39h0fef4b3_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"libcxx >=11.1.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-soapy",
+"requires":[],
+"size":201665,
+"timestamp":1621014028682,
+"version":"2.1.3.1"
+},
 "gnuradio-uhd-3.8.3.0-py38h65b6d1b_3.tar.bz2":{
 "build":"py38h65b6d1b_3",
 "build_number":3,
@@ -45750,6 +45788,21 @@
 "size":2844761,
 "timestamp":1620952306723,
 "version":"13.2"
+},
+"libpq-13.3-h8bb6238_0.tar.bz2":{
+"build":"h8bb6238_0",
+"build_number":0,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"libpq",
+"requires":[],
+"size":2825127,
+"timestamp":1621012468358,
+"version":"13.3"
 },
 "libprotobuf-3.13.0-h74e0e61_0.tar.bz2":{
 "build":"h74e0e61_0",
@@ -61983,6 +62036,25 @@
 "timestamp":1620952356886,
 "version":"13.2"
 },
+"postgresql-13.3-h8fdef8c_0.tar.bz2":{
+"build":"h8fdef8c_0",
+"build_number":0,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libpq 13.3 h8bb6238_0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.1,<9.0a0",
+"tzcode",
+"tzdata",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"postgresql",
+"requires":[],
+"size":4793574,
+"timestamp":1621012521798,
+"version":"13.3"
+},
 "postgresql-plpython-12.3-py38ha403c59_3.tar.bz2":{
 "build":"py38ha403c59_3",
 "build_number":3,
@@ -62234,6 +62306,48 @@
 "size":62117,
 "timestamp":1619123437466,
 "version":"13.2"
+},
+"postgresql-plpython-13.3-py38h1e78771_0.tar.bz2":{
+"build":"py38h1e78771_0",
+"build_number":0,
+"depends":[
+"krb5",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"libxslt >=1.1.33,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"postgresql 13.3 h8fdef8c_0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"postgresql-plpython",
+"requires":[],
+"size":61927,
+"timestamp":1621012659107,
+"version":"13.3"
+},
+"postgresql-plpython-13.3-py39h8338b83_0.tar.bz2":{
+"build":"py39h8338b83_0",
+"build_number":0,
+"depends":[
+"krb5",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"libxslt >=1.1.33,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"postgresql 13.3 h8fdef8c_0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"postgresql-plpython",
+"requires":[],
+"size":62094,
+"timestamp":1621012788897,
+"version":"13.3"
 },
 "ppl-1.2-h2eaf5e3_1003.tar.bz2":{
 "build":"h2eaf5e3_1003",

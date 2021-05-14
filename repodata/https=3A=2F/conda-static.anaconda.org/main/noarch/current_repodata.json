@@ -5241,7 +5241,23 @@
 "timestamp":1593448779587,
 "version":"4.0.2"
 },
-"gitpython-3.1.14-pyhd3eb1b0_1.tar.bz2":{
+"gitpython-3.1.17-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"gitdb >=4.0.1,<5",
+"python >=3.5",
+"typing-extensions >=3.7.4.0"
+],
+"license":"BSD-3-Clause",
+"name":"gitpython",
+"noarch":"python",
+"sha256":"83047c0fbc6832d535d31b1b5c543abece7f2a44207aed0a1b25471bc52f7507",
+"size":118375,
+"timestamp":1621004179130,
+"version":"3.1.17"
+},
+"gitpython-3.1.17-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -5252,10 +5268,10 @@
 "license":"BSD-3-Clause",
 "name":"gitpython",
 "noarch":"python",
-"sha256":"f413fd6ad7850589f058345d37289ddee2a32f2667b69f484dddac5214afa4f1",
-"size":113321,
-"timestamp":1614615734584,
-"version":"3.1.14"
+"sha256":"3397b8aa1102d4af5ff11aaf3e77655d2f923a096778164c646157c1240d3806",
+"size":118283,
+"timestamp":1620995415962,
+"version":"3.1.17"
 },
 "glib-networking-cos6-i686-2.28.6.1-0.tar.bz2":{
 "build":"0",
@@ -6045,7 +6061,7 @@
 "timestamp":1620428855972,
 "version":"0.13.3"
 },
-"httpretty-1.0.5-pyhd3eb1b0_0.tar.bz2":{
+"httpretty-1.1.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -6055,10 +6071,10 @@
 "license":"MIT",
 "name":"httpretty",
 "noarch":"python",
-"sha256":"9198b3995b8d2948290ed8125f134c56d61067f5102ec91429388447a3aa7746",
-"size":24204,
-"timestamp":1609958293717,
-"version":"1.0.5"
+"sha256":"b58b77b0f2adf3e3c0d472795dd1faf1a86caa21507c3d1de972af431b8c4a00",
+"size":25261,
+"timestamp":1620999974241,
+"version":"1.1.1"
 },
 "httpx-0.18.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -6650,35 +6666,21 @@
 "timestamp":1606148695403,
 "version":"1.0.4"
 },
-"itsdangerous-1.1.0-py_0.tar.bz2":{
-"build":"py_0",
-"build_number":0,
-"depends":[
-"python"
-],
-"license":"BSD 3-Clause",
-"name":"itsdangerous",
-"noarch":"python",
-"sha256":"d80401eaa9cc60e612afbb02d484b7b7711bcffab5ffc4a0894e0c7c76bef2df",
-"size":17382,
-"timestamp":1572439204184,
-"version":"1.1.0"
-},
-"itsdangerous-1.1.0-pyhd3eb1b0_0.tar.bz2":{
+"itsdangerous-2.0.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python"
+"python >=3.6"
 ],
-"license":"BSD 3-Clause",
+"license":"BSD-3-Clause",
 "name":"itsdangerous",
 "noarch":"python",
-"sha256":"5d4db9fe4a92e8166ae54dfa3d517fa70b50391a5defbea375e67f3b4a687289",
-"size":17162,
-"timestamp":1611932592602,
-"version":"1.1.0"
+"sha256":"83b1f3f51037b5b96a3a4d7c8cf325c46381d909ddfbefda1973bae60f7463cb",
+"size":17990,
+"timestamp":1620980242864,
+"version":"2.0.0"
 },
-"jaraco.classes-3.2.0-pyhd3eb1b0_0.tar.bz2":{
+"jaraco.classes-3.2.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -6688,10 +6690,10 @@
 "license":"MIT",
 "name":"jaraco.classes",
 "noarch":"python",
-"sha256":"b0959bf6375f049b3d5d42ed14e75a402be5bb05de026acdbafc7e0d240165d5",
-"size":9065,
-"timestamp":1611601628977,
-"version":"3.2.0"
+"sha256":"c6ecf85fb0c0590bb16525a416b6a241f98a4c6bdee947f3f6438bbd57777a65",
+"size":9069,
+"timestamp":1620983221553,
+"version":"3.2.1"
 },
 "jaraco.collections-3.3.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
