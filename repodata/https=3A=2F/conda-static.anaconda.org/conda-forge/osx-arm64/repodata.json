@@ -93385,6 +93385,22 @@
 "timestamp":1614857039987,
 "version":"1.4.9"
 },
+"zstd-1.5.0-h861e0a7_0.tar.bz2":{
+"build":"h861e0a7_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"zstd",
+"sha256":"3e1a5cee8ed6e3ad99d4c243c56518a0330013ef358fd8ec336bfd5635d31f6e",
+"size":519912,
+"timestamp":1621022602873,
+"version":"1.5.0"
+},
 "zstd-static-1.4.5-hc88da5d_2.tar.bz2":{
 "build":"hc88da5d_2",
 "build_number":2,
@@ -93440,6 +93456,20 @@
 "size":325442,
 "timestamp":1614857055957,
 "version":"1.4.9"
+},
+"zstd-static-1.5.0-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"zstd 1.5.0 h861e0a7_0"
+],
+"license":"BSD-3-Clause",
+"name":"zstd-static",
+"sha256":"556b0e0b2dc4b2c292eed9ab23632587b216fe6af8b27258d7f04943fcd23e7e",
+"size":418984,
+"timestamp":1621022616669,
+"version":"1.5.0"
 },
 "zziplib-0.13.69-he1e0b03_1.tar.bz2":{
 "build":"he1e0b03_1",
