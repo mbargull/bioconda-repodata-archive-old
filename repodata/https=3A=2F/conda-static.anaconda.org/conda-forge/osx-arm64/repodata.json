@@ -45387,6 +45387,21 @@
 "timestamp":1620952306723,
 "version":"13.2"
 },
+"libpq-13.3-h8bb6238_0.tar.bz2":{
+"build":"h8bb6238_0",
+"build_number":0,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"libpq",
+"sha256":"8b00ea79d97459e35c278cf46c5893c69d82e1c7676b93dd8cd9624f61ca80c2",
+"size":2825127,
+"timestamp":1621012468358,
+"version":"13.3"
+},
 "libprotobuf-3.13.0-h74e0e61_0.tar.bz2":{
 "build":"h74e0e61_0",
 "build_number":0,
@@ -61659,6 +61674,25 @@
 "timestamp":1620952356886,
 "version":"13.2"
 },
+"postgresql-13.3-h8fdef8c_0.tar.bz2":{
+"build":"h8fdef8c_0",
+"build_number":0,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libpq 13.3 h8bb6238_0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.1,<9.0a0",
+"tzcode",
+"tzdata",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"postgresql",
+"sha256":"106361e365355fd69659822b4b18d541c9db40ef8fa9ebad48ac5abac274349b",
+"size":4793574,
+"timestamp":1621012521798,
+"version":"13.3"
+},
 "postgresql-plpython-12.3-py38ha403c59_3.tar.bz2":{
 "build":"py38ha403c59_3",
 "build_number":3,
@@ -61910,6 +61944,48 @@
 "size":62117,
 "timestamp":1619123437466,
 "version":"13.2"
+},
+"postgresql-plpython-13.3-py38h1e78771_0.tar.bz2":{
+"build":"py38h1e78771_0",
+"build_number":0,
+"depends":[
+"krb5",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"libxslt >=1.1.33,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"postgresql 13.3 h8fdef8c_0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"postgresql-plpython",
+"sha256":"fcaf642e5c9fa05a961480127a1b859f0e3aaf03435ceb79e80ee3d994dc0f4f",
+"size":61927,
+"timestamp":1621012659107,
+"version":"13.3"
+},
+"postgresql-plpython-13.3-py39h8338b83_0.tar.bz2":{
+"build":"py39h8338b83_0",
+"build_number":0,
+"depends":[
+"krb5",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"libxslt >=1.1.33,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"postgresql 13.3 h8fdef8c_0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"postgresql-plpython",
+"sha256":"7d7b43db1451d0bbc1a46d0edc96d4d3cb2256c8c155917d3cafde92642b27d8",
+"size":62094,
+"timestamp":1621012788897,
+"version":"13.3"
 },
 "ppl-1.2-h2eaf5e3_1003.tar.bz2":{
 "build":"h2eaf5e3_1003",
