@@ -69116,6 +69116,23 @@
 "timestamp":1598817331950,
 "version":"2.4.52"
 },
+"openldap-2.4.52-h795bed4_1.tar.bz2":{
+"build":"h795bed4_1",
+"build_number":1,
+"depends":[
+"cyrus-sasl >=2.1.27,<3.0a0",
+"krb5 >=1.19.1,<1.20.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"OLDAP-2.8",
+"name":"openldap",
+"sha256":"39afa179a5e5b6a3fd9c6ddab3525f9ec9c01d7dfdb83b0245259edb054f9d9c",
+"size":2072996,
+"timestamp":1621071052819,
+"version":"2.4.52"
+},
 "openmpi-4.1.1-hc1fbbe7_0.tar.bz2":{
 "build":"hc1fbbe7_0",
 "build_number":0,
@@ -82748,6 +82765,39 @@
 "timestamp":1616519622030,
 "version":"1.2.1"
 },
+"pykerberos-1.2.1-py36h3ca5eee_5.tar.bz2":{
+"build":"py36h3ca5eee_5",
+"build_number":5,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"Apache-2.0",
+"name":"pykerberos",
+"sha256":"c500ca4c20e9ad9fe6f912b7ec34216ecadfb2d566d1caec4b60dc660405a6a3",
+"size":28368,
+"timestamp":1621071136389,
+"version":"1.2.1"
+},
+"pykerberos-1.2.1-py36h7aaf804_5.tar.bz2":{
+"build":"py36h7aaf804_5",
+"build_number":5,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libgcc-ng >=9.3.0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73"
+],
+"license":"Apache-2.0",
+"name":"pykerberos",
+"sha256":"61e118c6fca2bd84f99c5d62714adcc011d16aa39fa0ebceb3a2f1ca6b3ac3af",
+"size":28452,
+"timestamp":1621071103897,
+"version":"1.2.1"
+},
 "pykerberos-1.2.1-py36ha3e5896_4.tar.bz2":{
 "build":"py36ha3e5896_4",
 "build_number":4,
@@ -82782,6 +82832,39 @@
 "timestamp":1616508539952,
 "version":"1.2.1"
 },
+"pykerberos-1.2.1-py37h3063bfa_5.tar.bz2":{
+"build":"py37h3063bfa_5",
+"build_number":5,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libgcc-ng >=9.3.0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"Apache-2.0",
+"name":"pykerberos",
+"sha256":"efa4d7ac96cfbbcd41b0e380189af3fe604c2ec3a44eec5cb418afc1e91b8ee8",
+"size":28426,
+"timestamp":1621071144956,
+"version":"1.2.1"
+},
+"pykerberos-1.2.1-py37h549df6d_5.tar.bz2":{
+"build":"py37h549df6d_5",
+"build_number":5,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"Apache-2.0",
+"name":"pykerberos",
+"sha256":"66baf7f881369ce2f1405fe734b2c012ceb620aadad7c6bb7f2722cc3b145764",
+"size":28376,
+"timestamp":1621071162653,
+"version":"1.2.1"
+},
 "pykerberos-1.2.1-py37h87e03c8_4.tar.bz2":{
 "build":"py37h87e03c8_4",
 "build_number":4,
@@ -82812,6 +82895,38 @@
 "sha256":"d4cac541b1f80bbcb7d63e00024695982146bbd22235f637588316b57a208e34",
 "size":28396,
 "timestamp":1616508492986,
+"version":"1.2.1"
+},
+"pykerberos-1.2.1-py38h8792d04_5.tar.bz2":{
+"build":"py38h8792d04_5",
+"build_number":5,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"pykerberos",
+"sha256":"c17956a9b3715b53bde741137de479cea03ef4fe37b8aaca11df22a799d333cb",
+"size":28367,
+"timestamp":1621071174438,
+"version":"1.2.1"
+},
+"pykerberos-1.2.1-py39h4f17fec_5.tar.bz2":{
+"build":"py39h4f17fec_5",
+"build_number":5,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"pykerberos",
+"sha256":"2a30b8d64c45cca3ce10af1227d58b09717db06bc0733cf51a1c412f19ad439c",
+"size":28414,
+"timestamp":1621071541583,
 "version":"1.2.1"
 },
 "pykerberos-1.2.1-py39hfb5c025_4.tar.bz2":{
