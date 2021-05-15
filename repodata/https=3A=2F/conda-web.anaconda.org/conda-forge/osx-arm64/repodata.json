@@ -58134,6 +58134,22 @@
 "timestamp":1609197669990,
 "version":"2.4.0"
 },
+"openldap-2.4.52-hc3b908a_1.tar.bz2":{
+"build":"hc3b908a_1",
+"build_number":1,
+"depends":[
+"cyrus-sasl >=2.1.27,<3.0a0",
+"krb5 >=1.19.1,<1.20.0a0",
+"libcxx >=11.1.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"OLDAP-2.8",
+"name":"openldap",
+"requires":[],
+"size":1472576,
+"timestamp":1621071137984,
+"version":"2.4.52"
+},
 "openldap-2.4.52-hd866a17_0.tar.bz2":{
 "build":"hd866a17_0",
 "build_number":0,
@@ -71750,6 +71766,21 @@
 "timestamp":1612961892466,
 "version":"1.2.1"
 },
+"pykerberos-1.2.1-py38hc178c0b_5.tar.bz2":{
+"build":"py38hc178c0b_5",
+"build_number":5,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"pykerberos",
+"requires":[],
+"size":25515,
+"timestamp":1621071167697,
+"version":"1.2.1"
+},
 "pykerberos-1.2.1-py39h1846944_4.tar.bz2":{
 "build":"py39h1846944_4",
 "build_number":4,
@@ -71763,6 +71794,21 @@
 "requires":[],
 "size":25512,
 "timestamp":1612962027492,
+"version":"1.2.1"
+},
+"pykerberos-1.2.1-py39hcbff7d4_5.tar.bz2":{
+"build":"py39hcbff7d4_5",
+"build_number":5,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"pykerberos",
+"requires":[],
+"size":25500,
+"timestamp":1621071135790,
 "version":"1.2.1"
 },
 "pylint-2.6.0-py38h10201cd_1.tar.bz2":{
