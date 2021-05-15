@@ -45134,6 +45134,28 @@
 "timestamp":1618843762650,
 "version":"4.8.0"
 },
+"libnetcdf-4.8.0-mpi_mpich_hb7ee5b1_2.tar.bz2":{
+"build":"mpi_mpich_hb7ee5b1_2",
+"build_number":2,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.15,<4.3.0a0",
+"hdf5 * mpi_mpich_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libzip >=1.7.3,<2.0a0",
+"mpich >=3.4,<3.5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"e52956dced30d78ef39d8a69f6ead1e258c25e780366687f3122239c513301b5",
+"size":1399302,
+"timestamp":1621063258747,
+"version":"4.8.0"
+},
 "libnetcdf-4.8.0-mpi_openmpi_hd885e69_1.tar.bz2":{
 "build":"mpi_openmpi_hd885e69_1",
 "build_number":1,
@@ -45156,6 +45178,28 @@
 "timestamp":1618843532376,
 "version":"4.8.0"
 },
+"libnetcdf-4.8.0-mpi_openmpi_hd885e69_2.tar.bz2":{
+"build":"mpi_openmpi_hd885e69_2",
+"build_number":2,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.15,<4.3.0a0",
+"hdf5 * mpi_openmpi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libzip >=1.7.3,<2.0a0",
+"openmpi >=4.1.1,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"095d5060b77f03ed639a11864667044203ad9dad4a2969a9cee59b699cd6c87f",
+"size":1354331,
+"timestamp":1621063152909,
+"version":"4.8.0"
+},
 "libnetcdf-4.8.0-nompi_hc896b4c_101.tar.bz2":{
 "build":"nompi_hc896b4c_101",
 "build_number":101,
@@ -45175,6 +45219,27 @@
 "sha256":"d4eaf26af567ab5df3da12f6ca56a3c0c4d252a5ce48f30b0fa9eaf62c3a58f9",
 "size":1356575,
 "timestamp":1618843504635,
+"version":"4.8.0"
+},
+"libnetcdf-4.8.0-nompi_hc896b4c_102.tar.bz2":{
+"build":"nompi_hc896b4c_102",
+"build_number":102,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.15,<4.3.0a0",
+"hdf5 * nompi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libzip >=1.7.3,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"b76455fae72efacf6dcd379a32eec32f1716116ba5e2092fc22eb7b4002d5bb7",
+"size":1344820,
+"timestamp":1621063083133,
 "version":"4.8.0"
 },
 "libnghttp2-1.41.0-h87e4072_2.tar.bz2":{
