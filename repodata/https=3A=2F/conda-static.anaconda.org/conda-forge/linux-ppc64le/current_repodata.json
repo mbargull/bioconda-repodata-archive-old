@@ -54369,6 +54369,29 @@
 "timestamp":1618849070036,
 "version":"4.8.0"
 },
+"libnetcdf-4.8.0-mpi_mpich_h67506a4_2.tar.bz2":{
+"build":"mpi_mpich_h67506a4_2",
+"build_number":2,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.15,<4.3.0a0",
+"hdf5 * mpi_mpich_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libzip >=1.7.3,<2.0a0",
+"mpich >=3.4,<3.5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"1d33ec71e3bb059d0360e971cce0e05107d6ef737c8fac52aa85d8617b7a6b61",
+"size":1574264,
+"timestamp":1621063433471,
+"version":"4.8.0"
+},
 "libnetcdf-4.8.0-mpi_openmpi_h760ef44_1.tar.bz2":{
 "build":"mpi_openmpi_h760ef44_1",
 "build_number":1,
@@ -54390,6 +54413,29 @@
 "sha256":"aedb63b7266b27f9019812dbfd127d86c16a8fbd149e1b0169c8bdf79eafee50",
 "size":1579136,
 "timestamp":1618747817121,
+"version":"4.8.0"
+},
+"libnetcdf-4.8.0-mpi_openmpi_h760ef44_2.tar.bz2":{
+"build":"mpi_openmpi_h760ef44_2",
+"build_number":2,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.15,<4.3.0a0",
+"hdf5 * mpi_openmpi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libzip >=1.7.3,<2.0a0",
+"openmpi >=4.1.1,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"ed4e3d9752b7438abae02a40feb50f4555a2963b5a7053a78ed3b3c08b2c1a51",
+"size":1570442,
+"timestamp":1621063427518,
 "version":"4.8.0"
 },
 "libnetcdf-4.8.0-nompi_h95a5f92_101.tar.bz2":{
@@ -122428,6 +122474,22 @@
 "sha256":"1e576d22b70a1067aac3ba028013b711034d1a895fc969a43b1d162f0047e213",
 "size":99884,
 "timestamp":1610550614862,
+"version":"1.0.4"
+},
+"zbar-py-1.0.4-py36hc33305d_4.tar.bz2":{
+"build":"py36hc33305d_4",
+"build_number":4,
+"depends":[
+"libgcc-ng >=9.3.0",
+"numpy",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"MIT",
+"name":"zbar-py",
+"sha256":"9c54e833adbb195a25832c37c40faa345f998f71cf5407c53a0fafe39ec65394",
+"size":99852,
+"timestamp":1621067938848,
 "version":"1.0.4"
 },
 "zbar-py-1.0.4-py36hfa8c849_3.tar.bz2":{
