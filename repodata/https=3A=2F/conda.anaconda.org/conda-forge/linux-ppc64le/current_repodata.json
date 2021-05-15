@@ -32765,6 +32765,44 @@
 "timestamp":1620948976900,
 "version":"3.9.1.0"
 },
+"gnuradio-3.9.1.0-py36h65bc5af_6.tar.bz2":{
+"build":"py36h65bc5af_6",
+"build_number":6,
+"depends":[
+"adwaita-icon-theme",
+"alsa-lib >=1.2.3,<1.2.4.0a0",
+"codec2 >=0.9.2,<0.10.0a0",
+"fftw >=3.3.9,<4.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gnuradio-core 3.9.1.0 py36ha3efba8_6",
+"gnuradio-grc 3.9.1.0 py36hcecf13b_6",
+"gnuradio-uhd 3.9.1.0 py36h9dc7a33_6",
+"gnuradio-video-sdl 3.9.1.0 py36hcecf13b_6",
+"gnuradio-zeromq 3.9.1.0 py36ha65df4b_6",
+"gsl >=2.6,<2.7.0a0",
+"gtk3 >=3.24.28,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libsndfile >=1.0.31,<1.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"libthrift >=0.14.1,<0.15.0a0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"portaudio >=19.6.0,<19.7.0a0",
+"pybind11-abi 4",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"sdl >=1.2.15,<1.3.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio",
+"sha256":"8a7449bc7117eae41ebe0608883fa1884312740684a249af462f3e610e23ed44",
+"size":63997,
+"timestamp":1621057671400,
+"version":"3.9.1.0"
+},
 "gnuradio-3.9.1.0-py36h69e97c4_4.tar.bz2":{
 "build":"py36h69e97c4_4",
 "build_number":4,
@@ -33059,6 +33097,44 @@
 "timestamp":1620762500494,
 "version":"3.9.1.0"
 },
+"gnuradio-3.9.1.0-py39h57e2a3a_6.tar.bz2":{
+"build":"py39h57e2a3a_6",
+"build_number":6,
+"depends":[
+"adwaita-icon-theme",
+"alsa-lib >=1.2.3,<1.2.4.0a0",
+"codec2 >=0.9.2,<0.10.0a0",
+"fftw >=3.3.9,<4.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gnuradio-core 3.9.1.0 py39h1f7957d_6",
+"gnuradio-grc 3.9.1.0 py39h0ebb8b1_6",
+"gnuradio-uhd 3.9.1.0 py39h885ffbc_6",
+"gnuradio-video-sdl 3.9.1.0 py39h0ebb8b1_6",
+"gnuradio-zeromq 3.9.1.0 py39hea3519b_6",
+"gsl >=2.6,<2.7.0a0",
+"gtk3 >=3.24.28,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libsndfile >=1.0.31,<1.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"libthrift >=0.14.1,<0.15.0a0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"portaudio >=19.6.0,<19.7.0a0",
+"pybind11-abi 4",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sdl >=1.2.15,<1.3.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio",
+"sha256":"0a3a2544f62dac066ca6299df62584750260d64a0d7dac2810832fe7ec6376e7",
+"size":64055,
+"timestamp":1621057625778,
+"version":"3.9.1.0"
+},
 "gnuradio-3.9.1.0-py39ha08eb53_5.tar.bz2":{
 "build":"py39ha08eb53_5",
 "build_number":5,
@@ -33140,6 +33216,30 @@
 "sha256":"7a579b88312b42cb802fc54b87e6bf4ed3a0a5c6711c7272be8ccc479f72059b",
 "size":60970,
 "timestamp":1620948766030,
+"version":"3.9.1.0"
+},
+"gnuradio-build-deps-3.9.1.0-py36ha3efba8_6.tar.bz2":{
+"build":"py36ha3efba8_6",
+"build_number":6,
+"constrains":[
+"gnuradio-core 3.9.1.0 py36ha3efba8_6"
+],
+"depends":[
+"cmake",
+"gcc_linux-ppc64le 9.*",
+"gxx_linux-ppc64le 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"ninja",
+"numpy 1.17.*",
+"pkg-config",
+"pybind11"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-build-deps",
+"sha256":"296bd663ba9313e61951d070eda7f12514ff5fa2aae10737b68ae8e7325735a3",
+"size":61492,
+"timestamp":1621057432045,
 "version":"3.9.1.0"
 },
 "gnuradio-build-deps-3.9.1.0-py37h32bf6c4_4.tar.bz2":{
@@ -33282,6 +33382,30 @@
 "timestamp":1620762635514,
 "version":"3.9.1.0"
 },
+"gnuradio-build-deps-3.9.1.0-py39h1f7957d_6.tar.bz2":{
+"build":"py39h1f7957d_6",
+"build_number":6,
+"constrains":[
+"gnuradio-core 3.9.1.0 py39h1f7957d_6"
+],
+"depends":[
+"cmake",
+"gcc_linux-ppc64le 9.*",
+"gxx_linux-ppc64le 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"ninja",
+"numpy 1.19.*",
+"pkg-config",
+"pybind11"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-build-deps",
+"sha256":"851e0321f94f202d46caba62cda583cef7606f57b93b97a0fc0a14c6cf8620cf",
+"size":61518,
+"timestamp":1621057381149,
+"version":"3.9.1.0"
+},
 "gnuradio-build-deps-3.9.1.0-py39he25e9aa_5.tar.bz2":{
 "build":"py39he25e9aa_5",
 "build_number":5,
@@ -33393,6 +33517,42 @@
 "sha256":"2ba3787abbcf10bf8299c11b5e645cad5634a484be71577a42c9bab01e4daebe",
 "size":7904874,
 "timestamp":1620948645665,
+"version":"3.9.1.0"
+},
+"gnuradio-core-3.9.1.0-py36ha3efba8_6.tar.bz2":{
+"build":"py36ha3efba8_6",
+"build_number":6,
+"depends":[
+"alsa-lib >=1.2.3,<1.2.4.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"click",
+"click-plugins",
+"codec2 >=0.9.2,<0.10.0a0",
+"fftw >=3.3.9,<4.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gsl >=2.6,<2.7.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libsndfile >=1.0.31,<1.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"libthrift >=0.14.1,<0.15.0a0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"mako",
+"numpy",
+"portaudio >=19.6.0,<19.7.0a0",
+"portaudio >=19.6.0,<20.0a0",
+"pybind11-abi 4",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"six",
+"thrift",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-core",
+"sha256":"f2685a5e356428bcd69e87d3c11ff25e12ec4ae371c795c65eb9dbc8152b504a",
+"size":8246449,
+"timestamp":1621057304262,
 "version":"3.9.1.0"
 },
 "gnuradio-core-3.9.1.0-py37h32bf6c4_4.tar.bz2":{
@@ -33601,6 +33761,42 @@
 "timestamp":1620762515777,
 "version":"3.9.1.0"
 },
+"gnuradio-core-3.9.1.0-py39h1f7957d_6.tar.bz2":{
+"build":"py39h1f7957d_6",
+"build_number":6,
+"depends":[
+"alsa-lib >=1.2.3,<1.2.4.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"click",
+"click-plugins",
+"codec2 >=0.9.2,<0.10.0a0",
+"fftw >=3.3.9,<4.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gsl >=2.6,<2.7.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libsndfile >=1.0.31,<1.1.0a0",
+"libstdcxx-ng >=9.3.0",
+"libthrift >=0.14.1,<0.15.0a0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"mako",
+"numpy",
+"portaudio >=19.6.0,<19.7.0a0",
+"portaudio >=19.6.0,<20.0a0",
+"pybind11-abi 4",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"six",
+"thrift",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-core",
+"sha256":"8681b48ec94094b2f77ea024c5181c23fc93c71cac8a8068a07cba0effe51d39",
+"size":8184545,
+"timestamp":1621057247676,
+"version":"3.9.1.0"
+},
 "gnuradio-core-3.9.1.0-py39he25e9aa_5.tar.bz2":{
 "build":"py39he25e9aa_5",
 "build_number":5,
@@ -33714,6 +33910,30 @@
 "sha256":"1655e64436113a3c9b2c618ea915ee7c60c32c0dc1311d54cc72ad814f305e2a",
 "size":367911,
 "timestamp":1620948827227,
+"version":"3.9.1.0"
+},
+"gnuradio-grc-3.9.1.0-py36hcecf13b_6.tar.bz2":{
+"build":"py36hcecf13b_6",
+"build_number":6,
+"depends":[
+"adwaita-icon-theme",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core 3.9.1.0 py36ha3efba8_6",
+"gtk3 >=3.24.28,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"lxml",
+"pygobject",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pyyaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-grc",
+"sha256":"9654a9247026a161c7e8268f1366a9f7e1fba2eb073091982f29b3700707b982",
+"size":357466,
+"timestamp":1621057503697,
 "version":"3.9.1.0"
 },
 "gnuradio-grc-3.9.1.0-py37h28afbf1_4.tar.bz2":{
@@ -33908,6 +34128,30 @@
 "timestamp":1620948702586,
 "version":"3.9.1.0"
 },
+"gnuradio-grc-3.9.1.0-py39h0ebb8b1_6.tar.bz2":{
+"build":"py39h0ebb8b1_6",
+"build_number":6,
+"depends":[
+"adwaita-icon-theme",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core 3.9.1.0 py39h1f7957d_6",
+"gtk3 >=3.24.28,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"lxml",
+"pygobject",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-grc",
+"sha256":"64b49edfbf7fe44d1ff854ddc715365bb5f5c6bbe2053b1109903d06fd67cf53",
+"size":357278,
+"timestamp":1621057454655,
+"version":"3.9.1.0"
+},
 "gnuradio-soapy-2.1.3.1-py36hde1a51b_3.tar.bz2":{
 "build":"py36hde1a51b_3",
 "build_number":3,
@@ -34026,6 +34270,26 @@
 "sha256":"3aa8afa79733098036f26a0cb1ee8cf64a5e999a74ddf75ae11c378d65a76cbd",
 "size":591213,
 "timestamp":1620948882204,
+"version":"3.9.1.0"
+},
+"gnuradio-uhd-3.9.1.0-py36h9dc7a33_6.tar.bz2":{
+"build":"py36h9dc7a33_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core 3.9.1.0 py36ha3efba8_6",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"uhd >=4.0.0,<4.0.1.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-uhd",
+"sha256":"75b3239d37d3468a2375d1e035131fe79ebddf355ef6f6ee94b0555aa9720f19",
+"size":590074,
+"timestamp":1621057566340,
 "version":"3.9.1.0"
 },
 "gnuradio-uhd-3.9.1.0-py37ha3adbc6_4.tar.bz2":{
@@ -34188,6 +34452,26 @@
 "timestamp":1620948754378,
 "version":"3.9.1.0"
 },
+"gnuradio-uhd-3.9.1.0-py39h885ffbc_6.tar.bz2":{
+"build":"py39h885ffbc_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core 3.9.1.0 py39h1f7957d_6",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"uhd >=4.0.0,<4.0.1.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-uhd",
+"sha256":"9f09d2a42b040c8de5c8c80a1c40c32eec84d9c1d8db116457520f1df24b393a",
+"size":588233,
+"timestamp":1621057519752,
+"version":"3.9.1.0"
+},
 "gnuradio-video-sdl-3.9.1.0-py36hcecf13b_4.tar.bz2":{
 "build":"py36hcecf13b_4",
 "build_number":4,
@@ -34226,6 +34510,26 @@
 "sha256":"d29a2bb4f7e97981ae5282fa693d4f28dfbe00cbe0ea0f518325a0ac65aea0cc",
 "size":216709,
 "timestamp":1620948927808,
+"version":"3.9.1.0"
+},
+"gnuradio-video-sdl-3.9.1.0-py36hcecf13b_6.tar.bz2":{
+"build":"py36hcecf13b_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core 3.9.1.0 py36ha3efba8_6",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"sdl >=1.2.15,<1.3.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-video-sdl",
+"sha256":"898e67885de1809e07dc979479b7c97dbcd1392f618ccb1d60768915e5306511",
+"size":217167,
+"timestamp":1621057617207,
 "version":"3.9.1.0"
 },
 "gnuradio-video-sdl-3.9.1.0-py37h28afbf1_4.tar.bz2":{
@@ -34388,6 +34692,26 @@
 "timestamp":1620948795717,
 "version":"3.9.1.0"
 },
+"gnuradio-video-sdl-3.9.1.0-py39h0ebb8b1_6.tar.bz2":{
+"build":"py39h0ebb8b1_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core 3.9.1.0 py39h1f7957d_6",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sdl >=1.2.15,<1.3.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-video-sdl",
+"sha256":"018f68e9a95cb5f552311394dfe7f216a7d257c7189108f5797493accd5beee8",
+"size":214680,
+"timestamp":1621057569984,
+"version":"3.9.1.0"
+},
 "gnuradio-zeromq-3.9.1.0-py36ha65df4b_4.tar.bz2":{
 "build":"py36ha65df4b_4",
 "build_number":4,
@@ -34428,6 +34752,27 @@
 "sha256":"6433df5896de9d90f09f6dd933656970c50d1f8f5d853fb4bcea39fd4985fdd4",
 "size":262540,
 "timestamp":1620948971406,
+"version":"3.9.1.0"
+},
+"gnuradio-zeromq-3.9.1.0-py36ha65df4b_6.tar.bz2":{
+"build":"py36ha65df4b_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core 3.9.1.0 py36ha3efba8_6",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pyzmq",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-zeromq",
+"sha256":"9c79d083c04dd27388342c5c24863899bf52a78df6c41d24ee94287454145b54",
+"size":255364,
+"timestamp":1621057665595,
 "version":"3.9.1.0"
 },
 "gnuradio-zeromq-3.9.1.0-py37h1554567_4.tar.bz2":{
@@ -34596,6 +34941,27 @@
 "sha256":"07a54786f130092c7fb1f3b2e20c79ba2daa981933f7093d2ec7411a7df3d43b",
 "size":256641,
 "timestamp":1620948836524,
+"version":"3.9.1.0"
+},
+"gnuradio-zeromq-3.9.1.0-py39hea3519b_6.tar.bz2":{
+"build":"py39hea3519b_6",
+"build_number":6,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core 3.9.1.0 py39h1f7957d_6",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyzmq",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-zeromq",
+"sha256":"d2d8253e47b022685f6773f83da067068351331e7f736da8c1e516ed34bbe1dc",
+"size":246259,
+"timestamp":1621057619672,
 "version":"3.9.1.0"
 },
 "gnutls-3.6.13-h3694615_0.tar.bz2":{
@@ -66817,6 +67183,207 @@
 "size":5504101,
 "timestamp":1607201195884,
 "version":"1.17.5"
+},
+"numpy-1.19.5-py36h743f01d_0.tar.bz2":{
+"build":"py36h743f01d_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"138a1d7e9ae59b3b6d12f994eb23605a9a807ce671246f493a97a7ef6fddc0b1",
+"size":5476604,
+"timestamp":1609881522433,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py36h743f01d_1.tar.bz2":{
+"build":"py36h743f01d_1",
+"build_number":1,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"fa0b1d0620c563307b9e52bae33d7eeea3ede4d52768315810680f11894fcf41",
+"size":5460114,
+"timestamp":1610350659146,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py36h86665d4_0.tar.bz2":{
+"build":"py36h86665d4_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"f3e33fe1be0bc53eb4d567203f1bc8f57dc42cb934191f19095a73b59f52e49a",
+"size":5725490,
+"timestamp":1609881350334,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py36h86665d4_1.tar.bz2":{
+"build":"py36h86665d4_1",
+"build_number":1,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"719e9574d2be0a7242b68a55e46c8cbc4af6a40c0670ab767dd90758b87ad90d",
+"size":5690780,
+"timestamp":1610324930788,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py37h339abbf_1.tar.bz2":{
+"build":"py37h339abbf_1",
+"build_number":1,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"pypy3.7 >=7.3.3",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"e23cee22e7157f89e80f4c3cb479f09d6c32fae9d3c09ebf13f3dffb64e18d37",
+"size":5532147,
+"timestamp":1610325057772,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py37ha4ee695_0.tar.bz2":{
+"build":"py37ha4ee695_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"939128766c124400e2ec71a1779801ea9ec22569b2fb42beb0f5a1dbf9edab3b",
+"size":5679831,
+"timestamp":1609881425649,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py37ha4ee695_1.tar.bz2":{
+"build":"py37ha4ee695_1",
+"build_number":1,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"23388ca108338e96aed9d4921f1c34d74dcbb1b9953bf609d0adca5524f05f7a",
+"size":5682893,
+"timestamp":1610324982463,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py38he4b3509_0.tar.bz2":{
+"build":"py38he4b3509_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"aa6abb74b4c650c9103c31246c30e5a77f1dbc9ce0eadc7cf21eabd7741203a4",
+"size":5728273,
+"timestamp":1609881372567,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py38he4b3509_1.tar.bz2":{
+"build":"py38he4b3509_1",
+"build_number":1,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"42cccbc19a8212e60d020a0878bc5db88bacbc2601c654fbd52926be06c256ca",
+"size":5702725,
+"timestamp":1610324895261,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py39he089932_0.tar.bz2":{
+"build":"py39he089932_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"09a3187dcbef6e822570b8cf16ec2a4c906985ad8a89e908b1b0d25b7b7ca815",
+"size":5690993,
+"timestamp":1609881334134,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py39he089932_1.tar.bz2":{
+"build":"py39he089932_1",
+"build_number":1,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"078ff7fa837566001daa63db2cee2ff0f6cfc5059df13943602128fc338f09ea",
+"size":5662055,
+"timestamp":1610324913207,
+"version":"1.19.5"
 },
 "numpy-1.20.2-py37h339abbf_0.tar.bz2":{
 "build":"py37h339abbf_0",
