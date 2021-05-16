@@ -63001,6 +63001,22 @@
 "timestamp":1620734908309,
 "version":"8.0.25"
 },
+"mysql-8.0.25-h8af1aa0_1.tar.bz2":{
+"build":"h8af1aa0_1",
+"build_number":1,
+"depends":[
+"mysql-client 8.0.25 hb1fb64d_1",
+"mysql-common 8.0.25 h8af1aa0_1",
+"mysql-devel 8.0.25 h8af1aa0_1",
+"mysql-libs 8.0.25 ha3f2873_1",
+"mysql-server 8.0.25 h3d4f8e1_1"
+],
+"name":"mysql",
+"sha256":"4d0861987a446026c549e0fa46fb89d42a1a88f9b846760456e55af220253a7c",
+"size":190699,
+"timestamp":1621119846126,
+"version":"8.0.25"
+},
 "mysql-client-8.0.25-hae679f8_0.tar.bz2":{
 "build":"hae679f8_0",
 "build_number":0,
@@ -63020,6 +63036,25 @@
 "timestamp":1620734689489,
 "version":"8.0.25"
 },
+"mysql-client-8.0.25-hb1fb64d_1.tar.bz2":{
+"build":"hb1fb64d_1",
+"build_number":1,
+"depends":[
+"libedit >=3.1.20191231,<3.2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"mysql-common 8.0.25 h8af1aa0_1",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-client",
+"sha256":"c6056633971160c4a10263f6ee7391cec280fe910178e50cec0825f90a32efe3",
+"size":35277778,
+"timestamp":1621119623827,
+"version":"8.0.25"
+},
 "mysql-common-8.0.25-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
 "build_number":0,
@@ -63028,6 +63063,16 @@
 "sha256":"bfdcae981b460837e624902e2bd8f0ab67572d5d2814e3c6b3be043556f3e1cc",
 "size":1617092,
 "timestamp":1620734598605,
+"version":"8.0.25"
+},
+"mysql-common-8.0.25-h8af1aa0_1.tar.bz2":{
+"build":"h8af1aa0_1",
+"build_number":1,
+"depends":[],
+"name":"mysql-common",
+"sha256":"7f3db5e57d2485c61e138548b6fe24e0e042e13e301695ac42fae98e49ffdd1a",
+"size":1587451,
+"timestamp":1621119531429,
 "version":"8.0.25"
 },
 "mysql-connector-c-6.1.11-h876a3cc_1006.tar.bz2":{
@@ -63210,6 +63255,18 @@
 "timestamp":1620734878452,
 "version":"8.0.25"
 },
+"mysql-devel-8.0.25-h8af1aa0_1.tar.bz2":{
+"build":"h8af1aa0_1",
+"build_number":1,
+"depends":[
+"mysql-libs 8.0.25 ha3f2873_1"
+],
+"name":"mysql-devel",
+"sha256":"7b4db14c432805b95b1f1d4fe11a2d818df9d6330466d83d5f205dcfd1cb5c4e",
+"size":2147352,
+"timestamp":1621119815993,
+"version":"8.0.25"
+},
 "mysql-libs-8.0.22-h7f84562_1.tar.bz2":{
 "build":"h7f84562_1",
 "build_number":1,
@@ -63329,6 +63386,23 @@
 "timestamp":1620417393690,
 "version":"8.0.23"
 },
+"mysql-libs-8.0.25-ha3f2873_1.tar.bz2":{
+"build":"ha3f2873_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mysql-common 8.0.25 h8af1aa0_1",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-libs",
+"sha256":"5748599ef80f2208f7eadcda98a76c661021b7395e5b16950ce0cfc445aa009b",
+"size":1884662,
+"timestamp":1621119689078,
+"version":"8.0.25"
+},
 "mysql-libs-8.0.25-hbb91af6_0.tar.bz2":{
 "build":"hbb91af6_0",
 "build_number":0,
@@ -63363,6 +63437,47 @@
 "sha256":"f2c67d3f96f2e622c05bd3bcec84e9082dd20d1e3232a971e37a94fe406b4f1e",
 "size":5477871,
 "timestamp":1620734638288,
+"version":"8.0.25"
+},
+"mysql-router-8.0.25-hda0f1dc_1.tar.bz2":{
+"build":"hda0f1dc_1",
+"build_number":1,
+"depends":[
+"libevent >=2.1.10,<2.1.11.0a0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-router",
+"sha256":"5edeefdbf60a2fda54ab77f8e6fc1fe97c8ce85f5ddaa97d73293871e948d585",
+"size":5448318,
+"timestamp":1621119571836,
+"version":"8.0.25"
+},
+"mysql-server-8.0.25-h3d4f8e1_1.tar.bz2":{
+"build":"h3d4f8e1_1",
+"build_number":1,
+"depends":[
+"cyrus-sasl >=2.1.27,<3.0a0",
+"icu >=68.1,<69.0a0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"mysql-common 8.0.25 h8af1aa0_1",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-server",
+"sha256":"9505e3668c77ac88ce6da4d8544311153e1aec0340056fd209f8405597d01cba",
+"size":28085402,
+"timestamp":1621119747928,
 "version":"8.0.25"
 },
 "mysql-server-8.0.25-h8b374e5_0.tar.bz2":{

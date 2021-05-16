@@ -54955,6 +54955,22 @@
 "timestamp":1620742633700,
 "version":"8.0.25"
 },
+"mysql-8.0.25-hce30654_1.tar.bz2":{
+"build":"hce30654_1",
+"build_number":1,
+"depends":[
+"mysql-client 8.0.25 hb7e94d5_1",
+"mysql-common 8.0.25 hce30654_1",
+"mysql-devel 8.0.25 hce30654_1",
+"mysql-libs 8.0.25 h577abee_1",
+"mysql-server 8.0.25 hc7297fb_1"
+],
+"name":"mysql",
+"requires":[],
+"size":181680,
+"timestamp":1621123332192,
+"version":"8.0.25"
+},
 "mysql-client-8.0.23-h2d65e16_0.tar.bz2":{
 "build":"h2d65e16_0",
 "build_number":0,
@@ -55045,6 +55061,24 @@
 "timestamp":1620741608176,
 "version":"8.0.25"
 },
+"mysql-client-8.0.25-hb7e94d5_1.tar.bz2":{
+"build":"hb7e94d5_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libedit >=3.1.20191231,<3.2.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"mysql-common 8.0.25 hce30654_1",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-client",
+"requires":[],
+"size":35360672,
+"timestamp":1621122620920,
+"version":"8.0.25"
+},
 "mysql-common-8.0.23-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
@@ -55093,6 +55127,16 @@
 "requires":[],
 "size":1634735,
 "timestamp":1620741507160,
+"version":"8.0.25"
+},
+"mysql-common-8.0.25-hce30654_1.tar.bz2":{
+"build":"hce30654_1",
+"build_number":1,
+"depends":[],
+"name":"mysql-common",
+"requires":[],
+"size":1624886,
+"timestamp":1621122530463,
 "version":"8.0.25"
 },
 "mysql-devel-8.0.23-hce30654_0.tar.bz2":{
@@ -55153,6 +55197,18 @@
 "requires":[],
 "size":2149599,
 "timestamp":1620742612665,
+"version":"8.0.25"
+},
+"mysql-devel-8.0.25-hce30654_1.tar.bz2":{
+"build":"hce30654_1",
+"build_number":1,
+"depends":[
+"mysql-libs 8.0.25 h577abee_1"
+],
+"name":"mysql-devel",
+"requires":[],
+"size":2106602,
+"timestamp":1621123311727,
 "version":"8.0.25"
 },
 "mysql-libs-8.0.23-h4ccdf2d_0.tar.bz2":{
@@ -55233,6 +55289,22 @@
 "requires":[],
 "size":1853852,
 "timestamp":1620741656339,
+"version":"8.0.25"
+},
+"mysql-libs-8.0.25-h577abee_1.tar.bz2":{
+"build":"h577abee_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"mysql-common 8.0.25 hce30654_1",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-libs",
+"requires":[],
+"size":1854093,
+"timestamp":1621122674573,
 "version":"8.0.25"
 },
 "mysql-server-8.0.23-h168b65e_1.tar.bz2":{
@@ -55322,6 +55394,28 @@
 "size":24095018,
 "timestamp":1620608466529,
 "version":"8.0.24"
+},
+"mysql-server-8.0.25-hc7297fb_1.tar.bz2":{
+"build":"hc7297fb_1",
+"build_number":1,
+"depends":[
+"cyrus-sasl >=2.1.27,<3.0a0",
+"icu >=68.1,<69.0a0",
+"libcxx >=11.1.0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"macports-legacy-support >=1.0.1,<2.0a0",
+"mysql-common 8.0.25 hce30654_1",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-server",
+"requires":[],
+"size":24095836,
+"timestamp":1621123253954,
+"version":"8.0.25"
 },
 "mysql-server-8.0.25-hf2833a7_0.tar.bz2":{
 "build":"hf2833a7_0",

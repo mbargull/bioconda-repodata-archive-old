@@ -64137,6 +64137,22 @@
 "timestamp":1620737150301,
 "version":"8.0.25"
 },
+"mysql-8.0.25-ha3edaa6_1.tar.bz2":{
+"build":"ha3edaa6_1",
+"build_number":1,
+"depends":[
+"mysql-client 8.0.25 ha7fd285_1",
+"mysql-common 8.0.25 ha3edaa6_1",
+"mysql-devel 8.0.25 ha3edaa6_1",
+"mysql-libs 8.0.25 ha23194b_1",
+"mysql-server 8.0.25 h4c16c36_1"
+],
+"name":"mysql",
+"sha256":"b1a5657a59ba0c4cd50559b95860b31d9622ff7d72f46a82670ef6ca4d574283",
+"size":211344,
+"timestamp":1621122569151,
+"version":"8.0.25"
+},
 "mysql-client-8.0.25-h8794b47_0.tar.bz2":{
 "build":"h8794b47_0",
 "build_number":0,
@@ -64156,6 +64172,25 @@
 "timestamp":1620737004127,
 "version":"8.0.25"
 },
+"mysql-client-8.0.25-ha7fd285_1.tar.bz2":{
+"build":"ha7fd285_1",
+"build_number":1,
+"depends":[
+"libedit >=3.1.20191231,<3.2.0a0",
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"mysql-common 8.0.25 ha3edaa6_1",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-client",
+"sha256":"933cb32b3552fa9bd6f0f4b96fc935bfe3ddc3d83686a57817992c5ef69b2bba",
+"size":30598028,
+"timestamp":1621122419409,
+"version":"8.0.25"
+},
 "mysql-common-8.0.25-ha3edaa6_0.tar.bz2":{
 "build":"ha3edaa6_0",
 "build_number":0,
@@ -64164,6 +64199,16 @@
 "sha256":"da022af1c5dbf8326f131f91d048c33c10d27bf6270f32e3a712e66fe4f00e63",
 "size":1627357,
 "timestamp":1620736923335,
+"version":"8.0.25"
+},
+"mysql-common-8.0.25-ha3edaa6_1.tar.bz2":{
+"build":"ha3edaa6_1",
+"build_number":1,
+"depends":[],
+"name":"mysql-common",
+"sha256":"e944376f7b0e9042ee6a7a1db146a4e8cb94a9923c9cfdae3e17bd33aefa3fce",
+"size":1643439,
+"timestamp":1621122334237,
 "version":"8.0.25"
 },
 "mysql-connector-c-6.1.11-hafec1d3_1007.tar.bz2":{
@@ -64346,6 +64391,18 @@
 "timestamp":1620737140328,
 "version":"8.0.25"
 },
+"mysql-devel-8.0.25-ha3edaa6_1.tar.bz2":{
+"build":"ha3edaa6_1",
+"build_number":1,
+"depends":[
+"mysql-libs 8.0.25 ha23194b_1"
+],
+"name":"mysql-devel",
+"sha256":"6ea55cd96a0c3fe1205a61f0fde2e1e99bfa72a77815fd459ccdbfad96c6f237",
+"size":2281045,
+"timestamp":1621122558356,
+"version":"8.0.25"
+},
 "mysql-libs-8.0.22-h246f511_0.tar.bz2":{
 "build":"h246f511_0",
 "build_number":0,
@@ -64465,6 +64522,23 @@
 "timestamp":1620419562542,
 "version":"8.0.23"
 },
+"mysql-libs-8.0.25-ha23194b_1.tar.bz2":{
+"build":"ha23194b_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0",
+"mysql-common 8.0.25 ha3edaa6_1",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-libs",
+"sha256":"e58282a2669c527ef6ce063c6da7b53b077eace5a4d9543d965011a5f10ca63f",
+"size":1866575,
+"timestamp":1621122468253,
+"version":"8.0.25"
+},
 "mysql-libs-8.0.25-hc629169_0.tar.bz2":{
 "build":"hc629169_0",
 "build_number":0,
@@ -64501,6 +64575,25 @@
 "timestamp":1620736967947,
 "version":"8.0.25"
 },
+"mysql-router-8.0.25-hbc883e7_1.tar.bz2":{
+"build":"hbc883e7_1",
+"build_number":1,
+"depends":[
+"libevent >=2.1.10,<2.1.11.0a0",
+"libgcc-ng >=8.4.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=8.4.0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-router",
+"sha256":"623ddaead159717315e19b078febf2be45dd031a4007c6902da941d6f6198625",
+"size":4012412,
+"timestamp":1621122379534,
+"version":"8.0.25"
+},
 "mysql-server-8.0.25-h2a8cc67_0.tar.bz2":{
 "build":"h2a8cc67_0",
 "build_number":0,
@@ -64521,6 +64614,28 @@
 "sha256":"37ab3a4d53854c9624bf95dab9115130345e993b4fc71eec2881886ee1e45b40",
 "size":21299673,
 "timestamp":1620737090721,
+"version":"8.0.25"
+},
+"mysql-server-8.0.25-h4c16c36_1.tar.bz2":{
+"build":"h4c16c36_1",
+"build_number":1,
+"depends":[
+"cyrus-sasl >=2.1.27,<3.0a0",
+"icu >=68.1,<69.0a0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"libgcc-ng >=8.4.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=8.4.0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"mysql-common 8.0.25 ha3edaa6_1",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"name":"mysql-server",
+"sha256":"e8c442f09cca422a15f19a0db4d0239379a957f1ef1c4926ee65a14b6a6b669b",
+"size":21263475,
+"timestamp":1621122506330,
 "version":"8.0.25"
 },
 "mysqlclient-2.0.3-py36h08d3667_0.tar.bz2":{
