@@ -45444,6 +45444,38 @@
 "timestamp":1608186800755,
 "version":"9.0.1"
 },
+"libm2k-0.4.0-py38h006e211_2.tar.bz2":{
+"build":"py38h006e211_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"libiio-c >=0.21,<0.22.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libm2k",
+"requires":[],
+"size":917203,
+"timestamp":1621209123903,
+"version":"0.4.0"
+},
+"libm2k-0.4.0-py39h1e86038_2.tar.bz2":{
+"build":"py39h1e86038_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"libiio-c >=0.21,<0.22.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libm2k",
+"requires":[],
+"size":920407,
+"timestamp":1621209029356,
+"version":"0.4.0"
+},
 "libmagic-5.39-hf7e6567_0.tar.bz2":{
 "build":"hf7e6567_0",
 "build_number":0,
@@ -58363,6 +58395,22 @@
 "size":393870,
 "timestamp":1607300908726,
 "version":"2.3.1"
+},
+"openjpeg-2.4.0-h062765e_1.tar.bz2":{
+"build":"h062765e_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"openjpeg",
+"requires":[],
+"size":432211,
+"timestamp":1621211760780,
+"version":"2.4.0"
 },
 "openjpeg-2.4.0-hfb99f25_0.tar.bz2":{
 "build":"hfb99f25_0",
@@ -82109,6 +82157,19 @@
 "timestamp":1620339761294,
 "version":"1.0.7"
 },
+"s2n-1.0.8-hbae9a57_0.tar.bz2":{
+"build":"hbae9a57_0",
+"build_number":0,
+"depends":[
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"s2n",
+"requires":[],
+"size":331024,
+"timestamp":1621213047525,
+"version":"1.0.8"
+},
 "s2n-static-0.10.0-hf5adfa1_1.tar.bz2":{
 "build":"hf5adfa1_1",
 "build_number":1,
@@ -82262,6 +82323,17 @@
 "size":443674,
 "timestamp":1620339823102,
 "version":"1.0.7"
+},
+"s2n-static-1.0.8-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"s2n-static",
+"requires":[],
+"size":446700,
+"timestamp":1621213098036,
+"version":"1.0.8"
 },
 "safeint-3.0.26-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
