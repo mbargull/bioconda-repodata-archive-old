@@ -21490,47 +21490,19 @@
 "timestamp":1588599502043,
 "version":"3.0.6"
 },
-"dlpack-0.3-he1b5a44_0.tar.bz2":{
-"build":"he1b5a44_0",
+"dlpack-0.4-h01db608_0.tar.bz2":{
+"build":"h01db608_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0"
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
 ],
 "license":"MIT",
 "name":"dlpack",
-"sha256":"0ae2ca7071d5f57ecc677f0df081f77c2d05dac8f2f4dc4315b0a7cc2b2f80a7",
-"size":13940,
-"timestamp":1593623452175,
-"version":"0.3"
-},
-"dlpack-0.3-he1b5a44_1.tar.bz2":{
-"build":"he1b5a44_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0"
-],
-"license":"MIT",
-"name":"dlpack",
-"sha256":"7edd01b54045ba1bfa8d63870c6200567a1654743e765ecd2069830a4232cbc9",
-"size":13914,
-"timestamp":1593667665368,
-"version":"0.3"
-},
-"dlpack-0.3dev-he1b5a44_0.tar.bz2":{
-"build":"he1b5a44_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0"
-],
-"license":"MIT",
-"name":"dlpack",
-"sha256":"5e177cd493cb072a9c4f680a4c96ba17bade9c6d3742573183fb7505f0a679af",
-"size":14295,
-"timestamp":1593622389688,
-"version":"0.3dev"
+"sha256":"67388fa254c059105b577ec6f2e0b8336347764b1f34b1205e360f113b0b0c39",
+"size":12892,
+"timestamp":1621283628955,
+"version":"0.4"
 },
 "docker-py-5.0.0-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
@@ -83923,6 +83895,29 @@
 "sha256":"b8d235c68868e7c8707edd34b437733b3a155b36dc5a9019ca14a69a23575f31",
 "size":704721,
 "timestamp":1621281565480,
+"version":"2021.2"
+},
+"pyopencl-2021.2-py37hce16e70_0.tar.bz2":{
+"build":"py37hce16e70_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"ocl-icd >=2.3.0,<3.0a0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"pytools",
+"setuptools"
+],
+"license":"MIT",
+"name":"pyopencl",
+"sha256":"cec143a388259b07c5f151b0fd6e87f865010a17af03e2d39b2bc7ee7c51fbd4",
+"size":712800,
+"timestamp":1621282143539,
 "version":"2021.2"
 },
 "pyopenssl-19.1.0-py36_0.tar.bz2":{
