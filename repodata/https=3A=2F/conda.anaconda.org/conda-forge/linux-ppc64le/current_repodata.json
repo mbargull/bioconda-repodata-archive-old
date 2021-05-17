@@ -23618,7 +23618,7 @@
 "timestamp":1588599516630,
 "version":"3.0.6"
 },
-"dlpack-0.4-h3b9df90_0.tar.bz2":{
+"dlpack-0.5-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
 "build_number":0,
 "depends":[
@@ -23627,10 +23627,10 @@
 ],
 "license":"MIT",
 "name":"dlpack",
-"sha256":"f5eace8c9fa0296de43567e9669018f6e276713debb2a7d7644e961f75da0324",
-"size":12973,
-"timestamp":1621283274605,
-"version":"0.4"
+"sha256":"4c6a86b813cce11636111394f237280e1ce1b2dad671cec4aaca4e1b488055f4",
+"size":12971,
+"timestamp":1621286317866,
+"version":"0.5"
 },
 "docker-py-5.0.0-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
@@ -56285,6 +56285,25 @@
 "size":4769245,
 "timestamp":1615295846239,
 "version":"0.14.1"
+},
+"libtiff-4.2.0-h362c9b0_3.tar.bz2":{
+"build":"h362c9b0_3",
+"build_number":3,
+"depends":[
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libwebp-base",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"license":"HPND",
+"name":"libtiff",
+"sha256":"f65a7431622d6668970eb2f52c965050df64c1a2682b3132055a0d9ca5c792fc",
+"size":781235,
+"timestamp":1621285789776,
+"version":"4.2.0"
 },
 "libtiff-4.2.0-ha6c7faf_2.tar.bz2":{
 "build":"ha6c7faf_2",

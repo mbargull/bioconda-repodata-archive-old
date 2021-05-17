@@ -19784,6 +19784,24 @@
 "timestamp":1621274207338,
 "version":"4.2.0"
 },
+"libtiff-4.2.0-hc6122e1_3.tar.bz2":{
+"build":"hc6122e1_3",
+"build_number":3,
+"depends":[
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libwebp-base",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"license":"HPND",
+"name":"libtiff",
+"sha256":"eea6e5a075eec59852f3f89753428d856ea55458f6c53b0b42844f506c8a6b19",
+"size":589868,
+"timestamp":1621285744945,
+"version":"4.2.0"
+},
 "libtiff-4.2.0-hcbb2f27_1.tar.bz2":{
 "build":"hcbb2f27_1",
 "build_number":1,
@@ -25339,7 +25357,7 @@
 "timestamp":1613073046436,
 "version":"1.0.0"
 },
-"pillow-8.1.2-py38h5351710_1.tar.bz2":{
+"pillow-8.2.0-py38h5351710_1.tar.bz2":{
 "build":"py38h5351710_1",
 "build_number":1,
 "depends":[
@@ -25356,33 +25374,12 @@
 ],
 "license":"LicenseRef-PIL",
 "name":"pillow",
-"sha256":"9e3fb1c071c7c9561c320dd32c1842615d3c5c74c6c48f35425a90fcfa7ed47d",
-"size":663251,
-"timestamp":1617888881605,
-"version":"8.1.2"
+"sha256":"6d46952a9845505ae8b6f50ae42d8d3ba61f6df4004b1e2ef68d6fb1fb231a09",
+"size":667149,
+"timestamp":1621288515005,
+"version":"8.2.0"
 },
-"pillow-8.1.2-py38h5cebd47_0.tar.bz2":{
-"build":"py38h5cebd47_0",
-"build_number":0,
-"depends":[
-"freetype >=2.10.4,<3.0a0",
-"jpeg >=9d,<10a",
-"lcms2 >=2.12,<3.0a0",
-"libtiff >=4.2.0,<5.0a0",
-"olefile",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"tk >=8.6.10,<8.7.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LicenseRef-PIL",
-"name":"pillow",
-"sha256":"91a1ad405d490491982c4d370ece0cbff26c25c89f7ce8eb5783776ffd2b9eaa",
-"size":649325,
-"timestamp":1615244224822,
-"version":"8.1.2"
-},
-"pillow-8.1.2-py39h282ff46_1.tar.bz2":{
+"pillow-8.2.0-py39h282ff46_1.tar.bz2":{
 "build":"py39h282ff46_1",
 "build_number":1,
 "depends":[
@@ -25399,31 +25396,10 @@
 ],
 "license":"LicenseRef-PIL",
 "name":"pillow",
-"sha256":"a87eb6970bdc3136d07fb96d7dbb160280ff95ab64d28316c83e3ce020c6a2cb",
-"size":652436,
-"timestamp":1617888979856,
-"version":"8.1.2"
-},
-"pillow-8.1.2-py39hf007017_0.tar.bz2":{
-"build":"py39hf007017_0",
-"build_number":0,
-"depends":[
-"freetype >=2.10.4,<3.0a0",
-"jpeg >=9d,<10a",
-"lcms2 >=2.12,<3.0a0",
-"libtiff >=4.2.0,<5.0a0",
-"olefile",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"tk >=8.6.10,<8.7.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LicenseRef-PIL",
-"name":"pillow",
-"sha256":"ba590708a1255d7d62a7037d6b513e82e4f6db42ff51caca888d03e314d2426e",
-"size":641240,
-"timestamp":1615244243837,
-"version":"8.1.2"
+"sha256":"00405d2f612679facba2a23f591a233c8d4589ed2b05041f0811bcbacd8a2f1d",
+"size":664252,
+"timestamp":1621288278841,
+"version":"8.2.0"
 },
 "pixman-0.40.0-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
