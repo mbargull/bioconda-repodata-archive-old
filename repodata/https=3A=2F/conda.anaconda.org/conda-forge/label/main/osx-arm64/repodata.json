@@ -25283,6 +25283,38 @@
 "timestamp":1620964420237,
 "version":"0.6.6"
 },
+"esutil-0.6.7-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"GPLv2",
+"name":"esutil",
+"requires":[],
+"size":406701,
+"timestamp":1621221600436,
+"version":"0.6.7"
+},
+"esutil-0.6.7-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"GPLv2",
+"name":"esutil",
+"requires":[],
+"size":399277,
+"timestamp":1621221574243,
+"version":"0.6.7"
+},
 "eups-2.1.5-py38h10201cd_2.tar.bz2":{
 "build":"py38h10201cd_2",
 "build_number":2,
@@ -26801,6 +26833,31 @@
 "size":1352576,
 "timestamp":1618268807397,
 "version":"1.3.5"
+},
+"fltk-1.3.6-h38c865a_0.tar.bz2":{
+"build":"h38c865a_0",
+"build_number":0,
+"depends":[
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libpng >=1.6.37,<1.7.0a0",
+"libxcb",
+"xorg-libice",
+"xorg-libsm",
+"xorg-libx11",
+"xorg-libxau",
+"xorg-libxdmcp",
+"xorg-libxext",
+"xorg-libxfixes",
+"xorg-libxrender",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.0",
+"name":"fltk",
+"requires":[],
+"size":1366149,
+"timestamp":1621219935443,
+"version":"1.3.6"
 },
 "fmt-7.1.2-h260d524_0.tar.bz2":{
 "build":"h260d524_0",
@@ -61292,6 +61349,24 @@
 "size":36090,
 "timestamp":1610136961066,
 "version":"2.3.5"
+},
+"pcl-1.11.1-h70a416a_4.tar.bz2":{
+"build":"h70a416a_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"flann >=1.9.1,<1.9.2.0a0",
+"glew >=2.1.0,<2.2.0a0",
+"libcxx >=11.1.0",
+"qhull >=2020.2,<2020.3.0a0",
+"vtk >=9.0.1,<9.0.2.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"pcl",
+"requires":[],
+"size":18367578,
+"timestamp":1621220158513,
+"version":"1.11.1"
 },
 "pcre-8.44-hb904e53_0.tar.bz2":{
 "build":"hb904e53_0",
