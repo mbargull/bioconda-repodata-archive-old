@@ -46121,6 +46121,50 @@
 "timestamp":1621063258747,
 "version":"4.8.0"
 },
+"libnetcdf-4.8.0-mpi_mpich_hc1bce26_3.tar.bz2":{
+"build":"mpi_mpich_hc1bce26_3",
+"build_number":3,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.15,<4.3.0a0",
+"hdf5 * mpi_mpich_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libzip >=1.7.3,<2.0a0",
+"mpich >=3.4,<3.5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"requires":[],
+"size":1401483,
+"timestamp":1621274487031,
+"version":"4.8.0"
+},
+"libnetcdf-4.8.0-mpi_openmpi_h1cc98ea_3.tar.bz2":{
+"build":"mpi_openmpi_h1cc98ea_3",
+"build_number":3,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.15,<4.3.0a0",
+"hdf5 * mpi_openmpi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libzip >=1.7.3,<2.0a0",
+"openmpi >=4.1.1,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"requires":[],
+"size":1338824,
+"timestamp":1621274464999,
+"version":"4.8.0"
+},
 "libnetcdf-4.8.0-mpi_openmpi_hd885e69_1.tar.bz2":{
 "build":"mpi_openmpi_hd885e69_1",
 "build_number":1,
@@ -46205,6 +46249,27 @@
 "requires":[],
 "size":1344820,
 "timestamp":1621063083133,
+"version":"4.8.0"
+},
+"libnetcdf-4.8.0-nompi_hd870bb1_103.tar.bz2":{
+"build":"nompi_hd870bb1_103",
+"build_number":103,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.15,<4.3.0a0",
+"hdf5 * nompi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libzip >=1.7.3,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"requires":[],
+"size":1342412,
+"timestamp":1621274625985,
 "version":"4.8.0"
 },
 "libnghttp2-1.41.0-h87e4072_2.tar.bz2":{
@@ -48445,6 +48510,24 @@
 "requires":[],
 "size":607727,
 "timestamp":1608420568561,
+"version":"4.2.0"
+},
+"libtiff-4.2.0-haa86c9b_2.tar.bz2":{
+"build":"haa86c9b_2",
+"build_number":2,
+"depends":[
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libwebp-base",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"HPND",
+"name":"libtiff",
+"requires":[],
+"size":576371,
+"timestamp":1621274207338,
 "version":"4.2.0"
 },
 "libtiff-4.2.0-hcbb2f27_1.tar.bz2":{
@@ -91940,6 +92023,34 @@
 "size":114151,
 "timestamp":1620247304341,
 "version":"9.0.1"
+},
+"websockets-9.0.2-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"websockets",
+"requires":[],
+"size":114275,
+"timestamp":1621274704012,
+"version":"9.0.2"
+},
+"websockets-9.0.2-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"websockets",
+"requires":[],
+"size":114411,
+"timestamp":1621274493630,
+"version":"9.0.2"
 },
 "widgetsnbextension-3.5.1-py38h10201cd_4.tar.bz2":{
 "build":"py38h10201cd_4",
