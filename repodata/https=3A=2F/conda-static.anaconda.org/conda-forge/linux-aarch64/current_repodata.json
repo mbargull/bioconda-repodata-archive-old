@@ -24132,7 +24132,7 @@
 "timestamp":1616693679799,
 "version":"2.3.0"
 },
-"fastavro-1.4.0-py36h269c3a8_0.tar.bz2":{
+"fastavro-1.4.1-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
 "depends":[
@@ -24143,12 +24143,12 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"580e6f5c8d9471b01f84d78bfb9d87419177037ac652cd48bdd34ef178e0a989",
-"size":504622,
-"timestamp":1618617960420,
-"version":"1.4.0"
+"sha256":"94df6cfa5df4dbeaac7bbae73149c8bb3475c229cb5cad0aa755254b9630c3de",
+"size":500882,
+"timestamp":1621362874739,
+"version":"1.4.1"
 },
-"fastavro-1.4.0-py36h9b67645_0.tar.bz2":{
+"fastavro-1.4.1-py36h9b67645_0.tar.bz2":{
 "build":"py36h9b67645_0",
 "build_number":0,
 "depends":[
@@ -24160,45 +24160,29 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"3e3c35dd1849b1b0506b06629f580f223dee2ab306fd346895677cf831912ccc",
-"size":71601,
-"timestamp":1618617888446,
-"version":"1.4.0"
+"sha256":"30776e26372ea99964bcf473181069d13bbd21f5b013c3eaf005e5a2eef511ad",
+"size":71669,
+"timestamp":1621362879503,
+"version":"1.4.1"
 },
-"fastavro-1.4.0-py37h1283c21_0.tar.bz2":{
+"fastavro-1.4.1-py37h1283c21_0.tar.bz2":{
 "build":"py37h1283c21_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "pytz"
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"98c1bd446c62573284a4e1964656a47af8c753e5273767c947d3095e4ec2b1b1",
-"size":71542,
-"timestamp":1618617834957,
-"version":"1.4.0"
+"sha256":"d5188bafee50ffb48c9252f0214e3c157d74e9daf01d908508ccdb58adf37e17",
+"size":71760,
+"timestamp":1621362575262,
+"version":"1.4.1"
 },
-"fastavro-1.4.0-py37hcd4c3ab_0.tar.bz2":{
-"build":"py37hcd4c3ab_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"pytz"
-],
-"license":"MIT",
-"name":"fastavro",
-"sha256":"da00a21254c147e184a3c413160f718009dbc005306360c960faae58ae755fe8",
-"size":499677,
-"timestamp":1618618143302,
-"version":"1.4.0"
-},
-"fastavro-1.4.0-py38h9544abe_0.tar.bz2":{
+"fastavro-1.4.1-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
@@ -24209,26 +24193,10 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"570497f76443886911e2f719f5a5d66107d777f4121141f0fccf71a13e374858",
-"size":510005,
-"timestamp":1618617946000,
-"version":"1.4.0"
-},
-"fastavro-1.4.0-py39h14843e3_0.tar.bz2":{
-"build":"py39h14843e3_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pytz"
-],
-"license":"MIT",
-"name":"fastavro",
-"sha256":"9665dd1fb7308e2078c8f475e0fc90810e25bd589a6a8574c09e211c0229afa8",
-"size":504515,
-"timestamp":1618617777442,
-"version":"1.4.0"
+"sha256":"dab9fd6b63cd9ceb10b651c66aed40de3be92781013543e7c08ff61a3223cf5d",
+"size":504235,
+"timestamp":1621362831388,
+"version":"1.4.1"
 },
 "fastcache-1.1.0-py27h516909a_0.tar.bz2":{
 "build":"py27h516909a_0",
@@ -85411,7 +85379,29 @@
 "timestamp":1616591798874,
 "version":"0.16.2"
 },
-"pyopencl-2021.1.6-py36h93b45c7_0.tar.bz2":{
+"pyopencl-2021.2.1-py36h2e26b47_0.tar.bz2":{
+"build":"py36h2e26b47_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mako",
+"numpy >=1.17.5,<2.0a0",
+"ocl-icd >=2.3.0,<3.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pytools",
+"setuptools"
+],
+"license":"MIT",
+"name":"pyopencl",
+"sha256":"dcc90e0f733598a7c1a216e9f6ffbc937e185b2d10e6606f5f6393a645b94fa1",
+"size":734481,
+"timestamp":1621362116010,
+"version":"2021.2.1"
+},
+"pyopencl-2021.2.1-py36h93b45c7_0.tar.bz2":{
 "build":"py36h93b45c7_0",
 "build_number":0,
 "depends":[
@@ -85429,12 +85419,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"d43e81ef10120549520ce29ff38b54cf4d11bb1631f3e4b586b301248684ad45",
-"size":707993,
-"timestamp":1617655916985,
-"version":"2021.1.6"
+"sha256":"2015d73995b17936efdc72986a5bcf33a25bea886003971d396fcbda8a8d11bf",
+"size":704347,
+"timestamp":1621362080704,
+"version":"2021.2.1"
 },
-"pyopencl-2021.1.6-py37h2603c11_0.tar.bz2":{
+"pyopencl-2021.2.1-py37h2603c11_0.tar.bz2":{
 "build":"py37h2603c11_0",
 "build_number":0,
 "depends":[
@@ -85451,12 +85441,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"7e3b85ad643e11eac825f6be94797a254de580355f11636788bba2ba19fed973",
-"size":728886,
-"timestamp":1617655932974,
-"version":"2021.1.6"
+"sha256":"d88247b3a44474764645aa09e87f688e929f61744dccfc6ba1c0142fb196e503",
+"size":733800,
+"timestamp":1621361513672,
+"version":"2021.2.1"
 },
-"pyopencl-2021.1.6-py37hce16e70_0.tar.bz2":{
+"pyopencl-2021.2.1-py37hce16e70_0.tar.bz2":{
 "build":"py37hce16e70_0",
 "build_number":0,
 "depends":[
@@ -85466,7 +85456,7 @@
 "mako",
 "numpy >=1.19.5,<2.0a0",
 "ocl-icd >=2.3.0,<3.0a0",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "pytools",
@@ -85474,12 +85464,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"a30e291178b31c05b5d369733b5470a2db26bf32dc5a8ba75938c74ef5cbf759",
-"size":709661,
-"timestamp":1617656611898,
-"version":"2021.1.6"
+"sha256":"599d3a335aa4ac2caaf2354f236c350b9c555c981d58a1fa0edd841540c2c7a6",
+"size":712900,
+"timestamp":1621361493634,
+"version":"2021.2.1"
 },
-"pyopencl-2021.1.6-py38h5bf94d8_0.tar.bz2":{
+"pyopencl-2021.2.1-py38h5bf94d8_0.tar.bz2":{
 "build":"py38h5bf94d8_0",
 "build_number":0,
 "depends":[
@@ -85496,12 +85486,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"e7ddafff39c744af11f628dde22c341780f6f68b08cb3701f1fd827e9dd4e7e4",
-"size":710612,
-"timestamp":1617655906053,
-"version":"2021.1.6"
+"sha256":"2fb8de387d92e344be7310bd2a74c76a3c7a87584165ac32e3b1473b2b2520f7",
+"size":718978,
+"timestamp":1621362046226,
+"version":"2021.2.1"
 },
-"pyopencl-2021.1.6-py39h9f797f2_0.tar.bz2":{
+"pyopencl-2021.2.1-py39h9f797f2_0.tar.bz2":{
 "build":"py39h9f797f2_0",
 "build_number":0,
 "depends":[
@@ -85518,10 +85508,10 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"d8d7da8a0a79c6c55b5945f52a5712797642c787e51afb2bf06210eb8c47c4dd",
-"size":722190,
-"timestamp":1617656299783,
-"version":"2021.1.6"
+"sha256":"4fd32a139b1676afd23b8602cb1bd7d8cadd3c2fc88f961f95ab1f99b40c387d",
+"size":730492,
+"timestamp":1621362278028,
+"version":"2021.2.1"
 },
 "pyopenssl-19.1.0-py36_0.tar.bz2":{
 "build":"py36_0",
