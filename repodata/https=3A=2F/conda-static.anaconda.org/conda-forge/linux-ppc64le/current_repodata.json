@@ -18190,6 +18190,13 @@
 "clang-12.0.0-ha3edaa6_1.tar.bz2":{
 "build":"ha3edaa6_1",
 "build_number":1,
+"constrains":[
+"libclang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
+],
 "depends":[
 "clang-12 12.0.0 default_hf0ebb0c_1",
 "gcc_impl_linux-ppc64le"
@@ -18276,7 +18283,12 @@
 "build":"default_hf0ebb0c_1",
 "build_number":1,
 "constrains":[
-"clangdev 12.0.0"
+"clangdev 12.0.0",
+"libclang 12.0.0.*",
+"clang 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
 ],
 "depends":[
 "clang 12.0.0 ha3edaa6_1",
@@ -49881,6 +49893,13 @@
 "libclang-12.0.0-default_hf0ebb0c_1.tar.bz2":{
 "build":"default_hf0ebb0c_1",
 "build_number":1,
+"constrains":[
+"clang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
+],
 "depends":[
 "libgcc-ng >=8.4.0",
 "libllvm12 >=12.0.0,<12.1.0a0",
@@ -54430,7 +54449,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "libzip >=1.7.3,<2.0a0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"MIT",
@@ -54453,7 +54472,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "libzip >=1.7.3,<2.0a0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"MIT",
@@ -71662,7 +71681,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
@@ -71689,7 +71708,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
@@ -71713,7 +71732,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
@@ -71740,7 +71759,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
@@ -71766,7 +71785,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -71792,7 +71811,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
