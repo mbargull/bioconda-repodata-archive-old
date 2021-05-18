@@ -15904,6 +15904,40 @@
 "timestamp":1620642671536,
 "version":"11.1.0"
 },
+"clang-12-12.0.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"constrains":[
+"clangdev 12.0.0",
+"clangxx 12.0.0",
+"clang-tools 12.0.0",
+"llvm-tools 12.0.0"
+],
+"depends":[
+"libclang-cpp12 12.0.0.*",
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-12",
+"requires":[],
+"size":710211,
+"timestamp":1621370621532,
+"version":"12.0.0"
+},
+"clang-12.0.0-hce30654_1.tar.bz2":{
+"build":"hce30654_1",
+"build_number":1,
+"depends":[
+"clang-12 12.0.0 default_h0fdd720_1"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang",
+"requires":[],
+"size":127594,
+"timestamp":1621370899239,
+"version":"12.0.0"
+},
 "clang-9-9.0.1-default_h86191a3_1.tar.bz2":{
 "build":"default_h86191a3_1",
 "build_number":1,
@@ -16108,6 +16142,25 @@
 "size":12044372,
 "timestamp":1614817051533,
 "version":"11.1.0"
+},
+"clang-tools-12.0.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"constrains":[
+"clangdev 12.0.0"
+],
+"depends":[
+"clang 12.0.0 hce30654_1",
+"clangxx 12.0.0 default_h8b1a7b7_1",
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-tools",
+"requires":[],
+"size":12888710,
+"timestamp":1621372162866,
+"version":"12.0.0"
 },
 "clang-tools-9.0.1-default_h0fdd720_1.tar.bz2":{
 "build":"default_h0fdd720_1",
@@ -17314,6 +17367,25 @@
 "timestamp":1614817107815,
 "version":"11.1.0"
 },
+"clangdev-12.0.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"clang 12.0.0 hce30654_1",
+"clang-tools 12.0.0 default_h0fdd720_1",
+"clangxx 12.0.0 default_h8b1a7b7_1",
+"libclang 12.0.0 default_h0fdd720_1",
+"libclang-cpp 12.0.0 default_h0fdd720_1",
+"libcxx >=11.1.0",
+"llvmdev 12.0.0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangdev",
+"requires":[],
+"size":26909091,
+"timestamp":1621372239426,
+"version":"12.0.0"
+},
 "clangdev-5.0.0-h0d3df5c_1011.tar.bz2":{
 "build":"h0d3df5c_1011",
 "build_number":1011,
@@ -17555,6 +17627,19 @@
 "size":126985,
 "timestamp":1614815986662,
 "version":"11.1.0"
+},
+"clangxx-12.0.0-default_h8b1a7b7_1.tar.bz2":{
+"build":"default_h8b1a7b7_1",
+"build_number":1,
+"depends":[
+"clang 12.0.0 hce30654_1"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangxx",
+"requires":[],
+"size":127682,
+"timestamp":1621370909732,
+"version":"12.0.0"
 },
 "clangxx-9.0.1-default_h8b1a7b7_1.tar.bz2":{
 "build":"default_h8b1a7b7_1",
@@ -43285,6 +43370,20 @@
 "timestamp":1614816130525,
 "version":"11.1.0"
 },
+"libclang-12.0.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang",
+"requires":[],
+"size":14202792,
+"timestamp":1621371068138,
+"version":"12.0.0"
+},
 "libclang-9.0.1-default_h0fdd720_1.tar.bz2":{
 "build":"default_h0fdd720_1",
 "build_number":1,
@@ -43419,6 +43518,21 @@
 "timestamp":1614815959249,
 "version":"11.1.0"
 },
+"libclang-cpp-12.0.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"libclang-cpp12 12.0.0 default_h0fdd720_1",
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp",
+"requires":[],
+"size":12502821,
+"timestamp":1621370880876,
+"version":"12.0.0"
+},
 "libclang-cpp-9.0.1-default_h86191a3_1.tar.bz2":{
 "build":"default_h86191a3_1",
 "build_number":1,
@@ -43549,6 +43663,20 @@
 "size":12101318,
 "timestamp":1614815539260,
 "version":"11.1.0"
+},
+"libclang-cpp12-12.0.0-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp12",
+"requires":[],
+"size":12505085,
+"timestamp":1621370447760,
+"version":"12.0.0"
 },
 "libclang-cpp9-9.0.1-default_h86191a3_1.tar.bz2":{
 "build":"default_h86191a3_1",
