@@ -46461,6 +46461,19 @@
 "timestamp":1621278179882,
 "version":"0.11.3"
 },
+"liblief-0.11.4-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"liblief",
+"requires":[],
+"size":2011333,
+"timestamp":1621323818621,
+"version":"0.11.4"
+},
 "liblimesuite-20.10.0-hbdafb3b_1.tar.bz2":{
 "build":"hbdafb3b_1",
 "build_number":1,
@@ -66013,6 +66026,38 @@
 "size":1254683,
 "timestamp":1621281057727,
 "version":"0.11.3"
+},
+"py-lief-0.11.4-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"liblief 0.11.4 hbdafb3b_0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"py-lief",
+"requires":[],
+"size":1255863,
+"timestamp":1621325112883,
+"version":"0.11.4"
+},
+"py-lief-0.11.4-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"liblief 0.11.4 hbdafb3b_0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"py-lief",
+"requires":[],
+"size":1256205,
+"timestamp":1621326417911,
+"version":"0.11.4"
 },
 "py-opencv-4.5.0-py38hab544c7_5.tar.bz2":{
 "build":"py38hab544c7_5",

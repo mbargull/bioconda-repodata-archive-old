@@ -162,6 +162,20 @@
 "timestamp":1592525615557,
 "version":"2.0.0"
 },
+"aiofiles-0.7.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6"
+],
+"license":"Apache 2.0",
+"name":"aiofiles",
+"noarch":"python",
+"sha256":"656566e44cbccaee92896e6bdf8735f2bd82f562d63f8dd7d5d517b72b4d0535",
+"size":16563,
+"timestamp":1621287868262,
+"version":"0.7.0"
+},
 "aiohttp-jinja2-1.4.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -3212,7 +3226,7 @@
 "timestamp":1617390529729,
 "version":"2021.4.0"
 },
-"dask-core-2021.4.1-pyhd3eb1b0_0.tar.bz2":{
+"dask-core-2021.5.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -3226,10 +3240,10 @@
 "license":"BSD-3-Clause",
 "name":"dask-core",
 "noarch":"python",
-"sha256":"0c39103512ec8fb79ab99884b341855ea21cdfa8e40a787146c96e8375efb0ba",
-"size":747005,
-"timestamp":1620827793703,
-"version":"2021.4.1"
+"sha256":"6274dafa24ba2dfbdae802b4396ff8b4120ab11a6bf551753b0fa72b60319cc4",
+"size":749455,
+"timestamp":1621258992231,
+"version":"2021.5.0"
 },
 "dask-glm-0.2.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -3496,7 +3510,7 @@
 "timestamp":1611930062539,
 "version":"4.4.2"
 },
-"decorator-5.0.7-pyhd3eb1b0_0.tar.bz2":{
+"decorator-5.0.9-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -3505,10 +3519,10 @@
 "license":"BSD-2-Clause",
 "name":"decorator",
 "noarch":"python",
-"sha256":"7f4376312e86001e1838abd9c94773e2e23ce6cfd13ef5a6a4b4a5316c2e8642",
-"size":11972,
-"timestamp":1620904226064,
-"version":"5.0.7"
+"sha256":"a629c26088ba6e28bd7c81b38d068f3f679b0633b95190c99e1ca0e0a9380d53",
+"size":11998,
+"timestamp":1621259089726,
+"version":"5.0.9"
 },
 "defusedxml-0.7.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -3796,21 +3810,21 @@
 "timestamp":1605066697359,
 "version":"1.1.2"
 },
-"envisage-5.0.0-pyhd3eb1b0_0.tar.bz2":{
+"envisage-6.0.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "apptools",
-"python",
-"traits"
+"python >=3.6",
+"traits >=6.2"
 ],
-"license":"BSD 3-clause",
+"license":"BSD-3-clause",
 "name":"envisage",
 "noarch":"python",
-"sha256":"1be3345633c74d1795c535ff3cb45452b820eed37a431f7399758798e6e39998",
-"size":174858,
-"timestamp":1612241368599,
-"version":"5.0.0"
+"sha256":"4e8a2109b53383b7b54dc2ed7b56f8622091481aaf2bf1448fa5628ab45613ee",
+"size":176994,
+"timestamp":1621280649377,
+"version":"6.0.0"
 },
 "esda-2.3.6-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -3980,7 +3994,7 @@
 "timestamp":1603822216853,
 "version":"0.1"
 },
-"faker-8.1.3-pyhd3eb1b0_1.tar.bz2":{
+"faker-8.1.4-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -3991,10 +4005,10 @@
 "license":"MIT",
 "name":"faker",
 "noarch":"python",
-"sha256":"f790c2b4c50a2a90e1712a84c1f1c11ff1cae4cb7b65eddbf9a635bbc52a78e1",
-"size":938991,
-"timestamp":1620992166942,
-"version":"8.1.3"
+"sha256":"6ad268a2e920a11d8c4b344d7c34e915519d6e0b816b1223d5faa005850b9e28",
+"size":927073,
+"timestamp":1620999390879,
+"version":"8.1.4"
 },
 "fasteners-0.16-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -4379,21 +4393,21 @@
 "timestamp":1620925186363,
 "version":"0.4.0"
 },
-"flask-socketio-5.0.1-pyhd3eb1b0_0.tar.bz2":{
+"flask-socketio-5.0.3-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "flask >=0.9",
 "python",
-"python-socketio >=4.3.0"
+"python-socketio >=5.0.2"
 ],
 "license":"MIT",
 "name":"flask-socketio",
 "noarch":"python",
-"sha256":"e193d25baf8194cf3d2fb89500eeec68d63c808252330fc7510c20d0afb843d5",
-"size":18130,
-"timestamp":1612241817030,
-"version":"5.0.1"
+"sha256":"8786099a7800d732085f0d84592ffceffc6f7d6590ea703d72bbe89373fa3d0a",
+"size":18145,
+"timestamp":1621281982581,
+"version":"5.0.3"
 },
 "flask-sqlalchemy-2.5.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -7041,26 +7055,26 @@
 "timestamp":1617751564389,
 "version":"0.2.0"
 },
-"jira-2.0.0-py_0.tar.bz2":{
-"build":"py_0",
+"jira-3.0.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "defusedxml",
-"pbr >=3.0.0",
-"python",
+"ipython >=4.0.0",
+"keyring",
+"python >=3.6",
 "requests >=2.10.0",
-"requests-oauthlib >=0.6.1",
+"requests-oauthlib >=1.1.0",
 "requests-toolbelt",
-"setuptools >=20.10.1",
-"six >=1.10.0"
+"setuptools >=20.10.1"
 ],
 "license":"BSD 2-Clause",
 "name":"jira",
 "noarch":"python",
-"sha256":"330413f9b08694324fcde16fb8be4362dc32abcaca6af1b7fe19744c38e61a56",
-"size":51662,
-"timestamp":1592513270005,
-"version":"2.0.0"
+"sha256":"016339cd6ad48733dc3dfaa6ce47d2d76fff1a1bd92a7b4a33f31e6d291c486f",
+"size":52906,
+"timestamp":1621319321575,
+"version":"3.0.1"
 },
 "jmespath-0.10.0-py_0.tar.bz2":{
 "build":"py_0",
