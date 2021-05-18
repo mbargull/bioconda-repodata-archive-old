@@ -32119,7 +32119,7 @@
 "timestamp":1541025539955,
 "version":"1.1.0"
 },
-"jaeger-client-4.4.0-py36hecd8cb5_0.tar.bz2":{
+"jaeger-client-4.5.0-py36hecd8cb5_0.tar.bz2":{
 "build":"py36hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -32127,16 +32127,16 @@
 "python >=3.6,<3.7.0a0",
 "threadloop >=1,<2",
 "thrift",
-"tornado >=4.3,<6"
+"tornado >=4.3"
 ],
-"license":"MIT",
+"license":"Apache-2.0",
 "name":"jaeger-client",
-"sha256":"572e289435cdbbd6e873d2bc858b0ce664d6ffbe45c86234afc119abc8d431b4",
-"size":84039,
-"timestamp":1613502253562,
-"version":"4.4.0"
+"sha256":"3c7019468647cc23266cc13ed32ba99db435c5d9f8d269ab1d11c1f240c523c1",
+"size":88269,
+"timestamp":1621334972810,
+"version":"4.5.0"
 },
-"jaeger-client-4.4.0-py37hecd8cb5_0.tar.bz2":{
+"jaeger-client-4.5.0-py37hecd8cb5_0.tar.bz2":{
 "build":"py37hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -32144,16 +32144,16 @@
 "python >=3.7,<3.8.0a0",
 "threadloop >=1,<2",
 "thrift",
-"tornado >=4.3,<6"
+"tornado >=4.3"
 ],
-"license":"MIT",
+"license":"Apache-2.0",
 "name":"jaeger-client",
-"sha256":"c323b7bb0ba06544f0b982a4c4577d0505f6471405991bed6ce4ad0dd166f751",
-"size":83880,
-"timestamp":1613502251725,
-"version":"4.4.0"
+"sha256":"7060cde5cde2426cfc3df2fda50bfeb079e0534e624f21ef752b79c65d60c447",
+"size":88274,
+"timestamp":1621334955667,
+"version":"4.5.0"
 },
-"jaeger-client-4.4.0-py38hecd8cb5_0.tar.bz2":{
+"jaeger-client-4.5.0-py38hecd8cb5_0.tar.bz2":{
 "build":"py38hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -32161,16 +32161,16 @@
 "python >=3.8,<3.9.0a0",
 "threadloop >=1,<2",
 "thrift",
-"tornado >=4.3,<6"
+"tornado >=4.3"
 ],
-"license":"MIT",
+"license":"Apache-2.0",
 "name":"jaeger-client",
-"sha256":"eb46ea0e4630fa4c6a91d649fa9a779dfceb8a6bc99fbfaba0fd09c43686f6bc",
-"size":84622,
-"timestamp":1613502257593,
-"version":"4.4.0"
+"sha256":"2e9bf3e12ef1130187cd772a551cedc06c3515b40840d1f91b269f5a8e678e34",
+"size":88890,
+"timestamp":1621334961273,
+"version":"4.5.0"
 },
-"jaeger-client-4.4.0-py39hecd8cb5_0.tar.bz2":{
+"jaeger-client-4.5.0-py39hecd8cb5_0.tar.bz2":{
 "build":"py39hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -32178,14 +32178,14 @@
 "python >=3.9,<3.10.0a0",
 "threadloop >=1,<2",
 "thrift",
-"tornado >=4.3,<6"
+"tornado >=4.3"
 ],
-"license":"MIT",
+"license":"Apache-2.0",
 "name":"jaeger-client",
-"sha256":"2aa5bdaf4c8fc9912dedeb80ce6c85625936918cda9b266ad5d2e52a8bd7a2d7",
-"size":84667,
-"timestamp":1613502268305,
-"version":"4.4.0"
+"sha256":"a2115ab84ddbe431bff5694168e7c8ad806f180e2d0d624decf248c568c7ac0f",
+"size":88854,
+"timestamp":1621334953573,
+"version":"4.5.0"
 },
 "jaraco.classes-1.5-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -45478,6 +45478,111 @@
 "timestamp":1618497497086,
 "version":"1.20.1"
 },
+"numpy-1.20.2-py37h0fa1045_0.tar.bz2":{
+"build":"py37h0fa1045_0",
+"build_number":0,
+"depends":[
+"blas * openblas",
+"libopenblas >=0.3.3,<1.0a0",
+"numpy-base 1.20.2 py37hbbe2e76_0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"b4fd73551e9153e1f3a99dd6a2c89e871e36304324390a0a46dae8cb624e9348",
+"size":21966,
+"timestamp":1620831461096,
+"version":"1.20.2"
+},
+"numpy-1.20.2-py37h4b4dc7a_0.tar.bz2":{
+"build":"py37h4b4dc7a_0",
+"build_number":0,
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"mkl_fft",
+"mkl_random",
+"numpy-base 1.20.2 py37he0bd621_0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"71091fb3664d3779a62862e1d46afb5c6eed0b221e568d698078acb2aed68e15",
+"size":22048,
+"timestamp":1620831538173,
+"version":"1.20.2"
+},
+"numpy-1.20.2-py38h0fa1045_0.tar.bz2":{
+"build":"py38h0fa1045_0",
+"build_number":0,
+"depends":[
+"blas * openblas",
+"libopenblas >=0.3.3,<1.0a0",
+"numpy-base 1.20.2 py38hbbe2e76_0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"10efa1da82398076910a17afa87505e7e790d0b68405fdfb31cb4ac43973fe32",
+"size":21997,
+"timestamp":1620831478098,
+"version":"1.20.2"
+},
+"numpy-1.20.2-py38h4b4dc7a_0.tar.bz2":{
+"build":"py38h4b4dc7a_0",
+"build_number":0,
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"mkl_fft",
+"mkl_random",
+"numpy-base 1.20.2 py38he0bd621_0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"b7f16202d924ca8058934e51bcb68de66654347a41ea3a5d2f1034ec798ca284",
+"size":22048,
+"timestamp":1620831497980,
+"version":"1.20.2"
+},
+"numpy-1.20.2-py39h0fa1045_0.tar.bz2":{
+"build":"py39h0fa1045_0",
+"build_number":0,
+"depends":[
+"blas * openblas",
+"libopenblas >=0.3.3,<1.0a0",
+"numpy-base 1.20.2 py39hbbe2e76_0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"2cd701f683d331f0ffadf9879a8399489a6dc2e491f6a33177108b023eb474e6",
+"size":21981,
+"timestamp":1620831404211,
+"version":"1.20.2"
+},
+"numpy-1.20.2-py39h4b4dc7a_0.tar.bz2":{
+"build":"py39h4b4dc7a_0",
+"build_number":0,
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"mkl_fft",
+"mkl_random",
+"numpy-base 1.20.2 py39he0bd621_0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"9c32d2b4df5697c392b24c1460e00fc90b7256671ed7ad90be6e82139bd0fcd4",
+"size":22028,
+"timestamp":1620831447056,
+"version":"1.20.2"
+},
 "numpy-base-1.18.5-py36h3304bdc_0.tar.bz2":{
 "build":"py36h3304bdc_0",
 "build_number":0,
@@ -45687,6 +45792,117 @@
 "size":5757930,
 "timestamp":1618497479228,
 "version":"1.20.1"
+},
+"numpy-base-1.20.2-py37hbbe2e76_0.tar.bz2":{
+"build":"py37hbbe2e76_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.2 py37h0fa1045_0"
+],
+"depends":[
+"blas * openblas",
+"libopenblas >=0.3.3,<1.0a0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"b302b5eed0bd27c9c629c4dbc41d101b0a4e89ed21b631a7c3c6988b43186b6a",
+"size":5699332,
+"timestamp":1620831444123,
+"version":"1.20.2"
+},
+"numpy-base-1.20.2-py37he0bd621_0.tar.bz2":{
+"build":"py37he0bd621_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.2 py37h4b4dc7a_0"
+],
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"968257208d9b25a224fb3f41fdae71a5afb782efa6f2dd760cde2450797282f2",
+"size":5761761,
+"timestamp":1620831516210,
+"version":"1.20.2"
+},
+"numpy-base-1.20.2-py38hbbe2e76_0.tar.bz2":{
+"build":"py38hbbe2e76_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.2 py38h0fa1045_0"
+],
+"depends":[
+"blas * openblas",
+"libopenblas >=0.3.3,<1.0a0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"177cc0c92cf535383d21f841d6687272cb3f1f693feeb63fa756dd4031031fb4",
+"size":5755922,
+"timestamp":1620831458129,
+"version":"1.20.2"
+},
+"numpy-base-1.20.2-py38he0bd621_0.tar.bz2":{
+"build":"py38he0bd621_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.2 py38h4b4dc7a_0"
+],
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"1b5d34a95941562b5ef2a7682c095d2dc29bbdcd9bdc7f356b84a8733b1ef722",
+"size":5787858,
+"timestamp":1620831477699,
+"version":"1.20.2"
+},
+"numpy-base-1.20.2-py39hbbe2e76_0.tar.bz2":{
+"build":"py39hbbe2e76_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.2 py39h0fa1045_0"
+],
+"depends":[
+"blas * openblas",
+"libopenblas >=0.3.3,<1.0a0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"35824b7fc37a74c9447ecd09ad2cfa87043f1ede8a9f9cfc72897f5dc2415dec",
+"size":5760764,
+"timestamp":1620831386663,
+"version":"1.20.2"
+},
+"numpy-base-1.20.2-py39he0bd621_0.tar.bz2":{
+"build":"py39he0bd621_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.2 py39h4b4dc7a_0"
+],
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"7a8b20f02075d954b8c4bc24c1807293773ac9acde315d5096dbedefcd6ccfa0",
+"size":5692539,
+"timestamp":1620831427946,
+"version":"1.20.2"
 },
 "numpy-devel-1.18.5-py36h008b2eb_0.tar.bz2":{
 "build":"py36h008b2eb_0",
@@ -54387,103 +54603,65 @@
 "timestamp":1614247457799,
 "version":"1.19.1"
 },
-"pycares-3.1.1-py36h9ed2024_0.tar.bz2":{
+"pycares-4.0.0-py36h9ed2024_0.tar.bz2":{
 "build":"py36h9ed2024_0",
 "build_number":0,
 "depends":[
 "cffi >=1.5.0",
+"idna >=2.1",
 "python >=3.6,<3.7.0a0"
 ],
 "license":"MIT",
 "name":"pycares",
-"sha256":"b14ef9a9d8051260298440c8cf14ebf02b57d66fdc559d70f0c880f9e72fe5f6",
-"size":75847,
-"timestamp":1613479854796,
-"version":"3.1.1"
+"sha256":"85775002189595204d2983a575501526fc456b814ff85a78143b27016b179beb",
+"size":83975,
+"timestamp":1621340183148,
+"version":"4.0.0"
 },
-"pycares-3.1.1-py36haf1e3a3_0.tar.bz2":{
-"build":"py36haf1e3a3_0",
-"build_number":0,
-"depends":[
-"cffi >=1.5.0",
-"python >=3.6,<3.7.0a0"
-],
-"license":"MIT",
-"name":"pycares",
-"sha256":"00efc9e838dd595d21b24775193261f14732a86525814df019ff9eeb8ca2277b",
-"size":75666,
-"timestamp":1592522046049,
-"version":"3.1.1"
-},
-"pycares-3.1.1-py37h9ed2024_0.tar.bz2":{
+"pycares-4.0.0-py37h9ed2024_0.tar.bz2":{
 "build":"py37h9ed2024_0",
 "build_number":0,
 "depends":[
 "cffi >=1.5.0",
+"idna >=2.1",
 "python >=3.7,<3.8.0a0"
 ],
 "license":"MIT",
 "name":"pycares",
-"sha256":"f1ab64d1e4adaa26647afff029739e27799a79d271f9e50d6273ec2337fb17cd",
-"size":80257,
-"timestamp":1613479884738,
-"version":"3.1.1"
+"sha256":"b477e359a9c4fa5a06f12ab2fa82457099e0c5d426f47f1c0a759d8a7e23b686",
+"size":89375,
+"timestamp":1621340209806,
+"version":"4.0.0"
 },
-"pycares-3.1.1-py37haf1e3a3_0.tar.bz2":{
-"build":"py37haf1e3a3_0",
-"build_number":0,
-"depends":[
-"cffi >=1.5.0",
-"python >=3.7,<3.8.0a0"
-],
-"license":"MIT",
-"name":"pycares",
-"sha256":"bb8252280c117516935ab06c4d6fe122fca9aa66f89ccf904887ad9489a1a27d",
-"size":80116,
-"timestamp":1592522084429,
-"version":"3.1.1"
-},
-"pycares-3.1.1-py38h9ed2024_0.tar.bz2":{
+"pycares-4.0.0-py38h9ed2024_0.tar.bz2":{
 "build":"py38h9ed2024_0",
 "build_number":0,
 "depends":[
 "cffi >=1.5.0",
+"idna >=2.1",
 "python >=3.8,<3.9.0a0"
 ],
 "license":"MIT",
 "name":"pycares",
-"sha256":"3af219b7080c4442d1a7889e4ec20f8147e4d44da652eb6f6a52b044ce4d4f34",
-"size":80241,
-"timestamp":1613479862463,
-"version":"3.1.1"
+"sha256":"20149d14027481e142c9ed714f70979cb99b602594fb2566dd62df470b3e2a13",
+"size":89355,
+"timestamp":1621340186888,
+"version":"4.0.0"
 },
-"pycares-3.1.1-py38haf1e3a3_0.tar.bz2":{
-"build":"py38haf1e3a3_0",
-"build_number":0,
-"depends":[
-"cffi >=1.5.0",
-"python >=3.8,<3.9.0a0"
-],
-"license":"MIT",
-"name":"pycares",
-"sha256":"c4831bc87cae008c7fa155feab5db9dd465c6dcde62525e47151bd04e52c895d",
-"size":80058,
-"timestamp":1592522084441,
-"version":"3.1.1"
-},
-"pycares-3.1.1-py39h9ed2024_0.tar.bz2":{
+"pycares-4.0.0-py39h9ed2024_0.tar.bz2":{
 "build":"py39h9ed2024_0",
 "build_number":0,
 "depends":[
 "cffi >=1.5.0",
+"idna >=2.1",
 "python >=3.9,<3.10.0a0"
 ],
 "license":"MIT",
 "name":"pycares",
-"sha256":"1280a57dd4cab737fc10d51ebb1d1b5db15579af2e8cc97838282e48510cd8fa",
-"size":75753,
-"timestamp":1613479868798,
-"version":"3.1.1"
+"sha256":"a7c5cdae9f9e9097fa81a74e7799da6184fda9192e96cde5f62a6826a2d9a752",
+"size":83796,
+"timestamp":1621340202299,
+"version":"4.0.0"
 },
 "pyclipper-1.2.1-py36h23ab428_0.tar.bz2":{
 "build":"py36h23ab428_0",

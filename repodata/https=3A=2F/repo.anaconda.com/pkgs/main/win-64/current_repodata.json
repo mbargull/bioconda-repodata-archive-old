@@ -45226,6 +45226,72 @@
 "timestamp":1618497714293,
 "version":"1.20.1"
 },
+"numpy-1.20.2-py37ha4e8547_0.conda":{
+"build":"py37ha4e8547_0",
+"build_number":0,
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"mkl_fft",
+"mkl_random",
+"numpy-base 1.20.2 py37hc2deb75_0",
+"python >=3.7,<3.8.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"legacy_bz2_md5":"46b31ae881893ea0ea9bcb7e8f5733c7",
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"157dfee756d96c04e40ecd0cd9324be1aa09e9e4449baedc71f103c203a0318b",
+"size":23754,
+"timestamp":1620831655463,
+"version":"1.20.2"
+},
+"numpy-1.20.2-py38ha4e8547_0.conda":{
+"build":"py38ha4e8547_0",
+"build_number":0,
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"mkl_fft",
+"mkl_random",
+"numpy-base 1.20.2 py38hc2deb75_0",
+"python >=3.8,<3.9.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"legacy_bz2_md5":"ddc44803d0df821a3cf5a24914a83269",
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"23b517f3e4fe388daf9aa2b11fe4f165c9b5c8ffd31ecca63be50a5f643bc260",
+"size":23740,
+"timestamp":1620833370885,
+"version":"1.20.2"
+},
+"numpy-1.20.2-py39ha4e8547_0.conda":{
+"build":"py39ha4e8547_0",
+"build_number":0,
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"mkl_fft",
+"mkl_random",
+"numpy-base 1.20.2 py39hc2deb75_0",
+"python >=3.9,<3.10.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"legacy_bz2_md5":"77c75fe5d722376eb70e6de0aab31ad1",
+"license":"BSD 3-Clause",
+"name":"numpy",
+"sha256":"06658c807ed02bd60c413b964be807c3dd9d66d2b62c1187324e85879d74b641",
+"size":23793,
+"timestamp":1620831671009,
+"version":"1.20.2"
+},
 "numpy-base-1.18.5-py36hc3f5095_0.conda":{
 "build":"py36hc3f5095_0",
 "build_number":0,
@@ -45351,6 +45417,72 @@
 "size":4385610,
 "timestamp":1618497691007,
 "version":"1.20.1"
+},
+"numpy-base-1.20.2-py37hc2deb75_0.conda":{
+"build":"py37hc2deb75_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.2 py37ha4e8547_0"
+],
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"python >=3.7,<3.8.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"legacy_bz2_md5":"2ba0f7b4288eef3da3ed8cb6eae1376a",
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"0b9a57c02b259bb98aeac415713145881d7ba411219d547aba88f20a990bdc81",
+"size":4336578,
+"timestamp":1620831632556,
+"version":"1.20.2"
+},
+"numpy-base-1.20.2-py38hc2deb75_0.conda":{
+"build":"py38hc2deb75_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.2 py38ha4e8547_0"
+],
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"python >=3.8,<3.9.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"legacy_bz2_md5":"e8bf26ee463e631f0e24c532e5da21b9",
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"2bf0680c7ea9b5dccc3e72e795f8246d89e0f95e55f2a0a8c2533db5b426df19",
+"size":4352481,
+"timestamp":1620833348336,
+"version":"1.20.2"
+},
+"numpy-base-1.20.2-py39hc2deb75_0.conda":{
+"build":"py39hc2deb75_0",
+"build_number":0,
+"constrains":[
+"numpy 1.20.2 py39ha4e8547_0"
+],
+"depends":[
+"blas 1.0 mkl",
+"mkl >=2021.2.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"python >=3.9,<3.10.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"legacy_bz2_md5":"92dd2788cb2ce44ff186921a02df0fc4",
+"license":"BSD 3-Clause",
+"name":"numpy-base",
+"sha256":"57de9af79642d791f09e604ed20c3ab1d0e267d189bb00f10a5231c2bf4311f4",
+"size":4386240,
+"timestamp":1620831646863,
+"version":"1.20.2"
 },
 "numpy-devel-1.14.6-py27h4ba5984_5.conda":{
 "build":"py27h4ba5984_5",
@@ -53726,124 +53858,77 @@
 "timestamp":1614247746165,
 "version":"1.19.1"
 },
-"pycares-3.1.1-py36h2bbff1b_0.conda":{
+"pycares-4.0.0-py36h2bbff1b_0.conda":{
 "build":"py36h2bbff1b_0",
 "build_number":0,
 "depends":[
 "cffi >=1.5.0",
+"idna >=2.1",
 "python >=3.6,<3.7.0a0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"4931c57ecceecc25b4725a5fee5ba228",
+"legacy_bz2_md5":"a48d9db1c55a16a52b88189b0ae741d5",
 "license":"MIT",
 "name":"pycares",
-"sha256":"0424c69960cb03e2de7bd2729c81a826044385eb658cd5c0570b3ebc9463bd40",
-"size":83408,
-"timestamp":1613479918921,
-"version":"3.1.1"
+"sha256":"012447be84a8b2b2b205251a20c51a15ba9b4b046eb6fe4f307b1a65d5c032cf",
+"size":89189,
+"timestamp":1621340416960,
+"version":"4.0.0"
 },
-"pycares-3.1.1-py36he774522_0.conda":{
-"build":"py36he774522_0",
-"build_number":0,
-"depends":[
-"cffi >=1.5.0",
-"python >=3.6,<3.7.0a0",
-"vc >=14.1,<15.0a0",
-"vs2015_runtime >=14.16.27012,<15.0a0"
-],
-"legacy_bz2_md5":"33e0542806483609c6b8846622e6eabb",
-"license":"MIT",
-"name":"pycares",
-"sha256":"bfc1dcff0b522255f1a56af042665d09c63d3f27a7f6defa366d4ce5035a62ac",
-"size":84315,
-"timestamp":1592510771133,
-"version":"3.1.1"
-},
-"pycares-3.1.1-py37h2bbff1b_0.conda":{
+"pycares-4.0.0-py37h2bbff1b_0.conda":{
 "build":"py37h2bbff1b_0",
 "build_number":0,
 "depends":[
 "cffi >=1.5.0",
+"idna >=2.1",
 "python >=3.7,<3.8.0a0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"7216c805557e28d17998e8cb1fbee82d",
+"legacy_bz2_md5":"5be72997b86973a7bd71b1d9d80f3199",
 "license":"MIT",
 "name":"pycares",
-"sha256":"6d046b1491a04f67cf980b4acdb65882b2e4dc1552a6f45509dfc71e4d2c2f6e",
-"size":83505,
-"timestamp":1613480094643,
-"version":"3.1.1"
+"sha256":"9c0c6dec4ce03b7ecaf7e968d833c922effea3ff4ddd9588256215d9c641173e",
+"size":89052,
+"timestamp":1621340417041,
+"version":"4.0.0"
 },
-"pycares-3.1.1-py37he774522_0.conda":{
-"build":"py37he774522_0",
-"build_number":0,
-"depends":[
-"cffi >=1.5.0",
-"python >=3.7,<3.8.0a0",
-"vc >=14.1,<15.0a0",
-"vs2015_runtime >=14.16.27012,<15.0a0"
-],
-"legacy_bz2_md5":"5755a3c6ed16217ef286671165c1f68b",
-"license":"MIT",
-"name":"pycares",
-"sha256":"66a47e6ae6f3c7ff2abc1c035c46ebc9b86afdf3b66b429de824fbfc041f6051",
-"size":84024,
-"timestamp":1592505222301,
-"version":"3.1.1"
-},
-"pycares-3.1.1-py38h2bbff1b_0.conda":{
+"pycares-4.0.0-py38h2bbff1b_0.conda":{
 "build":"py38h2bbff1b_0",
 "build_number":0,
 "depends":[
 "cffi >=1.5.0",
+"idna >=2.1",
 "python >=3.8,<3.9.0a0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"e399e15958a6b0b275d06f0f75519a97",
+"legacy_bz2_md5":"d21b0a43f9ad05ad117e008bf2e2633b",
 "license":"MIT",
 "name":"pycares",
-"sha256":"ea7a4f0b3ef4627a4ae27565d209e52959a9d6d43a2dfaf73b608fb14f08301e",
-"size":83323,
-"timestamp":1613480018724,
-"version":"3.1.1"
+"sha256":"0da43739caace841e019846df02ca2d652066d5a9032121f07ff66eedc23d117",
+"size":89401,
+"timestamp":1621340419828,
+"version":"4.0.0"
 },
-"pycares-3.1.1-py38he774522_0.conda":{
-"build":"py38he774522_0",
-"build_number":0,
-"depends":[
-"cffi >=1.5.0",
-"python >=3.8,<3.9.0a0",
-"vc >=14.1,<15.0a0",
-"vs2015_runtime >=14.16.27012,<15.0a0"
-],
-"legacy_bz2_md5":"fdb3c786d63bdbb957e8e3635bd7dfda",
-"license":"MIT",
-"name":"pycares",
-"sha256":"772eadd12e685ad8477a7d16853bf797534ef693393c8a3bcbb5d7098d2d4eea",
-"size":83867,
-"timestamp":1592510759173,
-"version":"3.1.1"
-},
-"pycares-3.1.1-py39h2bbff1b_0.conda":{
+"pycares-4.0.0-py39h2bbff1b_0.conda":{
 "build":"py39h2bbff1b_0",
 "build_number":0,
 "depends":[
 "cffi >=1.5.0",
+"idna >=2.1",
 "python >=3.9,<3.10.0a0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"06b539624d11b13da79956f90370edd7",
+"legacy_bz2_md5":"d6051988f5ce7321517ff8baed07c1ac",
 "license":"MIT",
 "name":"pycares",
-"sha256":"a1ba4b3f3efc36b711acc5b38a668afae6dcb5aa5468ef9498feb4948cff6da4",
-"size":83403,
-"timestamp":1613480108284,
-"version":"3.1.1"
+"sha256":"f3db59fc33ed1e65a22bbe269d61843dd58d919a87e898a942227f52c97a7532",
+"size":89741,
+"timestamp":1621340392411,
+"version":"4.0.0"
 },
 "pyclipper-1.2.1-py36hd77b12b_0.conda":{
 "build":"py36hd77b12b_0",

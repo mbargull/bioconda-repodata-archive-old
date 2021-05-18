@@ -147,20 +147,20 @@
 "timestamp":1615487511288,
 "version":"1.2.2"
 },
-"aiodns-2.0.0-py_2.tar.bz2":{
-"build":"py_2",
+"aiodns-3.0.0-pyhd3eb1b0_2.tar.bz2":{
+"build":"pyhd3eb1b0_2",
 "build_number":2,
 "depends":[
-"pycares >=3.0.0",
+"pycares >=4.0.0",
 "python >=3.6"
 ],
 "license":"MIT",
 "name":"aiodns",
 "noarch":"python",
-"sha256":"bda3b5f08f01cfb026ac59301196c84ce8ad3aa63ec1c6880344764cd4091301",
-"size":9889,
-"timestamp":1592525615557,
-"version":"2.0.0"
+"sha256":"23d079df01ae00e54a862ad17e05af000180f68d9c8dcce876058bddb3ab67a5",
+"size":8754,
+"timestamp":1621354022973,
+"version":"3.0.0"
 },
 "aiofiles-0.7.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -520,11 +520,12 @@
 "timestamp":1614879535550,
 "version":"2021.02"
 },
-"anaconda-project-0.9.1-pyhd3eb1b0_0.tar.bz2":{
+"anaconda-project-0.10.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "anaconda-client",
+"conda-pack",
 "jinja2",
 "python >=2.7",
 "requests",
@@ -534,29 +535,10 @@
 "license":"BSD-3-Clause",
 "name":"anaconda-project",
 "noarch":"python",
-"sha256":"2678632a63824a469aa7ca841133d7f850b5b372f5a2fc59da78d788e2b64d46",
-"size":222937,
-"timestamp":1610302603638,
-"version":"0.9.1"
-},
-"anaconda-project-0.9.1-pyhd3eb1b0_1.tar.bz2":{
-"build":"pyhd3eb1b0_1",
-"build_number":1,
-"depends":[
-"anaconda-client",
-"jinja2",
-"python >=2.7",
-"requests",
-"ruamel_yaml",
-"tornado >=4.2"
-],
-"license":"BSD-3-Clause",
-"name":"anaconda-project",
-"noarch":"python",
-"sha256":"5ec474b6a125479abae17c106bde4e49230d195c0bb46883e176031fdd78d4cd",
-"size":226554,
-"timestamp":1610472559962,
-"version":"0.9.1"
+"sha256":"5504e83cb43b918c10d1acec99e8e449c7e06295c97b46558bd4981fd67dbc2c",
+"size":231829,
+"timestamp":1621348098031,
+"version":"0.10.0"
 },
 "aniso8601-9.0.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -1512,7 +1494,7 @@
 "timestamp":1617902913611,
 "version":"1.17.46"
 },
-"botocore-1.20.69-pyhd3eb1b0_1.tar.bz2":{
+"botocore-1.20.73-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -1524,10 +1506,10 @@
 "license":"Apache-2.0",
 "name":"botocore",
 "noarch":"python",
-"sha256":"ca4c0d6f83d7c419ac65818dc18b8fe8310b34a79bd5569a2507352e0f624644",
-"size":4832318,
-"timestamp":1620623701026,
-"version":"1.20.69"
+"sha256":"74409360a7fa5022fcda638071bd02c79aaa21d030e477af93f7e8353f514779",
+"size":4839646,
+"timestamp":1621258830449,
+"version":"1.20.73"
 },
 "bs4-4.9.3-0.tar.bz2":{
 "build":"0",
@@ -4678,7 +4660,7 @@
 "timestamp":1507939991846,
 "version":"1"
 },
-"fonttools-4.23.1-pyhd3eb1b0_0.tar.bz2":{
+"fonttools-4.24.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -4690,10 +4672,10 @@
 "license":"MIT",
 "name":"fonttools",
 "noarch":"python",
-"sha256":"8480060da230ae2b0e0f99d287103c2f6942abb0153a6f537700a2845b7199c3",
-"size":679152,
-"timestamp":1621246653478,
-"version":"4.23.1"
+"sha256":"0e13b4d55198db951bf920c637efa36653aeb7d81998abf1152f330367c52912",
+"size":679341,
+"timestamp":1621259425504,
+"version":"4.24.0"
 },
 "freetype-cos6-i686-2.3.11-h85374aa_0.tar.bz2":{
 "build":"h85374aa_0",
@@ -6172,7 +6154,7 @@
 "timestamp":1610130777135,
 "version":"21.0.0"
 },
-"hypothesis-6.12.0-pyhd3eb1b0_0.tar.bz2":{
+"hypothesis-6.12.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -6185,10 +6167,10 @@
 "license":"MPL 2.0",
 "name":"hypothesis",
 "noarch":"python",
-"sha256":"f10cfbf9b8601e7622d3f0891660a0c6481ba03175af4970dec35591c310e113",
-"size":243273,
-"timestamp":1620310029444,
-"version":"6.12.0"
+"sha256":"5a4f25528f95c35c81ed93f4342f7b3956797496f82d6eebd62e8d228440bfb2",
+"size":246591,
+"timestamp":1621259744952,
+"version":"6.12.1"
 },
 "icalendar-4.0.7-py_0.tar.bz2":{
 "build":"py_0",
@@ -6923,19 +6905,19 @@
 "timestamp":1611934846689,
 "version":"1.8.0.242.b08"
 },
-"javaobj-py3-0.4.2-pyhd3eb1b0_0.tar.bz2":{
+"javaobj-py3-0.4.3-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python"
 ],
-"license":"Apache Software",
+"license":"Apache-2.0",
 "name":"javaobj-py3",
 "noarch":"python",
-"sha256":"728bc5aeb6e9589f40f64997a54424c45f5a21bc1f5d372ca894e4baefa5a168",
-"size":39428,
-"timestamp":1613501969765,
-"version":"0.4.2"
+"sha256":"9b4eb983a16c1551075d9dab79132bfbee71913eb8907b8ba8636c75f70dfb75",
+"size":39770,
+"timestamp":1621332320674,
+"version":"0.4.3"
 },
 "javapackages-tools-cos7-ppc64le-3.4.1-0.tar.bz2":{
 "build":"0",
