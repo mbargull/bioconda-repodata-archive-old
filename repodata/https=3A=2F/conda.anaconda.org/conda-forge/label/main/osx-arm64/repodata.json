@@ -80296,6 +80296,22 @@
 "timestamp":1611864904957,
 "version":"1.3_2"
 },
+"r-matrix-1.3_3-r40h8c206a9_0.tar.bz2":{
+"build":"r40h8c206a9_0",
+"build_number":0,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"r-base >=4.0,<4.1.0a0",
+"r-lattice"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-matrix",
+"requires":[],
+"size":4041355,
+"timestamp":1621453367237,
+"version":"1.3_3"
+},
 "r-mgcv-1.8_33-r40hdd02fd4_0.tar.bz2":{
 "build":"r40hdd02fd4_0",
 "build_number":0,
@@ -82609,6 +82625,42 @@
 "size":342351,
 "timestamp":1621319207515,
 "version":"10.2.1"
+},
+"rich-10.2.2-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.0,<0.5.0",
+"commonmark >=0.9.0,<0.10.0",
+"pygments >=2.6.0,<3.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"typing_extensions >=3.7.4,<4.0.0"
+],
+"license":"MIT",
+"name":"rich",
+"requires":[],
+"size":342918,
+"timestamp":1621452731685,
+"version":"10.2.2"
+},
+"rich-10.2.2-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.0,<0.5.0",
+"commonmark >=0.9.0,<0.10.0",
+"pygments >=2.6.0,<3.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"typing_extensions >=3.7.4,<4.0.0"
+],
+"license":"MIT",
+"name":"rich",
+"requires":[],
+"size":341304,
+"timestamp":1621452711314,
+"version":"10.2.2"
 },
 "rich-9.10.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
