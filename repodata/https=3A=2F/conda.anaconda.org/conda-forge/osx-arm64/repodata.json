@@ -14951,6 +14951,20 @@
 "timestamp":1617641771934,
 "version":"949.0.1"
 },
+"cctools-949.0.1-ha9384d2_22.tar.bz2":{
+"build":"ha9384d2_22",
+"build_number":22,
+"depends":[
+"cctools_osx-arm64 949.0.1 h92b3a8a_22",
+"ld64 530 h08716b2_22"
+],
+"license":"APSL-2.0",
+"name":"cctools",
+"sha256":"5a358b5254c7106bfd2a0b83c0a077edaa7f9cf8224dfc2f686d71d468b8955b",
+"size":16572,
+"timestamp":1621459667974,
+"version":"949.0.1"
+},
 "cctools-949.0.1-hb5b78df_15.tar.bz2":{
 "build":"hb5b78df_15",
 "build_number":15,
@@ -15217,6 +15231,26 @@
 "sha256":"6e770fabf2f63ee8ecb01d2b7501bdf9e5e99a9b3e62de63580e6c96dc33afca",
 "size":1859156,
 "timestamp":1617641752425,
+"version":"949.0.1"
+},
+"cctools_osx-arm64-949.0.1-h92b3a8a_22.tar.bz2":{
+"build":"h92b3a8a_22",
+"build_number":22,
+"constrains":[
+"cctools 949.0.1.*",
+"ld64 530.*"
+],
+"depends":[
+"ld64_osx-arm64 >=530,<531.0a0",
+"ldid",
+"libcxx",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"APSL-2.0",
+"name":"cctools_osx-arm64",
+"sha256":"d54d1024d8123e6f96f597b6eea63633176b3c0d0a88cacb3bd0ea7fcccaad1a",
+"size":1927821,
+"timestamp":1621459639060,
 "version":"949.0.1"
 },
 "cddlib-1!0.94j-h47c7c1a_1001.tar.bz2":{
@@ -42086,6 +42120,23 @@
 "timestamp":1617641763077,
 "version":"530"
 },
+"ld64-530-h08716b2_22.tar.bz2":{
+"build":"h08716b2_22",
+"build_number":22,
+"constrains":[
+"cctools_osx-arm64 949.0.1.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ld64_osx-arm64 530 ha291f0b_22"
+],
+"license":"APSL-2.0",
+"name":"ld64",
+"sha256":"e46ff75aa309d653ac70f0d52e8cf9d2b367cc6a63315b00e78cf8435a73ec12",
+"size":14214,
+"timestamp":1621459656810,
+"version":"530"
+},
 "ld64-530-h50e419e_15.tar.bz2":{
 "build":"h50e419e_15",
 "build_number":15,
@@ -42382,6 +42433,28 @@
 "sha256":"ea3510da06c18b39e1ea8160c41cfacca575e8b7020c8185326606df2a20ddd0",
 "size":1265191,
 "timestamp":1617641617404,
+"version":"530"
+},
+"ld64_osx-arm64-530-ha291f0b_22.tar.bz2":{
+"build":"ha291f0b_22",
+"build_number":22,
+"constrains":[
+"cctools_osx-arm64 949.0.1.*",
+"clang >=12.0.0,<13.0a0",
+"cctools 949.0.1.*",
+"ld 530.*"
+],
+"depends":[
+"ldid",
+"libcxx",
+"libllvm12 >=12.0.0,<12.1.0a0",
+"tapi >=1100.0.11,<1101.0a0"
+],
+"license":"APSL-2.0",
+"name":"ld64_osx-arm64",
+"sha256":"37616fd1f26e59a4ea9015166d30154ae0a21e20bccf86e63080223413a6fb9a",
+"size":1279465,
+"timestamp":1621459483069,
 "version":"530"
 },
 "ld_impl_linux-64-2.35.1-hdd3f809_1.tar.bz2":{
@@ -53758,6 +53831,34 @@
 "size":22106,
 "timestamp":1620868620824,
 "version":"2.0.0"
+},
+"markupsafe-2.0.1-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"markupsafe",
+"sha256":"b6b088ed99f28855e1970c81ce4330887597c44db9d9f146fbfbee8be3df3dc6",
+"size":22266,
+"timestamp":1621456165987,
+"version":"2.0.1"
+},
+"markupsafe-2.0.1-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"markupsafe",
+"sha256":"9b0e397ea73d34d99775454f51f31a37c6ce5fb8fa06e75a99bcbf03a97c09bf",
+"size":22234,
+"timestamp":1621455962605,
+"version":"2.0.1"
 },
 "matplotlib-3.3.2-py38h150bfb4_1.tar.bz2":{
 "build":"py38h150bfb4_1",

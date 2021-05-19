@@ -14955,6 +14955,20 @@
 "timestamp":1617641771934,
 "version":"949.0.1"
 },
+"cctools-949.0.1-ha9384d2_22.tar.bz2":{
+"build":"ha9384d2_22",
+"build_number":22,
+"depends":[
+"cctools_osx-arm64 949.0.1 h92b3a8a_22",
+"ld64 530 h08716b2_22"
+],
+"license":"APSL-2.0",
+"name":"cctools",
+"requires":[],
+"size":16572,
+"timestamp":1621459667974,
+"version":"949.0.1"
+},
 "cctools-949.0.1-hb5b78df_15.tar.bz2":{
 "build":"hb5b78df_15",
 "build_number":15,
@@ -15103,6 +15117,26 @@
 "timestamp":1617641598507,
 "version":"949.0.1"
 },
+"cctools_osx-64-949.0.1-hed2cfe4_22.tar.bz2":{
+"build":"hed2cfe4_22",
+"build_number":22,
+"constrains":[
+"ld64 530.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ld64_osx-64 >=530,<531.0a0",
+"ldid",
+"libcxx",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"APSL-2.0",
+"name":"cctools_osx-64",
+"requires":[],
+"size":1931797,
+"timestamp":1621461807502,
+"version":"949.0.1"
+},
 "cctools_osx-arm64-949.0.1-h1c8944f_18.tar.bz2":{
 "build":"h1c8944f_18",
 "build_number":18,
@@ -15221,6 +15255,26 @@
 "requires":[],
 "size":1859156,
 "timestamp":1617641752425,
+"version":"949.0.1"
+},
+"cctools_osx-arm64-949.0.1-h92b3a8a_22.tar.bz2":{
+"build":"h92b3a8a_22",
+"build_number":22,
+"constrains":[
+"cctools 949.0.1.*",
+"ld64 530.*"
+],
+"depends":[
+"ld64_osx-arm64 >=530,<531.0a0",
+"ldid",
+"libcxx",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"APSL-2.0",
+"name":"cctools_osx-arm64",
+"requires":[],
+"size":1927821,
+"timestamp":1621459639060,
 "version":"949.0.1"
 },
 "cddlib-1!0.94j-h47c7c1a_1001.tar.bz2":{
@@ -42513,6 +42567,23 @@
 "timestamp":1617641763077,
 "version":"530"
 },
+"ld64-530-h08716b2_22.tar.bz2":{
+"build":"h08716b2_22",
+"build_number":22,
+"constrains":[
+"cctools_osx-arm64 949.0.1.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ld64_osx-arm64 530 ha291f0b_22"
+],
+"license":"APSL-2.0",
+"name":"ld64",
+"requires":[],
+"size":14214,
+"timestamp":1621459656810,
+"version":"530"
+},
 "ld64-530-h50e419e_15.tar.bz2":{
 "build":"h50e419e_15",
 "build_number":15,
@@ -42679,6 +42750,28 @@
 "timestamp":1617641455360,
 "version":"530"
 },
+"ld64_osx-64-530-hbeead03_22.tar.bz2":{
+"build":"hbeead03_22",
+"build_number":22,
+"constrains":[
+"clang >=12.0.0,<13.0a0",
+"ld 530.*",
+"cctools_osx-64 949.0.1.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ldid",
+"libcxx",
+"libllvm12 >=12.0.0,<12.1.0a0",
+"tapi >=1100.0.11,<1101.0a0"
+],
+"license":"APSL-2.0",
+"name":"ld64_osx-64",
+"requires":[],
+"size":1261622,
+"timestamp":1621461302642,
+"version":"530"
+},
 "ld64_osx-arm64-530-h42e8ac5_15.tar.bz2":{
 "build":"h42e8ac5_15",
 "build_number":15,
@@ -42809,6 +42902,28 @@
 "requires":[],
 "size":1265191,
 "timestamp":1617641617404,
+"version":"530"
+},
+"ld64_osx-arm64-530-ha291f0b_22.tar.bz2":{
+"build":"ha291f0b_22",
+"build_number":22,
+"constrains":[
+"cctools_osx-arm64 949.0.1.*",
+"clang >=12.0.0,<13.0a0",
+"cctools 949.0.1.*",
+"ld 530.*"
+],
+"depends":[
+"ldid",
+"libcxx",
+"libllvm12 >=12.0.0,<12.1.0a0",
+"tapi >=1100.0.11,<1101.0a0"
+],
+"license":"APSL-2.0",
+"name":"ld64_osx-arm64",
+"requires":[],
+"size":1279465,
+"timestamp":1621459483069,
 "version":"530"
 },
 "ld_impl_linux-64-2.35.1-hdd3f809_1.tar.bz2":{
