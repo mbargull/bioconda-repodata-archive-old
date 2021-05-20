@@ -22295,6 +22295,20 @@
 "timestamp":1621014741457,
 "version":"4.0.5"
 },
+"cross-r-base-4.1.0-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"r-base 4.1.0 h9afe37c_0",
+"rsync"
+],
+"license":"GPL-2.0-or-later",
+"name":"cross-r-base",
+"sha256":"8cbe4b32814b193f52296e0e2a643ce2fabfdb774e096c2f00a8cbf6cc5d8c6a",
+"size":33173,
+"timestamp":1621546536470,
+"version":"4.1.0"
+},
 "cryptography-3.1-py38h689ceed_0.tar.bz2":{
 "build":"py38h689ceed_0",
 "build_number":0,
@@ -50787,6 +50801,27 @@
 "sha256":"5df57f8a3c8ca6d6794fb6e441bbc3fa014e13f7e7576cc471da37c77d55a8c2",
 "size":557629,
 "timestamp":1621435218386,
+"version":"4.3.0"
+},
+"libtiff-4.3.0-hc6122e1_1.tar.bz2":{
+"build":"hc6122e1_1",
+"build_number":1,
+"depends":[
+"jbig",
+"jpeg >=9d,<10a",
+"lerc >=2.2.1,<3.0a0",
+"libcxx >=11.1.0",
+"libdeflate >=1.7,<1.8.0a0",
+"libwebp-base",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"license":"HPND",
+"name":"libtiff",
+"sha256":"f42886c105e914e9f09db2bc592aaad3920a8e1f10843246a20460c5035203bb",
+"size":588263,
+"timestamp":1621550065800,
 "version":"4.3.0"
 },
 "libtmglib-3.9.0-4_h880f123_netlib.tar.bz2":{
@@ -79749,6 +79784,20 @@
 "timestamp":1620822366911,
 "version":"4.0.0"
 },
+"r-askpass-1.1-r40h6f62c66_2.tar.bz2":{
+"build":"r40h6f62c66_2",
+"build_number":2,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-sys >=2.1"
+],
+"license":"MIT",
+"name":"r-askpass",
+"sha256":"c8dddd462c96e70eea446dd50ab78c35795adae77b08c0ad954760a001abdcc3",
+"size":28881,
+"timestamp":1621549762330,
+"version":"1.1"
+},
 "r-backports-1.2.1-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
 "build_number":0,
@@ -80138,6 +80187,53 @@
 "size":26282624,
 "timestamp":1620761343581,
 "version":"4.0.5"
+},
+"r-base-4.1.0-h9afe37c_0.tar.bz2":{
+"build":"h9afe37c_0",
+"build_number":0,
+"depends":[
+"_r-mutex 1.* anacondar_1",
+"bwidget",
+"bzip2 >=1.0.8,<2.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"clang_osx-arm64 >=11",
+"clangxx_osx-arm64 >=11",
+"curl",
+"freetype >=2.10.4,<3.0a0",
+"gfortran_osx-arm64 11.*",
+"gsl >=2.6,<2.7.0a0",
+"icu >=68.1,<69.0a0",
+"jpeg >=9d,<10a",
+"krb5 >=1.19.1,<1.20.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"libglib >=2.68.2,<3.0a0",
+"libiconv >=1.16,<1.17.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"libtiff >=4.3.0,<5.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"llvm-openmp >=11.1.0",
+"make",
+"ncurses >=6.2,<6.3.0a0",
+"pango >=1.48.5,<1.49.0a0",
+"pcre2 >=10.36,<10.37.0a0",
+"readline >=8.1,<9.0a0",
+"tk >=8.6.10,<8.7.0a0",
+"tktable",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-base",
+"sha256":"9ef93caf72b21812e5ed510c7e8672cfd47b1007e09070fa4a4ee31557c48f01",
+"size":27141291,
+"timestamp":1621546516921,
+"version":"4.1.0"
 },
 "r-base64enc-0.1_3-r40h6f62c66_1004.tar.bz2":{
 "build":"r40h6f62c66_1004",
