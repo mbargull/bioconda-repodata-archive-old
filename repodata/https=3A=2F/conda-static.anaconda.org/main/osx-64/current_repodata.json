@@ -37685,19 +37685,19 @@
 "timestamp":1607035917652,
 "version":"3.14.0"
 },
-"libpython-static-3.9.4-h23ab428_0.tar.bz2":{
-"build":"h23ab428_0",
-"build_number":0,
+"libpython-static-3.9.5-h23ab428_3.tar.bz2":{
+"build":"h23ab428_3",
+"build_number":3,
 "depends":[
 "libcxx >=10.0.0",
-"python >=3.9,<3.10.0a0 h88f2d9e_0"
+"python >=3.9,<3.10.0a0 h88f2d9e_3"
 ],
 "license":"Python-2.0",
 "name":"libpython-static",
-"sha256":"6ab0c138b42ebcbe979eeab2bb10557d81e3932b25cc1cf115a344a34b36003e",
-"size":22654862,
-"timestamp":1617986589055,
-"version":"3.9.4"
+"sha256":"74e50182c2034e6aada53cb04d486b268d03e43256ad8a508736b6533fa1828d",
+"size":22621764,
+"timestamp":1621366724525,
+"version":"3.9.5"
 },
 "libsodium-1.0.18-h1de35cc_0.tar.bz2":{
 "build":"h1de35cc_0",
@@ -61756,6 +61756,28 @@
 "timestamp":1617986553739,
 "version":"3.9.4"
 },
+"python-3.9.5-h88f2d9e_3.tar.bz2":{
+"build":"h88f2d9e_3",
+"build_number":3,
+"depends":[
+"libcxx >=10.0.0",
+"libffi >=3.3,<3.4.0a0",
+"ncurses >=6.2,<7.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.0,<9.0a0",
+"sqlite >=3.35.4,<4.0a0",
+"tk >=8.6.10,<8.7.0a0",
+"tzdata",
+"xz >=5.2.5,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Python-2.0",
+"name":"python",
+"sha256":"50589810048f3faa6409b66c4f92251dd29911f7b3e82bb4d1b1741ca2b45d00",
+"size":13263252,
+"timestamp":1621366699014,
+"version":"3.9.5"
+},
 "python-blosc-1.7.0-py27h1de35cc_0.tar.bz2":{
 "build":"py27h1de35cc_0",
 "build_number":0,
@@ -63112,16 +63134,16 @@
 "timestamp":1607972599076,
 "version":"1.0"
 },
-"python-regr-testsuite-3.9.4-hecd8cb5_0.tar.bz2":{
-"build":"hecd8cb5_0",
-"build_number":0,
+"python-regr-testsuite-3.9.5-hecd8cb5_3.tar.bz2":{
+"build":"hecd8cb5_3",
+"build_number":3,
 "depends":[],
 "license":"Python-2.0",
 "name":"python-regr-testsuite",
-"sha256":"e76ff44c7ee7f73a687a0ad202df16a0948b522b16e82e5797c42c53d7e32791",
-"size":7438976,
-"timestamp":1617986618712,
-"version":"3.9.4"
+"sha256":"9802d093ea215d199c71fc9792930e052a8bccbdc2f2ae3a9cc117d60613ef83",
+"size":7427905,
+"timestamp":1621366746517,
+"version":"3.9.5"
 },
 "python-slugify-2.0.1-py27_0.tar.bz2":{
 "build":"py27_0",
