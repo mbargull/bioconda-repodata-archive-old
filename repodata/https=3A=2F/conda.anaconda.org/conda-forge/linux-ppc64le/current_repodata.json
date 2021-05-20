@@ -55109,6 +55109,41 @@
 "timestamp":1620938975759,
 "version":"0.21"
 },
+"libitk-5.2.0-h5cd553a_1.tar.bz2":{
+"build":"h5cd553a_1",
+"build_number":1,
+"depends":[
+"eigen",
+"expat >=2.3.0,<3.0a0",
+"fftw >=3.3.9,<4.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.3.0,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libitk",
+"sha256":"617bd1a097e50854fa04dc88282c2050961b60cb6d028549c22ed05e1dde7eef",
+"size":11477467,
+"timestamp":1621511157536,
+"version":"5.2.0"
+},
+"libitk-devel-5.2.0-h3b9df90_1.tar.bz2":{
+"build":"h3b9df90_1",
+"build_number":1,
+"depends":[
+"libitk 5.2.0 h5cd553a_1"
+],
+"license":"Apache-2.0",
+"name":"libitk-devel",
+"sha256":"29786035da8bf07c3cebcc149a2d1ab2f6cd6b0ae53dcf4dfa9517d00d7fc0c0",
+"size":3573634,
+"timestamp":1621511231918,
+"version":"5.2.0"
+},
 "libjpeg-turbo-2.1.0-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
 "build_number":0,
@@ -96064,7 +96099,7 @@
 "timestamp":1603210423320,
 "version":"0.4_3"
 },
-"r-cluster-2.1.1-r36ha9c7abe_0.tar.bz2":{
+"r-cluster-2.1.2-r36ha9c7abe_0.tar.bz2":{
 "build":"r36ha9c7abe_0",
 "build_number":0,
 "depends":[
@@ -96075,26 +96110,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-cluster",
-"sha256":"bc6caa2d919de650ee718225a1d53c154d2c97178c37e8f2697a4565297e1703",
-"size":590484,
-"timestamp":1613355948671,
-"version":"2.1.1"
-},
-"r-cluster-2.1.1-r40ha9c7abe_0.tar.bz2":{
-"build":"r40ha9c7abe_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-cluster",
-"sha256":"130cb4534c9f5b65618f70aed07d55573892e3fad3a29ae1be632bb03c227c65",
-"size":589459,
-"timestamp":1613355914089,
-"version":"2.1.1"
+"sha256":"9216fb28e02d0fcf3ee2cf67500d021bc3be1e67a8c59ecaaed7f5cd9403a0ff",
+"size":594090,
+"timestamp":1621512591854,
+"version":"2.1.2"
 },
 "r-colorspace-2.0_1-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
@@ -98765,7 +98784,7 @@
 "timestamp":1611973216864,
 "version":"0.58.0"
 },
-"r-mgcv-1.8_34-r36hff0e79f_0.tar.bz2":{
+"r-mgcv-1.8_35-r36hff0e79f_0.tar.bz2":{
 "build":"r36hff0e79f_0",
 "build_number":0,
 "depends":[
@@ -98778,12 +98797,12 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-mgcv",
-"sha256":"72aab5a56ecb781767cb21b91acd1dfcb8bbb3fb123f22a587516e65ae36fbb3",
-"size":3131564,
-"timestamp":1613511204504,
-"version":"1.8_34"
+"sha256":"8510356e414205c67ca97846537a9ee8fc5d140203b5d55ffbdd6b84c525ee9a",
+"size":3163565,
+"timestamp":1621512279023,
+"version":"1.8_35"
 },
-"r-mgcv-1.8_34-r40hff0e79f_0.tar.bz2":{
+"r-mgcv-1.8_35-r40hff0e79f_0.tar.bz2":{
 "build":"r40hff0e79f_0",
 "build_number":0,
 "depends":[
@@ -98796,10 +98815,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-mgcv",
-"sha256":"3cc06de6a68224dd4210204680b7dabacd70cbf6f048bca2bfa7e32242b3f93f",
-"size":3120955,
-"timestamp":1613511132879,
-"version":"1.8_34"
+"sha256":"8f0be71be4257cce72e8701f79162e64b8953cd20e5be3e24f59c63ed4e940d9",
+"size":3150522,
+"timestamp":1621512298289,
+"version":"1.8_35"
 },
 "r-microbenchmark-1.4_7-r36h2be38b1_1.tar.bz2":{
 "build":"r36h2be38b1_1",
