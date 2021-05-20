@@ -117,6 +117,19 @@
 "timestamp":1569446012554,
 "version":"3.3.3"
 },
+"_libarchive_static_for_cph-3.3.3-hb0507d5_5.tar.bz2":{
+"build":"hb0507d5_5",
+"build_number":5,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"BSD-2-Clause",
+"name":"_libarchive_static_for_cph",
+"sha256":"551a038e12ec9c2033b4ca26ccb6bd6466c1367ff2adc3cae8b99c83ae7f93e1",
+"size":1787909,
+"timestamp":1621515628231,
+"version":"3.3.3"
+},
 "_libarchive_static_for_cph-3.3.3-hc08a7cf_1.tar.bz2":{
 "build":"hc08a7cf_1",
 "build_number":1,
@@ -46867,6 +46880,19 @@
 "size":1689494,
 "timestamp":1609782474672,
 "version":"2.0.14"
+},
+"jbig-2.1-h4e0d66e_2003.tar.bz2":{
+"build":"h4e0d66e_2003",
+"build_number":2003,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"GPL-2.0-or-later",
+"name":"jbig",
+"sha256":"b833ad67badf3b7bb872f13acfb23e3ab19285cf55c655cf1bdd16bde833a8ce",
+"size":50160,
+"timestamp":1621514925608,
+"version":"2.1"
 },
 "jedi-0.17.2-py27h8c360ce_1.tar.bz2":{
 "build":"py27h8c360ce_1",
@@ -96115,6 +96141,22 @@
 "timestamp":1621512591854,
 "version":"2.1.2"
 },
+"r-cluster-2.1.2-r40ha9c7abe_0.tar.bz2":{
+"build":"r40ha9c7abe_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-cluster",
+"sha256":"b8bc59e19bcc11142c903380587bdc4d432bdbb161cccc95078589d041ccc5be",
+"size":593634,
+"timestamp":1621513281564,
+"version":"2.1.2"
+},
 "r-colorspace-2.0_1-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
 "build_number":0,
@@ -98007,7 +98049,7 @@
 "timestamp":1588365534212,
 "version":"0.9_29"
 },
-"r-kernsmooth-2.23_18-r36h1686639_0.tar.bz2":{
+"r-kernsmooth-2.23_20-r36h1686639_0.tar.bz2":{
 "build":"r36h1686639_0",
 "build_number":0,
 "depends":[
@@ -98019,29 +98061,12 @@
 ],
 "license":"Unlimited",
 "name":"r-kernsmooth",
-"sha256":"8f5e06bd090abeb554a8717c62fc438e432c91b7053f2fee722005cfcb461680",
-"size":109896,
-"timestamp":1603966901194,
-"version":"2.23_18"
+"sha256":"62e51a786331dde68420572e8a322ec0b739f64d2be2ed1aa28173b3c628fa85",
+"size":109861,
+"timestamp":1621515576838,
+"version":"2.23_20"
 },
-"r-kernsmooth-2.23_18-r36hc355c71_0.tar.bz2":{
-"build":"r36hc355c71_0",
-"build_number":0,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=8.4.0",
-"libgfortran-ng",
-"libgfortran5 >=8.4.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"Unlimited",
-"name":"r-kernsmooth",
-"sha256":"625ec41dae0f456d27672ee7f93b000f759419a30f70de95a06d0b30d23795b6",
-"size":110170,
-"timestamp":1603966850907,
-"version":"2.23_18"
-},
-"r-kernsmooth-2.23_18-r40h1686639_0.tar.bz2":{
+"r-kernsmooth-2.23_20-r40h1686639_0.tar.bz2":{
 "build":"r40h1686639_0",
 "build_number":0,
 "depends":[
@@ -98053,27 +98078,10 @@
 ],
 "license":"Unlimited",
 "name":"r-kernsmooth",
-"sha256":"dd2825de793d7e52fa1089e3d81af694d45dbd80fbdc114473f002f08c957a72",
-"size":109018,
-"timestamp":1603966971212,
-"version":"2.23_18"
-},
-"r-kernsmooth-2.23_18-r40hc355c71_0.tar.bz2":{
-"build":"r40hc355c71_0",
-"build_number":0,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=8.4.0",
-"libgfortran-ng",
-"libgfortran5 >=8.4.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"Unlimited",
-"name":"r-kernsmooth",
-"sha256":"1d6c16be04f53bc8aba38ffb856b05223a41147be59279a3e62bcd02201dd68a",
-"size":109384,
-"timestamp":1603966963409,
-"version":"2.23_18"
+"sha256":"d85e1614a0d15cc7866188700d572e24519634584f80d986a4c6fe45bde9b3d3",
+"size":109256,
+"timestamp":1621515616941,
+"version":"2.23_20"
 },
 "r-later-1.2.0-r36h6203a36_0.tar.bz2":{
 "build":"r36h6203a36_0",
@@ -123993,6 +124001,22 @@
 "timestamp":1552946049193,
 "version":"1.2.3"
 },
+"xorg-libx11-1.6.12-h339bb43_0.tar.bz2":{
+"build":"h339bb43_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libxcb 1.*",
+"xorg-kbproto",
+"xorg-xproto"
+],
+"license":"MIT",
+"name":"xorg-libx11",
+"sha256":"7088486f8a825d7ad2ba5900b3e33a35aa5a29b3ee4f51ed88f650d9ded9e050",
+"size":1025376,
+"timestamp":1621514173468,
+"version":"1.6.12"
+},
 "xorg-libx11-1.6.12-h6eb9509_0.tar.bz2":{
 "build":"h6eb9509_0",
 "build_number":0,
@@ -124359,6 +124383,25 @@
 "timestamp":1576249294066,
 "version":"3.5.13"
 },
+"xorg-libxrandr-1.5.2-h4e0d66e_1.tar.bz2":{
+"build":"h4e0d66e_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"xorg-libx11 >=1.7.1,<2.0a0",
+"xorg-libxext",
+"xorg-libxrender",
+"xorg-randrproto",
+"xorg-renderproto",
+"xorg-xextproto"
+],
+"license":"MIT",
+"name":"xorg-libxrandr",
+"sha256":"e6fb26316affa6fc0516f4434fd902730432bc5894ee48b2a68a4fd62250ff76",
+"size":31072,
+"timestamp":1621515922001,
+"version":"1.5.2"
+},
 "xorg-libxrandr-1.5.2-h6eb9509_1.tar.bz2":{
 "build":"h6eb9509_1",
 "build_number":1,
@@ -124479,6 +124522,24 @@
 "size":400059,
 "timestamp":1614955008658,
 "version":"1.2.1"
+},
+"xorg-libxtst-1.2.3-h4e0d66e_1002.tar.bz2":{
+"build":"h4e0d66e_1002",
+"build_number":1002,
+"depends":[
+"libgcc-ng >=9.3.0",
+"xorg-inputproto",
+"xorg-libx11 >=1.7.1,<2.0a0",
+"xorg-libxext 1.3.*",
+"xorg-libxi 1.7.*",
+"xorg-recordproto"
+],
+"license":"MIT",
+"name":"xorg-libxtst",
+"sha256":"bbb0e8070f294c1aaa4181f045c482f16c413b0c10d0ffe546d3b421b7491421",
+"size":34289,
+"timestamp":1621516033359,
+"version":"1.2.3"
 },
 "xorg-libxtst-1.2.3-h6eb9509_1002.tar.bz2":{
 "build":"h6eb9509_1002",
