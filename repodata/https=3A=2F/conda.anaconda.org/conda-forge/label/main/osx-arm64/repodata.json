@@ -74671,6 +74671,44 @@
 "timestamp":1611726933050,
 "version":"2.6.2"
 },
+"pybind11-2.6.2-py38h1670459_0.tar.bz2":{
+"build":"py38h1670459_0",
+"build_number":0,
+"constrains":[
+"pybind11-abi ==4"
+],
+"depends":[
+"libcxx >=11.1.0",
+"pybind11-global 2.6.2 py38h1670459_0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"pybind11",
+"requires":[],
+"size":152059,
+"timestamp":1621524967872,
+"version":"2.6.2"
+},
+"pybind11-2.6.2-py39h4d2d688_0.tar.bz2":{
+"build":"py39h4d2d688_0",
+"build_number":0,
+"constrains":[
+"pybind11-abi ==4"
+],
+"depends":[
+"libcxx >=11.1.0",
+"pybind11-global 2.6.2 py39h4d2d688_0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"pybind11",
+"requires":[],
+"size":151740,
+"timestamp":1621524965790,
+"version":"2.6.2"
+},
 "pybind11-2.6.2-py39h5a63225_0.tar.bz2":{
 "build":"py39h5a63225_0",
 "build_number":0,
@@ -74808,6 +74846,42 @@
 "requires":[],
 "size":186282,
 "timestamp":1611726887743,
+"version":"2.6.2"
+},
+"pybind11-global-2.6.2-py38h1670459_0.tar.bz2":{
+"build":"py38h1670459_0",
+"build_number":0,
+"constrains":[
+"pybind11-abi ==4"
+],
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"pybind11-global",
+"requires":[],
+"size":186281,
+"timestamp":1621524914139,
+"version":"2.6.2"
+},
+"pybind11-global-2.6.2-py39h4d2d688_0.tar.bz2":{
+"build":"py39h4d2d688_0",
+"build_number":0,
+"constrains":[
+"pybind11-abi ==4"
+],
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"pybind11-global",
+"requires":[],
+"size":186034,
+"timestamp":1621524904303,
 "version":"2.6.2"
 },
 "pybind11-global-2.6.2-py39h5a63225_0.tar.bz2":{
@@ -80295,6 +80369,19 @@
 "timestamp":1620761343581,
 "version":"4.0.5"
 },
+"r-base64enc-0.1_3-r40h6f62c66_1004.tar.bz2":{
+"build":"r40h6f62c66_1004",
+"build_number":1004,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-base64enc",
+"requires":[],
+"size":44808,
+"timestamp":1621526696294,
+"version":"0.1_3"
+},
 "r-bit-4.0.4-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
 "build_number":0,
@@ -80545,6 +80632,20 @@
 "timestamp":1620736812327,
 "version":"0.4.2"
 },
+"r-fastmap-1.1.0-r40h8ea1354_0.tar.bz2":{
+"build":"r40h8ea1354_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"MIT",
+"name":"r-fastmap",
+"requires":[],
+"size":70044,
+"timestamp":1621525965026,
+"version":"1.1.0"
+},
 "r-foreign-0.8_81-r40h4d528fc_0.tar.bz2":{
 "build":"r40h4d528fc_0",
 "build_number":0,
@@ -80615,6 +80716,22 @@
 "size":101314,
 "timestamp":1621514718673,
 "version":"2.23_20"
+},
+"r-later-1.2.0-r40h8ea1354_0.tar.bz2":{
+"build":"r40h8ea1354_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.0,<4.1.0a0",
+"r-rcpp >=0.12.9",
+"r-rlang"
+],
+"license":"MIT",
+"name":"r-later",
+"requires":[],
+"size":132372,
+"timestamp":1621525758242,
+"version":"1.2.0"
 },
 "r-lattice-0.20_41-r40h4d528fc_3.tar.bz2":{
 "build":"r40h4d528fc_3",
@@ -81436,6 +81553,19 @@
 "size":111127,
 "timestamp":1610720983637,
 "version":"2.2.1"
+},
+"r-zip-2.1.1-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"CC0-1.0",
+"name":"r-zip",
+"requires":[],
+"size":148669,
+"timestamp":1621525316211,
+"version":"2.1.1"
 },
 "rapidfuzz-0.14.1-py38h3f7e68f_0.tar.bz2":{
 "build":"py38h3f7e68f_0",
