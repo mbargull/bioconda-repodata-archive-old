@@ -18802,33 +18802,19 @@
 "timestamp":1600127154053,
 "version":"3.8"
 },
-"cross-r-base-4.0.5-h8af1aa0_0.tar.bz2":{
+"cross-r-base-4.1.0-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
 "build_number":0,
 "depends":[
-"r-base 4.0.5 hd6fd7b2_0",
+"r-base 4.1.0 hfd28f70_0",
 "rsync"
 ],
 "license":"GPL-2.0-or-later",
 "name":"cross-r-base",
-"sha256":"6230c1e1dc937ce47e7f031dc0251711beae0b33d21329b26b5a71221603a292",
-"size":32710,
-"timestamp":1620755369723,
-"version":"4.0.5"
-},
-"cross-r-base-4.0.5-h8af1aa0_1.tar.bz2":{
-"build":"h8af1aa0_1",
-"build_number":1,
-"depends":[
-"r-base 4.0.5 hfd28f70_1",
-"rsync"
-],
-"license":"GPL-2.0-or-later",
-"name":"cross-r-base",
-"sha256":"8f93564977d41de50b48fc50a773a578143e5eeea93ac3013dbeda2eb68ab1d9",
-"size":32713,
-"timestamp":1621014856687,
-"version":"4.0.5"
+"sha256":"760d0200eab4a4d2336d5d153cb0a18a1eb60fc8c6d283c5fd085df5b2274a12",
+"size":33172,
+"timestamp":1621550026016,
+"version":"4.1.0"
 },
 "crosstool-ng-1.24.0.132_gc74611b1-he28a2e2_0.tar.bz2":{
 "build":"he28a2e2_0",
@@ -58370,6 +58356,28 @@
 "timestamp":1621435351060,
 "version":"4.3.0"
 },
+"libtiff-4.3.0-h1ff68f6_1.tar.bz2":{
+"build":"h1ff68f6_1",
+"build_number":1,
+"depends":[
+"jbig",
+"jpeg >=9d,<10a",
+"lerc >=2.2.1,<3.0a0",
+"libdeflate >=1.7,<1.8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libwebp-base",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"license":"HPND",
+"name":"libtiff",
+"sha256":"d9a0779b18deb5f0b296e8d08c67d1d6318b7bc14d72eb4ed9cb056e0f8b4013",
+"size":793755,
+"timestamp":1621554804365,
+"version":"4.3.0"
+},
 "libtmglib-3.9.0-4_h6783c1e_netlib.tar.bz2":{
 "build":"4_h6783c1e_netlib",
 "build_number":4,
@@ -94009,6 +94017,21 @@
 "timestamp":1621325106848,
 "version":"1.6_8"
 },
+"r-askpass-1.1-r36h96a179c_2.tar.bz2":{
+"build":"r36h96a179c_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=3.6,<3.7.0a0",
+"r-sys >=2.1"
+],
+"license":"MIT",
+"name":"r-askpass",
+"sha256":"6400b1d286be8a8ada694f701dfcacf436ef089b2c231cb38bff507ad79e7f4e",
+"size":28959,
+"timestamp":1621554325913,
+"version":"1.1"
+},
 "r-askpass-1.1-r36hcdcec82_1.tar.bz2":{
 "build":"r36hcdcec82_1",
 "build_number":1,
@@ -94037,6 +94060,21 @@
 "sha256":"44e2feb7e5859fd088fd6e293184bee7a13f4b30ceaf1cc38301525cc9823188",
 "size":29306,
 "timestamp":1588344653946,
+"version":"1.1"
+},
+"r-askpass-1.1-r40h96a179c_2.tar.bz2":{
+"build":"r40h96a179c_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-sys >=2.1"
+],
+"license":"MIT",
+"name":"r-askpass",
+"sha256":"20a912cc07877b9371c2f1ef5c8d430fab9370533f9bd99d7b8d54611e1f2e94",
+"size":28719,
+"timestamp":1621554680764,
 "version":"1.1"
 },
 "r-askpass-1.1-r40hcdcec82_2.tar.bz2":{
@@ -94651,6 +94689,55 @@
 "size":25059068,
 "timestamp":1621014836672,
 "version":"4.0.5"
+},
+"r-base-4.1.0-hfd28f70_0.tar.bz2":{
+"build":"hfd28f70_0",
+"build_number":0,
+"depends":[
+"_r-mutex 1.* anacondar_1",
+"bwidget",
+"bzip2 >=1.0.8,<2.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"curl",
+"freetype >=2.10.4,<3.0a0",
+"gcc_linux-aarch64 >=9",
+"gfortran_linux-aarch64 9.*",
+"gsl >=2.6,<2.7.0a0",
+"gxx_linux-aarch64 >=9",
+"icu >=68.1,<69.0a0",
+"jpeg >=9d,<10a",
+"krb5 >=1.19.1,<1.20.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libglib >=2.68.2,<3.0a0",
+"liblapack >=3.8.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.3.0,<5.0a0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"make",
+"ncurses >=6.2,<6.3.0a0",
+"pango >=1.48.5,<1.49.0a0",
+"pcre2 >=10.36,<10.37.0a0",
+"readline >=8.1,<9.0a0",
+"sed",
+"tk >=8.6.10,<8.7.0a0",
+"tktable",
+"xorg-libxt",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-base",
+"sha256":"96a7db2b01b7a1ceb7e81a84de495993c30dbba6cf891708bec1811ac852d1c6",
+"size":26125636,
+"timestamp":1621550003219,
+"version":"4.1.0"
 },
 "r-base64enc-0.1_3-r36h96a179c_1004.tar.bz2":{
 "build":"r36h96a179c_1004",

@@ -5732,8 +5732,8 @@
 "timestamp":1605060705968,
 "version":"3.470"
 },
-"cftime-1.4.1-py38h8369297_0.tar.bz2":{
-"build":"py38h8369297_0",
+"cftime-1.5.0-py38h691f20f_0.tar.bz2":{
+"build":"py38h691f20f_0",
 "build_number":0,
 "depends":[
 "numpy >=1.19.5,<2.0a0",
@@ -5742,13 +5742,13 @@
 ],
 "license":"MIT",
 "name":"cftime",
-"sha256":"43e7fd73b1750058371fb7843d7d1a28d99622c5f748a8b23edcd8a838c38c9c",
-"size":253842,
-"timestamp":1613412018989,
-"version":"1.4.1"
+"sha256":"fdb409ae5d825c48b02d4d2a16adab17735788da6dcf19fc6759a8cf7fbacb6e",
+"size":187610,
+"timestamp":1621554000882,
+"version":"1.5.0"
 },
-"cftime-1.4.1-py39h038c1d3_0.tar.bz2":{
-"build":"py39h038c1d3_0",
+"cftime-1.5.0-py39h20ef057_0.tar.bz2":{
+"build":"py39h20ef057_0",
 "build_number":0,
 "depends":[
 "numpy >=1.19.5,<2.0a0",
@@ -5757,10 +5757,10 @@
 ],
 "license":"MIT",
 "name":"cftime",
-"sha256":"7114572b7d32fcbc0614147b511d244e1a7859fa89c1bc19e379eea85def478b",
-"size":260716,
-"timestamp":1613412145335,
-"version":"1.4.1"
+"sha256":"07ecceb272eca9706604a9a8ab826c5c9d0575d8acc5c6ae4e7d0eefa8cabfa8",
+"size":193898,
+"timestamp":1621554016096,
+"version":"1.5.0"
 },
 "chardet-3.0.4-py38h045b1e1_1008.tar.bz2":{
 "build":"py38h045b1e1_1008",
@@ -21134,6 +21134,27 @@
 "timestamp":1621435218386,
 "version":"4.3.0"
 },
+"libtiff-4.3.0-hc6122e1_1.tar.bz2":{
+"build":"hc6122e1_1",
+"build_number":1,
+"depends":[
+"jbig",
+"jpeg >=9d,<10a",
+"lerc >=2.2.1,<3.0a0",
+"libcxx >=11.1.0",
+"libdeflate >=1.7,<1.8.0a0",
+"libwebp-base",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"license":"HPND",
+"name":"libtiff",
+"sha256":"f42886c105e914e9f09db2bc592aaad3920a8e1f10843246a20460c5035203bb",
+"size":588263,
+"timestamp":1621550065800,
+"version":"4.3.0"
+},
 "libtmglib-3.9.0-4_h880f123_netlib.tar.bz2":{
 "build":"4_h880f123_netlib",
 "build_number":4,
@@ -32868,6 +32889,20 @@
 "size":3576655,
 "timestamp":1620822366911,
 "version":"4.0.0"
+},
+"r-askpass-1.1-r40h6f62c66_2.tar.bz2":{
+"build":"r40h6f62c66_2",
+"build_number":2,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-sys >=2.1"
+],
+"license":"MIT",
+"name":"r-askpass",
+"sha256":"c8dddd462c96e70eea446dd50ab78c35795adae77b08c0ad954760a001abdcc3",
+"size":28881,
+"timestamp":1621549762330,
+"version":"1.1"
 },
 "r-backports-1.2.1-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
