@@ -27542,6 +27542,32 @@
 "timestamp":1608058450585,
 "version":"5.39"
 },
+"fiona-1.8.19-py38hdb2fefc_0.tar.bz2":{
+"build":"py38hdb2fefc_0",
+"build_number":0,
+"depends":[
+"attrs >=17",
+"click >=4.0,<8",
+"click-plugins >=1.0",
+"cligj >=0.5",
+"gdal",
+"libcxx >=11.1.0",
+"libgdal >=3.2.2,<3.3.0a0",
+"munch",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"shapely",
+"six >=1.7"
+],
+"license":"BSD-3-Clause",
+"name":"fiona",
+"sha256":"c3e10f2ccff662c6fff6e1fc5325dfe89f2a68fb3f450719bed2832d645b44fa",
+"size":1064733,
+"timestamp":1621617895163,
+"version":"1.8.19"
+},
 "fiona-1.8.19-py39h0b0ec0c_0.tar.bz2":{
 "build":"py39h0b0ec0c_0",
 "build_number":0,
@@ -80776,6 +80802,21 @@
 "timestamp":1621512504741,
 "version":"2.1.2"
 },
+"r-cluster-2.1.2-r41h946febc_0.tar.bz2":{
+"build":"r41h946febc_0",
+"build_number":0,
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-cluster",
+"sha256":"5ffd50f7beea422af516ee8079f6316eb0b1d7022922baa6f69136d090aebacb",
+"size":577052,
+"timestamp":1621622026997,
+"version":"2.1.2"
+},
 "r-commonmark-1.7-r40h6f62c66_1002.tar.bz2":{
 "build":"r40h6f62c66_1002",
 "build_number":1002,
@@ -81285,6 +81326,19 @@
 "timestamp":1621535402100,
 "version":"0.2.2"
 },
+"r-lazyeval-0.2.2-r41h6f62c66_2.tar.bz2":{
+"build":"r41h6f62c66_2",
+"build_number":2,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"GPL-3.0-only",
+"name":"r-lazyeval",
+"sha256":"c95c2e7ddd0c0c876ec78eaeeb944627b58464da35b9a06422cea56753e41b44",
+"size":167876,
+"timestamp":1621621390951,
+"version":"0.2.2"
+},
 "r-lightgbm-3.2.0-r40h8ea1354_0.tar.bz2":{
 "build":"r40h8ea1354_0",
 "build_number":0,
@@ -81685,6 +81739,20 @@
 "sha256":"e1e73b7494a91a8351a593f748440bdb5075508b08b7cd8afdc47e75552c360d",
 "size":134141,
 "timestamp":1620044619749,
+"version":"7.3_16"
+},
+"r-nnet-7.3_16-r41h6f62c66_0.tar.bz2":{
+"build":"r41h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.1,<4.2.0a0",
+"r-mass"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-nnet",
+"sha256":"8a477d59f9affa9ee2470a3475ccbd1292016e8c4de079638dc1b072a1d956f2",
+"size":134337,
+"timestamp":1621620599374,
 "version":"7.3_16"
 },
 "r-openssl-1.4.4-r40ha187d15_0.tar.bz2":{
