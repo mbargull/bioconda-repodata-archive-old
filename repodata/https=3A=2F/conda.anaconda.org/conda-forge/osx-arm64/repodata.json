@@ -11254,6 +11254,23 @@
 "timestamp":1617891275916,
 "version":"4.0.0"
 },
+"bazel-4.0.0-h95d86b5_9.tar.bz2":{
+"build":"h95d86b5_9",
+"build_number":9,
+"depends":[
+"grpc-cpp >=1.38.0,<1.39.0a0",
+"ijar",
+"libcxx >=11.1.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"openjdk >=8"
+],
+"license":"Apache-2.0",
+"name":"bazel",
+"sha256":"2a1cf85f0f367159a5682a626602e9d4887bf3d70433080caa0168507ba3ab67",
+"size":43828212,
+"timestamp":1621622648228,
+"version":"4.0.0"
+},
 "bazel-4.0.0-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
@@ -33442,6 +33459,22 @@
 "sha256":"ff55d8e827b5c1280893c3b924ec6a5b03dbd85759e9eaaf9aaab44eb2e42d86",
 "size":2640525,
 "timestamp":1617910110371,
+"version":"0.10.0"
+},
+"googleapis-cpp-0.10.0-h37f0cc7_14.tar.bz2":{
+"build":"h37f0cc7_14",
+"build_number":14,
+"depends":[
+"c-ares >=1.17.1,<2.0a0",
+"grpc-cpp >=1.38.0,<1.39.0a0",
+"libcxx >=11.1.0",
+"libprotobuf >=3.16.0,<3.17.0a0"
+],
+"license":"Apache-2.0",
+"name":"googleapis-cpp",
+"sha256":"189a5eedb06db3eacdbb24216f1f8b9bfb868e3ec16125065c6b4044a915265a",
+"size":2635856,
+"timestamp":1621623161007,
 "version":"0.10.0"
 },
 "googleapis-cpp-0.10.0-h6d2bdd3_8.tar.bz2":{
@@ -80757,6 +80790,20 @@
 "timestamp":1620044654556,
 "version":"7.3_19"
 },
+"r-class-7.3_19-r41h6f62c66_0.tar.bz2":{
+"build":"r41h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.1,<4.2.0a0",
+"r-mass"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-class",
+"sha256":"c68b2e68b6719e12bf6c88b3a7aa1f6bc85a733590a874a8b01675b82b8610ca",
+"size":108547,
+"timestamp":1621623088512,
+"version":"7.3_19"
+},
 "r-cluster-2.1.0-r40h09a9d6b_4.tar.bz2":{
 "build":"r40h09a9d6b_4",
 "build_number":4,
@@ -81094,6 +81141,32 @@
 "sha256":"ff87c548b2eb427c360aa6de7f55125ad6c4899abb586c467c78dbc5fd2ed975",
 "size":274725,
 "timestamp":1610745785212,
+"version":"0.8_81"
+},
+"r-foreign-0.8_81-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-foreign",
+"sha256":"5571ddae0ed3118930285c49a0ce3e2535fe7e48fcc31e88a23791b27cd41af5",
+"size":274737,
+"timestamp":1621623108563,
+"version":"0.8_81"
+},
+"r-foreign-0.8_81-r41h6f62c66_0.tar.bz2":{
+"build":"r41h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-foreign",
+"sha256":"4c27766bd9746e134131756f332cd4520a9b08a8f5710356237f1edb23028b73",
+"size":274671,
+"timestamp":1621623081485,
 "version":"0.8_81"
 },
 "r-gert-1.3.0-r40h1d5b9b2_0.tar.bz2":{
@@ -81804,6 +81877,19 @@
 "timestamp":1621602253140,
 "version":"0.1_7"
 },
+"r-png-0.1_7-r41h6f62c66_1004.tar.bz2":{
+"build":"r41h6f62c66_1004",
+"build_number":1004,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"GPL-2.0-only OR GPL-3.0-only",
+"name":"r-png",
+"sha256":"3fd9f32f24b73652e52dab2c7cfc568931a1edb980c6a6919c2c0b31f9b59a95",
+"size":58369,
+"timestamp":1621623532726,
+"version":"0.1_7"
+},
 "r-processx-3.5.2-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
 "build_number":0,
@@ -82056,6 +82142,32 @@
 "sha256":"f5138ba128a64872499dcf15940d0ceccd2bf0a883d0f3c4c463e8578959caac",
 "size":744629,
 "timestamp":1610749426194,
+"version":"4.1_15"
+},
+"r-rpart-4.1_15-r40h6f62c66_2.tar.bz2":{
+"build":"r40h6f62c66_2",
+"build_number":2,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-rpart",
+"sha256":"be94ca281a63a2304f3b9861a7f257d5548f39690cff915389580f55fac463ed",
+"size":744480,
+"timestamp":1621623905794,
+"version":"4.1_15"
+},
+"r-rpart-4.1_15-r41h6f62c66_2.tar.bz2":{
+"build":"r41h6f62c66_2",
+"build_number":2,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-rpart",
+"sha256":"383c439fba507f6b62c78ce277655b0adcdbcc67d7b6a153d0c4c89c55565d8a",
+"size":750551,
+"timestamp":1621623897525,
 "version":"4.1_15"
 },
 "r-spatial-7.3_12-r40h4d528fc_1.tar.bz2":{
@@ -82466,6 +82578,19 @@
 "sha256":"21a22b0ce1f6fc0d4a7f2e194aa41deda0cc6a4c3626adc3d525b6d11ec5dd4d",
 "size":148669,
 "timestamp":1621525316211,
+"version":"2.1.1"
+},
+"r-zip-2.1.1-r41h6f62c66_0.tar.bz2":{
+"build":"r41h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"CC0-1.0",
+"name":"r-zip",
+"sha256":"47da8b4cfbe158164d125dae16166cfaf50597e71e597e79035fc13327780ddd",
+"size":148997,
+"timestamp":1621623419135,
 "version":"2.1.1"
 },
 "rapidfuzz-0.14.1-py38h3f7e68f_0.tar.bz2":{
