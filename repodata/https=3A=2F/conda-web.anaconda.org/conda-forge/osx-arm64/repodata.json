@@ -80905,6 +80905,19 @@
 "timestamp":1621526696294,
 "version":"0.1_3"
 },
+"r-base64enc-0.1_3-r41h6f62c66_1004.tar.bz2":{
+"build":"r41h6f62c66_1004",
+"build_number":1004,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-base64enc",
+"requires":[],
+"size":44856,
+"timestamp":1621612639894,
+"version":"0.1_3"
+},
 "r-bit-4.0.4-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
 "build_number":0,
@@ -81107,6 +81120,19 @@
 "timestamp":1619936572046,
 "version":"4.3.1"
 },
+"r-curl-4.3.1-r41h6f62c66_0.tar.bz2":{
+"build":"r41h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"MIT",
+"name":"r-curl",
+"requires":[],
+"size":799756,
+"timestamp":1621612964953,
+"version":"4.3.1"
+},
 "r-data.table-1.13.6-r40h4d528fc_0.tar.bz2":{
 "build":"r40h4d528fc_0",
 "build_number":0,
@@ -81133,6 +81159,34 @@
 "requires":[],
 "size":1987675,
 "timestamp":1613896405145,
+"version":"1.14.0"
+},
+"r-data.table-1.14.0-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"llvm-openmp >=11.1.0",
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"MPL-2.0",
+"name":"r-data.table",
+"requires":[],
+"size":2005218,
+"timestamp":1621614111797,
+"version":"1.14.0"
+},
+"r-data.table-1.14.0-r41h6f62c66_0.tar.bz2":{
+"build":"r41h6f62c66_0",
+"build_number":0,
+"depends":[
+"llvm-openmp >=11.1.0",
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"MPL-2.0",
+"name":"r-data.table",
+"requires":[],
+"size":1996810,
+"timestamp":1621613900457,
 "version":"1.14.0"
 },
 "r-diffobj-0.3.3-r40h6f62c66_0.tar.bz2":{
@@ -81243,6 +81297,20 @@
 "requires":[],
 "size":70044,
 "timestamp":1621525965026,
+"version":"1.1.0"
+},
+"r-fastmap-1.1.0-r41h8ea1354_0.tar.bz2":{
+"build":"r41h8ea1354_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"MIT",
+"name":"r-fastmap",
+"requires":[],
+"size":70264,
+"timestamp":1621614612317,
 "version":"1.1.0"
 },
 "r-foreign-0.8_81-r40h4d528fc_0.tar.bz2":{
@@ -81659,6 +81727,22 @@
 "timestamp":1621453367237,
 "version":"1.3_3"
 },
+"r-matrix-1.3_3-r41h8c206a9_0.tar.bz2":{
+"build":"r41h8c206a9_0",
+"build_number":0,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"r-base >=4.1,<4.2.0a0",
+"r-lattice"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-matrix",
+"requires":[],
+"size":4067405,
+"timestamp":1621614694549,
+"version":"1.3_3"
+},
 "r-mgcv-1.8_33-r40hdd02fd4_0.tar.bz2":{
 "build":"r40hdd02fd4_0",
 "build_number":0,
@@ -81726,6 +81810,32 @@
 "timestamp":1613207761958,
 "version":"0.10"
 },
+"r-mime-0.10-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-mime",
+"requires":[],
+"size":52611,
+"timestamp":1621611241216,
+"version":"0.10"
+},
+"r-mime-0.10-r41h6f62c66_0.tar.bz2":{
+"build":"r41h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-mime",
+"requires":[],
+"size":52693,
+"timestamp":1621611458265,
+"version":"0.10"
+},
 "r-mime-0.9-r40h4d528fc_1.tar.bz2":{
 "build":"r40h4d528fc_1",
 "build_number":1,
@@ -81769,6 +81879,38 @@
 "requires":[],
 "size":2395504,
 "timestamp":1612434778413,
+"version":"3.1_152"
+},
+"r-nlme-3.1_152-r40h946febc_0.tar.bz2":{
+"build":"r40h946febc_0",
+"build_number":0,
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"r-base >=4.0,<4.1.0a0",
+"r-lattice"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-nlme",
+"requires":[],
+"size":2380468,
+"timestamp":1621610883048,
+"version":"3.1_152"
+},
+"r-nlme-3.1_152-r41h946febc_0.tar.bz2":{
+"build":"r41h946febc_0",
+"build_number":0,
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"r-base >=4.1,<4.2.0a0",
+"r-lattice"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-nlme",
+"requires":[],
+"size":2383504,
+"timestamp":1621610971206,
 "version":"3.1_152"
 },
 "r-nnet-7.3_14-r40h4d528fc_1.tar.bz2":{
@@ -81909,6 +82051,19 @@
 "timestamp":1620736829637,
 "version":"1.6.0"
 },
+"r-ps-1.6.0-r41h6f62c66_0.tar.bz2":{
+"build":"r41h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"r-ps",
+"requires":[],
+"size":299439,
+"timestamp":1621611063629,
+"version":"1.6.0"
+},
 "r-purrr-0.3.4-r40h6f62c66_1.tar.bz2":{
 "build":"r40h6f62c66_1",
 "build_number":1,
@@ -81961,6 +82116,32 @@
 "requires":[],
 "size":51775,
 "timestamp":1612081130448,
+"version":"0.3.3"
+},
+"r-rappdirs-0.3.3-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"MIT",
+"name":"r-rappdirs",
+"requires":[],
+"size":51949,
+"timestamp":1621613660248,
+"version":"0.3.3"
+},
+"r-rappdirs-0.3.3-r41h6f62c66_0.tar.bz2":{
+"build":"r41h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"MIT",
+"name":"r-rappdirs",
+"requires":[],
+"size":51982,
+"timestamp":1621613598809,
 "version":"0.3.3"
 },
 "r-rcpp-1.0.6-r40h8ea1354_0.tar.bz2":{
@@ -82176,6 +82357,21 @@
 "timestamp":1621248631633,
 "version":"1.6.2"
 },
+"r-stringi-1.6.2-r41h4558816_0.tar.bz2":{
+"build":"r41h4558816_0",
+"build_number":0,
+"depends":[
+"icu >=68.1,<69.0a0",
+"libcxx >=11.1.0",
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"FOSS",
+"name":"r-stringi",
+"requires":[],
+"size":812424,
+"timestamp":1621613408538,
+"version":"1.6.2"
+},
 "r-survival-3.2_10-r40h4d528fc_0.tar.bz2":{
 "build":"r40h4d528fc_0",
 "build_number":0,
@@ -82229,6 +82425,19 @@
 "requires":[],
 "size":48639,
 "timestamp":1621533485560,
+"version":"3.4"
+},
+"r-sys-3.4-r41h6f62c66_0.tar.bz2":{
+"build":"r41h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"MIT",
+"name":"r-sys",
+"requires":[],
+"size":48742,
+"timestamp":1621613855093,
 "version":"3.4"
 },
 "r-testthat-3.0.2-r40h8ea1354_0.tar.bz2":{
@@ -82418,6 +82627,32 @@
 "requires":[],
 "size":111127,
 "timestamp":1610720983637,
+"version":"2.2.1"
+},
+"r-yaml-2.2.1-r40h6f62c66_1.tar.bz2":{
+"build":"r40h6f62c66_1",
+"build_number":1,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"BSD_3_clause",
+"name":"r-yaml",
+"requires":[],
+"size":111557,
+"timestamp":1621611984548,
+"version":"2.2.1"
+},
+"r-yaml-2.2.1-r41h6f62c66_1.tar.bz2":{
+"build":"r41h6f62c66_1",
+"build_number":1,
+"depends":[
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"BSD_3_clause",
+"name":"r-yaml",
+"requires":[],
+"size":111266,
+"timestamp":1621612120533,
 "version":"2.2.1"
 },
 "r-zip-2.1.1-r40h6f62c66_0.tar.bz2":{
