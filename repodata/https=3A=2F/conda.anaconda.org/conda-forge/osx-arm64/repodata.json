@@ -16507,6 +16507,13 @@
 "clang-12.0.0-hce30654_1.tar.bz2":{
 "build":"hce30654_1",
 "build_number":1,
+"constrains":[
+"libclang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
+],
 "depends":[
 "clang-12 12.0.0 default_h0fdd720_1"
 ],
@@ -16775,7 +16782,12 @@
 "build":"default_h0fdd720_1",
 "build_number":1,
 "constrains":[
-"clangdev 12.0.0"
+"clangdev 12.0.0",
+"libclang 12.0.0.*",
+"clang 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
 ],
 "depends":[
 "clang 12.0.0 hce30654_1",
@@ -44708,6 +44720,13 @@
 "libclang-12.0.0-default_h0fdd720_1.tar.bz2":{
 "build":"default_h0fdd720_1",
 "build_number":1,
+"constrains":[
+"clang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
+],
 "depends":[
 "libcxx >=11.1.0",
 "libllvm12 >=12.0.0,<12.1.0a0"
@@ -45395,17 +45414,6 @@
 "size":1027575,
 "timestamp":1614879172356,
 "version":"11.1.0"
-},
-"libcxx-12.0.0-h168391b_0.tar.bz2":{
-"build":"h168391b_0",
-"build_number":0,
-"depends":[],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"libcxx",
-"sha256":"fd984949458d765d3a2b088fe6dae35477866b89c8d294ddd9e7ffdd75c00ada",
-"size":1072913,
-"timestamp":1621447709539,
-"version":"12.0.0"
 },
 "libdap4-3.20.6-h8510809_1.tar.bz2":{
 "build":"h8510809_1",
@@ -101526,6 +101534,7 @@
 "jupyter_server-1.2.3-py38h10201cd_1.tar.bz2",
 "jupyter_server-1.2.3-py39h2804cbe_0.tar.bz2",
 "jupyter_server-1.2.3-py39h2804cbe_1.tar.bz2",
+"libcxx-12.0.0-h168391b_0.tar.bz2",
 "matplotlib-3.4.0-py38h150bfb4_0.tar.bz2",
 "matplotlib-3.4.0-py39hdf13c20_0.tar.bz2",
 "orjson-3.4.7-py38h30f7421_0.tar.bz2",
