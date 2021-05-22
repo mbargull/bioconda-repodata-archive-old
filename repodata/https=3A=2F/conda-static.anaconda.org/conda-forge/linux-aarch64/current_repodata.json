@@ -95371,6 +95371,21 @@
 "timestamp":1598778369166,
 "version":"4.0.5"
 },
+"r-bit64-4.0.5-r41h96a179c_0.tar.bz2":{
+"build":"r41h96a179c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-bit >=4.0.0"
+],
+"license":"GPL-2.0-only",
+"name":"r-bit64",
+"sha256":"ba6c603fcb5aa4bbae368ba70f5d8301ace92341ef339031d0de5095751f290d",
+"size":549904,
+"timestamp":1621652362696,
+"version":"4.0.5"
+},
 "r-bitops-1.0_7-r36h96a179c_0.tar.bz2":{
 "build":"r36h96a179c_0",
 "build_number":0,
@@ -98483,6 +98498,38 @@
 "timestamp":1601902512074,
 "version":"1.1.1"
 },
+"r-lhs-1.1.1-r40hecdc70b_0.tar.bz2":{
+"build":"r40hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-rcpp"
+],
+"license":"GPL-3.0-only",
+"name":"r-lhs",
+"sha256":"f61ff98a6d523cfbf5342d88aa2cbf7431b5a44fd5de568253aab1922ddc099c",
+"size":404809,
+"timestamp":1621653253880,
+"version":"1.1.1"
+},
+"r-lhs-1.1.1-r41hecdc70b_0.tar.bz2":{
+"build":"r41hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-rcpp"
+],
+"license":"GPL-3.0-only",
+"name":"r-lhs",
+"sha256":"075e9c4356f7e6af52973c291be1550b996d549c3d1bd939f93f1cf661396fc4",
+"size":404929,
+"timestamp":1621653256544,
+"version":"1.1.1"
+},
 "r-lightgbm-3.2.1-r36hecdc70b_0.tar.bz2":{
 "build":"r36hecdc70b_0",
 "build_number":0,
@@ -99591,6 +99638,40 @@
 "timestamp":1588565698447,
 "version":"1.2.2.2"
 },
+"r-modelmetrics-1.2.2.2-r40hecdc70b_1.tar.bz2":{
+"build":"r40hecdc70b_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-data.table",
+"r-rcpp"
+],
+"license":"GPL (>= 2)",
+"name":"r-modelmetrics",
+"sha256":"6d4f7e021200f06815aa3e2aec3dd04d1f1594488f26941b29b43d17a6023a9c",
+"size":159340,
+"timestamp":1621653086786,
+"version":"1.2.2.2"
+},
+"r-modelmetrics-1.2.2.2-r41hecdc70b_1.tar.bz2":{
+"build":"r41hecdc70b_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-data.table",
+"r-rcpp"
+],
+"license":"GPL (>= 2)",
+"name":"r-modelmetrics",
+"sha256":"b7c40886ba3a950ea20f1ec3c64a64cbdff3d595ac47e483c9bf78575eef7344",
+"size":159091,
+"timestamp":1621653109104,
+"version":"1.2.2.2"
+},
 "r-multicool-0.1_11-r36he1b5a44_1.tar.bz2":{
 "build":"r36he1b5a44_1",
 "build_number":1,
@@ -100252,6 +100333,22 @@
 "sha256":"9f03c0f299cf7de66b502c629151c04164272f88407f62f0c740688959a8e913",
 "size":1350326,
 "timestamp":1619818755592,
+"version":"1.4.4"
+},
+"r-openssl-1.4.4-r41h2820974_0.tar.bz2":{
+"build":"r41h2820974_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"r-askpass",
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"MIT",
+"name":"r-openssl",
+"sha256":"de1de570b2312e83cee044bf2390db214e976ab389de0be8de145751f2842b71",
+"size":1369351,
+"timestamp":1621651449999,
 "version":"1.4.4"
 },
 "r-openxlsx-4.2.3-r36h78e9c38_0.tar.bz2":{
@@ -102934,6 +103031,25 @@
 "timestamp":1607987720048,
 "version":"2.6_0"
 },
+"r-spam-2.6_0-r41he2cdd73_0.tar.bz2":{
+"build":"r41he2cdd73_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"r-base >=4.1,<4.2.0a0",
+"r-dotcall64"
+],
+"license":"LGPL-2.0-only OR BSD-3-Clause",
+"name":"r-spam",
+"sha256":"75a2d45bc6284a08b678b985ff7aa6c891d2a22d4d72febc1f3bd35f2cafcbe5",
+"size":2830253,
+"timestamp":1621652962887,
+"version":"2.6_0"
+},
 "r-sparsem-1.81-r36h6fc6016_0.tar.bz2":{
 "build":"r36h6fc6016_0",
 "build_number":0,
@@ -103687,6 +103803,23 @@
 "timestamp":1598961742328,
 "version":"0.24.2"
 },
+"r-ttr-0.24.2-r40h96a179c_0.tar.bz2":{
+"build":"r40h96a179c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-curl",
+"r-xts >=0.10_0",
+"r-zoo"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-ttr",
+"sha256":"aee4b38a44cddd0833db0cb1392f4ac5e7338ca99502bdc86bbe3da9a3519024",
+"size":535716,
+"timestamp":1621652410504,
+"version":"0.24.2"
+},
 "r-ttr-0.24.2-r40hcdcec82_0.tar.bz2":{
 "build":"r40hcdcec82_0",
 "build_number":0,
@@ -103702,6 +103835,23 @@
 "sha256":"1868bec163bf8ff154fc8ba3fe7cf6dae603cae9369d2b03bf0a473229ea63f0",
 "size":534658,
 "timestamp":1598961360548,
+"version":"0.24.2"
+},
+"r-ttr-0.24.2-r41h96a179c_0.tar.bz2":{
+"build":"r41h96a179c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-curl",
+"r-xts >=0.10_0",
+"r-zoo"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-ttr",
+"sha256":"5f4e16d9f9147d284064d58580231a606f0e44536fef04b5d1b902ed38ca4fec",
+"size":535700,
+"timestamp":1621652424509,
 "version":"0.24.2"
 },
 "r-tweedie-2.3.3-r36h6fc6016_0.tar.bz2":{
