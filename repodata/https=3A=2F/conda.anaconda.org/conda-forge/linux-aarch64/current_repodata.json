@@ -121974,7 +121974,7 @@
 "timestamp":1611830118463,
 "version":"6.0"
 },
-"uproot-4.0.7-py36h2e20a7f_0.tar.bz2":{
+"uproot-4.0.8-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
@@ -121983,18 +121983,19 @@
 "python >=3.6,<3.7.0a0",
 "python-xxhash",
 "python_abi 3.6 *_pypy36_pp73",
+"setuptools",
 "uproot-base",
 "xrootd",
 "zstandard"
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"10ca73af720d9d3385a920f37f623b76d08423429c35513e771f274af04a60c0",
-"size":4868,
-"timestamp":1618243365593,
-"version":"4.0.7"
+"sha256":"f0b17dc7edf1877afa18c614c6b3dcb66955076caaf8395e8a51f69e47bfba0b",
+"size":4904,
+"timestamp":1621671048769,
+"version":"4.0.8"
 },
-"uproot-4.0.7-py36h704843e_0.tar.bz2":{
+"uproot-4.0.8-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -122003,38 +122004,40 @@
 "python >=3.6,<3.7.0a0",
 "python-xxhash",
 "python_abi 3.6.* *_cp36m",
+"setuptools",
 "uproot-base",
 "xrootd",
 "zstandard"
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"8561787a6ef3257fbb0bf8631376dc5d1a2e6d5e2cf47b7399aa6c1c3e85477a",
-"size":4919,
-"timestamp":1618243281154,
-"version":"4.0.7"
+"sha256":"eb9d50a6ba7b33553a2798c4cac9a873a3026db144bbfb18c1640e4d0fffb4aa",
+"size":4857,
+"timestamp":1621671635110,
+"version":"4.0.8"
 },
-"uproot-4.0.7-py37h4bcbb9b_0.tar.bz2":{
+"uproot-4.0.8-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
 "lz4",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python-xxhash",
 "python_abi 3.7 *_pypy37_pp73",
+"setuptools",
 "uproot-base",
 "xrootd",
 "zstandard"
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"ffbfc467cda7d8f920be35af9754e5d9536ceba302265eec9ed2e9cbe513ea54",
-"size":4891,
-"timestamp":1618864325192,
-"version":"4.0.7"
+"sha256":"c684986c89acaad81dc745df69493d8deb79d2f0e55e4550fa3e9130f05a2e38",
+"size":4908,
+"timestamp":1621672347144,
+"version":"4.0.8"
 },
-"uproot-4.0.7-py37hd9ded2f_0.tar.bz2":{
+"uproot-4.0.8-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
@@ -122043,18 +122046,19 @@
 "python >=3.7,<3.8.0a0",
 "python-xxhash",
 "python_abi 3.7.* *_cp37m",
+"setuptools",
 "uproot-base",
 "xrootd",
 "zstandard"
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"abaa5208d47ea9c9fafa4dba0019bb46849274fd2b9184ef3fb582238768bd58",
-"size":4903,
-"timestamp":1618243697505,
-"version":"4.0.7"
+"sha256":"9095256edac0db6db8c4b5b1ba2d486772315b28649cf08328aee45f2aabd4ad",
+"size":4862,
+"timestamp":1621672081878,
+"version":"4.0.8"
 },
-"uproot-4.0.7-py38h2063c64_0.tar.bz2":{
+"uproot-4.0.8-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
@@ -122063,18 +122067,19 @@
 "python >=3.8,<3.9.0a0",
 "python-xxhash",
 "python_abi 3.8.* *_cp38",
+"setuptools",
 "uproot-base",
 "xrootd",
 "zstandard"
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"8ec2f2adc094e55dd206c96249c88c7e136e1db00000829e132a9336e6a1561e",
-"size":4910,
-"timestamp":1618244307585,
-"version":"4.0.7"
+"sha256":"f8ea6de4509ca5ec34aca8a3bbc3e0a2340aa832e2e4ec6ebee7f9de0256e59f",
+"size":4828,
+"timestamp":1621672504656,
+"version":"4.0.8"
 },
-"uproot-4.0.7-py39ha65689a_0.tar.bz2":{
+"uproot-4.0.8-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
@@ -122083,16 +122088,17 @@
 "python >=3.9,<3.10.0a0",
 "python-xxhash",
 "python_abi 3.9.* *_cp39",
+"setuptools",
 "uproot-base",
 "xrootd",
 "zstandard"
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"8560427dfcd53b2b436d63c64685320f4fe27ba463a037919f933340879fa07f",
-"size":4928,
-"timestamp":1618244120899,
-"version":"4.0.7"
+"sha256":"1a5a411bfecebd8ba8c2e6b809b0dc2bdba406b6ef086ecd706c8396a67893d7",
+"size":4872,
+"timestamp":1621672198785,
+"version":"4.0.8"
 },
 "uproot-base-3.13.0-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
