@@ -51590,6 +51590,146 @@
 "timestamp":1616443164184,
 "version":"6.3.0"
 },
+"notebook-6.4.0-py36h06a4308_0.tar.bz2":{
+"app_cli_opts":[
+{
+"args":"--port %s",
+"default":"8080",
+"name":"port",
+"summary":"Server port ..."
+}
+],
+"build":"py36h06a4308_0",
+"build_number":0,
+"depends":[
+"argon2-cffi",
+"ipykernel",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=5.3.4",
+"jupyter_core >=4.6.1",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.6,<3.7.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.1",
+"tornado >=5.0",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"notebook",
+"sha256":"a7a1d5d5233f4e176e77ee629382c17359ca628ab82bd84c55fa4b76d72efdcb",
+"size":6627244,
+"timestamp":1621523718518,
+"version":"6.4.0"
+},
+"notebook-6.4.0-py37h06a4308_0.tar.bz2":{
+"app_cli_opts":[
+{
+"args":"--port %s",
+"default":"8080",
+"name":"port",
+"summary":"Server port ..."
+}
+],
+"build":"py37h06a4308_0",
+"build_number":0,
+"depends":[
+"argon2-cffi",
+"ipykernel",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=5.3.4",
+"jupyter_core >=4.6.1",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.7,<3.8.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.1",
+"tornado >=5.0",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"notebook",
+"sha256":"9db4122950072176d173a323fe6eb9af24f2392a42a8b7be90f9a6dbc2460884",
+"size":6649324,
+"timestamp":1621523716449,
+"version":"6.4.0"
+},
+"notebook-6.4.0-py38h06a4308_0.tar.bz2":{
+"app_cli_opts":[
+{
+"args":"--port %s",
+"default":"8080",
+"name":"port",
+"summary":"Server port ..."
+}
+],
+"build":"py38h06a4308_0",
+"build_number":0,
+"depends":[
+"argon2-cffi",
+"ipykernel",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=5.3.4",
+"jupyter_core >=4.6.1",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.8,<3.9.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.1",
+"tornado >=5.0",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"notebook",
+"sha256":"a82dbb539d2a6f23a6d689f35857fcb3c62999ceece98a65a2b2d5b6ff98ee08",
+"size":6625671,
+"timestamp":1621528398612,
+"version":"6.4.0"
+},
+"notebook-6.4.0-py39h06a4308_0.tar.bz2":{
+"app_cli_opts":[
+{
+"args":"--port %s",
+"default":"8080",
+"name":"port",
+"summary":"Server port ..."
+}
+],
+"build":"py39h06a4308_0",
+"build_number":0,
+"depends":[
+"argon2-cffi",
+"ipykernel",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=5.3.4",
+"jupyter_core >=4.6.1",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.9,<3.10.0a0",
+"pyzmq >=17",
+"send2trash >=1.5.0",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"notebook",
+"sha256":"f83febba90763ceefd795b78684d8b8b40cdf25c87b56a3883e0e0c03442572d",
+"size":6544180,
+"timestamp":1621625672341,
+"version":"6.4.0"
+},
 "nspr-4.22-he6710b0_0.tar.bz2":{
 "build":"he6710b0_0",
 "build_number":0,
@@ -57546,6 +57686,66 @@
 "size":2086653,
 "timestamp":1613685627054,
 "version":"21.0.1"
+},
+"pip-21.1.1-py36h06a4308_0.tar.bz2":{
+"build":"py36h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.6,<3.7.0a0",
+"setuptools",
+"wheel"
+],
+"license":"MIT",
+"name":"pip",
+"sha256":"9704fd15bab2ef31d7d3b483ffd813615fa54a81fcc27bd0e2a74cca51546614",
+"size":2156585,
+"timestamp":1621540043926,
+"version":"21.1.1"
+},
+"pip-21.1.1-py37h06a4308_0.tar.bz2":{
+"build":"py37h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.7,<3.8.0a0",
+"setuptools",
+"wheel"
+],
+"license":"MIT",
+"name":"pip",
+"sha256":"394862f1efeb9130f48ba71dc12a2833195903abdddae968674d3fc36283f073",
+"size":2103163,
+"timestamp":1621539896415,
+"version":"21.1.1"
+},
+"pip-21.1.1-py38h06a4308_0.tar.bz2":{
+"build":"py38h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"setuptools",
+"wheel"
+],
+"license":"MIT",
+"name":"pip",
+"sha256":"b3bbf6e618ac1839a6e6dde2a2e35c4162fa5998570a1f3c986105ec9f52429d",
+"size":2105619,
+"timestamp":1621535355834,
+"version":"21.1.1"
+},
+"pip-21.1.1-py39h06a4308_0.tar.bz2":{
+"build":"py39h06a4308_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"setuptools",
+"wheel"
+],
+"license":"MIT",
+"name":"pip",
+"sha256":"d33b27d184b22eb9733df7fb3c9e3b02310fe725a1bfdb26a6ae9bb86cad07e5",
+"size":2114317,
+"timestamp":1621540043503,
+"version":"21.1.1"
 },
 "pivottablejs-0.9.0-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -64718,6 +64918,51 @@
 "size":393175,
 "timestamp":1619390989810,
 "version":"1.7.3"
+},
+"pyerfa-2.0.0-py37h27cfd23_0.tar.bz2":{
+"build":"py37h27cfd23_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"numpy >=1.17",
+"python >=3.7,<3.8.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"pyerfa",
+"sha256":"24894543155e71dbc44378cd1fac82325be6eb23206f0460678c741788a78053",
+"size":460523,
+"timestamp":1621560271233,
+"version":"2.0.0"
+},
+"pyerfa-2.0.0-py38h27cfd23_0.tar.bz2":{
+"build":"py38h27cfd23_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"numpy >=1.17",
+"python >=3.8,<3.9.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"pyerfa",
+"sha256":"7199b775d91c6060a35664415e3863aa0b0910d9fdedc2039e8121361430bdb6",
+"size":463130,
+"timestamp":1621560894490,
+"version":"2.0.0"
+},
+"pyerfa-2.0.0-py39h27cfd23_0.tar.bz2":{
+"build":"py39h27cfd23_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"numpy >=1.17",
+"python >=3.9,<3.10.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"pyerfa",
+"sha256":"f40c10b27e25762d09e10bb11520ed9ce93e4d8ac8246434bd8ef2ddcfe9c8f4",
+"size":450799,
+"timestamp":1621556205918,
+"version":"2.0.0"
 },
 "pyface-7.3.0-py36h06a4308_1.tar.bz2":{
 "build":"py36h06a4308_1",
