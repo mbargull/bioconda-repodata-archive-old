@@ -12194,56 +12194,9 @@
 "timestamp":1620864578552,
 "version":"0.18.1"
 },
-"bazel-4.0.0-h3b9df90_0.tar.bz2":{
-"build":"h3b9df90_0",
+"bazel-4.1.0-h954e611_0.tar.bz2":{
+"build":"h954e611_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"openjdk >=8"
-],
-"license":"Apache-2.0",
-"name":"bazel",
-"sha256":"2d5c5ce22e9ffeb981836d9b7b78cc4089477850501de77e47d6ef4b8f920475",
-"size":25906792,
-"timestamp":1611255287426,
-"version":"4.0.0"
-},
-"bazel-4.0.0-h3b9df90_2.tar.bz2":{
-"build":"h3b9df90_2",
-"build_number":2,
-"depends":[
-"grpc-cpp >=1.36.4,<1.37.0a0",
-"libgcc-ng >=9.3.0",
-"libprotobuf >=3.15.6,<3.16.0a0",
-"openjdk >=8"
-],
-"license":"Apache-2.0",
-"name":"bazel",
-"sha256":"bc7dd7293f7b90c88c4d4f2aea4cd4650127195189cc25f077cbd95c8abd8fc6",
-"size":25918233,
-"timestamp":1616502890170,
-"version":"4.0.0"
-},
-"bazel-4.0.0-h8345d93_8.tar.bz2":{
-"build":"h8345d93_8",
-"build_number":8,
-"depends":[
-"grpc-cpp >=1.37.1,<1.38.0a0",
-"libgcc-ng >=9.3.0",
-"libprotobuf >=3.16.0,<3.17.0a0",
-"libstdcxx-ng >=9.3.0",
-"openjdk >=8"
-],
-"license":"Apache-2.0",
-"name":"bazel",
-"sha256":"2cf7b83900fe28578b2182d6305fc2875b5b00e389a99789655b97d9af824260",
-"size":41778062,
-"timestamp":1620484253281,
-"version":"4.0.0"
-},
-"bazel-4.0.0-h954e611_9.tar.bz2":{
-"build":"h954e611_9",
-"build_number":9,
 "depends":[
 "grpc-cpp >=1.38.0,<1.39.0a0",
 "libgcc-ng >=9.3.0",
@@ -12253,93 +12206,10 @@
 ],
 "license":"Apache-2.0",
 "name":"bazel",
-"sha256":"da4a77524ce20a24b91d76a8510f980412209a733d479a5d157bdf411fc2c3b8",
-"size":41792911,
-"timestamp":1621622376329,
-"version":"4.0.0"
-},
-"bazel-4.0.0-ha9c4678_3.tar.bz2":{
-"build":"ha9c4678_3",
-"build_number":3,
-"depends":[
-"grpc-cpp >=1.36.4,<1.37.0a0",
-"libgcc-ng >=9.3.0",
-"libprotobuf >=3.15.6,<3.16.0a0",
-"openjdk >=8"
-],
-"license":"Apache-2.0",
-"name":"bazel",
-"sha256":"b1a6c27bec9db5665833fbe49ac03d047ab3245ca28a0567bdfb6187f54a2c08",
-"size":23887181,
-"timestamp":1616672833106,
-"version":"4.0.0"
-},
-"bazel-4.0.0-ha9c4678_4.tar.bz2":{
-"build":"ha9c4678_4",
-"build_number":4,
-"depends":[
-"grpc-cpp >=1.36.4,<1.37.0a0",
-"libgcc-ng >=9.3.0",
-"libprotobuf >=3.15.6,<3.16.0a0",
-"openjdk >=8"
-],
-"license":"Apache-2.0",
-"name":"bazel",
-"sha256":"1df2bae81438aa35db5917195b38ab4578596f9e6f3c4f8a9f11e9c5d6ce3998",
-"size":23870192,
-"timestamp":1617011098749,
-"version":"4.0.0"
-},
-"bazel-4.0.0-ha9c4678_5.tar.bz2":{
-"build":"ha9c4678_5",
-"build_number":5,
-"depends":[
-"grpc-cpp >=1.36.4,<1.37.0a0",
-"libgcc-ng >=9.3.0",
-"libprotobuf >=3.15.6,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"openjdk >=8"
-],
-"license":"Apache-2.0",
-"name":"bazel",
-"sha256":"48ab7058923142e3d4069b909245e5c6064d7c8d9e8c6c78558d869cf45899cd",
-"size":41793691,
-"timestamp":1617051721775,
-"version":"4.0.0"
-},
-"bazel-4.0.0-ha9c4678_6.tar.bz2":{
-"build":"ha9c4678_6",
-"build_number":6,
-"depends":[
-"grpc-cpp >=1.36.4,<1.37.0a0",
-"libgcc-ng >=9.3.0",
-"libprotobuf >=3.15.6,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"openjdk >=8"
-],
-"license":"Apache-2.0",
-"name":"bazel",
-"sha256":"75206189b61ce8b14cd8d41347d75809b1ec303ff272f127d662d4dd58ccbc19",
-"size":41661402,
-"timestamp":1617111166966,
-"version":"4.0.0"
-},
-"bazel-4.0.0-he52c7d3_7.tar.bz2":{
-"build":"he52c7d3_7",
-"build_number":7,
-"depends":[
-"grpc-cpp >=1.37.0,<1.38.0a0",
-"libgcc-ng >=9.3.0",
-"libprotobuf >=3.15.7,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"openjdk >=8"
-],
-"license":"Apache-2.0",
-"name":"bazel",
-"sha256":"f85f1d399baa416da134e0d6d35995a4ca89eb3697fd9209e377f22ee20a345f",
-"size":41800116,
-"timestamp":1617890952146,
-"version":"4.0.0"
+"sha256":"372761dbc3a395b5378e4261a2a8d4061ec94de3df999d3de89a114757026d23",
+"size":44256532,
+"timestamp":1621772016033,
+"version":"4.1.0"
 },
 "bc-1.07.1-h6eb9509_0.tar.bz2":{
 "build":"h6eb9509_0",
@@ -38266,46 +38136,6 @@
 "size":4146357,
 "timestamp":1597373679765,
 "version":"1.22.4"
-},
-"grpc-cpp-1.36.4-hb466bac_0.tar.bz2":{
-"build":"hb466bac_0",
-"build_number":0,
-"depends":[
-"abseil-cpp >=20200923.3,<20200923.4.0a0",
-"c-ares >=1.17.1,<2.0a0",
-"libgcc-ng >=9.3.0",
-"libprotobuf >=3.15.6,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1j,<1.1.2a",
-"re2 >=2020.11.1,<2020.11.2.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"grpc-cpp",
-"sha256":"cf75ce9d171f48183d13ec39ef87da4e5a29ffd11b6f0796716981e6a033dd98",
-"size":3577348,
-"timestamp":1616135157051,
-"version":"1.36.4"
-},
-"grpc-cpp-1.36.4-hc3c3497_1.tar.bz2":{
-"build":"hc3c3497_1",
-"build_number":1,
-"depends":[
-"abseil-cpp >=20200923.3,<20200923.4.0a0",
-"c-ares >=1.17.1,<2.0a0",
-"libgcc-ng >=9.3.0",
-"libprotobuf >=3.15.6,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a",
-"re2 >=2021.4.1,<2021.4.2.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"grpc-cpp",
-"sha256":"bb3ba1910892994f412cbe4990e46d7d78733e8fef5dfc7698384bfdeaf55a47",
-"size":3592830,
-"timestamp":1617287808018,
-"version":"1.36.4"
 },
 "grpc-cpp-1.37.1-h6fef646_2.tar.bz2":{
 "build":"h6fef646_2",
@@ -75570,6 +75400,25 @@
 "size":779004,
 "timestamp":1620420690336,
 "version":"1.6.7"
+},
+"orc-1.6.8-h408c992_0.tar.bz2":{
+"build":"h408c992_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"snappy >=1.1.8,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"license":"Apache-2.0",
+"name":"orc",
+"sha256":"7f39e994a94223f9cbd2dc952f7d840077d7a873737c05fcab0d8375c6ab2ca5",
+"size":775377,
+"timestamp":1621769205946,
+"version":"1.6.8"
 },
 "orjson-3.5.2-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
