@@ -97576,6 +97576,27 @@
 "timestamp":1608742834270,
 "version":"1.0.2"
 },
+"r-conquer-1.0.2-r41hd3f58b3_1.tar.bz2":{
+"build":"r41hd3f58b3_1",
+"build_number":1,
+"depends":[
+"_openmp_mutex >=4.5",
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-matrix",
+"r-matrixstats",
+"r-rcpp >=1.0.3",
+"r-rcpparmadillo"
+],
+"license":"GPL-3.0-only",
+"name":"r-conquer",
+"sha256":"91199c2980e336272004fc1f1140de13b7a944cbc16a8655d921ed6a492293d4",
+"size":143164,
+"timestamp":1621805728342,
+"version":"1.0.2"
+},
 "r-curl-4.3.1-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
 "build_number":0,
@@ -98278,6 +98299,25 @@
 "sha256":"bdca8401b8e1492a1fcddbd1e281fec87e531e0e47e25051d8d1cb4eeeeb06ee",
 "size":231631,
 "timestamp":1610549379816,
+"version":"0.999_6"
+},
+"r-expm-0.999_6-r41hc2eeeed_0.tar.bz2":{
+"build":"r41hc2eeeed_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"r-base >=4.1,<4.2.0a0",
+"r-matrix"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-expm",
+"sha256":"db616322feeb4c89090a3f06be3b2c0e07af1e556a4ccd29e7431c427436c353",
+"size":231415,
+"timestamp":1621807015786,
 "version":"0.999_6"
 },
 "r-fansi-0.4.2-r36h2be38b1_0.tar.bz2":{
@@ -101990,6 +102030,25 @@
 "sha256":"a94adf5eceba5bbd8ec3203eb2b89e65bbd0e8d5f0a7a5ab94086bd2a3530706",
 "size":1996917,
 "timestamp":1603820943062,
+"version":"4.2.3"
+},
+"r-openxlsx-4.2.3-r41h6203a36_0.tar.bz2":{
+"build":"r41h6203a36_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-rcpp",
+"r-rlang >=0.1.2",
+"r-stringi",
+"r-zip"
+],
+"license":"MIT",
+"name":"r-openxlsx",
+"sha256":"653ba2247f7b503416dbfa574be1ed74e5175a54ecee47f5d177e66197bc96d9",
+"size":1983130,
+"timestamp":1621806925913,
 "version":"4.2.3"
 },
 "r-pbdzmq-0.3_5-r36h475d428_0.tar.bz2":{
