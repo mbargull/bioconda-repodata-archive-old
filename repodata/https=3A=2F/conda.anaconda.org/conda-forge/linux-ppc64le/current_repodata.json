@@ -26718,7 +26718,7 @@
 "timestamp":1618272761747,
 "version":"0.10.1"
 },
-"expat-2.3.0-h3b9df90_0.tar.bz2":{
+"expat-2.4.1-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
 "build_number":0,
 "depends":[
@@ -26727,10 +26727,10 @@
 ],
 "license":"MIT",
 "name":"expat",
-"sha256":"5d3467eeb28bc3eb8b7d2535ea562cddfe8e676ab84334817900faaadc9b1076",
-"size":164233,
-"timestamp":1616693848999,
-"version":"2.3.0"
+"sha256":"9fb94d445e91707e6f2cd32ba8f6377495544cf8a482111bdc64f5808bbbcff7",
+"size":178440,
+"timestamp":1621887205092,
+"version":"2.4.1"
 },
 "fabio-0.11.0-py36h719e50f_1.tar.bz2":{
 "build":"py36h719e50f_1",
@@ -58597,16 +58597,31 @@
 "timestamp":1620885485192,
 "version":"3.17.0"
 },
-"libprotobuf-static-3.17.0-ha3edaa6_0.tar.bz2":{
+"libprotobuf-3.17.1-h690f14c_0.tar.bz2":{
+"build":"h690f14c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libprotobuf",
+"sha256":"fc0b850187f9172b4fb8084978463cef073fca94301dfd674567fff7beb23c0a",
+"size":2548518,
+"timestamp":1621885919244,
+"version":"3.17.1"
+},
+"libprotobuf-static-3.17.1-ha3edaa6_0.tar.bz2":{
 "build":"ha3edaa6_0",
 "build_number":0,
 "depends":[],
 "license":"BSD-3-Clause",
 "name":"libprotobuf-static",
-"sha256":"12e63bc44ce7a2420c1166332d342990666e876dae544c6db93269c1d20cb4e7",
-"size":3862073,
-"timestamp":1620885493401,
-"version":"3.17.0"
+"sha256":"7a91071a51a70efa40cfea2693087964c9e7ac04ff371ac349cb771c4c34d8a9",
+"size":3860272,
+"timestamp":1621885926967,
+"version":"3.17.1"
 },
 "libpython-static-3.9.4-h3b9df90_0_cpython.tar.bz2":{
 "build":"h3b9df90_0_cpython",
