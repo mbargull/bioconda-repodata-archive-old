@@ -41171,7 +41171,7 @@
 "timestamp":1618691099346,
 "version":"1.4.1"
 },
-"virtualenv-20.4.6-py38h10201cd_0.tar.bz2":{
+"virtualenv-20.4.7-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "depends":[
@@ -41184,12 +41184,12 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"e5dc25c9c70095a01f4d438503396d29f2e90951d3c58a145ee57d6cf12fc7fa",
-"size":6708950,
-"timestamp":1620250064942,
-"version":"20.4.6"
+"sha256":"76abd177b0deb2d5e64bc3ae1a2f41b37cf3bf366343965f605a42f1c36c82d8",
+"size":6784519,
+"timestamp":1621891939352,
+"version":"20.4.7"
 },
-"virtualenv-20.4.6-py39h2804cbe_0.tar.bz2":{
+"virtualenv-20.4.7-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "depends":[
@@ -41202,10 +41202,10 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"9b98db4f21d772c72ae41bb3c1166ba80ea1c82250080058c69227c99f222147",
-"size":6787522,
-"timestamp":1620249934334,
-"version":"20.4.6"
+"sha256":"7926f8aefadf4072c753c9d91a051ae6950314ed4194681ce864107e52489a19",
+"size":6783301,
+"timestamp":1621891892143,
+"version":"20.4.7"
 },
 "vispy-0.6.6-py38h6a333d3_0.tar.bz2":{
 "build":"py38h6a333d3_0",
@@ -42884,81 +42884,43 @@
 "timestamp":1621857221546,
 "version":"0.23.10"
 },
-"xtensor-python-0.25.1-py38h3578e97_0.tar.bz2":{
-"build":"py38h3578e97_0",
+"xtensor-python-0.25.2-py38h1e2c3d9_0.tar.bz2":{
+"build":"py38h1e2c3d9_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.1",
+"libcxx >=11.1.0",
 "numpy >=1.19.5,<2.0a0",
 "pybind11 >=2.6.2,<3.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
-"xtensor >=0.23.1,<0.24.0a0",
+"xtensor >=0.23.10,<0.24.0a0",
 "xtl >=0.7.2,<0.8.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"xtensor-python",
-"sha256":"8616332a4fc35d1ff5c553a1163ac780a947c92a9e3634e463782f8857c1a42e",
-"size":19468,
-"timestamp":1612899516308,
-"version":"0.25.1"
+"sha256":"c893935283d10a890ac07ae3dabdd475df42e341c29f59d966aa4a35f8f741bf",
+"size":19539,
+"timestamp":1621890544827,
+"version":"0.25.2"
 },
-"xtensor-python-0.25.1-py38h3578e97_1.tar.bz2":{
-"build":"py38h3578e97_1",
-"build_number":1,
-"depends":[
-"libcxx >=11.0.1",
-"numpy >=1.19.5,<2.0a0",
-"pybind11 >=2.6.2,<3.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"xtensor >=0.23.1,<0.24.0a0",
-"xtl >=0.7.2,<0.8.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"xtensor-python",
-"sha256":"378b4168157b36441a7f132155c71897ba13cadd51bd3d73dbaae409be9fa746",
-"size":19483,
-"timestamp":1614468485119,
-"version":"0.25.1"
-},
-"xtensor-python-0.25.1-py39h6f7cd10_0.tar.bz2":{
-"build":"py39h6f7cd10_0",
+"xtensor-python-0.25.2-py39h776e71f_0.tar.bz2":{
+"build":"py39h776e71f_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.1",
+"libcxx >=11.1.0",
 "numpy >=1.19.5,<2.0a0",
 "pybind11 >=2.6.2,<3.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
-"xtensor >=0.23.1,<0.24.0a0",
+"xtensor >=0.23.10,<0.24.0a0",
 "xtl >=0.7.2,<0.8.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"xtensor-python",
-"sha256":"8c7f311af6ef11a89aa689e66db7e4868f3c656277c13b8f6fb828824e7e0641",
-"size":19528,
-"timestamp":1612899511160,
-"version":"0.25.1"
-},
-"xtensor-python-0.25.1-py39h6f7cd10_1.tar.bz2":{
-"build":"py39h6f7cd10_1",
-"build_number":1,
-"depends":[
-"libcxx >=11.0.1",
-"numpy >=1.19.5,<2.0a0",
-"pybind11 >=2.6.2,<3.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"xtensor >=0.23.1,<0.24.0a0",
-"xtl >=0.7.2,<0.8.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"xtensor-python",
-"sha256":"baad7e5c65017c1f0c52fb937451c2ce021b312f2813a755544761fc144ccaac",
-"size":19478,
-"timestamp":1614468503069,
-"version":"0.25.1"
+"sha256":"dead2a171631716ee0e4aba79965a09828528bf20a6c751befc07dc255f2a00a",
+"size":19604,
+"timestamp":1621890556254,
+"version":"0.25.2"
 },
 "xtl-0.7.2-h260d524_0.tar.bz2":{
 "build":"h260d524_0",
