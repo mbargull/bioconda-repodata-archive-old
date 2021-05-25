@@ -98501,6 +98501,26 @@
 "timestamp":1614147644202,
 "version":"4.1_1"
 },
+"r-glmnet-4.1_1-r41h6fc6016_0.tar.bz2":{
+"build":"r41h6fc6016_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-foreach",
+"r-matrix >=1.0_6",
+"r-shape",
+"r-survival"
+],
+"license":"GPL-2.0-only",
+"name":"r-glmnet",
+"sha256":"4f5392fd9ae27af186ab2b7362dd05909d968a28f8457b09cd126228c762e94d",
+"size":1882776,
+"timestamp":1621943986235,
+"version":"4.1_1"
+},
 "r-glue-1.4.2-r36h96a179c_0.tar.bz2":{
 "build":"r36h96a179c_0",
 "build_number":0,
@@ -100125,6 +100145,23 @@
 "timestamp":1614360683341,
 "version":"1.7.10"
 },
+"r-lubridate-1.7.10-r41hecdc70b_0.tar.bz2":{
+"build":"r41hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-generics",
+"r-rcpp >=0.12.13"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-lubridate",
+"sha256":"4cd0e70357e5d39156d2127419263b581fcacf35a526d029fd54f827c8569afb",
+"size":1118333,
+"timestamp":1621943626457,
+"version":"1.7.10"
+},
 "r-magrittr-2.0.1-r36h96a179c_1.tar.bz2":{
 "build":"r36h96a179c_1",
 "build_number":1,
@@ -101642,6 +101679,31 @@
 "timestamp":1618411700785,
 "version":"0.3.18"
 },
+"r-officer-0.3.18-r41hecdc70b_0.tar.bz2":{
+"build":"r41hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-base64enc",
+"r-digest",
+"r-htmltools",
+"r-magrittr",
+"r-r6",
+"r-rcpp >=0.12.12",
+"r-rlang",
+"r-uuid",
+"r-xml2 >=1.1.0",
+"r-zip >=2.0.0"
+],
+"license":"GPL-3.0-only",
+"name":"r-officer",
+"sha256":"c459d90bb681fd313506f2eeec7601bfa60f35a79ba161cb4c09c44a70c345be",
+"size":1493197,
+"timestamp":1621944374140,
+"version":"0.3.18"
+},
 "r-openssl-1.4.4-r36h2820974_0.tar.bz2":{
 "build":"r36h2820974_0",
 "build_number":0,
@@ -102356,6 +102418,44 @@
 "sha256":"c1c3c4211b6bde0bc821dce8ce621ffd0edfbeef874209ae2937f5e6544fef34",
 "size":427683,
 "timestamp":1588565179111,
+"version":"2019.11.13"
+},
+"r-prodlim-2019.11.13-r40hecdc70b_1.tar.bz2":{
+"build":"r40hecdc70b_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-kernsmooth",
+"r-lava",
+"r-rcpp >=0.11.5",
+"r-survival"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-prodlim",
+"sha256":"041d9b44121e4535adc3ddde2ed5c90750680ec689c4e757cbe025c3a83b047d",
+"size":427691,
+"timestamp":1621944300509,
+"version":"2019.11.13"
+},
+"r-prodlim-2019.11.13-r41hecdc70b_1.tar.bz2":{
+"build":"r41hecdc70b_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-kernsmooth",
+"r-lava",
+"r-rcpp >=0.11.5",
+"r-survival"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-prodlim",
+"sha256":"f953a89502bb7132cb3afe9728086392779511984b18e758ce849827dd77bf49",
+"size":427721,
+"timestamp":1621943869648,
 "version":"2019.11.13"
 },
 "r-profvis-0.3.7-r36h96a179c_0.tar.bz2":{
@@ -103836,6 +103936,27 @@
 "timestamp":1621642829607,
 "version":"1.20"
 },
+"r-reticulate-1.20-r41hecdc70b_0.tar.bz2":{
+"build":"r41hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-jsonlite",
+"r-matrix",
+"r-png",
+"r-rappdirs",
+"r-rcpp >=0.12.7",
+"r-withr"
+],
+"license":"Apache-2.0",
+"name":"r-reticulate",
+"sha256":"6e7936f78d7378f16016506912276066a51a6589a0ec19a53de69630411e6917",
+"size":981957,
+"timestamp":1621944796531,
+"version":"1.20"
+},
 "r-rjson-0.2.20-r36h0357c0b_1001.tar.bz2":{
 "build":"r36h0357c0b_1001",
 "build_number":1001,
@@ -105141,6 +105262,23 @@
 "sha256":"ae4acabb721ff793229cd4c0e19eff5d8c3fd9415fc684de1888a1476e15007a",
 "size":268174,
 "timestamp":1620743933154,
+"version":"1.0.2"
+},
+"r-systemfonts-1.0.2-r41h4ec869d_0.tar.bz2":{
+"build":"r41h4ec869d_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-cpp11"
+],
+"license":"MIT",
+"name":"r-systemfonts",
+"sha256":"06369de5424773236a78467407d2b57b63f10509d8e761a894ea03ec15cac30c",
+"size":268464,
+"timestamp":1621943621899,
 "version":"1.0.2"
 },
 "r-testthat-3.0.2-r36hecdc70b_0.tar.bz2":{
