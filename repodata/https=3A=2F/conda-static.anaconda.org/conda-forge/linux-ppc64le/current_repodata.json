@@ -100190,6 +100190,25 @@
 "timestamp":1620375036475,
 "version":"1.6.1"
 },
+"r-httpuv-1.6.1-r41h6203a36_0.tar.bz2":{
+"build":"r41h6203a36_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-later >=0.8.0",
+"r-promises",
+"r-r6",
+"r-rcpp >=0.11.0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-httpuv",
+"sha256":"116d5b82b2dc54679514d89a25958ce10b533f12e285444de027de4d73a57f07",
+"size":865848,
+"timestamp":1621951036900,
+"version":"1.6.1"
+},
 "r-ipred-0.9_11-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
 "build_number":0,
@@ -117288,6 +117307,23 @@
 "timestamp":1612429231171,
 "version":"5.7.0"
 },
+"superlu-5.2.2-h6bb5436_0.tar.bz2":{
+"build":"h6bb5436_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"superlu",
+"sha256":"c41d844f0597a9f34ecaf79535fc1b33f3df9642bdcb01ed56044d4c54c5d425",
+"size":229943,
+"timestamp":1621951398802,
+"version":"5.2.2"
+},
 "superlu-5.2.2-he1ec49c_0.tar.bz2":{
 "build":"he1ec49c_0",
 "build_number":0,
@@ -129711,7 +129747,7 @@
 "timestamp":1606409612305,
 "version":"0.2.6"
 },
-"xtensor-io-0.12.7-h2acdbc0_0.tar.bz2":{
+"xtensor-io-0.12.8-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
 "build_number":0,
 "depends":[
@@ -129722,15 +129758,15 @@
 "libsndfile >=1.0.28,<1.1",
 "libstdcxx-ng >=9.3.0",
 "openimageio >=2.1,<2.3",
-"xtensor >=0.23.8,<0.24.0a0",
+"xtensor >=0.23.10,<0.24.0a0",
 "zlib"
 ],
 "license":"BSD-3-Clause",
 "name":"xtensor-io",
-"sha256":"9b6e516c0fb7ee57e85d66b512a9bab07b89276aea8f8e740f5f4149936e1a38",
-"size":36872,
-"timestamp":1619705831962,
-"version":"0.12.7"
+"sha256":"18584dee35d12a0e6fbfc0b9c6ee8b1e3b6b8af5b180a8430a9336df770de238",
+"size":35619,
+"timestamp":1621950729195,
+"version":"0.12.8"
 },
 "xtl-0.7.2-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
