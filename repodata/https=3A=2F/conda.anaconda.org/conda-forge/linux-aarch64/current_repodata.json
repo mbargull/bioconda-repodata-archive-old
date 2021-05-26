@@ -95375,6 +95375,21 @@
 "timestamp":1621325106848,
 "version":"1.6_8"
 },
+"r-arules-1.6_8-r41h96a179c_0.tar.bz2":{
+"build":"r41h96a179c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-matrix >=1.2_0"
+],
+"license":"GPL-3.0-only",
+"name":"r-arules",
+"sha256":"5165690709fd71d039e62b8e2401b31dbc2217427933b67f3389dd98d585714a",
+"size":2675333,
+"timestamp":1622008518794,
+"version":"1.6_8"
+},
 "r-askpass-1.1-r36h96a179c_2.tar.bz2":{
 "build":"r36h96a179c_2",
 "build_number":2,
@@ -96431,6 +96446,42 @@
 "sha256":"54444229b0243f0a30a31a8e4b972e3dcc375010e1ade4623cd8bb91947dda54",
 "size":99910,
 "timestamp":1588857057420,
+"version":"0.2.2"
+},
+"r-bindrcpp-0.2.2-r40hecdc70b_1003.tar.bz2":{
+"build":"r40hecdc70b_1003",
+"build_number":1003,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-bindr >=0.1.1",
+"r-plogr",
+"r-rcpp >=0.12.16"
+],
+"license":"MIT",
+"name":"r-bindrcpp",
+"sha256":"1af80d7162136fa8802c4104419bc04664dd68a3b05254c40f68a94621474b67",
+"size":86299,
+"timestamp":1622008140595,
+"version":"0.2.2"
+},
+"r-bindrcpp-0.2.2-r41hecdc70b_1003.tar.bz2":{
+"build":"r41hecdc70b_1003",
+"build_number":1003,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-bindr >=0.1.1",
+"r-plogr",
+"r-rcpp >=0.12.16"
+],
+"license":"MIT",
+"name":"r-bindrcpp",
+"sha256":"9532dfcee7285594a71041389329db4e3ade73d7ea0b3d2692c8519546197068",
+"size":86170,
+"timestamp":1622008809946,
 "version":"0.2.2"
 },
 "r-bit-4.0.4-r36h96a179c_0.tar.bz2":{
@@ -97789,6 +97840,21 @@
 "timestamp":1588826715107,
 "version":"0.2.3"
 },
+"r-dimred-0.2.3-r40h4da3e95_2.tar.bz2":{
+"build":"r40h4da3e95_2",
+"build_number":2,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-drr",
+"r-magrittr"
+],
+"license":"GPL-3.0-only",
+"name":"r-dimred",
+"sha256":"63d7388dd6651963fc0e29340594874d1676d4472afa6eea2243a091292efed5",
+"size":1392803,
+"timestamp":1622008260590,
+"version":"0.2.3"
+},
 "r-dimred-0.2.3-r40h6115d3f_2.tar.bz2":{
 "build":"r40h6115d3f_2",
 "build_number":2,
@@ -97802,6 +97868,21 @@
 "sha256":"a4c705e49f290aaf89a97fd6a97c26e2193df8df81f364d347a4015e8954010b",
 "size":1384288,
 "timestamp":1588826719239,
+"version":"0.2.3"
+},
+"r-dimred-0.2.3-r41h4da3e95_2.tar.bz2":{
+"build":"r41h4da3e95_2",
+"build_number":2,
+"depends":[
+"r-base >=4.1,<4.2.0a0",
+"r-drr",
+"r-magrittr"
+],
+"license":"GPL-3.0-only",
+"name":"r-dimred",
+"sha256":"efdd9a2fbd00d0f5c31c868ce646948b69a3d3b22d6e6ef6c0c370c1a55407a7",
+"size":1385764,
+"timestamp":1622008274581,
 "version":"0.2.3"
 },
 "r-dotcall64-1.0_1-r36h6fc6016_0.tar.bz2":{
@@ -101597,6 +101678,38 @@
 "sha256":"4eb316d5eaa2a07c088cc77f2069701c514e03fbd50b32a697a406a7196ce188",
 "size":956496,
 "timestamp":1602061883217,
+"version":"1.16.1"
+},
+"r-network-1.16.1-r40h96a179c_0.tar.bz2":{
+"build":"r40h96a179c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-magrittr",
+"r-tibble"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-network",
+"sha256":"988e865ce3e6d0f35aeb94c41e93fa9019aa920a275c9fefda2deead193b1779",
+"size":958690,
+"timestamp":1622012308175,
+"version":"1.16.1"
+},
+"r-network-1.16.1-r41h96a179c_0.tar.bz2":{
+"build":"r41h96a179c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-magrittr",
+"r-tibble"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-network",
+"sha256":"6adbbd2438c4a5edb07c2fa4de77551870fa3662f025c02270addf5e9bd11ac9",
+"size":960861,
+"timestamp":1622011774895,
 "version":"1.16.1"
 },
 "r-nleqslv-3.3.2-r36h283fcfe_1006.tar.bz2":{
@@ -105955,6 +106068,40 @@
 "timestamp":1613327796174,
 "version":"3.0.2"
 },
+"r-testthat-3.0.2-r41hecdc70b_0.tar.bz2":{
+"build":"r41hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-brio",
+"r-callr >=3.5.1",
+"r-cli",
+"r-crayon >=1.3.4",
+"r-desc",
+"r-digest",
+"r-ellipsis >=0.2.0",
+"r-evaluate",
+"r-jsonlite",
+"r-lifecycle",
+"r-magrittr",
+"r-pkgload",
+"r-praise",
+"r-processx",
+"r-ps >=1.3.4",
+"r-r6 >=2.2.0",
+"r-rlang >=0.4.1",
+"r-waldo >=0.2.1",
+"r-withr >=2.0.0"
+],
+"license":"MIT",
+"name":"r-testthat",
+"sha256":"495d129cf7461cfeb4b7b53864e54a3907f61b2ac2abf7f5a06579f20bfdb3f1",
+"size":1672008,
+"timestamp":1622013667006,
+"version":"3.0.2"
+},
 "r-tibble-3.1.2-r36h96a179c_0.tar.bz2":{
 "build":"r36h96a179c_0",
 "build_number":0,
@@ -107391,6 +107538,21 @@
 "timestamp":1615374304918,
 "version":"1.8_9"
 },
+"r-zoo-1.8_9-r40h96a179c_1.tar.bz2":{
+"build":"r40h96a179c_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-lattice >=0.20_27"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-zoo",
+"sha256":"b7865a81870623893a8fcb0308a85020b31be94dabde7ccfae75ba6cef488551",
+"size":1056430,
+"timestamp":1622011787229,
+"version":"1.8_9"
+},
 "r-zoo-1.8_9-r41h96a179c_0.tar.bz2":{
 "build":"r41h96a179c_0",
 "build_number":0,
@@ -107404,6 +107566,21 @@
 "sha256":"d32d7e5e356d69c249c06e095ce5baee8e6eab97bfc849432488a785e2996bbc",
 "size":1056209,
 "timestamp":1621618805952,
+"version":"1.8_9"
+},
+"r-zoo-1.8_9-r41h96a179c_1.tar.bz2":{
+"build":"r41h96a179c_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-lattice >=0.20_27"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-zoo",
+"sha256":"5ebff14b3d198d85c135fb8c2fc12a8c6d8439cc57901e598bab4939e27c03a5",
+"size":1051933,
+"timestamp":1622011828909,
 "version":"1.8_9"
 },
 "rake_nltk-1.0.4-py36h2e20a7f_3.tar.bz2":{
