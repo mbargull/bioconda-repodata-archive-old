@@ -22006,56 +22006,22 @@
 "timestamp":1561146593715,
 "version":"0.9"
 },
-"curl-7.76.1-h57b39c4_2.tar.bz2":{
-"build":"h57b39c4_2",
-"build_number":2,
-"depends":[
-"krb5 >=1.19.1,<1.20.0a0",
-"libcurl 7.76.1 he415e40_2",
-"libgcc-ng >=9.3.0",
-"libssh2 >=1.9.0,<2.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"curl",
-"name":"curl",
-"sha256":"68f9eb512e2e23b95e986a4a04367f6f81c7e708ad994490306c51c32a6342c4",
-"size":95450,
-"timestamp":1620952599589,
-"version":"7.76.1"
-},
-"curl-7.76.1-h86bdb50_0.tar.bz2":{
-"build":"h86bdb50_0",
+"curl-7.77.0-h57b39c4_0.tar.bz2":{
+"build":"h57b39c4_0",
 "build_number":0,
 "depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libcurl 7.76.1 hf726fd8_0",
+"krb5 >=1.19.1,<1.20.0a0",
+"libcurl 7.77.0 he415e40_0",
 "libgcc-ng >=9.3.0",
 "libssh2 >=1.9.0,<2.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"curl",
 "name":"curl",
-"sha256":"b34df43b32d494b9dc4fc8ca800e991d874b0100589136b3138912a371ea6287",
-"size":95498,
-"timestamp":1618448759675,
-"version":"7.76.1"
-},
-"curl-7.76.1-h86bdb50_1.tar.bz2":{
-"build":"h86bdb50_1",
-"build_number":1,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libcurl 7.76.1 hf726fd8_1",
-"libgcc-ng >=9.3.0",
-"libssh2 >=1.9.0,<2.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"curl",
-"name":"curl",
-"sha256":"033a4f7e03eb680cef7a5550accedc932b4c562c37399f8025fbdf153867ee9c",
-"size":95378,
-"timestamp":1618747729287,
-"version":"7.76.1"
+"sha256":"4921c026c749422ab221936405ba78f97e42f5cd371024c3b03b1a1c1a4d4f6a",
+"size":95655,
+"timestamp":1622055501525,
+"version":"7.77.0"
 },
 "cvxopt-1.2.6-py36h3571a5e_0.tar.bz2":{
 "build":"py36h3571a5e_0",
@@ -53162,9 +53128,9 @@
 "timestamp":1620954716455,
 "version":"2.3.3"
 },
-"libcurl-7.76.1-he415e40_2.tar.bz2":{
-"build":"he415e40_2",
-"build_number":2,
+"libcurl-7.77.0-he415e40_0.tar.bz2":{
+"build":"he415e40_0",
+"build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
 "libgcc-ng >=9.3.0",
@@ -53175,53 +53141,17 @@
 ],
 "license":"curl",
 "name":"libcurl",
-"sha256":"c140eac4db16aae48f263321dd708e33ccbba31cf839aa3a03e1154cd0fa34a4",
-"size":368463,
-"timestamp":1620952566568,
-"version":"7.76.1"
+"sha256":"03da84c4c032aad7f05552bbbdc949cc277a91399b2f7353552c29468c586626",
+"size":377540,
+"timestamp":1622055465417,
+"version":"7.77.0"
 },
-"libcurl-7.76.1-hf726fd8_0.tar.bz2":{
-"build":"hf726fd8_0",
+"libcurl-static-7.77.0-he415e40_0.tar.bz2":{
+"build":"he415e40_0",
 "build_number":0,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libgcc-ng >=9.3.0",
-"libnghttp2 >=1.43.0,<2.0a0",
-"libssh2 >=1.9.0,<2.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"curl",
-"name":"libcurl",
-"sha256":"45355359223707b09618561a01d273d01b815272e7573a3da2bedbdb2d713304",
-"size":365269,
-"timestamp":1618448729743,
-"version":"7.76.1"
-},
-"libcurl-7.76.1-hf726fd8_1.tar.bz2":{
-"build":"hf726fd8_1",
-"build_number":1,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libgcc-ng >=9.3.0",
-"libnghttp2 >=1.43.0,<2.0a0",
-"libssh2 >=1.9.0,<2.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"curl",
-"name":"libcurl",
-"sha256":"711d4457a744ea03ea5a57c49da6c18547d25bfe27ec268a767833474a907269",
-"size":368120,
-"timestamp":1618747699656,
-"version":"7.76.1"
-},
-"libcurl-static-7.76.1-he415e40_2.tar.bz2":{
-"build":"he415e40_2",
-"build_number":2,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
-"libcurl 7.76.1 he415e40_2",
+"libcurl 7.77.0 he415e40_0",
 "libgcc-ng >=9.3.0",
 "libssh2 >=1.9.0,<2.0a0",
 "openssl >=1.1.1k,<1.1.2a",
@@ -53229,46 +53159,10 @@
 ],
 "license":"curl",
 "name":"libcurl-static",
-"sha256":"643302361fe9ddea93aad538fad114f909e24156d9cc2b780defba2f8415f20e",
-"size":425771,
-"timestamp":1620952626504,
-"version":"7.76.1"
-},
-"libcurl-static-7.76.1-hf726fd8_0.tar.bz2":{
-"build":"hf726fd8_0",
-"build_number":0,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libcurl 7.76.1 hf726fd8_0",
-"libgcc-ng >=9.3.0",
-"libssh2 >=1.9.0,<2.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"curl",
-"name":"libcurl-static",
-"sha256":"833b6aeefe746727048bc865767ff14b00da152b6e3396561fa436129999f64d",
-"size":425780,
-"timestamp":1618448793064,
-"version":"7.76.1"
-},
-"libcurl-static-7.76.1-hf726fd8_1.tar.bz2":{
-"build":"hf726fd8_1",
-"build_number":1,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"libcurl 7.76.1 hf726fd8_1",
-"libgcc-ng >=9.3.0",
-"libssh2 >=1.9.0,<2.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"curl",
-"name":"libcurl-static",
-"sha256":"5266b086c59263bb9996c8d7a697a35866273e2e87eeda0172b0b4f5e80b175f",
-"size":426408,
-"timestamp":1618747758071,
-"version":"7.76.1"
+"sha256":"31b523b3b57709e33854d6bc2b117ffd2353d27f853c75a3d5b16ef0f450bbf2",
+"size":432965,
+"timestamp":1622055531630,
+"version":"7.77.0"
 },
 "libcxx-8.0.0-3.tar.bz2":{
 "build":"3",
