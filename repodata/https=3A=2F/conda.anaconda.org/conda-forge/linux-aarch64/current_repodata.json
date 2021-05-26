@@ -58909,6 +58909,110 @@
 "timestamp":1621972145180,
 "version":"0.8.2"
 },
+"libtiledb-sql-py-2.1.2-py36h28cc557_1.tar.bz2":{
+"build":"py36h28cc557_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libtiledb-sql",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73"
+],
+"license":"GPL-2.0-only",
+"name":"libtiledb-sql-py",
+"sha256":"a504fcbe85ebb2dbe32ad7481fe3686f52cf442f4bfc40a60f61d0fe55cb844e",
+"size":115811,
+"timestamp":1621991033794,
+"version":"2.1.2"
+},
+"libtiledb-sql-py-2.1.2-py36h72e8208_1.tar.bz2":{
+"build":"py36h72e8208_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libtiledb-sql",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"GPL-2.0-only",
+"name":"libtiledb-sql-py",
+"sha256":"30a71248d900347672345b012360f00a90210ad578084b3b3300964f028ff8e3",
+"size":115483,
+"timestamp":1621991031863,
+"version":"2.1.2"
+},
+"libtiledb-sql-py-2.1.2-py37h7ed3beb_1.tar.bz2":{
+"build":"py37h7ed3beb_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libtiledb-sql",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"GPL-2.0-only",
+"name":"libtiledb-sql-py",
+"sha256":"986132e2f5357f178992f3bebe33e4c00ebb2d0b88fdf85d3dde23c9d11710ce",
+"size":115569,
+"timestamp":1621991034494,
+"version":"2.1.2"
+},
+"libtiledb-sql-py-2.1.2-py37hbc413c5_1.tar.bz2":{
+"build":"py37hbc413c5_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libtiledb-sql",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"GPL-2.0-only",
+"name":"libtiledb-sql-py",
+"sha256":"f1f0fcd65c6a6bbd5ecc5e6c2928011a2da23f28b328cc3ca03c38d3249d7743",
+"size":115845,
+"timestamp":1621991039388,
+"version":"2.1.2"
+},
+"libtiledb-sql-py-2.1.2-py38he922c84_1.tar.bz2":{
+"build":"py38he922c84_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libtiledb-sql",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"GPL-2.0-only",
+"name":"libtiledb-sql-py",
+"sha256":"ee46b050b07f72f684c8fdc0568cab2b312cb1169342d91e81cd514a25cc92b1",
+"size":115774,
+"timestamp":1621991454601,
+"version":"2.1.2"
+},
+"libtiledb-sql-py-2.1.2-py39hb300cb6_1.tar.bz2":{
+"build":"py39hb300cb6_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libtiledb-sql",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"GPL-2.0-only",
+"name":"libtiledb-sql-py",
+"sha256":"d3bed26161f758e0af8725a27a5d202d754f96afd2805f06c5665fd0345025a4",
+"size":115748,
+"timestamp":1621991542210,
+"version":"2.1.2"
+},
 "libtmglib-3.9.0-4_h6783c1e_netlib.tar.bz2":{
 "build":"4_h6783c1e_netlib",
 "build_number":4,
@@ -102733,6 +102837,22 @@
 "timestamp":1616029745924,
 "version":"0.3.7"
 },
+"r-profvis-0.3.7-r41h96a179c_0.tar.bz2":{
+"build":"r41h96a179c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-htmlwidgets >=0.3.2",
+"r-stringr"
+],
+"license":"GPL-3.0-only",
+"name":"r-profvis",
+"sha256":"17d6e6060523e37a7bfe2adb96d8aba5ca1c798f59fee2e27121323359a32678",
+"size":194585,
+"timestamp":1621996410898,
+"version":"0.3.7"
+},
 "r-promises-1.2.0.1-r36hecdc70b_0.tar.bz2":{
 "build":"r36hecdc70b_0",
 "build_number":0,
@@ -103946,6 +104066,54 @@
 "sha256":"e4899405b006f22aee184625645ec179a0ed8c5786494b483d8ec33ab538545a",
 "size":918531,
 "timestamp":1601940412814,
+"version":"1.4.0"
+},
+"r-readr-1.4.0-r40hecdc70b_0.tar.bz2":{
+"build":"r40hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-cli",
+"r-clipr",
+"r-cpp11",
+"r-crayon",
+"r-hms >=0.4.1",
+"r-lifecycle",
+"r-r6",
+"r-rlang",
+"r-tibble"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-readr",
+"sha256":"0bbd4c8e96cacf837376c533b5ec8df20588dcf2172ff9d137040a3cc477a034",
+"size":887279,
+"timestamp":1621990413558,
+"version":"1.4.0"
+},
+"r-readr-1.4.0-r41hecdc70b_0.tar.bz2":{
+"build":"r41hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-cli",
+"r-clipr",
+"r-cpp11",
+"r-crayon",
+"r-hms >=0.4.1",
+"r-lifecycle",
+"r-r6",
+"r-rlang",
+"r-tibble"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-readr",
+"sha256":"93c4280314dae69cf43b026cdaafdfb8c0108f9c94ef15c27d9c18bcb3e538cc",
+"size":891863,
+"timestamp":1621991314771,
 "version":"1.4.0"
 },
 "r-readxl-1.3.1-r36hde08347_3.tar.bz2":{
