@@ -94926,29 +94926,9 @@
 "timestamp":1602429445524,
 "version":"19.0.2"
 },
-"pyzmq-22.0.3-py36h522282f_0.tar.bz2":{
-"build":"py36h522282f_0",
+"pyzmq-22.1.0-py36h57161fd_0.tar.bz2":{
+"build":"py36h57161fd_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libsodium >=1.0.18,<1.0.19.0a0",
-"libstdcxx-ng >=9.3.0",
-"py",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"zeromq >=4.3.3,<4.4.0a0"
-],
-"license":"BSD-3-Clause AND LGPL-3.0-or-later",
-"name":"pyzmq",
-"sha256":"0f4725a710b45490a3576ddb56db93d0a48128ad85482acdfe5f6027e6fe4604",
-"size":307713,
-"timestamp":1613479578766,
-"version":"22.0.3"
-},
-"pyzmq-22.0.3-py36h57161fd_1.tar.bz2":{
-"build":"py36h57161fd_1",
-"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libsodium >=1.0.18,<1.0.19.0a0",
@@ -94959,32 +94939,14 @@
 ],
 "license":"BSD-3-Clause AND LGPL-3.0-or-later",
 "name":"pyzmq",
-"sha256":"1808a4be02609da4703ff071814405315bea4ae06e5aa6de2bfba6773ccd9965",
-"size":530989,
-"timestamp":1614612661693,
-"version":"22.0.3"
+"sha256":"ec55b0869e9b3c14f89216e8716734fe0963a8c5ddc843f6694b2ecc0268093f",
+"size":521486,
+"timestamp":1622039509272,
+"version":"22.1.0"
 },
-"pyzmq-22.0.3-py36h59239b5_0.tar.bz2":{
-"build":"py36h59239b5_0",
+"pyzmq-22.1.0-py36h8aaefdd_0.tar.bz2":{
+"build":"py36h8aaefdd_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libsodium >=1.0.18,<1.0.19.0a0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"zeromq >=4.3.3,<4.4.0a0"
-],
-"license":"BSD-3-Clause AND LGPL-3.0-or-later",
-"name":"pyzmq",
-"sha256":"4c14a06d6d255f463562fad3fae4dc50f291aed0a8bb9c4d5264650c35338e49",
-"size":520950,
-"timestamp":1613479730278,
-"version":"22.0.3"
-},
-"pyzmq-22.0.3-py36h8aaefdd_1.tar.bz2":{
-"build":"py36h8aaefdd_1",
-"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libsodium >=1.0.18,<1.0.19.0a0",
@@ -94997,52 +94959,34 @@
 ],
 "license":"BSD-3-Clause AND LGPL-3.0-or-later",
 "name":"pyzmq",
-"sha256":"c0db7b862558c98e269cd627a4824f16f89328d7812ac79342aac7e4053e662a",
-"size":307539,
-"timestamp":1614612391559,
-"version":"22.0.3"
+"sha256":"ba82566be3c472afdfe065df0d87a8b1cffc2e88798a65088f78cc9059859f7a",
+"size":309436,
+"timestamp":1622039101645,
+"version":"22.1.0"
 },
-"pyzmq-22.0.3-py37h038f5be_0.tar.bz2":{
-"build":"py37h038f5be_0",
+"pyzmq-22.1.0-py37h3f29468_0.tar.bz2":{
+"build":"py37h3f29468_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libsodium >=1.0.18,<1.0.19.0a0",
 "libstdcxx-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"zeromq >=4.3.3,<4.4.0a0"
-],
-"license":"BSD-3-Clause AND LGPL-3.0-or-later",
-"name":"pyzmq",
-"sha256":"a58435272dd39723850f24a30a6d1818b6ad02622b7b122b887f201707139592",
-"size":527661,
-"timestamp":1613479504607,
-"version":"22.0.3"
-},
-"pyzmq-22.0.3-py37h3f29468_1.tar.bz2":{
-"build":"py37h3f29468_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libsodium >=1.0.18,<1.0.19.0a0",
-"libstdcxx-ng >=9.3.0",
 "py",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "zeromq >=4.3.4,<4.4.0a0"
 ],
 "license":"BSD-3-Clause AND LGPL-3.0-or-later",
 "name":"pyzmq",
-"sha256":"b9d9bafb5f9af0ed300ceefebef829a7d24c362456d7843f2864bce2dbb7e2a4",
-"size":299584,
-"timestamp":1614612388412,
-"version":"22.0.3"
+"sha256":"c6d9d7de87fa12f768672c74f8ed4d191347e3730d88c68716c333bfbc2b8171",
+"size":307211,
+"timestamp":1622039518441,
+"version":"22.1.0"
 },
-"pyzmq-22.0.3-py37hee5c1dc_1.tar.bz2":{
-"build":"py37hee5c1dc_1",
-"build_number":1,
+"pyzmq-22.1.0-py37hee5c1dc_0.tar.bz2":{
+"build":"py37hee5c1dc_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libsodium >=1.0.18,<1.0.19.0a0",
@@ -95053,34 +94997,14 @@
 ],
 "license":"BSD-3-Clause AND LGPL-3.0-or-later",
 "name":"pyzmq",
-"sha256":"51c28d07de72667bcf89e59c69c16391e3ce821c2a72843b12da0b18e3b88ab6",
-"size":521222,
-"timestamp":1614612619352,
-"version":"22.0.3"
+"sha256":"c2c6ef6fad6c397bbdc215a276cacebe9f1959c2d463dd4bb74f2235fc9071c7",
+"size":524786,
+"timestamp":1622039155326,
+"version":"22.1.0"
 },
-"pyzmq-22.0.3-py37hfaad036_0.tar.bz2":{
-"build":"py37hfaad036_0",
+"pyzmq-22.1.0-py38h2f7163f_0.tar.bz2":{
+"build":"py38h2f7163f_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libsodium >=1.0.18,<1.0.19.0a0",
-"libstdcxx-ng >=9.3.0",
-"py",
-"pypy3.7 >=7.3.3",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"zeromq >=4.3.3,<4.4.0a0"
-],
-"license":"BSD-3-Clause AND LGPL-3.0-or-later",
-"name":"pyzmq",
-"sha256":"bb89afaaab66648bba6430f821fc7c99ac7b6db3d512df3d1033772fabe5cade",
-"size":306902,
-"timestamp":1613479574033,
-"version":"22.0.3"
-},
-"pyzmq-22.0.3-py38h2f7163f_1.tar.bz2":{
-"build":"py38h2f7163f_1",
-"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libsodium >=1.0.18,<1.0.19.0a0",
@@ -95091,32 +95015,14 @@
 ],
 "license":"BSD-3-Clause AND LGPL-3.0-or-later",
 "name":"pyzmq",
-"sha256":"9f27ea8027a265da05942c302ce4c304c04f887650dcbb23f13faa61d9d26cb2",
-"size":535347,
-"timestamp":1614612326893,
-"version":"22.0.3"
+"sha256":"84371f32fd143465f63868c3594ecc218c3fba7e95d3e1aa3bf5bd764ce69730",
+"size":528669,
+"timestamp":1622039105206,
+"version":"22.1.0"
 },
-"pyzmq-22.0.3-py38h70b444c_0.tar.bz2":{
-"build":"py38h70b444c_0",
+"pyzmq-22.1.0-py39h050fd71_0.tar.bz2":{
+"build":"py39h050fd71_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libsodium >=1.0.18,<1.0.19.0a0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"zeromq >=4.3.3,<4.4.0a0"
-],
-"license":"BSD-3-Clause AND LGPL-3.0-or-later",
-"name":"pyzmq",
-"sha256":"c23d4b7babd615493e1898aa8d0abcd3bbb6f8ed760e34b9e61f2ba995fc483a",
-"size":533713,
-"timestamp":1613479358138,
-"version":"22.0.3"
-},
-"pyzmq-22.0.3-py39h050fd71_1.tar.bz2":{
-"build":"py39h050fd71_1",
-"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libsodium >=1.0.18,<1.0.19.0a0",
@@ -95127,28 +95033,10 @@
 ],
 "license":"BSD-3-Clause AND LGPL-3.0-or-later",
 "name":"pyzmq",
-"sha256":"c4f57b6f6f09bad27c3b05ed7ac6fef95aafbde3761ae146b8949c2007950727",
-"size":531039,
-"timestamp":1614612669760,
-"version":"22.0.3"
-},
-"pyzmq-22.0.3-py39h9a490d9_0.tar.bz2":{
-"build":"py39h9a490d9_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libsodium >=1.0.18,<1.0.19.0a0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"zeromq >=4.3.3,<4.4.0a0"
-],
-"license":"BSD-3-Clause AND LGPL-3.0-or-later",
-"name":"pyzmq",
-"sha256":"4c39e56aa01aae1b5097f0cdd6700c6a80e293fc6bf37175b2dd5f3174a0cd0c",
-"size":528239,
-"timestamp":1613479488200,
-"version":"22.0.3"
+"sha256":"bd1a7e2c9c8ce6143736eb2de9c0379341d428cd8303e02dcbc9235849e639f9",
+"size":523378,
+"timestamp":1622039500777,
+"version":"22.1.0"
 },
 "pyzstd-0.15.0-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
@@ -100379,6 +100267,23 @@
 "sha256":"acb8c5f918e6c9653e45b6c59f894a956204398e0c251e7c7bfe62dbb5518057",
 "size":2262563,
 "timestamp":1614803926618,
+"version":"0.2.4"
+},
+"r-isoband-0.2.4-r41h6203a36_0.tar.bz2":{
+"build":"r41h6203a36_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-rcpp",
+"r-testthat"
+],
+"license":"MIT",
+"name":"r-isoband",
+"sha256":"6acce0238462545ba8493afa2f5db633a51f2d12fbc8a63d3660b4024e647434",
+"size":2257333,
+"timestamp":1622038442264,
 "version":"0.2.4"
 },
 "r-jpeg-0.1_8.1-r36hd2b4baa_1.tar.bz2":{
@@ -106606,6 +106511,23 @@
 "timestamp":1616013552675,
 "version":"2.0.0"
 },
+"r-svglite-2.0.0-r41h6203a36_0.tar.bz2":{
+"build":"r41h6203a36_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-gdtools >=0.1.6",
+"r-rcpp"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-svglite",
+"sha256":"ebb78290b7d9da2fddcbefd8919d0c753c4a4ce002b4160aa1031dc89edac239",
+"size":213461,
+"timestamp":1622037164054,
+"version":"2.0.0"
+},
 "r-sys-3.4-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
 "build_number":0,
@@ -106943,6 +106865,31 @@
 "sha256":"aa7853d6f628fb71699599a5f404be8abcb137d1724b1df220f539bafb929422",
 "size":824625,
 "timestamp":1614777550393,
+"version":"1.1.3"
+},
+"r-tidyr-1.1.3-r41h6203a36_0.tar.bz2":{
+"build":"r41h6203a36_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-dplyr >=0.8.2",
+"r-ellipsis >=0.1.0",
+"r-glue",
+"r-lifecycle",
+"r-magrittr",
+"r-purrr",
+"r-rlang",
+"r-tibble >=2.1.1",
+"r-tidyselect >=1.1.0",
+"r-vctrs >=0.3.0"
+],
+"license":"MIT",
+"name":"r-tidyr",
+"sha256":"ba23bc4d46a34aa50beb9f871e786695efbca23b7388cf93ada6d2a8e0c5988f",
+"size":801348,
+"timestamp":1622037519010,
 "version":"1.1.3"
 },
 "r-tidyselect-1.1.1-r36h028622c_0.tar.bz2":{
