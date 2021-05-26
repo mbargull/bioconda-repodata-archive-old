@@ -71430,6 +71430,28 @@
 "timestamp":1610324913207,
 "version":"1.19.5"
 },
+"numpy-1.20.3-py37h339abbf_1.tar.bz2":{
+"build":"py37h339abbf_1",
+"build_number":1,
+"constrains":[
+"numpy-base <0a0"
+],
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"14b6de62a3ba08ffa52852f7467ddd413e4ea97dd07e47a401f3ec473b448b64",
+"size":5882912,
+"timestamp":1622015245066,
+"version":"1.20.3"
+},
 "numpy-1.20.3-py37h955498a_0.tar.bz2":{
 "build":"py37h955498a_0",
 "build_number":0,
@@ -71446,6 +71468,27 @@
 "sha256":"6b749bbdebdc0b225d875e9613a1206de6ca4790bfc4d553b879aa4632a9b1a0",
 "size":6063980,
 "timestamp":1621506851732,
+"version":"1.20.3"
+},
+"numpy-1.20.3-py37h955498a_1.tar.bz2":{
+"build":"py37h955498a_1",
+"build_number":1,
+"constrains":[
+"numpy-base <0a0"
+],
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"907840129fa459b2d009b418c0b22987a87f07f7b8379c18c6d06bc141692cd4",
+"size":6038115,
+"timestamp":1622015209384,
 "version":"1.20.3"
 },
 "numpy-1.20.3-py38h81bd36e_0.tar.bz2":{
@@ -71466,6 +71509,27 @@
 "timestamp":1621506781659,
 "version":"1.20.3"
 },
+"numpy-1.20.3-py38h81bd36e_1.tar.bz2":{
+"build":"py38h81bd36e_1",
+"build_number":1,
+"constrains":[
+"numpy-base <0a0"
+],
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"f4b08bbe8e59c8a1f586b9179caa38f09745940b9ec78b867ee3949d56c17e31",
+"size":6102031,
+"timestamp":1622015089939,
+"version":"1.20.3"
+},
 "numpy-1.20.3-py39he089932_0.tar.bz2":{
 "build":"py39he089932_0",
 "build_number":0,
@@ -71482,6 +71546,27 @@
 "sha256":"f4f5198ebc995bd5e6450168ea24743937b2f367260cac8210ab86ba183aae60",
 "size":6085041,
 "timestamp":1621506730542,
+"version":"1.20.3"
+},
+"numpy-1.20.3-py39he089932_1.tar.bz2":{
+"build":"py39he089932_1",
+"build_number":1,
+"constrains":[
+"numpy-base <0a0"
+],
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"193594451bd8ce20aaa9371af928462e20bc3dd8f3948b15968169364c206989",
+"size":6100451,
+"timestamp":1622015088428,
 "version":"1.20.3"
 },
 "numpy-stl-2.15.1-py36h719e50f_1.tar.bz2":{
@@ -106837,6 +106922,40 @@
 "timestamp":1613328963325,
 "version":"3.0.2"
 },
+"r-testthat-3.0.2-r41h6203a36_0.tar.bz2":{
+"build":"r41h6203a36_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-brio",
+"r-callr >=3.5.1",
+"r-cli",
+"r-crayon >=1.3.4",
+"r-desc",
+"r-digest",
+"r-ellipsis >=0.2.0",
+"r-evaluate",
+"r-jsonlite",
+"r-lifecycle",
+"r-magrittr",
+"r-pkgload",
+"r-praise",
+"r-processx",
+"r-ps >=1.3.4",
+"r-r6 >=2.2.0",
+"r-rlang >=0.4.1",
+"r-waldo >=0.2.1",
+"r-withr >=2.0.0"
+],
+"license":"MIT",
+"name":"r-testthat",
+"sha256":"6f51e98af8124cfe7f287b11a2d610a0214bb89951daccace140558347f406e9",
+"size":1670024,
+"timestamp":1622015006281,
+"version":"3.0.2"
+},
 "r-tibble-3.1.2-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
 "build_number":0,
@@ -106987,6 +107106,24 @@
 "sha256":"b7b828e7eb74e58419af3771c4c71a226c603ede35fc8c1976c8a512c51a7b86",
 "size":200031,
 "timestamp":1619773805741,
+"version":"1.1.1"
+},
+"r-tidyselect-1.1.1-r41h028622c_0.tar.bz2":{
+"build":"r41h028622c_0",
+"build_number":0,
+"depends":[
+"r-base >=4.1,<4.2.0a0",
+"r-ellipsis",
+"r-glue >=1.3.0",
+"r-purrr >=0.3.2",
+"r-rlang >=0.4.6",
+"r-vctrs >=0.3.0"
+],
+"license":"MIT",
+"name":"r-tidyselect",
+"sha256":"07a3a0667b446d2b5a97e149577fcaa9b37492a671a90e6eac2414178cc1790f",
+"size":200146,
+"timestamp":1622015944171,
 "version":"1.1.1"
 },
 "r-tmvnsim-1.0_2-r36ha9c7abe_3.tar.bz2":{

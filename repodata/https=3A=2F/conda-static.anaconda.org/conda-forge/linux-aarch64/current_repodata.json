@@ -55852,7 +55852,7 @@
 "timestamp":1620062760486,
 "version":"3.9.0"
 },
-"liblief-0.11.4-h01db608_0.tar.bz2":{
+"liblief-0.11.5-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
 "build_number":0,
 "depends":[
@@ -55861,10 +55861,10 @@
 ],
 "license":"Apache-2.0",
 "name":"liblief",
-"sha256":"8170163de167c6d890135c0d84998374d216a7859bc3e5b36843c9a7cba7c6df",
-"size":2280962,
-"timestamp":1621323977097,
-"version":"0.11.4"
+"sha256":"a7a5886977c1dfbd09f93358b19576406f4f5dfa0f45637b93731a4fcaee8572",
+"size":2280567,
+"timestamp":1622014586810,
+"version":"0.11.5"
 },
 "liblimesuite-20.10.0-h01db608_1.tar.bz2":{
 "build":"h01db608_1",
@@ -71011,6 +71011,27 @@
 "timestamp":1621506589750,
 "version":"1.20.3"
 },
+"numpy-1.20.3-py37h603c2a0_1.tar.bz2":{
+"build":"py37h603c2a0_1",
+"build_number":1,
+"constrains":[
+"numpy-base <0a0"
+],
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"b6d544270fec447b4bfe2dc10430226fa51afd09828b59fca11bc37e42491bdf",
+"size":5945092,
+"timestamp":1622015763305,
+"version":"1.20.3"
+},
 "numpy-1.20.3-py38h899f778_0.tar.bz2":{
 "build":"py38h899f778_0",
 "build_number":0,
@@ -71027,6 +71048,27 @@
 "sha256":"8f26995b354d3650456df7584a6206fdaf064c97c31b9b697671208907fc70cb",
 "size":5965243,
 "timestamp":1621506571856,
+"version":"1.20.3"
+},
+"numpy-1.20.3-py38h899f778_1.tar.bz2":{
+"build":"py38h899f778_1",
+"build_number":1,
+"constrains":[
+"numpy-base <0a0"
+],
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"4c82abbcdf577b577f8c3d11b4d4df32ffc9ea9f6c71c88d771576425338fb1a",
+"size":5975639,
+"timestamp":1622015038736,
 "version":"1.20.3"
 },
 "numpy-1.20.3-py39h43e3299_0.tar.bz2":{
@@ -80270,73 +80312,73 @@
 "timestamp":1610145976266,
 "version":"1.11.4"
 },
-"py-lief-0.11.4-py36h86e9a40_0.tar.bz2":{
+"py-lief-0.11.5-py36h86e9a40_0.tar.bz2":{
 "build":"py36h86e9a40_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"liblief 0.11.4 h01db608_0",
+"liblief 0.11.5 h01db608_0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m"
 ],
 "license":"Apache-2.0",
 "name":"py-lief",
-"sha256":"c8164799c806475b6dea1c27423c9711da0b47e4b65325dc38484cb46591dc27",
-"size":1330523,
-"timestamp":1621325094152,
-"version":"0.11.4"
+"sha256":"3996ac44df1f4df4f4713ceea8b162dce2db4a1eb84e7b94c2689db3dc76a7d6",
+"size":1334624,
+"timestamp":1622015282552,
+"version":"0.11.5"
 },
-"py-lief-0.11.4-py37had24c86_0.tar.bz2":{
+"py-lief-0.11.5-py37had24c86_0.tar.bz2":{
 "build":"py37had24c86_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"liblief 0.11.4 h01db608_0",
+"liblief 0.11.5 h01db608_0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
 ],
 "license":"Apache-2.0",
 "name":"py-lief",
-"sha256":"9a336fc990562668d2638b9b2f0dc0dcd0fee25615b031a71bd8e016a3ff0700",
-"size":1330518,
-"timestamp":1621324367180,
-"version":"0.11.4"
+"sha256":"12f5e208b8d42cbd083d854b3c926dfcd41529806dee4e00f67da63fbd1c283d",
+"size":1335042,
+"timestamp":1622015024640,
+"version":"0.11.5"
 },
-"py-lief-0.11.4-py38h0119ad3_0.tar.bz2":{
+"py-lief-0.11.5-py38h0119ad3_0.tar.bz2":{
 "build":"py38h0119ad3_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"liblief 0.11.4 h01db608_0",
+"liblief 0.11.5 h01db608_0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"Apache-2.0",
 "name":"py-lief",
-"sha256":"631cd6b87c892f8d8965c2f0f5226a5efdd31bccab8182605b6bdd8e92bd4a92",
-"size":1327429,
-"timestamp":1621325415636,
-"version":"0.11.4"
+"sha256":"bda9ccd787f39f5338bfc0b8c4918a9bc91cbc9b4fed1cbe2470f663000a7478",
+"size":1331525,
+"timestamp":1622015570313,
+"version":"0.11.5"
 },
-"py-lief-0.11.4-py39h99ab00b_0.tar.bz2":{
+"py-lief-0.11.5-py39h99ab00b_0.tar.bz2":{
 "build":"py39h99ab00b_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"liblief 0.11.4 h01db608_0",
+"liblief 0.11.5 h01db608_0",
 "libstdcxx-ng >=9.3.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"Apache-2.0",
 "name":"py-lief",
-"sha256":"e8e54c4e0c7121b25f1249589b085cbb7016e1d9043b6340a9ed5b117d740f86",
-"size":1328804,
-"timestamp":1621324709793,
-"version":"0.11.4"
+"sha256":"355117ad3ad6deeb5c0d340e73e78b49962bd115d6f38c41be0ea0d371aa21f4",
+"size":1333654,
+"timestamp":1622014845874,
+"version":"0.11.5"
 },
 "py-opencv-4.5.2-py36h103942d_0.tar.bz2":{
 "build":"py36h103942d_0",
