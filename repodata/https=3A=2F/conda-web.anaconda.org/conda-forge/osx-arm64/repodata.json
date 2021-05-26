@@ -80907,6 +80907,36 @@
 "timestamp":1610327581025,
 "version":"2.9"
 },
+"python-libarchive-c-3.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"libarchive",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"CC0-1.0",
+"name":"python-libarchive-c",
+"requires":[],
+"size":58152,
+"timestamp":1622032402090,
+"version":"3.0"
+},
+"python-libarchive-c-3.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"libarchive",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"CC0-1.0",
+"name":"python-libarchive-c",
+"requires":[],
+"size":58253,
+"timestamp":1622032407682,
+"version":"3.0"
+},
 "python-orocos-kdl-1.4.0-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",
 "build_number":0,
@@ -84023,6 +84053,42 @@
 "size":52224,
 "timestamp":1610720984108,
 "version":"0.9"
+},
+"r-nanotime-0.3.2-r40h44abf13_1.tar.bz2":{
+"build":"r40h44abf13_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.0,<4.1.0a0",
+"r-bit64",
+"r-rcppcctz >=0.2.9",
+"r-rcppdate",
+"r-zoo"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-nanotime",
+"requires":[],
+"size":383216,
+"timestamp":1622035962326,
+"version":"0.3.2"
+},
+"r-nanotime-0.3.2-r41h44abf13_1.tar.bz2":{
+"build":"r41h44abf13_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.1,<4.2.0a0",
+"r-bit64",
+"r-rcppcctz >=0.2.9",
+"r-rcppdate",
+"r-zoo"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-nanotime",
+"requires":[],
+"size":387584,
+"timestamp":1622035981555,
+"version":"0.3.2"
 },
 "r-nlme-3.1_151-r40h09a9d6b_0.tar.bz2":{
 "build":"r40h09a9d6b_0",
@@ -96550,6 +96616,40 @@
 "size":2531165,
 "timestamp":1621200279495,
 "version":"2.2.9"
+},
+"tiledb-py-0.8.9-py38hb0b8023_2.tar.bz2":{
+"build":"py38hb0b8023_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tiledb >=2.2.9,<2.3.0a0"
+],
+"license":"MIT",
+"name":"tiledb-py",
+"requires":[],
+"size":958690,
+"timestamp":1622034273064,
+"version":"0.8.9"
+},
+"tiledb-py-0.8.9-py39h9f2bea3_2.tar.bz2":{
+"build":"py39h9f2bea3_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tiledb >=2.2.9,<2.3.0a0"
+],
+"license":"MIT",
+"name":"tiledb-py",
+"requires":[],
+"size":987195,
+"timestamp":1622034086363,
+"version":"0.8.9"
 },
 "tinyarray-1.2.3-py38h9b9bf68_0.tar.bz2":{
 "build":"py38h9b9bf68_0",
