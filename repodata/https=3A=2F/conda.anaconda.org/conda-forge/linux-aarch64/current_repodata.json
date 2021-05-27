@@ -62357,6 +62357,23 @@
 "timestamp":1598945765801,
 "version":"5.1.0"
 },
+"mfem-4.2-h35805a2_1.tar.bz2":{
+"build":"h35805a2_1",
+"build_number":1,
+"depends":[
+"hypre",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"openmpi >=4.1.1,<5.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mfem",
+"sha256":"e8959d424d76d5a7a4cf8b6dee5ac295e80000ecbe0b74965efd8ec9ca617da8",
+"size":3307720,
+"timestamp":1622088249746,
+"version":"4.2"
+},
 "mfem-4.2-hdd2f9cb_1.tar.bz2":{
 "build":"hdd2f9cb_1",
 "build_number":1,
@@ -97769,6 +97786,23 @@
 "timestamp":1621772428219,
 "version":"1.7_7"
 },
+"r-e1071-1.7_7-r41hecdc70b_0.tar.bz2":{
+"build":"r41hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-class",
+"r-proxy"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-e1071",
+"sha256":"f7ec60b640452963dfcd65a2e0964fd846f38e3ff3cb68f066337ad1abf25a6c",
+"size":862792,
+"timestamp":1622089553413,
+"version":"1.7_7"
+},
 "r-ellipsis-0.3.2-r36h96a179c_0.tar.bz2":{
 "build":"r36h96a179c_0",
 "build_number":0,
@@ -101147,6 +101181,23 @@
 "sha256":"9aabcd71aa172b2fc22a7d18d27a040dadda018b89e6cf7f24f5d8135e6a9d4a",
 "size":188338,
 "timestamp":1608377327734,
+"version":"2.0.2"
+},
+"r-mnormt-2.0.2-r41h6fc6016_0.tar.bz2":{
+"build":"r41h6fc6016_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-tmvnsim >=1.0_2"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-mnormt",
+"sha256":"4b1616c078dc5ba6d3547e9223aad02479c8839356a6d26d9020ae5dd9d0c47e",
+"size":188545,
+"timestamp":1622088990733,
 "version":"2.0.2"
 },
 "r-modelmetrics-1.2.2.2-r36h0357c0b_0.tar.bz2":{
@@ -106212,6 +106263,42 @@
 "timestamp":1594728430296,
 "version":"0.2.1"
 },
+"r-tokenizers-0.2.1-r40hecdc70b_1002.tar.bz2":{
+"build":"r40hecdc70b_1002",
+"build_number":1002,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-rcpp >=0.12.3",
+"r-snowballc >=0.5.1",
+"r-stringi >=1.0.1"
+],
+"license":"MIT",
+"name":"r-tokenizers",
+"sha256":"37c9d50e49e2744d29747de2441573dd0c9ea0c7ef9d0717d582362380592024",
+"size":664354,
+"timestamp":1622089370444,
+"version":"0.2.1"
+},
+"r-tokenizers-0.2.1-r41hecdc70b_1002.tar.bz2":{
+"build":"r41hecdc70b_1002",
+"build_number":1002,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-rcpp >=0.12.3",
+"r-snowballc >=0.5.1",
+"r-stringi >=1.0.1"
+],
+"license":"MIT",
+"name":"r-tokenizers",
+"sha256":"088923fd2627c7fdd3f4f12cadb63962f171e78cfd383152b6096e9a745ca28a",
+"size":664500,
+"timestamp":1622089384407,
+"version":"0.2.1"
+},
 "r-triebeard-0.3.0-r36he1b5a44_1003.tar.bz2":{
 "build":"r36he1b5a44_1003",
 "build_number":1003,
@@ -106314,6 +106401,26 @@
 "sha256":"903d9055ef25e64c64d4d234ffa1969e0c18abc7fc7a990459aeec9091b49bb4",
 "size":401782,
 "timestamp":1607095967371,
+"version":"0.10_48"
+},
+"r-tseries-0.10_48-r41h2fbc33e_0.tar.bz2":{
+"build":"r41h2fbc33e_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-quadprog",
+"r-quantmod >=0.4_9",
+"r-zoo"
+],
+"license":"GPL-2.0-only",
+"name":"r-tseries",
+"sha256":"705baea5c0b3e31a9921bc2d781dc3843790f898a39f2222c78c85600f804181",
+"size":401606,
+"timestamp":1622089719349,
 "version":"0.10_48"
 },
 "r-ttr-0.24.2-r36hcdcec82_0.tar.bz2":{
@@ -106791,6 +106898,40 @@
 "sha256":"564fca9d1e6c9fa59b927596657c8730563d3e236dcd7b2914865608dac6c68a",
 "size":329516,
 "timestamp":1600881307447,
+"version":"1.7.3"
+},
+"r-urltools-1.7.3-r40hecdc70b_2.tar.bz2":{
+"build":"r40hecdc70b_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-rcpp",
+"r-triebeard"
+],
+"license":"MIT",
+"name":"r-urltools",
+"sha256":"1f800b8d2fe877be5439cc29139b6547ba487772a5bd60ab9e5e7460e544a854",
+"size":310000,
+"timestamp":1622088973067,
+"version":"1.7.3"
+},
+"r-urltools-1.7.3-r41hecdc70b_2.tar.bz2":{
+"build":"r41hecdc70b_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-rcpp",
+"r-triebeard"
+],
+"license":"MIT",
+"name":"r-urltools",
+"sha256":"aa3d7dd044de7dff9d05d3e836a4a37bba931c08c219537812bf4ceec2234fc9",
+"size":310527,
+"timestamp":1622089527689,
 "version":"1.7.3"
 },
 "r-utf8-1.2.1-r36h96a179c_0.tar.bz2":{
