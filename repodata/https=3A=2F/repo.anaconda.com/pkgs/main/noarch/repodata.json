@@ -17470,6 +17470,22 @@
 "timestamp":1621828355602,
 "version":"8.2.1"
 },
+"faker-8.3.0-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"python >=3.6",
+"python-dateutil >=2.4",
+"text-unidecode 1.3"
+],
+"license":"MIT",
+"name":"faker",
+"noarch":"python",
+"sha256":"fd20256182121df50448af44a4aa8fcd552a6ee75082faf794b5b21fb98d32ae",
+"size":928378,
+"timestamp":1622099652211,
+"version":"8.3.0"
+},
 "fasteners-0.14.1-py_3.tar.bz2":{
 "build":"py_3",
 "build_number":3,
@@ -23963,6 +23979,21 @@
 "size":25261,
 "timestamp":1620999974241,
 "version":"1.1.1"
+},
+"httpretty-1.1.3-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3",
+"six"
+],
+"license":"MIT",
+"name":"httpretty",
+"noarch":"python",
+"sha256":"49aff91ca1088289cae8904ad06c2cc7284da8722091ce83e028abe070903d97",
+"size":25896,
+"timestamp":1622117601661,
+"version":"1.1.3"
 },
 "httpx-0.13.2-py_0.tar.bz2":{
 "build":"py_0",
@@ -54475,9 +54506,9 @@
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
-"imagecodecs",
+"imagecodecs >=2021.3.31",
 "numpy >=1.15.1",
-"python >=3.6"
+"python >=3.7"
 ],
 "license":"BSD-3-Clause",
 "name":"tifffile",
@@ -74867,6 +74898,22 @@
 "timestamp":1621828355602,
 "version":"8.2.1"
 },
+"faker-8.3.0-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"python >=3.6",
+"python-dateutil >=2.4",
+"text-unidecode 1.3"
+],
+"license":"MIT",
+"name":"faker",
+"noarch":"python",
+"sha256":"032a17422af44a5256bceeb3adc3d72270d8b539887836df8d0470c963f31a1c",
+"size":942628,
+"timestamp":1622099652211,
+"version":"8.3.0"
+},
 "fasteners-0.14.1-py_3.conda":{
 "build":"py_3",
 "build_number":3,
@@ -80817,6 +80864,21 @@
 "size":25373,
 "timestamp":1620999974241,
 "version":"1.1.1"
+},
+"httpretty-1.1.3-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3",
+"six"
+],
+"license":"MIT",
+"name":"httpretty",
+"noarch":"python",
+"sha256":"eaa767ed62a0cae80d043e85414d3492f44486ed3b07318a63625b21133b67ab",
+"size":26106,
+"timestamp":1622117601661,
+"version":"1.1.3"
 },
 "httpx-0.13.2-py_0.conda":{
 "build":"py_0",
@@ -108353,9 +108415,9 @@
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
-"imagecodecs",
+"imagecodecs >=2021.3.31",
 "numpy >=1.15.1",
-"python >=3.6"
+"python >=3.7"
 ],
 "license":"BSD-3-Clause",
 "name":"tifffile",
