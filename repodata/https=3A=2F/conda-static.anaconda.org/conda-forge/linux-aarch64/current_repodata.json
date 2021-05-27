@@ -62238,21 +62238,21 @@
 "timestamp":1613236862510,
 "version":"0.9.1"
 },
-"maxima-5.44.0-h33275a5_0.tar.bz2":{
-"build":"h33275a5_0",
+"maxima-5.45.0-haa44c19_0.tar.bz2":{
+"build":"haa44c19_0",
 "build_number":0,
 "depends":[
 "ecl >=20.4.24,<20.4.25.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=7.5.0",
-"readline >=8.0,<9.0a0"
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"readline >=8.1,<9.0a0"
 ],
 "license":"GPLv2+",
 "name":"maxima",
-"sha256":"69c59c6ea62ad39058fff96583800793627f2330cd8d53b9e82d687071f5e171",
-"size":43264299,
-"timestamp":1603779400362,
-"version":"5.44.0"
+"sha256":"47adcf8da7f49d377a8add653792f9bd794e6ada079715f891296b3b0d9c748a",
+"size":49756092,
+"timestamp":1622140736605,
+"version":"5.45.0"
 },
 "mesalib-18.0.0-hb17169e_0.tar.bz2":{
 "build":"hb17169e_0",
@@ -105726,6 +105726,33 @@
 "timestamp":1621665548477,
 "version":"7.3_14"
 },
+"r-spdep-1.1_8-r41h658b691_0.tar.bz2":{
+"build":"r41h658b691_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-boot >=1.3_1",
+"r-coda",
+"r-deldir",
+"r-expm",
+"r-gmodels",
+"r-learnbayes",
+"r-mass",
+"r-matrix",
+"r-nlme",
+"r-sf",
+"r-sp >=1.0",
+"r-spdata >=0.2.6.0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-spdep",
+"sha256":"66688c3cb19ffdfcf4ed512bb1026be95e7945917b3588770358a6a3dd8aa855",
+"size":5655808,
+"timestamp":1622144391211,
+"version":"1.1_8"
+},
 "r-statmod-1.4.36-r36h6783c1e_0.tar.bz2":{
 "build":"r36h6783c1e_0",
 "build_number":0,
@@ -131616,7 +131643,7 @@
 "timestamp":1622120948886,
 "version":"0.12.4"
 },
-"xeus-robot-0.3.3-py37h91c6311_0.tar.bz2":{
+"xeus-robot-0.3.4-py37h91c6311_0.tar.bz2":{
 "build":"py37h91c6311_0",
 "build_number":0,
 "depends":[
@@ -131629,17 +131656,17 @@
 "robotframework-lsp >=0.14,<0.15",
 "xeus >=1.0.1,<1.1.0a0",
 "xeus-python >=0.12.1,<0.13",
-"xeus-python >=0.12.3,<0.13.0a0",
+"xeus-python >=0.12.4,<0.13.0a0",
 "zeromq >=4.3.3,<4.4.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"xeus-robot",
-"sha256":"7380ac9ee8ddee8c2b8b4925812b7d38902c3e0a541c0127da0d7a1468848b7c",
-"size":143883,
-"timestamp":1618590898726,
-"version":"0.3.3"
+"sha256":"22115f188fd310758575058b43416ef20c8d27564890cb68484ef8677e9aa099",
+"size":143878,
+"timestamp":1622141476250,
+"version":"0.3.4"
 },
-"xeus-robot-0.3.3-py38h0ce7852_0.tar.bz2":{
+"xeus-robot-0.3.4-py38h0ce7852_0.tar.bz2":{
 "build":"py38h0ce7852_0",
 "build_number":0,
 "depends":[
@@ -131652,17 +131679,17 @@
 "robotframework-lsp >=0.14,<0.15",
 "xeus >=1.0.1,<1.1.0a0",
 "xeus-python >=0.12.1,<0.13",
-"xeus-python >=0.12.3,<0.13.0a0",
+"xeus-python >=0.12.4,<0.13.0a0",
 "zeromq >=4.3.3,<4.4.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"xeus-robot",
-"sha256":"9bc4cb1f1aa72c63197eb874bbcd8f1fe84b0e38ab374396f0a4d4dbc0b0cb69",
-"size":138676,
-"timestamp":1618591075263,
-"version":"0.3.3"
+"sha256":"21d3b8c1bd8729e057ce8e2d53225e0c5acd1ce9e41df7260e4ef3bc7e48465b",
+"size":138646,
+"timestamp":1622140904736,
+"version":"0.3.4"
 },
-"xeus-robot-0.3.3-py39hce77efa_0.tar.bz2":{
+"xeus-robot-0.3.4-py39hce77efa_0.tar.bz2":{
 "build":"py39hce77efa_0",
 "build_number":0,
 "depends":[
@@ -131675,15 +131702,15 @@
 "robotframework-lsp >=0.14,<0.15",
 "xeus >=1.0.1,<1.1.0a0",
 "xeus-python >=0.12.1,<0.13",
-"xeus-python >=0.12.3,<0.13.0a0",
+"xeus-python >=0.12.4,<0.13.0a0",
 "zeromq >=4.3.3,<4.4.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"xeus-robot",
-"sha256":"34bbcdfd9c10e32be14bead773193dc85963fb8f5f2dc15c09225e2edb07baba",
-"size":138982,
-"timestamp":1618591277146,
-"version":"0.3.3"
+"sha256":"315a4f7910835dcda3e54ae86c04a4eaf542eb60e98f5b6da796cb21751f5354",
+"size":138998,
+"timestamp":1622141449786,
+"version":"0.3.4"
 },
 "xeus-sqlite-0.3.0-h530bc3c_0.tar.bz2":{
 "build":"h530bc3c_0",
