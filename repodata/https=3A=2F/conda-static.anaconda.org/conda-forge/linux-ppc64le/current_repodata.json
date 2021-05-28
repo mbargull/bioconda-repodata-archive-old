@@ -19382,7 +19382,7 @@
 "timestamp":1621266678189,
 "version":"12.0.0"
 },
-"clhep-2.4.4.0-h3b9df90_0.tar.bz2":{
+"clhep-2.4.4.2-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
 "build_number":0,
 "depends":[
@@ -19391,10 +19391,10 @@
 ],
 "license":"LGPL-3.0-only",
 "name":"clhep",
-"sha256":"29fc2d8346bac97105b8ff7e99215c9339433f15c9a0aec588b7304add773be7",
-"size":50067140,
-"timestamp":1608376560583,
-"version":"2.4.4.0"
+"sha256":"8f838bbf5551df1b6c79c74d28f3ff6bee3a53a4780525b0ea0f00ff49839c04",
+"size":50081947,
+"timestamp":1622238848063,
+"version":"2.4.4.2"
 },
 "cli11-1.9.1-hb209c28_0.tar.bz2":{
 "build":"hb209c28_0",
@@ -52042,107 +52042,22 @@
 "timestamp":1605246707202,
 "version":"1.1"
 },
-"libbrial-1.2.7-h376fa32_1.tar.bz2":{
-"build":"h376fa32_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=8.2.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libstdcxx-ng >=8.2.0",
-"m4ri >=20140914,<20140915.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPLv2+",
-"name":"libbrial",
-"sha256":"37c75fe3797b126951e93e4cba8075bc98db1b51ad2367cfc4f4cb3d75e1042e",
-"size":2326750,
-"timestamp":1582204810120,
-"version":"1.2.7"
-},
-"libbrial-1.2.7-h54fda31_0.tar.bz2":{
-"build":"h54fda31_0",
+"libbrial-1.2.10-h0aa07eb_0.tar.bz2":{
+"build":"h0aa07eb_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=8.2.0",
+"libgcc-ng >=9.3.0",
 "libpng >=1.6.37,<1.7.0a0",
-"libstdcxx-ng >=8.2.0",
-"m4ri >=20140914,<20140915.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPLv2+",
-"name":"libbrial",
-"sha256":"0dc870b0d7b05772c8faee69807c71705fa14e8a4dc1c7352db6ff8ab72fd2b4",
-"size":2316750,
-"timestamp":1580039159951,
-"version":"1.2.7"
-},
-"libbrial-1.2.7-h6999639_2.tar.bz2":{
-"build":"h6999639_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libstdcxx-ng >=8.4.0",
-"m4ri >=20140914,<20140915.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPLv2+",
-"name":"libbrial",
-"sha256":"e886f4c7b08a60b444807ea28156f2e566dc5476ca493c60e76bbc6c5ef765db",
-"size":2336012,
-"timestamp":1600029382916,
-"version":"1.2.7"
-},
-"libbrial-1.2.7-h7017fde_2.tar.bz2":{
-"build":"h7017fde_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libstdcxx-ng >=8.4.0",
+"libstdcxx-ng >=9.3.0",
 "m4ri >=20140914,<20140915.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"GPL-2.0-or-later",
 "name":"libbrial",
-"sha256":"974f8408ed6e76e62aeb785cc5a3b9c4b3da704932ad547a069a02052f847060",
-"size":1139193,
-"timestamp":1605467283296,
-"version":"1.2.7"
-},
-"libbrial-1.2.7-h83f8d52_2.tar.bz2":{
-"build":"h83f8d52_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libstdcxx-ng >=8.4.0",
-"m4ri >=20140914,<20140915.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPLv2+",
-"name":"libbrial",
-"sha256":"8663c2c2b77663f10ef67b84de8401d0959feb10f37bf325d26fcb419ac40661",
-"size":2340402,
-"timestamp":1600029311105,
-"version":"1.2.7"
-},
-"libbrial-1.2.7-h973f25d_2.tar.bz2":{
-"build":"h973f25d_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libstdcxx-ng >=8.4.0",
-"m4ri >=20140914,<20140915.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"libbrial",
-"sha256":"68af4f2dcf5171f3e2dbc12650afbe04e0274dfa69961110d7131b09ff979c19",
-"size":1139443,
-"timestamp":1605467286809,
-"version":"1.2.7"
+"sha256":"ce8b1d376d27979063b6dec4befd4feb4a844746a541a84e842c90c957795605",
+"size":1125010,
+"timestamp":1622237888662,
+"version":"1.2.10"
 },
 "libcantera-2.5.1-h0038c2a_1.tar.bz2":{
 "build":"h0038c2a_1",
@@ -87898,6 +87813,102 @@
 "timestamp":1602242865228,
 "version":"0.7.26"
 },
+"pynac-0.7.27-py36h1f3a55e_0.tar.bz2":{
+"build":"py36h1f3a55e_0",
+"build_number":0,
+"constrains":[
+"sagelib >8.9"
+],
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libflint >=2.6.3,<2.7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"singular >=4.1.1.0p.2,<4.1.1.1a"
+],
+"license":"GPL-2.0-or-later",
+"name":"pynac",
+"sha256":"d8d7866dc13d7f3a68fbbee1e1a7b2c6fa0f59f012f189248203d6ed6da19a11",
+"size":14558809,
+"timestamp":1622238624904,
+"version":"0.7.27"
+},
+"pynac-0.7.27-py37h886d1cc_0.tar.bz2":{
+"build":"py37h886d1cc_0",
+"build_number":0,
+"constrains":[
+"sagelib >8.9"
+],
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libflint >=2.6.3,<2.7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"singular >=4.1.1.0p.2,<4.1.1.1a"
+],
+"license":"GPL-2.0-or-later",
+"name":"pynac",
+"sha256":"6f5111e1b146e1b7932c6365b859eaa1b33c8e32c59ff840bb519daeacf8c2a1",
+"size":14519676,
+"timestamp":1622238639362,
+"version":"0.7.27"
+},
+"pynac-0.7.27-py38hbc89559_0.tar.bz2":{
+"build":"py38hbc89559_0",
+"build_number":0,
+"constrains":[
+"sagelib >8.9"
+],
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libflint >=2.6.3,<2.7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"singular >=4.1.1.0p.2,<4.1.1.1a"
+],
+"license":"GPL-2.0-or-later",
+"name":"pynac",
+"sha256":"aed1bad1c16bc0927560e159fd1313a6a7edbd44cd1327223de34ad4c84d1752",
+"size":14530311,
+"timestamp":1622238654861,
+"version":"0.7.27"
+},
+"pynac-0.7.27-py39h1298388_0.tar.bz2":{
+"build":"py39h1298388_0",
+"build_number":0,
+"constrains":[
+"sagelib >8.9"
+],
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libflint >=2.6.3,<2.7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"singular >=4.1.1.0p.2,<4.1.1.1a"
+],
+"license":"GPL-2.0-or-later",
+"name":"pynac",
+"sha256":"0732a894842229d04d2fdfea75d03eba78a126a99011d24abc24b7dfe80c8b86",
+"size":14555427,
+"timestamp":1622238492125,
+"version":"0.7.27"
+},
 "pynacl-1.4.0-py36h2254977_0.tar.bz2":{
 "build":"py36h2254977_0",
 "build_number":0,
@@ -97305,6 +97316,20 @@
 "timestamp":1621625572171,
 "version":"0.2_10"
 },
+"r-dicekriging-1.6.0-r36h2be38b1_0.tar.bz2":{
+"build":"r36h2be38b1_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=3.6,<3.7.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-dicekriging",
+"sha256":"4269b193eb750eb0d7aec2a32cc034de43965d06714d4c14f1a6fe4f7306e778",
+"size":501441,
+"timestamp":1622238063893,
+"version":"1.6.0"
+},
 "r-dicekriging-1.6.0-r36h4e0d66e_0.tar.bz2":{
 "build":"r36h4e0d66e_0",
 "build_number":0,
@@ -97317,6 +97342,20 @@
 "sha256":"c5896255ae1fadac71c029da33c1c9a5442c90ce7208145fac71879b492e13f6",
 "size":501858,
 "timestamp":1616055199559,
+"version":"1.6.0"
+},
+"r-dicekriging-1.6.0-r40h2be38b1_0.tar.bz2":{
+"build":"r40h2be38b1_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-dicekriging",
+"sha256":"8fbaef71c6bdef93f4d64f5656f311b9ae7cccdfd534e66ca582e3e52545f183",
+"size":564762,
+"timestamp":1622238059090,
 "version":"1.6.0"
 },
 "r-dicekriging-1.6.0-r40h4e0d66e_0.tar.bz2":{
@@ -116276,7 +116315,7 @@
 "timestamp":1621206780735,
 "version":"2.0.3"
 },
-"sqlalchemy-1.4.15-py36hc33305d_0.tar.bz2":{
+"sqlalchemy-1.4.16-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -116288,12 +116327,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"70df9cc17bc363ec45c7f12dc9f81efff56a72272509a81840993e2b36be1117",
-"size":2355415,
-"timestamp":1620731729082,
-"version":"1.4.15"
+"sha256":"e650bf6ee27f897bd53a62a019cec0d4ac3a89019c968efce63bcc904ec5853c",
+"size":2356465,
+"timestamp":1622236565938,
+"version":"1.4.16"
 },
-"sqlalchemy-1.4.15-py36hfa8c849_0.tar.bz2":{
+"sqlalchemy-1.4.16-py36hfa8c849_0.tar.bz2":{
 "build":"py36hfa8c849_0",
 "build_number":0,
 "depends":[
@@ -116306,12 +116345,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"336105d7a6d9e18cdb544101ae2dc31509758f659efec2838fc16a5ae21b9c90",
-"size":2357043,
-"timestamp":1620731849298,
-"version":"1.4.15"
+"sha256":"dd37ddea6b20cc2f0453578a8e1e8e6a89ecd36ec147cabbc243829a77a7f5d6",
+"size":2353876,
+"timestamp":1622236636519,
+"version":"1.4.16"
 },
-"sqlalchemy-1.4.15-py37h0630641_0.tar.bz2":{
+"sqlalchemy-1.4.16-py37h0630641_0.tar.bz2":{
 "build":"py37h0630641_0",
 "build_number":0,
 "depends":[
@@ -116324,12 +116363,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"df3f5ebf0040784fbac839351e66ed97a76661f835edfc164982d517408e6e90",
-"size":2352719,
-"timestamp":1620731772559,
-"version":"1.4.15"
+"sha256":"c5f3698bc43ebf3fa16285297663dbe437cb472f324aad682099a3eb823d0dba",
+"size":2355955,
+"timestamp":1622236575986,
+"version":"1.4.16"
 },
-"sqlalchemy-1.4.15-py37h6642d69_0.tar.bz2":{
+"sqlalchemy-1.4.16-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -116341,12 +116380,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"0c8c046b05afd6edc7455976a64a8d150f13293d2906cfa6c912246acbc92ade",
-"size":2355919,
-"timestamp":1620732065314,
-"version":"1.4.15"
+"sha256":"80fbf2cafc4954a8ce7a7912bc36fdeb95a0125df992b83e86036386d7a2cc29",
+"size":2355916,
+"timestamp":1622236604463,
+"version":"1.4.16"
 },
-"sqlalchemy-1.4.15-py38h98b8a6f_0.tar.bz2":{
+"sqlalchemy-1.4.16-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -116357,12 +116396,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"3290a12a30bd2aefaefa3ed49cfa34b22f28a6c71671e23c0456b63b5a2afe57",
-"size":2370973,
-"timestamp":1620732178278,
-"version":"1.4.15"
+"sha256":"735d8c62d21ece9c6c0f9f30c4d3872f706c782c5a311e59f195c067981811b3",
+"size":2372351,
+"timestamp":1622236137399,
+"version":"1.4.16"
 },
-"sqlalchemy-1.4.15-py39ha810350_0.tar.bz2":{
+"sqlalchemy-1.4.16-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -116373,10 +116412,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"77cd2d8ad1af995992f004b06953be3089dd1c1255945f37b89a325d0979d0ce",
-"size":2365473,
-"timestamp":1620732066643,
-"version":"1.4.15"
+"sha256":"810603a7ae093d1b31f2f92fdaa03cdc8664c56c20c392068a6564332f50938c",
+"size":2370752,
+"timestamp":1622236503944,
+"version":"1.4.16"
 },
 "sqlite-3.35.5-h961021d_0.tar.bz2":{
 "build":"h961021d_0",
@@ -128129,49 +128168,27 @@
 "timestamp":1609753274359,
 "version":"0.25.3"
 },
-"xeus-1.0.1-he72ee52_0.tar.bz2":{
-"build":"he72ee52_0",
-"build_number":0,
-"constrains":[
-"xtl >=0.7.2,<0.8.0a0",
-"cppzmq >=4.7.1,<4.8.0a0",
-"nlohmann_json >=3.9.1,<3.10.0a0"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"zeromq >=4.3.3,<4.4.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"xeus",
-"sha256":"9a77dc7bf677547f1b29a2b2f0d6fc290bf74ccfeb137661ea6a267669eaebb6",
-"size":1200950,
-"timestamp":1613479127139,
-"version":"1.0.1"
-},
-"xeus-1.0.1-he72ee52_1.tar.bz2":{
-"build":"he72ee52_1",
+"xeus-1.0.2-h1916c12_1.tar.bz2":{
+"build":"h1916c12_1",
 "build_number":1,
 "constrains":[
+"nlohmann_json >=3.9.1,<3.10.0a0",
 "xtl >=0.7.2,<0.8.0a0",
-"cppzmq >=4.7.1,<4.8.0a0",
-"nlohmann_json >=3.9.1,<3.10.0a0"
+"cppzmq >=4.7.1,<4.8.0a0"
 ],
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "libuuid >=2.32.1,<3.0a0",
-"openssl >=1.1.1j,<1.1.2a",
-"zeromq >=4.3.3,<4.4.0a0"
+"openssl >=1.1.1k,<1.1.2a",
+"zeromq >=4.3.4,<4.4.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"xeus",
-"sha256":"5d1dead48bc2168af55900c245ce8bdfd88efacc7dc937182730920a1c98de59",
-"size":1216049,
-"timestamp":1614471220833,
-"version":"1.0.1"
+"sha256":"dd906b5265118f4eac154221c18aa1ba02545aab8460686fe52a095f83c3ecd1",
+"size":1209087,
+"timestamp":1622238221487,
+"version":"1.0.2"
 },
 "xeus-python-0.12.4-py37hf230e03_0.tar.bz2":{
 "build":"py37hf230e03_0",
