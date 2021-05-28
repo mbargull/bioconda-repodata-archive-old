@@ -8283,6 +8283,22 @@
 "timestamp":1620332361385,
 "version":"0.9.12"
 },
+"aws-c-io-0.9.13-h5521d16_0.tar.bz2":{
+"build":"h5521d16_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.8,<0.5.9.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.8,<1.0.9.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"d9281cfbecc3492b75eab1b0a9ae9ba0fb4278ea982fd60f0ebad9b979858a88",
+"size":126066,
+"timestamp":1622227343103,
+"version":"0.9.13"
+},
 "aws-c-io-0.9.4-h013cb53_4.tar.bz2":{
 "build":"h013cb53_4",
 "build_number":4,
@@ -111467,34 +111483,6 @@
 "timestamp":1605371502931,
 "version":"0.8"
 },
-"s2n-1.0.6-h6aed413_0.tar.bz2":{
-"build":"h6aed413_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"s2n",
-"sha256":"135d0d2cff1e10844ef314cfc0a0342d1aa8a7d13aea81c96e014e3b1aa2aa92",
-"size":406564,
-"timestamp":1620249376190,
-"version":"1.0.6"
-},
-"s2n-1.0.7-h6aed413_0.tar.bz2":{
-"build":"h6aed413_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"s2n",
-"sha256":"7ea36176ecbb5d1a63760511312373edfeaeb062c9b6ca2494242914f3167746",
-"size":424456,
-"timestamp":1620339701024,
-"version":"1.0.7"
-},
 "s2n-1.0.8-h6aed413_0.tar.bz2":{
 "build":"h6aed413_0",
 "build_number":0,
@@ -116454,8 +116442,30 @@
 "timestamp":1608383025922,
 "version":"3.5.1"
 },
-"slepc-3.15.0-h27acba4_0.tar.bz2":{
-"build":"h27acba4_0",
+"slepc-3.15.1-h4e82532_0.tar.bz2":{
+"build":"h4e82532_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"mpich >=3.4,<3.5.0a0",
+"petsc >=3.15.0,<3.16.0a0",
+"suitesparse >=5.7.2,<5.8.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"slepc",
+"sha256":"389b4bc246b90d0bfb4de89be764f2e4d9e6cd6b03bed41de9e6002fdb6ecca6",
+"size":3664578,
+"timestamp":1622231719824,
+"version":"3.15.1"
+},
+"slepc-3.15.1-ha03be3b_0.tar.bz2":{
+"build":"ha03be3b_0",
 "build_number":0,
 "depends":[
 "libblas >=3.8.0,<4.0a0",
@@ -116471,32 +116481,10 @@
 ],
 "license":"BSD-2-Clause",
 "name":"slepc",
-"sha256":"9bf51c3533fbf965a0d126b001e579ade49282209922535a5e32e7323a2431f6",
-"size":5381287,
-"timestamp":1617376143657,
-"version":"3.15.0"
-},
-"slepc-3.15.0-h9b121fc_0.tar.bz2":{
-"build":"h9b121fc_0",
-"build_number":0,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libcblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<4.0.0a0",
-"petsc >=3.15.0,<3.16.0a0",
-"suitesparse >=5.7.2,<5.8.0a0"
-],
-"license":"BSD-2-Clause",
-"name":"slepc",
-"sha256":"274f5921eb07dd4b7b69123790edf79f730a984befe409a15b5023e13dddc96f",
-"size":3648532,
-"timestamp":1617376129997,
-"version":"3.15.0"
+"sha256":"df9a3fbb865a7aefb493320285dad83e07a8881ae97f3ce04eaf4f2634e40b07",
+"size":5369094,
+"timestamp":1622231245564,
+"version":"3.15.1"
 },
 "snappy-1.1.8-h54f1f3f_3.tar.bz2":{
 "build":"h54f1f3f_3",
