@@ -42709,25 +42709,65 @@
 "timestamp":1617015207677,
 "version":"3.2.3"
 },
-"xeus-1.0.2-h3212551_0.tar.bz2":{
-"build":"h3212551_0",
+"xeus-1.0.1-h23d8053_0.tar.bz2":{
+"build":"h23d8053_0",
 "build_number":0,
 "constrains":[
 "cppzmq >=4.7.1,<4.8.0a0",
-"xtl >=0.7.2,<0.8.0a0",
-"nlohmann_json >=3.9.1,<3.10.0a0"
+"nlohmann_json >=3.9.1,<3.10.0a0",
+"xtl >=0.7.2,<0.8.0a0"
+],
+"depends":[
+"libcxx >=11.0.1",
+"openssl >=1.1.1i,<1.1.2a",
+"zeromq >=4.3.3,<4.4.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"xeus",
+"sha256":"4f678d7b65ff44c50313de07d303642fe924cad7c410de3786c8f1214679d5b1",
+"size":690895,
+"timestamp":1613475308483,
+"version":"1.0.1"
+},
+"xeus-1.0.1-h23d8053_1.tar.bz2":{
+"build":"h23d8053_1",
+"build_number":1,
+"constrains":[
+"cppzmq >=4.7.1,<4.8.0a0",
+"nlohmann_json >=3.9.1,<3.10.0a0",
+"xtl >=0.7.2,<0.8.0a0"
+],
+"depends":[
+"libcxx >=11.0.1",
+"openssl >=1.1.1j,<1.1.2a",
+"zeromq >=4.3.3,<4.4.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"xeus",
+"sha256":"501a5c0db7017c593139185d7684a0e12d57beaf8295c4d408dd50aee3df9029",
+"size":687648,
+"timestamp":1614469573589,
+"version":"1.0.1"
+},
+"xeus-1.0.1-hcbf3157_2.tar.bz2":{
+"build":"hcbf3157_2",
+"build_number":2,
+"constrains":[
+"nlohmann_json >=3.9.1,<3.10.0a0",
+"cppzmq >=4.7.1,<4.8.0a0",
+"xtl >=0.7.2,<0.8.0a0"
 ],
 "depends":[
 "libcxx >=11.1.0",
-"openssl >=1.1.1k,<1.1.2a",
+"openssl >=1.1.1j,<1.1.2a",
 "zeromq >=4.3.4,<4.4.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"xeus",
-"sha256":"e7a4e50404503542327c026246d208023eb2cde4474b37185ba878cdf61b41f6",
-"size":691159,
-"timestamp":1622064605029,
-"version":"1.0.2"
+"sha256":"80a752c5c72c84fc53725f70cff3eff2ae04feb0f707d70c184347bc4cdc6f25",
+"size":689887,
+"timestamp":1615640700688,
+"version":"1.0.1"
 },
 "xeus-python-0.12.4-py38h9ac8c33_0.tar.bz2":{
 "build":"py38h9ac8c33_0",
@@ -43942,6 +43982,7 @@
 "poppler-0.89.0-he8df601_4.tar.bz2",
 "python-3.8.5-h05baefb_9_cpython.tar.bz2",
 "r-lattice-0.20_41-r40h5d35f5b_2.tar.bz2",
+"xeus-1.0.2-h3212551_0.tar.bz2",
 "xsimd-7.5.1-hc021e02_0.tar.bz2",
 "xtl-0.6.24-h260d524_0.tar.bz2"
 ],
