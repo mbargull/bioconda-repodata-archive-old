@@ -41547,6 +41547,56 @@
 "timestamp":1620254657260,
 "version":"7.23.1"
 },
+"ipython-7.24.0-py38h2cb4d76_0.tar.bz2":{
+"build":"py38h2cb4d76_0",
+"build_number":0,
+"depends":[
+"appnope",
+"backcall",
+"decorator",
+"jedi >=0.16,<1.0",
+"matplotlib-inline",
+"pexpect >4.3",
+"pickleshare",
+"prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
+"pygments",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools >=18.5",
+"traitlets >=4.2"
+],
+"license":"BSD-3-Clause",
+"name":"ipython",
+"requires":[],
+"size":1176492,
+"timestamp":1622239262664,
+"version":"7.24.0"
+},
+"ipython-7.24.0-py39h32adebf_0.tar.bz2":{
+"build":"py39h32adebf_0",
+"build_number":0,
+"depends":[
+"appnope",
+"backcall",
+"decorator",
+"jedi >=0.16,<1.0",
+"matplotlib-inline",
+"pexpect >4.3",
+"pickleshare",
+"prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
+"pygments",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools >=18.5",
+"traitlets >=4.2"
+],
+"license":"BSD-3-Clause",
+"name":"ipython",
+"requires":[],
+"size":1174301,
+"timestamp":1622239247236,
+"version":"7.24.0"
+},
 "isl-0.22.1-hb904e53_2.tar.bz2":{
 "build":"hb904e53_2",
 "build_number":2,
@@ -45397,6 +45447,22 @@
 "size":132093,
 "timestamp":1605245568230,
 "version":"1.1"
+},
+"libbrial-1.2.10-hea1886e_0.tar.bz2":{
+"build":"hea1886e_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libpng >=1.6.37,<1.7.0a0",
+"m4ri >=20140914,<20140915.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"libbrial",
+"requires":[],
+"size":1102593,
+"timestamp":1622237818402,
+"version":"1.2.10"
 },
 "libbrial-1.2.7-h2a74810_2.tar.bz2":{
 "build":"h2a74810_2",
@@ -101144,6 +101210,26 @@
 "requires":[],
 "size":691159,
 "timestamp":1622064605029,
+"version":"1.0.2"
+},
+"xeus-1.0.2-h3212551_1.tar.bz2":{
+"build":"h3212551_1",
+"build_number":1,
+"constrains":[
+"cppzmq >=4.7.1,<4.8.0a0",
+"nlohmann_json >=3.9.1,<3.10.0a0",
+"xtl >=0.7.2,<0.8.0a0"
+],
+"depends":[
+"libcxx >=11.1.0",
+"openssl >=1.1.1k,<1.1.2a",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"xeus",
+"requires":[],
+"size":690463,
+"timestamp":1622239167335,
 "version":"1.0.2"
 },
 "xeus-python-0.10.0-py38h99e22e2_0.tar.bz2":{
