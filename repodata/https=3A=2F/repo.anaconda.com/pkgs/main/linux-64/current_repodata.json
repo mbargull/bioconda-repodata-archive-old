@@ -88856,6 +88856,25 @@
 "timestamp":1622187309332,
 "version":"2.5.0"
 },
+"tensorflow-2.5.0-eigen_py38h94feaef_0.conda":{
+"build":"eigen_py38h94feaef_0",
+"build_number":0,
+"depends":[
+"_tflow_select 2.3.0 mkl",
+"python 3.8.*",
+"tensorboard >=2.5.0",
+"tensorflow-base 2.5.0 eigen_py38h2b86b3d_0",
+"tensorflow-estimator >=2.5.0"
+],
+"legacy_bz2_md5":"3008915d9c1270056628b43be0587456",
+"license":"Apache 2.0",
+"name":"tensorflow",
+"namespace":"python",
+"sha256":"925260f6b57b5bc734ec3cdada0952742230d4b9b98bbdb3549ecb43ac3631fa",
+"size":3665,
+"timestamp":1622195191762,
+"version":"2.5.0"
+},
 "tensorflow-2.5.0-eigen_py39hd8d7d70_0.conda":{
 "build":"eigen_py39hd8d7d70_0",
 "build_number":0,
@@ -89450,19 +89469,19 @@
 "timestamp":1615394837008,
 "version":"1.2.0"
 },
-"tensorflow-eigen-2.4.1-h17f2ed4_0.conda":{
+"tensorflow-eigen-2.5.0-h17f2ed4_0.conda":{
 "build":"h17f2ed4_0",
 "build_number":0,
 "depends":[
 "_tflow_select ==2.2.0 eigen",
-"tensorflow 2.4.1"
+"tensorflow 2.5.0"
 ],
-"legacy_bz2_md5":"ab66bc7d1b9108fe3b11937db2dcb7b1",
+"legacy_bz2_md5":"bfa91d5259f00a68512867066de18e43",
 "name":"tensorflow-eigen",
-"sha256":"280164adec92209cc72ae165e6ede3f24f7ba01adffbdec84568fd6ce0de71f0",
-"size":2703,
-"timestamp":1614595064824,
-"version":"2.4.1"
+"sha256":"0cbfc91f800f4115482e4788bea3fed2a38dcb2b894c6d0a169658964715585c",
+"size":2765,
+"timestamp":1622195448330,
+"version":"2.5.0"
 },
 "tensorflow-gpu-2.4.1-h30adc30_0.conda":{
 "build":"h30adc30_0",
@@ -89833,19 +89852,19 @@
 "timestamp":1525899187341,
 "version":"1.7.0"
 },
-"tensorflow-mkl-2.4.1-h65a7e9c_0.conda":{
-"build":"h65a7e9c_0",
+"tensorflow-mkl-2.5.0-h1e5c024_0.conda":{
+"build":"h1e5c024_0",
 "build_number":0,
 "depends":[
-"_tflow_select ==2.3.0 mkl",
-"tensorflow 2.4.1"
+"_tflow_select ==2.2.0 eigen",
+"tensorflow 2.5.0"
 ],
-"legacy_bz2_md5":"03a04e07d560434ebc02149d7874b48a",
+"legacy_bz2_md5":"e2ddb88e3a4d38fe68e81d485e42e278",
 "name":"tensorflow-mkl",
-"sha256":"3f04e39dcac70c6ce030d5e2a7a8d5b1211565dd3cd44f1df0a9c35bd3e22afb",
-"size":2694,
-"timestamp":1614595039083,
-"version":"2.4.1"
+"sha256":"80a8b025383022e33a2e02e23c22bacf3c37092577a3d3573812dcb86c9bcecf",
+"size":2745,
+"timestamp":1622195427055,
+"version":"2.5.0"
 },
 "tensorflow-tensorboard-1.5.1-py27hf484d3e_0.conda":{
 "build":"py27hf484d3e_0",
