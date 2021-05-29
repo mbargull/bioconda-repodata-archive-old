@@ -25380,6 +25380,21 @@
 "timestamp":1616683575296,
 "version":"1.24.0"
 },
+"ntl-11.4.3-hbb3f309_1.tar.bz2":{
+"build":"hbb3f309_1",
+"build_number":1,
+"depends":[
+"gf2x >=1.3.0,<1.4.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0"
+],
+"license":"LGPL-2.0-or-later",
+"name":"ntl",
+"sha256":"b30a75dcac87820125a1f4199387966c04284be332f6acfece85f5dd8b1e1076",
+"size":12579932,
+"timestamp":1622249692233,
+"version":"11.4.3"
+},
 "nuflux-2.0.2-py38hb0d568a_0.tar.bz2":{
 "build":"py38hb0d568a_0",
 "build_number":0,
@@ -26866,6 +26881,24 @@
 "size":392460,
 "timestamp":1621435115798,
 "version":"1.48.5"
+},
+"pari-2.11.4-h1cd4dcc_0.tar.bz2":{
+"build":"h1cd4dcc_0",
+"build_number":0,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"pari-galdata",
+"pari-seadata-small",
+"perl 5.*",
+"readline >=8.1,<9.0a0"
+],
+"license":"GPLv2+",
+"name":"pari",
+"sha256":"a3cba6ce01348a86f504204d9e86d16df8aa9bb14a430fa20b62a2e9a73543e4",
+"size":18833312,
+"timestamp":1622244656455,
+"version":"2.11.4"
 },
 "parmetis-4.0.3-h6eb5794_1005.tar.bz2":{
 "build":"h6eb5794_1005",
@@ -38480,9 +38513,9 @@
 "timestamp":1610318560126,
 "version":"1.2.0"
 },
-"snowflake-connector-python-2.4.3-py38h0148f03_1.tar.bz2":{
-"build":"py38h0148f03_1",
-"build_number":1,
+"snowflake-connector-python-2.4.4-py38h0148f03_0.tar.bz2":{
+"build":"py38h0148f03_0",
+"build_number":0,
 "constrains":[
 "pandas >1,<1.3"
 ],
@@ -38512,13 +38545,13 @@
 ],
 "license":"Apache-2.0",
 "name":"snowflake-connector-python",
-"sha256":"2e2b8a780aaaa771c40d2d7837cb0204f64b5de3e728aab3ab8f9b0c1ed9886e",
-"size":524371,
-"timestamp":1620025009833,
-"version":"2.4.3"
+"sha256":"c04a69cd03bf779bb846bd5a92d4c5ecbfe3c1710f427718fa90dfa5436e090b",
+"size":525117,
+"timestamp":1622251645555,
+"version":"2.4.4"
 },
-"snowflake-connector-python-2.4.3-py38h3777fb4_0.tar.bz2":{
-"build":"py38h3777fb4_0",
+"snowflake-connector-python-2.4.4-py38h5df148e_0.tar.bz2":{
+"build":"py38h5df148e_0",
 "build_number":0,
 "constrains":[
 "pandas >1,<1.3"
@@ -38549,50 +38582,13 @@
 ],
 "license":"Apache-2.0",
 "name":"snowflake-connector-python",
-"sha256":"e0795a44fe93bc5540b9fa5363fb035579d58a3a68346e9bb3268dab0e6cd9a6",
-"size":520544,
-"timestamp":1619548738034,
-"version":"2.4.3"
+"sha256":"34c9a45dbbea86ab4c091206e8c5fe52c0a0bcfde1861a2a112d4a6af6c8d027",
+"size":521484,
+"timestamp":1622251665326,
+"version":"2.4.4"
 },
-"snowflake-connector-python-2.4.3-py38h5df148e_1.tar.bz2":{
-"build":"py38h5df148e_1",
-"build_number":1,
-"constrains":[
-"pandas >1,<1.3"
-],
-"depends":[
-"arrow-cpp >=3.0.0,<3.0.1.0a0",
-"asn1crypto >0.24.0,<2.0.0",
-"azure-common <2",
-"azure-storage-blob >=12.0.0,<13.0.0",
-"boto3 >=1.4.4,<2.0.0",
-"certifi <2021.0.0",
-"certifi >=2017.4.17",
-"cffi >=1.9,<2.0.0",
-"chardet >=3.0.2,<4",
-"cryptography >=2.5.0,<4.0.0",
-"idna >=2.5,<3",
-"libcxx >=11.1.0",
-"oscrypto <2.0.0",
-"pyarrow >=3.0.0,<4.0a0",
-"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
-"pyjwt <3.0.0",
-"pyopenssl >=16.2.0,<21.0.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pytz <2021.0",
-"requests <3.0.0",
-"setuptools >34.0.0"
-],
-"license":"Apache-2.0",
-"name":"snowflake-connector-python",
-"sha256":"687d5f55e503fdd3431159c0e96367da839d739b0fffe89c4a19bb591f31d593",
-"size":527718,
-"timestamp":1620025056141,
-"version":"2.4.3"
-},
-"snowflake-connector-python-2.4.3-py39h7f752ed_0.tar.bz2":{
-"build":"py39h7f752ed_0",
+"snowflake-connector-python-2.4.4-py39hcf8a1fb_0.tar.bz2":{
+"build":"py39hcf8a1fb_0",
 "build_number":0,
 "constrains":[
 "pandas >1,<1.3"
@@ -38623,51 +38619,14 @@
 ],
 "license":"Apache-2.0",
 "name":"snowflake-connector-python",
-"sha256":"1a6b36b76d04c48a1a94eb44fd68e8a378e8efe3e2df5434d90ddf73f0f85b79",
-"size":522287,
-"timestamp":1619548757627,
-"version":"2.4.3"
+"sha256":"1b9c95e2722e40ef1e47f7311d1b813ed70e0dc50d65043d44e253c67cffbdde",
+"size":525421,
+"timestamp":1622251619096,
+"version":"2.4.4"
 },
-"snowflake-connector-python-2.4.3-py39hcf8a1fb_1.tar.bz2":{
-"build":"py39hcf8a1fb_1",
-"build_number":1,
-"constrains":[
-"pandas >1,<1.3"
-],
-"depends":[
-"arrow-cpp >=3.0.0,<3.0.1.0a0",
-"asn1crypto >0.24.0,<2.0.0",
-"azure-common <2",
-"azure-storage-blob >=12.0.0,<13.0.0",
-"boto3 >=1.4.4,<2.0.0",
-"certifi <2021.0.0",
-"certifi >=2017.4.17",
-"cffi >=1.9,<2.0.0",
-"chardet >=3.0.2,<4",
-"cryptography >=2.5.0,<4.0.0",
-"idna >=2.5,<3",
-"libcxx >=11.1.0",
-"oscrypto <2.0.0",
-"pyarrow >=3.0.0,<4.0a0",
-"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
-"pyjwt <3.0.0",
-"pyopenssl >=16.2.0,<21.0.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pytz <2021.0",
-"requests <3.0.0",
-"setuptools >34.0.0"
-],
-"license":"Apache-2.0",
-"name":"snowflake-connector-python",
-"sha256":"42249d91d56658a634da946bbe1852fa6e77deef2b9a0a49c31a67f863a55b3d",
-"size":527241,
-"timestamp":1620025008200,
-"version":"2.4.3"
-},
-"snowflake-connector-python-2.4.3-py39hfe514d2_1.tar.bz2":{
-"build":"py39hfe514d2_1",
-"build_number":1,
+"snowflake-connector-python-2.4.4-py39hfe514d2_0.tar.bz2":{
+"build":"py39hfe514d2_0",
+"build_number":0,
 "constrains":[
 "pandas >1,<1.3"
 ],
@@ -38697,10 +38656,10 @@
 ],
 "license":"Apache-2.0",
 "name":"snowflake-connector-python",
-"sha256":"6cbf604bb699f85050b18679d73cd5b88882ef2ab54462bd1b42f45f7aec5e84",
-"size":526525,
-"timestamp":1620025004399,
-"version":"2.4.3"
+"sha256":"28018155d83a691a8990891fa6249a8a6f049e01f493ce26290d4322f451cecb",
+"size":528989,
+"timestamp":1622251624607,
+"version":"2.4.4"
 },
 "soapysdr-0.8.0-py38h1670459_0.tar.bz2":{
 "build":"py38h1670459_0",
