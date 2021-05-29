@@ -2979,6 +2979,20 @@
 "timestamp":1621444444730,
 "version":"0.5.8"
 },
+"aws-c-cal-0.5.9-h7dd2e97_0.tar.bz2":{
+"build":"h7dd2e97_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"sha256":"ab82be7b22d1bf2bfada4d60f90d1a8de9d59d9eadb6cc705a2cd1c4b3ecee01",
+"size":28839,
+"timestamp":1622242245475,
+"version":"0.5.9"
+},
 "aws-c-common-0.4.66-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -3349,7 +3363,7 @@
 "timestamp":1621237549864,
 "version":"0.9.12"
 },
-"aws-c-io-0.9.13-h3b87e79_0.tar.bz2":{
+"aws-c-io-0.9.14-h3b87e79_0.tar.bz2":{
 "build":"h3b87e79_0",
 "build_number":0,
 "depends":[
@@ -3358,10 +3372,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-c-io",
-"sha256":"ab9ffa7ac01692d7298e45d411d1ae9977511e8a59e617add5ac0c57b3e5294c",
-"size":112301,
-"timestamp":1622227313929,
-"version":"0.9.13"
+"sha256":"dfb4c838f4b2fc683c130487ccc3e07fe22c2c411645882fa11fdd1dc1f96d0d",
+"size":112364,
+"timestamp":1622241703622,
+"version":"0.9.14"
 },
 "aws-c-io-0.9.4-h816e6ec_1.tar.bz2":{
 "build":"h816e6ec_1",
@@ -8446,7 +8460,7 @@
 "timestamp":1620835959999,
 "version":"2.6.6"
 },
-"distributed-2021.5.0-py38h10201cd_0.tar.bz2":{
+"distributed-2021.5.1-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "constrains":[
@@ -8456,7 +8470,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.5.0.*",
+"dask-core 2021.5.1.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.8,<3.9.0a0",
@@ -8471,12 +8485,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"f22a2e52f3746dddf7cbd3b299651a345206a7f142ef299d54bf101bc95a51f0",
-"size":1176821,
-"timestamp":1621044642779,
-"version":"2021.5.0"
+"sha256":"84cb6a30999e341ee41daa884c1bc444058a7521d4e67a80ff44bb2602e64750",
+"size":1186762,
+"timestamp":1622244420617,
+"version":"2021.5.1"
 },
-"distributed-2021.5.0-py39h2804cbe_0.tar.bz2":{
+"distributed-2021.5.1-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "constrains":[
@@ -8486,7 +8500,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.5.0.*",
+"dask-core 2021.5.1.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.9,<3.10.0a0",
@@ -8501,10 +8515,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"af5129ff097771aa417731f11ac067df8b3a93aff82e2fc8837f36f83d79bcc9",
-"size":1181630,
-"timestamp":1621044606780,
-"version":"2021.5.0"
+"sha256":"12a0ebd844124d80a05f2f96fcbdbcca5a215d94c92d202ecb4ec02cc23ae82e",
+"size":1187114,
+"timestamp":1622244401340,
+"version":"2021.5.1"
 },
 "docker-py-4.4.4-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -15462,7 +15476,7 @@
 "timestamp":1621567584058,
 "version":"2.2"
 },
-"importlib-metadata-4.3.0-py38h10201cd_0.tar.bz2":{
+"importlib-metadata-4.3.1-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "depends":[
@@ -15472,12 +15486,12 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib-metadata",
-"sha256":"cd816410a7c92aa77f9cb4cc05d00b647fde5473e500df70d8a62d002aabcd4e",
-"size":31408,
-"timestamp":1622129300280,
-"version":"4.3.0"
+"sha256":"0141e5589b413b932dde7a7d5e28609f82dc2cd7db6600206ed10049e8097cdf",
+"size":31546,
+"timestamp":1622246927698,
+"version":"4.3.1"
 },
-"importlib-metadata-4.3.0-py39h2804cbe_0.tar.bz2":{
+"importlib-metadata-4.3.1-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "depends":[
@@ -15487,10 +15501,10 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib-metadata",
-"sha256":"13254fa87968e6fb2d0a44c54ea17170da7dd867916853b3aebe31ec267af61e",
-"size":31378,
-"timestamp":1622129139745,
-"version":"4.3.0"
+"sha256":"6d78f4684d4bc3f6dabb6bb63152e8f627a12d14d0fcda4385c5b7429b580b6a",
+"size":31527,
+"timestamp":1622246927583,
+"version":"4.3.1"
 },
 "importlib_resources-5.1.3-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -25751,37 +25765,23 @@
 "timestamp":1615498608769,
 "version":"2.0.6"
 },
-"onednn-2.2.2-omp_h64143aa_1.tar.bz2":{
-"build":"omp_h64143aa_1",
-"build_number":1,
+"onednn-2.2.3-omp_h64143aa_0.tar.bz2":{
+"build":"omp_h64143aa_0",
+"build_number":0,
 "depends":[
 "libcxx >=11.1.0",
 "llvm-openmp >=11.1.0"
 ],
 "license":"Apache-2.0",
 "name":"onednn",
-"sha256":"96df70f621bcd12f39c4bdce6e12aed8e2521dc6aeca0d1e38a91939375ba437",
-"size":2903679,
-"timestamp":1620247739352,
-"version":"2.2.2"
+"sha256":"8497874b436aeac0db097de5713c98ae14207af742e69cb1157be7cc83901952",
+"size":2899856,
+"timestamp":1622246502552,
+"version":"2.2.3"
 },
-"onednn-2.2.2-omp_h64143aa_2.tar.bz2":{
-"build":"omp_h64143aa_2",
-"build_number":2,
-"depends":[
-"libcxx >=11.1.0",
-"llvm-openmp >=11.1.0"
-],
-"license":"Apache-2.0",
-"name":"onednn",
-"sha256":"b4a146a0a904a133d3fa7c78403dfb4c5edebc4d32efb02a6c69fd12716d45fc",
-"size":2911697,
-"timestamp":1620766581538,
-"version":"2.2.2"
-},
-"onednn-2.2.2-tbb_h429de2a_2.tar.bz2":{
-"build":"tbb_h429de2a_2",
-"build_number":2,
+"onednn-2.2.3-tbb_h429de2a_0.tar.bz2":{
+"build":"tbb_h429de2a_0",
+"build_number":0,
 "depends":[
 "libcxx >=11.1.0",
 "llvm-openmp >=11.1.0",
@@ -25789,107 +25789,37 @@
 ],
 "license":"Apache-2.0",
 "name":"onednn",
-"sha256":"641dfc175263ec709d8f55ac22b702354b15cf0c92c1e0e65e197e40c906b246",
-"size":3580093,
-"timestamp":1620766501293,
+"sha256":"6f614fe4fad9c0a128c73bee8f588e443d930bfc80a84093557f5f44fda084fa",
+"size":3579913,
+"timestamp":1622246416363,
 "track_features":"onednn-tbb",
-"version":"2.2.2"
+"version":"2.2.3"
 },
-"onednn-2.2.2-tbb_hb6067a2_0.tar.bz2":{
-"build":"tbb_hb6067a2_0",
+"onednn-cpu-omp-2.2.3-omp_hf6a6809_0.tar.bz2":{
+"build":"omp_hf6a6809_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.1.0",
-"llvm-openmp >=11.1.0",
-"tbb >=2020.2,<2021.0.0a0"
-],
-"license":"Apache-2.0",
-"name":"onednn",
-"sha256":"be9ea6f028e40cf7ca3c186112a66e3f6fec09ba47601568e2677c1026326a26",
-"size":3529165,
-"timestamp":1619681038728,
-"version":"2.2.2"
-},
-"onednn-2.2.2-tbb_hfa56021_1.tar.bz2":{
-"build":"tbb_hfa56021_1",
-"build_number":1,
-"depends":[
-"libcxx >=11.1.0",
-"llvm-openmp >=11.1.0",
-"tbb >=2020.2,<2021.0.0a0"
-],
-"license":"Apache-2.0",
-"name":"onednn",
-"sha256":"4f282aeacd5fe2c339f899e0d2b7e84c716381a1b08bae2c32a6a7562d7b8cca",
-"size":3516637,
-"timestamp":1620247697258,
-"track_features":"onednn-tbb",
-"version":"2.2.2"
-},
-"onednn-cpu-omp-2.2.2-omp_hf6a6809_1.tar.bz2":{
-"build":"omp_hf6a6809_1",
-"build_number":1,
-"depends":[
-"onednn 2.2.2 omp_h64143aa_1"
+"onednn 2.2.3 omp_h64143aa_0"
 ],
 "license":"Apache-2.0",
 "name":"onednn-cpu-omp",
-"sha256":"fcea3616b55dd9c14f5cef37735b8920d01a06ac382a20776417b690a50a1b05",
-"size":8290,
-"timestamp":1620247752055,
-"version":"2.2.2"
+"sha256":"b24686a3f51f8bb59bd63f1940e1ccbcc9d7da5c94755af21911ec2664da0562",
+"size":8724,
+"timestamp":1622246515681,
+"version":"2.2.3"
 },
-"onednn-cpu-omp-2.2.2-omp_hf6a6809_2.tar.bz2":{
-"build":"omp_hf6a6809_2",
-"build_number":2,
-"depends":[
-"onednn 2.2.2 omp_h64143aa_2"
-],
-"license":"Apache-2.0",
-"name":"onednn-cpu-omp",
-"sha256":"293310d7c181e472b2591d509b888a9fd9e28e9ec756e1e6b7bcaf58f66cdee1",
-"size":8725,
-"timestamp":1620766594949,
-"version":"2.2.2"
-},
-"onednn-cpu-tbb-2.2.2-tbb_h20de0cc_1.tar.bz2":{
-"build":"tbb_h20de0cc_1",
-"build_number":1,
-"depends":[
-"onednn 2.2.2 tbb_hfa56021_1"
-],
-"license":"Apache-2.0",
-"name":"onednn-cpu-tbb",
-"sha256":"be333cf03c500df75577a2e4bd3f8c4d10f53de82f8a504a8b4a1fec4ce8b9be",
-"size":8296,
-"timestamp":1620247711542,
-"version":"2.2.2"
-},
-"onednn-cpu-tbb-2.2.2-tbb_h20de0cc_2.tar.bz2":{
-"build":"tbb_h20de0cc_2",
-"build_number":2,
-"depends":[
-"onednn 2.2.2 tbb_h429de2a_2"
-],
-"license":"Apache-2.0",
-"name":"onednn-cpu-tbb",
-"sha256":"eecf7d914ecb1cddcfe2fa9def27d6b81180e84b16db7238becf1af08075d074",
-"size":8717,
-"timestamp":1620766515630,
-"version":"2.2.2"
-},
-"onednn-cpu-tbb-2.2.2-tbb_hce30654_0.tar.bz2":{
-"build":"tbb_hce30654_0",
+"onednn-cpu-tbb-2.2.3-tbb_h20de0cc_0.tar.bz2":{
+"build":"tbb_h20de0cc_0",
 "build_number":0,
 "depends":[
-"onednn 2.2.2 tbb_hb6067a2_0"
+"onednn 2.2.3 tbb_h429de2a_0"
 ],
 "license":"Apache-2.0",
 "name":"onednn-cpu-tbb",
-"sha256":"9dd8dc257d6b102ab9496204c9f4c8e9a2d933f2f4c4e85eee6aede53179ced5",
-"size":8253,
-"timestamp":1619681053408,
-"version":"2.2.2"
+"sha256":"ac4e4c78d329b10a0299083044cb4a20b6e8ba86c0c6061f9281a63afd97d2f6",
+"size":8689,
+"timestamp":1622246432232,
+"version":"2.2.3"
 },
 "oniguruma-6.9.7.1-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
