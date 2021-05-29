@@ -9809,6 +9809,22 @@
 "timestamp":1620932312524,
 "version":"0.5.2"
 },
+"aws-c-auth-0.5.2-hd3b1c10_1.tar.bz2":{
+"build":"hd3b1c10_1",
+"build_number":1,
+"depends":[
+"aws-c-cal >=0.5.8,<0.5.9.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.13,<0.9.14.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"requires":[],
+"size":87610,
+"timestamp":1622288591083,
+"version":"0.5.2"
+},
 "aws-c-cal-0.4.5-h4a0ed9c_4.tar.bz2":{
 "build":"h4a0ed9c_4",
 "build_number":4,
@@ -11146,6 +11162,21 @@
 "requires":[],
 "size":50660,
 "timestamp":1620831610469,
+"version":"0.7.6"
+},
+"aws-c-mqtt-0.7.6-hd3b1c10_2.tar.bz2":{
+"build":"hd3b1c10_2",
+"build_number":2,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.13,<0.9.14.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"requires":[],
+"size":50673,
+"timestamp":1622288577051,
 "version":"0.7.6"
 },
 "aws-checksums-0.1.10-h2b027d1_0.tar.bz2":{
@@ -99024,6 +99055,48 @@
 "requires":[],
 "size":238047,
 "timestamp":1621515497575,
+"version":"4.2.0"
+},
+"turbodbc-4.2.0-py38h5c65b1d_2.tar.bz2":{
+"build":"py38h5c65b1d_2",
+"build_number":2,
+"depends":[
+"arrow-cpp >=4.0.1,<4.0.2.0a0",
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"pyarrow",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"six",
+"unixodbc >=2.3.9,<2.4.0a0"
+],
+"license":"MIT",
+"name":"turbodbc",
+"requires":[],
+"size":238239,
+"timestamp":1622287659132,
+"version":"4.2.0"
+},
+"turbodbc-4.2.0-py39h85c5b17_2.tar.bz2":{
+"build":"py39h85c5b17_2",
+"build_number":2,
+"depends":[
+"arrow-cpp >=4.0.1,<4.0.2.0a0",
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"pyarrow",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"six",
+"unixodbc >=2.3.9,<2.4.0a0"
+],
+"license":"MIT",
+"name":"turbodbc",
+"requires":[],
+"size":242082,
+"timestamp":1622287651751,
 "version":"4.2.0"
 },
 "turbodbc-4.2.0-py39h8ae8160_1.tar.bz2":{
