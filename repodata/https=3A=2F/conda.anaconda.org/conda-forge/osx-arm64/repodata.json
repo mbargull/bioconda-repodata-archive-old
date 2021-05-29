@@ -26434,6 +26434,26 @@
 "timestamp":1616253332120,
 "version":"0.1.9"
 },
+"eclib-20210503-h3c95382_0.tar.bz2":{
+"build":"h3c95382_0",
+"build_number":0,
+"depends":[
+"gf2x >=1.3.0,<1.4.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"pari >=2.11.4,<2.12.0a0",
+"pari >=2.11.4,<3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"eclib",
+"sha256":"db32e56761bc2c36991a4dff9888ca51ee1f3a8a90b1d175ce3af3d9d53962b9",
+"size":20945889,
+"timestamp":1622264485403,
+"version":"20210503"
+},
 "ecm-7.0.4-h47c7c1a_1002.tar.bz2":{
 "build":"h47c7c1a_1002",
 "build_number":1002,
@@ -46715,6 +46735,22 @@
 "timestamp":1610609892368,
 "version":"1.3.3"
 },
+"libflint-2.7.1-h0da3ec1_ntl_102.tar.bz2":{
+"build":"h0da3ec1_ntl_102",
+"build_number":102,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libflint",
+"sha256":"be677fc09fe01bd9f26f289033e414b940bab81ea881ded13778a389a26e2ce0",
+"size":2525794,
+"timestamp":1622265234047,
+"version":"2.7.1"
+},
 "libflint-2.7.1-h3f38ea7_nontl_1.tar.bz2":{
 "build":"h3f38ea7_nontl_1",
 "build_number":1,
@@ -46743,6 +46779,22 @@
 "sha256":"c31fd993fe505d94e5855b9e93cb4f95563872cb0d4c60fa0b979e7c13894660",
 "size":2520285,
 "timestamp":1615527780967,
+"version":"2.7.1"
+},
+"libflint-2.7.1-hbf0f076_nontl_2.tar.bz2":{
+"build":"hbf0f076_nontl_2",
+"build_number":2,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"mpfr >=4.0.2,<5.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libflint",
+"sha256":"7c3b15566ef7f9c931ec2830da1482f19e9349d0f0b48522b85364aebd82e4ed",
+"size":2519913,
+"timestamp":1622265178746,
+"track_features":"flint_with_nontl",
 "version":"2.7.1"
 },
 "libframel-8.41.1-h27ca646_1.tar.bz2":{

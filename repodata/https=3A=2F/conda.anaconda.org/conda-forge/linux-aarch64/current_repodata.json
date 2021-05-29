@@ -31291,6 +31291,39 @@
 "timestamp":1603806730950,
 "version":"1.5.0.87"
 },
+"giac-1.5.0.87-he6b1c88_2.tar.bz2":{
+"build":"he6b1c88_2",
+"build_number":2,
+"depends":[
+"ecm >=7.0.4,<8.0a0",
+"gf2x >=1.3.0,<1.4.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gsl >=2.6,<2.7.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=9.3.0",
+"mpfi >=1.5.4,<1.6.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"nauty >=2.7.1,<3.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"ntl 11.4.3.*",
+"pari >=2.11.4,<2.12.0a0",
+"pari >=2.11.4,<3.0a0",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"giac",
+"sha256":"7d90339b6600ceabffbfaf6745b0138c37c6acf404d32562c6f851cecd1b165b",
+"size":87096592,
+"timestamp":1622265873418,
+"version":"1.5.0.87"
+},
 "giflib-5.2.1-h516909a_0.tar.bz2":{
 "build":"h516909a_0",
 "build_number":0,
@@ -53076,6 +53109,23 @@
 "timestamp":1597296026157,
 "version":"2.6.3"
 },
+"libflint-2.7.1-h0444764_nontl_2.tar.bz2":{
+"build":"h0444764_nontl_2",
+"build_number":2,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpfr >=4.0.2,<5.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libflint",
+"sha256":"7ea2111d1776d65382206b02840297132845df2d7f0913c50eca52bbe04d9596",
+"size":14144437,
+"timestamp":1622265087257,
+"track_features":"flint_with_nontl",
+"version":"2.7.1"
+},
 "libflint-2.7.1-h2c880a4_ntl_101.tar.bz2":{
 "build":"h2c880a4_ntl_101",
 "build_number":101,
@@ -53126,6 +53176,23 @@
 "sha256":"0efbb160852402dba10b2a1586f76d2f3a0bf009dffa5ff3cbb2dfd4f9188ca0",
 "size":14257851,
 "timestamp":1611069994417,
+"version":"2.7.1"
+},
+"libflint-2.7.1-h69c3cc2_ntl_102.tar.bz2":{
+"build":"h69c3cc2_ntl_102",
+"build_number":102,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libflint",
+"sha256":"5ab176e19bbd4580cfde8a26bf16cea95839cd6a8dbffd80e32dee2fe4839712",
+"size":14255093,
+"timestamp":1622265197094,
 "version":"2.7.1"
 },
 "libflint-2.7.1-haad477c_nontl_1.tar.bz2":{
