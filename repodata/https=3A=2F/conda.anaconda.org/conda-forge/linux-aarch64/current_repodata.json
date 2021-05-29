@@ -25362,6 +25362,25 @@
 "timestamp":1572477097389,
 "version":"2.4.3"
 },
+"fflas-ffpack-2.4.3-hf104d39_2.tar.bz2":{
+"build":"hf104d39_2",
+"build_number":2,
+"depends":[
+"givaro >=4.1.1,<4.1.2.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"fflas-ffpack",
+"sha256":"ea5de83cc23c67a6a23d00d89dfd56283e0feac21a66a1d5ff66e958f49cba61",
+"size":12086903,
+"timestamp":1622269436757,
+"version":"2.4.3"
+},
 "ffmpeg-4.3.1-h167e202_0.tar.bz2":{
 "build":"h167e202_0",
 "build_number":0,
@@ -49928,6 +49947,23 @@
 "size":121878,
 "timestamp":1621980598621,
 "version":"2.1.2"
+},
+"lcalc-1.23-h850fa7c_1004.tar.bz2":{
+"build":"h850fa7c_1004",
+"build_number":1004,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpfr >=4.0.2,<5.0a0",
+"pari >=2.11.4,<2.12.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"lcalc",
+"sha256":"bbd63bda909a51797494167463c60a7fac2ef8e8efe1d8face087b98b1c74d6a",
+"size":1524512,
+"timestamp":1622267989172,
+"version":"1.23"
 },
 "lcalc-1.23-hab5a3d0_1004.tar.bz2":{
 "build":"hab5a3d0_1004",

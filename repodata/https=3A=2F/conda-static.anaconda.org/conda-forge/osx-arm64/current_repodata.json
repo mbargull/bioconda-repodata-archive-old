@@ -8080,6 +8080,38 @@
 "timestamp":1620982984717,
 "version":"2.1.27"
 },
+"cysignals-1.10.3-py38h18c4d41_0.tar.bz2":{
+"build":"py38h18c4d41_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"pari >=2.11.4,<2.12.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"cysignals",
+"sha256":"f5dd5e3cf708f3b1aa790e44cbde57f285c0b75003c4e527364e4ae55df46678",
+"size":177415,
+"timestamp":1622267484566,
+"version":"1.10.3"
+},
+"cysignals-1.10.3-py39hcebe6ed_0.tar.bz2":{
+"build":"py39hcebe6ed_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"pari >=2.11.4,<2.12.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"cysignals",
+"sha256":"972894c66aaabd9cc8f8f481920c5afa6f69454c5471415758d8227f382007b7",
+"size":184785,
+"timestamp":1622267450751,
+"version":"1.10.3"
+},
 "cython-0.29.23-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",
 "build_number":0,
@@ -9389,6 +9421,24 @@
 "size":834446,
 "timestamp":1607371433812,
 "version":"8.2.1"
+},
+"fflas-ffpack-2.4.3-h11f2abc_2.tar.bz2":{
+"build":"h11f2abc_2",
+"build_number":2,
+"depends":[
+"givaro >=4.1.1,<4.1.2.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"fflas-ffpack",
+"sha256":"30f1960846711ca0288eab94d7f6690cd404123f6f3cddce62d615ef72112cec",
+"size":6864176,
+"timestamp":1622269618260,
+"version":"2.4.3"
 },
 "ffmpeg-4.3.1-h22aafd7_1.tar.bz2":{
 "build":"h22aafd7_1",
@@ -16694,6 +16744,22 @@
 "size":31625,
 "timestamp":1616507360429,
 "version":"1.6.0"
+},
+"lcalc-1.23-hb187130_1004.tar.bz2":{
+"build":"hb187130_1004",
+"build_number":1004,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"mpfr >=4.0.2,<5.0a0",
+"pari >=2.11.4,<2.12.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"lcalc",
+"sha256":"c86db8424ee29c7485ae7b431828f291ccaf058d3355783abbf4f09e2db687a0",
+"size":236273,
+"timestamp":1622268063370,
+"version":"1.23"
 },
 "lcms2-2.11-h2f7874f_1.tar.bz2":{
 "build":"h2f7874f_1",
