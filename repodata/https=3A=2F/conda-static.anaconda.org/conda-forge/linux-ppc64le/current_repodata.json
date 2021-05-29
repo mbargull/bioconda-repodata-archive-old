@@ -11398,6 +11398,39 @@
 "timestamp":1620307758983,
 "version":"0.2.7"
 },
+"aws-c-event-stream-0.2.7-hb696191_7.tar.bz2":{
+"build":"hb696191_7",
+"build_number":7,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-io >=0.9.14,<0.9.15.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"85d206c1b98b468ea31fd9b78dc6779a3d6b127843a6ad2007916331958c6ff2",
+"size":49973,
+"timestamp":1622319745587,
+"version":"0.2.7"
+},
+"aws-c-http-0.6.4-h6ecd096_3.tar.bz2":{
+"build":"h6ecd096_3",
+"build_number":3,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-compression >=0.2.11,<0.2.12.0a0",
+"aws-c-io >=0.9.14,<0.9.15.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"sha256":"0887b6a5fbbe28ad09b0c43a7562633351fd4850eaaf7fa504ff4ca919519cfd",
+"size":166063,
+"timestamp":1622319404934,
+"version":"0.6.4"
+},
 "aws-c-http-0.6.4-h7c06f7e_2.tar.bz2":{
 "build":"h7c06f7e_2",
 "build_number":2,
@@ -28653,42 +28686,6 @@
 "timestamp":1607108466881,
 "version":"1.1.3"
 },
-"fplll-5.3.1-h44304a8_0.tar.bz2":{
-"build":"h44304a8_0",
-"build_number":0,
-"depends":[
-"gmp >=6.1.2,<7.0a0",
-"libgcc-ng >=8.2.0",
-"libstdcxx-ng >=8.2.0",
-"mpfr >=4.0.2,<5.0a0",
-"qd 2.3.*",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"LGPL v2+",
-"name":"fplll",
-"sha256":"f8370d457681714946006ac4c34de61e5606b6b141d48e742e712ffb5016d6a6",
-"size":82574010,
-"timestamp":1578020178983,
-"version":"5.3.1"
-},
-"fplll-5.3.3-h44304a8_0.tar.bz2":{
-"build":"h44304a8_0",
-"build_number":0,
-"depends":[
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"qd 2.3.*",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"LGPL-2.1-or-later",
-"name":"fplll",
-"sha256":"097167465ac00694c111eaa1ba0eab0e645e5c6243f8879f9a9bffb309a44b6d",
-"size":82829131,
-"timestamp":1603837013897,
-"version":"5.3.3"
-},
 "fplll-5.4.1-h6f4fd7e_0.tar.bz2":{
 "build":"h6f4fd7e_0",
 "build_number":0,
@@ -28723,341 +28720,93 @@
 "timestamp":1617094412840,
 "version":"0.2.0"
 },
-"fpylll-0.5.1dev-py36h913c3ae_1.tar.bz2":{
-"build":"py36h913c3ae_1",
-"build_number":1,
+"fpylll-0.5.5-py36h6cc2b77_0.tar.bz2":{
+"build":"py36h6cc2b77_0",
+"build_number":0,
 "depends":[
 "cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
+"fplll >=5.4.1,<5.4.2.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
 "mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
 "qd >=2.3.22,<2.4.0a0"
 ],
 "license":"GPL-2.0-or-later",
 "name":"fpylll",
-"sha256":"8de977b04404f990c3e88101a657b83450dc9bd9072ce4866b925f3c59949256",
-"size":875378,
-"timestamp":1602560625087,
-"version":"0.5.1dev"
+"sha256":"75b1ee5e5294545ad9db77a230a26948658c8b3d62a734d160dcb91201183cba",
+"size":882907,
+"timestamp":1622322039033,
+"version":"0.5.5"
 },
-"fpylll-0.5.1dev-py36h913c3ae_2.tar.bz2":{
-"build":"py36h913c3ae_2",
-"build_number":2,
-"depends":[
-"cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"fpylll",
-"sha256":"2b422b7b36d4175419c3299666ed0c0d5267553db9249f2f7cbdbfc8fb8f0b9e",
-"size":875926,
-"timestamp":1603777934580,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py36h913c3ae_3.tar.bz2":{
-"build":"py36h913c3ae_3",
-"build_number":3,
-"depends":[
-"cysignals",
-"fplll >=5.3.3,<5.3.4.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"fpylll",
-"sha256":"bec630681ad7bb6b8e5d45da3289255dbc839de26514ef063cc616967cac2e11",
-"size":880156,
-"timestamp":1603866959305,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py36hab8a45d_0.tar.bz2":{
-"build":"py36hab8a45d_0",
+"fpylll-0.5.5-py37h369da50_0.tar.bz2":{
+"build":"py37h369da50_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp36m"
-],
 "depends":[
 "cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.1.2,<7.0a0",
-"libgcc-ng >=8.2.0",
-"libstdcxx-ng >=8.2.0",
+"fplll >=5.4.1,<5.4.2.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
 "mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPLv2+",
-"name":"fpylll",
-"sha256":"5520f08d76c01810f8302a861ce934480901af285e20e503b576d21c6f7af278",
-"size":911676,
-"timestamp":1578070089646,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py37h57cbcac_1.tar.bz2":{
-"build":"py37h57cbcac_1",
-"build_number":1,
-"depends":[
-"cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
 "qd >=2.3.22,<2.4.0a0"
 ],
 "license":"GPL-2.0-or-later",
 "name":"fpylll",
-"sha256":"c663528ac42ece64ae7a6fd36f2225553bd90e01b85078be944e3125275dfb97",
-"size":873839,
-"timestamp":1602560633857,
-"version":"0.5.1dev"
+"sha256":"9feb71a6d018896a8f7dc62a38dccb3faf539599792dcf56a8b32ca3092e856b",
+"size":882480,
+"timestamp":1622321925943,
+"version":"0.5.5"
 },
-"fpylll-0.5.1dev-py37h57cbcac_2.tar.bz2":{
-"build":"py37h57cbcac_2",
-"build_number":2,
-"depends":[
-"cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"fpylll",
-"sha256":"1d57087fed271dc5f177a99b54413f8004d888542757cbc4ef3f76ab263267f4",
-"size":868971,
-"timestamp":1603777925864,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py37h57cbcac_3.tar.bz2":{
-"build":"py37h57cbcac_3",
-"build_number":3,
-"depends":[
-"cysignals",
-"fplll >=5.3.3,<5.3.4.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"fpylll",
-"sha256":"5e8856bc910391380deeafaeb53699f3c8f3dcd5639acbe354ba183241db54db",
-"size":874383,
-"timestamp":1603866989619,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py37hab8a45d_0.tar.bz2":{
-"build":"py37hab8a45d_0",
+"fpylll-0.5.5-py38ha711860_0.tar.bz2":{
+"build":"py38ha711860_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp37m"
-],
 "depends":[
 "cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.1.2,<7.0a0",
-"libgcc-ng >=8.2.0",
-"libstdcxx-ng >=8.2.0",
+"fplll >=5.4.1,<5.4.2.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
 "mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPLv2+",
-"name":"fpylll",
-"sha256":"636d7842cccd172deb46cb87626af4168a1ec876465643bbc39391a9f91c2a2e",
-"size":912325,
-"timestamp":1578069988588,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py38h14f5666_1.tar.bz2":{
-"build":"py38h14f5666_1",
-"build_number":1,
-"depends":[
-"cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
+"numpy >=1.17.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "qd >=2.3.22,<2.4.0a0"
 ],
 "license":"GPL-2.0-or-later",
 "name":"fpylll",
-"sha256":"c12398d99acf9805ced26a964b6bf262de3ba916ab2d664dd403c950ff789432",
-"size":882767,
-"timestamp":1602560658168,
-"version":"0.5.1dev"
+"sha256":"9ef6fb73787a1a52e593825b4f6e74a325e1c7a33f1eba344d0272e08d689626",
+"size":897583,
+"timestamp":1622321928263,
+"version":"0.5.5"
 },
-"fpylll-0.5.1dev-py38h14f5666_2.tar.bz2":{
-"build":"py38h14f5666_2",
-"build_number":2,
-"depends":[
-"cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"fpylll",
-"sha256":"9e7a9dc21105f195338d0b973775cff439ab6cd64b55b63af2ee79bc3af1ecdc",
-"size":890968,
-"timestamp":1603777916094,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py38h14f5666_3.tar.bz2":{
-"build":"py38h14f5666_3",
-"build_number":3,
-"depends":[
-"cysignals",
-"fplll >=5.3.3,<5.3.4.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"fpylll",
-"sha256":"9d37203a35f4db254f896120b196931f51f2f90871a709bb0f5f9e15e3703e3d",
-"size":895626,
-"timestamp":1603866996306,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py38hab8a45d_0.tar.bz2":{
-"build":"py38hab8a45d_0",
+"fpylll-0.5.5-py39h9c8a238_0.tar.bz2":{
+"build":"py39h9c8a238_0",
 "build_number":0,
-"constrains":[
-"python_abi * *_cp38"
-],
 "depends":[
 "cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.2.0",
-"libstdcxx-ng >=8.2.0",
+"fplll >=5.4.1,<5.4.2.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
 "mpfr >=4.0.2,<5.0a0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPLv2+",
-"name":"fpylll",
-"sha256":"1a99f740f3a9a5d7df929c17b5ddffe8cc3822afeec80e81bb3e1adfdb391dc3",
-"size":922070,
-"timestamp":1579765249118,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py39h2a3a7f3_1.tar.bz2":{
-"build":"py39h2a3a7f3_1",
-"build_number":1,
-"depends":[
-"cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.19.2,<2.0a0",
+"numpy >=1.19.5,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "qd >=2.3.22,<2.4.0a0"
 ],
 "license":"GPL-2.0-or-later",
 "name":"fpylll",
-"sha256":"87e159126bcb065180314a82f98275817e9aea8845434e0d7d407a17972a9694",
-"size":889660,
-"timestamp":1602560803273,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py39h2a3a7f3_2.tar.bz2":{
-"build":"py39h2a3a7f3_2",
-"build_number":2,
-"depends":[
-"cysignals",
-"fplll >=5.3.1,<5.3.2.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.19.2,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"fpylll",
-"sha256":"4df32b6d58f51d254dbc2046b804c59a36247db969e2c9f4e9801b1a801ad573",
-"size":888995,
-"timestamp":1603778007650,
-"version":"0.5.1dev"
-},
-"fpylll-0.5.1dev-py39h2a3a7f3_3.tar.bz2":{
-"build":"py39h2a3a7f3_3",
-"build_number":3,
-"depends":[
-"cysignals",
-"fplll >=5.3.3,<5.3.4.0a0",
-"gmp >=6.2.0,<7.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"mpfr >=4.0.2,<5.0a0",
-"numpy >=1.19.2,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"qd >=2.3.22,<2.4.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"fpylll",
-"sha256":"e92d399de143beda2d98c9c5a1cc8dce1435b3c69b12382ea5578e3e2b23641c",
-"size":877271,
-"timestamp":1603866978906,
-"version":"0.5.1dev"
+"sha256":"959a2d8b19df9bdbb96c647947ac423631dc63b4e8dbd353b9441341ffd519b9",
+"size":892589,
+"timestamp":1622321992073,
+"version":"0.5.5"
 },
 "freeglut-3.2.1-h3b9df90_1.tar.bz2":{
 "build":"h3b9df90_1",
@@ -60164,6 +59913,33 @@
 "sha256":"a0e4f112f4554a82066989cea46affa09fc89aace5152e1e43072a356c207cbd",
 "size":4031779,
 "timestamp":1603672041793,
+"version":"1.6.3"
+},
+"linbox-1.6.3-hdf615d0_5.tar.bz2":{
+"build":"hdf615d0_5",
+"build_number":5,
+"depends":[
+"fflas-ffpack >=2.4.3,<2.5.0a0",
+"fflas-ffpack >=2.4.3,<3.0a0",
+"givaro >=4.1.1,<4.1.2.0a0",
+"givaro >=4.1.1,<5.0a0",
+"gmp >=6.2.1,<7.0a0",
+"iml",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libflint >=2.7.1,<2.8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"m4ri >=20140914,<20140915.0a0",
+"m4rie",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*"
+],
+"license":"LGPL-2.1-or-later",
+"name":"linbox",
+"sha256":"a89a0e2fc05662dd877b3de5c1be60bb7ae729b04c49882034e112030b215368",
+"size":4454031,
+"timestamp":1622324271329,
 "version":"1.6.3"
 },
 "line_profiler-3.2.6-py36he013ba8_0.tar.bz2":{
