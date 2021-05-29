@@ -31406,21 +31406,6 @@
 "timestamp":1619270402724,
 "version":"1.4.0"
 },
-"givaro-4.1.1-h178a351_2.tar.bz2":{
-"build":"h178a351_2",
-"build_number":2,
-"depends":[
-"gmp >=6.2.1,<7.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"GPL-2.0-or-later",
-"name":"givaro",
-"sha256":"52d7bcf01e86849fd3f753af419b015cc677bcdca0adf449d9b78d11cb3f2193",
-"size":331837,
-"timestamp":1616271100986,
-"version":"4.1.1"
-},
 "givaro-4.1.1-h192cbe9_0.tar.bz2":{
 "build":"h192cbe9_0",
 "build_number":0,
@@ -65962,7 +65947,7 @@
 "timestamp":1566074697522,
 "version":"3.2.1"
 },
-"mpich-3.4.1-external_0.tar.bz2":{
+"mpich-3.4.2-external_0.tar.bz2":{
 "build":"external_0",
 "build_number":0,
 "depends":[
@@ -65970,43 +65955,15 @@
 ],
 "license":"LicenseRef-MPICH",
 "name":"mpich",
-"sha256":"4b283a1caf427f3db85c6d15fe49d3e87a3fc51bc98d79c5c3fcc1e60ec3d9ec",
-"size":7398,
-"timestamp":1612104414202,
+"sha256":"7859538f30bfd9659ed1ba308adf3e87ed1d1b2236a7e43c46c2cc1b746f67d9",
+"size":7381,
+"timestamp":1622306867133,
 "track_features":"mpich_external",
-"version":"3.4.1"
+"version":"3.4.2"
 },
-"mpich-3.4.1-external_2.tar.bz2":{
-"build":"external_2",
-"build_number":2,
-"depends":[
-"mpi 1.0 mpich"
-],
-"license":"LicenseRef-MPICH",
-"name":"mpich",
-"sha256":"6bff57f87a5c989e444b40818a3973b097a2c55a6ac13a1577404214f4567eb6",
-"size":7405,
-"timestamp":1612258700083,
-"track_features":"mpich_external",
-"version":"3.4.1"
-},
-"mpich-3.4.1-external_4.tar.bz2":{
-"build":"external_4",
-"build_number":4,
-"depends":[
-"mpi 1.0 mpich"
-],
-"license":"LicenseRef-MPICH",
-"name":"mpich",
-"sha256":"7f37b6f38d6fa0e91b177d37a0d083fb05ec2274e2b2a5883efb62d5c0b5271f",
-"size":7378,
-"timestamp":1615579125654,
-"track_features":"mpich_external",
-"version":"3.4.1"
-},
-"mpich-3.4.1-h26b3c96_0.tar.bz2":{
-"build":"h26b3c96_0",
-"build_number":0,
+"mpich-3.4.2-h26b3c96_100.tar.bz2":{
+"build":"h26b3c96_100",
+"build_number":100,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
@@ -66016,170 +65973,52 @@
 ],
 "license":"LicenseRef-MPICH",
 "name":"mpich",
-"sha256":"8004454447fb95fb7ed3a82b43eed3402db45e42dd4fab81140b5c362728e4c6",
-"size":9557585,
-"timestamp":1612104853936,
-"version":"3.4.1"
+"sha256":"a21e8ca40a1ff7e739a7fa3cdbc49eadffce26f630e25f062c58beca59246513",
+"size":10036886,
+"timestamp":1622307267055,
+"version":"3.4.2"
 },
-"mpich-3.4.1-h26b3c96_104.tar.bz2":{
-"build":"h26b3c96_104",
-"build_number":104,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mpi 1.0 mpich"
-],
-"license":"LicenseRef-MPICH",
-"name":"mpich",
-"sha256":"bbaf612cdfaf12676720b484bfb16b4ee3640591ecb7256d55945d62510448a5",
-"size":9566465,
-"timestamp":1615579735411,
-"version":"3.4.1"
-},
-"mpich-3.4.1-h26b3c96_2.tar.bz2":{
-"build":"h26b3c96_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mpi 1.0 mpich"
-],
-"license":"LicenseRef-MPICH",
-"name":"mpich",
-"sha256":"b1375652eef7485edeef5dcc74b6d54a5f5e13e3ec50f8f22a4591a87d33f4ba",
-"size":9602536,
-"timestamp":1612259803294,
-"version":"3.4.1"
-},
-"mpich-mpicc-3.4.1-h05efe27_0.tar.bz2":{
-"build":"h05efe27_0",
-"build_number":0,
+"mpich-mpicc-3.4.2-h05efe27_100.tar.bz2":{
+"build":"h05efe27_100",
+"build_number":100,
 "depends":[
 "gcc_linux-aarch64 9.*",
-"mpich 3.4.1 h26b3c96_0"
+"mpich 3.4.2 h26b3c96_100"
 ],
 "license":"LicenseRef-MPICH",
 "name":"mpich-mpicc",
-"sha256":"a094728a0958708393920da28751ae9086c26460f5fbe3f5a285857478d18448",
-"size":7586,
-"timestamp":1612104873608,
-"version":"3.4.1"
+"sha256":"758c0ca2f5e2ed36e20587533438c0919063f43c67411a340864c252d14a4938",
+"size":7574,
+"timestamp":1622307284778,
+"version":"3.4.2"
 },
-"mpich-mpicc-3.4.1-h05efe27_104.tar.bz2":{
-"build":"h05efe27_104",
-"build_number":104,
-"depends":[
-"gcc_linux-aarch64 9.*",
-"mpich 3.4.1 h26b3c96_104"
-],
-"license":"LicenseRef-MPICH",
-"name":"mpich-mpicc",
-"sha256":"26038f1b6a0704ee02418ba79afc8fb986d928090f8d149f772ee7e4bb97871e",
-"size":7563,
-"timestamp":1615579752986,
-"version":"3.4.1"
-},
-"mpich-mpicc-3.4.1-h05efe27_2.tar.bz2":{
-"build":"h05efe27_2",
-"build_number":2,
-"depends":[
-"gcc_linux-aarch64 9.*",
-"mpich 3.4.1 h26b3c96_2"
-],
-"license":"LicenseRef-MPICH",
-"name":"mpich-mpicc",
-"sha256":"a3c7a3751d9e0022f217a10b471a720ec7eb4146b961a6ff58abde6108bf85d7",
-"size":7591,
-"timestamp":1612259851716,
-"version":"3.4.1"
-},
-"mpich-mpicxx-3.4.1-hf897c2e_0.tar.bz2":{
-"build":"hf897c2e_0",
-"build_number":0,
+"mpich-mpicxx-3.4.2-hf897c2e_100.tar.bz2":{
+"build":"hf897c2e_100",
+"build_number":100,
 "depends":[
 "gxx_linux-aarch64 9.*",
-"mpich 3.4.1 h26b3c96_0"
+"mpich 3.4.2 h26b3c96_100"
 ],
 "license":"LicenseRef-MPICH",
 "name":"mpich-mpicxx",
-"sha256":"794bf03175cdefe099694d16c6b893ab98510bc0579d34b505de1fb4f59cb3b5",
-"size":7571,
-"timestamp":1612104877653,
-"version":"3.4.1"
+"sha256":"5e1d6a0e4e46c14432c43d214c83e45c2562338de2258ddba5c01dd5914ef560",
+"size":7552,
+"timestamp":1622307288919,
+"version":"3.4.2"
 },
-"mpich-mpicxx-3.4.1-hf897c2e_104.tar.bz2":{
-"build":"hf897c2e_104",
-"build_number":104,
-"depends":[
-"gxx_linux-aarch64 9.*",
-"mpich 3.4.1 h26b3c96_104"
-],
-"license":"LicenseRef-MPICH",
-"name":"mpich-mpicxx",
-"sha256":"8fe6f49e8911bc217ba25c81fd6e54ad0edb8509774896b765ec38f8c928383a",
-"size":7537,
-"timestamp":1615579756964,
-"version":"3.4.1"
-},
-"mpich-mpicxx-3.4.1-hf897c2e_2.tar.bz2":{
-"build":"hf897c2e_2",
-"build_number":2,
-"depends":[
-"gxx_linux-aarch64 9.*",
-"mpich 3.4.1 h26b3c96_2"
-],
-"license":"LicenseRef-MPICH",
-"name":"mpich-mpicxx",
-"sha256":"e4349ae80bc9a3acd2a94bb8a3c3f9023077f1e92e256c9ae754c997e7b5be3d",
-"size":7575,
-"timestamp":1612259860395,
-"version":"3.4.1"
-},
-"mpich-mpifort-3.4.1-hd62202e_0.tar.bz2":{
-"build":"hd62202e_0",
-"build_number":0,
+"mpich-mpifort-3.4.2-hd62202e_100.tar.bz2":{
+"build":"hd62202e_100",
+"build_number":100,
 "depends":[
 "gfortran_linux-aarch64 9.*",
-"mpich 3.4.1 h26b3c96_0"
+"mpich 3.4.2 h26b3c96_100"
 ],
 "license":"LicenseRef-MPICH",
 "name":"mpich-mpifort",
-"sha256":"694235bde7873364fe4d313912c27aabd5e525917f9a3fbc4033faaec4460ded",
-"size":7635,
-"timestamp":1612104881695,
-"version":"3.4.1"
-},
-"mpich-mpifort-3.4.1-hd62202e_104.tar.bz2":{
-"build":"hd62202e_104",
-"build_number":104,
-"depends":[
-"gfortran_linux-aarch64 9.*",
-"mpich 3.4.1 h26b3c96_104"
-],
-"license":"LicenseRef-MPICH",
-"name":"mpich-mpifort",
-"sha256":"8fd2f53ec510cef5bd87e553a28300f0f1fec07ec05410e4ac236b0db47faa37",
-"size":7604,
-"timestamp":1615579761037,
-"version":"3.4.1"
-},
-"mpich-mpifort-3.4.1-hd62202e_2.tar.bz2":{
-"build":"hd62202e_2",
-"build_number":2,
-"depends":[
-"gfortran_linux-aarch64 9.*",
-"mpich 3.4.1 h26b3c96_2"
-],
-"license":"LicenseRef-MPICH",
-"name":"mpich-mpifort",
-"sha256":"c62de46bfcee2d4df2e4eb49baa167446836eef691661b606028439e118dc888",
-"size":7657,
-"timestamp":1612259868548,
-"version":"3.4.1"
+"sha256":"3c93097d88ec8d2b3c12cd96574e0468fc5ab99e3b96c80f5ce87be3072ed3d5",
+"size":7603,
+"timestamp":1622307293114,
+"version":"3.4.2"
 },
 "mpifx-1.1-mpi_mpich_h835e625_0.tar.bz2":{
 "build":"mpi_mpich_h835e625_0",
@@ -96568,6 +96407,20 @@
 "timestamp":1616055008318,
 "version":"1.6.0"
 },
+"r-dicekriging-1.6.0-r41h96a179c_0.tar.bz2":{
+"build":"r41h96a179c_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-dicekriging",
+"sha256":"893bf3dec14b57b260b0711bb2206e58c7b8e99b869d52c021c19831ff0b056c",
+"size":560366,
+"timestamp":1622310343939,
+"version":"1.6.0"
+},
 "r-diffobj-0.3.4-r36h96a179c_0.tar.bz2":{
 "build":"r36h96a179c_0",
 "build_number":0,
@@ -116533,7 +116386,7 @@
 "libgfortran5 >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "petsc >=3.15.0,<3.16.0a0",
 "suitesparse >=5.7.2,<5.8.0a0"
 ],
@@ -134856,6 +134709,7 @@
 "gfortran_impl_osx-arm64-11.0.0.dev0-h36c711b_18.tar.bz2",
 "gfortran_impl_osx-arm64-11.0.0.dev0-h36c711b_19.tar.bz2",
 "gfortran_impl_osx-arm64-11.0.1.dev0-hdf5ea86_20.tar.bz2",
+"givaro-4.1.1-h178a351_2.tar.bz2",
 "gmp-6.2.0-he1b5a44_0.tar.bz2",
 "gxx_impl_linux-aarch64-7.5.0-h5138952_7.tar.bz2",
 "gxx_impl_linux-aarch64-7.5.0-h5138952_8.tar.bz2",

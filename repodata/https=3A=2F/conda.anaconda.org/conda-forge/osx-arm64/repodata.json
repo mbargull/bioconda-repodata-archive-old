@@ -24325,6 +24325,40 @@
 "timestamp":1612082887991,
 "version":"2.0.5"
 },
+"cypari2-2.1.2-py38hb1a3d41_0.tar.bz2":{
+"build":"py38hb1a3d41_0",
+"build_number":0,
+"depends":[
+"cysignals",
+"gmp >=6.2.1,<7.0a0",
+"pari >=2.11.4,<2.12.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"GPL-2.0-or-later",
+"name":"cypari2",
+"sha256":"acae6984f724f587d9ea2fc0a1fabb737cd7df184d72fc682a6e0fc2d6fd6104",
+"size":1784522,
+"timestamp":1622307326325,
+"version":"2.1.2"
+},
+"cypari2-2.1.2-py39hcf8ccc2_0.tar.bz2":{
+"build":"py39hcf8ccc2_0",
+"build_number":0,
+"depends":[
+"cysignals",
+"gmp >=6.2.1,<7.0a0",
+"pari >=2.11.4,<2.12.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"GPL-2.0-or-later",
+"name":"cypari2",
+"sha256":"8c7cc76f8710c775e527c55b0c23e71d739c3a48a6bc3728d9eb23cf51efd560",
+"size":1753660,
+"timestamp":1622307175828,
+"version":"2.1.2"
+},
 "cyrus-sasl-2.1.27-h34943eb_1.tar.bz2":{
 "build":"h34943eb_1",
 "build_number":1,
@@ -59511,6 +59545,36 @@
 "timestamp":1612258966833,
 "version":"3.4.1"
 },
+"mpich-3.4.2-external_0.tar.bz2":{
+"build":"external_0",
+"build_number":0,
+"depends":[
+"mpi 1.0 mpich"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich",
+"sha256":"0d73cdae34d3ca8d0d0f27fb40b97d3bf7421ef7e3e7bbe02da28a7ac4422070",
+"size":7386,
+"timestamp":1622305716552,
+"track_features":"mpich_external",
+"version":"3.4.2"
+},
+"mpich-3.4.2-hd4b5bf3_100.tar.bz2":{
+"build":"hd4b5bf3_100",
+"build_number":100,
+"depends":[
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"mpi 1.0 mpich"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich",
+"sha256":"bf3f7f2922a7ad2e1c06fbd57de5c07ef02b0cd0dfb757bfb3c8e10edd7c5c61",
+"size":6711251,
+"timestamp":1622307763673,
+"version":"3.4.2"
+},
 "mpich-mpicc-3.3.2-he4d4495_5.tar.bz2":{
 "build":"he4d4495_5",
 "build_number":5,
@@ -59608,6 +59672,20 @@
 "size":7633,
 "timestamp":1612258979243,
 "version":"3.4.1"
+},
+"mpich-mpicc-3.4.2-hbec66e7_100.tar.bz2":{
+"build":"hbec66e7_100",
+"build_number":100,
+"depends":[
+"clang_osx-arm64 11.*",
+"mpich 3.4.2 hd4b5bf3_100"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich-mpicc",
+"sha256":"b313a0ab5446f8409a0aed79659e3d41ee6b598d745936867f6c16fac2a161ac",
+"size":7605,
+"timestamp":1622307776663,
+"version":"3.4.2"
 },
 "mpich-mpicxx-3.3.2-h27ca646_5.tar.bz2":{
 "build":"h27ca646_5",
@@ -59707,6 +59785,20 @@
 "timestamp":1612258983760,
 "version":"3.4.1"
 },
+"mpich-mpicxx-3.4.2-h3422bc3_100.tar.bz2":{
+"build":"h3422bc3_100",
+"build_number":100,
+"depends":[
+"clangxx_osx-arm64 11.*",
+"mpich 3.4.2 hd4b5bf3_100"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich-mpicxx",
+"sha256":"225f470f227d48e93fd5f51eee243210e7b5139022108ec85b8a57dcc224bfc6",
+"size":7580,
+"timestamp":1622307781678,
+"version":"3.4.2"
+},
 "mpich-mpifort-3.3.2-h260d524_5.tar.bz2":{
 "build":"h260d524_5",
 "build_number":5,
@@ -59804,6 +59896,20 @@
 "size":7657,
 "timestamp":1612258988202,
 "version":"3.4.1"
+},
+"mpich-mpifort-3.4.2-hc021e02_100.tar.bz2":{
+"build":"hc021e02_100",
+"build_number":100,
+"depends":[
+"gfortran_osx-arm64 11.*",
+"mpich 3.4.2 hd4b5bf3_100"
+],
+"license":"LicenseRef-MPICH",
+"name":"mpich-mpifort",
+"sha256":"f58754b73249722bc9f408a04fe6849deaad7f24675fa8f7338352f50aff5c4e",
+"size":7657,
+"timestamp":1622307786663,
+"version":"3.4.2"
 },
 "msgpack-python-1.0.0-py38hb801b34_2.tar.bz2":{
 "build":"py38hb801b34_2",
@@ -68541,6 +68647,48 @@
 "size":32189929,
 "timestamp":1606072712751,
 "version":"1.2"
+},
+"pplpy-0.8.6-py38h544d4bf_0.tar.bz2":{
+"build":"py38h544d4bf_0",
+"build_number":0,
+"depends":[
+"cysignals",
+"gmp >=6.2.1,<7.0a0",
+"gmpy2",
+"libcxx >=11.1.0",
+"mpc >=1.1.0,<2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ppl >=1.2,<1.3.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"GPL-3.0-or-later",
+"name":"pplpy",
+"sha256":"b56aab5e55f4656622d47fbef53ad40be2449571d5c8c8a3ed0f102d11da7337",
+"size":303493,
+"timestamp":1622306405878,
+"version":"0.8.6"
+},
+"pplpy-0.8.6-py39h0e3572e_0.tar.bz2":{
+"build":"py39h0e3572e_0",
+"build_number":0,
+"depends":[
+"cysignals",
+"gmp >=6.2.1,<7.0a0",
+"gmpy2",
+"libcxx >=11.1.0",
+"mpc >=1.1.0,<2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ppl >=1.2,<1.3.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"GPL-3.0-or-later",
+"name":"pplpy",
+"sha256":"6d1fdf6f78aae581d8ac78c5cb0a8374881b7bd9c09eb65d7468180a797c7b5b",
+"size":309621,
+"timestamp":1622306441456,
+"version":"0.8.6"
 },
 "pre-commit-2.10.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
