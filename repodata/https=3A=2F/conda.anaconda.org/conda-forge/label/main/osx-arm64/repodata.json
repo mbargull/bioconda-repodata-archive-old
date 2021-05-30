@@ -26620,6 +26620,21 @@
 "timestamp":1616253332120,
 "version":"0.1.9"
 },
+"ecl-21.2.1-hdc823ec_0.tar.bz2":{
+"build":"hdc823ec_0",
+"build_number":0,
+"depends":[
+"bdw-gc >=8.0.4,<9.0a0",
+"gmp >=6.2.1,<7.0a0",
+"readline >=8.0,<9.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"ecl",
+"requires":[],
+"size":4895568,
+"timestamp":1622357423111,
+"version":"21.2.1"
+},
 "eclib-20210503-h3c95382_0.tar.bz2":{
 "build":"h3c95382_0",
 "build_number":0,
@@ -79643,6 +79658,52 @@
 "timestamp":1619775986071,
 "version":"6.0.0"
 },
+"pynac-0.7.27-py38h2fa565d_2.tar.bz2":{
+"build":"py38h2fa565d_2",
+"build_number":2,
+"constrains":[
+"sagelib >8.9"
+],
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"singular >=4.2.0.0p.3,<4.2.0.1a"
+],
+"license":"GPL-2.0-or-later",
+"name":"pynac",
+"requires":[],
+"size":23986373,
+"timestamp":1622361862008,
+"version":"0.7.27"
+},
+"pynac-0.7.27-py39h05b1f55_2.tar.bz2":{
+"build":"py39h05b1f55_2",
+"build_number":2,
+"constrains":[
+"sagelib >8.9"
+],
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"singular >=4.2.0.0p.3,<4.2.0.1a"
+],
+"license":"GPL-2.0-or-later",
+"name":"pynac",
+"requires":[],
+"size":15088531,
+"timestamp":1622361940625,
+"version":"0.7.27"
+},
 "pynacl-1.4.0-py38h30f7421_2.tar.bz2":{
 "build":"py38h30f7421_2",
 "build_number":2,
@@ -93473,6 +93534,26 @@
 "size":102827,
 "timestamp":1610147410068,
 "version":"3.17.2"
+},
+"singular-4.2.0.p3-h3cd5dd1_0.tar.bz2":{
+"build":"h3cd5dd1_0",
+"build_number":0,
+"depends":[
+"cddlib >=1!0.94j",
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"ntl 11.4.3.*",
+"readline >=8.1,<9.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"singular",
+"requires":[],
+"size":17141974,
+"timestamp":1622351161036,
+"version":"4.2.0.p3"
 },
 "sip-4.19.25-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",
