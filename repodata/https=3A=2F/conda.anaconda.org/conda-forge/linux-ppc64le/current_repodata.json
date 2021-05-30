@@ -11080,6 +11080,23 @@
 "timestamp":1606258855255,
 "version":"0.4.5"
 },
+"aws-c-auth-0.5.2-h6ecd096_2.tar.bz2":{
+"build":"h6ecd096_2",
+"build_number":2,
+"depends":[
+"aws-c-cal >=0.5.8,<0.5.9.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.14,<0.9.15.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"ff4c946a766768c2827bc0636bf807f38b48d7277004589335a2af2575706c0c",
+"size":112923,
+"timestamp":1622364633257,
+"version":"0.5.2"
+},
 "aws-c-auth-0.5.2-h7c06f7e_1.tar.bz2":{
 "build":"h7c06f7e_1",
 "build_number":1,
@@ -11782,6 +11799,22 @@
 "size":130164,
 "timestamp":1619882312282,
 "version":"0.9.4"
+},
+"aws-c-mqtt-0.7.6-h6ecd096_3.tar.bz2":{
+"build":"h6ecd096_3",
+"build_number":3,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.14,<0.9.15.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"777b3ede959c090414222ba5fb72ab196c0c78d25bf0a4c3489457cd43a45bcc",
+"size":62314,
+"timestamp":1622364672556,
+"version":"0.7.6"
 },
 "aws-c-mqtt-0.7.6-h7c06f7e_2.tar.bz2":{
 "build":"h7c06f7e_2",
@@ -98744,6 +98777,48 @@
 "size":185342,
 "timestamp":1621634753267,
 "version":"0.2.2"
+},
+"r-grf-1.2.0-r40h6203a36_0.tar.bz2":{
+"build":"r40h6203a36_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-dicekriging",
+"r-lmtest",
+"r-matrix",
+"r-rcpp >=0.12.15",
+"r-rcppeigen",
+"r-sandwich >=2.4_0"
+],
+"license":"GPL-3.0-only",
+"name":"r-grf",
+"sha256":"2f4c81c386ab45e39bfe4c7d64064de691b4355fc690bacfeb086d23605dcf21",
+"size":616685,
+"timestamp":1622365803002,
+"version":"1.2.0"
+},
+"r-grf-1.2.0-r41h6203a36_0.tar.bz2":{
+"build":"r41h6203a36_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-dicekriging",
+"r-lmtest",
+"r-matrix",
+"r-rcpp >=0.12.15",
+"r-rcppeigen",
+"r-sandwich >=2.4_0"
+],
+"license":"GPL-3.0-only",
+"name":"r-grf",
+"sha256":"ba74b0ba25ed6b9fa15c0847ae059f6d607f0814dced037480678c5376f1e5c9",
+"size":629427,
+"timestamp":1622365701705,
+"version":"1.2.0"
 },
 "r-gtools-3.8.2-r36hd2b4baa_0.tar.bz2":{
 "build":"r36hd2b4baa_0",
