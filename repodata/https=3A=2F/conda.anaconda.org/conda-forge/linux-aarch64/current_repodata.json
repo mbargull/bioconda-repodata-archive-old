@@ -42484,20 +42484,20 @@
 "timestamp":1620325849928,
 "version":"2.3"
 },
-"howardhinnant_date-3.0.0-h671e170_0.tar.bz2":{
-"build":"h671e170_0",
+"howardhinnant_date-3.0.1-h0c9349a_0.tar.bz2":{
+"build":"h0c9349a_0",
 "build_number":0,
 "depends":[
-"libcurl >=7.71.1,<8.0a0",
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0"
+"libcurl >=7.77.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
 ],
 "license":"MIT",
 "name":"howardhinnant_date",
-"sha256":"71c34586604a46e5227544c63e6dda60e56b773c6db62c9bd2fe34dcf960a35b",
-"size":81946,
-"timestamp":1596018826193,
-"version":"3.0.0"
+"sha256":"5f9cb13b721fc2cfccccdbb64ec678073c85ad76b679f238090efe75350da157",
+"size":83926,
+"timestamp":1622564078817,
+"version":"3.0.1"
 },
 "htop-3.0.5-h10724fe_0.tar.bz2":{
 "build":"h10724fe_0",
@@ -62077,6 +62077,22 @@
 "sha256":"47adcf8da7f49d377a8add653792f9bd794e6ada079715f891296b3b0d9c748a",
 "size":49756092,
 "timestamp":1622140736605,
+"version":"5.45.0"
+},
+"maxima-5.45.0-haa44c19_1.tar.bz2":{
+"build":"haa44c19_1",
+"build_number":1,
+"depends":[
+"ecl >=21.2.1,<21.2.2.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"readline >=8.1,<9.0a0"
+],
+"license":"GPLv2+",
+"name":"maxima",
+"sha256":"c016cace8f54b31a06c14a6471787bf2735484c2c64af8cc8d4e1f5d1b1296df",
+"size":49730676,
+"timestamp":1622565925141,
 "version":"5.45.0"
 },
 "mesalib-18.0.0-hb17169e_0.tar.bz2":{
@@ -96754,6 +96770,34 @@
 "sha256":"bc7904547bcafdfa8ea522b084449095c5e425bfae84918d78bc268c230e6851",
 "size":1607575,
 "timestamp":1622559615825,
+"version":"8.15"
+},
+"r-forecast-8.15-r41hc9dd72a_0.tar.bz2":{
+"build":"r41hc9dd72a_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-colorspace",
+"r-fracdiff",
+"r-ggplot2 >=2.2.1",
+"r-lmtest",
+"r-magrittr",
+"r-nnet",
+"r-rcpp >=0.11.0",
+"r-rcpparmadillo >=0.2.35",
+"r-timedate",
+"r-tseries",
+"r-urca",
+"r-zoo"
+],
+"license":"GPL-3.0-only",
+"name":"r-forecast",
+"sha256":"0c784fa9f2c2be161198c48046f12e6dd5b9582cfc180e6990ce3f543eba61d6",
+"size":1602587,
+"timestamp":1622560501602,
 "version":"8.15"
 },
 "r-foreign-0.8_81-r40h96a179c_0.tar.bz2":{
