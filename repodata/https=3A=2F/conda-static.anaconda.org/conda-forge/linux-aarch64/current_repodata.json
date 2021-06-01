@@ -15165,33 +15165,19 @@
 "timestamp":1603800719539,
 "version":"2.1.7"
 },
-"cddlib-1!0.94j-h719063d_1001.tar.bz2":{
-"build":"h719063d_1001",
-"build_number":1001,
+"cddlib-1!0.94m-h719063d_0.tar.bz2":{
+"build":"h719063d_0",
+"build_number":0,
 "depends":[
-"gmp >=6.2.0,<7.0a0",
+"gmp >=6.2.1,<7.0a0",
 "libgcc-ng >=7.5.0"
 ],
 "license":"GPLv2",
 "name":"cddlib",
-"sha256":"58e207163ac8edc8ab2e3d55242a6cd95533320ff326e4982e43a382f6f2e25c",
-"size":2096411,
-"timestamp":1605239797063,
-"version":"1!0.94j"
-},
-"cddlib-1!0.94j-he80fd80_1001.tar.bz2":{
-"build":"he80fd80_1001",
-"build_number":1001,
-"depends":[
-"gmp >=6.1.2,<7.0a0",
-"libgcc-ng >=7.3.0"
-],
-"license":"GPLv2",
-"name":"cddlib",
-"sha256":"5ccecef4294f89418ebe15a97708a9e96cbfc82f1d28541951e065e41de4aaa7",
-"size":2088481,
-"timestamp":1572469768869,
-"version":"1!0.94j"
+"sha256":"4a57d8a0b87dd36182712343d9625805e7775cc73cce16a761308ae308857a04",
+"size":1441418,
+"timestamp":1622569384095,
+"version":"1!0.94m"
 },
 "ceres-solver-1.14.0-h0f7e311_12.tar.bz2":{
 "build":"h0f7e311_12",
@@ -23259,6 +23245,22 @@
 "sha256":"bfe706e4f25095c03d875f365a0df9d7e73fbcada9bb93dde4f52b638643485d",
 "size":12660947,
 "timestamp":1622357399067,
+"version":"21.2.1"
+},
+"ecl-21.2.1-hc762edc_1.tar.bz2":{
+"build":"hc762edc_1",
+"build_number":1,
+"depends":[
+"bdw-gc >=8.0.4,<9.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"readline >=8.0,<9.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"ecl",
+"sha256":"4427b59722c6a31d398e7a74f73925c2cb12ee2dd57595f7ef6d317a8a79074f",
+"size":12691040,
+"timestamp":1622575830834,
 "version":"21.2.1"
 },
 "eclib-20210503-h99b25ab_0.tar.bz2":{
@@ -31403,6 +31405,24 @@
 "timestamp":1622295448598,
 "version":"2.68.2"
 },
+"glib-2.68.2-h01db608_2.tar.bz2":{
+"build":"h01db608_2",
+"build_number":2,
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"glib-tools 2.68.2 h01db608_2",
+"libgcc-ng >=9.3.0",
+"libglib 2.68.2 he97b138_2",
+"libstdcxx-ng >=9.3.0",
+"python *"
+],
+"license":"LGPL-2.1-or-later",
+"name":"glib",
+"sha256":"e97f5e07ed28c77c19a79e9a6411d4f59c2841eda63bbcbfbd89489c98ac95f7",
+"size":460521,
+"timestamp":1622574591634,
+"version":"2.68.2"
+},
 "glib-networking-2.68.1-h19eebd0_0.tar.bz2":{
 "build":"h19eebd0_0",
 "build_number":0,
@@ -31448,6 +31468,21 @@
 "sha256":"234a5bb4ec713c2bacc93e893bcefd08585862225c13f60e70ac3f2adb824274",
 "size":93674,
 "timestamp":1622295304056,
+"version":"2.68.2"
+},
+"glib-tools-2.68.2-h01db608_2.tar.bz2":{
+"build":"h01db608_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libglib 2.68.2 he97b138_2",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"glib-tools",
+"sha256":"6dc0a54ae518ea0b917814105bf845dfaef4ad6c8ef770bb188400466e7a9614",
+"size":93707,
+"timestamp":1622574538583,
 "version":"2.68.2"
 },
 "glibmm-2.58.1-h86bba41_1.tar.bz2":{
@@ -42570,142 +42605,6 @@
 "timestamp":1584378142731,
 "version":"0.17.0"
 },
-"httptools-0.1.1-py36h269c3a8_1.tar.bz2":{
-"build":"py36h269c3a8_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"MIT",
-"name":"httptools",
-"sha256":"bd19e4d6dd84bcced98e8da2d2b8c4b7e74571a595a351d4c19b4627e579c1bb",
-"size":101860,
-"timestamp":1606380356016,
-"version":"0.1.1"
-},
-"httptools-0.1.1-py36h269c3a8_2.tar.bz2":{
-"build":"py36h269c3a8_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"MIT",
-"name":"httptools",
-"sha256":"0305b21b5a40fb67f77105f37473e9be7c8c6d3c0c5b69e769431617440d41e0",
-"size":101811,
-"timestamp":1610107071910,
-"version":"0.1.1"
-},
-"httptools-0.1.1-py37h1283c21_2.tar.bz2":{
-"build":"py37h1283c21_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"pypy3.7 >=7.3.3",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73"
-],
-"license":"MIT",
-"name":"httptools",
-"sha256":"de11a34ec50db08bd33f40243f2bde89a04050a36843ec054aa7dbc7efa28249",
-"size":91552,
-"timestamp":1610107127029,
-"version":"0.1.1"
-},
-"httptools-0.1.1-py37hcd4c3ab_1.tar.bz2":{
-"build":"py37hcd4c3ab_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"MIT",
-"name":"httptools",
-"sha256":"fa3c81da81c5d88f5c4e90c7e5bf7a10a30de70e1b6a67b72f605c2c7b12022b",
-"size":101568,
-"timestamp":1606380617003,
-"version":"0.1.1"
-},
-"httptools-0.1.1-py37hcd4c3ab_2.tar.bz2":{
-"build":"py37hcd4c3ab_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"MIT",
-"name":"httptools",
-"sha256":"ee2be6c02d1ae9da4b1ca002e1915e9545267a5ffc9bc101d6d51e376c95e4e1",
-"size":101672,
-"timestamp":1610107266577,
-"version":"0.1.1"
-},
-"httptools-0.1.1-py38h9544abe_1.tar.bz2":{
-"build":"py38h9544abe_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"MIT",
-"name":"httptools",
-"sha256":"4e76367c9f91062dde6620c156eb72196c6bdbc3211a7048528ffb5c5ffa4ab6",
-"size":102618,
-"timestamp":1606380349389,
-"version":"0.1.1"
-},
-"httptools-0.1.1-py38h9544abe_2.tar.bz2":{
-"build":"py38h9544abe_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"MIT",
-"name":"httptools",
-"sha256":"800f273e29ac986408842dbce130efda08e92272e21b81363346f67b3d15c6a4",
-"size":102646,
-"timestamp":1610107554164,
-"version":"0.1.1"
-},
-"httptools-0.1.1-py39h14843e3_1.tar.bz2":{
-"build":"py39h14843e3_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"MIT",
-"name":"httptools",
-"sha256":"4984d543c3d784d4510f3e0c79a244832b9e21affbdad82b1a5d8f91a5095d1f",
-"size":101203,
-"timestamp":1606380619505,
-"version":"0.1.1"
-},
-"httptools-0.1.1-py39h14843e3_2.tar.bz2":{
-"build":"py39h14843e3_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"MIT",
-"name":"httptools",
-"sha256":"c22b7df314fb891ab4a3cb82fa8dbf78e54d7baa60811ef75ec067d3d83794e5",
-"size":101248,
-"timestamp":1610107317500,
-"version":"0.1.1"
-},
 "httptools-0.2.0-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
@@ -53683,6 +53582,28 @@
 "sha256":"c06d900eb7af8c14d0097e2fd44aaa7740369fbde7104a255e047626e8be4246",
 "size":3237991,
 "timestamp":1622295155296,
+"version":"2.68.2"
+},
+"libglib-2.68.2-he97b138_2.tar.bz2":{
+"build":"he97b138_2",
+"build_number":2,
+"constrains":[
+"glib 2.68.2 *_2"
+],
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"libffi >=3.3,<3.4.0a0",
+"libgcc-ng >=9.3.0",
+"libiconv >=1.16,<1.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"pcre >=8.44,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libglib",
+"sha256":"13b6a89642f0dcaab17f0e26a32d3d19840c851c238b8a7c30b57a4dd5c9e4dc",
+"size":3224105,
+"timestamp":1622574484246,
 "version":"2.68.2"
 },
 "libglu-9.0.0-he1b5a44_1001.tar.bz2":{
@@ -119339,6 +119260,20 @@
 "timestamp":1603774719163,
 "version":"2.023.6"
 },
+"sympow-2.023.6-he4aacb0_0.tar.bz2":{
+"build":"he4aacb0_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"pari"
+],
+"license":"BSD-variant",
+"name":"sympow",
+"sha256":"1bd8b3d6daf7ca8915990cdcd10b77da7dd10233baafcace581859f0f13349f5",
+"size":1592788,
+"timestamp":1622574164245,
+"version":"2.023.6"
+},
 "sympy-1.8-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
@@ -124872,95 +124807,57 @@
 "timestamp":1604442161402,
 "version":"2.36"
 },
-"uvicorn-0.13.4-py36h704843e_0.tar.bz2":{
-"build":"py36h704843e_0",
-"build_number":0,
-"depends":[
-"click 7.*",
-"h11 >=0.8",
-"httptools 0.1.*",
-"python >=3.6,<3.7.0a0",
-"python-dotenv >=0.13",
-"python_abi 3.6.* *_cp36m",
-"pyyaml >=5.1",
-"typing_extensions",
-"uvloop >=0.14",
-"watchgod 0.6.*",
-"websockets 8.*"
-],
-"license":"BSD-3-Clause",
-"name":"uvicorn",
-"sha256":"bb56d082b05aef7da070267108997727adc7bc7fdbcf4aa1562e8543930b7310",
-"size":68701,
-"timestamp":1613844714752,
-"version":"0.13.4"
-},
-"uvicorn-0.13.4-py37hd9ded2f_0.tar.bz2":{
+"uvicorn-0.14.0-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
-"click 7.*",
+"asgiref >=3.3.4",
+"click >=7.*",
 "h11 >=0.8",
-"httptools 0.1.*",
 "python >=3.7,<3.8.0a0",
-"python-dotenv >=0.13",
 "python_abi 3.7.* *_cp37m",
-"pyyaml >=5.1",
-"typing_extensions",
-"uvloop >=0.14",
-"watchgod 0.6.*",
-"websockets 8.*"
+"typing-extensions"
 ],
 "license":"BSD-3-Clause",
 "name":"uvicorn",
-"sha256":"b4d083da441728d21be78c07be2cccd23168c62c91d34c9b75a72f1dc577f980",
-"size":68714,
-"timestamp":1613844713121,
-"version":"0.13.4"
+"sha256":"808d9c24e0ba7633b65b2090d9c43ca402bfb67f4ce5ac66bc71bf384d831873",
+"size":73363,
+"timestamp":1622576382727,
+"version":"0.14.0"
 },
-"uvicorn-0.13.4-py38h2063c64_0.tar.bz2":{
+"uvicorn-0.14.0-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
-"click 7.*",
+"asgiref >=3.3.4",
+"click >=7.*",
 "h11 >=0.8",
-"httptools 0.1.*",
 "python >=3.8,<3.9.0a0",
-"python-dotenv >=0.13",
-"python_abi 3.8.* *_cp38",
-"pyyaml >=5.1",
-"uvloop >=0.14",
-"watchgod 0.6.*",
-"websockets 8.*"
+"python_abi 3.8.* *_cp38"
 ],
 "license":"BSD-3-Clause",
 "name":"uvicorn",
-"sha256":"400458ef10370615d178a24b351e57594d1e4258936c49686181f6c5c4c6eeeb",
-"size":69062,
-"timestamp":1613844956131,
-"version":"0.13.4"
+"sha256":"2d2e6785cd7cde082bcd8d4f2fec8fedfc03f7b76a5d725f9edeaf3ccb6d0303",
+"size":73645,
+"timestamp":1622576366561,
+"version":"0.14.0"
 },
-"uvicorn-0.13.4-py39ha65689a_0.tar.bz2":{
+"uvicorn-0.14.0-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
-"click 7.*",
+"asgiref >=3.3.4",
+"click >=7.*",
 "h11 >=0.8",
-"httptools 0.1.*",
 "python >=3.9,<3.10.0a0",
-"python-dotenv >=0.13",
-"python_abi 3.9.* *_cp39",
-"pyyaml >=5.1",
-"uvloop >=0.14",
-"watchgod 0.6.*",
-"websockets 8.*"
+"python_abi 3.9.* *_cp39"
 ],
 "license":"BSD-3-Clause",
 "name":"uvicorn",
-"sha256":"f6129a73d11a84e111eb3edfcf131643675505781a1355a12c05a4c40b9563c6",
-"size":69129,
-"timestamp":1613844951360,
-"version":"0.13.4"
+"sha256":"f75373278b058afefc997ced0107d883130d23650e735a0f9c4680b109f675a6",
+"size":73711,
+"timestamp":1622576381834,
+"version":"0.14.0"
 },
 "uvloop-0.15.2-py37hcd4c3ab_0.tar.bz2":{
 "build":"py37hcd4c3ab_0",
