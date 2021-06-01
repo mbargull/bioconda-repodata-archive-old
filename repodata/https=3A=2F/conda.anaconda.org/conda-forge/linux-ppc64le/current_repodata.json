@@ -85802,7 +85802,7 @@
 "timestamp":1619386223651,
 "version":"1.7.3"
 },
-"pygit2-1.5.0-py36hc33305d_0.tar.bz2":{
+"pygit2-1.6.0-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -85817,12 +85817,12 @@
 ],
 "license":"GPL-2.0-only WITH GCC-exception-2.0",
 "name":"pygit2",
-"sha256":"775d76672934620be73c193b1d3fcd7b107376ee33675e7b5510d224fadd5e20",
-"size":224746,
-"timestamp":1619598297431,
-"version":"1.5.0"
+"sha256":"048ce8e6dc58a3eb93b4158a3083bd3c05a983e6db309d1ebe365c38e7b32d34",
+"size":228110,
+"timestamp":1622558482156,
+"version":"1.6.0"
 },
-"pygit2-1.5.0-py36hfa8c849_0.tar.bz2":{
+"pygit2-1.6.0-py36hfa8c849_0.tar.bz2":{
 "build":"py36hfa8c849_0",
 "build_number":0,
 "depends":[
@@ -85838,12 +85838,12 @@
 ],
 "license":"GPL-2.0-only WITH GCC-exception-2.0",
 "name":"pygit2",
-"sha256":"86139d272286f1cb02e5d0012ea903431321d2df72339d6e7dfbfa41f41bc952",
-"size":203071,
-"timestamp":1619598470723,
-"version":"1.5.0"
+"sha256":"d65bd67e3e2656cb0f867236d678945fa0db81a28da99002be9739f68d003d25",
+"size":203590,
+"timestamp":1622558511990,
+"version":"1.6.0"
 },
-"pygit2-1.5.0-py37h0630641_0.tar.bz2":{
+"pygit2-1.6.0-py37h0630641_0.tar.bz2":{
 "build":"py37h0630641_0",
 "build_number":0,
 "depends":[
@@ -85859,12 +85859,12 @@
 ],
 "license":"GPL-2.0-only WITH GCC-exception-2.0",
 "name":"pygit2",
-"sha256":"171e4ef2ce06ebc90dfc4590f366c89a0bc03fb224558df2dc1b5629a740b3a4",
-"size":203146,
-"timestamp":1619598167251,
-"version":"1.5.0"
+"sha256":"01737972b3256b12cf4f4a7373c6af1895a19b7b48bfeb6ce65343d207ab9779",
+"size":203734,
+"timestamp":1622558512012,
+"version":"1.6.0"
 },
-"pygit2-1.5.0-py37h6642d69_0.tar.bz2":{
+"pygit2-1.6.0-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -85879,12 +85879,12 @@
 ],
 "license":"GPL-2.0-only WITH GCC-exception-2.0",
 "name":"pygit2",
-"sha256":"10d38be5e5b37dc201aed93daa3008981a254a12e41ebbaf57e27cbc096dd70f",
-"size":224246,
-"timestamp":1619598359890,
-"version":"1.5.0"
+"sha256":"2a2909dda4395109dd418e3b3eed2c67e8171ea918071029c3bebb27e73d60ea",
+"size":224994,
+"timestamp":1622558692223,
+"version":"1.6.0"
 },
-"pygit2-1.5.0-py38h98b8a6f_0.tar.bz2":{
+"pygit2-1.6.0-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -85899,12 +85899,12 @@
 ],
 "license":"GPL-2.0-only WITH GCC-exception-2.0",
 "name":"pygit2",
-"sha256":"11f99263d4ff395be2cf55741a73df9deabd27a90f06940e25e0b02bb4700665",
-"size":219171,
-"timestamp":1619598267125,
-"version":"1.5.0"
+"sha256":"abdaa27df72f376174514f9153713a4cadca79b2fdd0873110ab7297fa9e5db0",
+"size":228428,
+"timestamp":1622558482171,
+"version":"1.6.0"
 },
-"pygit2-1.5.0-py39ha810350_0.tar.bz2":{
+"pygit2-1.6.0-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -85919,10 +85919,10 @@
 ],
 "license":"GPL-2.0-only WITH GCC-exception-2.0",
 "name":"pygit2",
-"sha256":"7bfa0ffc3cb9932aa0cb7806ee85d0db181d2c34901c3418272a3399f75be110",
-"size":219518,
-"timestamp":1619598487555,
-"version":"1.5.0"
+"sha256":"7ffd2d0661e0907b0771b588e9d1d79a1453e5b2ec5d72fdf8a0bcb5b015320f",
+"size":224953,
+"timestamp":1622558654267,
+"version":"1.6.0"
 },
 "pygithub-1.44-py36h9f0ad1d_0.tar.bz2":{
 "build":"py36h9f0ad1d_0",
@@ -100939,6 +100939,24 @@
 "timestamp":1622544820218,
 "version":"0.59.0"
 },
+"r-mgcv-1.8_36-r40hff0e79f_0.tar.bz2":{
+"build":"r40hff0e79f_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"r-base >=4.0,<4.1.0a0",
+"r-matrix",
+"r-nlme >=3.1_64"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-mgcv",
+"sha256":"09f5c1172a061bc9d1cfd7818e77d948119187591abeba9189ed5301f37ad16c",
+"size":3152119,
+"timestamp":1622554889219,
+"version":"1.8_36"
+},
 "r-mgcv-1.8_36-r41hff0e79f_0.tar.bz2":{
 "build":"r41hff0e79f_0",
 "build_number":0,
@@ -108286,6 +108304,20 @@
 "size":240012,
 "timestamp":1617262294570,
 "version":"2021.04.01"
+},
+"re2-2021.06.01-h3b9df90_0.tar.bz2":{
+"build":"h3b9df90_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"re2",
+"sha256":"01056ee0a0fd7f23fc6ca4f07317ad7f1af8e580388f4eb0c80357bfd6ec1064",
+"size":240224,
+"timestamp":1622557953037,
+"version":"2021.06.01"
 },
 "readline-8.1-h5c45dff_0.tar.bz2":{
 "build":"h5c45dff_0",
@@ -123711,7 +123743,7 @@
 "timestamp":1606568389135,
 "version":"0.6.6"
 },
-"viztracer-0.13.2-py36hc33305d_0.tar.bz2":{
+"viztracer-0.13.3-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -123723,12 +123755,12 @@
 ],
 "license":"Apache-2.0",
 "name":"viztracer",
-"sha256":"9a3ff575256a31198a60274757e9c0484479b86f7bde21bfdcb55eb36c81851a",
-"size":6061247,
-"timestamp":1621919497784,
-"version":"0.13.2"
+"sha256":"361d3f91c600d78c0ebc0d9251588195cd93ea4ad4c80b9986a0f90a01495b16",
+"size":6122886,
+"timestamp":1622558679894,
+"version":"0.13.3"
 },
-"viztracer-0.13.2-py37h6642d69_0.tar.bz2":{
+"viztracer-0.13.3-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -123740,12 +123772,12 @@
 ],
 "license":"Apache-2.0",
 "name":"viztracer",
-"sha256":"71f3b08f0ee137541e39954cc89a799dec46478392fa54a4af3761a4257f1614",
-"size":6056641,
-"timestamp":1621919509259,
-"version":"0.13.2"
+"sha256":"a29c56e6697eeaa458da1688a1c39ec8b54711fcb11e95223b03b02d14c4a747",
+"size":6081514,
+"timestamp":1622558657987,
+"version":"0.13.3"
 },
-"viztracer-0.13.2-py38h98b8a6f_0.tar.bz2":{
+"viztracer-0.13.3-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -123757,12 +123789,12 @@
 ],
 "license":"Apache-2.0",
 "name":"viztracer",
-"sha256":"95164780c04d40c7b22cbe4b5b7d3cfaf586945e5e2017680d62d9f07bc2f750",
-"size":6085635,
-"timestamp":1621919455457,
-"version":"0.13.2"
+"sha256":"206b1df4b9387229dc1c1ba7b2dacf9c420149b9cb587675cddee4c5ca68a666",
+"size":6096969,
+"timestamp":1622558678845,
+"version":"0.13.3"
 },
-"viztracer-0.13.2-py39ha810350_0.tar.bz2":{
+"viztracer-0.13.3-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -123774,10 +123806,10 @@
 ],
 "license":"Apache-2.0",
 "name":"viztracer",
-"sha256":"8012cea067e38a13209047284a22ecf374f248916d6505cf661b431b56679b84",
-"size":6081967,
-"timestamp":1621919543241,
-"version":"0.13.2"
+"sha256":"c3efaada64dbf690165b8c9686511bbe8702d75fc3ab9f3d4ae34f8ef3273db1",
+"size":6087086,
+"timestamp":1622558639491,
+"version":"0.13.3"
 },
 "volk-2.4.1-h3b9df90_2.tar.bz2":{
 "build":"h3b9df90_2",
