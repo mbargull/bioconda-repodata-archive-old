@@ -62718,6 +62718,22 @@
 "timestamp":1622563766230,
 "version":"5.45.0"
 },
+"maxima-5.45.0-h4dd1065_2.tar.bz2":{
+"build":"h4dd1065_2",
+"build_number":2,
+"depends":[
+"ecl >=21.2.1,<21.2.2.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"readline >=8.1,<9.0a0"
+],
+"license":"GPLv2+",
+"name":"maxima",
+"sha256":"055cfe632f99b67b9485a50084f70aea2f59ef2f7128f48e983f9238742ebc7e",
+"size":50466492,
+"timestamp":1622588003454,
+"version":"5.45.0"
+},
 "mesalib-18.0.0-h035bdd9_0.tar.bz2":{
 "build":"h035bdd9_0",
 "build_number":0,
@@ -75424,6 +75440,36 @@
 "sha256":"b879882ab40f4ed97838cdb776d0b7f600204467f88384401b1c441e918fb6bf",
 "size":260084,
 "timestamp":1622585973534,
+"version":"3.5.3"
+},
+"orjson-3.5.3-py38h98b8a6f_0.tar.bz2":{
+"build":"py38h98b8a6f_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"orjson",
+"sha256":"e9e18182ae71ac063638983a88f9aabda2f955fa35c74fa188a2687c7e1ef83e",
+"size":260030,
+"timestamp":1622586022925,
+"version":"3.5.3"
+},
+"orjson-3.5.3-py39ha810350_0.tar.bz2":{
+"build":"py39ha810350_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"orjson",
+"sha256":"fdf35c19522e014c2cabeae90b8cbad8902ea0ac93725bd0f1f224bc64e32924",
+"size":260145,
+"timestamp":1622586039269,
 "version":"3.5.3"
 },
 "orocos-kdl-1.4.0-h3b9df90_0.tar.bz2":{
@@ -123292,6 +123338,25 @@
 "sha256":"970efc5ecd957b874f0af8ad2c693110debcb34bde2110709c3bcf2323032a3e",
 "size":73598,
 "timestamp":1622576461822,
+"version":"0.14.0"
+},
+"uvicorn-0.14.0-py37hadc05a3_0.tar.bz2":{
+"build":"py37hadc05a3_0",
+"build_number":0,
+"depends":[
+"asgiref >=3.3.4",
+"click >=7.*",
+"h11 >=0.8",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"typing-extensions"
+],
+"license":"BSD-3-Clause",
+"name":"uvicorn",
+"sha256":"6558ffa770e20217a73599a36f01d88b648d6b2a4a036a1d264a31a058e93089",
+"size":73873,
+"timestamp":1622588356780,
 "version":"0.14.0"
 },
 "uvicorn-0.14.0-py38hf8b3453_0.tar.bz2":{
