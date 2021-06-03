@@ -9637,20 +9637,20 @@
 "timestamp":1593446318100,
 "version":"2.10"
 },
-"idna-3.1-pyhd3eb1b0_0.conda":{
+"idna-3.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python"
+"python >=3.5"
 ],
-"legacy_bz2_md5":"4b7e6afb47a5f463856a740b64174f70",
-"license":"BSD Like",
+"legacy_bz2_md5":"446c2327cab1f48ed9f7313e155363ab",
+"license":"BSD-3-Clause",
 "name":"idna",
 "noarch":"python",
-"sha256":"b8e9a795b816753859f7292f397170b9db2a75b7a0e8c222cd398e9a1b6c3635",
-"size":47881,
-"timestamp":1609784822983,
-"version":"3.1"
+"sha256":"b835873226dfd0ece19def4f0ac8d860a721776cb3391a215ea3a31605a61801",
+"size":49306,
+"timestamp":1622654422989,
+"version":"3.2"
 },
 "ijson-3.1.4-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -9790,6 +9790,22 @@
 "size":11357,
 "timestamp":1617877576196,
 "version":"3.10.0"
+},
+"importlib_resources-5.1.4-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"python >=3.6",
+"zipp >=3.1.0"
+],
+"legacy_bz2_md5":"9a1addf69962b4db29d5f912745b0e90",
+"license":"Apache-2.0",
+"name":"importlib_resources",
+"noarch":"python",
+"sha256":"d9820be4258bf1db8e41a6cff75587142691a3e5400b494991b09225193dcbdb",
+"size":21948,
+"timestamp":1622586359212,
+"version":"5.1.4"
 },
 "inequality-1.0.0-py_0.conda":{
 "build":"py_0",
