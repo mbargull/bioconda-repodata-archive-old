@@ -25,19 +25,6 @@
 "timestamp":1600438773807,
 "version":"3.3.3"
 },
-"abseil-cpp-20210324.0-hbdafb3b_0.tar.bz2":{
-"build":"hbdafb3b_0",
-"build_number":0,
-"depends":[
-"libcxx >=11.1.0"
-],
-"license":"Apache-2.0",
-"name":"abseil-cpp",
-"sha256":"395118018cb375ce91308971cc4009191260716c9ed2d05fc5825e18e9c4a804",
-"size":969122,
-"timestamp":1617048541849,
-"version":"20210324.0"
-},
 "abseil-cpp-20210324.1-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
 "build_number":0,
@@ -13279,62 +13266,24 @@
 "timestamp":1616695598109,
 "version":"1.68.0"
 },
-"google-cloud-cpp-1.27.0-h3d5f094_0.tar.bz2":{
-"build":"h3d5f094_0",
+"google-cloud-cpp-1.28.0-hd3ca28f_0.tar.bz2":{
+"build":"hd3ca28f_0",
 "build_number":0,
 "depends":[
-"abseil-cpp >=20210324.0,<20210324.1.0a0",
-"grpc-cpp >=1.37.1,<1.38.0a0",
-"libcrc32c >=1.1.1,<1.2.0a0",
-"libcurl >=7.76.1,<8.0a0",
-"libcxx >=11.1.0",
-"libprotobuf >=3.15.8,<3.16.0a0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"google-cloud-cpp",
-"sha256":"bd887e1c805927f0e06ca5d0301ce7bd3cf2a9c4375ff76269c61db6355aa8ed",
-"size":7515133,
-"timestamp":1620119389896,
-"version":"1.27.0"
-},
-"google-cloud-cpp-1.27.0-h4042212_1.tar.bz2":{
-"build":"h4042212_1",
-"build_number":1,
-"depends":[
-"abseil-cpp >=20210324.0,<20210324.1.0a0",
-"grpc-cpp >=1.37.1,<1.38.0a0",
-"libcrc32c >=1.1.1,<1.2.0a0",
-"libcurl >=7.76.1,<8.0a0",
-"libcxx >=11.1.0",
-"libprotobuf >=3.16.0,<3.17.0a0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"google-cloud-cpp",
-"sha256":"228901bdd8b739443eb2d97a0bf23bacb6a4455aec1953312356112dd018d89a",
-"size":7440459,
-"timestamp":1620547100165,
-"version":"1.27.0"
-},
-"google-cloud-cpp-1.27.0-h8f59029_2.tar.bz2":{
-"build":"h8f59029_2",
-"build_number":2,
-"depends":[
 "abseil-cpp >=20210324.1,<20210324.2.0a0",
-"grpc-cpp >=1.37.1,<1.38.0a0",
+"grpc-cpp >=1.38.0,<1.39.0a0",
 "libcrc32c >=1.1.1,<1.2.0a0",
-"libcurl >=7.76.1,<8.0a0",
+"libcurl >=7.77.0,<8.0a0",
 "libcxx >=11.1.0",
 "libprotobuf >=3.16.0,<3.17.0a0",
 "openssl >=1.1.1k,<1.1.2a"
 ],
 "license":"Apache-2.0",
 "name":"google-cloud-cpp",
-"sha256":"8f1dafd872009ddd81247d18a12854fdeb61eca54ebe5adcacad0d458462003d",
-"size":7503136,
-"timestamp":1620667763125,
-"version":"1.27.0"
+"sha256":"6cede3a450f67afff3cdd024377addc0265d12053002320e5aeb04beed9b513c",
+"size":7764274,
+"timestamp":1622675721687,
+"version":"1.28.0"
 },
 "google-crc32c-1.1.2-py38h10a7082_0.tar.bz2":{
 "build":"py38h10a7082_0",
@@ -16218,7 +16167,7 @@
 "timestamp":1607987049087,
 "version":"6.3.0"
 },
-"ipython-7.24.0-py38h2cb4d76_0.tar.bz2":{
+"ipython-7.24.1-py38h2cb4d76_0.tar.bz2":{
 "build":"py38h2cb4d76_0",
 "build_number":0,
 "depends":[
@@ -16238,12 +16187,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipython",
-"sha256":"1ff7e1d7e84355bb2e157c7c4a0c6bc4476db437d169cee3c48a7088ea28bb06",
-"size":1176492,
-"timestamp":1622239262664,
-"version":"7.24.0"
+"sha256":"26ec92aadb35497dba140c85d57a70e9feacc4b297b66d70c8edf56880e1ada8",
+"size":1177013,
+"timestamp":1622679469715,
+"version":"7.24.1"
 },
-"ipython-7.24.0-py39h32adebf_0.tar.bz2":{
+"ipython-7.24.1-py39h32adebf_0.tar.bz2":{
 "build":"py39h32adebf_0",
 "build_number":0,
 "depends":[
@@ -16263,10 +16212,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipython",
-"sha256":"f3f0fc00bf6d2c7e1d06ef098329eb0782997487ad804187748a9ee4731aecfb",
-"size":1174301,
-"timestamp":1622239247236,
-"version":"7.24.0"
+"sha256":"49a40409893ab3ac8b4349e012eea5aa0b1248592b1e5f7afd2bf0f806c1a7ad",
+"size":1173784,
+"timestamp":1622679526377,
+"version":"7.24.1"
 },
 "isl-0.22.1-hb904e53_2.tar.bz2":{
 "build":"hb904e53_2",
@@ -22097,16 +22046,30 @@
 "timestamp":1621886679944,
 "version":"3.17.1"
 },
-"libprotobuf-static-3.17.1-hce30654_0.tar.bz2":{
+"libprotobuf-3.17.2-hccf11d3_0.tar.bz2":{
+"build":"hccf11d3_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libprotobuf",
+"sha256":"49b3ab7293f64d3e577651e08b1330eceb038f6f9a71a6ed7699237fd7be9cbd",
+"size":2207784,
+"timestamp":1622681002856,
+"version":"3.17.2"
+},
+"libprotobuf-static-3.17.2-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
 "depends":[],
 "license":"BSD-3-Clause",
 "name":"libprotobuf-static",
-"sha256":"b2036039e181ff3a1bd34fa49d6b803139ed77880a7480bb3ca0dce79e88dacc",
-"size":2569965,
-"timestamp":1621886700659,
-"version":"3.17.1"
+"sha256":"4280b7daf1a36e368f2e51b7f07fbe95ed9046f5c0cc11f45dd1e0bfc2aede03",
+"size":2572227,
+"timestamp":1622681010408,
+"version":"3.17.2"
 },
 "libpython-static-3.9.4-hbdafb3b_0_cpython.tar.bz2":{
 "build":"hbdafb3b_0_cpython",
