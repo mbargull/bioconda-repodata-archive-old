@@ -61619,6 +61619,21 @@
 "timestamp":1622307786663,
 "version":"3.4.2"
 },
+"msgpack-c-3.3.0-h0f81e16_3.tar.bz2":{
+"build":"h0f81e16_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSL-1.0",
+"name":"msgpack-c",
+"requires":[],
+"size":293814,
+"timestamp":1622798846973,
+"version":"3.3.0"
+},
 "msgpack-python-1.0.0-py38hb801b34_2.tar.bz2":{
 "build":"py38hb801b34_2",
 "build_number":2,
@@ -65847,6 +65862,27 @@
 "timestamp":1619769162453,
 "version":"7.5.1"
 },
+"openmm-7.5.1-py38h16587b9_1_apple.tar.bz2":{
+"build":"py38h16587b9_1_apple",
+"build_number":1,
+"constrains":[
+"ocl_icd_wrapper_apple      ==9999999999",
+"khronos-opencl-icd-loader  ==9999999999"
+],
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openmm",
+"requires":[],
+"size":15368426,
+"timestamp":1622800061181,
+"version":"7.5.1"
+},
 "openmm-7.5.1-py38h7e504e9_0_khronos.tar.bz2":{
 "build":"py38h7e504e9_0_khronos",
 "build_number":0,
@@ -65864,6 +65900,26 @@
 "requires":[],
 "size":15292761,
 "timestamp":1619769192226,
+"track_features":"openmm_opencl_khronos",
+"version":"7.5.1"
+},
+"openmm-7.5.1-py38h7e504e9_1_khronos.tar.bz2":{
+"build":"py38h7e504e9_1_khronos",
+"build_number":1,
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"khronos-opencl-icd-loader >=2021.4.29",
+"libcxx >=11.1.0",
+"numpy",
+"ocl_icd_wrapper_apple",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openmm",
+"requires":[],
+"size":15325340,
+"timestamp":1622800120850,
 "track_features":"openmm_opencl_khronos",
 "version":"7.5.1"
 },
@@ -65887,6 +65943,26 @@
 "track_features":"openmm_opencl_khronos",
 "version":"7.5.1"
 },
+"openmm-7.5.1-py39h9d5585d_1_khronos.tar.bz2":{
+"build":"py39h9d5585d_1_khronos",
+"build_number":1,
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"khronos-opencl-icd-loader >=2021.4.29",
+"libcxx >=11.1.0",
+"numpy",
+"ocl_icd_wrapper_apple",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openmm",
+"requires":[],
+"size":15310634,
+"timestamp":1622799881574,
+"track_features":"openmm_opencl_khronos",
+"version":"7.5.1"
+},
 "openmm-7.5.1-py39hce39229_0_apple.tar.bz2":{
 "build":"py39hce39229_0_apple",
 "build_number":0,
@@ -65906,6 +65982,27 @@
 "requires":[],
 "size":15263413,
 "timestamp":1619769184024,
+"version":"7.5.1"
+},
+"openmm-7.5.1-py39hce39229_1_apple.tar.bz2":{
+"build":"py39hce39229_1_apple",
+"build_number":1,
+"constrains":[
+"khronos-opencl-icd-loader  ==9999999999",
+"ocl_icd_wrapper_apple      ==9999999999"
+],
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openmm",
+"requires":[],
+"size":15305935,
+"timestamp":1622799959519,
 "version":"7.5.1"
 },
 "openmpi-4.0.5-h385ff2b_3.tar.bz2":{
