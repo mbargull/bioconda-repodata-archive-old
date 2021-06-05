@@ -11669,6 +11669,21 @@
 "timestamp":1622288577051,
 "version":"0.7.6"
 },
+"aws-c-mqtt-0.7.6-hf1d9568_4.tar.bz2":{
+"build":"hf1d9568_4",
+"build_number":4,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.1,<0.10.2.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"requires":[],
+"size":50736,
+"timestamp":1622873568990,
+"version":"0.7.6"
+},
 "aws-checksums-0.1.10-h2b027d1_0.tar.bz2":{
 "build":"h2b027d1_0",
 "build_number":0,
@@ -59055,6 +59070,38 @@
 "size":4278242,
 "timestamp":1605778252301,
 "version":"5.1.0"
+},
+"mfem-4.2-mpi_mpich_hd20d6c6_5.tar.bz2":{
+"build":"mpi_mpich_hd20d6c6_5",
+"build_number":5,
+"depends":[
+"hypre",
+"libcxx >=11.1.0",
+"metis >=5.1.0,<5.2.0a0",
+"mpich >=3.4.2,<4.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mfem",
+"requires":[],
+"size":2569099,
+"timestamp":1622871661689,
+"version":"4.2"
+},
+"mfem-4.2-mpi_openmpi_h49c2321_5.tar.bz2":{
+"build":"mpi_openmpi_h49c2321_5",
+"build_number":5,
+"depends":[
+"hypre",
+"libcxx >=11.1.0",
+"metis >=5.1.0,<5.2.0a0",
+"openmpi >=4.1.1,<5.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mfem",
+"requires":[],
+"size":2845816,
+"timestamp":1622871655254,
+"version":"4.2"
 },
 "micromamba-0.11.0-0.tar.bz2":{
 "build":"0",
