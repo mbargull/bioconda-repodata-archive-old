@@ -54618,6 +54618,24 @@
 "timestamp":1620068641547,
 "version":"2.50.5"
 },
+"librsvg-2.50.7-h957afdb_0.tar.bz2":{
+"build":"h957afdb_0",
+"build_number":0,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"gdk-pixbuf >=2.42.6,<3.0a0",
+"gettext >=0.19.8.1,<1.0a0",
+"libglib >=2.68.2,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"pango >=1.48.5,<1.49.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"librsvg",
+"requires":[],
+"size":5048312,
+"timestamp":1623020268684,
+"version":"2.50.7"
+},
 "librttopo-1.1.0-hf7bfa32_6.tar.bz2":{
 "build":"hf7bfa32_6",
 "build_number":6,
@@ -81183,6 +81201,36 @@
 "size":73417,
 "timestamp":1618503472714,
 "version":"1.20.0"
+},
+"pycairo-1.20.1-py38h13f96a6_0.tar.bz2":{
+"build":"py38h13f96a6_0",
+"build_number":0,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-only OR MPL-1.1",
+"name":"pycairo",
+"requires":[],
+"size":73434,
+"timestamp":1623018710298,
+"version":"1.20.1"
+},
+"pycairo-1.20.1-py39h551958b_0.tar.bz2":{
+"build":"py39h551958b_0",
+"build_number":0,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-2.1-only OR MPL-1.1",
+"name":"pycairo",
+"requires":[],
+"size":73620,
+"timestamp":1623018701318,
+"version":"1.20.1"
 },
 "pycbf-0.9.6.3-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
@@ -108374,6 +108422,21 @@
 "size":900265,
 "timestamp":1621432506312,
 "version":"1.7.1"
+},
+"xorg-libx11-1.7.2-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[
+"libxcb 1.*",
+"xorg-kbproto",
+"xorg-xproto"
+],
+"license":"MIT",
+"name":"xorg-libx11",
+"requires":[],
+"size":871882,
+"timestamp":1623020888547,
+"version":"1.7.2"
 },
 "xorg-libxau-1.0.9-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
