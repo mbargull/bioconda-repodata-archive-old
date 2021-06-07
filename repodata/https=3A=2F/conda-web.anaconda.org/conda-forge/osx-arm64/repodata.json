@@ -23186,6 +23186,44 @@
 "timestamp":1622770881173,
 "version":"2021.6.3"
 },
+"conda-verify-3.1.1-py38h10201cd_1003.tar.bz2":{
+"build":"py38h10201cd_1003",
+"build_number":1003,
+"depends":[
+"click",
+"future",
+"jinja2",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"six"
+],
+"license":"BSD 3-Clause",
+"name":"conda-verify",
+"requires":[],
+"size":33740,
+"timestamp":1623098418598,
+"version":"3.1.1"
+},
+"conda-verify-3.1.1-py39h2804cbe_1003.tar.bz2":{
+"build":"py39h2804cbe_1003",
+"build_number":1003,
+"depends":[
+"click",
+"future",
+"jinja2",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"six"
+],
+"license":"BSD 3-Clause",
+"name":"conda-verify",
+"requires":[],
+"size":33616,
+"timestamp":1623098436462,
+"version":"3.1.1"
+},
 "console_bridge-1.0.1-h260d524_0.tar.bz2":{
 "build":"h260d524_0",
 "build_number":0,
@@ -97718,6 +97756,21 @@
 "timestamp":1618302184635,
 "version":"4.19.25"
 },
+"sixs-1.1.2-hbec66e7_2.tar.bz2":{
+"build":"hbec66e7_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"MIT",
+"name":"sixs",
+"requires":[],
+"size":493491,
+"timestamp":1623098549820,
+"version":"1.1.2"
+},
 "sleef-3.5.1-h27ca646_1.tar.bz2":{
 "build":"h27ca646_1",
 "build_number":1,
@@ -103343,6 +103396,38 @@
 "size":62178,
 "timestamp":1621900121581,
 "version":"0.7.2"
+},
+"torchsparse-1.3.0-py38h3985636_6.tar.bz2":{
+"build":"py38h3985636_6",
+"build_number":6,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytorch-cpu >=1.8.0,<1.8.1.0a0"
+],
+"license":"MIT",
+"name":"torchsparse",
+"requires":[],
+"size":117850,
+"timestamp":1623104117517,
+"version":"1.3.0"
+},
+"torchsparse-1.3.0-py39hc5f5ce6_6.tar.bz2":{
+"build":"py39hc5f5ce6_6",
+"build_number":6,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytorch-cpu >=1.8.0,<1.8.1.0a0"
+],
+"license":"MIT",
+"name":"torchsparse",
+"requires":[],
+"size":123415,
+"timestamp":1623104106365,
+"version":"1.3.0"
 },
 "torchvision-0.8.2-h10c60ff_0_cpu.tar.bz2":{
 "build":"h10c60ff_0_cpu",
