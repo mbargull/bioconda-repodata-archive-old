@@ -20273,7 +20273,7 @@
 "timestamp":1589287022963,
 "version":"3.16.4"
 },
-"cmd2-1.5.0-py36h270354c_0.tar.bz2":{
+"cmd2-2.0.1-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -20284,16 +20284,17 @@
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
 "setuptools",
+"typing_extensions >=1.6.0",
 "wcwidth >=0.1.7"
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"941be2df659dccf6a7a4b829e203c504610a544c8a4a290b9145e24524eddfba",
-"size":184154,
-"timestamp":1616046795006,
-"version":"1.5.0"
+"sha256":"d926942be2d2ce660b1177a909b220cd1355f46bdf52205017922db6ca6c6d22",
+"size":191332,
+"timestamp":1623046173526,
+"version":"2.0.1"
 },
-"cmd2-1.5.0-py37h35e4cab_0.tar.bz2":{
+"cmd2-2.0.1-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -20304,16 +20305,17 @@
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
 "setuptools",
+"typing_extensions >=1.6.0",
 "wcwidth >=0.1.7"
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"3c49647b1947f98916a1397e87534864e4f451b9fc86f7caa1fd436efc14dca3",
-"size":184393,
-"timestamp":1616046833922,
-"version":"1.5.0"
+"sha256":"c4a2fb23ca33f6e886997c3b25a367ee68c63753719cc1f300c611d120ce9349",
+"size":191659,
+"timestamp":1623046228718,
+"version":"2.0.1"
 },
-"cmd2-1.5.0-py38hf8b3453_0.tar.bz2":{
+"cmd2-2.0.1-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -20327,12 +20329,12 @@
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"98ae37d2135dd9556f1e27704c81e481ae86e71ca4cd2ef29886246d13d73f6b",
-"size":184754,
-"timestamp":1616046793851,
-"version":"1.5.0"
+"sha256":"4c559ff32fa0b8979880129c95b135481fd67b139939ad28c32f389ff62ecced",
+"size":192237,
+"timestamp":1623046187767,
+"version":"2.0.1"
 },
-"cmd2-1.5.0-py39hc1b9086_0.tar.bz2":{
+"cmd2-2.0.1-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -20346,10 +20348,10 @@
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"4bfa9a4ff96b78472081123056f75a112d197900689c0b18b0c60f03e7dea0f8",
-"size":185585,
-"timestamp":1616046850895,
-"version":"1.5.0"
+"sha256":"93fbe5fb07c5abe33ad39a14881bce68c0d523244a7347e9be6c766096015bf7",
+"size":192617,
+"timestamp":1623046235427,
+"version":"2.0.1"
 },
 "cmreshandler-1.0.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -65235,6 +65237,32 @@
 "size":60753100,
 "timestamp":1616528563874,
 "version":"100.3.1"
+},
+"mongodb-4.2.14-h0773bf8_3.tar.bz2":{
+"build":"h0773bf8_3",
+"build_number":3,
+"depends":[
+"abseil-cpp >=20210324.2,<20210324.3.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"icu >=68.1,<69.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0",
+"openssl >=1.1.1k,<1.1.2a",
+"pcre >=8.44,<9.0a0",
+"snappy >=1.1.8,<2.0a0",
+"sqlite >=3.35.5,<4.0a0",
+"yaml-cpp >=0.6.3,<0.6.4.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"license":"SSPL-1.0",
+"name":"mongodb",
+"sha256":"bed2e16df1a6dbf9f2e0d31211cb0346beb99009f634bf34e60f002e95480f86",
+"size":45632589,
+"timestamp":1623041342342,
+"version":"4.2.14"
 },
 "mongodb-4.2.14-h6761140_1.tar.bz2":{
 "build":"h6761140_1",
