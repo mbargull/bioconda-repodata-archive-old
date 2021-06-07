@@ -766,7 +766,7 @@
 "libffi >=3.3,<3.4.0a0",
 "libpng >=1.6.37,<1.7.0a0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -791,7 +791,7 @@
 "libffi >=3.3,<3.4.0a0",
 "libpng >=1.6.37,<1.7.0a0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -40285,7 +40285,7 @@
 "libblas >=3.9.0,<4.0a0",
 "libcxx >=11.1.0",
 "liblapack >=3.9.0,<4.0a0",
-"mpich >=3.4,<3.5.0a0"
+"mpich >=3.4,<4.0.0a0"
 ],
 "license":"Apache-2.0",
 "name":"hypre",
@@ -40317,7 +40317,7 @@
 "libblas >=3.9.0,<4.0a0",
 "libcxx >=11.1.0",
 "liblapack >=3.9.0,<4.0a0",
-"mpich >=3.4,<3.5.0a0"
+"mpich >=3.4,<4.0.0a0"
 ],
 "license":"Apache-2.0",
 "name":"hypre",
@@ -40333,7 +40333,7 @@
 "libblas >=3.9.0,<4.0a0",
 "libcxx >=11.1.0",
 "liblapack >=3.9.0,<4.0a0",
-"mpich >=3.4,<3.5.0a0"
+"mpich >=3.4,<4.0.0a0"
 ],
 "license":"Apache-2.0",
 "name":"hypre",
@@ -54556,20 +54556,6 @@
 "timestamp":1616780167248,
 "version":"0.7.18"
 },
-"libsolv-0.7.19-hccf11d3_1.tar.bz2":{
-"build":"hccf11d3_1",
-"build_number":1,
-"depends":[
-"libcxx >=11.1.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"libsolv",
-"sha256":"82a2bc351169f39f776d7bc8e4b30a640c5d27630dc8f90c71cf752251dafc52",
-"size":394504,
-"timestamp":1622808303155,
-"version":"0.7.19"
-},
 "libsolv-static-0.7.14-h74e0e61_5.tar.bz2":{
 "build":"h74e0e61_5",
 "build_number":5,
@@ -54659,21 +54645,6 @@
 "size":316421,
 "timestamp":1616780187264,
 "version":"0.7.18"
-},
-"libsolv-static-0.7.19-hccf11d3_1.tar.bz2":{
-"build":"hccf11d3_1",
-"build_number":1,
-"depends":[
-"libcxx >=11.1.0",
-"libsolv 0.7.19 hccf11d3_1",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"libsolv-static",
-"sha256":"661970de315635ce88f36edbfea230752cf84228104be32a879a24415d102631",
-"size":319223,
-"timestamp":1622808326380,
-"version":"0.7.19"
 },
 "libspatialindex-1.9.3-h9f76cd9_3.tar.bz2":{
 "build":"h9f76cd9_3",
@@ -110160,6 +110131,8 @@
 "jupyter_server-1.2.3-py39h2804cbe_0.tar.bz2",
 "jupyter_server-1.2.3-py39h2804cbe_1.tar.bz2",
 "libcxx-12.0.0-h168391b_0.tar.bz2",
+"libsolv-0.7.19-hccf11d3_1.tar.bz2",
+"libsolv-static-0.7.19-hccf11d3_1.tar.bz2",
 "matplotlib-3.4.0-py38h150bfb4_0.tar.bz2",
 "matplotlib-3.4.0-py39hdf13c20_0.tar.bz2",
 "orjson-3.4.7-py38h30f7421_0.tar.bz2",

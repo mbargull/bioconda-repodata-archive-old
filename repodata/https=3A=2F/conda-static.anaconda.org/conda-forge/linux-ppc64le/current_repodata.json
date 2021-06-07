@@ -4991,7 +4991,7 @@
 "libpng >=1.6.37,<1.7.0a0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.17.5,<2.0a0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
@@ -5019,7 +5019,7 @@
 "libpng >=1.6.37,<1.7.0a0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.17.5,<2.0a0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
@@ -5047,7 +5047,7 @@
 "libpng >=1.6.37,<1.7.0a0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.17.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -5075,7 +5075,7 @@
 "libpng >=1.6.37,<1.7.0a0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -45460,7 +45460,7 @@
 "libgcc-ng >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0"
+"mpich >=3.4,<4.0.0a0"
 ],
 "license":"Apache-2.0",
 "name":"hypre",
@@ -45494,7 +45494,7 @@
 "libgcc-ng >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0"
+"mpich >=3.4,<4.0.0a0"
 ],
 "license":"Apache-2.0",
 "name":"hypre",
@@ -45511,7 +45511,7 @@
 "libgcc-ng >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0"
+"mpich >=3.4,<4.0.0a0"
 ],
 "license":"Apache-2.0",
 "name":"hypre",
@@ -59786,9 +59786,9 @@
 "timestamp":1600956893390,
 "version":"1.0.18"
 },
-"libsolv-0.7.19-h690f14c_1.tar.bz2":{
-"build":"h690f14c_1",
-"build_number":1,
+"libsolv-0.7.18-h690f14c_0.tar.bz2":{
+"build":"h690f14c_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -59796,26 +59796,26 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libsolv",
-"sha256":"8ebd8d6562ff4f6b6f33fb17987987e3da5dd171e3fb28ab76a962ec1661e45b",
-"size":499411,
-"timestamp":1622808306689,
-"version":"0.7.19"
+"sha256":"b192dd2b504b424d8cde7e255a7fa88dc8fac0c0845de07cfb198f558bd54236",
+"size":482604,
+"timestamp":1616780203480,
+"version":"0.7.18"
 },
-"libsolv-static-0.7.19-h690f14c_1.tar.bz2":{
-"build":"h690f14c_1",
-"build_number":1,
+"libsolv-static-0.7.18-h690f14c_0.tar.bz2":{
+"build":"h690f14c_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libsolv 0.7.19 h690f14c_1",
+"libsolv 0.7.18 h690f14c_0",
 "libstdcxx-ng >=9.3.0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"libsolv-static",
-"sha256":"db6bcc79dfa4950e057dada607b011f00e819ddbf689ba777c05336f355dd597",
-"size":478822,
-"timestamp":1622808346851,
-"version":"0.7.19"
+"sha256":"c9e18e2eab31d689893cd1de57709a8c8236baba574eb8d057af1abf49dbde71",
+"size":476266,
+"timestamp":1616780241932,
+"version":"0.7.18"
 },
 "libspatialite-5.0.1-ha254d40_5.tar.bz2":{
 "build":"ha254d40_5",
@@ -102844,119 +102844,25 @@
 "timestamp":1621642146910,
 "version":"0.1_11"
 },
-"r-mvtnorm-1.1_1-r36h2c7be84_0.tar.bz2":{
-"build":"r36h2c7be84_0",
+"r-mvtnorm-1.1_2-r40ha9c7abe_0.tar.bz2":{
+"build":"r40ha9c7abe_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=8.4.0",
-"libgfortran-ng >=8,<9.0a0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"GPL-2.0-only",
-"name":"r-mvtnorm",
-"sha256":"6dc0a2e87d6f5fabb57201b241b2b0fe8200b8cff306f21d67e8d1688e083eb0",
-"size":260264,
-"timestamp":1591736988727,
-"version":"1.1_1"
-},
-"r-mvtnorm-1.1_1-r36h534c42c_1.tar.bz2":{
-"build":"r36h534c42c_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libgfortran-ng",
-"libgfortran5 >=8.4.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"GPL-2.0-only",
-"name":"r-mvtnorm",
-"sha256":"ecc12c94f534525b99dbdfac11e4e8cd593dd83f5a7f2ee4169e9cfa92d23f09",
-"size":260093,
-"timestamp":1603185870574,
-"version":"1.1_1"
-},
-"r-mvtnorm-1.1_1-r36hb106373_1.tar.bz2":{
-"build":"r36hb106373_1",
-"build_number":1,
-"depends":[
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
-"r-base >=3.6,<3.7.0a0"
+"r-base >=4.0,<4.1.0a0"
 ],
 "license":"GPL-2.0-only",
 "name":"r-mvtnorm",
-"sha256":"e06ac46cf41bca8813f3216715ed823d3f0c12163ba91039f6cdbc85a529c85c",
-"size":259476,
-"timestamp":1603185802278,
-"version":"1.1_1"
+"sha256":"1f7f2355217e28319e8bbaa677694d57e9f02ad28f497fe626ad74327986ffec",
+"size":261467,
+"timestamp":1623071657897,
+"version":"1.1_2"
 },
-"r-mvtnorm-1.1_1-r40h2c7be84_0.tar.bz2":{
-"build":"r40h2c7be84_0",
+"r-mvtnorm-1.1_2-r41ha9c7abe_0.tar.bz2":{
+"build":"r41ha9c7abe_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libgfortran-ng >=8,<9.0a0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"GPL-2.0-only",
-"name":"r-mvtnorm",
-"sha256":"65dcfece700e88f748e546fdd2eb81e1273f8624a86a353b171b594258593935",
-"size":259789,
-"timestamp":1591737040278,
-"version":"1.1_1"
-},
-"r-mvtnorm-1.1_1-r40h534c42c_1.tar.bz2":{
-"build":"r40h534c42c_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libgfortran-ng",
-"libgfortran5 >=8.4.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"GPL-2.0-only",
-"name":"r-mvtnorm",
-"sha256":"a0abafc7655707f8054338a6a16d1dd4537130f97a5810b7ae5e1a32e8e70ab1",
-"size":259796,
-"timestamp":1603185693819,
-"version":"1.1_1"
-},
-"r-mvtnorm-1.1_1-r40ha9c7abe_1.tar.bz2":{
-"build":"r40ha9c7abe_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"GPL-2.0-only",
-"name":"r-mvtnorm",
-"sha256":"5206ff8923d29fe35d897824060c130aab5489a7ee5ac3716bff391278cd2255",
-"size":259099,
-"timestamp":1621615704375,
-"version":"1.1_1"
-},
-"r-mvtnorm-1.1_1-r40hb106373_1.tar.bz2":{
-"build":"r40hb106373_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"GPL-2.0-only",
-"name":"r-mvtnorm",
-"sha256":"500954eaff424aca45aa2d7d857a3dfb796db90a8131f206b1faa2cfa5fa0bc0",
-"size":258979,
-"timestamp":1603185828488,
-"version":"1.1_1"
-},
-"r-mvtnorm-1.1_1-r41ha9c7abe_1.tar.bz2":{
-"build":"r41ha9c7abe_1",
-"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
@@ -102965,10 +102871,10 @@
 ],
 "license":"GPL-2.0-only",
 "name":"r-mvtnorm",
-"sha256":"1cee98515bdf8585aadb48deb94a4261a59a5e795d99f35278474ca96dbbcb18",
-"size":259228,
-"timestamp":1621801396810,
-"version":"1.1_1"
+"sha256":"5bd008e0f91d0d2888be138e50f504403bcd635d33eed9761cd08ff7ee4d24c9",
+"size":261524,
+"timestamp":1623071756831,
+"version":"1.1_2"
 },
 "r-nanotime-0.3.2-r40h6203a36_1.tar.bz2":{
 "build":"r40h6203a36_1",
@@ -116554,7 +116460,7 @@
 "libgfortran5 >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "petsc >=3.15.0,<3.16.0a0",
 "petsc >=3.15.0,<3.16.0a0 *complex*",
 "suitesparse >=5.7.2,<5.8.0a0"
@@ -116622,7 +116528,7 @@
 "libgfortran5 >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "petsc >=3.15.0,<3.16.0a0",
 "petsc >=3.15.0,<3.16.0a0 *real*",
 "suitesparse >=5.7.2,<5.8.0a0"
@@ -134226,6 +134132,8 @@
 "libopenblas-0.3.11-pthreads_he532ed7_0.tar.bz2",
 "libopenblas-0.3.11-pthreads_he532ed7_1.tar.bz2",
 "libopencv-4.5.0-py36_6.tar.bz2",
+"libsolv-0.7.19-h690f14c_1.tar.bz2",
+"libsolv-static-0.7.19-h690f14c_1.tar.bz2",
 "libstdcxx-ng-8.4.0-h822a55f_6.tar.bz2",
 "libstdcxx-ng-8.4.0-h822a55f_7.tar.bz2",
 "libstdcxx-ng-8.4.0-h822a55f_8.tar.bz2",
