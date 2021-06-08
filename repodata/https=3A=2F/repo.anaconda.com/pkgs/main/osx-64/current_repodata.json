@@ -50303,7 +50303,7 @@
 "timestamp":1527098708896,
 "version":"2.3.0"
 },
-"openldap-2.5.4-hbf21bb3_0.conda":{
+"openldap-2.5.5-hbf21bb3_0.conda":{
 "build":"hbf21bb3_0",
 "build_number":0,
 "depends":[
@@ -50311,13 +50311,13 @@
 "libcxx >=10.0.0",
 "openssl >=1.1.1k,<1.1.2a"
 ],
-"legacy_bz2_md5":"68730e4c4d4f19303219e76b4d8e14d6",
+"legacy_bz2_md5":"794b09a2c52ac72c7e98baa1f8a370f8",
 "license":"OLDAP-2.8",
 "name":"openldap",
-"sha256":"8978d7b44b12a693772d02f36ed115a8ac1aaad4cefa918c2a82e01a2518d0c0",
-"size":769389,
-"timestamp":1619737109203,
-"version":"2.5.4"
+"sha256":"53cfec8efbf74f089982cf8a574b12b4c177937bda1aefc0cccfe69ed5c9355e",
+"size":777176,
+"timestamp":1622832875355,
+"version":"2.5.5"
 },
 "openmpi-4.0.2-hfa1e0ec_1.conda":{
 "build":"hfa1e0ec_1",
@@ -50798,6 +50798,24 @@
 "size":345807,
 "timestamp":1619512311990,
 "version":"1.6.7"
+},
+"orc-1.6.8-h001ef8f_2.conda":{
+"build":"h001ef8f_2",
+"build_number":2,
+"depends":[
+"libcxx >=10.0.0",
+"libprotobuf >=3.11.2,<3.12.0a0",
+"lz4-c >=1.9.3,<1.10.0a0",
+"snappy >=1.1.8,<2.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"legacy_bz2_md5":"ca3dc283577d5d652727dc75f061ba22",
+"license":"Apache-2.0",
+"name":"orc",
+"sha256":"0a8600049800b7ba43a29765253a4c7e85f446164d715a8cde493640308f4d83",
+"size":346608,
+"timestamp":1623090056496,
+"version":"1.6.8"
 },
 "orderedmultidict-1.0.1-py27_0.conda":{
 "build":"py27_0",
