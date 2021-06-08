@@ -76662,6 +76662,29 @@
 "timestamp":1620946510921,
 "version":"0.13.4"
 },
+"openpmd-api-0.13.4-nompi_py36h7d96134_101.tar.bz2":{
+"build":"nompi_py36h7d96134_101",
+"build_number":101,
+"depends":[
+"adios * nompi_*",
+"blosc",
+"bzip2",
+"hdf5 >=1.12.0,<1.12.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.15.0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"1a026f327aaa1be1f24689541d71fa9c5dc42d906fa0822a5eb5d73fd16d0ee2",
+"size":1452807,
+"timestamp":1623169910093,
+"version":"0.13.4"
+},
 "openpmd-api-0.13.4-nompi_py37h7f88eb8_100.tar.bz2":{
 "build":"nompi_py37h7f88eb8_100",
 "build_number":100,
@@ -76683,6 +76706,29 @@
 "sha256":"ab02b5a147626eb2d4861aa5157e5af99dacd2ddcd15e4a50926adae2a83ead1",
 "size":1447880,
 "timestamp":1620946553253,
+"version":"0.13.4"
+},
+"openpmd-api-0.13.4-nompi_py37h7f88eb8_101.tar.bz2":{
+"build":"nompi_py37h7f88eb8_101",
+"build_number":101,
+"depends":[
+"adios * nompi_*",
+"blosc",
+"bzip2",
+"hdf5 >=1.12.0,<1.12.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.15.0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"67652bd109834f1c071c54852bdfb55fed0cc71539cd40d15326719c7e3143e5",
+"size":1452274,
+"timestamp":1623169928386,
 "version":"0.13.4"
 },
 "openpmd-api-0.13.4-nompi_py37hc06039d_100.tar.bz2":{
@@ -76709,6 +76755,30 @@
 "timestamp":1620946404669,
 "version":"0.13.4"
 },
+"openpmd-api-0.13.4-nompi_py37hc06039d_101.tar.bz2":{
+"build":"nompi_py37hc06039d_101",
+"build_number":101,
+"depends":[
+"adios * nompi_*",
+"adios2 * nompi_*",
+"adios2 >=2.7.1,<2.7.2.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.15.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"80bdccf356c23eda0c34954d7cad991fb39a3f49d51bcc21ecda293aa28d9889",
+"size":1585504,
+"timestamp":1623168565895,
+"version":"0.13.4"
+},
 "openpmd-api-0.13.4-nompi_py38hb43a8c0_100.tar.bz2":{
 "build":"nompi_py38hb43a8c0_100",
 "build_number":100,
@@ -76731,6 +76801,30 @@
 "sha256":"ff45f82465f65dc2321562ac8ade39db6131a74dc6af06c1e358f82181aafb23",
 "size":1569763,
 "timestamp":1620946732990,
+"version":"0.13.4"
+},
+"openpmd-api-0.13.4-nompi_py38hb43a8c0_101.tar.bz2":{
+"build":"nompi_py38hb43a8c0_101",
+"build_number":101,
+"depends":[
+"adios * nompi_*",
+"adios2 * nompi_*",
+"adios2 >=2.7.1,<2.7.2.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.15.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"b33e1a2254cbd09b9e83f5b39c80ac6a8011155885d2e2da32bba301c176b3c9",
+"size":1579386,
+"timestamp":1623168601126,
 "version":"0.13.4"
 },
 "openpmd-api-0.13.4-nompi_py39h1a9492c_100.tar.bz2":{
@@ -88812,9 +88906,9 @@
 "timestamp":1602560368978,
 "version":"2020.1"
 },
-"pymongo-3.11.0-py36h08d3667_4.tar.bz2":{
-"build":"py36h08d3667_4",
-"build_number":4,
+"pymongo-3.11.4-py36h08d3667_0.tar.bz2":{
+"build":"py36h08d3667_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -88823,97 +88917,14 @@
 ],
 "license":"Apache-2.0",
 "name":"pymongo",
-"sha256":"19255fa3305582c20e6a417f47ac7b56f676e3828fdbe731a7423d353a61f684",
-"size":1164386,
-"timestamp":1617619368193,
-"version":"3.11.0"
+"sha256":"75a03233a0b26d3364d4045bcfe2da0c59b6414ee12c13a74e883738a2d20e1e",
+"size":1199525,
+"timestamp":1623165846593,
+"version":"3.11.4"
 },
-"pymongo-3.11.0-py36ha77a9a5_2.tar.bz2":{
-"build":"py36ha77a9a5_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"pypy3.6 >=7.3.1",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"Apache 2.0",
-"name":"pymongo",
-"sha256":"af4548259cd3c563f0769424a0aec874d99f2b7e3cd58f8913fa328954666ac0",
-"size":1198839,
-"timestamp":1599024726713,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py36ha77a9a5_3.tar.bz2":{
-"build":"py36ha77a9a5_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"pypy3.6 >=7.3.1",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"Apache 2.0",
-"name":"pymongo",
-"sha256":"7033f3cdf0d93aa608f6b88fade1577c3e66629b7fbd4af566030090431969f9",
-"size":1191419,
-"timestamp":1599510256428,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py36hd47967e_4.tar.bz2":{
-"build":"py36hd47967e_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"pypy3.6 >=7.3.2",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"Apache-2.0",
-"name":"pymongo",
-"sha256":"0262d2b15e21c3cc2ac48cc0e3ed53c935aff77a808f893d6cf776d038953c0c",
-"size":1142288,
-"timestamp":1602534460581,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py36hd724563_2.tar.bz2":{
-"build":"py36hd724563_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"Apache 2.0",
-"name":"pymongo",
-"sha256":"c31378d666e211601f7176b7e788ab79d226ca3b8cf41135535b67d0a6c9dde7",
-"size":1252860,
-"timestamp":1599024727062,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py36hd724563_3.tar.bz2":{
-"build":"py36hd724563_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"Apache 2.0",
-"name":"pymongo",
-"sha256":"aed7855b32c7aa370d6a656b96de69a988ab0fe335a613c2e47397c3d465bec8",
-"size":1250937,
-"timestamp":1599510255278,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py36hdee431b_4.tar.bz2":{
-"build":"py36hdee431b_4",
-"build_number":4,
+"pymongo-3.11.4-py36hdee431b_0.tar.bz2":{
+"build":"py36hdee431b_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -88923,78 +88934,14 @@
 ],
 "license":"Apache-2.0",
 "name":"pymongo",
-"sha256":"86fbb964ccc83888674133b23c53a2add676fea42620581febda11d79d713202",
-"size":1127915,
-"timestamp":1617619350398,
-"version":"3.11.0"
+"sha256":"14ecd1a9bed85b61908ac3529d8be7cc7bd4f154ec969fa0f8f22b661116bf02",
+"size":1164450,
+"timestamp":1623165699095,
+"version":"3.11.4"
 },
-"pymongo-3.11.0-py36he26048d_4.tar.bz2":{
-"build":"py36he26048d_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"Apache-2.0",
-"name":"pymongo",
-"sha256":"a341eb787aa5b0d95c20bc0b9461e9b314e50bf929d073fdc7a25e01e152b5dd",
-"size":1184384,
-"timestamp":1602534464391,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py37h4ad414e_4.tar.bz2":{
-"build":"py37h4ad414e_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"Apache-2.0",
-"name":"pymongo",
-"sha256":"d3aad2fffb2656a8a5ee76603b001482e67c6a207818013dd4af6e9fc9a271e5",
-"size":1170032,
-"timestamp":1602534682142,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py37hb809cae_2.tar.bz2":{
-"build":"py37hb809cae_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"Apache 2.0",
-"name":"pymongo",
-"sha256":"cf49268d7c583551e737e1d5aeff7b60d5ad9e65e1dcb18c8e0aee2734d34b4d",
-"size":1253490,
-"timestamp":1599025154598,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py37hb809cae_3.tar.bz2":{
-"build":"py37hb809cae_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"Apache 2.0",
-"name":"pymongo",
-"sha256":"81ead88658dfb7dcb5c4aaa51cc482048708289811cf41b460a5df1737b1ea77",
-"size":1262784,
-"timestamp":1599510197001,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py37hc9b93fd_4.tar.bz2":{
-"build":"py37hc9b93fd_4",
-"build_number":4,
+"pymongo-3.11.4-py37hc9b93fd_0.tar.bz2":{
+"build":"py37hc9b93fd_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -89003,62 +88950,14 @@
 ],
 "license":"Apache-2.0",
 "name":"pymongo",
-"sha256":"e6d77004ca0360d5dfc7732b50c12a29c531b4023d140dcb1c08b0d2a67d2e5b",
-"size":1167771,
-"timestamp":1617619408953,
-"version":"3.11.0"
+"sha256":"9e7629ff04bc0c7ebbff203d1677d375578b1e569fc013f92fc70af31e9431fc",
+"size":1197598,
+"timestamp":1623166007815,
+"version":"3.11.4"
 },
-"pymongo-3.11.0-py38h8e8fcc4_2.tar.bz2":{
-"build":"py38h8e8fcc4_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"Apache 2.0",
-"name":"pymongo",
-"sha256":"67ff9daf87ad5aa1bcf2e855709a1670ee9083c26da684abf82712c06a33e9f1",
-"size":1275262,
-"timestamp":1599025178371,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py38h8e8fcc4_3.tar.bz2":{
-"build":"py38h8e8fcc4_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"Apache 2.0",
-"name":"pymongo",
-"sha256":"036dc3bd5914030f7a447421a51bc2332f48143a48a505cbb4827396b9b6463a",
-"size":1278446,
-"timestamp":1599510074593,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py38h9e10fed_4.tar.bz2":{
-"build":"py38h9e10fed_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"Apache-2.0",
-"name":"pymongo",
-"sha256":"21ea27da28c3e8b15eebda5189c6d3485fa6a32327f2b8dae35f46b2723306ad",
-"size":1181565,
-"timestamp":1602534726749,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py38ha35a538_4.tar.bz2":{
-"build":"py38ha35a538_4",
-"build_number":4,
+"pymongo-3.11.4-py38ha35a538_0.tar.bz2":{
+"build":"py38ha35a538_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -89067,42 +88966,10 @@
 ],
 "license":"Apache-2.0",
 "name":"pymongo",
-"sha256":"82249442dd49c52388301cce35172c8c22d7cb6486bae7b0a8a1ebdc59fa5655",
-"size":1180141,
-"timestamp":1617619405517,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py39h52e7bf5_4.tar.bz2":{
-"build":"py39h52e7bf5_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"Apache-2.0",
-"name":"pymongo",
-"sha256":"0cf9f961bdcecc070e4bdfc921b3edd4d3a18df77a3ce7f15c58f51f7c3e0f57",
-"size":1168749,
-"timestamp":1602534841710,
-"version":"3.11.0"
-},
-"pymongo-3.11.0-py39had50986_4.tar.bz2":{
-"build":"py39had50986_4",
-"build_number":4,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"Apache-2.0",
-"name":"pymongo",
-"sha256":"a78c7478edad04a8dd3b9cc9cdd9be89afebcdaa8344286ee5ca4dff65effc3e",
-"size":1164697,
-"timestamp":1617619477735,
-"version":"3.11.0"
+"sha256":"c79ca2168156a9b5ecbaf33ed59d6ecd13b93ce660a3d9261be1bd78ba652cde",
+"size":1201324,
+"timestamp":1623165904524,
+"version":"3.11.4"
 },
 "pynac-0.7.26-py36h230c364_3.tar.bz2":{
 "build":"py36h230c364_3",
