@@ -44545,31 +44545,18 @@
 "timestamp":1613684315072,
 "version":"1.5.6"
 },
-"nettle-3.7.2-h230ac6f_0.tar.bz2":{
-"build":"h230ac6f_0",
-"build_number":0,
-"depends":[
-"gmp >=6.1.2"
-],
-"license":"GPL 2 and LGPL3",
-"name":"nettle",
-"sha256":"bb15d7c7f1e316964dc2549d42001ab7a514e4ff1a899c5647fdb49e056942f0",
-"size":437011,
-"timestamp":1617771595939,
-"version":"3.7.2"
-},
-"nettle-3.7.2-h230ac6f_1.tar.bz2":{
+"nettle-3.7.3-h230ac6f_1.tar.bz2":{
 "build":"h230ac6f_1",
 "build_number":1,
 "depends":[
 "gmp >=6.1.2"
 ],
-"license":"GPL 2 and LGPL3",
+"license":"GPL-2.0-or-later AND LGPL-3.0-or-later",
 "name":"nettle",
-"sha256":"c9655ee8a089beb8f46694d23dafe84d2c0f122a99cd0da84eb21989ac5f1806",
-"size":434570,
-"timestamp":1617808521402,
-"version":"3.7.2"
+"sha256":"d4caa9264703ae46d23c048e2146c8885b3d945b4f5782a7ba85713c74411396",
+"size":432831,
+"timestamp":1623151142156,
+"version":"3.7.3"
 },
 "networkx-2.2-py27_1.tar.bz2":{
 "build":"py27_1",
@@ -47185,7 +47172,7 @@
 "timestamp":1527098708896,
 "version":"2.3.0"
 },
-"openldap-2.5.4-hbf21bb3_0.tar.bz2":{
+"openldap-2.5.5-hbf21bb3_0.tar.bz2":{
 "build":"hbf21bb3_0",
 "build_number":0,
 "depends":[
@@ -47195,10 +47182,10 @@
 ],
 "license":"OLDAP-2.8",
 "name":"openldap",
-"sha256":"ea63697ec6e4104aa3b66d720c9884d3ce3f1dbc3797b63894004a16ee6b4a46",
-"size":1695400,
-"timestamp":1619737109203,
-"version":"2.5.4"
+"sha256":"ea2a73f9a2d2cb9517fd4299ca1a5602493724154c78c86d8a6b7070902a70b0",
+"size":1685293,
+"timestamp":1622832875355,
+"version":"2.5.5"
 },
 "openmpi-4.0.2-hfa1e0ec_1.tar.bz2":{
 "build":"hfa1e0ec_1",
@@ -47655,6 +47642,23 @@
 "size":395608,
 "timestamp":1619512311990,
 "version":"1.6.7"
+},
+"orc-1.6.8-h001ef8f_2.tar.bz2":{
+"build":"h001ef8f_2",
+"build_number":2,
+"depends":[
+"libcxx >=10.0.0",
+"libprotobuf >=3.11.2,<3.12.0a0",
+"lz4-c >=1.9.3,<1.10.0a0",
+"snappy >=1.1.8,<2.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"Apache-2.0",
+"name":"orc",
+"sha256":"fcf1995047e82fed42414f1e5b05ea8cd2e751087aa064296c7788674958ec8a",
+"size":401929,
+"timestamp":1623090056496,
+"version":"1.6.8"
 },
 "orderedmultidict-1.0.1-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -50329,18 +50333,32 @@
 "timestamp":1594384148997,
 "version":"0.7.5"
 },
-"pigz-2.4-ha441bb4_0.tar.bz2":{
-"build":"ha441bb4_0",
+"pigz-2.6-h7bc2e8c_0.tar.bz2":{
+"build":"h7bc2e8c_0",
 "build_number":0,
 "depends":[
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"zlib",
 "name":"pigz",
-"sha256":"557ad76f1e905f9056be787cfb29172f2a7554f9178b214be6426c0735bcfb6d",
-"size":74994,
-"timestamp":1529595114143,
-"version":"2.4"
+"sha256":"1753ce86f7ada2614876d455185de7a24164b7bf5f52668f98fd9447868858e4",
+"size":84930,
+"timestamp":1623077777806,
+"version":"2.6"
+},
+"pigz-2.6-h9ed2024_0.tar.bz2":{
+"build":"h9ed2024_0",
+"build_number":0,
+"depends":[
+"zlib >=1.2.11,<1.3.0a0",
+"zlib >=1.2.6"
+],
+"license":"zlib",
+"name":"pigz",
+"sha256":"710d0f1e20ca0c6eeac76e075462364c796e9edef8434e487505ea6009f22bf2",
+"size":84828,
+"timestamp":1623154201412,
+"version":"2.6"
 },
 "pillow-8.2.0-py36h5270095_0.tar.bz2":{
 "build":"py36h5270095_0",
