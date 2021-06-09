@@ -52508,6 +52508,19 @@
 "timestamp":1621261257491,
 "version":"0.13.1"
 },
+"libmicrohttpd-0.9.73-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[
+"gnutls >=3.6.13,<3.7.0a0"
+],
+"license":"LGPL-2.0-or-later",
+"name":"libmicrohttpd",
+"sha256":"9376b8c9daf82cc2b28b683a0b9bca47f03601363605dee951fb46c68a957696",
+"size":187361,
+"timestamp":1623249219428,
+"version":"0.9.73"
+},
 "libmlir-11.1.0-h666519e_0.tar.bz2":{
 "build":"h666519e_0",
 "build_number":0,
@@ -90998,6 +91011,56 @@
 "timestamp":1620894737983,
 "version":"2021.03.2"
 },
+"rdkit-2021.03.3-py38hbcbf861_0.tar.bz2":{
+"build":"py38hbcbf861_0",
+"build_number":0,
+"depends":[
+"boost >=1.74.0,<1.74.1.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libcxx >=11.1.0",
+"matplotlib-base",
+"numpy >=1.19.5,<2.0a0",
+"pandas",
+"pillow",
+"pycairo",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"reportlab",
+"sqlalchemy"
+],
+"license":"BSD-3-Clause",
+"name":"rdkit",
+"sha256":"c09c77ad2d6fc41854068359b5d66dd2b8c11e2014517f14fba261819d9e0f45",
+"size":37908423,
+"timestamp":1623248004128,
+"version":"2021.03.3"
+},
+"rdkit-2021.03.3-py39h29b70d0_0.tar.bz2":{
+"build":"py39h29b70d0_0",
+"build_number":0,
+"depends":[
+"boost >=1.74.0,<1.74.1.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libcxx >=11.1.0",
+"matplotlib-base",
+"numpy >=1.19.5,<2.0a0",
+"pandas",
+"pillow",
+"pycairo",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"reportlab",
+"sqlalchemy"
+],
+"license":"BSD-3-Clause",
+"name":"rdkit",
+"sha256":"d30b534414654b486c1cc68dc69153b1ac0a284c63123c4daf3e6c9dff3e7df7",
+"size":37989023,
+"timestamp":1623247937893,
+"version":"2021.03.3"
+},
 "rdkit-dev-2021.03.1-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
@@ -91023,6 +91086,19 @@
 "size":5378,
 "timestamp":1620894784666,
 "version":"2021.03.2"
+},
+"rdkit-dev-2021.03.3-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"rdkit"
+],
+"license":"BSD-3-Clause",
+"name":"rdkit-dev",
+"sha256":"6b863e734c19e53b4f51660cc7b5dbdc6aa74f0f2d7c19d4e1648828b7e16657",
+"size":5389,
+"timestamp":1623247999641,
+"version":"2021.03.3"
 },
 "re2-2020.08.01-hc88da5d_0.tar.bz2":{
 "build":"hc88da5d_0",
@@ -103312,6 +103388,40 @@
 "size":942381,
 "timestamp":1623079705082,
 "version":"0.8.10"
+},
+"tiledb-py-0.8.11-py38hb0b8023_0.tar.bz2":{
+"build":"py38hb0b8023_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tiledb >=2.2.9,<2.3.0a0"
+],
+"license":"MIT",
+"name":"tiledb-py",
+"sha256":"682e6c85800a1e5bc17a353f8d545432b3b89bb56a0ff8d4fb5d87438353cc62",
+"size":942818,
+"timestamp":1623253056947,
+"version":"0.8.11"
+},
+"tiledb-py-0.8.11-py39h9f2bea3_0.tar.bz2":{
+"build":"py39h9f2bea3_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tiledb >=2.2.9,<2.3.0a0"
+],
+"license":"MIT",
+"name":"tiledb-py",
+"sha256":"62c26f7f793e1c2a2c29d7d7fbbd83e4f0fba0043c43f4599e70bb66b368d3fe",
+"size":957345,
+"timestamp":1623252868501,
+"version":"0.8.11"
 },
 "tiledb-py-0.8.9-py38hb0b8023_2.tar.bz2":{
 "build":"py38hb0b8023_2",
