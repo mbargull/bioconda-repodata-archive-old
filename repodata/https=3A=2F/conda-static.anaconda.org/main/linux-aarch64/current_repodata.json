@@ -1086,6 +1086,17 @@
 "timestamp":1620747932166,
 "version":"2.0"
 },
+"_pytorch_select-0.1-cpu_0.tar.bz2":{
+"build":"cpu_0",
+"build_number":0,
+"depends":[],
+"name":"_pytorch_select",
+"sha256":"b7c1301e40c7fe580b0a59e415520edf94602599f79cb843ed0e907342b14a03",
+"size":2815,
+"timestamp":1621729277362,
+"track_features":"pytorch_cpuonly",
+"version":"0.1"
+},
 "_pytorch_select-0.2-gpu_0.tar.bz2":{
 "build":"gpu_0",
 "build_number":0,
@@ -20009,6 +20020,69 @@
 "size":16931,
 "timestamp":1621539500678,
 "version":"1.1.8"
+},
+"pytorch-1.8.1-cpu_py37he9ab0f8_0.tar.bz2":{
+"build":"cpu_py37he9ab0f8_0",
+"build_number":0,
+"depends":[
+"_pytorch_select 0.1",
+"cffi",
+"libgcc-ng >=10.2.0",
+"libopenblas",
+"libstdcxx-ng >=10.2.0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"typing-extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"1c0a24184e9dfff24b20f09137d51ae847596c14adca8c43cef8e20a80b7c30f",
+"size":40360628,
+"timestamp":1623253528658,
+"version":"1.8.1"
+},
+"pytorch-1.8.1-cpu_py38he9ab0f8_0.tar.bz2":{
+"build":"cpu_py38he9ab0f8_0",
+"build_number":0,
+"depends":[
+"_pytorch_select 0.1",
+"cffi",
+"libgcc-ng >=10.2.0",
+"libopenblas",
+"libstdcxx-ng >=10.2.0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"typing-extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"3d272362c32cc10ca42aabc4b842574a95df78b7e29734d3bf8b5fc26b5db767",
+"size":40344711,
+"timestamp":1623254705699,
+"version":"1.8.1"
+},
+"pytorch-1.8.1-cpu_py39he9ab0f8_0.tar.bz2":{
+"build":"cpu_py39he9ab0f8_0",
+"build_number":0,
+"depends":[
+"_pytorch_select 0.1",
+"cffi",
+"libgcc-ng >=10.2.0",
+"libopenblas",
+"libstdcxx-ng >=10.2.0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"typing-extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"4dd1b0552d3dcb1bb4aafb729773f5919c03bb0bb74eab1cec9f3fac458b84e4",
+"size":40254161,
+"timestamp":1623255966270,
+"version":"1.8.1"
 },
 "pywavelets-1.1.1-py37hfd0a847_4.tar.bz2":{
 "build":"py37hfd0a847_4",
