@@ -11161,6 +11161,22 @@
 "timestamp":1614105405427,
 "version":"0.2.6"
 },
+"aws-c-event-stream-0.2.7-h2d5be8c_9.tar.bz2":{
+"build":"h2d5be8c_9",
+"build_number":9,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-io >=0.10.2,<0.10.3.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"requires":[],
+"size":42458,
+"timestamp":1623267801245,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-h33d6dd2_1.tar.bz2":{
 "build":"h33d6dd2_1",
 "build_number":1,
@@ -11304,6 +11320,21 @@
 "size":42481,
 "timestamp":1622795651880,
 "version":"0.2.7"
+},
+"aws-c-http-0.6.4-h1cce35f_5.tar.bz2":{
+"build":"h1cce35f_5",
+"build_number":5,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-compression >=0.2.11,<0.2.12.0a0",
+"aws-c-io >=0.10.2,<0.10.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"requires":[],
+"size":130991,
+"timestamp":1623267734058,
+"version":"0.6.4"
 },
 "aws-c-http-0.6.4-h3b0e95f_3.tar.bz2":{
 "build":"h3b0e95f_3",
@@ -37961,6 +37992,25 @@
 "requires":[],
 "size":2876942,
 "timestamp":1621567058372,
+"version":"1.38.0"
+},
+"grpc-cpp-1.38.0-h8c8cf55_2.tar.bz2":{
+"build":"h8c8cf55_2",
+"build_number":2,
+"depends":[
+"abseil-cpp >=20210324.2,<20210324.3.0a0",
+"c-ares >=1.17.1,<2.0a0",
+"libcxx >=11.1.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"re2 >=2021.6.1,<2021.6.2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpc-cpp",
+"requires":[],
+"size":2873791,
+"timestamp":1623268207538,
 "version":"1.38.0"
 },
 "grpc-cpp-1.38.0-hb063600_1.tar.bz2":{
@@ -64823,6 +64873,40 @@
 "size":3814132,
 "timestamp":1616708180472,
 "version":"0.53.1"
+},
+"numcodecs-0.7.3-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"msgpack-python",
+"numpy >=1.7",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"numcodecs",
+"requires":[],
+"size":968855,
+"timestamp":1623267449978,
+"version":"0.7.3"
+},
+"numcodecs-0.7.3-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"msgpack-python",
+"numpy >=1.7",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"numcodecs",
+"requires":[],
+"size":934885,
+"timestamp":1623267442619,
+"version":"0.7.3"
 },
 "numexpr-2.7.2-py38h9b9bf68_0.tar.bz2":{
 "build":"py38h9b9bf68_0",
@@ -92636,6 +92720,42 @@
 "timestamp":1621452711314,
 "version":"10.2.2"
 },
+"rich-10.3.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.0,<0.5.0",
+"commonmark >=0.9.0,<0.10.0",
+"pygments >=2.6.0,<3.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"typing_extensions >=3.7.4,<4.0.0"
+],
+"license":"MIT",
+"name":"rich",
+"requires":[],
+"size":344466,
+"timestamp":1623268645126,
+"version":"10.3.0"
+},
+"rich-10.3.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.0,<0.5.0",
+"commonmark >=0.9.0,<0.10.0",
+"pygments >=2.6.0,<3.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"typing_extensions >=3.7.4,<4.0.0"
+],
+"license":"MIT",
+"name":"rich",
+"requires":[],
+"size":347264,
+"timestamp":1623268635777,
+"version":"10.3.0"
+},
 "rich-9.10.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -95173,6 +95293,38 @@
 "size":174660,
 "timestamp":1622474152896,
 "version":"0.17.7"
+},
+"ruamel.yaml-0.17.8-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"ruamel.yaml.clib >=0.1.2",
+"setuptools"
+],
+"license":"MIT",
+"name":"ruamel.yaml",
+"requires":[],
+"size":174315,
+"timestamp":1623268627843,
+"version":"0.17.8"
+},
+"ruamel.yaml-0.17.8-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"ruamel.yaml.clib >=0.1.2",
+"setuptools"
+],
+"license":"MIT",
+"name":"ruamel.yaml",
+"requires":[],
+"size":174718,
+"timestamp":1623268630940,
+"version":"0.17.8"
 },
 "ruamel.yaml.clib-0.2.2-py38h30f7421_1.tar.bz2":{
 "build":"py38h30f7421_1",
