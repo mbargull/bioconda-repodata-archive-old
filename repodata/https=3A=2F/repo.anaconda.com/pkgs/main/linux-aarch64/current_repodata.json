@@ -129,6 +129,17 @@
 "timestamp":1620747932166,
 "version":"2.0"
 },
+"_pytorch_select-0.1-cpu_0.tar.bz2":{
+"build":"cpu_0",
+"build_number":0,
+"depends":[],
+"name":"_pytorch_select",
+"sha256":"b7c1301e40c7fe580b0a59e415520edf94602599f79cb843ed0e907342b14a03",
+"size":2815,
+"timestamp":1621729277362,
+"track_features":"pytorch_cpuonly",
+"version":"0.1"
+},
 "_pytorch_select-0.2-gpu_0.tar.bz2":{
 "build":"gpu_0",
 "build_number":0,
@@ -25158,6 +25169,72 @@
 "size":6449200,
 "timestamp":1621517486890,
 "version":"3.9.5"
+},
+"pytorch-1.8.1-cpu_py37he9ab0f8_0.conda":{
+"build":"cpu_py37he9ab0f8_0",
+"build_number":0,
+"depends":[
+"_pytorch_select 0.1",
+"cffi",
+"libgcc-ng >=10.2.0",
+"libopenblas",
+"libstdcxx-ng >=10.2.0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"typing-extensions"
+],
+"legacy_bz2_md5":"10a89e28bffd08cb9e63bbf86e9b08d7",
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"2601afef7229a0516fa4071aad33b249051c6f165b9438bb8ee466910cd297a9",
+"size":31293317,
+"timestamp":1623253528658,
+"version":"1.8.1"
+},
+"pytorch-1.8.1-cpu_py38he9ab0f8_0.conda":{
+"build":"cpu_py38he9ab0f8_0",
+"build_number":0,
+"depends":[
+"_pytorch_select 0.1",
+"cffi",
+"libgcc-ng >=10.2.0",
+"libopenblas",
+"libstdcxx-ng >=10.2.0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"typing-extensions"
+],
+"legacy_bz2_md5":"b7996f8d448a384a3815735592a7291a",
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"7f63e808606807b52ae2d300f50801f7b01a9591d0b9acb4d9b370c05a4407a1",
+"size":31234122,
+"timestamp":1623254705699,
+"version":"1.8.1"
+},
+"pytorch-1.8.1-cpu_py39he9ab0f8_0.conda":{
+"build":"cpu_py39he9ab0f8_0",
+"build_number":0,
+"depends":[
+"_pytorch_select 0.1",
+"cffi",
+"libgcc-ng >=10.2.0",
+"libopenblas",
+"libstdcxx-ng >=10.2.0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"typing-extensions"
+],
+"legacy_bz2_md5":"5b0c6a3ad9717354f5e02c49cdbf986b",
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"59ecf328afe39059e446dd9dfb7fe3bc247d5d04ed2ab3ae201aa0288426a380",
+"size":32736709,
+"timestamp":1623255966270,
+"version":"1.8.1"
 },
 "rtree-0.9.4-py37hd43f75c_1.conda":{
 "build":"py37hd43f75c_1",

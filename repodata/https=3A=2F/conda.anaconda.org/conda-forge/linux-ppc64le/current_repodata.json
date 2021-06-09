@@ -77477,6 +77477,25 @@
 "timestamp":1622249767677,
 "version":"2.11.4"
 },
+"pari-2.11.4-hc26e4a5_2.tar.bz2":{
+"build":"hc26e4a5_2",
+"build_number":2,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"pari-galdata",
+"pari-seadata-small",
+"perl 5.*",
+"readline >=8.1,<9.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"pari",
+"sha256":"6d27afaf7b0f5e1e9a1d2ff456a16caf340e763f7081bae8fc0ab9a539a20173",
+"size":44454343,
+"timestamp":1623254111316,
+"version":"2.11.4"
+},
 "pari-2.11.4-pl5262h12b65c9_0.tar.bz2":{
 "build":"pl5262h12b65c9_0",
 "build_number":0,
@@ -109659,7 +109678,7 @@
 "timestamp":1588780195368,
 "version":"5.0.0"
 },
-"rdkit-2021.03.2-py36ha5e65f9_0.tar.bz2":{
+"rdkit-2021.03.3-py36ha5e65f9_0.tar.bz2":{
 "build":"py36ha5e65f9_0",
 "build_number":0,
 "depends":[
@@ -109680,12 +109699,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"rdkit",
-"sha256":"c3b590c42e963d03a0eed6f851008991968dd71b2b32fb33aed116e2db913e7c",
-"size":40121133,
-"timestamp":1620907523856,
-"version":"2021.03.2"
+"sha256":"c5bc4a8c09075106025161ea865bd29894de3ffc8fe85cd371c968558b8c7fed",
+"size":40171814,
+"timestamp":1623255214937,
+"version":"2021.03.3"
 },
-"rdkit-2021.03.2-py37hcc0d4c2_0.tar.bz2":{
+"rdkit-2021.03.3-py37hcc0d4c2_0.tar.bz2":{
 "build":"py37hcc0d4c2_0",
 "build_number":0,
 "depends":[
@@ -109706,38 +109725,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"rdkit",
-"sha256":"19ea05e20c5a7dc322c3894e2b30d1112e20e1c0815fc1e021d2ba4a82e029cb",
-"size":40241739,
-"timestamp":1620907798481,
-"version":"2021.03.2"
+"sha256":"d7322acb1ed280691fbca4b37bf7f81f723a5e6c4a0b20010562ea4e377c6b7a",
+"size":40226307,
+"timestamp":1623256190605,
+"version":"2021.03.3"
 },
-"rdkit-2021.03.2-py38h4489ad2_0.tar.bz2":{
-"build":"py38h4489ad2_0",
-"build_number":0,
-"depends":[
-"boost >=1.74.0,<1.74.1.0a0",
-"cairo >=1.16.0,<1.17.0a0",
-"freetype >=2.10.4,<3.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"matplotlib-base",
-"numpy >=1.17.5,<2.0a0",
-"pandas",
-"pillow",
-"pycairo",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"reportlab",
-"sqlalchemy"
-],
-"license":"BSD-3-Clause",
-"name":"rdkit",
-"sha256":"d002aab671e6f7f7c3999e706c921e06d9a671855ddd21f84248847aff90c42c",
-"size":40348225,
-"timestamp":1620904412208,
-"version":"2021.03.2"
-},
-"rdkit-2021.03.2-py39h584b56c_0.tar.bz2":{
+"rdkit-2021.03.3-py39h584b56c_0.tar.bz2":{
 "build":"py39h584b56c_0",
 "build_number":0,
 "depends":[
@@ -109758,12 +109751,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"rdkit",
-"sha256":"7a00dd42b1469bca7de5965d385e6880612c863e1997750fd439a1f7b0adfa83",
-"size":40157605,
-"timestamp":1620902874984,
-"version":"2021.03.2"
+"sha256":"825c333438d5264f1890e0a62cff44cc7980030efdb6e25b7cd8bbfbfae062a9",
+"size":40330553,
+"timestamp":1623256164791,
+"version":"2021.03.3"
 },
-"rdkit-dev-2021.03.2-ha3edaa6_0.tar.bz2":{
+"rdkit-dev-2021.03.3-ha3edaa6_0.tar.bz2":{
 "build":"ha3edaa6_0",
 "build_number":0,
 "depends":[
@@ -109771,10 +109764,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"rdkit-dev",
-"sha256":"a9fa7d7d3be506aa3eb63e40957f267dde15d5d8a2f566c17721d0af92749b5f",
-"size":5364,
-"timestamp":1620903050684,
-"version":"2021.03.2"
+"sha256":"a395d8791474caa363048adbfe6e340aa6ad2a05a5b1e9a4c34a25f58a235bd3",
+"size":5355,
+"timestamp":1623255374405,
+"version":"2021.03.3"
 },
 "re2-2021.04.01-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
@@ -130565,6 +130558,52 @@
 "timestamp":1622141000252,
 "version":"0.3.4"
 },
+"xeus-robot-0.3.4-py37hf41d104_1.tar.bz2":{
+"build":"py37hf41d104_1",
+"build_number":1,
+"depends":[
+"jupyterlab_robotmode",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"robotframework-interpreter >=0.6.6,<0.7",
+"robotframework-lsp >=0.14,<0.15",
+"xeus >=1.0.3,<1.1.0a0",
+"xeus-python >=0.12.1,<0.13",
+"xeus-python >=0.12.5,<0.13.0a0",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"xeus-robot",
+"sha256":"f860f165d7fcf6bac9d6c093dc3130bfa2e4e23008042fb4445d02957cecc3f6",
+"size":147552,
+"timestamp":1623255410115,
+"version":"0.3.4"
+},
+"xeus-robot-0.3.4-py38h7011a58_1.tar.bz2":{
+"build":"py38h7011a58_1",
+"build_number":1,
+"depends":[
+"jupyterlab_robotmode",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"robotframework-interpreter >=0.6.6,<0.7",
+"robotframework-lsp >=0.14,<0.15",
+"xeus >=1.0.3,<1.1.0a0",
+"xeus-python >=0.12.1,<0.13",
+"xeus-python >=0.12.5,<0.13.0a0",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"xeus-robot",
+"sha256":"f75817b51baff3ce595dbadfb4678c36e9335fa605e5c7b8bfd97685f203851b",
+"size":143186,
+"timestamp":1623255397975,
+"version":"0.3.4"
+},
 "xeus-robot-0.3.4-py38h7b07d20_0.tar.bz2":{
 "build":"py38h7b07d20_0",
 "build_number":0,
@@ -130609,6 +130648,29 @@
 "sha256":"0de8ed0cccba1942c17557aef2fcea567b1e8e5d0e035d62052a13bb852bd7ec",
 "size":143531,
 "timestamp":1622141118261,
+"version":"0.3.4"
+},
+"xeus-robot-0.3.4-py39h1f10ff4_1.tar.bz2":{
+"build":"py39h1f10ff4_1",
+"build_number":1,
+"depends":[
+"jupyterlab_robotmode",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"robotframework-interpreter >=0.6.6,<0.7",
+"robotframework-lsp >=0.14,<0.15",
+"xeus >=1.0.3,<1.1.0a0",
+"xeus-python >=0.12.1,<0.13",
+"xeus-python >=0.12.5,<0.13.0a0",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"xeus-robot",
+"sha256":"19eda85a6945b33c674a928a51e341df9b7ec50f6ffd156c7c23154555c0610d",
+"size":143495,
+"timestamp":1623255422558,
 "version":"0.3.4"
 },
 "xeus-sqlite-0.3.0-hb9b7751_0.tar.bz2":{
