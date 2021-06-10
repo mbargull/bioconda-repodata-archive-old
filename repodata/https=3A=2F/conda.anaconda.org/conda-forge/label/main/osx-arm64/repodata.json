@@ -949,6 +949,50 @@
 "timestamp":1621927995778,
 "version":"2.0.10"
 },
+"aesara-2.0.11-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"clang_osx-arm64 11.*",
+"clangxx_osx-arm64 11.*",
+"filelock",
+"numpy >=1.9.1",
+"pygpu >=0.7.0,<0.8",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy >=0.14",
+"setuptools",
+"six >=1.9.0"
+],
+"license":"BSD-3-Clause",
+"name":"aesara",
+"requires":[],
+"size":2316163,
+"timestamp":1623354297996,
+"version":"2.0.11"
+},
+"aesara-2.0.11-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"clang_osx-arm64 11.*",
+"clangxx_osx-arm64 11.*",
+"filelock",
+"numpy >=1.9.1",
+"pygpu >=0.7.0,<0.8",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy >=0.14",
+"setuptools",
+"six >=1.9.0"
+],
+"license":"BSD-3-Clause",
+"name":"aesara",
+"requires":[],
+"size":2318305,
+"timestamp":1623354273423,
+"version":"2.0.11"
+},
 "aesara-2.0.4-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",
 "build_number":0,
@@ -57480,6 +57524,17 @@
 "timestamp":1611263097792,
 "version":"0.11.0"
 },
+"logaddexp-2.1.1-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"MIT",
+"name":"logaddexp",
+"requires":[],
+"size":7252,
+"timestamp":1623351793184,
+"version":"2.1.1"
+},
 "loguru-0.5.3-py38h10201cd_2.tar.bz2":{
 "build":"py38h10201cd_2",
 "build_number":2,
@@ -101333,6 +101388,36 @@
 "size":2363082,
 "timestamp":1622329719220,
 "version":"1.4.17"
+},
+"sqlalchemy-1.4.18-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"requires":[],
+"size":2372081,
+"timestamp":1623354239632,
+"version":"1.4.18"
+},
+"sqlalchemy-1.4.18-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"requires":[],
+"size":2369453,
+"timestamp":1623354230348,
+"version":"1.4.18"
 },
 "sqlalchemy-1.4.2-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
