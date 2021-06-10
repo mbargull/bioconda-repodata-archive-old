@@ -63220,6 +63220,33 @@
 "timestamp":1617211699378,
 "version":"0.14.4"
 },
+"poppler-0.81.0-h01f5e8b_2.conda":{
+"build":"h01f5e8b_2",
+"build_number":2,
+"depends":[
+"cairo >=1.14.12,<2.0a0",
+"curl",
+"fontconfig >=2.13.1,<3.0a0",
+"freetype >=2.10.4,<3.0a0",
+"glib >=2.68.2,<3.0a0",
+"jpeg >=9b,<10a",
+"libcurl >=7.71.1,<8.0a0",
+"libgcc-ng >=7.5.0",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=7.5.0",
+"libtiff >=4.1.0,<5.0a0",
+"openjpeg >=2.3.0,<3.0a0",
+"poppler-data",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"legacy_bz2_md5":"d1d02486a56bddedb4789c0802d67f18",
+"license":"GPLv2",
+"name":"poppler",
+"sha256":"fd7d8022f2a4b56a002277901dba668495e2e123ba2d80f59f1e5b84b7cfdc4a",
+"size":9631696,
+"timestamp":1623340073756,
+"version":"0.81.0"
+},
 "poppler-0.81.0-he6a58d2_1.conda":{
 "build":"he6a58d2_1",
 "build_number":1,
@@ -87006,85 +87033,89 @@
 "timestamp":1614029724785,
 "version":"1.10.2"
 },
-"spyder-kernels-2.0.1-py36h06a4308_0.conda":{
+"spyder-kernels-2.0.3-py36h06a4308_0.conda":{
 "build":"py36h06a4308_0",
 "build_number":0,
 "depends":[
 "cloudpickle",
-"ipykernel >=5.3.0",
+"decorator <5",
+"ipykernel >=5.1.3",
 "ipython >=7.6.0",
 "jupyter_client >=5.3.4",
 "python >=3.6,<3.7.0a0",
 "pyzmq >=17",
 "wurlitzer >=1.0.3"
 ],
-"legacy_bz2_md5":"eb9fb8552a03715a2c0df94fb5c5e4e1",
+"legacy_bz2_md5":"195a57d843cca3dc72e23ca49b185f4e",
 "license":"MIT",
 "name":"spyder-kernels",
-"sha256":"fc64e2da22bad286d2ebf0ca7be8ef1c6eb55acaf5c590792b5879e315b6fc0b",
-"size":103999,
-"timestamp":1617396614787,
-"version":"2.0.1"
+"sha256":"01beadd867da23c34e7b483a59ce080301d2ecef2584d58839ee64baed7ab80d",
+"size":110077,
+"timestamp":1623278699300,
+"version":"2.0.3"
 },
-"spyder-kernels-2.0.1-py37h06a4308_0.conda":{
+"spyder-kernels-2.0.3-py37h06a4308_0.conda":{
 "build":"py37h06a4308_0",
 "build_number":0,
 "depends":[
 "cloudpickle",
-"ipykernel >=5.3.0",
+"decorator <5",
+"ipykernel >=5.1.3",
 "ipython >=7.6.0",
 "jupyter_client >=5.3.4",
 "python >=3.7,<3.8.0a0",
 "pyzmq >=17",
 "wurlitzer >=1.0.3"
 ],
-"legacy_bz2_md5":"5fec863d3246c9375de92d5174745433",
+"legacy_bz2_md5":"688bf10701f9a0976918eb589d7dc580",
 "license":"MIT",
 "name":"spyder-kernels",
-"sha256":"3744e74a6a4b23b266e8914df3944943eeea790116bde7f799dd0c8316b5c6d1",
-"size":102698,
-"timestamp":1617395927915,
-"version":"2.0.1"
+"sha256":"a794dbf8903c19f25a43b704585c400e79ebfa3962c38322feaa941b67fb00a9",
+"size":110446,
+"timestamp":1623273245382,
+"version":"2.0.3"
 },
-"spyder-kernels-2.0.1-py38h06a4308_0.conda":{
+"spyder-kernels-2.0.3-py38h06a4308_0.conda":{
 "build":"py38h06a4308_0",
 "build_number":0,
 "depends":[
 "cloudpickle",
-"ipykernel >=5.3.0",
+"decorator <5",
+"ipykernel >=5.1.3",
 "ipython >=7.6.0",
 "jupyter_client >=5.3.4",
 "python >=3.8,<3.9.0a0",
 "pyzmq >=17",
 "wurlitzer >=1.0.3"
 ],
-"legacy_bz2_md5":"81e925fd23e5a0ac400d65fa84df7085",
+"legacy_bz2_md5":"26da05ac6f0bda6b6fd58d434f8f0a50",
 "license":"MIT",
 "name":"spyder-kernels",
-"sha256":"b04682c3b12ba8d9be31fe56e3589e37f31f6144e0433dd10963ec9652c305d3",
-"size":104661,
-"timestamp":1617396603007,
-"version":"2.0.1"
+"sha256":"2f0f5c86ba5495715b193418d3885c70df93a70c2d72e134496adc60dd835175",
+"size":110931,
+"timestamp":1623278786555,
+"version":"2.0.3"
 },
-"spyder-kernels-2.0.1-py39h06a4308_0.conda":{
+"spyder-kernels-2.0.3-py39h06a4308_0.conda":{
 "build":"py39h06a4308_0",
 "build_number":0,
 "depends":[
 "cloudpickle",
-"ipykernel >=5.3.0",
+"decorator <5",
+"ipykernel >=5.1.3",
 "ipython >=7.6.0",
 "jupyter_client >=5.3.4",
 "python >=3.9,<3.10.0a0",
 "pyzmq >=17",
 "wurlitzer >=1.0.3"
 ],
-"legacy_bz2_md5":"15d7d7f7c91860860af96ceec221b7a3",
+"legacy_bz2_md5":"70396b253ac31834ab5804f7bbd12b00",
 "license":"MIT",
 "name":"spyder-kernels",
-"sha256":"74456212298527639d893d4c3d9c946a856157124839ed586e3f53376832de44",
-"size":104681,
-"timestamp":1617396596466,
-"version":"2.0.1"
+"sha256":"d1c3f9140f552630f8fac82f670e547b822129fbe1fd5df6f36acce1d4a41074",
+"size":109461,
+"timestamp":1623278802738,
+"version":"2.0.3"
 },
 "sqlalchemy-1.3.23-py36h27cfd23_0.conda":{
 "build":"py36h27cfd23_0",

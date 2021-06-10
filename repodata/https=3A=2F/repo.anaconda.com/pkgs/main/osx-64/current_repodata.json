@@ -55404,6 +55404,34 @@
 "timestamp":1617211647212,
 "version":"0.14.4"
 },
+"poppler-0.81.0-h031bf0f_2.conda":{
+"build":"h031bf0f_2",
+"build_number":2,
+"depends":[
+"cairo >=1.14.12,<2.0a0",
+"curl",
+"fontconfig >=2.13.1,<3.0a0",
+"freetype >=2.10.4,<3.0a0",
+"gettext >=0.21.0,<1.0a0",
+"glib >=2.68.2,<3.0a0",
+"jpeg >=9b,<10a",
+"libcurl >=7.71.1,<8.0a0",
+"libcxx >=10.0.0",
+"libiconv >=1.16,<2.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"openjpeg >=2.3.0,<3.0a0",
+"poppler-data",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"legacy_bz2_md5":"74a8c4e5673678f28e73fe7988facbff",
+"license":"GPLv2",
+"name":"poppler",
+"sha256":"f2e91862c124c4416814b0f6c2844a336e8dac6d3aad5204570ead7a0ce39bce",
+"size":1614024,
+"timestamp":1623343932457,
+"version":"0.81.0"
+},
 "poppler-0.81.0-h2ef9dbd_1.conda":{
 "build":"h2ef9dbd_1",
 "build_number":1,
@@ -77448,85 +77476,89 @@
 "timestamp":1614030617345,
 "version":"1.10.2"
 },
-"spyder-kernels-2.0.1-py36hecd8cb5_0.conda":{
+"spyder-kernels-2.0.3-py36hecd8cb5_0.conda":{
 "build":"py36hecd8cb5_0",
 "build_number":0,
 "depends":[
 "cloudpickle",
-"ipykernel >=5.3.0",
+"decorator <5",
+"ipykernel >=5.1.3",
 "ipython >=7.6.0",
 "jupyter_client >=5.3.4",
 "python >=3.6,<3.7.0a0",
 "pyzmq >=17",
 "wurlitzer >=1.0.3"
 ],
-"legacy_bz2_md5":"1526484d562d14f09c0214dbaa371ab3",
+"legacy_bz2_md5":"9e575f1610b9a54a1f107de806b950b7",
 "license":"MIT",
 "name":"spyder-kernels",
-"sha256":"4f57176f657c72bfcd4d085deb7cf88d3ad3dd3aa5df1a9236686496c45e18d7",
-"size":103865,
-"timestamp":1617396595158,
-"version":"2.0.1"
+"sha256":"9c12559d0801c00d9a1539b32b16c6f68c362ab056b1a83f129b44910bc65ab0",
+"size":110496,
+"timestamp":1623278800831,
+"version":"2.0.3"
 },
-"spyder-kernels-2.0.1-py37hecd8cb5_0.conda":{
+"spyder-kernels-2.0.3-py37hecd8cb5_0.conda":{
 "build":"py37hecd8cb5_0",
 "build_number":0,
 "depends":[
 "cloudpickle",
-"ipykernel >=5.3.0",
+"decorator <5",
+"ipykernel >=5.1.3",
 "ipython >=7.6.0",
 "jupyter_client >=5.3.4",
 "python >=3.7,<3.8.0a0",
 "pyzmq >=17",
 "wurlitzer >=1.0.3"
 ],
-"legacy_bz2_md5":"6b6afdfc560c931096601ff6fa44c52e",
+"legacy_bz2_md5":"d0fd50ae7e75bad0e67d9fb194098dfc",
 "license":"MIT",
 "name":"spyder-kernels",
-"sha256":"e5b7e115bd98920d71767c45032aa6ab3093b21df022114cfb1eabba668b14e7",
-"size":102807,
-"timestamp":1617396590680,
-"version":"2.0.1"
+"sha256":"4827d208822a46b1734d4cd65d3dca4ecfd14561df4ef6b34979d1dbb84873d6",
+"size":110516,
+"timestamp":1623278792663,
+"version":"2.0.3"
 },
-"spyder-kernels-2.0.1-py38hecd8cb5_0.conda":{
+"spyder-kernels-2.0.3-py38hecd8cb5_0.conda":{
 "build":"py38hecd8cb5_0",
 "build_number":0,
 "depends":[
 "cloudpickle",
-"ipykernel >=5.3.0",
+"decorator <5",
+"ipykernel >=5.1.3",
 "ipython >=7.6.0",
 "jupyter_client >=5.3.4",
 "python >=3.8,<3.9.0a0",
 "pyzmq >=17",
 "wurlitzer >=1.0.3"
 ],
-"legacy_bz2_md5":"5453e81e24e7591299ca33582c2aeba3",
+"legacy_bz2_md5":"aee3d355836ef47a7c462d8b36d80243",
 "license":"MIT",
 "name":"spyder-kernels",
-"sha256":"efacab5e5edb7d8aae11f0baa381510386a0db9d4fd7da3ca17ad52bbca95d5e",
-"size":103137,
-"timestamp":1617396579940,
-"version":"2.0.1"
+"sha256":"92959a87f3d5f631162931a1e658eb223f1bc831a944f2125d9e7baf50273e6a",
+"size":109376,
+"timestamp":1623278804269,
+"version":"2.0.3"
 },
-"spyder-kernels-2.0.1-py39hecd8cb5_0.conda":{
+"spyder-kernels-2.0.3-py39hecd8cb5_0.conda":{
 "build":"py39hecd8cb5_0",
 "build_number":0,
 "depends":[
 "cloudpickle",
-"ipykernel >=5.3.0",
+"decorator <5",
+"ipykernel >=5.1.3",
 "ipython >=7.6.0",
 "jupyter_client >=5.3.4",
 "python >=3.9,<3.10.0a0",
 "pyzmq >=17",
 "wurlitzer >=1.0.3"
 ],
-"legacy_bz2_md5":"d6c632fc52820f3d7e6a81fb7872ba1f",
+"legacy_bz2_md5":"7ff6b026a6ab15f8761ad7fab4b9fbef",
 "license":"MIT",
 "name":"spyder-kernels",
-"sha256":"ff39b50ed676d0e144f0c3a777fc2b95194d00b18acf8eab813c248317245a40",
-"size":102850,
-"timestamp":1617396590146,
-"version":"2.0.1"
+"sha256":"fe2bd958a11a5a9f55ea113eb27f98195adc7bb1e66fc544d29425775b3d3a88",
+"size":111069,
+"timestamp":1623278816503,
+"version":"2.0.3"
 },
 "sqlalchemy-1.3.23-py36h9ed2024_0.conda":{
 "build":"py36h9ed2024_0",

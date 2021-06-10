@@ -12059,6 +12059,20 @@
 "timestamp":1623310381157,
 "version":"0.2.12"
 },
+"aws-c-compression-0.2.12-hfe76d68_1.tar.bz2":{
+"build":"hfe76d68_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-compression",
+"sha256":"cdf551caaaa19f69ec90daf5565229b73c22d22c8daa52ccd3072c02fa40cd65",
+"size":18811,
+"timestamp":1623341634550,
+"version":"0.2.12"
+},
 "aws-c-event-stream-0.2.7-h223e5b4_2.tar.bz2":{
 "build":"h223e5b4_2",
 "build_number":2,
@@ -22759,6 +22773,20 @@
 "size":4206943,
 "timestamp":1582789501766,
 "version":"7.0.0"
+},
+"cub-1.11.0-ha3edaa6_1.tar.bz2":{
+"build":"ha3edaa6_1",
+"build_number":1,
+"constrains":[
+"thrust 1.11.0.*"
+],
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"cub",
+"sha256":"8441f7842021110bba415362429888a23f29660c758fc4e7e54b9383ad1c7580",
+"size":186180,
+"timestamp":1623343038558,
+"version":"1.11.0"
 },
 "cudatoolkit-10.2.89-h455192d_6.tar.bz2":{
 "build":"h455192d_6",
@@ -71594,7 +71622,7 @@
 "timestamp":1615937929731,
 "version":"4.30"
 },
-"nss-3.66-ha04f6ab_0.tar.bz2":{
+"nss-3.67-ha04f6ab_0.tar.bz2":{
 "build":"ha04f6ab_0",
 "build_number":0,
 "depends":[
@@ -71606,10 +71634,10 @@
 ],
 "license":"MPL-2.0",
 "name":"nss",
-"sha256":"deac86868f26b7ca54519172c110e86eefd132e8a74d6485a9357813bcacef28",
-"size":2395517,
-"timestamp":1622647415882,
-"version":"3.66"
+"sha256":"db0ab20f1e589f10e1fd06e5b366a92379ead1f8e9d06b3135a7a87d6650f04d",
+"size":2383092,
+"timestamp":1623338681167,
+"version":"3.67"
 },
 "nsync-1.24.0-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
