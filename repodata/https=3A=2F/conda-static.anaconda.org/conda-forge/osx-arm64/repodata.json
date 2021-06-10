@@ -10434,6 +10434,22 @@
 "timestamp":1622288591083,
 "version":"0.5.2"
 },
+"aws-c-auth-0.6.0-h1cce35f_2.tar.bz2":{
+"build":"h1cce35f_2",
+"build_number":2,
+"depends":[
+"aws-c-cal >=0.5.9,<0.5.10.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.2,<0.10.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"a93e3f0068d76f114586273558065f9a75d34fe4f4730dfd5c2ab9c4a3453b56",
+"size":92018,
+"timestamp":1623303885721,
+"version":"0.6.0"
+},
 "aws-c-auth-0.6.0-h3b0e95f_0.tar.bz2":{
 "build":"h3b0e95f_0",
 "build_number":0,
@@ -11923,6 +11939,21 @@
 "size":111501,
 "timestamp":1619882318903,
 "version":"0.9.4"
+},
+"aws-c-mqtt-0.7.6-h1cce35f_5.tar.bz2":{
+"build":"h1cce35f_5",
+"build_number":5,
+"depends":[
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.2,<0.10.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"6d92ac3024498be01d0574bdf3fd4ff123ff925992a16fdc45594113be2bc834",
+"size":50684,
+"timestamp":1623303923635,
+"version":"0.7.6"
 },
 "aws-c-mqtt-0.7.6-h3b0e95f_3.tar.bz2":{
 "build":"h3b0e95f_3",
@@ -36363,6 +36394,25 @@
 "size":7503136,
 "timestamp":1620667763125,
 "version":"1.27.0"
+},
+"google-cloud-cpp-1.28.0-h888ab05_1.tar.bz2":{
+"build":"h888ab05_1",
+"build_number":1,
+"depends":[
+"abseil-cpp >=20210324.2,<20210324.3.0a0",
+"grpc-cpp >=1.38.0,<1.39.0a0",
+"libcrc32c >=1.1.1,<1.2.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"google-cloud-cpp",
+"sha256":"f36e7447333af516e79eb1425800d59d0f9e390234419828164c6865abeea8a1",
+"size":7792539,
+"timestamp":1623306663407,
+"version":"1.28.0"
 },
 "google-cloud-cpp-1.28.0-hd3ca28f_0.tar.bz2":{
 "build":"hd3ca28f_0",
