@@ -28818,8 +28818,8 @@
 "timestamp":1622585508341,
 "version":"3.5.3"
 },
-"orocos-kdl-1.4.0-hc470f4d_0.tar.bz2":{
-"build":"hc470f4d_0",
+"orocos-kdl-1.5.0-h6f2b01f_0.tar.bz2":{
+"build":"h6f2b01f_0",
 "build_number":0,
 "depends":[
 "eigen",
@@ -28827,10 +28827,24 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"orocos-kdl",
-"sha256":"cb8194de27b6284bcb8bdb57e1754b9ff079f0bec2bad2b1d3afc90b644e4e46",
-"size":303312,
-"timestamp":1618396186124,
-"version":"1.4.0"
+"sha256":"4ceed6ccbd5ef3294fd3cccdc9e92deb6ceaa5301fc75a0df8cad1fb405d57a8",
+"size":330806,
+"timestamp":1623388557763,
+"version":"1.5.0"
+},
+"orocos-kdl-1.5.0-hfb83b0d_0.tar.bz2":{
+"build":"hfb83b0d_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libcxx >=11.1.0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"orocos-kdl",
+"sha256":"ac1a0c6e037e15ce60f2c35b4d009fd95c93444b933a9b68a98f337ae6d2f6a8",
+"size":322095,
+"timestamp":1623388595294,
+"version":"1.5.0"
 },
 "osqp-0.6.2-py38h9b9bf68_1.tar.bz2":{
 "build":"py38h9b9bf68_1",
@@ -33457,23 +33471,39 @@
 "timestamp":1622603544719,
 "version":"3.1"
 },
-"python-orocos-kdl-1.4.0-py38h6f2b01f_0.tar.bz2":{
+"python-orocos-kdl-1.5.0-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",
 "build_number":0,
 "depends":[
 "eigen",
 "libcxx >=11.1.0",
 "orocos-kdl",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"sip"
+"pybind11",
+"python >=3.8,<3.9.0a0"
 ],
 "license":"LGPL-2.1-or-later",
 "name":"python-orocos-kdl",
-"sha256":"d4d00065421fee0e99945f5eb92dc62e99ea463206f7324a1fd83d3a62cf9bcd",
-"size":126848,
-"timestamp":1618396302648,
-"version":"1.4.0"
+"sha256":"7f2f5b1fac848f3dc10fd99d5f17c5107a893de57c046548f8dd0309988b7902",
+"size":313808,
+"timestamp":1623388730868,
+"version":"1.5.0"
+},
+"python-orocos-kdl-1.5.0-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libcxx >=11.1.0",
+"orocos-kdl",
+"pybind11",
+"python >=3.9,<3.10.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"python-orocos-kdl",
+"sha256":"56b51690c9dd5e50b838620b47ab48d0920f60e515bfe810d52c4f5f646dcf2d",
+"size":313293,
+"timestamp":1623388785942,
+"version":"1.5.0"
 },
 "python-rapidjson-1.0-py38h3f7e68f_0.tar.bz2":{
 "build":"py38h3f7e68f_0",
