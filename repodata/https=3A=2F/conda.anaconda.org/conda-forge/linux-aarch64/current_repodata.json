@@ -9742,6 +9742,24 @@
 "timestamp":1620072850674,
 "version":"1.8.186"
 },
+"aws-sdk-cpp-1.8.186-h3fd84e4_3.tar.bz2":{
+"build":"h3fd84e4_3",
+"build_number":3,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"sha256":"76ace2865a8ff068de489847d5b9b419a4afc1468147c81c4bae19e3efb07982",
+"size":4657229,
+"timestamp":1623390313966,
+"version":"1.8.186"
+},
 "aws-sdk-cpp-1.8.186-ha979626_2.tar.bz2":{
 "build":"ha979626_2",
 "build_number":2,
@@ -74192,6 +74210,22 @@
 "timestamp":1622585875984,
 "version":"3.5.3"
 },
+"orocos-kdl-1.5.0-h0119ad3_0.tar.bz2":{
+"build":"h0119ad3_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-or-later",
+"name":"orocos-kdl",
+"sha256":"6568c4e272ba09265de7219c2f0a30f7f32aee6314b4156846fe973a2b655106",
+"size":407849,
+"timestamp":1623389832527,
+"version":"1.5.0"
+},
 "orocos-kdl-1.5.0-h86e9a40_0.tar.bz2":{
 "build":"h86e9a40_0",
 "build_number":0,
@@ -74206,6 +74240,38 @@
 "sha256":"87c1581c93f50d1ae59e498c40e06a5bd1bb5e3e1ede58c9b36bba348908c40a",
 "size":392832,
 "timestamp":1623388541643,
+"version":"1.5.0"
+},
+"orocos-kdl-1.5.0-h99ab00b_0.tar.bz2":{
+"build":"h99ab00b_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-2.1-or-later",
+"name":"orocos-kdl",
+"sha256":"0efbbeb856e51afcb29dcd52a12392b518833750ba92cb5b1f44235a79a050e1",
+"size":407665,
+"timestamp":1623390475286,
+"version":"1.5.0"
+},
+"orocos-kdl-1.5.0-had24c86_0.tar.bz2":{
+"build":"had24c86_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"LGPL-2.1-or-later",
+"name":"orocos-kdl",
+"sha256":"c4d0c022121a436808f0f7e8aa64042b24a91e2a7b7214d77ea6a53b3efd2646",
+"size":392401,
+"timestamp":1623389192650,
 "version":"1.5.0"
 },
 "osqp-0.6.2-py36h0cd6c39_0.tar.bz2":{
@@ -91447,6 +91513,63 @@
 "sha256":"5d6595f14f0321cd6d2c0c46f7ed6c49acbbdf4d1b8efdaa9602d5cd4365a038",
 "size":271565,
 "timestamp":1623388698685,
+"version":"1.5.0"
+},
+"python-orocos-kdl-1.5.0-py37had24c86_0.tar.bz2":{
+"build":"py37had24c86_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"orocos-kdl",
+"pybind11",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"LGPL-2.1-or-later",
+"name":"python-orocos-kdl",
+"sha256":"af6bfa49765b04299c9030edd507a1c1daa8bd3193035fc4c90e3167e1d70777",
+"size":271306,
+"timestamp":1623389345422,
+"version":"1.5.0"
+},
+"python-orocos-kdl-1.5.0-py38h0119ad3_0.tar.bz2":{
+"build":"py38h0119ad3_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"orocos-kdl",
+"pybind11",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-or-later",
+"name":"python-orocos-kdl",
+"sha256":"e7ac691b3792d273f303f46641fef4f383d07ab1dce7144e2be4fcdfb2fe6a87",
+"size":257076,
+"timestamp":1623389973655,
+"version":"1.5.0"
+},
+"python-orocos-kdl-1.5.0-py39h99ab00b_0.tar.bz2":{
+"build":"py39h99ab00b_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"orocos-kdl",
+"pybind11",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-2.1-or-later",
+"name":"python-orocos-kdl",
+"sha256":"952c688dd661a6bb0413dc60084fe31496a8ef77d35f340e2406d27c8c61acfc",
+"size":258288,
+"timestamp":1623390617984,
 "version":"1.5.0"
 },
 "python-symengine-0.7.2-py36h0f15581_0.tar.bz2":{
