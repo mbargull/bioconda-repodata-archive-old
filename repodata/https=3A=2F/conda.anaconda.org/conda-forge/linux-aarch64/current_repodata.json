@@ -9594,6 +9594,24 @@
 "timestamp":1622873455611,
 "version":"0.7.6"
 },
+"aws-c-s3-0.1.19-h56b85e5_0.tar.bz2":{
+"build":"h56b85e5_0",
+"build_number":0,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.14,<0.9.15.0a0",
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-s3",
+"sha256":"acd81d8cea236bb3db444d1cc0f87cd92962013d01f614b686bf5f4c6aba7804",
+"size":54057,
+"timestamp":1623405351585,
+"version":"0.1.19"
+},
 "aws-checksums-0.1.11-h183d49f_6.tar.bz2":{
 "build":"h183d49f_6",
 "build_number":6,
@@ -67676,7 +67694,7 @@
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.23,<8.0.24.0a0",
+"mysql-libs >=8.0.23,<8.1.0.0a0",
 "unixodbc >=2.3.9,<2.4.0a0"
 ],
 "license":"GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
@@ -67694,7 +67712,7 @@
 "libgcc-ng >=9.3.0",
 "libprotobuf >=3.16.0,<3.17.0a0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.25,<8.0.26.0a0",
+"mysql-libs >=8.0.25,<8.1.0.0a0",
 "protobuf >=3.0.0",
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
@@ -67715,7 +67733,7 @@
 "libgcc-ng >=9.3.0",
 "libprotobuf >=3.16.0,<3.17.0a0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.25,<8.0.26.0a0",
+"mysql-libs >=8.0.25,<8.1.0.0a0",
 "protobuf >=3.0.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m"
@@ -67735,7 +67753,7 @@
 "libgcc-ng >=9.3.0",
 "libprotobuf >=3.16.0,<3.17.0a0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.25,<8.0.26.0a0",
+"mysql-libs >=8.0.25,<8.1.0.0a0",
 "protobuf >=3.0.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
@@ -67755,7 +67773,7 @@
 "libgcc-ng >=9.3.0",
 "libprotobuf >=3.16.0,<3.17.0a0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.25,<8.0.26.0a0",
+"mysql-libs >=8.0.25,<8.1.0.0a0",
 "protobuf >=3.0.0",
 "pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
@@ -67776,7 +67794,7 @@
 "libgcc-ng >=9.3.0",
 "libprotobuf >=3.16.0,<3.17.0a0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.25,<8.0.26.0a0",
+"mysql-libs >=8.0.25,<8.1.0.0a0",
 "protobuf >=3.0.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
@@ -67796,7 +67814,7 @@
 "libgcc-ng >=9.3.0",
 "libprotobuf >=3.16.0,<3.17.0a0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.25,<8.0.26.0a0",
+"mysql-libs >=8.0.25,<8.1.0.0a0",
 "protobuf >=3.0.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
@@ -67843,125 +67861,6 @@
 "size":2154027,
 "timestamp":1623359725101,
 "version":"8.0.25"
-},
-"mysql-libs-8.0.22-h7f84562_1.tar.bz2":{
-"build":"h7f84562_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mysql-common 8.0.22 h8af1aa0_1",
-"openssl >=1.1.1h,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.5,<1.5.0a0"
-],
-"name":"mysql-libs",
-"sha256":"de0e8833d29ce5ed5e067bcc98e761a863abbe62200caab2064d2ab1dbbc593c",
-"size":1887405,
-"timestamp":1606465876178,
-"version":"8.0.22"
-},
-"mysql-libs-8.0.22-hbb91af6_2.tar.bz2":{
-"build":"hbb91af6_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mysql-common 8.0.22 h8af1aa0_2",
-"openssl >=1.1.1i,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
-],
-"name":"mysql-libs",
-"sha256":"e5df2caa607f2b180a83e426391dd00d5cadb9e4e9775bf7c1ab98f5a97e9551",
-"size":1874374,
-"timestamp":1611020107486,
-"version":"8.0.22"
-},
-"mysql-libs-8.0.22-hbb91af6_3.tar.bz2":{
-"build":"hbb91af6_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mysql-common 8.0.22 h8af1aa0_3",
-"openssl >=1.1.1i,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
-],
-"name":"mysql-libs",
-"sha256":"b6dda8a47d3c958d2623b60719a5b1c8a92b83ce27ee8b73ca7897df8f9e38c2",
-"size":1872183,
-"timestamp":1611059915662,
-"version":"8.0.22"
-},
-"mysql-libs-8.0.22-hf3661c5_0.tar.bz2":{
-"build":"hf3661c5_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"mysql-common 8.0.22 0",
-"openssl >=1.1.1h,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.5,<1.5.0a0"
-],
-"name":"mysql-libs",
-"sha256":"0a23874aab4763a336fe36de404ed220e8bdef0809d4c59d5346422099734d74",
-"size":1889401,
-"timestamp":1603174442077,
-"version":"8.0.22"
-},
-"mysql-libs-8.0.23-hbb91af6_0.tar.bz2":{
-"build":"hbb91af6_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mysql-common 8.0.23 h8af1aa0_0",
-"openssl >=1.1.1i,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
-],
-"name":"mysql-libs",
-"sha256":"6d6d445a0f52ad6c4d88fb7d48d5ba3332c2f5581c338772c9c7532a7c439df5",
-"size":1877489,
-"timestamp":1611296947335,
-"version":"8.0.23"
-},
-"mysql-libs-8.0.23-hbb91af6_1.tar.bz2":{
-"build":"hbb91af6_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mysql-common 8.0.23 h8af1aa0_1",
-"openssl >=1.1.1j,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.8,<1.5.0a0"
-],
-"name":"mysql-libs",
-"sha256":"3d83efeafce8e75b5c60e2d2f03b6c37ad46522bf6338f9a9d38f98687c30afb",
-"size":1896683,
-"timestamp":1613915259925,
-"version":"8.0.23"
-},
-"mysql-libs-8.0.23-hbb91af6_2.tar.bz2":{
-"build":"hbb91af6_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mysql-common 8.0.23 h8af1aa0_2",
-"openssl >=1.1.1k,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.4.9,<1.5.0a0"
-],
-"name":"mysql-libs",
-"sha256":"2df82877d424ac797d61449dc97a0ded2e9a0dc78815a46eff06dce3aefe0eaa",
-"size":1880503,
-"timestamp":1620417393690,
-"version":"8.0.23"
 },
 "mysql-libs-8.0.25-ha3f2873_1.tar.bz2":{
 "build":"ha3f2873_1",
@@ -68143,7 +68042,7 @@
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.22,<8.0.23.0a0",
+"mysql-libs >=8.0.22,<8.1.0.0a0",
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6 *_pypy36_pp73"
@@ -68161,7 +68060,7 @@
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.22,<8.0.23.0a0",
+"mysql-libs >=8.0.22,<8.1.0.0a0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m"
 ],
@@ -68178,7 +68077,7 @@
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.22,<8.0.23.0a0",
+"mysql-libs >=8.0.22,<8.1.0.0a0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
 ],
@@ -68195,7 +68094,7 @@
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.22,<8.0.23.0a0",
+"mysql-libs >=8.0.22,<8.1.0.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
@@ -68212,7 +68111,7 @@
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"mysql-libs >=8.0.22,<8.0.23.0a0",
+"mysql-libs >=8.0.22,<8.1.0.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
@@ -73177,7 +73076,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
@@ -73230,7 +73129,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
@@ -73279,7 +73178,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
@@ -73332,7 +73231,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
@@ -73384,7 +73283,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -73436,7 +73335,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.15.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -78289,7 +78188,7 @@
 "libgcc-ng >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "xdrfile >=1.1.4,<1.1.5.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
@@ -94167,7 +94066,7 @@
 "libxcb",
 "libxkbcommon >=1.0.3,<2.0a0",
 "libxml2 >=2.9.10,<2.10.0a0",
-"mysql-libs >=8.0.23,<8.0.24.0a0",
+"mysql-libs >=8.0.23,<8.1.0.0a0",
 "nspr >=4.29,<5.0a0",
 "nss >=3.62,<4.0a0",
 "openssl",
@@ -125974,7 +125873,7 @@
 "timestamp":1611830118463,
 "version":"6.0"
 },
-"uproot-4.0.8-py36h2e20a7f_0.tar.bz2":{
+"uproot-4.0.9-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
@@ -125990,12 +125889,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"f0b17dc7edf1877afa18c614c6b3dcb66955076caaf8395e8a51f69e47bfba0b",
-"size":4904,
-"timestamp":1621671048769,
-"version":"4.0.8"
+"sha256":"631c961604e4c2b95174b55502533f88a48ba0423d77fbb83a6f23a8e1392d22",
+"size":4901,
+"timestamp":1623403490051,
+"version":"4.0.9"
 },
-"uproot-4.0.8-py36h704843e_0.tar.bz2":{
+"uproot-4.0.9-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -126011,12 +125910,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"eb9d50a6ba7b33553a2798c4cac9a873a3026db144bbfb18c1640e4d0fffb4aa",
-"size":4857,
-"timestamp":1621671635110,
-"version":"4.0.8"
+"sha256":"b865f18c9265cd764c015d7f1936b895fd0c746cdc596fc7c93bf8b65fab9d7c",
+"size":4855,
+"timestamp":1623404376764,
+"version":"4.0.9"
 },
-"uproot-4.0.8-py37h4bcbb9b_0.tar.bz2":{
+"uproot-4.0.9-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
@@ -126032,12 +125931,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"c684986c89acaad81dc745df69493d8deb79d2f0e55e4550fa3e9130f05a2e38",
-"size":4908,
-"timestamp":1621672347144,
-"version":"4.0.8"
+"sha256":"2d1bff8c263b29e3dac96519f026fd2676a69165a9ee38e4af6764439f17eb3e",
+"size":4903,
+"timestamp":1623404415942,
+"version":"4.0.9"
 },
-"uproot-4.0.8-py37hd9ded2f_0.tar.bz2":{
+"uproot-4.0.9-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
@@ -126053,12 +125952,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"9095256edac0db6db8c4b5b1ba2d486772315b28649cf08328aee45f2aabd4ad",
-"size":4862,
-"timestamp":1621672081878,
-"version":"4.0.8"
+"sha256":"5766fe729611d0772446958d7732c82feb2fd12a065d18fde60223f7aebd67a6",
+"size":4855,
+"timestamp":1623403848101,
+"version":"4.0.9"
 },
-"uproot-4.0.8-py38h2063c64_0.tar.bz2":{
+"uproot-4.0.9-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
@@ -126074,12 +125973,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"f8ea6de4509ca5ec34aca8a3bbc3e0a2340aa832e2e4ec6ebee7f9de0256e59f",
-"size":4828,
-"timestamp":1621672504656,
-"version":"4.0.8"
+"sha256":"d761023a485d9fcd3e2186ccfdab631d53766a378ba5287332c357361f21a1ef",
+"size":4840,
+"timestamp":1623403928170,
+"version":"4.0.9"
 },
-"uproot-4.0.8-py39ha65689a_0.tar.bz2":{
+"uproot-4.0.9-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
@@ -126095,10 +125994,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"1a5a411bfecebd8ba8c2e6b809b0dc2bdba406b6ef086ecd706c8396a67893d7",
-"size":4872,
-"timestamp":1621672198785,
-"version":"4.0.8"
+"sha256":"56eea98913ca1d1f4bb82bd42585c57753f95be45fba0ced4c9a7c0daba029e6",
+"size":4864,
+"timestamp":1623404048171,
+"version":"4.0.9"
 },
 "uproot-base-3.13.0-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
