@@ -15526,22 +15526,23 @@
 "timestamp":1617201015336,
 "version":"2.3.1"
 },
-"pygithub-1.54.1-pyhd3eb1b0_1.tar.bz2":{
+"pygithub-1.55-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
 "deprecated",
-"pyjwt <2.0",
-"python >=3",
-"requests >=2.14.0,<2.25"
+"pyjwt >=2.0",
+"pynacl >=1.4.0",
+"python >=3.6",
+"requests >=2.14.0"
 ],
 "license":"LGPL-3.0-only",
 "name":"pygithub",
 "noarch":"python",
-"sha256":"6189a8a06a290568c70a38fd5c89ae09a6ad98981f85d63944639e54320cae6c",
-"size":118086,
-"timestamp":1612299327246,
-"version":"1.54.1"
+"sha256":"fb726dd4b0b15a16d9864eb60c0ae1377548e2271e656f670f6f012323445c23",
+"size":118602,
+"timestamp":1623329144364,
+"version":"1.55"
 },
 "pygments-2.9.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -17368,24 +17369,6 @@
 "size":66810,
 "timestamp":1593435624772,
 "version":"3.5.3"
-},
-"requests-2.24.0-py_0.tar.bz2":{
-"build":"py_0",
-"build_number":0,
-"depends":[
-"certifi >=2017.4.17",
-"chardet >=3.0.2,<4",
-"idna >=2.5,<3",
-"python",
-"urllib3 >=1.21.1,<1.26,!=1.25.0,!=1.25.1"
-],
-"license":"Apache-2.0",
-"name":"requests",
-"noarch":"python",
-"sha256":"776f5941392f88d2022cc6ebbc3f7fd6bedfa575a1c79b8c660b6bfe8c531f0b",
-"size":55315,
-"timestamp":1592841859054,
-"version":"2.24.0"
 },
 "requests-2.25.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
