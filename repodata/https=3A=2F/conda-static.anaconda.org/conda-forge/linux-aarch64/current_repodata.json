@@ -9612,6 +9612,24 @@
 "timestamp":1623405351585,
 "version":"0.1.19"
 },
+"aws-c-s3-0.1.19-hb8ee8d2_1.tar.bz2":{
+"build":"hb8ee8d2_1",
+"build_number":1,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.1,<0.10.2.0a0",
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-s3",
+"sha256":"83c4fa40d058bade5ea278b9617daa31b7879ab40b334ee25fee30dcc33e4ef9",
+"size":54092,
+"timestamp":1623412165485,
+"version":"0.1.19"
+},
 "aws-checksums-0.1.11-h183d49f_6.tar.bz2":{
 "build":"h183d49f_6",
 "build_number":6,
@@ -9723,6 +9741,29 @@
 "size":50460,
 "timestamp":1612557590714,
 "version":"0.1.11"
+},
+"aws-crt-cpp-0.14.0-h969c063_0.tar.bz2":{
+"build":"h969c063_0",
+"build_number":0,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.9,<0.5.10.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.14,<0.9.15.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"sha256":"bb3df4549b553eb3678105f8eb0153b2373b996ef45a4dd93015094fc0d17107",
+"size":181723,
+"timestamp":1623411246324,
+"version":"0.14.0"
 },
 "aws-sdk-cpp-1.8.186-h16ce3ee_1.tar.bz2":{
 "build":"h16ce3ee_1",
@@ -10892,7 +10933,7 @@
 "timestamp":1589761275750,
 "version":"4.9.1"
 },
-"benchmark-1.5.4-h01db608_0.tar.bz2":{
+"benchmark-1.5.5-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
 "build_number":0,
 "depends":[
@@ -10901,10 +10942,10 @@
 ],
 "license":"Apache-2.0",
 "name":"benchmark",
-"sha256":"b66cecb3de03cd98267d43d123a187b5420596e56447e14a57268abc20655efc",
-"size":204223,
-"timestamp":1622371786788,
-"version":"1.5.4"
+"sha256":"996ae1cfcdf488919a48ba3d2fdd9fa0f6cd90f88522848f0d16b272e07fb94e",
+"size":206326,
+"timestamp":1623414349920,
+"version":"1.5.5"
 },
 "binpickle-0.3.3-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",

@@ -5520,7 +5520,7 @@
 "timestamp":1591752603786,
 "version":"1.2.3"
 },
-"ambertools-21.1-py36h84d8312_0.tar.bz2":{
+"ambertools-21.2-py36h84d8312_0.tar.bz2":{
 "build":"py36h84d8312_0",
 "build_number":0,
 "constrains":[
@@ -5558,12 +5558,12 @@
 ],
 "license":"Multiple",
 "name":"ambertools",
-"sha256":"24d5f02635b7a7cbe960fab959f2f2a2aee49a2a21365b875dce3c29d380847a",
-"size":96638650,
-"timestamp":1623375923537,
-"version":"21.1"
+"sha256":"7c7e23e6742641cf4ddaeb2c2537baa0f325a752539045deb9b143ce1d849952",
+"size":96866706,
+"timestamp":1623413206710,
+"version":"21.2"
 },
-"ambertools-21.1-py37h7d28cca_0.tar.bz2":{
+"ambertools-21.2-py37h7d28cca_0.tar.bz2":{
 "build":"py37h7d28cca_0",
 "build_number":0,
 "constrains":[
@@ -5601,12 +5601,12 @@
 ],
 "license":"Multiple",
 "name":"ambertools",
-"sha256":"1300b5be5b1e343c89104443c3628a2953bc544823c7d6aee916633ce594a550",
-"size":96742360,
-"timestamp":1623371291094,
-"version":"21.1"
+"sha256":"a241586cab01271b1e89f3ac65f8920de754228a59715335080082c8dcad89a9",
+"size":96881005,
+"timestamp":1623410949563,
+"version":"21.2"
 },
-"ambertools-21.1-py38he1e454e_0.tar.bz2":{
+"ambertools-21.2-py38he1e454e_0.tar.bz2":{
 "build":"py38he1e454e_0",
 "build_number":0,
 "constrains":[
@@ -5644,12 +5644,12 @@
 ],
 "license":"Multiple",
 "name":"ambertools",
-"sha256":"e0d98c4022e527197d2321cfae95021e9c229fd715022c5785609280d142a905",
-"size":96485267,
-"timestamp":1623373148119,
-"version":"21.1"
+"sha256":"c50da6d05718e1654bf93b4e1e54f6a39266b7c63ff403b7de29750ad9d2d30a",
+"size":96444313,
+"timestamp":1623411777742,
+"version":"21.2"
 },
-"ambertools-21.1-py39h6738a45_0.tar.bz2":{
+"ambertools-21.2-py39h6738a45_0.tar.bz2":{
 "build":"py39h6738a45_0",
 "build_number":0,
 "constrains":[
@@ -5687,10 +5687,10 @@
 ],
 "license":"Multiple",
 "name":"ambertools",
-"sha256":"a248107c5287f48bb3b45f837b6250908ba7554a19bc3f571a8f2531d95b7f6f",
-"size":96432513,
-"timestamp":1623371622937,
-"version":"21.1"
+"sha256":"49849d9490036c1a9b60cede004866d43310fe1bfe14624d3a81a8b3ea2d0b5c",
+"size":96387412,
+"timestamp":1623410083576,
+"version":"21.2"
 },
 "antlr-python-runtime-4.9.2-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
@@ -12885,6 +12885,24 @@
 "timestamp":1620761407155,
 "version":"0.7.6"
 },
+"aws-c-s3-0.1.19-h1bcd8c0_1.tar.bz2":{
+"build":"h1bcd8c0_1",
+"build_number":1,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.1,<0.10.2.0a0",
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-s3",
+"sha256":"17716dad9700e232955b80d9cf307ca5d4eef161cd57bf9b37d567a32e1832c4",
+"size":56493,
+"timestamp":1623412183017,
+"version":"0.1.19"
+},
 "aws-c-s3-0.1.19-hd702f9f_0.tar.bz2":{
 "build":"hd702f9f_0",
 "build_number":0,
@@ -13014,6 +13032,29 @@
 "size":51000,
 "timestamp":1623336632192,
 "version":"0.1.11"
+},
+"aws-crt-cpp-0.14.0-hd45fda6_0.tar.bz2":{
+"build":"hd45fda6_0",
+"build_number":0,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.8,<0.5.9.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.9.14,<0.9.15.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"sha256":"e82f60b9782d5a1875d325732d11051d189fd17ce5cc7d82c07c1ba54c430dc4",
+"size":192549,
+"timestamp":1623411261496,
+"version":"0.14.0"
 },
 "aws-sdk-cpp-1.8.186-h461b822_1.tar.bz2":{
 "build":"h461b822_1",
