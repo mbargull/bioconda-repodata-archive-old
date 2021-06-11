@@ -59008,7 +59008,7 @@
 "timestamp":1622890320569,
 "version":"0.6.2"
 },
-"libpcap-1.10.0-h4e0d66e_0.tar.bz2":{
+"libpcap-1.10.1-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
 "build_number":0,
 "depends":[
@@ -59016,10 +59016,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libpcap",
-"sha256":"b58900cdb7915245b43934416fe39215178c6d7b9fc68c5392e9f443aba8e29c",
-"size":441972,
-"timestamp":1611015819009,
-"version":"1.10.0"
+"sha256":"a9c2e97e6e0c0804115a4f1332e062af11000d08d9153f692a23aea92278f0f5",
+"size":411772,
+"timestamp":1623364570203,
+"version":"1.10.1"
 },
 "libpciaccess-0.16-h6eb9509_0.tar.bz2":{
 "build":"h6eb9509_0",
@@ -59378,6 +59378,24 @@
 "size":2253779,
 "timestamp":1602751242920,
 "version":"0.20.2"
+},
+"librmm-0.19.0-hb9101e2_2.tar.bz2":{
+"build":"hb9101e2_2",
+"build_number":2,
+"depends":[
+"__glibc >=2.17",
+"cudatoolkit 10.2|10.2.*",
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0",
+"spdlog 1.7.0.*",
+"thrust >=1.9.0"
+],
+"license":"Apache-2.0",
+"name":"librmm",
+"sha256":"226d1d37286eed60752c33988e37b2019e281694d4aa11d8706cdedb93497735",
+"size":56246,
+"timestamp":1623367488022,
+"version":"0.19.0"
 },
 "librsvg-2.50.7-h16045e1_0.tar.bz2":{
 "build":"h16045e1_0",
@@ -118482,6 +118500,34 @@
 "timestamp":1588764999992,
 "version":"1.8.5"
 },
+"spdlog-1.7.0-h1bb5118_1.tar.bz2":{
+"build":"h1bb5118_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0"
+],
+"license":"MIT",
+"name":"spdlog",
+"sha256":"28c628c3aebf5cc20270d09e2f2f34ea9d370d75ec522e9dd1ae72ea28f0a867",
+"size":426445,
+"timestamp":1596123908784,
+"version":"1.7.0"
+},
+"spdlog-1.7.0-h1bb5118_2.tar.bz2":{
+"build":"h1bb5118_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libstdcxx-ng >=8.4.0"
+],
+"license":"MIT",
+"name":"spdlog",
+"sha256":"e5c36842974a7df5af937dca08c128dc37639d4cab1311b0c245d08418514f79",
+"size":426906,
+"timestamp":1596554672312,
+"version":"1.7.0"
+},
 "spdlog-1.8.3-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
 "build_number":0,
@@ -120346,7 +120392,7 @@
 "timestamp":1616061593113,
 "version":"0.5.3dev"
 },
-"terminado-0.10.0-py36h270354c_0.tar.bz2":{
+"terminado-0.10.1-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -120357,12 +120403,12 @@
 ],
 "license":"BSD-2-Clause",
 "name":"terminado",
-"sha256":"9c5d988a7f483c777efa932e8462d0027449f4adf8edab3cdd2bed4b5962d7bf",
-"size":26725,
-"timestamp":1621536002495,
-"version":"0.10.0"
+"sha256":"ffb5a761cf13c19c29eb376fac82d3b1ed88981a3814be28f357b6c67413a513",
+"size":26836,
+"timestamp":1623365986674,
+"version":"0.10.1"
 },
-"terminado-0.10.0-py36he7cccf2_0.tar.bz2":{
+"terminado-0.10.1-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "depends":[
@@ -120374,12 +120420,12 @@
 ],
 "license":"BSD-2-Clause",
 "name":"terminado",
-"sha256":"27d87648a5ea4245e9f49dd728b90394252d1f6b795c8383085a6b735cbc23ad",
-"size":26933,
-"timestamp":1621535772760,
-"version":"0.10.0"
+"sha256":"a7830ab9237bedc211c2c8bd63be6c07a16f6e9c5e9045cdc7f9d6fdb1967e7c",
+"size":27004,
+"timestamp":1623366179687,
+"version":"0.10.1"
 },
-"terminado-0.10.0-py37h35e4cab_0.tar.bz2":{
+"terminado-0.10.1-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -120390,12 +120436,12 @@
 ],
 "license":"BSD-2-Clause",
 "name":"terminado",
-"sha256":"ecedc1a90e81913aedfcd729e2fa40e9df0d5aa64d0ac2ea055abbec35fb125b",
-"size":26810,
-"timestamp":1621535989516,
-"version":"0.10.0"
+"sha256":"ae10214bff815917f50ea54fab3ac52b6c46208a773617f563dd449209430d69",
+"size":26880,
+"timestamp":1623365981192,
+"version":"0.10.1"
 },
-"terminado-0.10.0-py37hadc05a3_0.tar.bz2":{
+"terminado-0.10.1-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
@@ -120407,12 +120453,12 @@
 ],
 "license":"BSD-2-Clause",
 "name":"terminado",
-"sha256":"9ae45733abd48be596bed026c9ff7e2bba8e335859149a74d402811ae5496397",
-"size":26971,
-"timestamp":1621535791755,
-"version":"0.10.0"
+"sha256":"801eb506ea80902b3d5c1627474d22e37dbe60ab325a37a11c18c9b87d62a818",
+"size":27004,
+"timestamp":1623365889659,
+"version":"0.10.1"
 },
-"terminado-0.10.0-py38hf8b3453_0.tar.bz2":{
+"terminado-0.10.1-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -120423,12 +120469,12 @@
 ],
 "license":"BSD-2-Clause",
 "name":"terminado",
-"sha256":"f4fdab1bc5470a1e823cec15161757d493a603ab32ee63a8042e539f55a5f24a",
-"size":26806,
-"timestamp":1621536056302,
-"version":"0.10.0"
+"sha256":"c0120ec9ebcc84457d2e849bdfe003aaf615a2db3584e82ef0bf339db150d6b3",
+"size":26925,
+"timestamp":1623365910744,
+"version":"0.10.1"
 },
-"terminado-0.10.0-py39hc1b9086_0.tar.bz2":{
+"terminado-0.10.1-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -120439,10 +120485,10 @@
 ],
 "license":"BSD-2-Clause",
 "name":"terminado",
-"sha256":"2326cf6217fe3aad146b8c062a3180ebea1f29e0e9aa4284a34dca49653a6c99",
-"size":26846,
-"timestamp":1621535968056,
-"version":"0.10.0"
+"sha256":"c6759e62d9d4adc0ef8d81ceaa6346ba5c20fc2eecc9b46d6325adc915b4735c",
+"size":26924,
+"timestamp":1623366041812,
+"version":"0.10.1"
 },
 "tesseract-4.1.1-h1e36d34_3.tar.bz2":{
 "build":"h1e36d34_3",
