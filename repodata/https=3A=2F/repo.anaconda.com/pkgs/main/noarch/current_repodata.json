@@ -17153,23 +17153,24 @@
 "timestamp":1617201015336,
 "version":"2.3.1"
 },
-"pygithub-1.54.1-pyhd3eb1b0_1.conda":{
+"pygithub-1.55-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
 "deprecated",
-"pyjwt <2.0",
-"python >=3",
-"requests >=2.14.0,<2.25"
+"pyjwt >=2.0",
+"pynacl >=1.4.0",
+"python >=3.6",
+"requests >=2.14.0"
 ],
-"legacy_bz2_md5":"d2a671fbc999b2d533bd5b1fa8bc12db",
+"legacy_bz2_md5":"e7943a3e41ccba3d2fca8b04e54703fe",
 "license":"LGPL-3.0-only",
 "name":"pygithub",
 "noarch":"python",
-"sha256":"0b64cdd3284a8708fe0e49d3199d88d511f3a34cf07f8a0b5140f9841bd1c5f1",
-"size":122391,
-"timestamp":1612299327246,
-"version":"1.54.1"
+"sha256":"d24151189d72034af466c0612be4d7f463851d176cd3fbf7514222c8df688777",
+"size":122090,
+"timestamp":1623329144364,
+"version":"1.55"
 },
 "pygments-2.9.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -18860,25 +18861,6 @@
 "size":69054,
 "timestamp":1593435624772,
 "version":"3.5.3"
-},
-"requests-2.24.0-py_0.conda":{
-"build":"py_0",
-"build_number":0,
-"depends":[
-"certifi >=2017.4.17",
-"chardet >=3.0.2,<4",
-"idna >=2.5,<3",
-"python",
-"urllib3 >=1.21.1,<1.26,!=1.25.0,!=1.25.1"
-],
-"legacy_bz2_md5":"0da8872d36b3ef33859654b6d0fea148",
-"license":"Apache-2.0",
-"name":"requests",
-"noarch":"python",
-"sha256":"dfd7e588782b40be48cf766a26a62cf675cd7a72048e25fcc65a2a119c00402c",
-"size":56983,
-"timestamp":1592841859054,
-"version":"2.24.0"
 },
 "requests-2.25.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
