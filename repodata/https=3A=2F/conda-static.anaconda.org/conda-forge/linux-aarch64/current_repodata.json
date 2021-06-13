@@ -73196,6 +73196,21 @@
 "timestamp":1623597626683,
 "version":"16.0.0"
 },
+"path-16.0.0-py37h4bcbb9b_0.tar.bz2":{
+"build":"py37h4bcbb9b_0",
+"build_number":0,
+"depends":[
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"MIT",
+"name":"path",
+"sha256":"46090c19ea127f1b10801beaf97d885b602609e1e8729ef7b122743bca6dfe87",
+"size":38723,
+"timestamp":1623597933654,
+"version":"16.0.0"
+},
 "path-16.0.0-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
@@ -73208,6 +73223,20 @@
 "sha256":"59cad11bb3774714acae4dcf3ed24ccf08e4b9d4238364dc9e1ce20fba506b32",
 "size":38438,
 "timestamp":1623597626672,
+"version":"16.0.0"
+},
+"path-16.0.0-py38h2063c64_0.tar.bz2":{
+"build":"py38h2063c64_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"path",
+"sha256":"1e348d66c7a917af32885fb554f211ff562654427cb311762cbd7bf9113d449f",
+"size":38516,
+"timestamp":1623597893790,
 "version":"16.0.0"
 },
 "path-16.0.0-py39ha65689a_0.tar.bz2":{
@@ -129023,10 +129052,11 @@
 "timestamp":1621424405233,
 "version":"2.1.2"
 },
-"web3-5.19.0-py36h2e20a7f_0.tar.bz2":{
+"web3-5.20.0-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
+"aiohttp >=3.7.4,<4",
 "eth-abi >=2.0.0b6,<3.0.0",
 "eth-account >=0.5.2,<0.6.0",
 "eth-hash >=0.2.0,<1.0.0",
@@ -129046,15 +129076,16 @@
 ],
 "license":"MIT",
 "name":"web3",
-"sha256":"d8637fe5038e089ead6e4906233f6be8703f27235a2706684560d45ae5d40b63",
-"size":487844,
-"timestamp":1619778623509,
-"version":"5.19.0"
+"sha256":"33bdeda4cfb283045ed30dbc4bfd7fd6a34b5a6a8e3b1163f3c45bf3e1947a95",
+"size":503939,
+"timestamp":1623598624304,
+"version":"5.20.0"
 },
-"web3-5.19.0-py36h704843e_0.tar.bz2":{
+"web3-5.20.0-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
+"aiohttp >=3.7.4,<4",
 "eth-abi >=2.0.0b6,<3.0.0",
 "eth-account >=0.5.2,<0.6.0",
 "eth-hash >=0.2.0,<1.0.0",
@@ -129073,15 +129104,16 @@
 ],
 "license":"MIT",
 "name":"web3",
-"sha256":"7be51a4e511da78fa120ac8b82a5d525030dee881096dbf3cb1d58d167204e70",
-"size":495142,
-"timestamp":1619778599416,
-"version":"5.19.0"
+"sha256":"4d7ad83413f1afc20dab4970003a2ef5975fed2dfd146f3e4789ecb035f03556",
+"size":491015,
+"timestamp":1623598944502,
+"version":"5.20.0"
 },
-"web3-5.19.0-py37hd9ded2f_0.tar.bz2":{
+"web3-5.20.0-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
+"aiohttp >=3.7.4,<4",
 "eth-abi >=2.0.0b6,<3.0.0",
 "eth-account >=0.5.2,<0.6.0",
 "eth-hash >=0.2.0,<1.0.0",
@@ -129100,15 +129132,16 @@
 ],
 "license":"MIT",
 "name":"web3",
-"sha256":"4b56c45a381fec28777a6d0e7861373c324b9b06bb244c90289d54ce856564cb",
-"size":495674,
-"timestamp":1619778587734,
-"version":"5.19.0"
+"sha256":"73ecee0284b3a29210fa12dfb53b3f7a209542c13b4d5cc374efeb01bb0cb509",
+"size":509256,
+"timestamp":1623598618688,
+"version":"5.20.0"
 },
-"web3-5.19.0-py38h2063c64_0.tar.bz2":{
+"web3-5.20.0-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
+"aiohttp >=3.7.4,<4",
 "eth-abi >=2.0.0b6,<3.0.0",
 "eth-account >=0.5.2,<0.6.0",
 "eth-hash >=0.2.0,<1.0.0",
@@ -129126,15 +129159,16 @@
 ],
 "license":"MIT",
 "name":"web3",
-"sha256":"9b2893f3cee8d9652eb16ce8e249b29a8e46658b5c2be9479bdbcac5cd1b773a",
-"size":501750,
-"timestamp":1619778269797,
-"version":"5.19.0"
+"sha256":"cc743bca6deaf33460d2a3bcd4fa1fdd75ff2af29a0172293adcecde15732c00",
+"size":517762,
+"timestamp":1623598616463,
+"version":"5.20.0"
 },
-"web3-5.19.0-py39ha65689a_0.tar.bz2":{
+"web3-5.20.0-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
+"aiohttp >=3.7.4,<4",
 "eth-abi >=2.0.0b6,<3.0.0",
 "eth-account >=0.5.2,<0.6.0",
 "eth-hash >=0.2.0,<1.0.0",
@@ -129152,10 +129186,10 @@
 ],
 "license":"MIT",
 "name":"web3",
-"sha256":"f593d284bbd4661aa02af215043b1d6a30a23deed7b70836b18b72bb45bdf49b",
-"size":496652,
-"timestamp":1619778566049,
-"version":"5.19.0"
+"sha256":"8dbae00421edfde552d145c469d47d9ca0bd6bc5388b98c7ecca5624d4567f40",
+"size":508380,
+"timestamp":1623598939566,
+"version":"5.20.0"
 },
 "websocket-client-0.57.0-py36h2e20a7f_3.tar.bz2":{
 "build":"py36h2e20a7f_3",
