@@ -68494,6 +68494,30 @@
 "timestamp":1587269786809,
 "version":"11.4.3"
 },
+"numba-0.53.1-py36h2d7fd3b_1.tar.bz2":{
+"build":"py36h2d7fd3b_1",
+"build_number":1,
+"constrains":[
+"cudatoolkit >=9.0",
+"scipy >=1.0",
+"tbb  >=2019.5,<=2020.3"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"db5dfe56e762986a72c7c463eec27236afe3b06cc797bc3752f6be6ad4c31056",
+"size":3854521,
+"timestamp":1623568762448,
+"version":"0.53.1"
+},
 "numba-0.53.1-py36hfc62e21_0.tar.bz2":{
 "build":"py36hfc62e21_0",
 "build_number":0,
@@ -68516,6 +68540,30 @@
 "sha256":"93c1eb836b2adc8bff9b819779321ba891d6c8bafa679574ebb4b6f42e9fb97b",
 "size":3843533,
 "timestamp":1616709697592,
+"version":"0.53.1"
+},
+"numba-0.53.1-py37h0a1dd2b_1.tar.bz2":{
+"build":"py37h0a1dd2b_1",
+"build_number":1,
+"constrains":[
+"tbb  >=2019.5,<=2020.3",
+"cudatoolkit >=9.0",
+"scipy >=1.0"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"b88029925180269e19603a6dc5fa6f16610dc097a2d11485a239b11cd98482b0",
+"size":3849604,
+"timestamp":1623569257879,
 "version":"0.53.1"
 },
 "numba-0.53.1-py37h8fcff9c_0.tar.bz2":{
@@ -68564,6 +68612,54 @@
 "sha256":"f19945ec45b5be20c047bd0b480c9a5e569bb37acd4cbbd226574d740bcf3a63",
 "size":3855908,
 "timestamp":1616711195750,
+"version":"0.53.1"
+},
+"numba-0.53.1-py38h887e8e3_1.tar.bz2":{
+"build":"py38h887e8e3_1",
+"build_number":1,
+"constrains":[
+"tbb  >=2019.5,<=2020.3",
+"scipy >=1.0",
+"cudatoolkit >=9.0"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"3e899221e504f73741748eca3f915fbafc5bee4a3f4c98aa0f8f524df8e11398",
+"size":3867436,
+"timestamp":1623569239625,
+"version":"0.53.1"
+},
+"numba-0.53.1-py39h0974df5_1.tar.bz2":{
+"build":"py39h0974df5_1",
+"build_number":1,
+"constrains":[
+"cudatoolkit >=9.0",
+"tbb  >=2019.5,<=2020.3",
+"scipy >=1.0"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"2023a68cc7f1502a34f48fc6485e4e4d6ccf653e7081c268fc9b317e57c486b5",
+"size":3868954,
+"timestamp":1623569258365,
 "version":"0.53.1"
 },
 "numba-0.53.1-py39h468c7cd_0.tar.bz2":{
