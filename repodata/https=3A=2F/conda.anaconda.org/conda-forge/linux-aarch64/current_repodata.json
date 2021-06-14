@@ -99225,7 +99225,7 @@
 "timestamp":1622037370688,
 "version":"0.3.2"
 },
-"r-network-1.17.0-r40h96a179c_0.tar.bz2":{
+"r-network-1.17.1-r40h96a179c_0.tar.bz2":{
 "build":"r40h96a179c_0",
 "build_number":0,
 "depends":[
@@ -99237,27 +99237,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-network",
-"sha256":"a37bfaca0163b4f447e31568d7c3d03a103b0b5772c0e5e33f4f092a69bdb7f7",
-"size":851193,
-"timestamp":1623622556419,
-"version":"1.17.0"
-},
-"r-network-1.17.0-r41h96a179c_0.tar.bz2":{
-"build":"r41h96a179c_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"r-base >=4.1,<4.2.0a0",
-"r-magrittr",
-"r-statnet.common >=4.4.1",
-"r-tibble"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-network",
-"sha256":"3171c3196d1aa43bf46a6d46dfd79c423270384e1f8f858b4b2abbb009442c4f",
-"size":848379,
-"timestamp":1623622457882,
-"version":"1.17.0"
+"sha256":"e51bd2647f046a5c840c48c41af58cd0a9143964fc38b1f2915ea22539f506c2",
+"size":844919,
+"timestamp":1623669592283,
+"version":"1.17.1"
 },
 "r-nleqslv-3.3.2-r36h283fcfe_1006.tar.bz2":{
 "build":"r36h283fcfe_1006",
@@ -131388,6 +131371,28 @@
 "sha256":"1cb807df0c1f2bcd4e7ecf55dcff8c837f6bbf93d6f028b237a4a595aa3ec768",
 "size":998944,
 "timestamp":1622817718030,
+"version":"1.0.3"
+},
+"xeus-1.0.3-he593ebb_1.tar.bz2":{
+"build":"he593ebb_1",
+"build_number":1,
+"constrains":[
+"cppzmq >=4.7.1,<4.8.0a0",
+"nlohmann_json >=3.9.1,<3.10.0a0",
+"xtl >=0.7.2,<0.8.0a0"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zeromq >=4.3.4,<4.4.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"xeus",
+"sha256":"8c2a9b2bd1f03c3d6d0ba38f454e34916fababe83a341246cdb4099ab0c1745d",
+"size":996747,
+"timestamp":1623668558326,
 "version":"1.0.3"
 },
 "xeus-cling-0.12.1-hae6dd4f_0.tar.bz2":{
