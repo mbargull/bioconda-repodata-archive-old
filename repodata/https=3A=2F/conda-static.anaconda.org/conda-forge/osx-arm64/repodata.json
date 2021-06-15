@@ -18087,6 +18087,22 @@
 "timestamp":1621554016096,
 "version":"1.5.0"
 },
+"cgal-cpp-5.2.2-h3346a37_1.tar.bz2":{
+"build":"h3346a37_1",
+"build_number":1,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"eigen",
+"libcxx >=11.1.0",
+"mpfr >=4.0.2,<5.0a0"
+],
+"license":"GPL3/LGPL3",
+"name":"cgal-cpp",
+"sha256":"5075c7566c753c2d77c2bea29619318710dc1e1d5dc75e6d2e727a61360cd910",
+"size":6144887,
+"timestamp":1623759309277,
+"version":"5.2.2"
+},
 "chardet-3.0.4-py38h045b1e1_1008.tar.bz2":{
 "build":"py38h045b1e1_1008",
 "build_number":1008,
@@ -67681,6 +67697,36 @@
 "track_features":"onednn-tbb",
 "version":"2.2.3"
 },
+"onednn-2.2.4-omp_h64143aa_0.tar.bz2":{
+"build":"omp_h64143aa_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"sha256":"69547974a71dcbb99ba88b1f4a2b6769cf4fd02db53e5ceb32cde0c9460bf5c7",
+"size":3008473,
+"timestamp":1623760098508,
+"version":"2.2.4"
+},
+"onednn-2.2.4-tbb_h429de2a_0.tar.bz2":{
+"build":"tbb_h429de2a_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"tbb >=2021.2.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"sha256":"3ae4d49407c71a505d729b129d268e34379a84eaa5fa490d073aec42a0ae72ab",
+"size":3756982,
+"timestamp":1623760394227,
+"track_features":"onednn-tbb",
+"version":"2.2.4"
+},
 "onednn-cpu-omp-2.2.2-omp_hf6a6809_1.tar.bz2":{
 "build":"omp_hf6a6809_1",
 "build_number":1,
@@ -67732,6 +67778,19 @@
 "size":9932,
 "timestamp":1623722688792,
 "version":"2.2.3"
+},
+"onednn-cpu-omp-2.2.4-omp_hf6a6809_0.tar.bz2":{
+"build":"omp_hf6a6809_0",
+"build_number":0,
+"depends":[
+"onednn 2.2.4 omp_h64143aa_0"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-omp",
+"sha256":"02aa20e0d38d8e74e5c56b95c828f8bf9d332b62003f1363e1a30b78f7f52e05",
+"size":9940,
+"timestamp":1623760111032,
+"version":"2.2.4"
 },
 "onednn-cpu-tbb-2.2-tbb_hce30654_0.tar.bz2":{
 "build":"tbb_hce30654_0",
@@ -67823,6 +67882,19 @@
 "size":9946,
 "timestamp":1623722972141,
 "version":"2.2.3"
+},
+"onednn-cpu-tbb-2.2.4-tbb_h20de0cc_0.tar.bz2":{
+"build":"tbb_h20de0cc_0",
+"build_number":0,
+"depends":[
+"onednn 2.2.4 tbb_h429de2a_0"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-tbb",
+"sha256":"974482227ee641bf6974d9fe9f529d56782acade32c74c62d031424c8954a02d",
+"size":9938,
+"timestamp":1623760411389,
+"version":"2.2.4"
 },
 "oniguruma-6.9.3-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",

@@ -71392,7 +71392,7 @@
 "timestamp":1618212129694,
 "version":"4.2.4"
 },
-"onednn-2.2.3-omp_ha6a59df_0.tar.bz2":{
+"onednn-2.2.4-omp_ha6a59df_0.tar.bz2":{
 "build":"omp_ha6a59df_0",
 "build_number":0,
 "depends":[
@@ -71401,50 +71401,23 @@
 ],
 "license":"Apache-2.0",
 "name":"onednn",
-"sha256":"c87f9d070844a01bfeaf2192cc643e15ecef205128b24b0999984a4d7f4462de",
-"size":3292743,
-"timestamp":1622246439740,
-"version":"2.2.3"
+"sha256":"8c5837a78271924c65dafa9c953b681390e4faacc930d58aa5f4d7cbfacde606",
+"size":3431910,
+"timestamp":1623760267119,
+"version":"2.2.4"
 },
-"onednn-2.2.3-omp_ha6a59df_1.tar.bz2":{
-"build":"omp_ha6a59df_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"onednn",
-"sha256":"bf11307568a35ceeca36ff9ddff1a3484fb1a8777ade7cda031f5877fca3ff3e",
-"size":3288711,
-"timestamp":1623722732576,
-"version":"2.2.3"
-},
-"onednn-cpu-omp-2.2.3-omp_h47c87af_0.tar.bz2":{
+"onednn-cpu-omp-2.2.4-omp_h47c87af_0.tar.bz2":{
 "build":"omp_h47c87af_0",
 "build_number":0,
 "depends":[
-"onednn 2.2.3 omp_ha6a59df_0"
+"onednn 2.2.4 omp_ha6a59df_0"
 ],
 "license":"Apache-2.0",
 "name":"onednn-cpu-omp",
-"sha256":"b26e862276c68069c9c458a4af53be77a7dc930a8a0c78f03b674d2202743be0",
-"size":8703,
-"timestamp":1622246454214,
-"version":"2.2.3"
-},
-"onednn-cpu-omp-2.2.3-omp_h47c87af_1.tar.bz2":{
-"build":"omp_h47c87af_1",
-"build_number":1,
-"depends":[
-"onednn 2.2.3 omp_ha6a59df_1"
-],
-"license":"Apache-2.0",
-"name":"onednn-cpu-omp",
-"sha256":"88cda40f1dd768c8ad67035b08030c8d3fa856623925fca4413fa1e9d22cc721",
-"size":9945,
-"timestamp":1623722745816,
-"version":"2.2.3"
+"sha256":"058d4007337e2c318b0bd9e0aca26e04fba8f6fc48f2b2ded60c3235b8d88255",
+"size":9919,
+"timestamp":1623760283303,
+"version":"2.2.4"
 },
 "oniguruma-6.9.7.1-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
@@ -121378,7 +121351,7 @@
 "timestamp":1620734031622,
 "version":"3.10.0"
 },
-"trio-0.18.0-py36h270354c_0.tar.bz2":{
+"trio-0.19.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -121394,12 +121367,12 @@
 ],
 "license":"MIT",
 "name":"trio",
-"sha256":"7f843d561733cb955b495d0fa313ad9d87eb20143d751bc6414f630c41f37205",
-"size":489954,
-"timestamp":1610365314854,
-"version":"0.18.0"
+"sha256":"f2b3f471666906c49669433365e0e1dcaa1bdb3b707f9b122da963b71da4bf2e",
+"size":492032,
+"timestamp":1623758113445,
+"version":"0.19.0"
 },
-"trio-0.18.0-py36he7cccf2_0.tar.bz2":{
+"trio-0.19.0-py36he7cccf2_0.tar.bz2":{
 "build":"py36he7cccf2_0",
 "build_number":0,
 "depends":[
@@ -121416,12 +121389,12 @@
 ],
 "license":"MIT",
 "name":"trio",
-"sha256":"fc0360676fa7909e2053f210a2804d516eded332a28fef97bb273f63b54e28c2",
-"size":497223,
-"timestamp":1610365328577,
-"version":"0.18.0"
+"sha256":"b5e71d5f9c728b1a754810319e4393038c082068c0a777d331facf8bc1625027",
+"size":499760,
+"timestamp":1623758141124,
+"version":"0.19.0"
 },
-"trio-0.18.0-py37h35e4cab_0.tar.bz2":{
+"trio-0.19.0-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -121436,12 +121409,12 @@
 ],
 "license":"MIT",
 "name":"trio",
-"sha256":"7fab64020f567511a35b23dcf94dd3e47fcd17fae225abdbda915d6a1b9a70dd",
-"size":492153,
-"timestamp":1610365360405,
-"version":"0.18.0"
+"sha256":"3cf355dfb6149c316f749b6d22c48dc015be3d3aeb117f184192dcfc540666cd",
+"size":493100,
+"timestamp":1623758034513,
+"version":"0.19.0"
 },
-"trio-0.18.0-py37hadc05a3_0.tar.bz2":{
+"trio-0.19.0-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
@@ -121449,7 +121422,7 @@
 "attrs >=19.2.0",
 "idna",
 "outcome",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "sniffio",
@@ -121457,12 +121430,12 @@
 ],
 "license":"MIT",
 "name":"trio",
-"sha256":"f1ff2ecedbbd488e182a62cc69f26db1d14d27e54f8233c2ff27ba49e864448e",
-"size":496661,
-"timestamp":1611421188487,
-"version":"0.18.0"
+"sha256":"44920d3bcf1de818be16f4c6a70c97707e669aa8ec8e37a4acbff10daa125fe0",
+"size":499906,
+"timestamp":1623758142265,
+"version":"0.19.0"
 },
-"trio-0.18.0-py38hf8b3453_0.tar.bz2":{
+"trio-0.19.0-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -121477,12 +121450,12 @@
 ],
 "license":"MIT",
 "name":"trio",
-"sha256":"f1848ba69ddd9fea7a1ec3eefc3d2b0da7d826ba1f03328d5c0af86a48baedf3",
-"size":489225,
-"timestamp":1610365354549,
-"version":"0.18.0"
+"sha256":"2d1d3b0766d1f0af7189c74f6d887907fd3ac6216223c43fdceaba48bff64bb8",
+"size":490180,
+"timestamp":1623758018269,
+"version":"0.19.0"
 },
-"trio-0.18.0-py39hc1b9086_0.tar.bz2":{
+"trio-0.19.0-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -121497,10 +121470,10 @@
 ],
 "license":"MIT",
 "name":"trio",
-"sha256":"f6ee0233373f05edde88d931019fe53da4f3a066b0e9f1598bf82f2ce5be8b91",
-"size":498371,
-"timestamp":1610365359309,
-"version":"0.18.0"
+"sha256":"7e00ceb9a76d5fcb2b825e2bd0b068f5e888626aa91a99fb14ec436fc5a649c1",
+"size":496722,
+"timestamp":1623758119022,
+"version":"0.19.0"
 },
 "twisted-21.2.0-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
