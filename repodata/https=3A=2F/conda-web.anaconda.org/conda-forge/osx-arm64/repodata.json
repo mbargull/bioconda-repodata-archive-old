@@ -18461,6 +18461,27 @@
 "timestamp":1621370621532,
 "version":"12.0.0"
 },
+"clang-12-12.0.0-default_h0fdd720_2.tar.bz2":{
+"build":"default_h0fdd720_2",
+"build_number":2,
+"constrains":[
+"clangxx 12.0.0",
+"llvm-tools 12.0.0",
+"clangdev 12.0.0",
+"clang-tools 12.0.0"
+],
+"depends":[
+"libclang-cpp12 12.0.0.*",
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-12",
+"requires":[],
+"size":710068,
+"timestamp":1623718442598,
+"version":"12.0.0"
+},
 "clang-12.0.0-hce30654_1.tar.bz2":{
 "build":"hce30654_1",
 "build_number":1,
@@ -18472,6 +18493,19 @@
 "requires":[],
 "size":127594,
 "timestamp":1621370899239,
+"version":"12.0.0"
+},
+"clang-12.0.0-hce30654_2.tar.bz2":{
+"build":"hce30654_2",
+"build_number":2,
+"depends":[
+"clang-12 12.0.0 default_h0fdd720_2"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang",
+"requires":[],
+"size":127752,
+"timestamp":1623718765837,
 "version":"12.0.0"
 },
 "clang-9-9.0.1-default_h86191a3_1.tar.bz2":{
@@ -18696,6 +18730,25 @@
 "requires":[],
 "size":12888710,
 "timestamp":1621372162866,
+"version":"12.0.0"
+},
+"clang-tools-12.0.0-default_h0fdd720_2.tar.bz2":{
+"build":"default_h0fdd720_2",
+"build_number":2,
+"constrains":[
+"clangdev 12.0.0"
+],
+"depends":[
+"clang 12.0.0 hce30654_2",
+"clangxx 12.0.0 default_h8b1a7b7_2",
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-tools",
+"requires":[],
+"size":12889017,
+"timestamp":1623720047096,
 "version":"12.0.0"
 },
 "clang-tools-9.0.1-default_h0fdd720_1.tar.bz2":{
@@ -19922,6 +19975,25 @@
 "timestamp":1621372239426,
 "version":"12.0.0"
 },
+"clangdev-12.0.0-default_h0fdd720_2.tar.bz2":{
+"build":"default_h0fdd720_2",
+"build_number":2,
+"depends":[
+"clang 12.0.0 hce30654_2",
+"clang-tools 12.0.0 default_h0fdd720_2",
+"clangxx 12.0.0 default_h8b1a7b7_2",
+"libclang 12.0.0 default_h0fdd720_2",
+"libclang-cpp 12.0.0 default_h0fdd720_2",
+"libcxx >=11.1.0",
+"llvmdev 12.0.0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangdev",
+"requires":[],
+"size":26909211,
+"timestamp":1623720115551,
+"version":"12.0.0"
+},
 "clangdev-5.0.0-h0d3df5c_1011.tar.bz2":{
 "build":"h0d3df5c_1011",
 "build_number":1011,
@@ -20175,6 +20247,19 @@
 "requires":[],
 "size":127682,
 "timestamp":1621370909732,
+"version":"12.0.0"
+},
+"clangxx-12.0.0-default_h8b1a7b7_2.tar.bz2":{
+"build":"default_h8b1a7b7_2",
+"build_number":2,
+"depends":[
+"clang 12.0.0 hce30654_2"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangxx",
+"requires":[],
+"size":127751,
+"timestamp":1623718776633,
 "version":"12.0.0"
 },
 "clangxx-9.0.1-default_h8b1a7b7_1.tar.bz2":{
@@ -50189,6 +50274,20 @@
 "timestamp":1621371068138,
 "version":"12.0.0"
 },
+"libclang-12.0.0-default_h0fdd720_2.tar.bz2":{
+"build":"default_h0fdd720_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang",
+"requires":[],
+"size":14206769,
+"timestamp":1623718957141,
+"version":"12.0.0"
+},
 "libclang-9.0.1-default_h0fdd720_1.tar.bz2":{
 "build":"default_h0fdd720_1",
 "build_number":1,
@@ -50338,6 +50437,21 @@
 "timestamp":1621370880876,
 "version":"12.0.0"
 },
+"libclang-cpp-12.0.0-default_h0fdd720_2.tar.bz2":{
+"build":"default_h0fdd720_2",
+"build_number":2,
+"depends":[
+"libclang-cpp12 12.0.0 default_h0fdd720_2",
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp",
+"requires":[],
+"size":12509803,
+"timestamp":1623718746130,
+"version":"12.0.0"
+},
 "libclang-cpp-9.0.1-default_h86191a3_1.tar.bz2":{
 "build":"default_h86191a3_1",
 "build_number":1,
@@ -50481,6 +50595,20 @@
 "requires":[],
 "size":12505085,
 "timestamp":1621370447760,
+"version":"12.0.0"
+},
+"libclang-cpp12-12.0.0-default_h0fdd720_2.tar.bz2":{
+"build":"default_h0fdd720_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp12",
+"requires":[],
+"size":12510443,
+"timestamp":1623718249289,
 "version":"12.0.0"
 },
 "libclang-cpp9-9.0.1-default_h86191a3_1.tar.bz2":{
@@ -67733,6 +67861,20 @@
 "timestamp":1622246502552,
 "version":"2.2.3"
 },
+"onednn-2.2.3-omp_h64143aa_1.tar.bz2":{
+"build":"omp_h64143aa_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"requires":[],
+"size":2903110,
+"timestamp":1623722677361,
+"version":"2.2.3"
+},
 "onednn-2.2.3-tbb_h429de2a_0.tar.bz2":{
 "build":"tbb_h429de2a_0",
 "build_number":0,
@@ -67746,6 +67888,22 @@
 "requires":[],
 "size":3579913,
 "timestamp":1622246416363,
+"track_features":"onednn-tbb",
+"version":"2.2.3"
+},
+"onednn-2.2.3-tbb_h429de2a_1.tar.bz2":{
+"build":"tbb_h429de2a_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"tbb >=2021.2.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"requires":[],
+"size":3578158,
+"timestamp":1623722956836,
 "track_features":"onednn-tbb",
 "version":"2.2.3"
 },
@@ -67786,6 +67944,19 @@
 "requires":[],
 "size":8724,
 "timestamp":1622246515681,
+"version":"2.2.3"
+},
+"onednn-cpu-omp-2.2.3-omp_hf6a6809_1.tar.bz2":{
+"build":"omp_hf6a6809_1",
+"build_number":1,
+"depends":[
+"onednn 2.2.3 omp_h64143aa_1"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-omp",
+"requires":[],
+"size":9932,
+"timestamp":1623722688792,
 "version":"2.2.3"
 },
 "onednn-cpu-tbb-2.2-tbb_hce30654_0.tar.bz2":{
@@ -67864,6 +68035,19 @@
 "requires":[],
 "size":8689,
 "timestamp":1622246432232,
+"version":"2.2.3"
+},
+"onednn-cpu-tbb-2.2.3-tbb_h20de0cc_1.tar.bz2":{
+"build":"tbb_h20de0cc_1",
+"build_number":1,
+"depends":[
+"onednn 2.2.3 tbb_h429de2a_1"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-tbb",
+"requires":[],
+"size":9946,
+"timestamp":1623722972141,
 "version":"2.2.3"
 },
 "oniguruma-6.9.3-h27ca646_0.tar.bz2":{
