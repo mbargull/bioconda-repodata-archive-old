@@ -1581,22 +1581,22 @@
 "timestamp":1612211427652,
 "version":"3.3.0"
 },
-"boto3-1.17.46-pyhd3eb1b0_0.tar.bz2":{
+"boto3-1.17.88-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"botocore >=1.20.46,<1.21.0",
+"botocore >=1.20.88,<1.21.0",
 "jmespath >=0.7.1,<1.0.0",
 "python",
-"s3transfer >=0.3.0,<0.4.0"
+"s3transfer >=0.4.0,<0.5.0"
 ],
 "license":"Apache-2.0",
 "name":"boto3",
 "noarch":"python",
-"sha256":"6f3d905f54c55e9c1dfd6fcc58df1b3786e655a2eac9e034925bc7d09e9e5bc6",
-"size":72192,
-"timestamp":1617902913611,
-"version":"1.17.46"
+"sha256":"4d18ffdf2e96ff24a816c4dfced052444917eecf21c916bf233008aadc89ebf7",
+"size":72068,
+"timestamp":1623679046467,
+"version":"1.17.88"
 },
 "botocore-1.20.88-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
@@ -5114,7 +5114,7 @@
 "timestamp":1611169443130,
 "version":"1.1.0"
 },
-"fsspec-0.9.0-pyhd3eb1b0_0.tar.bz2":{
+"fsspec-2021.6.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -5123,10 +5123,10 @@
 "license":"BSD-3-Clause",
 "name":"fsspec",
 "noarch":"python",
-"sha256":"fbf5bee6511b20b6ed53e614c0a06aa062021456f0fd58150ea0cc17102c7c49",
-"size":80488,
-"timestamp":1617959929050,
-"version":"0.9.0"
+"sha256":"b1c29bc2de0df6da07ba2f36b6475d2436af1649a0b30d33d09065002787c0b3",
+"size":85963,
+"timestamp":1623705589800,
+"version":"2021.6.0"
 },
 "ftfy-5.8-py_0.tar.bz2":{
 "build":"py_0",
@@ -17499,19 +17499,19 @@
 "timestamp":1594059003198,
 "version":"1.4.0"
 },
-"rope-0.18.0-py_0.tar.bz2":{
-"build":"py_0",
+"rope-0.19.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python"
 ],
-"license":"GPL 2.0",
+"license":"LGPL 3.0",
 "name":"rope",
 "noarch":"python",
-"sha256":"19636dc6e28949809cd56e3de51f994ea333abee6e4709f1a5e5db01235da53c",
-"size":121629,
-"timestamp":1602264139465,
-"version":"0.18.0"
+"sha256":"b556074117a41bb3d624e4c299919f774c2f568b6e4699590f98a0d300f8b367",
+"size":122151,
+"timestamp":1623703047286,
+"version":"0.19.0"
 },
 "routes-2.4.1-py_1.tar.bz2":{
 "build":"py_1",
@@ -17649,21 +17649,6 @@
 "size":24484,
 "timestamp":1618089005650,
 "version":"0.6.0"
-},
-"s3transfer-0.3.6-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"botocore >=1.12.36,<2.0a.0",
-"python >=3"
-],
-"license":"Apache-2.0",
-"name":"s3transfer",
-"noarch":"python",
-"sha256":"11e8750b95b3df23625134e0326eda2bbfc192798f4e9a033ba746231a1798d9",
-"size":52695,
-"timestamp":1616183192533,
-"version":"0.3.6"
 },
 "s3transfer-0.4.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
