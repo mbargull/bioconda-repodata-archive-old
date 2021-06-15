@@ -3563,7 +3563,7 @@
 "timestamp":1618952090164,
 "version":"0.41.0"
 },
-"datashader-0.12.1-pyhd3eb1b0_1.tar.bz2":{
+"datashader-0.13.0-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -3571,7 +3571,7 @@
 "colorcet >=0.9.0",
 "dask >=0.18.0",
 "datashape >=0.5.1",
-"numba >=0.37.0,!=0.49.*,!=0.50.*",
+"numba >=0.51",
 "numpy >=1.7",
 "pandas >=0.24.1",
 "param >=1.6.1",
@@ -3585,10 +3585,10 @@
 "license":"BSD-3-Clause",
 "name":"datashader",
 "noarch":"python",
-"sha256":"564b1859891d10639b54a5385ded6e7ee1e031c27b917dcfbb7074b27a10d820",
-"size":14934318,
-"timestamp":1618337130107,
-"version":"0.12.1"
+"sha256":"2de2d79a0e9784a1bf55cdb83c035072da1879753d109c0a36bbd5a357385c37",
+"size":14964307,
+"timestamp":1623782401693,
+"version":"0.13.0"
 },
 "dateparser-1.0.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -17651,22 +17651,21 @@
 "timestamp":1530612668102,
 "version":"1.7.7"
 },
-"s3fs-0.6.0-pyhd3eb1b0_0.tar.bz2":{
+"s3fs-2021.6.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"aiobotocore",
-"botocore",
-"fsspec >=0.8.0",
+"aiobotocore >=1.0.1",
+"fsspec 2021.6.0.*",
 "python >=3.6"
 ],
-"license":"BSD 3-Clause",
+"license":"BSD-3-Clause",
 "name":"s3fs",
 "noarch":"python",
-"sha256":"ce059c0dd99cd48a944327171e2649cad61f35693debc89c1eb510e05444e394",
-"size":24484,
-"timestamp":1618089005650,
-"version":"0.6.0"
+"sha256":"d870f08c301cb8aec734e4ff2e04d5eda2b1a3409cd6d00476106ce6474a6bb6",
+"size":25286,
+"timestamp":1623782433375,
+"version":"2021.6.0"
 },
 "s3transfer-0.4.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",

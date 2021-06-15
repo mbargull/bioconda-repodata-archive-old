@@ -11504,6 +11504,22 @@
 "timestamp":1614319791282,
 "version":"0.2.7"
 },
+"aws-c-event-stream-0.2.7-hd05790b_11.tar.bz2":{
+"build":"hd05790b_11",
+"build_number":11,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-io >=0.10.3,<0.10.4.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"requires":[],
+"size":42423,
+"timestamp":1623797072100,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-hd4c9dd8_3.tar.bz2":{
 "build":"hd4c9dd8_3",
 "build_number":3,
@@ -11595,6 +11611,21 @@
 "requires":[],
 "size":130899,
 "timestamp":1620721060684,
+"version":"0.6.4"
+},
+"aws-c-http-0.6.4-hb1e7751_7.tar.bz2":{
+"build":"hb1e7751_7",
+"build_number":7,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-compression >=0.2.12,<0.2.13.0a0",
+"aws-c-io >=0.10.3,<0.10.4.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"requires":[],
+"size":130962,
+"timestamp":1623796937761,
 "version":"0.6.4"
 },
 "aws-c-http-0.6.4-hb6344a0_1.tar.bz2":{
@@ -61648,6 +61679,34 @@
 "size":7576670,
 "timestamp":1620506368399,
 "version":"3.4.2"
+},
+"maturin-0.10.3-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"maturin",
+"requires":[],
+"size":10295686,
+"timestamp":1623798357220,
+"version":"0.10.3"
+},
+"maturin-0.10.3-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"maturin",
+"requires":[],
+"size":10298066,
+"timestamp":1623798386932,
+"version":"0.10.3"
 },
 "maturin-0.9.0-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
