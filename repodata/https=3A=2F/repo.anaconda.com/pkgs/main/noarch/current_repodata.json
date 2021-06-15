@@ -9041,7 +9041,7 @@
 "timestamp":1618952090164,
 "version":"0.41.0"
 },
-"datashader-0.12.1-pyhd3eb1b0_1.conda":{
+"datashader-0.13.0-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -9049,7 +9049,7 @@
 "colorcet >=0.9.0",
 "dask >=0.18.0",
 "datashape >=0.5.1",
-"numba >=0.37.0,!=0.49.*,!=0.50.*",
+"numba >=0.51",
 "numpy >=1.7",
 "pandas >=0.24.1",
 "param >=1.6.1",
@@ -9060,14 +9060,14 @@
 "toolz >=0.7.4",
 "xarray >=0.9.6"
 ],
-"legacy_bz2_md5":"82b2726495e6bdfba13b6b1ac432c03a",
+"legacy_bz2_md5":"6cfe764bb04e756d7d1319a98a05dd70",
 "license":"BSD-3-Clause",
 "name":"datashader",
 "noarch":"python",
-"sha256":"110ae203714d8f349534982f0345ae0fef0f970102cbb02cd28c0fec47327f08",
-"size":14706772,
-"timestamp":1618337130107,
-"version":"0.12.1"
+"sha256":"63fc0dd7f70ecab844989ca8ab9dcae46d29eeebc668c5f67a876ead46d2f642",
+"size":14698021,
+"timestamp":1623782401693,
+"version":"0.13.0"
 },
 "dateparser-1.0.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -19104,23 +19104,22 @@
 "timestamp":1530612668102,
 "version":"1.7.7"
 },
-"s3fs-0.6.0-pyhd3eb1b0_0.conda":{
+"s3fs-2021.6.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"aiobotocore",
-"botocore",
-"fsspec >=0.8.0",
+"aiobotocore >=1.0.1",
+"fsspec 2021.6.0.*",
 "python >=3.6"
 ],
-"legacy_bz2_md5":"56d6c48b0b1cc25415ec710051d5b155",
-"license":"BSD 3-Clause",
+"legacy_bz2_md5":"ec6e74e3fe83a3d7433ea6f36a41ba5f",
+"license":"BSD-3-Clause",
 "name":"s3fs",
 "noarch":"python",
-"sha256":"788fdabde4a52dfe0f56ba6b724efea5339716f52fe2fdf9a36d25d0188ccc7e",
-"size":26182,
-"timestamp":1618089005650,
-"version":"0.6.0"
+"sha256":"20adae3bed84b285f17fea2196dc7a4c1d7593dbb2eb703d703467f0ed632eff",
+"size":27017,
+"timestamp":1623782433375,
+"version":"2021.6.0"
 },
 "s3transfer-0.4.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
