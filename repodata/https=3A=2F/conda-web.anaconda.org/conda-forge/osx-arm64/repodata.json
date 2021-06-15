@@ -67936,6 +67936,36 @@
 "track_features":"onednn-tbb",
 "version":"2.2.3"
 },
+"onednn-2.2.4-omp_h64143aa_0.tar.bz2":{
+"build":"omp_h64143aa_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"requires":[],
+"size":3008473,
+"timestamp":1623760098508,
+"version":"2.2.4"
+},
+"onednn-2.2.4-tbb_h429de2a_0.tar.bz2":{
+"build":"tbb_h429de2a_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"tbb >=2021.2.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"requires":[],
+"size":3756982,
+"timestamp":1623760394227,
+"track_features":"onednn-tbb",
+"version":"2.2.4"
+},
 "onednn-cpu-omp-2.2.2-omp_hf6a6809_1.tar.bz2":{
 "build":"omp_hf6a6809_1",
 "build_number":1,
@@ -67987,6 +68017,19 @@
 "size":9932,
 "timestamp":1623722688792,
 "version":"2.2.3"
+},
+"onednn-cpu-omp-2.2.4-omp_hf6a6809_0.tar.bz2":{
+"build":"omp_hf6a6809_0",
+"build_number":0,
+"depends":[
+"onednn 2.2.4 omp_h64143aa_0"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-omp",
+"requires":[],
+"size":9940,
+"timestamp":1623760111032,
+"version":"2.2.4"
 },
 "onednn-cpu-tbb-2.2-tbb_hce30654_0.tar.bz2":{
 "build":"tbb_hce30654_0",
@@ -68078,6 +68121,19 @@
 "size":9946,
 "timestamp":1623722972141,
 "version":"2.2.3"
+},
+"onednn-cpu-tbb-2.2.4-tbb_h20de0cc_0.tar.bz2":{
+"build":"tbb_h20de0cc_0",
+"build_number":0,
+"depends":[
+"onednn 2.2.4 tbb_h429de2a_0"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-tbb",
+"requires":[],
+"size":9938,
+"timestamp":1623760411389,
+"version":"2.2.4"
 },
 "oniguruma-6.9.3-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
