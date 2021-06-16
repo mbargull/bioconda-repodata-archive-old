@@ -121417,29 +121417,9 @@
 "timestamp":1623331033222,
 "version":"2.3.0"
 },
-"tiledb-py-0.8.11-py36h72ded1a_0.tar.bz2":{
-"build":"py36h72ded1a_0",
-"build_number":0,
-"depends":[
-"contextvars",
-"dataclasses",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.17.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"tiledb >=2.2.9,<2.3.0a0"
-],
-"license":"MIT",
-"name":"tiledb-py",
-"sha256":"78b0724d8dd962324c3bdd92d941e7fb9e3a7866c13eb18862e5c2686714dc27",
-"size":1095052,
-"timestamp":1623254329390,
-"version":"0.8.11"
-},
-"tiledb-py-0.8.11-py36hc8e54cb_0.tar.bz2":{
-"build":"py36hc8e54cb_0",
-"build_number":0,
+"tiledb-py-0.9.0-py36h9d50c19_1.tar.bz2":{
+"build":"py36h9d50c19_1",
+"build_number":1,
 "depends":[
 "contextvars",
 "dataclasses",
@@ -121449,36 +121429,38 @@
 "pypy3.6 >=7.3.3",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6 *_pypy36_pp73",
-"tiledb >=2.2.9,<2.3.0a0"
+"tiledb >=2.3.0,<2.4.0a0"
 ],
 "license":"MIT",
 "name":"tiledb-py",
-"sha256":"55290d092546b8e32b592c0b139c5233b8883b365e95844956d1842e47eea642",
-"size":898740,
-"timestamp":1623254133699,
-"version":"0.8.11"
+"sha256":"fd122f5e6b3f1a85d2a0c1bcc494a1afbc81b1dd2fff9caa732496d3e03282a8",
+"size":1014571,
+"timestamp":1623870982171,
+"version":"0.9.0"
 },
-"tiledb-py-0.8.11-py37h25db71b_0.tar.bz2":{
-"build":"py37h25db71b_0",
-"build_number":0,
+"tiledb-py-0.9.0-py36hf863e24_1.tar.bz2":{
+"build":"py36hf863e24_1",
+"build_number":1,
 "depends":[
+"contextvars",
+"dataclasses",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"tiledb >=2.2.9,<2.3.0a0"
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"tiledb >=2.3.0,<2.4.0a0"
 ],
 "license":"MIT",
 "name":"tiledb-py",
-"sha256":"eb557b339fda7490598cac14fbee9a40732e32481e5e746116e26ea2287a6c12",
-"size":1053733,
-"timestamp":1623253522372,
-"version":"0.8.11"
+"sha256":"c2058e609b6704e492868cab844870f77e480528dfb559346814d59fc4432ace",
+"size":1197998,
+"timestamp":1623870370457,
+"version":"0.9.0"
 },
-"tiledb-py-0.8.11-py37h981b0e6_0.tar.bz2":{
-"build":"py37h981b0e6_0",
-"build_number":0,
+"tiledb-py-0.9.0-py37h2c88db6_1.tar.bz2":{
+"build":"py37h2c88db6_1",
+"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -121486,50 +121468,68 @@
 "pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
-"tiledb >=2.2.9,<2.3.0a0"
+"tiledb >=2.3.0,<2.4.0a0"
 ],
 "license":"MIT",
 "name":"tiledb-py",
-"sha256":"8b46770463bab4db9a4317fe7ea59028358b94666efbf4ca28e5984591593c89",
-"size":909448,
-"timestamp":1623255266635,
-"version":"0.8.11"
+"sha256":"7754654b2aeba967c1e0d8d662a751787fa902ba609734200bd81ee9e7b654e1",
+"size":1025192,
+"timestamp":1623871021354,
+"version":"0.9.0"
 },
-"tiledb-py-0.8.11-py38h405bdea_0.tar.bz2":{
-"build":"py38h405bdea_0",
-"build_number":0,
+"tiledb-py-0.9.0-py37ha5b0c3a_1.tar.bz2":{
+"build":"py37ha5b0c3a_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"tiledb >=2.3.0,<2.4.0a0"
+],
+"license":"MIT",
+"name":"tiledb-py",
+"sha256":"cf0b611d6d23a60da9d700418b5216d15e3e50b0e45f82bb03fb1c53531fa247",
+"size":1195554,
+"timestamp":1623870373129,
+"version":"0.9.0"
+},
+"tiledb-py-0.9.0-py38hc50ac60_1.tar.bz2":{
+"build":"py38hc50ac60_1",
+"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
-"tiledb >=2.2.9,<2.3.0a0"
+"tiledb >=2.3.0,<2.4.0a0"
 ],
 "license":"MIT",
 "name":"tiledb-py",
-"sha256":"bc83900238b8678a1e248336c9c51bfed0f9b95bef53e555ab1394e367732454",
-"size":1072616,
-"timestamp":1623253834610,
-"version":"0.8.11"
+"sha256":"0a7a2b27664d88ceeabd926fb11e697cfd4d4c9025ca6a593c2b271d3a83bff7",
+"size":1186202,
+"timestamp":1623870357695,
+"version":"0.9.0"
 },
-"tiledb-py-0.8.11-py39h79f4a3d_0.tar.bz2":{
-"build":"py39h79f4a3d_0",
-"build_number":0,
+"tiledb-py-0.9.0-py39hacea53f_1.tar.bz2":{
+"build":"py39hacea53f_1",
+"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
-"tiledb >=2.2.9,<2.3.0a0"
+"tiledb >=2.3.0,<2.4.0a0"
 ],
 "license":"MIT",
 "name":"tiledb-py",
-"sha256":"dedf4bf1e2e8708ca8d3ddd5009a29fa2c483eeb3757cad649ce81d722118e77",
-"size":1090096,
-"timestamp":1623254254845,
-"version":"0.8.11"
+"sha256":"50be248cabf576815f7a9699433df4327830175ecd923ef26baffd1c8dc3ddb4",
+"size":1203398,
+"timestamp":1623870950226,
+"version":"0.9.0"
 },
 "tini-0.18.0-h14c3975_1001.tar.bz2":{
 "build":"h14c3975_1001",
