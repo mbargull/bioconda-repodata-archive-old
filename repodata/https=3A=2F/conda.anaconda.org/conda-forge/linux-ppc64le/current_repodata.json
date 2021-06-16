@@ -11816,6 +11816,23 @@
 "timestamp":1606258855255,
 "version":"0.4.5"
 },
+"aws-c-auth-0.6.0-h2482b2e_5.tar.bz2":{
+"build":"h2482b2e_5",
+"build_number":5,
+"depends":[
+"aws-c-cal >=0.5.10,<0.5.11.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.4,<0.10.5.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"92eee0cdec00dbe42bdd33bc750285ce07aaa5a591f95c243dc2dd2664803b85",
+"size":117792,
+"timestamp":1623850469395,
+"version":"0.6.0"
+},
 "aws-c-auth-0.6.0-h65f297c_3.tar.bz2":{
 "build":"h65f297c_3",
 "build_number":3,
@@ -13013,6 +13030,22 @@
 "sha256":"e46818c31d83cbb3831876c333e3206cfe8de38b3f3993e9b1aa743d54278ac5",
 "size":62743,
 "timestamp":1623807946921,
+"version":"0.7.6"
+},
+"aws-c-mqtt-0.7.6-hea389c2_9.tar.bz2":{
+"build":"hea389c2_9",
+"build_number":9,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.4,<0.10.5.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"ed4f6ed040dbda05116fbc6a834be47d72209ca06da89f9a43e2842f7b71a5a4",
+"size":62736,
+"timestamp":1623850327558,
 "version":"0.7.6"
 },
 "aws-c-mqtt-0.7.6-hf332d29_0.tar.bz2":{
@@ -44352,7 +44385,7 @@
 "timestamp":1581952315686,
 "version":"2.9"
 },
-"igraph-0.9.2-h1d806b1_0.tar.bz2":{
+"igraph-0.9.3-h1d806b1_0.tar.bz2":{
 "build":"h1d806b1_0",
 "build_number":0,
 "depends":[
@@ -44363,15 +44396,15 @@
 "libgcc-ng >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"libxml2 >=2.9.10,<2.10.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
 "suitesparse >=5.7.2,<6.0a0"
 ],
 "license":"GPL-2.0-or-later",
 "name":"igraph",
-"sha256":"f2da9a2f6da9b6714cd7f5231111eb6daea4d405007fd709d0f5ee02a0d4b954",
-"size":1091633,
-"timestamp":1618492517088,
-"version":"0.9.2"
+"sha256":"0bc72b52336bd37dd82969e9fca0ffeac301685c129dd8f414ef3a9e42e66065",
+"size":1093230,
+"timestamp":1623851121085,
+"version":"0.9.3"
 },
 "ihm-0.20-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
@@ -68052,6 +68085,19 @@
 "sha256":"4096e5f9e6e08a18d895868df29672a731904068a71dd7a0157e4da0689c94b6",
 "size":14325290,
 "timestamp":1623838250388,
+"version":"2.7.1"
+},
+"nauty-2.7.1-h4e0d66e_2.tar.bz2":{
+"build":"h4e0d66e_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"nauty",
+"sha256":"c0a0716b552ac92a5b4aef0b3b5f5edced0602c1ebd5d5be2af5cb2e10740d90",
+"size":15464782,
+"timestamp":1623852701006,
 "version":"2.7.1"
 },
 "nauty-2.7.1-h6eb9509_0.tar.bz2":{
