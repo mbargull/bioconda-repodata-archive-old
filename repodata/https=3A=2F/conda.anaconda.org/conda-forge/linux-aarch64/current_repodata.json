@@ -8524,6 +8524,23 @@
 "timestamp":1606259522359,
 "version":"0.4.5"
 },
+"aws-c-auth-0.6.0-h1f41019_4.tar.bz2":{
+"build":"h1f41019_4",
+"build_number":4,
+"depends":[
+"aws-c-cal >=0.5.10,<0.5.11.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.3,<0.10.4.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"824ba6450151aebdd15e294ff89501be934d65253697d162b1903ea5fd5e93b8",
+"size":110352,
+"timestamp":1623807896030,
+"version":"0.6.0"
+},
 "aws-c-auth-0.6.0-h70e2955_2.tar.bz2":{
 "build":"h70e2955_2",
 "build_number":2,
@@ -9594,6 +9611,22 @@
 "timestamp":1620831480366,
 "version":"0.7.6"
 },
+"aws-c-mqtt-0.7.6-h9620506_8.tar.bz2":{
+"build":"h9620506_8",
+"build_number":8,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.3,<0.10.4.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"62555fc8aec506f0cbd12ca4a6ff35c638479c097d1180794b2e27db6b0d4de5",
+"size":60116,
+"timestamp":1623807922955,
+"version":"0.7.6"
+},
 "aws-c-mqtt-0.7.6-ha27b475_3.tar.bz2":{
 "build":"ha27b475_3",
 "build_number":3,
@@ -9976,11 +10009,11 @@
 "timestamp":1620322604875,
 "version":"1.8.186"
 },
-"awscli-1.19.94-py36h2e20a7f_0.tar.bz2":{
+"awscli-1.19.95-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.94",
+"botocore 1.20.95",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.6 >=7.3.3",
@@ -9992,16 +10025,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"46b59318cb2f1b7b6f74bd2b3174138b4a67cf4e6fc4203f846303a0c47b0a39",
-"size":1947573,
-"timestamp":1623773602268,
-"version":"1.19.94"
+"sha256":"b515ab7feaab3ab5cb910ac4b6299d4583c8dd5d26d74764301033505a9c4f4c",
+"size":1947849,
+"timestamp":1623809319057,
+"version":"1.19.95"
 },
-"awscli-1.19.94-py36h704843e_0.tar.bz2":{
+"awscli-1.19.95-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.94",
+"botocore 1.20.95",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -10012,16 +10045,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"100ea2c3b8378d51aecd094a7789d5aa9efb250714d25d4a26885b1f1df30f2e",
-"size":1935367,
-"timestamp":1623774035363,
-"version":"1.19.94"
+"sha256":"b210014df6461044fc826b915b05ea19472c143a544d3672161398ed08a128ef",
+"size":1950183,
+"timestamp":1623809599363,
+"version":"1.19.95"
 },
-"awscli-1.19.94-py37h4bcbb9b_0.tar.bz2":{
+"awscli-1.19.95-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.94",
+"botocore 1.20.95",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.7 >=7.3.4",
@@ -10033,70 +10066,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"13422e4022062e635489836d20f060218d6c32bb58b50810d59e89a24048ebae",
-"size":1945337,
-"timestamp":1623774357979,
-"version":"1.19.94"
-},
-"awscli-1.19.94-py37hd9ded2f_0.tar.bz2":{
-"build":"py37hd9ded2f_0",
-"build_number":0,
-"depends":[
-"botocore 1.20.94",
-"colorama >=0.2.5,<0.4.4",
-"docutils >=0.10,<0.16",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"pyyaml >=3.10,<5.5",
-"rsa >=3.1.2,<4.8",
-"s3transfer >=0.4.0,<0.5.0"
-],
-"license":"Apache-2.0",
-"name":"awscli",
-"sha256":"1b9b3e07dbf74841fcbbddb288e85f8f50a246211beab9a7a3e8d776cafc9c9a",
-"size":1949764,
-"timestamp":1623774642661,
-"version":"1.19.94"
-},
-"awscli-1.19.94-py38h2063c64_0.tar.bz2":{
-"build":"py38h2063c64_0",
-"build_number":0,
-"depends":[
-"botocore 1.20.94",
-"colorama >=0.2.5,<0.4.4",
-"docutils >=0.10,<0.16",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pyyaml >=3.10,<5.5",
-"rsa >=3.1.2,<4.8",
-"s3transfer >=0.4.0,<0.5.0"
-],
-"license":"Apache-2.0",
-"name":"awscli",
-"sha256":"28dce1c0d0327524b37f7db4329c5aa4388c58458e156253a08dc96825e88925",
-"size":1935566,
-"timestamp":1623774914847,
-"version":"1.19.94"
-},
-"awscli-1.19.94-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"botocore 1.20.94",
-"colorama >=0.2.5,<0.4.4",
-"docutils >=0.10,<0.16",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pyyaml >=3.10,<5.5",
-"rsa >=3.1.2,<4.8",
-"s3transfer >=0.4.0,<0.5.0"
-],
-"license":"Apache-2.0",
-"name":"awscli",
-"sha256":"674879f64d71c12c424e64d0926aec315270c8945dc037d2c539418e03f8acb1",
-"size":1939244,
-"timestamp":1623775206880,
-"version":"1.19.94"
+"sha256":"8b1f19f5af3a9f0611958554fa8ea5c8c23da7eef8d653c77e612471b85ec209",
+"size":1942476,
+"timestamp":1623809898282,
+"version":"1.19.95"
 },
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
@@ -60448,7 +60421,7 @@
 "timestamp":1620511648554,
 "version":"3.4.2"
 },
-"maturin-0.10.3-py36h269c3a8_0.tar.bz2":{
+"maturin-0.10.6-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
 "depends":[
@@ -60458,12 +60431,28 @@
 ],
 "license":"MIT",
 "name":"maturin",
-"sha256":"10ca2ba2a437af8c95cb4a10360f0e9eb3a162110ead6a8902104464b948ad12",
-"size":7387282,
-"timestamp":1623798740595,
-"version":"0.10.3"
+"sha256":"19591bb0f2f9b7523b63342a6115d32a14ceab26a550ebc204e9b225b079c423",
+"size":6683784,
+"timestamp":1623807729996,
+"version":"0.10.6"
 },
-"maturin-0.10.3-py37h1283c21_0.tar.bz2":{
+"maturin-0.10.6-py36h9b67645_0.tar.bz2":{
+"build":"py36h9b67645_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73"
+],
+"license":"MIT",
+"name":"maturin",
+"sha256":"7b60a4e9a5e6cad2aaab8ca5a36b6a22d2221e7ff9095fd10f48e7ccdc20edb7",
+"size":6684078,
+"timestamp":1623807736672,
+"version":"0.10.6"
+},
+"maturin-0.10.6-py37h1283c21_0.tar.bz2":{
 "build":"py37h1283c21_0",
 "build_number":0,
 "depends":[
@@ -60474,12 +60463,12 @@
 ],
 "license":"MIT",
 "name":"maturin",
-"sha256":"314b2803da7db7f564392f5100643d183409df937aab9da0642fda3728a7dcdb",
-"size":7386902,
-"timestamp":1623799388805,
-"version":"0.10.3"
+"sha256":"6d9f2e401af8d4a26e3c26cd60d72120f4dbfa966b1d9256360dab28c090ecfd",
+"size":6683975,
+"timestamp":1623807735245,
+"version":"0.10.6"
 },
-"maturin-0.10.3-py38h9544abe_0.tar.bz2":{
+"maturin-0.10.6-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
@@ -60489,25 +60478,10 @@
 ],
 "license":"MIT",
 "name":"maturin",
-"sha256":"358d29577a2375ecf6996d17808b16a2edcd530426d1a2c1af1730ea4a35e438",
-"size":7396471,
-"timestamp":1623799842978,
-"version":"0.10.3"
-},
-"maturin-0.10.3-py39h14843e3_0.tar.bz2":{
-"build":"py39h14843e3_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"MIT",
-"name":"maturin",
-"sha256":"b07e04f5183c744b5beab4bd727fd9995684a31aa17720f362741d04e68aa104",
-"size":7392636,
-"timestamp":1623800035052,
-"version":"0.10.3"
+"sha256":"934c7bbef722c0a74ab538d227970e7b32f87d86dfc9994940f63a5c5c2ee9a7",
+"size":6685400,
+"timestamp":1623807717792,
+"version":"0.10.6"
 },
 "maxima-5.45.0-haa44c19_0.tar.bz2":{
 "build":"haa44c19_0",
