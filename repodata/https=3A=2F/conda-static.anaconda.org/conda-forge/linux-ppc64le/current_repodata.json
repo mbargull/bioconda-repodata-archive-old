@@ -11914,6 +11914,21 @@
 "timestamp":1622768310166,
 "version":"0.5.10"
 },
+"aws-c-cal-0.5.11-hb3fac3d_0.tar.bz2":{
+"build":"hb3fac3d_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"sha256":"2fd2bbb95d24e35c1903fe3649e3c49bfb3567215d44cabc127ca9f808c37cc1",
+"size":36155,
+"timestamp":1623801123991,
+"version":"0.5.11"
+},
 "aws-c-cal-0.5.8-hddcb46d_0.tar.bz2":{
 "build":"hddcb46d_0",
 "build_number":0,
@@ -12501,6 +12516,22 @@
 "size":130882,
 "timestamp":1623376284124,
 "version":"0.10.3"
+},
+"aws-c-io-0.10.4-he935e86_0.tar.bz2":{
+"build":"he935e86_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.10,<0.5.11.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"218780a8ca73871c1de026418559ab8104afc1eec3c98dd37ea5ed9ab7613b39",
+"size":131053,
+"timestamp":1623801439129,
+"version":"0.10.4"
 },
 "aws-c-io-0.9.0-h438d9a4_1.tar.bz2":{
 "build":"h438d9a4_1",
@@ -20168,6 +20199,13 @@
 "clang-12.0.0-ha3edaa6_2.tar.bz2":{
 "build":"ha3edaa6_2",
 "build_number":2,
+"constrains":[
+"libclang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
+],
 "depends":[
 "clang-12 12.0.0 default_hf0ebb0c_2",
 "gcc_impl_linux-ppc64le"
@@ -20279,7 +20317,12 @@
 "build":"default_hf0ebb0c_2",
 "build_number":2,
 "constrains":[
-"clangdev 12.0.0"
+"clangdev 12.0.0",
+"libclang 12.0.0.*",
+"clang 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
 ],
 "depends":[
 "clang 12.0.0 ha3edaa6_2",
@@ -51850,6 +51893,13 @@
 "libclang-12.0.0-default_hf0ebb0c_2.tar.bz2":{
 "build":"default_hf0ebb0c_2",
 "build_number":2,
+"constrains":[
+"clang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
+],
 "depends":[
 "libgcc-ng >=8.4.0",
 "libllvm12 >=12.0.0,<12.1.0a0",

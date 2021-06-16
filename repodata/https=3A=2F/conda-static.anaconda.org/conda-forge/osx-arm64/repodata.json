@@ -10784,6 +10784,20 @@
 "timestamp":1622768321282,
 "version":"0.5.10"
 },
+"aws-c-cal-0.5.11-h4530763_0.tar.bz2":{
+"build":"h4530763_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"sha256":"9fa477ad470373432db0458b93d57103c43dd758ef76434b045d66a6a5bb27c2",
+"size":28943,
+"timestamp":1623801153566,
+"version":"0.5.11"
+},
 "aws-c-cal-0.5.5-he5a0616_0.tar.bz2":{
 "build":"he5a0616_0",
 "build_number":0,
@@ -11753,6 +11767,20 @@
 "size":112611,
 "timestamp":1623376324849,
 "version":"0.10.3"
+},
+"aws-c-io-0.10.4-h21aa9ee_0.tar.bz2":{
+"build":"h21aa9ee_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.10,<0.5.11.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"22be59113153f301bad2e4c980300b5c65e5f31f4100e4e61e46cd78709c57ac",
+"size":112604,
+"timestamp":1623801440526,
+"version":"0.10.4"
 },
 "aws-c-io-0.6.5-h3723fa0_0.tar.bz2":{
 "build":"h3723fa0_0",
@@ -18593,6 +18621,13 @@
 "clang-12.0.0-hce30654_2.tar.bz2":{
 "build":"hce30654_2",
 "build_number":2,
+"constrains":[
+"libclang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
+],
 "depends":[
 "clang-12 12.0.0 default_h0fdd720_2"
 ],
@@ -18885,7 +18920,12 @@
 "build":"default_h0fdd720_2",
 "build_number":2,
 "constrains":[
-"clangdev 12.0.0"
+"clangdev 12.0.0",
+"libclang 12.0.0.*",
+"clang 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
 ],
 "depends":[
 "clang 12.0.0 hce30654_2",
@@ -49992,6 +50032,13 @@
 "libclang-12.0.0-default_h0fdd720_2.tar.bz2":{
 "build":"default_h0fdd720_2",
 "build_number":2,
+"constrains":[
+"clang 12.0.0.*",
+"clang-tools 12.0.0.*",
+"llvm 12.0.0.*",
+"llvm-tools 12.0.0.*",
+"llvmdev 12.0.0.*"
+],
 "depends":[
 "libcxx >=11.1.0",
 "libllvm12 >=12.0.0,<12.1.0a0"
@@ -86467,6 +86514,22 @@
 "timestamp":1622714115705,
 "version":"3.1.0"
 },
+"pyproj-3.1.0-py38h54d821c_3.tar.bz2":{
+"build":"py38h54d821c_3",
+"build_number":3,
+"depends":[
+"certifi",
+"proj >=8.0.1,<8.0.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"pyproj",
+"sha256":"cb9148eba9fbcd63e2660778642619f702fc326769ac392cc7ff4ec2884099a3",
+"size":452922,
+"timestamp":1623802201947,
+"version":"3.1.0"
+},
 "pyproj-3.1.0-py38h8d06fb5_0.tar.bz2":{
 "build":"py38h8d06fb5_0",
 "build_number":0,
@@ -86481,6 +86544,22 @@
 "sha256":"db0a7f9aa3cc4cc2bea1bd55e0e5e7fff28301528b36149f810b1837639b6773",
 "size":452356,
 "timestamp":1621904643767,
+"version":"3.1.0"
+},
+"pyproj-3.1.0-py38hbb6234c_3.tar.bz2":{
+"build":"py38hbb6234c_3",
+"build_number":3,
+"depends":[
+"certifi",
+"proj >=7.2.0,<7.2.1.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"pyproj",
+"sha256":"f4dd160670cd6ccf9e50e6f0e88db069702e25dcfffa48c01d0ab22c51423cf0",
+"size":476115,
+"timestamp":1623802191961,
 "version":"3.1.0"
 },
 "pyproj-3.1.0-py39hb3bc55d_1.tar.bz2":{
@@ -86513,6 +86592,38 @@
 "sha256":"e6affe17f5ed894d3a3f6fed18bfc88d7bcaaaf8d9b8ced81d8c09f83f3a1d89",
 "size":476536,
 "timestamp":1622714082698,
+"version":"3.1.0"
+},
+"pyproj-3.1.0-py39hb3bc55d_3.tar.bz2":{
+"build":"py39hb3bc55d_3",
+"build_number":3,
+"depends":[
+"certifi",
+"proj >=8.0.1,<8.0.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"pyproj",
+"sha256":"34f3a1d23d6242c94d5a68ea294ff492e7dc6d28cf86b8e0ffb9e3a6a7110f69",
+"size":478486,
+"timestamp":1623802290948,
+"version":"3.1.0"
+},
+"pyproj-3.1.0-py39hc83c5ae_3.tar.bz2":{
+"build":"py39hc83c5ae_3",
+"build_number":3,
+"depends":[
+"certifi",
+"proj >=7.2.0,<7.2.1.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"pyproj",
+"sha256":"4abd09cf8556918c6d6f5506ad2ac677efe872395bec8a5dd6b284dcd3fc597d",
+"size":452412,
+"timestamp":1623802169297,
 "version":"3.1.0"
 },
 "pyproj-3.1.0-py39heb2b06c_0.tar.bz2":{
