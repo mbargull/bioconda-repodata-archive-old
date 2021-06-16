@@ -8783,6 +8783,23 @@
 "timestamp":1623341613942,
 "version":"0.2.12"
 },
+"aws-c-event-stream-0.2.7-h2a92ca0_11.tar.bz2":{
+"build":"h2a92ca0_11",
+"build_number":11,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-io >=0.10.3,<0.10.4.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"ee77c82373b678f9a4992acdbc20788f670e1ef18bd18dc247df1300acc90e6a",
+"size":48075,
+"timestamp":1623796811175,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-h2b2d6b4_2.tar.bz2":{
 "build":"h2b2d6b4_2",
 "build_number":2,
@@ -8984,6 +9001,22 @@
 "sha256":"b08cd6eb33562608475cc4d68c5b76ef91c41e459a99c4acba8738599cee2e9b",
 "size":158929,
 "timestamp":1620721027358,
+"version":"0.6.4"
+},
+"aws-c-http-0.6.4-h4705453_7.tar.bz2":{
+"build":"h4705453_7",
+"build_number":7,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-compression >=0.2.12,<0.2.13.0a0",
+"aws-c-io >=0.10.3,<0.10.4.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"sha256":"26c207de91cff524df59ab5989ede42f448ce8f087cdf742133d6b35587ee317",
+"size":158886,
+"timestamp":1623796898796,
 "version":"0.6.4"
 },
 "aws-c-http-0.6.4-h70e2955_5.tar.bz2":{
@@ -60365,7 +60398,7 @@
 "timestamp":1620511648554,
 "version":"3.4.2"
 },
-"maturin-0.9.1-py36h269c3a8_0.tar.bz2":{
+"maturin-0.10.3-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
 "depends":[
@@ -60375,59 +60408,28 @@
 ],
 "license":"MIT",
 "name":"maturin",
-"sha256":"05e708b318a0d92578fe3a1e4d7402fde9d1faccd39c277685747829c6bb060b",
-"size":7404879,
-"timestamp":1613236998280,
-"version":"0.9.1"
+"sha256":"10ca2ba2a437af8c95cb4a10360f0e9eb3a162110ead6a8902104464b948ad12",
+"size":7387282,
+"timestamp":1623798740595,
+"version":"0.10.3"
 },
-"maturin-0.9.1-py36h9b67645_0.tar.bz2":{
-"build":"py36h9b67645_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"MIT",
-"name":"maturin",
-"sha256":"699c1317a8f45fe21708690f71db2d85260bc6468cc1de5e3c2c4679eff183c7",
-"size":7396046,
-"timestamp":1613236227400,
-"version":"0.9.1"
-},
-"maturin-0.9.1-py37h1283c21_0.tar.bz2":{
+"maturin-0.10.3-py37h1283c21_0.tar.bz2":{
 "build":"py37h1283c21_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"MIT",
 "name":"maturin",
-"sha256":"1687abd32c8f3e0e241451a12206edae06d4a1b9469f2a3b6bf04b42ed0584f3",
-"size":7403837,
-"timestamp":1613236228589,
-"version":"0.9.1"
+"sha256":"314b2803da7db7f564392f5100643d183409df937aab9da0642fda3728a7dcdb",
+"size":7386902,
+"timestamp":1623799388805,
+"version":"0.10.3"
 },
-"maturin-0.9.1-py37hcd4c3ab_0.tar.bz2":{
-"build":"py37hcd4c3ab_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"MIT",
-"name":"maturin",
-"sha256":"69731d49acc7ff9780900175ab07875f1a088528d8d7a6ea27d9aaa19a9197e0",
-"size":7403118,
-"timestamp":1613236231740,
-"version":"0.9.1"
-},
-"maturin-0.9.1-py38h9544abe_0.tar.bz2":{
+"maturin-0.10.3-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
@@ -60437,12 +60439,12 @@
 ],
 "license":"MIT",
 "name":"maturin",
-"sha256":"cb270da4869fe27071fa88017849cc91928ce64e7ff4e55c2684ec1452fd5476",
-"size":7400272,
-"timestamp":1613236850411,
-"version":"0.9.1"
+"sha256":"358d29577a2375ecf6996d17808b16a2edcd530426d1a2c1af1730ea4a35e438",
+"size":7396471,
+"timestamp":1623799842978,
+"version":"0.10.3"
 },
-"maturin-0.9.1-py39h14843e3_0.tar.bz2":{
+"maturin-0.10.3-py39h14843e3_0.tar.bz2":{
 "build":"py39h14843e3_0",
 "build_number":0,
 "depends":[
@@ -60452,10 +60454,10 @@
 ],
 "license":"MIT",
 "name":"maturin",
-"sha256":"0750447e739f6f15108a6fa590a07eff2f26127400a2c36f97a3a583225b3a53",
-"size":7403022,
-"timestamp":1613236862510,
-"version":"0.9.1"
+"sha256":"b07e04f5183c744b5beab4bd727fd9995684a31aa17720f362741d04e68aa104",
+"size":7392636,
+"timestamp":1623800035052,
+"version":"0.10.3"
 },
 "maxima-5.45.0-haa44c19_0.tar.bz2":{
 "build":"haa44c19_0",
@@ -105170,35 +105172,7 @@
 "timestamp":1623479833839,
 "version":"0.4.1"
 },
-"r-xfun-0.23-r36h96a179c_0.tar.bz2":{
-"build":"r36h96a179c_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"MIT",
-"name":"r-xfun",
-"sha256":"194fe1026c6e05ed83a66636cf195b23fc8cbe0a44e87f522f38e2a40cd7e733",
-"size":347619,
-"timestamp":1621208104504,
-"version":"0.23"
-},
-"r-xfun-0.23-r40h96a179c_0.tar.bz2":{
-"build":"r40h96a179c_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"MIT",
-"name":"r-xfun",
-"sha256":"6957507f5188e866fb0b1f39f44858026a2509b5c2212eb6d9e50185c62371ab",
-"size":347145,
-"timestamp":1621208113742,
-"version":"0.23"
-},
-"r-xfun-0.23-r40hecdc70b_0.tar.bz2":{
+"r-xfun-0.24-r40hecdc70b_0.tar.bz2":{
 "build":"r40hecdc70b_0",
 "build_number":0,
 "depends":[
@@ -105208,39 +105182,10 @@
 ],
 "license":"MIT",
 "name":"r-xfun",
-"sha256":"26dca460e949023df2516f9509e9922ccd27a872b6e3902a3bcae375a5be803b",
-"size":346650,
-"timestamp":1622115053874,
-"version":"0.23"
-},
-"r-xfun-0.23-r41h96a179c_0.tar.bz2":{
-"build":"r41h96a179c_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"r-base >=4.1,<4.2.0a0"
-],
-"license":"MIT",
-"name":"r-xfun",
-"sha256":"d35c06a13395c70b73e3996af14cf9d61b54d1bcf4557e30989901f4841a105b",
-"size":347212,
-"timestamp":1621615517612,
-"version":"0.23"
-},
-"r-xfun-0.23-r41hecdc70b_0.tar.bz2":{
-"build":"r41hecdc70b_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"r-base >=4.1,<4.2.0a0"
-],
-"license":"MIT",
-"name":"r-xfun",
-"sha256":"8068eff3adac1662945666fc191bdc31cfe3ba06af45faf3d34528502afc7bf5",
-"size":347249,
-"timestamp":1622114573420,
-"version":"0.23"
+"sha256":"53b44ee98331c20159d6c9224eea459ebb6a4f001f48dbe5a74bdc29026fa1c5",
+"size":349785,
+"timestamp":1623800361011,
+"version":"0.24"
 },
 "r-xml-3.99_0.6-r40h96a179c_0.tar.bz2":{
 "build":"r40h96a179c_0",
