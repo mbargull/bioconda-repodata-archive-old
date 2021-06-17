@@ -3250,6 +3250,22 @@
 "timestamp":1622606637521,
 "version":"1.3.0"
 },
+"aws-c-auth-0.6.0-h04fb6e6_6.tar.bz2":{
+"build":"h04fb6e6_6",
+"build_number":6,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.4,<0.10.5.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"1d8043f47e6fd1a4b72ec160341bc633f7a9582992f35f09a5b8f5b7bf555096",
+"size":91986,
+"timestamp":1623889727869,
+"version":"0.6.0"
+},
 "aws-c-auth-0.6.0-h1cce35f_2.tar.bz2":{
 "build":"h1cce35f_2",
 "build_number":2,
@@ -23083,21 +23099,6 @@
 "timestamp":1604163546695,
 "version":"1.6.37"
 },
-"libpq-12.3-h022277a_3.tar.bz2":{
-"build":"h022277a_3",
-"build_number":3,
-"depends":[
-"krb5 >=1.17.1,<1.18.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"readline >=8.0,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"name":"libpq",
-"sha256":"9085bc50fa8933cbbff02f1ae59f7c055cc8d6703a2309a96bf14e8416281983",
-"size":2746076,
-"timestamp":1608298277581,
-"version":"12.3"
-},
 "libpq-13.3-h8bb6238_0.tar.bz2":{
 "build":"h8bb6238_0",
 "build_number":0,
@@ -30448,101 +30449,37 @@
 "timestamp":1618864163571,
 "version":"5.8.0"
 },
-"psycopg2-2.8.6-py38h943ba7b_1.tar.bz2":{
-"build":"py38h943ba7b_1",
-"build_number":1,
+"psycopg2-2.9-py38hbfad3ef_0.tar.bz2":{
+"build":"py38hbfad3ef_0",
+"build_number":0,
 "depends":[
-"libpq >=12.3,<13.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"LGPL-3.0-or-later",
-"name":"psycopg2",
-"sha256":"c9598121c4db848664d6d07a62188b2a448c94a013ab117168c27c7c0a4ed4fc",
-"size":156319,
-"timestamp":1608904325384,
-"version":"2.8.6"
-},
-"psycopg2-2.8.6-py38h943ba7b_2.tar.bz2":{
-"build":"py38h943ba7b_2",
-"build_number":2,
-"depends":[
-"libpq >=13.1,<14.0a0",
-"openssl >=1.1.1j,<1.1.2a",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"LGPL-3.0-or-later",
-"name":"psycopg2",
-"sha256":"16467b8b173b00f4d6816185a1d2a829732b339cc2fc578d74bba0e8dd18864b",
-"size":156379,
-"timestamp":1614021404015,
-"version":"2.8.6"
-},
-"psycopg2-2.8.6-py38hbfad3ef_3.tar.bz2":{
-"build":"py38hbfad3ef_3",
-"build_number":3,
-"depends":[
-"libpq >=13.2,<14.0a0",
+"libpq >=13.3,<14.0a0",
 "openssl >=1.1.1k,<1.1.2a",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"psycopg2",
-"sha256":"502c2f5938f5f61f1bc6d8be59d423e8c430546450290e3c57353761a1ba37c1",
-"size":156999,
-"timestamp":1620868978963,
-"version":"2.8.6"
+"sha256":"b0620036ae888ff23f808aed7ffe8675811c5dfe81e7c496bcdc8ffb8f064bfc",
+"size":160608,
+"timestamp":1623887971725,
+"version":"2.9"
 },
-"psycopg2-2.8.6-py39h082f845_3.tar.bz2":{
-"build":"py39h082f845_3",
-"build_number":3,
+"psycopg2-2.9-py39h082f845_0.tar.bz2":{
+"build":"py39h082f845_0",
+"build_number":0,
 "depends":[
-"libpq >=13.2,<14.0a0",
+"libpq >=13.3,<14.0a0",
 "openssl >=1.1.1k,<1.1.2a",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"psycopg2",
-"sha256":"131453b8d658358096708e2c7b3702cbd33ad26e8eaca2d1374fb644df3b79d4",
-"size":156823,
-"timestamp":1620868946183,
-"version":"2.8.6"
-},
-"psycopg2-2.8.6-py39h0bed37e_1.tar.bz2":{
-"build":"py39h0bed37e_1",
-"build_number":1,
-"depends":[
-"libpq >=12.3,<13.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-3.0-or-later",
-"name":"psycopg2",
-"sha256":"c540671cffbde73053c8d57af178d93c98a041264abcad893a07962de66a6867",
-"size":156235,
-"timestamp":1608904328255,
-"version":"2.8.6"
-},
-"psycopg2-2.8.6-py39h0bed37e_2.tar.bz2":{
-"build":"py39h0bed37e_2",
-"build_number":2,
-"depends":[
-"libpq >=13.1,<14.0a0",
-"openssl >=1.1.1j,<1.1.2a",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-3.0-or-later",
-"name":"psycopg2",
-"sha256":"4ac1acff9fb7e2995d81f3fc9fb9f02013d40fba092cdbe27ff7847c96aa1fc9",
-"size":156226,
-"timestamp":1614021564441,
-"version":"2.8.6"
+"sha256":"c5376d79a05f11c63107bca6701873eee67030eb3f3df65a68fb698f2350ec74",
+"size":160889,
+"timestamp":1623887914089,
+"version":"2.9"
 },
 "pthread-stubs-0.4-h27ca646_1001.tar.bz2":{
 "build":"h27ca646_1001",
@@ -36972,7 +36909,7 @@
 "timestamp":1622489509181,
 "version":"1.0.2"
 },
-"r-testthat-3.0.2-r40h8ea1354_0.tar.bz2":{
+"r-testthat-3.0.3-r40h8ea1354_0.tar.bz2":{
 "build":"r40h8ea1354_0",
 "build_number":0,
 "depends":[
@@ -37000,12 +36937,12 @@
 ],
 "license":"MIT",
 "name":"r-testthat",
-"sha256":"3a9e8ee86d835a4c3970a77c0636af9741c115f59d701fdaacf068c85a0fd2a7",
-"size":1648507,
-"timestamp":1620823672604,
-"version":"3.0.2"
+"sha256":"f1eb539d6eb9058b811c5dfe875c100e61e9245ffb289a05c095746506dd4251",
+"size":1671531,
+"timestamp":1623889987601,
+"version":"3.0.3"
 },
-"r-testthat-3.0.2-r41h8ea1354_0.tar.bz2":{
+"r-testthat-3.0.3-r41h8ea1354_0.tar.bz2":{
 "build":"r41h8ea1354_0",
 "build_number":0,
 "depends":[
@@ -37033,10 +36970,10 @@
 ],
 "license":"MIT",
 "name":"r-testthat",
-"sha256":"2346e4abb3868eb0b4b8570ec28b2b8c00c88b8083b59ef412017882b9fca268",
-"size":1658588,
-"timestamp":1622013832340,
-"version":"3.0.2"
+"sha256":"86c0645ecd0685e0f0692c2002c88fddae068f76f414be65e2ba231ed930f039",
+"size":1658631,
+"timestamp":1623889979226,
+"version":"3.0.3"
 },
 "r-textshaping-0.3.4-r40h5f05ef5_0.tar.bz2":{
 "build":"r40h5f05ef5_0",
