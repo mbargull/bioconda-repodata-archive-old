@@ -13382,6 +13382,50 @@
 "timestamp":1610383850657,
 "version":"1.8.74"
 },
+"awscrt-0.11.24-py38hadad5c8_2.tar.bz2":{
+"build":"py38hadad5c8_2",
+"build_number":2,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.4,<0.10.5.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"f4c33d879a1ff2ea983f704426ebeacf2915c51624df378f03be8906578425f5",
+"size":111013,
+"timestamp":1623929117490,
+"version":"0.11.24"
+},
+"awscrt-0.11.24-py39h512aeab_2.tar.bz2":{
+"build":"py39h512aeab_2",
+"build_number":2,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.4,<0.10.5.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"5e94533d8b975b90cd9bdbd904df195f8e273ccb8c19c443483bca902b627f6d",
+"size":108433,
+"timestamp":1623929318842,
+"version":"0.11.24"
+},
 "backports.lzma-0.0.14-py38he94ad69_3.tar.bz2":{
 "build":"py38he94ad69_3",
 "build_number":3,
@@ -76161,6 +76205,38 @@
 "size":160889,
 "timestamp":1623887914089,
 "version":"2.9"
+},
+"psycopg2-2.9.1-py38hbfad3ef_0.tar.bz2":{
+"build":"py38hbfad3ef_0",
+"build_number":0,
+"depends":[
+"libpq >=13.3,<14.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"psycopg2",
+"sha256":"134449afd7b914e83b0356c7fef661b7c05da2cae38cf70b11c0bb34cda6836b",
+"size":160658,
+"timestamp":1623910361569,
+"version":"2.9.1"
+},
+"psycopg2-2.9.1-py39h082f845_0.tar.bz2":{
+"build":"py39h082f845_0",
+"build_number":0,
+"depends":[
+"libpq >=13.3,<14.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"psycopg2",
+"sha256":"85bea56bfa700bd378caf6bcf9ece098daea21327b54f3a0a7621b537d44607b",
+"size":160942,
+"timestamp":1623910224713,
+"version":"2.9.1"
 },
 "pthread-stubs-0.4-h27ca646_1001.tar.bz2":{
 "build":"h27ca646_1001",
