@@ -22006,6 +22006,22 @@
 "timestamp":1618446334765,
 "version":"0.29.23"
 },
+"cython-0.29.23-py36h86e9a40_1.tar.bz2":{
+"build":"py36h86e9a40_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"9227bc0f434a920595afae9c8ae724b932aa4bd7e1e445867e3753ca5fdbc996",
+"size":2246697,
+"timestamp":1623964789438,
+"version":"0.29.23"
+},
 "cython-0.29.23-py37h5d5c557_0.tar.bz2":{
 "build":"py37h5d5c557_0",
 "build_number":0,
@@ -22021,6 +22037,23 @@
 "sha256":"d8c658a8a332ec90e9a8ce17b8a04fd71545a043c1edfb0ff2368499779efba4",
 "size":1386742,
 "timestamp":1618446018783,
+"version":"0.29.23"
+},
+"cython-0.29.23-py37h5d5c557_1.tar.bz2":{
+"build":"py37h5d5c557_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"4af281668ab66e56a8c358f36ff993545feadc544e4caa2bd821eaed9fc97260",
+"size":1385552,
+"timestamp":1623964673656,
 "version":"0.29.23"
 },
 "cython-0.29.23-py37had24c86_0.tar.bz2":{
@@ -22039,6 +22072,22 @@
 "timestamp":1618446414421,
 "version":"0.29.23"
 },
+"cython-0.29.23-py37had24c86_1.tar.bz2":{
+"build":"py37had24c86_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"0a327460ace9b517b12684baf3dd6a35491f8ea1e304e695c0d52b4254ea0344",
+"size":2249845,
+"timestamp":1623964824000,
+"version":"0.29.23"
+},
 "cython-0.29.23-py38h0119ad3_0.tar.bz2":{
 "build":"py38h0119ad3_0",
 "build_number":0,
@@ -22055,6 +22104,22 @@
 "timestamp":1618445843012,
 "version":"0.29.23"
 },
+"cython-0.29.23-py38h0119ad3_1.tar.bz2":{
+"build":"py38h0119ad3_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"fea1dfbecb05ccd652b5860609c06c543eb1a28284c54e91b3546cf3a24cc21f",
+"size":2268666,
+"timestamp":1623965552278,
+"version":"0.29.23"
+},
 "cython-0.29.23-py39h99ab00b_0.tar.bz2":{
 "build":"py39h99ab00b_0",
 "build_number":0,
@@ -22069,6 +22134,22 @@
 "sha256":"da62fa09c145fa438b487fea06b535d94c505e3e7e5e879466d82bf2c6bc711a",
 "size":2274958,
 "timestamp":1618445864320,
+"version":"0.29.23"
+},
+"cython-0.29.23-py39h99ab00b_1.tar.bz2":{
+"build":"py39h99ab00b_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"21301385b24af160abae7f762bd90c16b74b649adc4963206d59edfe8690da9f",
+"size":2268494,
+"timestamp":1623965037803,
 "version":"0.29.23"
 },
 "cython-blis-0.7.4-py36hbf47836_0.tar.bz2":{
@@ -34571,6 +34652,30 @@
 "sha256":"c100246a90952cbc502b0ce292760c3c6384c4095516c0a91c0c4f6c261e0620",
 "size":386565,
 "timestamp":1621468734116,
+"version":"0.2.3"
+},
+"gnuradio-osmosdr-0.2.3-py36h38ad91c_7.tar.bz2":{
+"build":"py36h38ad91c_7",
+"build_number":7,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"gnuradio-uhd >=3.9.1.0,<3.9.2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"88f9d55a5636e55eb5c10e75bd61db2a7266a7f6cd9cd67bc5b1347f268517f8",
+"size":389176,
+"timestamp":1623966191960,
 "version":"0.2.3"
 },
 "gnuradio-osmosdr-0.2.3-py37h4952c57_6.tar.bz2":{
@@ -70627,24 +70732,7 @@
 "timestamp":1623769119747,
 "version":"1.2.2"
 },
-"openai-0.7.0-py36h2e20a7f_0.tar.bz2":{
-"build":"py36h2e20a7f_0",
-"build_number":0,
-"depends":[
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"requests >=2.20",
-"tqdm"
-],
-"license":"MIT",
-"name":"openai",
-"sha256":"397b5b5225a2a566c3c8cf9ff8b6423887532d2107fc058931fad6be469d73f2",
-"size":184305,
-"timestamp":1623491226665,
-"version":"0.7.0"
-},
-"openai-0.7.0-py36h704843e_0.tar.bz2":{
+"openai-0.8.0-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -70655,12 +70743,12 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"0ba48b0c354e9c725ae80e3b982006939149cc5978a2cf520b2bbc4c994620af",
-"size":184173,
-"timestamp":1623491656012,
-"version":"0.7.0"
+"sha256":"8e1124fd30976ec4e1d5904f209feb50d4e4aa7676c9f497dd54cc553ae06dde",
+"size":184343,
+"timestamp":1623964107593,
+"version":"0.8.0"
 },
-"openai-0.7.0-py37h4bcbb9b_0.tar.bz2":{
+"openai-0.8.0-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
@@ -70672,12 +70760,12 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"95c5915e39a92589ca486429495810862dd7297409b6016e919ac04a334f5cd7",
-"size":184328,
-"timestamp":1623491227062,
-"version":"0.7.0"
+"sha256":"a06331e9039abc85ff76fdddb08cefc12706008e78ad5f2ce477955a179a606e",
+"size":185181,
+"timestamp":1623964243340,
+"version":"0.8.0"
 },
-"openai-0.7.0-py37hd9ded2f_0.tar.bz2":{
+"openai-0.8.0-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
@@ -70688,12 +70776,12 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"97c3b59273f0e4fd736ceaca687e6edee41aed635d18ef0793a546484f3b7b9b",
-"size":184236,
-"timestamp":1623491629762,
-"version":"0.7.0"
+"sha256":"9d6bcc5269de99195560931a94b7498f8ce78306c1b5f83e563b6b98b3ce1ff7",
+"size":184607,
+"timestamp":1623964309874,
+"version":"0.8.0"
 },
-"openai-0.7.0-py38h2063c64_0.tar.bz2":{
+"openai-0.8.0-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
@@ -70704,12 +70792,12 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"abe8b7e74aa139c677459eb32d7060b211ecaf2a03edd37d895fef43d854a388",
-"size":184790,
-"timestamp":1623491213041,
-"version":"0.7.0"
+"sha256":"2d0ec4f7071bd469ebe5c4cafe090fb50ec96bbbda2a829b7f53ad63d17a77a2",
+"size":185521,
+"timestamp":1623964322892,
+"version":"0.8.0"
 },
-"openai-0.7.0-py39ha65689a_0.tar.bz2":{
+"openai-0.8.0-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
@@ -70720,10 +70808,10 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"b471654de35f8590f27b076a75f5df0ae89d2243b61666984c5c6547b8f92eaf",
-"size":185297,
-"timestamp":1623491417001,
-"version":"0.7.0"
+"sha256":"e1958d2d90acc1240ab7c8207c70969a6a26579fa9b84dab74171fd75299c8a9",
+"size":185222,
+"timestamp":1623964452617,
+"version":"0.8.0"
 },
 "openblas-0.3.15-openmp_h1e0b318_0.tar.bz2":{
 "build":"openmp_h1e0b318_0",

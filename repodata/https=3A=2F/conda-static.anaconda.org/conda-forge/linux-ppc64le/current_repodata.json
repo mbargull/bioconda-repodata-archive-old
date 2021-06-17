@@ -24358,6 +24358,22 @@
 "timestamp":1618445577241,
 "version":"0.29.23"
 },
+"cython-0.29.23-py36h08d3667_1.tar.bz2":{
+"build":"py36h08d3667_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"0cbdb5a98b1c6a87b63a242553a5144393a0d47a30a3fe539323bbc52e55e45f",
+"size":2269661,
+"timestamp":1623963893134,
+"version":"0.29.23"
+},
 "cython-0.29.23-py37hc9b93fd_0.tar.bz2":{
 "build":"py37hc9b93fd_0",
 "build_number":0,
@@ -24372,6 +24388,22 @@
 "sha256":"43dffb95c7e930acdd63a20a15cf80bb798016bb80ab665b2d8271432c39a680",
 "size":2264423,
 "timestamp":1618445844277,
+"version":"0.29.23"
+},
+"cython-0.29.23-py37hc9b93fd_1.tar.bz2":{
+"build":"py37hc9b93fd_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"1e4414e9a4ff4cca07469adf5721806ed2eb5d7eb95dad0f947557e5e2419be0",
+"size":2279022,
+"timestamp":1623964216738,
 "version":"0.29.23"
 },
 "cython-0.29.23-py37hfc837b7_0.tar.bz2":{
@@ -24391,6 +24423,23 @@
 "timestamp":1618445736103,
 "version":"0.29.23"
 },
+"cython-0.29.23-py37hfc837b7_1.tar.bz2":{
+"build":"py37hfc837b7_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"3bc42acc1c88a1bfe7c5d88cd5313c4a143f71d562e7849d5a843e345c39acad",
+"size":1384714,
+"timestamp":1623963852880,
+"version":"0.29.23"
+},
 "cython-0.29.23-py38ha35a538_0.tar.bz2":{
 "build":"py38ha35a538_0",
 "build_number":0,
@@ -24407,6 +24456,22 @@
 "timestamp":1618445675640,
 "version":"0.29.23"
 },
+"cython-0.29.23-py38ha35a538_1.tar.bz2":{
+"build":"py38ha35a538_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"b9d552618189dde793b3c05600e9843e37a4ceb64b69d25573ac284e2b53998b",
+"size":2296863,
+"timestamp":1623963950005,
+"version":"0.29.23"
+},
 "cython-0.29.23-py39had50986_0.tar.bz2":{
 "build":"py39had50986_0",
 "build_number":0,
@@ -24421,6 +24486,22 @@
 "sha256":"bb5c3731a11c8845a76feab64ad490f8ebd39a30ec20d4209eadb8abe55c4428",
 "size":2291787,
 "timestamp":1618445840700,
+"version":"0.29.23"
+},
+"cython-0.29.23-py39had50986_1.tar.bz2":{
+"build":"py39had50986_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"3c70c1b718244d0be537598dea66c3b76611fe6050e229f115d7c04b1e6b8183",
+"size":2276880,
+"timestamp":1623964214025,
 "version":"0.29.23"
 },
 "cython-blis-0.7.4-py36hfc038e5_0.tar.bz2":{
@@ -36572,6 +36653,30 @@
 "timestamp":1621468945889,
 "version":"0.2.3"
 },
+"gnuradio-osmosdr-0.2.3-py36h6d3a522_7.tar.bz2":{
+"build":"py36h6d3a522_7",
+"build_number":7,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"gnuradio-uhd >=3.9.1.0,<3.9.2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"a23d769093c17574f09aa1fecd89e5afcfc21e6938e348c930c9a4ce02fd12d8",
+"size":403561,
+"timestamp":1623966282907,
+"version":"0.2.3"
+},
 "gnuradio-osmosdr-0.2.3-py37h6db70c3_6.tar.bz2":{
 "build":"py37h6db70c3_6",
 "build_number":6,
@@ -36594,6 +36699,30 @@
 "sha256":"523db0f1712dbbef9fc7c221a24ae66259455d8492ff39ad1c07b037be62b28e",
 "size":402953,
 "timestamp":1621468908525,
+"version":"0.2.3"
+},
+"gnuradio-osmosdr-0.2.3-py37h6db70c3_7.tar.bz2":{
+"build":"py37h6db70c3_7",
+"build_number":7,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"gnuradio-uhd >=3.9.1.0,<3.9.2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"dca829e79019af60fbcaf37f1d23c17222c6a802c5790324f4ed816ae4e2ec9d",
+"size":405174,
+"timestamp":1623966395886,
 "version":"0.2.3"
 },
 "gnuradio-osmosdr-0.2.3-py38h377a63c_6.tar.bz2":{
