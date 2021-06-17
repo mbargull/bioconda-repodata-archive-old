@@ -12633,6 +12633,22 @@
 "timestamp":1623878723129,
 "version":"0.10.4"
 },
+"aws-c-io-0.10.5-hf6a6c7c_0.tar.bz2":{
+"build":"hf6a6c7c_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"838194c9d5e318e6cfea70dd341a8d52ff86d54b62cd9467974b76809ed35a02",
+"size":130942,
+"timestamp":1623957667678,
+"version":"0.10.5"
+},
 "aws-c-io-0.9.0-h438d9a4_1.tar.bz2":{
 "build":"h438d9a4_1",
 "build_number":1,
@@ -95096,85 +95112,9 @@
 "timestamp":1621633547110,
 "version":"1.4.1"
 },
-"r-ade4-1.7_16-r36h87346cd_0.tar.bz2":{
-"build":"r36h87346cd_0",
+"r-ade4-1.7_17-r40hff0e79f_0.tar.bz2":{
+"build":"r40hff0e79f_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=8.4.0",
-"r-base >=3.6,<3.7.0a0",
-"r-mass",
-"r-pixmap",
-"r-progress",
-"r-sp"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-ade4",
-"sha256":"94cb87b86826f5b3909b5afd5f59e469e04d33a17b54931c15e0e7726b17b235",
-"size":5220461,
-"timestamp":1604144238235,
-"version":"1.7_16"
-},
-"r-ade4-1.7_16-r36hfdbe764_1.tar.bz2":{
-"build":"r36hfdbe764_1",
-"build_number":1,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=8.4.0",
-"liblapack >=3.8.0,<4.0a0",
-"r-base >=3.6,<3.7.0a0",
-"r-mass",
-"r-pixmap",
-"r-progress",
-"r-sp"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-ade4",
-"sha256":"0996c2f48f2c03e8bac9c7d025360e0ffea45e0147e33662510368736bfaefe1",
-"size":5217944,
-"timestamp":1604279510197,
-"version":"1.7_16"
-},
-"r-ade4-1.7_16-r40h87346cd_0.tar.bz2":{
-"build":"r40h87346cd_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=8.4.0",
-"r-base >=4.0,<4.1.0a0",
-"r-mass",
-"r-pixmap",
-"r-progress",
-"r-sp"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-ade4",
-"sha256":"4f70472f1e6b60c6d6f6e8b7924eadbd45c83a001aff462fcf6649e5240eff84",
-"size":5219220,
-"timestamp":1604144253305,
-"version":"1.7_16"
-},
-"r-ade4-1.7_16-r40hfdbe764_1.tar.bz2":{
-"build":"r40hfdbe764_1",
-"build_number":1,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=8.4.0",
-"liblapack >=3.8.0,<4.0a0",
-"r-base >=4.0,<4.1.0a0",
-"r-mass",
-"r-pixmap",
-"r-progress",
-"r-sp"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-ade4",
-"sha256":"8626f212c7b5a62b86072b46739f0d36eac3d172af8e12b1ff7b37838e5fe4e5",
-"size":5223690,
-"timestamp":1604279723773,
-"version":"1.7_16"
-},
-"r-ade4-1.7_16-r40hff0e79f_1.tar.bz2":{
-"build":"r40hff0e79f_1",
-"build_number":1,
 "depends":[
 "libblas >=3.8.0,<4.0a0",
 "libgcc-ng >=9.3.0",
@@ -95187,14 +95127,14 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-ade4",
-"sha256":"82f6c3ba5e89b83ac87c0ebe481221b7b6bfb237f2b61f50cb5fe5dca468fc8d",
-"size":5220868,
-"timestamp":1621973438839,
-"version":"1.7_16"
+"sha256":"57be735ec23f313b8a9793331aac4a41a10a0c6b7d657f958aa7f56b8f1bc1cd",
+"size":5242532,
+"timestamp":1623958681801,
+"version":"1.7_17"
 },
-"r-ade4-1.7_16-r41hff0e79f_1.tar.bz2":{
-"build":"r41hff0e79f_1",
-"build_number":1,
+"r-ade4-1.7_17-r41hff0e79f_0.tar.bz2":{
+"build":"r41hff0e79f_0",
+"build_number":0,
 "depends":[
 "libblas >=3.8.0,<4.0a0",
 "libgcc-ng >=9.3.0",
@@ -95207,10 +95147,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-ade4",
-"sha256":"2e3e19c14e1c113748a32c1df121227ca669c8cfa9574feb956f5595fa44aea9",
-"size":5201950,
-"timestamp":1621973389163,
-"version":"1.7_16"
+"sha256":"0f4fbcaf152d6b8f78628af765579b9c05fd677d6043a31e6dc1e16c99080d2a",
+"size":5225971,
+"timestamp":1623958368659,
+"version":"1.7_17"
 },
 "r-arrow-3.0.0-r36h3b9df90_1.tar.bz2":{
 "build":"r36h3b9df90_1",
@@ -122520,26 +122460,9 @@
 "timestamp":1604352030585,
 "version":"3.13.0"
 },
-"urdfdom-2.3.3-h1bb5118_0.tar.bz2":{
-"build":"h1bb5118_0",
+"urdfdom-2.3.5-h2acdbc0_0.tar.bz2":{
+"build":"h2acdbc0_0",
 "build_number":0,
-"depends":[
-"console_bridge >=1.0.1,<1.1.0a0",
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"tinyxml",
-"urdfdom_headers"
-],
-"license":"BSD-3-Clause",
-"name":"urdfdom",
-"sha256":"1c4542ad6b30c625c9fd65504eae3c24640272bc050f57dd5097fc840428d105",
-"size":138078,
-"timestamp":1601935985768,
-"version":"2.3.3"
-},
-"urdfdom-2.3.3-h2acdbc0_1.tar.bz2":{
-"build":"h2acdbc0_1",
-"build_number":1,
 "depends":[
 "console_bridge >=1.0.1,<1.1.0a0",
 "libgcc-ng >=9.3.0",
@@ -122549,10 +122472,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"urdfdom",
-"sha256":"27c20c99954a451ed6ba3db12ce3da0ea2f4d6fe69a8f56751c671aa11ef1b45",
-"size":121338,
-"timestamp":1618395938459,
-"version":"2.3.3"
+"sha256":"a8d383d2002d1a0bbbd661092b0823204139ff88503989ec5388e0c1f8492052",
+"size":121951,
+"timestamp":1623960327382,
+"version":"2.3.5"
 },
 "urdfdom_headers-1.0.5-h1bb5118_1.tar.bz2":{
 "build":"h1bb5118_1",

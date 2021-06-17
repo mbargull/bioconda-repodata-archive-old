@@ -11875,6 +11875,20 @@
 "timestamp":1623878724575,
 "version":"0.10.4"
 },
+"aws-c-io-0.10.5-hea86ef8_0.tar.bz2":{
+"build":"hea86ef8_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"cbe87f68cef20ac8ebf8db8ed2d5def6a7bc96306700e66662243038147657d6",
+"size":112595,
+"timestamp":1623957950099,
+"version":"0.10.5"
+},
 "aws-c-io-0.6.5-h3723fa0_0.tar.bz2":{
 "build":"h3723fa0_0",
 "build_number":0,
@@ -25767,6 +25781,23 @@
 "size":42923,
 "timestamp":1613176878841,
 "version":"0.2.0"
+},
+"csr-0.3.1-py38hae7de7f_0.tar.bz2":{
+"build":"py38hae7de7f_0",
+"build_number":0,
+"depends":[
+"numba >=0.51",
+"numpy >=1.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy"
+],
+"license":"MIT",
+"name":"csr",
+"sha256":"65862488f9782bf58b5e9a24900f31180d4282bd55b611764e237676b5f48cd8",
+"size":44371,
+"timestamp":1623961222488,
+"version":"0.3.1"
 },
 "cunit-2.1.3-hbdafb3b_1001.tar.bz2":{
 "build":"hbdafb3b_1001",
@@ -109772,6 +109803,22 @@
 "size":118046,
 "timestamp":1618396219873,
 "version":"2.3.3"
+},
+"urdfdom-2.3.5-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"console_bridge >=1.0.1,<1.1.0a0",
+"libcxx >=11.1.0",
+"tinyxml",
+"urdfdom_headers"
+],
+"license":"BSD-3-Clause",
+"name":"urdfdom",
+"sha256":"fb54f4c49c850fd6decb9fe8e7f308b0bbb38a1d6a31ba276f0ad6085e6cca0d",
+"size":118589,
+"timestamp":1623960048108,
+"version":"2.3.5"
 },
 "urdfdom_headers-1.0.5-hc021e02_2.tar.bz2":{
 "build":"hc021e02_2",

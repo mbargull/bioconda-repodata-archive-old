@@ -12862,6 +12862,28 @@
 "timestamp":1623411249444,
 "version":"0.14.0"
 },
+"aws-crt-cpp-0.14.0-h875e592_3.tar.bz2":{
+"build":"h875e592_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.10,<0.5.11.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.4,<0.10.5.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"requires":[],
+"size":157078,
+"timestamp":1623963466951,
+"version":"0.14.0"
+},
 "aws-crt-cpp-0.14.0-h8c698c1_1.tar.bz2":{
 "build":"h8c698c1_1",
 "build_number":1,
@@ -25767,6 +25789,23 @@
 "timestamp":1613176878841,
 "version":"0.2.0"
 },
+"csr-0.3.1-py38hae7de7f_0.tar.bz2":{
+"build":"py38hae7de7f_0",
+"build_number":0,
+"depends":[
+"numba >=0.51",
+"numpy >=1.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy"
+],
+"license":"MIT",
+"name":"csr",
+"requires":[],
+"size":44371,
+"timestamp":1623961222488,
+"version":"0.3.1"
+},
 "cunit-2.1.3-hbdafb3b_1001.tar.bz2":{
 "build":"hbdafb3b_1001",
 "build_number":1001,
@@ -26677,6 +26716,21 @@
 "timestamp":1618445612252,
 "version":"0.29.23"
 },
+"cython-0.29.23-py38h6f2b01f_1.tar.bz2":{
+"build":"py38h6f2b01f_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"requires":[],
+"size":2112617,
+"timestamp":1623963712506,
+"version":"0.29.23"
+},
 "cython-0.29.23-py39hfb83b0d_0.tar.bz2":{
 "build":"py39hfb83b0d_0",
 "build_number":0,
@@ -26690,6 +26744,21 @@
 "requires":[],
 "size":2113063,
 "timestamp":1618445604299,
+"version":"0.29.23"
+},
+"cython-0.29.23-py39hfb83b0d_1.tar.bz2":{
+"build":"py39hfb83b0d_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"requires":[],
+"size":2115764,
+"timestamp":1623963858774,
 "version":"0.29.23"
 },
 "cython-blis-0.7.4-py38h8369297_0.tar.bz2":{
@@ -69580,6 +69649,38 @@
 "size":184962,
 "timestamp":1623491359689,
 "version":"0.7.0"
+},
+"openai-0.8.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"requests >=2.20",
+"tqdm"
+],
+"license":"MIT",
+"name":"openai",
+"requires":[],
+"size":186016,
+"timestamp":1623963150751,
+"version":"0.8.0"
+},
+"openai-0.8.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"requests >=2.20",
+"tqdm"
+],
+"license":"MIT",
+"name":"openai",
+"requires":[],
+"size":185316,
+"timestamp":1623963117540,
+"version":"0.8.0"
 },
 "openblas-0.3.11-openmp_he77e1ca_1.tar.bz2":{
 "build":"openmp_he77e1ca_1",
