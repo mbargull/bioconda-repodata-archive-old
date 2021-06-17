@@ -25190,7 +25190,7 @@
 "timestamp":1622871655254,
 "version":"4.2"
 },
-"micromamba-0.13.1-0.tar.bz2":{
+"micromamba-0.14.0-0.tar.bz2":{
 "build":"0",
 "build_number":0,
 "depends":[
@@ -25198,10 +25198,10 @@
 ],
 "license":"BSD-3-Clause AND MIT AND OpenSSL",
 "name":"micromamba",
-"sha256":"01e8ef1828cfc8a998b5aa9eff00e88cb16a2a9a89409817105d41334bdc4abe",
-"size":4251511,
-"timestamp":1621262703158,
-"version":"0.13.1"
+"sha256":"931034d3ffbabf986cd3dd9c8b118fa3250e492d058067d9736c6d174cd7c744",
+"size":4299984,
+"timestamp":1623950694656,
+"version":"0.14.0"
 },
 "minuit2-6.22.06-minuit2_standalone.tar.bz2":{
 "build":"minuit2_standalone",
@@ -43887,11 +43887,12 @@
 "timestamp":1613717707505,
 "version":"0.15.2"
 },
-"vaex-core-4.2.0-py38h422d44a_0.tar.bz2":{
+"vaex-core-4.3.0.post1-py38h422d44a_0.tar.bz2":{
 "build":"py38h422d44a_0",
 "build_number":0,
 "depends":[
 "aplus",
+"blake3",
 "cloudpickle",
 "dask",
 "frozendict",
@@ -43900,9 +43901,8 @@
 "nest-asyncio >=1.3.3",
 "numpy >=1.19.5,<2.0a0",
 "pandas",
-"pcre >=8.44,<9.0a0",
+"pcre >=8.45,<9.0a0",
 "progressbar2",
-"psutil >=1.2.1",
 "pyarrow >=3.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -43913,16 +43913,17 @@
 ],
 "license":"MIT",
 "name":"vaex-core",
-"sha256":"887bbb141ac6f698931f86a7d15291381ad80478f6ecb444ac61a38ce0cecf2c",
-"size":2433101,
-"timestamp":1622894962732,
-"version":"4.2.0"
+"sha256":"a21a7ff62717890b5cbcca2b86ae7a82ca3a7a307443574cf41303c5d1916c99",
+"size":2508895,
+"timestamp":1623952250997,
+"version":"4.3.0.post1"
 },
-"vaex-core-4.2.0-py39hc5408f7_0.tar.bz2":{
+"vaex-core-4.3.0.post1-py39hc5408f7_0.tar.bz2":{
 "build":"py39hc5408f7_0",
 "build_number":0,
 "depends":[
 "aplus",
+"blake3",
 "cloudpickle",
 "dask",
 "frozendict",
@@ -43931,9 +43932,8 @@
 "nest-asyncio >=1.3.3",
 "numpy >=1.19.5,<2.0a0",
 "pandas",
-"pcre >=8.44,<9.0a0",
+"pcre >=8.45,<9.0a0",
 "progressbar2",
-"psutil >=1.2.1",
 "pyarrow >=3.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -43944,10 +43944,10 @@
 ],
 "license":"MIT",
 "name":"vaex-core",
-"sha256":"d212b272d3eebf9e932ed750b3e4fa749419395d2c73c36d2156f331bc61252b",
-"size":2665619,
-"timestamp":1622894511718,
-"version":"4.2.0"
+"sha256":"667f76b23ccf6262ecc0a516b5fb36350e87947543ed7516fac9cc43c4de5ec9",
+"size":2769790,
+"timestamp":1623952245919,
+"version":"4.3.0.post1"
 },
 "vcpkg-2020.11-h9f76cd9_1.tar.bz2":{
 "build":"h9f76cd9_1",
