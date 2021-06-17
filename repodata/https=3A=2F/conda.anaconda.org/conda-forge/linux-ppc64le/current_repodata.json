@@ -13402,6 +13402,29 @@
 "timestamp":1623436247171,
 "version":"0.14.0"
 },
+"aws-crt-cpp-0.14.0-he1cb059_3.tar.bz2":{
+"build":"he1cb059_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.10,<0.5.11.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.4,<0.10.5.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"sha256":"a5ef42a079268c159d9fa5e52ac02f52f2e2905088483fddf1f3b28ff45f0f2d",
+"size":192732,
+"timestamp":1623963508528,
+"version":"0.14.0"
+},
 "aws-sdk-cpp-1.8.186-h461b822_1.tar.bz2":{
 "build":"h461b822_1",
 "build_number":1,
@@ -72194,7 +72217,7 @@
 "timestamp":1623769326040,
 "version":"1.2.2"
 },
-"openai-0.7.0-py36h270354c_0.tar.bz2":{
+"openai-0.8.0-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -72205,29 +72228,12 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"814a805fddb1d8bd4da9b19b117e7f64301502b335e8207e31903fc7d95852b3",
-"size":184145,
-"timestamp":1623492570531,
-"version":"0.7.0"
+"sha256":"715828f9f4c9b76259cf983fb771d4079d19b281639944d8b6cec9a17c507cc9",
+"size":185063,
+"timestamp":1623963385794,
+"version":"0.8.0"
 },
-"openai-0.7.0-py36he7cccf2_0.tar.bz2":{
-"build":"py36he7cccf2_0",
-"build_number":0,
-"depends":[
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"requests >=2.20",
-"tqdm"
-],
-"license":"MIT",
-"name":"openai",
-"sha256":"4ca3e93015f52914cf641eb93f8376215059aae1b8a49f267aced5b4ac16fdd4",
-"size":184433,
-"timestamp":1623492572522,
-"version":"0.7.0"
-},
-"openai-0.7.0-py37h35e4cab_0.tar.bz2":{
+"openai-0.8.0-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -72238,12 +72244,12 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"4bbb8c01fb308e05180d16955cbce57d98b56090326c2e265ea4e4e131eb74a9",
-"size":184206,
-"timestamp":1623492624814,
-"version":"0.7.0"
+"sha256":"cc38f4931684ae8bea2ad93067fde62ebae1ed98da9cc9ad3216cc77a00cdb1b",
+"size":185261,
+"timestamp":1623963392824,
+"version":"0.8.0"
 },
-"openai-0.7.0-py37hadc05a3_0.tar.bz2":{
+"openai-0.8.0-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
@@ -72255,12 +72261,12 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"4e6a31d77440549f8f5f3a2b13ffff303537f7dcf6612f5ae6a855dcadf107b1",
-"size":185027,
-"timestamp":1623492428898,
-"version":"0.7.0"
+"sha256":"999c2e09ccd5dc8f47233f7dd590597c62d409d7b4bb3fb0517d61d737d3d9e4",
+"size":185173,
+"timestamp":1623963410946,
+"version":"0.8.0"
 },
-"openai-0.7.0-py38hf8b3453_0.tar.bz2":{
+"openai-0.8.0-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -72271,12 +72277,12 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"43bbcc6061ab62c6248b2d07bbd81c83cf7687abf4da43c900b4dc38cb0309d3",
-"size":185306,
-"timestamp":1623492598908,
-"version":"0.7.0"
+"sha256":"600bf89b20d5a0270781bacf78d3f3a5a9f0ef58a9e870e78caf6fcbc2ac3209",
+"size":185646,
+"timestamp":1623963394077,
+"version":"0.8.0"
 },
-"openai-0.7.0-py39hc1b9086_0.tar.bz2":{
+"openai-0.8.0-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -72287,10 +72293,10 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"d3bf709c5705748a7842f28f314ac6cec922d8a66b450970a2ade6225270b658",
-"size":185258,
-"timestamp":1623492455691,
-"version":"0.7.0"
+"sha256":"51adbb134c5e7bb2d1634fc26a80ad8c8fa29288f6f3206e644b4064214d4230",
+"size":184826,
+"timestamp":1623963403529,
+"version":"0.8.0"
 },
 "openblas-0.3.15-openmp_h25a920f_0.tar.bz2":{
 "build":"openmp_h25a920f_0",

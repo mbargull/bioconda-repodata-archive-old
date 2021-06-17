@@ -12858,6 +12858,28 @@
 "timestamp":1623411249444,
 "version":"0.14.0"
 },
+"aws-crt-cpp-0.14.0-h875e592_3.tar.bz2":{
+"build":"h875e592_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.10,<0.5.11.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.4,<0.10.5.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"sha256":"cdc26fd9c65c45e42a928054140876079cec17995477a9a00a455bf02cf6ff72",
+"size":157078,
+"timestamp":1623963466951,
+"version":"0.14.0"
+},
 "aws-crt-cpp-0.14.0-h8c698c1_1.tar.bz2":{
 "build":"h8c698c1_1",
 "build_number":1,
@@ -26707,6 +26729,21 @@
 "sha256":"10df92a71921cd736acc21b5aa591a58cd7318f371595342f6561dfd4ef43c7b",
 "size":2110087,
 "timestamp":1618445612252,
+"version":"0.29.23"
+},
+"cython-0.29.23-py38h6f2b01f_1.tar.bz2":{
+"build":"py38h6f2b01f_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"22e53b0f7541dba3e4b3c600d934c3f9bbd9aee881efb731e8e8dd13750f35ff",
+"size":2112617,
+"timestamp":1623963712506,
 "version":"0.29.23"
 },
 "cython-0.29.23-py39hfb83b0d_0.tar.bz2":{
@@ -69377,6 +69414,38 @@
 "size":184962,
 "timestamp":1623491359689,
 "version":"0.7.0"
+},
+"openai-0.8.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"requests >=2.20",
+"tqdm"
+],
+"license":"MIT",
+"name":"openai",
+"sha256":"b1245b295fda5b5f7f83235ed4efe5f10f8eed95883f2f27447222d4b6da09ca",
+"size":186016,
+"timestamp":1623963150751,
+"version":"0.8.0"
+},
+"openai-0.8.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"requests >=2.20",
+"tqdm"
+],
+"license":"MIT",
+"name":"openai",
+"sha256":"efff2a8f472d4992181e3c9f845150871d0e03b8e5ef8bbace49ea56309d2cf1",
+"size":185316,
+"timestamp":1623963117540,
+"version":"0.8.0"
 },
 "openblas-0.3.11-openmp_he77e1ca_1.tar.bz2":{
 "build":"openmp_he77e1ca_1",
