@@ -753,7 +753,7 @@
 "timestamp":1615511630612,
 "version":"4.9.2"
 },
-"anyio-3.1.0-py38h10201cd_0.tar.bz2":{
+"anyio-3.2.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "constrains":[
@@ -767,29 +767,10 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"c01bd141469a84ddf5b44eb1233604cfd8aeadea07175a87ae2b37d658424b48",
-"size":140519,
-"timestamp":1621480601738,
-"version":"3.1.0"
-},
-"anyio-3.1.0-py39h2804cbe_0.tar.bz2":{
-"build":"py39h2804cbe_0",
-"build_number":0,
-"constrains":[
-"trio >=0.16"
-],
-"depends":[
-"idna >=2.8",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"sniffio >=1.1"
-],
-"license":"MIT",
-"name":"anyio",
-"sha256":"eabc50049cd60f90f2a3c782e2b0ae9b4ae8aba1c64ee81179404cd6684dcb5a",
-"size":140939,
-"timestamp":1621480663400,
-"version":"3.1.0"
+"sha256":"46f675addd78e89d990572a219c4d5361f768526050bd83654961235ef88fc44",
+"size":142863,
+"timestamp":1624038071249,
+"version":"3.2.0"
 },
 "apache-beam-2.30.0-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
@@ -13592,33 +13573,9 @@
 "timestamp":1623966163431,
 "version":"0.2.3"
 },
-"gnuradio-satellites-4.1.0-py38h3177a3e_1.tar.bz2":{
-"build":"py38h3177a3e_1",
-"build_number":1,
-"depends":[
-"construct >=2.9",
-"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
-"gnuradio-zeromq",
-"libcxx >=11.1.0",
-"log4cpp >=1.1.3,<1.2.0a0",
-"matplotlib-base",
-"numpy",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pyyaml",
-"requests",
-"volk >=2.4.1,<2.5.0a0"
-],
-"license":"GPL-3.0-or-later",
-"name":"gnuradio-satellites",
-"sha256":"2981f3fdee3dc24de48b10cc5a9ed394c15586c0170921acce0654a0ded7f457",
-"size":470071,
-"timestamp":1621531246737,
-"version":"4.1.0"
-},
-"gnuradio-satellites-4.1.0-py38h939e8c2_2.tar.bz2":{
-"build":"py38h939e8c2_2",
-"build_number":2,
+"gnuradio-satellites-4.2.0-py38h939e8c2_0.tar.bz2":{
+"build":"py38h939e8c2_0",
+"build_number":0,
 "depends":[
 "construct >=2.9",
 "gnuradio-core >=3.9.2.0,<3.9.3.0a0",
@@ -13635,14 +13592,14 @@
 ],
 "license":"GPL-3.0-or-later",
 "name":"gnuradio-satellites",
-"sha256":"661afb33e99126cf6b27b51d9ed9e0636badf1c0f936a41fcd6b460d903b695b",
-"size":465752,
-"timestamp":1623971740554,
-"version":"4.1.0"
+"sha256":"b4b50500b810001f0f34b9d0914c44ac9c39879c96117edf09d7acbdeaf9e83e",
+"size":478729,
+"timestamp":1624033857833,
+"version":"4.2.0"
 },
-"gnuradio-satellites-4.1.0-py39h1cd40cf_2.tar.bz2":{
-"build":"py39h1cd40cf_2",
-"build_number":2,
+"gnuradio-satellites-4.2.0-py39h1cd40cf_0.tar.bz2":{
+"build":"py39h1cd40cf_0",
+"build_number":0,
 "depends":[
 "construct >=2.9",
 "gnuradio-core >=3.9.2.0,<3.9.3.0a0",
@@ -13659,34 +13616,10 @@
 ],
 "license":"GPL-3.0-or-later",
 "name":"gnuradio-satellites",
-"sha256":"55dfcab12953f208c544e75fb286103848b38bb94db07a05da185315a5391534",
-"size":466097,
-"timestamp":1623971884610,
-"version":"4.1.0"
-},
-"gnuradio-satellites-4.1.0-py39heb355c1_1.tar.bz2":{
-"build":"py39heb355c1_1",
-"build_number":1,
-"depends":[
-"construct >=2.9",
-"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
-"gnuradio-zeromq",
-"libcxx >=11.1.0",
-"log4cpp >=1.1.3,<1.2.0a0",
-"matplotlib-base",
-"numpy",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pyyaml",
-"requests",
-"volk >=2.4.1,<2.5.0a0"
-],
-"license":"GPL-3.0-or-later",
-"name":"gnuradio-satellites",
-"sha256":"a3708cf464790503a5364405dfa87b5e0c41e375a46629c7883f52a3eb6576ad",
-"size":473620,
-"timestamp":1621531137602,
-"version":"4.1.0"
+"sha256":"93a9db2eb4549278140125c540dcf2396d2a8f1fd9f20cfe4db62b539d186532",
+"size":462819,
+"timestamp":1624033641402,
+"version":"4.2.0"
 },
 "gnuradio-soapy-2.1.3.1-py38h64adcb3_3.tar.bz2":{
 "build":"py38h64adcb3_3",

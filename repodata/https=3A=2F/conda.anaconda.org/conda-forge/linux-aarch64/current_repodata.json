@@ -2550,72 +2550,7 @@
 "timestamp":1614388799689,
 "version":"2.2.0"
 },
-"anyio-3.1.0-py36h2e20a7f_0.tar.bz2":{
-"build":"py36h2e20a7f_0",
-"build_number":0,
-"constrains":[
-"trio >=0.16"
-],
-"depends":[
-"async_generator",
-"dataclasses",
-"idna >=2.8",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"sniffio >=1.1",
-"typing_extensions"
-],
-"license":"MIT",
-"name":"anyio",
-"sha256":"d3e5216a568dd78bb62479882c29c59acdbbbf7a5b9b8e628bec225ac47c6d5e",
-"size":138921,
-"timestamp":1621557763407,
-"version":"3.1.0"
-},
-"anyio-3.1.0-py36h704843e_0.tar.bz2":{
-"build":"py36h704843e_0",
-"build_number":0,
-"constrains":[
-"trio >=0.16"
-],
-"depends":[
-"async_generator",
-"dataclasses",
-"idna >=2.8",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"sniffio >=1.1",
-"typing_extensions"
-],
-"license":"MIT",
-"name":"anyio",
-"sha256":"05a700bbb32a039e49aaa5a2f0afb15848396686a3d40f6d609011d50bf0fa04",
-"size":139041,
-"timestamp":1621480451387,
-"version":"3.1.0"
-},
-"anyio-3.1.0-py37hd9ded2f_0.tar.bz2":{
-"build":"py37hd9ded2f_0",
-"build_number":0,
-"constrains":[
-"trio >=0.16"
-],
-"depends":[
-"idna >=2.8",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"sniffio >=1.1",
-"typing_extensions"
-],
-"license":"MIT",
-"name":"anyio",
-"sha256":"67f202c8d1c0f8be88b319963c26d90a29b6e01b50b35a4055b4f1cef9c22484",
-"size":139196,
-"timestamp":1621480750732,
-"version":"3.1.0"
-},
-"anyio-3.1.0-py38h2063c64_0.tar.bz2":{
+"anyio-3.2.0-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "constrains":[
@@ -2629,29 +2564,10 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"0cefe3d9063013c8d0e9c5180fd071c8e72a182ae7b129d6b3a5bc394e58c46a",
-"size":139932,
-"timestamp":1621480446388,
-"version":"3.1.0"
-},
-"anyio-3.1.0-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"constrains":[
-"trio >=0.16"
-],
-"depends":[
-"idna >=2.8",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"sniffio >=1.1"
-],
-"license":"MIT",
-"name":"anyio",
-"sha256":"844ff66d1557a2b849daec905848601e6c76d7978bbd504d435777fcae11c4aa",
-"size":140509,
-"timestamp":1621480448076,
-"version":"3.1.0"
+"sha256":"e8f259b69f18be211747e1d64644358753367ca79e59df3803921c13f378a668",
+"size":142359,
+"timestamp":1624037900122,
+"version":"3.2.0"
 },
 "anyjson-0.3.3-py36h2e20a7f_1003.tar.bz2":{
 "build":"py36h2e20a7f_1003",
@@ -35042,6 +34958,31 @@
 "size":1243407,
 "timestamp":1623429229673,
 "version":"3.9.2.0"
+},
+"gnuradio-satellites-4.2.0-py36hb059cd0_0.tar.bz2":{
+"build":"py36hb059cd0_0",
+"build_number":0,
+"depends":[
+"construct >=2.9",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-zeromq",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"matplotlib-base",
+"numpy",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pyyaml",
+"requests",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-satellites",
+"sha256":"ace4b045a965c4a6f47361e94fcb3dc5ac79b780bfd74df6780d6ba1296346ce",
+"size":526437,
+"timestamp":1624033826355,
+"version":"4.2.0"
 },
 "gnuradio-satellites-4.2.0-py37hc938c9f_0.tar.bz2":{
 "build":"py37hc938c9f_0",
