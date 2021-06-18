@@ -10229,11 +10229,11 @@
 "timestamp":1620322604875,
 "version":"1.8.186"
 },
-"awscli-1.19.96-py36h704843e_0.tar.bz2":{
+"awscli-1.19.97-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.96",
+"botocore 1.20.97",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -10244,16 +10244,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"e6e9040f255d9fd4319b1ca0e9dc951c31202fa1529c5a3cc5f47e16495af20f",
-"size":1934900,
-"timestamp":1623887060627,
-"version":"1.19.96"
+"sha256":"855a9e7919c812b1b535401510d5a828bd36e20e2bfb527d60ecb5d39df583eb",
+"size":1942512,
+"timestamp":1623977234742,
+"version":"1.19.97"
 },
-"awscli-1.19.96-py37h4bcbb9b_0.tar.bz2":{
+"awscli-1.19.97-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.96",
+"botocore 1.20.97",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.7 >=7.3.4",
@@ -10265,16 +10265,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"c5d0a981b7a14d255b801b62c4d69258b8b1b035f4ed4b6890875eb9e244b1a5",
-"size":1941413,
-"timestamp":1623887370897,
-"version":"1.19.96"
+"sha256":"75d5276fcbad687cca7809c04f362768de51ae42036d83392d1605d21643af01",
+"size":1941940,
+"timestamp":1623978133046,
+"version":"1.19.97"
 },
-"awscli-1.19.96-py37hd9ded2f_0.tar.bz2":{
+"awscli-1.19.97-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.96",
+"botocore 1.20.97",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -10285,16 +10285,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"39b2d03d22cf6db581dfbb8ae34916550a16ada08e80d57bbfc5192d73bef000",
-"size":1932861,
-"timestamp":1623887666775,
-"version":"1.19.96"
+"sha256":"79ee288425bae65c504852d133c7635ba9baeea51899beb6379a1bf2a34aa98a",
+"size":1952786,
+"timestamp":1623978540339,
+"version":"1.19.97"
 },
-"awscli-1.19.96-py38h2063c64_0.tar.bz2":{
+"awscli-1.19.97-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.96",
+"botocore 1.20.97",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -10305,16 +10305,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"76ef120f53adcf655c9fd929fa3e94a6409e531fcb10e074a0efcec8a87df24b",
-"size":1940977,
-"timestamp":1623887944146,
-"version":"1.19.96"
+"sha256":"a19391468da202be6e2ce479eba2d602aea5117b60417d4cca955f762346c778",
+"size":1945988,
+"timestamp":1623979190485,
+"version":"1.19.97"
 },
-"awscli-1.19.96-py39ha65689a_0.tar.bz2":{
+"awscli-1.19.97-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.96",
+"botocore 1.20.97",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.9,<3.10.0a0",
@@ -10325,10 +10325,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"3dcc7eb92b9db4d64be0821c5f4478c7d2ad2ba74ce920450240650cef23a35b",
-"size":1955863,
-"timestamp":1623888640275,
-"version":"1.19.96"
+"sha256":"994815e56cf4acb08ea0999bfcf965f3fae580fef7e5740347c8d168f8829a42",
+"size":1941227,
+"timestamp":1623980082634,
+"version":"1.19.97"
 },
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
 "build":"py36h3b874fd_3",
@@ -34701,6 +34701,54 @@
 "timestamp":1623966191960,
 "version":"0.2.3"
 },
+"gnuradio-osmosdr-0.2.3-py36hd7d143e_8.tar.bz2":{
+"build":"py36hd7d143e_8",
+"build_number":8,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-uhd >=3.9.2.0,<3.9.3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"f3e823223f251b46c0206a13500914c4762645d8b6ab699d5fc26ce25e25b3b0",
+"size":392934,
+"timestamp":1623973854483,
+"version":"0.2.3"
+},
+"gnuradio-osmosdr-0.2.3-py37h0f04a2d_8.tar.bz2":{
+"build":"py37h0f04a2d_8",
+"build_number":8,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-uhd >=3.9.2.0,<3.9.3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"81eeef20a0a803c3328859a18ff2d1330332b6f5db7d8a889514cd9a200412a3",
+"size":383439,
+"timestamp":1623974804501,
+"version":"0.2.3"
+},
 "gnuradio-osmosdr-0.2.3-py37h4952c57_6.tar.bz2":{
 "build":"py37h4952c57_6",
 "build_number":6,
@@ -34749,6 +34797,30 @@
 "timestamp":1623970569584,
 "version":"0.2.3"
 },
+"gnuradio-osmosdr-0.2.3-py38h20a83f6_8.tar.bz2":{
+"build":"py38h20a83f6_8",
+"build_number":8,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-uhd >=3.9.2.0,<3.9.3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"5ec4726f46f1aac56b6ca74c1830ed9cb2c5e34b1e18b66d084d120dd6913493",
+"size":384028,
+"timestamp":1623973843154,
+"version":"0.2.3"
+},
 "gnuradio-osmosdr-0.2.3-py38h97e5ee3_6.tar.bz2":{
 "build":"py38h97e5ee3_6",
 "build_number":6,
@@ -34795,6 +34867,30 @@
 "sha256":"c1a159031e6390fb6d65bce29ff0b016f3f0c71f29e68c6a56dc8b370e94dd05",
 "size":387291,
 "timestamp":1623971122570,
+"version":"0.2.3"
+},
+"gnuradio-osmosdr-0.2.3-py39h19647f0_8.tar.bz2":{
+"build":"py39h19647f0_8",
+"build_number":8,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-uhd >=3.9.2.0,<3.9.3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"be31e7443190cf9c5d14aa3b37e0c5722382e05b2b776279008c9bc0e368f8e4",
+"size":381704,
+"timestamp":1623974240635,
 "version":"0.2.3"
 },
 "gnuradio-osmosdr-0.2.3-py39h9c188ae_6.tar.bz2":{
@@ -35031,6 +35127,31 @@
 "sha256":"f73b16bb46d5539362c0560f3da4c08493d5c8731d975703e2115533aff2d138",
 "size":538751,
 "timestamp":1623972228444,
+"version":"4.1.0"
+},
+"gnuradio-satellites-4.1.0-py38he6600e1_2.tar.bz2":{
+"build":"py38he6600e1_2",
+"build_number":2,
+"depends":[
+"construct >=2.9",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-zeromq",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"matplotlib-base",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"requests",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-satellites",
+"sha256":"de7125c226bce1904bf7cc8f8b12f3387ea79b581da82f8e63866950546e64c1",
+"size":524720,
+"timestamp":1623973036632,
 "version":"4.1.0"
 },
 "gnuradio-satellites-4.1.0-py38hfff5859_1.tar.bz2":{
