@@ -52997,6 +52997,29 @@
 "timestamp":1613967732721,
 "version":"4.3.0"
 },
+"libignition-fuel-tools4-4.3.0-ha92f7d5_3.tar.bz2":{
+"build":"ha92f7d5_3",
+"build_number":3,
+"depends":[
+"jsoncpp >=1.9.4,<1.9.5.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libignition-common3 >=3.13.2,<4.0a0",
+"libignition-msgs5 >=5.3.0,<6.0a0",
+"libignition-tools1 >=1.2.0,<2.0a0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"libzip >=1.7.3,<2.0a0",
+"tinyxml2 >=9.0.0,<9.1.0a0",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-fuel-tools4",
+"sha256":"1ac8a5fdaf42b442d83bbf6b5b0b36b845e69d38b6a26b5f38eb735a6d44070d",
+"size":255380,
+"timestamp":1624011909309,
+"version":"4.3.0"
+},
 "libignition-fuel-tools5-5.1.1-h79654bf_4.tar.bz2":{
 "build":"h79654bf_4",
 "build_number":4,
@@ -70255,8 +70278,8 @@
 "timestamp":1620105748144,
 "version":"1.9.7"
 },
-"ogre-1.12.11-he298710_0.tar.bz2":{
-"build":"he298710_0",
+"ogre-1.12.12-h76c0471_0.tar.bz2":{
+"build":"h76c0471_0",
 "build_number":0,
 "depends":[
 "freeimage >=3.18.0,<3.19.0a0",
@@ -70264,7 +70287,7 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "lxml",
-"numpy >=1.16.6,<2.0a0",
+"numpy >=1.19.5,<2.0a0",
 "openexr >=2.5.5,<2.6.0a0",
 "pugixml >=1.11.4,<1.12.0a0",
 "sdl2",
@@ -70276,12 +70299,12 @@
 ],
 "license":"MIT",
 "name":"ogre",
-"sha256":"5211a329d9d97bd428c14979fddc54973d2ed587872fa6e51b54b3368e6edb78",
-"size":5666448,
-"timestamp":1613267124136,
-"version":"1.12.11"
+"sha256":"2ce9e79ce2de25c6b536d307092d5ac0a1fe9929f353feae3114070a6781b819",
+"size":5666289,
+"timestamp":1624013013485,
+"version":"1.12.12"
 },
-"ogre-1.12.11-hf13a9df_0.tar.bz2":{
+"ogre-1.12.12-hf13a9df_0.tar.bz2":{
 "build":"hf13a9df_0",
 "build_number":0,
 "depends":[
@@ -70302,10 +70325,10 @@
 ],
 "license":"MIT",
 "name":"ogre",
-"sha256":"4293468a0a7ef70fd615cd1c5e8c9ada6318eb1297497ab66bd6b5aaef73b227",
-"size":5699305,
-"timestamp":1618752058721,
-"version":"1.12.11"
+"sha256":"68905d0214733fad7a38a865f9dbcc62a14997754b99e3c5a8b3396406a6e28f",
+"size":5709577,
+"timestamp":1624012259278,
+"version":"1.12.12"
 },
 "ompl-1.5.2-h618491c_0.tar.bz2":{
 "build":"h618491c_0",
@@ -101752,24 +101775,7 @@
 "timestamp":1621616716200,
 "version":"0.3.3"
 },
-"r-raster-3.4_10-r36hecdc70b_0.tar.bz2":{
-"build":"r36hecdc70b_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"r-base >=3.6,<3.7.0a0",
-"r-rcpp",
-"r-sp >=1.2_0"
-],
-"license":"GPL-3",
-"name":"r-raster",
-"sha256":"d93286d55352047efcb6f87fae936c467da35f03b2bba9c64397235a7d5d5545",
-"size":2974093,
-"timestamp":1620029820158,
-"version":"3.4_10"
-},
-"r-raster-3.4_10-r40hecdc70b_0.tar.bz2":{
+"r-raster-3.4_13-r40hecdc70b_0.tar.bz2":{
 "build":"r40hecdc70b_0",
 "build_number":0,
 "depends":[
@@ -101779,14 +101785,14 @@
 "r-rcpp",
 "r-sp >=1.2_0"
 ],
-"license":"GPL-3",
+"license":"GPL-3.0-or-later",
 "name":"r-raster",
-"sha256":"82d120676296920d56cae1262bbe9090bcd81a85b7c0bfe8244fab13e1c2089d",
-"size":2970082,
-"timestamp":1620029847660,
-"version":"3.4_10"
+"sha256":"e5b4391542544df5394ead39f5d1bb3ca153168f79e3027330993720ccf94993",
+"size":2996277,
+"timestamp":1624011856627,
+"version":"3.4_13"
 },
-"r-raster-3.4_10-r41hecdc70b_0.tar.bz2":{
+"r-raster-3.4_13-r41hecdc70b_0.tar.bz2":{
 "build":"r41hecdc70b_0",
 "build_number":0,
 "depends":[
@@ -101796,12 +101802,12 @@
 "r-rcpp",
 "r-sp >=1.2_0"
 ],
-"license":"GPL-3",
+"license":"GPL-3.0-or-later",
 "name":"r-raster",
-"sha256":"5fefe61e3801d35df0a4a980c1aa3473be5471ed70eb431cfa5864e68afdf045",
-"size":2976391,
-"timestamp":1621637238768,
-"version":"3.4_10"
+"sha256":"3a1031d9dcdc31ead66bcc9e49e13339f5f4bd27d6a8819b95aa7d10b1f72cc4",
+"size":3016739,
+"timestamp":1624012671715,
+"version":"3.4_13"
 },
 "r-rbibutils-2.2-r40h96a179c_0.tar.bz2":{
 "build":"r40h96a179c_0",
