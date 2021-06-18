@@ -18551,7 +18551,7 @@
 "timestamp":1614932733398,
 "version":"3.16.5"
 },
-"cmd2-2.1.0-py36h704843e_0.tar.bz2":{
+"cmd2-2.1.1-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -18567,12 +18567,12 @@
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"784f7bce31aac0bfd1d965adfac691e34bd6b80bd11caba481f484d0a6ad1b23",
-"size":192785,
-"timestamp":1623730011963,
-"version":"2.1.0"
+"sha256":"9bd4a9bb2df34b451aae652950dcce1719cf962061d3e90fe06a248a95ae15fe",
+"size":192860,
+"timestamp":1623993549082,
+"version":"2.1.1"
 },
-"cmd2-2.1.0-py37hd9ded2f_0.tar.bz2":{
+"cmd2-2.1.1-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
@@ -18588,12 +18588,12 @@
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"07dbe76d3cf0ffb01ddbcd6ea753e26b000b969fd88535e460215d7422dff2e6",
-"size":193025,
-"timestamp":1623730019443,
-"version":"2.1.0"
+"sha256":"e56bf32c1ec5f2ccba7264a50e49ba3abd56ec92614a18918cb83ea93323997e",
+"size":193606,
+"timestamp":1623993216225,
+"version":"2.1.1"
 },
-"cmd2-2.1.0-py38h2063c64_0.tar.bz2":{
+"cmd2-2.1.1-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
@@ -18607,12 +18607,12 @@
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"ad46b07d84392141cd56ff6dabe4c221e03c365643488ba9d58421f72c5603c8",
-"size":193469,
-"timestamp":1623730337055,
-"version":"2.1.0"
+"sha256":"05c37dc47d56d170c0e57c1ba61280bddadef93aee9c82f946a3ed9627d65493",
+"size":193516,
+"timestamp":1623993527615,
+"version":"2.1.1"
 },
-"cmd2-2.1.0-py39ha65689a_0.tar.bz2":{
+"cmd2-2.1.1-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
@@ -18626,10 +18626,10 @@
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"66a417f782085a501e2ae5bcc26653c1bb65731c20bee9f433ef75a5ca3716e6",
-"size":193967,
-"timestamp":1623730014779,
-"version":"2.1.0"
+"sha256":"94de7ea49d0ca19a6411514c850912e8e78b1f0000e08c7eceddcc436f264b61",
+"size":194059,
+"timestamp":1623993233760,
+"version":"2.1.1"
 },
 "cmreshandler-1.0.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -89362,6 +89362,74 @@
 "size":461059,
 "timestamp":1611057836889,
 "version":"1.10.2"
+},
+"python-confluent-kafka-1.6.0-py36h269c3a8_1.tar.bz2":{
+"build":"py36h269c3a8_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"librdkafka >=1.6.0",
+"librdkafka >=1.6.0,<1.7.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"Apache-2.0",
+"name":"python-confluent-kafka",
+"sha256":"460a0b34c5aedc48fd04ff39b7363e935fe408f7946a0f424143d0304a401ec5",
+"size":129320,
+"timestamp":1623991976688,
+"version":"1.6.0"
+},
+"python-confluent-kafka-1.6.0-py37hcd4c3ab_1.tar.bz2":{
+"build":"py37hcd4c3ab_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"librdkafka >=1.6.0",
+"librdkafka >=1.6.0,<1.7.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"Apache-2.0",
+"name":"python-confluent-kafka",
+"sha256":"648311207d15407c235953e2e232aca758346cedc01f6ee9762c411ebb9ac80c",
+"size":129475,
+"timestamp":1623991977611,
+"version":"1.6.0"
+},
+"python-confluent-kafka-1.6.0-py38h9544abe_1.tar.bz2":{
+"build":"py38h9544abe_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"librdkafka >=1.6.0",
+"librdkafka >=1.6.0,<1.7.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"python-confluent-kafka",
+"sha256":"b03d14c10c8e3484bb823d764e700792383389d3dc54d594f797563e3d12b400",
+"size":130146,
+"timestamp":1623991976152,
+"version":"1.6.0"
+},
+"python-confluent-kafka-1.6.0-py39h14843e3_1.tar.bz2":{
+"build":"py39h14843e3_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"librdkafka >=1.6.0",
+"librdkafka >=1.6.0,<1.7.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"python-confluent-kafka",
+"sha256":"9c0a00ad7bd9ab6e44797ba9dca07745f2c3eb210213058e9d326e6c51b2d313",
+"size":130153,
+"timestamp":1623991978542,
+"version":"1.6.0"
 },
 "python-duckdb-0.2.6-py36h6231d90_1.tar.bz2":{
 "build":"py36h6231d90_1",
