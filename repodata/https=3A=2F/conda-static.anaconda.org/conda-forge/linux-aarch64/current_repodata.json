@@ -35303,6 +35303,26 @@
 "timestamp":1621014215674,
 "version":"2.1.3.1"
 },
+"gnuradio-soapy-2.1.3.1-py38h004a205_4.tar.bz2":{
+"build":"py38h004a205_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-soapy",
+"sha256":"5ae424262527a4d65f1af0bb2fc92e6121de4c50816be88ff77f2a972b8a2def",
+"size":235081,
+"timestamp":1623999327480,
+"version":"2.1.3.1"
+},
 "gnuradio-soapy-2.1.3.1-py39hf71dc0d_3.tar.bz2":{
 "build":"py39hf71dc0d_3",
 "build_number":3,
@@ -35321,6 +35341,26 @@
 "sha256":"40b58375e2f5c4f113bef2fa7f78d1dc897f314b1c1804517fcfbd3d65060061",
 "size":235241,
 "timestamp":1621014300183,
+"version":"2.1.3.1"
+},
+"gnuradio-soapy-2.1.3.1-py39hf71dc0d_4.tar.bz2":{
+"build":"py39hf71dc0d_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-soapy",
+"sha256":"b7fcd86b55041f918fe135505c154f82c3010b512c0f61bcc0837d71930a1d15",
+"size":235359,
+"timestamp":1623999338492,
 "version":"2.1.3.1"
 },
 "gnuradio-soapy-intree-3.9.2.0-py36hbca447c_0.tar.bz2":{
@@ -43060,55 +43100,15 @@
 "timestamp":1613175647811,
 "version":"2.5.5"
 },
-"imagecodecs-2021.4.28-py37h2d67fd2_0.tar.bz2":{
-"build":"py37h2d67fd2_0",
+"imagecodecs-2021.6.8-py37ha1630b6_0.tar.bz2":{
+"build":"py37ha1630b6_0",
 "build_number":0,
 "depends":[
 "blosc >=1.21.0,<2.0a0",
 "brotli >=1.0.9,<2.0a0",
 "brunsli >=0.1,<1.0a0",
 "bzip2 >=1.0.8,<2.0a0",
-"charls >=2.2.0,<2.3.0a0",
-"giflib >=5.2.1,<5.3.0a0",
-"jpeg >=9d,<10a",
-"jxrlib >=1.1,<1.2.0a0",
-"lcms2 >=2.12,<3.0a0",
-"lerc >=2.2.1,<3.0a0",
-"libaec >=1.0.5,<2.0a0",
-"libdeflate >=1.7,<1.8.0a0",
-"libgcc-ng >=9.3.0",
-"libpng >=1.6.37,<1.7.0a0",
-"libstdcxx-ng >=9.3.0",
-"libtiff >=4.3.0,<5.0a0",
-"libwebp-base >=1.2.0,<2.0a0",
-"libzopfli >=1.0.3,<1.1.0a0",
-"lz4-c >=1.9.3,<1.9.4.0a0",
-"numpy >=1.19.5,<2.0a0",
-"openjpeg >=2.4.0,<2.5.0a0",
-"pypy3.7 >=7.3.4",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"snappy >=1.1.8,<2.0a0",
-"xz >=5.2.5,<5.3.0a0",
-"zfp >=0.5.5,<1.0a0",
-"zlib >=1.2.11,<1.3.0a0",
-"zstd >=1.5.0,<1.6.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"imagecodecs",
-"sha256":"0690b4811b6d51019a73f98ff535895b107811b84f0197fdd9e06124aea97fd0",
-"size":6803889,
-"timestamp":1623932722396,
-"version":"2021.4.28"
-},
-"imagecodecs-2021.4.28-py37h9d9a8f0_0.tar.bz2":{
-"build":"py37h9d9a8f0_0",
-"build_number":0,
-"depends":[
-"blosc >=1.21.0,<2.0a0",
-"brotli >=1.0.9,<2.0a0",
-"brunsli >=0.1,<1.0a0",
-"bzip2 >=1.0.8,<2.0a0",
+"cfitsio >=3.470,<3.471.0a0",
 "charls >=2.2.0,<2.3.0a0",
 "giflib >=5.2.1,<5.3.0a0",
 "jpeg >=9d,<10a",
@@ -43136,19 +43136,20 @@
 ],
 "license":"BSD-3-Clause",
 "name":"imagecodecs",
-"sha256":"fd5b99b507917eaca0cd2aad861df8109ccc6f706c7c268b03b6550bed3c4244",
-"size":7105160,
-"timestamp":1623931157394,
-"version":"2021.4.28"
+"sha256":"e8a54da0e48383f6c36838afbd15af72afb0f2ce772d6d39bc1463bd7854fea6",
+"size":7260731,
+"timestamp":1623997464251,
+"version":"2021.6.8"
 },
-"imagecodecs-2021.4.28-py38h5dbe0c8_0.tar.bz2":{
-"build":"py38h5dbe0c8_0",
+"imagecodecs-2021.6.8-py38h72694af_0.tar.bz2":{
+"build":"py38h72694af_0",
 "build_number":0,
 "depends":[
 "blosc >=1.21.0,<2.0a0",
 "brotli >=1.0.9,<2.0a0",
 "brunsli >=0.1,<1.0a0",
 "bzip2 >=1.0.8,<2.0a0",
+"cfitsio >=3.470,<3.471.0a0",
 "charls >=2.2.0,<2.3.0a0",
 "giflib >=5.2.1,<5.3.0a0",
 "jpeg >=9d,<10a",
@@ -43176,19 +43177,20 @@
 ],
 "license":"BSD-3-Clause",
 "name":"imagecodecs",
-"sha256":"4a6573952dd6795066eb0f0d01f569039c53e52d7bba776ac944b3cf06e71d61",
-"size":7259050,
-"timestamp":1623932302422,
-"version":"2021.4.28"
+"sha256":"0940e30d9c7e46d5c92aa4f8dc2ac855b098f316abd4930330d1b07c10eca1e3",
+"size":7304578,
+"timestamp":1623997445724,
+"version":"2021.6.8"
 },
-"imagecodecs-2021.4.28-py39haae3e42_0.tar.bz2":{
-"build":"py39haae3e42_0",
+"imagecodecs-2021.6.8-py39h7523fbe_0.tar.bz2":{
+"build":"py39h7523fbe_0",
 "build_number":0,
 "depends":[
 "blosc >=1.21.0,<2.0a0",
 "brotli >=1.0.9,<2.0a0",
 "brunsli >=0.1,<1.0a0",
 "bzip2 >=1.0.8,<2.0a0",
+"cfitsio >=3.470,<3.471.0a0",
 "charls >=2.2.0,<2.3.0a0",
 "giflib >=5.2.1,<5.3.0a0",
 "jpeg >=9d,<10a",
@@ -43216,10 +43218,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"imagecodecs",
-"sha256":"92ab77735c1f60ebbcc79c55e038a1211ca367bfe4a1ee20d55f7faedb7c1630",
-"size":7142841,
-"timestamp":1623931122242,
-"version":"2021.4.28"
+"sha256":"bde534c72e4a9010bb7c49c32cae3a7ab3a5dee17857b548b532829175832e96",
+"size":7304137,
+"timestamp":1623997449708,
+"version":"2021.6.8"
 },
 "imagecodecs-lite-2019.12.3-py36h68bb277_1.tar.bz2":{
 "build":"py36h68bb277_1",
