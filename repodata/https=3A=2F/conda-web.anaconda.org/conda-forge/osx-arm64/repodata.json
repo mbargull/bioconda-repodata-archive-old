@@ -16715,6 +16715,22 @@
 "timestamp":1607108647397,
 "version":"1.1.3"
 },
+"c-compiler-1.2.0-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[
+"cctools >=949.0.1",
+"clang_osx-arm64 11.*",
+"ld64 >=530",
+"llvm-openmp"
+],
+"license":"BSD",
+"name":"c-compiler",
+"requires":[],
+"size":5560,
+"timestamp":1624197678377,
+"version":"1.2.0"
+},
 "ca-certificates-2020.11.8-h4653dfc_0.tar.bz2":{
 "build":"h4653dfc_0",
 "build_number":0,
@@ -22396,6 +22412,21 @@
 "timestamp":1607108686467,
 "version":"1.1.3"
 },
+"compilers-1.2.0-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"c-compiler 1.2.0 h3422bc3_0",
+"cxx-compiler 1.2.0 hc021e02_0",
+"fortran-compiler 1.2.0 h630c574_0"
+],
+"license":"BSD-3-Clause",
+"name":"compilers",
+"requires":[],
+"size":5479,
+"timestamp":1624197716023,
+"version":"1.2.0"
+},
 "conda-4.10.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -26583,6 +26614,21 @@
 "size":7980,
 "timestamp":1607108685112,
 "version":"1.1.3"
+},
+"cxx-compiler-1.2.0-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"c-compiler 1.2.0 h3422bc3_0",
+"clangxx_osx-arm64 11.*",
+"libcxx >=11.1.0"
+],
+"license":"BSD",
+"name":"cxx-compiler",
+"requires":[],
+"size":8008,
+"timestamp":1624197714442,
+"version":"1.2.0"
 },
 "cymem-2.0.5-py38h3f7e68f_1.tar.bz2":{
 "build":"py38h3f7e68f_1",
@@ -31908,6 +31954,24 @@
 "size":5542,
 "timestamp":1607108668391,
 "version":"1.1.3"
+},
+"fortran-compiler-1.2.0-h630c574_0.tar.bz2":{
+"build":"h630c574_0",
+"build_number":0,
+"depends":[
+"cctools >=949.0.1",
+"gfortran_osx-arm64 11.*",
+"ld64 >=530",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"llvm-openmp"
+],
+"license":"BSD",
+"name":"fortran-compiler",
+"requires":[],
+"size":5602,
+"timestamp":1624197696795,
+"version":"1.2.0"
 },
 "fplll-5.3.3-h5ab4698_0.tar.bz2":{
 "build":"h5ab4698_0",
