@@ -4967,6 +4967,28 @@
 "timestamp":1624282182337,
 "version":"1.9.44"
 },
+"awscrt-0.11.24-py38h9a9a3fb_3.tar.bz2":{
+"build":"py38h9a9a3fb_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"5d6e50427fe5c1dd1a5f2ca65978f240e013124aff8e16a44617c7df1a774268",
+"size":111087,
+"timestamp":1624308851866,
+"version":"0.11.24"
+},
 "awscrt-0.11.24-py38hadad5c8_2.tar.bz2":{
 "build":"py38hadad5c8_2",
 "build_number":2,
@@ -5009,6 +5031,28 @@
 "sha256":"5e94533d8b975b90cd9bdbd904df195f8e273ccb8c19c443483bca902b627f6d",
 "size":108433,
 "timestamp":1623929318842,
+"version":"0.11.24"
+},
+"awscrt-0.11.24-py39h81f8541_3.tar.bz2":{
+"build":"py39h81f8541_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"a4137f910ae05011a12dab5b4f1cb9537861a725281288e0f35880605fe60a44",
+"size":108370,
+"timestamp":1624308781680,
 "version":"0.11.24"
 },
 "backports.lzma-0.0.14-py38he94ad69_3.tar.bz2":{
@@ -27287,9 +27331,9 @@
 "timestamp":1610482976808,
 "version":"1.6.1"
 },
-"netcdf4-1.5.6-mpi_mpich_py38h84fd64c_3.tar.bz2":{
-"build":"mpi_mpich_py38h84fd64c_3",
-"build_number":3,
+"netcdf4-1.5.7-mpi_mpich_py38h84fd64c_0.tar.bz2":{
+"build":"mpi_mpich_py38h84fd64c_0",
+"build_number":0,
 "depends":[
 "cftime",
 "hdf5 * mpi_mpich_*",
@@ -27297,7 +27341,7 @@
 "libnetcdf * mpi_mpich_*",
 "libnetcdf >=4.8.0,<4.8.1.0a0 mpi_mpich_*",
 "mpi4py",
-"mpich >=3.4,<4.0.0a0",
+"mpich >=3.4,<3.5.0a0",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -27305,14 +27349,14 @@
 ],
 "license":"MIT",
 "name":"netcdf4",
-"sha256":"7946fe6c8eec77cb9c75726ba36fcf0720466bbc2ce2f1227c81874308589885",
-"size":442654,
-"timestamp":1618878717220,
-"version":"1.5.6"
+"sha256":"43ab0aae145e574714663bddcec9cf5d2e2c241d0ccc0e80cf15f88651ed73bc",
+"size":443214,
+"timestamp":1624308582834,
+"version":"1.5.7"
 },
-"netcdf4-1.5.6-mpi_mpich_py39ha93f4a9_3.tar.bz2":{
-"build":"mpi_mpich_py39ha93f4a9_3",
-"build_number":3,
+"netcdf4-1.5.7-mpi_mpich_py39ha93f4a9_0.tar.bz2":{
+"build":"mpi_mpich_py39ha93f4a9_0",
+"build_number":0,
 "depends":[
 "cftime",
 "hdf5 * mpi_mpich_*",
@@ -27320,7 +27364,7 @@
 "libnetcdf * mpi_mpich_*",
 "libnetcdf >=4.8.0,<4.8.1.0a0 mpi_mpich_*",
 "mpi4py",
-"mpich >=3.4,<4.0.0a0",
+"mpich >=3.4,<3.5.0a0",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -27328,14 +27372,14 @@
 ],
 "license":"MIT",
 "name":"netcdf4",
-"sha256":"33fa3a15a0953a615b39f194e756a37e6d9ad7b6edb1f98648c6b4b8844b92be",
-"size":436422,
-"timestamp":1618878552807,
-"version":"1.5.6"
+"sha256":"7d10eefe486bc1c47d98f33eb11329bb1dddc665a1d47d87e6082a4b12c4e16d",
+"size":436773,
+"timestamp":1624308582062,
+"version":"1.5.7"
 },
-"netcdf4-1.5.6-mpi_openmpi_py38h92d2f8d_3.tar.bz2":{
-"build":"mpi_openmpi_py38h92d2f8d_3",
-"build_number":3,
+"netcdf4-1.5.7-mpi_openmpi_py38h92d2f8d_0.tar.bz2":{
+"build":"mpi_openmpi_py38h92d2f8d_0",
+"build_number":0,
 "depends":[
 "cftime",
 "hdf5 * mpi_openmpi_*",
@@ -27352,14 +27396,14 @@
 ],
 "license":"MIT",
 "name":"netcdf4",
-"sha256":"fed45fc33aa865529e3301d6f7c6bfedc6a8520310d7aebc75d38098b24ea126",
-"size":445435,
-"timestamp":1618878490247,
-"version":"1.5.6"
+"sha256":"48e7dbfa1634d5ac664746db54aad9f7cd6262d2c6aff42092a24ac721f71675",
+"size":443246,
+"timestamp":1624308535284,
+"version":"1.5.7"
 },
-"netcdf4-1.5.6-mpi_openmpi_py39h33495fd_3.tar.bz2":{
-"build":"mpi_openmpi_py39h33495fd_3",
-"build_number":3,
+"netcdf4-1.5.7-mpi_openmpi_py39h33495fd_0.tar.bz2":{
+"build":"mpi_openmpi_py39h33495fd_0",
+"build_number":0,
 "depends":[
 "cftime",
 "hdf5 * mpi_openmpi_*",
@@ -27376,14 +27420,14 @@
 ],
 "license":"MIT",
 "name":"netcdf4",
-"sha256":"a6d613d246b15e8a9441d05bf62d411cac092029eb82a2373d10b142939dc00d",
-"size":437278,
-"timestamp":1618878638496,
-"version":"1.5.6"
+"sha256":"0ec77982789c6aaadbbbf63542b3dd43a2f38e786f07bc50fbb271c9054011a9",
+"size":436130,
+"timestamp":1624308746270,
+"version":"1.5.7"
 },
-"netcdf4-1.5.6-nompi_py38h2ab28aa_103.tar.bz2":{
-"build":"nompi_py38h2ab28aa_103",
-"build_number":103,
+"netcdf4-1.5.7-nompi_py38h2ab28aa_100.tar.bz2":{
+"build":"nompi_py38h2ab28aa_100",
+"build_number":100,
 "depends":[
 "cftime",
 "hdf5 >=1.10.6,<1.10.7.0a0",
@@ -27395,14 +27439,14 @@
 ],
 "license":"MIT",
 "name":"netcdf4",
-"sha256":"40655c3981c1811d334530ff36c318e9c484bd2c58e3b52f5332792a4b7462ea",
-"size":442105,
-"timestamp":1618878441201,
-"version":"1.5.6"
+"sha256":"f1d34cbd28cb3eaee0f5e17c22b416713fe03b057c91d207690017bc86b5e237",
+"size":439542,
+"timestamp":1624308509577,
+"version":"1.5.7"
 },
-"netcdf4-1.5.6-nompi_py39h30ff09a_103.tar.bz2":{
-"build":"nompi_py39h30ff09a_103",
-"build_number":103,
+"netcdf4-1.5.7-nompi_py39h30ff09a_100.tar.bz2":{
+"build":"nompi_py39h30ff09a_100",
+"build_number":100,
 "depends":[
 "cftime",
 "hdf5 >=1.10.6,<1.10.7.0a0",
@@ -27414,10 +27458,10 @@
 ],
 "license":"MIT",
 "name":"netcdf4",
-"sha256":"47649587d28cc752607d5dfe044233cc2d04a62270573c4eaedcc08384cb182a",
-"size":435669,
-"timestamp":1618878452646,
-"version":"1.5.6"
+"sha256":"07edd1c28e7404794acb55fc9a56372c7f1cab8f78fa22794ad6b48195e17cb3",
+"size":431827,
+"timestamp":1624308669231,
+"version":"1.5.7"
 },
 "netifaces-0.10.9-py38h30f7421_1003.tar.bz2":{
 "build":"py38h30f7421_1003",
