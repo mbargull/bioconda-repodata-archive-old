@@ -12282,6 +12282,23 @@
 "timestamp":1623359942643,
 "version":"0.2.7"
 },
+"aws-c-event-stream-0.2.7-h76da5f2_13.tar.bz2":{
+"build":"h76da5f2_13",
+"build_number":13,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"81586742adc67aee1bc083775a2b545b0bb9a69412b6e59b1e16248d9990ba15",
+"size":49985,
+"timestamp":1624281418426,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-h86f4e07_5.tar.bz2":{
 "build":"h86f4e07_5",
 "build_number":5,
@@ -13594,7 +13611,7 @@
 "timestamp":1620322766693,
 "version":"1.8.186"
 },
-"aws-sdk-cpp-1.9.39-h90855e8_0.tar.bz2":{
+"aws-sdk-cpp-1.9.44-h90855e8_0.tar.bz2":{
 "build":"h90855e8_0",
 "build_number":0,
 "depends":[
@@ -13608,10 +13625,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"e1987b7ae84c10248c53a8ac4987a8101ff8da6be53a845b44a3dc88b1a9dea3",
-"size":4508693,
-"timestamp":1624217611187,
-"version":"1.9.39"
+"sha256":"8f65fc92c0104cd2dcd661639c06c872668e666d7216752100f70913669f0b77",
+"size":4495645,
+"timestamp":1624281681855,
+"version":"1.9.44"
 },
 "awscli-1.19.97-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
@@ -59669,6 +59686,23 @@
 "size":4769245,
 "timestamp":1615295846239,
 "version":"0.14.1"
+},
+"libthrift-0.14.2-h54f692e_1.tar.bz2":{
+"build":"h54f692e_1",
+"build_number":1,
+"depends":[
+"libevent >=2.1.10,<2.1.11.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libthrift",
+"sha256":"e27711bddd5c3031b96a3e0f9c0283e3f84dd88089a1701f8d7e98741582e258",
+"size":4767415,
+"timestamp":1624280352532,
+"version":"0.14.2"
 },
 "libtiff-4.3.0-h362c9b0_0.tar.bz2":{
 "build":"h362c9b0_0",
@@ -119218,69 +119252,37 @@
 "timestamp":1614854121198,
 "version":"0.13.0"
 },
-"thrift-compiler-0.14.1-h54f692e_0.tar.bz2":{
-"build":"h54f692e_0",
-"build_number":0,
-"depends":[
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"libthrift 0.14.1 h54f692e_0",
-"openssl >=1.1.1j,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"thrift-compiler",
-"sha256":"0bd94038834ea130405b23e9886c7af1b3dec16b89842b2a22ed392ec687a60a",
-"size":32334613,
-"timestamp":1615285643322,
-"version":"0.14.1"
-},
-"thrift-compiler-0.14.1-h54f692e_1.tar.bz2":{
+"thrift-compiler-0.14.2-h54f692e_1.tar.bz2":{
 "build":"h54f692e_1",
 "build_number":1,
 "depends":[
 "libevent >=2.1.10,<2.1.11.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"libthrift 0.14.1 h54f692e_1",
-"openssl >=1.1.1j,<1.1.2a",
+"libthrift 0.14.2 h54f692e_1",
+"openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"Apache-2.0",
 "name":"thrift-compiler",
-"sha256":"f0499b076e7beeb849697be8e5e2111d7594713355dfeafe7d9d63a7807f483e",
-"size":32344676,
-"timestamp":1615295921867,
-"version":"0.14.1"
+"sha256":"8124f4a62a25bdf824bad783a5204ae25be3d9e253dcf89232548ea4c21e82d4",
+"size":32334113,
+"timestamp":1624280394616,
+"version":"0.14.2"
 },
-"thrift-cpp-0.14.1-ha3edaa6_0.tar.bz2":{
-"build":"ha3edaa6_0",
-"build_number":0,
-"depends":[
-"libthrift 0.14.1 h54f692e_0",
-"thrift-compiler 0.14.1 h54f692e_0"
-],
-"license":"Apache-2.0",
-"name":"thrift-cpp",
-"sha256":"4fbfb9717920fc72d06c592ba65baae56eb21ccc944683007f35b8dabb26c2ba",
-"size":11009,
-"timestamp":1615285686167,
-"version":"0.14.1"
-},
-"thrift-cpp-0.14.1-ha3edaa6_1.tar.bz2":{
+"thrift-cpp-0.14.2-ha3edaa6_1.tar.bz2":{
 "build":"ha3edaa6_1",
 "build_number":1,
 "depends":[
-"libthrift 0.14.1 h54f692e_1",
-"thrift-compiler 0.14.1 h54f692e_1"
+"libthrift 0.14.2 h54f692e_1",
+"thrift-compiler 0.14.2 h54f692e_1"
 ],
 "license":"Apache-2.0",
 "name":"thrift-cpp",
-"sha256":"c0bf0da6660330bf6beee611d41396668fe26d3014aed80dce83c312d39ef665",
-"size":10996,
-"timestamp":1615295958073,
-"version":"0.14.1"
+"sha256":"82c1f88834980e3ede1577b0822043264c36bf8dfbd7c74c52913fc656a4021e",
+"size":11030,
+"timestamp":1624280430562,
+"version":"0.14.2"
 },
 "thrust-1.11.0-ha3edaa6_1.tar.bz2":{
 "build":"ha3edaa6_1",

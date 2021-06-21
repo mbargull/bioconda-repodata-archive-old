@@ -11653,6 +11653,22 @@
 "timestamp":1619896365692,
 "version":"0.2.7"
 },
+"aws-c-event-stream-0.2.7-h9972306_13.tar.bz2":{
+"build":"h9972306_13",
+"build_number":13,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"b8e06a97f3926ced92c05dd57199031f9ed43fa452a7856ae75a712155e6099e",
+"size":42438,
+"timestamp":1624281710822,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-hb3efb5e_10.tar.bz2":{
 "build":"hb3efb5e_10",
 "build_number":10,
@@ -13642,6 +13658,24 @@
 "size":3875426,
 "timestamp":1624217848553,
 "version":"1.9.39"
+},
+"aws-sdk-cpp-1.9.44-hb86bbe7_0.tar.bz2":{
+"build":"hb86bbe7_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-crt-cpp >=0.14.0,<0.14.1.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"sha256":"20e1324ec61315497902f2895381a3b1d17783ec0b47b7fc1dc8e8095d308b61",
+"size":3875943,
+"timestamp":1624282182337,
+"version":"1.9.44"
 },
 "awscrt-0.11.24-py38hadad5c8_2.tar.bz2":{
 "build":"py38hadad5c8_2",
@@ -58616,6 +58650,22 @@
 "size":350609,
 "timestamp":1615295953610,
 "version":"0.14.1"
+},
+"libthrift-0.14.2-h28a9c34_1.tar.bz2":{
+"build":"h28a9c34_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libthrift",
+"sha256":"0144346116bbba9a4c7dfb1357e0d06ff9b6dffa6f4cb06fe028ce5b9611b5f3",
+"size":348682,
+"timestamp":1624280631132,
+"version":"0.14.2"
 },
 "libtiff-4.1.0-h70663a0_6.tar.bz2":{
 "build":"h70663a0_6",
@@ -108981,6 +109031,23 @@
 "timestamp":1615295993808,
 "version":"0.14.1"
 },
+"thrift-compiler-0.14.2-h28a9c34_1.tar.bz2":{
+"build":"h28a9c34_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"libthrift 0.14.2 h28a9c34_1",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"thrift-compiler",
+"sha256":"aa1f8dcf2c3445454f4ad8e4240abfe084a410987cf1a94fb90a656af0083417",
+"size":1484760,
+"timestamp":1624280684681,
+"version":"0.14.2"
+},
 "thrift-cpp-0.13.0-6.tar.bz2":{
 "build":"6",
 "build_number":6,
@@ -109036,6 +109103,20 @@
 "size":11018,
 "timestamp":1615296004838,
 "version":"0.14.1"
+},
+"thrift-cpp-0.14.2-hce30654_1.tar.bz2":{
+"build":"hce30654_1",
+"build_number":1,
+"depends":[
+"libthrift 0.14.2 h28a9c34_1",
+"thrift-compiler 0.14.2 h28a9c34_1"
+],
+"license":"Apache-2.0",
+"name":"thrift-cpp",
+"sha256":"5330d1d0685024e1bd888a6b62ebd32e84a17e74101b1ecf38b5331e58f97f9e",
+"size":11008,
+"timestamp":1624280696990,
+"version":"0.14.2"
 },
 "tiledb-2.2.3-hed66f51_0.tar.bz2":{
 "build":"hed66f51_0",
