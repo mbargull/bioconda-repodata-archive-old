@@ -116110,7 +116110,7 @@
 "timestamp":1602081281532,
 "version":"3.0.3"
 },
-"simple-dftd3-0.4.0-ha4d556f_0.tar.bz2":{
+"simple-dftd3-0.4.1-ha4d556f_0.tar.bz2":{
 "build":"ha4d556f_0",
 "build_number":0,
 "depends":[
@@ -116121,10 +116121,10 @@
 ],
 "license":"LGPL-3.0-or-later",
 "name":"simple-dftd3",
-"sha256":"641c13849f86f684eee4ff713d97861621b56b30d56b433e0cef2aa43355eb94",
-"size":486049,
-"timestamp":1622394206336,
-"version":"0.4.0"
+"sha256":"f7e3e249c895f0c85fa351ed9f0b5c60ec90cf8ba682bb1c0ff362b7779d60dc",
+"size":494706,
+"timestamp":1624303071004,
+"version":"0.4.1"
 },
 "simplejson-3.17.2-py36h269c3a8_1.tar.bz2":{
 "build":"py36h269c3a8_1",
@@ -119158,6 +119158,26 @@
 "size":169485,
 "timestamp":1602326316020,
 "version":"0.6"
+},
+"suitesparse-5.10.1-hb089569_0.tar.bz2":{
+"build":"hb089569_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+"name":"suitesparse",
+"sha256":"d53479579394d2a2e7e453d25e7535dc91a9397cef4b6aa3a6864ff24f785a48",
+"size":2435306,
+"timestamp":1624303487727,
+"version":"5.10.1"
 },
 "suitesparse-5.7.2-h269120e_0.tar.bz2":{
 "build":"h269120e_0",
