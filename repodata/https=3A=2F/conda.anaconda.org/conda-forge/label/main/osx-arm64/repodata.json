@@ -13063,6 +13063,28 @@
 "timestamp":1623411249444,
 "version":"0.14.0"
 },
+"aws-crt-cpp-0.14.0-h33f7460_5.tar.bz2":{
+"build":"h33f7460_5",
+"build_number":5,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"requires":[],
+"size":157008,
+"timestamp":1624291826657,
+"version":"0.14.0"
+},
 "aws-crt-cpp-0.14.0-h7e8c37e_4.tar.bz2":{
 "build":"h7e8c37e_4",
 "build_number":4,
@@ -107421,6 +107443,25 @@
 "size":54897,
 "timestamp":1610639301639,
 "version":"3.3.0"
+},
+"suitesparse-5.10.1-ha39a387_0.tar.bz2":{
+"build":"ha39a387_0",
+"build_number":0,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"metis >=5.1.0,<5.2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+"name":"suitesparse",
+"requires":[],
+"size":2143663,
+"timestamp":1624289986079,
+"version":"5.10.1"
 },
 "suitesparse-5.7.2-hc5ea220_0.tar.bz2":{
 "build":"hc5ea220_0",
