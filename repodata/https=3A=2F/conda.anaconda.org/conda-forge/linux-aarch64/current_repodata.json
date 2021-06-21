@@ -8585,6 +8585,23 @@
 "timestamp":1622662614117,
 "version":"0.6.0"
 },
+"aws-c-auth-0.6.0-ha4e938b_7.tar.bz2":{
+"build":"ha4e938b_7",
+"build_number":7,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"9be8964f830bb78b12b61ea390cdde3a4edcb86cdc3f87bd848dd92a5061a6fc",
+"size":110232,
+"timestamp":1624237814670,
+"version":"0.6.0"
+},
 "aws-c-auth-0.6.0-hbbc246e_5.tar.bz2":{
 "build":"hbbc246e_5",
 "build_number":5,
@@ -9797,6 +9814,22 @@
 "timestamp":1622288541108,
 "version":"0.7.6"
 },
+"aws-c-mqtt-0.7.6-he06b057_10.tar.bz2":{
+"build":"he06b057_10",
+"build_number":10,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"2e15679a372caaae4480d8972e71ee04166de97ca10998ad119718c974484e0a",
+"size":60079,
+"timestamp":1624237964875,
+"version":"0.7.6"
+},
 "aws-c-mqtt-0.7.6-hef1efdf_6.tar.bz2":{
 "build":"hef1efdf_6",
 "build_number":6,
@@ -10467,6 +10500,30 @@
 "sha256":"7897cdb8afda92290a803802c4cc5c6f444bea3bff9f18780a77cc3c131fd272",
 "size":116307,
 "timestamp":1624236732701,
+"version":"0.11.24"
+},
+"awscrt-0.11.24-py39h983af3d_2.tar.bz2":{
+"build":"py39h983af3d_2",
+"build_number":2,
+"depends":[
+"aws-c-auth >=0.6.0,<0.6.1.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.4,<0.10.5.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.19,<0.1.20.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"e3a88c261257f745464d2e39cffebf1f945c5a04aa06337216ea5d78479929ae",
+"size":116320,
+"timestamp":1624237510022,
 "version":"0.11.24"
 },
 "backports.lzma-0.0.14-py36h3b874fd_3.tar.bz2":{
