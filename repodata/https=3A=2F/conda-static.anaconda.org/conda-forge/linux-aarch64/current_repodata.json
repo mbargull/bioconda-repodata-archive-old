@@ -53936,6 +53936,29 @@
 "timestamp":1617310844176,
 "version":"4.0.0"
 },
+"libignition-common4-4.0.0-hccad563_1.tar.bz2":{
+"build":"hccad563_1",
+"build_number":1,
+"depends":[
+"ffmpeg >=4.3.1,<5.0a0",
+"freeimage >=3.18.0,<3.19.0a0",
+"gts >=0.7.6,<0.8.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-utils1 >=1.0.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"tinyxml2 >=9.0.0,<9.1.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-common4",
+"sha256":"28d0b04651beb60c3012c4a711b57f1981be5df19455479fa66c50299e530e57",
+"size":806658,
+"timestamp":1624392601736,
+"version":"4.0.0"
+},
 "libignition-fuel-tools4-4.4.0-ha92f7d5_0.tar.bz2":{
 "build":"ha92f7d5_0",
 "build_number":0,
@@ -54336,6 +54359,21 @@
 "timestamp":1619619228055,
 "version":"1.2.0"
 },
+"libignition-tools1-1.2.0-ha768e4a_1.tar.bz2":{
+"build":"ha768e4a_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"ruby"
+],
+"license":"Apache-2.0",
+"name":"libignition-tools1",
+"sha256":"44a89a3bb7b5f48e203e6327ebbd7e18b410216002231e91fb64b396e9f4efda",
+"size":8136,
+"timestamp":1624395175808,
+"version":"1.2.0"
+},
 "libignition-tools1-1.2.0-hc02fbf4_0.tar.bz2":{
 "build":"hc02fbf4_0",
 "build_number":0,
@@ -54349,6 +54387,21 @@
 "sha256":"2b87fd8b74d112421795d8adb205d2d61b2366a72fe4bfdc61e63c63013e074d",
 "size":8202,
 "timestamp":1619619445738,
+"version":"1.2.0"
+},
+"libignition-tools1-1.2.0-hc02fbf4_1.tar.bz2":{
+"build":"hc02fbf4_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"ruby"
+],
+"license":"Apache-2.0",
+"name":"libignition-tools1",
+"sha256":"719f47ac06a62fa02b92b36ea1fc78ea99e087721e693284eaa3c6ed826213df",
+"size":8145,
+"timestamp":1624395513605,
 "version":"1.2.0"
 },
 "libignition-transport10-10.0.0-h0557505_1.tar.bz2":{
@@ -121717,7 +121770,7 @@
 "timestamp":1595422671228,
 "version":"20180414"
 },
-"thinc-8.0.4-py36h2e26b47_0.tar.bz2":{
+"thinc-8.0.5-py36h2e26b47_0.tar.bz2":{
 "build":"py36h2e26b47_0",
 "build_number":0,
 "depends":[
@@ -121734,18 +121787,18 @@
 "pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
-"srsly >=2.0.0,<3.0.0",
+"srsly >=2.4.0,<3.0.0",
 "typing_extensions >=3.7.4.1,<4.0.0.0",
-"wasabi >=0.4.0,<1.1.0"
+"wasabi >=0.8.1,<1.1.0"
 ],
 "license":"MIT",
 "name":"thinc",
-"sha256":"5c636d9d608f35949e229b894b5f874bbd70fe2f9929838d328cf16783735ddc",
-"size":709198,
-"timestamp":1623651740730,
-"version":"8.0.4"
+"sha256":"810d20ad778c3e38491b51657711afea3bea6fc150f3a452ee7d725e22f57fee",
+"size":709886,
+"timestamp":1624396344149,
+"version":"8.0.5"
 },
-"thinc-8.0.4-py37h2603c11_0.tar.bz2":{
+"thinc-8.0.5-py37h2603c11_0.tar.bz2":{
 "build":"py37h2603c11_0",
 "build_number":0,
 "depends":[
@@ -121760,42 +121813,17 @@
 "pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
-"srsly >=2.0.0,<3.0.0",
-"wasabi >=0.4.0,<1.1.0"
+"srsly >=2.4.0,<3.0.0",
+"wasabi >=0.8.1,<1.1.0"
 ],
 "license":"MIT",
 "name":"thinc",
-"sha256":"845e73bafeb251201f49459622a246b903f700179a1d0836874d2de5e88ba3e1",
-"size":719985,
-"timestamp":1623651725411,
-"version":"8.0.4"
+"sha256":"7081da2734904a1b91f101e637ab78979be90f527bb7232492100b858bc8a6d3",
+"size":716462,
+"timestamp":1624395720008,
+"version":"8.0.5"
 },
-"thinc-8.0.4-py38h5bf94d8_0.tar.bz2":{
-"build":"py38h5bf94d8_0",
-"build_number":0,
-"depends":[
-"catalogue >=2.0.4,<3.0.0",
-"cymem >=2.0.2,<2.1.0",
-"cython-blis >=0.4.0,<0.8.0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"murmurhash >=0.28.0,<1.1.0",
-"numpy >=1.17.5,<2.0a0",
-"preshed >=3.0.2,<3.1.0",
-"pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"srsly >=2.0.0,<3.0.0",
-"wasabi >=0.4.0,<1.1.0"
-],
-"license":"MIT",
-"name":"thinc",
-"sha256":"5a6d30f3b3387ca46a466577262c3131ad021e66ce31c409b7c11fd612fbcc3f",
-"size":720553,
-"timestamp":1623651708349,
-"version":"8.0.4"
-},
-"thinc-8.0.4-py39h9f797f2_0.tar.bz2":{
+"thinc-8.0.5-py39h9f797f2_0.tar.bz2":{
 "build":"py39h9f797f2_0",
 "build_number":0,
 "depends":[
@@ -121810,15 +121838,15 @@
 "pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
-"srsly >=2.0.0,<3.0.0",
-"wasabi >=0.4.0,<1.1.0"
+"srsly >=2.4.0,<3.0.0",
+"wasabi >=0.8.1,<1.1.0"
 ],
 "license":"MIT",
 "name":"thinc",
-"sha256":"f7559d95d549a288c835e0093bb779c5db0c36a6574c4536f0212a5d1f180381",
-"size":724065,
-"timestamp":1623652428659,
-"version":"8.0.4"
+"sha256":"a0f689b8b5cc919830e1c814b071f6939bd0d4849f9cdcac8ee5e95bb2e73e12",
+"size":707539,
+"timestamp":1624395785704,
+"version":"8.0.5"
 },
 "thrift-0.13.0-py36h002c26f_2.tar.bz2":{
 "build":"py36h002c26f_2",

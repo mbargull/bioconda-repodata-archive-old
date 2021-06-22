@@ -11120,6 +11120,78 @@
 "timestamp":1623109147573,
 "version":"2.5.8"
 },
+"astroid-2.6.0-py36h270354c_0.tar.bz2":{
+"build":"py36h270354c_0",
+"build_number":0,
+"depends":[
+"lazy-object-proxy >=1.4.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"setuptools",
+"typed-ast >=1.4.0,<1.5",
+"typing-extensions >=3.7.4",
+"wrapt >=1.11,<1.13"
+],
+"license":"LGPL-2.1-or-later",
+"name":"astroid",
+"sha256":"ba9de392609a88f89563a9b9e850d718dd9cde9eae4abd168195157f2cd23cbc",
+"size":319820,
+"timestamp":1624393351165,
+"version":"2.6.0"
+},
+"astroid-2.6.0-py37h35e4cab_0.tar.bz2":{
+"build":"py37h35e4cab_0",
+"build_number":0,
+"depends":[
+"lazy-object-proxy >=1.4.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"setuptools",
+"typed-ast >=1.4.0,<1.5",
+"typing-extensions >=3.7.4",
+"wrapt >=1.11,<1.13"
+],
+"license":"LGPL-2.1-or-later",
+"name":"astroid",
+"sha256":"7e4f4965188b15805390fd6c0a665c26cbdb821acba21741424c0f892dc23299",
+"size":321394,
+"timestamp":1624393432688,
+"version":"2.6.0"
+},
+"astroid-2.6.0-py38hf8b3453_0.tar.bz2":{
+"build":"py38hf8b3453_0",
+"build_number":0,
+"depends":[
+"lazy-object-proxy >=1.4.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"wrapt >=1.11,<1.13"
+],
+"license":"LGPL-2.1-or-later",
+"name":"astroid",
+"sha256":"d78d463257b66179f1b4a71fcda660292c3cf7437f304810b423b142950cddce",
+"size":325104,
+"timestamp":1624393441148,
+"version":"2.6.0"
+},
+"astroid-2.6.0-py39hc1b9086_0.tar.bz2":{
+"build":"py39hc1b9086_0",
+"build_number":0,
+"depends":[
+"lazy-object-proxy >=1.4.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"wrapt >=1.11,<1.13"
+],
+"license":"LGPL-2.1-or-later",
+"name":"astroid",
+"sha256":"2c1ab271774a67e74fce8c47ec0823c44663ea05298619a37ddba2763789491b",
+"size":320213,
+"timestamp":1624393438750,
+"version":"2.6.0"
+},
 "astropy-4.2.1-py37h290ce0f_0.tar.bz2":{
 "build":"py37h290ce0f_0",
 "build_number":0,
@@ -13941,11 +14013,11 @@
 "timestamp":1624338344768,
 "version":"1.9.45"
 },
-"awscli-1.19.97-py36h270354c_0.tar.bz2":{
+"awscli-1.19.98-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.97",
+"botocore 1.20.98",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -13956,16 +14028,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"26758b0767e526358d705c908e4342e0dc32d9a9a7499649f66ef24662875b2d",
-"size":1945020,
-"timestamp":1623977486893,
-"version":"1.19.97"
+"sha256":"ef4f1204a4d9621b51dc599a99e0dd42501a2ffc2774a4479df2b576f52444fc",
+"size":1931601,
+"timestamp":1624392842679,
+"version":"1.19.98"
 },
-"awscli-1.19.97-py37h35e4cab_0.tar.bz2":{
+"awscli-1.19.98-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.97",
+"botocore 1.20.98",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -13976,16 +14048,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"bde8f32710c24dfff3a0c3aea1d1e74fe3a79998d98b18e26a4d8caee93a9ce9",
-"size":1952446,
-"timestamp":1623977482116,
-"version":"1.19.97"
+"sha256":"f6442014c35404721718bf86c06beedd1d4db2ae628aebe7c36dc09d32b4b69e",
+"size":1946155,
+"timestamp":1624392922681,
+"version":"1.19.98"
 },
-"awscli-1.19.97-py37hadc05a3_0.tar.bz2":{
+"awscli-1.19.98-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.97",
+"botocore 1.20.98",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.7 >=7.3.4",
@@ -13997,16 +14069,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"5de27771326b928a8005197c35c7e47b0a32aad16bce90b6bfdb4651a980bfe6",
-"size":1954322,
-"timestamp":1623977256899,
-"version":"1.19.97"
+"sha256":"143066f4ccff822da3ff9cdee8b948edec87ad13038833970fc90363d79f3af1",
+"size":1940796,
+"timestamp":1624392947574,
+"version":"1.19.98"
 },
-"awscli-1.19.97-py38hf8b3453_0.tar.bz2":{
+"awscli-1.19.98-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.97",
+"botocore 1.20.98",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -14017,16 +14089,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"031bc3a06f5aaaa7ddf0946a04f59fb764e2b8a5d981cb89a15b78f836b39c3d",
-"size":1941857,
-"timestamp":1623977396464,
-"version":"1.19.97"
+"sha256":"8fa8f144b480a2539278f6c266785b52d38975e28ddff9822cba5e94975dc014",
+"size":1946635,
+"timestamp":1624392802762,
+"version":"1.19.98"
 },
-"awscli-1.19.97-py39hc1b9086_0.tar.bz2":{
+"awscli-1.19.98-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.97",
+"botocore 1.20.98",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.9,<3.10.0a0",
@@ -14037,10 +14109,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"6d6ca425bce3435062985f8f85fdb85385a67d445cc9cebf2742de37507b6b9e",
-"size":1941727,
-"timestamp":1623977406497,
-"version":"1.19.97"
+"sha256":"0b915d9d0b5ed08de84863da8f7ffeab2a1fb058d8a8a38ea28fd00451b07a58",
+"size":1947050,
+"timestamp":1624392941192,
+"version":"1.19.98"
 },
 "awscrt-0.11.24-py36h56514ff_3.tar.bz2":{
 "build":"py36h56514ff_3",
@@ -77263,14 +77335,14 @@
 "timestamp":1603778402168,
 "version":"2.20"
 },
-"pandas-1.2.4-py37h0eb6cc8_0.tar.bz2":{
+"pandas-1.2.5-py37h0eb6cc8_0.tar.bz2":{
 "build":"py37h0eb6cc8_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.4",
 "python >=3.7,<3.8.0a0",
 "python-dateutil >=2.7.3",
 "python_abi 3.7 *_pypy37_pp73",
@@ -77278,12 +77350,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"fe0974a45c2c6e30013025f0632b3848f600b6e49a78212a81dc9dddd1db627f",
-"size":10913932,
-"timestamp":1618272081149,
-"version":"1.2.4"
+"sha256":"0ddaf3b718c54fb4c0e6ee89e6758364c0a1433f7f71ad604d09bcdcd06056ff",
+"size":10913883,
+"timestamp":1624396618529,
+"version":"1.2.5"
 },
-"pandas-1.2.4-py37hc8de3aa_0.tar.bz2":{
+"pandas-1.2.5-py37hc8de3aa_0.tar.bz2":{
 "build":"py37hc8de3aa_0",
 "build_number":0,
 "depends":[
@@ -77297,12 +77369,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"ccd4bd3b613bfea97eaff2089fe6b12108d68247d04fa20d6bf6de72d43c8c0d",
-"size":11882911,
-"timestamp":1618267682195,
-"version":"1.2.4"
+"sha256":"ad2a432e05789e39b718a0f067975a9a108318c4cf76221327db09503d6be3c3",
+"size":11905624,
+"timestamp":1624394901942,
+"version":"1.2.5"
 },
-"pandas-1.2.4-py38h92aa891_0.tar.bz2":{
+"pandas-1.2.5-py38h92aa891_0.tar.bz2":{
 "build":"py38h92aa891_0",
 "build_number":0,
 "depends":[
@@ -77316,12 +77388,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"10cc54d8f220107101e4438845e04cc56e931900dd7c7494596128ae23169b22",
-"size":12013940,
-"timestamp":1618266906511,
-"version":"1.2.4"
+"sha256":"d469b4afe3a34c38b00bda74a0adcffb3a4c9f9ef5d98085d2481fd5ba2000b3",
+"size":11994000,
+"timestamp":1624393995818,
+"version":"1.2.5"
 },
-"pandas-1.2.4-py39h6474468_0.tar.bz2":{
+"pandas-1.2.5-py39h6474468_0.tar.bz2":{
 "build":"py39h6474468_0",
 "build_number":0,
 "depends":[
@@ -77335,10 +77407,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"e09af1f0e3cda1b886a0ebeca58123f24abccfc01cb10572f272e56fe19f7e39",
-"size":12017084,
-"timestamp":1618266792272,
-"version":"1.2.4"
+"sha256":"35b5b74c6bce21b5eddd32478f26d4e548f92a87ab3da921c63399b2709b5f68",
+"size":12027314,
+"timestamp":1624394661453,
+"version":"1.2.5"
 },
 "pango-1.42.4-h23c9a49_1.tar.bz2":{
 "build":"h23c9a49_1",
