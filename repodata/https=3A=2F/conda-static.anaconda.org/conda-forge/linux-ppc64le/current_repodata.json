@@ -27557,6 +27557,24 @@
 "timestamp":1614181414686,
 "version":"0.1.9"
 },
+"e-antic-1.0.0-h1fdd4b6_0.tar.bz2":{
+"build":"h1fdd4b6_0",
+"build_number":0,
+"depends":[
+"antic >=0.2.4,<0.3.0a0",
+"arb >=2.19.0,<2.20.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libflint >=2.7.1,<2.8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"e-antic",
+"sha256":"fca53cec9e0775058b1a2124bd3f0cbd79ede185a4e221fc441998f766668af1",
+"size":191665,
+"timestamp":1624363381165,
+"version":"1.0.0"
+},
 "ecl-20.4.24-hb80c935_0.tar.bz2":{
 "build":"hb80c935_0",
 "build_number":0,
@@ -87344,6 +87362,86 @@
 "timestamp":1613571265811,
 "version":"1.4.2"
 },
+"pyeantic-1.0.0-py36h1cf5b63_0.tar.bz2":{
+"build":"py36h1cf5b63_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"cppyy",
+"cppyythonizations",
+"e-antic >=1.0.0,<2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"LGPL-3.0-or-later",
+"name":"pyeantic",
+"sha256":"b79e66ebc1fe2f701b472c2f79057980fc2bfbcc2dbc0459bb16fa419152e188",
+"size":34516,
+"timestamp":1624363491811,
+"version":"1.0.0"
+},
+"pyeantic-1.0.0-py37ha804a42_0.tar.bz2":{
+"build":"py37ha804a42_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"cppyy",
+"cppyythonizations",
+"e-antic >=1.0.0,<2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"LGPL-3.0-or-later",
+"name":"pyeantic",
+"sha256":"1c3fb719980f22f370db5f44eff5e48cfcb835666da5cc12ba20212fb5baef64",
+"size":34489,
+"timestamp":1624363741891,
+"version":"1.0.0"
+},
+"pyeantic-1.0.0-py38h135a497_0.tar.bz2":{
+"build":"py38h135a497_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"cppyy",
+"cppyythonizations",
+"e-antic >=1.0.0,<2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"pyeantic",
+"sha256":"0e7934e5e42fce08c3a0a57ec37c7167174323e74a5fb2803c315c76b9611acf",
+"size":34488,
+"timestamp":1624363664304,
+"version":"1.0.0"
+},
+"pyeantic-1.0.0-py39h5f3ad59_0.tar.bz2":{
+"build":"py39h5f3ad59_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"cppyy",
+"cppyythonizations",
+"e-antic >=1.0.0,<2.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"pyeantic",
+"sha256":"bf7b37a14d2afd15be59db435fc85647a66d661ac31e9a9ba880243d8b3cd6a9",
+"size":34486,
+"timestamp":1624363581176,
+"version":"1.0.0"
+},
 "pyerfa-2.0.0-py37h290ce0f_0.tar.bz2":{
 "build":"py37h290ce0f_0",
 "build_number":0,
@@ -120074,7 +120172,7 @@
 "timestamp":1569511793524,
 "version":"20180414"
 },
-"thinc-8.0.4-py36h416786f_0.tar.bz2":{
+"thinc-8.0.5-py36h416786f_0.tar.bz2":{
 "build":"py36h416786f_0",
 "build_number":0,
 "depends":[
@@ -120091,18 +120189,18 @@
 "pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
-"srsly >=2.0.0,<3.0.0",
+"srsly >=2.4.0,<3.0.0",
 "typing_extensions >=3.7.4.1,<4.0.0.0",
-"wasabi >=0.4.0,<1.1.0"
+"wasabi >=0.8.1,<1.1.0"
 ],
 "license":"MIT",
 "name":"thinc",
-"sha256":"bf3326a8cfae0c52ed8177cd87bdf7c03494e60d0091881896d2a2765f0471da",
-"size":734808,
-"timestamp":1623653263458,
-"version":"8.0.4"
+"sha256":"38d2abcc5bdf9bbbb32baa08a5e92904e52aaf184be39f21742423a0502e6808",
+"size":732000,
+"timestamp":1624362805684,
+"version":"8.0.5"
 },
-"thinc-8.0.4-py37heb9fb97_0.tar.bz2":{
+"thinc-8.0.5-py37heb9fb97_0.tar.bz2":{
 "build":"py37heb9fb97_0",
 "build_number":0,
 "depends":[
@@ -120117,17 +120215,17 @@
 "pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
-"srsly >=2.0.0,<3.0.0",
-"wasabi >=0.4.0,<1.1.0"
+"srsly >=2.4.0,<3.0.0",
+"wasabi >=0.8.1,<1.1.0"
 ],
 "license":"MIT",
 "name":"thinc",
-"sha256":"1717272e893dd5f7e2722daaf7caaeac3173d32c396cf0a889be4f7fdb818c5d",
-"size":728860,
-"timestamp":1623653340045,
-"version":"8.0.4"
+"sha256":"b13e9a6e1cf5925a0d0c92c6d9c61e3c2ee7e125beac6a8583e5d83e37216ff4",
+"size":723938,
+"timestamp":1624363053664,
+"version":"8.0.5"
 },
-"thinc-8.0.4-py38h188d082_0.tar.bz2":{
+"thinc-8.0.5-py38h188d082_0.tar.bz2":{
 "build":"py38h188d082_0",
 "build_number":0,
 "depends":[
@@ -120142,17 +120240,17 @@
 "pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
-"srsly >=2.0.0,<3.0.0",
-"wasabi >=0.4.0,<1.1.0"
+"srsly >=2.4.0,<3.0.0",
+"wasabi >=0.8.1,<1.1.0"
 ],
 "license":"MIT",
 "name":"thinc",
-"sha256":"e7b819ac3c4f8b3945096bc0193734c78d1d37ecf6a03ae7b5501f7289509229",
-"size":740952,
-"timestamp":1623653344052,
-"version":"8.0.4"
+"sha256":"f3a3a0c8057a01e8a40a7b26b17cd17495a6bc3d3f22b70499f936bc8c4f3dfd",
+"size":728966,
+"timestamp":1624363097873,
+"version":"8.0.5"
 },
-"thinc-8.0.4-py39h31502c1_0.tar.bz2":{
+"thinc-8.0.5-py39h31502c1_0.tar.bz2":{
 "build":"py39h31502c1_0",
 "build_number":0,
 "depends":[
@@ -120167,15 +120265,15 @@
 "pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
-"srsly >=2.0.0,<3.0.0",
-"wasabi >=0.4.0,<1.1.0"
+"srsly >=2.4.0,<3.0.0",
+"wasabi >=0.8.1,<1.1.0"
 ],
 "license":"MIT",
 "name":"thinc",
-"sha256":"8b4b3d588b06a28ba41d632babaeb822d49348e5f66998be33d9bd61b64f76f3",
-"size":732212,
-"timestamp":1623653151716,
-"version":"8.0.4"
+"sha256":"7201201a34b96ab13058286eb4ac3dc0fe9f97c99959b493e75c4526c46e2340",
+"size":730080,
+"timestamp":1624362990794,
+"version":"8.0.5"
 },
 "thrift-0.13.0-py36h08d3667_2.tar.bz2":{
 "build":"py36h08d3667_2",
