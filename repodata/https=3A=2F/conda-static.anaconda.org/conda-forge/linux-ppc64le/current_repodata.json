@@ -39577,7 +39577,7 @@
 "timestamp":1624317564688,
 "version":"1.38.1"
 },
-"grpcio-1.38.0-py36h90eae84_0.tar.bz2":{
+"grpcio-1.38.1-py36h90eae84_0.tar.bz2":{
 "build":"py36h90eae84_0",
 "build_number":0,
 "depends":[
@@ -39593,12 +39593,12 @@
 ],
 "license":"Apache-2.0",
 "name":"grpcio",
-"sha256":"f6eabe472f758b98e9259ed402a1adc8e9c24a8c63a1038db5f92966b0130076",
-"size":2770140,
-"timestamp":1621567257658,
-"version":"1.38.0"
+"sha256":"13cb7f83e46e6f4c39eaf453e46ca71a60c0ff672ed729969828bc14b90fa7c9",
+"size":2742760,
+"timestamp":1624383111236,
+"version":"1.38.1"
 },
-"grpcio-1.38.0-py37hd4870b4_0.tar.bz2":{
+"grpcio-1.38.1-py37hd4870b4_0.tar.bz2":{
 "build":"py37hd4870b4_0",
 "build_number":0,
 "depends":[
@@ -39614,12 +39614,12 @@
 ],
 "license":"Apache-2.0",
 "name":"grpcio",
-"sha256":"f125a7e6eee2f125e0ac90cfd85418d209d8f0c45e03912f32ecd059e7842c1f",
-"size":2747361,
-"timestamp":1621569442845,
-"version":"1.38.0"
+"sha256":"20a4244ad9110226e1d952fd3d1ee5a4ca04122ce28772a6bf14a878d72806bd",
+"size":2760021,
+"timestamp":1624383148837,
+"version":"1.38.1"
 },
-"grpcio-1.38.0-py38h486b007_0.tar.bz2":{
+"grpcio-1.38.1-py38h486b007_0.tar.bz2":{
 "build":"py38h486b007_0",
 "build_number":0,
 "depends":[
@@ -39635,12 +39635,12 @@
 ],
 "license":"Apache-2.0",
 "name":"grpcio",
-"sha256":"791e9c09c889d6dc748431cbf3d3c82a62e37553a1efb09b5ab958c1b7f4819a",
-"size":2767253,
-"timestamp":1621567928976,
-"version":"1.38.0"
+"sha256":"876850d835d76647efea98d354434f467a209f69a4af3ab2a4ee493ab63482a7",
+"size":2750887,
+"timestamp":1624381473565,
+"version":"1.38.1"
 },
-"grpcio-1.38.0-py39hff9cdcc_0.tar.bz2":{
+"grpcio-1.38.1-py39hff9cdcc_0.tar.bz2":{
 "build":"py39hff9cdcc_0",
 "build_number":0,
 "depends":[
@@ -39656,10 +39656,10 @@
 ],
 "license":"Apache-2.0",
 "name":"grpcio",
-"sha256":"eeeba57284bac174239ad65ad481cd4260c4152a73e5020c92d336bfba4375b7",
-"size":2763385,
-"timestamp":1621566417124,
-"version":"1.38.0"
+"sha256":"0f7f25056ae5c6020b634eec0a4e33d915b6aaa9cf3db1c4ccf84869d18e379c",
+"size":2776945,
+"timestamp":1624381475694,
+"version":"1.38.1"
 },
 "gsd-2.4.2-py36h719e50f_0.tar.bz2":{
 "build":"py36h719e50f_0",
@@ -59659,24 +59659,23 @@
 "timestamp":1624301859100,
 "version":"1.6.1"
 },
-"librmm-0.19.0-hb9101e2_2.tar.bz2":{
-"build":"hb9101e2_2",
-"build_number":2,
+"librmm-21.06.00-hb9101e2_0.tar.bz2":{
+"build":"hb9101e2_0",
+"build_number":0,
 "depends":[
 "__glibc >=2.17",
 "cudatoolkit 10.2|10.2.*",
 "libgcc-ng >=8.4.0",
 "libstdcxx-ng >=8.4.0",
-"spdlog 1.7.0.*",
-"thrust >=1.9.0",
-"spdlog =1.7.0"
+"spdlog >=1.8.5,<2.0a0",
+"thrust >=1.9.0"
 ],
 "license":"Apache-2.0",
 "name":"librmm",
-"sha256":"226d1d37286eed60752c33988e37b2019e281694d4aa11d8706cdedb93497735",
-"size":56246,
-"timestamp":1623367488022,
-"version":"0.19.0"
+"sha256":"31b44d86f22d32fe8a5da07d61aec81853b3e315b9c6b0f5014e2e1051627f3b",
+"size":57953,
+"timestamp":1624383235500,
+"version":"21.06.00"
 },
 "librsvg-2.50.7-h16045e1_0.tar.bz2":{
 "build":"h16045e1_0",
@@ -117828,35 +117827,7 @@
 "timestamp":1588764999992,
 "version":"1.8.5"
 },
-"spdlog-1.7.0-h1bb5118_1.tar.bz2":{
-"build":"h1bb5118_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0"
-],
-"license":"MIT",
-"name":"spdlog",
-"sha256":"28c628c3aebf5cc20270d09e2f2f34ea9d370d75ec522e9dd1ae72ea28f0a867",
-"size":426445,
-"timestamp":1596123908784,
-"version":"1.7.0"
-},
-"spdlog-1.7.0-h1bb5118_2.tar.bz2":{
-"build":"h1bb5118_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0"
-],
-"license":"MIT",
-"name":"spdlog",
-"sha256":"e5c36842974a7df5af937dca08c128dc37639d4cab1311b0c245d08418514f79",
-"size":426906,
-"timestamp":1596554672312,
-"version":"1.7.0"
-},
-"spdlog-1.8.3-h2acdbc0_0.tar.bz2":{
+"spdlog-1.8.5-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
 "build_number":0,
 "depends":[
@@ -117865,10 +117836,10 @@
 ],
 "license":"MIT",
 "name":"spdlog",
-"sha256":"c469027af292eaab8b9615eef68d6fa294298662f40d1f288e6d9be43e39d286",
-"size":359940,
-"timestamp":1616676906739,
-"version":"1.8.3"
+"sha256":"2e2701d81eb55c7ba588fe0955d99299b62fcdd769f28656934ef290f62ef372",
+"size":358695,
+"timestamp":1624376647133,
+"version":"1.8.5"
 },
 "spyder-kernels-2.0.4-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
