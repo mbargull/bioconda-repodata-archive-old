@@ -16648,17 +16648,17 @@
 "timestamp":1623144976471,
 "version":"3.0.0"
 },
-"healpy-1.14.0-py38h11e2e24_2.tar.bz2":{
-"build":"py38h11e2e24_2",
-"build_number":2,
+"healpy-1.15.0-py38haad3533_0.tar.bz2":{
+"build":"py38haad3533_0",
+"build_number":0,
 "depends":[
 "astropy",
 "cfitsio >=3.470,<3.471.0a0",
-"libcxx >=11.0.0",
+"libcxx >=11.1.0",
 "libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0",
+"libgfortran5 >=11.0.1.dev0",
 "matplotlib-base",
-"numpy >=1.19.4,<2.0a0",
+"numpy >=1.19.5,<2.0a0",
 "pytest-runner",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -16667,22 +16667,46 @@
 ],
 "license":"GPL-2.0-only",
 "name":"healpy",
-"sha256":"b6485b99508f60dcd2456248697f82e255da517e938011db94a751b307aee63c",
-"size":3435643,
-"timestamp":1605126518944,
-"version":"1.14.0"
+"sha256":"0edb6db616f861efbf5fa992ea7c263a5a8a5ec2b1591477b5616f4c3709cf87",
+"size":3623334,
+"timestamp":1624366823978,
+"version":"1.15.0"
 },
-"healpy-1.14.0-py39h5b7d2b3_2.tar.bz2":{
-"build":"py39h5b7d2b3_2",
+"healpy-1.15.0-py38haad3533_2.tar.bz2":{
+"build":"py38haad3533_2",
 "build_number":2,
 "depends":[
 "astropy",
 "cfitsio >=3.470,<3.471.0a0",
-"libcxx >=11.0.0",
+"libcxx >=11.1.0",
 "libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0",
+"libgfortran5 >=11.0.1.dev0",
 "matplotlib-base",
-"numpy >=1.19.4,<2.0a0",
+"numpy >=1.19.5,<2.0a0",
+"pytest-runner",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy",
+"six"
+],
+"license":"GPL-2.0-only",
+"name":"healpy",
+"sha256":"dccead1ef9fe4f8970f672bf6d55039eaf4319cf0e61a6834f3ff4d97669377f",
+"size":3669955,
+"timestamp":1624365276418,
+"version":"1.15.0"
+},
+"healpy-1.15.0-py39hf0d0837_0.tar.bz2":{
+"build":"py39hf0d0837_0",
+"build_number":0,
+"depends":[
+"astropy",
+"cfitsio >=3.470,<3.471.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"matplotlib-base",
+"numpy >=1.19.5,<2.0a0",
 "pytest-runner",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -16691,10 +16715,34 @@
 ],
 "license":"GPL-2.0-only",
 "name":"healpy",
-"sha256":"838829dfbc2c8c2b3ef677fa5c553233cfe29f4680afd5f1bf817661d718cb76",
-"size":3443793,
-"timestamp":1605126471680,
-"version":"1.14.0"
+"sha256":"5b6ef328638ae395c76b30c2b2d2f35e1477a35b3c79ba75af45d9d0d935321c",
+"size":3660080,
+"timestamp":1624366736431,
+"version":"1.15.0"
+},
+"healpy-1.15.0-py39hf0d0837_2.tar.bz2":{
+"build":"py39hf0d0837_2",
+"build_number":2,
+"depends":[
+"astropy",
+"cfitsio >=3.470,<3.471.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"matplotlib-base",
+"numpy >=1.19.5,<2.0a0",
+"pytest-runner",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy",
+"six"
+],
+"license":"GPL-2.0-only",
+"name":"healpy",
+"sha256":"c30d936eb589158fd98a9501ce4f39fda3b10099b88f5b82dc9c5322a624c775",
+"size":3656834,
+"timestamp":1624365259780,
+"version":"1.15.0"
 },
 "hicolor-icon-theme-0.17-hce30654_2.tar.bz2":{
 "build":"hce30654_2",
