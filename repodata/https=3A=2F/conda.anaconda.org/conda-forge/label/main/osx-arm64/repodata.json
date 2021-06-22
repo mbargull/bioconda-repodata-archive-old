@@ -29712,6 +29712,23 @@
 "timestamp":1616253332120,
 "version":"0.1.9"
 },
+"e-antic-1.0.0-h188e36f_0.tar.bz2":{
+"build":"h188e36f_0",
+"build_number":0,
+"depends":[
+"antic >=0.2.4,<0.3.0a0",
+"arb >=2.19.0,<2.20.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"e-antic",
+"requires":[],
+"size":174260,
+"timestamp":1624363655951,
+"version":"1.0.0"
+},
 "eccodes-2.22.0-h995f8fa_0.tar.bz2":{
 "build":"h995f8fa_0",
 "build_number":0,
@@ -87612,6 +87629,44 @@
 "timestamp":1617210934451,
 "version":"1.4.2"
 },
+"pyeantic-1.0.0-py38hfef543c_0.tar.bz2":{
+"build":"py38hfef543c_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"cppyy",
+"cppyythonizations",
+"e-antic >=1.0.0,<2.0a0",
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"pyeantic",
+"requires":[],
+"size":34463,
+"timestamp":1624363912182,
+"version":"1.0.0"
+},
+"pyeantic-1.0.0-py39hcff4f58_0.tar.bz2":{
+"build":"py39hcff4f58_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"cppyy",
+"cppyythonizations",
+"e-antic >=1.0.0,<2.0a0",
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"pyeantic",
+"requires":[],
+"size":34383,
+"timestamp":1624363794279,
+"version":"1.0.0"
+},
 "pyerfa-1.7.1.1-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
 "build_number":0,
@@ -110286,6 +110341,54 @@
 "size":616742,
 "timestamp":1623651735022,
 "version":"8.0.4"
+},
+"thinc-8.0.5-py38h1e2c3d9_0.tar.bz2":{
+"build":"py38h1e2c3d9_0",
+"build_number":0,
+"depends":[
+"catalogue >=2.0.4,<3.0.0",
+"cymem >=2.0.2,<2.1.0",
+"cython-blis >=0.4.0,<0.8.0",
+"libcxx >=11.1.0",
+"murmurhash >=0.28.0,<1.1.0",
+"numpy >=1.19.5,<2.0a0",
+"preshed >=3.0.2,<3.1.0",
+"pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"srsly >=2.4.0,<3.0.0",
+"wasabi >=0.8.1,<1.1.0"
+],
+"license":"MIT",
+"name":"thinc",
+"requires":[],
+"size":649834,
+"timestamp":1624362681320,
+"version":"8.0.5"
+},
+"thinc-8.0.5-py39h776e71f_0.tar.bz2":{
+"build":"py39h776e71f_0",
+"build_number":0,
+"depends":[
+"catalogue >=2.0.4,<3.0.0",
+"cymem >=2.0.2,<2.1.0",
+"cython-blis >=0.4.0,<0.8.0",
+"libcxx >=11.1.0",
+"murmurhash >=0.28.0,<1.1.0",
+"numpy >=1.19.5,<2.0a0",
+"preshed >=3.0.2,<3.1.0",
+"pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"srsly >=2.4.0,<3.0.0",
+"wasabi >=0.8.1,<1.1.0"
+],
+"license":"MIT",
+"name":"thinc",
+"requires":[],
+"size":631039,
+"timestamp":1624362946062,
+"version":"8.0.5"
 },
 "thrift-0.13.0-py38h3f7e68f_2.tar.bz2":{
 "build":"py38h3f7e68f_2",
