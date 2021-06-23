@@ -9013,35 +9013,22 @@
 "timestamp":1622864259440,
 "version":"0.6.0"
 },
-"aws-c-cal-0.5.10-h76602a3_1.tar.bz2":{
-"build":"h76602a3_1",
-"build_number":1,
-"depends":[
-"aws-c-common >=0.6.2,<0.6.3.0a0",
-"libgcc-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"aws-c-cal",
-"sha256":"cd8a309f9dafd73ee4fada7da6424ebd1573b1afc1b6f32c844a7c2ba4b7a87d",
-"size":34471,
-"timestamp":1623336124281,
-"version":"0.5.10"
-},
-"aws-c-cal-0.5.10-haa9bbd6_0.tar.bz2":{
-"build":"haa9bbd6_0",
+"aws-c-auth-0.6.1-ha4e938b_0.tar.bz2":{
+"build":"ha4e938b_0",
 "build_number":0,
 "depends":[
-"aws-c-common >=0.5.11,<0.5.12.0a0",
-"libgcc-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a"
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"libgcc-ng >=9.3.0"
 ],
 "license":"Apache-2.0",
-"name":"aws-c-cal",
-"sha256":"dd35e3a7a1ce82d1e2ea863666d3e616ccb0cdcea811d85aed2e2185848f032a",
-"size":34424,
-"timestamp":1622768268279,
-"version":"0.5.10"
+"name":"aws-c-auth",
+"sha256":"54e889ec464d4e28178ede259b1b22afb21349c2880f65e807104b8dbee9bd61",
+"size":110287,
+"timestamp":1624485551901,
+"version":"0.6.1"
 },
 "aws-c-cal-0.5.11-h76602a3_0.tar.bz2":{
 "build":"h76602a3_0",
@@ -9057,21 +9044,6 @@
 "size":34197,
 "timestamp":1623801096683,
 "version":"0.5.11"
-},
-"aws-c-cal-0.5.9-haa9bbd6_0.tar.bz2":{
-"build":"haa9bbd6_0",
-"build_number":0,
-"depends":[
-"aws-c-common >=0.5.11,<0.5.12.0a0",
-"libgcc-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"aws-c-cal",
-"sha256":"62617140239029d4ce4a722b64c27403acfeb6527589a6bc1d1dba37f271d037",
-"size":34366,
-"timestamp":1622242156949,
-"version":"0.5.9"
 },
 "aws-c-common-0.4.66-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",
@@ -29590,6 +29562,26 @@
 "sha256":"2295f2fca59a80b716e714492c18f74066b32dccc50d9f7a8bccd52dd0f4c738",
 "size":2128821,
 "timestamp":1624482559126,
+"version":"2.6.1"
+},
+"freud-2.6.1-py39hd739f8d_0.tar.bz2":{
+"build":"py39hd739f8d_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"rowan >=1.2",
+"scipy >=1.1",
+"tbb >=2021.2.0"
+],
+"license":"BSD-3-Clause",
+"name":"freud",
+"sha256":"f44c163759d4f49e8c87d532352ea1fc3548bbda178a40fd78e604c56b09e911",
+"size":2132269,
+"timestamp":1624484651831,
 "version":"2.6.1"
 },
 "fribidi-1.0.10-h516909a_0.tar.bz2":{
