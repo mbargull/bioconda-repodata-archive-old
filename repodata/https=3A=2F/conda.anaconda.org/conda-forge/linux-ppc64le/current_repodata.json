@@ -5902,7 +5902,7 @@
 "timestamp":1614388903020,
 "version":"2.2.0"
 },
-"anyio-3.2.0-py36h270354c_0.tar.bz2":{
+"anyio-3.2.1-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "constrains":[
@@ -5919,12 +5919,12 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"6f78de364a33b18124fedf4d38351569f86d3b9210a5d6c7a0bdc9fbbf2b338b",
-"size":141552,
-"timestamp":1624038109449,
-"version":"3.2.0"
+"sha256":"a6faa19063f7ec930e82d9a361de8918f77edd3edf7f28b32c6e6aa329a2868a",
+"size":141524,
+"timestamp":1624539586620,
+"version":"3.2.1"
 },
-"anyio-3.2.0-py37h35e4cab_0.tar.bz2":{
+"anyio-3.2.1-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "constrains":[
@@ -5939,12 +5939,12 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"f5fdbc81284d897b5f2b9b9f1bb2423ee7b85d06d14715f13d2b285ed067678f",
-"size":141719,
-"timestamp":1624038344468,
-"version":"3.2.0"
+"sha256":"586b4706499eed59aa62c30c8e882013c28ccae250b0e323ac4c0af6df470e09",
+"size":141616,
+"timestamp":1624539650902,
+"version":"3.2.1"
 },
-"anyio-3.2.0-py38hf8b3453_0.tar.bz2":{
+"anyio-3.2.1-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "constrains":[
@@ -5958,12 +5958,12 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"8e65b5b4fe28931ee92932e840805d97e502185710f6744a581562d3b3af98ff",
-"size":142408,
-"timestamp":1624038325805,
-"version":"3.2.0"
+"sha256":"7f2874873d5b7e000806c5e1512805d9a0b3e63945d0f809b3922c4b5b4217ac",
+"size":142407,
+"timestamp":1624539657958,
+"version":"3.2.1"
 },
-"anyio-3.2.0-py39hc1b9086_0.tar.bz2":{
+"anyio-3.2.1-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "constrains":[
@@ -5977,10 +5977,10 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"75d5f383a3fa44593268b6b0fe281fa4d9cddff2fc9a57fa1e0cf56d665f5a3c",
-"size":143049,
-"timestamp":1624038101658,
-"version":"3.2.0"
+"sha256":"8e5e08e6c91d82832071789ac84bdd4e58363d3483c37e5372d50b713e41cb77",
+"size":143116,
+"timestamp":1624539685024,
+"version":"3.2.1"
 },
 "anyjson-0.3.3-py36h270354c_1003.tar.bz2":{
 "build":"py36h270354c_1003",
@@ -13048,6 +13048,22 @@
 "size":131069,
 "timestamp":1623878723129,
 "version":"0.10.4"
+},
+"aws-c-io-0.10.5-h5ec7465_1.tar.bz2":{
+"build":"h5ec7465_1",
+"build_number":1,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"9096963a4a22850ba531fcc74fcaf760d647f11469911abbafebfa1230924839",
+"size":130242,
+"timestamp":1624540565603,
+"version":"0.10.5"
 },
 "aws-c-io-0.10.5-hf6a6c7c_0.tar.bz2":{
 "build":"hf6a6c7c_0",

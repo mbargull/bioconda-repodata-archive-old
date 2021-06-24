@@ -2590,6 +2590,44 @@
 "timestamp":1624038273319,
 "version":"3.2.0"
 },
+"anyio-3.2.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"constrains":[
+"trio >=0.16"
+],
+"depends":[
+"idna >=2.8",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"sniffio >=1.1"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"dae3f3bff3b5b9c2320568790c3ae50d8530e1401c5592eb760b36f3a0ab1647",
+"size":142866,
+"timestamp":1624539800541,
+"version":"3.2.1"
+},
+"anyio-3.2.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"constrains":[
+"trio >=0.16"
+],
+"depends":[
+"idna >=2.8",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sniffio >=1.1"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"80299a255b0c9a46eb17ee0fb815695839b534e2ef1d8e130b88b989b920bddd",
+"size":143425,
+"timestamp":1624539658350,
+"version":"3.2.1"
+},
 "apache-beam-2.29.0-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
 "build_number":0,
@@ -12342,6 +12380,20 @@
 "size":112523,
 "timestamp":1623878724575,
 "version":"0.10.4"
+},
+"aws-c-io-0.10.5-h05d4f59_1.tar.bz2":{
+"build":"h05d4f59_1",
+"build_number":1,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.3,<0.6.4.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"004724eb33c17ca7c29bdaca96cc974def305a32fc416945d154f00a90334e38",
+"size":112505,
+"timestamp":1624540727951,
+"version":"0.10.5"
 },
 "aws-c-io-0.10.5-hea86ef8_0.tar.bz2":{
 "build":"hea86ef8_0",
