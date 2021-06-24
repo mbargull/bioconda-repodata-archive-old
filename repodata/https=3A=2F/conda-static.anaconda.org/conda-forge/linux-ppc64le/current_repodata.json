@@ -12511,6 +12511,20 @@
 "timestamp":1623341634550,
 "version":"0.2.12"
 },
+"aws-c-compression-0.2.13-h54d31b2_1.tar.bz2":{
+"build":"h54d31b2_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-compression",
+"sha256":"5ff21b86f7ed60e9f0fa9734964c55be01af4a1f1adfa0658c414c82bfeed9ba",
+"size":18673,
+"timestamp":1624528970239,
+"version":"0.2.13"
+},
 "aws-c-compression-0.2.13-hfe76d68_0.tar.bz2":{
 "build":"hfe76d68_0",
 "build_number":0,
@@ -13805,6 +13819,29 @@
 "timestamp":1623336632192,
 "version":"0.1.11"
 },
+"aws-crt-cpp-0.14.2-h06c780e_1.tar.bz2":{
+"build":"h06c780e_1",
+"build_number":1,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"sha256":"54c2b4252af627fa6924cbe5d3491e9ba730d7c1369978dc9574c0408da68c4a",
+"size":192788,
+"timestamp":1624529725212,
+"version":"0.14.2"
+},
 "aws-crt-cpp-0.14.2-hbc9e34e_0.tar.bz2":{
 "build":"hbc9e34e_0",
 "build_number":0,
@@ -14020,6 +14057,30 @@
 "timestamp":1624491140214,
 "version":"1.19.99"
 },
+"awscrt-0.11.24-py36h3fdb522_5.tar.bz2":{
+"build":"py36h3fdb522_5",
+"build_number":5,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"5756bd0efb6fe6fb1f7dfb2a40d1b97ad3210f89032e144b533912f4d77a75c1",
+"size":117012,
+"timestamp":1624531162564,
+"version":"0.11.24"
+},
 "awscrt-0.11.24-py36h56514ff_3.tar.bz2":{
 "build":"py36h56514ff_3",
 "build_number":3,
@@ -14090,6 +14151,31 @@
 "sha256":"b75712e5ec4ed58f5832fee76d73450020b0e551b9a64db7de2d2298c7d6dfb3",
 "size":116963,
 "timestamp":1624444521658,
+"version":"0.11.24"
+},
+"awscrt-0.11.24-py37h663dcec_5.tar.bz2":{
+"build":"py37h663dcec_5",
+"build_number":5,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"libgcc-ng >=9.3.0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"2edb7bca157b4ebc1dc50673aba634f9238d8e67d815e58e4df31d231e72110d",
+"size":116916,
+"timestamp":1624531191753,
 "version":"0.11.24"
 },
 "awscrt-0.11.24-py37h874ed78_3.tar.bz2":{
@@ -14163,6 +14249,30 @@
 "sha256":"9bc203983710f3db8c5a33e47ee1f315304198aa6d96f24bf69a4a159a62542a",
 "size":116945,
 "timestamp":1624444339952,
+"version":"0.11.24"
+},
+"awscrt-0.11.24-py37hb2431e8_5.tar.bz2":{
+"build":"py37hb2431e8_5",
+"build_number":5,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"7f0048b8b9e59b930bc601448b04cd790a9db5ea04c6838dfea98a8de58dcfda",
+"size":116955,
+"timestamp":1624531113530,
 "version":"0.11.24"
 },
 "awscrt-0.11.24-py37he9449cb_4.tar.bz2":{
@@ -14263,6 +14373,30 @@
 "timestamp":1624444403303,
 "version":"0.11.24"
 },
+"awscrt-0.11.24-py38h2ee172b_5.tar.bz2":{
+"build":"py38h2ee172b_5",
+"build_number":5,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"06f5421d261e90c95b52ef28b407fa152a5a707b721e28e0172d042e64c8bd12",
+"size":117322,
+"timestamp":1624531165442,
+"version":"0.11.24"
+},
 "awscrt-0.11.24-py38hb8cb54d_3.tar.bz2":{
 "build":"py38hb8cb54d_3",
 "build_number":3,
@@ -14309,6 +14443,30 @@
 "sha256":"6c2a2128e9b8cf4e89a1a5ccef5ed3a808d54ff2291f99290b504d718dc5985b",
 "size":117285,
 "timestamp":1624227319277,
+"version":"0.11.24"
+},
+"awscrt-0.11.24-py39h68841d5_5.tar.bz2":{
+"build":"py39h68841d5_5",
+"build_number":5,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"c2b5dc39c402e453f93c55cfb665fc377075fc8b94934eb892d2771f5d7ebddc",
+"size":117255,
+"timestamp":1624531008030,
 "version":"0.11.24"
 },
 "awscrt-0.11.24-py39h94389ae_2.tar.bz2":{
@@ -56874,6 +57032,28 @@
 "timestamp":1623401765823,
 "version":"3.13.2"
 },
+"libignition-common3-3.13.2-h85fa399_1.tar.bz2":{
+"build":"h85fa399_1",
+"build_number":1,
+"depends":[
+"ffmpeg >=4.3.1,<5.0a0",
+"freeimage >=3.18.0,<3.19.0a0",
+"gts >=0.7.6,<0.8.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"tinyxml2 >=9.0.0,<10.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-common3",
+"sha256":"eddfb8627845a116af9fee4a6882419706c36f47879f5d71c72dad8a8e317b2f",
+"size":820850,
+"timestamp":1624532066501,
+"version":"3.13.2"
+},
 "libignition-common4-4.0.0-h154c2bb_0.tar.bz2":{
 "build":"h154c2bb_0",
 "build_number":0,
@@ -56918,6 +57098,29 @@
 "sha256":"41c83628783fd996c9213037acb7b2f57ecc64e2955c1d0fc8dd640bec7a9139",
 "size":830101,
 "timestamp":1624343265092,
+"version":"4.0.0"
+},
+"libignition-common4-4.0.0-h85fa399_2.tar.bz2":{
+"build":"h85fa399_2",
+"build_number":2,
+"depends":[
+"ffmpeg >=4.3.1,<5.0a0",
+"freeimage >=3.18.0,<3.19.0a0",
+"gts >=0.7.6,<0.8.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-utils1 >=1.0.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"tinyxml2 >=9.0.0,<10.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-common4",
+"sha256":"08515d017fb73f546d638e04a5ddd796af459cc5bbbdc1789ade35a2b325cf93",
+"size":825162,
+"timestamp":1624532093896,
 "version":"4.0.0"
 },
 "libignition-fuel-tools4-4.4.0-h18195ce_0.tar.bz2":{
@@ -60875,6 +61078,25 @@
 "timestamp":1611545177144,
 "version":"9.3.0"
 },
+"libsdformat-9.3.0-h40147f9_4.tar.bz2":{
+"build":"h40147f9_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"console_bridge >=1.0.1,<1.1.0a0",
+"libgcc-ng >=9.3.0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libstdcxx-ng >=9.3.0",
+"tinyxml",
+"urdfdom >=2.3.5,<2.4.0a0"
+],
+"license":"Apache-2.0",
+"name":"libsdformat",
+"sha256":"1eabc71c3ff815a222dec22fcb290d15471113c8d6bc22407855b8c70aaf652b",
+"size":700071,
+"timestamp":1624532492881,
+"version":"9.3.0"
+},
 "libsdformat-9.3.0-h7d5fd54_2.tar.bz2":{
 "build":"h7d5fd54_2",
 "build_number":2,
@@ -60911,6 +61133,25 @@
 "sha256":"7b2e1137d395398f5863490abf6f99d400e1d679efbcf21e7932795d1edbb484",
 "size":698469,
 "timestamp":1614337619075,
+"version":"9.3.0"
+},
+"libsdformat-9.3.0-h7d5fd54_4.tar.bz2":{
+"build":"h7d5fd54_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"console_bridge >=1.0.1,<1.1.0a0",
+"libgcc-ng >=9.3.0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libstdcxx-ng >=9.3.0",
+"tinyxml",
+"urdfdom >=2.3.5,<2.4.0a0"
+],
+"license":"Apache-2.0",
+"name":"libsdformat",
+"sha256":"f925356f3303bc55f82ad2809b9b4f0a328404fd7ccc66972ff565bcbb976edf",
+"size":698333,
+"timestamp":1624532499157,
 "version":"9.3.0"
 },
 "libsdformat10-10.3.0-h40147f9_0.tar.bz2":{
@@ -60989,6 +61230,27 @@
 "timestamp":1617293378656,
 "version":"10.3.0"
 },
+"libsdformat11-11.2.0-h3313463_1.tar.bz2":{
+"build":"h3313463_1",
+"build_number":1,
+"depends":[
+"console_bridge >=1.0.1,<1.1.0a0",
+"libgcc-ng >=9.3.0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-tools1 >=1.2.0,<2.0a0",
+"libignition-utils1 >=1.0.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"tinyxml2 >=9.0.0,<10.0a0",
+"urdfdom >=2.3.5,<2.4.0a0"
+],
+"license":"Apache-2.0",
+"name":"libsdformat11",
+"sha256":"21bad4abce1669bfa54fbfd52c0f3427d4d441686b415d683b29eff0f0a92720",
+"size":863012,
+"timestamp":1624532465953,
+"version":"11.2.0"
+},
 "libsdformat11-11.2.0-h619c64f_0.tar.bz2":{
 "build":"h619c64f_0",
 "build_number":0,
@@ -61008,6 +61270,27 @@
 "sha256":"f1876bd730842344ea429fb81b29eb3c99ec3bf9d96d7ade21a32de5e345459c",
 "size":874559,
 "timestamp":1624498261237,
+"version":"11.2.0"
+},
+"libsdformat11-11.2.0-hbbbb2a8_1.tar.bz2":{
+"build":"hbbbb2a8_1",
+"build_number":1,
+"depends":[
+"console_bridge >=1.0.1,<1.1.0a0",
+"libgcc-ng >=9.3.0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-tools1 >=1.2.0,<2.0a0",
+"libignition-utils1 >=1.0.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"tinyxml2 >=9.0.0,<10.0a0",
+"urdfdom >=2.3.5,<2.4.0a0"
+],
+"license":"Apache-2.0",
+"name":"libsdformat11",
+"sha256":"88d08550a592f39eff45b870b1d396c2b8dbba0df219f73354720281116454ae",
+"size":873978,
+"timestamp":1624532570552,
 "version":"11.2.0"
 },
 "libsdformat11-11.2.0-hd2106e3_0.tar.bz2":{
@@ -99217,21 +99500,7 @@
 "timestamp":1621622850561,
 "version":"2.1.2"
 },
-"r-colorspace-2.0_1-r36h2be38b1_0.tar.bz2":{
-"build":"r36h2be38b1_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"r-colorspace",
-"sha256":"d0160b3d3ec69aa75e32904477d90863cb9c4eb794417f2c30117c53f311727a",
-"size":2617633,
-"timestamp":1620117031102,
-"version":"2.0_1"
-},
-"r-colorspace-2.0_1-r40h2be38b1_0.tar.bz2":{
+"r-colorspace-2.0_2-r40h2be38b1_0.tar.bz2":{
 "build":"r40h2be38b1_0",
 "build_number":0,
 "depends":[
@@ -99240,12 +99509,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"r-colorspace",
-"sha256":"16cd95b6a710950a076ad370186e42d5f4370f916a2fc86aed3a8fecfac59255",
-"size":2699424,
-"timestamp":1620117012453,
-"version":"2.0_1"
+"sha256":"294f5d924e4eccc4b7a289537cf2812698ad7f0918e2ed4b8f16371381f21b8c",
+"size":2670451,
+"timestamp":1624530717211,
+"version":"2.0_2"
 },
-"r-colorspace-2.0_1-r41h2be38b1_0.tar.bz2":{
+"r-colorspace-2.0_2-r41h2be38b1_0.tar.bz2":{
 "build":"r41h2be38b1_0",
 "build_number":0,
 "depends":[
@@ -99254,10 +99523,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"r-colorspace",
-"sha256":"eda5c3ce48d7c400a8b5b633fbfec039bd01d3611f13a96e72fd18485a436c93",
-"size":2648267,
-"timestamp":1621612197826,
-"version":"2.0_1"
+"sha256":"13b0e526bb07502850da93613f84e69d4be02116f5dd2060fb8dcac09f2496ef",
+"size":2690374,
+"timestamp":1624530567996,
+"version":"2.0_2"
 },
 "r-commonmark-1.7-r36h2be38b1_1002.tar.bz2":{
 "build":"r36h2be38b1_1002",
