@@ -14070,6 +14070,24 @@
 "timestamp":1624338579181,
 "version":"1.9.45"
 },
+"aws-sdk-cpp-1.9.46-hb86bbe7_0.tar.bz2":{
+"build":"hb86bbe7_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-crt-cpp >=0.14.2,<0.14.3.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"sha256":"d2074bfa87f8ddd68169c8a46b678ec94c031cde33d4c8354763b48d6450b254",
+"size":3903997,
+"timestamp":1624509351215,
+"version":"1.9.46"
+},
 "awscrt-0.11.24-py38h9a9a3fb_3.tar.bz2":{
 "build":"py38h9a9a3fb_3",
 "build_number":3,
@@ -45283,7 +45301,7 @@
 "libblas >=3.9.0,<4.0a0",
 "libcxx >=11.1.0",
 "liblapack >=3.9.0,<4.0a0",
-"mpich >=3.4,<3.5.0a0"
+"mpich >=3.4,<4.0.0a0"
 ],
 "license":"Apache-2.0",
 "name":"hypre",
@@ -69805,7 +69823,7 @@
 "libnetcdf * mpi_mpich_*",
 "libnetcdf >=4.8.0,<4.8.1.0a0 mpi_mpich_*",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -69828,7 +69846,7 @@
 "libnetcdf * mpi_mpich_*",
 "libnetcdf >=4.8.0,<4.8.1.0a0 mpi_mpich_*",
 "mpi4py",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "numpy >=1.19.5,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -93158,6 +93176,7 @@
 "sha256":"c9c8f4af99027b03e426933b2c9998ae8b6fe0770d08fc96df1b97a625aedd6d",
 "size":4000,
 "timestamp":1597435047360,
+"track_features":"pypy",
 "version":"3.6"
 },
 "python_abi-3.6-2_cp36m.tar.bz2":{
@@ -93224,6 +93243,7 @@
 "sha256":"449a08f5b728be0f319d0778ce0bff944f1aea954c7d59b0836a4c71adbb4ed0",
 "size":4012,
 "timestamp":1606688293389,
+"track_features":"pypy",
 "version":"3.7"
 },
 "python_abi-3.7-2_cp37m.tar.bz2":{

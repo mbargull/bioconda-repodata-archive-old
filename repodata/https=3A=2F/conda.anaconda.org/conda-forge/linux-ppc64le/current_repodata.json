@@ -46837,7 +46837,7 @@
 "libgcc-ng >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0"
+"mpich >=3.4,<4.0.0a0"
 ],
 "license":"Apache-2.0",
 "name":"hypre",
@@ -94890,6 +94890,7 @@
 "sha256":"a9599879cc213773c5a532d81987059aa82de2d092fc777bf582a60d87ca7112",
 "size":3804,
 "timestamp":1583344986404,
+"track_features":"pypy",
 "version":"3.6"
 },
 "python_abi-3.6-2_cp36m.tar.bz2":{
@@ -94973,6 +94974,7 @@
 "sha256":"04deb392b6a2bd02c20bced424d7cab78a1f6ae9ba251d4f6cd76bb87b5b62d6",
 "size":4050,
 "timestamp":1606688306506,
+"track_features":"pypy",
 "version":"3.7"
 },
 "python_abi-3.7-2_cp37m.tar.bz2":{
@@ -102271,31 +102273,7 @@
 "timestamp":1622003202525,
 "version":"3.2.1"
 },
-"r-lme4-1.1_27-r36h6203a36_0.tar.bz2":{
-"build":"r36h6203a36_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"r-base >=3.6,<3.7.0a0",
-"r-boot",
-"r-lattice",
-"r-mass",
-"r-minqa >=1.1.15",
-"r-nlme >=3.1_123",
-"r-nloptr >=1.0.4",
-"r-rcpp >=0.10.5",
-"r-rcppeigen",
-"r-statmod"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-lme4",
-"sha256":"9ef526aa15dff044b498c3e13daf5123c5b05e92a4904e7aa35fc0084f384a60",
-"size":4545015,
-"timestamp":1621203702815,
-"version":"1.1_27"
-},
-"r-lme4-1.1_27-r40h6203a36_0.tar.bz2":{
+"r-lme4-1.1_27.1-r40h6203a36_0.tar.bz2":{
 "build":"r40h6203a36_0",
 "build_number":0,
 "depends":[
@@ -102314,12 +102292,12 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-lme4",
-"sha256":"2f0bb91b70b05c13c532aacbcfd8eec75ce9073d3d686f882fab68817ec60021",
-"size":4634108,
-"timestamp":1621203460548,
-"version":"1.1_27"
+"sha256":"92868cd30d5893a0355c2a0231d16241ef051ce450caba02d86805d8c86bce0f",
+"size":4650752,
+"timestamp":1624510288729,
+"version":"1.1_27.1"
 },
-"r-lme4-1.1_27-r41h6203a36_0.tar.bz2":{
+"r-lme4-1.1_27.1-r41h6203a36_0.tar.bz2":{
 "build":"r41h6203a36_0",
 "build_number":0,
 "depends":[
@@ -102338,10 +102316,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-lme4",
-"sha256":"60e2166510a605f38ced54b9ed339c09eb589e5251e24ad85c067ac9f08e9a33",
-"size":4647165,
-"timestamp":1621938658026,
-"version":"1.1_27"
+"sha256":"9cec7f9de0069bfc01f96497433bfe6b2c2910574480b2ef8e4cbfc7fe0f0a1b",
+"size":4631766,
+"timestamp":1624509527056,
+"version":"1.1_27.1"
 },
 "r-lmtest-0.9_38-r36h2c7be84_0.tar.bz2":{
 "build":"r36h2c7be84_0",
