@@ -12441,6 +12441,19 @@
 "timestamp":1623316711813,
 "version":"0.6.2"
 },
+"aws-c-common-0.6.3-h4e0d66e_0.tar.bz2":{
+"build":"h4e0d66e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"f697d945385774c52bf4cf3590afbd23023567817ab31eb133f3578cf0d4827e",
+"size":178904,
+"timestamp":1624507272382,
+"version":"0.6.3"
+},
 "aws-c-compression-0.2.11-hf332d29_0.tar.bz2":{
 "build":"hf332d29_0",
 "build_number":0,
@@ -13759,144 +13772,6 @@
 "timestamp":1623336632192,
 "version":"0.1.11"
 },
-"aws-crt-cpp-0.14.0-h479e2fd_2.tar.bz2":{
-"build":"h479e2fd_2",
-"build_number":2,
-"depends":[
-"aws-c-auth >=0.6.0,<0.6.1.0a0",
-"aws-c-cal >=0.5.10,<0.5.11.0a0",
-"aws-c-common >=0.6.2,<0.6.3.0a0",
-"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
-"aws-c-http >=0.6.4,<0.6.5.0a0",
-"aws-c-io >=0.10.3,<0.10.4.0a0",
-"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
-"aws-c-s3 >=0.1.19,<0.1.20.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-crt-cpp",
-"sha256":"58d02ee7e0c0b750b1db32fc67e721c492fd35fd6125f4ac103811e57fcd5d8d",
-"size":192767,
-"timestamp":1623828657408,
-"version":"0.14.0"
-},
-"aws-crt-cpp-0.14.0-h48d3dc5_4.tar.bz2":{
-"build":"h48d3dc5_4",
-"build_number":4,
-"depends":[
-"aws-c-auth >=0.6.0,<0.6.1.0a0",
-"aws-c-cal >=0.5.11,<0.5.12.0a0",
-"aws-c-common >=0.6.2,<0.6.3.0a0",
-"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
-"aws-c-http >=0.6.4,<0.6.5.0a0",
-"aws-c-io >=0.10.4,<0.10.5.0a0",
-"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
-"aws-c-s3 >=0.1.19,<0.1.20.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-crt-cpp",
-"sha256":"0cbd7120f0ccbf0238cddec1d08c681c4fefdba6ff57766a2f3e8fe2066d71c8",
-"size":192759,
-"timestamp":1623969071239,
-"version":"0.14.0"
-},
-"aws-crt-cpp-0.14.0-h7c40999_5.tar.bz2":{
-"build":"h7c40999_5",
-"build_number":5,
-"depends":[
-"aws-c-auth >=0.6.0,<0.6.1.0a0",
-"aws-c-cal >=0.5.11,<0.5.12.0a0",
-"aws-c-common >=0.6.2,<0.6.3.0a0",
-"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
-"aws-c-http >=0.6.4,<0.6.5.0a0",
-"aws-c-io >=0.10.5,<0.10.6.0a0",
-"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
-"aws-c-s3 >=0.1.19,<0.1.20.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-crt-cpp",
-"sha256":"4e6ba279c71c7db494a257d098ff07c6f36b488c85f997a78f516552f44e8ab7",
-"size":192612,
-"timestamp":1624291098273,
-"version":"0.14.0"
-},
-"aws-crt-cpp-0.14.0-hd45fda6_0.tar.bz2":{
-"build":"hd45fda6_0",
-"build_number":0,
-"depends":[
-"aws-c-auth >=0.6.0,<0.6.1.0a0",
-"aws-c-cal >=0.5.8,<0.5.9.0a0",
-"aws-c-common >=0.5.11,<0.5.12.0a0",
-"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
-"aws-c-http >=0.6.4,<0.6.5.0a0",
-"aws-c-io >=0.9.14,<0.9.15.0a0",
-"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
-"aws-c-s3 >=0.1.19,<0.1.20.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-crt-cpp",
-"sha256":"e82f60b9782d5a1875d325732d11051d189fd17ce5cc7d82c07c1ba54c430dc4",
-"size":192549,
-"timestamp":1623411261496,
-"version":"0.14.0"
-},
-"aws-crt-cpp-0.14.0-hd6fe4ac_1.tar.bz2":{
-"build":"hd6fe4ac_1",
-"build_number":1,
-"depends":[
-"aws-c-auth >=0.6.0,<0.6.1.0a0",
-"aws-c-cal >=0.5.10,<0.5.11.0a0",
-"aws-c-common >=0.6.2,<0.6.3.0a0",
-"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
-"aws-c-http >=0.6.4,<0.6.5.0a0",
-"aws-c-io >=0.10.2,<0.10.3.0a0",
-"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
-"aws-c-s3 >=0.1.19,<0.1.20.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-crt-cpp",
-"sha256":"fc03a93a2bce8005310dd72ccde8dbdf151734a4e7a6e9d6cd22a307a117f04a",
-"size":192712,
-"timestamp":1623436247171,
-"version":"0.14.0"
-},
-"aws-crt-cpp-0.14.0-he1cb059_3.tar.bz2":{
-"build":"he1cb059_3",
-"build_number":3,
-"depends":[
-"aws-c-auth >=0.6.0,<0.6.1.0a0",
-"aws-c-cal >=0.5.10,<0.5.11.0a0",
-"aws-c-common >=0.6.2,<0.6.3.0a0",
-"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
-"aws-c-http >=0.6.4,<0.6.5.0a0",
-"aws-c-io >=0.10.4,<0.10.5.0a0",
-"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
-"aws-c-s3 >=0.1.19,<0.1.20.0a0",
-"aws-checksums >=0.1.11,<0.1.12.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"aws-crt-cpp",
-"sha256":"a5ef42a079268c159d9fa5e52ac02f52f2e2905088483fddf1f3b28ff45f0f2d",
-"size":192732,
-"timestamp":1623963508528,
-"version":"0.14.0"
-},
 "aws-crt-cpp-0.14.2-hbc9e34e_0.tar.bz2":{
 "build":"hbc9e34e_0",
 "build_number":0,
@@ -13992,13 +13867,13 @@
 "timestamp":1620322766693,
 "version":"1.8.186"
 },
-"aws-sdk-cpp-1.9.45-h90855e8_0.tar.bz2":{
+"aws-sdk-cpp-1.9.46-h90855e8_0.tar.bz2":{
 "build":"h90855e8_0",
 "build_number":0,
 "depends":[
 "aws-c-common >=0.6.2,<0.6.3.0a0",
 "aws-c-event-stream >=0.2.7,<0.2.8.0a0",
-"aws-crt-cpp >=0.14.0,<0.14.1.0a0",
+"aws-crt-cpp >=0.14.2,<0.14.3.0a0",
 "libcurl >=7.77.0,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -14006,10 +13881,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"871cfb72cd4690757119d57c2386004877c56b3630604d6f4956c43fba540aa2",
-"size":4487960,
-"timestamp":1624338344768,
-"version":"1.9.45"
+"sha256":"224f65b16cb897de4defb92846f28c6b27361264a2ced91e2a2f2ba3ec9e12d6",
+"size":4502537,
+"timestamp":1624508990227,
+"version":"1.9.46"
 },
 "awscli-1.19.99-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
@@ -121365,6 +121240,20 @@
 "sha256":"a4e0059dfc5e94298373099f843e2ac30c76f145d91cd5630417e16ad6e62918",
 "size":131759,
 "timestamp":1623030884159,
+"version":"9.0.0"
+},
+"tinyxml2-9.0.0-h3b9df90_1.tar.bz2":{
+"build":"h3b9df90_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Zlib",
+"name":"tinyxml2",
+"sha256":"a51a7271ac3d99e9cb79482e87b39c2135a0aafce650e933308fd72461a84f15",
+"size":131777,
+"timestamp":1624506709676,
 "version":"9.0.0"
 },
 "tk-8.6.10-h151fe60_0.tar.bz2":{
