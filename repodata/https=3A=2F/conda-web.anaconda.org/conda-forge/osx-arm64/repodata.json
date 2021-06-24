@@ -98237,6 +98237,40 @@
 "timestamp":1622909494671,
 "version":"0.9.3"
 },
+"r-tiledb-0.9.4-r40h666519e_0.tar.bz2":{
+"build":"r40h666519e_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-arrow",
+"r-base >=4.0,<4.1.0a0",
+"r-nanotime",
+"tiledb >=2.3,<3.0a0"
+],
+"license":"MIT",
+"name":"r-tiledb",
+"requires":[],
+"size":3279808,
+"timestamp":1624497701123,
+"version":"0.9.4"
+},
+"r-tiledb-0.9.4-r41h666519e_0.tar.bz2":{
+"build":"r41h666519e_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-arrow",
+"r-base >=4.1,<4.2.0a0",
+"r-nanotime",
+"tiledb >=2.3,<3.0a0"
+],
+"license":"MIT",
+"name":"r-tiledb",
+"requires":[],
+"size":3317305,
+"timestamp":1624497693744,
+"version":"0.9.4"
+},
 "r-utf8-1.2.1-r40h6f62c66_0.tar.bz2":{
 "build":"r40h6f62c66_0",
 "build_number":0,
@@ -115125,6 +115159,19 @@
 "timestamp":1618691099346,
 "version":"1.4.1"
 },
+"vector-classes-1.4.2-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"vector-classes",
+"requires":[],
+"size":222857,
+"timestamp":1624496862519,
+"version":"1.4.2"
+},
 "virtualenv-20.2.2-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -115959,6 +116006,20 @@
 "timestamp":1620422277959,
 "version":"2.4.1"
 },
+"volk-2.5.0-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"gstreamer-orc >=0.4.32,<0.5.0a0",
+"libcxx >=11.1.0"
+],
+"license":"GPL-3.0-or-later AND Apache-2.0",
+"name":"volk",
+"requires":[],
+"size":444562,
+"timestamp":1624498290126,
+"version":"2.5.0"
+},
 "volk-dev-2.4.1-hce30654_3.tar.bz2":{
 "build":"hce30654_3",
 "build_number":3,
@@ -115972,6 +116033,20 @@
 "size":21852,
 "timestamp":1620422322419,
 "version":"2.4.1"
+},
+"volk-dev-2.5.0-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"volk 2.5.0 hbdafb3b_0",
+"volk-modtool 2.5.0 py_0"
+],
+"license":"GPL-3.0-or-later AND Apache-2.0",
+"name":"volk-dev",
+"requires":[],
+"size":21881,
+"timestamp":1624498327244,
+"version":"2.5.0"
 },
 "vtk-9.0.1-no_osmesa_py38h19cc9ed_107.tar.bz2":{
 "build":"no_osmesa_py38h19cc9ed_107",
