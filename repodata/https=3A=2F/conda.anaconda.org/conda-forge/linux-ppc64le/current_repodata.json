@@ -19779,6 +19779,32 @@
 "timestamp":1613185428457,
 "version":"2.5.1"
 },
+"cantera-2.5.1-py38h6ba48e3_2.tar.bz2":{
+"build":"py38h6ba48e3_2",
+"build_number":2,
+"depends":[
+"fmt >=8.0.0,<9.0a0",
+"h5py",
+"libblas >=3.8.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"ruamel_yaml",
+"setuptools",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"cantera",
+"sha256":"5cd44bcb4b8992f7eb9280e97a9f0180c5fd186d824e1e9f855c892ae42b2808",
+"size":2074110,
+"timestamp":1624566760461,
+"version":"2.5.1"
+},
 "cantera-2.5.1-py39ha00f991_0.tar.bz2":{
 "build":"py39ha00f991_0",
 "build_number":0,
@@ -19829,6 +19855,32 @@
 "sha256":"3d6c38c6878017f6082fdc5cf2f0b6ce0d28727f97a246b9b0880d8cf455d5aa",
 "size":1991056,
 "timestamp":1617985540676,
+"version":"2.5.1"
+},
+"cantera-2.5.1-py39hfafa322_2.tar.bz2":{
+"build":"py39hfafa322_2",
+"build_number":2,
+"depends":[
+"fmt >=8.0.0,<9.0a0",
+"h5py",
+"libblas >=3.8.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"ruamel_yaml",
+"setuptools",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"cantera",
+"sha256":"90b6c7759f28a3ff56f14dcf7d39ce166ebaa9ca4bc3be07d6282ab464ca5519",
+"size":1947044,
+"timestamp":1624567358043,
 "version":"2.5.1"
 },
 "catalogue-2.0.4-py36h270354c_0.tar.bz2":{
@@ -24821,6 +24873,25 @@
 "size":921163693,
 "timestamp":1617211191003,
 "version":"11.2.2"
+},
+"cudnn-8.0.5.39-h69e801d_2.tar.bz2":{
+"build":"h69e801d_2",
+"build_number":2,
+"constrains":[
+"__glibc >=2.17"
+],
+"depends":[
+"__glibc >=2.17,<3.0.a0",
+"cudatoolkit 10.2.*",
+"libgcc-ng >=3.0",
+"libstdcxx-ng >=3.4"
+],
+"license":"LicenseRef-cuDNN-Software-License-Agreement",
+"name":"cudnn",
+"sha256":"b3b735f6e8f85cae2e595baa871da6dfe6326ab993d1f84d2b51c730c8ccd8f3",
+"size":342830327,
+"timestamp":1624564453024,
+"version":"8.0.5.39"
 },
 "cunit-2.1.3-h3b9df90_1001.tar.bz2":{
 "build":"h3b9df90_1001",
@@ -36549,6 +36620,20 @@
 "size":1299762,
 "timestamp":1616881031801,
 "version":"4.65"
+},
+"glpk-5.0-h9cba81a_0.tar.bz2":{
+"build":"h9cba81a_0",
+"build_number":0,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"GPL-3.0-or-later",
+"name":"glpk",
+"sha256":"31c3c00efa0ac563150d0e8df7f9f34ee299f4c8cc11a4b576359a942a0cacf2",
+"size":1343460,
+"timestamp":1624569539562,
+"version":"5.0"
 },
 "gmock-1.10.0-1.tar.bz2":{
 "build":"1",
@@ -54971,6 +55056,24 @@
 "timestamp":1617980432575,
 "version":"2.5.1"
 },
+"libcantera-2.5.1-h6ba48e3_2.tar.bz2":{
+"build":"h6ba48e3_2",
+"build_number":2,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera",
+"sha256":"ca6c3d9c1e6c7700ed9ca5689527413767cb9821f70c5daf726e68d4fd1b7577",
+"size":1726128,
+"timestamp":1624566465011,
+"version":"2.5.1"
+},
 "libcantera-2.5.1-ha00f991_0.tar.bz2":{
 "build":"ha00f991_0",
 "build_number":0,
@@ -55023,6 +55126,24 @@
 "sha256":"87b55d5dca3325d4536156bb313420e317e15b469ea025bb3003de836df37e46",
 "size":1879372,
 "timestamp":1613185115434,
+"version":"2.5.1"
+},
+"libcantera-2.5.1-hfafa322_2.tar.bz2":{
+"build":"hfafa322_2",
+"build_number":2,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera",
+"sha256":"d3132430c65893993802bc0660e8a17f703267b26e503589810758dbd0b8944a",
+"size":1726921,
+"timestamp":1624566887392,
 "version":"2.5.1"
 },
 "libcantera-devel-2.5.1-h0038c2a_1.tar.bz2":{
@@ -55120,6 +55241,25 @@
 "timestamp":1617980518834,
 "version":"2.5.1"
 },
+"libcantera-devel-2.5.1-h6ba48e3_2.tar.bz2":{
+"build":"h6ba48e3_2",
+"build_number":2,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera-devel",
+"sha256":"2c03e2a4f9fe9e01301579f68af562cd4f1b79c680d5f4d7ed591a33ba3894cb",
+"size":10743516,
+"timestamp":1624566558601,
+"version":"2.5.1"
+},
 "libcantera-devel-2.5.1-ha00f991_0.tar.bz2":{
 "build":"ha00f991_0",
 "build_number":0,
@@ -55175,6 +55315,25 @@
 "sha256":"f811efbbf21133b2e472a657a6f54955a416b97bb25afe52f4152c5499417efd",
 "size":9491089,
 "timestamp":1613185199873,
+"version":"2.5.1"
+},
+"libcantera-devel-2.5.1-hfafa322_2.tar.bz2":{
+"build":"hfafa322_2",
+"build_number":2,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera-devel",
+"sha256":"cc40f8eca5c9f8c7b1ec4c949a2661e58277eba7ede51ec74bb96e41027d8519",
+"size":10784446,
+"timestamp":1624567099927,
 "version":"2.5.1"
 },
 "libcap-2.50-h4e0d66e_0.tar.bz2":{
@@ -113393,7 +113552,7 @@
 "timestamp":1564235854852,
 "version":"0.4.14"
 },
-"ruamel.yaml-0.17.9-py36hc33305d_0.tar.bz2":{
+"ruamel.yaml-0.17.10-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -113405,12 +113564,12 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"1fc4d101d1d44adb4c7d6bdc33f22ac68cc3761b7b06f2dce3d0d4ffd29ad491",
-"size":173225,
-"timestamp":1623316644941,
-"version":"0.17.9"
+"sha256":"aa7b6dc38b638d9a1327eec96719baa6c77b0bdea3b4cf5749a93e317aaae9bb",
+"size":173337,
+"timestamp":1624567767712,
+"version":"0.17.10"
 },
-"ruamel.yaml-0.17.9-py36hfa8c849_0.tar.bz2":{
+"ruamel.yaml-0.17.10-py36hfa8c849_0.tar.bz2":{
 "build":"py36hfa8c849_0",
 "build_number":0,
 "depends":[
@@ -113423,12 +113582,12 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"81ab44a313912b606580d36f734ea76b66b7441a656c51af902864fece8b9376",
-"size":174473,
-"timestamp":1623316643437,
-"version":"0.17.9"
+"sha256":"9afc3d5046e55b78cc0b6a1a98fcb48db4220dee0b65d0cedbb69e5c84c16b17",
+"size":174993,
+"timestamp":1624567555224,
+"version":"0.17.10"
 },
-"ruamel.yaml-0.17.9-py37h0630641_0.tar.bz2":{
+"ruamel.yaml-0.17.10-py37h0630641_0.tar.bz2":{
 "build":"py37h0630641_0",
 "build_number":0,
 "depends":[
@@ -113441,12 +113600,12 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"cfdbf23915f691774d8d0ba6c41528464c677d3ddf3877b8abcb68c0c03eb81a",
-"size":174908,
-"timestamp":1623316721162,
-"version":"0.17.9"
+"sha256":"0eb0d7a3008e04eb04a24dbe23b079627fe196749e69745aed3eaa68982d24bc",
+"size":174779,
+"timestamp":1624567774508,
+"version":"0.17.10"
 },
-"ruamel.yaml-0.17.9-py37h6642d69_0.tar.bz2":{
+"ruamel.yaml-0.17.10-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -113458,12 +113617,12 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"006985d4641edacc8b116425df91c31ec324191fa487e6e7f3ca1b0ed8d7109a",
-"size":173168,
-"timestamp":1623316715601,
-"version":"0.17.9"
+"sha256":"2011a19243d9b09433a32eb1d8a279dce02002069cb586dad21238feb9663791",
+"size":173164,
+"timestamp":1624567833373,
+"version":"0.17.10"
 },
-"ruamel.yaml-0.17.9-py38h98b8a6f_0.tar.bz2":{
+"ruamel.yaml-0.17.10-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -113475,12 +113634,12 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"f3eb565698861ff953d2e197c0dc8bd91a4c8401a9407a8b48d5042e785d75f2",
-"size":173947,
-"timestamp":1623316884191,
-"version":"0.17.9"
+"sha256":"41ece4806efd0c1d6c512f7b57a06f7daea635989615b59cccc97749033ae8c1",
+"size":174396,
+"timestamp":1624567767422,
+"version":"0.17.10"
 },
-"ruamel.yaml-0.17.9-py39ha810350_0.tar.bz2":{
+"ruamel.yaml-0.17.10-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -113492,10 +113651,10 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"b9b74825376546eeb6b84007b6a92371ae51194567af49768ea74954f278364a",
-"size":174536,
-"timestamp":1623316901410,
-"version":"0.17.9"
+"sha256":"21e3b1d4e89351c9e21539fc2106f1ce5af394ef3d6dcff87074a84ca7eb965a",
+"size":174548,
+"timestamp":1624567833148,
+"version":"0.17.10"
 },
 "ruamel.yaml.clib-0.2.2-py36h2254977_0.tar.bz2":{
 "build":"py36h2254977_0",

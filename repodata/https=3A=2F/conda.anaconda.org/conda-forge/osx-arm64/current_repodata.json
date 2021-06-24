@@ -7010,6 +7010,31 @@
 "timestamp":1617976462568,
 "version":"2.5.1"
 },
+"cantera-2.5.1-py38hfa036d2_2.tar.bz2":{
+"build":"py38hfa036d2_2",
+"build_number":2,
+"depends":[
+"fmt >=8.0.0,<9.0a0",
+"h5py",
+"libblas >=3.9.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"ruamel_yaml",
+"setuptools",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"cantera",
+"sha256":"6cf92ec355162125d1621511e5150ec557d778245d6ac1513987c2559bdb4de1",
+"size":1835568,
+"timestamp":1624567149179,
+"version":"2.5.1"
+},
 "cantera-2.5.1-py39h1639826_1.tar.bz2":{
 "build":"py39h1639826_1",
 "build_number":1,
@@ -7033,6 +7058,31 @@
 "sha256":"3e3d7fd838b4268070d1b37d65a7738093de6dee2e3a9269c0cff9ecd4d3bceb",
 "size":1826045,
 "timestamp":1617976219216,
+"version":"2.5.1"
+},
+"cantera-2.5.1-py39hd2d545b_2.tar.bz2":{
+"build":"py39hd2d545b_2",
+"build_number":2,
+"depends":[
+"fmt >=8.0.0,<9.0a0",
+"h5py",
+"libblas >=3.9.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"ruamel_yaml",
+"setuptools",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"cantera",
+"sha256":"9b5a32d38376f0cb04929dc780a94a0e13974b08e3efcaee0af2e26bde2d2881",
+"size":1826233,
+"timestamp":1624567082800,
 "version":"2.5.1"
 },
 "capstone-4.0.2-py38hea4295b_1.tar.bz2":{
@@ -13584,6 +13634,19 @@
 "size":1044072,
 "timestamp":1616879769247,
 "version":"4.65"
+},
+"glpk-5.0-h6d7a090_0.tar.bz2":{
+"build":"h6d7a090_0",
+"build_number":0,
+"depends":[
+"gmp >=6.2.1,<7.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"glpk",
+"sha256":"ac67e0ee73936f2b38b4c3c55354bec4ac79f31d4f4ed1020103f052c052259d",
+"size":1003220,
+"timestamp":1624569244555,
+"version":"5.0"
 },
 "gmock-1.10.0-h260d524_6.tar.bz2":{
 "build":"h260d524_6",
@@ -21002,6 +21065,24 @@
 "timestamp":1617976120759,
 "version":"2.5.1"
 },
+"libcantera-2.5.1-py38hfa036d2_2.tar.bz2":{
+"build":"py38hfa036d2_2",
+"build_number":2,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera",
+"sha256":"7fdd02767d4a4a0cec48e81076950057714481f9d48548cb38b818d6749f711f",
+"size":1326899,
+"timestamp":1624566826985,
+"version":"2.5.1"
+},
 "libcantera-2.5.1-py39h1639826_1.tar.bz2":{
 "build":"py39h1639826_1",
 "build_number":1,
@@ -21018,6 +21099,24 @@
 "sha256":"57b605ee47466362ae8e4bee357ac5c28f5eead06c402732279fa0206c0ab9b1",
 "size":1330489,
 "timestamp":1617975872206,
+"version":"2.5.1"
+},
+"libcantera-2.5.1-py39hd2d545b_2.tar.bz2":{
+"build":"py39hd2d545b_2",
+"build_number":2,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera",
+"sha256":"8489cf43bf3a2fe3a3500f3c4f44a89447cb0261e68b89054b7d902d0d72be26",
+"size":1326620,
+"timestamp":1624566732790,
 "version":"2.5.1"
 },
 "libcantera-devel-2.5.1-py38h89f3662_1.tar.bz2":{
@@ -21039,6 +21138,25 @@
 "timestamp":1617976204490,
 "version":"2.5.1"
 },
+"libcantera-devel-2.5.1-py38hfa036d2_2.tar.bz2":{
+"build":"py38hfa036d2_2",
+"build_number":2,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera-devel",
+"sha256":"1b15614a5f7fe091c23e0d1cce05bdc66139e20376a3b922f4346d4ca9a3ca3c",
+"size":6396412,
+"timestamp":1624566909753,
+"version":"2.5.1"
+},
 "libcantera-devel-2.5.1-py39h1639826_1.tar.bz2":{
 "build":"py39h1639826_1",
 "build_number":1,
@@ -21056,6 +21174,25 @@
 "sha256":"f1fd18e5dfb0fac750fceb0e83297d49e1ac734ca8d3ad3d6ea97473621774db",
 "size":6829990,
 "timestamp":1617975955793,
+"version":"2.5.1"
+},
+"libcantera-devel-2.5.1-py39hd2d545b_2.tar.bz2":{
+"build":"py39hd2d545b_2",
+"build_number":2,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera-devel",
+"sha256":"b34433591f7d56d83db7da22f8ccf8fd1e878ceab64e8b1d42519f8fbecc5d1a",
+"size":6437158,
+"timestamp":1624566819734,
 "version":"2.5.1"
 },
 "libcblas-3.9.0-0_h2ec9a88_netlib.tar.bz2":{
@@ -40845,7 +40982,7 @@
 "timestamp":1610136923911,
 "version":"1.0"
 },
-"ruamel.yaml-0.17.9-py38hea4295b_0.tar.bz2":{
+"ruamel.yaml-0.17.10-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
 "build_number":0,
 "depends":[
@@ -40856,12 +40993,12 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"e3002b7aa35f8443f37957d41050a456107384c581412baf1139c89a4297dccd",
-"size":174289,
-"timestamp":1623316527467,
-"version":"0.17.9"
+"sha256":"1103b73ef7f03a0c9ac15fdb8e7147bf542c3b8f45deb6d06b745e9182926ff6",
+"size":174375,
+"timestamp":1624567762305,
+"version":"0.17.10"
 },
-"ruamel.yaml-0.17.9-py39h5161555_0.tar.bz2":{
+"ruamel.yaml-0.17.10-py39h5161555_0.tar.bz2":{
 "build":"py39h5161555_0",
 "build_number":0,
 "depends":[
@@ -40872,10 +41009,10 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"ef68dbcf83f7d66ed72eb3cac31e3e9298b603f423ba78c70bbabac3cbf99776",
-"size":174796,
-"timestamp":1623316573151,
-"version":"0.17.9"
+"sha256":"aae6c0d818da4213a23ebf30b6d46d1ab4fc2f75ca1bf945cb0b7b48dc58d376",
+"size":174617,
+"timestamp":1624567582396,
+"version":"0.17.10"
 },
 "ruamel.yaml.clib-0.2.2-py38h30f7421_1.tar.bz2":{
 "build":"py38h30f7421_1",
