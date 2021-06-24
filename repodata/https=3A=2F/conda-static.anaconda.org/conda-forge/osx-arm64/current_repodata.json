@@ -45570,19 +45570,33 @@
 "timestamp":1620422277959,
 "version":"2.4.1"
 },
-"volk-dev-2.4.1-hce30654_3.tar.bz2":{
-"build":"hce30654_3",
-"build_number":3,
+"volk-2.5.0-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
 "depends":[
-"volk 2.4.1 hbdafb3b_3",
-"volk-modtool 2.4.1 py_3"
+"gstreamer-orc >=0.4.32,<0.5.0a0",
+"libcxx >=11.1.0"
+],
+"license":"GPL-3.0-or-later AND Apache-2.0",
+"name":"volk",
+"sha256":"d21789c85a7ce01dfcbb871a281edba207d501697a2552b16e408d052850044d",
+"size":444562,
+"timestamp":1624498290126,
+"version":"2.5.0"
+},
+"volk-dev-2.5.0-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"volk 2.5.0 hbdafb3b_0",
+"volk-modtool 2.5.0 py_0"
 ],
 "license":"GPL-3.0-or-later AND Apache-2.0",
 "name":"volk-dev",
-"sha256":"9400b86c6e3d983289633e8c06ba4e55a6995c3b3f6f450d1e8b602e2509cb24",
-"size":21852,
-"timestamp":1620422322419,
-"version":"2.4.1"
+"sha256":"f6d9df805eba9ffdffc3b35711628fc719a069066b55c587ece59c3f481db21b",
+"size":21881,
+"timestamp":1624498327244,
+"version":"2.5.0"
 },
 "vtk-9.0.1-no_osmesa_py38h19cc9ed_107.tar.bz2":{
 "build":"no_osmesa_py38h19cc9ed_107",
