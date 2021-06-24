@@ -11236,6 +11236,20 @@
 "timestamp":1623801153566,
 "version":"0.5.11"
 },
+"aws-c-cal-0.5.11-hc17f3fe_1.tar.bz2":{
+"build":"hc17f3fe_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"requires":[],
+"size":28932,
+"timestamp":1624529044376,
+"version":"0.5.11"
+},
 "aws-c-cal-0.5.5-he5a0616_0.tar.bz2":{
 "build":"he5a0616_0",
 "build_number":0,
@@ -11617,6 +11631,19 @@
 "size":16841,
 "timestamp":1623341686899,
 "version":"0.2.12"
+},
+"aws-c-compression-0.2.13-h26c7476_1.tar.bz2":{
+"build":"h26c7476_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.6.3,<0.6.4.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-compression",
+"requires":[],
+"size":16786,
+"timestamp":1624528969114,
+"version":"0.2.13"
 },
 "aws-c-compression-0.2.13-h487e1a8_0.tar.bz2":{
 "build":"h487e1a8_0",
@@ -13520,6 +13547,28 @@
 "timestamp":1624442029553,
 "version":"0.14.1"
 },
+"aws-crt-cpp-0.14.2-h693c82b_1.tar.bz2":{
+"build":"h693c82b_1",
+"build_number":1,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"requires":[],
+"size":157342,
+"timestamp":1624529986100,
+"version":"0.14.2"
+},
 "aws-crt-cpp-0.14.2-ha35f478_0.tar.bz2":{
 "build":"ha35f478_0",
 "build_number":0,
@@ -14174,6 +14223,28 @@
 "timestamp":1623929117490,
 "version":"0.11.24"
 },
+"awscrt-0.11.24-py38hb940ee3_5.tar.bz2":{
+"build":"py38hb940ee3_5",
+"build_number":5,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"requires":[],
+"size":110994,
+"timestamp":1624531117818,
+"version":"0.11.24"
+},
 "awscrt-0.11.24-py39h512aeab_2.tar.bz2":{
 "build":"py39h512aeab_2",
 "build_number":2,
@@ -14238,6 +14309,28 @@
 "requires":[],
 "size":108370,
 "timestamp":1624308781680,
+"version":"0.11.24"
+},
+"awscrt-0.11.24-py39hd17d9ca_5.tar.bz2":{
+"build":"py39hd17d9ca_5",
+"build_number":5,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"requires":[],
+"size":108332,
+"timestamp":1624530889098,
 "version":"0.11.24"
 },
 "backports.lzma-0.0.14-py38he94ad69_3.tar.bz2":{
@@ -56861,6 +56954,26 @@
 "timestamp":1623400822547,
 "version":"3.13.2"
 },
+"libignition-common3-3.13.2-h9867e88_1.tar.bz2":{
+"build":"h9867e88_1",
+"build_number":1,
+"depends":[
+"ffmpeg >=4.3.1,<5.0a0",
+"freeimage >=3.18.0,<3.19.0a0",
+"gts >=0.7.6,<0.8.0a0",
+"libcxx >=11.1.0",
+"libglib >=2.68.3,<3.0a0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"tinyxml2 >=9.0.0,<10.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-common3",
+"requires":[],
+"size":547212,
+"timestamp":1624532516985,
+"version":"3.13.2"
+},
 "libignition-common4-4.0.0-h2f5f0ec_0.tar.bz2":{
 "build":"h2f5f0ec_0",
 "build_number":0,
@@ -56901,6 +57014,27 @@
 "requires":[],
 "size":561891,
 "timestamp":1624343345146,
+"version":"4.0.0"
+},
+"libignition-common4-4.0.0-h9867e88_2.tar.bz2":{
+"build":"h9867e88_2",
+"build_number":2,
+"depends":[
+"ffmpeg >=4.3.1,<5.0a0",
+"freeimage >=3.18.0,<3.19.0a0",
+"gts >=0.7.6,<0.8.0a0",
+"libcxx >=11.1.0",
+"libglib >=2.68.3,<3.0a0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-utils1 >=1.0.0,<2.0a0",
+"tinyxml2 >=9.0.0,<10.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-common4",
+"requires":[],
+"size":567930,
+"timestamp":1624532004929,
 "version":"4.0.0"
 },
 "libignition-math6-6.8.0-hbdafb3b_0.tar.bz2":{
