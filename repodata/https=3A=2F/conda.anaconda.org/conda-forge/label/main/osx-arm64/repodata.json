@@ -30668,6 +30668,23 @@
 "timestamp":1624363655951,
 "version":"1.0.0"
 },
+"e-antic-1.0.1-h188e36f_0.tar.bz2":{
+"build":"h188e36f_0",
+"build_number":0,
+"depends":[
+"antic >=0.2.4,<0.3.0a0",
+"arb >=2.19.0,<2.20.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"e-antic",
+"requires":[],
+"size":173702,
+"timestamp":1624657171509,
+"version":"1.0.1"
+},
 "eccodes-2.22.0-h995f8fa_0.tar.bz2":{
 "build":"h995f8fa_0",
 "build_number":0,
@@ -90943,6 +90960,44 @@
 "timestamp":1624363794279,
 "version":"1.0.0"
 },
+"pyeantic-1.0.1-py38hfef543c_0.tar.bz2":{
+"build":"py38hfef543c_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"cppyy",
+"cppyythonizations",
+"e-antic >=1.0.1,<2.0a0",
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"pyeantic",
+"requires":[],
+"size":34089,
+"timestamp":1624657304197,
+"version":"1.0.1"
+},
+"pyeantic-1.0.1-py39hcff4f58_0.tar.bz2":{
+"build":"py39hcff4f58_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"cppyy",
+"cppyythonizations",
+"e-antic >=1.0.1,<2.0a0",
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"pyeantic",
+"requires":[],
+"size":34048,
+"timestamp":1624657420425,
+"version":"1.0.1"
+},
 "pyerfa-1.7.1.1-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
 "build_number":0,
@@ -95017,6 +95072,21 @@
 "size":179954,
 "timestamp":1610453298437,
 "version":"1.0"
+},
+"python-rapidjson-1.1-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"python-rapidjson",
+"requires":[],
+"size":186694,
+"timestamp":1624655810594,
+"version":"1.1"
 },
 "python-rapidjson-1.1-py39hfb83b0d_0.tar.bz2":{
 "build":"py39hfb83b0d_0",
