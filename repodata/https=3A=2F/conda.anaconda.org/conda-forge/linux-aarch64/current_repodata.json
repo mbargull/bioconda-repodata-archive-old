@@ -10851,6 +10851,46 @@
 "timestamp":1624579124531,
 "version":"1.19.100"
 },
+"awscli-1.19.100-py38h2063c64_0.tar.bz2":{
+"build":"py38h2063c64_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.100",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.4.0,<0.5.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"d799496507d48cf6c77e4bb19280e990e240f7f05935bb57f6aa0efea38a74cf",
+"size":1936626,
+"timestamp":1624579393140,
+"version":"1.19.100"
+},
+"awscli-1.19.100-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.100",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.4.0,<0.5.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"705b07c871cacfd91ab38993b532cc4851aaaec844f4cda33cef9567048b4094",
+"size":1941763,
+"timestamp":1624579676639,
+"version":"1.19.100"
+},
 "awscrt-0.11.24-py36h35fa63e_4.tar.bz2":{
 "build":"py36h35fa63e_4",
 "build_number":4,
@@ -55835,6 +55875,27 @@
 "timestamp":1624578495196,
 "version":"3.2.0"
 },
+"libignition-physics4-4.0.0-h01db608_0.tar.bz2":{
+"build":"h01db608_0",
+"build_number":0,
+"depends":[
+"dartsim >=6.10.1,<6.11.0a0",
+"libgcc-ng >=9.3.0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-common4 >=4.0.0,<5.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-plugin1 >=1.2.0,<2.0a0",
+"libignition-utils1 >=1.0.0,<2.0a0",
+"libsdformat11 >=11.1.0,<12.0a0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"libignition-physics4",
+"sha256":"2bcbfbb63e288d9869c3c761e0c3a0b8dd690627d68e06d19e58c2df8267fe6d",
+"size":1223462,
+"timestamp":1624581755291,
+"version":"4.0.0"
+},
 "libignition-plugin1-1.2.0-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
 "build_number":0,
@@ -87938,7 +87999,7 @@
 "timestamp":1622444354021,
 "version":"0.16.2"
 },
-"pyopencl-2021.2.2-py36h2e26b47_0.tar.bz2":{
+"pyopencl-2021.2.3-py36h2e26b47_0.tar.bz2":{
 "build":"py36h2e26b47_0",
 "build_number":0,
 "depends":[
@@ -87955,35 +88016,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"80079fa40fb14987512a70cc0ddbd8092c3843b9dd0475e7064e2b9bf18f1fd1",
-"size":742872,
-"timestamp":1621711338367,
-"version":"2021.2.2"
+"sha256":"90a44e67ddd3aa4034ce74e879d66471a876d6e5ebc9cfe1c3aeaa975cf99f22",
+"size":731321,
+"timestamp":1624580839658,
+"version":"2021.2.3"
 },
-"pyopencl-2021.2.2-py36h93b45c7_0.tar.bz2":{
-"build":"py36h93b45c7_0",
-"build_number":0,
-"depends":[
-"appdirs",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mako",
-"numpy >=1.18.5,<2.0a0",
-"ocl-icd >=2.3.0,<3.0a0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"pytools",
-"setuptools"
-],
-"license":"MIT",
-"name":"pyopencl",
-"sha256":"b3639ccb5605594a3c8e4cd995be3da1b717b8f885bc8bf9887aa595f27d4a22",
-"size":713674,
-"timestamp":1621711956214,
-"version":"2021.2.2"
-},
-"pyopencl-2021.2.2-py37h2603c11_0.tar.bz2":{
+"pyopencl-2021.2.3-py37h2603c11_0.tar.bz2":{
 "build":"py37h2603c11_0",
 "build_number":0,
 "depends":[
@@ -88000,12 +88038,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"3d3dad47eb003f3e7fe56916657c6e6f6889ae76dd25fa29024bed1fcb6f00c4",
-"size":743387,
-"timestamp":1621711998372,
-"version":"2021.2.2"
+"sha256":"90a9158f596b3afd5f6a27d6170a94ba8d2218d4b56128fc69fedbd2a2599899",
+"size":731279,
+"timestamp":1624581281050,
+"version":"2021.2.3"
 },
-"pyopencl-2021.2.2-py37hce16e70_0.tar.bz2":{
+"pyopencl-2021.2.3-py37hce16e70_0.tar.bz2":{
 "build":"py37hce16e70_0",
 "build_number":0,
 "depends":[
@@ -88023,12 +88061,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"b94a06f573d651e838009629e1aed220862ac10ce2b587d05fbcefcdb82f26df",
-"size":710341,
-"timestamp":1621711328140,
-"version":"2021.2.2"
+"sha256":"5eaaec6bcd0cffa6b43fb8169da7bef6753cd4b42c38bbbfa4b0482dba9adb29",
+"size":701642,
+"timestamp":1624583495613,
+"version":"2021.2.3"
 },
-"pyopencl-2021.2.2-py38h5bf94d8_0.tar.bz2":{
+"pyopencl-2021.2.3-py38h5bf94d8_0.tar.bz2":{
 "build":"py38h5bf94d8_0",
 "build_number":0,
 "depends":[
@@ -88045,32 +88083,10 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"d7cc73e670334f4061430645d071969a71dea1dae7acd4a85111ad1fc9e52296",
-"size":698634,
-"timestamp":1621711314214,
-"version":"2021.2.2"
-},
-"pyopencl-2021.2.2-py39h9f797f2_0.tar.bz2":{
-"build":"py39h9f797f2_0",
-"build_number":0,
-"depends":[
-"appdirs",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"mako",
-"numpy >=1.19.5,<2.0a0",
-"ocl-icd >=2.3.0,<3.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pytools",
-"setuptools"
-],
-"license":"MIT",
-"name":"pyopencl",
-"sha256":"ad25703a69fbdb9c34744d6305600c662bcda1447fac206e96a2d71127f5c531",
-"size":726778,
-"timestamp":1621711329361,
-"version":"2021.2.2"
+"sha256":"b4067feb2a7c40d936c0b7fb50f6ee53aee408435dfe8a91a33728f4ce2fb192",
+"size":709609,
+"timestamp":1624582329302,
+"version":"2021.2.3"
 },
 "pyopenssl-19.1.0-py36_0.tar.bz2":{
 "build":"py36_0",
