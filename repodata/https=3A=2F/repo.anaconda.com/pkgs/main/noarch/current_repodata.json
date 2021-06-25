@@ -12083,7 +12083,7 @@
 "timestamp":1576596077057,
 "version":"4.4.1"
 },
-"dask-2021.6.1-pyhd3eb1b0_0.conda":{
+"dask-2021.6.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "constrains":[
@@ -12092,40 +12092,20 @@
 "depends":[
 "bokeh >=1.0.0,!=2.0.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.6.1.*",
-"distributed 2021.6.1.*",
+"dask-core 2021.6.2.*",
+"distributed 2021.6.2.*",
 "numpy >=1.16",
 "pandas >=0.25.0",
 "python >=3.7"
 ],
-"legacy_bz2_md5":"f06c4828c2ce1de8831a69896f7117a1",
+"legacy_bz2_md5":"246f5a7450087015ddadee08b338f454",
 "license":"BSD-3-Clause",
 "name":"dask",
 "noarch":"python",
-"sha256":"9ef3a8dbfc274ad69db77fcdbfd8151eca9f8f4c9383d570e6033237ca25f08b",
-"size":4776,
-"timestamp":1624589258629,
-"version":"2021.6.1"
-},
-"dask-core-2021.6.1-pyhd3eb1b0_0.conda":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"cloudpickle >=1.1.1",
-"fsspec >=0.6.0",
-"partd >=0.3.10",
-"python >=3.7",
-"pyyaml",
-"toolz >=0.8.2"
-],
-"legacy_bz2_md5":"1c6d8679b849d9d8ad16ecab0d1042cb",
-"license":"BSD-3-Clause",
-"name":"dask-core",
-"noarch":"python",
-"sha256":"12e80df49001748320edf4a9e871ed882ddcb73171cc96f945b87a350db10ea0",
-"size":708752,
-"timestamp":1624291435333,
-"version":"2021.6.1"
+"sha256":"6b07e69000c64143982f50d361e4e3c71cad1643d869de07328b1e107813118c",
+"size":4769,
+"timestamp":1624624298481,
+"version":"2021.6.2"
 },
 "dask-core-2021.6.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -14042,6 +14022,23 @@
 "sha256":"6ddd3d6a3b04175662eec5d94b876d33cc70995acb404f2500d5dd7be7a9dd3a",
 "size":130195,
 "timestamp":1624366155504,
+"version":"3.1.18"
+},
+"gitpython-3.1.18-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"gitdb >=4.0.1,<5",
+"python >=3.5",
+"typing-extensions >=3.7.4.0"
+],
+"legacy_bz2_md5":"46fb27d24de38d692758e89ab800895f",
+"license":"BSD-3-Clause",
+"name":"gitpython",
+"noarch":"python",
+"sha256":"464eeacf6f640072393038c87a459e8932fc8e2a304f8af90719fbccd0dc73b1",
+"size":128406,
+"timestamp":1624609519247,
 "version":"3.1.18"
 },
 "glib-networking-cos6-i686-2.28.6.1-0.conda":{
