@@ -112814,6 +112814,19 @@
 "timestamp":1617870316372,
 "version":"2021.2.0"
 },
+"tbb-2021.2.0-hc021e02_1.tar.bz2":{
+"build":"hc021e02_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"tbb",
+"requires":[],
+"size":123004,
+"timestamp":1624628335706,
+"version":"2021.2.0"
+},
 "tbb-devel-2020.2-h260d524_1.tar.bz2":{
 "build":"h260d524_1",
 "build_number":1,
@@ -112910,6 +112923,20 @@
 "requires":[],
 "size":921933,
 "timestamp":1617870396050,
+"version":"2021.2.0"
+},
+"tbb-devel-2021.2.0-hc021e02_1.tar.bz2":{
+"build":"hc021e02_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"tbb 2021.2.0 hc021e02_1"
+],
+"license":"Apache-2.0",
+"name":"tbb-devel",
+"requires":[],
+"size":921537,
+"timestamp":1624628357653,
 "version":"2021.2.0"
 },
 "tbb4py-2020.2-py38h12a6f45_1.tar.bz2":{
@@ -113022,6 +113049,38 @@
 "requires":[],
 "size":55672,
 "timestamp":1617870784702,
+"version":"2021.2.0"
+},
+"tbb4py-2021.2.0-py38he878d44_1.tar.bz2":{
+"build":"py38he878d44_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tbb >=2021.2.0"
+],
+"license":"Apache 2.0",
+"name":"tbb4py",
+"requires":[],
+"size":56063,
+"timestamp":1624628570777,
+"version":"2021.2.0"
+},
+"tbb4py-2021.2.0-py39h2e161d8_1.tar.bz2":{
+"build":"py39h2e161d8_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tbb >=2021.2.0"
+],
+"license":"Apache 2.0",
+"name":"tbb4py",
+"requires":[],
+"size":56173,
+"timestamp":1624628468091,
 "version":"2021.2.0"
 },
 "tensorflow-2.4.0-py38h150bfb4_0.tar.bz2":{
