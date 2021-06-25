@@ -9194,6 +9194,19 @@
 "timestamp":1624507249524,
 "version":"0.6.3"
 },
+"aws-c-common-0.6.4-hf897c2e_0.tar.bz2":{
+"build":"hf897c2e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"220db6ab38a59d25637b07b0b3d4a6641ee81fc756c47f49848a925aa7fb8019",
+"size":173555,
+"timestamp":1624649017351,
+"version":"0.6.4"
+},
 "aws-c-compression-0.2.11-h183d49f_0.tar.bz2":{
 "build":"h183d49f_0",
 "build_number":0,
@@ -79533,6 +79546,109 @@
 "timestamp":1624648676492,
 "version":"1.1.7"
 },
+"poetry-1.1.7-py37hd9ded2f_0.tar.bz2":{
+"build":"py37hd9ded2f_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.12.4,<0.13.0",
+"cachy >=0.3.0,<0.4.0",
+"cleo >=0.8.1,<0.9.0",
+"clikit >=0.6.2,<0.7.0",
+"crashtest >=0.3.0,<0.4.0",
+"html5lib >=1.0,<2.0",
+"importlib-metadata >=1.6.0,<2.0.0",
+"jsonschema >=3.1,<4.0",
+"keyring >=21.2.0,<21.3.0",
+"lockfile >=0.9",
+"packaging >=20.4,<21.0",
+"pexpect >=4.7.0,<5.0.0",
+"pkginfo >=1.4,<2.0",
+"poetry-core >=1.0.3,<1.1.0",
+"pyparsing >=2.2,<3.0",
+"pyrsistent >=0.14.2,<0.15.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"requests >=2.18,<3.0",
+"requests-toolbelt >=0.9.1,<0.10.0",
+"shellingham >=1.1,<2.0",
+"tomlkit >=0.7.0,<1.0.0",
+"virtualenv >=20.0.26,<21.0.0"
+],
+"license":"MIT",
+"name":"poetry",
+"sha256":"d2e84f1f84121cbd48d2f28f21b6195b3a762955eb3df70fec753390b1604590",
+"size":247281,
+"timestamp":1624649398515,
+"version":"1.1.7"
+},
+"poetry-1.1.7-py38h2063c64_0.tar.bz2":{
+"build":"py38h2063c64_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.12.4,<0.13.0",
+"cachy >=0.3.0,<0.4.0",
+"cleo >=0.8.1,<0.9.0",
+"clikit >=0.6.2,<0.7.0",
+"crashtest >=0.3.0,<0.4.0",
+"html5lib >=1.0,<2.0",
+"jsonschema >=3.1,<4.0",
+"keyring >=21.2.0,<21.3.0",
+"lockfile >=0.9",
+"packaging >=20.4,<21.0",
+"pexpect >=4.7.0,<5.0.0",
+"pkginfo >=1.4,<2.0",
+"poetry-core >=1.0.3,<1.1.0",
+"pyparsing >=2.2,<3.0",
+"pyrsistent >=0.14.2,<0.15.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"requests >=2.18,<3.0",
+"requests-toolbelt >=0.9.1,<0.10.0",
+"shellingham >=1.1,<2.0",
+"tomlkit >=0.7.0,<1.0.0",
+"virtualenv >=20.0.26,<21.0.0"
+],
+"license":"MIT",
+"name":"poetry",
+"sha256":"bdee1f33c785b30652c8350cffa134663cc3d2331362e7634ffea4b07d184097",
+"size":244165,
+"timestamp":1624650122289,
+"version":"1.1.7"
+},
+"poetry-1.1.7-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.12.4,<0.13.0",
+"cachy >=0.3.0,<0.4.0",
+"cleo >=0.8.1,<0.9.0",
+"clikit >=0.6.2,<0.7.0",
+"crashtest >=0.3.0,<0.4.0",
+"html5lib >=1.0,<2.0",
+"jsonschema >=3.1,<4.0",
+"keyring >=21.2.0,<21.3.0",
+"lockfile >=0.9",
+"packaging >=20.4,<21.0",
+"pexpect >=4.7.0,<5.0.0",
+"pkginfo >=1.4,<2.0",
+"poetry-core >=1.0.3,<1.1.0",
+"pyparsing >=2.2,<3.0",
+"pyrsistent >=0.14.2,<0.15.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"requests >=2.18,<3.0",
+"requests-toolbelt >=0.9.1,<0.10.0",
+"shellingham >=1.1,<2.0",
+"tomlkit >=0.7.0,<1.0.0",
+"virtualenv >=20.0.26,<21.0.0"
+],
+"license":"MIT",
+"name":"poetry",
+"sha256":"3efa04ab24a3955cae5510f4962efdf82c92b2b6e8bf6689fab95f9f23f02ade",
+"size":247886,
+"timestamp":1624650857597,
+"version":"1.1.7"
+},
 "poppler-0.65.0-h01c5bae_3.tar.bz2":{
 "build":"h01c5bae_3",
 "build_number":3,
@@ -126970,28 +127086,7 @@
 "timestamp":1611830118463,
 "version":"6.0"
 },
-"uproot-4.0.9-py36h2e20a7f_0.tar.bz2":{
-"build":"py36h2e20a7f_0",
-"build_number":0,
-"depends":[
-"lz4",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python-xxhash",
-"python_abi 3.6 *_pypy36_pp73",
-"setuptools",
-"uproot-base",
-"xrootd",
-"zstandard"
-],
-"license":"BSD-3-Clause",
-"name":"uproot",
-"sha256":"631c961604e4c2b95174b55502533f88a48ba0423d77fbb83a6f23a8e1392d22",
-"size":4901,
-"timestamp":1623403490051,
-"version":"4.0.9"
-},
-"uproot-4.0.9-py36h704843e_0.tar.bz2":{
+"uproot-4.0.10-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -127007,12 +127102,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"b865f18c9265cd764c015d7f1936b895fd0c746cdc596fc7c93bf8b65fab9d7c",
-"size":4855,
-"timestamp":1623404376764,
-"version":"4.0.9"
+"sha256":"f0f6c7806619c26d080654bb4b07c1b10ee1702c813c597346893d5daa45d0b7",
+"size":4864,
+"timestamp":1624650057348,
+"version":"4.0.10"
 },
-"uproot-4.0.9-py37h4bcbb9b_0.tar.bz2":{
+"uproot-4.0.10-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
@@ -127028,73 +127123,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"uproot",
-"sha256":"2d1bff8c263b29e3dac96519f026fd2676a69165a9ee38e4af6764439f17eb3e",
-"size":4903,
-"timestamp":1623404415942,
-"version":"4.0.9"
-},
-"uproot-4.0.9-py37hd9ded2f_0.tar.bz2":{
-"build":"py37hd9ded2f_0",
-"build_number":0,
-"depends":[
-"awkward >=1",
-"lz4",
-"python >=3.7,<3.8.0a0",
-"python-xxhash",
-"python_abi 3.7.* *_cp37m",
-"setuptools",
-"uproot-base",
-"xrootd",
-"zstandard"
-],
-"license":"BSD-3-Clause",
-"name":"uproot",
-"sha256":"5766fe729611d0772446958d7732c82feb2fd12a065d18fde60223f7aebd67a6",
-"size":4855,
-"timestamp":1623403848101,
-"version":"4.0.9"
-},
-"uproot-4.0.9-py38h2063c64_0.tar.bz2":{
-"build":"py38h2063c64_0",
-"build_number":0,
-"depends":[
-"awkward >=1",
-"lz4",
-"python >=3.8,<3.9.0a0",
-"python-xxhash",
-"python_abi 3.8.* *_cp38",
-"setuptools",
-"uproot-base",
-"xrootd",
-"zstandard"
-],
-"license":"BSD-3-Clause",
-"name":"uproot",
-"sha256":"d761023a485d9fcd3e2186ccfdab631d53766a378ba5287332c357361f21a1ef",
-"size":4840,
-"timestamp":1623403928170,
-"version":"4.0.9"
-},
-"uproot-4.0.9-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"awkward >=1",
-"lz4",
-"python >=3.9,<3.10.0a0",
-"python-xxhash",
-"python_abi 3.9.* *_cp39",
-"setuptools",
-"uproot-base",
-"xrootd",
-"zstandard"
-],
-"license":"BSD-3-Clause",
-"name":"uproot",
-"sha256":"56eea98913ca1d1f4bb82bd42585c57753f95be45fba0ced4c9a7c0daba029e6",
-"size":4864,
-"timestamp":1623404048171,
-"version":"4.0.9"
+"sha256":"32cefd73e13d043cb0de97554bd67b12738309c9723516d616f51443ec41dcdb",
+"size":4914,
+"timestamp":1624650898282,
+"version":"4.0.10"
 },
 "uproot-base-3.13.0-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
