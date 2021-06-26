@@ -78050,6 +78050,31 @@
 "track_features":"petsc4py_complex",
 "version":"3.15.0"
 },
+"petsc4py-3.15.0-complex_h1c0e402_1.tar.bz2":{
+"build":"complex_h1c0e402_1",
+"build_number":1,
+"constrains":[
+"mpi4py >=3.0.1"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"openmpi >=4.1.1,<5.0a0",
+"petsc * *complex*",
+"petsc >=3.15.1,<3.16.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-2-Clause",
+"name":"petsc4py",
+"sha256":"c7bbb5da6849cebf46deb04e56086f71d2dafc624f34dce487d6bb1b2c588f37",
+"size":1137914,
+"timestamp":1624712897108,
+"track_features":"petsc4py_complex",
+"version":"3.15.0"
+},
 "petsc4py-3.15.0-complex_h698d65f_1.tar.bz2":{
 "build":"complex_h698d65f_1",
 "build_number":1,
@@ -78575,6 +78600,30 @@
 "sha256":"416ef51bc4c97cd44d593d92d6e59426aec800d77ed3d517f1d5971a94ac4a32",
 "size":1152780,
 "timestamp":1624710595038,
+"version":"3.15.0"
+},
+"petsc4py-3.15.0-real_h8570c42_101.tar.bz2":{
+"build":"real_h8570c42_101",
+"build_number":101,
+"constrains":[
+"mpi4py >=3.0.1"
+],
+"depends":[
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"openmpi >=4.1.1,<5.0a0",
+"petsc * *real*",
+"petsc >=3.15.1,<3.16.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"BSD-2-Clause",
+"name":"petsc4py",
+"sha256":"1979a62e651d49cc635ca3fb7231d16fac5f66911157cba934d24e41297404d8",
+"size":1130327,
+"timestamp":1624712309899,
 "version":"3.15.0"
 },
 "pexpect-4.8.0-py36_0.tar.bz2":{
