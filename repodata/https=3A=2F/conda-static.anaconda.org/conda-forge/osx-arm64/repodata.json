@@ -14743,6 +14743,50 @@
 "timestamp":1624530889098,
 "version":"0.11.24"
 },
+"awscrt-0.11.25-py38h800ac52_0.tar.bz2":{
+"build":"py38h800ac52_0",
+"build_number":0,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"d81b04a3a08f287e46cae3cc507b11ae77fbf6309aae8f7ee8993f45961b1510",
+"size":111032,
+"timestamp":1624663991577,
+"version":"0.11.25"
+},
+"awscrt-0.11.25-py39h65e12ef_0.tar.bz2":{
+"build":"py39h65e12ef_0",
+"build_number":0,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.20,<0.1.21.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"243d298e10ab359484896459c5e441ede2f85694adba182a4b8ed64b5da9ac9c",
+"size":108351,
+"timestamp":1624663993664,
+"version":"0.11.25"
+},
 "backports.lzma-0.0.14-py38he94ad69_3.tar.bz2":{
 "build":"py38he94ad69_3",
 "build_number":3,
@@ -94768,6 +94812,36 @@
 "size":183953,
 "timestamp":1624655667564,
 "version":"1.1"
+},
+"python-rapidjson-1.3-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"python-rapidjson",
+"sha256":"9f1b0e7cef9d456bdb586a6ebc4e1fff1790965b117ad93441ab3d5301168e48",
+"size":186585,
+"timestamp":1624661732276,
+"version":"1.3"
+},
+"python-rapidjson-1.3-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"python-rapidjson",
+"sha256":"783b12fb2618abef35a043ab510c592876960e326beb189ddefb271b532ef7c8",
+"size":184155,
+"timestamp":1624661826046,
+"version":"1.3"
 },
 "python-snappy-0.6.0-py38hc881c85_0.tar.bz2":{
 "build":"py38hc881c85_0",

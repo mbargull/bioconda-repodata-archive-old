@@ -1248,6 +1248,30 @@
 "timestamp":1595564847326,
 "version":"2020.07"
 },
+"_go_select-2.2.0-nocgo.conda":{
+"build":"nocgo",
+"build_number":0,
+"depends":[],
+"legacy_bz2_md5":"bfbb4f616a187d93cca2ff291bfe3ee8",
+"license":"BSD-3-Clause",
+"name":"_go_select",
+"sha256":"99247cc045eb05ef9a2c6ac5f1fba2c348b9ad26b149b74093ca20a90c7459c0",
+"size":8204,
+"timestamp":1623378331752,
+"version":"2.2.0"
+},
+"_go_select-2.3.0-cgo.conda":{
+"build":"cgo",
+"build_number":0,
+"depends":[],
+"legacy_bz2_md5":"ee6bfccb60e5f4f83a0e547e37ac65ed",
+"license":"BSD-3-Clause",
+"name":"_go_select",
+"sha256":"30b014b30c3aef8621c020c612365afa45d4188980d4c5e2aa6e60326d55bdde",
+"size":8207,
+"timestamp":1623378339504,
+"version":"2.3.0"
+},
 "_ipyw_jlab_nb_ext_conf-0.1.0-py27_0.conda":{
 "build":"py27_0",
 "build_number":0,
@@ -28542,19 +28566,74 @@
 "timestamp":1617815482751,
 "version":"3.6.15"
 },
-"go-1.11.4-0.conda":{
-"build":"0",
+"go-1.16.5-h2670f21_0.conda":{
+"build":"h2670f21_0",
+"build_number":0,
+"constrains":[
+"clang_osx-64 10.*",
+"gfortran_osx-64 >=4.8.5,<5.0a0",
+"__osx >=10.12",
+"clangxx_osx-64 10.*"
+],
+"depends":[
+"_go_select ==2.3.0 cgo",
+"libcxx >=10.0.0",
+"libgfortran >=3.0.1,<4.0.0.a0"
+],
+"legacy_bz2_md5":"51505477c98b59e785c558b1a6377a96",
+"license":"BSD-3-Clause",
+"name":"go",
+"sha256":"d523f5a56f9b56f1ec4d10a43c673cbdb364f8a370c8ab46d2e4863e2fd4a7b8",
+"size":90627349,
+"timestamp":1623660134220,
+"version":"1.16.5"
+},
+"go-1.16.5-hf3035b1_0.conda":{
+"build":"hf3035b1_0",
+"build_number":0,
+"constrains":[
+"__osx >=10.12"
+],
+"depends":[
+"_go_select ==2.2.0 nocgo"
+],
+"legacy_bz2_md5":"133f6092ee6cbcfd5b7aeb33c9cfe2b6",
+"license":"BSD-3-Clause",
+"name":"go",
+"sha256":"2904a6e78c2321a6dfbb58c472b9a25330c8a48b3bec73b32a48ecbb06bc0b59",
+"size":92310132,
+"timestamp":1623660046572,
+"version":"1.16.5"
+},
+"go-cgo-1.16.5-ha5b4691_0.conda":{
+"build":"ha5b4691_0",
 "build_number":0,
 "depends":[
-"go_osx-64 1.11.4 h144c09f_0"
+"clang_osx-64 10.*",
+"go 1.16.5 h2670f21_0"
 ],
-"legacy_bz2_md5":"1a0cfc3dedec0c713b712096733ba878",
-"license":"BSD-Style",
-"name":"go",
-"sha256":"dd07fb990d604619f6108b401d65ed409aee7b3b8c64d4e328cb2474378f7ed7",
-"size":11197,
-"timestamp":1544962933814,
-"version":"1.11.4"
+"legacy_bz2_md5":"dcff2ee195bcd2a999076376db80c2bc",
+"license":"BSD-3-Clause",
+"name":"go-cgo",
+"sha256":"8c0eca2b6ff0e488c185c2fc59142239209983d608acb0d677bd969de8a9937e",
+"size":32741,
+"timestamp":1623660260783,
+"version":"1.16.5"
+},
+"go-cgo_osx-64-1.16.5-h1b4e739_0.conda":{
+"build":"h1b4e739_0",
+"build_number":0,
+"depends":[
+"_go_select ==2.3.0 cgo",
+"go >=1.16.5,<1.16.6.0a0"
+],
+"legacy_bz2_md5":"fea244c5e4e3785b65d52a8a72d3b47d",
+"license":"BSD-3-Clause",
+"name":"go-cgo_osx-64",
+"sha256":"1e07adfe2044a8ab7bf8753536df25b8b4e528a9fbc3ec60595c5ae428541aec",
+"size":33593,
+"timestamp":1623660263926,
+"version":"1.16.5"
 },
 "go-core-1.11.4-h12d9a10_0.conda":{
 "build":"h12d9a10_0",
@@ -28570,6 +28649,35 @@
 "size":84404997,
 "timestamp":1544962396638,
 "version":"1.11.4"
+},
+"go-nocgo-1.16.5-ha8f0f90_0.conda":{
+"build":"ha8f0f90_0",
+"build_number":0,
+"depends":[
+"go 1.16.5 hf3035b1_0"
+],
+"legacy_bz2_md5":"a4ca5db6c0853f4bf4c8066d4df357bf",
+"license":"BSD-3-Clause",
+"name":"go-nocgo",
+"sha256":"eab6ba998e62f07e450910cb83c4d91f1713c2a6b37d8593fd882b8931dbaa12",
+"size":32760,
+"timestamp":1623660149423,
+"version":"1.16.5"
+},
+"go-nocgo_osx-64-1.16.5-h3372a84_0.conda":{
+"build":"h3372a84_0",
+"build_number":0,
+"depends":[
+"_go_select ==2.2.0 nocgo",
+"go >=1.16.5,<1.16.6.0a0"
+],
+"legacy_bz2_md5":"903ad87dce7c3c30dd660d84b23741cd",
+"license":"BSD-3-Clause",
+"name":"go-nocgo_osx-64",
+"sha256":"5eb5822903bc4240bd574f5c0cfe03fe1bd2acad9673e9a9a1b45fd4d13048d1",
+"size":33706,
+"timestamp":1623660152289,
+"version":"1.16.5"
 },
 "go_linux-32-1.11.4-hd1bdc26_0.conda":{
 "build":"hd1bdc26_0",

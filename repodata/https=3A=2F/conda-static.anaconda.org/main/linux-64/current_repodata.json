@@ -954,6 +954,28 @@
 "timestamp":1595561529079,
 "version":"2020.07"
 },
+"_go_select-2.2.0-nocgo.tar.bz2":{
+"build":"nocgo",
+"build_number":0,
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"_go_select",
+"sha256":"bfd64510a00181d0411bb269d2596439b9ce26571ce069decabd81a6f45a5355",
+"size":7187,
+"timestamp":1623377704294,
+"version":"2.2.0"
+},
+"_go_select-2.3.0-cgo.tar.bz2":{
+"build":"cgo",
+"build_number":0,
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"_go_select",
+"sha256":"1416adbfdca9b657eafd3f01bf5041437854a17c0cc3c8691382bce9ff091388",
+"size":7192,
+"timestamp":1623378326334,
+"version":"2.3.0"
+},
 "_ipyw_jlab_nb_ext_conf-0.1.0-py27_0.tar.bz2":{
 "build":"py27_0",
 "build_number":0,
@@ -29811,6 +29833,21 @@
 "timestamp":1576689709738,
 "version":"7.3.0"
 },
+"gcc_linux-64-8.4.0-he201b7d_30.tar.bz2":{
+"build":"he201b7d_30",
+"build_number":30,
+"depends":[
+"binutils_linux-64 2.35.1 h454624a_30",
+"gcc_impl_linux-64 8.4.0.*",
+"sysroot_linux-64"
+],
+"license":"BSD-3-Clause",
+"name":"gcc_linux-64",
+"sha256":"47d66b6c3a8a60576f96e84684f2716ac370c4ae2e65107105231e18aa8acea2",
+"size":23058,
+"timestamp":1623135558243,
+"version":"8.4.0"
+},
 "gcc_linux-64-9.3.0-h1ee779e_30.tar.bz2":{
 "build":"h1ee779e_30",
 "build_number":30,
@@ -31993,18 +32030,104 @@
 "timestamp":1617814418590,
 "version":"3.6.15"
 },
-"go-1.11.4-0.tar.bz2":{
-"build":"0",
+"go-1.16.5-h59941bc_0.tar.bz2":{
+"build":"h59941bc_0",
+"build_number":0,
+"constrains":[
+"gfortran_linux-64 9.3.*",
+"gcc_linux-64 9.3.*",
+"gxx_linux-64 9.3.*"
+],
+"depends":[
+"_go_select ==2.3.0 cgo",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"go",
+"sha256":"04555151af9d1f85bedd793ad56e9d33441ad4757322d79c36970a76777eba88",
+"size":127216685,
+"timestamp":1623674097722,
+"version":"1.16.5"
+},
+"go-1.16.5-hb589e2e_0.tar.bz2":{
+"build":"hb589e2e_0",
 "build_number":0,
 "depends":[
-"go_linux-64 1.11.4 h0f5337a_0"
+"_go_select ==2.2.0 nocgo"
 ],
-"license":"BSD-Style",
+"license":"BSD-3-Clause",
 "name":"go",
-"sha256":"036b8b0bf29e80c5d8c67ec2bf55d612b77e75cc60ff847c56f527f0b2ffdb59",
-"size":11304,
-"timestamp":1544962598792,
-"version":"1.11.4"
+"sha256":"33d725fdfcd4838aa7de0c9b1c0cefcc40da8be7bc0d61fa7ab28c0f1a03b4b1",
+"size":127188695,
+"timestamp":1623660026344,
+"version":"1.16.5"
+},
+"go-1.16.5-hfe6e22e_0.tar.bz2":{
+"build":"hfe6e22e_0",
+"build_number":0,
+"constrains":[
+"gxx_linux-64 8.4.*",
+"gcc_linux-64 8.4.*",
+"gfortran_linux-64 8.4.*"
+],
+"depends":[
+"_go_select ==2.3.0 cgo",
+"libgcc-ng >=8.4.0",
+"libgfortran-ng",
+"libgfortran5 >=8.4.0",
+"libstdcxx-ng >=8.4.0"
+],
+"license":"BSD-3-Clause",
+"name":"go",
+"sha256":"e8a133f8b09a2f541ef5511b7f44e77b1d8540362692c0f0c44bb72e0bd71198",
+"size":127313305,
+"timestamp":1623674057291,
+"version":"1.16.5"
+},
+"go-cgo-1.16.5-h480a41b_0.tar.bz2":{
+"build":"h480a41b_0",
+"build_number":0,
+"depends":[
+"gcc_linux-64 8.4.*",
+"go 1.16.5 hfe6e22e_0"
+],
+"license":"BSD-3-Clause",
+"name":"go-cgo",
+"sha256":"e95f00e210fe5bdac13b5cf5cc065d66462797776cc4081c37d0d2ba0b54cc66",
+"size":32034,
+"timestamp":1623674158531,
+"version":"1.16.5"
+},
+"go-cgo-1.16.5-hd57fb8f_0.tar.bz2":{
+"build":"hd57fb8f_0",
+"build_number":0,
+"depends":[
+"gcc_linux-64 9.3.*",
+"go 1.16.5 h59941bc_0"
+],
+"license":"BSD-3-Clause",
+"name":"go-cgo",
+"sha256":"8aaa838ef70b9afe6a646bc5b3f3df69d320b9286247d99a47a423518ab2010e",
+"size":32026,
+"timestamp":1623674203601,
+"version":"1.16.5"
+},
+"go-cgo_linux-64-1.16.5-h833015d_0.tar.bz2":{
+"build":"h833015d_0",
+"build_number":0,
+"depends":[
+"_go_select ==2.3.0 cgo",
+"go >=1.16.5,<1.16.6.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"go-cgo_linux-64",
+"sha256":"c8cb6dd424b0192fd1a593fc0341a759b261bf899bae2f53dfe0750602a9d764",
+"size":32719,
+"timestamp":1623674206463,
+"version":"1.16.5"
 },
 "go-core-1.11.4-hf39692e_0.tar.bz2":{
 "build":"hf39692e_0",
@@ -32020,6 +32143,33 @@
 "size":120652839,
 "timestamp":1544962272460,
 "version":"1.11.4"
+},
+"go-nocgo-1.16.5-h94e987e_0.tar.bz2":{
+"build":"h94e987e_0",
+"build_number":0,
+"depends":[
+"go 1.16.5 hb589e2e_0"
+],
+"license":"BSD-3-Clause",
+"name":"go-nocgo",
+"sha256":"0e45487904a0bff646a14cbc2ba0a8f9e1e3d7cec5f351d2d8a7ec7fb87b7c21",
+"size":32004,
+"timestamp":1623660122898,
+"version":"1.16.5"
+},
+"go-nocgo_linux-64-1.16.5-he21932f_0.tar.bz2":{
+"build":"he21932f_0",
+"build_number":0,
+"depends":[
+"_go_select ==2.2.0 nocgo",
+"go >=1.16.5,<1.16.6.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"go-nocgo_linux-64",
+"sha256":"64fe43d91d46b14f802975dca32b4fb0f1c65ee73561b955acfc380e2727f104",
+"size":32684,
+"timestamp":1623660125663,
+"version":"1.16.5"
 },
 "go_linux-32-1.11.4-hd1bdc26_0.tar.bz2":{
 "build":"hd1bdc26_0",
