@@ -9374,6 +9374,23 @@
 "timestamp":1623838544398,
 "version":"0.2.7"
 },
+"aws-c-event-stream-0.2.7-h3483f7d_15.tar.bz2":{
+"build":"h3483f7d_15",
+"build_number":15,
+"depends":[
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"93ecb4d1c98d6abcb2ec00020641279a7564b70b1e6e84178326aa8cff74d33d",
+"size":47930,
+"timestamp":1624737877484,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-h582a32a_5.tar.bz2":{
 "build":"h582a32a_5",
 "build_number":5,
@@ -9560,6 +9577,22 @@
 "size":48021,
 "timestamp":1624281467667,
 "version":"0.2.7"
+},
+"aws-c-http-0.6.4-h074d377_11.tar.bz2":{
+"build":"h074d377_11",
+"build_number":11,
+"depends":[
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-compression >=0.2.13,<0.2.14.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"sha256":"fd838c5b8093eaf3e4a86b6d8dc6f04f99e0d6229e6fa5a0f20940cfe6a1a4c7",
+"size":158928,
+"timestamp":1624737913470,
+"version":"0.6.4"
 },
 "aws-c-http-0.6.4-h10e03c2_8.tar.bz2":{
 "build":"h10e03c2_8",
@@ -29495,7 +29528,7 @@
 "timestamp":1615577938203,
 "version":"1.0.6"
 },
-"freud-2.6.1-py36h7ef193e_0.tar.bz2":{
+"freud-2.6.2-py36h7ef193e_0.tar.bz2":{
 "build":"py36h7ef193e_0",
 "build_number":0,
 "depends":[
@@ -29510,12 +29543,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"freud",
-"sha256":"6850cc7715e41cf0c05e00596c17217fe30aab958af8689677f30e7e8f43b72b",
-"size":2065792,
-"timestamp":1624479509572,
-"version":"2.6.1"
+"sha256":"2275bfdf820747f082eac3bc80d72efff3eb60937797d6e79df05d8949562b0c",
+"size":2057358,
+"timestamp":1624738926174,
+"version":"2.6.2"
 },
-"freud-2.6.1-py37h9a3d4ef_0.tar.bz2":{
+"freud-2.6.2-py37h9a3d4ef_0.tar.bz2":{
 "build":"py37h9a3d4ef_0",
 "build_number":0,
 "depends":[
@@ -29530,12 +29563,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"freud",
-"sha256":"1fb70ee932d5c11d8723fd6e9b6bf511806a90172f994df6da20a96a102e22b6",
-"size":2093772,
-"timestamp":1624480299068,
-"version":"2.6.1"
+"sha256":"4cef84e4833c686ea2feb384cb097f8153245adeb65b40d63a7d0eee3c8c5558",
+"size":2098663,
+"timestamp":1624741007784,
+"version":"2.6.2"
 },
-"freud-2.6.1-py38h8088fe4_0.tar.bz2":{
+"freud-2.6.2-py38h8088fe4_0.tar.bz2":{
 "build":"py38h8088fe4_0",
 "build_number":0,
 "depends":[
@@ -29550,30 +29583,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"freud",
-"sha256":"2295f2fca59a80b716e714492c18f74066b32dccc50d9f7a8bccd52dd0f4c738",
-"size":2128821,
-"timestamp":1624482559126,
-"version":"2.6.1"
-},
-"freud-2.6.1-py39hd739f8d_0.tar.bz2":{
-"build":"py39hd739f8d_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.19.5,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"rowan >=1.2",
-"scipy >=1.1",
-"tbb >=2021.2.0"
-],
-"license":"BSD-3-Clause",
-"name":"freud",
-"sha256":"f44c163759d4f49e8c87d532352ea1fc3548bbda178a40fd78e604c56b09e911",
-"size":2132269,
-"timestamp":1624484651831,
-"version":"2.6.1"
+"sha256":"17c5211b19651178688d2786fad619964f59cf48e6f3aa25da3a8bc3041ec9b1",
+"size":2132346,
+"timestamp":1624741884793,
+"version":"2.6.2"
 },
 "fribidi-1.0.10-h516909a_0.tar.bz2":{
 "build":"h516909a_0",
