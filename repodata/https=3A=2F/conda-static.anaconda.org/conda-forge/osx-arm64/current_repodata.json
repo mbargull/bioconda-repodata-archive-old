@@ -3626,6 +3626,20 @@
 "timestamp":1623801153566,
 "version":"0.5.11"
 },
+"aws-c-cal-0.5.11-hb9b66c8_2.tar.bz2":{
+"build":"hb9b66c8_2",
+"build_number":2,
+"depends":[
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"sha256":"0f2a8cf9eda4f7f2ce9e6bc28246eb2b700e682b7ea4781d0fa0fde50d3df284",
+"size":28919,
+"timestamp":1624715261731,
+"version":"0.5.11"
+},
 "aws-c-cal-0.5.11-hc17f3fe_1.tar.bz2":{
 "build":"hc17f3fe_1",
 "build_number":1,
@@ -3800,6 +3814,19 @@
 "sha256":"4207435f187a46e26a88a586345df079561e2a12fa2bbe4dff136b9363e8ea04",
 "size":16786,
 "timestamp":1624528969114,
+"version":"0.2.13"
+},
+"aws-c-compression-0.2.13-h3b46aa8_2.tar.bz2":{
+"build":"h3b46aa8_2",
+"build_number":2,
+"depends":[
+"aws-c-common >=0.6.4,<0.6.5.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-compression",
+"sha256":"159bf2107ac20b442d89ba61c3ba6d1ebb154c0740b1e02e3eb1b6fbef47ce61",
+"size":16794,
+"timestamp":1624715292184,
 "version":"0.2.13"
 },
 "aws-c-compression-0.2.13-h487e1a8_0.tar.bz2":{
@@ -5053,6 +5080,28 @@
 "timestamp":1624585186218,
 "version":"0.14.2"
 },
+"aws-crt-cpp-0.14.2-hfa391d8_3.tar.bz2":{
+"build":"hfa391d8_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"sha256":"2332a930f63aaa084e51e89724513617b246e5ffce74de67d7eabdd7a29ff0cf",
+"size":157290,
+"timestamp":1624713867799,
+"version":"0.14.2"
+},
 "aws-sdk-cpp-1.8.186-h80dc20d_1.tar.bz2":{
 "build":"h80dc20d_1",
 "build_number":1,
@@ -5139,6 +5188,28 @@
 "timestamp":1624701680955,
 "version":"1.9.48"
 },
+"awscrt-0.11.25-py38h6266463_1.tar.bz2":{
+"build":"py38h6266463_1",
+"build_number":1,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"9842e2bab6a1502daec117778ba95de9bc79e422e8b68e78b683e4af01bec7b1",
+"size":111011,
+"timestamp":1624715375135,
+"version":"0.11.25"
+},
 "awscrt-0.11.25-py38h800ac52_0.tar.bz2":{
 "build":"py38h800ac52_0",
 "build_number":0,
@@ -5181,6 +5252,28 @@
 "sha256":"243d298e10ab359484896459c5e441ede2f85694adba182a4b8ed64b5da9ac9c",
 "size":108351,
 "timestamp":1624663993664,
+"version":"0.11.25"
+},
+"awscrt-0.11.25-py39h89b3210_1.tar.bz2":{
+"build":"py39h89b3210_1",
+"build_number":1,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"a51a3d438747df5a9bbfcab39179653658227ea775d81b362814c0da505e1b90",
+"size":108415,
+"timestamp":1624715375605,
 "version":"0.11.25"
 },
 "backports.lzma-0.0.14-py38he94ad69_3.tar.bz2":{
@@ -27990,7 +28083,7 @@
 "timestamp":1622307786663,
 "version":"3.4.2"
 },
-"mppp-0.23-hc3bee5b_0.tar.bz2":{
+"mppp-0.24-hc3bee5b_0.tar.bz2":{
 "build":"hc3bee5b_0",
 "build_number":0,
 "depends":[
@@ -28004,10 +28097,10 @@
 ],
 "license":"MPL-2.0",
 "name":"mppp",
-"sha256":"9af0d2b352b8b4366568a536a6894709685f6b55a55167f913eb1c442962a593",
-"size":176997,
-"timestamp":1624554071695,
-"version":"0.23"
+"sha256":"fe0021d1950df73e24324654082f62bd43df8bb212154e8f7d8c82f9e235bc47",
+"size":181334,
+"timestamp":1624715756913,
+"version":"0.24"
 },
 "msgpack-c-3.3.0-h0f81e16_3.tar.bz2":{
 "build":"h0f81e16_3",
