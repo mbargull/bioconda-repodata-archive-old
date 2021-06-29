@@ -24770,7 +24770,7 @@
 "constrains":[
 "scipy >=1.4",
 "cudnn >=8.0.5.39,<9.0a0",
-"cutensor >=1.2.2.5,<2.0a0",
+"cutensor =1.2.2.5",
 "nccl >=2.9.9.1,<3.0a0",
 "__glibc >=2.17",
 "optuna >=2"
@@ -24800,7 +24800,7 @@
 "constrains":[
 "scipy >=1.4",
 "cudnn >=8.0.5.39,<9.0a0",
-"cutensor >=1.2.2.5,<2.0a0",
+"cutensor =1.2.2.5",
 "optuna >=2",
 "nccl >=2.9.9.1,<3.0a0",
 "__glibc >=2.17"
@@ -24830,7 +24830,7 @@
 "constrains":[
 "cudnn >=8.0.5.39,<9.0a0",
 "scipy >=1.4",
-"cutensor >=1.2.2.5,<2.0a0",
+"cutensor =1.2.2.5",
 "nccl >=2.9.9.1,<3.0a0",
 "optuna >=2",
 "__glibc >=2.17"
@@ -24860,7 +24860,7 @@
 "build_number":0,
 "constrains":[
 "optuna >=2",
-"cutensor >=1.2.2.5,<2.0a0",
+"cutensor =1.2.2.5",
 "cudnn >=8.0.5.39,<9.0a0",
 "scipy >=1.4",
 "nccl >=2.9.9.1,<3.0a0",
@@ -24891,7 +24891,7 @@
 "constrains":[
 "scipy >=1.4",
 "__glibc >=2.17",
-"cutensor >=1.2.2.5,<2.0a0",
+"cutensor =1.2.2.5",
 "nccl >=2.9.9.1,<3.0a0",
 "cudnn >=8.0.5.39,<9.0a0",
 "optuna >=2"
@@ -66998,6 +66998,21 @@
 "timestamp":1610113412693,
 "version":"0.8.4"
 },
+"mistune-0.8.4-py36hc33305d_1004.tar.bz2":{
+"build":"py36hc33305d_1004",
+"build_number":1004,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"BSD-3-Clause",
+"name":"mistune",
+"sha256":"471c69bb34c53d8871665dad3ec9c846b2831f3782cf104b039a09384fee8392",
+"size":55196,
+"timestamp":1624942176313,
+"version":"0.8.4"
+},
 "mistune-0.8.4-py36he2a5fe2_1002.tar.bz2":{
 "build":"py36he2a5fe2_1002",
 "build_number":1002,
@@ -67044,6 +67059,22 @@
 "sha256":"95d08420c876d4301e9d75575fa94cfeaaa7b6ccc5d63eccce6becca33ca9cc7",
 "size":55340,
 "timestamp":1610113352574,
+"version":"0.8.4"
+},
+"mistune-0.8.4-py37h0630641_1004.tar.bz2":{
+"build":"py37h0630641_1004",
+"build_number":1004,
+"depends":[
+"libgcc-ng >=9.3.0",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"BSD-3-Clause",
+"name":"mistune",
+"sha256":"21ea2bc91ddc0703d244533df9d9933085946cfc99387eaa995c29589e6ffb02",
+"size":55259,
+"timestamp":1624942067750,
 "version":"0.8.4"
 },
 "mistune-0.8.4-py37h14c3975_1000.tar.bz2":{
@@ -67121,6 +67152,21 @@
 "sha256":"a5dd616152ae60dbec49191f5062df938070963e6c39f712c97eb1ec54054138",
 "size":55217,
 "timestamp":1610113493468,
+"version":"0.8.4"
+},
+"mistune-0.8.4-py37h6642d69_1004.tar.bz2":{
+"build":"py37h6642d69_1004",
+"build_number":1004,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-3-Clause",
+"name":"mistune",
+"sha256":"87e88afdcde88b68f3f01b02dc1f9b9921a61e9fb8582f77b59a9be21668076c",
+"size":55212,
+"timestamp":1624942328985,
 "version":"0.8.4"
 },
 "mistune-0.8.4-py37h6eb9509_1000.tar.bz2":{
@@ -67217,6 +67263,21 @@
 "timestamp":1610113377405,
 "version":"0.8.4"
 },
+"mistune-0.8.4-py38h98b8a6f_1004.tar.bz2":{
+"build":"py38h98b8a6f_1004",
+"build_number":1004,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"mistune",
+"sha256":"19b8222e541181fc08d2a995297a0c6b37a4a0b688b6f54f6ae71fea1a618194",
+"size":55348,
+"timestamp":1624941908901,
+"version":"0.8.4"
+},
 "mistune-0.8.4-py39h55af773_1002.tar.bz2":{
 "build":"py39h55af773_1002",
 "build_number":1002,
@@ -67260,6 +67321,21 @@
 "sha256":"f6824dfc1a632cabd1c18827525ff98d93a72713f19b9d536ef26e8538ca5d0c",
 "size":55290,
 "timestamp":1610113410073,
+"version":"0.8.4"
+},
+"mistune-0.8.4-py39ha810350_1004.tar.bz2":{
+"build":"py39ha810350_1004",
+"build_number":1004,
+"depends":[
+"libgcc-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"mistune",
+"sha256":"a3661668ff4006cc923aa4a5e9a21bc9fde58d1d3273a7d265159ff92666db3a",
+"size":55273,
+"timestamp":1624942067469,
 "version":"0.8.4"
 },
 "mlflow-1.18.0-py36ha29011c_0.tar.bz2":{
@@ -127980,6 +128056,20 @@
 "sha256":"54c710d2ec2cc619922196de00098c461fc9e0b80289255b42337cc5aecb76db",
 "size":225392,
 "timestamp":1624496613496,
+"version":"1.4.2"
+},
+"vector-classes-1.4.2-h2acdbc0_1.tar.bz2":{
+"build":"h2acdbc0_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"vector-classes",
+"sha256":"e2268e0385616f609c1fdf6b90b3128c6c0d1d690c4f4dd45168681106c9bb57",
+"size":228142,
+"timestamp":1624942822271,
 "version":"1.4.2"
 },
 "virtualenv-20.4.7-py36h270354c_0.tar.bz2":{
