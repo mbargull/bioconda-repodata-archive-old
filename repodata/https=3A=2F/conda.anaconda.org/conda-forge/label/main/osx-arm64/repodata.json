@@ -26901,6 +26901,23 @@
 "timestamp":1622414171470,
 "version":"3.6"
 },
+"cross-python_osx-64-3.6-13_cpython.tar.bz2":{
+"build":"13_cpython",
+"build_number":13,
+"depends":[
+"clang_osx-64",
+"crossenv >=1.0",
+"python 3.6.* *_cpython",
+"rsync",
+"sed"
+],
+"license":"LicenseRef-OTHER",
+"name":"cross-python_osx-64",
+"requires":[],
+"size":4275,
+"timestamp":1624999740295,
+"version":"3.6"
+},
 "cross-python_osx-64-3.6-6_cpython.tar.bz2":{
 "build":"6_cpython",
 "build_number":6,
@@ -27018,6 +27035,23 @@
 "requires":[],
 "size":4224,
 "timestamp":1622414193943,
+"version":"3.7"
+},
+"cross-python_osx-64-3.7-13_cpython.tar.bz2":{
+"build":"13_cpython",
+"build_number":13,
+"depends":[
+"clang_osx-64",
+"crossenv >=1.0",
+"python 3.7.* *_cpython",
+"rsync",
+"sed"
+],
+"license":"LicenseRef-OTHER",
+"name":"cross-python_osx-64",
+"requires":[],
+"size":4298,
+"timestamp":1624999520632,
 "version":"3.7"
 },
 "cross-python_osx-64-3.7-6_cpython.tar.bz2":{
@@ -27139,6 +27173,23 @@
 "timestamp":1622414177105,
 "version":"3.8"
 },
+"cross-python_osx-64-3.8-13_cpython.tar.bz2":{
+"build":"13_cpython",
+"build_number":13,
+"depends":[
+"clang_osx-64",
+"crossenv >=1.0",
+"python 3.8.* *_cpython",
+"rsync",
+"sed"
+],
+"license":"LicenseRef-OTHER",
+"name":"cross-python_osx-64",
+"requires":[],
+"size":4275,
+"timestamp":1624999508973,
+"version":"3.8"
+},
 "cross-python_osx-64-3.8-6_cpython.tar.bz2":{
 "build":"6_cpython",
 "build_number":6,
@@ -27256,6 +27307,23 @@
 "requires":[],
 "size":4229,
 "timestamp":1622414178228,
+"version":"3.9"
+},
+"cross-python_osx-64-3.9-13_cpython.tar.bz2":{
+"build":"13_cpython",
+"build_number":13,
+"depends":[
+"clang_osx-64",
+"crossenv >=1.0",
+"python 3.9.* *_cpython",
+"rsync",
+"sed"
+],
+"license":"LicenseRef-OTHER",
+"name":"cross-python_osx-64",
+"requires":[],
+"size":4281,
+"timestamp":1624999739623,
 "version":"3.9"
 },
 "cross-python_osx-64-3.9-6_cpython.tar.bz2":{
@@ -28961,6 +29029,21 @@
 "timestamp":1611351049617,
 "version":"0.11.0"
 },
+"cytoolz-0.11.0-py38hea4295b_3.tar.bz2":{
+"build":"py38hea4295b_3",
+"build_number":3,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"toolz >=0.10.0"
+],
+"license":"BSD-3-Clause",
+"name":"cytoolz",
+"requires":[],
+"size":343315,
+"timestamp":1624999494887,
+"version":"0.11.0"
+},
 "cytoolz-0.11.0-py39h46acfd9_1.tar.bz2":{
 "build":"py39h46acfd9_1",
 "build_number":1,
@@ -29004,6 +29087,21 @@
 "requires":[],
 "size":351347,
 "timestamp":1611351089782,
+"version":"0.11.0"
+},
+"cytoolz-0.11.0-py39h5161555_3.tar.bz2":{
+"build":"py39h5161555_3",
+"build_number":3,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"toolz >=0.10.0"
+],
+"license":"BSD-3-Clause",
+"name":"cytoolz",
+"requires":[],
+"size":351386,
+"timestamp":1624999430545,
 "version":"0.11.0"
 },
 "datrie-0.8.2-py38hea4295b_2.tar.bz2":{
@@ -31214,6 +31312,26 @@
 "size":4882226,
 "timestamp":1622575726127,
 "version":"21.2.1"
+},
+"eclib-20210503-h0a13220_1.tar.bz2":{
+"build":"h0a13220_1",
+"build_number":1,
+"depends":[
+"gf2x >=1.3.0,<1.4.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"pari >=2.13.2,<2.14.0a0",
+"pari >=2.13.2,<3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"eclib",
+"requires":[],
+"size":20922186,
+"timestamp":1624998029299,
+"version":"20210503"
 },
 "eclib-20210503-h3c95382_0.tar.bz2":{
 "build":"h3c95382_0",
@@ -36476,6 +36594,39 @@
 "size":57988644,
 "timestamp":1620993407861,
 "version":"9.54.0"
+},
+"giac-1.6.0.47-h02613a3_1.tar.bz2":{
+"build":"h02613a3_1",
+"build_number":1,
+"depends":[
+"ecm >=7.0.4,<8.0a0",
+"gettext >=0.19.8.1,<1.0a0",
+"gf2x >=1.3.0,<1.4.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gsl >=2.6,<2.7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"mpfi >=1.5.4,<1.6.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"nauty >=2.7.1,<3.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"ntl 11.4.3.*",
+"pari >=2.13.2,<2.14.0a0",
+"pari >=2.13.2,<3.0a0",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"giac",
+"requires":[],
+"size":51963289,
+"timestamp":1624998619652,
+"version":"1.6.0.47"
 },
 "giac-1.6.0.47-h7e7da32_0.tar.bz2":{
 "build":"h7e7da32_0",
@@ -106398,6 +106549,21 @@
 "timestamp":1600375069326,
 "version":"0.15.80"
 },
+"ruamel_yaml-0.15.80-py38hea4295b_1004.tar.bz2":{
+"build":"py38hea4295b_1004",
+"build_number":1004,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"MIT",
+"name":"ruamel_yaml",
+"requires":[],
+"size":243178,
+"timestamp":1625000091674,
+"version":"0.15.80"
+},
 "ruamel_yaml-0.15.80-py39h46acfd9_1003.tar.bz2":{
 "build":"py39h46acfd9_1003",
 "build_number":1003,
@@ -106426,6 +106592,21 @@
 "requires":[],
 "size":254800,
 "timestamp":1611943631591,
+"version":"0.15.80"
+},
+"ruamel_yaml-0.15.80-py39h5161555_1004.tar.bz2":{
+"build":"py39h5161555_1004",
+"build_number":1004,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"MIT",
+"name":"ruamel_yaml",
+"requires":[],
+"size":249551,
+"timestamp":1625000097361,
 "version":"0.15.80"
 },
 "ruamel_yaml-0.15.80-py39h51e6412_1003.tar.bz2":{
@@ -114033,6 +114214,19 @@
 "requires":[],
 "size":1582579,
 "timestamp":1622574282351,
+"version":"2.023.6"
+},
+"sympow-2.023.6-ha37eb38_1.tar.bz2":{
+"build":"ha37eb38_1",
+"build_number":1,
+"depends":[
+"pari"
+],
+"license":"LicenseRef-BSD-like",
+"name":"sympow",
+"requires":[],
+"size":1580056,
+"timestamp":1624998726563,
 "version":"2.023.6"
 },
 "sympy-1.6.2-py38h10201cd_1.tar.bz2":{
