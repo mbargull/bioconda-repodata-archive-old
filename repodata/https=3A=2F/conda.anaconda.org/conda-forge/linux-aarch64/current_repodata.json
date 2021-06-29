@@ -10830,7 +10830,7 @@
 "timestamp":1620322604875,
 "version":"1.8.186"
 },
-"aws-sdk-cpp-1.9.48-hf456e99_0.tar.bz2":{
+"aws-sdk-cpp-1.9.49-hf456e99_0.tar.bz2":{
 "build":"hf456e99_0",
 "build_number":0,
 "depends":[
@@ -10844,10 +10844,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"73989d86445c65ccf1f14019c15daf157e7111183c43581c7ffb6b463f940c16",
-"size":4637495,
-"timestamp":1624701468330,
-"version":"1.9.48"
+"sha256":"b452c29e1c1af4a4b7f798a336bbb549b1c5a1ce738a3521d9e1299e6896424b",
+"size":4636351,
+"timestamp":1624958654677,
+"version":"1.9.49"
 },
 "awscli-1.19.102-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
@@ -103512,69 +103512,37 @@
 "timestamp":1621653109104,
 "version":"1.2.2.2"
 },
-"r-multicool-0.1_11-r36he1b5a44_1.tar.bz2":{
-"build":"r36he1b5a44_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"r-base >=3.6,<3.7.0a0",
-"r-rcpp >=0.11.2"
-],
-"license":"GPL-2",
-"name":"r-multicool",
-"sha256":"6cc789fbe0bcbba8ca26da616a3fb57dff1c41ebf105e8fbd2c344853ec84a6e",
-"size":135220,
-"timestamp":1588672338869,
-"version":"0.1_11"
-},
-"r-multicool-0.1_11-r40h01db608_1.tar.bz2":{
-"build":"r40h01db608_1",
-"build_number":1,
+"r-multicool-0.1_12-r40hecdc70b_0.tar.bz2":{
+"build":"r40hecdc70b_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "r-base >=4.0,<4.1.0a0",
 "r-rcpp >=0.11.2"
 ],
-"license":"GPL-2",
+"license":"GPL-2.0-only",
 "name":"r-multicool",
-"sha256":"aee6480120e059bafdedcbc3e2c7178e3a9f2b2ec796a838d3680967838cb17e",
-"size":128763,
-"timestamp":1621646273598,
-"version":"0.1_11"
+"sha256":"94bc415982cc67aa8c8db3881df4ce2a185aef6859d87b65e2f3a0c8ab17390b",
+"size":128702,
+"timestamp":1624960490727,
+"version":"0.1_12"
 },
-"r-multicool-0.1_11-r40he1b5a44_1.tar.bz2":{
-"build":"r40he1b5a44_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
-"r-base >=4.0,<4.1.0a0",
-"r-rcpp >=0.11.2"
-],
-"license":"GPL-2",
-"name":"r-multicool",
-"sha256":"d4138dd2e77cf78004bb633a63ae55744a5712d0788d66d0342f8a8186671ae5",
-"size":134763,
-"timestamp":1588672018672,
-"version":"0.1_11"
-},
-"r-multicool-0.1_11-r41h01db608_1.tar.bz2":{
-"build":"r41h01db608_1",
-"build_number":1,
+"r-multicool-0.1_12-r41hecdc70b_0.tar.bz2":{
+"build":"r41hecdc70b_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "r-base >=4.1,<4.2.0a0",
 "r-rcpp >=0.11.2"
 ],
-"license":"GPL-2",
+"license":"GPL-2.0-only",
 "name":"r-multicool",
-"sha256":"552aac35e37f9e4e4e460a9f4bae084d516be295e0190bed066821a271e5b0c4",
-"size":128792,
-"timestamp":1621646278134,
-"version":"0.1_11"
+"sha256":"81a969e0235f8063b014c9ca7215dfa305f5b2a78cc57409a5c26010043a2619",
+"size":128795,
+"timestamp":1624960992532,
+"version":"0.1_12"
 },
 "r-mvtnorm-1.1_2-r40h6fc6016_0.tar.bz2":{
 "build":"r40h6fc6016_0",
@@ -107168,7 +107136,7 @@
 "timestamp":1621938668567,
 "version":"0.4.0"
 },
-"r-sf-1.0_0-r40h2aa11ae_0.tar.bz2":{
+"r-sf-1.0_1-r40h2aa11ae_0.tar.bz2":{
 "build":"r40h2aa11ae_0",
 "build_number":0,
 "depends":[
@@ -107186,33 +107154,10 @@
 ],
 "license":"GPL-2.0-only OR MIT",
 "name":"r-sf",
-"sha256":"7e385a1ced90c1d17230a3809276a2ec16ddff4c96b4e6faf227706e42d88de6",
-"size":3491277,
-"timestamp":1623604220277,
-"version":"1.0_0"
-},
-"r-sf-1.0_0-r41h2aa11ae_0.tar.bz2":{
-"build":"r41h2aa11ae_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libgdal >=3.3.0,<3.4.0a0",
-"libstdcxx-ng >=9.3.0",
-"proj >=8.0.1,<8.0.2.0a0",
-"r-base >=4.1,<4.2.0a0",
-"r-classint >=0.4_1",
-"r-dbi >=0.8",
-"r-magrittr",
-"r-rcpp >=0.12.18",
-"r-s2",
-"r-units >=0.6_0"
-],
-"license":"GPL-2.0-only OR MIT",
-"name":"r-sf",
-"sha256":"eddce48e6a344db54ebe5ac08ffb90755ba5c857493b9a23b5af39207c38c05d",
-"size":3466634,
-"timestamp":1623603218910,
-"version":"1.0_0"
+"sha256":"e81024ef1748309c18e75b5b1dd1045505fa9a8161dba887bc25b87cd802f82c",
+"size":3481419,
+"timestamp":1624964484923,
+"version":"1.0_1"
 },
 "r-sfheaders-0.4.0-r36hecdc70b_0.tar.bz2":{
 "build":"r36hecdc70b_0",
