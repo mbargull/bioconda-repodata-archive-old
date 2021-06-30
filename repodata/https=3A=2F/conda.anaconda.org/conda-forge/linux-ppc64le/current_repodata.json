@@ -12305,6 +12305,23 @@
 "timestamp":1623303885072,
 "version":"0.6.0"
 },
+"aws-c-auth-0.6.1-ha706f7a_3.tar.bz2":{
+"build":"ha706f7a_3",
+"build_number":3,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"fcb6206971562eb07224946882a6aa9b71537e9fc51477b64665225e7e007ffa",
+"size":116481,
+"timestamp":1625053292509,
+"version":"0.6.1"
+},
 "aws-c-auth-0.6.1-hcdfaf4f_0.tar.bz2":{
 "build":"hcdfaf4f_0",
 "build_number":0,
@@ -13314,6 +13331,22 @@
 "timestamp":1623957667678,
 "version":"0.10.5"
 },
+"aws-c-io-0.10.6-h1a5c4eb_1.tar.bz2":{
+"build":"h1a5c4eb_1",
+"build_number":1,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"5bb3411b4671b216d9f19ff646e593c1c9f28b61540ca9bc08faf84a38977e17",
+"size":130268,
+"timestamp":1625054279693,
+"version":"0.10.6"
+},
 "aws-c-io-0.10.6-hf331cb0_0.tar.bz2":{
 "build":"hf331cb0_0",
 "build_number":0,
@@ -13633,6 +13666,22 @@
 "size":130164,
 "timestamp":1619882312282,
 "version":"0.9.4"
+},
+"aws-c-mqtt-0.7.6-h319985f_13.tar.bz2":{
+"build":"h319985f_13",
+"build_number":13,
+"depends":[
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"031e44d40c871a8d84ab695b5d2f2e96f585b3cb4addeac52e15e0f0dcd98c35",
+"size":62259,
+"timestamp":1625053269296,
+"version":"0.7.6"
 },
 "aws-c-mqtt-0.7.6-h4fe0d26_11.tar.bz2":{
 "build":"h4fe0d26_11",
