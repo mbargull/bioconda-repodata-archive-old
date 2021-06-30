@@ -12398,6 +12398,22 @@
 "timestamp":1622319688572,
 "version":"0.2.7"
 },
+"aws-c-event-stream-0.2.7-h6e407c5_17.tar.bz2":{
+"build":"h6e407c5_17",
+"build_number":17,
+"depends":[
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"8b481edde2fbf8f557ed13dce66100557c15a509dc627f832b9edc43fe9bbbd6",
+"size":42548,
+"timestamp":1625064332011,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-h95f6e17_2.tar.bz2":{
 "build":"h95f6e17_2",
 "build_number":2,
@@ -12767,6 +12783,21 @@
 "sha256":"71851283ad7834b2084ceeef42cec6ad1da6b7ad76e097ac334a66cb0af44f81",
 "size":130968,
 "timestamp":1622795646866,
+"version":"0.6.4"
+},
+"aws-c-http-0.6.4-hf9f4bfc_13.tar.bz2":{
+"build":"hf9f4bfc_13",
+"build_number":13,
+"depends":[
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-compression >=0.2.13,<0.2.14.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"sha256":"f45c4d6bad4064340ede592260daf19a0bb1fe9ed4d7e03d0bb1e349ef485d98",
+"size":130902,
+"timestamp":1625064172136,
 "version":"0.6.4"
 },
 "aws-c-io-0.10.1-h3b87e79_0.tar.bz2":{
@@ -13810,6 +13841,22 @@
 "sha256":"4fcc5927c8515f9823b7b511d433984253713058d78104a6737495f55d58eb8e",
 "size":45443,
 "timestamp":1624667207791,
+"version":"0.1.21"
+},
+"aws-c-s3-0.1.21-hde1636e_2.tar.bz2":{
+"build":"hde1636e_2",
+"build_number":2,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-s3",
+"sha256":"863557176ac22fd4f1acc59cab554fac6852661ab6ac21a5e76eb1f3ca28383a",
+"size":45441,
+"timestamp":1625063481811,
 "version":"0.1.21"
 },
 "aws-c-s3-0.1.21-he364a8d_1.tar.bz2":{
@@ -15716,6 +15763,20 @@
 "timestamp":1612137778209,
 "version":"2.35.1"
 },
+"binutils_impl_linux-64-2.36.1-hcc02660_0.tar.bz2":{
+"build":"hcc02660_0",
+"build_number":0,
+"depends":[
+"ld_impl_linux-64 2.36.1 h10b3681_0",
+"sysroot_linux-64"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-64",
+"sha256":"bcf7a0b87123e5c4b80d20d6f9c2d023670e7e5a688174cb481f6a7a3759dc72",
+"size":10320430,
+"timestamp":1625066166472,
+"version":"2.36.1"
+},
 "binutils_impl_linux-aarch64-2.35.1-h882c8bc_1.tar.bz2":{
 "build":"h882c8bc_1",
 "build_number":1,
@@ -15744,6 +15805,20 @@
 "timestamp":1612137783903,
 "version":"2.35.1"
 },
+"binutils_impl_linux-aarch64-2.36.1-h7700ffd_0.tar.bz2":{
+"build":"h7700ffd_0",
+"build_number":0,
+"depends":[
+"ld_impl_linux-aarch64 2.36.1 h5c495d5_0",
+"sysroot_linux-aarch64"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-aarch64",
+"sha256":"6421f80b8cc78efc8af8e038be3612acf4b885eaf548d0867732005be740dcca",
+"size":10446767,
+"timestamp":1625066231996,
+"version":"2.36.1"
+},
 "binutils_impl_linux-ppc64le-2.35.1-h84939c5_1.tar.bz2":{
 "build":"h84939c5_1",
 "build_number":1,
@@ -15771,6 +15846,20 @@
 "size":10553762,
 "timestamp":1612137786885,
 "version":"2.35.1"
+},
+"binutils_impl_linux-ppc64le-2.36.1-h9b10378_0.tar.bz2":{
+"build":"h9b10378_0",
+"build_number":0,
+"depends":[
+"ld_impl_linux-ppc64le 2.36.1 h5cbf1db_0",
+"sysroot_linux-ppc64le"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-ppc64le",
+"sha256":"8ec1a1fe84ba6a8885c1519a8fca5403dce2bb01cea5195b322f202190a6a246",
+"size":10848911,
+"timestamp":1625066157351,
+"version":"2.36.1"
 },
 "biopython-1.78-py38h30f7421_1.tar.bz2":{
 "build":"py38h30f7421_1",
@@ -54506,6 +54595,20 @@
 "timestamp":1612137756884,
 "version":"2.35.1"
 },
+"ld_impl_linux-64-2.36.1-h10b3681_0.tar.bz2":{
+"build":"h10b3681_0",
+"build_number":0,
+"constrains":[
+"binutils_impl_linux-64 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-64",
+"sha256":"258b98b3ecf689a49edd7df3aa2dc4dc9c3df31aee5f1377e903a9aefd4d249d",
+"size":683420,
+"timestamp":1625066142704,
+"version":"2.36.1"
+},
 "ld_impl_linux-aarch64-2.35.1-h048d457_1.tar.bz2":{
 "build":"h048d457_1",
 "build_number":1,
@@ -54534,6 +54637,20 @@
 "timestamp":1612137758705,
 "version":"2.35.1"
 },
+"ld_impl_linux-aarch64-2.36.1-h5c495d5_0.tar.bz2":{
+"build":"h5c495d5_0",
+"build_number":0,
+"constrains":[
+"binutils_impl_linux-aarch64 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-aarch64",
+"sha256":"e33d82084ee08f70cf7237846816194ccf8d509bda1ddb22eb2c346b9af6d2a7",
+"size":696114,
+"timestamp":1625066208711,
+"version":"2.36.1"
+},
 "ld_impl_linux-ppc64le-2.35.1-h72dcb25_1.tar.bz2":{
 "build":"h72dcb25_1",
 "build_number":1,
@@ -54561,6 +54678,20 @@
 "size":690909,
 "timestamp":1612137764176,
 "version":"2.35.1"
+},
+"ld_impl_linux-ppc64le-2.36.1-h5cbf1db_0.tar.bz2":{
+"build":"h5cbf1db_0",
+"build_number":0,
+"constrains":[
+"binutils_impl_linux-ppc64le 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-ppc64le",
+"sha256":"e939f1dade2ee7f7ef04ce1050f8f032494ebfc87463cc88bc878b7800d03eb2",
+"size":732478,
+"timestamp":1625066134285,
+"version":"2.36.1"
 },
 "ldid-2.1.2-h34db0f2_2.tar.bz2":{
 "build":"h34db0f2_2",
@@ -96432,6 +96563,52 @@
 "size":1333951,
 "timestamp":1617048351914,
 "version":"0.9.1"
+},
+"python-igraph-0.9.4-py38h107f8ee_0.tar.bz2":{
+"build":"py38h107f8ee_0",
+"build_number":0,
+"depends":[
+"arpack >=3.7.0,<3.7.1.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"suitesparse >=5.10.1,<6.0a0",
+"texttable >=1.6.2"
+],
+"license":"GPL-2.0-or-later",
+"name":"python-igraph",
+"sha256":"fc7a78bdec6f851f4afd3309ea8580e586edffea2a68f9796f7b4cd5bf5c122f",
+"size":1325984,
+"timestamp":1625061474210,
+"version":"0.9.4"
+},
+"python-igraph-0.9.4-py39ha0bc573_0.tar.bz2":{
+"build":"py39ha0bc573_0",
+"build_number":0,
+"depends":[
+"arpack >=3.7.0,<3.7.1.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"suitesparse >=5.10.1,<6.0a0",
+"texttable >=1.6.2"
+],
+"license":"GPL-2.0-or-later",
+"name":"python-igraph",
+"sha256":"98d7d976d6e619223d76cc544283c2745dc80dbfeb8302390d417a6244dc251f",
+"size":1352852,
+"timestamp":1625061491666,
+"version":"0.9.4"
 },
 "python-libarchive-c-2.9-py38h045b1e1_2.tar.bz2":{
 "build":"py38h045b1e1_2",
