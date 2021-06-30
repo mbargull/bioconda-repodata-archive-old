@@ -12531,6 +12531,19 @@
 "timestamp":1624649034004,
 "version":"0.6.4"
 },
+"aws-c-common-0.6.5-h4e0d66e_0.tar.bz2":{
+"build":"h4e0d66e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"7fa9633f006a0218e5c8d4c85864c7c9a2306c593371bd95300b4e48c14cb0a5",
+"size":179362,
+"timestamp":1625017744548,
+"version":"0.6.5"
+},
 "aws-c-compression-0.2.11-hf332d29_0.tar.bz2":{
 "build":"hf332d29_0",
 "build_number":0,
@@ -13238,6 +13251,22 @@
 "size":130942,
 "timestamp":1623957667678,
 "version":"0.10.5"
+},
+"aws-c-io-0.10.6-hf331cb0_0.tar.bz2":{
+"build":"hf331cb0_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"311b75e7755b261b3307eebdde4bb03ff0d0d798c799855bff13718961762a83",
+"size":130329,
+"timestamp":1625017683679,
+"version":"0.10.6"
 },
 "aws-c-io-0.9.0-h438d9a4_1.tar.bz2":{
 "build":"h438d9a4_1",

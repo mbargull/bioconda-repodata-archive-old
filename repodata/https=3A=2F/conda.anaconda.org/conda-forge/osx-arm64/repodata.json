@@ -11871,6 +11871,17 @@
 "timestamp":1624649274147,
 "version":"0.6.4"
 },
+"aws-c-common-0.6.5-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"43543f637801fe5ac4ee3a47123b3d87b76e8fa00e6efafc3af44f752c6ace44",
+"size":151948,
+"timestamp":1625017887624,
+"version":"0.6.5"
+},
 "aws-c-compression-0.2.11-h3b87e79_0.tar.bz2":{
 "build":"h3b87e79_0",
 "build_number":0,
@@ -12741,6 +12752,20 @@
 "size":112595,
 "timestamp":1623957950099,
 "version":"0.10.5"
+},
+"aws-c-io-0.10.6-he5e40cf_0.tar.bz2":{
+"build":"he5e40cf_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.4,<0.6.5.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"8579e41a507bd063de6b59d2c62504934e8b09b70557d163c04276d42c0552f2",
+"size":112488,
+"timestamp":1625017663185,
+"version":"0.10.6"
 },
 "aws-c-io-0.6.5-h3723fa0_0.tar.bz2":{
 "build":"h3723fa0_0",
@@ -52843,6 +52868,34 @@
 "size":150213,
 "timestamp":1612916413552,
 "version":"1.4.14"
+},
+"keepalive-0.5-py38h10201cd_5.tar.bz2":{
+"build":"py38h10201cd_5",
+"build_number":5,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-or-later",
+"name":"keepalive",
+"sha256":"e05605ac50c7927b7116c6a453c2419e476787cf7ac1385c5bdbbda261281183",
+"size":29360,
+"timestamp":1625020207393,
+"version":"0.5"
+},
+"keepalive-0.5-py39h2804cbe_5.tar.bz2":{
+"build":"py39h2804cbe_5",
+"build_number":5,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-2.1-or-later",
+"name":"keepalive",
+"sha256":"f588b2c2ac7dfa7512e81190a4f549a389ec6e8b48dd379628274afe6bd944ae",
+"size":29351,
+"timestamp":1625020345366,
+"version":"0.5"
 },
 "keyring-21.2.1-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
