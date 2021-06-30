@@ -7779,7 +7779,7 @@
 "timestamp":1623109903892,
 "version":"2.5.8"
 },
-"astroid-2.6.1-py36h704843e_0.tar.bz2":{
+"astroid-2.6.2-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -7793,63 +7793,10 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"2efe5d8ed05c9085d9f4f998f0f253acbf62c62c9040229a0b7b015fcb7975ac",
-"size":325895,
-"timestamp":1625001943580,
-"version":"2.6.1"
-},
-"astroid-2.6.1-py37hd9ded2f_0.tar.bz2":{
-"build":"py37hd9ded2f_0",
-"build_number":0,
-"depends":[
-"lazy-object-proxy >=1.4.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"setuptools",
-"typed-ast >=1.4.0,<1.5",
-"typing-extensions >=3.7.4",
-"wrapt >=1.11,<1.13"
-],
-"license":"LGPL-2.1-or-later",
-"name":"astroid",
-"sha256":"660af8419a0b436d094c683360431ad75aaa2e0ef131363695703c22f478323d",
-"size":324972,
-"timestamp":1625002876738,
-"version":"2.6.1"
-},
-"astroid-2.6.1-py38h2063c64_0.tar.bz2":{
-"build":"py38h2063c64_0",
-"build_number":0,
-"depends":[
-"lazy-object-proxy >=1.4.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"setuptools",
-"wrapt >=1.11,<1.13"
-],
-"license":"LGPL-2.1-or-later",
-"name":"astroid",
-"sha256":"4c341d6ab013aedec17b8b7f0caed1df4ef3a7aa1c9a498558a8794e80fb4809",
-"size":326988,
-"timestamp":1625003517115,
-"version":"2.6.1"
-},
-"astroid-2.6.1-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"lazy-object-proxy >=1.4.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"setuptools",
-"wrapt >=1.11,<1.13"
-],
-"license":"LGPL-2.1-or-later",
-"name":"astroid",
-"sha256":"6910c81126c9cf3463515c38b64944eb05f3da5a7fd0e674fdf6c607084ad9a9",
-"size":319704,
-"timestamp":1625004281448,
-"version":"2.6.1"
+"sha256":"be493aca2c5d3413cd6ad855891bf4137a4308815e89ea40e1d6accde91c50b0",
+"size":329773,
+"timestamp":1625057763407,
+"version":"2.6.2"
 },
 "astropy-4.2.1-py37h9d4e727_0.tar.bz2":{
 "build":"py37h9d4e727_0",
@@ -34390,16 +34337,16 @@
 "timestamp":1601851934979,
 "version":"9.3.0"
 },
-"gh-1.11.0-h652cbe9_0.tar.bz2":{
+"gh-1.12.0-h652cbe9_0.tar.bz2":{
 "build":"h652cbe9_0",
 "build_number":0,
 "depends":[],
 "license":"Apache-2.0",
 "name":"gh",
-"sha256":"18fcf466619b01ef861de8d123ba03c4c407daf17e34d02a1e110c7c87e6ecaa",
-"size":9568245,
-"timestamp":1622818553532,
-"version":"1.11.0"
+"sha256":"5c56c3b74c2826d36c8a1350c78409c479c004a2662840da761896811448fe15",
+"size":9590795,
+"timestamp":1625058060721,
+"version":"1.12.0"
 },
 "ghc-8.2.2-h7b4aead_1003.tar.bz2":{
 "build":"h7b4aead_1003",
@@ -49042,6 +48989,31 @@
 "sha256":"35d37d30b41513c1e39eca8b78d64b95a9348d3b33cb0691727a320653a4985e",
 "size":1183744,
 "timestamp":1624647167110,
+"version":"7.25.0"
+},
+"ipython-7.25.0-py37h9e1f083_1.tar.bz2":{
+"build":"py37h9e1f083_1",
+"build_number":1,
+"depends":[
+"backcall",
+"decorator",
+"jedi >=0.16,<1.0",
+"matplotlib-inline >=0.1.2",
+"pexpect >4.3",
+"pickleshare",
+"prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
+"pygments",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"setuptools >=18.5",
+"traitlets >=4.2"
+],
+"license":"BSD-3-Clause",
+"name":"ipython",
+"sha256":"aa7f189dcaa67c2c06e2a2897b85d47f037989161e1c500f9c46ea6f967d1b7c",
+"size":1188447,
+"timestamp":1625056755809,
 "version":"7.25.0"
 },
 "ipython-7.25.0-py37ha2c4c82_0.tar.bz2":{
