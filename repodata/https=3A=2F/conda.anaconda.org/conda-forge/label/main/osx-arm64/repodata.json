@@ -11527,6 +11527,20 @@
 "timestamp":1622768321282,
 "version":"0.5.10"
 },
+"aws-c-cal-0.5.11-h11e6f8f_3.tar.bz2":{
+"build":"h11e6f8f_3",
+"build_number":3,
+"depends":[
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"requires":[],
+"size":28941,
+"timestamp":1625045339013,
+"version":"0.5.11"
+},
 "aws-c-cal-0.5.11-h4530763_0.tar.bz2":{
 "build":"h4530763_0",
 "build_number":0,
@@ -12010,6 +12024,19 @@
 "requires":[],
 "size":16801,
 "timestamp":1623989177924,
+"version":"0.2.13"
+},
+"aws-c-compression-0.2.13-h9bbb45d_3.tar.bz2":{
+"build":"h9bbb45d_3",
+"build_number":3,
+"depends":[
+"aws-c-common >=0.6.5,<0.6.6.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-compression",
+"requires":[],
+"size":16812,
+"timestamp":1625045736633,
 "version":"0.2.13"
 },
 "aws-c-event-stream-0.1.6-h0d44b10_6.tar.bz2":{
@@ -13855,6 +13882,19 @@
 "requires":[],
 "size":49661,
 "timestamp":1620108998492,
+"version":"0.1.11"
+},
+"aws-checksums-0.1.11-h9bbb45d_10.tar.bz2":{
+"build":"h9bbb45d_10",
+"build_number":10,
+"depends":[
+"aws-c-common >=0.6.5,<0.6.6.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-checksums",
+"requires":[],
+"size":49698,
+"timestamp":1625050360927,
 "version":"0.1.11"
 },
 "aws-checksums-0.1.11-haff9573_0.tar.bz2":{
@@ -63436,6 +63476,20 @@
 "timestamp":1622808303155,
 "version":"0.7.19"
 },
+"libsolv-0.7.19-hccf11d3_2.tar.bz2":{
+"build":"hccf11d3_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv",
+"requires":[],
+"size":396171,
+"timestamp":1625051609414,
+"version":"0.7.19"
+},
 "libsolv-static-0.7.14-h74e0e61_5.tar.bz2":{
 "build":"h74e0e61_5",
 "build_number":5,
@@ -63539,6 +63593,21 @@
 "requires":[],
 "size":319223,
 "timestamp":1622808326380,
+"version":"0.7.19"
+},
+"libsolv-static-0.7.19-hccf11d3_2.tar.bz2":{
+"build":"hccf11d3_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"libsolv 0.7.19 hccf11d3_2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv-static",
+"requires":[],
+"size":322594,
+"timestamp":1625051632027,
 "version":"0.7.19"
 },
 "libspatialindex-1.9.3-h9f76cd9_3.tar.bz2":{
@@ -82323,6 +82392,23 @@
 "timestamp":1612090805182,
 "version":"3.0.5"
 },
+"preshed-3.0.5-py38h6f2b01f_1.tar.bz2":{
+"build":"py38h6f2b01f_1",
+"build_number":1,
+"depends":[
+"cymem >=2.0.2,<2.1.0",
+"libcxx >=11.1.0",
+"murmurhash >=0.28.0,<1.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"preshed",
+"requires":[],
+"size":90335,
+"timestamp":1625049369363,
+"version":"3.0.5"
+},
 "preshed-3.0.5-py39h93dc1e2_0.tar.bz2":{
 "build":"py39h93dc1e2_0",
 "build_number":0,
@@ -82338,6 +82424,23 @@
 "requires":[],
 "size":87802,
 "timestamp":1612090827788,
+"version":"3.0.5"
+},
+"preshed-3.0.5-py39hfb83b0d_1.tar.bz2":{
+"build":"py39hfb83b0d_1",
+"build_number":1,
+"depends":[
+"cymem >=2.0.2,<2.1.0",
+"libcxx >=11.1.0",
+"murmurhash >=0.28.0,<1.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"preshed",
+"requires":[],
+"size":87864,
+"timestamp":1625049252129,
 "version":"3.0.5"
 },
 "proj-7.2.0-h1f90baf_2.tar.bz2":{
