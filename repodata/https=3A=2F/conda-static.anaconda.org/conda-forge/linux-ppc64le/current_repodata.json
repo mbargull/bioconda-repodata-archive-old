@@ -14030,6 +14030,20 @@
 "timestamp":1624728495956,
 "version":"0.1.11"
 },
+"aws-checksums-0.1.11-hccaf88e_10.tar.bz2":{
+"build":"hccaf88e_10",
+"build_number":10,
+"depends":[
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-checksums",
+"sha256":"a56001b401eb825b508eee4373183be99b406aab8548bc89fd09ed51aeac69f8",
+"size":50891,
+"timestamp":1625050100866,
+"version":"0.1.11"
+},
 "aws-checksums-0.1.11-hf332d29_6.tar.bz2":{
 "build":"hf332d29_6",
 "build_number":6,
@@ -63358,9 +63372,9 @@
 "timestamp":1600956893390,
 "version":"1.0.18"
 },
-"libsolv-0.7.18-h690f14c_0.tar.bz2":{
-"build":"h690f14c_0",
-"build_number":0,
+"libsolv-0.7.19-h690f14c_2.tar.bz2":{
+"build":"h690f14c_2",
+"build_number":2,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -63368,26 +63382,26 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libsolv",
-"sha256":"b192dd2b504b424d8cde7e255a7fa88dc8fac0c0845de07cfb198f558bd54236",
-"size":482604,
-"timestamp":1616780203480,
-"version":"0.7.18"
+"sha256":"d0b16e33d37573ec2d1dc88c00669f8c603deb2b7ac7572370ea6e1d23c88376",
+"size":488218,
+"timestamp":1625051417404,
+"version":"0.7.19"
 },
-"libsolv-static-0.7.18-h690f14c_0.tar.bz2":{
-"build":"h690f14c_0",
-"build_number":0,
+"libsolv-static-0.7.19-h690f14c_2.tar.bz2":{
+"build":"h690f14c_2",
+"build_number":2,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libsolv 0.7.18 h690f14c_0",
+"libsolv 0.7.19 h690f14c_2",
 "libstdcxx-ng >=9.3.0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"libsolv-static",
-"sha256":"c9e18e2eab31d689893cd1de57709a8c8236baba574eb8d057af1abf49dbde71",
-"size":476266,
-"timestamp":1616780241932,
-"version":"0.7.18"
+"sha256":"cb9f71ef2ed4eed4cd120db30af5dea5856581ab731a697f2628123bcc4e50d6",
+"size":484158,
+"timestamp":1625051451392,
+"version":"0.7.19"
 },
 "libspatialite-5.0.1-ha254d40_5.tar.bz2":{
 "build":"ha254d40_5",
@@ -85091,6 +85105,24 @@
 "timestamp":1610460377048,
 "version":"3.0.5"
 },
+"preshed-3.0.5-py36h08d3667_1.tar.bz2":{
+"build":"py36h08d3667_1",
+"build_number":1,
+"depends":[
+"cymem >=2.0.2,<2.1.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"murmurhash >=0.28.0,<1.1.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"MIT",
+"name":"preshed",
+"sha256":"c0695f5108764d113372cc6860fdd6b916ca2ba0212ab17673ec4052177f120c",
+"size":121741,
+"timestamp":1625049453267,
+"version":"3.0.5"
+},
 "preshed-3.0.5-py36hdee431b_0.tar.bz2":{
 "build":"py36hdee431b_0",
 "build_number":0,
@@ -85128,6 +85160,24 @@
 "timestamp":1607337940919,
 "version":"3.0.5"
 },
+"preshed-3.0.5-py37hc9b93fd_1.tar.bz2":{
+"build":"py37hc9b93fd_1",
+"build_number":1,
+"depends":[
+"cymem >=2.0.2,<2.1.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"murmurhash >=0.28.0,<1.1.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"MIT",
+"name":"preshed",
+"sha256":"d94065e464f1d6e581b1d5b88d6231f223a39bc87eb7a516839f9f5664db9d48",
+"size":121344,
+"timestamp":1625049490945,
+"version":"3.0.5"
+},
 "preshed-3.0.5-py37hfc837b7_0.tar.bz2":{
 "build":"py37hfc837b7_0",
 "build_number":0,
@@ -85145,6 +85195,25 @@
 "sha256":"ab8adddd6fd6dee5158536515ecda6e58a96dffc6eddd7e91f96162a3865e2bf",
 "size":96113,
 "timestamp":1610460366877,
+"version":"3.0.5"
+},
+"preshed-3.0.5-py37hfc837b7_1.tar.bz2":{
+"build":"py37hfc837b7_1",
+"build_number":1,
+"depends":[
+"cymem >=2.0.2,<2.1.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"murmurhash >=0.28.0,<1.1.0",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"MIT",
+"name":"preshed",
+"sha256":"b88e6b7e91d3664a96aa86ad1089f12a8817ed6aa7184a408e44bcc67cf16a37",
+"size":96842,
+"timestamp":1625049534501,
 "version":"3.0.5"
 },
 "preshed-3.0.5-py38ha35a538_0.tar.bz2":{
@@ -85165,6 +85234,24 @@
 "timestamp":1607337943361,
 "version":"3.0.5"
 },
+"preshed-3.0.5-py38ha35a538_1.tar.bz2":{
+"build":"py38ha35a538_1",
+"build_number":1,
+"depends":[
+"cymem >=2.0.2,<2.1.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"murmurhash >=0.28.0,<1.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"preshed",
+"sha256":"786452ab90d68c9eae0338d3520f9326e53b00119bced9ff87572f27dacf7613",
+"size":124483,
+"timestamp":1625049224594,
+"version":"3.0.5"
+},
 "preshed-3.0.5-py39had50986_0.tar.bz2":{
 "build":"py39had50986_0",
 "build_number":0,
@@ -85181,6 +85268,24 @@
 "sha256":"f31fb16129c7e5bfb9f9c40db46d5fcbddd0fc88a2d2e581f55fe4d48a4d0a37",
 "size":122800,
 "timestamp":1610460347466,
+"version":"3.0.5"
+},
+"preshed-3.0.5-py39had50986_1.tar.bz2":{
+"build":"py39had50986_1",
+"build_number":1,
+"depends":[
+"cymem >=2.0.2,<2.1.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"murmurhash >=0.28.0,<1.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"preshed",
+"sha256":"ded791be3913aed1e5ab8796ea075ea92e782f4e25f453a4fc747944f4996088",
+"size":123317,
+"timestamp":1625049459754,
 "version":"3.0.5"
 },
 "prmon-2.2.0-h2acdbc0_0.tar.bz2":{
