@@ -7779,7 +7779,7 @@
 "timestamp":1623109903892,
 "version":"2.5.8"
 },
-"astroid-2.6.0-py36h704843e_0.tar.bz2":{
+"astroid-2.6.1-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -7793,12 +7793,12 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"0794c74e4611d242433fa27bad959c97c3c51ff132be4ecea58733bc0e9afe6a",
-"size":330296,
-"timestamp":1624401076994,
-"version":"2.6.0"
+"sha256":"2efe5d8ed05c9085d9f4f998f0f253acbf62c62c9040229a0b7b015fcb7975ac",
+"size":325895,
+"timestamp":1625001943580,
+"version":"2.6.1"
 },
-"astroid-2.6.0-py37hd9ded2f_0.tar.bz2":{
+"astroid-2.6.1-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
@@ -7812,12 +7812,12 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"8387b4e9ed93effc85d5c744faea72f875ec6a37295d374ce5c51ffb00ae6f95",
-"size":325726,
-"timestamp":1624401705842,
-"version":"2.6.0"
+"sha256":"660af8419a0b436d094c683360431ad75aaa2e0ef131363695703c22f478323d",
+"size":324972,
+"timestamp":1625002876738,
+"version":"2.6.1"
 },
-"astroid-2.6.0-py38h2063c64_0.tar.bz2":{
+"astroid-2.6.1-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
@@ -7829,12 +7829,12 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"fe562a978e8f2c1279a938df315679b5de1d74a230f1f8afc8bb498e43a00dc9",
-"size":319645,
-"timestamp":1624402285785,
-"version":"2.6.0"
+"sha256":"4c341d6ab013aedec17b8b7f0caed1df4ef3a7aa1c9a498558a8794e80fb4809",
+"size":326988,
+"timestamp":1625003517115,
+"version":"2.6.1"
 },
-"astroid-2.6.0-py39ha65689a_0.tar.bz2":{
+"astroid-2.6.1-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
@@ -7846,10 +7846,10 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"ef58a378ced2f12483775199238f6ff8d59cf8ab43b7fc85a763fd68826c4962",
-"size":326071,
-"timestamp":1624402721895,
-"version":"2.6.0"
+"sha256":"6910c81126c9cf3463515c38b64944eb05f3da5a7fd0e674fdf6c607084ad9a9",
+"size":319704,
+"timestamp":1625004281448,
+"version":"2.6.1"
 },
 "astropy-4.2.1-py37h9d4e727_0.tar.bz2":{
 "build":"py37h9d4e727_0",
@@ -23006,6 +23006,24 @@
 "timestamp":1607336485763,
 "version":"2.0.5"
 },
+"cypari2-2.1.2-py36h3919b4b_1.tar.bz2":{
+"build":"py36h3919b4b_1",
+"build_number":1,
+"depends":[
+"cysignals",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"pari >=2.13.2,<2.14.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"GPL-2.0-or-later",
+"name":"cypari2",
+"sha256":"345f6737bf653aafe07f0c89207491dcc4482b31645c7743b1ec7b0c824a866f",
+"size":1907384,
+"timestamp":1625008836409,
+"version":"2.1.2"
+},
 "cypari2-2.1.2-py36h5b39506_0.tar.bz2":{
 "build":"py36h5b39506_0",
 "build_number":0,
@@ -23040,6 +23058,24 @@
 "sha256":"c62e250c9477c1d090c56ba964bc55ac45ad4ccb45d47760055323cc87161c8b",
 "size":1799499,
 "timestamp":1622250568208,
+"version":"2.1.2"
+},
+"cypari2-2.1.2-py37h81d138e_1.tar.bz2":{
+"build":"py37h81d138e_1",
+"build_number":1,
+"depends":[
+"cysignals",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"pari >=2.13.2,<2.14.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"GPL-2.0-or-later",
+"name":"cypari2",
+"sha256":"0b944f6f583bfaad409aa3e53833d40af6ae55c9a08ac46a9dc5ccca9c84e39b",
+"size":1883843,
+"timestamp":1625010644338,
 "version":"2.1.2"
 },
 "cypari2-2.1.2-py38hc0e9138_0.tar.bz2":{
@@ -93004,6 +93040,21 @@
 "sha256":"f45decfb4af251f058dd18e2536ba3818cd0b86e93f68a5aee874551d9314af7",
 "size":4730,
 "timestamp":1619325433625,
+"track_features":"pypy",
+"version":"3.7.10"
+},
+"python-3.7.10-1_73_pypy.tar.bz2":{
+"build":"1_73_pypy",
+"build_number":1,
+"depends":[
+"pypy3.7 7.3.5.*",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"BSD-3-Clause",
+"name":"python",
+"sha256":"84e939d92a65c875db973d5fc15b03214a82ee941c226285298c47f6e7bbab6c",
+"size":4579,
+"timestamp":1625003166318,
 "track_features":"pypy",
 "version":"3.7.10"
 },
