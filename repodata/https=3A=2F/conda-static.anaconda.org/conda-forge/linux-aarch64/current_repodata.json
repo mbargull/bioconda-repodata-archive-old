@@ -20068,13 +20068,13 @@
 "timestamp":1624198149935,
 "version":"1.2.0"
 },
-"conda-4.10.2-py36h704843e_0.tar.bz2":{
+"conda-4.10.3-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "constrains":[
+"cytoolz >=0.8.1",
 "conda-build >=3",
-"conda-env >=2.6",
-"cytoolz >=0.8.1"
+"conda-env >=2.6"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -20088,12 +20088,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"3d86e7c5296569181d971e3d9e992f34bac5b1475921bf070ce7d505b3ddfa3e",
-"size":3208221,
-"timestamp":1624899433453,
-"version":"4.10.2"
+"sha256":"f98faf2d21fd6b3daf3f21b15671fbbbab6bfd847d3cbab09ba05727e97b871c",
+"size":3209195,
+"timestamp":1625073617224,
+"version":"4.10.3"
 },
-"conda-4.10.2-py37h4bcbb9b_0.tar.bz2":{
+"conda-4.10.3-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "constrains":[
@@ -20105,7 +20105,7 @@
 "conda-package-handling >=1.3.0",
 "pycosat >=0.6.3",
 "pyopenssl >=16.2.0",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "requests >=2.18.4,<3",
@@ -20114,18 +20114,18 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"5ebf9fb0c7445f0233a410331423dad008039fccbe27159ead1c7f96b60054cb",
-"size":3216681,
-"timestamp":1624900276367,
-"version":"4.10.2"
+"sha256":"c8fdb45db28e9ccf9ad5ea84a384ce3561b73d4dbc7275a02907c5c7c8baf9fc",
+"size":3203377,
+"timestamp":1625073972447,
+"version":"4.10.3"
 },
-"conda-4.10.2-py37hd9ded2f_0.tar.bz2":{
+"conda-4.10.3-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "constrains":[
 "cytoolz >=0.8.1",
-"conda-build >=3",
-"conda-env >=2.6"
+"conda-env >=2.6",
+"conda-build >=3"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -20139,18 +20139,18 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"677f06dae037cbee61095f1333b07eb810a72eb3f9529de086ee2adcc1cc058b",
-"size":3201707,
-"timestamp":1624901009256,
-"version":"4.10.2"
+"sha256":"64396317a6751886f6f1e5572d2528b100a6658c057e2f74712f94a1506f5f13",
+"size":3214972,
+"timestamp":1625074233398,
+"version":"4.10.3"
 },
-"conda-4.10.2-py38h2063c64_0.tar.bz2":{
+"conda-4.10.3-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "constrains":[
+"cytoolz >=0.8.1",
 "conda-build >=3",
-"conda-env >=2.6",
-"cytoolz >=0.8.1"
+"conda-env >=2.6"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -20164,18 +20164,18 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"2e74fc0fea10b120301e148d494e0e10de80a1d809f7cc805205d18c1e52ab81",
-"size":3215660,
-"timestamp":1624912383567,
-"version":"4.10.2"
+"sha256":"599bbf77c7da2c71dab79879253977a7dc2101439879113faf31619635e75075",
+"size":3186885,
+"timestamp":1625074579955,
+"version":"4.10.3"
 },
-"conda-4.10.2-py39ha65689a_0.tar.bz2":{
+"conda-4.10.3-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "constrains":[
-"cytoolz >=0.8.1",
 "conda-build >=3",
-"conda-env >=2.6"
+"conda-env >=2.6",
+"cytoolz >=0.8.1"
 ],
 "depends":[
 "conda-package-handling >=1.3.0",
@@ -20189,10 +20189,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda",
-"sha256":"604d227362e4fa37bf2cadce22e1082483be8f2d76b25e491686c541bbb3c4ef",
-"size":3201239,
-"timestamp":1624902354520,
-"version":"4.10.2"
+"sha256":"b16a0b2966f344a3efa1647a85d50caff89a8c5030d1ea43ac4deecd6926ba38",
+"size":3194011,
+"timestamp":1625075340439,
+"version":"4.10.3"
 },
 "conda-build-3.21.4-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
@@ -76611,7 +76611,7 @@
 "timestamp":1621769059631,
 "version":"1.6.8"
 },
-"orjson-3.5.3-py36h269c3a8_0.tar.bz2":{
+"orjson-3.5.4-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
 "depends":[
@@ -76621,12 +76621,12 @@
 ],
 "license":"Apache-2.0",
 "name":"orjson",
-"sha256":"ea3daef72ef412f8e7144f2fd879e30d326927b61f5eb0cb6aa4a1617c33e1be",
-"size":229065,
-"timestamp":1622585904371,
-"version":"3.5.3"
+"sha256":"494dcab6ed66c10d9740ef8ae1007613484e779967e0fdc2c6b3159e2b589202",
+"size":229042,
+"timestamp":1625072827665,
+"version":"3.5.4"
 },
-"orjson-3.5.3-py37hcd4c3ab_0.tar.bz2":{
+"orjson-3.5.4-py37hcd4c3ab_0.tar.bz2":{
 "build":"py37hcd4c3ab_0",
 "build_number":0,
 "depends":[
@@ -76636,12 +76636,12 @@
 ],
 "license":"Apache-2.0",
 "name":"orjson",
-"sha256":"be238addec80de993acba6adffc200256d9b726637e407ddb5e454199252bc90",
-"size":229065,
-"timestamp":1622585411133,
-"version":"3.5.3"
+"sha256":"99e095aad987a5d5e3d9173b7ed7c08b0c4435b2b7add6071ed1117adc9f9831",
+"size":229094,
+"timestamp":1625074013539,
+"version":"3.5.4"
 },
-"orjson-3.5.3-py38h9544abe_0.tar.bz2":{
+"orjson-3.5.4-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
@@ -76651,25 +76651,10 @@
 ],
 "license":"Apache-2.0",
 "name":"orjson",
-"sha256":"cb8fafe5f5fd061fc9229a25c1b9e051c56f20039ae1df7206bdd6a0c29bf7d5",
-"size":229091,
-"timestamp":1622585392551,
-"version":"3.5.3"
-},
-"orjson-3.5.3-py39h14843e3_0.tar.bz2":{
-"build":"py39h14843e3_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"Apache-2.0",
-"name":"orjson",
-"sha256":"f73907e48638fc96e5c9187694217a2da50f69e1f629e3144e7ffdea09959034",
-"size":229102,
-"timestamp":1622585875984,
-"version":"3.5.3"
+"sha256":"489c2dd08df14a6d81e13695bf9817f3b11dd5b2b0e8e0e58b5b302d3067b288",
+"size":229038,
+"timestamp":1625075257516,
+"version":"3.5.4"
 },
 "orocos-kdl-1.5.0-h0119ad3_0.tar.bz2":{
 "build":"h0119ad3_0",
