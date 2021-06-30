@@ -2223,6 +2223,54 @@
 "timestamp":1623360470952,
 "version":"4.1.0"
 },
+"ansible-4.2.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"ansible-core",
+"boto",
+"cryptography",
+"httplib2",
+"jinja2",
+"openstacksdk",
+"paramiko",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"setuptools",
+"six"
+],
+"license":"GPL-3.0-only",
+"name":"ansible",
+"requires":[],
+"size":48316318,
+"timestamp":1625043669108,
+"version":"4.2.0"
+},
+"ansible-4.2.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"ansible-core",
+"boto",
+"cryptography",
+"httplib2",
+"jinja2",
+"openstacksdk",
+"paramiko",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"setuptools",
+"six"
+],
+"license":"GPL-3.0-only",
+"name":"ansible",
+"requires":[],
+"size":48268355,
+"timestamp":1625043589793,
+"version":"4.2.0"
+},
 "antic-0.2.4-h309154c_1.tar.bz2":{
 "build":"h309154c_1",
 "build_number":1,
@@ -12181,6 +12229,22 @@
 "timestamp":1614105405427,
 "version":"0.2.6"
 },
+"aws-c-event-stream-0.2.7-h21752da_16.tar.bz2":{
+"build":"h21752da_16",
+"build_number":16,
+"depends":[
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"requires":[],
+"size":42488,
+"timestamp":1625044721638,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-h2d5be8c_9.tar.bz2":{
 "build":"h2d5be8c_9",
 "build_number":9,
@@ -12555,6 +12619,21 @@
 "requires":[],
 "size":130999,
 "timestamp":1623360059898,
+"version":"0.6.4"
+},
+"aws-c-http-0.6.4-hbecd5e0_12.tar.bz2":{
+"build":"hbecd5e0_12",
+"build_number":12,
+"depends":[
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-compression >=0.2.13,<0.2.14.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"requires":[],
+"size":130845,
+"timestamp":1625044747384,
 "version":"0.6.4"
 },
 "aws-c-http-0.6.4-hd3b1c10_2.tar.bz2":{
