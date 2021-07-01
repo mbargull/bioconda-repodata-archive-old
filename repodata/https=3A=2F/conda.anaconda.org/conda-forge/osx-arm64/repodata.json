@@ -102078,6 +102078,72 @@
 "timestamp":1623889979226,
 "version":"3.0.3"
 },
+"r-testthat-3.0.4-r40h8ea1354_0.tar.bz2":{
+"build":"r40h8ea1354_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.0,<4.1.0a0",
+"r-brio",
+"r-callr >=3.5.1",
+"r-cli",
+"r-crayon >=1.3.4",
+"r-desc",
+"r-digest",
+"r-ellipsis >=0.2.0",
+"r-evaluate",
+"r-jsonlite",
+"r-lifecycle",
+"r-magrittr",
+"r-pkgload",
+"r-praise",
+"r-processx",
+"r-ps >=1.3.4",
+"r-r6 >=2.2.0",
+"r-rlang >=0.4.1",
+"r-waldo >=0.2.1",
+"r-withr >=2.0.0"
+],
+"license":"MIT",
+"name":"r-testthat",
+"sha256":"a046668c4465df0c42027232aedfabd89997cb868f1dd4741e7639911d4c9aad",
+"size":1659841,
+"timestamp":1625148990952,
+"version":"3.0.4"
+},
+"r-testthat-3.0.4-r41h8ea1354_0.tar.bz2":{
+"build":"r41h8ea1354_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.1,<4.2.0a0",
+"r-brio",
+"r-callr >=3.5.1",
+"r-cli",
+"r-crayon >=1.3.4",
+"r-desc",
+"r-digest",
+"r-ellipsis >=0.2.0",
+"r-evaluate",
+"r-jsonlite",
+"r-lifecycle",
+"r-magrittr",
+"r-pkgload",
+"r-praise",
+"r-processx",
+"r-ps >=1.3.4",
+"r-r6 >=2.2.0",
+"r-rlang >=0.4.1",
+"r-waldo >=0.2.1",
+"r-withr >=2.0.0"
+],
+"license":"MIT",
+"name":"r-testthat",
+"sha256":"7f02b5895bb56b62618ec91064f52010a41d9810a26b640d1b8bd750230ab447",
+"size":1678019,
+"timestamp":1625149072404,
+"version":"3.0.4"
+},
 "r-textshaping-0.3.4-r40h5f05ef5_0.tar.bz2":{
 "build":"r40h5f05ef5_0",
 "build_number":0,
@@ -115444,6 +115510,19 @@
 "timestamp":1624628335706,
 "version":"2021.2.0"
 },
+"tbb-2021.3.0-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"tbb",
+"sha256":"930475e47e284395f1a56d66468b67b92d06917c9b9e369ded6a2cfc7efa92f3",
+"size":140118,
+"timestamp":1625150003316,
+"version":"2021.3.0"
+},
 "tbb-devel-2020.2-h260d524_1.tar.bz2":{
 "build":"h260d524_1",
 "build_number":1,
@@ -115555,6 +115634,20 @@
 "size":921537,
 "timestamp":1624628357653,
 "version":"2021.2.0"
+},
+"tbb-devel-2021.3.0-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"tbb 2021.3.0 hc021e02_0"
+],
+"license":"Apache-2.0",
+"name":"tbb-devel",
+"sha256":"0e409391af15a989aa604a021522b30bde4a7d007736ebde0654e0ec410575f8",
+"size":959558,
+"timestamp":1625150029186,
+"version":"2021.3.0"
 },
 "tbb4py-2020.2-py38h12a6f45_1.tar.bz2":{
 "build":"py38h12a6f45_1",
@@ -115703,6 +115796,38 @@
 "size":56173,
 "timestamp":1624628468091,
 "version":"2021.2.0"
+},
+"tbb4py-2021.3.0-py38he878d44_0.tar.bz2":{
+"build":"py38he878d44_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tbb >=2021.3.0"
+],
+"license":"Apache 2.0",
+"name":"tbb4py",
+"sha256":"37fe64421ba48f0daeefdf82eb572f4f1e734856e714f33ded6569b427424396",
+"size":54918,
+"timestamp":1625150154801,
+"version":"2021.3.0"
+},
+"tbb4py-2021.3.0-py39h2e161d8_0.tar.bz2":{
+"build":"py39h2e161d8_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tbb >=2021.3.0"
+],
+"license":"Apache 2.0",
+"name":"tbb4py",
+"sha256":"8298aa4db4d140f6329274abc02b3c45d24efa3021e9fa87091ff5d2364afd80",
+"size":55109,
+"timestamp":1625150270954,
+"version":"2021.3.0"
 },
 "tensorflow-2.4.0-py38h150bfb4_0.tar.bz2":{
 "build":"py38h150bfb4_0",
