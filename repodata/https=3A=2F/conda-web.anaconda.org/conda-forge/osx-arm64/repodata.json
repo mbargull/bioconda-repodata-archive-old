@@ -26388,6 +26388,60 @@
 "timestamp":1619922649843,
 "version":"3.9.4"
 },
+"conda-forge-ci-setup-3.9.5-py38h970ee7d_0.tar.bz2":{
+"build":"py38h970ee7d_0",
+"build_number":0,
+"depends":[
+"anaconda-client",
+"click",
+"conda >=4.3",
+"conda-build 3.*",
+"conda-env",
+"git",
+"jinja2",
+"jq",
+"pip",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"requests",
+"ruamel_yaml",
+"shyaml"
+],
+"license":"BSD-3-Clause",
+"name":"conda-forge-ci-setup",
+"requires":[],
+"size":40082,
+"timestamp":1625160045643,
+"version":"3.9.5"
+},
+"conda-forge-ci-setup-3.9.5-py39h6861412_0.tar.bz2":{
+"build":"py39h6861412_0",
+"build_number":0,
+"depends":[
+"anaconda-client",
+"click",
+"conda >=4.3",
+"conda-build 3.*",
+"conda-env",
+"git",
+"jinja2",
+"jq",
+"pip",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"requests",
+"ruamel_yaml",
+"shyaml"
+],
+"license":"BSD-3-Clause",
+"name":"conda-forge-ci-setup",
+"requires":[],
+"size":40112,
+"timestamp":1625160186995,
+"version":"3.9.5"
+},
 "conda-package-handling-1.7.0-py38h51573d8_6.tar.bz2":{
 "build":"py38h51573d8_6",
 "build_number":6,
@@ -118494,6 +118548,26 @@
 "timestamp":1625152865222,
 "version":"0.9.1"
 },
+"torchvision-0.9.1-py38h4ddca67_1_cpu.tar.bz2":{
+"build":"py38h4ddca67_1_cpu",
+"build_number":1,
+"depends":[
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libpng >=1.6.37,<1.7.0a0",
+"numpy >=1.19.5,<2.0a0",
+"pillow >=4.1.1,<8.3",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytorch >=1.8.0 cpu*"
+],
+"license":"BSD-3-Clause",
+"name":"torchvision",
+"requires":[],
+"size":6902700,
+"timestamp":1625158528737,
+"version":"0.9.1"
+},
 "torchvision-0.9.1-py39h0a40b5a_0_cpu.tar.bz2":{
 "build":"py39h0a40b5a_0_cpu",
 "build_number":0,
@@ -118512,6 +118586,26 @@
 "requires":[],
 "size":6893900,
 "timestamp":1625152919068,
+"version":"0.9.1"
+},
+"torchvision-0.9.1-py39h0a40b5a_1_cpu.tar.bz2":{
+"build":"py39h0a40b5a_1_cpu",
+"build_number":1,
+"depends":[
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libpng >=1.6.37,<1.7.0a0",
+"numpy >=1.19.5,<2.0a0",
+"pillow >=4.1.1,<8.3",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytorch >=1.8.0 cpu*"
+],
+"license":"BSD-3-Clause",
+"name":"torchvision",
+"requires":[],
+"size":6893032,
+"timestamp":1625158473352,
 "version":"0.9.1"
 },
 "torchvision-cpu-0.8.2-hd610c6a_0.tar.bz2":{
@@ -118564,6 +118658,19 @@
 "requires":[],
 "size":5922,
 "timestamp":1625152875247,
+"version":"0.9.1"
+},
+"torchvision-cpu-0.9.1-hd610c6a_1.tar.bz2":{
+"build":"hd610c6a_1",
+"build_number":1,
+"depends":[
+"torchvision 0.9.1 *_cpu"
+],
+"license":"BSD-3-Clause",
+"name":"torchvision-cpu",
+"requires":[],
+"size":5933,
+"timestamp":1625158485879,
 "version":"0.9.1"
 },
 "tornado-6.1-py38h30f7421_0.tar.bz2":{
