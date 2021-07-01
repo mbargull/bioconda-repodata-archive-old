@@ -10452,6 +10452,27 @@
 "timestamp":1622055696856,
 "version":"7.77.0"
 },
+"cvxopt-1.2.6-py38h92b8a37_0.tar.bz2":{
+"build":"py38h92b8a37_0",
+"build_number":0,
+"depends":[
+"dsdp",
+"fftw >=3.3.9,<4.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gsl >=2.6,<2.7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"suitesparse >=5.10.1,<6.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"cvxopt",
+"sha256":"f825609e8b9a553241e066c68a9d7f5eba9d3c5b79db155f87228889494c3dc1",
+"size":511389,
+"timestamp":1625166925292,
+"version":"1.2.6"
+},
 "cvxopt-1.2.6-py38hdf93f0b_0.tar.bz2":{
 "build":"py38hdf93f0b_0",
 "build_number":0,
@@ -10471,6 +10492,27 @@
 "sha256":"9a501aeabf2c90fae2b8e9d6e18cfa14b186b8ea453ec5e8cfba1f1db1e7ca5f",
 "size":499316,
 "timestamp":1616337646767,
+"version":"1.2.6"
+},
+"cvxopt-1.2.6-py39hc4ccb2a_0.tar.bz2":{
+"build":"py39hc4ccb2a_0",
+"build_number":0,
+"depends":[
+"dsdp",
+"fftw >=3.3.9,<4.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gsl >=2.6,<2.7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"suitesparse >=5.10.1,<6.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"cvxopt",
+"sha256":"39ddc5f9409f3fc2a72439a2d51f73e25be0cdb6c1c00d263c2122c8fe806824",
+"size":498003,
+"timestamp":1625167136559,
 "version":"1.2.6"
 },
 "cvxopt-1.2.6-py39hfa239e5_0.tar.bz2":{
@@ -28058,6 +28100,42 @@
 "timestamp":1622563180352,
 "version":"5.45.0"
 },
+"meds-0.9.14-py38h691f20f_0.tar.bz2":{
+"build":"py38h691f20f_0",
+"build_number":0,
+"depends":[
+"esutil",
+"fitsio",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"meds",
+"sha256":"7715db1cc78fe6aae264ed454f3fab49d2c85736d4ef26f4f4e5888255094cec",
+"size":109402,
+"timestamp":1625167377402,
+"version":"0.9.14"
+},
+"meds-0.9.14-py39h20ef057_0.tar.bz2":{
+"build":"py39h20ef057_0",
+"build_number":0,
+"depends":[
+"esutil",
+"fitsio",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"meds",
+"sha256":"e8450d059a760e3a891e3daecca20888de5912ef33e5b227ef619039ddd09983",
+"size":109342,
+"timestamp":1625167463977,
+"version":"0.9.14"
+},
 "meshpy-2020.1-py38h9b9bf68_0.tar.bz2":{
 "build":"py38h9b9bf68_0",
 "build_number":0,
@@ -33448,6 +33526,25 @@
 "sha256":"48f10c442f4bb026148bd6ada1166a1bc96f37c15ebf1dfd62afa6fe04fdeae4",
 "size":2727456,
 "timestamp":1625104796172,
+"version":"8.1.0"
+},
+"proj-8.1.0-h2d984c1_1.tar.bz2":{
+"build":"h2d984c1_1",
+"build_number":1,
+"constrains":[
+"proj4 ==999999999999"
+],
+"depends":[
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"libtiff >=4.3.0,<5.0a0",
+"sqlite >=3.36.0,<4.0a0"
+],
+"license":"MIT",
+"name":"proj",
+"sha256":"bd1970abd44391c19dc9c8f56d6790ee835adfc98017e886775bc128d7d8cabb",
+"size":2711611,
+"timestamp":1625166676910,
 "version":"8.1.0"
 },
 "protobuf-3.17.2-py38h6f2b01f_0.tar.bz2":{

@@ -82539,6 +82539,26 @@
 "timestamp":1625105751288,
 "version":"8.1.0"
 },
+"proj-8.1.0-h83638df_1.tar.bz2":{
+"build":"h83638df_1",
+"build_number":1,
+"constrains":[
+"proj4 ==999999999999"
+],
+"depends":[
+"libcurl >=7.77.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.3.0,<5.0a0",
+"sqlite >=3.36.0,<4.0a0"
+],
+"license":"MIT",
+"name":"proj",
+"sha256":"c9bce76d4b1c4503527e4c648b454eb2248b49a5dc9f22ac4e660cee71971519",
+"size":2908969,
+"timestamp":1625166165728,
+"version":"8.1.0"
+},
 "promise-2.3-py36h2e20a7f_3.tar.bz2":{
 "build":"py36h2e20a7f_3",
 "build_number":3,
@@ -122759,7 +122779,7 @@
 "timestamp":1589778765738,
 "version":"2.0.1"
 },
-"sourmash-minimal-4.1.2-py37h1283c21_0.tar.bz2":{
+"sourmash-minimal-4.2.0-py37h1283c21_0.tar.bz2":{
 "build":"py37h1283c21_0",
 "build_number":0,
 "depends":[
@@ -122767,7 +122787,8 @@
 "cffi >=1.14",
 "deprecation >=2.0.6",
 "libgcc-ng >=9.3.0",
-"pypy3.7 >=7.3.4",
+"numpy",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "screed >=1.0.5",
@@ -122775,70 +122796,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"sourmash-minimal",
-"sha256":"c44429c4868a072f011feed3a6aa29925f25bed1d2fee77fe9b192df4df8c28c",
-"size":8001571,
-"timestamp":1623113617507,
-"version":"4.1.2"
-},
-"sourmash-minimal-4.1.2-py37hcd4c3ab_0.tar.bz2":{
-"build":"py37hcd4c3ab_0",
-"build_number":0,
-"depends":[
-"cachetools >=4.2.1",
-"cffi >=1.14",
-"deprecation >=2.0.6",
-"libgcc-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"screed >=1.0.5",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"sourmash-minimal",
-"sha256":"aed94401425a949a5bbee50b8e89367de4fec1ac9a5f816f66e6355797eab898",
-"size":7985183,
-"timestamp":1623113591728,
-"version":"4.1.2"
-},
-"sourmash-minimal-4.1.2-py38h9544abe_0.tar.bz2":{
-"build":"py38h9544abe_0",
-"build_number":0,
-"depends":[
-"cachetools >=4.2.1",
-"cffi >=1.14",
-"deprecation >=2.0.6",
-"libgcc-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"screed >=1.0.5",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"sourmash-minimal",
-"sha256":"3b30154f9db70e82e15b2edfdd75a86e78b57d5d6b6d53660be50fa3a2d0ca6b",
-"size":7957742,
-"timestamp":1623112955798,
-"version":"4.1.2"
-},
-"sourmash-minimal-4.1.2-py39h14843e3_0.tar.bz2":{
-"build":"py39h14843e3_0",
-"build_number":0,
-"depends":[
-"cachetools >=4.2.1",
-"cffi >=1.14",
-"deprecation >=2.0.6",
-"libgcc-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"screed >=1.0.5",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"sourmash-minimal",
-"sha256":"f8cf0e8811a9255512bf464c52c6f02724d8bd78900ee30b9b4421890c31e04c",
-"size":7964921,
-"timestamp":1623113197531,
-"version":"4.1.2"
+"sha256":"6d25aaedb679a511c97207c80015db19a6d2929b82ae1c7622f769f272da019e",
+"size":8031285,
+"timestamp":1625169583786,
+"version":"4.2.0"
 },
 "spacy-3.0.6-py36h2e26b47_0.tar.bz2":{
 "build":"py36h2e26b47_0",
