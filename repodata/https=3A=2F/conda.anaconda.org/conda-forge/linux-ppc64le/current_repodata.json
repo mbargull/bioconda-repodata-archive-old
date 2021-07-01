@@ -128889,13 +128889,15 @@
 "timestamp":1621892375844,
 "version":"20.4.7"
 },
-"vispy-0.6.6-py36h1655f53_0.tar.bz2":{
+"vispy-0.7.0-py36h1655f53_0.tar.bz2":{
 "build":"py36h1655f53_0",
 "build_number":0,
 "depends":[
 "fontconfig >=2.13.1,<3.0a0",
 "fonts-conda-ecosystem",
 "freetype-py",
+"hsluv",
+"kiwisolver",
 "libgcc-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
 "python >=3.6,<3.7.0a0",
@@ -128903,74 +128905,42 @@
 ],
 "license":"BSD-3-Clause",
 "name":"vispy",
-"sha256":"f9423650cfb2e5b2140e8e9a07b61c2334cbbaa1e8c00167b30d4f1c2c028371",
-"size":2353554,
-"timestamp":1619790974327,
-"version":"0.6.6"
+"sha256":"1e0e24e86fbb130006829a192ba9b70b6e25f11f07064a5c53c89b67988ffdac",
+"size":2322841,
+"timestamp":1625097713184,
+"version":"0.7.0"
 },
-"vispy-0.6.6-py36h6ff9f20_0.tar.bz2":{
-"build":"py36h6ff9f20_0",
-"build_number":0,
-"depends":[
-"fontconfig >=2.13.1,<3.0a0",
-"freetype-py",
-"libgcc-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
-],
-"license":"BSD-3-Clause",
-"name":"vispy",
-"sha256":"7ef768e10cefb866780c5a513ad030bc1ee93f8e985191df972902ed0558de6b",
-"size":2370854,
-"timestamp":1606568220861,
-"version":"0.6.6"
-},
-"vispy-0.6.6-py36he5ecf6a_0.tar.bz2":{
-"build":"py36he5ecf6a_0",
-"build_number":0,
-"depends":[
-"fontconfig >=2.13.1,<3.0a0",
-"freetype-py",
-"libgcc-ng >=9.3.0",
-"numpy >=1.18.5,<2.0a0",
-"pypy3.6 >=7.3.2",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"BSD-3-Clause",
-"name":"vispy",
-"sha256":"982bd0c44840e23fb5d3a185766869a2c3c1e5edd902bea224d5aae1a7534276",
-"size":2276029,
-"timestamp":1606568274723,
-"version":"0.6.6"
-},
-"vispy-0.6.6-py37h6fea2ec_0.tar.bz2":{
+"vispy-0.7.0-py37h6fea2ec_0.tar.bz2":{
 "build":"py37h6fea2ec_0",
 "build_number":0,
 "depends":[
 "fontconfig >=2.13.1,<3.0a0",
+"fonts-conda-ecosystem",
 "freetype-py",
+"hsluv",
+"kiwisolver",
 "libgcc-ng >=9.3.0",
 "numpy >=1.19.5,<2.0a0",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"BSD-3-Clause",
 "name":"vispy",
-"sha256":"a3823d96eb55eb49b9a378c948b8b1031e2ba59469717fe984855aba9679a7d1",
-"size":2312361,
-"timestamp":1610508341760,
-"version":"0.6.6"
+"sha256":"33cd57d7bd2acc368b83498c11bd1aaa45e647e2d75b28da0a4580e3e6f3ca0c",
+"size":2332171,
+"timestamp":1625097627695,
+"version":"0.7.0"
 },
-"vispy-0.6.6-py37h7299073_0.tar.bz2":{
+"vispy-0.7.0-py37h7299073_0.tar.bz2":{
 "build":"py37h7299073_0",
 "build_number":0,
 "depends":[
 "fontconfig >=2.13.1,<3.0a0",
 "fonts-conda-ecosystem",
 "freetype-py",
+"hsluv",
+"kiwisolver",
 "libgcc-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
 "python >=3.7,<3.8.0a0",
@@ -128978,54 +128948,20 @@
 ],
 "license":"BSD-3-Clause",
 "name":"vispy",
-"sha256":"3a76e54c2ce5e10bbde6f08437dced964c2a58f8058fc026920659355ba6fe91",
-"size":2372775,
-"timestamp":1619790768718,
-"version":"0.6.6"
+"sha256":"0e99415bb5f04364ee40c0f27c002cc87a09d5bc75c7fac0373eda1e8a41d1cb",
+"size":2367072,
+"timestamp":1625097778560,
+"version":"0.7.0"
 },
-"vispy-0.6.6-py37hbff6865_0.tar.bz2":{
-"build":"py37hbff6865_0",
-"build_number":0,
-"depends":[
-"fontconfig >=2.13.1,<3.0a0",
-"freetype-py",
-"libgcc-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"BSD-3-Clause",
-"name":"vispy",
-"sha256":"cbc307af984e07e708ce22470d5981c7b944b3af3a4263ec43ce97cecdbd8c90",
-"size":2387455,
-"timestamp":1606568352325,
-"version":"0.6.6"
-},
-"vispy-0.6.6-py38h2ec6f40_0.tar.bz2":{
-"build":"py38h2ec6f40_0",
-"build_number":0,
-"depends":[
-"fontconfig >=2.13.1,<3.0a0",
-"freetype-py",
-"libgcc-ng >=9.3.0",
-"numpy >=1.16.5,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"vispy",
-"sha256":"293d59f269349d08c26e7a7b65229fc12b3a0d6f239d322b5e45d6857129b8a5",
-"size":2303855,
-"timestamp":1606568087647,
-"version":"0.6.6"
-},
-"vispy-0.6.6-py38h8b8a128_0.tar.bz2":{
+"vispy-0.7.0-py38h8b8a128_0.tar.bz2":{
 "build":"py38h8b8a128_0",
 "build_number":0,
 "depends":[
 "fontconfig >=2.13.1,<3.0a0",
 "fonts-conda-ecosystem",
 "freetype-py",
+"hsluv",
+"kiwisolver",
 "libgcc-ng >=9.3.0",
 "numpy >=1.17.5,<2.0a0",
 "python >=3.8,<3.9.0a0",
@@ -129033,28 +128969,31 @@
 ],
 "license":"BSD-3-Clause",
 "name":"vispy",
-"sha256":"022f260bac4617d2b98418421a9b8080e89cbc4d70dfa0d517da0ab7002f6348",
-"size":2311302,
-"timestamp":1619790794856,
-"version":"0.6.6"
+"sha256":"856b8341e75a9d6fc7f9841ee2a68c9138c5c6d8eb1e8770f919ee9648065c9b",
+"size":2312109,
+"timestamp":1625097606772,
+"version":"0.7.0"
 },
-"vispy-0.6.6-py39h895d895_0.tar.bz2":{
+"vispy-0.7.0-py39h895d895_0.tar.bz2":{
 "build":"py39h895d895_0",
 "build_number":0,
 "depends":[
 "fontconfig >=2.13.1,<3.0a0",
+"fonts-conda-ecosystem",
 "freetype-py",
+"hsluv",
+"kiwisolver",
 "libgcc-ng >=9.3.0",
-"numpy >=1.19.4,<2.0a0",
+"numpy >=1.19.5,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"BSD-3-Clause",
 "name":"vispy",
-"sha256":"2c8adb242d6ef11d034ad8128ac364a0582ab26566df91894b5960facf54bca3",
-"size":2294306,
-"timestamp":1606568389135,
-"version":"0.6.6"
+"sha256":"bb96c43cd5ad35078886f3bcc5399d6ddbd0f816bbc6e1d852a7c02c21061c64",
+"size":2353194,
+"timestamp":1625097589555,
+"version":"0.7.0"
 },
 "viztracer-0.13.4-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",

@@ -51014,6 +51014,48 @@
 "timestamp":1620913220236,
 "version":"5.5.5"
 },
+"ipykernel-6.0.0-py38h2cb4d76_0.tar.bz2":{
+"build":"py38h2cb4d76_0",
+"build_number":0,
+"depends":[
+"appnope",
+"debugpy >=1",
+"ipython >=7.23.1",
+"jupyter_client",
+"matplotlib-inline >=0.1.0,<0.2.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tornado >=4.2",
+"traitlets >=4.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"ipykernel",
+"requires":[],
+"size":175209,
+"timestamp":1625104536504,
+"version":"6.0.0"
+},
+"ipykernel-6.0.0-py39h32adebf_0.tar.bz2":{
+"build":"py39h32adebf_0",
+"build_number":0,
+"depends":[
+"appnope",
+"debugpy >=1",
+"ipython >=7.23.1",
+"jupyter_client",
+"matplotlib-inline >=0.1.0,<0.2.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tornado >=4.2",
+"traitlets >=4.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"ipykernel",
+"requires":[],
+"size":175306,
+"timestamp":1625104526720,
+"version":"6.0.0"
+},
 "ipyparallel-6.3.0-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
 "build_number":1,
@@ -82922,6 +82964,25 @@
 "size":2967782,
 "timestamp":1620213575183,
 "version":"8.0.1"
+},
+"proj-8.1.0-h2d984c1_0.tar.bz2":{
+"build":"h2d984c1_0",
+"build_number":0,
+"constrains":[
+"proj4 ==999999999999"
+],
+"depends":[
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"libtiff >=4.3.0,<5.0a0",
+"sqlite >=3.36.0,<4.0a0"
+],
+"license":"MIT",
+"name":"proj",
+"requires":[],
+"size":2727456,
+"timestamp":1625104796172,
+"version":"8.1.0"
 },
 "protobuf-3.13.0.1-py38h3f7e68f_1.tar.bz2":{
 "build":"py38h3f7e68f_1",
