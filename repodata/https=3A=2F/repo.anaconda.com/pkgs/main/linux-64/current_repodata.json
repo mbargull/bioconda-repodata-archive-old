@@ -45642,7 +45642,8 @@
 "depends":[
 "_libgcc_mutex 0.1 main",
 "_openmp_mutex >=4.5",
-"_libgcc_mutex * main"
+"_libgcc_mutex * main",
+"__glibc >=2.17"
 ],
 "legacy_bz2_md5":"877cdee0cc95b9b1a685a2d047072364",
 "license":"GPL-3.0-only WITH GCC-exception-3.1",
@@ -46009,7 +46010,8 @@
 "build":"ha8ba4b0_17",
 "build_number":17,
 "depends":[
-"libgfortran4 7.5.0.*"
+"libgfortran4 7.5.0.*",
+"__glibc >=2.17"
 ],
 "legacy_bz2_md5":"526a52415a29fc6df26612f2d42b162f",
 "license":"GPL-3.0-only WITH GCC-exception-3.1",
@@ -46023,7 +46025,8 @@
 "build":"ha5ec8a7_17",
 "build_number":17,
 "depends":[
-"libgfortran5 9.3.0.*"
+"libgfortran5 9.3.0.*",
+"__glibc >=2.17"
 ],
 "legacy_bz2_md5":"7cf9711f0474ff216fe8deb9ebe061e1",
 "license":"GPL-3.0-only WITH GCC-exception-3.1",
@@ -47353,7 +47356,9 @@
 "libstdcxx-ng-9.3.0-hd4cf53a_17.conda":{
 "build":"hd4cf53a_17",
 "build_number":17,
-"depends":[],
+"depends":[
+"__glibc >=2.17"
+],
 "legacy_bz2_md5":"47415cfbf9f3d288981db1cd97cfe97b",
 "license":"GPL-3.0-only WITH GCC-exception-3.1",
 "name":"libstdcxx-ng",
