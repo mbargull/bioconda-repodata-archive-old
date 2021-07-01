@@ -25,19 +25,6 @@
 "timestamp":1600438773807,
 "version":"3.3.3"
 },
-"abseil-cpp-20210324.1-hbdafb3b_0.tar.bz2":{
-"build":"hbdafb3b_0",
-"build_number":0,
-"depends":[
-"libcxx >=11.1.0"
-],
-"license":"Apache-2.0",
-"name":"abseil-cpp",
-"sha256":"8820c625f7fda361ca8929a7fe6243ee21cd7125ef19092d2d96daea8e822aa1",
-"size":971166,
-"timestamp":1618986208158,
-"version":"20210324.1"
-},
 "abseil-cpp-20210324.2-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
 "build_number":0,
@@ -16362,31 +16349,12 @@
 "timestamp":1616695598109,
 "version":"1.68.0"
 },
-"google-cloud-cpp-1.28.0-h888ab05_1.tar.bz2":{
-"build":"h888ab05_1",
-"build_number":1,
-"depends":[
-"abseil-cpp >=20210324.2,<20210324.3.0a0",
-"grpc-cpp >=1.38.0,<1.39.0a0",
-"libcrc32c >=1.1.1,<1.2.0a0",
-"libcurl >=7.77.0,<8.0a0",
-"libcxx >=11.1.0",
-"libprotobuf >=3.16.0,<3.17.0a0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"google-cloud-cpp",
-"sha256":"f36e7447333af516e79eb1425800d59d0f9e390234419828164c6865abeea8a1",
-"size":7792539,
-"timestamp":1623306663407,
-"version":"1.28.0"
-},
-"google-cloud-cpp-1.28.0-hd3ca28f_0.tar.bz2":{
-"build":"hd3ca28f_0",
+"google-cloud-cpp-1.29.0-h888ab05_0.tar.bz2":{
+"build":"h888ab05_0",
 "build_number":0,
 "depends":[
-"abseil-cpp >=20210324.1,<20210324.2.0a0",
-"grpc-cpp >=1.38.0,<1.39.0a0",
+"abseil-cpp >=20210324.2,<20210324.3.0a0",
+"grpc-cpp >=1.38.1,<1.39.0a0",
 "libcrc32c >=1.1.1,<1.2.0a0",
 "libcurl >=7.77.0,<8.0a0",
 "libcxx >=11.1.0",
@@ -16395,10 +16363,10 @@
 ],
 "license":"Apache-2.0",
 "name":"google-cloud-cpp",
-"sha256":"6cede3a450f67afff3cdd024377addc0265d12053002320e5aeb04beed9b513c",
-"size":7764274,
-"timestamp":1622675721687,
-"version":"1.28.0"
+"sha256":"3d89a8ce308fc931277bcc00b1db102a0bb578167888d054da03912df94ac8d0",
+"size":7830992,
+"timestamp":1625174078206,
+"version":"1.29.0"
 },
 "google-crc32c-1.1.2-py38h10a7082_0.tar.bz2":{
 "build":"py38h10a7082_0",
@@ -30214,6 +30182,44 @@
 "size":1350601,
 "timestamp":1609795324806,
 "version":"3.7"
+},
+"ngmix-2.0.0-py38h10201cd_1.tar.bz2":{
+"build":"py38h10201cd_1",
+"build_number":1,
+"depends":[
+"galsim",
+"meds",
+"numba <0.41.0a|>=0.43.0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy"
+],
+"license":"GPL-2.0-only",
+"name":"ngmix",
+"sha256":"5225bcabfaf70fd52943ada487c201d540d502a917487ebfb0379f8bd7a049d7",
+"size":304114,
+"timestamp":1625176653193,
+"version":"2.0.0"
+},
+"ngmix-2.0.0-py39h2804cbe_1.tar.bz2":{
+"build":"py39h2804cbe_1",
+"build_number":1,
+"depends":[
+"galsim",
+"meds",
+"numba <0.41.0a|>=0.43.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy"
+],
+"license":"GPL-2.0-only",
+"name":"ngmix",
+"sha256":"11a75e3d0866a8dd387e6d63d7cdc7314f13c1ba792d196b59aee687642c2063",
+"size":304123,
+"timestamp":1625176471816,
+"version":"2.0.0"
 },
 "ninja-1.10.2-h4d860bb_0.tar.bz2":{
 "build":"h4d860bb_0",
