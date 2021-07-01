@@ -26442,6 +26442,60 @@
 "timestamp":1625160186995,
 "version":"3.9.5"
 },
+"conda-forge-ci-setup-3.9.6-py38h970ee7d_0.tar.bz2":{
+"build":"py38h970ee7d_0",
+"build_number":0,
+"depends":[
+"anaconda-client",
+"click",
+"conda >=4.3",
+"conda-build 3.*",
+"conda-env",
+"git",
+"jinja2",
+"jq",
+"pip",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"requests",
+"ruamel_yaml",
+"shyaml"
+],
+"license":"BSD-3-Clause",
+"name":"conda-forge-ci-setup",
+"requires":[],
+"size":40141,
+"timestamp":1625163917926,
+"version":"3.9.6"
+},
+"conda-forge-ci-setup-3.9.6-py39h6861412_0.tar.bz2":{
+"build":"py39h6861412_0",
+"build_number":0,
+"depends":[
+"anaconda-client",
+"click",
+"conda >=4.3",
+"conda-build 3.*",
+"conda-env",
+"git",
+"jinja2",
+"jq",
+"pip",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"requests",
+"ruamel_yaml",
+"shyaml"
+],
+"license":"BSD-3-Clause",
+"name":"conda-forge-ci-setup",
+"requires":[],
+"size":40150,
+"timestamp":1625163755093,
+"version":"3.9.6"
+},
 "conda-package-handling-1.7.0-py38h51573d8_6.tar.bz2":{
 "build":"py38h51573d8_6",
 "build_number":6,
@@ -83110,6 +83164,25 @@
 "requires":[],
 "size":2727456,
 "timestamp":1625104796172,
+"version":"8.1.0"
+},
+"proj-8.1.0-h2d984c1_1.tar.bz2":{
+"build":"h2d984c1_1",
+"build_number":1,
+"constrains":[
+"proj4 ==999999999999"
+],
+"depends":[
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"libtiff >=4.3.0,<5.0a0",
+"sqlite >=3.36.0,<4.0a0"
+],
+"license":"MIT",
+"name":"proj",
+"requires":[],
+"size":2711611,
+"timestamp":1625166676910,
 "version":"8.1.0"
 },
 "protobuf-3.13.0.1-py38h3f7e68f_1.tar.bz2":{
