@@ -25122,7 +25122,7 @@
 "timestamp":1588599502043,
 "version":"3.0.6"
 },
-"dlpack-0.5-h01db608_0.tar.bz2":{
+"dlpack-0.6-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
 "build_number":0,
 "depends":[
@@ -25131,10 +25131,10 @@
 ],
 "license":"MIT",
 "name":"dlpack",
-"sha256":"e92a35c83c050b6d70a108b3157f66793ec0da98957f360ce33f9804ba6322ff",
-"size":12821,
-"timestamp":1621286459027,
-"version":"0.5"
+"sha256":"f54c166a7bdc40ee11595a518d72ff3301889c1d01ba11bc743616732f2fcf39",
+"size":12933,
+"timestamp":1625207843786,
+"version":"0.6"
 },
 "docker-py-5.0.0-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
@@ -61514,6 +61514,27 @@
 "size":708339,
 "timestamp":1625086659282,
 "version":"10.5.0"
+},
+"libsdformat11-11.2.2-hae067aa_0.tar.bz2":{
+"build":"hae067aa_0",
+"build_number":0,
+"depends":[
+"console_bridge >=1.0.1,<1.1.0a0",
+"libgcc-ng >=9.3.0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-tools1 >=1.2.0,<2.0a0",
+"libignition-utils1 >=1.0.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"tinyxml2 >=9.0.0,<10.0a0",
+"urdfdom >=2.3.5,<2.4.0a0"
+],
+"license":"Apache-2.0",
+"name":"libsdformat11",
+"sha256":"6c7ee3611cd403ecf90354c0e325960a6c4ac3cd461176b7a6e8f6392d3bf894",
+"size":806045,
+"timestamp":1625205231858,
+"version":"11.2.2"
 },
 "libsdformat11-11.2.2-hd9f8351_0.tar.bz2":{
 "build":"hd9f8351_0",

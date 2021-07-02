@@ -7418,11 +7418,11 @@
 "timestamp":1620720066378,
 "version":"4.3"
 },
-"cctbx-2021.5-hce30654_0.tar.bz2":{
+"cctbx-2021.6-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
 "depends":[
-"cctbx-base >=2021.5,<2021.6.0a0",
+"cctbx-base >=2021.6,<2021.7.0a0",
 "ipython",
 "pyside2",
 "pyzmq",
@@ -7431,30 +7431,12 @@
 ],
 "license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
 "name":"cctbx",
-"sha256":"6454e777b8860024f44259b8f69288e7d083523a75e113291cbff228111e509b",
-"size":38641,
-"timestamp":1622684678298,
-"version":"2021.5"
+"sha256":"d6a7e0b4060f61890226a791311a8577923ceaca4a64b43136902c2a1a2256fe",
+"size":38223,
+"timestamp":1625207650752,
+"version":"2021.6"
 },
-"cctbx-2021.5-hce30654_1.tar.bz2":{
-"build":"hce30654_1",
-"build_number":1,
-"depends":[
-"cctbx-base >=2021.5,<2021.6.0a0",
-"ipython",
-"pyside2",
-"pyzmq",
-"websockets",
-"wxpython"
-],
-"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
-"name":"cctbx",
-"sha256":"35b40c00b78816ff05b6bb1edd872eef6269b84de5fb68a55709b9f8820c7c68",
-"size":38796,
-"timestamp":1624474144901,
-"version":"2021.5"
-},
-"cctbx-base-2021.5-py38h0a8e328_0.tar.bz2":{
+"cctbx-base-2021.6-py38h0a8e328_0.tar.bz2":{
 "build":"py38h0a8e328_0",
 "build_number":0,
 "depends":[
@@ -7466,35 +7448,6 @@
 "libsvm",
 "matplotlib-base",
 "mrcfile",
-"numpy >=1.19.5,<2.0a0",
-"pillow",
-"psutil",
-"python >=3.8,<3.9.0a0",
-"python.app",
-"python_abi 3.8.* *_cp38",
-"reportlab",
-"requests",
-"six"
-],
-"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
-"name":"cctbx-base",
-"sha256":"815792ea2e963a7ba5581810e2b195ec0637b244ec92a7e2316d843beb40c906",
-"size":62780300,
-"timestamp":1622684612754,
-"version":"2021.5"
-},
-"cctbx-base-2021.5-py38h0a8e328_1.tar.bz2":{
-"build":"py38h0a8e328_1",
-"build_number":1,
-"depends":[
-"biopython",
-"boost >=1.74.0,<1.74.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"future",
-"libcxx >=11.1.0",
-"libsvm",
-"matplotlib-base",
-"mrcfile",
 "numpy >=1.19.5,<1.21",
 "pillow",
 "psutil",
@@ -7507,68 +7460,10 @@
 ],
 "license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
 "name":"cctbx-base",
-"sha256":"5e5aaeabd5d2a8e6b817a847f94bd70b6bdf816fce81e589e573f6eb2c93c0b7",
-"size":62590487,
-"timestamp":1624474462619,
-"version":"2021.5"
-},
-"cctbx-base-2021.5-py39h4fa2601_0.tar.bz2":{
-"build":"py39h4fa2601_0",
-"build_number":0,
-"depends":[
-"biopython",
-"boost >=1.74.0,<1.74.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"future",
-"libcxx >=11.1.0",
-"libsvm",
-"matplotlib-base",
-"mrcfile",
-"numpy >=1.19.5,<2.0a0",
-"pillow",
-"psutil",
-"python >=3.9,<3.10.0a0",
-"python.app",
-"python_abi 3.9.* *_cp39",
-"reportlab",
-"requests",
-"six"
-],
-"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
-"name":"cctbx-base",
-"sha256":"d57b1ef5bf9f53205878faef04349824bc5f44c19fcb5cc9145b2658715bddbd",
-"size":62157023,
-"timestamp":1622685072558,
-"version":"2021.5"
-},
-"cctbx-base-2021.5-py39h4fa2601_1.tar.bz2":{
-"build":"py39h4fa2601_1",
-"build_number":1,
-"depends":[
-"biopython",
-"boost >=1.74.0,<1.74.1.0a0",
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"future",
-"libcxx >=11.1.0",
-"libsvm",
-"matplotlib-base",
-"mrcfile",
-"numpy >=1.19.5,<1.21",
-"pillow",
-"psutil",
-"python >=3.9,<3.10.0a0",
-"python.app",
-"python_abi 3.9.* *_cp39",
-"reportlab",
-"requests",
-"six"
-],
-"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
-"name":"cctbx-base",
-"sha256":"9396727d5211c6e8b53522881137a78dfd14d0884f39a12f81a9b025ef0ce27a",
-"size":62175831,
-"timestamp":1624474074769,
-"version":"2021.5"
+"sha256":"59e32dc2e6a2ff6d684e624edf8f0a93185a488e8f8d007c3220125498e321ad",
+"size":62844390,
+"timestamp":1625207586871,
+"version":"2021.6"
 },
 "cctools-949.0.1-ha9384d2_18.tar.bz2":{
 "build":"ha9384d2_18",
