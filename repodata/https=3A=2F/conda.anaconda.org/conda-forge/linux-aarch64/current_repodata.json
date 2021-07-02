@@ -57568,41 +57568,23 @@
 "timestamp":1601729448642,
 "version":"9.3.0"
 },
-"libgit2-1.1.0-h0beb994_0.tar.bz2":{
-"build":"h0beb994_0",
+"libgit2-1.1.1-h101cbcd_0.tar.bz2":{
+"build":"h101cbcd_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libssh2 >=1.9.0,<2.0a0",
-"libstdcxx-ng >=7.5.0",
-"openssl >=1.1.1h,<1.1.2a",
-"pcre2 >=10.35,<10.36.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-2.0-only WITH GCC-exception-2.0",
-"name":"libgit2",
-"sha256":"161bf2951d514ac3cc5f8c1f40e5df3d1e7afd897793380b3a6b81ac5029ca26",
-"size":694245,
-"timestamp":1605644266552,
-"version":"1.1.0"
-},
-"libgit2-1.1.0-h101cbcd_1.tar.bz2":{
-"build":"h101cbcd_1",
-"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libssh2 >=1.9.0,<2.0a0",
 "libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1j,<1.1.2a",
+"openssl >=1.1.1k,<1.1.2a",
 "pcre2 >=10.36,<10.37.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"GPL-2.0-only WITH GCC-exception-2.0",
 "name":"libgit2",
-"sha256":"20bd377f23b0f658fea407ace7b35862aa71c0f4227dd32493f5073ea9a2541d",
-"size":727263,
-"timestamp":1614624710451,
-"version":"1.1.0"
+"sha256":"75e2c1cb469b91181efaa30b72acc9958073bba64c47d5621fe219c344667894",
+"size":697909,
+"timestamp":1625253883251,
+"version":"1.1.1"
 },
 "libglib-2.68.3-he97b138_0.tar.bz2":{
 "build":"he97b138_0",
@@ -78864,51 +78846,6 @@
 "timestamp":1623793306266,
 "version":"8.45"
 },
-"pcre2-10.35-h2f06484_0.tar.bz2":{
-"build":"h2f06484_0",
-"build_number":0,
-"depends":[
-"bzip2 >=1.0.8,<2.0a0",
-"libgcc-ng >=7.3.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"pcre2",
-"sha256":"b5a01ebab91d5a37fad46b34fffdfea1b30c1fcb4d3a79ecbac35eb712ac90f6",
-"size":652681,
-"timestamp":1589187060479,
-"version":"10.35"
-},
-"pcre2-10.35-h73360fb_2.tar.bz2":{
-"build":"h73360fb_2",
-"build_number":2,
-"depends":[
-"bzip2 >=1.0.8,<2.0a0",
-"libgcc-ng >=9.3.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"pcre2",
-"sha256":"e1a900d33041d347b5167c6486547d78d3f46c13e7191b5e06365b7bc586da17",
-"size":707256,
-"timestamp":1606589513038,
-"version":"10.35"
-},
-"pcre2-10.35-h87496d7_1.tar.bz2":{
-"build":"h87496d7_1",
-"build_number":1,
-"depends":[
-"bzip2 >=1.0.8,<2.0a0",
-"libgcc-ng >=7.5.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"pcre2",
-"sha256":"97fe46310ea0ccc9ed512d605417b452ccd84a352511663e73fee822f1b3bd3d",
-"size":651526,
-"timestamp":1604412205896,
-"version":"10.35"
-},
 "pcre2-10.36-h73360fb_0.tar.bz2":{
 "build":"h73360fb_0",
 "build_number":0,
@@ -94998,7 +94935,7 @@
 "timestamp":1616622897106,
 "version":"1.10.1"
 },
-"python-igraph-0.9.5-py36h3c44f65_0.tar.bz2":{
+"python-igraph-0.9.6-py36h3c44f65_0.tar.bz2":{
 "build":"py36h3c44f65_0",
 "build_number":0,
 "depends":[
@@ -95017,12 +94954,12 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"python-igraph",
-"sha256":"7ac9e22bb72cb32618241bf75bdc2270471d2ac423e1239555a2c2aec4572954",
-"size":1304056,
-"timestamp":1625224607301,
-"version":"0.9.5"
+"sha256":"55390a1934ffea1dd65847350693cb44dfa370b5e72ec0fd5f1298532f1c5bcb",
+"size":1308266,
+"timestamp":1625254396554,
+"version":"0.9.6"
 },
-"python-igraph-0.9.5-py37hd547860_0.tar.bz2":{
+"python-igraph-0.9.6-py37hd547860_0.tar.bz2":{
 "build":"py37hd547860_0",
 "build_number":0,
 "depends":[
@@ -95041,12 +94978,12 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"python-igraph",
-"sha256":"c49363480734422514ec202f543f58506afbd16590cf22b410ce7f638be1ef76",
-"size":1318340,
-"timestamp":1625225587298,
-"version":"0.9.5"
+"sha256":"56cbf26011e9fc49f463c02e46a5ba794011f59e2d175aa1b147081146f4ac8a",
+"size":1321872,
+"timestamp":1625256130159,
+"version":"0.9.6"
 },
-"python-igraph-0.9.5-py37hd670f47_0.tar.bz2":{
+"python-igraph-0.9.6-py37hd670f47_0.tar.bz2":{
 "build":"py37hd670f47_0",
 "build_number":0,
 "depends":[
@@ -95066,58 +95003,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"python-igraph",
-"sha256":"1f2a1ef9be580a625b4806c8520ce2ca162b9a0cd872c2c8056d59048f08d2f3",
-"size":1302367,
-"timestamp":1625225147942,
-"version":"0.9.5"
-},
-"python-igraph-0.9.5-py38hd3d6605_0.tar.bz2":{
-"build":"py38hd3d6605_0",
-"build_number":0,
-"depends":[
-"arpack >=3.7.0,<3.7.1.0a0",
-"glpk >=4.65,<4.66.0a0",
-"gmp >=6.2.1,<7.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=9.3.0",
-"libxml2 >=2.9.12,<2.10.0a0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"suitesparse >=5.10.1,<6.0a0",
-"texttable >=1.6.2"
-],
-"license":"GPL-2.0-or-later",
-"name":"python-igraph",
-"sha256":"f840cc33aa8d8e82001db8996b4f48d554dbb91911cee69cd8ccd5d34a0f8acc",
-"size":1323523,
-"timestamp":1625226596535,
-"version":"0.9.5"
-},
-"python-igraph-0.9.5-py39hbc6fe89_0.tar.bz2":{
-"build":"py39hbc6fe89_0",
-"build_number":0,
-"depends":[
-"arpack >=3.7.0,<3.7.1.0a0",
-"glpk >=4.65,<4.66.0a0",
-"gmp >=6.2.1,<7.0a0",
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=9.3.0",
-"libxml2 >=2.9.12,<2.10.0a0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"suitesparse >=5.10.1,<6.0a0",
-"texttable >=1.6.2"
-],
-"license":"GPL-2.0-or-later",
-"name":"python-igraph",
-"sha256":"4d9ddf438b1330da30aa5c24f3b544dbf911bb4c03fdb9f8a3a3398c2932d827",
-"size":1320450,
-"timestamp":1625227132458,
-"version":"0.9.5"
+"sha256":"65567a5e7a2f8435b0531600ac685ee5cd22658e2382a2252507a58bc0b9e971",
+"size":1304222,
+"timestamp":1625255577905,
+"version":"0.9.6"
 },
 "python-language-server-0.34.1-py36h9f0ad1d_0.tar.bz2":{
 "build":"py36h9f0ad1d_0",
