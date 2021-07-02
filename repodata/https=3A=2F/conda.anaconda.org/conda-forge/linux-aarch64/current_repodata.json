@@ -77402,27 +77402,7 @@
 "timestamp":1605239780814,
 "version":"2.20"
 },
-"pandas-1.2.5-py37h157fc04_0.tar.bz2":{
-"build":"py37h157fc04_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.19.5,<2.0a0",
-"pypy3.7 >=7.3.4",
-"python >=3.7,<3.8.0a0",
-"python-dateutil >=2.7.3",
-"python_abi 3.7 *_pypy37_pp73",
-"pytz >=2017.2"
-],
-"license":"BSD-3-Clause",
-"name":"pandas",
-"sha256":"fd96543add4ccda270b3218df57a79dcda8fef1726a495f3d51c8af8b015915b",
-"size":10982497,
-"timestamp":1624403807742,
-"version":"1.2.5"
-},
-"pandas-1.2.5-py37ha200abb_0.tar.bz2":{
+"pandas-1.3.0-py37ha200abb_0.tar.bz2":{
 "build":"py37ha200abb_0",
 "build_number":0,
 "depends":[
@@ -77436,12 +77416,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"a8534e99239eb60f0a3bc658c9c4cdd19b8a1be395b2309ab8f16b19ecb99ea0",
-"size":11856588,
-"timestamp":1624401016877,
-"version":"1.2.5"
+"sha256":"c83c4932b2b6a6ba7afcf2bb147c90f4237501264833b89d7aa9f62c628c350f",
+"size":12830580,
+"timestamp":1625236994865,
+"version":"1.3.0"
 },
-"pandas-1.2.5-py38hf2e80fd_0.tar.bz2":{
+"pandas-1.3.0-py38hf2e80fd_0.tar.bz2":{
 "build":"py38hf2e80fd_0",
 "build_number":0,
 "depends":[
@@ -77455,29 +77435,41 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"5741eef18d453a83767146c2fe3e1dc8a4e9d531d2f1f3217426440895eed01d",
-"size":12031236,
-"timestamp":1624401757577,
-"version":"1.2.5"
+"sha256":"b7ac7c3fb79a62457ae3c0619bd4d943cbcc78b74c48376c907da630e51cbe7b",
+"size":13002099,
+"timestamp":1625239025465,
+"version":"1.3.0"
 },
-"pandas-1.2.5-py39h7b4a2eb_0.tar.bz2":{
-"build":"py39h7b4a2eb_0",
+"pandas-stubs-1.1.0.12-py36h704843e_0.tar.bz2":{
+"build":"py36h704843e_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.19.5,<2.0a0",
-"python >=3.9,<3.10.0a0",
-"python-dateutil >=2.7.3",
-"python_abi 3.9.* *_cp39",
-"pytz >=2017.2"
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"typing_extensions >=3.7.4.3"
 ],
-"license":"BSD-3-Clause",
-"name":"pandas",
-"sha256":"a7c8c5ac3b66d72c776c8994e7fcbcac39cefbec1d322899c27710afbf959ad2",
-"size":12026095,
-"timestamp":1624404558662,
-"version":"1.2.5"
+"license":"MIT",
+"name":"pandas-stubs",
+"sha256":"8bc79cca9b6cba8fa24de5d6af66eeba536dfabee3b6f41359e103f5f5326705",
+"size":81370,
+"timestamp":1625238839036,
+"version":"1.1.0.12"
+},
+"pandas-stubs-1.1.0.12-py37h4bcbb9b_0.tar.bz2":{
+"build":"py37h4bcbb9b_0",
+"build_number":0,
+"depends":[
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"typing_extensions >=3.7.4.3"
+],
+"license":"MIT",
+"name":"pandas-stubs",
+"sha256":"ab62201327362a276286295b406231552baf93af6408528b6c33df8396c9cd8d",
+"size":81355,
+"timestamp":1625239142577,
+"version":"1.1.0.12"
 },
 "pango-1.42.4-h128d24a_5.tar.bz2":{
 "build":"h128d24a_5",
