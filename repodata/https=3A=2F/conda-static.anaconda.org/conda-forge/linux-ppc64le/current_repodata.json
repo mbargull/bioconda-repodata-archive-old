@@ -18187,6 +18187,22 @@
 "timestamp":1610110965945,
 "version":"1.0.9"
 },
+"brotli-1.0.9-h4e0d66e_5.tar.bz2":{
+"build":"h4e0d66e_5",
+"build_number":5,
+"depends":[
+"brotli-bin 1.0.9 h4e0d66e_5",
+"libbrotlidec 1.0.9 h4e0d66e_5",
+"libbrotlienc 1.0.9 h4e0d66e_5",
+"libgcc-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"brotli",
+"sha256":"56d5f471c9a7bd0573d36a4d980c29c61071904b16d583e43f81c16f290b9104",
+"size":17875,
+"timestamp":1625214437530,
+"version":"1.0.9"
+},
 "brotli-1.0.9-hb209c28_0.tar.bz2":{
 "build":"hb209c28_0",
 "build_number":0,
@@ -18243,6 +18259,21 @@
 "timestamp":1603546462169,
 "version":"1.0.9"
 },
+"brotli-bin-1.0.9-h4e0d66e_5.tar.bz2":{
+"build":"h4e0d66e_5",
+"build_number":5,
+"depends":[
+"libbrotlidec 1.0.9 h4e0d66e_5",
+"libbrotlienc 1.0.9 h4e0d66e_5",
+"libgcc-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"brotli-bin",
+"sha256":"db8792d28529a480894cf538abaf01f394499cead525df36ebd0c8b30d20472e",
+"size":20809,
+"timestamp":1625214402911,
+"version":"1.0.9"
+},
 "brotli-python-1.0.9-py36h08d3667_4.tar.bz2":{
 "build":"py36h08d3667_4",
 "build_number":4,
@@ -18257,6 +18288,22 @@
 "sha256":"a85379b5a5ad811af0c9fb04aff37dbcc2944f702453ecfe24da5909aeab4f61",
 "size":384736,
 "timestamp":1610111475828,
+"version":"1.0.9"
+},
+"brotli-python-1.0.9-py36h08d3667_5.tar.bz2":{
+"build":"py36h08d3667_5",
+"build_number":5,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"MIT",
+"name":"brotli-python",
+"sha256":"e71a882abc9f51bd1bf72ba19f8d1f1829132ace2868bb13e37bc20839ee6ac7",
+"size":384982,
+"timestamp":1625214722220,
 "version":"1.0.9"
 },
 "brotli-python-1.0.9-py36hd47967e_1.tar.bz2":{
@@ -18471,6 +18518,22 @@
 "timestamp":1610111326539,
 "version":"1.0.9"
 },
+"brotli-python-1.0.9-py37hc9b93fd_5.tar.bz2":{
+"build":"py37hc9b93fd_5",
+"build_number":5,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"MIT",
+"name":"brotli-python",
+"sha256":"3e81bddfbc168e78ccb7484e38981158365f6e2066e8b9151f5d171701270f3d",
+"size":384964,
+"timestamp":1625214521015,
+"version":"1.0.9"
+},
 "brotli-python-1.0.9-py37hfc837b7_4.tar.bz2":{
 "build":"py37hfc837b7_4",
 "build_number":4,
@@ -18486,6 +18549,23 @@
 "sha256":"3da04d01f2f291ad1fd4036e115aec52214a617c9bbccd581c4b6687c24694be",
 "size":385038,
 "timestamp":1610111149275,
+"version":"1.0.9"
+},
+"brotli-python-1.0.9-py37hfc837b7_5.tar.bz2":{
+"build":"py37hfc837b7_5",
+"build_number":5,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"MIT",
+"name":"brotli-python",
+"sha256":"55154112f836e61bb61ce062b8d8e2e466e2d934d02aaffe665fb0e53495f342",
+"size":385391,
+"timestamp":1625214635656,
 "version":"1.0.9"
 },
 "brotli-python-1.0.9-py38h9e10fed_0.tar.bz2":{
@@ -18568,6 +18648,22 @@
 "timestamp":1610111405092,
 "version":"1.0.9"
 },
+"brotli-python-1.0.9-py38ha35a538_5.tar.bz2":{
+"build":"py38ha35a538_5",
+"build_number":5,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"brotli-python",
+"sha256":"19d88471cab1c6b49c943e0a1aa277a0b265312cfcae1aebc6f86869d0404ccd",
+"size":385019,
+"timestamp":1625214808220,
+"version":"1.0.9"
+},
 "brotli-python-1.0.9-py39h52e7bf5_2.tar.bz2":{
 "build":"py39h52e7bf5_2",
 "build_number":2,
@@ -18614,6 +18710,22 @@
 "sha256":"630c7993e8af29657f4f3831eb32c72d6ad889b791f3ee677fb099917ee1819c",
 "size":384783,
 "timestamp":1610111056446,
+"version":"1.0.9"
+},
+"brotli-python-1.0.9-py39had50986_5.tar.bz2":{
+"build":"py39had50986_5",
+"build_number":5,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"brotli-python",
+"sha256":"e2d4cf00f9ecd7ccd1ae179734ac09fbfaa666f497d9a8251a6feba65514a3b0",
+"size":385024,
+"timestamp":1625214894810,
 "version":"1.0.9"
 },
 "brotlipy-0.7.0-py36h2254977_1000.tar.bz2":{
@@ -55636,6 +55748,47 @@
 "timestamp":1622237888662,
 "version":"1.2.10"
 },
+"libbrotlicommon-1.0.9-h4e0d66e_5.tar.bz2":{
+"build":"h4e0d66e_5",
+"build_number":5,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"libbrotlicommon",
+"sha256":"1cd809fee9d38f72bc524ecb8e81df7bc11e69ad2c3833aa29cd47c66988dd53",
+"size":66928,
+"timestamp":1625214266019,
+"version":"1.0.9"
+},
+"libbrotlidec-1.0.9-h4e0d66e_5.tar.bz2":{
+"build":"h4e0d66e_5",
+"build_number":5,
+"depends":[
+"libbrotlicommon 1.0.9 h4e0d66e_5",
+"libgcc-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"libbrotlidec",
+"sha256":"aebcbb20b9c88401515cecee8eab9dc067bb0fe31627279a02e495b906da2940",
+"size":38524,
+"timestamp":1625214310793,
+"version":"1.0.9"
+},
+"libbrotlienc-1.0.9-h4e0d66e_5.tar.bz2":{
+"build":"h4e0d66e_5",
+"build_number":5,
+"depends":[
+"libbrotlicommon 1.0.9 h4e0d66e_5",
+"libgcc-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"libbrotlienc",
+"sha256":"67162bdd9fc122ceafe6846810896095225252ce0f1b5e34713d0e94846676ae",
+"size":315083,
+"timestamp":1625214357448,
+"version":"1.0.9"
+},
 "libcantera-2.5.1-h0038c2a_1.tar.bz2":{
 "build":"h0038c2a_1",
 "build_number":1,
@@ -73554,6 +73707,34 @@
 "timestamp":1622749753262,
 "version":"6.12.0"
 },
+"nordugrid-arc-6.12.0-py36h0ce30d7_1.tar.bz2":{
+"build":"py36h0ce30d7_1",
+"build_number":1,
+"depends":[
+"gct >=6.2.1550507116,<6.3.0a0",
+"gfal2 >=2.19.2,<2.20.0a0",
+"glibmm >=2.58.1,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"openldap >=2.4.52,<2.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"sigcpp-2.0 >=2.10.3",
+"sqlite >=3.36.0,<4.0a0",
+"xrootd >=5.2.0,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"nordugrid-arc",
+"sha256":"e98026bdef731906126e6b1acbd1b6ac62d645a71a253ed3ce94ceb867589067",
+"size":7839367,
+"timestamp":1625213567962,
+"version":"6.12.0"
+},
 "nordugrid-arc-6.12.0-py36hef17d14_0.tar.bz2":{
 "build":"py36hef17d14_0",
 "build_number":0,
@@ -73609,6 +73790,34 @@
 "timestamp":1622746825895,
 "version":"6.12.0"
 },
+"nordugrid-arc-6.12.0-py37h9585aa0_1.tar.bz2":{
+"build":"py37h9585aa0_1",
+"build_number":1,
+"depends":[
+"gct >=6.2.1550507116,<6.3.0a0",
+"gfal2 >=2.19.2,<2.20.0a0",
+"glibmm >=2.58.1,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"openldap >=2.4.52,<2.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"sigcpp-2.0 >=2.10.3",
+"sqlite >=3.36.0,<4.0a0",
+"xrootd >=5.2.0,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"nordugrid-arc",
+"sha256":"3fea98e04a6fb520372a23bb087da20f2ebff1ed29b41dcd20bdfa9050e353ef",
+"size":7889562,
+"timestamp":1625209330951,
+"version":"6.12.0"
+},
 "nordugrid-arc-6.12.0-py37hf3eed16_0.tar.bz2":{
 "build":"py37hf3eed16_0",
 "build_number":0,
@@ -73635,6 +73844,35 @@
 "sha256":"6b78effb33fa587e7947f3750af837d9c0c1837d5996d7985b4be7ae7fa4a4dd",
 "size":7772260,
 "timestamp":1622749758279,
+"version":"6.12.0"
+},
+"nordugrid-arc-6.12.0-py37hf3eed16_1.tar.bz2":{
+"build":"py37hf3eed16_1",
+"build_number":1,
+"depends":[
+"gct >=6.2.1550507116,<6.3.0a0",
+"gfal2 >=2.19.2,<2.20.0a0",
+"glibmm >=2.58.1,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"openldap >=2.4.52,<2.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"sigcpp-2.0 >=2.10.3",
+"sqlite >=3.36.0,<4.0a0",
+"xrootd >=5.2.0,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"nordugrid-arc",
+"sha256":"8ea1fc25e6a3cbd6613bc1977f0dd9a3b45e5accfa6d4dfb4d50af02a415c9b5",
+"size":7841918,
+"timestamp":1625212624363,
 "version":"6.12.0"
 },
 "nordugrid-arc-6.12.0-py38h0d4bf41_0.tar.bz2":{
@@ -73664,6 +73902,34 @@
 "timestamp":1622747082903,
 "version":"6.12.0"
 },
+"nordugrid-arc-6.12.0-py38h0d4bf41_1.tar.bz2":{
+"build":"py38h0d4bf41_1",
+"build_number":1,
+"depends":[
+"gct >=6.2.1550507116,<6.3.0a0",
+"gfal2 >=2.19.2,<2.20.0a0",
+"glibmm >=2.58.1,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"openldap >=2.4.52,<2.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"sigcpp-2.0 >=2.10.3",
+"sqlite >=3.36.0,<4.0a0",
+"xrootd >=5.2.0,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"nordugrid-arc",
+"sha256":"47cc273fb8e6e5b9c37476e3e15caf71aab66d81e76e5c9ce8c69fb84074f669",
+"size":7909358,
+"timestamp":1625212210586,
+"version":"6.12.0"
+},
 "nordugrid-arc-6.12.0-py39h113e502_0.tar.bz2":{
 "build":"py39h113e502_0",
 "build_number":0,
@@ -73689,6 +73955,34 @@
 "sha256":"318ea423a84a2fc2ed9ed160ec4b780d93725045c0ed8d56cf5f45570b4e82a0",
 "size":7810608,
 "timestamp":1622749724049,
+"version":"6.12.0"
+},
+"nordugrid-arc-6.12.0-py39h113e502_1.tar.bz2":{
+"build":"py39h113e502_1",
+"build_number":1,
+"depends":[
+"gct >=6.2.1550507116,<6.3.0a0",
+"gfal2 >=2.19.2,<2.20.0a0",
+"glibmm >=2.58.1,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"openldap >=2.4.52,<2.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sigcpp-2.0 >=2.10.3",
+"sqlite >=3.36.0,<4.0a0",
+"xrootd >=5.2.0,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"nordugrid-arc",
+"sha256":"653aea1ce3f8fd005bbc73dd572b12cc29276073008feab152222182edb6e619",
+"size":7864669,
+"timestamp":1625209540890,
 "version":"6.12.0"
 },
 "normaliz-3.8.5-h98ba43d_1.tar.bz2":{

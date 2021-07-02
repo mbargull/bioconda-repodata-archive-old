@@ -18039,6 +18039,21 @@
 "timestamp":1613334723536,
 "version":"1.2.4"
 },
+"brotli-1.0.9-h3422bc3_5.tar.bz2":{
+"build":"h3422bc3_5",
+"build_number":5,
+"depends":[
+"brotli-bin 1.0.9 h3422bc3_5",
+"libbrotlidec 1.0.9 h3422bc3_5",
+"libbrotlienc 1.0.9 h3422bc3_5"
+],
+"license":"MIT",
+"name":"brotli",
+"sha256":"0f99c8328a835cdb057474e99dd3016aaeaeed85ae28764a3e543567803bef14",
+"size":18001,
+"timestamp":1625214051526,
+"version":"1.0.9"
+},
 "brotli-1.0.9-h9f76cd9_4.tar.bz2":{
 "build":"h9f76cd9_4",
 "build_number":4,
@@ -18128,6 +18143,20 @@
 "sha256":"a512457db9273e4c0c4698ff38152d58b1c7ceedd159dbc5f02e1defb7bc697c",
 "size":384079,
 "timestamp":1599588940273,
+"version":"1.0.9"
+},
+"brotli-bin-1.0.9-h3422bc3_5.tar.bz2":{
+"build":"h3422bc3_5",
+"build_number":5,
+"depends":[
+"libbrotlidec 1.0.9 h3422bc3_5",
+"libbrotlienc 1.0.9 h3422bc3_5"
+],
+"license":"MIT",
+"name":"brotli-bin",
+"sha256":"33c755c5aecbd0d006315d3c2445421c3893b2cfb916508133bfdecec4dd144c",
+"size":17757,
+"timestamp":1625214030728,
 "version":"1.0.9"
 },
 "brotli-python-1.0.9-py38h339a965_0.tar.bz2":{
@@ -18220,6 +18249,21 @@
 "timestamp":1624967219755,
 "version":"1.0.9"
 },
+"brotli-python-1.0.9-py38h6f2b01f_5.tar.bz2":{
+"build":"py38h6f2b01f_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"brotli-python",
+"sha256":"2b893bb8d972fc6b1b1ff0d08cb745d4298a9d9fee58aa2de9004d72552de197",
+"size":362366,
+"timestamp":1625214287983,
+"version":"1.0.9"
+},
 "brotli-python-1.0.9-py39h9336629_2.tar.bz2":{
 "build":"py39h9336629_2",
 "build_number":2,
@@ -18278,6 +18322,21 @@
 "sha256":"789a27b8f37e1a715b57b002f3eec5bf66ea07c2a0312067ad0b5f46d376259b",
 "size":363681,
 "timestamp":1624967341499,
+"version":"1.0.9"
+},
+"brotli-python-1.0.9-py39hfb83b0d_5.tar.bz2":{
+"build":"py39hfb83b0d_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"brotli-python",
+"sha256":"e088b0aa40594c3833eb791b7c20b3620343e3cc57cec7738ff8bb7d69122137",
+"size":364073,
+"timestamp":1625214171676,
 "version":"1.0.9"
 },
 "brotlipy-0.7.0-py38h30f7421_1001.tar.bz2":{
@@ -19800,6 +19859,35 @@
 "sha256":"59e32dc2e6a2ff6d684e624edf8f0a93185a488e8f8d007c3220125498e321ad",
 "size":62844390,
 "timestamp":1625207586871,
+"version":"2021.6"
+},
+"cctbx-base-2021.6-py39h4fa2601_0.tar.bz2":{
+"build":"py39h4fa2601_0",
+"build_number":0,
+"depends":[
+"biopython",
+"boost >=1.74.0,<1.74.1.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"future",
+"libcxx >=11.1.0",
+"libsvm",
+"matplotlib-base",
+"mrcfile",
+"numpy >=1.19.5,<1.21",
+"pillow",
+"psutil",
+"python >=3.9,<3.10.0a0",
+"python.app",
+"python_abi 3.9.* *_cp39",
+"reportlab",
+"requests",
+"six"
+],
+"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"cctbx-base",
+"sha256":"97a6ac1e3aaa5bf3950ba171a61183d03d5d02ea34b893c62ffc67f83d597ca1",
+"size":62186573,
+"timestamp":1625208407798,
 "version":"2021.6"
 },
 "cctools-949.0.1-ha9384d2_18.tar.bz2":{
@@ -55879,6 +55967,43 @@
 "size":1110650,
 "timestamp":1605467364510,
 "version":"1.2.7"
+},
+"libbrotlicommon-1.0.9-h3422bc3_5.tar.bz2":{
+"build":"h3422bc3_5",
+"build_number":5,
+"depends":[],
+"license":"MIT",
+"name":"libbrotlicommon",
+"sha256":"116db905aab4a3c0990c88983614d12df7e51a7bad3e5ad7ca4cb7184b1ebc12",
+"size":67048,
+"timestamp":1625213933060,
+"version":"1.0.9"
+},
+"libbrotlidec-1.0.9-h3422bc3_5.tar.bz2":{
+"build":"h3422bc3_5",
+"build_number":5,
+"depends":[
+"libbrotlicommon 1.0.9 h3422bc3_5"
+],
+"license":"MIT",
+"name":"libbrotlidec",
+"sha256":"811cb065ae44540ae97d11255360f5bec713d27a180e259b42d99348a6d9226b",
+"size":30080,
+"timestamp":1625213984866,
+"version":"1.0.9"
+},
+"libbrotlienc-1.0.9-h3422bc3_5.tar.bz2":{
+"build":"h3422bc3_5",
+"build_number":5,
+"depends":[
+"libbrotlicommon 1.0.9 h3422bc3_5"
+],
+"license":"MIT",
+"name":"libbrotlienc",
+"sha256":"d2b03fe3038706cbde077f1b50983d960a18e3f104282747e040e65921eabbe8",
+"size":297541,
+"timestamp":1625214007646,
+"version":"1.0.9"
 },
 "libcantera-2.5.1-py38h89f3662_1.tar.bz2":{
 "build":"py38h89f3662_1",
