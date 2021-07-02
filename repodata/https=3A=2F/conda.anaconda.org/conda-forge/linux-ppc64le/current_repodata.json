@@ -59010,41 +59010,23 @@
 "timestamp":1601735361669,
 "version":"9.3.0"
 },
-"libgit2-1.1.0-h845ebc7_0.tar.bz2":{
-"build":"h845ebc7_0",
+"libgit2-1.1.1-hd165dee_0.tar.bz2":{
+"build":"hd165dee_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libssh2 >=1.9.0,<2.0a0",
-"libstdcxx-ng >=8.4.0",
-"openssl >=1.1.1h,<1.1.2a",
-"pcre2 >=10.35,<10.36.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-2.0-only WITH GCC-exception-2.0",
-"name":"libgit2",
-"sha256":"3ca10ecfa207f8418f896529e9f3f5c8462e2af1d2f48c148eb1363729a40a1b",
-"size":789867,
-"timestamp":1605643985069,
-"version":"1.1.0"
-},
-"libgit2-1.1.0-hd165dee_1.tar.bz2":{
-"build":"hd165dee_1",
-"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libssh2 >=1.9.0,<2.0a0",
 "libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1j,<1.1.2a",
+"openssl >=1.1.1k,<1.1.2a",
 "pcre2 >=10.36,<10.37.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"GPL-2.0-only WITH GCC-exception-2.0",
 "name":"libgit2",
-"sha256":"806289afda047306823af0dd13c594eb370d0a418ab47d547ab539da34467f42",
-"size":769422,
-"timestamp":1614619457816,
-"version":"1.1.0"
+"sha256":"e38f8669fb2e2be2356a81a096d44362642391d953915c5e82a0ede53e5968c6",
+"size":775233,
+"timestamp":1625257432623,
+"version":"1.1.1"
 },
 "libglib-2.68.3-hba309c5_0.tar.bz2":{
 "build":"hba309c5_0",
@@ -64506,6 +64488,20 @@
 "size":1500632,
 "timestamp":1552058379688,
 "version":"0.9.10"
+},
+"libunwind-1.5.0-h3b9df90_0.tar.bz2":{
+"build":"h3b9df90_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"libunwind",
+"sha256":"5ced102d9f60a458775300477b5c6395dc44734d3629a53dc4608885b874c2db",
+"size":81325,
+"timestamp":1625260332162,
+"version":"1.5.0"
 },
 "libusb-1.0.24-h7bf75f0_4.tar.bz2":{
 "build":"h7bf75f0_4",
@@ -81888,51 +81884,6 @@
 "size":304875,
 "timestamp":1623789317906,
 "version":"8.45"
-},
-"pcre2-10.35-h32277c3_2.tar.bz2":{
-"build":"h32277c3_2",
-"build_number":2,
-"depends":[
-"bzip2 >=1.0.8,<2.0a0",
-"libgcc-ng >=9.3.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"pcre2",
-"sha256":"d82b21d2b9aaea7d2b91cbe11aef643a21afff2da9e8abea3cc9c7a4bacbe0fa",
-"size":732975,
-"timestamp":1606589588007,
-"version":"10.35"
-},
-"pcre2-10.35-h3c6faaa_1.tar.bz2":{
-"build":"h3c6faaa_1",
-"build_number":1,
-"depends":[
-"bzip2 >=1.0.8,<2.0a0",
-"libgcc-ng >=8.4.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"pcre2",
-"sha256":"95c55369cc24efbfadf6049f5107bd434d5847e3b642ff6741df9d6e37a46e22",
-"size":725593,
-"timestamp":1604412307419,
-"version":"10.35"
-},
-"pcre2-10.35-h3fbd938_0.tar.bz2":{
-"build":"h3fbd938_0",
-"build_number":0,
-"depends":[
-"bzip2 >=1.0.8,<2.0a0",
-"libgcc-ng >=8.2.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"pcre2",
-"sha256":"407de53f5dc3ce015099dba1597a4de77c01466e1bc33bb8df5e56646b831045",
-"size":730645,
-"timestamp":1589187112689,
-"version":"10.35"
 },
 "pcre2-10.36-h32277c3_0.tar.bz2":{
 "build":"h32277c3_0",
