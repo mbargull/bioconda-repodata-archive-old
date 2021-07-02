@@ -61515,28 +61515,7 @@
 "timestamp":1625086659282,
 "version":"10.5.0"
 },
-"libsdformat11-11.2.1-hae067aa_0.tar.bz2":{
-"build":"hae067aa_0",
-"build_number":0,
-"depends":[
-"console_bridge >=1.0.1,<1.1.0a0",
-"libgcc-ng >=9.3.0",
-"libignition-cmake2 >=2.8.0,<3.0a0",
-"libignition-math6 >=6.8.0,<7.0a0",
-"libignition-tools1 >=1.2.0,<2.0a0",
-"libignition-utils1 >=1.0.0,<2.0a0",
-"libstdcxx-ng >=9.3.0",
-"tinyxml2 >=9.0.0,<10.0a0",
-"urdfdom >=2.3.5,<2.4.0a0"
-],
-"license":"Apache-2.0",
-"name":"libsdformat11",
-"sha256":"712392adfb7e0947f545357d2a798a17842ff11c877b0b2adb426489235b5966",
-"size":809363,
-"timestamp":1625000778250,
-"version":"11.2.1"
-},
-"libsdformat11-11.2.1-hd9f8351_0.tar.bz2":{
+"libsdformat11-11.2.2-hd9f8351_0.tar.bz2":{
 "build":"hd9f8351_0",
 "build_number":0,
 "depends":[
@@ -61552,10 +61531,10 @@
 ],
 "license":"Apache-2.0",
 "name":"libsdformat11",
-"sha256":"17d1f21247a735e68ae89bcdcc4ccafe6828d9310eb1e615704e06db07fcc69c",
-"size":810016,
-"timestamp":1624999633788,
-"version":"11.2.1"
+"sha256":"290fb88e36826bccadb67bc05a383e85e98a8134fa5d837232b213f749c61b6f",
+"size":802258,
+"timestamp":1625204239947,
+"version":"11.2.2"
 },
 "libseccomp-2.4.4-hb9de7d4_0.tar.bz2":{
 "build":"hb9de7d4_0",
@@ -72375,6 +72354,34 @@
 "sha256":"204eaff6eb585c35b21eaa98ba46835e5f99e17091689255707135d8833ca8e8",
 "size":7770844,
 "timestamp":1622748040812,
+"version":"6.12.0"
+},
+"nordugrid-arc-6.12.0-py36hea6e7b3_1.tar.bz2":{
+"build":"py36hea6e7b3_1",
+"build_number":1,
+"depends":[
+"gct >=6.2.1550507116,<6.3.0a0",
+"gfal2 >=2.19.2,<2.20.0a0",
+"glibmm >=2.58.1,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"openldap >=2.4.52,<2.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"sigcpp-2.0 >=2.10.3",
+"sqlite >=3.36.0,<4.0a0",
+"xrootd >=5.2.0,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"nordugrid-arc",
+"sha256":"a98601000c725b6a04c20df5922874be27125f2b8a70c9faefc1105a30c43335",
+"size":7880526,
+"timestamp":1625202564807,
 "version":"6.12.0"
 },
 "nordugrid-arc-6.12.0-py37hcbf6507_0.tar.bz2":{
