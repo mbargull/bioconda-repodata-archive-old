@@ -15050,6 +15050,24 @@
 "timestamp":1624959048345,
 "version":"1.9.49"
 },
+"aws-sdk-cpp-1.9.51-hc266ab8_0.tar.bz2":{
+"build":"hc266ab8_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-crt-cpp >=0.14.2,<0.14.3.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"requires":[],
+"size":3875724,
+"timestamp":1625228396950,
+"version":"1.9.51"
+},
 "awscrt-0.11.24-py38h800ac52_6.tar.bz2":{
 "build":"py38h800ac52_6",
 "build_number":6,
@@ -97792,6 +97810,29 @@
 "size":1352852,
 "timestamp":1625061491666,
 "version":"0.9.4"
+},
+"python-igraph-0.9.5-py38h107f8ee_0.tar.bz2":{
+"build":"py38h107f8ee_0",
+"build_number":0,
+"depends":[
+"arpack >=3.7.0,<3.7.1.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"suitesparse >=5.10.1,<6.0a0",
+"texttable >=1.6.2"
+],
+"license":"GPL-2.0-or-later",
+"name":"python-igraph",
+"requires":[],
+"size":1330203,
+"timestamp":1625226622657,
+"version":"0.9.5"
 },
 "python-igraph-0.9.5-py39ha0bc573_0.tar.bz2":{
 "build":"py39ha0bc573_0",
