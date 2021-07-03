@@ -11238,7 +11238,7 @@
 "timestamp":1620322604875,
 "version":"1.8.186"
 },
-"aws-sdk-cpp-1.9.51-hf456e99_0.tar.bz2":{
+"aws-sdk-cpp-1.9.52-hf456e99_0.tar.bz2":{
 "build":"hf456e99_0",
 "build_number":0,
 "depends":[
@@ -11252,10 +11252,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"5e1255ec732f8b0e32e6232bc4ffc5d995e71e27c8f8ae2cb6247bc712b9e916",
-"size":4635915,
-"timestamp":1625228131392,
-"version":"1.9.51"
+"sha256":"989e00325e20aad07da0b32125ffa29429a0a81f964c6f524baf06cf84568970",
+"size":4639060,
+"timestamp":1625333820206,
+"version":"1.9.52"
 },
 "awscli-1.19.105-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
@@ -123720,6 +123720,87 @@
 "sha256":"b9413762231ee3c7ee082a2c422687761629f3c108181f357548a71fd02ffa1d",
 "size":101009,
 "timestamp":1625331552718,
+"version":"2.0.5"
+},
+"spyder-kernels-2.0.5-py37h4bcbb9b_0.tar.bz2":{
+"build":"py37h4bcbb9b_0",
+"build_number":0,
+"depends":[
+"cloudpickle",
+"ipykernel >=5.3.0",
+"ipython >=7.6.0",
+"jupyter_client >=5.3.4",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"pyzmq >=17",
+"wurlitzer >=1.0.3"
+],
+"license":"MIT",
+"name":"spyder-kernels",
+"sha256":"e57330b87cff6c9e90428a2d8e84b2566bfe861e1f4637232c441fb17ed840d5",
+"size":101467,
+"timestamp":1625332176506,
+"version":"2.0.5"
+},
+"spyder-kernels-2.0.5-py37hd9ded2f_0.tar.bz2":{
+"build":"py37hd9ded2f_0",
+"build_number":0,
+"depends":[
+"cloudpickle",
+"ipykernel >=5.3.0",
+"ipython >=7.6.0",
+"jupyter_client >=5.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pyzmq >=17",
+"wurlitzer >=1.0.3"
+],
+"license":"MIT",
+"name":"spyder-kernels",
+"sha256":"ce15c04f2843c8dbe6bf297dc85bd1f9ec31457aaffcb7988897453354b6abb3",
+"size":101090,
+"timestamp":1625332878449,
+"version":"2.0.5"
+},
+"spyder-kernels-2.0.5-py38h2063c64_0.tar.bz2":{
+"build":"py38h2063c64_0",
+"build_number":0,
+"depends":[
+"cloudpickle",
+"ipykernel >=5.3.0",
+"ipython >=7.6.0",
+"jupyter_client >=5.3.4",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyzmq >=17",
+"wurlitzer >=1.0.3"
+],
+"license":"MIT",
+"name":"spyder-kernels",
+"sha256":"3b0021cfd369f9252d754babfdcd6d9f39faa8004a3f8d6b1cfc72c006f380b2",
+"size":101368,
+"timestamp":1625333217500,
+"version":"2.0.5"
+},
+"spyder-kernels-2.0.5-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
+"depends":[
+"cloudpickle",
+"ipykernel >=5.3.0",
+"ipython >=7.6.0",
+"jupyter_client >=5.3.4",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyzmq >=17",
+"wurlitzer >=1.0.3"
+],
+"license":"MIT",
+"name":"spyder-kernels",
+"sha256":"2c6688cad0cedf581a66f3adb2163e8fa0fcc1993a61a84f74fc0c9e3d5efaaf",
+"size":101627,
+"timestamp":1625333753371,
 "version":"2.0.5"
 },
 "sqlalchemy-1.4.20-py36h269c3a8_0.tar.bz2":{
