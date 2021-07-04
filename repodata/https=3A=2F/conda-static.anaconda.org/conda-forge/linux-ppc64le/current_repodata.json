@@ -84622,6 +84622,25 @@
 "timestamp":1623208654839,
 "version":"1.7"
 },
+"pocl-1.7-h8dbc7b7_1.tar.bz2":{
+"build":"h8dbc7b7_1",
+"build_number":1,
+"depends":[
+"libclang-cpp11.1 >=11.1.0,<11.2.0a0",
+"libgcc-ng >=9.3.0",
+"libhwloc >=2.5.0,<2.5.1.0a0",
+"libhwloc >=2.5.0,<3.0a0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libstdcxx-ng >=9.3.0",
+"ocl-icd >=2.3.0,<3.0a0"
+],
+"license":"MIT",
+"name":"pocl",
+"sha256":"0a6f7a05e80e0f636753681f38454aa58b0da25243bb0c638ff259bcdbe2a5f8",
+"size":6935555,
+"timestamp":1625358553771,
+"version":"1.7"
+},
 "pocl-1.7-hf607070_0.tar.bz2":{
 "build":"hf607070_0",
 "build_number":0,
@@ -84641,6 +84660,25 @@
 "timestamp":1623208658373,
 "version":"1.7"
 },
+"pocl-1.7-hf607070_1.tar.bz2":{
+"build":"hf607070_1",
+"build_number":1,
+"depends":[
+"libclang-cpp11.1 >=11.1.0,<11.2.0a0",
+"libgcc-ng >=9.3.0",
+"libhwloc >=1.11.13,<1.12.0a0",
+"libhwloc >=1.11.13,<2.0a0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libstdcxx-ng >=9.3.0",
+"ocl-icd >=2.3.0,<3.0a0"
+],
+"license":"MIT",
+"name":"pocl",
+"sha256":"241ef3f641e9d8e35d7cc56e4a587a7bb602635c4244022c0963b705ec7310f8",
+"size":6926102,
+"timestamp":1625358562022,
+"version":"1.7"
+},
 "pocl-cuda-1.7-h4dd70e4_0.tar.bz2":{
 "build":"h4dd70e4_0",
 "build_number":0,
@@ -84658,6 +84696,23 @@
 "timestamp":1623208745253,
 "version":"1.7"
 },
+"pocl-cuda-1.7-h4dd70e4_1.tar.bz2":{
+"build":"h4dd70e4_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libhwloc >=1.11.13,<1.12.0a0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libstdcxx-ng >=9.3.0",
+"pocl 1.7 hf607070_1"
+],
+"license":"MIT",
+"name":"pocl-cuda",
+"sha256":"72a8df06f8a614ab5fef01bb5b3c5ae88c1e8d2a5012ecc27ce6369e766aa968",
+"size":56784,
+"timestamp":1625358647303,
+"version":"1.7"
+},
 "pocl-cuda-1.7-ha9ab2d0_0.tar.bz2":{
 "build":"ha9ab2d0_0",
 "build_number":0,
@@ -84673,6 +84728,23 @@
 "sha256":"ab222d0173ce8bff40d1f6f196735809ae088046eb508b9921909ad3df917178",
 "size":55343,
 "timestamp":1623208729005,
+"version":"1.7"
+},
+"pocl-cuda-1.7-ha9ab2d0_1.tar.bz2":{
+"build":"ha9ab2d0_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libhwloc >=2.5.0,<2.5.1.0a0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libstdcxx-ng >=9.3.0",
+"pocl 1.7 h8dbc7b7_1"
+],
+"license":"MIT",
+"name":"pocl-cuda",
+"sha256":"876756da4311f0d879ed871eb09bdd043c50e991d126c41f3480553446a4e720",
+"size":56770,
+"timestamp":1625358635952,
 "version":"1.7"
 },
 "poco-1.10.1-haf43566_1.tar.bz2":{
