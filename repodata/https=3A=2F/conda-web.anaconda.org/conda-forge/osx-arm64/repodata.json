@@ -14787,6 +14787,28 @@
 "timestamp":1624442029553,
 "version":"0.14.1"
 },
+"aws-crt-cpp-0.14.2-h2614c4c_4.tar.bz2":{
+"build":"h2614c4c_4",
+"build_number":4,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"requires":[],
+"size":157208,
+"timestamp":1625474668390,
+"version":"0.14.2"
+},
 "aws-crt-cpp-0.14.2-h693c82b_1.tar.bz2":{
 "build":"h693c82b_1",
 "build_number":1,
@@ -15809,6 +15831,28 @@
 "timestamp":1624715375135,
 "version":"0.11.25"
 },
+"awscrt-0.11.25-py38h6266463_2.tar.bz2":{
+"build":"py38h6266463_2",
+"build_number":2,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"requires":[],
+"size":111029,
+"timestamp":1625476915930,
+"version":"0.11.25"
+},
 "awscrt-0.11.25-py38h800ac52_0.tar.bz2":{
 "build":"py38h800ac52_0",
 "build_number":0,
@@ -15873,6 +15917,28 @@
 "requires":[],
 "size":108415,
 "timestamp":1624715375605,
+"version":"0.11.25"
+},
+"awscrt-0.11.25-py39h89b3210_2.tar.bz2":{
+"build":"py39h89b3210_2",
+"build_number":2,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.3,<0.6.4.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"requires":[],
+"size":108401,
+"timestamp":1625476814203,
 "version":"0.11.25"
 },
 "backports.lzma-0.0.14-py38he94ad69_3.tar.bz2":{
@@ -27736,6 +27802,23 @@
 "size":2005149,
 "timestamp":1617552728019,
 "version":"2.4.1"
+},
+"cppcheck-2.5-py38h16b7631_0.tar.bz2":{
+"build":"py38h16b7631_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"pcre >=8.45,<9.0a0",
+"pygments",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"GPL-3.0-or-later",
+"name":"cppcheck",
+"requires":[],
+"size":2039891,
+"timestamp":1625474174124,
+"version":"2.5"
 },
 "cppcheck-2.5-py39h58f535e_0.tar.bz2":{
 "build":"py39h58f535e_0",
