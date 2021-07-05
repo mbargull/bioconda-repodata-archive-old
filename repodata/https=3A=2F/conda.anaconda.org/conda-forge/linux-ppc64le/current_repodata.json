@@ -14922,6 +14922,25 @@
 "timestamp":1625333860540,
 "version":"1.9.52"
 },
+"aws-sdk-cpp-1.9.52-ha20a09b_1.tar.bz2":{
+"build":"ha20a09b_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-crt-cpp >=0.14.2,<0.14.3.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"sha256":"23d285f3742622d7db705bb32e89cdcc24edaa0b8198a9bd1f6b5ce06d34bc1b",
+"size":4503763,
+"timestamp":1625487031514,
+"version":"1.9.52"
+},
 "awscli-1.19.105-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
@@ -15047,6 +15066,30 @@
 "timestamp":1624664321035,
 "version":"0.11.25"
 },
+"awscrt-0.11.25-py36h9975500_3.tar.bz2":{
+"build":"py36h9975500_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"07d24b6781e0a1423c629b0213c4e9ebaac00ec9b845a1ecca5370998e3df6e7",
+"size":117010,
+"timestamp":1625486113888,
+"version":"0.11.25"
+},
 "awscrt-0.11.25-py36hca396bd_1.tar.bz2":{
 "build":"py36hca396bd_1",
 "build_number":1,
@@ -15095,6 +15138,31 @@
 "timestamp":1625476722460,
 "version":"0.11.25"
 },
+"awscrt-0.11.25-py37h010fe95_3.tar.bz2":{
+"build":"py37h010fe95_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"libgcc-ng >=9.3.0",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"26ffdf7e48fcd89ce5747709a83d1e27712e9328c0469cf846da67ba093fb01f",
+"size":116884,
+"timestamp":1625486038367,
+"version":"0.11.25"
+},
 "awscrt-0.11.25-py37h5e765eb_1.tar.bz2":{
 "build":"py37h5e765eb_1",
 "build_number":1,
@@ -15141,6 +15209,30 @@
 "sha256":"6607c91b8a89a32cc5cadd590e112e85a0c8de90bdbdac27109185100a09e067",
 "size":117147,
 "timestamp":1625476813037,
+"version":"0.11.25"
+},
+"awscrt-0.11.25-py37h8e50186_3.tar.bz2":{
+"build":"py37h8e50186_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"9b0fc8105c9568420359187052459213f8cc1e146d29f3885018b422cd66f6a9",
+"size":116958,
+"timestamp":1625486034233,
 "version":"0.11.25"
 },
 "awscrt-0.11.25-py37hc981357_0.tar.bz2":{
@@ -15264,6 +15356,54 @@
 "sha256":"3697523623295136553b54937453daf9c66bed518d53b86bfd4c49d66a760d38",
 "size":117323,
 "timestamp":1625477169335,
+"version":"0.11.25"
+},
+"awscrt-0.11.25-py38hec09e13_3.tar.bz2":{
+"build":"py38hec09e13_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"2f2e9a4f33ee088f87f0e6498479d3b878fdf58709d1b0237bf0883366b01e06",
+"size":117303,
+"timestamp":1625486150794,
+"version":"0.11.25"
+},
+"awscrt-0.11.25-py39h266c167_3.tar.bz2":{
+"build":"py39h266c167_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"s2n >=1.0.10,<1.0.11.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"338210f83e1c8c7b92c4a39700731498a560d4e453492627b506950ed04b25bd",
+"size":117293,
+"timestamp":1625486170597,
 "version":"0.11.25"
 },
 "awscrt-0.11.25-py39ha5de5d0_1.tar.bz2":{

@@ -5828,6 +5828,24 @@
 "timestamp":1625334019759,
 "version":"1.9.52"
 },
+"aws-sdk-cpp-1.9.52-hf40faf0_1.tar.bz2":{
+"build":"hf40faf0_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-crt-cpp >=0.14.2,<0.14.3.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"sha256":"3b8e9c9bce49778f99e2169c8e085ab7747885f5aa2b0849f83e7f35f83ae1d7",
+"size":3891272,
+"timestamp":1625487256908,
+"version":"1.9.52"
+},
 "awscrt-0.11.25-py38h6266463_1.tar.bz2":{
 "build":"py38h6266463_1",
 "build_number":1,
@@ -5892,6 +5910,50 @@
 "sha256":"d81b04a3a08f287e46cae3cc507b11ae77fbf6309aae8f7ee8993f45961b1510",
 "size":111032,
 "timestamp":1624663991577,
+"version":"0.11.25"
+},
+"awscrt-0.11.25-py38hc589a56_3.tar.bz2":{
+"build":"py38hc589a56_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"fbccfb734c19a570bace3121f56a347cf2e88815f631fbfe04045d682a1d7208",
+"size":111019,
+"timestamp":1625485954673,
+"version":"0.11.25"
+},
+"awscrt-0.11.25-py39h5e52a49_3.tar.bz2":{
+"build":"py39h5e52a49_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.21,<0.1.22.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"004a49a57b1b467e540cfd4a292c919531495bb317f886108ed8807681cee1b5",
+"size":108381,
+"timestamp":1625486146131,
 "version":"0.11.25"
 },
 "awscrt-0.11.25-py39h65e12ef_0.tar.bz2":{
