@@ -23003,7 +23003,7 @@
 "timestamp":1589287022963,
 "version":"3.16.4"
 },
-"cmd2-2.1.1-py36h270354c_0.tar.bz2":{
+"cmd2-2.1.2-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -23019,12 +23019,12 @@
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"848b0f25613f5a75a14fb5ced64c727dc45ac99aa7d560e491388c54a30a76a9",
-"size":192827,
-"timestamp":1623993460957,
-"version":"2.1.1"
+"sha256":"52b90dea685021feabbdcc783234c4bd0937c82bba6f868d8ee24206e7bb6a95",
+"size":194775,
+"timestamp":1625509337125,
+"version":"2.1.2"
 },
-"cmd2-2.1.1-py37h35e4cab_0.tar.bz2":{
+"cmd2-2.1.2-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -23040,12 +23040,12 @@
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"d886abd60795079f1c9c6f45eaeae4ab3c27b2d98735ce2acbd078f384b009b8",
-"size":193383,
-"timestamp":1623993483277,
-"version":"2.1.1"
+"sha256":"6af208667c655c48c75f75e3dbe90ba418793085da1c7feb8d08a93443d623ea",
+"size":194668,
+"timestamp":1625509309386,
+"version":"2.1.2"
 },
-"cmd2-2.1.1-py38hf8b3453_0.tar.bz2":{
+"cmd2-2.1.2-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -23059,12 +23059,12 @@
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"5192bb9348e60cacd6d3bca39baad83a2391e012ed0309cd3c207529d651d41c",
-"size":193602,
-"timestamp":1623993474152,
-"version":"2.1.1"
+"sha256":"7ee8c22d9a017c116c6683247518b6f5844ff3e1a55700c9f5507fba3c591540",
+"size":194936,
+"timestamp":1625511950714,
+"version":"2.1.2"
 },
-"cmd2-2.1.1-py39hc1b9086_0.tar.bz2":{
+"cmd2-2.1.2-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -23078,10 +23078,10 @@
 ],
 "license":"MIT",
 "name":"cmd2",
-"sha256":"76372e5a2c11a65db203e17d69ce878a2caad2230f092e0831cbb8d73ddadc97",
-"size":194094,
-"timestamp":1623993392787,
-"version":"2.1.1"
+"sha256":"13136a8357a75a49d85b0686cbfca87ef00028424c27c816f51d12c83cef988d",
+"size":195512,
+"timestamp":1625511927161,
+"version":"2.1.2"
 },
 "cmreshandler-1.0.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -67706,6 +67706,30 @@
 "sha256":"daa6733cea6ce72cceabe7bdf55c96dca22814d1fc26009a47975b45c43dc2da",
 "size":845851,
 "timestamp":1624655320534,
+"version":"0.14.1"
+},
+"mamba-0.14.1-py37h6dfb572_0.tar.bz2":{
+"build":"py37h6dfb572_0",
+"build_number":0,
+"depends":[
+"conda >=4.8",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libiconv >=1.16,<1.17.0a0",
+"libsolv >=0.7.19,<0.8.0a0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"reproc-cpp >=14.2,<15.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mamba",
+"sha256":"88fb63b0cfde589dcd4e96a508a4fd81acd90195e6cd0294e4c01c33c90c73de",
+"size":838552,
+"timestamp":1625510649583,
 "version":"0.14.1"
 },
 "mamba-0.14.1-py38h5a21a44_0.tar.bz2":{
