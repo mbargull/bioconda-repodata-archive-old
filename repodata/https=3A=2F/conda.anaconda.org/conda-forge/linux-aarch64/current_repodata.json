@@ -61824,7 +61824,7 @@
 "timestamp":1606152995900,
 "version":"0.21.1"
 },
-"libpython-static-3.9.5-h01db608_0_cpython.tar.bz2":{
+"libpython-static-3.9.6-h01db608_0_cpython.tar.bz2":{
 "build":"h01db608_0_cpython",
 "build_number":0,
 "depends":[
@@ -61834,10 +61834,10 @@
 ],
 "license":"Python-2.0",
 "name":"libpython-static",
-"sha256":"36feb7f8de21aead8c0003f3d3ec9958885e9054789eeb55ac89cf530fc1a525",
-"size":3283034,
-"timestamp":1624062072059,
-"version":"3.9.5"
+"sha256":"113b6040fc240ddd411686d962e18cb684365d739d400e0c8c89b71948b3ea17",
+"size":3295940,
+"timestamp":1625562074949,
+"version":"3.9.6"
 },
 "libraw-0.19.5-hefcb256_2.tar.bz2":{
 "build":"hefcb256_2",
@@ -94811,7 +94811,7 @@
 "timestamp":1620714419946,
 "version":"3.8.10"
 },
-"python-3.9.5-h4f4e160_0_cpython.tar.bz2":{
+"python-3.9.6-h4f4e160_0_cpython.tar.bz2":{
 "build":"h4f4e160_0_cpython",
 "build_number":0,
 "constrains":[
@@ -94824,7 +94824,7 @@
 "ncurses >=6.2,<6.3.0a0",
 "openssl >=1.1.1k,<1.1.2a",
 "readline >=8.1,<9.0a0",
-"sqlite >=3.35.5,<4.0a0",
+"sqlite >=3.36.0,<4.0a0",
 "tk >=8.6.10,<8.7.0a0",
 "tzdata",
 "xz >=5.2.5,<5.3.0a0",
@@ -94832,10 +94832,10 @@
 ],
 "license":"Python-2.0",
 "name":"python",
-"sha256":"a6e1b2e29f11062906990bcd596f22ed2aa756bc8e536f23e19ca2a7962ba17e",
-"size":12900468,
-"timestamp":1624062013586,
-"version":"3.9.5"
+"sha256":"2cace972316f8dc902039a900566abde351c5d8f303db96c3ea53ff48fc5b401",
+"size":12783662,
+"timestamp":1625561900626,
+"version":"3.9.6"
 },
 "python-annoy-1.17.0-py36h143fd24_2.tar.bz2":{
 "build":"py36h143fd24_2",
@@ -120306,6 +120306,27 @@
 "sha256":"83e82ed047626d44e69a4752f005acc2f6fa7209457764d5a5a588533f2a8a65",
 "size":7577636,
 "timestamp":1619628898387,
+"version":"0.24.2"
+},
+"scikit-learn-0.24.2-py36h23934e0_1.tar.bz2":{
+"build":"py36h23934e0_1",
+"build_number":1,
+"depends":[
+"joblib >=0.11",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"scipy",
+"threadpoolctl"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"sha256":"344abb081dd52897af1b15862aa53dbbc6781abc19d92a6766ff724307ba91d6",
+"size":7600304,
+"timestamp":1625562804469,
 "version":"0.24.2"
 },
 "scikit-learn-0.24.2-py37hc48b863_0.tar.bz2":{
