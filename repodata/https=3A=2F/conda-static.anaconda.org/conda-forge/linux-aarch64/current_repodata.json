@@ -12756,6 +12756,22 @@
 "timestamp":1602289646654,
 "version":"1.0.post1"
 },
+"barvinok-0.41.5-hf0ab205_1.tar.bz2":{
+"build":"hf0ab205_1",
+"build_number":1,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"ntl 11.4.3.*"
+],
+"license":"GPL-2.0-only",
+"name":"barvinok",
+"sha256":"56e9c7ad30b1f613b85751a0e2f270ab05d3ccdff434f4993d4ef4c89539ee0a",
+"size":3045245,
+"timestamp":1625528939132,
+"version":"0.41.5"
+},
 "bash-5.0.018-h0c569fe_0.tar.bz2":{
 "build":"h0c569fe_0",
 "build_number":0,
@@ -61424,6 +61440,36 @@
 "timestamp":1625525945350,
 "version":"4.5.2"
 },
+"libopencv-4.5.2-py39h2c905bf_1.tar.bz2":{
+"build":"py39h2c905bf_1",
+"build_number":1,
+"depends":[
+"_openmp_mutex >=4.5",
+"ffmpeg >=4.3.1,<5.0a0",
+"freetype >=2.10.4,<3.0a0",
+"harfbuzz >=2.8.1,<3.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jasper >=1.900.31,<2.0a0",
+"jpeg >=9d,<10a",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"liblapack >=3.8.0,<4.0a0",
+"liblapacke >=3.8.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"libtiff >=4.3.0,<5.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libopencv",
+"sha256":"c06b4d7d84b9f9d1dad33b174faa496518e820e96c163857e0d0ac9c4a0a2507",
+"size":20219222,
+"timestamp":1625528943909,
+"version":"4.5.2"
+},
 "libopenssl-static-1.1.1k-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",
 "build_number":0,
@@ -75701,6 +75747,21 @@
 "timestamp":1625526243438,
 "version":"4.5.2"
 },
+"opencv-4.5.2-py39ha65689a_1.tar.bz2":{
+"build":"py39ha65689a_1",
+"build_number":1,
+"depends":[
+"libopencv 4.5.2 py39h2c905bf_1",
+"py-opencv 4.5.2 py39hef158d4_1",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"opencv",
+"sha256":"2ca9eaa06a8d4c7163802287e8f111222d38e545c7551860f276b22a714e6cf3",
+"size":21871,
+"timestamp":1625529291596,
+"version":"4.5.2"
+},
 "openexr-2.5.5-h6293a0b_0.tar.bz2":{
 "build":"h6293a0b_0",
 "build_number":0,
@@ -81794,6 +81855,25 @@
 "timestamp":1625354221332,
 "version":"1.7"
 },
+"pocl-1.7-h8109c39_2.tar.bz2":{
+"build":"h8109c39_2",
+"build_number":2,
+"depends":[
+"libclang-cpp11.1 >=11.1.0,<11.2.0a0",
+"libgcc-ng >=9.3.0",
+"libhwloc >=2.5.0,<2.5.1.0a0",
+"libhwloc >=2.5.0,<3.0a0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libstdcxx-ng >=9.3.0",
+"ocl-icd >=2.3.0,<3.0a0"
+],
+"license":"MIT",
+"name":"pocl",
+"sha256":"36e0fd27b799f247f5a0b05e3aa0037b27a60452ac9d3e03983acd2822289bdc",
+"size":48593520,
+"timestamp":1625528668021,
+"version":"1.7"
+},
 "poco-1.10.1-h1d91377_1.tar.bz2":{
 "build":"h1d91377_1",
 "build_number":1,
@@ -84004,6 +84084,22 @@
 "sha256":"84eff3966967d5e68fdfa5fd64fd5f147b092293328e5a1a418fcabf3e20eda6",
 "size":1150880,
 "timestamp":1625526155945,
+"version":"4.5.2"
+},
+"py-opencv-4.5.2-py39hef158d4_1.tar.bz2":{
+"build":"py39hef158d4_1",
+"build_number":1,
+"depends":[
+"libopencv 4.5.2 py39h2c905bf_1",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"py-opencv",
+"sha256":"a7189ce18489732e0d438c69b7875b11f519060e1baa7f84458dfb547a59a317",
+"size":1152876,
+"timestamp":1625529180835,
 "version":"4.5.2"
 },
 "py-openimageio-2.2.14-py36h9add70f_0.tar.bz2":{
