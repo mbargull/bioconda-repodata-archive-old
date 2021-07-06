@@ -29076,6 +29076,20 @@
 "timestamp":1621591815901,
 "version":"4.1.0"
 },
+"cross-r-base-4.1.0-hce30654_2.tar.bz2":{
+"build":"hce30654_2",
+"build_number":2,
+"depends":[
+"r-base 4.1.0 hbf21b45_2",
+"rsync"
+],
+"license":"GPL-2.0-or-later",
+"name":"cross-r-base",
+"sha256":"99b84d5c2e925bdc99b13a9fd6856aaff5fc8bb87745b2063d26ebb4ffc1afd7",
+"size":33192,
+"timestamp":1625581448287,
+"version":"4.1.0"
+},
 "cryptography-3.1-py38h689ceed_0.tar.bz2":{
 "build":"py38h689ceed_0",
 "build_number":0,
@@ -60641,6 +60655,24 @@
 "sha256":"6c50e14323c616d8d3b76fd2da23c7495145b4ac45d9b4e5de125a163c24f3b3",
 "size":575967,
 "timestamp":1625254289105,
+"version":"1.1.1"
+},
+"libgit2-1.1.1-h9a176e0_1.tar.bz2":{
+"build":"h9a176e0_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"pcre2 >=10.37,<10.38.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-only WITH GCC-exception-2.0",
+"name":"libgit2",
+"sha256":"4ad6c7a525783c777fc584afbb6974e95ec222a0d59a4f714514985bf588cef4",
+"size":576577,
+"timestamp":1625582645237,
 "version":"1.1.1"
 },
 "libglib-2.66.2-hb9f672c_0.tar.bz2":{
@@ -101966,6 +101998,53 @@
 "sha256":"b67e10ec621c24bc5399de380ea341a241332a038a26d9aa3f8666fec6dde378",
 "size":27151483,
 "timestamp":1621591788365,
+"version":"4.1.0"
+},
+"r-base-4.1.0-hbf21b45_2.tar.bz2":{
+"build":"hbf21b45_2",
+"build_number":2,
+"depends":[
+"_r-mutex 1.* anacondar_1",
+"bwidget",
+"bzip2 >=1.0.8,<2.0a0",
+"cairo >=1.16.0,<1.17.0a0",
+"clang_osx-arm64 >=11",
+"clangxx_osx-arm64 >=11",
+"curl",
+"freetype >=2.10.4,<3.0a0",
+"gfortran_osx-arm64 11.*",
+"gsl >=2.6,<2.7.0a0",
+"icu >=68.1,<69.0a0",
+"jpeg >=9d,<10a",
+"krb5 >=1.19.1,<1.20.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"libglib >=2.68.3,<3.0a0",
+"libiconv >=1.16,<1.17.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"libtiff >=4.3.0,<5.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"llvm-openmp >=11.1.0",
+"make",
+"ncurses >=6.2,<6.3.0a0",
+"pango >=1.48.7,<1.49.0a0",
+"pcre2 >=10.37,<10.38.0a0",
+"readline >=8.1,<9.0a0",
+"tk >=8.6.10,<8.7.0a0",
+"tktable",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-base",
+"sha256":"48605c9acaceb1f0ca319b5f0fccff2058f7cfac38514c1caea3d1b6c2e1f694",
+"size":27107941,
+"timestamp":1625581424258,
 "version":"4.1.0"
 },
 "r-base64enc-0.1_3-r40h6f62c66_1004.tar.bz2":{
