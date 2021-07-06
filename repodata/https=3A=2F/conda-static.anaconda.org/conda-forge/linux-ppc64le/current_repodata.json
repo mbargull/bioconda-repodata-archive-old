@@ -16534,6 +16534,19 @@
 "timestamp":1625066596327,
 "version":"2.36.1"
 },
+"binutils-2.36.1-h7f02139_1.tar.bz2":{
+"build":"h7f02139_1",
+"build_number":1,
+"depends":[
+"binutils_impl_linux-ppc64le >=2.36.1,<2.36.2.0a0"
+],
+"license":"GPL-3.0-only",
+"name":"binutils",
+"sha256":"41e106d0b0f9fadc57ea913912a819949ea451b4cda4f8aa2ebe99bd430beaf4",
+"size":26899,
+"timestamp":1625586442264,
+"version":"2.36.1"
+},
 "binutils-meta-1.0.4-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -16561,6 +16574,20 @@
 "timestamp":1625066557165,
 "version":"2.36.1"
 },
+"binutils_impl_linux-64-2.36.1-hfd2112f_1.tar.bz2":{
+"build":"hfd2112f_1",
+"build_number":1,
+"depends":[
+"ld_impl_linux-64 2.36.1 h7d5d4a1_1",
+"sysroot_linux-64"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-64",
+"sha256":"1814c85edd9dc980e4fc624641fa90e19d1523c7af4307d3486e4302d9148bc2",
+"size":9741736,
+"timestamp":1625586380960,
+"version":"2.36.1"
+},
 "binutils_impl_linux-aarch64-2.36.1-hac76c2e_0.tar.bz2":{
 "build":"hac76c2e_0",
 "build_number":0,
@@ -16575,6 +16602,20 @@
 "timestamp":1625066039274,
 "version":"2.36.1"
 },
+"binutils_impl_linux-aarch64-2.36.1-hac76c2e_1.tar.bz2":{
+"build":"hac76c2e_1",
+"build_number":1,
+"depends":[
+"ld_impl_linux-aarch64 2.36.1 h4c18e94_1",
+"sysroot_linux-aarch64"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-aarch64",
+"sha256":"37bf8ebbd47f46aea14a58480c2c23ab14d2d67fbc478d4b70cea3ba1dc971fc",
+"size":9803876,
+"timestamp":1625586408666,
+"version":"2.36.1"
+},
 "binutils_impl_linux-ppc64le-2.36.1-h5836da8_0.tar.bz2":{
 "build":"h5836da8_0",
 "build_number":0,
@@ -16587,6 +16628,20 @@
 "sha256":"d77a2dd080dda1c65637d33b9d1c45f5d38f09684a0cd0e3baa227e2f9f77763",
 "size":10302917,
 "timestamp":1625066557010,
+"version":"2.36.1"
+},
+"binutils_impl_linux-ppc64le-2.36.1-h5836da8_1.tar.bz2":{
+"build":"h5836da8_1",
+"build_number":1,
+"depends":[
+"ld_impl_linux-ppc64le 2.36.1 ha35d02b_1",
+"sysroot_linux-ppc64le"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-ppc64le",
+"sha256":"ea379d15fd492bd61dbb2f4eb7329a4d3ec32defd6d6e8325249d77f40682e1f",
+"size":10313376,
+"timestamp":1625586400797,
 "version":"2.36.1"
 },
 "binutils_linux-ppc64le-2.34-hd8a9c84_21.tar.bz2":{
@@ -55482,6 +55537,20 @@
 "timestamp":1625066509520,
 "version":"2.36.1"
 },
+"ld_impl_linux-64-2.36.1-h7d5d4a1_1.tar.bz2":{
+"build":"h7d5d4a1_1",
+"build_number":1,
+"constrains":[
+"binutils_impl_linux-64 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-64",
+"sha256":"5a454138ea692f5f4b459803531d5ce260f94e831adc4af6b344d7cc28166e17",
+"size":655105,
+"timestamp":1625586347531,
+"version":"2.36.1"
+},
 "ld_impl_linux-aarch64-2.36.1-h4c18e94_0.tar.bz2":{
 "build":"h4c18e94_0",
 "build_number":0,
@@ -55496,6 +55565,20 @@
 "timestamp":1625066014125,
 "version":"2.36.1"
 },
+"ld_impl_linux-aarch64-2.36.1-h4c18e94_1.tar.bz2":{
+"build":"h4c18e94_1",
+"build_number":1,
+"constrains":[
+"binutils_impl_linux-aarch64 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-aarch64",
+"sha256":"cb97bf94fa435ffeba0870ed57e0fa51ce7605cb23034a1b6341ebee8693ea9f",
+"size":663546,
+"timestamp":1625586380542,
+"version":"2.36.1"
+},
 "ld_impl_linux-ppc64le-2.36.1-ha35d02b_0.tar.bz2":{
 "build":"ha35d02b_0",
 "build_number":0,
@@ -55508,6 +55591,20 @@
 "sha256":"1f85dc6faa8f4c350948e52b78c38a4c527dc814dd2fa467bdea63a7962d9ef5",
 "size":710765,
 "timestamp":1625066517038,
+"version":"2.36.1"
+},
+"ld_impl_linux-ppc64le-2.36.1-ha35d02b_1.tar.bz2":{
+"build":"ha35d02b_1",
+"build_number":1,
+"constrains":[
+"binutils_impl_linux-ppc64le 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-ppc64le",
+"sha256":"cc60e222616e84c6da7bb90ff9e8a2b9ad4e64df780da99549b2b60b0b13eea5",
+"size":705957,
+"timestamp":1625586371082,
 "version":"2.36.1"
 },
 "ldid-2.1.2-hafec1d3_1.tar.bz2":{
