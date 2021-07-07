@@ -13404,6 +13404,20 @@
 "timestamp":1625054519841,
 "version":"0.10.6"
 },
+"aws-c-io-0.10.6-h3c29754_2.tar.bz2":{
+"build":"h3c29754_2",
+"build_number":2,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"afa916ba4d36510421fedbae8bf28e1e910d2c7e387313750792b390faf5ed3c",
+"size":112428,
+"timestamp":1625668674345,
+"version":"0.10.6"
+},
 "aws-c-io-0.10.6-he5e40cf_0.tar.bz2":{
 "build":"he5e40cf_0",
 "build_number":0,
@@ -21716,6 +21730,22 @@
 "size":6137741,
 "timestamp":1625595822711,
 "version":"5.2.3"
+},
+"cgal-cpp-5.3-h3346a37_0.tar.bz2":{
+"build":"h3346a37_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"eigen",
+"libcxx >=11.1.0",
+"mpfr >=4.0.2,<5.0a0"
+],
+"license":"GPL3/LGPL3",
+"name":"cgal-cpp",
+"sha256":"23a7eb93831bd43fb2e715c31ad2a800da084376e346597e4ddf9a98f4cc254c",
+"size":6396349,
+"timestamp":1625668791120,
+"version":"5.3"
 },
 "chardet-3.0.4-py38h045b1e1_1008.tar.bz2":{
 "build":"py38h045b1e1_1008",
@@ -98157,6 +98187,48 @@
 "size":761811,
 "timestamp":1624852335383,
 "version":"2021.2.5"
+},
+"pyopencl-2021.2.6-py38h1e2c3d9_0.tar.bz2":{
+"build":"py38h1e2c3d9_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"khronos-opencl-icd-loader >=2021.6.30",
+"libcxx >=11.1.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytools",
+"setuptools"
+],
+"license":"MIT",
+"name":"pyopencl",
+"sha256":"2fc8ebdd7a857fa1ba781d811f43ffec1e88d9217285b24ffe19e9fa54fad72e",
+"size":760241,
+"timestamp":1625669532638,
+"version":"2021.2.6"
+},
+"pyopencl-2021.2.6-py39h776e71f_0.tar.bz2":{
+"build":"py39h776e71f_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"khronos-opencl-icd-loader >=2021.6.30",
+"libcxx >=11.1.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytools",
+"setuptools"
+],
+"license":"MIT",
+"name":"pyopencl",
+"sha256":"ac5b99e4c4798e4415f122fb2e183b54b62b9f5c6fed0abcb8e3f595ef0a46ff",
+"size":768298,
+"timestamp":1625669516581,
+"version":"2021.2.6"
 },
 "pyproj-3.0.1-py38h743e829_1.tar.bz2":{
 "build":"py38h743e829_1",

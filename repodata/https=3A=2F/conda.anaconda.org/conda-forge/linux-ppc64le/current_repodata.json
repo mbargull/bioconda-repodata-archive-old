@@ -13853,6 +13853,22 @@
 "timestamp":1625054279693,
 "version":"0.10.6"
 },
+"aws-c-io-0.10.6-hd2df42a_2.tar.bz2":{
+"build":"hd2df42a_2",
+"build_number":2,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.12,<1.0.13.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"f869313ebc1492415d2a9459008c01d260921b69fcfc485ebcabd9e8d4a4f679",
+"size":130164,
+"timestamp":1625668556921,
+"version":"0.10.6"
+},
 "aws-c-io-0.10.6-hf331cb0_0.tar.bz2":{
 "build":"hf331cb0_0",
 "build_number":0,
@@ -59960,6 +59976,29 @@
 "timestamp":1624532093896,
 "version":"4.0.0"
 },
+"libignition-common4-4.0.0-h85fa399_3.tar.bz2":{
+"build":"h85fa399_3",
+"build_number":3,
+"depends":[
+"ffmpeg >=4.3.1,<5.0a0",
+"freeimage >=3.18.0,<3.19.0a0",
+"gts >=0.7.6,<0.8.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-utils1 >=1.0.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"tinyxml2 >=9.0.0,<10.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-common4",
+"sha256":"b8cb4a77763b02b0ffccb26f53f7947771a913424aecf37d31ef918644ba62d5",
+"size":830784,
+"timestamp":1625665248311,
+"version":"4.0.0"
+},
 "libignition-fuel-tools4-4.4.0-h18195ce_0.tar.bz2":{
 "build":"h18195ce_0",
 "build_number":0,
@@ -60209,43 +60248,23 @@
 "timestamp":1624828346686,
 "version":"6.5.0"
 },
-"libignition-msgs7-7.0.0-h5b7dc68_0.tar.bz2":{
-"build":"h5b7dc68_0",
+"libignition-msgs7-7.1.0-hfc332f5_0.tar.bz2":{
+"build":"hfc332f5_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libignition-math6 >=6.4",
-"libignition-math6 >=6.7.0,<7.0a0",
-"libignition-tools1 >=1.1.0,<2.0a0",
-"libprotobuf >=3.15.6,<3.16.0a0",
-"libstdcxx-ng >=9.3.0",
-"protobuf",
-"tinyxml2 >=8.0.0,<8.1.0a0"
-],
-"license":"Apache-2.0",
-"name":"libignition-msgs7",
-"sha256":"74eb187d76f77a7a7dabd2cef60b439bbbd16e02e47b62a679eb236a92d780d0",
-"size":1207575,
-"timestamp":1617227763401,
-"version":"7.0.0"
-},
-"libignition-msgs7-7.0.0-h68fbe3a_1.tar.bz2":{
-"build":"h68fbe3a_1",
-"build_number":1,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libignition-math6 >=6.8.0,<7.0a0",
 "libignition-tools1 >=1.2.0,<2.0a0",
 "libprotobuf >=3.16.0,<3.17.0a0",
 "libstdcxx-ng >=9.3.0",
-"tinyxml2 >=9.0.0,<9.1.0a0"
+"tinyxml2 >=8.1.0,<8.2.0a0"
 ],
 "license":"Apache-2.0",
 "name":"libignition-msgs7",
-"sha256":"a82ca1032d2050fabf0ab2d7e4d78d6d33e12916e7c6715aa964a86eb3c3e8d6",
-"size":1216157,
-"timestamp":1623885929329,
-"version":"7.0.0"
+"sha256":"fba3b1659f1ab204480034c8f82aceacc8f3ae9c68789885fe6cd00425e24419",
+"size":1220200,
+"timestamp":1625668220862,
+"version":"7.1.0"
 },
 "libignition-physics3-3.2.0-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
@@ -71916,7 +71935,7 @@
 "timestamp":1610122424217,
 "version":"1.0.2"
 },
-"msgspec-0.2.0-py38h98b8a6f_0.tar.bz2":{
+"msgspec-0.3.0-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -71926,29 +71945,14 @@
 ],
 "license":"BSD-3-Clause",
 "name":"msgspec",
-"sha256":"72189b4c4b8b9c597ba8477f2665b207aa110696a709ae5edc8a9a10f47e4f7a",
-"size":56573,
-"timestamp":1615386845959,
-"version":"0.2.0"
+"sha256":"545ff36b4bea3fe87c7d4b13c96d218f40a29d89ddb95ab3fff57ec6ec2c4cd3",
+"size":69854,
+"timestamp":1625666122091,
+"version":"0.3.0"
 },
-"msgspec-0.2.0-py38h98b8a6f_1.tar.bz2":{
-"build":"py38h98b8a6f_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"msgspec",
-"sha256":"029705f41efa2ea25713a55dd9d88e184e1d6e1ef7a54e8bfb00c155f6b7ff91",
-"size":56575,
-"timestamp":1615401549401,
-"version":"0.2.0"
-},
-"msgspec-0.2.0-py39ha810350_1.tar.bz2":{
-"build":"py39ha810350_1",
-"build_number":1,
+"msgspec-0.3.0-py39ha810350_0.tar.bz2":{
+"build":"py39ha810350_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "python >=3.9,<3.10.0a0",
@@ -71956,10 +71960,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"msgspec",
-"sha256":"d8d1bb224b46fae0cfdeda04549f1d2708ada78f78b48e645a78c5410725165d",
-"size":56180,
-"timestamp":1615401484652,
-"version":"0.2.0"
+"sha256":"5a913759c5bdc731ff5f452993ed632aa6833f4d0c67b056eee57985e0c6eea4",
+"size":69768,
+"timestamp":1625666133759,
+"version":"0.3.0"
 },
 "multidict-5.1.0-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
@@ -95291,7 +95295,7 @@
 "timestamp":1622444478533,
 "version":"0.16.2"
 },
-"pyopencl-2021.2.5-py36h416786f_0.tar.bz2":{
+"pyopencl-2021.2.6-py36h416786f_0.tar.bz2":{
 "build":"py36h416786f_0",
 "build_number":0,
 "depends":[
@@ -95308,12 +95312,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"7a81b3140509ffcd8bbf75dbb9889bf3836cb75ff7712cee42c65754253694b9",
-"size":742618,
-"timestamp":1624852455686,
-"version":"2021.2.5"
+"sha256":"9261a3c0adaf464388d37be98dad2bd722e27f47846e6dd5532302fff3959426",
+"size":745197,
+"timestamp":1625670520378,
+"version":"2021.2.6"
 },
-"pyopencl-2021.2.5-py37h50ba158_0.tar.bz2":{
+"pyopencl-2021.2.6-py37h50ba158_0.tar.bz2":{
 "build":"py37h50ba158_0",
 "build_number":0,
 "depends":[
@@ -95323,7 +95327,7 @@
 "mako",
 "numpy >=1.19.5,<2.0a0",
 "ocl-icd >=2.3.0,<3.0a0",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "pytools",
@@ -95331,12 +95335,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"da957a2070f8aebee668e9ac4e50729e1c7514f434df071a3c7edea034dbd1bc",
-"size":711490,
-"timestamp":1624852529329,
-"version":"2021.2.5"
+"sha256":"b077900d0f4186bc0cee8da805c1a20f04c4f9d0ef40c1245fdb06f1a060226b",
+"size":712944,
+"timestamp":1625669492729,
+"version":"2021.2.6"
 },
-"pyopencl-2021.2.5-py37heb9fb97_0.tar.bz2":{
+"pyopencl-2021.2.6-py37heb9fb97_0.tar.bz2":{
 "build":"py37heb9fb97_0",
 "build_number":0,
 "depends":[
@@ -95353,12 +95357,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"a5f13fa20f14f1d253e6f2d5d33616376799319c5c6bb9d5cb22901de8babd68",
-"size":737835,
-"timestamp":1624852422142,
-"version":"2021.2.5"
+"sha256":"6e8d888f452a8382f9c83bfb5d3c57dfd35ea9e010a893d5fefc3240fe5de676",
+"size":739357,
+"timestamp":1625670541511,
+"version":"2021.2.6"
 },
-"pyopencl-2021.2.5-py38h188d082_0.tar.bz2":{
+"pyopencl-2021.2.6-py38h188d082_0.tar.bz2":{
 "build":"py38h188d082_0",
 "build_number":0,
 "depends":[
@@ -95375,12 +95379,12 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"a7a37c777829fe1fadd1af154cb4f5141ff3997eaf6c8da24109e8c49ec17aab",
-"size":723997,
-"timestamp":1624852492575,
-"version":"2021.2.5"
+"sha256":"5c8b7117735c9a4c8445f9e15da9549d6f712fcb22401d856c5247608c767964",
+"size":720037,
+"timestamp":1625670528196,
+"version":"2021.2.6"
 },
-"pyopencl-2021.2.5-py39h31502c1_0.tar.bz2":{
+"pyopencl-2021.2.6-py39h31502c1_0.tar.bz2":{
 "build":"py39h31502c1_0",
 "build_number":0,
 "depends":[
@@ -95397,10 +95401,10 @@
 ],
 "license":"MIT",
 "name":"pyopencl",
-"sha256":"538cf59573fc75cbab64e63a676a3cdcca0b2da9360766a0133e1f8446a088f1",
-"size":733621,
-"timestamp":1624852556382,
-"version":"2021.2.5"
+"sha256":"43d492dad4f39a55b0264a458668092d34d82cc55e560d7b602c72e913e9d133",
+"size":726989,
+"timestamp":1625669469785,
+"version":"2021.2.6"
 },
 "pyopenssl-19.1.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -126167,6 +126171,20 @@
 "timestamp":1601321148770,
 "version":"8.0.0"
 },
+"tinyxml2-8.1.0-h3b9df90_0.tar.bz2":{
+"build":"h3b9df90_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Zlib",
+"name":"tinyxml2",
+"sha256":"dc38aee9a35e2cedba4bd8786f2df692dd09d6cbd1f15d0100e5979b50e36396",
+"size":135740,
+"timestamp":1621413245761,
+"version":"8.1.0"
+},
 "tinyxml2-9.0.0-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
 "build_number":0,
@@ -137714,6 +137732,35 @@
 "sha256":"e7fe77de8925176e4b6ba892d5f2cfbed3fd74db6c75b71845ec145daeafe2a8",
 "size":12317308,
 "timestamp":1625625882149,
+"version":"4.0.0"
+},
+"yt-4.0.0-py37h0eb6cc8_0.tar.bz2":{
+"build":"py37h0eb6cc8_0",
+"build_number":0,
+"depends":[
+"ipython >=1.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"matplotlib-base !=3.4.2,>=2.0.2,<3.6",
+"more-itertools >=8.4",
+"numpy >=1.10.4",
+"numpy >=1.19.5,<2.0a0",
+"packaging >=20.9",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"pyyaml >=4.2b1",
+"setuptools >=19.6",
+"sympy >=1.2",
+"toml >=0.10.2",
+"tqdm >=3.4.0",
+"unyt >=2.8.0"
+],
+"license":"BSD-3-Clause",
+"name":"yt",
+"sha256":"8bc527d675e0f076879448f84ee3e53d8da7b23e9f08e3ed1130c761c8ea5854",
+"size":11675241,
+"timestamp":1625668144858,
 "version":"4.0.0"
 },
 "yt-4.0.0-py37hc8de3aa_0.tar.bz2":{
