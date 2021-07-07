@@ -5467,6 +5467,22 @@
 "timestamp":1624761858931,
 "version":"0.1.21"
 },
+"aws-c-s3-0.1.22-h842abff_0.tar.bz2":{
+"build":"h842abff_0",
+"build_number":0,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-s3",
+"sha256":"af6984124c72ce3ac5aee9540e2a2e326f0f5476a220269788ae1a77d5c3a55c",
+"size":45469,
+"timestamp":1625621718242,
+"version":"0.1.22"
+},
 "aws-checksums-0.1.11-h2524b98_2.tar.bz2":{
 "build":"h2524b98_2",
 "build_number":2,
@@ -31576,10 +31592,11 @@
 "timestamp":1624013502048,
 "version":"1.12.12"
 },
-"omegaconf-2.0.6-py38h10201cd_0.tar.bz2":{
+"omegaconf-2.1.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "depends":[
+"antlr-python-runtime",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "pyyaml",
@@ -31587,15 +31604,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"omegaconf",
-"sha256":"7923959bf59171b4e925a6646fee8697f53234cd10e92af69b78bf7f43ebf46b",
-"size":105798,
-"timestamp":1615498675558,
-"version":"2.0.6"
+"sha256":"5cc8fb9fad60a10983ffc018f24c1c03d925c15f967dd7a3cd25dd0e13521af4",
+"size":204920,
+"timestamp":1625618678675,
+"version":"2.1.0"
 },
-"omegaconf-2.0.6-py39h2804cbe_0.tar.bz2":{
+"omegaconf-2.1.0-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "depends":[
+"antlr-python-runtime",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "pyyaml",
@@ -31603,10 +31621,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"omegaconf",
-"sha256":"022e8ea8f10230992f1a301d919515c2cedace31d9e5d6ac0c7a73fb992cbd07",
-"size":105670,
-"timestamp":1615498608769,
-"version":"2.0.6"
+"sha256":"8eb6d7706d49a717b28cdadd1d92f1964d5b0843965ccb7b7388c6a0a4d2ba6d",
+"size":202480,
+"timestamp":1625618860293,
+"version":"2.1.0"
 },
 "onednn-2.2.4-omp_h64143aa_0.tar.bz2":{
 "build":"omp_h64143aa_0",
