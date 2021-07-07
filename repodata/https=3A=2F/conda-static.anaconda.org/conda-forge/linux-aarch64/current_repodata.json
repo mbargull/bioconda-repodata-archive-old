@@ -58471,6 +58471,29 @@
 "timestamp":1624532055742,
 "version":"4.0.0"
 },
+"libignition-common4-4.0.0-h9d44a2a_3.tar.bz2":{
+"build":"h9d44a2a_3",
+"build_number":3,
+"depends":[
+"ffmpeg >=4.3.1,<5.0a0",
+"freeimage >=3.18.0,<3.19.0a0",
+"gts >=0.7.6,<0.8.0a0",
+"libgcc-ng >=9.3.0",
+"libglib >=2.68.3,<3.0a0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-utils1 >=1.0.0,<2.0a0",
+"libstdcxx-ng >=9.3.0",
+"libuuid >=2.32.1,<3.0a0",
+"tinyxml2 >=9.0.0,<10.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-common4",
+"sha256":"962271036bb7a71203d4fbe95614a96c2bc66624f3789faa126b69896ea21bbf",
+"size":796617,
+"timestamp":1625664222757,
+"version":"4.0.0"
+},
 "libignition-common4-4.0.0-hccad563_0.tar.bz2":{
 "build":"hccad563_0",
 "build_number":0,
@@ -62655,6 +62678,21 @@
 "timestamp":1625051731944,
 "version":"0.7.19"
 },
+"libsolv-0.7.19-h469bdbd_3.tar.bz2":{
+"build":"h469bdbd_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv",
+"sha256":"92d3f496ca03ab218863d866c867212ef7cd8585b7e46cb0126542cea06b8fe2",
+"size":464278,
+"timestamp":1625661929623,
+"version":"0.7.19"
+},
 "libsolv-static-0.7.19-h469bdbd_2.tar.bz2":{
 "build":"h469bdbd_2",
 "build_number":2,
@@ -62669,6 +62707,22 @@
 "sha256":"8b4a8f710c237c39a603b1ee19956b48ba38c6dbbc630860b6b11d771da5f8a7",
 "size":389676,
 "timestamp":1625051833981,
+"version":"0.7.19"
+},
+"libsolv-static-0.7.19-h469bdbd_3.tar.bz2":{
+"build":"h469bdbd_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libsolv 0.7.19 h469bdbd_3",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv-static",
+"sha256":"ca206a54269feed8c41581b9cdb9007248d0454bd0969ebc51cb8d19085b5cb1",
+"size":391279,
+"timestamp":1625662023583,
 "version":"0.7.19"
 },
 "libsoup-2.72.0-h322a5d3_0.tar.bz2":{
@@ -70513,7 +70567,7 @@
 "timestamp":1610122346490,
 "version":"1.0.2"
 },
-"msgspec-0.2.0-py38h9544abe_0.tar.bz2":{
+"msgspec-0.3.0-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
@@ -70523,40 +70577,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"msgspec",
-"sha256":"57f42bf45150c50d55c2adecc6e4192b84c605d8f3cb797abea6f056484702d0",
-"size":52745,
-"timestamp":1615391164077,
-"version":"0.2.0"
-},
-"msgspec-0.2.0-py38h9544abe_1.tar.bz2":{
-"build":"py38h9544abe_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"msgspec",
-"sha256":"5b0decba57bf9ca1ca916ab9d7a87700497cd7ba2c5d636ad01b15b9d0b485fa",
-"size":52748,
-"timestamp":1615398809741,
-"version":"0.2.0"
-},
-"msgspec-0.2.0-py39h14843e3_1.tar.bz2":{
-"build":"py39h14843e3_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"msgspec",
-"sha256":"3c06ac43b3ca385224d3f0e4cd5b95e834fb718626a35c84579ad43078ed8b34",
-"size":52254,
-"timestamp":1615399094050,
-"version":"0.2.0"
+"sha256":"19856811c6660a99cc41ee73cdf7fa442d06632d92618ff0cae0eb4552e411e0",
+"size":65410,
+"timestamp":1625665154432,
+"version":"0.3.0"
 },
 "multidict-5.1.0-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
@@ -75182,7 +75206,7 @@
 "timestamp":1616491335986,
 "version":"1.5.2"
 },
-"onednn-2.2.4-omp_h99c1edd_0.tar.bz2":{
+"onednn-2.3-omp_h99c1edd_0.tar.bz2":{
 "build":"omp_h99c1edd_0",
 "build_number":0,
 "depends":[
@@ -75191,23 +75215,23 @@
 ],
 "license":"Apache-2.0",
 "name":"onednn",
-"sha256":"b823e2adb57a4c8a68cc831d293dfeab618b68325dbb1c033f4fbddf52b44ccc",
-"size":4112911,
-"timestamp":1623760252016,
-"version":"2.2.4"
+"sha256":"70358553edbe802dcf30144936df7165babf995ab20ad5a1c4223ce2840cdcdf",
+"size":4236248,
+"timestamp":1625662312485,
+"version":"2.3"
 },
-"onednn-cpu-omp-2.2.4-omp_h5f79612_0.tar.bz2":{
+"onednn-cpu-omp-2.3-omp_h5f79612_0.tar.bz2":{
 "build":"omp_h5f79612_0",
 "build_number":0,
 "depends":[
-"onednn 2.2.4 omp_h99c1edd_0"
+"onednn 2.3 omp_h99c1edd_0"
 ],
 "license":"Apache-2.0",
 "name":"onednn-cpu-omp",
-"sha256":"059667c6f42c12ee3263c0ea95920e642d088626c1dc3af11b357ef2adbf59d2",
-"size":9873,
-"timestamp":1623760275878,
-"version":"2.2.4"
+"sha256":"8d9987446338c871f558e667f6130316dc2798e668cba5f750967acb2bfc6002",
+"size":8277,
+"timestamp":1625662336240,
+"version":"2.3"
 },
 "oniguruma-6.9.7.1-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",
@@ -90807,6 +90831,23 @@
 "sha256":"812a8cc34cc4248fb332abeccc98cede647cf82e409b51e73c3c3e8879e73d64",
 "size":1194544,
 "timestamp":1623164425788,
+"version":"3.11.4"
+},
+"pymongo-3.11.4-py37h5d5c557_0.tar.bz2":{
+"build":"py37h5d5c557_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"Apache-2.0",
+"name":"pymongo",
+"sha256":"78f5ec24a70430022c3e611ac1e6d08a68cf9d3e1641c0c3e85401fc0a9d7436",
+"size":1153487,
+"timestamp":1625662988762,
 "version":"3.11.4"
 },
 "pymongo-3.11.4-py37had24c86_0.tar.bz2":{

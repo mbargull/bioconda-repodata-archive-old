@@ -64472,6 +64472,21 @@
 "timestamp":1625051417404,
 "version":"0.7.19"
 },
+"libsolv-0.7.19-h690f14c_3.tar.bz2":{
+"build":"h690f14c_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv",
+"sha256":"de323d3b78c73c2ef359efb1eefd61fcdb875c4991caa49cd894bb4cc65a54cd",
+"size":501329,
+"timestamp":1625663319933,
+"version":"0.7.19"
+},
 "libsolv-static-0.7.19-h690f14c_2.tar.bz2":{
 "build":"h690f14c_2",
 "build_number":2,
@@ -64486,6 +64501,22 @@
 "sha256":"cb9f71ef2ed4eed4cd120db30af5dea5856581ab731a697f2628123bcc4e50d6",
 "size":484158,
 "timestamp":1625051451392,
+"version":"0.7.19"
+},
+"libsolv-static-0.7.19-h690f14c_3.tar.bz2":{
+"build":"h690f14c_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libsolv 0.7.19 h690f14c_3",
+"libstdcxx-ng >=9.3.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv-static",
+"sha256":"72ab7569b72627b63b9678a102aeb67dd87cd8247856950b9141c057998b4ba9",
+"size":487196,
+"timestamp":1625663360221,
 "version":"0.7.19"
 },
 "libspatialite-5.0.1-ha254d40_5.tar.bz2":{
@@ -76785,7 +76816,7 @@
 "timestamp":1618212129694,
 "version":"4.2.4"
 },
-"onednn-2.2.4-omp_ha6a59df_0.tar.bz2":{
+"onednn-2.3-omp_ha6a59df_0.tar.bz2":{
 "build":"omp_ha6a59df_0",
 "build_number":0,
 "depends":[
@@ -76794,23 +76825,23 @@
 ],
 "license":"Apache-2.0",
 "name":"onednn",
-"sha256":"8c5837a78271924c65dafa9c953b681390e4faacc930d58aa5f4d7cbfacde606",
-"size":3431910,
-"timestamp":1623760267119,
-"version":"2.2.4"
+"sha256":"f3ea27f4fad6142ee9fb6d4699f7944af5594854dc4935a25b9905f76f94a80f",
+"size":3565746,
+"timestamp":1625663213773,
+"version":"2.3"
 },
-"onednn-cpu-omp-2.2.4-omp_h47c87af_0.tar.bz2":{
+"onednn-cpu-omp-2.3-omp_h47c87af_0.tar.bz2":{
 "build":"omp_h47c87af_0",
 "build_number":0,
 "depends":[
-"onednn 2.2.4 omp_ha6a59df_0"
+"onednn 2.3 omp_ha6a59df_0"
 ],
 "license":"Apache-2.0",
 "name":"onednn-cpu-omp",
-"sha256":"058d4007337e2c318b0bd9e0aca26e04fba8f6fc48f2b2ded60c3235b8d88255",
-"size":9919,
-"timestamp":1623760283303,
-"version":"2.2.4"
+"sha256":"6e48b404b1959a2a021e493f93ea29c20dd6fe26e2d9f4adea15d11792eed73d",
+"size":8340,
+"timestamp":1625663229339,
+"version":"2.3"
 },
 "oniguruma-6.9.7.1-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
@@ -93808,6 +93839,23 @@
 "timestamp":1623166007815,
 "version":"3.11.4"
 },
+"pymongo-3.11.4-py37hfc837b7_0.tar.bz2":{
+"build":"py37hfc837b7_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"Apache-2.0",
+"name":"pymongo",
+"sha256":"e30aef1cbc40c3dcb925576125eec1a037b39b63762ba7ead98382c349ad5f57",
+"size":1163199,
+"timestamp":1625663218384,
+"version":"3.11.4"
+},
 "pymongo-3.11.4-py38ha35a538_0.tar.bz2":{
 "build":"py38ha35a538_0",
 "build_number":0,
@@ -93822,6 +93870,22 @@
 "sha256":"c79ca2168156a9b5ecbaf33ed59d6ecd13b93ce660a3d9261be1bd78ba652cde",
 "size":1201324,
 "timestamp":1623165904524,
+"version":"3.11.4"
+},
+"pymongo-3.11.4-py39had50986_0.tar.bz2":{
+"build":"py39had50986_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"pymongo",
+"sha256":"724f78ea4bef34da8888afcccf9a4ae9a58ab4d841360600bb85ccc5980900db",
+"size":1207021,
+"timestamp":1625662838734,
 "version":"3.11.4"
 },
 "pynac-0.7.26-py36h230c364_3.tar.bz2":{
@@ -120113,6 +120177,27 @@
 "size":1561896,
 "timestamp":1604619262372,
 "version":"2.0.12"
+},
+"sdl_image-1.2.12-h3a1e346_1.tar.bz2":{
+"build":"h3a1e346_1",
+"build_number":1,
+"depends":[
+"jpeg >=9d,<10a",
+"libgcc-ng >=8.4.0",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=8.4.0",
+"libtiff >=4.1.0,<5.0a0",
+"libwebp",
+"libwebp-base >=1.1.0,<2.0a0",
+"sdl >=1.2.15,<1.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"sdl_image",
+"sha256":"ae74bd4ceafdcd4af33f2c72551f258f73b374ed243061f000a7c02c7418071a",
+"size":67609,
+"timestamp":1625663238177,
+"version":"1.2.12"
 },
 "sdl_image-1.2.12-hf9437ab_1.tar.bz2":{
 "build":"hf9437ab_1",
