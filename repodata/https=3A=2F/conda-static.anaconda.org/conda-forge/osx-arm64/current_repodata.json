@@ -11307,7 +11307,8 @@
 "gmp >=6.2.1,<7.0a0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
+"python_abi 3.8.* *_cp38",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"cypari2",
@@ -11341,7 +11342,8 @@
 "gmp >=6.2.1,<7.0a0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
+"python_abi 3.9.* *_cp39",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"cypari2",
@@ -11422,7 +11424,8 @@
 "libcxx >=11.1.0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
+"python_abi 3.8.* *_cp38",
+"pari * *_single"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"cysignals",
@@ -11438,7 +11441,8 @@
 "libcxx >=11.1.0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
+"python_abi 3.9.* *_cp39",
+"pari * *_single"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"cysignals",
@@ -12345,7 +12349,8 @@
 "mpfr >=4.0.2,<5.0a0",
 "ntl 11.4.3.*",
 "pari >=2.13.2,<2.14.0a0",
-"pari >=2.13.2,<3.0a0"
+"pari >=2.13.2,<3.0a0",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"eclib",
@@ -14022,7 +14027,8 @@
 "pari >=2.13.2,<2.14.0a0",
 "planarity >=3.0.0.5,<4.0a0",
 "readline >=8.1,<9.0a0",
-"zeromq >=4.3.4,<4.4.0a0"
+"zeromq >=4.3.4,<4.4.0a0",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"gap",
@@ -14562,7 +14568,8 @@
 "pari >=2.13.2,<2.14.0a0",
 "pari >=2.13.2,<3.0a0",
 "readline >=8.1,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
+"zlib >=1.2.11,<1.3.0a0",
+"pari * *_single"
 ],
 "license":"GPL-3.0-or-later",
 "name":"giac",
@@ -21273,7 +21280,8 @@
 "gmp >=6.2.1,<7.0a0",
 "libcxx >=11.1.0",
 "mpfr >=4.0.2,<5.0a0",
-"pari >=2.13.2,<2.14.0a0"
+"pari >=2.13.2,<2.14.0a0",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"lcalc",
@@ -44013,7 +44021,7 @@
 "timestamp":1622416243817,
 "version":"0.9"
 },
-"s2n-1.0.10-hbae9a57_0.tar.bz2":{
+"s2n-1.0.12-hbae9a57_0.tar.bz2":{
 "build":"hbae9a57_0",
 "build_number":0,
 "depends":[
@@ -44021,21 +44029,21 @@
 ],
 "license":"Apache-2.0",
 "name":"s2n",
-"sha256":"6f6ed5e404545d8fa503ac47270988012479f85f8af20ba0c2645d44f20fa007",
-"size":338917,
-"timestamp":1623272543379,
-"version":"1.0.10"
+"sha256":"e5f3907e5a0501b5889e2219e69fd407695807a2f7993242fb0b1b4427b7bc45",
+"size":323952,
+"timestamp":1625646140151,
+"version":"1.0.12"
 },
-"s2n-static-1.0.10-h3422bc3_0.tar.bz2":{
+"s2n-static-1.0.12-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
 "depends":[],
 "license":"Apache-2.0",
 "name":"s2n-static",
-"sha256":"fc9f1c2d0bca4b68cc2bb24439ed44d189f8bf558d98ebc7c2e73563682ca66d",
-"size":450686,
-"timestamp":1623272599328,
-"version":"1.0.10"
+"sha256":"a8dbcdbea73dd8668a3aac8a78d90fd6fffc92cd7a334290c417175efa131ab4",
+"size":435733,
+"timestamp":1625646210760,
+"version":"1.0.12"
 },
 "safeint-3.0.26-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",

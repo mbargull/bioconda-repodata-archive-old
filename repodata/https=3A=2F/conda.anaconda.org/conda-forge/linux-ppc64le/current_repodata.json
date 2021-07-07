@@ -26703,7 +26703,8 @@
 "libgcc-ng >=9.3.0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
+"python_abi 3.6.* *_cp36m",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"cypari2",
@@ -26721,7 +26722,8 @@
 "libgcc-ng >=9.3.0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
+"python_abi 3.7.* *_cp37m",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"cypari2",
@@ -26757,7 +26759,8 @@
 "libgcc-ng >=9.3.0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
+"python_abi 3.8.* *_cp38",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"cypari2",
@@ -26793,7 +26796,8 @@
 "libgcc-ng >=9.3.0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
+"python_abi 3.9.* *_cp39",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"cypari2",
@@ -26896,7 +26900,8 @@
 "libstdcxx-ng >=9.3.0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m"
+"python_abi 3.6.* *_cp36m",
+"pari * *_single"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"cysignals",
@@ -26930,7 +26935,8 @@
 "libstdcxx-ng >=9.3.0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
+"python_abi 3.7.* *_cp37m",
+"pari * *_single"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"cysignals",
@@ -26947,7 +26953,8 @@
 "libstdcxx-ng >=9.3.0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
+"python_abi 3.8.* *_cp38",
+"pari * *_single"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"cysignals",
@@ -26981,7 +26988,8 @@
 "libstdcxx-ng >=9.3.0",
 "pari >=2.13.2,<2.14.0a0",
 "python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
+"python_abi 3.9.* *_cp39",
+"pari * *_single"
 ],
 "license":"LGPL-3.0-or-later",
 "name":"cysignals",
@@ -29422,7 +29430,8 @@
 "mpfr >=4.0.2,<5.0a0",
 "ntl 11.4.3.*",
 "pari >=2.13.2,<2.14.0a0",
-"pari >=2.13.2,<3.0a0"
+"pari >=2.13.2,<3.0a0",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"eclib",
@@ -34237,7 +34246,8 @@
 "pari >=2.13.2,<2.14.0a0",
 "planarity >=3.0.0.5,<4.0a0",
 "readline >=8.1,<9.0a0",
-"zeromq >=4.3.4,<4.4.0a0"
+"zeromq >=4.3.4,<4.4.0a0",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"gap",
@@ -37571,7 +37581,8 @@
 "pari >=2.13.2,<2.14.0a0",
 "pari >=2.13.2,<3.0a0",
 "readline >=8.1,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
+"zlib >=1.2.11,<1.3.0a0",
+"pari * *_single"
 ],
 "license":"GPL-3.0-or-later",
 "name":"giac",
@@ -55420,7 +55431,8 @@
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "mpfr >=4.0.2,<5.0a0",
-"pari >=2.13.2,<2.14.0a0"
+"pari >=2.13.2,<2.14.0a0",
+"pari * *_single"
 ],
 "license":"GPL-2.0-or-later",
 "name":"lcalc",
@@ -105593,7 +105605,7 @@
 "timestamp":1621634753267,
 "version":"0.2.2"
 },
-"r-grf-2.0.0-r40h6203a36_0.tar.bz2":{
+"r-grf-2.0.1-r40h6203a36_0.tar.bz2":{
 "build":"r40h6203a36_0",
 "build_number":0,
 "depends":[
@@ -105609,12 +105621,12 @@
 ],
 "license":"GPL-3.0-only",
 "name":"r-grf",
-"sha256":"905a8994718528a7893ef538f3854e719f3ed1dca9dbe6c0ed6b213c4bcc9638",
-"size":773507,
-"timestamp":1624497082617,
-"version":"2.0.0"
+"sha256":"22c3d38e0d9bb8cb320f1c6eb6a57a1a04f127749a148c67833917c23f1432d6",
+"size":763942,
+"timestamp":1625646374406,
+"version":"2.0.1"
 },
-"r-grf-2.0.0-r41h6203a36_0.tar.bz2":{
+"r-grf-2.0.1-r41h6203a36_0.tar.bz2":{
 "build":"r41h6203a36_0",
 "build_number":0,
 "depends":[
@@ -105630,10 +105642,10 @@
 ],
 "license":"GPL-3.0-only",
 "name":"r-grf",
-"sha256":"1d177c3c533e9cfbe9338661c34a3a0ea147ad54a288a93d7dff8ab818b7759e",
-"size":774254,
-"timestamp":1624496539956,
-"version":"2.0.0"
+"sha256":"16baf64abdf1cd1818b365bfdc91a67a6a1dde3f57fff2125ffab04754676a7a",
+"size":768041,
+"timestamp":1625646367818,
+"version":"2.0.1"
 },
 "r-gtools-3.9.2-r40h2be38b1_0.tar.bz2":{
 "build":"r40h2be38b1_0",
@@ -117888,7 +117900,21 @@
 "timestamp":1623272711360,
 "version":"1.0.10"
 },
-"s2n-static-1.0.10-h4e0d66e_0.tar.bz2":{
+"s2n-1.0.12-h97db324_0.tar.bz2":{
+"build":"h97db324_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"s2n",
+"sha256":"c86075a4c842494757a9eb0bf38126c1f7c0457af263cce6077771cb67f1c94b",
+"size":450000,
+"timestamp":1625646030001,
+"version":"1.0.12"
+},
+"s2n-static-1.0.12-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
 "build_number":0,
 "depends":[
@@ -117896,10 +117922,10 @@
 ],
 "license":"Apache-2.0",
 "name":"s2n-static",
-"sha256":"5923f9b20f56e61f732d6a4266789ceaa2f6d5c28f20aeb9ac60ab1cfe9c0ed1",
-"size":723953,
-"timestamp":1623272769003,
-"version":"1.0.10"
+"sha256":"922121d7d70d296df4a109c9d06dce6515349a921cc4e74af9375c619fc43451",
+"size":699126,
+"timestamp":1625646079096,
+"version":"1.0.12"
 },
 "s3transfer-0.3.3-py36h9f0ad1d_0.tar.bz2":{
 "build":"py36h9f0ad1d_0",
