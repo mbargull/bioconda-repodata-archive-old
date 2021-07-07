@@ -16531,21 +16531,20 @@
 "timestamp":1611934959818,
 "version":"0.23.5"
 },
-"packaging-20.9-pyhd3eb1b0_0.tar.bz2":{
+"packaging-21.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "pyparsing >=2.0.2",
-"python",
-"six"
+"python >=3.6"
 ],
 "license":"Apache 2.0 or BSD 2-Clause",
 "name":"packaging",
 "noarch":"python",
-"sha256":"794dfff06077170a0292920ee86eaf673d0be82febecf204a2def82be6803960",
-"size":36188,
-"timestamp":1611952230487,
-"version":"20.9"
+"sha256":"f2e6efc0d9badb222f327733cac1384a1fde470bb4670cd4b768f98a54f140cf",
+"size":35839,
+"timestamp":1625611720184,
+"version":"21.0"
 },
 "palettable-3.3.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -19278,21 +19277,22 @@
 "timestamp":1612520954361,
 "version":"2.0.2"
 },
-"pytest-doctestplus-0.9.0-pyhd3eb1b0_0.tar.bz2":{
+"pytest-doctestplus-0.10.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"numpy >=1.10",
-"pytest >=4.0",
-"python >=3.6"
+"packaging >=17.0",
+"pytest >=4.6",
+"python >=3.7",
+"setuptools >=30.3.0"
 ],
 "license":"BSD-3-Clause",
 "name":"pytest-doctestplus",
 "noarch":"python",
-"sha256":"4b4679b6fd8becf88c0d5fe1159c7bb05051adc1d56e7a923f1140895dd73497",
-"size":20742,
-"timestamp":1610738993550,
-"version":"0.9.0"
+"sha256":"dd686a3f14e509947455c412abec28b4b2c34c5b86fd7c5ee3d476454a30f39e",
+"size":20874,
+"timestamp":1625607964158,
+"version":"0.10.0"
 },
 "pytest-flake8-1.0.7-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
