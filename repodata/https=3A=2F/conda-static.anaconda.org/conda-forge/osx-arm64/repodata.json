@@ -82473,6 +82473,24 @@
 "timestamp":1622244656455,
 "version":"2.11.4"
 },
+"pari-2.13.2-h95ccf47_1_pthread.tar.bz2":{
+"build":"h95ccf47_1_pthread",
+"build_number":1,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"pari-galdata",
+"pari-seadata-small",
+"perl 5.*",
+"readline >=8.1,<9.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"pari",
+"sha256":"5c5b3fa2c5f56a7fceaa83649ee79cf0dcbcc7ebb95de8c4533058b4eb1492a2",
+"size":23060023,
+"timestamp":1625646942005,
+"version":"2.13.2"
+},
 "pari-2.13.2-ha6c72c4_1_single.tar.bz2":{
 "build":"ha6c72c4_1_single",
 "build_number":1,
@@ -83468,6 +83486,50 @@
 "size":657087,
 "timestamp":1625144078411,
 "version":"8.3.0"
+},
+"pillow-8.3.1-py38h02acf36_0.tar.bz2":{
+"build":"py38h02acf36_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg >=9d,<10a",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.3.0,<5.0a0",
+"olefile",
+"openjpeg >=2.4.0,<2.5.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tk >=8.6.10,<8.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"eb600d84fd718bbf3dd1b41c7fd6c12110fc0ccb67c44f62832f22b76c908693",
+"size":674442,
+"timestamp":1625678497642,
+"version":"8.3.1"
+},
+"pillow-8.3.1-py39ha74c66e_0.tar.bz2":{
+"build":"py39ha74c66e_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg >=9d,<10a",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.3.0,<5.0a0",
+"olefile",
+"openjpeg >=2.4.0,<2.5.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tk >=8.6.10,<8.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"7fac1f9ca0ea85f74e6fd3a942169a862b7ea19042db1b48997a2bd74204e920",
+"size":659612,
+"timestamp":1625678513413,
+"version":"8.3.1"
 },
 "pixman-0.40.0-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
@@ -96469,6 +96531,38 @@
 "timestamp":1621416919755,
 "version":"0.10"
 },
+"pygeos-0.10.1-py38hb0f82a3_0.tar.bz2":{
+"build":"py38hb0f82a3_0",
+"build_number":0,
+"depends":[
+"geos >=3.9.1,<3.9.2.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"pygeos",
+"sha256":"b6c16a6c8529be3f8acc4ee2eb88ab9a15db37066bddc7d1eb61b56d452a6806",
+"size":329327,
+"timestamp":1625678092041,
+"version":"0.10.1"
+},
+"pygeos-0.10.1-py39he81bf5d_0.tar.bz2":{
+"build":"py39he81bf5d_0",
+"build_number":0,
+"depends":[
+"geos >=3.9.1,<3.9.2.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"pygeos",
+"sha256":"c3e6b2289db9519acce3cb5d5a1a8d05d2e471533336b70377cd51f9b81437e3",
+"size":339105,
+"timestamp":1625678328909,
+"version":"0.10.1"
+},
 "pygit2-1.5.0-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
 "build_number":0,
@@ -104859,6 +104953,34 @@
 "size":2094458,
 "timestamp":1621598730513,
 "version":"1.0.6"
+},
+"r-rcpp-1.0.7-r40h8ea1354_0.tar.bz2":{
+"build":"r40h8ea1354_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-rcpp",
+"sha256":"4865a9a6eb4d2d609cf19b885001fc0829a7322afde563a7114ec5424b2b36a1",
+"size":2135886,
+"timestamp":1625677463190,
+"version":"1.0.7"
+},
+"r-rcpp-1.0.7-r41h8ea1354_0.tar.bz2":{
+"build":"r41h8ea1354_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-rcpp",
+"sha256":"42c5023768079efd474e5b8b8ce9ca0137a43ebcd0aaa8ed4854785ddf251ea9",
+"size":2143513,
+"timestamp":1625677420356,
+"version":"1.0.7"
 },
 "r-rcppcctz-0.2.9-r40h44abf13_1.tar.bz2":{
 "build":"r40h44abf13_1",
@@ -123163,6 +123285,17 @@
 "sha256":"b4e18f6a4b980c560f4301668c18a64d7471f468037b8978b473c168c5607dde",
 "size":67740,
 "timestamp":1614690032638,
+"version":"2021a"
+},
+"tzcode-2021a-h3422bc3_2.tar.bz2":{
+"build":"h3422bc3_2",
+"build_number":2,
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"tzcode",
+"sha256":"7a3fb90fc49de8c8aa116d8babd3655c5e96bbdfb4d0c5fe7be46900f608abf5",
+"size":67798,
+"timestamp":1625678312864,
 "version":"2021a"
 },
 "uhd-3.15.0.0-py38h5479ea8_6.tar.bz2":{
