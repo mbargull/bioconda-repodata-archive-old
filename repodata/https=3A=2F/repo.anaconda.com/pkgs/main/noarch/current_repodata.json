@@ -18983,22 +18983,21 @@
 "timestamp":1530612223812,
 "version":"0.23.5"
 },
-"packaging-20.9-pyhd3eb1b0_0.conda":{
+"packaging-21.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "pyparsing >=2.0.2",
-"python",
-"six"
+"python >=3.6"
 ],
-"legacy_bz2_md5":"bad6da0fa4ef549f2d3e7edae7aff7b5",
+"legacy_bz2_md5":"00c59185a7c2d1c744157a810c434143",
 "license":"Apache 2.0 or BSD 2-Clause",
 "name":"packaging",
 "noarch":"python",
-"sha256":"4b57e9fb3b7ae36348bf4ec72ef452e5ba4f137ebf5ff8a2ef13fb03640bcc32",
-"size":37389,
-"timestamp":1611952230487,
-"version":"20.9"
+"sha256":"c7e453b717bfb9e9cc9653c676a654524a72cbae98e22a5196846682d3283cf1",
+"size":37028,
+"timestamp":1625611720184,
+"version":"21.0"
 },
 "palettable-3.3.0-py_0.conda":{
 "build":"py_0",
@@ -21012,22 +21011,23 @@
 "timestamp":1585075575038,
 "version":"2.0.2"
 },
-"pytest-doctestplus-0.9.0-pyhd3eb1b0_0.conda":{
+"pytest-doctestplus-0.10.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"numpy >=1.10",
-"pytest >=4.0",
-"python >=3.6"
+"packaging >=17.0",
+"pytest >=4.6",
+"python >=3.7",
+"setuptools >=30.3.0"
 ],
-"legacy_bz2_md5":"285f01545ad69a79e49f275ebcd3572b",
+"legacy_bz2_md5":"3fb835d0bbaa6d2188a6e0d98e8ddf39",
 "license":"BSD-3-Clause",
 "name":"pytest-doctestplus",
 "noarch":"python",
-"sha256":"4dc6e02254ae0d498a234fc2c063933cb37306ffae87c1f4af87033e8c0b7d6c",
-"size":21237,
-"timestamp":1610738993550,
-"version":"0.9.0"
+"sha256":"993bc3c565f01904b5228cd59288bc53774ebdd31afa0f95c142ea49846c381d",
+"size":21254,
+"timestamp":1625607964158,
+"version":"0.10.0"
 },
 "pytest-flake8-1.0.7-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
