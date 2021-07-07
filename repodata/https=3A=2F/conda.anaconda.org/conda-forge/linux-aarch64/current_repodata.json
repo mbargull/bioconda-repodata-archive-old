@@ -11606,28 +11606,9 @@
 "timestamp":1620322604875,
 "version":"1.8.186"
 },
-"aws-sdk-cpp-1.9.52-h2561422_1.tar.bz2":{
-"build":"h2561422_1",
-"build_number":1,
-"depends":[
-"aws-c-common >=0.6.4,<0.6.5.0a0",
-"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
-"aws-crt-cpp >=0.14.2,<0.14.3.0a0",
-"libcurl >=7.77.0,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"aws-sdk-cpp",
-"sha256":"fba68d8fd7f9956fe7b1fac9f29f75e20c3f58e20ca989893a547f22e840ba44",
-"size":4624655,
-"timestamp":1625487058823,
-"version":"1.9.52"
-},
-"aws-sdk-cpp-1.9.52-h3c51c8b_2.tar.bz2":{
-"build":"h3c51c8b_2",
-"build_number":2,
+"aws-sdk-cpp-1.9.53-h3c51c8b_0.tar.bz2":{
+"build":"h3c51c8b_0",
+"build_number":0,
 "depends":[
 "aws-c-common >=0.6.5,<0.6.6.0a0",
 "aws-c-event-stream >=0.2.7,<0.2.8.0a0",
@@ -11639,29 +11620,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"f920ad1c9f2b9b296bf53ab501b368807b134b0016737951b72de5028b90192b",
-"size":4630797,
-"timestamp":1625495062310,
-"version":"1.9.52"
-},
-"aws-sdk-cpp-1.9.52-hf456e99_0.tar.bz2":{
-"build":"hf456e99_0",
-"build_number":0,
-"depends":[
-"aws-c-common >=0.6.3,<0.6.4.0a0",
-"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
-"aws-crt-cpp >=0.14.2,<0.14.3.0a0",
-"libcurl >=7.77.0,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a"
-],
-"license":"Apache-2.0",
-"name":"aws-sdk-cpp",
-"sha256":"989e00325e20aad07da0b32125ffa29429a0a81f964c6f524baf06cf84568970",
-"size":4639060,
-"timestamp":1625333820206,
-"version":"1.9.52"
+"sha256":"fa520bbfa4567feb50e494964d43407d24e621112bb63f8215f1e97eaa328547",
+"size":4621338,
+"timestamp":1625642911166,
+"version":"1.9.53"
 },
 "awscli-1.19.106-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
@@ -31908,6 +31870,9 @@
 "gcc_bootstrap_linux-aarch64-9.3.0-h246fbc7_31.tar.bz2":{
 "build":"h246fbc7_31",
 "build_number":31,
+"constrains":[
+"sysroot_linux-aarch64 ==99999999999"
+],
 "depends":[],
 "license":"GPL",
 "name":"gcc_bootstrap_linux-aarch64",
@@ -54270,6 +54235,26 @@
 "sha256":"9bc9d785591509094e8ada84ba47659bd08b2d3c7610eb7c70544704a6ca9184",
 "size":135637,
 "timestamp":1625608277740,
+"version":"0.8.7"
+},
+"leidenalg-0.8.7-py37h5d5c557_0.tar.bz2":{
+"build":"py37h5d5c557_0",
+"build_number":0,
+"depends":[
+"igraph >=0.9.4,<0.10.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"pip",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python-igraph",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"GPL-3.0-or-later",
+"name":"leidenalg",
+"sha256":"2db5b923913fcce90716442c9ee93434a9ca7300a7de0144e19140839a2b487a",
+"size":135761,
+"timestamp":1625640431058,
 "version":"0.8.7"
 },
 "leidenalg-0.8.7-py37had24c86_0.tar.bz2":{
@@ -78375,9 +78360,9 @@
 "timestamp":1603217279479,
 "version":"2.11.4"
 },
-"pari-2.13.2-h03778fe_0.tar.bz2":{
-"build":"h03778fe_0",
-"build_number":0,
+"pari-2.13.2-hd5a98f8_1_single.tar.bz2":{
+"build":"hd5a98f8_1_single",
+"build_number":1,
 "depends":[
 "gmp >=6.2.1,<7.0a0",
 "libgcc-ng >=9.3.0",
@@ -78389,9 +78374,9 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"pari",
-"sha256":"2dfcd4b4c51d9d1960261650d3a7a37a3b85bb1b622e1c34b0046c8d4345f3ca",
-"size":45253991,
-"timestamp":1624925936182,
+"sha256":"5649a5bffcd98806e129caec8b9b9d4c2dea6a7920377771390d307058cc8e52",
+"size":45278946,
+"timestamp":1625640585218,
 "version":"2.13.2"
 },
 "parmed-3.4.1-py36h143fd24_0.tar.bz2":{
@@ -141437,6 +141422,7 @@
 "openblas-0.3.11-pthreads_h844fc12_0.tar.bz2",
 "openblas-0.3.11-pthreads_h844fc12_1.tar.bz2",
 "openexr-2.5.0-he513fc3_0.tar.bz2",
+"pari-2.13.2-h03778fe_0.tar.bz2",
 "poppler-0.89.0-h01c5bae_3.tar.bz2",
 "poppler-0.89.0-h887ddad_4.tar.bz2",
 "poppler-0.89.0-hcdc1f3b_2.tar.bz2",
