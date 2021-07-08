@@ -65462,7 +65462,7 @@
 "timestamp":1607293677778,
 "version":"2.32.1"
 },
-"libuv-1.41.0-h4e0d66e_0.tar.bz2":{
+"libuv-1.41.1-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
 "build_number":0,
 "depends":[
@@ -65470,10 +65470,10 @@
 ],
 "license":"MIT",
 "name":"libuv",
-"sha256":"11965dc495fe765656ee8cc4396a5ed15d6a6f698da9cac9ad961fbe1ccf5e7b",
-"size":947512,
-"timestamp":1613505951024,
-"version":"1.41.0"
+"sha256":"901bcfade408807d86e05865e6903b1019ebabe63d35fea66b0953c008e3a3b0",
+"size":947327,
+"timestamp":1625695562693,
+"version":"1.41.1"
 },
 "libvorbis-1.3.7-h3b9df90_0.tar.bz2":{
 "build":"h3b9df90_0",
@@ -94903,6 +94903,25 @@
 "sha256":"d939d44adb581bc9f52b2c2e0284eb8b4d88a07c8883415e834530b24fd677a8",
 "size":1374584,
 "timestamp":1610673362149,
+"version":"1.4.0"
+},
+"pynacl-1.4.0-py37h0630641_2.tar.bz2":{
+"build":"py37h0630641_2",
+"build_number":2,
+"depends":[
+"cffi >=1.4.1",
+"libgcc-ng >=9.3.0",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"six"
+],
+"license":"Apache-2.0",
+"name":"pynacl",
+"sha256":"e632dbccc9af42bf3cf45ad3d94137e137b5551e5e834b91ff9c06d020bdcd51",
+"size":1389119,
+"timestamp":1625695640823,
 "version":"1.4.0"
 },
 "pynacl-1.4.0-py37h2bd1440_0.tar.bz2":{
