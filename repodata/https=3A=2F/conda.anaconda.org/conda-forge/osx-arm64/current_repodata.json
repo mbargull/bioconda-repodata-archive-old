@@ -819,7 +819,7 @@
 "timestamp":1624539658350,
 "version":"3.2.1"
 },
-"apache-beam-2.30.0-py38hea4295b_0.tar.bz2":{
+"apache-beam-2.31.0-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
 "build_number":0,
 "depends":[
@@ -833,7 +833,7 @@
 "numpy >=1.14.3,<1.21.0",
 "oauth2client >=2.0.1,<5",
 "protobuf >=3.12.2,<4",
-"pyarrow >=0.15.1,<4.0.0",
+"pyarrow >=0.15.1,<5.0.0",
 "pydot >=1.2.0,<2",
 "pymongo >=3.8.0,<4.0.0",
 "python >=3.8,<3.9.0a0",
@@ -847,10 +847,10 @@
 ],
 "license":"Apache-2.0",
 "name":"apache-beam",
-"sha256":"4273097bb92b4347e95e22a561ab9aa9249f75518749a9d5422533f3bafc49f9",
-"size":4853520,
-"timestamp":1623220912466,
-"version":"2.30.0"
+"sha256":"dae76475d39cac5cffd05064802b4c2115032036351b75631b480776ed5bb879",
+"size":4885586,
+"timestamp":1625778941167,
+"version":"2.31.0"
 },
 "appnope-0.1.2-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -13439,6 +13439,50 @@
 "timestamp":1623709688647,
 "version":"1.8.20"
 },
+"firecrown-0.5-py38h10201cd_3.tar.bz2":{
+"build":"py38h10201cd_3",
+"build_number":3,
+"depends":[
+"click",
+"cosmosis-standalone >=0.2.2",
+"jinja2",
+"numpy",
+"pyccl >=2.0,<3",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"sacc >=0.4.5,<0.5",
+"scipy"
+],
+"license":"BSD-3-Clause",
+"name":"firecrown",
+"sha256":"5d0714474356d55ef2b11c82527133fd812c0f56db16f8275e20810c3fa27acd",
+"size":75124,
+"timestamp":1625778681119,
+"version":"0.5"
+},
+"firecrown-0.5-py39h2804cbe_3.tar.bz2":{
+"build":"py39h2804cbe_3",
+"build_number":3,
+"depends":[
+"click",
+"cosmosis-standalone >=0.2.2",
+"jinja2",
+"numpy",
+"pyccl >=2.0,<3",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"sacc >=0.4.5,<0.5",
+"scipy"
+],
+"license":"BSD-3-Clause",
+"name":"firecrown",
+"sha256":"baf3cb0d186bad8d9ba4d24d491a19a0327ae88956fe8a095cf29601fc5a3bc2",
+"size":75065,
+"timestamp":1625778605020,
+"version":"0.5"
+},
 "fish-3.3.1-hc4271fb_0.tar.bz2":{
 "build":"hc4271fb_0",
 "build_number":0,
@@ -17217,6 +17261,38 @@
 "sha256":"ec6a168df3ded62f9136dc74d4cdd508ff9799017379d0f1b43829bf78d052d5",
 "size":24209,
 "timestamp":1612279666584,
+"version":"1.1.2"
+},
+"google-crc32c-1.1.2-py38h482e4b7_0.tar.bz2":{
+"build":"py38h482e4b7_0",
+"build_number":0,
+"depends":[
+"cffi >=1.0.0",
+"libcrc32c >=1.1.1,<1.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"google-crc32c",
+"sha256":"4c138b54efae345d84ba15287939565d3f0c9b29fd4edf90c8ae61efb318fd53",
+"size":24268,
+"timestamp":1625780226623,
+"version":"1.1.2"
+},
+"google-crc32c-1.1.2-py39h141a0e2_0.tar.bz2":{
+"build":"py39h141a0e2_0",
+"build_number":0,
+"depends":[
+"cffi >=1.0.0",
+"libcrc32c >=1.1.1,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"google-crc32c",
+"sha256":"82ba950ccedf8adfe26309b16aface35ebca0bc46a916cea0f3f5ab44b996d5c",
+"size":23662,
+"timestamp":1625780291699,
 "version":"1.1.2"
 },
 "google-crc32c-1.1.2-py39hf706984_0.tar.bz2":{
