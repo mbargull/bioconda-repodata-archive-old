@@ -36706,62 +36706,6 @@
 "timestamp":1625026137979,
 "version":"3.10.1"
 },
-"pydantic-1.7.3-py38h30f7421_0.tar.bz2":{
-"build":"py38h30f7421_0",
-"build_number":0,
-"depends":[
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"MIT",
-"name":"pydantic",
-"sha256":"58ea3d428685980b67d6617a1434c71cde9a31d69064ad760c7f5704a0e5b505",
-"size":1902434,
-"timestamp":1612279831844,
-"version":"1.7.3"
-},
-"pydantic-1.7.3-py38h30f7421_1.tar.bz2":{
-"build":"py38h30f7421_1",
-"build_number":1,
-"depends":[
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"MIT",
-"name":"pydantic",
-"sha256":"e70dc5c76e5fe5d9d1038644f7cf837487d16b60e5156c7fca84d247b1d4079f",
-"size":1896098,
-"timestamp":1614365561881,
-"version":"1.7.3"
-},
-"pydantic-1.7.3-py39h46acfd9_0.tar.bz2":{
-"build":"py39h46acfd9_0",
-"build_number":0,
-"depends":[
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"MIT",
-"name":"pydantic",
-"sha256":"9d08fb57613151dca2e76d72b1f0cddf41c21dc24bf7070a42ec0c13b0993766",
-"size":1802996,
-"timestamp":1612279759089,
-"version":"1.7.3"
-},
-"pydantic-1.7.3-py39h46acfd9_1.tar.bz2":{
-"build":"py39h46acfd9_1",
-"build_number":1,
-"depends":[
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"MIT",
-"name":"pydantic",
-"sha256":"df996878dc4f881a4a31243e8b284f03130002bf3aa3b1891bce2cdf9718390f",
-"size":1802282,
-"timestamp":1614365529517,
-"version":"1.7.3"
-},
 "pydantic-1.8.2-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
 "build_number":0,
@@ -46670,11 +46614,11 @@
 "timestamp":1620833584604,
 "version":"0.4.1"
 },
-"spacy-3.0.6-py38h1e2c3d9_0.tar.bz2":{
+"spacy-3.1.0-py38h1e2c3d9_0.tar.bz2":{
 "build":"py38h1e2c3d9_0",
 "build_number":0,
 "depends":[
-"catalogue >=2.0.3,<2.1.0",
+"catalogue >=2.0.4,<2.1.0",
 "cymem >=2.0.2,<2.1.0",
 "cython-blis >=0.4.0,<0.8.0",
 "jinja2",
@@ -46684,63 +46628,30 @@
 "packaging >=20.0",
 "pathy >=0.3.5",
 "preshed >=3.0.2,<3.1.0",
-"pydantic >=1.7.1,<1.8.0",
+"pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "requests >=2.13.0,<3.0.0",
 "setuptools",
-"spacy-legacy >=3.0.4,<3.1.0",
+"spacy-legacy >=3.0.7,<3.1.0",
 "srsly >=2.4.1,<3.0.0",
-"thinc >=8.0.3,<8.1.0",
-"tqdm >=4.38.0,<5.0.0",
-"typer >=0.3.0,<0.4.0",
-"wasabi >=0.8.1,<1.1.0"
-],
-"license":"MIT",
-"name":"spacy",
-"sha256":"5b470db6fd01f4e41946c57b726a34925534b265081ea4c7ded1825f801f4b34",
-"size":9763740,
-"timestamp":1619255006555,
-"version":"3.0.6"
-},
-"spacy-3.0.6-py38h1e2c3d9_1.tar.bz2":{
-"build":"py38h1e2c3d9_1",
-"build_number":1,
-"depends":[
-"catalogue >=2.0.3,<2.1.0",
-"cymem >=2.0.2,<2.1.0",
-"cython-blis >=0.4.0,<0.8.0",
-"jinja2",
-"libcxx >=11.1.0",
-"murmurhash >=0.28.0,<1.1.0",
-"numpy >=1.19.5,<2.0a0",
-"packaging >=20.0",
-"pathy >=0.3.5",
-"preshed >=3.0.2,<3.1.0",
-"pydantic >=1.7.1,<1.8.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"requests >=2.13.0,<3.0.0",
-"setuptools",
-"spacy-legacy >=3.0.4,<3.1.0",
-"srsly >=2.4.1,<3.0.0",
-"thinc >=8.0.3,<8.1.0",
+"thinc >=8.0.7,<8.1.0",
 "tqdm >=4.38.0,<5.0.0",
 "typer >=0.3.2,<0.4.0",
 "wasabi >=0.8.1,<1.1.0"
 ],
 "license":"MIT",
 "name":"spacy",
-"sha256":"95b3e2e44a102b2c5bb9772cb7fb40b0796e20dd44c64fef406f027ee445d92a",
-"size":9748735,
-"timestamp":1623746874227,
-"version":"3.0.6"
+"sha256":"ebe0172f98f9db16bc9f103c5516c6ac8d5dc51e4eec911f90090d03a8c8c363",
+"size":5432780,
+"timestamp":1625733638576,
+"version":"3.1.0"
 },
-"spacy-3.0.6-py39h776e71f_0.tar.bz2":{
+"spacy-3.1.0-py39h776e71f_0.tar.bz2":{
 "build":"py39h776e71f_0",
 "build_number":0,
 "depends":[
-"catalogue >=2.0.3,<2.1.0",
+"catalogue >=2.0.4,<2.1.0",
 "cymem >=2.0.2,<2.1.0",
 "cython-blis >=0.4.0,<0.8.0",
 "jinja2",
@@ -46750,57 +46661,24 @@
 "packaging >=20.0",
 "pathy >=0.3.5",
 "preshed >=3.0.2,<3.1.0",
-"pydantic >=1.7.1,<1.8.0",
+"pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "requests >=2.13.0,<3.0.0",
 "setuptools",
-"spacy-legacy >=3.0.4,<3.1.0",
+"spacy-legacy >=3.0.7,<3.1.0",
 "srsly >=2.4.1,<3.0.0",
-"thinc >=8.0.3,<8.1.0",
-"tqdm >=4.38.0,<5.0.0",
-"typer >=0.3.0,<0.4.0",
-"wasabi >=0.8.1,<1.1.0"
-],
-"license":"MIT",
-"name":"spacy",
-"sha256":"1e4faa08bdac585ec8a503e87df7b32b543df9e51797c2a1ec67fcbd8fa03b3d",
-"size":9832402,
-"timestamp":1619254999159,
-"version":"3.0.6"
-},
-"spacy-3.0.6-py39h776e71f_1.tar.bz2":{
-"build":"py39h776e71f_1",
-"build_number":1,
-"depends":[
-"catalogue >=2.0.3,<2.1.0",
-"cymem >=2.0.2,<2.1.0",
-"cython-blis >=0.4.0,<0.8.0",
-"jinja2",
-"libcxx >=11.1.0",
-"murmurhash >=0.28.0,<1.1.0",
-"numpy >=1.19.5,<2.0a0",
-"packaging >=20.0",
-"pathy >=0.3.5",
-"preshed >=3.0.2,<3.1.0",
-"pydantic >=1.7.1,<1.8.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"requests >=2.13.0,<3.0.0",
-"setuptools",
-"spacy-legacy >=3.0.4,<3.1.0",
-"srsly >=2.4.1,<3.0.0",
-"thinc >=8.0.3,<8.1.0",
+"thinc >=8.0.7,<8.1.0",
 "tqdm >=4.38.0,<5.0.0",
 "typer >=0.3.2,<0.4.0",
 "wasabi >=0.8.1,<1.1.0"
 ],
 "license":"MIT",
 "name":"spacy",
-"sha256":"1109056d960f47d7df046cc120db167c2297970aacc23ebfd4f6b55a2bd714f6",
-"size":9816406,
-"timestamp":1623746848990,
-"version":"3.0.6"
+"sha256":"9087b8955982a4a903a270e7353fafadebd9c6125f89ffcf4f7e6dde30132b6b",
+"size":5467357,
+"timestamp":1625733634282,
+"version":"3.1.0"
 },
 "sparsehash-2.0.4-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
