@@ -49383,6 +49383,52 @@
 "timestamp":1623360988759,
 "version":"1.6.3"
 },
+"hyperspy-1.6.4-py38h150bfb4_0.tar.bz2":{
+"build":"py38h150bfb4_0",
+"build_number":0,
+"depends":[
+"hyperspy-base 1.6.4 py38hea4295b_0",
+"hyperspy-gui-ipywidgets >=1.3",
+"hyperspy-gui-traitsui >=1.3",
+"imagecodecs",
+"matplotlib",
+"mrcz",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyusid >=0.0.7",
+"scikit-learn",
+"sidpy"
+],
+"license":"GPL-3.0-or-later",
+"name":"hyperspy",
+"sha256":"00cb923a56e1227a381d7d3e260943b85d1e34d059562d6c588d902d6fe3c707",
+"size":15274,
+"timestamp":1625766666028,
+"version":"1.6.4"
+},
+"hyperspy-1.6.4-py39hdf13c20_0.tar.bz2":{
+"build":"py39hdf13c20_0",
+"build_number":0,
+"depends":[
+"hyperspy-base 1.6.4 py39h5161555_0",
+"hyperspy-gui-ipywidgets >=1.3",
+"hyperspy-gui-traitsui >=1.3",
+"imagecodecs",
+"matplotlib",
+"mrcz",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyusid >=0.0.7",
+"scikit-learn",
+"sidpy"
+],
+"license":"GPL-3.0-or-later",
+"name":"hyperspy",
+"sha256":"5ced84d5fcd9b42daea1143db3504263925464d3f03d57b271f046a5e61f6f4f",
+"size":15267,
+"timestamp":1625766961251,
+"version":"1.6.4"
+},
 "hyperspy-base-1.6.2-py38hea4295b_3.tar.bz2":{
 "build":"py38hea4295b_3",
 "build_number":3,
@@ -49537,6 +49583,84 @@
 "timestamp":1623360920192,
 "version":"1.6.3"
 },
+"hyperspy-base-1.6.4-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"dask-core >2.1.0",
+"dill",
+"h5py",
+"imageio",
+"importlib_metadata >=3.6",
+"ipyparallel",
+"ipython",
+"matplotlib-base >=3.1.0",
+"natsort",
+"numba",
+"numexpr",
+"numpy >=1.17.1",
+"pint >=0.10",
+"prettytable",
+"python >=3.8,<3.9.0a0",
+"python-dateutil >=2.5",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"requests",
+"scikit-image >=0.15",
+"scipy >=1.1",
+"sparse",
+"sympy",
+"tifffile >=2018.10.18",
+"toolz",
+"tqdm >=4.9.0",
+"traits >=4.5"
+],
+"license":"GPL-3.0-or-later",
+"name":"hyperspy-base",
+"sha256":"4c01e614a9d62c4505e6ef4c4bc8c006dfa31667c198abfa95c0b53ed850c707",
+"size":28560729,
+"timestamp":1625766596118,
+"version":"1.6.4"
+},
+"hyperspy-base-1.6.4-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"dask-core >2.1.0",
+"dill",
+"h5py",
+"imageio",
+"importlib_metadata >=3.6",
+"ipyparallel",
+"ipython",
+"matplotlib-base >=3.1.0",
+"natsort",
+"numba",
+"numexpr",
+"numpy >=1.17.1",
+"pint >=0.10",
+"prettytable",
+"python >=3.9,<3.10.0a0",
+"python-dateutil >=2.5",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"requests",
+"scikit-image >=0.15",
+"scipy >=1.1",
+"sparse",
+"sympy",
+"tifffile >=2018.10.18",
+"toolz",
+"tqdm >=4.9.0",
+"traits >=4.5"
+],
+"license":"GPL-3.0-or-later",
+"name":"hyperspy-base",
+"sha256":"6a7d7c2d24cdce0b5e7713414e1016dd76ea67d288ef2959e713e5ca669d330f",
+"size":28648535,
+"timestamp":1625766884405,
+"version":"1.6.4"
+},
 "hyperspy-dev-1.6.2-py38h150bfb4_3.tar.bz2":{
 "build":"py38h150bfb4_3",
 "build_number":3,
@@ -49624,6 +49748,50 @@
 "size":15191,
 "timestamp":1623360963145,
 "version":"1.6.3"
+},
+"hyperspy-dev-1.6.4-py38h150bfb4_0.tar.bz2":{
+"build":"py38h150bfb4_0",
+"build_number":0,
+"depends":[
+"cython",
+"freetype >=2.9,<2.10",
+"matplotlib-base >=3.1,<3.2",
+"numpydoc",
+"pytest",
+"pytest-mpl",
+"pytest-xdist",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"sphinx",
+"sphinx_rtd_theme"
+],
+"license":"GPL-3.0-or-later",
+"name":"hyperspy-dev",
+"sha256":"faf0403a207a96a3e3027cd9ec3880e9c6dde654e2f40238d0ff2e8a56ea4424",
+"size":15230,
+"timestamp":1625766639543,
+"version":"1.6.4"
+},
+"hyperspy-dev-1.6.4-py39hdf13c20_0.tar.bz2":{
+"build":"py39hdf13c20_0",
+"build_number":0,
+"depends":[
+"cython",
+"numpydoc",
+"pytest",
+"pytest-mpl",
+"pytest-xdist",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sphinx",
+"sphinx_rtd_theme"
+],
+"license":"GPL-3.0-or-later",
+"name":"hyperspy-dev",
+"sha256":"e0886b497dbcc74f33dd1e2c15ca4ba2ec56b475616f96a6ff78a34b205501b2",
+"size":15207,
+"timestamp":1625766934250,
+"version":"1.6.4"
 },
 "hypre-2.21.0-h9b749a9_0.tar.bz2":{
 "build":"h9b749a9_0",
@@ -81919,6 +82087,34 @@
 "size":233018,
 "timestamp":1625072487979,
 "version":"3.5.4"
+},
+"orjson-3.6.0-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"orjson",
+"sha256":"de90e2744e0b4cf3aaf6542c63435c31107d7b2d5a4df10a9f41bf06679e5108",
+"size":239906,
+"timestamp":1625767641510,
+"version":"3.6.0"
+},
+"orjson-3.6.0-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"orjson",
+"sha256":"04b589d1c3195b6a6cd3450bca9f9c527f2b1417f16d9b33b61e3f9eff63c372",
+"size":239961,
+"timestamp":1625767238301,
+"version":"3.6.0"
 },
 "orocos-kdl-1.4.0-hc470f4d_0.tar.bz2":{
 "build":"hc470f4d_0",
