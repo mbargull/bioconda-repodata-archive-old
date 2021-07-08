@@ -25926,7 +25926,7 @@
 "timestamp":1618001692621,
 "version":"2.68.1"
 },
-"glib-2.68.2-hdf23fa2_0.tar.bz2":{
+"glib-2.69.0-hdf23fa2_0.tar.bz2":{
 "build":"hdf23fa2_0",
 "build_number":0,
 "depends":[
@@ -25934,15 +25934,15 @@
 "libcxx >=10.0.0",
 "libffi >=3.3,<3.4.0a0",
 "libiconv >=1.16,<2.0a0",
-"pcre >=8.44,<9.0a0",
+"pcre >=8.45,<9.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"LGPL-2.1",
 "name":"glib",
-"sha256":"6695fb33bd362c5ba48bbaaec211d3cf1cdbcd46311420bb4a40f7859372a3a5",
-"size":3445889,
-"timestamp":1621259685250,
-"version":"2.68.2"
+"sha256":"f000c757a56b14d2dcaea94d6989f7cba591ccaab7b32ba2b6cbcaed1dc891fe",
+"size":3452259,
+"timestamp":1625688273959,
+"version":"2.69.0"
 },
 "glob2-0.6-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -50544,6 +50544,178 @@
 "size":666627,
 "timestamp":1617386317754,
 "version":"8.2.0"
+},
+"pillow-8.3.1-py36h5270095_0.tar.bz2":{
+"build":"py36h5270095_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"libwebp >=0.3.0",
+"libwebp >=1.2.0,<1.3.0a0",
+"olefile",
+"python >=3.6,<3.7.0a0",
+"tk",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"9a6fb568749dfb027a32f419144bc1ad105929b9b97c5aa28521616e79d5ba1e",
+"size":677553,
+"timestamp":1625670720693,
+"version":"8.3.1"
+},
+"pillow-8.3.1-py36ha4cf6ea_0.tar.bz2":{
+"build":"py36ha4cf6ea_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"olefile",
+"openjpeg >=2.3.0,<3.0a0",
+"python >=3.6,<3.7.0a0",
+"tk",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"20aa3259e55c01be3cfa45946cd95210dbbbcedef944524e3c546404b52a7c24",
+"size":674567,
+"timestamp":1625655925072,
+"version":"8.3.1"
+},
+"pillow-8.3.1-py37h5270095_0.tar.bz2":{
+"build":"py37h5270095_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"libwebp >=0.3.0",
+"libwebp >=1.2.0,<1.3.0a0",
+"olefile",
+"python >=3.7,<3.8.0a0",
+"tk",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"54e072aa39087e1310e064eb0f25d73f604bc5bc179d69a8fd302e772a30b3fa",
+"size":680647,
+"timestamp":1625670709452,
+"version":"8.3.1"
+},
+"pillow-8.3.1-py37ha4cf6ea_0.tar.bz2":{
+"build":"py37ha4cf6ea_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"olefile",
+"openjpeg >=2.3.0,<3.0a0",
+"python >=3.7,<3.8.0a0",
+"tk",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"8ac69a432910a7425767d6bfe606c870e91fc785c8c4f24c0cddd46ad9439e3f",
+"size":678555,
+"timestamp":1625655928101,
+"version":"8.3.1"
+},
+"pillow-8.3.1-py38h5270095_0.tar.bz2":{
+"build":"py38h5270095_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"libwebp >=0.3.0",
+"libwebp >=1.2.0,<1.3.0a0",
+"olefile",
+"python >=3.8,<3.9.0a0",
+"tk",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"2d868901459a37fad865dffcfd0ee79a66a106ae2c2bf81718dbbdb3a444ab72",
+"size":681345,
+"timestamp":1625670737885,
+"version":"8.3.1"
+},
+"pillow-8.3.1-py38ha4cf6ea_0.tar.bz2":{
+"build":"py38ha4cf6ea_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"olefile",
+"openjpeg >=2.3.0,<3.0a0",
+"python >=3.8,<3.9.0a0",
+"tk",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"83751cec95ce8912acd54f1d67c3b257eefb4f2581de9ecc40ca5c4959ab40a5",
+"size":675484,
+"timestamp":1625655930352,
+"version":"8.3.1"
+},
+"pillow-8.3.1-py39h5270095_0.tar.bz2":{
+"build":"py39h5270095_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"libwebp >=0.3.0",
+"libwebp >=1.2.0,<1.3.0a0",
+"olefile",
+"python >=3.9,<3.10.0a0",
+"tk",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"da1afb19d176b503e3b9fd9cf5e76561172475768f512c67aedf00fdb8719297",
+"size":670609,
+"timestamp":1625670724741,
+"version":"8.3.1"
+},
+"pillow-8.3.1-py39ha4cf6ea_0.tar.bz2":{
+"build":"py39ha4cf6ea_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"jpeg",
+"lcms2 >=2.12,<3.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"olefile",
+"openjpeg >=2.3.0,<3.0a0",
+"python >=3.9,<3.10.0a0",
+"tk",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-PIL",
+"name":"pillow",
+"sha256":"7cf4549c528c54a7acce11da2c8379dfaa94ebb071bd11bfa1dda52040558886",
+"size":683826,
+"timestamp":1625655912913,
+"version":"8.3.1"
 },
 "pip-21.0.1-py36hecd8cb5_0.tar.bz2":{
 "build":"py36hecd8cb5_0",
@@ -82566,7 +82738,7 @@
 "timestamp":1615224730602,
 "version":"0.23.0"
 },
-"xlwings-0.24.1-py36hecd8cb5_0.tar.bz2":{
+"xlwings-0.24.2-py36hecd8cb5_0.tar.bz2":{
 "build":"py36hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -82576,12 +82748,12 @@
 ],
 "license":"BSD-3-clause",
 "name":"xlwings",
-"sha256":"d3dedcdf0252bbdc4fad567a88892386c8d1f9a0ac65cf472d0450cb03016fb5",
-"size":661630,
-"timestamp":1625063125004,
-"version":"0.24.1"
+"sha256":"529764b4c398c5c7f968d977cdcbf99056dbd62e3be121c0aa3a8548f22ebb7a",
+"size":664682,
+"timestamp":1625641412300,
+"version":"0.24.2"
 },
-"xlwings-0.24.1-py37hecd8cb5_0.tar.bz2":{
+"xlwings-0.24.2-py37hecd8cb5_0.tar.bz2":{
 "build":"py37hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -82591,12 +82763,12 @@
 ],
 "license":"BSD-3-clause",
 "name":"xlwings",
-"sha256":"27df3d8d4d27a793a6ab1936442a287aca954c5806189ede7d2df74930fadfd4",
-"size":620725,
-"timestamp":1625063112437,
-"version":"0.24.1"
+"sha256":"d0b37fe86ecfa64637a3920fc040ef0ee9f3bc86fc2a09868bfe599f7dd2b6d9",
+"size":637362,
+"timestamp":1625641407697,
+"version":"0.24.2"
 },
-"xlwings-0.24.1-py38hecd8cb5_0.tar.bz2":{
+"xlwings-0.24.2-py38hecd8cb5_0.tar.bz2":{
 "build":"py38hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -82606,12 +82778,12 @@
 ],
 "license":"BSD-3-clause",
 "name":"xlwings",
-"sha256":"f735bedb9897db8ea5c7840649cb85f87195724f31c058fe02008729b434d6e3",
-"size":639621,
-"timestamp":1625063117341,
-"version":"0.24.1"
+"sha256":"64890bafc3fb2092434301085b8d456a87322da10b97f8d2c6b0d77425248cff",
+"size":636780,
+"timestamp":1625641414954,
+"version":"0.24.2"
 },
-"xlwings-0.24.1-py39hecd8cb5_0.tar.bz2":{
+"xlwings-0.24.2-py39hecd8cb5_0.tar.bz2":{
 "build":"py39hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -82621,10 +82793,10 @@
 ],
 "license":"BSD-3-clause",
 "name":"xlwings",
-"sha256":"5e59ad618b31009a426889799c8cfa3970054510e99c0cb6538523dcee27624a",
-"size":629051,
-"timestamp":1625063116411,
-"version":"0.24.1"
+"sha256":"bef173fd65d049a65fcd5d81d9c8e5ca1020114c7b9ef42ffd3fd6b0455e61eb",
+"size":630819,
+"timestamp":1625641415246,
+"version":"0.24.2"
 },
 "xlwt-1.3.0-py37_0.tar.bz2":{
 "build":"py37_0",
