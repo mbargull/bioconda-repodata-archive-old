@@ -60513,7 +60513,7 @@
 "timestamp":1617660985845,
 "version":"11.1.0"
 },
-"libllvm12-12.0.0-h6293a0b_0.tar.bz2":{
+"libllvm12-12.0.1-h6293a0b_0.tar.bz2":{
 "build":"h6293a0b_0",
 "build_number":0,
 "depends":[
@@ -60523,25 +60523,10 @@
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"libllvm12",
-"sha256":"6608f2dfb61e7400970e8321a7aa8874c696a964b826e5f8eb6255d76e4e5a32",
-"size":33256633,
-"timestamp":1620671153080,
-"version":"12.0.0"
-},
-"libllvm12-12.0.0-h6293a0b_1.tar.bz2":{
-"build":"h6293a0b_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"libllvm12",
-"sha256":"3f646db251a1bf482297cbe12a6c8958d8ad9a279135a7d14e7b644a3a5e0d21",
-"size":33237350,
-"timestamp":1620843767222,
-"version":"12.0.0"
+"sha256":"7dfec11fd4ad0dd6b04cbf805a6b68784f2baea88d13d6d3ea37e704843deea6",
+"size":33266808,
+"timestamp":1625840909278,
+"version":"12.0.1"
 },
 "libllvm9-9.0.1-h6293a0b_2.tar.bz2":{
 "build":"h6293a0b_2",
@@ -64542,47 +64527,22 @@
 "timestamp":1614964471122,
 "version":"11.1.0"
 },
-"llvm-12.0.0-h40ce709_0.tar.bz2":{
+"llvm-12.0.1-h40ce709_0.tar.bz2":{
 "build":"h40ce709_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.0",
-"libclang 12.0.0.*",
-"clang 12.0.0.*",
-"clang-tools 12.0.0.*",
-"llvm-tools 12.0.0.*"
+"llvmdev   12.0.1"
 ],
 "depends":[
-"libllvm12 12.0.0 h6293a0b_0",
+"libllvm12 12.0.1 h6293a0b_0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm",
-"sha256":"9132675414749038ae0ed95d81ca9cf3e6f0ff1dc2faa377b92b245164acb0c8",
-"size":53978,
-"timestamp":1620671194004,
-"version":"12.0.0"
-},
-"llvm-12.0.0-h40ce709_1.tar.bz2":{
-"build":"h40ce709_1",
-"build_number":1,
-"constrains":[
-"llvmdev   12.0.0",
-"libclang 12.0.0.*",
-"clang 12.0.0.*",
-"clang-tools 12.0.0.*",
-"llvm-tools 12.0.0.*"
-],
-"depends":[
-"libllvm12 12.0.0 h6293a0b_1",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm",
-"sha256":"0bef3197ccd3defc8d28163109ad33b2dbd9cfc55dd1e6f737b5df3a507098cc",
-"size":51490,
-"timestamp":1620843801258,
-"version":"12.0.0"
+"sha256":"585e8d99de4628c502aa4fbeaac3c723ec4cdcb857cc0a9f72747aa4c3af3884",
+"size":51360,
+"timestamp":1625840947713,
+"version":"12.0.1"
 },
 "llvm-openmp-11.1.0-hd62202e_0.tar.bz2":{
 "build":"hd62202e_0",
@@ -64616,51 +64576,24 @@
 "timestamp":1617682771089,
 "version":"11.1.0"
 },
-"llvm-tools-12.0.0-h6293a0b_0.tar.bz2":{
+"llvm-tools-12.0.1-h6293a0b_0.tar.bz2":{
 "build":"h6293a0b_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.0",
-"libclang 12.0.0.*",
-"clang 12.0.0.*",
-"clang-tools 12.0.0.*",
-"llvm 12.0.0.*"
+"llvmdev   12.0.1"
 ],
 "depends":[
 "libgcc-ng >=9.3.0",
-"libllvm12 12.0.0 h6293a0b_0",
+"libllvm12 12.0.1 h6293a0b_0",
 "libstdcxx-ng >=9.3.0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm-tools",
-"sha256":"3a07c2ad07280896c3e67cf82ef12d6bf7a47a7667f48bf986c2b032d9e1bfcc",
-"size":15746288,
-"timestamp":1620671267763,
-"version":"12.0.0"
-},
-"llvm-tools-12.0.0-h6293a0b_1.tar.bz2":{
-"build":"h6293a0b_1",
-"build_number":1,
-"constrains":[
-"llvmdev   12.0.0",
-"libclang 12.0.0.*",
-"clang 12.0.0.*",
-"clang-tools 12.0.0.*",
-"llvm 12.0.0.*"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libllvm12 12.0.0 h6293a0b_1",
-"libstdcxx-ng >=9.3.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm-tools",
-"sha256":"1be6fef7d5dada52e12d787516baed64cbf1042cc4400a4b89c89a8ba585d4df",
-"size":15766325,
-"timestamp":1620843866963,
-"version":"12.0.0"
+"sha256":"4903e43423ba993efdf0f1a237ed8b069515f2b10966c50cd691e1c1e0a0cadc",
+"size":15771200,
+"timestamp":1625841013312,
+"version":"12.0.1"
 },
 "llvmdev-11.1.0-h6293a0b_0.tar.bz2":{
 "build":"h6293a0b_0",
@@ -64781,6 +64714,23 @@
 "size":56205962,
 "timestamp":1620843935128,
 "version":"12.0.0"
+},
+"llvmdev-12.0.1-h6293a0b_0.tar.bz2":{
+"build":"h6293a0b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libllvm12 12.0.1 h6293a0b_0",
+"libstdcxx-ng >=9.3.0",
+"llvm-tools 12.0.1 h6293a0b_0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvmdev",
+"sha256":"8f4862950244a04971c38ed5cc55c33305f4cb41ba43da99f43a91846c928eac",
+"size":56257819,
+"timestamp":1625841076973,
+"version":"12.0.1"
 },
 "llvmlite-0.36.0-py36h2826d25_0.tar.bz2":{
 "build":"py36h2826d25_0",

@@ -61923,7 +61923,7 @@
 "timestamp":1617659274762,
 "version":"11.1.0"
 },
-"libllvm12-12.0.0-h6c99497_0.tar.bz2":{
+"libllvm12-12.0.1-h6c99497_0.tar.bz2":{
 "build":"h6c99497_0",
 "build_number":0,
 "depends":[
@@ -61933,25 +61933,10 @@
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"libllvm12",
-"sha256":"70c40f915c3f811b34f8651c1b0f131c9b6257b0f7400836d22e3ae306c94fc5",
-"size":34225748,
-"timestamp":1620669973547,
-"version":"12.0.0"
-},
-"libllvm12-12.0.0-h6c99497_1.tar.bz2":{
-"build":"h6c99497_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"libllvm12",
-"sha256":"51587578354598eeab7f9c21f44a2dc61bded914a2bc4a6cbf4bc35e24040005",
-"size":34230779,
-"timestamp":1620841794807,
-"version":"12.0.0"
+"sha256":"76c9fead976c7baab6e4625c8aad1b403729d650fa7c71db50967dbd05b39785",
+"size":34276581,
+"timestamp":1625840657402,
+"version":"12.0.1"
 },
 "libllvm9-9.0.1-hc9558a2_0.tar.bz2":{
 "build":"hc9558a2_0",
@@ -66054,47 +66039,22 @@
 "timestamp":1614968077314,
 "version":"11.1.0"
 },
-"llvm-12.0.0-h12068cf_0.tar.bz2":{
+"llvm-12.0.1-h12068cf_0.tar.bz2":{
 "build":"h12068cf_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.0",
-"libclang 12.0.0.*",
-"clang 12.0.0.*",
-"clang-tools 12.0.0.*",
-"llvm-tools 12.0.0.*"
+"llvmdev   12.0.1"
 ],
 "depends":[
-"libllvm12 12.0.0 h6c99497_0",
+"libllvm12 12.0.1 h6c99497_0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm",
-"sha256":"6c50367ded9d688b1241def9d3df7e4665dc1d3dded2eccb6b4b1a6e7556b65c",
-"size":53991,
-"timestamp":1620670013737,
-"version":"12.0.0"
-},
-"llvm-12.0.0-h12068cf_1.tar.bz2":{
-"build":"h12068cf_1",
-"build_number":1,
-"constrains":[
-"llvmdev   12.0.0",
-"libclang 12.0.0.*",
-"clang 12.0.0.*",
-"clang-tools 12.0.0.*",
-"llvm-tools 12.0.0.*"
-],
-"depends":[
-"libllvm12 12.0.0 h6c99497_1",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm",
-"sha256":"a19373cec0fedcf3e664c611deef227c4b91fcc5e892b3b92c19fdd2b9226440",
-"size":51516,
-"timestamp":1620841829819,
-"version":"12.0.0"
+"sha256":"bcbfdbf536f494702e73745dcf059741c3b418b75a5c382880f4903a81723573",
+"size":51398,
+"timestamp":1625840694059,
+"version":"12.0.1"
 },
 "llvm-openmp-11.1.0-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
@@ -66128,51 +66088,24 @@
 "timestamp":1617690346703,
 "version":"11.1.0"
 },
-"llvm-tools-12.0.0-h6c99497_0.tar.bz2":{
+"llvm-tools-12.0.1-h6c99497_0.tar.bz2":{
 "build":"h6c99497_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.0",
-"libclang 12.0.0.*",
-"clang 12.0.0.*",
-"clang-tools 12.0.0.*",
-"llvm 12.0.0.*"
+"llvmdev   12.0.1"
 ],
 "depends":[
 "libgcc-ng >=8.4.0",
-"libllvm12 12.0.0 h6c99497_0",
+"libllvm12 12.0.1 h6c99497_0",
 "libstdcxx-ng >=8.4.0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm-tools",
-"sha256":"d8a3d3f27abcb81bb2d7b739335c3bdf381b853c65e631a0d374289ae1dc1c20",
-"size":15699894,
-"timestamp":1620670085731,
-"version":"12.0.0"
-},
-"llvm-tools-12.0.0-h6c99497_1.tar.bz2":{
-"build":"h6c99497_1",
-"build_number":1,
-"constrains":[
-"llvmdev   12.0.0",
-"libclang 12.0.0.*",
-"clang 12.0.0.*",
-"clang-tools 12.0.0.*",
-"llvm 12.0.0.*"
-],
-"depends":[
-"libgcc-ng >=8.4.0",
-"libllvm12 12.0.0 h6c99497_1",
-"libstdcxx-ng >=8.4.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm-tools",
-"sha256":"f08da897a0534b5f31fe51d9724c17f48a0d7085e076d29d798db6a4972af311",
-"size":15764074,
-"timestamp":1620841889962,
-"version":"12.0.0"
+"sha256":"3271ef9725e562babab9ade60607c6f58e2c9e5744e086808ef35c962f3a539e",
+"size":15761344,
+"timestamp":1625840762906,
+"version":"12.0.1"
 },
 "llvmdev-11.1.0-h6c99497_0.tar.bz2":{
 "build":"h6c99497_0",
@@ -66293,6 +66226,23 @@
 "size":58747001,
 "timestamp":1620841955348,
 "version":"12.0.0"
+},
+"llvmdev-12.0.1-h6c99497_0.tar.bz2":{
+"build":"h6c99497_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libllvm12 12.0.1 h6c99497_0",
+"libstdcxx-ng >=8.4.0",
+"llvm-tools 12.0.1 h6c99497_0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvmdev",
+"sha256":"d2a3cb25cdfd1d7e077ff68673d6b0f8fc0163ae6ca2192de32095c010ef2b9f",
+"size":58765399,
+"timestamp":1625840827657,
+"version":"12.0.1"
 },
 "llvmlite-0.36.0-py36h010bef4_0.tar.bz2":{
 "build":"py36h010bef4_0",
@@ -136930,60 +136880,11 @@
 "timestamp":1614471031625,
 "version":"0.11.0"
 },
-"xrootd-5.2.0-py36h02fc37b_0.tar.bz2":{
-"build":"py36h02fc37b_0",
-"build_number":0,
-"depends":[
-"krb5 >=1.19.1,<1.20.0a0",
-"libcurl >=7.76.1,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.12,<2.10.0a0",
-"ncurses >=6.2,<6.3.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"readline >=8.1,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LGPL-3.0-or-later",
-"name":"xrootd",
-"sha256":"71ebd1904641e7bb2d2052caed05739bf0aba89dfd4b61fe20450e111ce20dd3",
-"size":4991532,
-"timestamp":1621528866901,
-"version":"5.2.0"
-},
-"xrootd-5.2.0-py36hd6d479a_0.tar.bz2":{
+"xrootd-5.3.0-py36hd6d479a_0.tar.bz2":{
 "build":"py36hd6d479a_0",
 "build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
-"libcurl >=7.76.1,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.12,<2.10.0a0",
-"ncurses >=6.2,<6.3.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"readline >=8.1,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LGPL-3.0-or-later",
-"name":"xrootd",
-"sha256":"f6ed4900e1d4e5349acb38efb4a2d8ba0c020f948a78c450edb10925a1df08f6",
-"size":5038904,
-"timestamp":1621528744520,
-"version":"5.2.0"
-},
-"xrootd-5.2.0-py36hd6d479a_1.tar.bz2":{
-"build":"py36hd6d479a_1",
-"build_number":1,
-"depends":[
-"krb5 >=1.19.1,<1.20.0a0",
 "libcurl >=7.77.0,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -136999,40 +136900,16 @@
 ],
 "license":"LGPL-3.0-or-later",
 "name":"xrootd",
-"sha256":"2af635297fc14232e4ec8aec6942f459d74ef4e39305890d3ac04a3b706fdf3f",
-"size":5068366,
-"timestamp":1624874665895,
-"version":"5.2.0"
+"sha256":"f3fb8512e176e37c3ae6b429e8143d49213e0090f5b543378e59ba4d6c672bc0",
+"size":5239192,
+"timestamp":1625843069205,
+"version":"5.3.0"
 },
-"xrootd-5.2.0-py37h08f263b_0.tar.bz2":{
+"xrootd-5.3.0-py37h08f263b_0.tar.bz2":{
 "build":"py37h08f263b_0",
 "build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
-"libcurl >=7.76.1,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.12,<2.10.0a0",
-"ncurses >=6.2,<6.3.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"readline >=8.1,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LGPL-3.0-or-later",
-"name":"xrootd",
-"sha256":"a64d443532683676e2cc9d3ad8e6549342d4fff0c02aaa599171a02dd966164d",
-"size":5017371,
-"timestamp":1621529208655,
-"version":"5.2.0"
-},
-"xrootd-5.2.0-py37h08f263b_1.tar.bz2":{
-"build":"py37h08f263b_1",
-"build_number":1,
-"depends":[
-"krb5 >=1.19.1,<1.20.0a0",
 "libcurl >=7.77.0,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -137048,41 +136925,16 @@
 ],
 "license":"LGPL-3.0-or-later",
 "name":"xrootd",
-"sha256":"91060292afc641905966abee6bd34ced7a960f7e878f7d90ec3bc81be2858fe2",
-"size":5075386,
-"timestamp":1624874548298,
-"version":"5.2.0"
+"sha256":"3372c6d7c5f2499232992e445a882c6e4b6c42b7457f51c9c0f96b3195652992",
+"size":5167912,
+"timestamp":1625842946744,
+"version":"5.3.0"
 },
-"xrootd-5.2.0-py37ha6a89e6_0.tar.bz2":{
+"xrootd-5.3.0-py37ha6a89e6_0.tar.bz2":{
 "build":"py37ha6a89e6_0",
 "build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
-"libcurl >=7.76.1,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.12,<2.10.0a0",
-"ncurses >=6.2,<6.3.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"pypy3.7 >=7.3.4",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"readline >=8.1,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LGPL-3.0-or-later",
-"name":"xrootd",
-"sha256":"4aa8c96defb606d3f20951f73e063be275f4edf5704127ecdbf059fe912ae2e3",
-"size":5011189,
-"timestamp":1621529034183,
-"version":"5.2.0"
-},
-"xrootd-5.2.0-py37ha6a89e6_1.tar.bz2":{
-"build":"py37ha6a89e6_1",
-"build_number":1,
-"depends":[
-"krb5 >=1.19.1,<1.20.0a0",
 "libcurl >=7.77.0,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -137090,7 +136942,7 @@
 "libxml2 >=2.9.12,<2.10.0a0",
 "ncurses >=6.2,<6.3.0a0",
 "openssl >=1.1.1k,<1.1.2a",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "readline >=8.1,<9.0a0",
@@ -137099,40 +136951,16 @@
 ],
 "license":"LGPL-3.0-or-later",
 "name":"xrootd",
-"sha256":"8813787a1853e4f3beba9c35e28a35f7b5b8181f92c0522a4f6d4e9f17c164ae",
-"size":5063130,
-"timestamp":1624874542475,
-"version":"5.2.0"
+"sha256":"68e9c7f2eb00920b80cc9fa0365c5c8344da0602bc6466129080f32c2ba3ef24",
+"size":5171581,
+"timestamp":1625843085636,
+"version":"5.3.0"
 },
-"xrootd-5.2.0-py38hb022c50_0.tar.bz2":{
+"xrootd-5.3.0-py38hb022c50_0.tar.bz2":{
 "build":"py38hb022c50_0",
 "build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
-"libcurl >=7.76.1,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.12,<2.10.0a0",
-"ncurses >=6.2,<6.3.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"readline >=8.1,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LGPL-3.0-or-later",
-"name":"xrootd",
-"sha256":"586e09c7222478b0e7f29febb8aab9ccf251afa8db30eeddc9968469e923d0d7",
-"size":5057790,
-"timestamp":1621529202948,
-"version":"5.2.0"
-},
-"xrootd-5.2.0-py38hb022c50_1.tar.bz2":{
-"build":"py38hb022c50_1",
-"build_number":1,
-"depends":[
-"krb5 >=1.19.1,<1.20.0a0",
 "libcurl >=7.77.0,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -137148,40 +136976,16 @@
 ],
 "license":"LGPL-3.0-or-later",
 "name":"xrootd",
-"sha256":"5675ea9c66b35a723c86529f0a80e03b98a9fdbe4e51b2019460945438c2fc0f",
-"size":5108929,
-"timestamp":1624874728354,
-"version":"5.2.0"
+"sha256":"092acb1c29cbaf579d3d949a16a620ab49c2fe91d30a9d1ead6210bbddb55198",
+"size":5230261,
+"timestamp":1625842942373,
+"version":"5.3.0"
 },
-"xrootd-5.2.0-py39h1d246b6_0.tar.bz2":{
+"xrootd-5.3.0-py39h1d246b6_0.tar.bz2":{
 "build":"py39h1d246b6_0",
 "build_number":0,
 "depends":[
 "krb5 >=1.19.1,<1.20.0a0",
-"libcurl >=7.76.1,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"libuuid >=2.32.1,<3.0a0",
-"libxml2 >=2.9.12,<2.10.0a0",
-"ncurses >=6.2,<6.3.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"readline >=8.1,<9.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LGPL-3.0-or-later",
-"name":"xrootd",
-"sha256":"a14f67c2646b41d168b07f8545ea1e1d72e813dace92a1d9fa78cec1495cb5c6",
-"size":5030731,
-"timestamp":1621529168419,
-"version":"5.2.0"
-},
-"xrootd-5.2.0-py39h1d246b6_1.tar.bz2":{
-"build":"py39h1d246b6_1",
-"build_number":1,
-"depends":[
-"krb5 >=1.19.1,<1.20.0a0",
 "libcurl >=7.77.0,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
@@ -137197,10 +137001,10 @@
 ],
 "license":"LGPL-3.0-or-later",
 "name":"xrootd",
-"sha256":"6ff1c89084a41193d2d1e22d01b2d7dae3609b9ccd99b6b1a24e7b6b322189a6",
-"size":5117767,
-"timestamp":1624874732102,
-"version":"5.2.0"
+"sha256":"b1d24e5628ffb4c78656e90f4af03b9b9e96d4f2a182c24d5f3b422847c4787c",
+"size":5234281,
+"timestamp":1625842913578,
+"version":"5.3.0"
 },
 "xsimd-7.5.0-h2acdbc0_1.tar.bz2":{
 "build":"h2acdbc0_1",

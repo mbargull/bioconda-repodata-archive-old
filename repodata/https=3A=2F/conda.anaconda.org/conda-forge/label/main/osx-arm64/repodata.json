@@ -30982,6 +30982,23 @@
 "timestamp":1620982984717,
 "version":"2.1.27"
 },
+"cysignals-1.10.3-py38h17a1f6e_2.tar.bz2":{
+"build":"py38h17a1f6e_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"cysignals",
+"requires":[],
+"size":177726,
+"timestamp":1625846474301,
+"version":"1.10.3"
+},
 "cysignals-1.10.3-py38h18c4d41_0.tar.bz2":{
 "build":"py38h18c4d41_0",
 "build_number":0,
@@ -31012,6 +31029,23 @@
 "requires":[],
 "size":177485,
 "timestamp":1624997560094,
+"version":"1.10.3"
+},
+"cysignals-1.10.3-py39h17b953c_2.tar.bz2":{
+"build":"py39h17b953c_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"cysignals",
+"requires":[],
+"size":184995,
+"timestamp":1625846652700,
 "version":"1.10.3"
 },
 "cysignals-1.10.3-py39h5da9eb0_1.tar.bz2":{
@@ -33608,6 +33642,27 @@
 "requires":[],
 "size":20945889,
 "timestamp":1622264485403,
+"version":"20210503"
+},
+"eclib-20210503-h95769b4_2.tar.bz2":{
+"build":"h95769b4_2",
+"build_number":2,
+"depends":[
+"gf2x >=1.3.0,<1.4.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"pari >=2.13.2,<3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"eclib",
+"requires":[],
+"size":20908599,
+"timestamp":1625846838387,
 "version":"20210503"
 },
 "ecm-7.0.4-h47c7c1a_1002.tar.bz2":{
@@ -39264,6 +39319,40 @@
 "requires":[],
 "size":51967955,
 "timestamp":1622416291819,
+"version":"1.6.0.47"
+},
+"giac-1.6.0.47-hdc202d8_2.tar.bz2":{
+"build":"hdc202d8_2",
+"build_number":2,
+"depends":[
+"ecm >=7.0.4,<8.0a0",
+"gettext >=0.19.8.1,<1.0a0",
+"gf2x >=1.3.0,<1.4.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gsl >=2.6,<2.7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"mpfi >=1.5.4,<1.6.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"nauty >=2.7.1,<3.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"ntl 11.4.3.*",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"pari >=2.13.2,<3.0a0",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"giac",
+"requires":[],
+"size":51879911,
+"timestamp":1625847306388,
 "version":"1.6.0.47"
 },
 "giflib-5.2.1-h27ca646_2.tar.bz2":{
@@ -57118,6 +57207,23 @@
 "timestamp":1622268063370,
 "version":"1.23"
 },
+"lcalc-1.23-he39a7b3_1006.tar.bz2":{
+"build":"he39a7b3_1006",
+"build_number":1006,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"mpfr >=4.0.2,<5.0a0",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"lcalc",
+"requires":[],
+"size":236120,
+"timestamp":1625846418250,
+"version":"1.23"
+},
 "lcms2-2.11-h2f7874f_1.tar.bz2":{
 "build":"h2f7874f_1",
 "build_number":1,
@@ -63798,6 +63904,20 @@
 "timestamp":1620845890660,
 "version":"12.0.0"
 },
+"libllvm12-12.0.1-h93073aa_0.tar.bz2":{
+"build":"h93073aa_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libllvm12",
+"requires":[],
+"size":23488139,
+"timestamp":1625843815864,
+"version":"12.0.1"
+},
 "libllvm9-9.0.1-h0238b49_2.tar.bz2":{
 "build":"h0238b49_2",
 "build_number":2,
@@ -68369,6 +68489,23 @@
 "timestamp":1620845914683,
 "version":"12.0.0"
 },
+"llvm-12.0.1-h95d0606_0.tar.bz2":{
+"build":"h95d0606_0",
+"build_number":0,
+"constrains":[
+"llvmdev   12.0.1"
+],
+"depends":[
+"libllvm12 12.0.1 h93073aa_0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvm",
+"requires":[],
+"size":51277,
+"timestamp":1625843843214,
+"version":"12.0.1"
+},
 "llvm-9.0.1-h95d0606_2.tar.bz2":{
 "build":"h95d0606_2",
 "build_number":2,
@@ -68619,6 +68756,23 @@
 "timestamp":1620846259385,
 "version":"12.0.0"
 },
+"llvm-tools-12.0.1-h93073aa_0.tar.bz2":{
+"build":"h93073aa_0",
+"build_number":0,
+"constrains":[
+"llvmdev   12.0.1"
+],
+"depends":[
+"libllvm12 12.0.1 h93073aa_0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvm-tools",
+"requires":[],
+"size":11379855,
+"timestamp":1625844221341,
+"version":"12.0.1"
+},
 "llvm-tools-9.0.1-h4468dd5_3.tar.bz2":{
 "build":"h4468dd5_3",
 "build_number":3,
@@ -68796,6 +68950,22 @@
 "size":40775118,
 "timestamp":1620846712113,
 "version":"12.0.0"
+},
+"llvmdev-12.0.1-h93073aa_0.tar.bz2":{
+"build":"h93073aa_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.a0",
+"libllvm12 12.0.1 h93073aa_0",
+"llvm-tools 12.0.1 h93073aa_0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvmdev",
+"requires":[],
+"size":40762892,
+"timestamp":1625844688805,
+"version":"12.0.1"
 },
 "llvmdev-5.0.0-h260d524_1005.tar.bz2":{
 "build":"h260d524_1005",
@@ -120352,6 +120522,19 @@
 "requires":[],
 "size":1580056,
 "timestamp":1624998726563,
+"version":"2.023.6"
+},
+"sympow-2.023.6-hbc999f1_2.tar.bz2":{
+"build":"hbc999f1_2",
+"build_number":2,
+"depends":[
+"pari"
+],
+"license":"LicenseRef-BSD-like",
+"name":"sympow",
+"requires":[],
+"size":1582971,
+"timestamp":1625846632383,
 "version":"2.023.6"
 },
 "sympy-1.6.2-py38h10201cd_1.tar.bz2":{
