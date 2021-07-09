@@ -24372,6 +24372,25 @@
 "timestamp":1622251546032,
 "version":"2.1.2"
 },
+"cypari2-2.1.2-py36hd9dfd54_2.tar.bz2":{
+"build":"py36hd9dfd54_2",
+"build_number":2,
+"depends":[
+"cysignals",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"GPL-2.0-or-later",
+"name":"cypari2",
+"sha256":"86727365c5146999c554842fd265c48733cf76221c10416aa71f6ed2bf92050c",
+"size":1915364,
+"timestamp":1625862163971,
+"version":"2.1.2"
+},
 "cypari2-2.1.2-py37h3fe3377_0.tar.bz2":{
 "build":"py37h3fe3377_0",
 "build_number":0,
@@ -135085,6 +135104,33 @@
 "sha256":"9867f1e658eb86534508b4a266d6febb9fae1265e6917035b5e9f18b4ac0641f",
 "size":699085508,
 "timestamp":1625822842622,
+"version":"21.07"
+},
+"warpx-21.07-py39h03fafd6_0.tar.bz2":{
+"build":"py39h03fafd6_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex >=4.5",
+"adios2 >=2.7.1,<2.7.2.0a0",
+"blaspp 2020.10.02.*",
+"fftw >=3.3.9,<4.0a0",
+"lapackpp 2020.10.02.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy",
+"openpmd-api * nompi_*",
+"openpmd-api 0.13.4.*",
+"periodictable",
+"picmistandard 0.0.14",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy"
+],
+"license":"BSD-3-Clause-LBNL",
+"name":"warpx",
+"sha256":"5c1cd8288f7c4b308c536acc49bea1cecefa690af3c1621182b2c1b973594449",
+"size":698925626,
+"timestamp":1625859794974,
 "version":"21.07"
 },
 "watchdog-0.10.4-py36h2e20a7f_0.tar.bz2":{
