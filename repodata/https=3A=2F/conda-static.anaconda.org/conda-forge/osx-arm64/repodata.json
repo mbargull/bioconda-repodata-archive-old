@@ -62313,6 +62313,27 @@
 "timestamp":1625664034189,
 "version":"4.0.0"
 },
+"libignition-common4-4.1.0-h9867e88_0.tar.bz2":{
+"build":"h9867e88_0",
+"build_number":0,
+"depends":[
+"ffmpeg >=4.3.1,<5.0a0",
+"freeimage >=3.18.0,<3.19.0a0",
+"gts >=0.7.6,<0.8.0a0",
+"libcxx >=11.1.0",
+"libglib >=2.68.3,<3.0a0",
+"libignition-cmake2 >=2.8.0,<3.0a0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-utils1 >=1.0.0,<2.0a0",
+"tinyxml2 >=9.0.0,<10.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-common4",
+"sha256":"ea3f9aabd497388efab7077bd630b9dbc6415d221ed8623e27d860f4a5b11a36",
+"size":574527,
+"timestamp":1625827658643,
+"version":"4.1.0"
+},
 "libignition-math6-6.8.0-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
 "build_number":0,
@@ -63690,6 +63711,25 @@
 "size":751113,
 "timestamp":1624685469694,
 "version":"0.14.1"
+},
+"libmamba-0.15.0-h238089d_0.tar.bz2":{
+"build":"h238089d_0",
+"build_number":0,
+"depends":[
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"libsolv >=0.7.19,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"reproc-cpp >=14.2,<15.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libmamba",
+"sha256":"11df652a46f381a78d54b19197ddfb4136c31f37182d5388ea6f3d041418571a",
+"size":757576,
+"timestamp":1625827838180,
+"version":"0.15.0"
 },
 "libmicrohttpd-0.9.73-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
@@ -71610,6 +71650,19 @@
 "size":4299984,
 "timestamp":1623950694656,
 "version":"0.14.0"
+},
+"micromamba-0.15.0-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause AND MIT AND OpenSSL",
+"name":"micromamba",
+"sha256":"168e976c023efd074fc146d4ccd46d86580234c4eaa3ab2f31b29c7b23a4d981",
+"size":4342568,
+"timestamp":1625825557481,
+"version":"0.15.0"
 },
 "micromamba-0.5.1-h04a7b5b_0.tar.bz2":{
 "build":"h04a7b5b_0",
