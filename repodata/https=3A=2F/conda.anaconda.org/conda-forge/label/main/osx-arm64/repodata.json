@@ -12553,6 +12553,17 @@
 "timestamp":1625017887624,
 "version":"0.6.5"
 },
+"aws-c-common-0.6.6-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"requires":[],
+"size":152409,
+"timestamp":1625863856427,
+"version":"0.6.6"
+},
 "aws-c-compression-0.2.11-h3b87e79_0.tar.bz2":{
 "build":"h3b87e79_0",
 "build_number":0,
@@ -33701,6 +33712,27 @@
 "timestamp":1625846838387,
 "version":"20210503"
 },
+"eclib-20210625-h95769b4_2.tar.bz2":{
+"build":"h95769b4_2",
+"build_number":2,
+"depends":[
+"gf2x >=1.3.0,<1.4.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"pari >=2.13.2,<3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"eclib",
+"requires":[],
+"size":20941486,
+"timestamp":1625863212994,
+"version":"20210625"
+},
 "ecm-7.0.4-h47c7c1a_1002.tar.bz2":{
 "build":"h47c7c1a_1002",
 "build_number":1002,
@@ -49845,6 +49877,40 @@
 "requires":[],
 "size":8243739,
 "timestamp":1616010294998,
+"version":"2.9.6"
+},
+"hoomd-2.9.6-cpu_py38he785ea7_1.tar.bz2":{
+"build":"cpu_py38he785ea7_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tbb >=2021.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"hoomd",
+"requires":[],
+"size":8260415,
+"timestamp":1625863873781,
+"version":"2.9.6"
+},
+"hoomd-2.9.6-cpu_py39h1920c40_1.tar.bz2":{
+"build":"cpu_py39h1920c40_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tbb >=2021.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"hoomd",
+"requires":[],
+"size":8222225,
+"timestamp":1625864149466,
 "version":"2.9.6"
 },
 "hoomd-2.9.6-cpu_py39he3f77d9_1.tar.bz2":{
