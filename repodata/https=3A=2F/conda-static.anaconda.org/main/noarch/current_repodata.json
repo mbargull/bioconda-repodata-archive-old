@@ -3936,22 +3936,20 @@
 "timestamp":1614362671677,
 "version":"0.8"
 },
-"datadog-0.41.0-pyhd3eb1b0_0.tar.bz2":{
+"datadog-0.42.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"decorator >=3.3.2",
 "python",
-"requests >=2.6.0",
-"simplejson >=2.0.9"
+"requests >=2.6.0"
 ],
 "license":"BSD-3-Clause",
 "name":"datadog",
 "noarch":"python",
-"sha256":"34d9b8a52541acc5c2e710cc91b5a447ce8a89a6070e5d573c2190cd3ec01609",
-"size":69677,
-"timestamp":1618952090164,
-"version":"0.41.0"
+"sha256":"6c09f4efa784b42276b74a4a6aa2289c9a31353b79efd507fc31cc4ad9fab53a",
+"size":69979,
+"timestamp":1625768317829,
+"version":"0.42.0"
 },
 "datashader-0.13.0-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
@@ -4509,7 +4507,7 @@
 "timestamp":1614170744319,
 "version":"0.5"
 },
-"elasticsearch-7.13.2-pyhd3eb1b0_0.tar.bz2":{
+"elasticsearch-7.13.3-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -4522,10 +4520,10 @@
 "license":"Apache-2.0",
 "name":"elasticsearch",
 "noarch":"python",
-"sha256":"1b953273d336aa0f9590cf83554a799d614a39a3aeaa506e1bb72cf6dbc777be",
-"size":127106,
-"timestamp":1624291502160,
-"version":"7.13.2"
+"sha256":"bbb4e95ca139839a6c1019eeb9c7c4237e97e526c3b0ce41821e93b0fe1a7968",
+"size":128999,
+"timestamp":1625769112638,
+"version":"7.13.3"
 },
 "elfutils-default-yama-scope-amzn2-aarch64-0.176-5.tar.bz2":{
 "build":"5",
@@ -5153,23 +5151,23 @@
 "timestamp":1605109413341,
 "version":"3.25.0"
 },
-"flask-jwt-extended-4.2.1-pyhd3eb1b0_0.tar.bz2":{
+"flask-jwt-extended-4.2.3-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
+"cryptography >=3.0,<4.0",
 "flask >=1.0,<3.0",
 "pyjwt >=2.0,<3.0",
-"python",
-"six",
+"python >=3.6,<4",
 "werkzeug >=0.14"
 ],
 "license":"MIT",
 "name":"flask-jwt-extended",
 "noarch":"python",
-"sha256":"c7d9e2783f80520fdd5520c6ec6c3858151a6e8351974be9b73f6d19762e6b9c",
-"size":19872,
-"timestamp":1620917208462,
-"version":"4.2.1"
+"sha256":"b608a1fee02ccd520ab882560de66da9fe16bbd678785d75e92e5af58006d558",
+"size":19861,
+"timestamp":1625770041652,
+"version":"4.2.3"
 },
 "flask-login-0.5.0-py_0.tar.bz2":{
 "build":"py_0",
