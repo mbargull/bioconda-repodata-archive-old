@@ -9710,6 +9710,19 @@
 "timestamp":1625017687115,
 "version":"0.6.5"
 },
+"aws-c-common-0.6.7-hf897c2e_0.tar.bz2":{
+"build":"hf897c2e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"aa50ceb46a3aaa5537dd84b1c5fd915d75cd96f0552b47259e6a574a83b360be",
+"size":173895,
+"timestamp":1625869717087,
+"version":"0.6.7"
+},
 "aws-c-compression-0.2.11-h183d49f_0.tar.bz2":{
 "build":"h183d49f_0",
 "build_number":0,
@@ -24428,6 +24441,25 @@
 "timestamp":1625010644338,
 "version":"2.1.2"
 },
+"cypari2-2.1.2-py37hea57641_2.tar.bz2":{
+"build":"py37hea57641_2",
+"build_number":2,
+"depends":[
+"cysignals",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"GPL-2.0-or-later",
+"name":"cypari2",
+"sha256":"d5bcb72b62dc4efae30dd892280109e295e78f1c7c1d8dd1c4ab9598baff7ac5",
+"size":1882657,
+"timestamp":1625863913027,
+"version":"2.1.2"
+},
 "cypari2-2.1.2-py38hadbc984_1.tar.bz2":{
 "build":"py38hadbc984_1",
 "build_number":1,
@@ -24465,6 +24497,25 @@
 "timestamp":1622251561976,
 "version":"2.1.2"
 },
+"cypari2-2.1.2-py38hd331825_2.tar.bz2":{
+"build":"py38hd331825_2",
+"build_number":2,
+"depends":[
+"cysignals",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"GPL-2.0-or-later",
+"name":"cypari2",
+"sha256":"d20dcdd44bdc6314ef8eec669474d62da0d9e2ea6dccd43556a86d09fe15b8b6",
+"size":1903992,
+"timestamp":1625864619258,
+"version":"2.1.2"
+},
 "cypari2-2.1.2-py39h04c61db_1.tar.bz2":{
 "build":"py39h04c61db_1",
 "build_number":1,
@@ -24500,6 +24551,25 @@
 "sha256":"aa5854a495453f7e70e795bbc2c534e8ea82d8a20fc5553954a34ff500052979",
 "size":1809017,
 "timestamp":1622250608347,
+"version":"2.1.2"
+},
+"cypari2-2.1.2-py39hf88ba2e_2.tar.bz2":{
+"build":"py39hf88ba2e_2",
+"build_number":2,
+"depends":[
+"cysignals",
+"gmp >=6.2.1,<7.0a0",
+"libgcc-ng >=9.3.0",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"GPL-2.0-or-later",
+"name":"cypari2",
+"sha256":"3468f20e8a0a113488b62e71f9d31f15d964d518ca262ccc6148ff5b1320eb87",
+"size":1906193,
+"timestamp":1625866262500,
 "version":"2.1.2"
 },
 "cyrus-sasl-2.1.27-h063b49f_1.tar.bz2":{
@@ -27361,6 +27431,28 @@
 "size":39091281,
 "timestamp":1625846719231,
 "version":"20210503"
+},
+"eclib-20210625-hdd22835_2.tar.bz2":{
+"build":"hdd22835_2",
+"build_number":2,
+"depends":[
+"gf2x >=1.3.0,<1.4.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libflint >=2.7.1,<2.8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"pari >=2.13.2,<3.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"eclib",
+"sha256":"61996d6bab5ca20c420ac2e11f074872f3658327b454a69701d8a8278bd7497e",
+"size":39142865,
+"timestamp":1625864279664,
+"version":"20210625"
 },
 "ecm-7.0.4-h719063d_1002.tar.bz2":{
 "build":"h719063d_1002",

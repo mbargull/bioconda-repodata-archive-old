@@ -4131,6 +4131,17 @@
 "timestamp":1625017887624,
 "version":"0.6.5"
 },
+"aws-c-common-0.6.7-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"2526c85b406e263316345d76467feb7b1d896ee7d0617856f6cc3489fbba004f",
+"size":152434,
+"timestamp":1625869728385,
+"version":"0.6.7"
+},
 "aws-c-compression-0.2.11-h3b87e79_0.tar.bz2":{
 "build":"h3b87e79_0",
 "build_number":0,
@@ -19019,68 +19030,30 @@
 "timestamp":1610146715487,
 "version":"1.10.6"
 },
-"hdf5-1.12.0-mpi_mpich_hf006bca_5.tar.bz2":{
-"build":"mpi_mpich_hf006bca_5",
-"build_number":5,
+"hdf5-1.12.1-mpi_mpich_hfc22502_0.tar.bz2":{
+"build":"mpi_mpich_hfc22502_0",
+"build_number":0,
 "depends":[
-"libcurl >=7.71.1,<8.0a0",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0",
-"mpich >=3.3,<4.0.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5",
-"sha256":"477e3fb67b4a877ff61af0496882ff5f9f9f88c9f15011a28bef90ce86c08684",
-"size":3400852,
-"timestamp":1609498193451,
-"version":"1.12.0"
-},
-"hdf5-1.12.0-mpi_mpich_hf006bca_6.tar.bz2":{
-"build":"mpi_mpich_hf006bca_6",
-"build_number":6,
-"depends":[
-"libcurl >=7.71.1,<8.0a0",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0",
-"mpich >=3.3,<4.0.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5",
-"sha256":"03579bc65ccf511a46fe2efd7b5ac472c6efa236eb7d36125d10825d0c60dd9a",
-"size":3388991,
-"timestamp":1610137590103,
-"version":"1.12.0"
-},
-"hdf5-1.12.0-mpi_mpich_hfc22502_7.tar.bz2":{
-"build":"mpi_mpich_hfc22502_7",
-"build_number":7,
-"depends":[
-"libcurl >=7.76.0,<8.0a0",
+"libcurl >=7.77.0,<8.0a0",
 "libcxx >=11.1.0",
 "libgfortran 5.*",
 "libgfortran5 >=11.0.1.dev0",
-"mpich >=3.4,<4.0.0a0",
+"mpich >=3.4,<3.5.0a0",
 "openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"LicenseRef-HDF5",
 "name":"hdf5",
-"sha256":"8402b9037118526f375f2b8e9a8800a145929286755430bbf4943d82620e2f03",
-"size":3513468,
-"timestamp":1617653101525,
-"version":"1.12.0"
+"sha256":"6d83f356cef9926fd16760dded43e0ef7365594d9e06ce545d051a82ba013240",
+"size":3768468,
+"timestamp":1625873201529,
+"version":"1.12.1"
 },
-"hdf5-1.12.0-mpi_openmpi_h0e1e6cd_7.tar.bz2":{
-"build":"mpi_openmpi_h0e1e6cd_7",
-"build_number":7,
+"hdf5-1.12.1-mpi_openmpi_h0e1e6cd_0.tar.bz2":{
+"build":"mpi_openmpi_h0e1e6cd_0",
+"build_number":0,
 "depends":[
-"libcurl >=7.76.0,<8.0a0",
+"libcurl >=7.77.0,<8.0a0",
 "libcxx >=11.1.0",
 "libgfortran 5.*",
 "libgfortran5 >=11.0.1.dev0",
@@ -19090,54 +19063,16 @@
 ],
 "license":"LicenseRef-HDF5",
 "name":"hdf5",
-"sha256":"c5ec03c2d659214799eb89871b850a1c4dd862ec9144b7e7975a842b6fdfdcc0",
-"size":3381135,
-"timestamp":1617652779323,
-"version":"1.12.0"
+"sha256":"ea473b971da5ca1660f55418bb2b87372a171ec18d55a495f15c050650ae5b9e",
+"size":3629125,
+"timestamp":1625873035778,
+"version":"1.12.1"
 },
-"hdf5-1.12.0-mpi_openmpi_hfa5ed71_5.tar.bz2":{
-"build":"mpi_openmpi_hfa5ed71_5",
-"build_number":5,
+"hdf5-1.12.1-nompi_had0e5e0_100.tar.bz2":{
+"build":"nompi_had0e5e0_100",
+"build_number":100,
 "depends":[
-"libcurl >=7.71.1,<8.0a0",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0",
-"openmpi >=4.0,<5.0.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5",
-"sha256":"284a124851b0f7b6a092cbffb533e181abc0c63fcc1ca1476dfe98eeb01625e4",
-"size":3215285,
-"timestamp":1609498109354,
-"version":"1.12.0"
-},
-"hdf5-1.12.0-mpi_openmpi_hfa5ed71_6.tar.bz2":{
-"build":"mpi_openmpi_hfa5ed71_6",
-"build_number":6,
-"depends":[
-"libcurl >=7.71.1,<8.0a0",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0",
-"openmpi >=4.0,<5.0.0a0",
-"openssl >=1.1.1i,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5",
-"sha256":"b7e7511b2fdba0dcaa30031c2691697f2f742ef7a0f8dd395f8569635737af5c",
-"size":3186873,
-"timestamp":1610137285453,
-"version":"1.12.0"
-},
-"hdf5-1.12.0-nompi_had0e5e0_107.tar.bz2":{
-"build":"nompi_had0e5e0_107",
-"build_number":107,
-"depends":[
-"libcurl >=7.76.0,<8.0a0",
+"libcurl >=7.77.0,<8.0a0",
 "libcxx >=11.1.0",
 "libgfortran 5.*",
 "libgfortran5 >=11.0.1.dev0",
@@ -19146,46 +19081,10 @@
 ],
 "license":"LicenseRef-HDF5",
 "name":"hdf5",
-"sha256":"79bde5381be9a6bc9696173e1be7dfb7c2675e1d4efee5105b8d66cb7cb93a16",
-"size":3200246,
-"timestamp":1617652701171,
-"version":"1.12.0"
-},
-"hdf5-1.12.0-nompi_hbd21d90_105.tar.bz2":{
-"build":"nompi_hbd21d90_105",
-"build_number":105,
-"depends":[
-"libcurl >=7.71.1,<8.0a0",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0",
-"openssl >=1.1.1i,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5",
-"sha256":"39bd47d497266bd922315eec7206d7a35daf56c97e11292e2a44205ce70d9d67",
-"size":3122119,
-"timestamp":1609498074922,
-"version":"1.12.0"
-},
-"hdf5-1.12.0-nompi_hbd21d90_106.tar.bz2":{
-"build":"nompi_hbd21d90_106",
-"build_number":106,
-"depends":[
-"libcurl >=7.71.1,<8.0a0",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0",
-"openssl >=1.1.1i,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5",
-"sha256":"3a6a464010aef81adaeff68f1e188a9cf23917a935ffcb8f558c9602c026b824",
-"size":3083924,
-"timestamp":1610137244708,
-"version":"1.12.0"
+"sha256":"c0dc6255f16d04027bce33cf1040a46416c8fc24c5e659620b795fc0ba32cd7e",
+"size":3425913,
+"timestamp":1625872907984,
+"version":"1.12.1"
 },
 "hdf5-external-filter-plugins-0.1.0-hce30654_6.tar.bz2":{
 "build":"hce30654_6",
@@ -19247,149 +19146,53 @@
 "timestamp":1609538877077,
 "version":"0.1.0"
 },
-"hdf5-static-1.12.0-mpi_mpich_h05f8310_7.tar.bz2":{
-"build":"mpi_mpich_h05f8310_7",
-"build_number":7,
+"hdf5-static-1.12.1-mpi_mpich_h05f8310_0.tar.bz2":{
+"build":"mpi_mpich_h05f8310_0",
+"build_number":0,
 "depends":[
-"hdf5 1.12.0 mpi_mpich_hfc22502_7",
+"hdf5 1.12.1 mpi_mpich_hfc22502_0",
 "libcxx >=11.1.0",
 "libgfortran 5.*",
 "libgfortran5 >=11.0.1.dev0"
 ],
 "license":"LicenseRef-HDF5",
 "name":"hdf5-static",
-"sha256":"f3afb2f356a2799e65072eacd9911926deca91c88c1047ca210a05c4e54cbd86",
-"size":2996735,
-"timestamp":1617653135101,
-"version":"1.12.0"
+"sha256":"5bceae877a89ef48b1657ad0ee8423a4e8272d58e4d36548749d93e4fe6703f1",
+"size":3005474,
+"timestamp":1625873243621,
+"version":"1.12.1"
 },
-"hdf5-static-1.12.0-mpi_mpich_hd6c3165_5.tar.bz2":{
-"build":"mpi_mpich_hd6c3165_5",
-"build_number":5,
+"hdf5-static-1.12.1-mpi_openmpi_h6e848c2_0.tar.bz2":{
+"build":"mpi_openmpi_h6e848c2_0",
+"build_number":0,
 "depends":[
-"hdf5 1.12.0 mpi_mpich_hf006bca_5",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5-static",
-"sha256":"e42e8c4a740f99c646a174bf5161630bc6054b1b0d3f56e0cd3945b4f9f82969",
-"size":2999541,
-"timestamp":1609498226493,
-"version":"1.12.0"
-},
-"hdf5-static-1.12.0-mpi_mpich_hd6c3165_6.tar.bz2":{
-"build":"mpi_mpich_hd6c3165_6",
-"build_number":6,
-"depends":[
-"hdf5 1.12.0 mpi_mpich_hf006bca_6",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5-static",
-"sha256":"f82c563febdd68fef31343a6fb8263d0cac3b4849f187e0a67afaacd1f6b7b04",
-"size":2998097,
-"timestamp":1610137627967,
-"version":"1.12.0"
-},
-"hdf5-static-1.12.0-mpi_openmpi_h6e848c2_7.tar.bz2":{
-"build":"mpi_openmpi_h6e848c2_7",
-"build_number":7,
-"depends":[
-"hdf5 1.12.0 mpi_openmpi_h0e1e6cd_7",
+"hdf5 1.12.1 mpi_openmpi_h0e1e6cd_0",
 "libcxx >=11.1.0",
 "libgfortran 5.*",
 "libgfortran5 >=11.0.1.dev0"
 ],
 "license":"LicenseRef-HDF5",
 "name":"hdf5-static",
-"sha256":"34829c7f5ed45c9a94078fbf418045fa8d6e0860e67fb279461c555ef3dd8236",
-"size":3000404,
-"timestamp":1617652812310,
-"version":"1.12.0"
+"sha256":"9d91fd56e45a7b79f3396aad20b137a8656f784341ebff0cdbd10724fecf667e",
+"size":3006769,
+"timestamp":1625873075606,
+"version":"1.12.1"
 },
-"hdf5-static-1.12.0-mpi_openmpi_h9d90dea_5.tar.bz2":{
-"build":"mpi_openmpi_h9d90dea_5",
-"build_number":5,
+"hdf5-static-1.12.1-nompi_h18eddcc_100.tar.bz2":{
+"build":"nompi_h18eddcc_100",
+"build_number":100,
 "depends":[
-"hdf5 1.12.0 mpi_openmpi_hfa5ed71_5",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5-static",
-"sha256":"486267ff10d8e0588e99e71bedd4c7022dfdcf3e7f0ea67bf1c9c4b40e646c0c",
-"size":2997698,
-"timestamp":1609498139712,
-"version":"1.12.0"
-},
-"hdf5-static-1.12.0-mpi_openmpi_h9d90dea_6.tar.bz2":{
-"build":"mpi_openmpi_h9d90dea_6",
-"build_number":6,
-"depends":[
-"hdf5 1.12.0 mpi_openmpi_hfa5ed71_6",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5-static",
-"sha256":"32a1bbba4eaeab0504e7481778f6022a447be9fa4eee9005422f6046b9cd2e74",
-"size":3000591,
-"timestamp":1610137316594,
-"version":"1.12.0"
-},
-"hdf5-static-1.12.0-nompi_h18eddcc_107.tar.bz2":{
-"build":"nompi_h18eddcc_107",
-"build_number":107,
-"depends":[
-"hdf5 1.12.0 nompi_had0e5e0_107",
+"hdf5 1.12.1 nompi_had0e5e0_100",
 "libcxx >=11.1.0",
 "libgfortran 5.*",
 "libgfortran5 >=11.0.1.dev0"
 ],
 "license":"LicenseRef-HDF5",
 "name":"hdf5-static",
-"sha256":"0c952cb6d613b44aa5d293ee6fad80940c0f3888cb81db65a7dcc00ed65e2970",
-"size":2879646,
-"timestamp":1617652734519,
-"version":"1.12.0"
-},
-"hdf5-static-1.12.0-nompi_h3ecb07b_105.tar.bz2":{
-"build":"nompi_h3ecb07b_105",
-"build_number":105,
-"depends":[
-"hdf5 1.12.0 nompi_hbd21d90_105",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5-static",
-"sha256":"7f9315eeaca837e1245542d2d98063f073b739caed7a185766ee16d52e974ddf",
-"size":2875109,
-"timestamp":1609498103884,
-"version":"1.12.0"
-},
-"hdf5-static-1.12.0-nompi_h3ecb07b_106.tar.bz2":{
-"build":"nompi_h3ecb07b_106",
-"build_number":106,
-"depends":[
-"hdf5 1.12.0 nompi_hbd21d90_106",
-"libcxx >=11.0.0",
-"libgfortran 5.*",
-"libgfortran5 >=11.0.0.dev0"
-],
-"license":"LicenseRef-HDF5",
-"name":"hdf5-static",
-"sha256":"69dbebe6de92f7eca3d1b86cbd8d40c2b71a324b85da06c7276ed9c9982c09e3",
-"size":2877790,
-"timestamp":1610137275095,
-"version":"1.12.0"
+"sha256":"eec18a605d66dc5c325c68110de76415df1003dc865c98e76d76148ce99ce8fc",
+"size":2894477,
+"timestamp":1625872952790,
+"version":"1.12.1"
 },
 "hdf5plugin-3.0.0-py38haaa4719_0.tar.bz2":{
 "build":"py38haaa4719_0",
@@ -19578,6 +19381,40 @@
 "sha256":"be86029b31c595061ad8c69e447210dc883f3f0548a535b3f480291e7fc4d08d",
 "size":8243739,
 "timestamp":1616010294998,
+"version":"2.9.6"
+},
+"hoomd-2.9.6-cpu_py38he785ea7_1.tar.bz2":{
+"build":"cpu_py38he785ea7_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"tbb >=2021.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"hoomd",
+"sha256":"1b3b0d033e85ed865bd31bc5f6fc0d4b8699b7f88e6d1b563ef83cb86ac96fb8",
+"size":8260415,
+"timestamp":1625863873781,
+"version":"2.9.6"
+},
+"hoomd-2.9.6-cpu_py39h1920c40_1.tar.bz2":{
+"build":"cpu_py39h1920c40_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"tbb >=2021.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"hoomd",
+"sha256":"dc723335b639875a1028ca821a784766262cf5abfb4519affd900f586beb45cb",
+"size":8222225,
+"timestamp":1625864149466,
 "version":"2.9.6"
 },
 "hoomd-2.9.6-cpu_py39he3f77d9_1.tar.bz2":{
