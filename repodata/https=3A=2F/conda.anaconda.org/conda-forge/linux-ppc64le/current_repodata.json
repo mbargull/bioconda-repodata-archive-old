@@ -48675,6 +48675,26 @@
 "timestamp":1603134135246,
 "version":"1.12.0"
 },
+"hdf5-1.12.1-mpi_mpich_hda62196_0.tar.bz2":{
+"build":"mpi_mpich_hda62196_0",
+"build_number":0,
+"depends":[
+"libcurl >=7.77.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"mpich >=3.4,<3.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"sha256":"84bf235713545163b56ada3fda3058f6a8d7980d2be70bc8239f20873feb68f7",
+"size":4217505,
+"timestamp":1625882082997,
+"version":"1.12.1"
+},
 "hdf5-1.12.1-mpi_openmpi_h2cd0a35_0.tar.bz2":{
 "build":"mpi_openmpi_h2cd0a35_0",
 "build_number":0,
@@ -48712,6 +48732,23 @@
 "sha256":"42576eac6c7c768e359fa836e5215e14af761fea15c7577537bf11ef928a1826",
 "size":4016259,
 "timestamp":1625877428805,
+"version":"1.12.1"
+},
+"hdf5-static-1.12.1-mpi_mpich_h69c9f57_0.tar.bz2":{
+"build":"mpi_mpich_h69c9f57_0",
+"build_number":0,
+"depends":[
+"hdf5 1.12.1 mpi_mpich_hda62196_0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"sha256":"3dfc60ac0eee25bc5bf36d277ffea68a4d146fe4a8e15a06ae8752e14c15d94a",
+"size":3631106,
+"timestamp":1625882290542,
 "version":"1.12.1"
 },
 "hdf5-static-1.12.1-mpi_openmpi_h0f56a57_0.tar.bz2":{
