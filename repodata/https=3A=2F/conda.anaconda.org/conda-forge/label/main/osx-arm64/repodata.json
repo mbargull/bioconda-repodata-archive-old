@@ -66673,6 +66673,20 @@
 "timestamp":1625561833286,
 "version":"3.9.6"
 },
+"libpython-static-3.9.6-hbdafb3b_1_cpython.tar.bz2":{
+"build":"hbdafb3b_1_cpython",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0 h54d631c_1_cpython"
+],
+"license":"Python-2.0",
+"name":"libpython-static",
+"requires":[],
+"size":7774151,
+"timestamp":1625974827615,
+"version":"3.9.6"
+},
 "libraw-0.20.2-h9166135_1.tar.bz2":{
 "build":"h9166135_1",
 "build_number":1,
@@ -101982,6 +101996,29 @@
 "requires":[],
 "size":12394164,
 "timestamp":1625561777716,
+"version":"3.9.6"
+},
+"python-3.9.6-h54d631c_1_cpython.tar.bz2":{
+"build":"h54d631c_1_cpython",
+"build_number":1,
+"constrains":[
+"python_abi 3.9.* *_cp39"
+],
+"depends":[
+"ncurses >=6.2,<6.3.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.1,<9.0a0",
+"sqlite >=3.36.0,<4.0a0",
+"tk >=8.6.10,<8.7.0a0",
+"tzdata",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Python-2.0",
+"name":"python",
+"requires":[],
+"size":12472496,
+"timestamp":1625974775937,
 "version":"3.9.6"
 },
 "python-avro-1.10.2-py38h10201cd_0.tar.bz2":{
