@@ -47322,6 +47322,20 @@
 "timestamp":1611188451877,
 "version":"1.47.16"
 },
+"help2man-1.47.16-pl5262hf897c2e_0.tar.bz2":{
+"build":"pl5262hf897c2e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"perl >=5.26.2,<5.26.3.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"help2man",
+"sha256":"e285d4229e88a7212d44854e31bbdfa62dfee3d187bffca4087eb8fa2fd61810",
+"size":27660,
+"timestamp":1625982304137,
+"version":"1.47.16"
+},
 "help2man-1.47.16-pl526h516909a_0.tar.bz2":{
 "build":"pl526h516909a_0",
 "build_number":0,
@@ -66057,7 +66071,7 @@
 "timestamp":1612735045564,
 "version":"0.1"
 },
-"mamba-0.14.1-py36he1ca912_0.tar.bz2":{
+"mamba-0.15.0-py36he1ca912_0.tar.bz2":{
 "build":"py36he1ca912_0",
 "build_number":0,
 "depends":[
@@ -66066,7 +66080,7 @@
 "libcurl >=7.77.0,<8.0a0",
 "libgcc-ng >=9.3.0",
 "libiconv >=1.16,<1.17.0a0",
-"libsolv >=0.7.18,<0.8.0a0",
+"libsolv >=0.7.19,<0.8.0a0",
 "libstdcxx-ng >=9.3.0",
 "openssl >=1.1.1k,<1.1.2a",
 "python >=3.6,<3.7.0a0",
@@ -66075,103 +66089,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"26755b08e36100e576fa0b70b715ccdafdc9d12b1892f2d833a4df3becb9bb0d",
-"size":807233,
-"timestamp":1624656156484,
-"version":"0.14.1"
-},
-"mamba-0.14.1-py37h48ed4ad_0.tar.bz2":{
-"build":"py37h48ed4ad_0",
-"build_number":0,
-"depends":[
-"conda >=4.8",
-"libarchive >=3.5.1,<3.6.0a0",
-"libcurl >=7.77.0,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"libsolv >=0.7.18,<0.8.0a0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a",
-"pypy3.7 >=7.3.4",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"reproc-cpp >=14.2,<15.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"mamba",
-"sha256":"b296911022519a6dba9b2bd14f871507fdbc3581b5d024f083c762ad2c4d894d",
-"size":803884,
-"timestamp":1624656902260,
-"version":"0.14.1"
-},
-"mamba-0.14.1-py37hf14380e_0.tar.bz2":{
-"build":"py37hf14380e_0",
-"build_number":0,
-"depends":[
-"conda >=4.8",
-"libarchive >=3.5.1,<3.6.0a0",
-"libcurl >=7.77.0,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"libsolv >=0.7.18,<0.8.0a0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"reproc-cpp >=14.2,<15.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"mamba",
-"sha256":"3281b2c4bbdeca016fdf37745e474244f324ded749b3e129e5de252a84ac29c3",
-"size":816283,
-"timestamp":1624658741398,
-"version":"0.14.1"
-},
-"mamba-0.14.1-py38h9d6459c_0.tar.bz2":{
-"build":"py38h9d6459c_0",
-"build_number":0,
-"depends":[
-"conda >=4.8",
-"libarchive >=3.5.1,<3.6.0a0",
-"libcurl >=7.77.0,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"libsolv >=0.7.18,<0.8.0a0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"reproc-cpp >=14.2,<15.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"mamba",
-"sha256":"5c4133b31740ebde478d7a5fbeaebe0d1dcb8b16973e4dd5d53562529b87b3ae",
-"size":815399,
-"timestamp":1624660488963,
-"version":"0.14.1"
-},
-"mamba-0.14.1-py39he574936_0.tar.bz2":{
-"build":"py39he574936_0",
-"build_number":0,
-"depends":[
-"conda >=4.8",
-"libarchive >=3.5.1,<3.6.0a0",
-"libcurl >=7.77.0,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"libsolv >=0.7.18,<0.8.0a0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"reproc-cpp >=14.2,<15.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"mamba",
-"sha256":"9c4b0251fab4baf443ebfdc5b612f3eaa99e80d4cc4e7b98a0d2bbb48db763af",
-"size":809913,
-"timestamp":1624662281525,
-"version":"0.14.1"
+"sha256":"3d5823aa892cc07e2c386f32523d9339fff2929d4033dcdbb947eed8225ed652",
+"size":814074,
+"timestamp":1625984114702,
+"version":"0.15.0"
 },
 "markupsafe-2.0.1-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
