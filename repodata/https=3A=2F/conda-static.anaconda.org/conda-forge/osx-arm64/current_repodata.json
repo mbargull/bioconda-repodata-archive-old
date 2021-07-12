@@ -26120,6 +26120,24 @@
 "timestamp":1621352105314,
 "version":"0.3.15"
 },
+"libopenblas-0.3.16-openmp_hf330de4_0.tar.bz2":{
+"build":"openmp_hf330de4_0",
+"build_number":0,
+"constrains":[
+"openblas >=0.3.16,<0.3.17.0a0"
+],
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"llvm-openmp >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"libopenblas",
+"sha256":"5c77b2165075e1e137b507cd4d6024f8b4ca6d5479da4a17f95e81486d398801",
+"size":4048015,
+"timestamp":1626076092921,
+"version":"0.3.16"
+},
 "libopencv-4.5.1-py38hb421fe0_1.tar.bz2":{
 "build":"py38hb421fe0_1",
 "build_number":1,
@@ -31907,37 +31925,21 @@
 "timestamp":1625553424107,
 "version":"0.9.3"
 },
-"openblas-0.3.15-openmp_hdb1f584_0.tar.bz2":{
+"openblas-0.3.16-openmp_hdb1f584_0.tar.bz2":{
 "build":"openmp_hdb1f584_0",
 "build_number":0,
 "depends":[
 "libgfortran 5.*",
 "libgfortran5 >=11.0.1.dev0",
-"libopenblas 0.3.15 openmp_hf330de4_0",
+"libopenblas 0.3.16 openmp_hf330de4_0",
 "llvm-openmp >=11.1.0"
 ],
 "license":"BSD-3-Clause",
 "name":"openblas",
-"sha256":"f8b6a315b3424da2d80e14fa8748b3973e134dc55deb89aea70de225068644de",
-"size":6876886,
-"timestamp":1620005292510,
-"version":"0.3.15"
-},
-"openblas-0.3.15-openmp_hdb1f584_1.tar.bz2":{
-"build":"openmp_hdb1f584_1",
-"build_number":1,
-"depends":[
-"libgfortran 5.*",
-"libgfortran5 >=11.0.1.dev0",
-"libopenblas 0.3.15 openmp_hf330de4_1",
-"llvm-openmp >=11.1.0"
-],
-"license":"BSD-3-Clause",
-"name":"openblas",
-"sha256":"599061ab9aac477dba458107981bbb8e3d965d4a053b97fe9addf55361e9f449",
-"size":6875290,
-"timestamp":1621352110326,
-"version":"0.3.15"
+"sha256":"a0336edb5abf16cb9d7f8cbef7b9f63517c86d069c1d345ae81e3dbc139f1fd4",
+"size":4460593,
+"timestamp":1626076097006,
+"version":"0.3.16"
 },
 "opencv-4.5.2-py38h150bfb4_0.tar.bz2":{
 "build":"py38h150bfb4_0",
