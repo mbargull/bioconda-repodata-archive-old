@@ -47927,74 +47927,6 @@
 "timestamp":1577630264319,
 "version":"4.57.1"
 },
-"hypre-2.21.0-hcc4b88a_0.tar.bz2":{
-"build":"hcc4b88a_0",
-"build_number":0,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=9.3.0",
-"openmpi >=4.1,<4.2.0a0"
-],
-"license":"Apache-2.0",
-"name":"hypre",
-"sha256":"b188a644dcf6e820a617aca2eb396b2d05fdfee82095305fe612892fe07376cd",
-"size":1945032,
-"timestamp":1622830118661,
-"version":"2.21.0"
-},
-"hypre-2.21.0-he27437b_0.tar.bz2":{
-"build":"he27437b_0",
-"build_number":0,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<4.0.0a0"
-],
-"license":"Apache-2.0",
-"name":"hypre",
-"sha256":"ee6993eaaa65a976bbc14675c2074ee6e991d9e4ca3fb722bcf84512b940fa8c",
-"size":1928203,
-"timestamp":1622830119245,
-"version":"2.21.0"
-},
-"hypre-2.21.0-mpi_mpich_he27437b_2.tar.bz2":{
-"build":"mpi_mpich_he27437b_2",
-"build_number":2,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<4.0.0a0"
-],
-"license":"Apache-2.0",
-"name":"hypre",
-"sha256":"8811fe612f63d37a76ad8cfeae0425c0eb1426943b12f840260b329e8fdbae39",
-"size":1943877,
-"timestamp":1622836779846,
-"version":"2.21.0"
-},
-"hypre-2.21.0-mpi_openmpi_hcc4b88a_2.tar.bz2":{
-"build":"mpi_openmpi_hcc4b88a_2",
-"build_number":2,
-"depends":[
-"libblas >=3.8.0,<4.0a0",
-"libgcc-ng >=9.3.0",
-"liblapack >=3.8.0,<4.0a0",
-"libstdcxx-ng >=9.3.0",
-"openmpi >=4.1,<4.2.0a0"
-],
-"license":"Apache-2.0",
-"name":"hypre",
-"sha256":"fe80e0b323d3096600e4e8ee2f0fbb7027d01dfe9bc2c330c688ba92038c94ad",
-"size":1929639,
-"timestamp":1622836764832,
-"version":"2.21.0"
-},
 "hypre-2.22.0-mpi_mpich_he27437b_0.tar.bz2":{
 "build":"mpi_mpich_he27437b_0",
 "build_number":0,
@@ -79661,6 +79593,40 @@
 "size":13406919,
 "timestamp":1626098452426,
 "version":"3.15.1"
+},
+"petsc-3.15.2-complex_hf9e7399_0.tar.bz2":{
+"build":"complex_hf9e7399_0",
+"build_number":0,
+"depends":[
+"fftw * mpi_mpich_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"hypre >=2.22.0,<2.23.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"mpich >=3.4.2,<4.0a0",
+"mumps-mpi >=5.2.1,<5.2.2.0a0",
+"parmetis >=4.0.3,<4.1.0a0",
+"ptscotch >=6.0.9,<6.0.10.0a0",
+"scalapack >=2.0.2,<2.1.0a0",
+"scotch >=6.0.9,<6.0.10.0a0",
+"suitesparse >=5.10.1,<5.11.0a0",
+"superlu",
+"superlu_dist",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"petsc",
+"sha256":"f457aa26d34838006fc794f5ade641423dc2192b81410ebac3e83788b35d1978",
+"size":10367320,
+"timestamp":1626119695108,
+"track_features":"petsc_complex",
+"version":"3.15.2"
 },
 "petsc4py-3.15.0-complex_h1322564_1.tar.bz2":{
 "build":"complex_h1322564_1",
