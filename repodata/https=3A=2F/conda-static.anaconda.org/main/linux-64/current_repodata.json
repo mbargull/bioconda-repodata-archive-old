@@ -20892,78 +20892,6 @@
 "timestamp":1614007049082,
 "version":"1.4.1"
 },
-"cryptography-2.9.2-py36h1ba5d50_0.tar.bz2":{
-"build":"py36h1ba5d50_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"libgcc-ng >=7.3.0",
-"openssl >=1.1.1g,<1.1.2a",
-"python >=3.6,<3.7.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"f1b53f6e96bc7861d435f6a9301f6b409edfede5b9b26a0807686497f1bf3331",
-"size":641490,
-"timestamp":1588861130915,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py37h1ba5d50_0.tar.bz2":{
-"build":"py37h1ba5d50_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"libgcc-ng >=7.3.0",
-"openssl >=1.1.1g,<1.1.2a",
-"python >=3.7,<3.8.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"7353672b2255c5a08fc97fb60a5e1df3aa6d0649dd014440109fa75ebe692254",
-"size":640872,
-"timestamp":1588861083920,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py38h1ba5d50_0.tar.bz2":{
-"build":"py38h1ba5d50_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"libgcc-ng >=7.3.0",
-"openssl >=1.1.1g,<1.1.2a",
-"python >=3.8,<3.9.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"6b70a3b459af0d60880e16c2cf8c99cbc27ca339a53af3339c17ba552ba582af",
-"size":644864,
-"timestamp":1588861116459,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py39h3c74f83_0.tar.bz2":{
-"build":"py39h3c74f83_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"libgcc-ng >=7.3.0",
-"openssl >=1.1.1i,<1.1.2a",
-"python >=3.9,<3.10.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"831630e5587e25cbb4c4fa5c47903a5920157d29f00f89df041c7a4f699f1788",
-"size":636644,
-"timestamp":1608674166951,
-"version":"2.9.2"
-},
 "cryptography-3.4.7-py36hd23ed53_0.tar.bz2":{
 "build":"py36hd23ed53_0",
 "build_number":0,
@@ -66367,8 +66295,10 @@
 "pyjwt-2.1.0-py36h06a4308_0.tar.bz2":{
 "build":"py36h06a4308_0",
 "build_number":0,
+"constrains":[
+"cryptography >=3.3.1,<4.0.0"
+],
 "depends":[
-"cryptography >=2.6,<3.0.0",
 "python >=3.6,<3.7.0a0"
 ],
 "license":"MIT",
@@ -66381,8 +66311,10 @@
 "pyjwt-2.1.0-py37h06a4308_0.tar.bz2":{
 "build":"py37h06a4308_0",
 "build_number":0,
+"constrains":[
+"cryptography >=3.3.1,<4.0.0"
+],
 "depends":[
-"cryptography >=2.6,<3.0.0",
 "python >=3.7,<3.8.0a0"
 ],
 "license":"MIT",
@@ -66395,8 +66327,10 @@
 "pyjwt-2.1.0-py38h06a4308_0.tar.bz2":{
 "build":"py38h06a4308_0",
 "build_number":0,
+"constrains":[
+"cryptography >=3.3.1,<4.0.0"
+],
 "depends":[
-"cryptography >=2.6,<3.0.0",
 "python >=3.8,<3.9.0a0"
 ],
 "license":"MIT",

@@ -22379,82 +22379,6 @@
 "timestamp":1614007049082,
 "version":"1.4.1"
 },
-"cryptography-2.9.2-py36h1ba5d50_0.conda":{
-"build":"py36h1ba5d50_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"libgcc-ng >=7.3.0",
-"openssl >=1.1.1g,<1.1.2a",
-"python >=3.6,<3.7.0a0",
-"six"
-],
-"legacy_bz2_md5":"8961ec4d027bc124522f0d469ca437cd",
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"c66f72a757d032fffe10961cbc955c4e0ea126304dc2035878ca3e37c1849142",
-"size":569496,
-"timestamp":1588861130915,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py37h1ba5d50_0.conda":{
-"build":"py37h1ba5d50_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"libgcc-ng >=7.3.0",
-"openssl >=1.1.1g,<1.1.2a",
-"python >=3.7,<3.8.0a0",
-"six"
-],
-"legacy_bz2_md5":"39fb55ef177bbaf7b3fa672febe9282a",
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"c7f8640045ce6226539a61580d1651d92c471824b19ae2d925b454b13eeeab40",
-"size":565330,
-"timestamp":1588861083920,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py38h1ba5d50_0.conda":{
-"build":"py38h1ba5d50_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"libgcc-ng >=7.3.0",
-"openssl >=1.1.1g,<1.1.2a",
-"python >=3.8,<3.9.0a0",
-"six"
-],
-"legacy_bz2_md5":"00b0fe3da5beba9a974a7131a1ec6f52",
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"9e895e055bffb26a110f2db17086781169b3cf92134fa31c69e1536360906be9",
-"size":569694,
-"timestamp":1588861116459,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py39h3c74f83_0.conda":{
-"build":"py39h3c74f83_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"libgcc-ng >=7.3.0",
-"openssl >=1.1.1i,<1.1.2a",
-"python >=3.9,<3.10.0a0",
-"six"
-],
-"legacy_bz2_md5":"56d866e03bff7104719cb81234ab4c1f",
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"a20aa07b28b456bbb0375bc11265a0be9c5bcbaee0d4357ebbd8442121ff5495",
-"size":569192,
-"timestamp":1608674166951,
-"version":"2.9.2"
-},
 "cryptography-3.4.7-py36hd23ed53_0.conda":{
 "build":"py36hd23ed53_0",
 "build_number":0,
@@ -26766,7 +26690,7 @@
 "timestamp":1620907237140,
 "version":"2021.4.1"
 },
-"distributed-2021.6.2-py37h06a4308_0.conda":{
+"distributed-2021.7.0-py37h06a4308_0.conda":{
 "build":"py37h06a4308_0",
 "build_number":0,
 "constrains":[
@@ -26776,7 +26700,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.6.2.*",
+"dask-core 2021.7.0.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.7,<3.8.0a0",
@@ -26788,15 +26712,15 @@
 "tornado >=5",
 "zict >=0.1.3"
 ],
-"legacy_bz2_md5":"b99ff14a3ec7aeb96176ca922206f583",
+"legacy_bz2_md5":"3d0cc5c345cc948ef451057a39297c1d",
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"06c1a4fe014a583fc5c0951a07302d2be7884d435731668cf055d2c8f687116e",
-"size":1126370,
-"timestamp":1624589165337,
-"version":"2021.6.2"
+"sha256":"446263a802452c48b7daae9b95b221958209fe0e6e2c738944851a0293a2f9dd",
+"size":1450627,
+"timestamp":1626113028846,
+"version":"2021.7.0"
 },
-"distributed-2021.6.2-py38h06a4308_0.conda":{
+"distributed-2021.7.0-py38h06a4308_0.conda":{
 "build":"py38h06a4308_0",
 "build_number":0,
 "constrains":[
@@ -26806,7 +26730,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.6.2.*",
+"dask-core 2021.7.0.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.8,<3.9.0a0",
@@ -26818,15 +26742,15 @@
 "tornado >=6.0.3",
 "zict >=0.1.3"
 ],
-"legacy_bz2_md5":"593dba8e142fdc0f9d8eaa22553450a5",
+"legacy_bz2_md5":"e9ca21f1668d1e787e5ce62c660d0f0c",
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"a0d490f9fec2aeb60b1417dca88ecaf87b9ac13d1d0ddccd307c083c0d8ba0cb",
-"size":1136016,
-"timestamp":1624589295317,
-"version":"2021.6.2"
+"sha256":"6502353120ad757b58506cac37ed85970c186d856844d37a46093b3fb68136dd",
+"size":1451949,
+"timestamp":1626113027982,
+"version":"2021.7.0"
 },
-"distributed-2021.6.2-py39h06a4308_0.conda":{
+"distributed-2021.7.0-py39h06a4308_0.conda":{
 "build":"py39h06a4308_0",
 "build_number":0,
 "constrains":[
@@ -26836,7 +26760,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.6.2.*",
+"dask-core 2021.7.0.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.9,<3.10.0a0",
@@ -26848,13 +26772,13 @@
 "tornado >=6.0.3",
 "zict >=0.1.3"
 ],
-"legacy_bz2_md5":"231c80b6de18eb5c478fd650e9a5d2ac",
+"legacy_bz2_md5":"e2c93ccb86df47b83464a70ffb2a14b6",
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"e18b98c0c82639052bb7c222ed1ce4d29fa1615a69f8294c41e143aea30807df",
-"size":1144580,
-"timestamp":1624583038800,
-"version":"2021.6.2"
+"sha256":"b23ef69fb1f4258a24619e1c1dfa6b80138e8880fa6ed8135dbb8552a7d483ea",
+"size":1450901,
+"timestamp":1626112664278,
+"version":"2021.7.0"
 },
 "django-2.2.5-py36_0.conda":{
 "build":"py36_0",
@@ -70533,8 +70457,10 @@
 "pyjwt-2.1.0-py36h06a4308_0.conda":{
 "build":"py36h06a4308_0",
 "build_number":0,
+"constrains":[
+"cryptography >=3.3.1,<4.0.0"
+],
 "depends":[
-"cryptography >=2.6,<3.0.0",
 "python >=3.6,<3.7.0a0"
 ],
 "legacy_bz2_md5":"b0551c9f70d9de0ef12f89df8bce0258",
@@ -70548,8 +70474,10 @@
 "pyjwt-2.1.0-py37h06a4308_0.conda":{
 "build":"py37h06a4308_0",
 "build_number":0,
+"constrains":[
+"cryptography >=3.3.1,<4.0.0"
+],
 "depends":[
-"cryptography >=2.6,<3.0.0",
 "python >=3.7,<3.8.0a0"
 ],
 "legacy_bz2_md5":"ce6980cc7ff52063750c682f2fcc3a80",
@@ -70563,8 +70491,10 @@
 "pyjwt-2.1.0-py38h06a4308_0.conda":{
 "build":"py38h06a4308_0",
 "build_number":0,
+"constrains":[
+"cryptography >=3.3.1,<4.0.0"
+],
 "depends":[
-"cryptography >=2.6,<3.0.0",
 "python >=3.8,<3.9.0a0"
 ],
 "legacy_bz2_md5":"4eb0567ef65a9a649be8b40354d0e498",

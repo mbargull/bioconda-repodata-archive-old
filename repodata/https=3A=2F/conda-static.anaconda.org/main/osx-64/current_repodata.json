@@ -16607,125 +16607,6 @@
 "timestamp":1614007051941,
 "version":"1.4.1"
 },
-"cryptography-2.9.2-py36ha12b0ac_0.tar.bz2":{
-"build":"py36ha12b0ac_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"openssl >=1.1.1g,<1.1.2a",
-"python >=3.6,<3.7.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"a2cbcce2a196b2cc3738cb22eb36cbee6994678a76db860193e9ca96febc39af",
-"size":622723,
-"timestamp":1588861346887,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py36hbcfaee0_0.tar.bz2":{
-"build":"py36hbcfaee0_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"openssl >=1.1.1i,<1.1.2a",
-"python >=3.6,<3.7.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"78b574395e4bf4ca9b344fb87b7d88b7729d90478957eb68e89d9ad620c8a1e1",
-"size":617609,
-"timestamp":1608674137192,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py37ha12b0ac_0.tar.bz2":{
-"build":"py37ha12b0ac_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"openssl >=1.1.1g,<1.1.2a",
-"python >=3.7,<3.8.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"a69ea0dcd97a13371430dbec5cd4c51008951f7ab9021aa24f98a9dbb209bdbb",
-"size":622348,
-"timestamp":1588861290295,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py37hbcfaee0_0.tar.bz2":{
-"build":"py37hbcfaee0_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"openssl >=1.1.1i,<1.1.2a",
-"python >=3.7,<3.8.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"0d95aebe98c3f8de57aa4b9369a09b8e1a29f680a9e0ff7c7bd628247c42c62a",
-"size":620619,
-"timestamp":1608674175859,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py38ha12b0ac_0.tar.bz2":{
-"build":"py38ha12b0ac_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"openssl >=1.1.1g,<1.1.2a",
-"python >=3.8,<3.9.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"224f93a1e71952f898264bc100db0de619c2e6f570dae79b899bbdb29b46effe",
-"size":624024,
-"timestamp":1588861290241,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py38hbcfaee0_0.tar.bz2":{
-"build":"py38hbcfaee0_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"openssl >=1.1.1i,<1.1.2a",
-"python >=3.8,<3.9.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"a02a0e27784c71571b37252e236c6632240098f619bcda5a342a3002482ed744",
-"size":625943,
-"timestamp":1608674138781,
-"version":"2.9.2"
-},
-"cryptography-2.9.2-py39hbcfaee0_0.tar.bz2":{
-"build":"py39hbcfaee0_0",
-"build_number":0,
-"depends":[
-"cffi",
-"idna",
-"openssl >=1.1.1i,<1.1.2a",
-"python >=3.9,<3.10.0a0",
-"six"
-],
-"license":"Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
-"name":"cryptography",
-"sha256":"e4c4103bfa6fd0f24dcb9156f7a259ebe700059b55f562fe3a3b3209a57c5551",
-"size":624010,
-"timestamp":1608674166693,
-"version":"2.9.2"
-},
 "cryptography-3.4.7-py36h2fd3fbb_0.tar.bz2":{
 "build":"py36h2fd3fbb_0",
 "build_number":0,
@@ -57836,8 +57717,10 @@
 "pyjwt-2.1.0-py36hecd8cb5_0.tar.bz2":{
 "build":"py36hecd8cb5_0",
 "build_number":0,
+"constrains":[
+"cryptography >=3.3.1,<4.0.0"
+],
 "depends":[
-"cryptography >=2.6,<3.0.0",
 "python >=3.6,<3.7.0a0"
 ],
 "license":"MIT",
@@ -57850,8 +57733,10 @@
 "pyjwt-2.1.0-py37hecd8cb5_0.tar.bz2":{
 "build":"py37hecd8cb5_0",
 "build_number":0,
+"constrains":[
+"cryptography >=3.3.1,<4.0.0"
+],
 "depends":[
-"cryptography >=2.6,<3.0.0",
 "python >=3.7,<3.8.0a0"
 ],
 "license":"MIT",
@@ -57864,8 +57749,10 @@
 "pyjwt-2.1.0-py38hecd8cb5_0.tar.bz2":{
 "build":"py38hecd8cb5_0",
 "build_number":0,
+"constrains":[
+"cryptography >=3.3.1,<4.0.0"
+],
 "depends":[
-"cryptography >=2.6,<3.0.0",
 "python >=3.8,<3.9.0a0"
 ],
 "license":"MIT",
