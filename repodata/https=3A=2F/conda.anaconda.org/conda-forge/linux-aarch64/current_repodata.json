@@ -19636,48 +19636,6 @@
 "timestamp":1625890059903,
 "version":"12.0.1"
 },
-"clang-12.0.0-h8af1aa0_1.tar.bz2":{
-"build":"h8af1aa0_1",
-"build_number":1,
-"constrains":[
-"libclang 12.0.0.*",
-"clang-tools 12.0.0.*",
-"llvm 12.0.0.*",
-"llvm-tools 12.0.0.*",
-"llvmdev 12.0.0.*"
-],
-"depends":[
-"clang-12 12.0.0 default_h4839fef_1",
-"gcc_impl_linux-aarch64"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clang",
-"sha256":"7b7f27f77c54a53d4975c23973ebbde397a6ffbcd42859bdfb03b5de104f7c22",
-"size":127821,
-"timestamp":1621267632909,
-"version":"12.0.0"
-},
-"clang-12.0.0-h8af1aa0_2.tar.bz2":{
-"build":"h8af1aa0_2",
-"build_number":2,
-"constrains":[
-"libclang 12.0.0.*",
-"clang-tools 12.0.0.*",
-"llvm 12.0.0.*",
-"llvm-tools 12.0.0.*",
-"llvmdev 12.0.0.*"
-],
-"depends":[
-"clang-12 12.0.0 default_h4839fef_2",
-"gcc_impl_linux-aarch64"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clang",
-"sha256":"d73dac521088d6544eb647dd5083b9faaf3bb45481304d4682a8e1cc5a971d22",
-"size":127826,
-"timestamp":1623718080191,
-"version":"12.0.0"
-},
 "clang-12.0.1-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
 "build_number":0,
@@ -20185,32 +20143,6 @@
 "size":113673791,
 "timestamp":1602690519546,
 "version":"5.0.0"
-},
-"clangxx-12.0.0-default_h6215f28_1.tar.bz2":{
-"build":"default_h6215f28_1",
-"build_number":1,
-"depends":[
-"clang 12.0.0 h8af1aa0_1"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clangxx",
-"sha256":"690246f7cbe812e1167c4fbd7da9ab6baff44f015b2309ec3d492abc88f9fb08",
-"size":127638,
-"timestamp":1621267645301,
-"version":"12.0.0"
-},
-"clangxx-12.0.0-default_h6215f28_2.tar.bz2":{
-"build":"default_h6215f28_2",
-"build_number":2,
-"depends":[
-"clang 12.0.0 h8af1aa0_2"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clangxx",
-"sha256":"2bbdc05ac4d828bcd5d96d8ec007ec63d4800ca075dd8b4f5cedbddb0099f32e",
-"size":127716,
-"timestamp":1623718092877,
-"version":"12.0.0"
 },
 "clangxx-12.0.1-default_h6215f28_0.tar.bz2":{
 "build":"default_h6215f28_0",
@@ -20914,22 +20846,22 @@
 "timestamp":1618417526401,
 "version":"5.0.1"
 },
-"compiler-rt-12.0.0-hd62202e_0.tar.bz2":{
+"compiler-rt-12.0.1-hd62202e_0.tar.bz2":{
 "build":"hd62202e_0",
 "build_number":0,
 "depends":[
-"clang 12.0.0.*",
-"clangxx 12.0.0.*",
-"compiler-rt_linux-aarch64 12.0.0.*",
+"clang 12.0.1.*",
+"clangxx 12.0.1.*",
+"compiler-rt_linux-aarch64 12.0.1.*",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0"
 ],
 "license":"NCSA",
 "name":"compiler-rt",
-"sha256":"c0626b4dc5a2fe4c65824b4eea38d2aba87a067998674c0614160ac314004980",
-"size":98280,
-"timestamp":1621449249061,
-"version":"12.0.0"
+"sha256":"27baf2b04977938532a481685ec43459841f9e703fe8cf15466c20df66ee90c8",
+"size":98304,
+"timestamp":1626201424627,
+"version":"12.0.1"
 },
 "compilers-1.2.0-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
@@ -31470,6 +31402,22 @@
 "size":1963862,
 "timestamp":1622546643618,
 "version":"0.27.2"
+},
+"g2clib-1.6.3-h63ea08f_0.tar.bz2":{
+"build":"h63ea08f_0",
+"build_number":0,
+"depends":[
+"jasper >=1.900.31,<2.0a0",
+"libgcc-ng >=9.3.0",
+"libpng >=1.6.37,<1.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Public Domain",
+"name":"g2clib",
+"sha256":"fe1322cad1a84af54873f9ce2cd81b1a4913148d6e500a673535e0d0813e397a",
+"size":57132,
+"timestamp":1626200750478,
+"version":"1.6.3"
 },
 "gammapy-0.18.2-py36h1215cef_1.tar.bz2":{
 "build":"py36h1215cef_1",
