@@ -82124,6 +82124,39 @@
 "timestamp":1621099072899,
 "version":"2.44_01"
 },
+"petsc-3.15.2-complex_h2697e3f_0.tar.bz2":{
+"build":"complex_h2697e3f_0",
+"build_number":0,
+"depends":[
+"fftw * mpi_openmpi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"hypre >=2.22.0,<2.23.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"mumps-mpi >=5.2.1,<5.2.2.0a0",
+"openmpi >=4.1.1,<5.0a0",
+"parmetis >=4.0.3,<4.1.0a0",
+"ptscotch >=6.0.9,<6.0.10.0a0",
+"scalapack >=2.0.2,<2.1.0a0",
+"scotch >=6.0.9,<6.0.10.0a0",
+"suitesparse >=5.10.1,<5.11.0a0",
+"superlu",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"petsc",
+"sha256":"fb689237f650218b28588aaf7dd316a58ee45e351fda53923ee062bb4d7bc33b",
+"size":13793870,
+"timestamp":1626161061246,
+"track_features":"petsc_complex",
+"version":"3.15.2"
+},
 "petsc-3.15.2-complex_h3e52c5a_0.tar.bz2":{
 "build":"complex_h3e52c5a_0",
 "build_number":0,
@@ -82154,6 +82187,40 @@
 "sha256":"483cc83e2159b661dcaad507519aa81c64b0aaef1ef9d35bd9bd2912414e1b6a",
 "size":13784910,
 "timestamp":1626120565886,
+"track_features":"petsc_complex",
+"version":"3.15.2"
+},
+"petsc-3.15.2-complex_h89c72cb_0.tar.bz2":{
+"build":"complex_h89c72cb_0",
+"build_number":0,
+"depends":[
+"fftw * mpi_mpich_*",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"hypre >=2.22.0,<2.23.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"mpich >=3.4.2,<4.0a0",
+"mumps-mpi >=5.2.1,<5.2.2.0a0",
+"parmetis >=4.0.3,<4.1.0a0",
+"ptscotch >=6.0.9,<6.0.10.0a0",
+"scalapack >=2.0.2,<2.1.0a0",
+"scotch >=6.0.9,<6.0.10.0a0",
+"suitesparse >=5.10.1,<5.11.0a0",
+"superlu",
+"superlu_dist",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"petsc",
+"sha256":"d39d727e51ba0ff143fbe6730d89e372301c5f0b760c9e8d799dbf7741b9906d",
+"size":10388267,
+"timestamp":1626161062144,
 "track_features":"petsc_complex",
 "version":"3.15.2"
 },
@@ -82224,6 +82291,39 @@
 "timestamp":1626120443390,
 "version":"3.15.2"
 },
+"petsc-3.15.2-real_h5b30d3f_100.tar.bz2":{
+"build":"real_h5b30d3f_100",
+"build_number":100,
+"depends":[
+"fftw * mpi_mpich_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"hypre >=2.22.0,<2.23.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"mpich >=3.4.2,<4.0a0",
+"mumps-mpi >=5.2.1,<5.2.2.0a0",
+"parmetis >=4.0.3,<4.1.0a0",
+"ptscotch >=6.0.9,<6.0.10.0a0",
+"scalapack >=2.0.2,<2.1.0a0",
+"scotch >=6.0.9,<6.0.10.0a0",
+"suitesparse >=5.10.1,<5.11.0a0",
+"superlu",
+"superlu_dist",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"petsc",
+"sha256":"6b992542916a4b4485809b02babe1dff1d80255e484d3f0bc297ab0271491820",
+"size":9985829,
+"timestamp":1626161154635,
+"version":"3.15.2"
+},
 "petsc-3.15.2-real_hb907341_100.tar.bz2":{
 "build":"real_hb907341_100",
 "build_number":100,
@@ -82254,6 +82354,38 @@
 "sha256":"cc8c07f92393df646869c56e30c5bdc631e970d557062766089c536f5c4fd5e2",
 "size":13385091,
 "timestamp":1626120567742,
+"version":"3.15.2"
+},
+"petsc-3.15.2-real_he003222_100.tar.bz2":{
+"build":"real_he003222_100",
+"build_number":100,
+"depends":[
+"fftw * mpi_openmpi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"hypre >=2.22.0,<2.23.0a0",
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"libstdcxx-ng >=9.3.0",
+"metis >=5.1.0,<5.2.0a0",
+"mumps-mpi >=5.2.1,<5.2.2.0a0",
+"openmpi >=4.1.1,<5.0a0",
+"parmetis >=4.0.3,<4.1.0a0",
+"ptscotch >=6.0.9,<6.0.10.0a0",
+"scalapack >=2.0.2,<2.1.0a0",
+"scotch >=6.0.9,<6.0.10.0a0",
+"suitesparse >=5.10.1,<5.11.0a0",
+"superlu",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"petsc",
+"sha256":"caef0d157f605bdb019aa24ad207cacd599b3997b2abd8dcd350062edb2bdd12",
+"size":13412035,
+"timestamp":1626161129516,
 "version":"3.15.2"
 },
 "petsc4py-3.15.0-complex_h0eb83b8_1.tar.bz2":{
@@ -105664,24 +105796,7 @@
 "timestamp":1621953100285,
 "version":"0.9_11"
 },
-"r-isoband-0.2.4-r36h6203a36_0.tar.bz2":{
-"build":"r36h6203a36_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"r-base >=3.6,<3.7.0a0",
-"r-rcpp",
-"r-testthat"
-],
-"license":"MIT",
-"name":"r-isoband",
-"sha256":"df1eb34b675095cff6052b751392576da6b7758cf2034182555a92ea73c0fe0f",
-"size":2267930,
-"timestamp":1614803953168,
-"version":"0.2.4"
-},
-"r-isoband-0.2.4-r40h6203a36_0.tar.bz2":{
+"r-isoband-0.2.5-r40h6203a36_0.tar.bz2":{
 "build":"r40h6203a36_0",
 "build_number":0,
 "depends":[
@@ -105693,12 +105808,12 @@
 ],
 "license":"MIT",
 "name":"r-isoband",
-"sha256":"acb8c5f918e6c9653e45b6c59f894a956204398e0c251e7c7bfe62dbb5518057",
-"size":2262563,
-"timestamp":1614803926618,
-"version":"0.2.4"
+"sha256":"c37af3191bfffad306419a536c12e417378593ebbb7aa5873c9f46b0dd22fced",
+"size":1909762,
+"timestamp":1626161228544,
+"version":"0.2.5"
 },
-"r-isoband-0.2.4-r41h6203a36_0.tar.bz2":{
+"r-isoband-0.2.5-r41h6203a36_0.tar.bz2":{
 "build":"r41h6203a36_0",
 "build_number":0,
 "depends":[
@@ -105710,10 +105825,10 @@
 ],
 "license":"MIT",
 "name":"r-isoband",
-"sha256":"6acce0238462545ba8493afa2f5db633a51f2d12fbc8a63d3660b4024e647434",
-"size":2257333,
-"timestamp":1622038442264,
-"version":"0.2.4"
+"sha256":"9dd55229e3e521c173833a3f62d454b733c3fad1a6e34451aa4a04998c11fe15",
+"size":1907650,
+"timestamp":1626161500253,
+"version":"0.2.5"
 },
 "r-jpeg-0.1_8.1-r36hd2b4baa_1.tar.bz2":{
 "build":"r36hd2b4baa_1",
