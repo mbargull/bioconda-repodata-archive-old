@@ -75521,10 +75521,11 @@
 "timestamp":1623769119747,
 "version":"1.2.2"
 },
-"openai-0.9.3-py37h4bcbb9b_0.tar.bz2":{
+"openai-0.9.4-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
+"colorama",
 "openpyxl >=3.0.7",
 "pandas >=1.2.3",
 "pandas-stubs >=1.1.0.11",
@@ -75536,15 +75537,16 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"4f61b0d43a675893e59ad30669e0fae447bc23ba1ee95a573fa0b9405c9565b3",
-"size":202269,
-"timestamp":1625553524898,
-"version":"0.9.3"
+"sha256":"9e077bf733b0d18f3bdd4139810c212a9e8f3b030bf245b949e844f4ce564b56",
+"size":202537,
+"timestamp":1626210293553,
+"version":"0.9.4"
 },
-"openai-0.9.3-py37hd9ded2f_0.tar.bz2":{
+"openai-0.9.4-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
+"colorama",
 "openpyxl >=3.0.7",
 "pandas >=1.2.3",
 "pandas-stubs >=1.1.0.11",
@@ -75555,15 +75557,16 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"3e96e0212a8c9162b8f06c03db5a1d81680c1c2b0571eaae2064bb48efdefb06",
-"size":201322,
-"timestamp":1625554179506,
-"version":"0.9.3"
+"sha256":"77f74d0d0d359c49d0b530e0816949de4f2b935392162171cffd1cf0a99f66c8",
+"size":201603,
+"timestamp":1626210704916,
+"version":"0.9.4"
 },
-"openai-0.9.3-py38h2063c64_0.tar.bz2":{
+"openai-0.9.4-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
+"colorama",
 "openpyxl >=3.0.7",
 "pandas >=1.2.3",
 "pandas-stubs >=1.1.0.11",
@@ -75574,15 +75577,16 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"6894e9fd73e805339cca853e2929f5bb3ae527097e37c947231575159cb0f364",
-"size":201838,
-"timestamp":1625554808609,
-"version":"0.9.3"
+"sha256":"b0b4188f98b3ef46f1aa281947c176753d30d616992d057448b2fd54d6c27637",
+"size":202238,
+"timestamp":1626210945343,
+"version":"0.9.4"
 },
-"openai-0.9.3-py39ha65689a_0.tar.bz2":{
+"openai-0.9.4-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
+"colorama",
 "openpyxl >=3.0.7",
 "pandas >=1.2.3",
 "pandas-stubs >=1.1.0.11",
@@ -75593,10 +75597,10 @@
 ],
 "license":"MIT",
 "name":"openai",
-"sha256":"99aedac2c05416039b434b045a6643d5174ba3f2b93abf83bd4ed42f4329bda2",
-"size":201723,
-"timestamp":1625555167052,
-"version":"0.9.3"
+"sha256":"bc92f399b9b9636399e1372a38f00bae0d4ede86391e51fe5cdaa34cb6b2ecdb",
+"size":201933,
+"timestamp":1626211192999,
+"version":"0.9.4"
 },
 "openblas-0.3.16-openmp_h1e0b318_0.tar.bz2":{
 "build":"openmp_h1e0b318_0",
@@ -90247,24 +90251,7 @@
 "timestamp":1615337033860,
 "version":"2020.1"
 },
-"pymongo-3.11.4-py36h143fd24_0.tar.bz2":{
-"build":"py36h143fd24_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"Apache-2.0",
-"name":"pymongo",
-"sha256":"75d27253cc05cbd3af11c2d8553d563d27c9a61e8f3e31a4a8755324b08b9b7c",
-"size":1153774,
-"timestamp":1623164897632,
-"version":"3.11.4"
-},
-"pymongo-3.11.4-py36h86e9a40_0.tar.bz2":{
+"pymongo-3.12.0-py36h86e9a40_0.tar.bz2":{
 "build":"py36h86e9a40_0",
 "build_number":0,
 "depends":[
@@ -90275,12 +90262,12 @@
 ],
 "license":"Apache-2.0",
 "name":"pymongo",
-"sha256":"812a8cc34cc4248fb332abeccc98cede647cf82e409b51e73c3c3e8879e73d64",
-"size":1194544,
-"timestamp":1623164425788,
-"version":"3.11.4"
+"sha256":"029a219a3a32f80c85d6274deb5351ef51f512a5ee34dff9c7dad1cc5420110d",
+"size":1269104,
+"timestamp":1626208104329,
+"version":"3.12.0"
 },
-"pymongo-3.11.4-py37h5d5c557_0.tar.bz2":{
+"pymongo-3.12.0-py37h5d5c557_0.tar.bz2":{
 "build":"py37h5d5c557_0",
 "build_number":0,
 "depends":[
@@ -90292,12 +90279,12 @@
 ],
 "license":"Apache-2.0",
 "name":"pymongo",
-"sha256":"78f5ec24a70430022c3e611ac1e6d08a68cf9d3e1641c0c3e85401fc0a9d7436",
-"size":1153487,
-"timestamp":1625662988762,
-"version":"3.11.4"
+"sha256":"e8abc201b7c9c636d8206b4351b824bb78ebb925dbc4ca7a5124da8752ee4961",
+"size":1224201,
+"timestamp":1626209093282,
+"version":"3.12.0"
 },
-"pymongo-3.11.4-py37had24c86_0.tar.bz2":{
+"pymongo-3.12.0-py37had24c86_0.tar.bz2":{
 "build":"py37had24c86_0",
 "build_number":0,
 "depends":[
@@ -90308,12 +90295,12 @@
 ],
 "license":"Apache-2.0",
 "name":"pymongo",
-"sha256":"649878d2a7b97f1e9c650d589f8cb2e7ef579552612aa2c58eb83a1d993b3367",
-"size":1191081,
-"timestamp":1623164432057,
-"version":"3.11.4"
+"sha256":"2398f9cf95adb926d87f5bf587569af0a5ec33531287b20f9b20ec4460270c6e",
+"size":1272820,
+"timestamp":1626210280339,
+"version":"3.12.0"
 },
-"pymongo-3.11.4-py38h0119ad3_0.tar.bz2":{
+"pymongo-3.12.0-py38h0119ad3_0.tar.bz2":{
 "build":"py38h0119ad3_0",
 "build_number":0,
 "depends":[
@@ -90324,26 +90311,10 @@
 ],
 "license":"Apache-2.0",
 "name":"pymongo",
-"sha256":"ca26062215e00bbece8b5e5d6133a6ec2d01c6557461a9072ad6ec59c7602d11",
-"size":1211737,
-"timestamp":1623164411294,
-"version":"3.11.4"
-},
-"pymongo-3.11.4-py39h99ab00b_0.tar.bz2":{
-"build":"py39h99ab00b_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"Apache-2.0",
-"name":"pymongo",
-"sha256":"eb5e7ca3785129e957d01c04deca49034d1ab42c7ed41bb6cedb62cf1c4f3b22",
-"size":1198645,
-"timestamp":1623165226165,
-"version":"3.11.4"
+"sha256":"b7dfd0804775a77091a6482d88103a9dcaa8db999aff1490dd8185405de446d4",
+"size":1256873,
+"timestamp":1626211021678,
+"version":"3.12.0"
 },
 "pynac-0.7.27-py36h1211dc5_0.tar.bz2":{
 "build":"py36h1211dc5_0",
@@ -116270,7 +116241,21 @@
 "timestamp":1625646019812,
 "version":"1.0.12"
 },
-"s2n-static-1.0.12-hf897c2e_0.tar.bz2":{
+"s2n-1.0.13-h6aed413_0.tar.bz2":{
+"build":"h6aed413_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"s2n",
+"sha256":"1c53e4026e1d080a33ff93b50442f99aea8423b484464fb4ccc07572f25c1860",
+"size":408514,
+"timestamp":1626211215055,
+"version":"1.0.13"
+},
+"s2n-static-1.0.13-hf897c2e_0.tar.bz2":{
 "build":"hf897c2e_0",
 "build_number":0,
 "depends":[
@@ -116278,10 +116263,10 @@
 ],
 "license":"Apache-2.0",
 "name":"s2n-static",
-"sha256":"834022d61ef1a721642f8b6f7a305aa36c999c0a55add048a438a206b586566e",
-"size":517711,
-"timestamp":1625646067581,
-"version":"1.0.12"
+"sha256":"47aa612eef8b4af51867ab192e860bf7ce223f584e1037f05341099d90a32566",
+"size":516193,
+"timestamp":1626211254913,
+"version":"1.0.13"
 },
 "s3transfer-0.3.3-py36h9f0ad1d_0.tar.bz2":{
 "build":"py36h9f0ad1d_0",
@@ -131124,6 +131109,22 @@
 "sha256":"75831766a31990dd2cdb04e513bb1979654db6664ddc16971d274a840358a45f",
 "size":1122793,
 "timestamp":1626206741423,
+"version":"0.15.3"
+},
+"uvloop-0.15.3-py39h14843e3_0.tar.bz2":{
+"build":"py39h14843e3_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libuv >=1.41.1,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT OR Apache-2.0",
+"name":"uvloop",
+"sha256":"7cd8f9b582288a5442dfb9c4d858915323ced7beeb18e88b22604c770b5b906a",
+"size":1121651,
+"timestamp":1626207673305,
 "version":"0.15.3"
 },
 "vdt-0.4.3-h01db608_0.tar.bz2":{
