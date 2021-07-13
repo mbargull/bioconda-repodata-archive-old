@@ -3792,7 +3792,7 @@
 "timestamp":1576596077057,
 "version":"4.4.1"
 },
-"dask-2021.6.2-pyhd3eb1b0_0.tar.bz2":{
+"dask-2021.7.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "constrains":[
@@ -3801,8 +3801,8 @@
 "depends":[
 "bokeh >=1.0.0,!=2.0.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.6.2.*",
-"distributed 2021.6.2.*",
+"dask-core 2021.7.0.*",
+"distributed 2021.7.0.*",
 "numpy >=1.16",
 "pandas >=0.25.0",
 "python >=3.7"
@@ -3810,29 +3810,10 @@
 "license":"BSD-3-Clause",
 "name":"dask",
 "noarch":"python",
-"sha256":"e05f90051ed170479bee5d06d78532d31578d31b563819965da2a4dc2a782ac8",
+"sha256":"88ef1e1e7481c6e3c6f049855ed85b3d6cbfbdcb71e3a1101666f7243a0ac1cf",
 "size":4465,
-"timestamp":1624624298481,
-"version":"2021.6.2"
-},
-"dask-core-2021.6.2-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"cloudpickle >=1.1.1",
-"fsspec >=0.6.0",
-"partd >=0.3.10",
-"python >=3.7",
-"pyyaml",
-"toolz >=0.8.2"
-],
-"license":"BSD-3-Clause",
-"name":"dask-core",
-"noarch":"python",
-"sha256":"09328a97c729687a86fdc7b3ba74fb908242c570e5dbdbbbc16f5e13dd45c385",
-"size":761799,
-"timestamp":1624382014043,
-"version":"2021.6.2"
+"timestamp":1626119272804,
+"version":"2021.7.0"
 },
 "dask-core-2021.7.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
