@@ -22986,7 +22986,7 @@
 "timestamp":1520768253927,
 "version":"3.0.0"
 },
-"freetds-1.2.21-hcd4344a_0.tar.bz2":{
+"freetds-1.3-hcd4344a_0.tar.bz2":{
 "build":"hcd4344a_0",
 "build_number":0,
 "depends":[
@@ -22994,12 +22994,12 @@
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"license":"LGPL",
+"license":"LGPL-2.0 AND GPL-2.0",
 "name":"freetds",
-"sha256":"1b0ca4e7b53541e99c56fc834ff19450bcd0d62cfc02b85d95fe848a69e29d12",
-"size":1236086,
-"timestamp":1619477135853,
-"version":"1.2.21"
+"sha256":"520d8e36632c49ed7df226ebf80782fae7ac917f675ee494a5b3f195784e28e3",
+"size":1259935,
+"timestamp":1626258249331,
+"version":"1.3"
 },
 "freetype-2.10.4-hd328e21_0.tar.bz2":{
 "build":"hd328e21_0",
@@ -46278,50 +46278,65 @@
 "timestamp":1607574102308,
 "version":"1.7.1"
 },
-"pep8-naming-0.11.1-py36_0.tar.bz2":{
-"build":"py36_0",
+"pep8-naming-0.12.0-py36haa95532_0.tar.bz2":{
+"build":"py36haa95532_0",
 "build_number":0,
 "depends":[
-"flake8",
+"flake8 >=3.9.1",
 "flake8-polyfill >=1.0.2,<2",
 "python >=3.6,<3.7.0a0"
 ],
 "license":"MIT",
 "name":"pep8-naming",
-"sha256":"9f8edd3c2175527ab8a81766a2efd08c77070bccce62822c0bc8b37f79b3b6bc",
-"size":18668,
-"timestamp":1600451585137,
-"version":"0.11.1"
+"sha256":"01d05e37528e25a4a1dea3f8b6bf3611b53d2284095b3e2e36542de6bf302d2b",
+"size":19602,
+"timestamp":1626246326904,
+"version":"0.12.0"
 },
-"pep8-naming-0.11.1-py37_0.tar.bz2":{
-"build":"py37_0",
+"pep8-naming-0.12.0-py37haa95532_0.tar.bz2":{
+"build":"py37haa95532_0",
 "build_number":0,
 "depends":[
-"flake8",
+"flake8 >=3.9.1",
 "flake8-polyfill >=1.0.2,<2",
 "python >=3.7,<3.8.0a0"
 ],
 "license":"MIT",
 "name":"pep8-naming",
-"sha256":"47d8d915f300bad53c8a27693e787b002699f2cba57ce080bff6040505f660bb",
-"size":18618,
-"timestamp":1600439434541,
-"version":"0.11.1"
+"sha256":"32a388844422493bee181bf855b6653fe2f566fe3fc8f9529f277b4364695669",
+"size":19589,
+"timestamp":1626246324230,
+"version":"0.12.0"
 },
-"pep8-naming-0.11.1-py38_0.tar.bz2":{
-"build":"py38_0",
+"pep8-naming-0.12.0-py38haa95532_0.tar.bz2":{
+"build":"py38haa95532_0",
 "build_number":0,
 "depends":[
-"flake8",
+"flake8 >=3.9.1",
 "flake8-polyfill >=1.0.2,<2",
 "python >=3.8,<3.9.0a0"
 ],
 "license":"MIT",
 "name":"pep8-naming",
-"sha256":"4a3e48dcff718f2bc717f2d8efe483d6d4bfc21a6aab223574915ce9ffcab9ea",
-"size":18615,
-"timestamp":1600457544599,
-"version":"0.11.1"
+"sha256":"9d512f061de28bfff2e9835250db4a0d88cb8c3766e2656fb185fc0e369239bb",
+"size":19619,
+"timestamp":1626246324553,
+"version":"0.12.0"
+},
+"pep8-naming-0.12.0-py39haa95532_0.tar.bz2":{
+"build":"py39haa95532_0",
+"build_number":0,
+"depends":[
+"flake8 >=3.9.1",
+"flake8-polyfill >=1.0.2,<2",
+"python >=3.9,<3.10.0a0"
+],
+"license":"MIT",
+"name":"pep8-naming",
+"sha256":"9840f09f39764241e31cb7fd16eab80ca6b746d0d3e17ca803b068a9f910bf40",
+"size":19592,
+"timestamp":1626246306669,
+"version":"0.12.0"
 },
 "perf-1.5.1-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -70308,60 +70323,18 @@
 "timestamp":1608242035143,
 "version":"6.3.1"
 },
-"tenacity-8.0.0-py36haa95532_0.tar.bz2":{
-"build":"py36haa95532_0",
-"build_number":0,
-"depends":[
-"python >=3.6,<3.7.0a0",
-"six >=1.9.0"
-],
-"license":"Apache 2.0",
-"name":"tenacity",
-"sha256":"3a92f40ddb8243f6ab60ff124dc58cf5ddc5964838227bf1bc3b4734057b12f7",
-"size":34015,
-"timestamp":1625815893785,
-"version":"8.0.0"
-},
-"tenacity-8.0.0-py37haa95532_0.tar.bz2":{
-"build":"py37haa95532_0",
-"build_number":0,
-"depends":[
-"python >=3.7,<3.8.0a0",
-"six >=1.9.0"
-],
-"license":"Apache 2.0",
-"name":"tenacity",
-"sha256":"c5e50ea09b40c1ae8cbb0aa121fb83964986e2c91292b94f3ad66b45a7dcc3d5",
-"size":34109,
-"timestamp":1625815885404,
-"version":"8.0.0"
-},
-"tenacity-8.0.0-py38haa95532_0.tar.bz2":{
-"build":"py38haa95532_0",
-"build_number":0,
-"depends":[
-"python >=3.8,<3.9.0a0",
-"six >=1.9.0"
-],
-"license":"Apache 2.0",
-"name":"tenacity",
-"sha256":"d262b32b435952265bce7fb7670d9a27c8e757c588e69101bbd1331f1f477358",
-"size":34360,
-"timestamp":1625815867190,
-"version":"8.0.0"
-},
-"tenacity-8.0.0-py39haa95532_0.tar.bz2":{
+"tenacity-8.0.1-py39haa95532_0.tar.bz2":{
 "build":"py39haa95532_0",
 "build_number":0,
 "depends":[
 "python >=3.9,<3.10.0a0"
 ],
-"license":"Apache 2.0",
+"license":"Apache-2.0",
 "name":"tenacity",
-"sha256":"437fde77270254084af5e3a67ab0d1b8b4f1ec22ed2f4a1d6478361740e01f60",
-"size":34563,
-"timestamp":1625853145524,
-"version":"8.0.0"
+"sha256":"2f635261fe4f70003fdc4f282f6c935cd84b5bae14ba915f177b171f5e84d4df",
+"size":35862,
+"timestamp":1626248430718,
+"version":"8.0.1"
 },
 "tensorboard-1.14.0-py36he3c9ec2_0.tar.bz2":{
 "build":"py36he3c9ec2_0",
