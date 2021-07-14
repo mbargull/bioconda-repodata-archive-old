@@ -127469,30 +127469,7 @@
 "timestamp":1604105651344,
 "version":"6.1"
 },
-"tox-3.23.1-py36h2e20a7f_0.tar.bz2":{
-"build":"py36h2e20a7f_0",
-"build_number":0,
-"depends":[
-"filelock >=3.0.0,<4",
-"importlib_metadata >=0.12,<2",
-"packaging >=14",
-"pluggy >=0.12.0,<1",
-"py >=1.4.17,<2",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"six >=1.14.0,<2",
-"toml >=0.9.4",
-"virtualenv >=16.0.0,!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7"
-],
-"license":"MIT",
-"name":"tox",
-"sha256":"c6a6b4d8f0f561d799cf8ac48a60af22f2dacf2cf78bb1c9001265b383020d20",
-"size":134931,
-"timestamp":1620254127605,
-"version":"3.23.1"
-},
-"tox-3.23.1-py36h704843e_0.tar.bz2":{
+"tox-3.24.0-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -127509,12 +127486,12 @@
 ],
 "license":"MIT",
 "name":"tox",
-"sha256":"707282c9e22698e08f4253ef22a5d88ad0284cfd5093758861a8eea879176fa3",
-"size":133887,
-"timestamp":1620254122860,
-"version":"3.23.1"
+"sha256":"3146c8a3e0a34622b0115b10cb456a517d11a39a414b8e9297a13ab1c925f505",
+"size":134236,
+"timestamp":1626275001498,
+"version":"3.24.0"
 },
-"tox-3.23.1-py37h4bcbb9b_0.tar.bz2":{
+"tox-3.24.0-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
@@ -127523,7 +127500,7 @@
 "packaging >=14",
 "pluggy >=0.12.0,<1",
 "py >=1.4.17,<2",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "six >=1.14.0,<2",
@@ -127532,74 +127509,10 @@
 ],
 "license":"MIT",
 "name":"tox",
-"sha256":"3130c7da9e6e6009456feed12173fb895747eb5d8d91a504e5d63eed0572001d",
-"size":134776,
-"timestamp":1620254425432,
-"version":"3.23.1"
-},
-"tox-3.23.1-py37hd9ded2f_0.tar.bz2":{
-"build":"py37hd9ded2f_0",
-"build_number":0,
-"depends":[
-"filelock >=3.0.0,<4",
-"importlib_metadata >=0.12,<2",
-"packaging >=14",
-"pluggy >=0.12.0,<1",
-"py >=1.4.17,<2",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"six >=1.14.0,<2",
-"toml >=0.9.4",
-"virtualenv >=16.0.0,!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7"
-],
-"license":"MIT",
-"name":"tox",
-"sha256":"e56077ffbee9377d66dd7d8a022893e6f0d3cc708a04caffa1bfa0732a0eb6f8",
-"size":134037,
-"timestamp":1620254122878,
-"version":"3.23.1"
-},
-"tox-3.23.1-py38h2063c64_0.tar.bz2":{
-"build":"py38h2063c64_0",
-"build_number":0,
-"depends":[
-"filelock >=3.0.0,<4",
-"packaging >=14",
-"pluggy >=0.12.0,<1",
-"py >=1.4.17,<2",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"six >=1.14.0,<2",
-"toml >=0.9.4",
-"virtualenv >=16.0.0,!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7"
-],
-"license":"MIT",
-"name":"tox",
-"sha256":"c64816cd4483f1853eb6d6566746173b249b019264730da78dce869fc1f9fc91",
-"size":134673,
-"timestamp":1620254293319,
-"version":"3.23.1"
-},
-"tox-3.23.1-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"filelock >=3.0.0,<4",
-"packaging >=14",
-"pluggy >=0.12.0,<1",
-"py >=1.4.17,<2",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"six >=1.14.0,<2",
-"toml >=0.9.4",
-"virtualenv >=16.0.0,!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7"
-],
-"license":"MIT",
-"name":"tox",
-"sha256":"d9eae7ed3016dd98c1fcd15c7710bb19a3425510e0563c862b185e7e95ed4d03",
-"size":135109,
-"timestamp":1620254332370,
-"version":"3.23.1"
+"sha256":"d113afb7535faaf1ec17ef64f168b9eb8ca74df4ed043804b243a1d380b3649d",
+"size":134555,
+"timestamp":1626275587656,
+"version":"3.24.0"
 },
 "tqdm-4.38.0-py36_1.tar.bz2":{
 "build":"py36_1",
