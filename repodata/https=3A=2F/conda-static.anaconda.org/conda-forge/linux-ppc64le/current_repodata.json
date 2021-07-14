@@ -27007,6 +27007,22 @@
 "timestamp":1622252780051,
 "version":"1.10.3"
 },
+"cython-0.29.24-py36h08d3667_0.tar.bz2":{
+"build":"py36h08d3667_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"Apache-2.0",
+"name":"cython",
+"sha256":"25608cae88fe15dd00e1effd9285de92343c80ae2ec9920dbac0ecfa0ee7d6cc",
+"size":2270025,
+"timestamp":1626222257564,
+"version":"0.29.24"
+},
 "cython-0.29.24-py37hc9b93fd_0.tar.bz2":{
 "build":"py37hc9b93fd_0",
 "build_number":0,
@@ -37650,49 +37666,28 @@
 "timestamp":1582370715910,
 "version":"5.2.1"
 },
-"git-2.30.2-pl5320h09515ac_1.tar.bz2":{
-"build":"pl5320h09515ac_1",
-"build_number":1,
+"git-2.31.0-pl5321h29e2a4d_0.tar.bz2":{
+"build":"pl5321h29e2a4d_0",
+"build_number":0,
 "depends":[
-"curl >=7.75.0,<8.0a0",
-"expat >=2.3.0,<3.0.0a0",
+"curl >=7.77.0,<8.0a0",
+"expat >=2.4.1,<3.0a0",
 "gettext",
 "libgcc-ng >=9.3.0",
 "libiconv >=1.16,<1.17.0a0",
 "openssl >=1.1.1k,<1.1.2a",
-"pcre >=8.44,<9.0a0",
+"pcre2 >=10.37,<10.38.0a0",
 "perl 5.*",
+"perl >=5.32.1,<5.33.0a0 *_perl5",
 "tk",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"GPL-2.0-or-later and LGPL-2.1-or-later",
 "name":"git",
-"sha256":"536cfd0166376bfa79f814ddef5dfd3bdfd4171b5dcb9bfce9d71566e46fe93d",
-"size":18236643,
-"timestamp":1616782460798,
-"version":"2.30.2"
-},
-"git-2.30.2-pl5320hbe1f510_0.tar.bz2":{
-"build":"pl5320hbe1f510_0",
-"build_number":0,
-"depends":[
-"curl >=7.75.0,<8.0a0",
-"expat >=2.2.10,<3.0.0a0",
-"gettext",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"openssl >=1.1.1j,<1.1.2a",
-"pcre >=8.44,<9.0a0",
-"perl 5.*",
-"tk",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-2.0-or-later and LGPL-2.1-or-later",
-"name":"git",
-"sha256":"8de0649c31116207debbae83756185b709ba6ff569e398d9a0559ac6e4db41b6",
-"size":18230381,
-"timestamp":1615320106650,
-"version":"2.30.2"
+"sha256":"072271b2889c6c6981a87412635b737d2f0a363dd76810a5348eef092be4b077",
+"size":18436632,
+"timestamp":1626222164163,
+"version":"2.31.0"
 },
 "git-lfs-2.13.3-ha3edaa6_0.tar.bz2":{
 "build":"ha3edaa6_0",
