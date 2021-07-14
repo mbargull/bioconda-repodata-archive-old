@@ -102699,7 +102699,7 @@
 "timestamp":1621641130301,
 "version":"0.2.2"
 },
-"r-grf-2.0.1-r40hecdc70b_0.tar.bz2":{
+"r-grf-2.0.2-r40hecdc70b_0.tar.bz2":{
 "build":"r40hecdc70b_0",
 "build_number":0,
 "depends":[
@@ -102715,12 +102715,12 @@
 ],
 "license":"GPL-3.0-only",
 "name":"r-grf",
-"sha256":"48f267c47dce4d1dabad1909f3b8c1b9a303cef5a7a01ef3fe46e1bfa8aa6e86",
-"size":755744,
-"timestamp":1625646388802,
-"version":"2.0.1"
+"sha256":"95968c70907beec778656e6f857fe766ce915f7eb11be810a3231a0329cfc9fd",
+"size":742423,
+"timestamp":1626292659990,
+"version":"2.0.2"
 },
-"r-grf-2.0.1-r41hecdc70b_0.tar.bz2":{
+"r-grf-2.0.2-r41hecdc70b_0.tar.bz2":{
 "build":"r41hecdc70b_0",
 "build_number":0,
 "depends":[
@@ -102736,10 +102736,10 @@
 ],
 "license":"GPL-3.0-only",
 "name":"r-grf",
-"sha256":"3bfdf35833c61f1887e2489f8234a5b23f33f89440487c74b4be0f2ad205fb44",
-"size":768285,
-"timestamp":1625647169531,
-"version":"2.0.1"
+"sha256":"d14f7d0645d8139f3a7de488d7acd910febaa2f84f32f79c811c5fb81f715f65",
+"size":746643,
+"timestamp":1626293457747,
+"version":"2.0.2"
 },
 "r-gtools-3.9.2-r40h96a179c_0.tar.bz2":{
 "build":"r40h96a179c_0",
@@ -129347,6 +129347,76 @@
 "sha256":"8d0efa69566809c1db20d01103f45738b4ad53d5d12b7f38984397dfb902b65f",
 "size":8200003,
 "timestamp":1626290169511,
+"version":"4.1.0.1"
+},
+"uhd-4.1.0.1-py37h2a3c13f_0.tar.bz2":{
+"build":"py37h2a3c13f_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pyyaml",
+"requests",
+"ruamel.yaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"uhd",
+"sha256":"80a606934a7739bda9a206102fd13b1f028fe8bef6c366a9859208cb44f24c7d",
+"size":8207438,
+"timestamp":1626290926882,
+"version":"4.1.0.1"
+},
+"uhd-4.1.0.1-py37ha6dbfde_0.tar.bz2":{
+"build":"py37ha6dbfde_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.19.5,<2.0a0",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"pyyaml",
+"requests",
+"ruamel.yaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"uhd",
+"sha256":"cc50bf04009698ddca0c44303cbe41fda3decd4fded7b3d0db0abf5f4969fbe3",
+"size":7620308,
+"timestamp":1626292388349,
+"version":"4.1.0.1"
+},
+"uhd-4.1.0.1-py38h5331c6a_0.tar.bz2":{
+"build":"py38h5331c6a_0",
+"build_number":0,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"requests",
+"ruamel.yaml"
+],
+"license":"GPL-3.0-or-later",
+"name":"uhd",
+"sha256":"c863377fa8cfcd0b6a0c47dae955389697b632d5665b3f6e9754d237a18423fd",
+"size":8235707,
+"timestamp":1626291679154,
 "version":"4.1.0.1"
 },
 "ujson-1.35-py36h002c26f_1003.tar.bz2":{
