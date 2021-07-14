@@ -25135,6 +25135,19 @@
 "timestamp":1597586845407,
 "version":"1.9.1"
 },
+"cli11-2.0.0-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"cli11",
+"requires":[],
+"size":65318,
+"timestamp":1626285308952,
+"version":"2.0.0"
+},
 "click-8.0.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -40096,6 +40109,28 @@
 "size":13171323,
 "timestamp":1626220931880,
 "version":"2.31.0"
+},
+"git-2.32.0-pl5321h073b8a2_0.tar.bz2":{
+"build":"pl5321h073b8a2_0",
+"build_number":0,
+"depends":[
+"curl >=7.77.0,<8.0a0",
+"expat >=2.4.1,<3.0a0",
+"gettext",
+"libiconv >=1.16,<1.17.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"pcre2 >=10.37,<10.38.0a0",
+"perl 5.*",
+"perl >=5.32.1,<5.33.0a0 *_perl5",
+"tk >=8.6.10,<8.7.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later and LGPL-2.1-or-later",
+"name":"git",
+"requires":[],
+"size":13452929,
+"timestamp":1626286160838,
+"version":"2.32.0"
 },
 "git-lfs-2.13.3-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
@@ -108377,6 +108412,36 @@
 "size":812424,
 "timestamp":1621613408538,
 "version":"1.6.2"
+},
+"r-stringi-1.7.2-r40h4558816_0.tar.bz2":{
+"build":"r40h4558816_0",
+"build_number":0,
+"depends":[
+"icu >=68.1,<69.0a0",
+"libcxx >=11.1.0",
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"FOSS",
+"name":"r-stringi",
+"requires":[],
+"size":856169,
+"timestamp":1626286723904,
+"version":"1.7.2"
+},
+"r-stringi-1.7.2-r41h4558816_0.tar.bz2":{
+"build":"r41h4558816_0",
+"build_number":0,
+"depends":[
+"icu >=68.1,<69.0a0",
+"libcxx >=11.1.0",
+"r-base >=4.1,<4.2.0a0"
+],
+"license":"FOSS",
+"name":"r-stringi",
+"requires":[],
+"size":867688,
+"timestamp":1626286921662,
+"version":"1.7.2"
 },
 "r-survival-3.2_10-r40h4d528fc_0.tar.bz2":{
 "build":"r40h4d528fc_0",
