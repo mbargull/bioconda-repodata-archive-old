@@ -14653,11 +14653,11 @@
 "timestamp":1626005836776,
 "version":"1.9.56"
 },
-"awscli-1.19.110-py36h270354c_0.tar.bz2":{
+"awscli-1.19.111-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.110",
+"botocore 1.20.111",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -14668,16 +14668,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"52b312c1e590f9c682aa4b459ec05669e89c0375464706edf247568f02e8858c",
-"size":1946776,
-"timestamp":1626138246130,
-"version":"1.19.110"
+"sha256":"9bc75a4857911ad2f4a3694682af2f61008d2cb2ee84c1d9621a340c4e9e12a5",
+"size":1947352,
+"timestamp":1626226141712,
+"version":"1.19.111"
 },
-"awscli-1.19.110-py37h35e4cab_0.tar.bz2":{
+"awscli-1.19.111-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.110",
+"botocore 1.20.111",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -14688,16 +14688,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"e84e47b2f1ea3ad8c4ba30b61538afb84cf02b4361686e5ab056c2e0392ab984",
-"size":1936825,
-"timestamp":1626135276330,
-"version":"1.19.110"
+"sha256":"4645b26bbca2d3d1ffced2d2621c157634f4c8c172418176c4c3372f7a12bbc7",
+"size":1933147,
+"timestamp":1626226139657,
+"version":"1.19.111"
 },
-"awscli-1.19.110-py37hadc05a3_0.tar.bz2":{
+"awscli-1.19.111-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.110",
+"botocore 1.20.111",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.7 >=7.3.5",
@@ -14709,16 +14709,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"d602516ef0bb6d148c3fff3400c9d468380833ab8120e6deeb16b2c111e29c56",
-"size":1946439,
-"timestamp":1626136763341,
-"version":"1.19.110"
+"sha256":"f16191d823456958efcce4ef0537cd5769cd1aa88d13c339a0a7002a58d0692b",
+"size":1954826,
+"timestamp":1626226184884,
+"version":"1.19.111"
 },
-"awscli-1.19.110-py38hf8b3453_0.tar.bz2":{
+"awscli-1.19.111-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.110",
+"botocore 1.20.111",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -14729,16 +14729,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"a339f266c27640c980843814bd023ebcd307ad8c1c3072fb55fc4b30013a8f97",
-"size":1944826,
-"timestamp":1626135200056,
-"version":"1.19.110"
+"sha256":"039ccf0995c657938a3df42bc25f2320bc339d990b0243e3edce49ec945adf09",
+"size":1936935,
+"timestamp":1626226224643,
+"version":"1.19.111"
 },
-"awscli-1.19.110-py39hc1b9086_0.tar.bz2":{
+"awscli-1.19.111-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
-"botocore 1.20.110",
+"botocore 1.20.111",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.9,<3.10.0a0",
@@ -14749,10 +14749,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"443ad7b3604d94c067dbab018240aae3399b55f2362f6f2ae9d45f34e266c5e9",
-"size":1949742,
-"timestamp":1626135281010,
-"version":"1.19.110"
+"sha256":"13840694c08a9145075ae91fa49479f3ea35cc9aa085081fd49a7bcd068d7f12",
+"size":1953368,
+"timestamp":1626226082357,
+"version":"1.19.111"
 },
 "awscrt-0.11.25-py36h0f52f65_5.tar.bz2":{
 "build":"py36h0f52f65_5",
@@ -65340,37 +65340,21 @@
 "timestamp":1625840694059,
 "version":"12.0.1"
 },
-"llvm-openmp-11.1.0-h2acdbc0_0.tar.bz2":{
+"llvm-openmp-12.0.1-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
 "build_number":0,
 "constrains":[
-"clangdev 11.1.0|11.1.0.*",
-"llvmdev 11.1.0|11.1.0.*",
-"openmp 11.1.0|11.1.0.*"
+"clangdev 12.0.1|12.0.1.*",
+"llvmdev 12.0.1|12.0.1.*",
+"openmp 12.0.1|12.0.1.*"
 ],
 "depends":[],
 "license":"NCSA",
 "name":"llvm-openmp",
-"sha256":"06bb619f4b9bab9308f1d6363cf57bb2ef4562fdd745e9ea705116b36000eeee",
-"size":5871386,
-"timestamp":1616008019670,
-"version":"11.1.0"
-},
-"llvm-openmp-11.1.0-h2acdbc0_1.tar.bz2":{
-"build":"h2acdbc0_1",
-"build_number":1,
-"constrains":[
-"llvmdev 11.1.0|11.1.0.*",
-"openmp 11.1.0|11.1.0.*",
-"clangdev 11.1.0|11.1.0.*"
-],
-"depends":[],
-"license":"NCSA",
-"name":"llvm-openmp",
-"sha256":"1edd9170f6ba509a2d96838308a39e88e1cf8729dcca89425410f5b2c8b8f248",
-"size":5880590,
-"timestamp":1617690346703,
-"version":"11.1.0"
+"sha256":"5ede4c34592e4fce6d878ac643b395304f7ba88ee0130bc5e6beadb45f13243f",
+"size":3019936,
+"timestamp":1626226481559,
+"version":"12.0.1"
 },
 "llvm-tools-12.0.1-h6c99497_0.tar.bz2":{
 "build":"h6c99497_0",
