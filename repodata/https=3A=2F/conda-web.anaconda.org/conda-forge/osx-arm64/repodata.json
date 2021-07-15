@@ -55953,6 +55953,19 @@
 "timestamp":1618602853641,
 "version":"1.9.4"
 },
+"jsoncpp-1.9.4-hc021e02_3.tar.bz2":{
+"build":"hc021e02_3",
+"build_number":3,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"Public Domain/MIT",
+"name":"jsoncpp",
+"requires":[],
+"size":203707,
+"timestamp":1626357625917,
+"version":"1.9.4"
+},
 "jupyter-1.0.0-py38h10201cd_3.tar.bz2":{
 "build":"py38h10201cd_3",
 "build_number":3,
@@ -104599,6 +104612,30 @@
 "requires":[],
 "size":2127207,
 "timestamp":1626354381869,
+"version":"0.9.12.post1"
+},
+"pythran-0.9.12.post1-py39h776e71f_0.tar.bz2":{
+"build":"py39h776e71f_0",
+"build_number":0,
+"depends":[
+"beniget 0.3.*",
+"clangxx_osx-arm64 11.*",
+"decorator",
+"gast 0.4.*",
+"libcxx >=11.1.0",
+"networkx >=2",
+"numpy >=1.19.5,<2.0a0",
+"ply >=3.4",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"six",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"requires":[],
+"size":2124728,
+"timestamp":1626355775958,
 "version":"0.9.12.post1"
 },
 "pytorch-1.8.0-cpu_py38h179404b_0.tar.bz2":{
