@@ -11360,7 +11360,7 @@
 "timestamp":1620322604875,
 "version":"1.8.186"
 },
-"aws-sdk-cpp-1.9.58-h3c51c8b_0.tar.bz2":{
+"aws-sdk-cpp-1.9.59-h3c51c8b_0.tar.bz2":{
 "build":"h3c51c8b_0",
 "build_number":0,
 "depends":[
@@ -11374,10 +11374,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"138beba4a321bb56239474d1e88d3039f47007d5db1be1b90151e9051ca365f6",
-"size":4636041,
-"timestamp":1626248988155,
-"version":"1.9.58"
+"sha256":"c38b4d83462aa7ebb3da79574bb21445df982adad76bd2b38c385ed785d125ff",
+"size":4636674,
+"timestamp":1626335394530,
+"version":"1.9.59"
 },
 "awscli-1.19.112-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
@@ -75360,6 +75360,66 @@
 "sha256":"3587eae201246ed497ccd2a3860410a442cfacd2f250acb34c80e3182629a92e",
 "size":202262,
 "timestamp":1626331821948,
+"version":"0.10.1"
+},
+"openai-0.10.1-py37hd9ded2f_0.tar.bz2":{
+"build":"py37hd9ded2f_0",
+"build_number":0,
+"depends":[
+"colorama",
+"openpyxl >=3.0.7",
+"pandas >=1.2.3",
+"pandas-stubs >=1.1.0.11",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"requests >=2.20",
+"tqdm"
+],
+"license":"MIT",
+"name":"openai",
+"sha256":"7053170c0988953742a66569652f75e71bd6e57ec3651c019ffe67c6848e5f53",
+"size":201409,
+"timestamp":1626332555378,
+"version":"0.10.1"
+},
+"openai-0.10.1-py38h2063c64_0.tar.bz2":{
+"build":"py38h2063c64_0",
+"build_number":0,
+"depends":[
+"colorama",
+"openpyxl >=3.0.7",
+"pandas >=1.2.3",
+"pandas-stubs >=1.1.0.11",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"requests >=2.20",
+"tqdm"
+],
+"license":"MIT",
+"name":"openai",
+"sha256":"b108520db117dace669e7084c1f3cbccb9b06cd8cd0fe0bfff33a0bb5ca9375c",
+"size":201959,
+"timestamp":1626333207555,
+"version":"0.10.1"
+},
+"openai-0.10.1-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
+"depends":[
+"colorama",
+"openpyxl >=3.0.7",
+"pandas >=1.2.3",
+"pandas-stubs >=1.1.0.11",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"requests >=2.20",
+"tqdm"
+],
+"license":"MIT",
+"name":"openai",
+"sha256":"c0d6779c2627dadaa2437484d757a14e2462bb0d9581b92e069c72ca84e37b32",
+"size":201952,
+"timestamp":1626333609609,
 "version":"0.10.1"
 },
 "openblas-0.3.16-openmp_h1e0b318_0.tar.bz2":{
