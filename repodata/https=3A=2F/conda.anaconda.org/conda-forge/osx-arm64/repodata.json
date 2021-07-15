@@ -22857,6 +22857,13 @@
 "clang-12.0.1-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
+"constrains":[
+"libclang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*",
+"llvmdev 12.0.1.*"
+],
 "depends":[
 "clang-12 12.0.1 default_h0fdd720_0"
 ],
@@ -23173,7 +23180,12 @@
 "build":"default_h0fdd720_0",
 "build_number":0,
 "constrains":[
-"clangdev 12.0.1"
+"clangdev 12.0.1",
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*",
+"llvmdev 12.0.1.*"
 ],
 "depends":[
 "clang 12.0.1 hce30654_0",
@@ -49771,7 +49783,7 @@
 "libcxx >=11.1.0",
 "libgfortran 5.*",
 "libgfortran5 >=11.0.1.dev0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
@@ -60182,6 +60194,13 @@
 "libclang-12.0.1-default_h0fdd720_0.tar.bz2":{
 "build":"default_h0fdd720_0",
 "build_number":0,
+"constrains":[
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*",
+"llvmdev 12.0.1.*"
+],
 "depends":[
 "libcxx >=11.1.0",
 "libllvm12 >=12.0.1,<12.1.0a0"
@@ -69765,7 +69784,11 @@
 "build":"h95d0606_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.1"
+"llvmdev   12.0.1",
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm-tools 12.0.1.*"
 ],
 "depends":[
 "libllvm12 12.0.1 h93073aa_0",
@@ -70088,7 +70111,11 @@
 "build":"h93073aa_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.1"
+"llvmdev   12.0.1",
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*"
 ],
 "depends":[
 "libllvm12 12.0.1 h93073aa_0",
@@ -70353,6 +70380,13 @@
 "llvmdev-12.0.1-h93073aa_0.tar.bz2":{
 "build":"h93073aa_0",
 "build_number":0,
+"constrains":[
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*"
+],
 "depends":[
 "libcxx >=11.a0",
 "libllvm12 12.0.1 h93073aa_0",
@@ -78825,6 +78859,26 @@
 "size":12335242,
 "timestamp":1614073227617,
 "version":"15.8.0"
+},
+"nodejs-16.4.1-hcd5e986_0.tar.bz2":{
+"build":"hcd5e986_0",
+"build_number":0,
+"constrains":[
+"__osx >=11.0"
+],
+"depends":[
+"icu >=68.1,<69.0a0",
+"libcxx >=11.1.0",
+"libuv >=1.41.1,<1.42.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"nodejs",
+"sha256":"bf87c19e5d0c1cba88758eedd9a692be5a1d5cd241a13064cb41b38772c6abda",
+"size":12218565,
+"timestamp":1626376039953,
+"version":"16.4.1"
 },
 "normaliz-3.8.5-h29ee199_1.tar.bz2":{
 "build":"h29ee199_1",
@@ -104358,6 +104412,28 @@
 "timestamp":1626354381869,
 "version":"0.9.12.post1"
 },
+"pythran-0.9.12.post1-py38h1e2c3d9_1.tar.bz2":{
+"build":"py38h1e2c3d9_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"clangxx_osx-arm64 11.*",
+"decorator",
+"gast 0.5.*",
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"ply >=3.4",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"d937dae441745811563dd2fc186546df574eea9e74d6096c5564ef82f6c07df2",
+"size":2127671,
+"timestamp":1626380102417,
+"version":"0.9.12.post1"
+},
 "pythran-0.9.12.post1-py39h776e71f_0.tar.bz2":{
 "build":"py39h776e71f_0",
 "build_number":0,
@@ -104380,6 +104456,28 @@
 "sha256":"5a77dbc1d8236f8a8d9a1cbf6e4df6b2dda235908fab5ea71a14fe28e8116400",
 "size":2124728,
 "timestamp":1626355775958,
+"version":"0.9.12.post1"
+},
+"pythran-0.9.12.post1-py39h776e71f_1.tar.bz2":{
+"build":"py39h776e71f_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"clangxx_osx-arm64 11.*",
+"decorator",
+"gast 0.5.*",
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"ply >=3.4",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"aeb17027f3b4e33a5d3eb4157000bbe7d150f86953612986decb71927d44fec4",
+"size":2125592,
+"timestamp":1626380254074,
 "version":"0.9.12.post1"
 },
 "pytorch-1.8.0-cpu_py38h179404b_0.tar.bz2":{

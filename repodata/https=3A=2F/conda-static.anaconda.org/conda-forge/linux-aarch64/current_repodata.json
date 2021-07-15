@@ -19653,6 +19653,13 @@
 "clang-12.0.1-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
 "build_number":0,
+"constrains":[
+"libclang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*",
+"llvmdev 12.0.1.*"
+],
 "depends":[
 "clang-12 12.0.1 default_h4839fef_0",
 "gcc_impl_linux-aarch64"
@@ -19739,7 +19746,12 @@
 "build":"default_h4839fef_0",
 "build_number":0,
 "constrains":[
-"clangdev 12.0.1"
+"clangdev 12.0.1",
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*",
+"llvmdev 12.0.1.*"
 ],
 "depends":[
 "clang 12.0.1 h8af1aa0_0",
@@ -46655,7 +46667,7 @@
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
@@ -55677,6 +55689,13 @@
 "libclang-12.0.1-default_h4839fef_0.tar.bz2":{
 "build":"default_h4839fef_0",
 "build_number":0,
+"constrains":[
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*",
+"llvmdev 12.0.1.*"
+],
 "depends":[
 "libgcc-ng >=9.3.0",
 "libllvm12 >=12.0.1,<12.1.0a0",
@@ -63738,7 +63757,11 @@
 "build":"h40ce709_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.1"
+"llvmdev   12.0.1",
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm-tools 12.0.1.*"
 ],
 "depends":[
 "libllvm12 12.0.1 h6293a0b_0",
@@ -63771,7 +63794,11 @@
 "build":"h6293a0b_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.1"
+"llvmdev   12.0.1",
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*"
 ],
 "depends":[
 "libgcc-ng >=9.3.0",
@@ -63861,6 +63888,13 @@
 "llvmdev-12.0.1-h6293a0b_0.tar.bz2":{
 "build":"h6293a0b_0",
 "build_number":0,
+"constrains":[
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*"
+],
 "depends":[
 "libgcc-ng >=9.3.0",
 "libllvm12 12.0.1 h6293a0b_0",
@@ -96309,6 +96343,29 @@
 "timestamp":1626354561710,
 "version":"0.9.12.post1"
 },
+"pythran-0.9.12.post1-py36h2e26b47_1.tar.bz2":{
+"build":"py36h2e26b47_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"decorator",
+"gast 0.5.*",
+"gxx_linux-aarch64 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"ply >=3.4",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"8438309ce333ff930e22997c01a45cb20b76c5896c2b4184bf0c48dafa9cd8b7",
+"size":2126640,
+"timestamp":1626380508361,
+"version":"0.9.12.post1"
+},
 "pythran-0.9.12.post1-py37h2603c11_0.tar.bz2":{
 "build":"py37h2603c11_0",
 "build_number":0,
@@ -96332,6 +96389,29 @@
 "sha256":"92fad56743111cf7593e4a5bf7ed6cb9334c1933efd30d65522a82f732458073",
 "size":2132039,
 "timestamp":1626355142332,
+"version":"0.9.12.post1"
+},
+"pythran-0.9.12.post1-py37h2603c11_1.tar.bz2":{
+"build":"py37h2603c11_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"decorator",
+"gast 0.5.*",
+"gxx_linux-aarch64 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"ply >=3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"0be29c8cf757d05abbab7de9d23adff6eda8a6c846460f3f2548556b5b7db802",
+"size":2136594,
+"timestamp":1626381098193,
 "version":"0.9.12.post1"
 },
 "pythran-0.9.12.post1-py37hce16e70_0.tar.bz2":{
@@ -96383,6 +96463,29 @@
 "sha256":"49773678d56791b6e61636aced50d43495cde672d99fbc944a74c0668bedb8f8",
 "size":2132462,
 "timestamp":1626355530348,
+"version":"0.9.12.post1"
+},
+"pythran-0.9.12.post1-py38h5bf94d8_1.tar.bz2":{
+"build":"py38h5bf94d8_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"decorator",
+"gast 0.5.*",
+"gxx_linux-aarch64 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"ply >=3.4",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"23b1e112b542a0ed4e819c76cf10fcada004e6630875b3c9f784c25e43281db9",
+"size":2136301,
+"timestamp":1626381497489,
 "version":"0.9.12.post1"
 },
 "pythran-0.9.12.post1-py39h9f797f2_0.tar.bz2":{
@@ -123548,6 +123651,23 @@
 "sha256":"f3a23c7c289b8c0aa254cfa249f9091d10264277d7473bdd1f9bc4088b90389e",
 "size":240840,
 "timestamp":1620796491009,
+"version":"0.4.1"
+},
+"soapysdr-module-uhd-0.4.1-hff41fed_3.tar.bz2":{
+"build":"hff41fed_3",
+"build_number":3,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.1.0,<4.1.1.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"soapysdr-module-uhd",
+"sha256":"0d32bba92a18c628b61e0bec3f0e8a1799bcc6a18cfd41cc686a94edde220b56",
+"size":239678,
+"timestamp":1626374671099,
 "version":"0.4.1"
 },
 "soupsieve-2.0.1-py36h9f0ad1d_0.tar.bz2":{

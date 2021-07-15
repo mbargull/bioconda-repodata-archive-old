@@ -18400,6 +18400,56 @@
 "timestamp":1625819638359,
 "version":"0.6.0"
 },
+"boa-0.6.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"conda-build >=3.20,<3.22",
+"dataclasses",
+"inotify_simple",
+"jinja2",
+"joblib",
+"json5",
+"jsonschema",
+"mamba >=0.15,<0.16",
+"prompt_toolkit",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"rich",
+"ruamel.yaml"
+],
+"license":"BSD-3-Clause",
+"name":"boa",
+"requires":[],
+"size":83963,
+"timestamp":1626385048454,
+"version":"0.6.1"
+},
+"boa-0.6.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"conda-build >=3.20,<3.22",
+"dataclasses",
+"inotify_simple",
+"jinja2",
+"joblib",
+"json5",
+"jsonschema",
+"mamba >=0.15,<0.16",
+"prompt_toolkit",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"rich",
+"ruamel.yaml"
+],
+"license":"BSD-3-Clause",
+"name":"boa",
+"requires":[],
+"size":84115,
+"timestamp":1626385108934,
+"version":"0.6.1"
+},
 "bokeh-2.2.3-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -65719,6 +65769,25 @@
 "timestamp":1625827838180,
 "version":"0.15.0"
 },
+"libmamba-0.15.1-h238089d_0.tar.bz2":{
+"build":"h238089d_0",
+"build_number":0,
+"depends":[
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"libsolv >=0.7.19,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"reproc-cpp >=14.2,<15.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libmamba",
+"requires":[],
+"size":779594,
+"timestamp":1626382278651,
+"version":"0.15.1"
+},
 "libmicrohttpd-0.9.73-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
@@ -65762,6 +65831,21 @@
 "timestamp":1617054987156,
 "version":"11.1.0"
 },
+"libmlir-12.0.1-hbc6ce65_0.tar.bz2":{
+"build":"hbc6ce65_0",
+"build_number":0,
+"depends":[
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0",
+"libmlir12 12.0.1 hbc6ce65_0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libmlir",
+"requires":[],
+"size":3967583,
+"timestamp":1626385337129,
+"version":"12.0.1"
+},
 "libmlir11-11.1.0-h666519e_0.tar.bz2":{
 "build":"h666519e_0",
 "build_number":0,
@@ -65789,6 +65873,20 @@
 "size":3125129,
 "timestamp":1617054867491,
 "version":"11.1.0"
+},
+"libmlir12-12.0.1-hbc6ce65_0.tar.bz2":{
+"build":"hbc6ce65_0",
+"build_number":0,
+"depends":[
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libmlir12",
+"requires":[],
+"size":3968936,
+"timestamp":1626385221827,
+"version":"12.0.1"
 },
 "libnetcdf-4.8.0-mpi_mpich_hb7ee5b1_1.tar.bz2":{
 "build":"mpi_mpich_hb7ee5b1_1",
@@ -72015,6 +72113,50 @@
 "timestamp":1625984075441,
 "version":"0.15.0"
 },
+"mamba-0.15.1-py38h932ed75_0.tar.bz2":{
+"build":"py38h932ed75_0",
+"build_number":0,
+"depends":[
+"conda >=4.8",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0",
+"libsolv >=0.7.19,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"reproc-cpp >=14.2,<15.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mamba",
+"requires":[],
+"size":589652,
+"timestamp":1626385299331,
+"version":"0.15.1"
+},
+"mamba-0.15.1-py39he886a54_0.tar.bz2":{
+"build":"py39he886a54_0",
+"build_number":0,
+"depends":[
+"conda >=4.8",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0",
+"libsolv >=0.7.19,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"reproc-cpp >=14.2,<15.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mamba",
+"requires":[],
+"size":692237,
+"timestamp":1626385021345,
+"version":"0.15.1"
+},
 "mamba-0.7.10-py38h13f8620_0.tar.bz2":{
 "build":"py38h13f8620_0",
 "build_number":0,
@@ -73768,6 +73910,19 @@
 "size":4365546,
 "timestamp":1625894917107,
 "version":"0.15.0"
+},
+"micromamba-0.15.1-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause AND MIT AND OpenSSL",
+"name":"micromamba",
+"requires":[],
+"size":4313980,
+"timestamp":1626383272705,
+"version":"0.15.1"
 },
 "micromamba-0.5.1-h04a7b5b_0.tar.bz2":{
 "build":"h04a7b5b_0",
@@ -75918,6 +76073,21 @@
 "size":12574987,
 "timestamp":1617055163734,
 "version":"11.1.0"
+},
+"mlir-12.0.1-hbc6ce65_0.tar.bz2":{
+"build":"hbc6ce65_0",
+"build_number":0,
+"depends":[
+"libcxx >=12.0.1",
+"libmlir 12.0.1 hbc6ce65_0",
+"llvmdev 12.0.1.*"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"mlir",
+"requires":[],
+"size":15302835,
+"timestamp":1626385508137,
+"version":"12.0.1"
 },
 "mmh3-3.0.0-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",

@@ -22357,6 +22357,13 @@
 "clang-12.0.1-ha3edaa6_0.tar.bz2":{
 "build":"ha3edaa6_0",
 "build_number":0,
+"constrains":[
+"libclang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*",
+"llvmdev 12.0.1.*"
+],
 "depends":[
 "clang-12 12.0.1 default_hf0ebb0c_0",
 "gcc_impl_linux-ppc64le"
@@ -22443,7 +22450,12 @@
 "build":"default_hf0ebb0c_0",
 "build_number":0,
 "constrains":[
-"clangdev 12.0.1"
+"clangdev 12.0.1",
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*",
+"llvmdev 12.0.1.*"
 ],
 "depends":[
 "clang 12.0.1 ha3edaa6_0",
@@ -48082,7 +48094,7 @@
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
@@ -56845,6 +56857,13 @@
 "libclang-12.0.1-default_hf0ebb0c_0.tar.bz2":{
 "build":"default_hf0ebb0c_0",
 "build_number":0,
+"constrains":[
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*",
+"llvmdev 12.0.1.*"
+],
 "depends":[
 "libgcc-ng >=8.4.0",
 "libllvm12 >=12.0.1,<12.1.0a0",
@@ -65074,7 +65093,11 @@
 "build":"h12068cf_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.1"
+"llvmdev   12.0.1",
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm-tools 12.0.1.*"
 ],
 "depends":[
 "libllvm12 12.0.1 h6c99497_0",
@@ -65107,7 +65130,11 @@
 "build":"h6c99497_0",
 "build_number":0,
 "constrains":[
-"llvmdev   12.0.1"
+"llvmdev   12.0.1",
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*"
 ],
 "depends":[
 "libgcc-ng >=8.4.0",
@@ -65197,6 +65224,13 @@
 "llvmdev-12.0.1-h6c99497_0.tar.bz2":{
 "build":"h6c99497_0",
 "build_number":0,
+"constrains":[
+"libclang 12.0.1.*",
+"clang 12.0.1.*",
+"clang-tools 12.0.1.*",
+"llvm 12.0.1.*",
+"llvm-tools 12.0.1.*"
+],
 "depends":[
 "libgcc-ng >=8.4.0",
 "libllvm12 12.0.1 h6c99497_0",
@@ -98809,6 +98843,29 @@
 "timestamp":1626354249445,
 "version":"0.9.12.post1"
 },
+"pythran-0.9.12.post1-py36h416786f_1.tar.bz2":{
+"build":"py36h416786f_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"decorator",
+"gast 0.5.*",
+"gxx_linux-ppc64le 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"ply >=3.4",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"96f75560fd2c3b849615110ab9b85f0699f95fbe7cb914454fe7f4f3bcaf2ee4",
+"size":2120429,
+"timestamp":1626380685005,
+"version":"0.9.12.post1"
+},
 "pythran-0.9.12.post1-py37h50ba158_0.tar.bz2":{
 "build":"py37h50ba158_0",
 "build_number":0,
@@ -98833,6 +98890,30 @@
 "sha256":"3c6aecfc61fb3cce8b4daa18104f79e924ca597c144040b9e9a6531bcfc5bd2a",
 "size":2138829,
 "timestamp":1626354350955,
+"version":"0.9.12.post1"
+},
+"pythran-0.9.12.post1-py37h50ba158_1.tar.bz2":{
+"build":"py37h50ba158_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"decorator",
+"gast 0.5.*",
+"gxx_linux-ppc64le 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"ply >=3.4",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"0d168f5edae068d81cee33bfab9bee784319b9d70ee589b8af0a5713af559339",
+"size":2142930,
+"timestamp":1626380162412,
 "version":"0.9.12.post1"
 },
 "pythran-0.9.12.post1-py37heb9fb97_0.tar.bz2":{
@@ -98860,6 +98941,29 @@
 "timestamp":1626354229098,
 "version":"0.9.12.post1"
 },
+"pythran-0.9.12.post1-py37heb9fb97_1.tar.bz2":{
+"build":"py37heb9fb97_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"decorator",
+"gast 0.5.*",
+"gxx_linux-ppc64le 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"ply >=3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"b293551b637fef2fe417d1d428a77e2ff7a224037480cab1f7b273401b13265a",
+"size":2120813,
+"timestamp":1626380700455,
+"version":"0.9.12.post1"
+},
 "pythran-0.9.12.post1-py38h188d082_0.tar.bz2":{
 "build":"py38h188d082_0",
 "build_number":0,
@@ -98885,6 +98989,29 @@
 "timestamp":1626354231291,
 "version":"0.9.12.post1"
 },
+"pythran-0.9.12.post1-py38h188d082_1.tar.bz2":{
+"build":"py38h188d082_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"decorator",
+"gast 0.5.*",
+"gxx_linux-ppc64le 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"ply >=3.4",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"ca880d6481a168be1359278ac119239e155ef03de39b16d282f94f07435b349f",
+"size":2130996,
+"timestamp":1626380128093,
+"version":"0.9.12.post1"
+},
 "pythran-0.9.12.post1-py39h31502c1_0.tar.bz2":{
 "build":"py39h31502c1_0",
 "build_number":0,
@@ -98908,6 +99035,29 @@
 "sha256":"f721cbc34cfee43a6f2e7bc73bf9f0e4e481ae6d53c9cd94d8bb254c5bd48e2f",
 "size":2125454,
 "timestamp":1626354269700,
+"version":"0.9.12.post1"
+},
+"pythran-0.9.12.post1-py39h31502c1_1.tar.bz2":{
+"build":"py39h31502c1_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"decorator",
+"gast 0.5.*",
+"gxx_linux-ppc64le 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"ply >=3.4",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"9fb41eb45dab2fe832fdb849e8b3e2c2dbcfc5244345a877076614b015dfcec9",
+"size":2141006,
+"timestamp":1626380507660,
 "version":"0.9.12.post1"
 },
 "pyvisa-1.11.3-py36h270354c_0.tar.bz2":{
