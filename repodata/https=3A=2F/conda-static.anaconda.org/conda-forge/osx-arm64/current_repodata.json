@@ -19490,32 +19490,11 @@
 "timestamp":1620913220236,
 "version":"5.5.5"
 },
-"ipykernel-6.0.1-py38h2cb4d76_0.tar.bz2":{
+"ipykernel-6.0.2-py38h2cb4d76_0.tar.bz2":{
 "build":"py38h2cb4d76_0",
 "build_number":0,
 "depends":[
 "appnope",
-"debugpy >=1",
-"ipython >=7.23.1",
-"jupyter_client",
-"matplotlib-inline >=0.1.0,<0.2.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"tornado >=4.2",
-"traitlets >=4.1.0"
-],
-"license":"BSD-3-Clause",
-"name":"ipykernel",
-"sha256":"9320224dfc1ace65b9fb08b8622ff5a7ceaa2679834ba2e84658feff6b60874b",
-"size":175290,
-"timestamp":1625233057658,
-"version":"6.0.1"
-},
-"ipykernel-6.0.1-py38h2cb4d76_1.tar.bz2":{
-"build":"py38h2cb4d76_1",
-"build_number":1,
-"depends":[
-"appnope",
 "debugpy >=1,<2.0",
 "ipython >=7.23.1,<8.0",
 "jupyter_client <7.0",
@@ -19527,37 +19506,16 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"071ca6f4b5c9ec524193d29ad1ccc4b9ee40cfc81af11c60a59a330c3f61e6b8",
-"size":175745,
-"timestamp":1626347518115,
-"version":"6.0.1"
+"sha256":"5dcb89055b328c198be9d2ccb67646a337b0f97f90297857383423c10ad1a25b",
+"size":175120,
+"timestamp":1626354972294,
+"version":"6.0.2"
 },
-"ipykernel-6.0.1-py39h32adebf_0.tar.bz2":{
+"ipykernel-6.0.2-py39h32adebf_0.tar.bz2":{
 "build":"py39h32adebf_0",
 "build_number":0,
 "depends":[
 "appnope",
-"debugpy >=1",
-"ipython >=7.23.1",
-"jupyter_client",
-"matplotlib-inline >=0.1.0,<0.2.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"tornado >=4.2",
-"traitlets >=4.1.0"
-],
-"license":"BSD-3-Clause",
-"name":"ipykernel",
-"sha256":"ab27c6bb2dbe9e7b1c9fd7acaa095199739ca7498cef9a249962b43cb5e02136",
-"size":175435,
-"timestamp":1625233196228,
-"version":"6.0.1"
-},
-"ipykernel-6.0.1-py39h32adebf_1.tar.bz2":{
-"build":"py39h32adebf_1",
-"build_number":1,
-"depends":[
-"appnope",
 "debugpy >=1,<2.0",
 "ipython >=7.23.1,<8.0",
 "jupyter_client <7.0",
@@ -19569,10 +19527,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"f0203aec9456e1e180b137d778cf0984453b402ddfe8fcf89c4dec891ee8caa3",
-"size":175253,
-"timestamp":1626347306967,
-"version":"6.0.1"
+"sha256":"4c7da7db609b0a292087378fa2a393c2a312b7c79875dc3a22049c8995aeec87",
+"size":175652,
+"timestamp":1626355046722,
+"version":"6.0.2"
 },
 "ipyparallel-6.3.0-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
@@ -20017,6 +19975,19 @@
 "sha256":"c0452508ab55ca5f5a12a349901db7843c6b54b1e7b08632fe8d6330bb21588f",
 "size":262490,
 "timestamp":1618602853641,
+"version":"1.9.4"
+},
+"jsoncpp-1.9.4-hc021e02_3.tar.bz2":{
+"build":"hc021e02_3",
+"build_number":3,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"Public Domain/MIT",
+"name":"jsoncpp",
+"sha256":"85911f47e33ddd46e90180fd09eb1f2652fae6949bb538f71e8b98c10718dbde",
+"size":203707,
+"timestamp":1626357625917,
 "version":"1.9.4"
 },
 "jupyter-1.0.0-py38h10201cd_3.tar.bz2":{
@@ -37972,9 +37943,9 @@
 "timestamp":1624472067008,
 "version":"3.9"
 },
-"pythran-0.9.11-py38h1e2c3d9_1.tar.bz2":{
-"build":"py38h1e2c3d9_1",
-"build_number":1,
+"pythran-0.9.12.post1-py38h1e2c3d9_0.tar.bz2":{
+"build":"py38h1e2c3d9_0",
+"build_number":0,
 "depends":[
 "beniget 0.3.*",
 "clangxx_osx-arm64 11.*",
@@ -37991,14 +37962,14 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pythran",
-"sha256":"53347e8bf336fdb4ad1059900bb874b3a9c54568ccb1d82b8ce2685ee20e633b",
-"size":2102143,
-"timestamp":1623532869576,
-"version":"0.9.11"
+"sha256":"2cfed5e55a4b095df98ec86ebec02dcf2abb7f02d64a18e41fbff6440e53993b",
+"size":2127207,
+"timestamp":1626354381869,
+"version":"0.9.12.post1"
 },
-"pythran-0.9.11-py39h776e71f_1.tar.bz2":{
-"build":"py39h776e71f_1",
-"build_number":1,
+"pythran-0.9.12.post1-py39h776e71f_0.tar.bz2":{
+"build":"py39h776e71f_0",
+"build_number":0,
 "depends":[
 "beniget 0.3.*",
 "clangxx_osx-arm64 11.*",
@@ -38015,10 +37986,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pythran",
-"sha256":"294c4a37146de414d1ae219382a2e51058d23d68c6eaaffb1df7f481f4edfb54",
-"size":2105086,
-"timestamp":1623532923767,
-"version":"0.9.11"
+"sha256":"5a77dbc1d8236f8a8d9a1cbf6e4df6b2dda235908fab5ea71a14fe28e8116400",
+"size":2124728,
+"timestamp":1626355775958,
+"version":"0.9.12.post1"
 },
 "pytorch-1.8.0-cpu_py38h179404b_0.tar.bz2":{
 "build":"cpu_py38h179404b_0",

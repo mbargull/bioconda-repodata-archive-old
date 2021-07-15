@@ -35293,6 +35293,17 @@
 "timestamp":1625147015277,
 "version":"1.12.1"
 },
+"gh-1.12.1-h652cbe9_1.tar.bz2":{
+"build":"h652cbe9_1",
+"build_number":1,
+"depends":[],
+"license":"Apache-2.0",
+"name":"gh",
+"sha256":"13c88768ebd9494fe94df89727be296febdd529be8cb2abaffde1f5b4c2f762b",
+"size":9592686,
+"timestamp":1626354335537,
+"version":"1.12.1"
+},
 "ghc-8.2.2-h7b4aead_1003.tar.bz2":{
 "build":"h7b4aead_1003",
 "build_number":1003,
@@ -49324,31 +49335,10 @@
 "timestamp":1620913032556,
 "version":"5.5.5"
 },
-"ipykernel-6.0.1-py37ha2c4c82_0.tar.bz2":{
+"ipykernel-6.0.2-py37ha2c4c82_0.tar.bz2":{
 "build":"py37ha2c4c82_0",
 "build_number":0,
 "depends":[
-"debugpy >=1",
-"importlib-metadata <4",
-"ipython >=7.23.1",
-"jupyter_client",
-"matplotlib-inline >=0.1.0,<0.2.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"tornado >=4.2",
-"traitlets >=4.1.0"
-],
-"license":"BSD-3-Clause",
-"name":"ipykernel",
-"sha256":"a035f8a6926877055f64fed7604886f1949b0cc1eeba316a09540b1850da879f",
-"size":174452,
-"timestamp":1625232857179,
-"version":"6.0.1"
-},
-"ipykernel-6.0.1-py37ha2c4c82_1.tar.bz2":{
-"build":"py37ha2c4c82_1",
-"build_number":1,
-"depends":[
 "debugpy >=1,<2.0",
 "importlib-metadata <4",
 "ipython >=7.23.1,<8.0",
@@ -49361,35 +49351,15 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"0db809e7a40ef17cb287958dc17c025bd215584a34429d604c159c8c01575260",
-"size":174497,
-"timestamp":1626347706892,
-"version":"6.0.1"
+"sha256":"7cf5593ee8533b6984ffb2c890c710c64191816b5390e618fd6cc572d6f4e256",
+"size":174364,
+"timestamp":1626355099768,
+"version":"6.0.2"
 },
-"ipykernel-6.0.1-py38h22d914e_0.tar.bz2":{
+"ipykernel-6.0.2-py38h22d914e_0.tar.bz2":{
 "build":"py38h22d914e_0",
 "build_number":0,
 "depends":[
-"debugpy >=1",
-"ipython >=7.23.1",
-"jupyter_client",
-"matplotlib-inline >=0.1.0,<0.2.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"tornado >=4.2",
-"traitlets >=4.1.0"
-],
-"license":"BSD-3-Clause",
-"name":"ipykernel",
-"sha256":"5f14065d58f4e8c8690772dd22b53900ca1694d54193353d434b661a12985edf",
-"size":174968,
-"timestamp":1625233209002,
-"version":"6.0.1"
-},
-"ipykernel-6.0.1-py38h22d914e_1.tar.bz2":{
-"build":"py38h22d914e_1",
-"build_number":1,
-"depends":[
 "debugpy >=1,<2.0",
 "ipython >=7.23.1,<8.0",
 "jupyter_client <7.0",
@@ -49401,50 +49371,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"ec5d1c042c8d28b78756b3a67a49035dab212d04b5524b8f527c64e58a600426",
-"size":174750,
-"timestamp":1626348315924,
-"version":"6.0.1"
-},
-"ipykernel-6.0.1-py39hef158d4_0.tar.bz2":{
-"build":"py39hef158d4_0",
-"build_number":0,
-"depends":[
-"debugpy >=1",
-"ipython >=7.23.1",
-"jupyter_client",
-"matplotlib-inline >=0.1.0,<0.2.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"tornado >=4.2",
-"traitlets >=4.1.0"
-],
-"license":"BSD-3-Clause",
-"name":"ipykernel",
-"sha256":"1c212af3e07007ad4a91f971d30415351e693a22a397d34cfe37a4e79ef88da7",
-"size":175261,
-"timestamp":1625233566124,
-"version":"6.0.1"
-},
-"ipykernel-6.0.1-py39hef158d4_1.tar.bz2":{
-"build":"py39hef158d4_1",
-"build_number":1,
-"depends":[
-"debugpy >=1,<2.0",
-"ipython >=7.23.1,<8.0",
-"jupyter_client <7.0",
-"matplotlib-inline >=0.1.0,<0.2.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"tornado >=4.2,<7.0",
-"traitlets >=4.1.0,<6.0"
-],
-"license":"BSD-3-Clause",
-"name":"ipykernel",
-"sha256":"eafb7d2439f872bc9c70c908eb2a1cdcf2c9c00dca1df7df3945ed1c1f4c1c14",
-"size":175195,
-"timestamp":1626348679468,
-"version":"6.0.1"
+"sha256":"44931ff5878d24ccbbdc6ee0cc5d432a656e413c76dbe9829ed75f1c99a1ed01",
+"size":174911,
+"timestamp":1626355655316,
+"version":"6.0.2"
 },
 "ipyparallel-6.3.0-py36h2e20a7f_2.tar.bz2":{
 "build":"py36h2e20a7f_2",
@@ -96510,9 +96440,9 @@
 "timestamp":1624472355365,
 "version":"3.9"
 },
-"pythran-0.9.11-py36h2e26b47_1.tar.bz2":{
-"build":"py36h2e26b47_1",
-"build_number":1,
+"pythran-0.9.12.post1-py36h2e26b47_0.tar.bz2":{
+"build":"py36h2e26b47_0",
+"build_number":0,
 "depends":[
 "beniget 0.3.*",
 "decorator",
@@ -96530,40 +96460,14 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pythran",
-"sha256":"bd95d4369fe52039ac2c111c97055de8e06dfc6fdfbdbfe2f6ee6e63032f277b",
-"size":2095210,
-"timestamp":1623078172818,
-"version":"0.9.11"
+"sha256":"2eaab4352a9e0c253921bb598b8aa3c9a9ebb120cb9fb5c9bc964db342512a98",
+"size":2141455,
+"timestamp":1626354561710,
+"version":"0.9.12.post1"
 },
-"pythran-0.9.11-py36h93b45c7_1.tar.bz2":{
-"build":"py36h93b45c7_1",
-"build_number":1,
-"depends":[
-"beniget 0.3.*",
-"decorator",
-"gast 0.4.*",
-"gxx_linux-aarch64 9.*",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"networkx >=2",
-"numpy >=1.18.5,<2.0a0",
-"ply >=3.4",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"six",
-"xsimd"
-],
-"license":"BSD-3-Clause",
-"name":"pythran",
-"sha256":"d43f759749f79757d256ee84dca8fb6f8aaf80fc3e144fddb4bdb788f355722a",
-"size":2098754,
-"timestamp":1623078598584,
-"version":"0.9.11"
-},
-"pythran-0.9.11-py37h2603c11_1.tar.bz2":{
-"build":"py37h2603c11_1",
-"build_number":1,
+"pythran-0.9.12.post1-py37h2603c11_0.tar.bz2":{
+"build":"py37h2603c11_0",
+"build_number":0,
 "depends":[
 "beniget 0.3.*",
 "decorator",
@@ -96581,40 +96485,14 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pythran",
-"sha256":"0017d7a846ada47d8f2d71cf10f39c090f0596c66468cb90a2a32e1ea2fa1cc8",
-"size":2103543,
-"timestamp":1623078698515,
-"version":"0.9.11"
+"sha256":"92fad56743111cf7593e4a5bf7ed6cb9334c1933efd30d65522a82f732458073",
+"size":2132039,
+"timestamp":1626355142332,
+"version":"0.9.12.post1"
 },
-"pythran-0.9.11-py37hce16e70_1.tar.bz2":{
-"build":"py37hce16e70_1",
-"build_number":1,
-"depends":[
-"beniget 0.3.*",
-"decorator",
-"gast 0.4.*",
-"gxx_linux-aarch64 9.*",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"networkx >=2",
-"numpy >=1.19.5,<2.0a0",
-"ply >=3.4",
-"pypy3.7 >=7.3.4",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"six",
-"xsimd"
-],
-"license":"BSD-3-Clause",
-"name":"pythran",
-"sha256":"3ad6409cb64e7d18b88e4f4ec04820fa9b68d04aa71fc8ba18b2667f26c3d746",
-"size":2107877,
-"timestamp":1623078922176,
-"version":"0.9.11"
-},
-"pythran-0.9.11-py38h5bf94d8_1.tar.bz2":{
-"build":"py38h5bf94d8_1",
-"build_number":1,
+"pythran-0.9.12.post1-py38h5bf94d8_0.tar.bz2":{
+"build":"py38h5bf94d8_0",
+"build_number":0,
 "depends":[
 "beniget 0.3.*",
 "decorator",
@@ -96632,35 +96510,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pythran",
-"sha256":"35bee14fb1972f3dd64b2e1269129a60710817ac4d2ad5d6f17e79d7b91f2997",
-"size":2087631,
-"timestamp":1623078188521,
-"version":"0.9.11"
-},
-"pythran-0.9.11-py39h9f797f2_1.tar.bz2":{
-"build":"py39h9f797f2_1",
-"build_number":1,
-"depends":[
-"beniget 0.3.*",
-"decorator",
-"gast 0.4.*",
-"gxx_linux-aarch64 9.*",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"networkx >=2",
-"numpy >=1.19.5,<2.0a0",
-"ply >=3.4",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"six",
-"xsimd"
-],
-"license":"BSD-3-Clause",
-"name":"pythran",
-"sha256":"78bb5ce8257d1dc027ba689c53d19ad4cc6d31576855f8994b8f341b4979bfd1",
-"size":2105548,
-"timestamp":1623078982615,
-"version":"0.9.11"
+"sha256":"49773678d56791b6e61636aced50d43495cde672d99fbc944a74c0668bedb8f8",
+"size":2132462,
+"timestamp":1626355530348,
+"version":"0.9.12.post1"
 },
 "pyvisa-1.11.3-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
