@@ -14673,6 +14673,26 @@
 "timestamp":1626308219410,
 "version":"1.19.112"
 },
+"awscli-1.19.112-py37h35e4cab_0.tar.bz2":{
+"build":"py37h35e4cab_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.112",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.4.0,<0.5.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"ab1cb1c6f48a6a2c87eb1c81b22e944abd98d9b9f1f721e128520c9a8bb85878",
+"size":1932806,
+"timestamp":1626310221839,
+"version":"1.19.112"
+},
 "awscli-1.19.112-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
@@ -14712,6 +14732,26 @@
 "sha256":"b7b90540bcdd5f29e1502930a9fc1fb474a500dcc1e9b6d5de3ec51f515ff59b",
 "size":1945397,
 "timestamp":1626307832582,
+"version":"1.19.112"
+},
+"awscli-1.19.112-py39hc1b9086_0.tar.bz2":{
+"build":"py39hc1b9086_0",
+"build_number":0,
+"depends":[
+"botocore 1.20.112",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.4.0,<0.5.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"d932c8708a6b7c38e05eb19757faa622185d82d36735cd6e93a1c9fbfc447225",
+"size":1940330,
+"timestamp":1626310233919,
 "version":"1.19.112"
 },
 "awscrt-0.11.25-py36h0f52f65_5.tar.bz2":{
@@ -122566,7 +122606,7 @@
 "timestamp":1625331421410,
 "version":"2.0.5"
 },
-"sqlalchemy-1.4.20-py36hc33305d_0.tar.bz2":{
+"sqlalchemy-1.4.21-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -122578,30 +122618,30 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"1b55b72622ef4a87f52e6dfeb26de8b2e4eb3e75f05fc8c791441a0e1db3be95",
-"size":2368377,
-"timestamp":1624921432242,
-"version":"1.4.20"
+"sha256":"f3bcdbc835cb6a64aa012b6bfbfaa68a28540d6509f8e8d3f3348e07b848f24b",
+"size":2373657,
+"timestamp":1626311384653,
+"version":"1.4.21"
 },
-"sqlalchemy-1.4.20-py37h0630641_0.tar.bz2":{
+"sqlalchemy-1.4.21-py37h0630641_0.tar.bz2":{
 "build":"py37h0630641_0",
 "build_number":0,
 "depends":[
 "greenlet !=0.4.17",
 "importlib-metadata",
 "libgcc-ng >=9.3.0",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"d8f4cff2374a6ccd6289776d9dd284630ef3e395146b7109541e9af6394ea47c",
-"size":2368434,
-"timestamp":1624921061872,
-"version":"1.4.20"
+"sha256":"23eafaccd21c204ccdaa179d01d0be9ad6bada0181f293fd3dc948a4a90058d9",
+"size":2376135,
+"timestamp":1626311733579,
+"version":"1.4.21"
 },
-"sqlalchemy-1.4.20-py37h6642d69_0.tar.bz2":{
+"sqlalchemy-1.4.21-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -122613,12 +122653,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"493ecd210b2337f754ec66b8409c7fd146e0b17f8c87d7c1439db7a761e6779d",
-"size":2369195,
-"timestamp":1624921198974,
-"version":"1.4.20"
+"sha256":"3da2ff5bf0668c80f5339a7e4d939e590afee0e4bb745b5e1817d881d27619b9",
+"size":2373778,
+"timestamp":1626311815377,
+"version":"1.4.21"
 },
-"sqlalchemy-1.4.20-py38h98b8a6f_0.tar.bz2":{
+"sqlalchemy-1.4.21-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -122629,12 +122669,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"dbf97fab63ecd08bdd9bb80ae70f15207c203fff40d86663f8108ee5a14084dd",
-"size":2384397,
-"timestamp":1624921448684,
-"version":"1.4.20"
+"sha256":"5073b4c4e46f045032a754b80096eaeda1106e807658f3ffb0e8a0ed5526d53d",
+"size":2391117,
+"timestamp":1626311751326,
+"version":"1.4.21"
 },
-"sqlalchemy-1.4.20-py39ha810350_0.tar.bz2":{
+"sqlalchemy-1.4.21-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -122645,10 +122685,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"c213c662c901bdaafa354f4b9c97cf63aacc35a095a6eed72ba424d2a04af9e5",
-"size":2380273,
-"timestamp":1624921108301,
-"version":"1.4.20"
+"sha256":"ee0c18ca70905c5b37d1a7a1b932d8e9776e2365b01a2234348defb36c0f124c",
+"size":2388130,
+"timestamp":1626311378152,
+"version":"1.4.21"
 },
 "sqlite-3.36.0-h4e2196e_0.tar.bz2":{
 "build":"h4e2196e_0",

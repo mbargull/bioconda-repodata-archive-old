@@ -23355,6 +23355,17 @@
 "timestamp":1620671902254,
 "version":"11.1.0"
 },
+"clang_bootstrap_osx-64-12.0.1-ha99727f_0.tar.bz2":{
+"build":"ha99727f_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"clang_bootstrap_osx-64",
+"sha256":"71d0cedc469a3af7ae84776e0eaf2efea86141a9859911441e6fdb00e9e8f895",
+"size":59581922,
+"timestamp":1626310550824,
+"version":"12.0.1"
+},
 "clang_bootstrap_osx-arm64-11.0.0-h1741c7c_10.tar.bz2":{
 "build":"h1741c7c_10",
 "build_number":10,
@@ -23536,6 +23547,17 @@
 "size":54745370,
 "timestamp":1620671806523,
 "version":"11.1.0"
+},
+"clang_bootstrap_osx-arm64-12.0.1-h1741c7c_0.tar.bz2":{
+"build":"h1741c7c_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"clang_bootstrap_osx-arm64",
+"sha256":"2239d3d27716411b32c1e5b0deef09fc6911a13c04a3297b2b75548a4578f245",
+"size":57505753,
+"timestamp":1626310815329,
+"version":"12.0.1"
 },
 "clang_osx-64-11.0.0-h36f49d1_0.tar.bz2":{
 "build":"h36f49d1_0",
@@ -23826,6 +23848,25 @@
 "timestamp":1620669921446,
 "version":"11.1.0"
 },
+"clang_osx-64-12.0.1-ha77c5c3_0.tar.bz2":{
+"build":"ha77c5c3_0",
+"build_number":0,
+"depends":[
+"cctools_osx-64",
+"cctools_osx-arm64",
+"clang 12.0.1.*",
+"compiler-rt 12.0.1.*",
+"ld64_osx-64",
+"ld64_osx-arm64",
+"llvm-tools 12.0.1.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-64",
+"sha256":"9c08df050052ebedc76197bdf16849a6c1fa12fb76eb552b60ac1dbc0a37259a",
+"size":16145,
+"timestamp":1626308159001,
+"version":"12.0.1"
+},
 "clang_osx-arm64-11.0.0-h54d7cd3_10.tar.bz2":{
 "build":"h54d7cd3_10",
 "build_number":10,
@@ -24097,6 +24138,23 @@
 "size":16045,
 "timestamp":1620669887213,
 "version":"11.1.0"
+},
+"clang_osx-arm64-12.0.1-h54d7cd3_0.tar.bz2":{
+"build":"h54d7cd3_0",
+"build_number":0,
+"depends":[
+"cctools_osx-arm64",
+"clang 12.0.1.*",
+"compiler-rt 12.0.1.*",
+"ld64_osx-arm64",
+"llvm-tools 12.0.1.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-arm64",
+"sha256":"06eddbb4fd505ac4b2067bb881906b3abf910c2c838d27f60054cf76c15e65c3",
+"size":16032,
+"timestamp":1626308190489,
+"version":"12.0.1"
 },
 "clang_variant-1.0-cling_v0.7.tar.bz2":{
 "build":"cling_v0.7",
@@ -24876,6 +24934,22 @@
 "timestamp":1620669958151,
 "version":"11.1.0"
 },
+"clangxx_osx-64-12.0.1-h8d3ee1a_0.tar.bz2":{
+"build":"h8d3ee1a_0",
+"build_number":0,
+"depends":[
+"clang_osx-64 12.0.1 ha77c5c3_0",
+"clangxx 12.0.1.*",
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-64",
+"sha256":"1bd39cd66e32495fb5abfbdd4ff1addc662659878ca8a255154d25f9a7c8747a",
+"size":15832,
+"timestamp":1626308190466,
+"version":"12.0.1"
+},
 "clangxx_osx-arm64-11.0.0-h0c2fba2_4.tar.bz2":{
 "build":"h0c2fba2_4",
 "build_number":4,
@@ -25122,6 +25196,22 @@
 "size":15758,
 "timestamp":1620669920104,
 "version":"11.1.0"
+},
+"clangxx_osx-arm64-12.0.1-hb84c830_0.tar.bz2":{
+"build":"hb84c830_0",
+"build_number":0,
+"depends":[
+"clang_osx-arm64 12.0.1 h54d7cd3_0",
+"clangxx 12.0.1.*",
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-arm64",
+"sha256":"1f606e6b80538c6affb810f68fe7b5b04fee1f810de0667dd2f5233f7eb3619f",
+"size":15767,
+"timestamp":1626308223095,
+"version":"12.0.1"
 },
 "clhpp-2.0.10-hbdafb3b_1002.tar.bz2":{
 "build":"hbdafb3b_1002",
@@ -121420,6 +121510,36 @@
 "size":2378742,
 "timestamp":1624920639566,
 "version":"1.4.20"
+},
+"sqlalchemy-1.4.21-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"f0dc712e768eaa255df54cfe87279454d2fd3d26df18b47caa17954d8df93138",
+"size":2387314,
+"timestamp":1626310954556,
+"version":"1.4.21"
+},
+"sqlalchemy-1.4.21-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"f51d18a7674f36e33629f8a94cb62b9358552d0c8fac674ff19679ec09d7d7bb",
+"size":2384067,
+"timestamp":1626310948486,
+"version":"1.4.21"
 },
 "sqlalchemy-1.4.3-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",

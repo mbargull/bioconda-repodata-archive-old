@@ -8513,46 +8513,6 @@
 "timestamp":1614815709192,
 "version":"11.1.0"
 },
-"clang-11.1.0-hce30654_0.tar.bz2":{
-"build":"hce30654_0",
-"build_number":0,
-"constrains":[
-"libclang 11.1.0.*",
-"clang-tools 11.1.0.*",
-"llvm 11.1.0.*",
-"llvm-tools 11.1.0.*",
-"llvmdev 11.1.0.*"
-],
-"depends":[
-"clang-11 11.1.0 default_h87665d4_0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clang",
-"sha256":"669ce9b18e09549ef6cbb8d2c3e3408eac6dd44ba292da5615d47db7b1d8b5bc",
-"size":126945,
-"timestamp":1614815977061,
-"version":"11.1.0"
-},
-"clang-11.1.0-hce30654_1.tar.bz2":{
-"build":"hce30654_1",
-"build_number":1,
-"constrains":[
-"libclang 11.1.0.*",
-"clang-tools 11.1.0.*",
-"llvm 11.1.0.*",
-"llvm-tools 11.1.0.*",
-"llvmdev 11.1.0.*"
-],
-"depends":[
-"clang-11 11.1.0 default_h0fdd720_1"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clang",
-"sha256":"162f1af32a8ba2d8e863dfa3b703d9940397f9efd8d613fe379747122a2f38bb",
-"size":127646,
-"timestamp":1620642671536,
-"version":"11.1.0"
-},
 "clang-12-12.0.1-default_h0fdd720_0.tar.bz2":{
 "build":"default_h0fdd720_0",
 "build_number":0,
@@ -8651,127 +8611,46 @@
 "timestamp":1625891116986,
 "version":"12.0.1"
 },
-"clang_bootstrap_osx-64-11.1.0-ha99727f_0.tar.bz2":{
+"clang_bootstrap_osx-64-12.0.1-ha99727f_0.tar.bz2":{
 "build":"ha99727f_0",
 "build_number":0,
 "depends":[],
 "license":"Apache-2.0",
 "name":"clang_bootstrap_osx-64",
-"sha256":"cbcee72458a12213fdc5b7d06f8f4d31ae70ebe014f69d34974d4bd20a282418",
-"size":55548456,
-"timestamp":1614986448254,
-"version":"11.1.0"
+"sha256":"71d0cedc469a3af7ae84776e0eaf2efea86141a9859911441e6fdb00e9e8f895",
+"size":59581922,
+"timestamp":1626310550824,
+"version":"12.0.1"
 },
-"clang_bootstrap_osx-64-11.1.0-ha99727f_1.tar.bz2":{
-"build":"ha99727f_1",
-"build_number":1,
-"depends":[],
-"license":"Apache-2.0",
-"name":"clang_bootstrap_osx-64",
-"sha256":"124090a23886340bd62615b8bca9a3d3060ad879a9db85fae80a6a7348477c8d",
-"size":56594793,
-"timestamp":1618414396274,
-"version":"11.1.0"
-},
-"clang_bootstrap_osx-64-11.1.0-ha99727f_2.tar.bz2":{
-"build":"ha99727f_2",
-"build_number":2,
-"depends":[],
-"license":"Apache-2.0",
-"name":"clang_bootstrap_osx-64",
-"sha256":"77801045b5ca615c63be9ef365c7c7850868c36c4727f145930deb89dd7d8d07",
-"size":56702225,
-"timestamp":1620671902254,
-"version":"11.1.0"
-},
-"clang_bootstrap_osx-arm64-11.1.0-h1741c7c_0.tar.bz2":{
+"clang_bootstrap_osx-arm64-12.0.1-h1741c7c_0.tar.bz2":{
 "build":"h1741c7c_0",
 "build_number":0,
 "depends":[],
 "license":"Apache-2.0",
 "name":"clang_bootstrap_osx-arm64",
-"sha256":"b059fa5962bf17b1fd2b64400c4e0748b147525669a7864d3ad644b890255bfa",
-"size":54444132,
-"timestamp":1614986930396,
-"version":"11.1.0"
+"sha256":"2239d3d27716411b32c1e5b0deef09fc6911a13c04a3297b2b75548a4578f245",
+"size":57505753,
+"timestamp":1626310815329,
+"version":"12.0.1"
 },
-"clang_bootstrap_osx-arm64-11.1.0-h1741c7c_1.tar.bz2":{
-"build":"h1741c7c_1",
-"build_number":1,
-"depends":[],
-"license":"Apache-2.0",
-"name":"clang_bootstrap_osx-arm64",
-"sha256":"b25a702a58cebf1b09e48ddeb26e902d5b655c8e9f8ff1274f9947780d3489a0",
-"size":54691465,
-"timestamp":1618415488644,
-"version":"11.1.0"
-},
-"clang_bootstrap_osx-arm64-11.1.0-h1741c7c_2.tar.bz2":{
-"build":"h1741c7c_2",
-"build_number":2,
-"depends":[],
-"license":"Apache-2.0",
-"name":"clang_bootstrap_osx-arm64",
-"sha256":"205303073c9b82450736fe6295772690a7fe2967fb8ebb140bd9a4341dc5476a",
-"size":54745370,
-"timestamp":1620671806523,
-"version":"11.1.0"
-},
-"clang_osx-64-11.1.0-ha77c5c3_0.tar.bz2":{
+"clang_osx-64-12.0.1-ha77c5c3_0.tar.bz2":{
 "build":"ha77c5c3_0",
 "build_number":0,
 "depends":[
 "cctools_osx-64",
-"clang 11.1.0.*",
-"compiler-rt 11.1.0.*",
-"ld64_osx-64",
-"ld64_osx-arm64",
-"llvm-tools 11.1.0.*"
-],
-"license":"BSD-3-Clause",
-"name":"clang_osx-64",
-"sha256":"547443830d5aaf49d6479208866cf1dc97a4cfb552e6729006641b0e8e9f5fdd",
-"size":16042,
-"timestamp":1614985063012,
-"version":"11.1.0"
-},
-"clang_osx-64-11.1.0-ha77c5c3_1.tar.bz2":{
-"build":"ha77c5c3_1",
-"build_number":1,
-"depends":[
-"cctools_osx-64",
 "cctools_osx-arm64",
-"clang 11.1.0.*",
-"compiler-rt 11.1.0.*",
+"clang 12.0.1.*",
+"compiler-rt 12.0.1.*",
 "ld64_osx-64",
 "ld64_osx-arm64",
-"llvm-tools 11.1.0.*"
+"llvm-tools 12.0.1.*"
 ],
 "license":"BSD-3-Clause",
 "name":"clang_osx-64",
-"sha256":"7945fa293037838847d1438e79cb7f2ca7d38ff6b7efe1d525f1029a1d069b34",
-"size":16071,
-"timestamp":1618412215677,
-"version":"11.1.0"
-},
-"clang_osx-64-11.1.0-ha77c5c3_2.tar.bz2":{
-"build":"ha77c5c3_2",
-"build_number":2,
-"depends":[
-"cctools_osx-64",
-"cctools_osx-arm64",
-"clang 11.1.0.*",
-"compiler-rt 11.1.0.*",
-"ld64_osx-64",
-"ld64_osx-arm64",
-"llvm-tools 11.1.0.*"
-],
-"license":"BSD-3-Clause",
-"name":"clang_osx-64",
-"sha256":"6e1dc064ce5448578cb4412b8063444acf5add4104d96a7dd9078fa748256c53",
-"size":16123,
-"timestamp":1620669921446,
-"version":"11.1.0"
+"sha256":"9c08df050052ebedc76197bdf16849a6c1fa12fb76eb552b60ac1dbc0a37259a",
+"size":16145,
+"timestamp":1626308159001,
+"version":"12.0.1"
 },
 "clang_osx-arm64-11.1.0-h54d7cd3_0.tar.bz2":{
 "build":"h54d7cd3_0",
@@ -8823,6 +8702,23 @@
 "size":16045,
 "timestamp":1620669887213,
 "version":"11.1.0"
+},
+"clang_osx-arm64-12.0.1-h54d7cd3_0.tar.bz2":{
+"build":"h54d7cd3_0",
+"build_number":0,
+"depends":[
+"cctools_osx-arm64",
+"clang 12.0.1.*",
+"compiler-rt 12.0.1.*",
+"ld64_osx-arm64",
+"llvm-tools 12.0.1.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-arm64",
+"sha256":"06eddbb4fd505ac4b2067bb881906b3abf910c2c838d27f60054cf76c15e65c3",
+"size":16032,
+"timestamp":1626308190489,
+"version":"12.0.1"
 },
 "clang_variant-1.0-cling_v0.7.tar.bz2":{
 "build":"cling_v0.7",
@@ -8890,32 +8786,6 @@
 "timestamp":1625891186388,
 "version":"12.0.1"
 },
-"clangxx-11.1.0-default_h8b1a7b7_1.tar.bz2":{
-"build":"default_h8b1a7b7_1",
-"build_number":1,
-"depends":[
-"clang 11.1.0 hce30654_1"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clangxx",
-"sha256":"0deae856b53c1d68879590f3b97d576340fd0e4daaba4bf09b77715370be24f2",
-"size":127718,
-"timestamp":1620642681570,
-"version":"11.1.0"
-},
-"clangxx-11.1.0-default_hbe4449c_0.tar.bz2":{
-"build":"default_hbe4449c_0",
-"build_number":0,
-"depends":[
-"clang 11.1.0 hce30654_0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clangxx",
-"sha256":"b2fe1d1adb3beefe383d3bad024935ee5a9b39c26ce4bfd715205570c637cac3",
-"size":126985,
-"timestamp":1614815986662,
-"version":"11.1.0"
-},
 "clangxx-12.0.1-default_h8b1a7b7_0.tar.bz2":{
 "build":"default_h8b1a7b7_0",
 "build_number":0,
@@ -8929,53 +8799,21 @@
 "timestamp":1625889848156,
 "version":"12.0.1"
 },
-"clangxx_osx-64-11.1.0-h8d3ee1a_0.tar.bz2":{
+"clangxx_osx-64-12.0.1-h8d3ee1a_0.tar.bz2":{
 "build":"h8d3ee1a_0",
 "build_number":0,
 "depends":[
-"clang_osx-64 11.1.0 ha77c5c3_0",
-"clangxx 11.1.0.*",
-"libcxx >=11.1.0",
-"libllvm11 >=11.1.0,<11.2.0a0"
+"clang_osx-64 12.0.1 ha77c5c3_0",
+"clangxx 12.0.1.*",
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"clangxx_osx-64",
-"sha256":"d4e32a42b250dc2bc863fe8b15d25734cb92eac1018dc923da57010033438338",
-"size":15678,
-"timestamp":1614985077189,
-"version":"11.1.0"
-},
-"clangxx_osx-64-11.1.0-h8d3ee1a_1.tar.bz2":{
-"build":"h8d3ee1a_1",
-"build_number":1,
-"depends":[
-"clang_osx-64 11.1.0 ha77c5c3_1",
-"clangxx 11.1.0.*",
-"libcxx >=11.1.0",
-"libllvm11 >=11.1.0,<11.2.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"clangxx_osx-64",
-"sha256":"ab2bac2c8dfe6c3da58e40a0a45f9949340f26f1df134f47fb7d640284316931",
-"size":15788,
-"timestamp":1618412246702,
-"version":"11.1.0"
-},
-"clangxx_osx-64-11.1.0-h8d3ee1a_2.tar.bz2":{
-"build":"h8d3ee1a_2",
-"build_number":2,
-"depends":[
-"clang_osx-64 11.1.0 ha77c5c3_2",
-"clangxx 11.1.0.*",
-"libcxx >=11.1.0",
-"libllvm11 >=11.1.0,<11.2.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"clangxx_osx-64",
-"sha256":"042f605aafb1e53549f24dc02b86be61b52d99d94846ce4812932539079a87d3",
-"size":15824,
-"timestamp":1620669958151,
-"version":"11.1.0"
+"sha256":"1bd39cd66e32495fb5abfbdd4ff1addc662659878ca8a255154d25f9a7c8747a",
+"size":15832,
+"timestamp":1626308190466,
+"version":"12.0.1"
 },
 "clangxx_osx-arm64-11.1.0-hb84c830_0.tar.bz2":{
 "build":"hb84c830_0",
@@ -9024,6 +8862,22 @@
 "size":15758,
 "timestamp":1620669920104,
 "version":"11.1.0"
+},
+"clangxx_osx-arm64-12.0.1-hb84c830_0.tar.bz2":{
+"build":"hb84c830_0",
+"build_number":0,
+"depends":[
+"clang_osx-arm64 12.0.1 h54d7cd3_0",
+"clangxx 12.0.1.*",
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-arm64",
+"sha256":"1f606e6b80538c6affb810f68fe7b5b04fee1f810de0667dd2f5233f7eb3619f",
+"size":15767,
+"timestamp":1626308223095,
+"version":"12.0.1"
 },
 "clhpp-2.0.10-hbdafb3b_1002.tar.bz2":{
 "build":"hbdafb3b_1002",
@@ -9561,21 +9415,6 @@
 "size":15802,
 "timestamp":1618417151283,
 "version":"5.0.1"
-},
-"compiler-rt-11.1.0-h7d99272_0.tar.bz2":{
-"build":"h7d99272_0",
-"build_number":0,
-"depends":[
-"clang 11.1.0.*",
-"clangxx 11.1.0.*",
-"compiler-rt_osx-arm64 11.1.0.*"
-],
-"license":"NCSA",
-"name":"compiler-rt",
-"sha256":"984c622938436b19fc1b32ad9b3a7c1650129e61ca1395adc1f7bd939fbc9b27",
-"size":80292,
-"timestamp":1614879974198,
-"version":"11.1.0"
 },
 "compiler-rt-12.0.1-h94c6b0c_0.tar.bz2":{
 "build":"h94c6b0c_0",
@@ -27286,69 +27125,6 @@
 "size":271117,
 "timestamp":1626226577430,
 "version":"12.0.1"
-},
-"llvm-tools-11.1.0-h4468dd5_0.tar.bz2":{
-"build":"h4468dd5_0",
-"build_number":0,
-"constrains":[
-"llvmdev   11.1.0",
-"libclang 11.1.0.*",
-"clang 11.1.0.*",
-"clang-tools 11.1.0.*",
-"llvm 11.1.0.*"
-],
-"depends":[
-"libllvm11 11.1.0 h4468dd5_0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm-tools",
-"sha256":"3ad7778835bbddf903a9103bafbd61d611e60b368e3094811cfc9a73bbaa8237",
-"size":10722943,
-"timestamp":1614635616855,
-"version":"11.1.0"
-},
-"llvm-tools-11.1.0-h93073aa_1.tar.bz2":{
-"build":"h93073aa_1",
-"build_number":1,
-"constrains":[
-"llvmdev   11.1.0",
-"libclang 11.1.0.*",
-"clang 11.1.0.*",
-"clang-tools 11.1.0.*",
-"llvm 11.1.0.*"
-],
-"depends":[
-"libllvm11 11.1.0 h93073aa_1",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm-tools",
-"sha256":"ec25de098ceae12ee43d3af6225188ddff0432460dc9cc12080eefa0f4fa40d3",
-"size":10724704,
-"timestamp":1617306182816,
-"version":"11.1.0"
-},
-"llvm-tools-11.1.0-h93073aa_2.tar.bz2":{
-"build":"h93073aa_2",
-"build_number":2,
-"constrains":[
-"llvmdev   11.1.0",
-"libclang 11.1.0.*",
-"clang 11.1.0.*",
-"clang-tools 11.1.0.*",
-"llvm 11.1.0.*"
-],
-"depends":[
-"libllvm11 11.1.0 h93073aa_2",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm-tools",
-"sha256":"5c3c8b923d39150e874948de4942b5a617e79ea6e2df8650506aa017f1a4ec82",
-"size":10707223,
-"timestamp":1617662734162,
-"version":"11.1.0"
 },
 "llvm-tools-12.0.1-h93073aa_0.tar.bz2":{
 "build":"h93073aa_0",
@@ -46277,7 +46053,7 @@
 "timestamp":1625331415365,
 "version":"2.0.5"
 },
-"sqlalchemy-1.4.20-py38hea4295b_0.tar.bz2":{
+"sqlalchemy-1.4.21-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
 "build_number":0,
 "depends":[
@@ -46287,12 +46063,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"b051cd57ae7d76328aa2bae93c6c70e64c421d0e71ef543416dea1131374e01a",
-"size":2380298,
-"timestamp":1624920893501,
-"version":"1.4.20"
+"sha256":"f0dc712e768eaa255df54cfe87279454d2fd3d26df18b47caa17954d8df93138",
+"size":2387314,
+"timestamp":1626310954556,
+"version":"1.4.21"
 },
-"sqlalchemy-1.4.20-py39h5161555_0.tar.bz2":{
+"sqlalchemy-1.4.21-py39h5161555_0.tar.bz2":{
 "build":"py39h5161555_0",
 "build_number":0,
 "depends":[
@@ -46302,10 +46078,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"dd2bf797d6d741b7bfbe4b22830114508757e5f4b1840a7b2c2742b12996f9f1",
-"size":2378742,
-"timestamp":1624920639566,
-"version":"1.4.20"
+"sha256":"f51d18a7674f36e33629f8a94cb62b9358552d0c8fac674ff19679ec09d7d7bb",
+"size":2384067,
+"timestamp":1626310948486,
+"version":"1.4.21"
 },
 "sqlite-3.34.0-h6d56c25_0.tar.bz2":{
 "build":"h6d56c25_0",
