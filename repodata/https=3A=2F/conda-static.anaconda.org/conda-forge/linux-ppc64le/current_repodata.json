@@ -62788,28 +62788,6 @@
 "timestamp":1621351085780,
 "version":"0.3.15"
 },
-"libopenblas-0.3.16-openmp_hd33982b_0.tar.bz2":{
-"build":"openmp_hd33982b_0",
-"build_number":0,
-"constrains":[
-"openblas >=0.3.16,<0.3.17.0a0"
-],
-"depends":[
-"_openmp_mutex * *_llvm",
-"_openmp_mutex >=4.5",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"llvm-openmp >=11.1.0"
-],
-"license":"BSD-3-Clause",
-"name":"libopenblas",
-"sha256":"2b5d30796749bd95626ea907ce4e72ef7d1ed4994fe1b9e8c792f16cdec2ba86",
-"size":5734800,
-"timestamp":1626076357191,
-"track_features":"openblas_threading_openmp",
-"version":"0.3.16"
-},
 "libopenblas-0.3.16-pthreads_h486567c_0.tar.bz2":{
 "build":"pthreads_h486567c_0",
 "build_number":0,
@@ -62828,11 +62806,11 @@
 "timestamp":1626076396971,
 "version":"0.3.16"
 },
-"libopenblas-ilp64-0.3.16-openmp_h518357c_0.tar.bz2":{
-"build":"openmp_h518357c_0",
+"libopenblas-0.3.17-openmp_hd33982b_0.tar.bz2":{
+"build":"openmp_hd33982b_0",
 "build_number":0,
 "constrains":[
-"openblas-ilp64 >=0.3.16,<0.3.17.0a0"
+"openblas >=0.3.17,<0.3.18.0a0"
 ],
 "depends":[
 "_openmp_mutex * *_llvm",
@@ -62840,21 +62818,21 @@
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
 "libgfortran5 >=9.3.0",
-"llvm-openmp >=11.1.0"
+"llvm-openmp >=12.0.1"
 ],
 "license":"BSD-3-Clause",
-"name":"libopenblas-ilp64",
-"sha256":"89ca3118022647e2cec8596d044ff805f4badc62c03d0ec2389e1621e909bb08",
-"size":5557143,
-"timestamp":1626080652829,
+"name":"libopenblas",
+"sha256":"f3cf0d1f6d11cd6c26617dc6fe3b11c63efbcaba0b91ef7c6ad85444f8617648",
+"size":5735762,
+"timestamp":1626362483678,
 "track_features":"openblas_threading_openmp",
-"version":"0.3.16"
+"version":"0.3.17"
 },
-"libopenblas-ilp64-0.3.16-pthreads_h95902a2_0.tar.bz2":{
+"libopenblas-ilp64-0.3.17-pthreads_h95902a2_0.tar.bz2":{
 "build":"pthreads_h95902a2_0",
 "build_number":0,
 "constrains":[
-"openblas-ilp64 >=0.3.16,<0.3.17.0a0"
+"openblas-ilp64 >=0.3.17,<0.3.18.0a0"
 ],
 "depends":[
 "libgcc-ng >=9.3.0",
@@ -62863,10 +62841,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libopenblas-ilp64",
-"sha256":"2c046d205bd1b41b48ff1c70aba2b24698067156736b4bf3ff880d35527c6b29",
-"size":5559323,
-"timestamp":1626080682090,
-"version":"0.3.16"
+"sha256":"e7e12527b1fb936fc9945b52b25b763d93c0061ac9fc16f1c7b775e528aafd9f",
+"size":5564091,
+"timestamp":1626362096495,
+"version":"0.3.17"
 },
 "libopencv-4.5.2-py36h7ce4426_1.tar.bz2":{
 "build":"py36h7ce4426_1",
@@ -76804,26 +76782,6 @@
 "timestamp":1626331970059,
 "version":"0.10.1"
 },
-"openblas-0.3.16-openmp_h25a920f_0.tar.bz2":{
-"build":"openmp_h25a920f_0",
-"build_number":0,
-"depends":[
-"_openmp_mutex * *_llvm",
-"_openmp_mutex >=4.5",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libopenblas 0.3.16 openmp_hd33982b_0",
-"llvm-openmp >=11.1.0"
-],
-"license":"BSD-3-Clause",
-"name":"openblas",
-"sha256":"c5c9b48ab3bdccffbfcbccb94f395afe0f6be203340b2ade3b14a80fc2cb26bd",
-"size":7163240,
-"timestamp":1626076369494,
-"track_features":"openblas_threading_openmp",
-"version":"0.3.16"
-},
 "openblas-0.3.16-pthreads_h92053e5_0.tar.bz2":{
 "build":"pthreads_h92053e5_0",
 "build_number":0,
@@ -76840,32 +76798,38 @@
 "timestamp":1626076412799,
 "version":"0.3.16"
 },
-"openblas-ilp64-0.3.16-openmp_h7ab38bd_0.tar.bz2":{
-"build":"openmp_h7ab38bd_0",
+"openblas-0.3.17-openmp_h25a920f_0.tar.bz2":{
+"build":"openmp_h25a920f_0",
 "build_number":0,
 "depends":[
-"libopenblas-ilp64 0.3.16 openmp_h518357c_0"
+"_openmp_mutex * *_llvm",
+"_openmp_mutex >=4.5",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"libopenblas 0.3.17 openmp_hd33982b_0",
+"llvm-openmp >=12.0.1"
 ],
 "license":"BSD-3-Clause",
-"name":"openblas-ilp64",
-"sha256":"3b7e8687f795b69bad1a344be6c036ec4196511699e8302e1d2c0b757b5b90fd",
-"size":6904480,
-"timestamp":1626080663622,
+"name":"openblas",
+"sha256":"0d637725c49befc8df61e0116c3b4b07cc02a5220e99ee9da8513cd9f700a01b",
+"size":7165301,
+"timestamp":1626362509669,
 "track_features":"openblas_threading_openmp",
-"version":"0.3.16"
+"version":"0.3.17"
 },
-"openblas-ilp64-0.3.16-pthreads_h264c1ae_0.tar.bz2":{
+"openblas-ilp64-0.3.17-pthreads_h264c1ae_0.tar.bz2":{
 "build":"pthreads_h264c1ae_0",
 "build_number":0,
 "depends":[
-"libopenblas-ilp64 0.3.16 pthreads_h95902a2_0"
+"libopenblas-ilp64 0.3.17 pthreads_h95902a2_0"
 ],
 "license":"BSD-3-Clause",
 "name":"openblas-ilp64",
-"sha256":"6d3985fcc1cdeb96f43a310cd27d23884da2b31bee14cdd64d63c1c3c44f48ba",
-"size":6925576,
-"timestamp":1626080693133,
-"version":"0.3.16"
+"sha256":"109ede44e1122f56caeed8f3fb709af5a27d85d508eece240f6053ad9b410973",
+"size":6995931,
+"timestamp":1626362120897,
+"version":"0.3.17"
 },
 "opencv-4.5.2-py36h270354c_1.tar.bz2":{
 "build":"py36h270354c_1",
