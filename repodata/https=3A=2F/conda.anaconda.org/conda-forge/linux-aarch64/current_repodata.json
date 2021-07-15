@@ -13583,6 +13583,20 @@
 "timestamp":1625241682203,
 "version":"2.36"
 },
+"binutils_linux-aarch64-2.36-h7854541_32.tar.bz2":{
+"build":"h7854541_32",
+"build_number":32,
+"depends":[
+"binutils_impl_linux-aarch64 2.36.*",
+"sysroot_linux-aarch64"
+],
+"license":"BSD-3-Clause",
+"name":"binutils_linux-aarch64",
+"sha256":"85f9b4e6f7001eba9a42edc44d9822689920b2a3a526f14a5f941266c702ebcf",
+"size":22854,
+"timestamp":1626381280088,
+"version":"2.36"
+},
 "biopython-1.79-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
@@ -31769,6 +31783,17 @@
 "timestamp":1600098807251,
 "version":"9.3.0"
 },
+"gcc_bootstrap_linux-aarch64-9.3.0-h6643c25_32.tar.bz2":{
+"build":"h6643c25_32",
+"build_number":32,
+"depends":[],
+"license":"GPL",
+"name":"gcc_bootstrap_linux-aarch64",
+"sha256":"71485f86892a9e027d50db31ae9d6f82da56dbe7817e6b1f773beecb12bfd21f",
+"size":127350968,
+"timestamp":1626383488581,
+"version":"9.3.0"
+},
 "gcc_bootstrap_linux-aarch64-9.3.0-he73704e_29.tar.bz2":{
 "build":"he73704e_29",
 "build_number":29,
@@ -32228,6 +32253,21 @@
 "timestamp":1625241691301,
 "version":"7.5.0"
 },
+"gcc_linux-aarch64-7.5.0-hc7207d9_32.tar.bz2":{
+"build":"hc7207d9_32",
+"build_number":32,
+"depends":[
+"binutils_linux-aarch64 2.36 h7854541_32",
+"gcc_impl_linux-aarch64 7.5.0.*",
+"sysroot_linux-aarch64"
+],
+"license":"BSD-3-Clause",
+"name":"gcc_linux-aarch64",
+"sha256":"15116165fb4983e402afe41fd701d11fa1d8ea58c5137ce08829e769be04f1ac",
+"size":23468,
+"timestamp":1626381494302,
+"version":"7.5.0"
+},
 "gcc_linux-aarch64-7.5.0-he3acab2_21.tar.bz2":{
 "build":"he3acab2_21",
 "build_number":21,
@@ -32333,6 +32373,21 @@
 "timestamp":1625243074399,
 "version":"8.4.0"
 },
+"gcc_linux-aarch64-8.4.0-h9442e6b_32.tar.bz2":{
+"build":"h9442e6b_32",
+"build_number":32,
+"depends":[
+"binutils_linux-aarch64 2.36 h7854541_32",
+"gcc_impl_linux-aarch64 8.4.0.*",
+"sysroot_linux-aarch64"
+],
+"license":"BSD-3-Clause",
+"name":"gcc_linux-aarch64",
+"sha256":"8fe0791b9059e0ae5723836ef5ca0cf191ff0fff1ac871df79c3176e9e3fe426",
+"size":23425,
+"timestamp":1626382195411,
+"version":"8.4.0"
+},
 "gcc_linux-aarch64-8.4.0-h9568172_29.tar.bz2":{
 "build":"h9568172_29",
 "build_number":29,
@@ -32436,6 +32491,21 @@
 "sha256":"33e8e3d8ac4795b3eea034eaaf96a9866f4f8c7ec8aa0364dbf03dbfff8cfba9",
 "size":23448,
 "timestamp":1625243692905,
+"version":"9.3.0"
+},
+"gcc_linux-aarch64-9.3.0-h5551ba8_32.tar.bz2":{
+"build":"h5551ba8_32",
+"build_number":32,
+"depends":[
+"binutils_linux-aarch64 2.36 h7854541_32",
+"gcc_impl_linux-aarch64 9.3.0.*",
+"sysroot_linux-aarch64"
+],
+"license":"BSD-3-Clause",
+"name":"gcc_linux-aarch64",
+"sha256":"85087f6ce3d137c327b18227e4ec654cdaed908950beab4a60067d67a64367ee",
+"size":23461,
+"timestamp":1626383796131,
 "version":"9.3.0"
 },
 "gcc_linux-aarch64-9.3.0-h7c6ee5f_23.tar.bz2":{
@@ -34651,6 +34721,22 @@
 "timestamp":1625241734892,
 "version":"7.5.0"
 },
+"gfortran_linux-aarch64-7.5.0-h89f2c17_32.tar.bz2":{
+"build":"h89f2c17_32",
+"build_number":32,
+"depends":[
+"binutils_linux-aarch64 2.36 h7854541_32",
+"gcc_linux-aarch64 7.5.0 hc7207d9_32",
+"gfortran_impl_linux-aarch64 7.5.0.*",
+"sysroot_linux-aarch64"
+],
+"license":"BSD-3-Clause",
+"name":"gfortran_linux-aarch64",
+"sha256":"98f8912985724f9d60af5ff05e8b1b6bca5c235dfa0e93b828a612d0e09f267e",
+"size":23078,
+"timestamp":1626381510363,
+"version":"7.5.0"
+},
 "gfortran_linux-aarch64-7.5.0-h926d122_19.tar.bz2":{
 "build":"h926d122_19",
 "build_number":19,
@@ -34847,6 +34933,22 @@
 "timestamp":1625243089450,
 "version":"8.4.0"
 },
+"gfortran_linux-aarch64-8.4.0-h8ab5e83_32.tar.bz2":{
+"build":"h8ab5e83_32",
+"build_number":32,
+"depends":[
+"binutils_linux-aarch64 2.36 h7854541_32",
+"gcc_linux-aarch64 8.4.0 h9442e6b_32",
+"gfortran_impl_linux-aarch64 8.4.0.*",
+"sysroot_linux-aarch64"
+],
+"license":"BSD-3-Clause",
+"name":"gfortran_linux-aarch64",
+"sha256":"d1c7252c886459c6551313f3f8ccc5f5980ff192b57664b1d0039f8f33a36bf0",
+"size":23088,
+"timestamp":1626382212109,
+"version":"8.4.0"
+},
 "gfortran_linux-aarch64-8.4.0-hd942980_29.tar.bz2":{
 "build":"hd942980_29",
 "build_number":29,
@@ -34973,6 +35075,22 @@
 "sha256":"be5dfcce2a0292ee6fdaac6f9280cf73d0a3ed3dfd7895532fe543d71cedba6a",
 "size":23120,
 "timestamp":1625243708865,
+"version":"9.3.0"
+},
+"gfortran_linux-aarch64-9.3.0-hbba6789_32.tar.bz2":{
+"build":"hbba6789_32",
+"build_number":32,
+"depends":[
+"binutils_linux-aarch64 2.36 h7854541_32",
+"gcc_linux-aarch64 9.3.0 h5551ba8_32",
+"gfortran_impl_linux-aarch64 9.3.0.*",
+"sysroot_linux-aarch64"
+],
+"license":"BSD-3-Clause",
+"name":"gfortran_linux-aarch64",
+"sha256":"55ae112f9750c9bffb4d2dcdec4714959cf4c6c9bf9fb1dee7914a8248116db1",
+"size":23099,
+"timestamp":1626383849637,
 "version":"9.3.0"
 },
 "gfortran_linux-aarch64-9.3.0-hd964115_23.tar.bz2":{
@@ -42816,6 +42934,22 @@
 "timestamp":1625241747423,
 "version":"7.5.0"
 },
+"gxx_linux-aarch64-7.5.0-h1c081d7_32.tar.bz2":{
+"build":"h1c081d7_32",
+"build_number":32,
+"depends":[
+"binutils_linux-aarch64 2.36 h7854541_32",
+"gcc_linux-aarch64 7.5.0 hc7207d9_32",
+"gxx_impl_linux-aarch64 7.5.0.*",
+"sysroot_linux-aarch64"
+],
+"license":"BSD-3-Clause",
+"name":"gxx_linux-aarch64",
+"sha256":"74313cf84b7cb1e822ea45a2c230217b4faee57db40d50dc498515ba5b9cb0f3",
+"size":23181,
+"timestamp":1626381515910,
+"version":"7.5.0"
+},
 "gxx_linux-aarch64-7.5.0-h926d122_19.tar.bz2":{
 "build":"h926d122_19",
 "build_number":19,
@@ -43028,6 +43162,22 @@
 "timestamp":1625243094972,
 "version":"8.4.0"
 },
+"gxx_linux-aarch64-8.4.0-hd671575_32.tar.bz2":{
+"build":"hd671575_32",
+"build_number":32,
+"depends":[
+"binutils_linux-aarch64 2.36 h7854541_32",
+"gcc_linux-aarch64 8.4.0 h9442e6b_32",
+"gxx_impl_linux-aarch64 8.4.0.*",
+"sysroot_linux-aarch64"
+],
+"license":"BSD-3-Clause",
+"name":"gxx_linux-aarch64",
+"sha256":"c2a2f2f0651ed2d48ca366e37b6db75315bf2000410c4e45bbb19ca43a0fb042",
+"size":23167,
+"timestamp":1626382218218,
+"version":"8.4.0"
+},
 "gxx_linux-aarch64-8.4.0-he923a3a_23.tar.bz2":{
 "build":"he923a3a_23",
 "build_number":23,
@@ -43154,6 +43304,22 @@
 "sha256":"b10910dcd9eefca65e56f57e339da7a7782b3e3565d5e9de0db622350339a35f",
 "size":23196,
 "timestamp":1625243714394,
+"version":"9.3.0"
+},
+"gxx_linux-aarch64-9.3.0-h270f6e9_32.tar.bz2":{
+"build":"h270f6e9_32",
+"build_number":32,
+"depends":[
+"binutils_linux-aarch64 2.36 h7854541_32",
+"gcc_linux-aarch64 9.3.0 h5551ba8_32",
+"gxx_impl_linux-aarch64 9.3.0.*",
+"sysroot_linux-aarch64"
+],
+"license":"BSD-3-Clause",
+"name":"gxx_linux-aarch64",
+"sha256":"8af50a630f8e78695b8c0fbe44e8fd1ad24aeb0bbb4576bc19088d46c944f784",
+"size":23186,
+"timestamp":1626383865359,
 "version":"9.3.0"
 },
 "gxx_linux-aarch64-9.3.0-hd964115_23.tar.bz2":{
@@ -59950,7 +60116,7 @@
 "timestamp":1621260697221,
 "version":"0.13.1"
 },
-"libmamba-0.15.0-h9aab707_0.tar.bz2":{
+"libmamba-0.15.1-h9aab707_0.tar.bz2":{
 "build":"h9aab707_0",
 "build_number":0,
 "depends":[
@@ -59965,10 +60131,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libmamba",
-"sha256":"88f4e1f419fa8d6854afb2d11ae420fda0db1c36134895f9acc3a9a157c8e41e",
-"size":972205,
-"timestamp":1625827877443,
-"version":"0.15.0"
+"sha256":"c082dededccecb6aee8fe7834eaab9db47c1c6097409fdc4790dcac8d7755bae",
+"size":987299,
+"timestamp":1626382063498,
+"version":"0.15.1"
 },
 "libmbd-0.12.1-mpi_mpich_h6f23df9_1.tar.bz2":{
 "build":"mpi_mpich_h6f23df9_1",
@@ -60039,21 +60205,21 @@
 "timestamp":1619436420421,
 "version":"0.9.73"
 },
-"libmlir-11.1.0-hd62202e_1.tar.bz2":{
-"build":"hd62202e_1",
-"build_number":1,
+"libmlir-12.0.1-hd62202e_0.tar.bz2":{
+"build":"hd62202e_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libllvm11 >=11.1.0,<11.2.0a0",
-"libmlir11 11.1.0 hd62202e_1",
+"libllvm12 >=12.0.1,<12.1.0a0",
+"libmlir12 12.0.1 hd62202e_0",
 "libstdcxx-ng >=9.3.0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"libmlir",
-"sha256":"ec1e1fccddfa4e912a5616f038a4018da658e1147368ec96dc1bb4dbcf1366ce",
-"size":4677861,
-"timestamp":1617054497811,
-"version":"11.1.0"
+"sha256":"9c8cb714bf65e473b997fe53f7b3a60919f21a4a9f865aad4989351154156286",
+"size":6232370,
+"timestamp":1626383832384,
+"version":"12.0.1"
 },
 "libmlir11-11.1.0-hd62202e_1.tar.bz2":{
 "build":"hd62202e_1",
@@ -60069,6 +60235,21 @@
 "size":4676972,
 "timestamp":1617054343546,
 "version":"11.1.0"
+},
+"libmlir12-12.0.1-hd62202e_0.tar.bz2":{
+"build":"hd62202e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libllvm12 >=12.0.1,<12.1.0a0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libmlir12",
+"sha256":"2979774c25df49d450e7db71b87736e12530aae12a23ccdf708bb1d3baf7c033",
+"size":6231747,
+"timestamp":1626383646254,
+"version":"12.0.1"
 },
 "libnegf-1.0.3-mpi_mpich_h478e2f9_0.tar.bz2":{
 "build":"mpi_mpich_h478e2f9_0",
@@ -63813,78 +63994,6 @@
 "timestamp":1625841013312,
 "version":"12.0.1"
 },
-"llvmdev-11.1.0-h6293a0b_0.tar.bz2":{
-"build":"h6293a0b_0",
-"build_number":0,
-"constrains":[
-"libclang 11.1.0.*",
-"clang 11.1.0.*",
-"clang-tools 11.1.0.*",
-"llvm 11.1.0.*",
-"llvm-tools 11.1.0.*"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libllvm11 11.1.0 h6293a0b_0",
-"libstdcxx-ng >=9.3.0",
-"llvm-tools 11.1.0 h6293a0b_0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvmdev",
-"sha256":"7142a0e408f4dcd1fbfad2b140c4844a76e6933477f9fc6ff756af8a3bd5dc45",
-"size":48740385,
-"timestamp":1614634381523,
-"version":"11.1.0"
-},
-"llvmdev-11.1.0-h6293a0b_1.tar.bz2":{
-"build":"h6293a0b_1",
-"build_number":1,
-"constrains":[
-"libclang 11.1.0.*",
-"clang 11.1.0.*",
-"clang-tools 11.1.0.*",
-"llvm 11.1.0.*",
-"llvm-tools 11.1.0.*"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libllvm11 11.1.0 h6293a0b_1",
-"libstdcxx-ng >=9.3.0",
-"llvm-tools 11.1.0 h6293a0b_1",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvmdev",
-"sha256":"9636c55c3cbbc50b801e030bba4c47c457989961fbe17a80a8f9af03ac3de8cc",
-"size":48766581,
-"timestamp":1617304685857,
-"version":"11.1.0"
-},
-"llvmdev-11.1.0-h6293a0b_2.tar.bz2":{
-"build":"h6293a0b_2",
-"build_number":2,
-"constrains":[
-"libclang 11.1.0.*",
-"clang 11.1.0.*",
-"clang-tools 11.1.0.*",
-"llvm 11.1.0.*",
-"llvm-tools 11.1.0.*"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libllvm11 11.1.0 h6293a0b_2",
-"libstdcxx-ng >=9.3.0",
-"llvm-tools 11.1.0 h6293a0b_2",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvmdev",
-"sha256":"b574898836edd5645379f3db97423dff9428848411e036ff86fe3237ab8e38ae",
-"size":48848522,
-"timestamp":1617661139033,
-"version":"11.1.0"
-},
 "llvmdev-12.0.1-h6293a0b_0.tar.bz2":{
 "build":"h6293a0b_0",
 "build_number":0,
@@ -66359,27 +66468,16 @@
 "timestamp":1620646450153,
 "version":"2.0.8"
 },
-"micromamba-0.15.0-0.tar.bz2":{
+"micromamba-0.15.1-0.tar.bz2":{
 "build":"0",
 "build_number":0,
 "depends":[],
 "license":"BSD-3-Clause AND MIT AND OpenSSL",
 "name":"micromamba",
-"sha256":"9a353a93c11f0a651d2eadcbda02527bb352ee2721f990bd88b152b6d9f1e875",
-"size":5658172,
-"timestamp":1625825694333,
-"version":"0.15.0"
-},
-"micromamba-0.15.0-1.tar.bz2":{
-"build":"1",
-"build_number":1,
-"depends":[],
-"license":"BSD-3-Clause AND MIT AND OpenSSL",
-"name":"micromamba",
-"sha256":"bf3f7f23f24408ea616d9e9a1fffbeea8f224e588809e30a08adb50374e9fa7a",
-"size":5653239,
-"timestamp":1625894492014,
-"version":"0.15.0"
+"sha256":"d0e4fd4a95e4f9e37f0bb815bbab29ae1cf3731fb8fefea6f1a17bd020d97c65",
+"size":5627955,
+"timestamp":1626383340494,
+"version":"0.15.1"
 },
 "mimalloc-2.0.1-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
@@ -67194,21 +67292,21 @@
 "timestamp":1626270002867,
 "version":"1.19.0"
 },
-"mlir-11.1.0-hd62202e_1.tar.bz2":{
-"build":"hd62202e_1",
-"build_number":1,
+"mlir-12.0.1-hd62202e_0.tar.bz2":{
+"build":"hd62202e_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libmlir 11.1.0 hd62202e_1",
+"libmlir 12.0.1 hd62202e_0",
 "libstdcxx-ng >=9.3.0",
-"llvmdev 11.1.0.*"
+"llvmdev 12.0.1.*"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"mlir",
-"sha256":"ae1989a5e90a96d6078fdda92416e6e01792d6b73fa301c86576323e7abc2655",
-"size":17742965,
-"timestamp":1617054665968,
-"version":"11.1.0"
+"sha256":"eecf162aed0ec9c08af07c8192dfef902df760cc9d0de23d27362c15fb7b3c71",
+"size":22197081,
+"timestamp":1626384040066,
+"version":"12.0.1"
 },
 "mock-4.0.3-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
@@ -96440,6 +96538,30 @@
 "timestamp":1626356552326,
 "version":"0.9.12.post1"
 },
+"pythran-0.9.12.post1-py37hce16e70_1.tar.bz2":{
+"build":"py37hce16e70_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"decorator",
+"gast 0.5.*",
+"gxx_linux-aarch64 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"ply >=3.4",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"28bb5857fd37327d08b7f3c203e6da9161057516ac297b7498615b6a74e74631",
+"size":2124645,
+"timestamp":1626381929800,
+"version":"0.9.12.post1"
+},
 "pythran-0.9.12.post1-py38h5bf94d8_0.tar.bz2":{
 "build":"py38h5bf94d8_0",
 "build_number":0,
@@ -96511,6 +96633,29 @@
 "sha256":"2c3adda3f267421bc312a84ba429a5c11a3f121039c7038de36e19888ab2cd15",
 "size":2131405,
 "timestamp":1626357144003,
+"version":"0.9.12.post1"
+},
+"pythran-0.9.12.post1-py39h9f797f2_1.tar.bz2":{
+"build":"py39h9f797f2_1",
+"build_number":1,
+"depends":[
+"beniget 0.4.*",
+"decorator",
+"gast 0.5.*",
+"gxx_linux-aarch64 9.*",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"ply >=3.4",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"xsimd"
+],
+"license":"BSD-3-Clause",
+"name":"pythran",
+"sha256":"4680e27b8cfa23148a0ceeda4b5dd563739cd69f012adf2d51297c61582c31ee",
+"size":2130467,
+"timestamp":1626382351333,
 "version":"0.9.12.post1"
 },
 "pyvisa-1.11.3-py36h2e20a7f_0.tar.bz2":{

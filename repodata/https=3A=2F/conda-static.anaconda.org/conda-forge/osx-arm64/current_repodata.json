@@ -6676,7 +6676,7 @@
 "timestamp":1608638658328,
 "version":"1.21.0"
 },
-"boa-0.6.0-py38h10201cd_0.tar.bz2":{
+"boa-0.6.1-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "depends":[
@@ -6687,7 +6687,7 @@
 "joblib",
 "json5",
 "jsonschema",
-"mamba >=0.14,<0.16",
+"mamba >=0.15,<0.16",
 "prompt_toolkit",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
@@ -6696,12 +6696,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boa",
-"sha256":"cc9b699ad1027e73f54a7f3d71529d3b2e8e50a0ba9cfdf44c571c3949b5d948",
-"size":83886,
-"timestamp":1625819502037,
-"version":"0.6.0"
+"sha256":"8e45354a62a05e836034a27a46588ab0b70ed077df4a6ffdd0306505e7583aad",
+"size":83963,
+"timestamp":1626385048454,
+"version":"0.6.1"
 },
-"boa-0.6.0-py39h2804cbe_0.tar.bz2":{
+"boa-0.6.1-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "depends":[
@@ -6712,7 +6712,7 @@
 "joblib",
 "json5",
 "jsonschema",
-"mamba >=0.14,<0.16",
+"mamba >=0.15,<0.16",
 "prompt_toolkit",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
@@ -6721,10 +6721,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"boa",
-"sha256":"58d4e8df007706e289169dc3f4022aee913ec9b4e92577e296f1b3807a642925",
-"size":83941,
-"timestamp":1625819638359,
-"version":"0.6.0"
+"sha256":"d1a0f06d5bb3d5b5b9e987fed83b9b4e36fb50ba4bf82969c275b27ecba4fe28",
+"size":84115,
+"timestamp":1626385108934,
+"version":"0.6.1"
 },
 "bokeh-2.3.3-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -25104,7 +25104,7 @@
 "timestamp":1621261257491,
 "version":"0.13.1"
 },
-"libmamba-0.15.0-h238089d_0.tar.bz2":{
+"libmamba-0.15.1-h238089d_0.tar.bz2":{
 "build":"h238089d_0",
 "build_number":0,
 "depends":[
@@ -25118,10 +25118,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"libmamba",
-"sha256":"11df652a46f381a78d54b19197ddfb4136c31f37182d5388ea6f3d041418571a",
-"size":757576,
-"timestamp":1625827838180,
-"version":"0.15.0"
+"sha256":"fd11e6ca1d53940ccce9ddd1c0ed7d34fd655c2c63e0ae795d2a647fc9c0fcf0",
+"size":779594,
+"timestamp":1626382278651,
+"version":"0.15.1"
 },
 "libmicrohttpd-0.9.73-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
@@ -27860,7 +27860,7 @@
 "timestamp":1602706492919,
 "version":"4.3"
 },
-"mamba-0.15.0-py38h932ed75_0.tar.bz2":{
+"mamba-0.15.1-py38h932ed75_0.tar.bz2":{
 "build":"py38h932ed75_0",
 "build_number":0,
 "depends":[
@@ -27877,12 +27877,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"e3047241901f9b448bd17073b5dc951d4f58efeaeba6fc807f518326712f344c",
-"size":584554,
-"timestamp":1625984003578,
-"version":"0.15.0"
+"sha256":"87ee349c958fdc58e5c925fc6877e118df47c47cf65815d5c14d21dc309c5667",
+"size":589652,
+"timestamp":1626385299331,
+"version":"0.15.1"
 },
-"mamba-0.15.0-py39he886a54_0.tar.bz2":{
+"mamba-0.15.1-py39he886a54_0.tar.bz2":{
 "build":"py39he886a54_0",
 "build_number":0,
 "depends":[
@@ -27899,10 +27899,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"4367cd970a18c99dde523ff9173fc1c253fa5f5f2f3c21961fd62d6804f3f43d",
-"size":694320,
-"timestamp":1625984075441,
-"version":"0.15.0"
+"sha256":"11e9a42d4795300a09f189f57d3c2f9332546c8da2461d62332e2185527ea5fb",
+"size":692237,
+"timestamp":1626385021345,
+"version":"0.15.1"
 },
 "markupsafe-2.0.1-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
@@ -28204,7 +28204,7 @@
 "timestamp":1622871655254,
 "version":"4.2"
 },
-"micromamba-0.15.0-0.tar.bz2":{
+"micromamba-0.15.1-0.tar.bz2":{
 "build":"0",
 "build_number":0,
 "depends":[
@@ -28212,23 +28212,10 @@
 ],
 "license":"BSD-3-Clause AND MIT AND OpenSSL",
 "name":"micromamba",
-"sha256":"168e976c023efd074fc146d4ccd46d86580234c4eaa3ab2f31b29c7b23a4d981",
-"size":4342568,
-"timestamp":1625825557481,
-"version":"0.15.0"
-},
-"micromamba-0.15.0-1.tar.bz2":{
-"build":"1",
-"build_number":1,
-"depends":[
-"libcxx >=11.1.0"
-],
-"license":"BSD-3-Clause AND MIT AND OpenSSL",
-"name":"micromamba",
-"sha256":"5b270784ac8aba963ffe240c433c866cf788dd9c8b742fcf12bde084b115b00e",
-"size":4365546,
-"timestamp":1625894917107,
-"version":"0.15.0"
+"sha256":"31f57f411d9384cbc27bce4ecbb77aa4d9629c99ce5fb1698391f8689a7a1e15",
+"size":4313980,
+"timestamp":1626383272705,
+"version":"0.15.1"
 },
 "minuit2-6.22.06-minuit2_standalone.tar.bz2":{
 "build":"minuit2_standalone",
