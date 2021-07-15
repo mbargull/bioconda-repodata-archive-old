@@ -16579,6 +16579,20 @@
 "timestamp":1625586400797,
 "version":"2.36.1"
 },
+"binutils_impl_linux-s390x-2.36.1-ha917fe2_1.tar.bz2":{
+"build":"ha917fe2_1",
+"build_number":1,
+"depends":[
+"ld_impl_linux-s390x 2.36.1 he920c4e_1",
+"sysroot_linux-s390x"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-s390x",
+"sha256":"b92cbb195441fb2d2d5144b5677efe736cb4bf475ca42c726a90f324dd59c95b",
+"size":8420627,
+"timestamp":1626349233163,
+"version":"2.36.1"
+},
 "binutils_linux-ppc64le-2.34-hd8a9c84_21.tar.bz2":{
 "build":"hd8a9c84_21",
 "build_number":21,
@@ -55185,6 +55199,20 @@
 "sha256":"cc60e222616e84c6da7bb90ff9e8a2b9ad4e64df780da99549b2b60b0b13eea5",
 "size":705957,
 "timestamp":1625586371082,
+"version":"2.36.1"
+},
+"ld_impl_linux-s390x-2.36.1-he920c4e_1.tar.bz2":{
+"build":"he920c4e_1",
+"build_number":1,
+"constrains":[
+"binutils_impl_linux-s390x 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-s390x",
+"sha256":"1a3c228f9a3073bedaa85e27a8d3cdfee39ff4a10c7402a01dcead3dc295beec",
+"size":546054,
+"timestamp":1626349159050,
 "version":"2.36.1"
 },
 "ldid-2.1.2-hafec1d3_1.tar.bz2":{
