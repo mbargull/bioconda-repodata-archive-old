@@ -18777,6 +18777,24 @@
 "timestamp":1620309119666,
 "version":"0.31.0"
 },
+"eventlet-0.31.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"dnspython >=1.15.0,<2.0.0",
+"greenlet >=0.3",
+"pyopenssl",
+"python >=3.5",
+"six >=1.10.0"
+],
+"license":"MIT",
+"name":"eventlet",
+"noarch":"python",
+"sha256":"601091514ad2132a0f744b142c684388eec8b30acd840d393a33e963732f78b7",
+"size":162952,
+"timestamp":1626335393921,
+"version":"0.31.1"
+},
 "execnet-1.6.0-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -22281,6 +22299,20 @@
 "timestamp":1623705589800,
 "version":"2021.6.0"
 },
+"fsspec-2021.7.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6"
+],
+"license":"BSD-3-Clause",
+"name":"fsspec",
+"noarch":"python",
+"sha256":"854e3696e53c3109d0c775fbae1054a6ac10e3a3900547f71c9655d543a54399",
+"size":87900,
+"timestamp":1626383770176,
+"version":"2021.7.0"
+},
 "ftfy-5.5.1-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -24784,6 +24816,28 @@
 "size":79667,
 "timestamp":1625743476713,
 "version":"1.32.1"
+},
+"google-auth-1.33.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"aiohttp >=3.6.2,<4.0.0dev",
+"cachetools >=2.0.0,<5.0",
+"pyasn1-modules >=0.2.1",
+"pyopenssl >=20.0.0",
+"python >=3.6",
+"requests >=2.20.0,<3.0.0dev",
+"rsa >=3.1.4,<5",
+"setuptools >=40.3.0",
+"six >=1.9.0"
+],
+"license":"Apache-2.0",
+"name":"google-auth",
+"noarch":"python",
+"sha256":"594b5e4f43fe0dffe3787998cb6fc1ce8d4a21809e584f15a042160ce29bd46d",
+"size":82565,
+"timestamp":1626320653038,
+"version":"1.33.0"
 },
 "google-auth-oauthlib-0.4.1-py_2.tar.bz2":{
 "build":"py_2",
@@ -56477,6 +56531,21 @@
 "timestamp":1623278162387,
 "version":"0.4.2"
 },
+"s3transfer-0.5.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"botocore >=1.12.36,<2.0a.0",
+"python >=3.6"
+],
+"license":"Apache-2.0",
+"name":"s3transfer",
+"noarch":"python",
+"sha256":"b8846658b798543157f312653687cc7139a65e03828d4499932b71274d32a884",
+"size":56458,
+"timestamp":1626435202481,
+"version":"0.5.0"
+},
 "sas7bdat-2.2.3-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -83980,6 +84049,24 @@
 "timestamp":1620309119666,
 "version":"0.31.0"
 },
+"eventlet-0.31.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"dnspython >=1.15.0,<2.0.0",
+"greenlet >=0.3",
+"pyopenssl",
+"python >=3.5",
+"six >=1.10.0"
+],
+"license":"MIT",
+"name":"eventlet",
+"noarch":"python",
+"sha256":"0ea722e7d2de395e99ea37b0eb8a1a416eefe450ea5aee5550283c2afdd4ea26",
+"size":168096,
+"timestamp":1626335393921,
+"version":"0.31.1"
+},
 "execnet-1.6.0-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -87054,6 +87141,20 @@
 "timestamp":1623705589800,
 "version":"2021.6.0"
 },
+"fsspec-2021.7.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6"
+],
+"license":"BSD-3-Clause",
+"name":"fsspec",
+"noarch":"python",
+"sha256":"4b73eb7ab33c8a97d88187d04835675d3017747d449b88c8a268765c2c4df9ce",
+"size":93107,
+"timestamp":1626383770176,
+"version":"2021.7.0"
+},
 "ftfy-5.5.1-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -88968,6 +89069,28 @@
 "size":78827,
 "timestamp":1625743476713,
 "version":"1.32.1"
+},
+"google-auth-1.33.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"aiohttp >=3.6.2,<4.0.0dev",
+"cachetools >=2.0.0,<5.0",
+"pyasn1-modules >=0.2.1",
+"pyopenssl >=20.0.0",
+"python >=3.6",
+"requests >=2.20.0,<3.0.0dev",
+"rsa >=3.1.4,<5",
+"setuptools >=40.3.0",
+"six >=1.9.0"
+],
+"license":"Apache-2.0",
+"name":"google-auth",
+"noarch":"python",
+"sha256":"a33c838b7b1a86f78fe72901476e86157e3e4e79d24d33b9fa27a23cd897b59c",
+"size":81597,
+"timestamp":1626320653038,
+"version":"1.33.0"
 },
 "google-auth-oauthlib-0.4.1-py_2.conda":{
 "build":"py_2",
@@ -114231,6 +114354,21 @@
 "size":63290,
 "timestamp":1623278162387,
 "version":"0.4.2"
+},
+"s3transfer-0.5.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"botocore >=1.12.36,<2.0a.0",
+"python >=3.6"
+],
+"license":"Apache-2.0",
+"name":"s3transfer",
+"noarch":"python",
+"sha256":"ab9d7f0598a39f78456e336b8164bdf96dca112de9b3f962995191fac7e946a3",
+"size":58070,
+"timestamp":1626435202481,
+"version":"0.5.0"
 },
 "sas7bdat-2.2.3-py_0.conda":{
 "build":"py_0",
