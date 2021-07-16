@@ -10404,6 +10404,22 @@
 "timestamp":1624540506373,
 "version":"0.10.5"
 },
+"aws-c-io-0.10.6-h81c6a64_3.tar.bz2":{
+"build":"h81c6a64_3",
+"build_number":3,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.7,<0.6.8.0a0",
+"libgcc-ng >=9.3.0",
+"s2n >=1.0.12,<1.0.13.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"9f5f4f2490f8d7a5ee22094f92a3cec05e8ee5a67aef5d1605fcc6db115eb770",
+"size":126222,
+"timestamp":1626456295119,
+"version":"0.10.6"
+},
 "aws-c-io-0.10.6-h8a03dd9_0.tar.bz2":{
 "build":"h8a03dd9_0",
 "build_number":0,
@@ -28500,7 +28516,7 @@
 "timestamp":1624534357871,
 "version":"2.20.1"
 },
-"fastavro-1.4.2-py36h269c3a8_0.tar.bz2":{
+"fastavro-1.4.3-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
 "depends":[
@@ -28511,29 +28527,29 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"3bf420e1311c980fa6a634c950220eb6e3e3cc881376a5d58609ed1e4f3d2b81",
-"size":505954,
-"timestamp":1624899097725,
-"version":"1.4.2"
+"sha256":"4221e2e2d036e4efb87ffed2ea24b7f7b62f959834e61f23dd3ec4952b94a7e8",
+"size":509021,
+"timestamp":1626454086972,
+"version":"1.4.3"
 },
-"fastavro-1.4.2-py37h1283c21_0.tar.bz2":{
+"fastavro-1.4.3-py37h1283c21_0.tar.bz2":{
 "build":"py37h1283c21_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "pytz"
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"eb4993389d309b1adbb007ffd2579b8baa6881caa6f606ed7a6b7ee66a400005",
-"size":71939,
-"timestamp":1624898990643,
-"version":"1.4.2"
+"sha256":"126f42ec5ad9b7e83228dace2f8e2709907c3e5a47269c43786236cad24bb767",
+"size":71959,
+"timestamp":1626453871650,
+"version":"1.4.3"
 },
-"fastavro-1.4.2-py37hcd4c3ab_0.tar.bz2":{
+"fastavro-1.4.3-py37hcd4c3ab_0.tar.bz2":{
 "build":"py37hcd4c3ab_0",
 "build_number":0,
 "depends":[
@@ -28544,12 +28560,12 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"11d6305e7b8056bdc8f0a26e22b126177d7413f63d7c18a1065a557421531582",
-"size":508455,
-"timestamp":1624899266726,
-"version":"1.4.2"
+"sha256":"d01737be15071ac802f2b20dc1ace15a0f3ea836c899a5336c494d6e3ce72cd3",
+"size":509063,
+"timestamp":1626454111974,
+"version":"1.4.3"
 },
-"fastavro-1.4.2-py38h9544abe_0.tar.bz2":{
+"fastavro-1.4.3-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
@@ -28560,12 +28576,12 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"546e60e0a252bba1409b437cafa47279e1115b590d9e5e21f09dacc1c73a37b7",
-"size":510337,
-"timestamp":1624899078849,
-"version":"1.4.2"
+"sha256":"575c380653fe58c8e66f9aca3b9af5753d97d4dadf3480dd6e15c88043881856",
+"size":510993,
+"timestamp":1626454241481,
+"version":"1.4.3"
 },
-"fastavro-1.4.2-py39h14843e3_0.tar.bz2":{
+"fastavro-1.4.3-py39h14843e3_0.tar.bz2":{
 "build":"py39h14843e3_0",
 "build_number":0,
 "depends":[
@@ -28576,10 +28592,10 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"85a51f4c2c1c6a57ad0f290377aef155e4a566b3497c8d143f1e2870e8874c26",
-"size":513432,
-"timestamp":1624899097181,
-"version":"1.4.2"
+"sha256":"74f182bad1508a776998c2dbecb6ceaaf34fafa08e66130cb08e169449104d58",
+"size":510920,
+"timestamp":1626454217892,
+"version":"1.4.3"
 },
 "fastcache-1.1.0-py27h516909a_0.tar.bz2":{
 "build":"py27h516909a_0",
@@ -87818,28 +87834,7 @@
 "timestamp":1625380901472,
 "version":"4.0.1"
 },
-"pybind11-2.6.2-py36h28cc557_0.tar.bz2":{
-"build":"py36h28cc557_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pybind11-global 2.6.2 py36h28cc557_0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11",
-"sha256":"06e35385fe9f6de5f475a23eb6a5ac91346929a77a1e5b81d37acbefea981bc6",
-"size":151771,
-"timestamp":1611727243285,
-"version":"2.6.2"
-},
-"pybind11-2.6.2-py36h72e8208_0.tar.bz2":{
+"pybind11-2.7.0-py36h72e8208_0.tar.bz2":{
 "build":"py36h72e8208_0",
 "build_number":0,
 "constrains":[
@@ -87848,38 +87843,18 @@
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"pybind11-global 2.6.2 py36h72e8208_0",
+"pybind11-global 2.7.0 py36h72e8208_0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m"
 ],
 "license":"BSD-3-Clause",
 "name":"pybind11",
-"sha256":"38f71dcdc4605f796d89f81ff190a8888dc4b866a64c8a2189d4caef08916d32",
-"size":151778,
-"timestamp":1611727194143,
-"version":"2.6.2"
+"sha256":"ee0328f9721133db7a3949ae56ac0a6fd212b9464348c0dcad248176d4e3bc5e",
+"size":156377,
+"timestamp":1626456006057,
+"version":"2.7.0"
 },
-"pybind11-2.6.2-py37h7ed3beb_0.tar.bz2":{
-"build":"py37h7ed3beb_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pybind11-global 2.6.2 py37h7ed3beb_0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11",
-"sha256":"5e1b82d405eb5f253b440993a4be67b34cda8b2b57e47fd2211536f59ac02f2e",
-"size":151737,
-"timestamp":1611727195209,
-"version":"2.6.2"
-},
-"pybind11-2.6.2-py37hbc413c5_0.tar.bz2":{
+"pybind11-2.7.0-py37hbc413c5_0.tar.bz2":{
 "build":"py37hbc413c5_0",
 "build_number":0,
 "constrains":[
@@ -87888,79 +87863,19 @@
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"pybind11-global 2.6.2 py37hbc413c5_0",
-"pypy3.7 >=7.3.3",
+"pybind11-global 2.7.0 py37hbc413c5_0",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"BSD-3-Clause",
 "name":"pybind11",
-"sha256":"2ce1d9a5b9db09ccd4126dcdd48409ff06a14f19870a91a2bbe7cbdaeac4d43c",
-"size":151846,
-"timestamp":1611726811704,
-"version":"2.6.2"
+"sha256":"4d65844ad9388a15a7c1e1c730bf1c984faff663e2b5379bb9e3e7ea30348972",
+"size":156441,
+"timestamp":1626457062741,
+"version":"2.7.0"
 },
-"pybind11-2.6.2-py38he922c84_0.tar.bz2":{
-"build":"py38he922c84_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pybind11-global 2.6.2 py38he922c84_0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11",
-"sha256":"ae823305434133db8ace2bad17503b6abfba02bb24ce319387daf0d1b948660c",
-"size":151753,
-"timestamp":1611727183132,
-"version":"2.6.2"
-},
-"pybind11-2.6.2-py39hb300cb6_0.tar.bz2":{
-"build":"py39hb300cb6_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pybind11-global 2.6.2 py39hb300cb6_0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11",
-"sha256":"eab240f252cda27ce98336b78e2a25c4535e71c4afb795d7d26370484cd39a39",
-"size":151908,
-"timestamp":1611726795100,
-"version":"2.6.2"
-},
-"pybind11-global-2.6.2-py36h28cc557_0.tar.bz2":{
-"build":"py36h28cc557_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11-global",
-"sha256":"c58921134b678c1f9de1f22979ed8a065eda9f1649a2347e65764f8760b64864",
-"size":184175,
-"timestamp":1611727099791,
-"version":"2.6.2"
-},
-"pybind11-global-2.6.2-py36h72e8208_0.tar.bz2":{
+"pybind11-global-2.7.0-py36h72e8208_0.tar.bz2":{
 "build":"py36h72e8208_0",
 "build_number":0,
 "constrains":[
@@ -87974,31 +87889,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pybind11-global",
-"sha256":"9d67a3f9337ea1a2ee57270b2de9dc7cb23e51f66f2df5b44c071631cf425495",
-"size":185441,
-"timestamp":1611727065599,
-"version":"2.6.2"
+"sha256":"e22c711a27f1ec7e8e1181746b424c574b9c496a3eb0943aa2d2b64b8a8f18a3",
+"size":183271,
+"timestamp":1626455860539,
+"version":"2.7.0"
 },
-"pybind11-global-2.6.2-py37h7ed3beb_0.tar.bz2":{
-"build":"py37h7ed3beb_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11-global",
-"sha256":"eeda0cc0fc0d74e35a224000b8250f6b7a5d1547e30639d8544d25902adbbaa7",
-"size":188082,
-"timestamp":1611727073289,
-"version":"2.6.2"
-},
-"pybind11-global-2.6.2-py37hbc413c5_0.tar.bz2":{
+"pybind11-global-2.7.0-py37hbc413c5_0.tar.bz2":{
 "build":"py37hbc413c5_0",
 "build_number":0,
 "constrains":[
@@ -88007,54 +87903,16 @@
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"pypy3.7 >=7.3.3",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"BSD-3-Clause",
 "name":"pybind11-global",
-"sha256":"a9e177420af4a410f0bf878c132117dfbe3285ee4f1ec5377d698d73b5ece7cb",
-"size":185641,
-"timestamp":1611726762166,
-"version":"2.6.2"
-},
-"pybind11-global-2.6.2-py38he922c84_0.tar.bz2":{
-"build":"py38he922c84_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11-global",
-"sha256":"3383ceea4c6df565eadf25661f8166abd357a820b8a7e07713bacdf94fe8664a",
-"size":179964,
-"timestamp":1611727060460,
-"version":"2.6.2"
-},
-"pybind11-global-2.6.2-py39hb300cb6_0.tar.bz2":{
-"build":"py39hb300cb6_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11-global",
-"sha256":"6ed8c2e3adb036521c44b784502443152b180d7f50ad72662fbe239cf5b58d95",
-"size":184078,
-"timestamp":1611726752206,
-"version":"2.6.2"
+"sha256":"eb4468acb9f9e574f0a05ff675ea4490b6d4d38beb90556bfb8180839b5a7c0f",
+"size":186893,
+"timestamp":1626456877017,
+"version":"2.7.0"
 },
 "pybind11_json-0.2.11-py36h72e8208_0.tar.bz2":{
 "build":"py36h72e8208_0",
@@ -108444,7 +108302,7 @@
 "timestamp":1625678889314,
 "version":"1.0.7"
 },
-"r-rcpparmadillo-0.10.5.0.0-r40h9983e65_0.tar.bz2":{
+"r-rcpparmadillo-0.10.6.0.0-r40h9983e65_0.tar.bz2":{
 "build":"r40h9983e65_0",
 "build_number":0,
 "depends":[
@@ -108457,12 +108315,12 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-rcpparmadillo",
-"sha256":"0f35d92c7aa7e1d0fb77be7911a6841943f2391167bf47fd85a21cafd38a676f",
-"size":1286670,
-"timestamp":1621823995749,
-"version":"0.10.5.0.0"
+"sha256":"290e76a861ba65d59f6e6464856cec925d3ecd962f3ef07ac5395cb3a534edfe",
+"size":1295548,
+"timestamp":1626454188132,
+"version":"0.10.6.0.0"
 },
-"r-rcpparmadillo-0.10.5.0.0-r41h9983e65_0.tar.bz2":{
+"r-rcpparmadillo-0.10.6.0.0-r41h9983e65_0.tar.bz2":{
 "build":"r41h9983e65_0",
 "build_number":0,
 "depends":[
@@ -108475,10 +108333,10 @@
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-rcpparmadillo",
-"sha256":"c5ac26f3726c94fa576dcfa606a30758addd83d0df539b47ff60ee52836d7f4b",
-"size":1287285,
-"timestamp":1621824694528,
-"version":"0.10.5.0.0"
+"sha256":"b1717435dc7832593a548dbe99310d490ff663ada06a978048943c8a77125a6f",
+"size":1290350,
+"timestamp":1626454771624,
+"version":"0.10.6.0.0"
 },
 "r-rcppcctz-0.2.9-r40hecdc70b_1.tar.bz2":{
 "build":"r40hecdc70b_1",

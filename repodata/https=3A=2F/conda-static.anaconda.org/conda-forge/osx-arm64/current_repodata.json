@@ -4798,6 +4798,20 @@
 "timestamp":1625668674345,
 "version":"0.10.6"
 },
+"aws-c-io-0.10.6-h7a9ae48_3.tar.bz2":{
+"build":"h7a9ae48_3",
+"build_number":3,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.7,<0.6.8.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"477b57e59b86a9f8006b22e374b3d0fd5544a01d7e127fad28845dd3325b981b",
+"size":112545,
+"timestamp":1626456489290,
+"version":"0.10.6"
+},
 "aws-c-io-0.10.6-he5e40cf_0.tar.bz2":{
 "build":"he5e40cf_0",
 "build_number":0,
@@ -35688,26 +35702,7 @@
 "timestamp":1625380513850,
 "version":"4.0.1"
 },
-"pybind11-2.6.2-py38h12a6f45_0.tar.bz2":{
-"build":"py38h12a6f45_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libcxx >=11.0.1",
-"pybind11-global 2.6.2 py38h12a6f45_0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11",
-"sha256":"08304d8b5a38be1df5c5004add970210948a20cf3b9cc01e24d8346f77316c5b",
-"size":151945,
-"timestamp":1611726933050,
-"version":"2.6.2"
-},
-"pybind11-2.6.2-py38h1670459_0.tar.bz2":{
+"pybind11-2.7.0-py38h1670459_0.tar.bz2":{
 "build":"py38h1670459_0",
 "build_number":0,
 "constrains":[
@@ -35715,18 +35710,18 @@
 ],
 "depends":[
 "libcxx >=11.1.0",
-"pybind11-global 2.6.2 py38h1670459_0",
+"pybind11-global 2.7.0 py38h1670459_0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"BSD-3-Clause",
 "name":"pybind11",
-"sha256":"2e5241fa83ddc2888483e5f933296997752fc0989ee44a73d5b2570510ad39df",
-"size":152059,
-"timestamp":1621524967872,
-"version":"2.6.2"
+"sha256":"f4fb598e3a577442a0a225625dd34ae737977439e761e45ccc8ab4cd57f55998",
+"size":156664,
+"timestamp":1626455611683,
+"version":"2.7.0"
 },
-"pybind11-2.6.2-py39h4d2d688_0.tar.bz2":{
+"pybind11-2.7.0-py39h4d2d688_0.tar.bz2":{
 "build":"py39h4d2d688_0",
 "build_number":0,
 "constrains":[
@@ -35734,55 +35729,18 @@
 ],
 "depends":[
 "libcxx >=11.1.0",
-"pybind11-global 2.6.2 py39h4d2d688_0",
+"pybind11-global 2.7.0 py39h4d2d688_0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"BSD-3-Clause",
 "name":"pybind11",
-"sha256":"8ec814f9bf33a7ba680fd55a7891d2741284ec35a4e730ff2e2d0a080ba6becf",
-"size":151740,
-"timestamp":1621524965790,
-"version":"2.6.2"
+"sha256":"6af2fc97708aeb5476be133cb01abb09a5f7c541d160f5adf08a3ab3cee6532d",
+"size":156638,
+"timestamp":1626455606412,
+"version":"2.7.0"
 },
-"pybind11-2.6.2-py39h5a63225_0.tar.bz2":{
-"build":"py39h5a63225_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libcxx >=11.0.1",
-"pybind11-global 2.6.2 py39h5a63225_0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11",
-"sha256":"221ae51e6e942a2fc72fda579ffd87af22760b819a86ef08038501201b14ef57",
-"size":151992,
-"timestamp":1611726919044,
-"version":"2.6.2"
-},
-"pybind11-global-2.6.2-py38h12a6f45_0.tar.bz2":{
-"build":"py38h12a6f45_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libcxx >=11.0.1",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11-global",
-"sha256":"a83c0719ee74e25bfd952c4c243ac824cce0cf939e5b5f768f7b572407f91083",
-"size":186282,
-"timestamp":1611726887743,
-"version":"2.6.2"
-},
-"pybind11-global-2.6.2-py38h1670459_0.tar.bz2":{
+"pybind11-global-2.7.0-py38h1670459_0.tar.bz2":{
 "build":"py38h1670459_0",
 "build_number":0,
 "constrains":[
@@ -35795,12 +35753,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pybind11-global",
-"sha256":"8dd918cd91537db9de96a01b568da45d24fb9e86155e5c3c628ae83d6cc15e2b",
-"size":186281,
-"timestamp":1621524914139,
-"version":"2.6.2"
+"sha256":"4b9a6cb3acef500e7551282af4ec161419c641d1e29deb178d66cbd7b96251c4",
+"size":182188,
+"timestamp":1626455562860,
+"version":"2.7.0"
 },
-"pybind11-global-2.6.2-py39h4d2d688_0.tar.bz2":{
+"pybind11-global-2.7.0-py39h4d2d688_0.tar.bz2":{
 "build":"py39h4d2d688_0",
 "build_number":0,
 "constrains":[
@@ -35813,28 +35771,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pybind11-global",
-"sha256":"91f39275bc2b2876da57a3773057205448be89fef8b8ed533d5396213e33215e",
-"size":186034,
-"timestamp":1621524904303,
-"version":"2.6.2"
-},
-"pybind11-global-2.6.2-py39h5a63225_0.tar.bz2":{
-"build":"py39h5a63225_0",
-"build_number":0,
-"constrains":[
-"pybind11-abi ==4"
-],
-"depends":[
-"libcxx >=11.0.1",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"pybind11-global",
-"sha256":"3a337736f9c15668e3be5cbf95c4d1d54e278a62dcc7d5bf5e0e0de2a22712e2",
-"size":181473,
-"timestamp":1611726869414,
-"version":"2.6.2"
+"sha256":"54ae251c1829b32960676c3e6dd675603c0a2c0e6f835e0ec916f3e130cf750b",
+"size":183547,
+"timestamp":1626455554942,
+"version":"2.7.0"
 },
 "pybind11_json-0.2.11-py38h1670459_0.tar.bz2":{
 "build":"py38h1670459_0",
