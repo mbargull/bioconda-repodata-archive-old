@@ -4627,7 +4627,7 @@
 "timestamp":1594352151282,
 "version":"1.0.1"
 },
-"eventlet-0.31.0-pyhd3eb1b0_0.tar.bz2":{
+"eventlet-0.31.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -4640,10 +4640,10 @@
 "license":"MIT",
 "name":"eventlet",
 "noarch":"python",
-"sha256":"993c0e2a87d8a3e3678af925ecdc20722d1de58a0da6626522444ee069cd1774",
-"size":163032,
-"timestamp":1620309119666,
-"version":"0.31.0"
+"sha256":"601091514ad2132a0f744b142c684388eec8b30acd840d393a33e963732f78b7",
+"size":162952,
+"timestamp":1626335393921,
+"version":"0.31.1"
 },
 "execnet-1.9.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -5775,6 +5775,20 @@
 "size":85963,
 "timestamp":1623705589800,
 "version":"2021.6.0"
+},
+"fsspec-2021.7.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6"
+],
+"license":"BSD-3-Clause",
+"name":"fsspec",
+"noarch":"python",
+"sha256":"854e3696e53c3109d0c775fbae1054a6ac10e3a3900547f71c9655d543a54399",
+"size":87900,
+"timestamp":1626383770176,
+"version":"2021.7.0"
 },
 "ftfy-5.8-py_0.tar.bz2":{
 "build":"py_0",
@@ -6968,7 +6982,7 @@
 "timestamp":1613980405889,
 "version":"1.25.1"
 },
-"google-auth-1.32.1-pyhd3eb1b0_0.tar.bz2":{
+"google-auth-1.33.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -6985,10 +6999,10 @@
 "license":"Apache-2.0",
 "name":"google-auth",
 "noarch":"python",
-"sha256":"3a9a51ce3fa4dd1d3e13243bd90121ce805734202733ff15786146428e005b9f",
-"size":79667,
-"timestamp":1625743476713,
-"version":"1.32.1"
+"sha256":"594b5e4f43fe0dffe3787998cb6fc1ce8d4a21809e584f15a042160ce29bd46d",
+"size":82565,
+"timestamp":1626320653038,
+"version":"1.33.0"
 },
 "google-auth-oauthlib-0.4.1-py_2.tar.bz2":{
 "build":"py_2",
@@ -20787,6 +20801,21 @@
 "size":62243,
 "timestamp":1623278162387,
 "version":"0.4.2"
+},
+"s3transfer-0.5.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"botocore >=1.12.36,<2.0a.0",
+"python >=3.6"
+],
+"license":"Apache-2.0",
+"name":"s3transfer",
+"noarch":"python",
+"sha256":"b8846658b798543157f312653687cc7139a65e03828d4499932b71274d32a884",
+"size":56458,
+"timestamp":1626435202481,
+"version":"0.5.0"
 },
 "sas7bdat-2.2.3-py_0.tar.bz2":{
 "build":"py_0",
