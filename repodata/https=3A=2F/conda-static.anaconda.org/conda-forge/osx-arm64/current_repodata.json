@@ -12462,7 +12462,7 @@
 "timestamp":1605447461399,
 "version":"1.1.0"
 },
-"fastparquet-0.6.3-py38h691f20f_0.tar.bz2":{
+"fastparquet-0.7.0-py38h691f20f_0.tar.bz2":{
 "build":"py38h691f20f_0",
 "build_number":0,
 "depends":[
@@ -12476,12 +12476,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"e8cb9e25ebaa5e9fd18e00e5dbcd0a3cb9b38d991fac7b4c00ff7cf342d70aa6",
-"size":411895,
-"timestamp":1620952832575,
-"version":"0.6.3"
+"sha256":"88820555bb25681598f9806930db3bb44acebb8fd3feabe12380427f795420b3",
+"size":497378,
+"timestamp":1626469345174,
+"version":"0.7.0"
 },
-"fastparquet-0.6.3-py39h20ef057_0.tar.bz2":{
+"fastparquet-0.7.0-py39h20ef057_0.tar.bz2":{
 "build":"py39h20ef057_0",
 "build_number":0,
 "depends":[
@@ -12495,10 +12495,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"114358e7e6bf1d521efa17743759bfcb7cd2b15e6662bb57ab473acdeddd17c1",
-"size":404489,
-"timestamp":1620952816521,
-"version":"0.6.3"
+"sha256":"9c3ff11461880604f0ed6e35fa13160b45c390c24dce3eb1c6b426eb9f2517f8",
+"size":477075,
+"timestamp":1626469365893,
+"version":"0.7.0"
 },
 "fcl-0.6.1-hda9dc21_3.tar.bz2":{
 "build":"hda9dc21_3",
@@ -15887,6 +15887,29 @@
 "timestamp":1624676587624,
 "version":"0.2.3"
 },
+"gnuradio-osmosdr-0.2.3-py38h5d48d3f_10.tar.bz2":{
+"build":"py38h5d48d3f_10",
+"build_number":10,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-uhd >=3.9.2.0,<3.9.3.0a0",
+"libcxx >=11.1.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.1.0,<4.1.1.0a0",
+"volk >=2.5.0,<2.6.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"3c6309b5c79696c9b377352dacbb03d217daf1f684221b3e354baca4ddf0ede4",
+"size":324859,
+"timestamp":1626470191263,
+"version":"0.2.3"
+},
 "gnuradio-osmosdr-0.2.3-py38hc597ddd_8.tar.bz2":{
 "build":"py38hc597ddd_8",
 "build_number":8,
@@ -16046,6 +16069,29 @@
 "sha256":"f009e823479d9ea68ad951f9e44c5fb654f81290a87fbe88a2271b5ffdc3776e",
 "size":323557,
 "timestamp":1623966163431,
+"version":"0.2.3"
+},
+"gnuradio-osmosdr-0.2.3-py39hceaed83_10.tar.bz2":{
+"build":"py39hceaed83_10",
+"build_number":10,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-uhd >=3.9.2.0,<3.9.3.0a0",
+"libcxx >=11.1.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.1.0,<4.1.1.0a0",
+"volk >=2.5.0,<2.6.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"0fdc771bea4890112bdb05215a6e76764e877e3d30555b38ee10a3ee401af478",
+"size":327363,
+"timestamp":1626469894541,
 "version":"0.2.3"
 },
 "gnuradio-satellites-4.2.0-py38h939e8c2_0.tar.bz2":{
@@ -28254,7 +28300,7 @@
 "timestamp":1602706492919,
 "version":"4.3"
 },
-"mamba-0.15.1-py38h932ed75_0.tar.bz2":{
+"mamba-0.15.2-py38h932ed75_0.tar.bz2":{
 "build":"py38h932ed75_0",
 "build_number":0,
 "depends":[
@@ -28271,12 +28317,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"87ee349c958fdc58e5c925fc6877e118df47c47cf65815d5c14d21dc309c5667",
-"size":589652,
-"timestamp":1626385299331,
-"version":"0.15.1"
+"sha256":"48f738f0fabad6069e59bfb2f3f768895f9a7df887e9192b67ca46ae81f74d35",
+"size":588530,
+"timestamp":1626468808532,
+"version":"0.15.2"
 },
-"mamba-0.15.1-py39he886a54_0.tar.bz2":{
+"mamba-0.15.2-py39he886a54_0.tar.bz2":{
 "build":"py39he886a54_0",
 "build_number":0,
 "depends":[
@@ -28293,10 +28339,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"11e9a42d4795300a09f189f57d3c2f9332546c8da2461d62332e2185527ea5fb",
-"size":692237,
-"timestamp":1626385021345,
-"version":"0.15.1"
+"sha256":"45c2daa416324a4a9ecd54b6d16caf2e212b1264ba37406e8cfc0b07c211cef5",
+"size":691900,
+"timestamp":1626468527311,
+"version":"0.15.2"
 },
 "markupsafe-2.0.1-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
@@ -28598,7 +28644,7 @@
 "timestamp":1622871655254,
 "version":"4.2"
 },
-"micromamba-0.15.1-0.tar.bz2":{
+"micromamba-0.15.2-0.tar.bz2":{
 "build":"0",
 "build_number":0,
 "depends":[
@@ -28606,10 +28652,10 @@
 ],
 "license":"BSD-3-Clause AND MIT AND OpenSSL",
 "name":"micromamba",
-"sha256":"31f57f411d9384cbc27bce4ecbb77aa4d9629c99ce5fb1698391f8689a7a1e15",
-"size":4313980,
-"timestamp":1626383272705,
-"version":"0.15.1"
+"sha256":"adba3c2ec6b7e61828590b2f49ae9ecb16b9c4f8a4a4a1da842340de65833159",
+"size":4304272,
+"timestamp":1626468720725,
+"version":"0.15.2"
 },
 "minuit2-6.22.06-minuit2_standalone.tar.bz2":{
 "build":"minuit2_standalone",

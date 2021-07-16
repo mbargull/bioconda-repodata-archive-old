@@ -28881,7 +28881,7 @@
 "timestamp":1605447522361,
 "version":"1.1.0"
 },
-"fastparquet-0.6.3-py36hbe810f4_0.tar.bz2":{
+"fastparquet-0.7.0-py36hbe810f4_0.tar.bz2":{
 "build":"py36hbe810f4_0",
 "build_number":0,
 "depends":[
@@ -28896,12 +28896,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"40a96c949006a37e872111cccd969c590cf85d886d4f14f21fd4ffb0bdc0cf77",
-"size":464769,
-"timestamp":1620952766004,
-"version":"0.6.3"
+"sha256":"431c97c6e18954a8c752e85accced74123ec31cb069fc790a1bfed7614b98886",
+"size":506916,
+"timestamp":1626469095111,
+"version":"0.7.0"
 },
-"fastparquet-0.6.3-py37h32d76ca_0.tar.bz2":{
+"fastparquet-0.7.0-py37h32d76ca_0.tar.bz2":{
 "build":"py37h32d76ca_0",
 "build_number":0,
 "depends":[
@@ -28916,12 +28916,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"00a1ccee4563982ef873e3b88230d27bd91a4e1bf47eec78e250873c76178715",
-"size":466243,
-"timestamp":1620952740093,
-"version":"0.6.3"
+"sha256":"ea32892613e398a316379c37a1be4f3e9c7d7c6bd602c1d2ef16b7d8d563f9fe",
+"size":508184,
+"timestamp":1626469129936,
+"version":"0.7.0"
 },
-"fastparquet-0.6.3-py38h5c1ee58_0.tar.bz2":{
+"fastparquet-0.7.0-py38h5c1ee58_0.tar.bz2":{
 "build":"py38h5c1ee58_0",
 "build_number":0,
 "depends":[
@@ -28936,12 +28936,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"7106cc1833c64fe1923cefa963a711da2f63553650b2dac6632c6e80d4d58f08",
-"size":469601,
-"timestamp":1620952798529,
-"version":"0.6.3"
+"sha256":"14a74e53df64788ddb15636252f06914b6ae25b578fcfc8efe889379b9b392cb",
+"size":535432,
+"timestamp":1626469050290,
+"version":"0.7.0"
 },
-"fastparquet-0.6.3-py39h5cfbcb9_0.tar.bz2":{
+"fastparquet-0.7.0-py39h5cfbcb9_0.tar.bz2":{
 "build":"py39h5cfbcb9_0",
 "build_number":0,
 "depends":[
@@ -28956,10 +28956,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"fastparquet",
-"sha256":"a03616ea568522fe027003cbc4c649d23bec5cde079a6d66b361c31370923243",
-"size":457637,
-"timestamp":1620952730444,
-"version":"0.6.3"
+"sha256":"37ad80d30128a8b788e6ffb393ee44e32b2b70e1d1f1cb267df8367534e3a7eb",
+"size":510926,
+"timestamp":1626469064087,
+"version":"0.7.0"
 },
 "fastrlock-0.6-py36h86e9a40_1.tar.bz2":{
 "build":"py36h86e9a40_1",
@@ -39145,6 +39145,30 @@
 "sha256":"88f9d55a5636e55eb5c10e75bd61db2a7266a7f6cd9cd67bc5b1347f268517f8",
 "size":389176,
 "timestamp":1623966191960,
+"version":"0.2.3"
+},
+"gnuradio-osmosdr-0.2.3-py36h8e29a3d_10.tar.bz2":{
+"build":"py36h8e29a3d_10",
+"build_number":10,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-uhd >=3.9.2.0,<3.9.3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.1.0,<4.1.1.0a0",
+"volk >=2.5.0,<2.6.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"0bca20ef808365ab7e8094a8c8b16d7749bbb5a6c82378784d73c0de3ce51b86",
+"size":388295,
+"timestamp":1626470642311,
 "version":"0.2.3"
 },
 "gnuradio-osmosdr-0.2.3-py36hd7d143e_8.tar.bz2":{
@@ -53417,141 +53441,59 @@
 "timestamp":1620871084596,
 "version":"1.7.0"
 },
-"jupyterhub-1.4.1-py36h2e20a7f_0.tar.bz2":{
-"build":"py36h2e20a7f_0",
-"build_number":0,
-"depends":[
-"configurable-http-proxy >=4",
-"jupyterhub-base 1.4.1 py36h2e20a7f_0",
-"nodejs >=12",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterhub",
-"sha256":"b6699c078046b9718d54468d8b4f88b3eec02f97d0121f7c33afea447b79ad53",
-"size":4879,
-"timestamp":1621024172726,
-"version":"1.4.1"
-},
-"jupyterhub-1.4.1-py36h704843e_0.tar.bz2":{
+"jupyterhub-1.4.2-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
 "configurable-http-proxy >=4",
-"jupyterhub-base 1.4.1 py36h704843e_0",
+"jupyterhub-base 1.4.2 py36h704843e_0",
 "nodejs >=12",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m"
 ],
 "license":"BSD-3-Clause",
 "name":"jupyterhub",
-"sha256":"c7fe9cd6938cb749132a0dabd9c61b72aceb17a5a9d499e09e29bdf614c98bfe",
-"size":4848,
-"timestamp":1621024388161,
-"version":"1.4.1"
+"sha256":"6a4d2839cff87ca4a885ba9030541bf5dd413e8ebafe0fe57be47562373b1ec1",
+"size":4844,
+"timestamp":1626469282265,
+"version":"1.4.2"
 },
-"jupyterhub-1.4.1-py37h4bcbb9b_0.tar.bz2":{
+"jupyterhub-1.4.2-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
 "configurable-http-proxy >=4",
-"jupyterhub-base 1.4.1 py37h4bcbb9b_0",
+"jupyterhub-base 1.4.2 py37h4bcbb9b_0",
 "nodejs >=12",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"BSD-3-Clause",
 "name":"jupyterhub",
-"sha256":"d0173cb2cedd6651f211eafcdba52d4f4c4aa0ef610d6df0353f65a8eb1a5e0b",
-"size":4875,
-"timestamp":1621024965728,
-"version":"1.4.1"
+"sha256":"d4a38cbebae00dad6f41aada5a3725a37c430ee9f6edc918906110ff60efd5a4",
+"size":4900,
+"timestamp":1626470091675,
+"version":"1.4.2"
 },
-"jupyterhub-1.4.1-py37hd9ded2f_0.tar.bz2":{
+"jupyterhub-1.4.2-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
 "configurable-http-proxy >=4",
-"jupyterhub-base 1.4.1 py37hd9ded2f_0",
+"jupyterhub-base 1.4.2 py37hd9ded2f_0",
 "nodejs >=12",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
 ],
 "license":"BSD-3-Clause",
 "name":"jupyterhub",
-"sha256":"bef5dc1ce90185507b10180f30e0277b4755b335eaee58a130307e94783ddb7b",
-"size":4839,
-"timestamp":1621024498869,
-"version":"1.4.1"
+"sha256":"edc1ceba6dce3fb80f341bf5a90441ae6f92006cd2f010b5774b352418588730",
+"size":4859,
+"timestamp":1626471069229,
+"version":"1.4.2"
 },
-"jupyterhub-1.4.1-py38h2063c64_0.tar.bz2":{
-"build":"py38h2063c64_0",
-"build_number":0,
-"depends":[
-"configurable-http-proxy >=4",
-"jupyterhub-base 1.4.1 py38h2063c64_0",
-"nodejs >=12",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterhub",
-"sha256":"9052c8448bf04dfa0b2bde83eb5816d2ebda312f54259b186604f7d7714241e2",
-"size":4825,
-"timestamp":1621024602556,
-"version":"1.4.1"
-},
-"jupyterhub-1.4.1-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"configurable-http-proxy >=4",
-"jupyterhub-base 1.4.1 py39ha65689a_0",
-"nodejs >=12",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterhub",
-"sha256":"8a2194e4af656ef109b80fbb27a866c06c33d4849d108ec6e52adbf0f5ca075d",
-"size":4845,
-"timestamp":1621024797860,
-"version":"1.4.1"
-},
-"jupyterhub-base-1.4.1-py36h2e20a7f_0.tar.bz2":{
-"build":"py36h2e20a7f_0",
-"build_number":0,
-"depends":[
-"alembic",
-"async_generator >=1.9",
-"certipy >=0.1.2",
-"entrypoints",
-"jinja2 >=2.11.0",
-"jupyter_telemetry >=0.1.0",
-"oauthlib >=3.0",
-"pamela",
-"prometheus_client >=0.4.0",
-"pycurl",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python-dateutil",
-"python_abi 3.6 *_pypy36_pp73",
-"requests",
-"sqlalchemy >=1.1",
-"tornado >=5.1",
-"traitlets >=4.3.2"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterhub-base",
-"sha256":"cb8f47cfb0307fb9d51708777aaf108e5ae2d2653fde73dc993d96f0d7f5afe3",
-"size":1877176,
-"timestamp":1621024142068,
-"version":"1.4.1"
-},
-"jupyterhub-base-1.4.1-py36h704843e_0.tar.bz2":{
+"jupyterhub-base-1.4.2-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -53575,12 +53517,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"jupyterhub-base",
-"sha256":"ab3c9a4eb3f901e9a5234a1738b6e64120af2ade2f9fa12c4e9e95a3dcbe765b",
-"size":1982794,
-"timestamp":1621024364463,
-"version":"1.4.1"
+"sha256":"a5be2012e710984d4b752bc39dca400c4272e20bcfbefb2e68852188e42fa4cb",
+"size":2012517,
+"timestamp":1626469201464,
+"version":"1.4.2"
 },
-"jupyterhub-base-1.4.1-py37h4bcbb9b_0.tar.bz2":{
+"jupyterhub-base-1.4.2-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
@@ -53594,7 +53536,7 @@
 "pamela",
 "prometheus_client >=0.4.0",
 "pycurl",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python-dateutil",
 "python_abi 3.7 *_pypy37_pp73",
@@ -53605,12 +53547,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"jupyterhub-base",
-"sha256":"01f3e29ea0fa31c7d72b3b51cc8b857f3b0b804530fc6532203f2706e7c8ad9e",
-"size":1966682,
-"timestamp":1621024869241,
-"version":"1.4.1"
+"sha256":"42993e438eaba2ae61a32a60284bf8699e6c2a0656fd93015e17df62f5268054",
+"size":2006621,
+"timestamp":1626470060439,
+"version":"1.4.2"
 },
-"jupyterhub-base-1.4.1-py37hd9ded2f_0.tar.bz2":{
+"jupyterhub-base-1.4.2-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
@@ -53634,166 +53576,59 @@
 ],
 "license":"BSD-3-Clause",
 "name":"jupyterhub-base",
-"sha256":"6aa7c5a4cb83e7e460aee409441902d8c007d8084d43f6af47ea787b6ab48f9c",
-"size":1953776,
-"timestamp":1621024474824,
-"version":"1.4.1"
+"sha256":"0a05ab445fe7795650a3fbc619284c6334a33f515a2420c067ec09fceb093440",
+"size":1987968,
+"timestamp":1626470986796,
+"version":"1.4.2"
 },
-"jupyterhub-base-1.4.1-py38h2063c64_0.tar.bz2":{
-"build":"py38h2063c64_0",
-"build_number":0,
-"depends":[
-"alembic",
-"async_generator >=1.9",
-"certipy >=0.1.2",
-"entrypoints",
-"jinja2 >=2.11.0",
-"jupyter_telemetry >=0.1.0",
-"oauthlib >=3.0",
-"pamela",
-"prometheus_client >=0.4.0",
-"pycurl",
-"python >=3.8,<3.9.0a0",
-"python-dateutil",
-"python_abi 3.8.* *_cp38",
-"requests",
-"sqlalchemy >=1.1",
-"tornado >=5.1",
-"traitlets >=4.3.2"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterhub-base",
-"sha256":"67fb298754fbf220b521a87db0e268c22557b5bba8f601808ea099c34235fa51",
-"size":1966856,
-"timestamp":1621024578541,
-"version":"1.4.1"
-},
-"jupyterhub-base-1.4.1-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"alembic",
-"async_generator >=1.9",
-"certipy >=0.1.2",
-"entrypoints",
-"jinja2 >=2.11.0",
-"jupyter_telemetry >=0.1.0",
-"oauthlib >=3.0",
-"pamela",
-"prometheus_client >=0.4.0",
-"pycurl",
-"python >=3.9,<3.10.0a0",
-"python-dateutil",
-"python_abi 3.9.* *_cp39",
-"requests",
-"sqlalchemy >=1.1",
-"tornado >=5.1",
-"traitlets >=4.3.2"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterhub-base",
-"sha256":"e12590bc0f5e6becee5ff299e81f51daaace5c0cb6f63800a926363bf615ff87",
-"size":1984481,
-"timestamp":1621024773318,
-"version":"1.4.1"
-},
-"jupyterhub-singleuser-1.4.1-py36h2e20a7f_0.tar.bz2":{
-"build":"py36h2e20a7f_0",
-"build_number":0,
-"depends":[
-"jupyterhub-base 1.4.1 py36h2e20a7f_0",
-"notebook >=4",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterhub-singleuser",
-"sha256":"c00b8558d3830680a6b7eed6a968521b48b2feef620790def0685b60e7e03765",
-"size":4879,
-"timestamp":1621024199842,
-"version":"1.4.1"
-},
-"jupyterhub-singleuser-1.4.1-py36h704843e_0.tar.bz2":{
+"jupyterhub-singleuser-1.4.2-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
-"jupyterhub-base 1.4.1 py36h704843e_0",
+"jupyterhub-base 1.4.2 py36h704843e_0",
 "notebook >=4",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m"
 ],
 "license":"BSD-3-Clause",
 "name":"jupyterhub-singleuser",
-"sha256":"f80edbbcc5b55ab6ac745f474f8b90110113c86da0cfdfe7447f1267492c8063",
-"size":4830,
-"timestamp":1621024409380,
-"version":"1.4.1"
+"sha256":"66b265d236aa2a13717d1cc993c9aa5b229fef0fc12d866ff4848d33279a747a",
+"size":4836,
+"timestamp":1626469355858,
+"version":"1.4.2"
 },
-"jupyterhub-singleuser-1.4.1-py37h4bcbb9b_0.tar.bz2":{
+"jupyterhub-singleuser-1.4.2-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
-"jupyterhub-base 1.4.1 py37h4bcbb9b_0",
+"jupyterhub-base 1.4.2 py37h4bcbb9b_0",
 "notebook >=4",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"BSD-3-Clause",
 "name":"jupyterhub-singleuser",
-"sha256":"f40c02db8daf6839a82bb5dcc6fca532e6b65a60bd2ed67dc790b7b8ba8e157a",
-"size":4891,
-"timestamp":1621025046449,
-"version":"1.4.1"
+"sha256":"e516b45c1175a530254a5e879fc7e02a7fd640ebb10c01d3ae7ef335b48289cb",
+"size":4877,
+"timestamp":1626470119268,
+"version":"1.4.2"
 },
-"jupyterhub-singleuser-1.4.1-py37hd9ded2f_0.tar.bz2":{
+"jupyterhub-singleuser-1.4.2-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
-"jupyterhub-base 1.4.1 py37hd9ded2f_0",
+"jupyterhub-base 1.4.2 py37hd9ded2f_0",
 "notebook >=4",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
 ],
 "license":"BSD-3-Clause",
 "name":"jupyterhub-singleuser",
-"sha256":"d0196beb43edecc54fb62d7a919a836b941fa478a14085b98373229c0789852e",
-"size":4839,
-"timestamp":1621024520023,
-"version":"1.4.1"
-},
-"jupyterhub-singleuser-1.4.1-py38h2063c64_0.tar.bz2":{
-"build":"py38h2063c64_0",
-"build_number":0,
-"depends":[
-"jupyterhub-base 1.4.1 py38h2063c64_0",
-"notebook >=4",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterhub-singleuser",
-"sha256":"3e0c31cabf015c9c4973cecacc7d94deaff042f493ba9e24b7f9abf0c2d388b6",
-"size":4808,
-"timestamp":1621024623659,
-"version":"1.4.1"
-},
-"jupyterhub-singleuser-1.4.1-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"jupyterhub-base 1.4.1 py39ha65689a_0",
-"notebook >=4",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"jupyterhub-singleuser",
-"sha256":"11c6ff124cd9cab4e0b9a34607f9155325812781cb5d40eaefa5171ae0a9f6cd",
-"size":4862,
-"timestamp":1621024819950,
-"version":"1.4.1"
+"sha256":"f72e26aee039ca736bb663782e49d1b62c5dcc95360a8cc772bb04b36c99fccd",
+"size":4824,
+"timestamp":1626471146984,
+"version":"1.4.2"
 },
 "jwt-cpp-0.5.0-h3c49101_0.tar.bz2":{
 "build":"h3c49101_0",
@@ -66696,7 +66531,7 @@
 "timestamp":1612735045564,
 "version":"0.1"
 },
-"mamba-0.15.1-py36he1ca912_0.tar.bz2":{
+"mamba-0.15.2-py36he1ca912_0.tar.bz2":{
 "build":"py36he1ca912_0",
 "build_number":0,
 "depends":[
@@ -66714,12 +66549,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"6dacf06f335e5db05c482e7c158b346b2771fb047d0e570b69264dfdc6a1a715",
-"size":819792,
-"timestamp":1626393096360,
-"version":"0.15.1"
+"sha256":"9029912f92d76f181a510ef0397bff15f39413a00228741edf3339067a6edc34",
+"size":816135,
+"timestamp":1626468577220,
+"version":"0.15.2"
 },
-"mamba-0.15.1-py37h48ed4ad_0.tar.bz2":{
+"mamba-0.15.2-py37h48ed4ad_0.tar.bz2":{
 "build":"py37h48ed4ad_0",
 "build_number":0,
 "depends":[
@@ -66738,12 +66573,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"08f49f25495c95f1bcf32b51b49f8a88b1109046ce38740c2acc68c098e046e7",
-"size":811008,
-"timestamp":1626395091401,
-"version":"0.15.1"
+"sha256":"cb616a879192f5945e2f614b5aa48661472e7c98db827f735a60205a4fa695b1",
+"size":817172,
+"timestamp":1626470487779,
+"version":"0.15.2"
 },
-"mamba-0.15.1-py37hf14380e_0.tar.bz2":{
+"mamba-0.15.2-py37hf14380e_0.tar.bz2":{
 "build":"py37hf14380e_0",
 "build_number":0,
 "depends":[
@@ -66761,56 +66596,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"mamba",
-"sha256":"6f1965a4165ee4482ba2f2747e31611850b5687c7e21f5e2a8888bc95e0e3188",
-"size":820409,
-"timestamp":1626395996435,
-"version":"0.15.1"
-},
-"mamba-0.15.1-py38h9d6459c_0.tar.bz2":{
-"build":"py38h9d6459c_0",
-"build_number":0,
-"depends":[
-"conda >=4.8",
-"libarchive >=3.5.1,<3.6.0a0",
-"libcurl >=7.77.0,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"libsolv >=0.7.19,<0.8.0a0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"reproc-cpp >=14.2,<15.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"mamba",
-"sha256":"bc9a9501ca749264493859420c1ddcfe47742612ab0d71690d6a828dec9e3dc4",
-"size":818598,
-"timestamp":1626396808670,
-"version":"0.15.1"
-},
-"mamba-0.15.1-py39he574936_0.tar.bz2":{
-"build":"py39he574936_0",
-"build_number":0,
-"depends":[
-"conda >=4.8",
-"libarchive >=3.5.1,<3.6.0a0",
-"libcurl >=7.77.0,<8.0a0",
-"libgcc-ng >=9.3.0",
-"libiconv >=1.16,<1.17.0a0",
-"libsolv >=0.7.19,<0.8.0a0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1k,<1.1.2a",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"reproc-cpp >=14.2,<15.0a0"
-],
-"license":"BSD-3-Clause",
-"name":"mamba",
-"sha256":"93c6c0ed4223bf1a09c8a28bdb91f498048211dbf8e537a907f3f674cdfe6aa7",
-"size":809619,
-"timestamp":1626397566607,
-"version":"0.15.1"
+"sha256":"2f6443e1ac79f23eda85cb81cf09a6242d6607fea5a201f93f7ee7f1a7352339",
+"size":816086,
+"timestamp":1626471389591,
+"version":"0.15.2"
 },
 "markupsafe-2.0.1-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
@@ -67578,16 +67367,16 @@
 "timestamp":1620646450153,
 "version":"2.0.8"
 },
-"micromamba-0.15.1-0.tar.bz2":{
+"micromamba-0.15.2-0.tar.bz2":{
 "build":"0",
 "build_number":0,
 "depends":[],
 "license":"BSD-3-Clause AND MIT AND OpenSSL",
 "name":"micromamba",
-"sha256":"d0e4fd4a95e4f9e37f0bb815bbab29ae1cf3731fb8fefea6f1a17bd020d97c65",
-"size":5627955,
-"timestamp":1626383340494,
-"version":"0.15.1"
+"sha256":"cd22d896d078b8b46a932f59e5252d41ee669c063b29da748ead4a511fe3f23a",
+"size":5643879,
+"timestamp":1626468186062,
+"version":"0.15.2"
 },
 "mimalloc-2.0.1-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
