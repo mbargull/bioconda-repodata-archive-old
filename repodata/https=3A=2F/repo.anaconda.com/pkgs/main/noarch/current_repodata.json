@@ -10493,24 +10493,23 @@
 "timestamp":1582216009714,
 "version":"19.10b0"
 },
-"bleach-3.3.0-pyhd3eb1b0_0.conda":{
+"bleach-3.3.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "packaging",
 "python",
-"setuptools",
-"six",
+"six >=1.9.0",
 "webencodings"
 ],
-"legacy_bz2_md5":"ea4954479682853416235f3684a8c24a",
+"legacy_bz2_md5":"d103bd32daaf815fcec18d5bf753bb69",
 "license":"Apache-2.0",
 "name":"bleach",
 "noarch":"python",
-"sha256":"3388bd9aaf76a8f91fb37f95d650897e1bcb3682bb333f1ef7b691ea4f3861d7",
-"size":115723,
-"timestamp":1612211427652,
-"version":"3.3.0"
+"sha256":"92cb734af4593c7ffcb6cb81fda016f45458fdc63547376a3d2a25c85bacb5f3",
+"size":115581,
+"timestamp":1626470300602,
+"version":"3.3.1"
 },
 "boto3-1.17.109-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -23301,23 +23300,24 @@
 "timestamp":1597357744428,
 "version":"1.1.3"
 },
-"spreg-1.2.2-pyhd3eb1b0_0.conda":{
+"spreg-1.2.4-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"libpysal",
-"numpy",
-"python >=3",
-"scipy"
+"libpysal >=4.0.0",
+"numpy >=1.3",
+"pandas",
+"python >=3.7",
+"scipy >=0.11"
 ],
-"legacy_bz2_md5":"8cc20fa63352815a2567ac534de30f24",
+"legacy_bz2_md5":"038754b19b3ae32e7ded54886c339b01",
 "license":"BSD-3-Clause",
 "name":"spreg",
 "noarch":"python",
-"sha256":"c93deef7b0387b7e6a3e3d3c3ff3606737ba8f65f09234df8fd17f3b9cfa1c1b",
-"size":107457,
-"timestamp":1610739501918,
-"version":"1.2.2"
+"sha256":"9146055194bbc8a7e56050eb6d9813a84eb059393bfc56d4944bd5d794adc194",
+"size":107241,
+"timestamp":1626462519715,
+"version":"1.2.4"
 },
 "spvcm-0.3.0-py_0.conda":{
 "build":"py_0",
@@ -23798,20 +23798,20 @@
 "timestamp":1574371306702,
 "version":"0.8.0"
 },
-"testfixtures-6.17.1-pyhd3eb1b0_0.conda":{
+"testfixtures-6.18.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python"
 ],
-"legacy_bz2_md5":"c123d5f0487aff860205b4a02c1587bb",
+"legacy_bz2_md5":"f986b414241659d66c9feb287d4b9732",
 "license":"MIT",
 "name":"testfixtures",
 "noarch":"python",
-"sha256":"2ab6ffc41ff01fd395e007bd1fedaf2b9d2322924aead16c97164542fa4eeecb",
-"size":73965,
-"timestamp":1610642535251,
-"version":"6.17.1"
+"sha256":"6df7681dd7c7d79a422e61576abb1c1fa9e67eb73747befe96c62319cf09e486",
+"size":73969,
+"timestamp":1626463468377,
+"version":"6.18.0"
 },
 "testpath-0.5.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",

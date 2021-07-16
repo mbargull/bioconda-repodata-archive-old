@@ -4028,45 +4028,6 @@
 "timestamp":1625869728385,
 "version":"0.6.7"
 },
-"aws-c-compression-0.2.11-h3b87e79_0.tar.bz2":{
-"build":"h3b87e79_0",
-"build_number":0,
-"depends":[
-"aws-c-common >=0.5.11,<0.5.12.0a0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-compression",
-"sha256":"90e98f14f3a80685f00ab113d293b6daaf2e2a92d51cf99a120319e17e3473c0",
-"size":16757,
-"timestamp":1620657104343,
-"version":"0.2.11"
-},
-"aws-c-compression-0.2.12-h3b87e79_0.tar.bz2":{
-"build":"h3b87e79_0",
-"build_number":0,
-"depends":[
-"aws-c-common >=0.5.11,<0.5.12.0a0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-compression",
-"sha256":"f34c0ab672307f14bc2bd6b137d36c3166341280bb277997b61c9c68876c1040",
-"size":16847,
-"timestamp":1623310394266,
-"version":"0.2.12"
-},
-"aws-c-compression-0.2.12-h487e1a8_1.tar.bz2":{
-"build":"h487e1a8_1",
-"build_number":1,
-"depends":[
-"aws-c-common >=0.6.2,<0.6.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"aws-c-compression",
-"sha256":"ff8eec2bb92b49a0eeeabe81647fa37b2e4ea8d2aff24c0ec34eecc4f0fb8660",
-"size":16841,
-"timestamp":1623341686899,
-"version":"0.2.12"
-},
 "aws-c-compression-0.2.13-h26c7476_1.tar.bz2":{
 "build":"h26c7476_1",
 "build_number":1,
@@ -4356,6 +4317,22 @@
 "timestamp":1620135687042,
 "version":"0.2.7"
 },
+"aws-c-event-stream-0.2.7-hdbe1c5e_18.tar.bz2":{
+"build":"hdbe1c5e_18",
+"build_number":18,
+"depends":[
+"aws-c-common >=0.6.7,<0.6.8.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"2e3d0932e2d7f8d335ca7dbe818d322902f0f725c73a4c99ffc84efcdae684e6",
+"size":42508,
+"timestamp":1626467905930,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-hf3e730a_6.tar.bz2":{
 "build":"hf3e730a_6",
 "build_number":6,
@@ -4629,6 +4606,21 @@
 "size":130902,
 "timestamp":1625064172136,
 "version":"0.6.4"
+},
+"aws-c-http-0.6.5-hf9ae274_1.tar.bz2":{
+"build":"hf9ae274_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.6.7,<0.6.8.0a0",
+"aws-c-compression >=0.2.13,<0.2.14.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"sha256":"3797c3c2070a3539ca883d454d2eb48561b34a8fa6262a35c99f0ea6e3487355",
+"size":131028,
+"timestamp":1626467637862,
+"version":"0.6.5"
 },
 "aws-c-io-0.10.1-h3b87e79_0.tar.bz2":{
 "build":"h3b87e79_0",
