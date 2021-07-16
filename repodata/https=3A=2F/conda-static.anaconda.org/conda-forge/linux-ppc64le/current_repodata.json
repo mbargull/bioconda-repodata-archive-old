@@ -34596,6 +34596,9 @@
 "gcc_bootstrap_linux-ppc64le-9.3.0-hbd91b88_32.tar.bz2":{
 "build":"hbd91b88_32",
 "build_number":32,
+"constrains":[
+"sysroot_linux-ppc64le ==99999999999"
+],
 "depends":[],
 "license":"GPL",
 "name":"gcc_bootstrap_linux-ppc64le",
@@ -74730,7 +74733,7 @@
 "timestamp":1617796429489,
 "version":"15.14.0"
 },
-"nodejs-16.4.1-h4993e3a_0.tar.bz2":{
+"nodejs-16.5.0-h4993e3a_0.tar.bz2":{
 "build":"h4993e3a_0",
 "build_number":0,
 "depends":[
@@ -74743,10 +74746,10 @@
 ],
 "license":"MIT",
 "name":"nodejs",
-"sha256":"e368a5a22dbfd4abc6e775ec5be3b1e7bbb08085bb3fdc917b39ec108bd5775d",
-"size":18249404,
-"timestamp":1626371792122,
-"version":"16.4.1"
+"sha256":"5e8fbba4bab0ec01374c9aa57ed5b83a327cbe9a99008a83fa93dfb47d6406b0",
+"size":17919130,
+"timestamp":1626395432355,
+"version":"16.5.0"
 },
 "nordugrid-arc-6.12.0-py36h0ce30d7_0.tar.bz2":{
 "build":"py36h0ce30d7_0",
