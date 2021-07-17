@@ -9602,6 +9602,19 @@
 "timestamp":1625869717087,
 "version":"0.6.7"
 },
+"aws-c-common-0.6.8-hf897c2e_0.tar.bz2":{
+"build":"hf897c2e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"e5761b26a2cac0e2caa6ebc9788b2c069f97a9a4fb15f57a38c8ef2aaeb0b731",
+"size":174118,
+"timestamp":1626486048369,
+"version":"0.6.8"
+},
 "aws-c-compression-0.2.13-h20572ff_4.tar.bz2":{
 "build":"h20572ff_4",
 "build_number":4,
@@ -11429,11 +11442,11 @@
 "timestamp":1626438248500,
 "version":"1.9.60"
 },
-"awscli-1.20.0-py36h704843e_0.tar.bz2":{
+"awscli-1.20.1-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
-"botocore 1.21.0",
+"botocore 1.21.1",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -11444,16 +11457,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"a8699eec65b2f2c1b6b65c68385caf5b112ab1d0e3da0250ab897d18d5680b2c",
-"size":1936515,
-"timestamp":1626408715973,
-"version":"1.20.0"
+"sha256":"039075873844240ee9d88f4239f2bba2992978ab879eaacf9ccb60f7ff97ddcb",
+"size":1936702,
+"timestamp":1626484351457,
+"version":"1.20.1"
 },
-"awscli-1.20.0-py37h4bcbb9b_0.tar.bz2":{
+"awscli-1.20.1-py37h4bcbb9b_0.tar.bz2":{
 "build":"py37h4bcbb9b_0",
 "build_number":0,
 "depends":[
-"botocore 1.21.0",
+"botocore 1.21.1",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.7 >=7.3.5",
@@ -11465,16 +11478,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"129d531f598b33070ea75392bf6d2d601597609c4bce70a8925153815f29f67b",
-"size":1947915,
-"timestamp":1626409041542,
-"version":"1.20.0"
+"sha256":"e0a081f646a5eb9139740a9fd93824719a2f5cba4e457ce05a52f5c1537304cc",
+"size":1941761,
+"timestamp":1626485251017,
+"version":"1.20.1"
 },
-"awscli-1.20.0-py37hd9ded2f_0.tar.bz2":{
+"awscli-1.20.1-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
-"botocore 1.21.0",
+"botocore 1.21.1",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -11485,50 +11498,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"b17a3eaf9f3e8accce54fec020f16056b5abc084d683050a7945b204319e1238",
-"size":1931445,
-"timestamp":1626409356851,
-"version":"1.20.0"
-},
-"awscli-1.20.0-py38h2063c64_0.tar.bz2":{
-"build":"py38h2063c64_0",
-"build_number":0,
-"depends":[
-"botocore 1.21.0",
-"colorama >=0.2.5,<0.4.4",
-"docutils >=0.10,<0.16",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"pyyaml >=3.10,<5.5",
-"rsa >=3.1.2,<4.8",
-"s3transfer >=0.5.0,<0.6.0"
-],
-"license":"Apache-2.0",
-"name":"awscli",
-"sha256":"b5d3744077877176060f8fbb2c5f1ff3b4e42d027d129ed13b52ae9301659282",
-"size":1945985,
-"timestamp":1626410044775,
-"version":"1.20.0"
-},
-"awscli-1.20.0-py39ha65689a_0.tar.bz2":{
-"build":"py39ha65689a_0",
-"build_number":0,
-"depends":[
-"botocore 1.21.0",
-"colorama >=0.2.5,<0.4.4",
-"docutils >=0.10,<0.16",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pyyaml >=3.10,<5.5",
-"rsa >=3.1.2,<4.8",
-"s3transfer >=0.5.0,<0.6.0"
-],
-"license":"Apache-2.0",
-"name":"awscli",
-"sha256":"71e63f0160a0cfd1801680a427fed6afd27cf478145a17be55e4ba72bac5ed7a",
-"size":1936769,
-"timestamp":1626410854234,
-"version":"1.20.0"
+"sha256":"1c46b8f270406d795bfc974d2ea66b9f4b181e0ac22497563f0679e9041419fb",
+"size":1954712,
+"timestamp":1626485685850,
+"version":"1.20.1"
 },
 "awscrt-0.11.25-py36h0bcad87_0.tar.bz2":{
 "build":"py36h0bcad87_0",
@@ -140391,7 +140364,7 @@
 "timestamp":1589777504825,
 "version":"0.6.2"
 },
-"zaber-motion-2.4.1-py36hfadc70a_0.tar.bz2":{
+"zaber-motion-2.4.2-py36hfadc70a_0.tar.bz2":{
 "build":"py36hfadc70a_0",
 "build_number":0,
 "depends":[
@@ -140405,12 +140378,12 @@
 ],
 "license":"MIT",
 "name":"zaber-motion",
-"sha256":"6b42a8fa2eb5f3d6c666f99b3d611adc72b2ec3b608f8a5dcbc0fec845a69c4f",
-"size":7876634,
-"timestamp":1624936150878,
-"version":"2.4.1"
+"sha256":"c9e15b652970adcdff8a08f86be0d38a80e2e1896b37bab59813e9bd539162ec",
+"size":7823768,
+"timestamp":1626484779644,
+"version":"2.4.2"
 },
-"zaber-motion-2.4.1-py37h544da0a_0.tar.bz2":{
+"zaber-motion-2.4.2-py37h544da0a_0.tar.bz2":{
 "build":"py37h544da0a_0",
 "build_number":0,
 "depends":[
@@ -140418,74 +140391,17 @@
 "libprotobuf >=3.16.0,<3.17.0a0",
 "libstdcxx-ng >=7.5.0",
 "protobuf",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "rx"
 ],
 "license":"MIT",
 "name":"zaber-motion",
-"sha256":"9dc791df7bbed0f0077e0a986f0c6060ea7c4a86e42068ed11c0fc87dd5c4e92",
-"size":7859786,
-"timestamp":1624936565052,
-"version":"2.4.1"
-},
-"zaber-motion-2.4.1-py37hffe466c_0.tar.bz2":{
-"build":"py37hffe466c_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libprotobuf >=3.16.0,<3.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"protobuf",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"rx"
-],
-"license":"MIT",
-"name":"zaber-motion",
-"sha256":"7352ef21d87574c5722be17cc213ef30ba7add5b58b771500c8f30007bf8691b",
-"size":7864013,
-"timestamp":1624937506424,
-"version":"2.4.1"
-},
-"zaber-motion-2.4.1-py38h96481c8_0.tar.bz2":{
-"build":"py38h96481c8_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libprotobuf >=3.16.0,<3.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"protobuf",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"rx"
-],
-"license":"MIT",
-"name":"zaber-motion",
-"sha256":"54f9a7daad34f162fd6bd10959aa4798ee5519bb29d7de15ce60ddfcbf9c8b4d",
-"size":7876794,
-"timestamp":1624937993609,
-"version":"2.4.1"
-},
-"zaber-motion-2.4.1-py39h80025ef_0.tar.bz2":{
-"build":"py39h80025ef_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libprotobuf >=3.16.0,<3.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"protobuf",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"rx"
-],
-"license":"MIT",
-"name":"zaber-motion",
-"sha256":"a05697e187da795c540a6f1f3bd361fb7ff99e1b89f6784d2c7e75c7846ec622",
-"size":7870471,
-"timestamp":1624938416870,
-"version":"2.4.1"
+"sha256":"d735d787da35a085534e68b58651ade939c9fc289e40709c975f354e7acd1268",
+"size":7819961,
+"timestamp":1626485906252,
+"version":"2.4.2"
 },
 "zbar-py-1.0.4-py36h269c3a8_3.tar.bz2":{
 "build":"py36h269c3a8_3",
