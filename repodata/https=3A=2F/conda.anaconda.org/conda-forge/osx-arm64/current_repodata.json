@@ -12348,6 +12348,19 @@
 "timestamp":1619824322825,
 "version":"v0.27.3"
 },
+"expat-2.3.0-h9f76cd9_0.tar.bz2":{
+"build":"h9f76cd9_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"MIT",
+"name":"expat",
+"sha256":"f5aaad495191b09d0c7369b61a4f5463c229d62f6ad2b72f159e44450704d6a6",
+"size":136547,
+"timestamp":1616693031704,
+"version":"2.3.0"
+},
 "expat-2.4.1-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
 "build_number":0,
@@ -24813,6 +24826,22 @@
 "sha256":"68236e898d25860e64242ec5ebd75969cab630d2f684c3b956777f5798878e6c",
 "size":475919,
 "timestamp":1612881466261,
+"version":"1.3.0"
+},
+"libkml-1.3.0-h893ab4d_1014.tar.bz2":{
+"build":"h893ab4d_1014",
+"build_number":1014,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"expat >=2.3.0,<2.4.0a0",
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libkml",
+"sha256":"48f5ee0b8a22f1673d79b059ef05082486e78589c9d186203f4cc62bbf0f5e64",
+"size":477647,
+"timestamp":1626544665131,
 "version":"1.3.0"
 },
 "liblapack-3.9.0-0_h2ec9a88_netlib.tar.bz2":{
