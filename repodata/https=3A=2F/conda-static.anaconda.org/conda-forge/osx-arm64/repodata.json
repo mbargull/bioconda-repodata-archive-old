@@ -13076,6 +13076,22 @@
 "timestamp":1614105405427,
 "version":"0.2.6"
 },
+"aws-c-event-stream-0.2.7-h126760f_19.tar.bz2":{
+"build":"h126760f_19",
+"build_number":19,
+"depends":[
+"aws-c-common >=0.6.8,<0.6.9.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"520f53d7b3146e9c4d0174b021ade6f7870fd846f28aa9cc5bfca9ff3124ce10",
+"size":42494,
+"timestamp":1626625839358,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-h21752da_16.tar.bz2":{
 "build":"h21752da_16",
 "build_number":16,
@@ -13589,6 +13605,21 @@
 "size":130902,
 "timestamp":1625064172136,
 "version":"0.6.4"
+},
+"aws-c-http-0.6.5-ha7105b0_2.tar.bz2":{
+"build":"ha7105b0_2",
+"build_number":2,
+"depends":[
+"aws-c-common >=0.6.8,<0.6.9.0a0",
+"aws-c-compression >=0.2.13,<0.2.14.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"sha256":"ae4613144f86ff69101b13eb9c20ce1baee70874e34785d1c65fb681d530caa0",
+"size":130920,
+"timestamp":1626625790724,
+"version":"0.6.5"
 },
 "aws-c-http-0.6.5-hf9ae274_1.tar.bz2":{
 "build":"hf9ae274_1",
@@ -81115,6 +81146,40 @@
 "sha256":"362f6ce26b4f696e8c08d4b6db30843211101ee78aa7c8fb1b19991a5f5e9775",
 "size":5027913,
 "timestamp":1610324920543,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py38hbf7bb01_1.tar.bz2":{
+"build":"py38hbf7bb01_1",
+"build_number":1,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"c0c97495b4b04d6af8f7ad5fe688fb4e17615f2daabe2c4def6bcbcbe448022e",
+"size":5015283,
+"timestamp":1626626313255,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py39h1f3b974_1.tar.bz2":{
+"build":"py39h1f3b974_1",
+"build_number":1,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"6984336425c7c3e1b30335499e2bd96dbafd4a8b25bbe387531ec3e56042d81a",
+"size":4969290,
+"timestamp":1626626269527,
 "version":"1.19.5"
 },
 "numpy-1.19.5-py39h69a04d8_0.tar.bz2":{
