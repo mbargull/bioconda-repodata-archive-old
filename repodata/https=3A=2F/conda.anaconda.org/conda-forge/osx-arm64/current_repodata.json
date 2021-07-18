@@ -19637,7 +19637,7 @@
 "timestamp":1623997385823,
 "version":"2021.6.8"
 },
-"imagemagick-7.1.0_2-pl5321hc21dce0_0.tar.bz2":{
+"imagemagick-7.1.0_3-pl5321hc21dce0_0.tar.bz2":{
 "build":"pl5321hc21dce0_0",
 "build_number":0,
 "depends":[
@@ -19661,7 +19661,7 @@
 "libwebp-base >=1.2.0,<2.0a0",
 "libxml2 >=2.9.12,<2.10.0a0",
 "openjpeg >=2.4.0,<2.5.0a0",
-"pango >=1.48.5,<1.49.0a0",
+"pango >=1.48.7,<1.49.0a0",
 "perl *",
 "perl >=5.32.1,<5.33.0a0 *_perl5",
 "pkg-config",
@@ -19674,10 +19674,10 @@
 ],
 "license":"ImageMagick",
 "name":"imagemagick",
-"sha256":"ed1a4d2f322a5226d1349ef06301a9c4d9d8a24dc06c75fc1d92e3c93aca98c2",
-"size":1970233,
-"timestamp":1624706603478,
-"version":"7.1.0_2"
+"sha256":"63c17c0aa14315c310aebeb58f0f6d80fbac152efd73c9db643d9d84a776e4ae",
+"size":1989636,
+"timestamp":1626599578746,
+"version":"7.1.0_3"
 },
 "iminuit-2.7.0-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",
@@ -24391,6 +24391,23 @@
 "sha256":"779738bfe46b6ffb260814b5c4de38b21d0224b23e2212c94dc3b5f87c9abf2e",
 "size":935659,
 "timestamp":1626132625923,
+"version":"7.1.0"
+},
+"libignition-msgs7-7.1.0-h35aa742_3.tar.bz2":{
+"build":"h35aa742_3",
+"build_number":3,
+"depends":[
+"libcxx >=11.1.0",
+"libignition-math6 >=6.8.0,<7.0a0",
+"libignition-tools1 >=1.2.0,<2.0a0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"tinyxml2 >=9.0.0,<10.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-msgs7",
+"sha256":"9704b49c32a944a928167de87670c7e59e99d2a64419776f080e3ba4d51d2874",
+"size":934552,
+"timestamp":1626598683533,
 "version":"7.1.0"
 },
 "libignition-plugin1-1.2.0-hbdafb3b_0.tar.bz2":{
