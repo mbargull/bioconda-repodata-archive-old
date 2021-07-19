@@ -62203,6 +62203,22 @@
 "timestamp":1626406404849,
 "version":"1.8"
 },
+"libdrs-3.1.2-h4ef1a4d_115.tar.bz2":{
+"build":"h4ef1a4d_115",
+"build_number":115,
+"depends":[
+"g2clib",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"libnetcdf >=4.8.0,<4.8.1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libdrs",
+"sha256":"9a624a4b30c174775f621fd3a84985d299ad0bcc8103074df4680b5536991855",
+"size":181292,
+"timestamp":1626680738054,
+"version":"3.1.2"
+},
 "libedit-3.1.20191231-hc8eb9b7_2.tar.bz2":{
 "build":"hc8eb9b7_2",
 "build_number":2,
@@ -81207,6 +81223,23 @@
 "timestamp":1626626313255,
 "version":"1.19.5"
 },
+"numpy-1.19.5-py38hbf7bb01_2.tar.bz2":{
+"build":"py38hbf7bb01_2",
+"build_number":2,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"c10d262f96ebbe60d44b43046ff9becee1a1fd4bab5ee079993dae9bcd304949",
+"size":5015220,
+"timestamp":1626682708555,
+"version":"1.19.5"
+},
 "numpy-1.19.5-py39h1f3b974_1.tar.bz2":{
 "build":"py39h1f3b974_1",
 "build_number":1,
@@ -81222,6 +81255,23 @@
 "sha256":"6984336425c7c3e1b30335499e2bd96dbafd4a8b25bbe387531ec3e56042d81a",
 "size":4969290,
 "timestamp":1626626269527,
+"version":"1.19.5"
+},
+"numpy-1.19.5-py39h1f3b974_2.tar.bz2":{
+"build":"py39h1f3b974_2",
+"build_number":2,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"fb98f0207bf48aba8e3544a453b4af16c99acbc506a0bc98af65b0f2cf57f4e3",
+"size":4986698,
+"timestamp":1626682669790,
 "version":"1.19.5"
 },
 "numpy-1.19.5-py39h69a04d8_0.tar.bz2":{
