@@ -29603,6 +29603,38 @@
 "timestamp":1624348804308,
 "version":"1.14.5"
 },
+"cppyy-backend-1.14.6-py38h1670459_0.tar.bz2":{
+"build":"py38h1670459_0",
+"build_number":0,
+"depends":[
+"cppyy-cling 6.25.1.*",
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"cppyy-backend",
+"requires":[],
+"size":68805,
+"timestamp":1626711235935,
+"version":"1.14.6"
+},
+"cppyy-backend-1.14.6-py39h4d2d688_0.tar.bz2":{
+"build":"py39h4d2d688_0",
+"build_number":0,
+"depends":[
+"cppyy-cling 6.25.1.*",
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"cppyy-backend",
+"requires":[],
+"size":69012,
+"timestamp":1626711284542,
+"version":"1.14.6"
+},
 "cppyy-cling-6.25.0-py38h6afda19_0.tar.bz2":{
 "build":"py38h6afda19_0",
 "build_number":0,
@@ -29748,6 +29780,38 @@
 "size":261873,
 "timestamp":1624356398259,
 "version":"1.12.6"
+},
+"cpycppyy-1.12.7-py38h1670459_0.tar.bz2":{
+"build":"py38h1670459_0",
+"build_number":0,
+"depends":[
+"cppyy-backend 1.14.*",
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"cpycppyy",
+"requires":[],
+"size":270480,
+"timestamp":1626711364371,
+"version":"1.12.7"
+},
+"cpycppyy-1.12.7-py39h4d2d688_0.tar.bz2":{
+"build":"py39h4d2d688_0",
+"build_number":0,
+"depends":[
+"cppyy-backend 1.14.*",
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"cpycppyy",
+"requires":[],
+"size":268271,
+"timestamp":1626711575204,
+"version":"1.12.7"
 },
 "cramjam-2.3.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -36817,6 +36881,25 @@
 "timestamp":1626469345174,
 "version":"0.7.0"
 },
+"fastparquet-0.7.0-py38h691f20f_1.tar.bz2":{
+"build":"py38h691f20f_1",
+"build_number":1,
+"depends":[
+"cramjam >=2.3.0",
+"fsspec",
+"numpy",
+"pandas >=1.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"thrift >=0.11"
+],
+"license":"BSD-3-Clause",
+"name":"fastparquet",
+"requires":[],
+"size":472760,
+"timestamp":1626709368220,
+"version":"0.7.0"
+},
 "fastparquet-0.7.0-py39h20ef057_0.tar.bz2":{
 "build":"py39h20ef057_0",
 "build_number":0,
@@ -36834,6 +36917,25 @@
 "requires":[],
 "size":477075,
 "timestamp":1626469365893,
+"version":"0.7.0"
+},
+"fastparquet-0.7.0-py39h20ef057_1.tar.bz2":{
+"build":"py39h20ef057_1",
+"build_number":1,
+"depends":[
+"cramjam >=2.3.0",
+"fsspec",
+"numpy",
+"pandas >=1.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"thrift >=0.11"
+],
+"license":"BSD-3-Clause",
+"name":"fastparquet",
+"requires":[],
+"size":473578,
+"timestamp":1626709175973,
 "version":"0.7.0"
 },
 "fcl-0.6.1-hda9dc21_3.tar.bz2":{
