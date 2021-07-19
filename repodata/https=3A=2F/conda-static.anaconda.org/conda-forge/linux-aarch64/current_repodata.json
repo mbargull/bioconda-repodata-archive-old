@@ -59704,30 +59704,9 @@
 "timestamp":1624578495196,
 "version":"3.2.0"
 },
-"libignition-physics4-4.0.0-h01db608_0.tar.bz2":{
+"libignition-physics4-4.1.0-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
 "build_number":0,
-"depends":[
-"dartsim >=6.10.1,<6.11.0a0",
-"libgcc-ng >=9.3.0",
-"libignition-cmake2 >=2.8.0,<3.0a0",
-"libignition-common4 >=4.0.0,<5.0a0",
-"libignition-math6 >=6.8.0,<7.0a0",
-"libignition-plugin1 >=1.2.0,<2.0a0",
-"libignition-utils1 >=1.0.0,<2.0a0",
-"libsdformat11 >=11.1.0,<12.0a0",
-"libstdcxx-ng >=9.3.0"
-],
-"license":"Apache-2.0",
-"name":"libignition-physics4",
-"sha256":"2bcbfbb63e288d9869c3c761e0c3a0b8dd690627d68e06d19e58c2df8267fe6d",
-"size":1223462,
-"timestamp":1624581755291,
-"version":"4.0.0"
-},
-"libignition-physics4-4.0.0-h01db608_1.tar.bz2":{
-"build":"h01db608_1",
-"build_number":1,
 "depends":[
 "dartsim >=6.10.1,<6.11.0a0",
 "libgcc-ng >=9.3.0",
@@ -59741,10 +59720,10 @@
 ],
 "license":"Apache-2.0",
 "name":"libignition-physics4",
-"sha256":"c1c69071a0f2ec045651197292644a8aed8684233ae0219872247129ad75cbe4",
-"size":1233338,
-"timestamp":1626637465628,
-"version":"4.0.0"
+"sha256":"234fa8ecbd2ae1542aea2a679a2fc6b3720a102cb1b481c42c2de548da9a2f01",
+"size":1234931,
+"timestamp":1626653320066,
+"version":"4.1.0"
 },
 "libignition-plugin1-1.2.0-h01db608_0.tar.bz2":{
 "build":"h01db608_0",
@@ -75470,6 +75449,28 @@
 "timestamp":1610332534265,
 "version":"1.19.5"
 },
+"numpy-1.21.1-py37h541a193_0.tar.bz2":{
+"build":"py37h541a193_0",
+"build_number":0,
+"constrains":[
+"numpy-base <0a0"
+],
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"b9ef954b66e293ee9dd64565bbcdf83b1f13c6cb141ac2213597399a8915a57d",
+"size":6155950,
+"timestamp":1626652532003,
+"version":"1.21.1"
+},
 "numpy-1.21.1-py37h603c2a0_0.tar.bz2":{
 "build":"py37h603c2a0_0",
 "build_number":0,
@@ -75510,6 +75511,27 @@
 "sha256":"02f6b0ba4afa5fe82676889847483577ba7d1911732d410a0744a9471038805b",
 "size":6369404,
 "timestamp":1626650573563,
+"version":"1.21.1"
+},
+"numpy-1.21.1-py39h43e3299_0.tar.bz2":{
+"build":"py39h43e3299_0",
+"build_number":0,
+"constrains":[
+"numpy-base <0a0"
+],
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libcblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"numpy",
+"sha256":"f6318cb667b436df0f9fa63c29eb3e1a7fbf3b6023a922c57ff4f98d30bd0c57",
+"size":6384800,
+"timestamp":1626653681624,
 "version":"1.21.1"
 },
 "numpy-stl-2.16.0-py36h1215cef_0.tar.bz2":{
