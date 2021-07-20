@@ -58986,64 +58986,77 @@
 "timestamp":1618264415749,
 "version":"1.2.4"
 },
-"pandas-1.2.5-py37h295c915_0.conda":{
+"pandas-1.3.0-py37h295c915_0.conda":{
 "build":"py37h295c915_0",
 "build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"numpy >=1.20.2,<2.0a0",
-"python >=3.7,<3.8.0a0",
-"python-dateutil >=2.7.3",
-"pytz >=2017.3"
+"constrains":[
+"python !=3.7.0"
 ],
-"legacy_bz2_md5":"82d29491a096ee67d0f733a2d98244de",
-"license":"BSD-3-Clause",
-"name":"pandas",
-"sha256":"10db65bcf3e66d5f954b257b22a1ad1a5db97018c5fb18a1d85230e27971a774",
-"size":8930982,
-"timestamp":1624383818563,
-"version":"1.2.5"
-},
-"pandas-1.2.5-py38h295c915_0.conda":{
-"build":"py38h295c915_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libstdcxx-ng >=7.5.0",
-"numpy >=1.20.2,<2.0a0",
-"python >=3.8,<3.9.0a0",
-"python-dateutil >=2.7.3",
-"pytz >=2017.3"
-],
-"legacy_bz2_md5":"ac471cb84661b1e404b4e5565768af67",
-"license":"BSD-3-Clause",
-"name":"pandas",
-"sha256":"bcdbb1866a8dd46e5df4b866a019c4decaa68a7c509bf3dbb0c5df556d297be0",
-"size":9254935,
-"timestamp":1624383783215,
-"version":"1.2.5"
-},
-"pandas-1.2.5-py39h295c915_0.conda":{
-"build":"py39h295c915_0",
-"build_number":0,
 "depends":[
 "bottleneck >=1.2.1",
 "libgcc-ng >=7.5.0",
 "libstdcxx-ng >=7.5.0",
-"numexpr >=2.6.8",
-"numpy >=1.20.2,<2.0a0",
+"numexpr >=2.7.0",
+"numpy >=1.20.3,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python-dateutil >=2.7.3",
+"pytz >=2017.3"
+],
+"legacy_bz2_md5":"ec1af8ae6b5dcdf212b096de685e4d05",
+"license":"BSD-3-Clause",
+"name":"pandas",
+"sha256":"87bd65fc716dcad855fb552517aab3eceecd8cdac0499a000f0690a800a17fcc",
+"size":9676585,
+"timestamp":1626783937717,
+"version":"1.3.0"
+},
+"pandas-1.3.0-py38h295c915_0.conda":{
+"build":"py38h295c915_0",
+"build_number":0,
+"constrains":[
+"python !=3.7.0"
+],
+"depends":[
+"bottleneck >=1.2.1",
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0",
+"numexpr >=2.7.0",
+"numpy >=1.20.3,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python-dateutil >=2.7.3",
+"pytz >=2017.3"
+],
+"legacy_bz2_md5":"da4cbb371c078b31ae6dd6d55f0cbe6f",
+"license":"BSD-3-Clause",
+"name":"pandas",
+"sha256":"a0c72c7da76dcd5950412da17c437b54f84f84958f789e5b337bd9a56b6868d3",
+"size":10048852,
+"timestamp":1626777057769,
+"version":"1.3.0"
+},
+"pandas-1.3.0-py39h295c915_0.conda":{
+"build":"py39h295c915_0",
+"build_number":0,
+"constrains":[
+"python !=3.7.0"
+],
+"depends":[
+"bottleneck >=1.2.1",
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0",
+"numexpr >=2.7.0",
+"numpy >=1.20.3,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python-dateutil >=2.7.3",
 "pytz >=2017.3"
 ],
-"legacy_bz2_md5":"58489ffc1b33e139e8b58288eaee7aef",
+"legacy_bz2_md5":"4bdc82ea7d6a29377f8f151d75cdacb6",
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"7508aae7943b38bb440ddf826d247a3f953b158eef16ce7365df7c487b0bb87c",
-"size":9300643,
-"timestamp":1624465755690,
-"version":"1.2.5"
+"sha256":"634ff6c911edd034a112419cb14f03c88b73c86304155e4e46b13e16c0f8e2f5",
+"size":10038227,
+"timestamp":1626784423334,
+"version":"1.3.0"
 },
 "pandas-datareader-0.7.0-py27_0.conda":{
 "build":"py27_0",

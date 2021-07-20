@@ -41907,61 +41907,74 @@
 "timestamp":1618264637963,
 "version":"1.2.4"
 },
-"pandas-1.2.5-py37h29c3540_0.tar.bz2":{
+"pandas-1.3.0-py37h29c3540_0.tar.bz2":{
 "build":"py37h29c3540_0",
 "build_number":0,
+"constrains":[
+"python !=3.7.0"
+],
 "depends":[
+"bottleneck >=1.2.1",
 "libgcc-ng >=7.3.0",
 "libstdcxx-ng >=7.3.0",
-"numpy >=1.20.2,<2.0a0",
+"numexpr >=2.7.0",
+"numpy >=1.20.3,<2.0a0",
 "python >=3.7,<3.8.0a0",
 "python-dateutil >=2.7.3",
 "pytz >=2017.3"
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"f306c981f3f868be6c5feb843482a5699633e7399f04ea2f57a345e80d2296d8",
-"size":11421573,
-"timestamp":1624383971880,
-"version":"1.2.5"
+"sha256":"7eb9a95d6dc4435c83e068566ad20f719db46136898f83404a9cdb222e8e815d",
+"size":12424368,
+"timestamp":1626784561547,
+"version":"1.3.0"
 },
-"pandas-1.2.5-py38h29c3540_0.tar.bz2":{
+"pandas-1.3.0-py38h29c3540_0.tar.bz2":{
 "build":"py38h29c3540_0",
 "build_number":0,
+"constrains":[
+"python !=3.7.0"
+],
 "depends":[
+"bottleneck >=1.2.1",
 "libgcc-ng >=7.3.0",
 "libstdcxx-ng >=7.3.0",
-"numpy >=1.20.2,<2.0a0",
+"numexpr >=2.7.0",
+"numpy >=1.20.3,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "python-dateutil >=2.7.3",
 "pytz >=2017.3"
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"111c9ba7d4b8b55a2262c1af32b4b14c0f5e984e40385e6e089f47abc95d3614",
-"size":11756485,
-"timestamp":1624383898658,
-"version":"1.2.5"
+"sha256":"0b8234fd2d9caa41b2eeeb0cf66c0ddec07f0450866450f2db0d244d9bf24c40",
+"size":12693744,
+"timestamp":1626784520144,
+"version":"1.3.0"
 },
-"pandas-1.2.5-py39h29c3540_0.tar.bz2":{
+"pandas-1.3.0-py39h29c3540_0.tar.bz2":{
 "build":"py39h29c3540_0",
 "build_number":0,
+"constrains":[
+"python !=3.7.0"
+],
 "depends":[
 "bottleneck >=1.2.1",
 "libgcc-ng >=7.3.0",
 "libstdcxx-ng >=7.3.0",
-"numexpr >=2.6.8",
-"numpy >=1.20.2,<2.0a0",
+"numexpr >=2.7.0",
+"numpy >=1.20.3,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "python-dateutil >=2.7.3",
 "pytz >=2017.3"
 ],
 "license":"BSD-3-Clause",
 "name":"pandas",
-"sha256":"d65fa7c049319e542cd5640d88581b46334a0e95fd830a5a50f447344a053077",
-"size":11784552,
-"timestamp":1624466170810,
-"version":"1.2.5"
+"sha256":"ac417146f49e42cfaf67778ba771f7baf79d2c6fcf58b8163678cfde8a207b41",
+"size":12700509,
+"timestamp":1626785043864,
+"version":"1.3.0"
 },
 "pandas-datareader-0.7.0-py27_0.tar.bz2":{
 "build":"py27_0",
