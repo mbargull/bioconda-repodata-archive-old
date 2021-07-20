@@ -11548,7 +11548,7 @@
 "timestamp":1623109147573,
 "version":"2.5.8"
 },
-"astroid-2.6.3-py36h270354c_0.tar.bz2":{
+"astroid-2.6.4-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
@@ -11562,12 +11562,12 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"8f935badc96ce2ab75df113c1b4534dadfbd776259bd0c22bcdadc512145f0ab",
-"size":323468,
-"timestamp":1626734371389,
-"version":"2.6.3"
+"sha256":"14da833b88c4acc643ce8093198f861c700252a903cf6b6bcd41feca1aa3b7ce",
+"size":325289,
+"timestamp":1626737923940,
+"version":"2.6.4"
 },
-"astroid-2.6.3-py37h35e4cab_0.tar.bz2":{
+"astroid-2.6.4-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -11581,12 +11581,12 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"ea864bedd9a85aaced8f9f866379424a1c88c0656cdd39948643b9658fc1cc66",
-"size":325209,
-"timestamp":1626734393578,
-"version":"2.6.3"
+"sha256":"b4a2b30ff6a9a6382642a95942353736c0b0e4d5ef5b9d8a84e6f6c8968dc110",
+"size":324479,
+"timestamp":1626737546069,
+"version":"2.6.4"
 },
-"astroid-2.6.3-py38hf8b3453_0.tar.bz2":{
+"astroid-2.6.4-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
@@ -11598,12 +11598,12 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"5ade46a1df9c77270c0e0ea611b9c5dff73e51628a0b725e1957213aa4cd27de",
-"size":332940,
-"timestamp":1626734362993,
-"version":"2.6.3"
+"sha256":"275901584cc31493027c9a12e966d983a9df3ef5774f39c21cd12a8a978ff722",
+"size":333338,
+"timestamp":1626737528533,
+"version":"2.6.4"
 },
-"astroid-2.6.3-py39hc1b9086_0.tar.bz2":{
+"astroid-2.6.4-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
@@ -11615,10 +11615,10 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"652e5019098795f7b14b6da59b15ee9423992483ed2f5aaa46fee573b57866d6",
-"size":335073,
-"timestamp":1626733937110,
-"version":"2.6.3"
+"sha256":"c05b38b9dd543d470e57ce3a3af4e800981faa2bfbd63fad55126ce97ef95d01",
+"size":332344,
+"timestamp":1626737914050,
+"version":"2.6.4"
 },
 "astropy-4.2.1-py37h290ce0f_0.tar.bz2":{
 "build":"py37h290ce0f_0",
@@ -14747,6 +14747,29 @@
 "timestamp":1625878704931,
 "version":"0.14.3"
 },
+"aws-crt-cpp-0.14.4-hfeb2947_0.tar.bz2":{
+"build":"hfeb2947_0",
+"build_number":0,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.22,<0.1.23.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"sha256":"43985fbd5edac6970e13b85a68496497f1101f81a7b643f36cc2f2c8a45cabf3",
+"size":193996,
+"timestamp":1626742892797,
+"version":"0.14.4"
+},
 "aws-sdk-cpp-1.8.186-h461b822_1.tar.bz2":{
 "build":"h461b822_1",
 "build_number":1,
@@ -14838,11 +14861,11 @@
 "timestamp":1626592067683,
 "version":"1.9.61"
 },
-"awscli-1.20.1-py36h270354c_0.tar.bz2":{
+"awscli-1.20.2-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
 "depends":[
-"botocore 1.21.1",
+"botocore 1.21.2",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.6,<3.7.0a0",
@@ -14853,16 +14876,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"ca373cb6c5b1838cd7047d1e610d31193d2531ac99a8c65f53c10988cff92167",
-"size":1946525,
-"timestamp":1626484392408,
-"version":"1.20.1"
+"sha256":"bcb1741d577bdd5ae45daee935dd9c7dab46bb3ffafd9119fc9a5eb4c39ceeb8",
+"size":1948108,
+"timestamp":1626740344188,
+"version":"1.20.2"
 },
-"awscli-1.20.1-py37h35e4cab_0.tar.bz2":{
+"awscli-1.20.2-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
-"botocore 1.21.1",
+"botocore 1.21.2",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.7,<3.8.0a0",
@@ -14873,16 +14896,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"ab9460dbe94b15928126b689e894ffe7a414972b8acfb42b0e5f80654d512883",
-"size":1951096,
-"timestamp":1626484240490,
-"version":"1.20.1"
+"sha256":"d9ba42f7030e97d3cf868be7f052e503a1c484efaaed3e099461773dd551c507",
+"size":1943311,
+"timestamp":1626740550444,
+"version":"1.20.2"
 },
-"awscli-1.20.1-py37hadc05a3_0.tar.bz2":{
+"awscli-1.20.2-py37hadc05a3_0.tar.bz2":{
 "build":"py37hadc05a3_0",
 "build_number":0,
 "depends":[
-"botocore 1.21.1",
+"botocore 1.21.2",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "pypy3.7 >=7.3.5",
@@ -14894,16 +14917,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"efc9d9f903cd3787fed8b858165d6260afc6c730ebcdc0b24bcb6894c66cab0d",
-"size":1939808,
-"timestamp":1626484305456,
-"version":"1.20.1"
+"sha256":"5c3ee259f3c26d89fba38acbc500c20d2334855bda1b4f54978f3413f7f25fa2",
+"size":1955402,
+"timestamp":1626740380558,
+"version":"1.20.2"
 },
-"awscli-1.20.1-py38hf8b3453_0.tar.bz2":{
+"awscli-1.20.2-py38hf8b3453_0.tar.bz2":{
 "build":"py38hf8b3453_0",
 "build_number":0,
 "depends":[
-"botocore 1.21.1",
+"botocore 1.21.2",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.8,<3.9.0a0",
@@ -14914,16 +14937,16 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"425da8c9f4ffe465ca2ccf9e5942733338dccf8dbbcf329a7e76b650f2199a6c",
-"size":1936407,
-"timestamp":1626484235734,
-"version":"1.20.1"
+"sha256":"606c807564cdce0ab97ebe8291520932ecff6c3e3c70e1b18d4995a50db0faae",
+"size":1941604,
+"timestamp":1626740531879,
+"version":"1.20.2"
 },
-"awscli-1.20.1-py39hc1b9086_0.tar.bz2":{
+"awscli-1.20.2-py39hc1b9086_0.tar.bz2":{
 "build":"py39hc1b9086_0",
 "build_number":0,
 "depends":[
-"botocore 1.21.1",
+"botocore 1.21.2",
 "colorama >=0.2.5,<0.4.4",
 "docutils >=0.10,<0.16",
 "python >=3.9,<3.10.0a0",
@@ -14934,10 +14957,10 @@
 ],
 "license":"Apache-2.0",
 "name":"awscli",
-"sha256":"3dcbf0c8f1934a818300d6031e6dc8889b725bdf6a81acbc1087a25d83e7031d",
-"size":1952470,
-"timestamp":1626484325405,
-"version":"1.20.1"
+"sha256":"abcf32c9f8f308178e4f5a52c642457a30cec493b25f33c7d4cec60deff64d93",
+"size":1936526,
+"timestamp":1626740559620,
+"version":"1.20.2"
 },
 "awscrt-0.11.25-py36h0f52f65_5.tar.bz2":{
 "build":"py36h0f52f65_5",
