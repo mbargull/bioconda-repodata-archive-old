@@ -8207,7 +8207,7 @@
 "timestamp":1623109903892,
 "version":"2.5.8"
 },
-"astroid-2.6.4-py36h704843e_0.tar.bz2":{
+"astroid-2.6.5-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "depends":[
@@ -8221,12 +8221,12 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"8b219fcf34408db5ecd291c44ef937f02b6880e8f0768eada662cb49932bb204",
-"size":328120,
-"timestamp":1626737715895,
-"version":"2.6.4"
+"sha256":"ec278855d6b748cb58bb97554ea54de1b04f76d522f15040974792eb3092f91d",
+"size":324936,
+"timestamp":1626857677812,
+"version":"2.6.5"
 },
-"astroid-2.6.4-py37hd9ded2f_0.tar.bz2":{
+"astroid-2.6.5-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "depends":[
@@ -8240,12 +8240,12 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"227b17a8074f29fabfa7cbeb513f0f3d903f83b5d3383516bb66bca17ec7d7fe",
-"size":325042,
-"timestamp":1626738034998,
-"version":"2.6.4"
+"sha256":"0fc6af3be15a14a9a4b3a12ada684d24b1b8cfbd874bce66692db6bc2f4cabd4",
+"size":326981,
+"timestamp":1626858306156,
+"version":"2.6.5"
 },
-"astroid-2.6.4-py38h2063c64_0.tar.bz2":{
+"astroid-2.6.5-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "depends":[
@@ -8257,12 +8257,12 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"f203adc17548f29b27700f84e1f99da89ee0c8b39243be0ec92b4704f29b340d",
-"size":325579,
-"timestamp":1626738259216,
-"version":"2.6.4"
+"sha256":"301b7a4384de6d6f6a8fbbc6042d965782f20914f1725cacca30f5c82d8dd608",
+"size":325920,
+"timestamp":1626858603841,
+"version":"2.6.5"
 },
-"astroid-2.6.4-py39ha65689a_0.tar.bz2":{
+"astroid-2.6.5-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "depends":[
@@ -8274,10 +8274,10 @@
 ],
 "license":"LGPL-2.1-or-later",
 "name":"astroid",
-"sha256":"a2f806f9a66e14dabe1b2a50d23d399035adb5d8267a16c2ae2df2ffc6b87a5c",
-"size":325879,
-"timestamp":1626738497551,
-"version":"2.6.4"
+"sha256":"2aa62372697d9f0acc7e64c38f97f28d85a9c8fe9dd9e8fabf5e2cee3d6842bd",
+"size":326143,
+"timestamp":1626859140598,
+"version":"2.6.5"
 },
 "astropy-4.2.1-py37h9d4e727_0.tar.bz2":{
 "build":"py37h9d4e727_0",
@@ -79213,6 +79213,22 @@
 "timestamp":1626702910014,
 "version":"0.6.4"
 },
+"osqp-eigen-0.6.4-h01db608_1.tar.bz2":{
+"build":"h01db608_1",
+"build_number":1,
+"depends":[
+"eigen",
+"libgcc-ng >=9.3.0",
+"libosqp >=0.6.2,<0.6.3.0a0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"osqp-eigen",
+"sha256":"00c022081205f2e47fbbe5462fac89f900545aa1cde6813eee3332bae1bb551d",
+"size":34785,
+"timestamp":1626860323762,
+"version":"0.6.4"
+},
 "palp-2.20-h516909a_0.tar.bz2":{
 "build":"h516909a_0",
 "build_number":0,
@@ -112035,6 +112051,38 @@
 "timestamp":1621758143114,
 "version":"2.3.3"
 },
+"r-tzdb-0.1.2-r40hecdc70b_0.tar.bz2":{
+"build":"r40hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.0,<4.1.0a0",
+"r-cpp11 >=0.2.7"
+],
+"license":"MIT",
+"name":"r-tzdb",
+"sha256":"fc70b68825871123f3595003c4c0eabc8778b8667e5f8d70be3bb1662cd51047",
+"size":515920,
+"timestamp":1626857337812,
+"version":"0.1.2"
+},
+"r-tzdb-0.1.2-r41hecdc70b_0.tar.bz2":{
+"build":"r41hecdc70b_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"r-base >=4.1,<4.2.0a0",
+"r-cpp11 >=0.2.7"
+],
+"license":"MIT",
+"name":"r-tzdb",
+"sha256":"c411fab58505ee0d3473cd771a79769cfcebeac1c4b1da15504b8c26bacb8eb2",
+"size":514500,
+"timestamp":1626857719144,
+"version":"0.1.2"
+},
 "r-ucminf-1.1_4-r36h283fcfe_1006.tar.bz2":{
 "build":"r36h283fcfe_1006",
 "build_number":1006,
@@ -125715,7 +125763,42 @@
 "timestamp":1626504764517,
 "version":"4.2.1"
 },
-"spacy-3.1.0-py37h2603c11_0.tar.bz2":{
+"spacy-3.1.1-py36h2e26b47_0.tar.bz2":{
+"build":"py36h2e26b47_0",
+"build_number":0,
+"depends":[
+"catalogue >=2.0.4,<2.1.0",
+"cymem >=2.0.2,<2.1.0",
+"cython-blis >=0.4.0,<0.8.0",
+"jinja2",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"murmurhash >=0.28.0,<1.1.0",
+"numpy >=1.17.5,<2.0a0",
+"packaging >=20.0",
+"pathy >=0.3.5",
+"preshed >=3.0.2,<3.1.0",
+"pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"requests >=2.13.0,<3.0.0",
+"setuptools",
+"spacy-legacy >=3.0.7,<3.1.0",
+"srsly >=2.4.1,<3.0.0",
+"thinc >=8.0.8,<8.1.0",
+"tqdm >=4.38.0,<5.0.0",
+"typer >=0.3.2,<0.4.0",
+"typing_extensions >=3.7.4,<4.0.0.0",
+"wasabi >=0.8.1,<1.1.0"
+],
+"license":"MIT",
+"name":"spacy",
+"sha256":"039a3547f0f3401bf347807aaeeba81f4bc88adaf9c4709d385fd5d07b99e2f1",
+"size":6446812,
+"timestamp":1626857048342,
+"version":"3.1.1"
+},
+"spacy-3.1.1-py37h2603c11_0.tar.bz2":{
 "build":"py37h2603c11_0",
 "build_number":0,
 "depends":[
@@ -125737,7 +125820,7 @@
 "setuptools",
 "spacy-legacy >=3.0.7,<3.1.0",
 "srsly >=2.4.1,<3.0.0",
-"thinc >=8.0.7,<8.1.0",
+"thinc >=8.0.8,<8.1.0",
 "tqdm >=4.38.0,<5.0.0",
 "typer >=0.3.2,<0.4.0",
 "typing_extensions >=3.7.4,<4.0.0.0",
@@ -125745,44 +125828,10 @@
 ],
 "license":"MIT",
 "name":"spacy",
-"sha256":"43f5ca0d4481aedf698262dd8574b81a98dd85d2201cd764b4571ca0f09e7e28",
-"size":6397802,
-"timestamp":1625737289615,
-"version":"3.1.0"
-},
-"spacy-3.1.0-py39h9f797f2_0.tar.bz2":{
-"build":"py39h9f797f2_0",
-"build_number":0,
-"depends":[
-"catalogue >=2.0.4,<2.1.0",
-"cymem >=2.0.2,<2.1.0",
-"cython-blis >=0.4.0,<0.8.0",
-"jinja2",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"murmurhash >=0.28.0,<1.1.0",
-"numpy >=1.19.5,<2.0a0",
-"packaging >=20.0",
-"pathy >=0.3.5",
-"preshed >=3.0.2,<3.1.0",
-"pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"requests >=2.13.0,<3.0.0",
-"setuptools",
-"spacy-legacy >=3.0.7,<3.1.0",
-"srsly >=2.4.1,<3.0.0",
-"thinc >=8.0.7,<8.1.0",
-"tqdm >=4.38.0,<5.0.0",
-"typer >=0.3.2,<0.4.0",
-"wasabi >=0.8.1,<1.1.0"
-],
-"license":"MIT",
-"name":"spacy",
-"sha256":"3ecb635c9f75a1956b8e43a75b89bd4cc2ed88d355534faffc98f4be3a85b7e9",
-"size":6410543,
-"timestamp":1625742896483,
-"version":"3.1.0"
+"sha256":"8ddb3f90fb6845bfb5a782c0620e449f4eab90d9d73509f4671f6eec1936d784",
+"size":6424086,
+"timestamp":1626859169353,
+"version":"3.1.1"
 },
 "spdlog-1.9.0-hd62202e_0.tar.bz2":{
 "build":"hd62202e_0",
