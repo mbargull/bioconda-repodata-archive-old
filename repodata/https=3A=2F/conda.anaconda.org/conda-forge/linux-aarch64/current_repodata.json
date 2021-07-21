@@ -12457,6 +12457,30 @@
 "timestamp":1625488487548,
 "version":"0.11.25"
 },
+"awscrt-0.11.25-py39h17e1590_6.tar.bz2":{
+"build":"py39h17e1590_6",
+"build_number":6,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.23,<0.1.24.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"s2n >=1.0.12,<1.0.13.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"2ac482cfc8288f11b52d0eda21da8f3cabdb5a2177c5c0e410705b7ebed5471d",
+"size":116345,
+"timestamp":1626879043697,
+"version":"0.11.25"
+},
 "awscrt-0.11.25-py39h6d382b4_4.tar.bz2":{
 "build":"py39h6d382b4_4",
 "build_number":4,
@@ -125262,6 +125286,44 @@
 "timestamp":1626869796349,
 "version":"2.5.0"
 },
+"snowflake-connector-python-2.5.0-py37h97768b0_0.tar.bz2":{
+"build":"py37h97768b0_0",
+"build_number":0,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=4.0.1,<4.0.2.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=4.0.1,<5.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"pytz",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"523ad35dc932dac1c9424ccb414c4d202cc75aae7369ae375a698ff5bfd4af88",
+"size":738402,
+"timestamp":1626878977477,
+"version":"2.5.0"
+},
 "snowflake-connector-python-2.5.0-py38h12bd739_0.tar.bz2":{
 "build":"py38h12bd739_0",
 "build_number":0,
@@ -125298,6 +125360,44 @@
 "sha256":"6d178e50f7a2fd097dba547c7cd4cb89d97bffb2f13fc529dcf9374f6a461aac",
 "size":739639,
 "timestamp":1626870646148,
+"version":"2.5.0"
+},
+"snowflake-connector-python-2.5.0-py38h92b7385_0.tar.bz2":{
+"build":"py38h92b7385_0",
+"build_number":0,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=4.0.1,<4.0.2.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=4.0.1,<5.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"81a2b6c2e7aeca2d1553b0d985282f8dad2c46aa9afe086d731f9f739c1f5228",
+"size":740147,
+"timestamp":1626879815619,
 "version":"2.5.0"
 },
 "snowflake-connector-python-2.5.0-py38h9b82312_0.tar.bz2":{
@@ -125374,6 +125474,44 @@
 "sha256":"b6797f7eaa7829d70b7fe244a665f0a0e9d3a2a2954bf692404e173ac80cd2df",
 "size":743516,
 "timestamp":1626872061692,
+"version":"2.5.0"
+},
+"snowflake-connector-python-2.5.0-py39h9d44bd9_0.tar.bz2":{
+"build":"py39h9d44bd9_0",
+"build_number":0,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=4.0.1,<4.0.2.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"oscrypto <2.0.0",
+"pyarrow >=4.0.1,<5.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytz",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"sha256":"07baee0a50ec97407352187460d9955e7c13ffea59efd943ea985994ac8394fa",
+"size":734834,
+"timestamp":1626880430021,
 "version":"2.5.0"
 },
 "snowflake-connector-python-2.5.0-py39hb93779c_0.tar.bz2":{
@@ -133077,7 +133215,7 @@
 "timestamp":1621892432511,
 "version":"20.4.7"
 },
-"vispy-0.7.2-py36h4984745_0.tar.bz2":{
+"vispy-0.7.3-py36h4984745_0.tar.bz2":{
 "build":"py36h4984745_0",
 "build_number":0,
 "depends":[
@@ -133093,12 +133231,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"vispy",
-"sha256":"7f83491e3c74016bf07ac599562fa8a31d8993e8905d8c418878777c298504c0",
-"size":2265895,
-"timestamp":1626798095010,
-"version":"0.7.2"
+"sha256":"0ebc2ae3f852dde47f71c0e81fea157dcf4127cd5d946e18696de5cd2ddf2cf4",
+"size":2308451,
+"timestamp":1626880042402,
+"version":"0.7.3"
 },
-"vispy-0.7.2-py37h242dec4_0.tar.bz2":{
+"vispy-0.7.3-py37h242dec4_0.tar.bz2":{
 "build":"py37h242dec4_0",
 "build_number":0,
 "depends":[
@@ -133114,12 +133252,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"vispy",
-"sha256":"ffeca344c7d41a1d278b389ad090cb2fc6266f4c527fd3247119edd5d1cd0018",
-"size":2268197,
-"timestamp":1626798114421,
-"version":"0.7.2"
+"sha256":"23d04e5886e429cab45e96b5ca45fd40b98c0d3678123036f6d2ea63a104eb8c",
+"size":2287424,
+"timestamp":1626880097420,
+"version":"0.7.3"
 },
-"vispy-0.7.2-py37ha51055b_0.tar.bz2":{
+"vispy-0.7.3-py37ha51055b_0.tar.bz2":{
 "build":"py37ha51055b_0",
 "build_number":0,
 "depends":[
@@ -133136,12 +133274,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"vispy",
-"sha256":"c631d718dafc3c397dce417cd5b06cc940730890706944a04b3059a8957cf165",
-"size":2325104,
-"timestamp":1626798628524,
-"version":"0.7.2"
+"sha256":"ef9e64a2111d08996ee027044c5ec580d581f7c3dc9c7013f83439357897b3bd",
+"size":2343458,
+"timestamp":1626880154433,
+"version":"0.7.3"
 },
-"vispy-0.7.2-py38h2f7c3d4_0.tar.bz2":{
+"vispy-0.7.3-py38h2f7c3d4_0.tar.bz2":{
 "build":"py38h2f7c3d4_0",
 "build_number":0,
 "depends":[
@@ -133157,12 +133295,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"vispy",
-"sha256":"043b69b1ba6d02df98e0ff318607254f6985d46d32f216cd7ff11c40f8c4fb10",
-"size":2329096,
-"timestamp":1626798524044,
-"version":"0.7.2"
+"sha256":"3c20102ad01106023cbb88d30d37892c7d0ffc0cadeda16aecef38704a1c727e",
+"size":2327680,
+"timestamp":1626880056803,
+"version":"0.7.3"
 },
-"vispy-0.7.2-py39h912b36b_0.tar.bz2":{
+"vispy-0.7.3-py39h912b36b_0.tar.bz2":{
 "build":"py39h912b36b_0",
 "build_number":0,
 "depends":[
@@ -133178,10 +133316,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"vispy",
-"sha256":"c9802367f3056d5fc30054bbaafd39cc5a89d0b021afdacbf207635f4d93790a",
-"size":2338795,
-"timestamp":1626798396109,
-"version":"0.7.2"
+"sha256":"d3152810bd3692ed88cccaa104d6078d4defc759bdd2005af18acbaf60bc5e5e",
+"size":2274370,
+"timestamp":1626880244705,
+"version":"0.7.3"
 },
 "viztracer-0.13.4-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
