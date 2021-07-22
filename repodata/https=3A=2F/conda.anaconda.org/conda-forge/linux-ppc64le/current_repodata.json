@@ -12645,6 +12645,23 @@
 "timestamp":1624749504215,
 "version":"0.6.1"
 },
+"aws-c-auth-0.6.1-hff27772_5.tar.bz2":{
+"build":"hff27772_5",
+"build_number":5,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.7,<0.6.8.0a0",
+"aws-c-http >=0.6.5,<0.6.6.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"7050bbc07826cd375aab7d85ea377ec9af8a5119d751450c5f788fd1d335fa4b",
+"size":116641,
+"timestamp":1626943273843,
+"version":"0.6.1"
+},
 "aws-c-cal-0.5.11-h3ccf61e_2.tar.bz2":{
 "build":"h3ccf61e_2",
 "build_number":2,
@@ -14396,6 +14413,22 @@
 "sha256":"f37e68abbc127169bcb6cf30d5b4e4bd99ac310e3da0dd926701e0e2bc531398",
 "size":62250,
 "timestamp":1620761407155,
+"version":"0.7.6"
+},
+"aws-c-mqtt-0.7.6-hf52fdbe_15.tar.bz2":{
+"build":"hf52fdbe_15",
+"build_number":15,
+"depends":[
+"aws-c-common >=0.6.7,<0.6.8.0a0",
+"aws-c-http >=0.6.5,<0.6.6.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"8f543be03cc98e538e1c9406d79bd9e1181fb69a2f7957cfc3737d6dd1374384",
+"size":62342,
+"timestamp":1626943519119,
 "version":"0.7.6"
 },
 "aws-c-s3-0.1.20-h73e240b_1.tar.bz2":{
@@ -65031,7 +65064,7 @@
 "cudatoolkit 10.2|10.2.*",
 "libgcc-ng >=8.4.0",
 "libstdcxx-ng >=8.4.0",
-"spdlog >=1.8.5,<2.0a0",
+"spdlog >=1.8.5,<1.9.0a0",
 "thrust >=1.9.0"
 ],
 "license":"Apache-2.0",
@@ -124080,6 +124113,20 @@
 "timestamp":1588764999992,
 "version":"1.8.5"
 },
+"spdlog-1.8.5-h2acdbc0_0.tar.bz2":{
+"build":"h2acdbc0_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"spdlog",
+"sha256":"2e2701d81eb55c7ba588fe0955d99299b62fcdd769f28656934ef290f62ef372",
+"size":358695,
+"timestamp":1624376647133,
+"version":"1.8.5"
+},
 "spdlog-1.9.0-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
 "build_number":0,
@@ -124092,6 +124139,20 @@
 "sha256":"dc46107a2d3ac7e781820ebb20cf722f2b62641ed08eaa0a00374be381810dd1",
 "size":350096,
 "timestamp":1626820199884,
+"version":"1.9.0"
+},
+"spdlog-1.9.0-h2acdbc0_1.tar.bz2":{
+"build":"h2acdbc0_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"MIT",
+"name":"spdlog",
+"sha256":"235893459be5495c51ef364f5ad8658f227cfd2c4c5902900abb5eb810d83af2",
+"size":349141,
+"timestamp":1626943968408,
 "version":"1.9.0"
 },
 "spyder-kernels-2.0.5-py36h270354c_0.tar.bz2":{
