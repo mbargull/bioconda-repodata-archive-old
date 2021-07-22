@@ -25574,24 +25574,7 @@
 "timestamp":1601404953372,
 "version":"2.47.12"
 },
-"debugpy-1.3.0-py36h143fd24_0.tar.bz2":{
-"build":"py36h143fd24_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73"
-],
-"license":"MIT",
-"name":"debugpy",
-"sha256":"8199b9a0d320757dc212900d4d4ffa92f64593ccaecfcaa4f30e6116a7c63825",
-"size":1978271,
-"timestamp":1620178678747,
-"version":"1.3.0"
-},
-"debugpy-1.3.0-py36h86e9a40_0.tar.bz2":{
+"debugpy-1.4.0-py36h86e9a40_0.tar.bz2":{
 "build":"py36h86e9a40_0",
 "build_number":0,
 "depends":[
@@ -25602,29 +25585,29 @@
 ],
 "license":"MIT",
 "name":"debugpy",
-"sha256":"ddfb00cea7d7e29d7b26e84ef7e6f457bc5e6d7129cb645815e1932311a34f96",
-"size":2062327,
-"timestamp":1620178689508,
-"version":"1.3.0"
+"sha256":"088cff6e0e7c04e43dc6ad4aa30bb9d328becf8bdf1dfcb88abc0fa962c2fee1",
+"size":2078890,
+"timestamp":1626905776669,
+"version":"1.4.0"
 },
-"debugpy-1.3.0-py37h5d5c557_0.tar.bz2":{
+"debugpy-1.4.0-py37h5d5c557_0.tar.bz2":{
 "build":"py37h5d5c557_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"MIT",
 "name":"debugpy",
-"sha256":"5afd0f44ac81d184308d4403a4e3ff651b9043d775e171c52c86ba12eef2622e",
-"size":1960567,
-"timestamp":1620178680772,
-"version":"1.3.0"
+"sha256":"c70608f17af869b00039a3999f13e65c0663984eab1ce21cecad972a43dadb3d",
+"size":1990167,
+"timestamp":1626906200587,
+"version":"1.4.0"
 },
-"debugpy-1.3.0-py37had24c86_0.tar.bz2":{
+"debugpy-1.4.0-py37had24c86_0.tar.bz2":{
 "build":"py37had24c86_0",
 "build_number":0,
 "depends":[
@@ -25635,28 +25618,12 @@
 ],
 "license":"MIT",
 "name":"debugpy",
-"sha256":"22f2648789672527e670d215e5eeeb4caed4591f6a3742a28e7334bacfd6af20",
-"size":2066598,
-"timestamp":1620179093229,
-"version":"1.3.0"
+"sha256":"9a8028ff8173462e94ee1a479644276933c266c1ee2d3c54fbfc3c2405384cd0",
+"size":2076630,
+"timestamp":1626907006601,
+"version":"1.4.0"
 },
-"debugpy-1.3.0-py38h0119ad3_0.tar.bz2":{
-"build":"py38h0119ad3_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"MIT",
-"name":"debugpy",
-"sha256":"964ab3e865b5682a7e893244f87a54122847c2fec99f578b40f00b90f6121b9b",
-"size":2088859,
-"timestamp":1620178677349,
-"version":"1.3.0"
-},
-"debugpy-1.3.0-py39h99ab00b_0.tar.bz2":{
+"debugpy-1.4.0-py39h99ab00b_0.tar.bz2":{
 "build":"py39h99ab00b_0",
 "build_number":0,
 "depends":[
@@ -25667,10 +25634,10 @@
 ],
 "license":"MIT",
 "name":"debugpy",
-"sha256":"8773d09fbb865a0647631e543dacf1c977c1d7214a63360477fad0a43741ea28",
-"size":2091105,
-"timestamp":1620179093855,
-"version":"1.3.0"
+"sha256":"29c730864988419650e78716c256030d0eada414352d7811092c894811603d72",
+"size":2100407,
+"timestamp":1626907492943,
+"version":"1.4.0"
 },
 "desktop-app-0.2.8-py36h143fd24_1.tar.bz2":{
 "build":"py36h143fd24_1",
@@ -141233,6 +141200,35 @@
 "timestamp":1625671358128,
 "version":"4.0.0"
 },
+"yt-4.0.0-py37h157fc04_1.tar.bz2":{
+"build":"py37h157fc04_1",
+"build_number":1,
+"depends":[
+"ipython >=1.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"matplotlib-base !=3.4.2,>=2.0.2,<3.6",
+"more-itertools >=8.4",
+"numpy >=1.10.4",
+"numpy >=1.19.5,<2.0a0",
+"packaging >=20.9",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"pyyaml >=4.2b1",
+"setuptools >=19.6",
+"sympy >=1.2",
+"toml >=0.10.2",
+"tqdm >=3.4.0",
+"unyt >=2.8.0"
+],
+"license":"BSD-3-Clause",
+"name":"yt",
+"sha256":"243a44eaa56e8519585599612fc11e5575eec2fff2d2e6c8a05ff3d0bdd38e77",
+"size":10971993,
+"timestamp":1626904247617,
+"version":"4.0.0"
+},
 "yt-4.0.0-py37ha200abb_0.tar.bz2":{
 "build":"py37ha200abb_0",
 "build_number":0,
@@ -141317,6 +141313,34 @@
 "timestamp":1625627198371,
 "version":"4.0.0"
 },
+"yt-4.0.0-py38hf2e80fd_1.tar.bz2":{
+"build":"py38hf2e80fd_1",
+"build_number":1,
+"depends":[
+"ipython >=1.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"matplotlib-base !=3.4.2,>=2.0.2,<3.6",
+"more-itertools >=8.4",
+"numpy >=1.10.4",
+"numpy >=1.17.5,<2.0a0",
+"packaging >=20.9",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml >=4.2b1",
+"setuptools >=19.6",
+"sympy >=1.2",
+"toml >=0.10.2",
+"tqdm >=3.4.0",
+"unyt >=2.8.0"
+],
+"license":"BSD-3-Clause",
+"name":"yt",
+"sha256":"e3e6cc6a2055a12a77180263aec52e92799bc109a3bf0939ae808d2c9b7c85c8",
+"size":11917996,
+"timestamp":1626903396318,
+"version":"4.0.0"
+},
 "yt-4.0.0-py39h7b4a2eb_0.tar.bz2":{
 "build":"py39h7b4a2eb_0",
 "build_number":0,
@@ -141343,6 +141367,34 @@
 "sha256":"6df7f6af90e552509b30a9a5e1701c33f8469bcf511941db310994567f7c91fe",
 "size":12108396,
 "timestamp":1625628508038,
+"version":"4.0.0"
+},
+"yt-4.0.0-py39h7b4a2eb_1.tar.bz2":{
+"build":"py39h7b4a2eb_1",
+"build_number":1,
+"depends":[
+"ipython >=1.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"matplotlib-base !=3.4.2,>=2.0.2,<3.6",
+"more-itertools >=8.4",
+"numpy >=1.10.4",
+"numpy >=1.19.5,<2.0a0",
+"packaging >=20.9",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=4.2b1",
+"setuptools >=19.6",
+"sympy >=1.2",
+"toml >=0.10.2",
+"tqdm >=3.4.0",
+"unyt >=2.8.0"
+],
+"license":"BSD-3-Clause",
+"name":"yt",
+"sha256":"8ddd9417d31e5d2ddf4d30f0319ee7ebbd19323bc3da515413303fd72b8e4263",
+"size":11531424,
+"timestamp":1626904783704,
 "version":"4.0.0"
 },
 "ytop-0.6.2-h516909a_0.tar.bz2":{
