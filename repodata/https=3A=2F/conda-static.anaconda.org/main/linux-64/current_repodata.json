@@ -25704,6 +25704,48 @@
 "timestamp":1567108307419,
 "version":"3.1.5"
 },
+"dpcpp-cpp-rt-2021.3.0-h06a4308_3350.tar.bz2":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[
+"intel-cmplr-lib-rt 2021.3.0 h06a4308_3350",
+"intel-cmplr-lic-rt 2021.3.0 h06a4308_3350",
+"intel-opencl-rt 2021.3.0 h06a4308_3350",
+"intel-openmp 2021.*"
+],
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"dpcpp-cpp-rt",
+"sha256":"84693e6510e2ad8eabad8c589cc24e703e7c853b9f7e40f83b6c73afea63c5b6",
+"size":1368024,
+"timestamp":1626976237193,
+"version":"2021.3.0"
+},
+"dpcpp_impl_linux-64-2021.3.0-h06a4308_3350.tar.bz2":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[
+"dpcpp-cpp-rt 2021.3.0 h06a4308_3350"
+],
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"dpcpp_impl_linux-64",
+"sha256":"fecd54f2940454c34357dad0b444092ddd2e99d59728e97d9dca0e0dea2cf8b2",
+"size":208982120,
+"timestamp":1626976374632,
+"version":"2021.3.0"
+},
+"dpcpp_linux-64-2021.3.0-h06a4308_3350.tar.bz2":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[
+"dpcpp_impl_linux-64 2021.3.0 h06a4308_3350"
+],
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"dpcpp_linux-64",
+"sha256":"1025fada01a9470dcd4055bed617f4eae1b7923f80f3b47a152ca588b51ae597",
+"size":28927,
+"timestamp":1626976548351,
+"version":"2021.3.0"
+},
 "drmaa-0.7.9-py27_0.tar.bz2":{
 "build":"py27_0",
 "build_number":0,
@@ -37006,6 +37048,58 @@
 "size":2705534,
 "timestamp":1548432622531,
 "version":"0.4.1"
+},
+"intel-cmplr-lib-rt-2021.3.0-h06a4308_3350.tar.bz2":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[],
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-cmplr-lib-rt",
+"sha256":"332eeecf88f6713a0052c578f9572e841a214b26e776896be9ead3d7161025cb",
+"size":28505631,
+"timestamp":1626976023087,
+"version":"2021.3.0"
+},
+"intel-cmplr-lic-rt-2021.3.0-h06a4308_3350.tar.bz2":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[],
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-cmplr-lic-rt",
+"sha256":"dc78854f3673fab37cadbdbbc6f72fe31e4c666e4bed54c21f1fbefe79c46089",
+"size":29493,
+"timestamp":1626976049328,
+"version":"2021.3.0"
+},
+"intel-fortran-rt-2021.3.0-h06a4308_3350.tar.bz2":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[
+"intel-cmplr-lib-rt 2021.3.0 h06a4308_3350",
+"intel-cmplr-lic-rt 2021.3.0 h06a4308_3350",
+"intel-openmp 2021.*"
+],
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-fortran-rt",
+"sha256":"87293a4595f653ab793db84afa145e3f67b7eae74711505b88109a92de1d8887",
+"size":1180055,
+"timestamp":1626976072168,
+"version":"2021.3.0"
+},
+"intel-opencl-rt-2021.3.0-h06a4308_3350.tar.bz2":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[
+"intel-cmplr-lic-rt 2021.3.0 h06a4308_3350",
+"intel-openmp 2021.*",
+"tbb 2021.*"
+],
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-opencl-rt",
+"sha256":"b33848881d548d2f5692f2d8193faa612baedd1aa7769c6d6f45de454989ad59",
+"size":88474067,
+"timestamp":1626976158872,
+"version":"2021.3.0"
 },
 "intel-openmp-2019.4-243.tar.bz2":{
 "build":"243",
@@ -53905,6 +53999,17 @@
 "size":49475,
 "timestamp":1536697142672,
 "version":"0.46"
+},
+"oneccl-devel-2021.3.0-h06a4308_343.tar.bz2":{
+"build":"h06a4308_343",
+"build_number":343,
+"depends":[],
+"license":"Intel Simplified Software License",
+"name":"oneccl-devel",
+"sha256":"728c27dc41bee5342047c066b8f4ecec31b79f0724294796edfef760e61406cb",
+"size":11006709,
+"timestamp":1626976054533,
+"version":"2021.3.0"
 },
 "oniguruma-6.9.7.1-h27cfd23_0.tar.bz2":{
 "build":"h27cfd23_0",
