@@ -28925,7 +28925,7 @@
 "timestamp":1624534357871,
 "version":"2.20.1"
 },
-"fastavro-1.4.3-py36h269c3a8_0.tar.bz2":{
+"fastavro-1.4.4-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
 "depends":[
@@ -28936,29 +28936,12 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"4221e2e2d036e4efb87ffed2ea24b7f7b62f959834e61f23dd3ec4952b94a7e8",
-"size":509021,
-"timestamp":1626454086972,
-"version":"1.4.3"
+"sha256":"45b0f9a19ac1a6997e5bd26361e27a3a30cba69010278b8991ae02d0580b6abc",
+"size":509589,
+"timestamp":1626987421003,
+"version":"1.4.4"
 },
-"fastavro-1.4.3-py37h1283c21_0.tar.bz2":{
-"build":"py37h1283c21_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"pypy3.7 >=7.3.5",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"pytz"
-],
-"license":"MIT",
-"name":"fastavro",
-"sha256":"126f42ec5ad9b7e83228dace2f8e2709907c3e5a47269c43786236cad24bb767",
-"size":71959,
-"timestamp":1626453871650,
-"version":"1.4.3"
-},
-"fastavro-1.4.3-py37hcd4c3ab_0.tar.bz2":{
+"fastavro-1.4.4-py37hcd4c3ab_0.tar.bz2":{
 "build":"py37hcd4c3ab_0",
 "build_number":0,
 "depends":[
@@ -28969,12 +28952,12 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"d01737be15071ac802f2b20dc1ace15a0f3ea836c899a5336c494d6e3ce72cd3",
-"size":509063,
-"timestamp":1626454111974,
-"version":"1.4.3"
+"sha256":"21e0b6327768a35f86524aa14fe4824f71c036ef216a717bddb3874883d67a40",
+"size":505743,
+"timestamp":1626987285362,
+"version":"1.4.4"
 },
-"fastavro-1.4.3-py38h9544abe_0.tar.bz2":{
+"fastavro-1.4.4-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
@@ -28985,12 +28968,12 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"575c380653fe58c8e66f9aca3b9af5753d97d4dadf3480dd6e15c88043881856",
-"size":510993,
-"timestamp":1626454241481,
-"version":"1.4.3"
+"sha256":"0b3408faa65458a04b9a206b6ac200b60aa7179cb0da3797cbb526f7bf13358b",
+"size":511553,
+"timestamp":1626987780781,
+"version":"1.4.4"
 },
-"fastavro-1.4.3-py39h14843e3_0.tar.bz2":{
+"fastavro-1.4.4-py39h14843e3_0.tar.bz2":{
 "build":"py39h14843e3_0",
 "build_number":0,
 "depends":[
@@ -29001,10 +28984,10 @@
 ],
 "license":"MIT",
 "name":"fastavro",
-"sha256":"74f182bad1508a776998c2dbecb6ceaaf34fafa08e66130cb08e169449104d58",
-"size":510920,
-"timestamp":1626454217892,
-"version":"1.4.3"
+"sha256":"e3a9aea59290af636000a06eaeadca18f443e5df9e63f43f278e82a1a973f10c",
+"size":515025,
+"timestamp":1626987450715,
+"version":"1.4.4"
 },
 "fastcache-1.1.0-py27h516909a_0.tar.bz2":{
 "build":"py27h516909a_0",
@@ -82110,6 +82093,31 @@
 "timestamp":1584295050712,
 "version":"4.8.0"
 },
+"photutils-1.1.0-py37h1283c21_2.tar.bz2":{
+"build":"py37h1283c21_2",
+"build_number":2,
+"depends":[
+"astropy >=4.0",
+"gwcs >=0.12",
+"libgcc-ng >=9.3.0",
+"matplotlib-base >=2.2",
+"numpy >=1.17",
+"numpy >=1.21.1,<2.0a0",
+"pypy3.7 >=7.3.5",
+"pytest-astropy >=0.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"scikit-image >=0.14.2",
+"scikit-learn >=0.19",
+"scipy >=0.19"
+],
+"license":"BSD-3-Clause",
+"name":"photutils",
+"sha256":"a6f7d655f462bbeb11f7939a0936aa3ee4d6ae2c5ec572b2ba12973b8ef598e3",
+"size":692212,
+"timestamp":1626985501964,
+"version":"1.1.0"
+},
 "photutils-1.1.0-py37hcd4c3ab_0.tar.bz2":{
 "build":"py37hcd4c3ab_0",
 "build_number":0,
@@ -116783,6 +116791,37 @@
 "timestamp":1620793002646,
 "version":"0.6.0"
 },
+"rtree-0.9.7-py37h7cba95b_2.tar.bz2":{
+"build":"py37h7cba95b_2",
+"build_number":2,
+"depends":[
+"libspatialindex >=1.9.3,<1.9.4.0a0",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"MIT",
+"name":"rtree",
+"sha256":"0eede78b00b3c27715d9b8eba61f4a7eaa1740d6cdbc027f14cd23b28465437b",
+"size":45903,
+"timestamp":1626988403616,
+"version":"0.9.7"
+},
+"rtree-0.9.7-py37had85af4_2.tar.bz2":{
+"build":"py37had85af4_2",
+"build_number":2,
+"depends":[
+"libspatialindex >=1.9.3,<1.9.4.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"MIT",
+"name":"rtree",
+"sha256":"b051101c994208335f0dcbf4e20f4c7a9c71583dcbae9dd4e630064f48f140e4",
+"size":45745,
+"timestamp":1626988708224,
+"version":"0.9.7"
+},
 "ruamel-1.0-py27_0.tar.bz2":{
 "build":"py27_0",
 "build_number":0,
@@ -141424,6 +141463,34 @@
 "sha256":"6788dca0b872e33dc71bd5a0746d751f537bb397fd49bc184ba0c0f77e355e36",
 "size":11951047,
 "timestamp":1626981725203,
+"version":"4.0.1"
+},
+"yt-4.0.1-py39h7b4a2eb_0.tar.bz2":{
+"build":"py39h7b4a2eb_0",
+"build_number":0,
+"depends":[
+"ipython >=1.0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"matplotlib-base !=3.4.2,>=2.0.2,<3.6",
+"more-itertools >=8.4",
+"numpy >=1.10.4",
+"numpy >=1.19.5,<2.0a0",
+"packaging >=20.9",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=4.2b1",
+"setuptools >=19.6",
+"sympy >=1.2",
+"toml >=0.10.2",
+"tqdm >=3.4.0",
+"unyt >=2.8.0"
+],
+"license":"BSD-3-Clause",
+"name":"yt",
+"sha256":"359c609b2604abc564e5eb60aba769c86f34a3b1ffd71a3a1d4cefd2b2de475d",
+"size":11507994,
+"timestamp":1626985362978,
 "version":"4.0.1"
 },
 "ytop-0.6.2-h516909a_0.tar.bz2":{
