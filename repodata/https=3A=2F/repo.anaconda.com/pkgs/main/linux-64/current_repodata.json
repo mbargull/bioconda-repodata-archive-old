@@ -27471,6 +27471,51 @@
 "timestamp":1567108307419,
 "version":"3.1.5"
 },
+"dpcpp-cpp-rt-2021.3.0-h06a4308_3350.conda":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[
+"intel-cmplr-lib-rt 2021.3.0 h06a4308_3350",
+"intel-cmplr-lic-rt 2021.3.0 h06a4308_3350",
+"intel-opencl-rt 2021.3.0 h06a4308_3350",
+"intel-openmp 2021.*"
+],
+"legacy_bz2_md5":"1f020c7e25acdb312749e5f95e358380",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"dpcpp-cpp-rt",
+"sha256":"988505efb8350d917e863825a6fdf7d97483205dfa375d50a9ec2fd95e10500b",
+"size":1138142,
+"timestamp":1626976237193,
+"version":"2021.3.0"
+},
+"dpcpp_impl_linux-64-2021.3.0-h06a4308_3350.conda":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[
+"dpcpp-cpp-rt 2021.3.0 h06a4308_3350"
+],
+"legacy_bz2_md5":"6894fb417de246cf06a36ed8cdbd6709",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"dpcpp_impl_linux-64",
+"sha256":"275d438c83e6b5363998b68746bbe8b62eafa45d65941efa49d7f7f7ce473473",
+"size":107496508,
+"timestamp":1626976374632,
+"version":"2021.3.0"
+},
+"dpcpp_linux-64-2021.3.0-h06a4308_3350.conda":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[
+"dpcpp_impl_linux-64 2021.3.0 h06a4308_3350"
+],
+"legacy_bz2_md5":"d186c2d7d7c01d92b9e3c5dbe3f983d1",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"dpcpp_linux-64",
+"sha256":"42db36cab6bd6fc43b6307ba4c01f75226e791cec5eef8d8be3d9aaa078d61a9",
+"size":28708,
+"timestamp":1626976548351,
+"version":"2021.3.0"
+},
 "drmaa-0.7.9-py27_0.conda":{
 "build":"py27_0",
 "build_number":0,
@@ -39415,6 +39460,62 @@
 "size":2734602,
 "timestamp":1548432622531,
 "version":"0.4.1"
+},
+"intel-cmplr-lib-rt-2021.3.0-h06a4308_3350.conda":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[],
+"legacy_bz2_md5":"bf9ae8e3364157088420e460f237a01e",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-cmplr-lib-rt",
+"sha256":"29fe0f8506d35bda4d3ddcdf2cfc1b9936717a238ce35938f7c5a57f396886b9",
+"size":21781406,
+"timestamp":1626976023087,
+"version":"2021.3.0"
+},
+"intel-cmplr-lic-rt-2021.3.0-h06a4308_3350.conda":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[],
+"legacy_bz2_md5":"5f92f940b958e63d98b21534165015ed",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-cmplr-lic-rt",
+"sha256":"5f88e98f6888ad107ddf341843c54eacfce4a78551903b62e7a87b708b73fb1a",
+"size":27314,
+"timestamp":1626976049328,
+"version":"2021.3.0"
+},
+"intel-fortran-rt-2021.3.0-h06a4308_3350.conda":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[
+"intel-cmplr-lib-rt 2021.3.0 h06a4308_3350",
+"intel-cmplr-lic-rt 2021.3.0 h06a4308_3350",
+"intel-openmp 2021.*"
+],
+"legacy_bz2_md5":"d6101f629f155d7b1bf0131c3060e6fc",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-fortran-rt",
+"sha256":"44bed6be28b0c7ebb9470ed9428db837da09bcf6aa649f1265a44b467809d83f",
+"size":674810,
+"timestamp":1626976072168,
+"version":"2021.3.0"
+},
+"intel-opencl-rt-2021.3.0-h06a4308_3350.conda":{
+"build":"h06a4308_3350",
+"build_number":3350,
+"depends":[
+"intel-cmplr-lic-rt 2021.3.0 h06a4308_3350",
+"intel-openmp 2021.*",
+"tbb 2021.*"
+],
+"legacy_bz2_md5":"01346cf7690617004eacb76ecd64ba8c",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-opencl-rt",
+"sha256":"38f0e876b26a4300ae2f14a4b6145d955b4f05f72986e8555b75621b1b4dbbda",
+"size":52626621,
+"timestamp":1626976158872,
+"version":"2021.3.0"
 },
 "intel-openmp-2019.4-243.conda":{
 "build":"243",
@@ -57322,6 +57423,18 @@
 "size":50707,
 "timestamp":1536697142672,
 "version":"0.46"
+},
+"oneccl-devel-2021.3.0-h06a4308_343.conda":{
+"build":"h06a4308_343",
+"build_number":343,
+"depends":[],
+"legacy_bz2_md5":"b3e9c374afcb99fda48706e9678cc649",
+"license":"Intel Simplified Software License",
+"name":"oneccl-devel",
+"sha256":"ddfadd64f59217b214fcf870d42347542c9a2ac8e75e8b8bae4ed34d54f05be9",
+"size":6283184,
+"timestamp":1626976054533,
+"version":"2021.3.0"
 },
 "oniguruma-6.9.7.1-h27cfd23_0.conda":{
 "build":"h27cfd23_0",
