@@ -5906,6 +5906,28 @@
 "timestamp":1626875048935,
 "version":"0.14.5"
 },
+"aws-crt-cpp-0.14.5-he0e51a8_3.tar.bz2":{
+"build":"he0e51a8_3",
+"build_number":3,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.8,<0.6.9.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.5,<0.6.6.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.23,<0.1.24.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"sha256":"9c497bd7fb54cba9ffc9dac2fc940c9874833c8a993d55f2d5e3cb8209815853",
+"size":157966,
+"timestamp":1627054000098,
+"version":"0.14.5"
+},
 "aws-sdk-cpp-1.8.186-h80dc20d_1.tar.bz2":{
 "build":"h80dc20d_1",
 "build_number":1,
@@ -12935,7 +12957,7 @@
 "cramjam >=2.3.0",
 "fsspec",
 "numpy",
-"pandas >=0.19",
+"pandas >=1.0.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "thrift >=0.11"
@@ -12973,7 +12995,7 @@
 "cramjam >=2.3.0",
 "fsspec",
 "numpy",
-"pandas >=0.19",
+"pandas >=1.0.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "thrift >=0.11"
@@ -18426,6 +18448,20 @@
 "sha256":"18d902db8645bda43492d3790fb6e1d2b613eec550c9677fc96a055c9ab9d423",
 "size":51752,
 "timestamp":1625468930840,
+"version":"1.39.0"
+},
+"grpc_java_plugin-1.39.0-h699e8e8_1.tar.bz2":{
+"build":"h699e8e8_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libprotobuf >=3.16.0,<3.17.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpc_java_plugin",
+"sha256":"0688f79f927a13eb0a3fefa675cf95f1f608ec962b3767eb1fb9c2ecba44e5dc",
+"size":47961,
+"timestamp":1627054087690,
 "version":"1.39.0"
 },
 "grpcio-1.37.1-py38h69ee544_0.tar.bz2":{
@@ -51018,6 +51054,22 @@
 "size":114454,
 "timestamp":1622491552901,
 "version":"9.1"
+},
+"wget-1.20.3-hb616509_0.tar.bz2":{
+"build":"hb616509_0",
+"build_number":0,
+"depends":[
+"libidn2 >=2,<3.0a0",
+"libunistring >=0,<1.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL3",
+"name":"wget",
+"sha256":"c5f4023915ddfa9e33e1573077383743105d7767273f6ad4c01c5d0a94d690af",
+"size":832732,
+"timestamp":1627054646999,
+"version":"1.20.3"
 },
 "widgetsnbextension-3.5.1-py38h10201cd_4.tar.bz2":{
 "build":"py38h10201cd_4",
