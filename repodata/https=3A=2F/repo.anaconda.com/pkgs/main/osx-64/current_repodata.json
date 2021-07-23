@@ -18340,6 +18340,22 @@
 "timestamp":1515428785043,
 "version":"9.0"
 },
+"curl-7.71.1-h7bc2e8c_2.conda":{
+"build":"h7bc2e8c_2",
+"build_number":2,
+"depends":[
+"libcurl 7.71.1 hb8e4fae_2",
+"libssh2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"legacy_bz2_md5":"5451179ec158d248aa2b4ad77f5fd7e0",
+"license":"MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
+"name":"curl",
+"sha256":"050724eaddc103d5a361eb65e8a42872d6a30f1e59b3ef93f8dbf3f0e753da71",
+"size":131807,
+"timestamp":1621648783794,
+"version":"7.71.1"
+},
 "curl-7.71.1-hb0a8c7a_1.conda":{
 "build":"hb0a8c7a_1",
 "build_number":1,
@@ -37255,20 +37271,20 @@
 "timestamp":1593197454386,
 "version":"1.1"
 },
-"kealib-1.4.12-hf5ed860_0.conda":{
-"build":"hf5ed860_0",
+"kealib-1.4.14-h7bbef82_0.conda":{
+"build":"h7bbef82_0",
 "build_number":0,
 "depends":[
-"hdf5 >=1.10.4,<1.10.5.0a0",
-"libcxx >=4.0.1"
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libcxx >=10.0.0"
 ],
-"legacy_bz2_md5":"ade203201a0386e865b61ccfc8b2d808",
+"legacy_bz2_md5":"3f41e707b4323f7cc28af9c4a681480a",
 "license":"MIT",
 "name":"kealib",
-"sha256":"636e27c4a23a333d0e89a219b164352a842aaa794c6871185ec69c0583715471",
-"size":136952,
-"timestamp":1582228005515,
-"version":"1.4.12"
+"sha256":"bd52ca6cde473e822233483f96ae8904731391390331672b4d082ea4b3bb9a16",
+"size":142697,
+"timestamp":1621648714465,
+"version":"1.4.14"
 },
 "kealib-1.4.7-h40e48e4_6.conda":{
 "build":"h40e48e4_6",
@@ -38843,6 +38859,23 @@
 "timestamp":1594834903709,
 "version":"7.71.1"
 },
+"libcurl-7.71.1-hb8e4fae_2.conda":{
+"build":"hb8e4fae_2",
+"build_number":2,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"legacy_bz2_md5":"9dc6da0cdb1b7c06cc557e9333fc0dff",
+"license":"MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
+"name":"libcurl",
+"sha256":"d0523b182147850996c226de55cf11a82dab9125199d5fc67edf60a70455907c",
+"size":295714,
+"timestamp":1621648776277,
+"version":"7.71.1"
+},
 "libcxx-10.0.0-1.conda":{
 "build":"1",
 "build_number":1,
@@ -40122,6 +40155,25 @@
 "timestamp":1613575673959,
 "version":"4.6.1"
 },
+"libnetcdf-4.6.1-hfd9a460_4.conda":{
+"build":"hfd9a460_4",
+"build_number":4,
+"depends":[
+"curl",
+"hdf4 >=4.2.13,<4.2.14.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9b,<10a",
+"libcurl >=7.71.1,<8.0a0",
+"zlib"
+],
+"legacy_bz2_md5":"986909752d91ef787445b655671744e8",
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"052098f872303c0c4fd18cc80411fd16d80e15c553d7227f914916aac03b7e9e",
+"size":800268,
+"timestamp":1621649442361,
+"version":"4.6.1"
+},
 "libnetcdf-4.7.3-he3b6227_0.conda":{
 "build":"he3b6227_0",
 "build_number":0,
@@ -40435,6 +40487,20 @@
 "timestamp":1582128267295,
 "version":"12.2"
 },
+"libpq-12.2-h1b4eb34_1.conda":{
+"build":"h1b4eb34_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"legacy_bz2_md5":"55f3295b4de6b538711c8d152d5b47ea",
+"name":"libpq",
+"sha256":"407b2562a0168c812b10a7d031de121c7c9288a8468f9e349f1d3f16d93deafb",
+"size":2120869,
+"timestamp":1621648863888,
+"version":"12.2"
+},
 "libprotobuf-3.11.4-hd9629dc_0.conda":{
 "build":"hd9629dc_0",
 "build_number":0,
@@ -40540,6 +40606,25 @@
 "size":12427884,
 "timestamp":1621366724525,
 "version":"3.9.5"
+},
+"librdkafka-1.6.0-h0f19afa_1.conda":{
+"build":"h0f19afa_1",
+"build_number":1,
+"depends":[
+"cyrus-sasl >=2.1.27,<3.0a0",
+"libcxx >=10.0.0",
+"lz4-c >=1.9.3,<1.10.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"legacy_bz2_md5":"42d1f5d83c2d70aba7d565af30721ae7",
+"license":"BSD-2-Clause",
+"name":"librdkafka",
+"sha256":"cc8da7009091bd799c8d447982c1dfee71bc83fc56c2662ecc64979477aa6f1e",
+"size":947068,
+"timestamp":1621648729103,
+"version":"1.6.0"
 },
 "libsodium-1.0.18-h1de35cc_0.conda":{
 "build":"h1de35cc_0",
@@ -56488,6 +56573,23 @@
 "sha256":"30f6c546fdf2bac131cd6ef254dc54ef594f804ae13e6b3417b089defcbfe138",
 "size":3508046,
 "timestamp":1582128318349,
+"version":"12.2"
+},
+"postgresql-12.2-h1b4eb34_1.conda":{
+"build":"h1b4eb34_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libpq 12.2 h1b4eb34_1",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.0,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"legacy_bz2_md5":"5330028372e2fabcaa67b218a9fa90f8",
+"name":"postgresql",
+"sha256":"e7ab13695169cb09738fc99b1bdad5aa08e187ce5e6c969c4e8a8e5857e4c900",
+"size":3491207,
+"timestamp":1621648887350,
 "version":"12.2"
 },
 "preshed-3.0.5-py36h23ab428_1.conda":{
@@ -82014,6 +82116,30 @@
 "size":1855832,
 "timestamp":1573570596314,
 "version":"1.6.3"
+},
+"tiledb-2.2.9-hdc16fd3_0.conda":{
+"build":"hdc16fd3_0",
+"build_number":0,
+"constrains":[
+"__osx >=10.12"
+],
+"depends":[
+"aws-sdk-cpp >=1.8.185,<1.8.186.0a0",
+"bzip2 >=1.0.8,<2.0a0",
+"libcurl >=7.71.1,<8.0a0",
+"libcxx >=10.0.0",
+"lz4-c >=1.9.3,<1.10.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"legacy_bz2_md5":"c195ba01fb20ee411171d189c5c933db",
+"license":"MIT",
+"name":"tiledb",
+"sha256":"1d0888219acb226c1d08b3e823401feb0734822e943fdca0e1ddc5f83c4f50a1",
+"size":1522351,
+"timestamp":1621649220272,
+"version":"2.2.9"
 },
 "tk-8.6.10-hb0a8c7a_0.conda":{
 "build":"hb0a8c7a_0",
