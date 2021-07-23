@@ -2538,7 +2538,7 @@
 "timestamp":1614388799689,
 "version":"2.2.0"
 },
-"anyio-3.2.1-py36h704843e_0.tar.bz2":{
+"anyio-3.3.0-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
 "build_number":0,
 "constrains":[
@@ -2555,12 +2555,12 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"c0f496e9eede5d696be70b233f7d6af42484de7999f8c4af63627c5320493510",
-"size":141490,
-"timestamp":1624539494740,
-"version":"3.2.1"
+"sha256":"33e5ed10d34e1629f48cfec82173001e744633a2ccdaad87566940c10c3c134b",
+"size":149649,
+"timestamp":1626999012766,
+"version":"3.3.0"
 },
-"anyio-3.2.1-py37hd9ded2f_0.tar.bz2":{
+"anyio-3.3.0-py37hd9ded2f_0.tar.bz2":{
 "build":"py37hd9ded2f_0",
 "build_number":0,
 "constrains":[
@@ -2575,12 +2575,12 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"15d89d890e4385bc712e8d25a7826c72148e4b4802137242503a9c92b70f5b19",
-"size":141742,
-"timestamp":1624540117357,
-"version":"3.2.1"
+"sha256":"7cb6880d5e8ca20b4290a3ba46d9734f821da60fa43211252202fddb390f49d2",
+"size":149842,
+"timestamp":1626999539853,
+"version":"3.3.0"
 },
-"anyio-3.2.1-py38h2063c64_0.tar.bz2":{
+"anyio-3.3.0-py38h2063c64_0.tar.bz2":{
 "build":"py38h2063c64_0",
 "build_number":0,
 "constrains":[
@@ -2594,12 +2594,12 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"37496ac17c111cd6246cb80a8961a38d33e8d39634312a09e9aebd48b02b1ae8",
-"size":142382,
-"timestamp":1624540922114,
-"version":"3.2.1"
+"sha256":"560ca415a4f97accd3942c54686ac78d7540bd7881159c47d8c4b7bf01698e62",
+"size":150663,
+"timestamp":1627000215837,
+"version":"3.3.0"
 },
-"anyio-3.2.1-py39ha65689a_0.tar.bz2":{
+"anyio-3.3.0-py39ha65689a_0.tar.bz2":{
 "build":"py39ha65689a_0",
 "build_number":0,
 "constrains":[
@@ -2613,10 +2613,10 @@
 ],
 "license":"MIT",
 "name":"anyio",
-"sha256":"47a4400cc03ab404548f4dc9725334e99e802e2432e4c84aaad49198b02c5b09",
-"size":143111,
-"timestamp":1624541780537,
-"version":"3.2.1"
+"sha256":"89bc8b71cdd94507556fa49db155e0e4e538e92df7104fc88f079c290835f9ea",
+"size":151331,
+"timestamp":1627001104499,
+"version":"3.3.0"
 },
 "anyjson-0.3.3-py36h2e20a7f_1003.tar.bz2":{
 "build":"py36h2e20a7f_1003",
@@ -114102,6 +114102,69 @@
 "sha256":"ee9e55e3c244fb28803e252fc1017ee625d09f7f86ea867cc00c460fe72b3d50",
 "size":295341,
 "timestamp":1626998404074,
+"version":"0.5"
+},
+"regions-0.5-py37hcd4c3ab_0.tar.bz2":{
+"build":"py37hcd4c3ab_0",
+"build_number":0,
+"depends":[
+"astropy >=3.2",
+"libgcc-ng >=9.3.0",
+"matplotlib-base >=2.0",
+"numpy >=1.16",
+"numpy >=1.16.6,<2.0a0",
+"pytest-arraydiff >=0.3",
+"pytest-astropy >=0.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"BSD-3-Clause",
+"name":"regions",
+"sha256":"8e1ba1919b8de59f26442673890dd228c38a3529b6c245ebec60aeaa3bb1a485",
+"size":297910,
+"timestamp":1626999359185,
+"version":"0.5"
+},
+"regions-0.5-py38h9544abe_0.tar.bz2":{
+"build":"py38h9544abe_0",
+"build_number":0,
+"depends":[
+"astropy >=3.2",
+"libgcc-ng >=9.3.0",
+"matplotlib-base >=2.0",
+"numpy >=1.16",
+"numpy >=1.16.6,<2.0a0",
+"pytest-arraydiff >=0.3",
+"pytest-astropy >=0.4",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"regions",
+"sha256":"5422328b364a662b8b7b342a9802d77ea3460bd876dce6e77c2cfdb8f69a3c47",
+"size":299932,
+"timestamp":1626999865700,
+"version":"0.5"
+},
+"regions-0.5-py39hb8e759d_0.tar.bz2":{
+"build":"py39hb8e759d_0",
+"build_number":0,
+"depends":[
+"astropy >=3.2",
+"libgcc-ng >=9.3.0",
+"matplotlib-base >=2.0",
+"numpy >=1.16",
+"numpy >=1.19.5,<2.0a0",
+"pytest-arraydiff >=0.3",
+"pytest-astropy >=0.4",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"regions",
+"sha256":"20f9b959b39e2e530239d08064043ea1f832cec3a7df3b1c69e5e43993f43086",
+"size":296778,
+"timestamp":1627000937478,
 "version":"0.5"
 },
 "reportlab-3.5.68-py36h116d09a_0.tar.bz2":{
