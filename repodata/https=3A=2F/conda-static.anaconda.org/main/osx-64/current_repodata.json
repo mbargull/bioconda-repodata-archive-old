@@ -17022,6 +17022,21 @@
 "timestamp":1515428785043,
 "version":"9.0"
 },
+"curl-7.71.1-h7bc2e8c_2.tar.bz2":{
+"build":"h7bc2e8c_2",
+"build_number":2,
+"depends":[
+"libcurl 7.71.1 hb8e4fae_2",
+"libssh2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
+"name":"curl",
+"sha256":"dc28d4134c477168a953c389da0e3d8de9f2b574467b94c5f0a2aabf409a4f09",
+"size":146418,
+"timestamp":1621648783794,
+"version":"7.71.1"
+},
 "curl-7.71.1-hb0a8c7a_1.tar.bz2":{
 "build":"hb0a8c7a_1",
 "build_number":1,
@@ -34863,19 +34878,19 @@
 "timestamp":1593197454386,
 "version":"1.1"
 },
-"kealib-1.4.12-hf5ed860_0.tar.bz2":{
-"build":"hf5ed860_0",
+"kealib-1.4.14-h7bbef82_0.tar.bz2":{
+"build":"h7bbef82_0",
 "build_number":0,
 "depends":[
-"hdf5 >=1.10.4,<1.10.5.0a0",
-"libcxx >=4.0.1"
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libcxx >=10.0.0"
 ],
 "license":"MIT",
 "name":"kealib",
-"sha256":"73853a497ed7c98c0f039b7bd55c92e7c63e648d3cedd1e44d477e4e8e8c301f",
-"size":167026,
-"timestamp":1582228005515,
-"version":"1.4.12"
+"sha256":"dd64aff597322187af9baf05a5a943ffd71924991fcaa8556ff8f0cefc42c464",
+"size":167887,
+"timestamp":1621648714465,
+"version":"1.4.14"
 },
 "kealib-1.4.7-h40e48e4_6.tar.bz2":{
 "build":"h40e48e4_6",
@@ -36352,6 +36367,22 @@
 "timestamp":1594834903709,
 "version":"7.71.1"
 },
+"libcurl-7.71.1-hb8e4fae_2.tar.bz2":{
+"build":"hb8e4fae_2",
+"build_number":2,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
+"name":"libcurl",
+"sha256":"b380e45426e0ebf5baa58c8ec571f76b72346005547ad4d5827cf91add368061",
+"size":311750,
+"timestamp":1621648776277,
+"version":"7.71.1"
+},
 "libcxx-10.0.0-1.tar.bz2":{
 "build":"1",
 "build_number":1,
@@ -37562,6 +37593,24 @@
 "timestamp":1613575673959,
 "version":"4.6.1"
 },
+"libnetcdf-4.6.1-hfd9a460_4.tar.bz2":{
+"build":"hfd9a460_4",
+"build_number":4,
+"depends":[
+"curl",
+"hdf4 >=4.2.13,<4.2.14.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9b,<10a",
+"libcurl >=7.71.1,<8.0a0",
+"zlib"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"55d02f17745d453c473322dadcc605114dc88d2260b7ef5a36ac930f10c72830",
+"size":1280947,
+"timestamp":1621649442361,
+"version":"4.6.1"
+},
 "libnetcdf-4.7.3-he3b6227_0.tar.bz2":{
 "build":"he3b6227_0",
 "build_number":0,
@@ -37856,6 +37905,19 @@
 "timestamp":1582128267295,
 "version":"12.2"
 },
+"libpq-12.2-h1b4eb34_1.tar.bz2":{
+"build":"h1b4eb34_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"name":"libpq",
+"sha256":"d6522719211ae148d7181e296c2f7fc6df5c3d00d6419e685dd04f4ae46f4faa",
+"size":2926762,
+"timestamp":1621648863888,
+"version":"12.2"
+},
 "libprotobuf-3.11.4-hd9629dc_0.tar.bz2":{
 "build":"hd9629dc_0",
 "build_number":0,
@@ -37954,6 +38016,24 @@
 "size":22621764,
 "timestamp":1621366724525,
 "version":"3.9.5"
+},
+"librdkafka-1.6.0-h0f19afa_1.tar.bz2":{
+"build":"h0f19afa_1",
+"build_number":1,
+"depends":[
+"cyrus-sasl >=2.1.27,<3.0a0",
+"libcxx >=10.0.0",
+"lz4-c >=1.9.3,<1.10.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"librdkafka",
+"sha256":"be39499cb8c880d9d07fff3aca36b24b657516d062ddcc8b5d85187816ad3e47",
+"size":1388000,
+"timestamp":1621648729103,
+"version":"1.6.0"
 },
 "libsodium-1.0.18-h1de35cc_0.tar.bz2":{
 "build":"h1de35cc_0",
@@ -52990,6 +53070,22 @@
 "sha256":"415cb256b6d9e15ec7a4da248663fbbf7c34ef04e531ec5ff45b459fe2af61a2",
 "size":4212673,
 "timestamp":1582128318349,
+"version":"12.2"
+},
+"postgresql-12.2-h1b4eb34_1.tar.bz2":{
+"build":"h1b4eb34_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libpq 12.2 h1b4eb34_1",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.0,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"name":"postgresql",
+"sha256":"bf0e06d5e64e7003f351d7e7c6d6eb4587d78d120d01fd89a5234451e69f68ed",
+"size":4205720,
+"timestamp":1621648887350,
 "version":"12.2"
 },
 "preshed-3.0.5-py36h23ab428_1.tar.bz2":{
@@ -77046,6 +77142,29 @@
 "size":2352003,
 "timestamp":1573570596314,
 "version":"1.6.3"
+},
+"tiledb-2.2.9-hdc16fd3_0.tar.bz2":{
+"build":"hdc16fd3_0",
+"build_number":0,
+"constrains":[
+"__osx >=10.12"
+],
+"depends":[
+"aws-sdk-cpp >=1.8.185,<1.8.186.0a0",
+"bzip2 >=1.0.8,<2.0a0",
+"libcurl >=7.71.1,<8.0a0",
+"libcxx >=10.0.0",
+"lz4-c >=1.9.3,<1.10.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"MIT",
+"name":"tiledb",
+"sha256":"cc1b94690a1ad7cfbe88e04446c337550f5237c39698806d74b80f12be9e2255",
+"size":1832094,
+"timestamp":1621649220272,
+"version":"2.2.9"
 },
 "tk-8.6.10-hb0a8c7a_0.tar.bz2":{
 "build":"hb0a8c7a_0",

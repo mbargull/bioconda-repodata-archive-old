@@ -26098,7 +26098,7 @@
 "timestamp":1601404953372,
 "version":"2.47.12"
 },
-"debugpy-1.4.0-py36h86e9a40_0.tar.bz2":{
+"debugpy-1.4.1-py36h86e9a40_0.tar.bz2":{
 "build":"py36h86e9a40_0",
 "build_number":0,
 "depends":[
@@ -26109,12 +26109,12 @@
 ],
 "license":"MIT",
 "name":"debugpy",
-"sha256":"088cff6e0e7c04e43dc6ad4aa30bb9d328becf8bdf1dfcb88abc0fa962c2fee1",
-"size":2078890,
-"timestamp":1626905776669,
-"version":"1.4.0"
+"sha256":"ba2a88c819540cfae6d14875a4e76ec2b1b9f1a11b8caa7e18846ae104566e86",
+"size":2085569,
+"timestamp":1627075646810,
+"version":"1.4.1"
 },
-"debugpy-1.4.0-py37h5d5c557_0.tar.bz2":{
+"debugpy-1.4.1-py37h5d5c557_0.tar.bz2":{
 "build":"py37h5d5c557_0",
 "build_number":0,
 "depends":[
@@ -26126,12 +26126,12 @@
 ],
 "license":"MIT",
 "name":"debugpy",
-"sha256":"c70608f17af869b00039a3999f13e65c0663984eab1ce21cecad972a43dadb3d",
-"size":1990167,
-"timestamp":1626906200587,
-"version":"1.4.0"
+"sha256":"96ddbfd32534941310a466cbdedbfe7426caf90ba7220666bbe5d5561c09698e",
+"size":1992925,
+"timestamp":1627076539344,
+"version":"1.4.1"
 },
-"debugpy-1.4.0-py37had24c86_0.tar.bz2":{
+"debugpy-1.4.1-py37had24c86_0.tar.bz2":{
 "build":"py37had24c86_0",
 "build_number":0,
 "depends":[
@@ -26142,12 +26142,28 @@
 ],
 "license":"MIT",
 "name":"debugpy",
-"sha256":"9a8028ff8173462e94ee1a479644276933c266c1ee2d3c54fbfc3c2405384cd0",
-"size":2076630,
-"timestamp":1626907006601,
-"version":"1.4.0"
+"sha256":"309dc441261199be3e783cd9bea4ce55aab489bbc94692574b167a717da13400",
+"size":2106801,
+"timestamp":1627076991822,
+"version":"1.4.1"
 },
-"debugpy-1.4.0-py39h99ab00b_0.tar.bz2":{
+"debugpy-1.4.1-py38h0119ad3_0.tar.bz2":{
+"build":"py38h0119ad3_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"debugpy",
+"sha256":"48cd07d7ca27cb3cfddf97f9e4308b9e71eca1c234a928dda3a1b5c11ce6a1cb",
+"size":2108780,
+"timestamp":1627077311271,
+"version":"1.4.1"
+},
+"debugpy-1.4.1-py39h99ab00b_0.tar.bz2":{
 "build":"py39h99ab00b_0",
 "build_number":0,
 "depends":[
@@ -26158,10 +26174,10 @@
 ],
 "license":"MIT",
 "name":"debugpy",
-"sha256":"29c730864988419650e78716c256030d0eada414352d7811092c894811603d72",
-"size":2100407,
-"timestamp":1626907492943,
-"version":"1.4.0"
+"sha256":"4edeeeb7077bb5e8a29f34f8c07948585b60c835c3808745c8a49c66d86acea4",
+"size":2104320,
+"timestamp":1627077635450,
+"version":"1.4.1"
 },
 "desktop-app-0.2.8-py36h143fd24_1.tar.bz2":{
 "build":"py36h143fd24_1",
@@ -127072,6 +127088,56 @@
 "sha256":"0e015d0938a2eb1eb29428663c8fd66d3c58785fd8c49712eb77be8d5a6ad856",
 "size":8479540,
 "timestamp":1627073303851,
+"version":"5.0.5"
+},
+"spyder-5.0.5-py39ha65689a_1.tar.bz2":{
+"build":"py39ha65689a_1",
+"build_number":1,
+"depends":[
+"atomicwrites >=1.2.0",
+"chardet >=2.0.0",
+"cloudpickle >=0.5.0",
+"cookiecutter >=1.6.0",
+"diff-match-patch >=20181111",
+"intervaltree >=3.0.2",
+"ipython >=7.6.0",
+"jedi 0.17.2.*",
+"jsonschema >=3.2.0",
+"keyring >=17.0.0",
+"nbconvert >=4.0",
+"numpydoc >=0.6.0",
+"parso 0.7.0.*",
+"pexpect >=4.4.0",
+"pickleshare >=0.4",
+"psutil >=5.3",
+"pygments >=2.0",
+"pylint >=1.0",
+"pyls-black >=0.4.6",
+"pyls-spyder >=0.3.2,<0.4.0",
+"pyqt >=5.6,<5.13",
+"python >=3.9,<3.10.0a0",
+"python-language-server >=0.36.2,<1.0.0",
+"python_abi 3.9.* *_cp39",
+"pyxdg >=0.26",
+"pyzmq >=17",
+"qdarkstyle 3.0.2.*",
+"qstylizer >=0.1.10",
+"qtawesome >=1.0.2",
+"qtconsole >=5.1.0",
+"qtpy >=1.5.0",
+"rtree >=0.9.7",
+"setuptools >=39.0.0",
+"sphinx >=0.6.6",
+"spyder-kernels >=2.0.4,<2.1.0",
+"textdistance >=4.2.0",
+"three-merge >=0.1.1",
+"watchdog >=0.10.3"
+],
+"license":"MIT",
+"name":"spyder",
+"sha256":"7da5f5f96f3086ccfc0c9f05ffbf625351f58e49d4af92c6b2a0f6f33323cdbe",
+"size":8477171,
+"timestamp":1627074244089,
 "version":"5.0.5"
 },
 "spyder-kernels-2.0.5-py36h704843e_0.tar.bz2":{
