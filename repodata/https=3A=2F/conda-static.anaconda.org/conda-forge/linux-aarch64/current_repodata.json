@@ -11570,6 +11570,29 @@
 "timestamp":1612557590714,
 "version":"0.1.11"
 },
+"aws-crt-cpp-0.14.5-h4e38b0a_2.tar.bz2":{
+"build":"h4e38b0a_2",
+"build_number":2,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.7,<0.6.8.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.5,<0.6.6.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.23,<0.1.24.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"sha256":"1211f5df3cfcbacc38d46741004df0996b78a128b466c15f7a189e554f7df98f",
+"size":182460,
+"timestamp":1627027164635,
+"version":"0.14.5"
+},
 "aws-crt-cpp-0.14.5-h7a04e32_0.tar.bz2":{
 "build":"h7a04e32_0",
 "build_number":0,
@@ -11950,6 +11973,30 @@
 "sha256":"35a827b70a0d8347c3c16ad2882e7169f66134444408d788ebcde52e16f3bdeb",
 "size":116088,
 "timestamp":1626876305744,
+"version":"0.11.25"
+},
+"awscrt-0.11.25-py36h69a5af4_7.tar.bz2":{
+"build":"py36h69a5af4_7",
+"build_number":7,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.7,<0.6.8.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.5,<0.6.6.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.23,<0.1.24.0a0",
+"libgcc-ng >=9.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"s2n >=1.0.12,<1.0.13.0a0"
+],
+"license":"Apache-2.0",
+"name":"awscrt",
+"sha256":"4470da95d0e94abc7db3952c43ce4201a1cb51d6893a929a0149cc7676aacd50",
+"size":116096,
+"timestamp":1627026405746,
 "version":"0.11.25"
 },
 "awscrt-0.11.25-py36hfb77de9_4.tar.bz2":{
@@ -74667,6 +74714,40 @@
 "timestamp":1605783379868,
 "version":"2.7.0"
 },
+"nlopt-2.7.0-py36hdcba40d_1.tar.bz2":{
+"build":"py36hdcba40d_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m"
+],
+"license":"LGPL-2.1-or-later",
+"name":"nlopt",
+"sha256":"6abb96984a97fcf6bd64f3b8729f9ffd44c27e2d24dca0573f6ed38f8dd4fe71",
+"size":407002,
+"timestamp":1627025330486,
+"version":"2.7.0"
+},
+"nlopt-2.7.0-py37h1389722_1.tar.bz2":{
+"build":"py37h1389722_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m"
+],
+"license":"LGPL-2.1-or-later",
+"name":"nlopt",
+"sha256":"9b32a8ecab99f335ac1cb587c17bda68d82a98c8584210c5556d49fccb7f3431",
+"size":407034,
+"timestamp":1627026253862,
+"version":"2.7.0"
+},
 "nlopt-2.7.0-py37h20d56fc_0.tar.bz2":{
 "build":"py37h20d56fc_0",
 "build_number":0,
@@ -74699,6 +74780,23 @@
 "sha256":"aa7f194316b47b14eac9282c93ce3a4e2e18b6bc21368805b7e7c6054cb13ff4",
 "size":403013,
 "timestamp":1605783806228,
+"version":"2.7.0"
+},
+"nlopt-2.7.0-py38hcadc3c9_1.tar.bz2":{
+"build":"py38hcadc3c9_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-or-later",
+"name":"nlopt",
+"sha256":"c8f587430817c3c10b84533fa1f49d1654c27e145000366ee1d2a5444964a1eb",
+"size":406990,
+"timestamp":1627026685345,
 "version":"2.7.0"
 },
 "nlopt-2.7.0-py39h407c234_0.tar.bz2":{
