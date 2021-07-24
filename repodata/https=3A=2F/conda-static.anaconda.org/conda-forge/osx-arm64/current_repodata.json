@@ -39552,6 +39552,32 @@
 "timestamp":1626807419282,
 "version":"1.8.0"
 },
+"pytorch-1.8.0-cpu_py38h15dfef8_3.tar.bz2":{
+"build":"cpu_py38h15dfef8_3",
+"build_number":3,
+"depends":[
+"cffi",
+"future",
+"libblas >=3.9.0,<4.0a0",
+"libcblas",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"llvm-openmp >=12.0.1",
+"ninja",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"sleef >=3.5.1,<4.0a0",
+"typing_extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"fbb4f98e0444217f757f1f0a13f4c0fb783fd05674fb9611fdb58fdc7b3b22f5",
+"size":33220185,
+"timestamp":1627099833848,
+"version":"1.8.0"
+},
 "pytorch-1.8.0-cpu_py38h179404b_0.tar.bz2":{
 "build":"cpu_py38h179404b_0",
 "build_number":0,
@@ -39654,6 +39680,32 @@
 "sha256":"cce542ea5e5b916bb462bf56a6f7666f64a67fdb76351d3c5f9652b195ddef20",
 "size":33287654,
 "timestamp":1626807535043,
+"version":"1.8.0"
+},
+"pytorch-1.8.0-cpu_py39h8ae5edc_3.tar.bz2":{
+"build":"cpu_py39h8ae5edc_3",
+"build_number":3,
+"depends":[
+"cffi",
+"future",
+"libblas >=3.9.0,<4.0a0",
+"libcblas",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"llvm-openmp >=12.0.1",
+"ninja",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sleef >=3.5.1,<4.0a0",
+"typing_extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"5deae1561f3d6d0cad352d2911cb51024a27da893e43c4a4455b6c931ff48c58",
+"size":33252491,
+"timestamp":1627099089993,
 "version":"1.8.0"
 },
 "pytorch-1.8.0-cpu_py39hc766e51_0.tar.bz2":{
@@ -39776,6 +39828,20 @@
 "track_features":"pytorch-cpu",
 "version":"1.8.0"
 },
+"pytorch-cpu-1.8.0-cpu_py38hd610c6a_3.tar.bz2":{
+"build":"cpu_py38hd610c6a_3",
+"build_number":3,
+"depends":[
+"pytorch 1.8.0 cpu_py38h15dfef8_3"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch-cpu",
+"sha256":"6a162152089074de4d25c4c018037055f6bb832c2ba19d2b32bc7c07b059f7ee",
+"size":11960,
+"timestamp":1627099875226,
+"track_features":"pytorch-cpu",
+"version":"1.8.0"
+},
 "pytorch-cpu-1.8.0-cpu_py39hd610c6a_0.tar.bz2":{
 "build":"cpu_py39hd610c6a_0",
 "build_number":0,
@@ -39815,6 +39881,20 @@
 "sha256":"1cedc2e888ebbc9a16d09c88a72ff4a6505ed481b95c8cea7e663ba024a511a7",
 "size":11928,
 "timestamp":1626807576021,
+"track_features":"pytorch-cpu",
+"version":"1.8.0"
+},
+"pytorch-cpu-1.8.0-cpu_py39hd610c6a_3.tar.bz2":{
+"build":"cpu_py39hd610c6a_3",
+"build_number":3,
+"depends":[
+"pytorch 1.8.0 cpu_py39h8ae5edc_3"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch-cpu",
+"sha256":"cb7942e9f910c257c75d1412d951bbe8cda4cbc38300ba8b0dccb9e915324b08",
+"size":11948,
+"timestamp":1627099130212,
 "track_features":"pytorch-cpu",
 "version":"1.8.0"
 },
