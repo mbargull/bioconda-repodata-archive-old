@@ -35601,6 +35601,24 @@
 "timestamp":1627136077275,
 "version":"10.3.0"
 },
+"gcc_impl_linux-ppc64le-10.3.0-h4706ea9_2.tar.bz2":{
+"build":"h4706ea9_2",
+"build_number":2,
+"depends":[
+"binutils_impl_linux-ppc64le 2.36.1.*",
+"libgcc-devel_linux-ppc64le 10.3.0 h5d09a8e_2",
+"libgcc-ng >=10.3.0",
+"libgomp >=10.3.0",
+"libstdcxx-ng >=10.3.0",
+"sysroot_linux-ppc64le"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"gcc_impl_linux-ppc64le",
+"sha256":"2acb1ae68d72d90dbb74c66ca325661c5e383671b4c5f10526f36dbe64a12e36",
+"size":51031854,
+"timestamp":1627176131743,
+"version":"10.3.0"
+},
 "gcc_impl_linux-ppc64le-7.5.0-h1658656_17.tar.bz2":{
 "build":"h1658656_17",
 "build_number":17,
@@ -37424,6 +37442,24 @@
 "sha256":"c9ce302ce16069f32c2607349a8dec64dbd10aab567ffed342b43ede74311625",
 "size":11622349,
 "timestamp":1627136213280,
+"version":"10.3.0"
+},
+"gfortran_impl_linux-ppc64le-10.3.0-h1ada5e0_2.tar.bz2":{
+"build":"h1ada5e0_2",
+"build_number":2,
+"depends":[
+"gcc_impl_linux-ppc64le >=10.3.0",
+"libgcc-ng >=10.3.0",
+"libgcc-ng >=4.9",
+"libgfortran5 >=10.3.0",
+"libstdcxx-ng >=4.9",
+"sysroot_linux-ppc64le"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"gfortran_impl_linux-ppc64le",
+"sha256":"0beba03af3cf0d8660347b22de63e593028e481dabcbee8e0a62263a4390df9b",
+"size":11624566,
+"timestamp":1627176263810,
 "version":"10.3.0"
 },
 "gfortran_impl_linux-ppc64le-7.5.0-h0b0cd67_14.tar.bz2":{
@@ -46333,6 +46369,21 @@
 "sha256":"8711404d606f1ee1c3ea864ce3c68085446fa62854aed18add677c2adb33931b",
 "size":12791245,
 "timestamp":1627136291789,
+"version":"10.3.0"
+},
+"gxx_impl_linux-ppc64le-10.3.0-h4706ea9_2.tar.bz2":{
+"build":"h4706ea9_2",
+"build_number":2,
+"depends":[
+"gcc_impl_linux-ppc64le 10.3.0 h4706ea9_2",
+"libstdcxx-devel_linux-ppc64le 10.3.0 h5d09a8e_2",
+"sysroot_linux-ppc64le"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"gxx_impl_linux-ppc64le",
+"sha256":"38e9345412e739e928fa2ca753b16cb1e39771b8db4149a37563dc52a972dbe1",
+"size":12837480,
+"timestamp":1627176340237,
 "version":"10.3.0"
 },
 "gxx_impl_linux-ppc64le-7.5.0-h0b0cd67_14.tar.bz2":{
@@ -60952,6 +61003,17 @@
 "timestamp":1627135727402,
 "version":"10.3.0"
 },
+"libgcc-devel_linux-ppc64le-10.3.0-h5d09a8e_2.tar.bz2":{
+"build":"h5d09a8e_2",
+"build_number":2,
+"depends":[],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgcc-devel_linux-ppc64le",
+"sha256":"bf0d8d7f39b767393aae79547af01cbd33ec825500f31e08caaeb9cef0bc786a",
+"size":914645,
+"timestamp":1627175781703,
+"version":"10.3.0"
+},
 "libgcc-devel_linux-ppc64le-7.5.0-h73418f1_14.tar.bz2":{
 "build":"h73418f1_14",
 "build_number":14,
@@ -61033,6 +61095,23 @@
 "sha256":"041379c12348e5dbfbc5882a429ac5e428869037595daca0cef6e8c4cefbe57c",
 "size":7089710,
 "timestamp":1627135960739,
+"version":"10.3.0"
+},
+"libgcc-ng-10.3.0-h2db5edc_2.tar.bz2":{
+"build":"h2db5edc_2",
+"build_number":2,
+"constrains":[
+"libgomp 10.3.0 h2db5edc_2"
+],
+"depends":[
+"_libgcc_mutex 0.1 conda_forge",
+"_openmp_mutex >=4.5"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgcc-ng",
+"sha256":"b3036f358e88d321082ce4bd889e2ac034e280f53f4254b6592010e1837f0eb4",
+"size":7064795,
+"timestamp":1627176020210,
 "version":"10.3.0"
 },
 "libgcrypt-1.9.3-h4e0d66e_1.tar.bz2":{
@@ -61439,6 +61518,20 @@
 "timestamp":1627135768710,
 "version":"10.3.0"
 },
+"libgfortran5-10.3.0-hc382fab_2.tar.bz2":{
+"build":"hc382fab_2",
+"build_number":2,
+"constrains":[
+"libgfortran-ng 10.3.0"
+],
+"depends":[],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgfortran5",
+"sha256":"4ddde092a12459409bedded66cbea744a70332dc8ac719a8697236bfb6f583e7",
+"size":1568119,
+"timestamp":1627175823329,
+"version":"10.3.0"
+},
 "libgit2-1.1.1-h6435b5b_1.tar.bz2":{
 "build":"h6435b5b_1",
 "build_number":1,
@@ -61522,6 +61615,19 @@
 "sha256":"0b460ad1f71b7c66a8afb9a0d03389d49409f5acbf0a343df0e43574fd123307",
 "size":418115,
 "timestamp":1627135803878,
+"version":"10.3.0"
+},
+"libgomp-10.3.0-h2db5edc_2.tar.bz2":{
+"build":"h2db5edc_2",
+"build_number":2,
+"depends":[
+"_libgcc_mutex 0.1 conda_forge"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgomp",
+"sha256":"8c9d6f20e078d6df1b20dd8f55f65d645fd0f03eecb599c665716caab2723809",
+"size":419499,
+"timestamp":1627175858615,
 "version":"10.3.0"
 },
 "libgpg-error-1.42-h3b9df90_0.tar.bz2":{
@@ -66723,6 +66829,17 @@
 "timestamp":1627135834207,
 "version":"10.3.0"
 },
+"libstdcxx-devel_linux-ppc64le-10.3.0-h5d09a8e_2.tar.bz2":{
+"build":"h5d09a8e_2",
+"build_number":2,
+"depends":[],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libstdcxx-devel_linux-ppc64le",
+"sha256":"71c1c0b667da28fc1b405ca06ae9b1f897df1b4681be5532c89c300ab36b28c8",
+"size":9431939,
+"timestamp":1627175889760,
+"version":"10.3.0"
+},
 "libstdcxx-devel_linux-ppc64le-7.5.0-h20c6264_14.tar.bz2":{
 "build":"h20c6264_14",
 "build_number":14,
@@ -66798,6 +66915,17 @@
 "sha256":"7988e1a7fb5ad997720e55eb88526770ccb320d197c9eff800d198c429bea3b2",
 "size":4256928,
 "timestamp":1627135994337,
+"version":"10.3.0"
+},
+"libstdcxx-ng-10.3.0-h85ad208_2.tar.bz2":{
+"build":"h85ad208_2",
+"build_number":2,
+"depends":[],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libstdcxx-ng",
+"sha256":"c8346301173c178c66d5916014e91efd9b92bd5efc3e1f37f053c85c6af50325",
+"size":4260921,
+"timestamp":1627176051793,
 "version":"10.3.0"
 },
 "libsvm-324-h3b9df90_0.tar.bz2":{
