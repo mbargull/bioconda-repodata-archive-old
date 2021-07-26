@@ -39566,6 +39566,32 @@
 "timestamp":1627261865817,
 "version":"1.9.0"
 },
+"pytorch-1.9.0-cpu_py39h8ae5edc_0.tar.bz2":{
+"build":"cpu_py39h8ae5edc_0",
+"build_number":0,
+"depends":[
+"cffi",
+"future",
+"libblas >=3.9.0,<4.0a0",
+"libcblas",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"llvm-openmp >=12.0.1",
+"ninja",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sleef >=3.5.1,<4.0a0",
+"typing_extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"a1aa906f54c396b3027d33861895eb9589ee6b3209ad750e94d5450acd4c43f4",
+"size":35562434,
+"timestamp":1627262653081,
+"version":"1.9.0"
+},
 "pytorch-cpu-1.8.0-cpu_py38hd610c6a_0.tar.bz2":{
 "build":"cpu_py38hd610c6a_0",
 "build_number":0,
@@ -39689,6 +39715,20 @@
 "sha256":"63437e588c9df2392e3ea7517b348f8eb4c7603f266532813c20084eb1ce8323",
 "size":11993,
 "timestamp":1627261908915,
+"track_features":"pytorch-cpu",
+"version":"1.9.0"
+},
+"pytorch-cpu-1.9.0-cpu_py39hd610c6a_0.tar.bz2":{
+"build":"cpu_py39hd610c6a_0",
+"build_number":0,
+"depends":[
+"pytorch 1.9.0 cpu_py39h8ae5edc_0"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch-cpu",
+"sha256":"771ce0b9f960d4ef7f2794e99484277b195e64f86d2fff5856964fc9f94857c8",
+"size":12001,
+"timestamp":1627262699679,
 "track_features":"pytorch-cpu",
 "version":"1.9.0"
 },
