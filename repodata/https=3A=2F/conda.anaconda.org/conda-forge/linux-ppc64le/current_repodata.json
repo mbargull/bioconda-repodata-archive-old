@@ -5479,6 +5479,34 @@
 "timestamp":1623683373609,
 "version":"3.7.4.post0"
 },
+"airspy-1.0.10-h4e0d66e_0.tar.bz2":{
+"build":"h4e0d66e_0",
+"build_number":0,
+"depends":[
+"libairspy 1.0.10 h4e0d66e_0",
+"libgcc-ng >=9.3.0"
+],
+"license":"BSD-3-Clause AND MIT AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+"name":"airspy",
+"sha256":"101afebd8ee2c34069939b2b4f038d7f3ac474363daf1e8242f277889f49b4af",
+"size":52508,
+"timestamp":1627322065719,
+"version":"1.0.10"
+},
+"airspyhf-1.6.8-h4e0d66e_0.tar.bz2":{
+"build":"h4e0d66e_0",
+"build_number":0,
+"depends":[
+"libairspyhf 1.6.8 h4e0d66e_0",
+"libgcc-ng >=9.3.0"
+],
+"license":"BSD-3-Clause AND LGPL-2.1-or-later",
+"name":"airspyhf",
+"sha256":"7be3563127c1fcebfbcdc69b22780a2d887a0c3b4bd6be25bbc81f151f024bac",
+"size":48036,
+"timestamp":1627322086226,
+"version":"1.6.8"
+},
 "alsa-lib-1.2.3-h6eb9509_0.tar.bz2":{
 "build":"h6eb9509_0",
 "build_number":0,
@@ -58030,6 +58058,34 @@
 "size":18984,
 "timestamp":1620774203269,
 "version":"0.3.112"
+},
+"libairspy-1.0.10-h4e0d66e_0.tar.bz2":{
+"build":"h4e0d66e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0"
+],
+"license":"BSD-3-Clause AND MIT AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+"name":"libairspy",
+"sha256":"18355acd73937a84aa3af2a5d3de1dda6d84240a60e2a8867f9747df8bc994ab",
+"size":44378,
+"timestamp":1627322019110,
+"version":"1.0.10"
+},
+"libairspyhf-1.6.8-h4e0d66e_0.tar.bz2":{
+"build":"h4e0d66e_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libusb >=1.0.24,<2.0a0"
+],
+"license":"BSD-3-Clause AND LGPL-2.1-or-later",
+"name":"libairspyhf",
+"sha256":"7ff6d1c3dd03aa1fab13cbec0d91ff7f632c4b43f02bf16647ee1fb78787e4f2",
+"size":48938,
+"timestamp":1627322033277,
+"version":"1.6.8"
 },
 "libapr-1.7.0-h4e0d66e_3.tar.bz2":{
 "build":"h4e0d66e_3",
@@ -113749,12 +113805,12 @@
 "timestamp":1621937935573,
 "version":"0.4.0"
 },
-"r-sf-1.0_1-r40hb21ef3c_0.tar.bz2":{
+"r-sf-1.0_2-r40hb21ef3c_0.tar.bz2":{
 "build":"r40hb21ef3c_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libgdal >=3.3.0,<3.4.0a0",
+"libgdal >=3.3.1,<3.4.0a0",
 "libstdcxx-ng >=9.3.0",
 "proj >=8.0.1,<8.0.2.0a0",
 "r-base >=4.0,<4.1.0a0",
@@ -113767,17 +113823,17 @@
 ],
 "license":"GPL-2.0-only OR MIT",
 "name":"r-sf",
-"sha256":"6f37b3c69a65bae1ec6ffb75a7e0c14aed5d3671f060e7b0a90fdbf71907b273",
-"size":3470390,
-"timestamp":1624963767670,
-"version":"1.0_1"
+"sha256":"d6dad38d9962118d5d23d8c3f1406605accb3263a5424f83056afcac77b68e8d",
+"size":3523507,
+"timestamp":1627320717037,
+"version":"1.0_2"
 },
-"r-sf-1.0_1-r41hb21ef3c_0.tar.bz2":{
+"r-sf-1.0_2-r41hb21ef3c_0.tar.bz2":{
 "build":"r41hb21ef3c_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
-"libgdal >=3.3.0,<3.4.0a0",
+"libgdal >=3.3.1,<3.4.0a0",
 "libstdcxx-ng >=9.3.0",
 "proj >=8.0.1,<8.0.2.0a0",
 "r-base >=4.1,<4.2.0a0",
@@ -113790,10 +113846,10 @@
 ],
 "license":"GPL-2.0-only OR MIT",
 "name":"r-sf",
-"sha256":"27738d6112a43ac00e4d68d6bf163467d02dc26a93279c4be11b63aab8961420",
-"size":3494833,
-"timestamp":1624963783716,
-"version":"1.0_1"
+"sha256":"646cfe15e72111f3f7f936236df0d03ed53d0d459a0b0a118462edfb267f2d57",
+"size":3469242,
+"timestamp":1627320704945,
+"version":"1.0_2"
 },
 "r-sfheaders-0.4.0-r36h6203a36_0.tar.bz2":{
 "build":"r36h6203a36_0",
