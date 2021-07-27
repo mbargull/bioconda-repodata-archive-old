@@ -66993,6 +66993,22 @@
 "timestamp":1626226696281,
 "version":"12.0.1"
 },
+"llvm-openmp-12.0.1-hd62202e_1.tar.bz2":{
+"build":"hd62202e_1",
+"build_number":1,
+"constrains":[
+"openmp 12.0.1|12.0.1.*",
+"clangdev 12.0.1|12.0.1.*",
+"llvmdev 12.0.1|12.0.1.*"
+],
+"depends":[],
+"license":"NCSA",
+"name":"llvm-openmp",
+"sha256":"c515d84aa0e170e14c56ed82b0412001c3619aee4a7b5b992a01cb7da6e3c650",
+"size":2641379,
+"timestamp":1627388657228,
+"version":"12.0.1"
+},
 "llvm-tools-12.0.1-h6293a0b_0.tar.bz2":{
 "build":"h6293a0b_0",
 "build_number":0,
@@ -142901,7 +142917,7 @@
 "timestamp":1589777504825,
 "version":"0.6.2"
 },
-"zaber-motion-2.4.2-py36hfadc70a_0.tar.bz2":{
+"zaber-motion-2.5.0-py36hfadc70a_0.tar.bz2":{
 "build":"py36hfadc70a_0",
 "build_number":0,
 "depends":[
@@ -142915,12 +142931,12 @@
 ],
 "license":"MIT",
 "name":"zaber-motion",
-"sha256":"c9e15b652970adcdff8a08f86be0d38a80e2e1896b37bab59813e9bd539162ec",
-"size":7823768,
-"timestamp":1626484779644,
-"version":"2.4.2"
+"sha256":"874e0f47e0115d1c1c595a9be0831d72fdf6febdc7d768fbfad78bd509a61c56",
+"size":7833341,
+"timestamp":1627388579568,
+"version":"2.5.0"
 },
-"zaber-motion-2.4.2-py37h544da0a_0.tar.bz2":{
+"zaber-motion-2.5.0-py37h544da0a_0.tar.bz2":{
 "build":"py37h544da0a_0",
 "build_number":0,
 "depends":[
@@ -142935,12 +142951,12 @@
 ],
 "license":"MIT",
 "name":"zaber-motion",
-"sha256":"d735d787da35a085534e68b58651ade939c9fc289e40709c975f354e7acd1268",
-"size":7819961,
-"timestamp":1626485906252,
-"version":"2.4.2"
+"sha256":"f89213fb76a8878729d604b6a11726757f4157eeb26e7656ce6e9a94ef3412bb",
+"size":7828111,
+"timestamp":1627389604891,
+"version":"2.5.0"
 },
-"zaber-motion-2.4.2-py37hffe466c_0.tar.bz2":{
+"zaber-motion-2.5.0-py37hffe466c_0.tar.bz2":{
 "build":"py37hffe466c_0",
 "build_number":0,
 "depends":[
@@ -142954,48 +142970,10 @@
 ],
 "license":"MIT",
 "name":"zaber-motion",
-"sha256":"94f405a753bbd3753361630863497635d5624f645d9ef9b1020e1f43125b3d7f",
-"size":7817977,
-"timestamp":1626486426459,
-"version":"2.4.2"
-},
-"zaber-motion-2.4.2-py38h96481c8_0.tar.bz2":{
-"build":"py38h96481c8_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libprotobuf >=3.16.0,<3.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"protobuf",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"rx"
-],
-"license":"MIT",
-"name":"zaber-motion",
-"sha256":"1764c076d2f3485e83bbf1410ed7adceacb5dfe1f36bf050136c271178df2f71",
-"size":7833795,
-"timestamp":1626486840120,
-"version":"2.4.2"
-},
-"zaber-motion-2.4.2-py39h80025ef_0.tar.bz2":{
-"build":"py39h80025ef_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.5.0",
-"libprotobuf >=3.16.0,<3.17.0a0",
-"libstdcxx-ng >=7.5.0",
-"protobuf",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"rx"
-],
-"license":"MIT",
-"name":"zaber-motion",
-"sha256":"75afb7656c421608a2291c79854e904acb4a07176c9e5ada3aa5126f97e8449e",
-"size":7814655,
-"timestamp":1626487263453,
-"version":"2.4.2"
+"sha256":"f0078da14847084a32faab52e9e5ef9bcf36d35b018c670c80430ff5034ff949",
+"size":7831298,
+"timestamp":1627390083740,
+"version":"2.5.0"
 },
 "zbar-py-1.0.4-py36h269c3a8_3.tar.bz2":{
 "build":"py36h269c3a8_3",
