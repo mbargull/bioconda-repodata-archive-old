@@ -23004,6 +23004,42 @@
 "timestamp":1594937529504,
 "version":"0.8.1"
 },
+"geopandas-0.9.0-py_1.tar.bz2":{
+"build":"py_1",
+"build_number":1,
+"depends":[
+"fiona",
+"geopandas-base 0.9.0 py_1",
+"mapclassify >=2.2.0",
+"matplotlib-base",
+"python >=3.6",
+"rtree"
+],
+"license":"BSD-3-Clause",
+"name":"geopandas",
+"noarch":"python",
+"sha256":"a981be108f5a39605f05897c46f634a04e46bb0319fff52e813c346e745fadbe",
+"size":9853,
+"timestamp":1627401444080,
+"version":"0.9.0"
+},
+"geopandas-base-0.9.0-py_1.tar.bz2":{
+"build":"py_1",
+"build_number":1,
+"depends":[
+"pandas >=0.24",
+"pyproj >=2.2.0",
+"python >=3.6",
+"shapely"
+],
+"license":"BSD-3-Clause",
+"name":"geopandas-base",
+"noarch":"python",
+"sha256":"eb5fc9aecbb784b1950a30923084e69c877809bcbfa66fe56d555e153c1c3b5b",
+"size":991045,
+"timestamp":1627401442472,
+"version":"0.9.0"
+},
 "geoviews-1.6.2-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
