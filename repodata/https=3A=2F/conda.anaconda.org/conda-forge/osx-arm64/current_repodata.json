@@ -10503,6 +10503,19 @@
 "timestamp":1625472501778,
 "version":"2.5"
 },
+"cpppath-0.2.1-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"MIT",
+"name":"cpppath",
+"sha256":"18ae81c31ebca2baee61a4cce44ead36429c6783a1d914f0f5017797e47a99c9",
+"size":9414,
+"timestamp":1627453781244,
+"version":"0.2.1"
+},
 "cppunit-1.15.1-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
 "build_number":0,
@@ -12072,6 +12085,19 @@
 "size":194278,
 "timestamp":1614195288742,
 "version":"4.4.4"
+},
+"docopt.cpp-0.6.3-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"MIT",
+"name":"docopt.cpp",
+"sha256":"cab3ab932e6039a6ef0b24d04d542fd1e184a42d6a7808b5cc42e0d0baaa9ea7",
+"size":166730,
+"timestamp":1627453760255,
+"version":"0.6.3"
 },
 "docutils-0.17.1-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -18136,6 +18162,56 @@
 "size":2754505,
 "timestamp":1611295911389,
 "version":"0.10.0"
+},
+"gooseeye-0.6.0-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"xtensor"
+],
+"license":"GPL3",
+"name":"gooseeye",
+"sha256":"75a496696aaff1ee31c6620e0cead3792139f482735993fa5acf8c8829291a66",
+"size":31783,
+"timestamp":1627453816930,
+"version":"0.6.0"
+},
+"gooseslurm-0.4.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"click",
+"docopt",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"tqdm"
+],
+"license":"MIT",
+"name":"gooseslurm",
+"sha256":"8f4f1ca3fba52a49e771674a2137b918002168494b4dc669409793d8a846f22b",
+"size":42998,
+"timestamp":1627453796275,
+"version":"0.4.0"
+},
+"gooseslurm-0.4.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"click",
+"docopt",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"tqdm"
+],
+"license":"MIT",
+"name":"gooseslurm",
+"sha256":"e40faabdbe3fbcc7d4359c2da3b46e6dfcc0da320c98cfd63d28701d3c01c9d0",
+"size":42953,
+"timestamp":1627453924588,
+"version":"0.4.0"
 },
 "gperf-3.1-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
@@ -40044,6 +40120,44 @@
 "size":4485981,
 "timestamp":1607291074336,
 "version":"1.1.1"
+},
+"pyxtensor-0.3.1-py38h1670459_0.tar.bz2":{
+"build":"py38h1670459_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"pkgconfig",
+"pybind11",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"xtensor"
+],
+"license":"MIT",
+"name":"pyxtensor",
+"sha256":"de503d3dd74eaecad6ce4553b3b5fb04e53f0158035b2e28397f7f1e9b6e5353",
+"size":18918,
+"timestamp":1627453837145,
+"version":"0.3.1"
+},
+"pyxtensor-0.3.1-py39h4d2d688_0.tar.bz2":{
+"build":"py39h4d2d688_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"pkgconfig",
+"pybind11",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"xtensor"
+],
+"license":"MIT",
+"name":"pyxtensor",
+"sha256":"90652ce29a07085f6f834e685fcbeb3fa73bea2a035958fccd136e5bfc72872e",
+"size":18880,
+"timestamp":1627453788658,
+"version":"0.3.1"
 },
 "pyyaml-5.4.1-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
