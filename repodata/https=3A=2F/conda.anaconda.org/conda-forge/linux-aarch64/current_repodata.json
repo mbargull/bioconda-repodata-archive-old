@@ -8323,65 +8323,7 @@
 "timestamp":1626859140598,
 "version":"2.6.5"
 },
-"astropy-4.3-py37h9d4e727_0.tar.bz2":{
-"build":"py37h9d4e727_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.17",
-"numpy >=1.19.5,<2.0a0",
-"pyerfa",
-"pypy3.7 >=7.3.5",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"33d2969bdb82f413fb7e202ebc1c5e87bd31d052a3b7d2c59b5b06099fd528e0",
-"size":8107887,
-"timestamp":1627338104526,
-"version":"4.3"
-},
-"astropy-4.3-py37h9d4e727_1.tar.bz2":{
-"build":"py37h9d4e727_1",
-"build_number":1,
-"depends":[
-"importlib-metadata",
-"libgcc-ng >=9.3.0",
-"numpy >=1.17",
-"numpy >=1.19.5,<2.0a0",
-"pyerfa",
-"pypy3.7 >=7.3.5",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7 *_pypy37_pp73",
-"pyyaml >=3.13"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"39ff15742c04701022a58d07120bbe4c4f51d13d8580d4c50a2cc8522f798b05",
-"size":8088250,
-"timestamp":1627485572233,
-"version":"4.3"
-},
-"astropy-4.3-py37hcd4c3ab_0.tar.bz2":{
-"build":"py37hcd4c3ab_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.17",
-"numpy >=1.17.5,<2.0a0",
-"pyerfa",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"029de5779a3158f825fc5c5a767062c3cf5c57eb03d49087454aeb6c381f69c7",
-"size":8167206,
-"timestamp":1627340349827,
-"version":"4.3"
-},
-"astropy-4.3-py37hcd4c3ab_1.tar.bz2":{
+"astropy-4.3.post1-py37hcd4c3ab_1.tar.bz2":{
 "build":"py37hcd4c3ab_1",
 "build_number":1,
 "depends":[
@@ -8396,30 +8338,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"astropy",
-"sha256":"e37408a4a281c0b197b99f1c6d99254b0c1806044292072abb7177c2717719da",
-"size":8059923,
-"timestamp":1627487943586,
-"version":"4.3"
+"sha256":"8c0718d30e2e7e730808a7295b3eb735ee5b29d3a751de34709b4a2a5bf0018e",
+"size":8034299,
+"timestamp":1627492328540,
+"version":"4.3.post1"
 },
-"astropy-4.3-py38h9544abe_0.tar.bz2":{
-"build":"py38h9544abe_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.17",
-"numpy >=1.17.5,<2.0a0",
-"pyerfa",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"f0aa1dae300ffd73c2424f18c3421d0dee9d67730d51ac1b52a5571b42cc4927",
-"size":8093591,
-"timestamp":1627342128241,
-"version":"4.3"
-},
-"astropy-4.3-py38h9544abe_1.tar.bz2":{
+"astropy-4.3.post1-py38h9544abe_1.tar.bz2":{
 "build":"py38h9544abe_1",
 "build_number":1,
 "depends":[
@@ -8434,48 +8358,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"astropy",
-"sha256":"c9f0a63510f358307b45a5adecbf848405f3a6d74e97e7a55bfe7e1c79c7f399",
-"size":8200022,
-"timestamp":1627488893043,
-"version":"4.3"
-},
-"astropy-4.3-py39hb8e759d_0.tar.bz2":{
-"build":"py39hb8e759d_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"numpy >=1.17",
-"numpy >=1.19.5,<2.0a0",
-"pyerfa",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"64aef70efb7801db5312bbdc61d03449bd5c41c2496696c409a5f9a73fb53aad",
-"size":8069784,
-"timestamp":1627343051199,
-"version":"4.3"
-},
-"astropy-4.3-py39hb8e759d_1.tar.bz2":{
-"build":"py39hb8e759d_1",
-"build_number":1,
-"depends":[
-"importlib-metadata",
-"libgcc-ng >=9.3.0",
-"numpy >=1.17",
-"numpy >=1.19.5,<2.0a0",
-"pyerfa",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"pyyaml >=3.13"
-],
-"license":"BSD-3-Clause",
-"name":"astropy",
-"sha256":"7d632c6daac87afb91de2d2e133708db631dbc50229e69f3dc36774d03a57deb",
-"size":8112270,
-"timestamp":1627490468835,
-"version":"4.3"
+"sha256":"fd0126513b9f0b2ddd30d2decc97475daa8cc3ab675edfcc02ac0e6706c83cf5",
+"size":8102885,
+"timestamp":1627494029856,
+"version":"4.3.post1"
 },
 "astropy-healpix-0.5-py36h07f5cf9_1.tar.bz2":{
 "build":"py36h07f5cf9_1",
@@ -13806,6 +13692,23 @@
 "sha256":"4f27f5b901bd900a779457a1d651daa3e86662fef25a05efe7fac18b28897a68",
 "size":44249987,
 "timestamp":1627479272343,
+"version":"4.1.0"
+},
+"bazel-4.1.0-h9ced3fb_2.tar.bz2":{
+"build":"h9ced3fb_2",
+"build_number":2,
+"depends":[
+"grpc-cpp >=1.39.0,<1.40.0a0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"openjdk >=8"
+],
+"license":"Apache-2.0",
+"name":"bazel",
+"sha256":"7081da090c20d33e74aaf27657cb21a84edcf5c00a11eb28cf79a74208041505",
+"size":44255845,
+"timestamp":1627492753859,
 "version":"4.1.0"
 },
 "bazel-toolchain-0.0.1-h01db608_0.tar.bz2":{
@@ -85070,7 +84973,7 @@
 "libgcc-ng >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "xdrfile >=1.1.4,<1.1.5.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
