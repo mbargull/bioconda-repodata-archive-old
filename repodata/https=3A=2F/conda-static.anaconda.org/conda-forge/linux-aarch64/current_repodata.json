@@ -11878,6 +11878,26 @@
 "timestamp":1627450458827,
 "version":"1.20.8"
 },
+"awscli-1.20.8-py39ha65689a_0.tar.bz2":{
+"build":"py39ha65689a_0",
+"build_number":0,
+"depends":[
+"botocore 1.21.8",
+"colorama >=0.2.5,<0.4.4",
+"docutils >=0.10,<0.16",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml >=3.10,<5.5",
+"rsa >=3.1.2,<4.8",
+"s3transfer >=0.5.0,<0.6.0"
+],
+"license":"Apache-2.0",
+"name":"awscli",
+"sha256":"ff2ca969afea54dbcf8a79f86ca98a8ef74a4937873d222be8c9521c256dbef8",
+"size":1967553,
+"timestamp":1627451144356,
+"version":"1.20.8"
+},
 "awscrt-0.11.25-py36h0bcad87_0.tar.bz2":{
 "build":"py36h0bcad87_0",
 "build_number":0,
@@ -84835,9 +84855,9 @@
 "timestamp":1603384511352,
 "version":"0.13.1"
 },
-"plumed-2.7.1-mpi_mpich_hc8d381e_2.tar.bz2":{
-"build":"mpi_mpich_hc8d381e_2",
-"build_number":2,
+"plumed-2.7.2-mpi_mpich_hc8d381e_0.tar.bz2":{
+"build":"mpi_mpich_hc8d381e_0",
+"build_number":0,
 "depends":[
 "fftw >=3.3.9,<4.0a0",
 "gawk",
@@ -84846,20 +84866,20 @@
 "libgcc-ng >=9.3.0",
 "liblapack >=3.8.0,<4.0a0",
 "libstdcxx-ng >=9.3.0",
-"mpich >=3.4,<4.0.0a0",
+"mpich >=3.4,<3.5.0a0",
 "xdrfile >=1.1.4,<1.1.5.0a0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"LGPL-3.0-only",
 "name":"plumed",
-"sha256":"9a9c67f9be8b44e1fbfd1cb473ff9d9c04be83915458510d823d35d894a58ddc",
-"size":3416902,
-"timestamp":1623174684828,
-"version":"2.7.1"
+"sha256":"8ddd37098fc4076486547564c0bdde74323c085e2bab109603a9cb3a1501170d",
+"size":3405347,
+"timestamp":1627451348710,
+"version":"2.7.2"
 },
-"plumed-2.7.1-mpi_openmpi_ha35c588_2.tar.bz2":{
-"build":"mpi_openmpi_ha35c588_2",
-"build_number":2,
+"plumed-2.7.2-mpi_openmpi_ha35c588_0.tar.bz2":{
+"build":"mpi_openmpi_ha35c588_0",
+"build_number":0,
 "depends":[
 "fftw >=3.3.9,<4.0a0",
 "gawk",
@@ -84874,14 +84894,14 @@
 ],
 "license":"LGPL-3.0-only",
 "name":"plumed",
-"sha256":"fc890d0c21320b57c12f02e2db321eadc0bef962f8f6f12aa2b8dcd5704219a6",
-"size":3381140,
-"timestamp":1623174657840,
-"version":"2.7.1"
+"sha256":"ec287ef7256bd55b8fcf0b741f12a57f118ef4ccf341407c030b7e6b7ee3202d",
+"size":3432130,
+"timestamp":1627453084575,
+"version":"2.7.2"
 },
-"plumed-2.7.1-nompi_h9efcfc7_2.tar.bz2":{
-"build":"nompi_h9efcfc7_2",
-"build_number":2,
+"plumed-2.7.2-nompi_h9efcfc7_0.tar.bz2":{
+"build":"nompi_h9efcfc7_0",
+"build_number":0,
 "depends":[
 "fftw >=3.3.9,<4.0a0",
 "gawk",
@@ -84895,10 +84915,10 @@
 ],
 "license":"LGPL-3.0-only",
 "name":"plumed",
-"sha256":"f2221d43474e88fcf354c1edd9461c71c92d74e4394bbcf61ae212ff6558ffb0",
-"size":3392002,
-"timestamp":1623174649597,
-"version":"2.7.1"
+"sha256":"05947113eba1f7d27292069d69db7c5d5284feca36fe8dae05f4348359ec9cf4",
+"size":3395807,
+"timestamp":1627452219075,
+"version":"2.7.2"
 },
 "pocl-1.7-h75f9354_0.tar.bz2":{
 "build":"h75f9354_0",
@@ -87368,7 +87388,7 @@
 "timestamp":1619903565767,
 "version":"2.2.14"
 },
-"py-plumed-2.7.1-py36h86e9a40_0.tar.bz2":{
+"py-plumed-2.7.2-py36h86e9a40_0.tar.bz2":{
 "build":"py36h86e9a40_0",
 "build_number":0,
 "depends":[
@@ -87380,30 +87400,30 @@
 ],
 "license":"LGPL-3.0",
 "name":"py-plumed",
-"sha256":"573cb124aa55cf5b5d4adce2395b521cfbf3696ce365ba465fefcb4075f6b994",
-"size":245304,
-"timestamp":1623971724605,
-"version":"2.7.1"
+"sha256":"dd6d5380bfb3afa76352446b2a0d9bc9859e08cf264f079038fb46ff15bfa5da",
+"size":245182,
+"timestamp":1627451365307,
+"version":"2.7.2"
 },
-"py-plumed-2.7.1-py37h5d5c557_0.tar.bz2":{
+"py-plumed-2.7.2-py37h5d5c557_0.tar.bz2":{
 "build":"py37h5d5c557_0",
 "build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "plumed",
-"pypy3.7 >=7.3.4",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"LGPL-3.0",
 "name":"py-plumed",
-"sha256":"e7359af3db1ded9d0fa3fabd7582c134479b4e830fadfc71b32d1cb7f477cb8f",
-"size":190363,
-"timestamp":1623971571838,
-"version":"2.7.1"
+"sha256":"85959316230561acb43e44d5ab1b971daaf6ad414b974099ab375d49d1036369",
+"size":190263,
+"timestamp":1627452346609,
+"version":"2.7.2"
 },
-"py-plumed-2.7.1-py37had24c86_0.tar.bz2":{
+"py-plumed-2.7.2-py37had24c86_0.tar.bz2":{
 "build":"py37had24c86_0",
 "build_number":0,
 "depends":[
@@ -87415,44 +87435,10 @@
 ],
 "license":"LGPL-3.0",
 "name":"py-plumed",
-"sha256":"b8a243f213bffb87af0dbc52a0cb5577c34c2fa66fc257221dfddb96e8cc45c7",
-"size":242172,
-"timestamp":1623971630298,
-"version":"2.7.1"
-},
-"py-plumed-2.7.1-py38h0119ad3_0.tar.bz2":{
-"build":"py38h0119ad3_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"plumed",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"LGPL-3.0",
-"name":"py-plumed",
-"sha256":"85189c904155e76ab6e01bf7c48ff20ee7ffe72b2a83c9425399bf3492ba840a",
-"size":246323,
-"timestamp":1623971765593,
-"version":"2.7.1"
-},
-"py-plumed-2.7.1-py39h99ab00b_0.tar.bz2":{
-"build":"py39h99ab00b_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"plumed",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"LGPL-3.0",
-"name":"py-plumed",
-"sha256":"e16a498dc16a4bb853f52044f2444f4ab436dc0189012e70a7cf86efcbf32b70",
-"size":247942,
-"timestamp":1623971875229,
-"version":"2.7.1"
+"sha256":"7c361fd2c9d4e15005a2255d3ff9f9094eedc799b32ca5ae016924c85d3200b2",
+"size":242681,
+"timestamp":1627452770719,
+"version":"2.7.2"
 },
 "pyarrow-3.0.0-py36h29a9230_4_cpu.tar.bz2":{
 "build":"py36h29a9230_4_cpu",

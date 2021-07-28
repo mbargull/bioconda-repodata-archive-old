@@ -18593,6 +18593,25 @@
 "timestamp":1620063101895,
 "version":"2.109"
 },
+"blas-2.110-openblas.tar.bz2":{
+"build":"openblas",
+"build_number":10,
+"depends":[
+"blas-devel 3.9.0 10_openblas",
+"libblas 3.9.0 10_openblas",
+"libcblas 3.9.0 10_openblas",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack 3.9.0 10_openblas",
+"liblapacke 3.9.0 10_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"blas",
+"sha256":"8835a48ae6eec96ea38878021d34e23adc19ed142b3de56a615135620cdf8f2c",
+"size":12226,
+"timestamp":1627452542735,
+"version":"2.110"
+},
 "blas-2.2-netlib.tar.bz2":{
 "build":"netlib",
 "build_number":2,
@@ -18696,6 +18715,23 @@
 "size":11867,
 "timestamp":1609546627279,
 "version":"2.5"
+},
+"blas-devel-3.9.0-10_openblas.tar.bz2":{
+"build":"10_openblas",
+"build_number":10,
+"depends":[
+"libblas 3.9.0 10_openblas",
+"libcblas 3.9.0 10_openblas",
+"liblapack 3.9.0 10_openblas",
+"liblapacke 3.9.0 10_openblas",
+"openblas"
+],
+"license":"BSD-3-Clause",
+"name":"blas-devel",
+"sha256":"77dccdb9e338a2c4d6704ba460d2fa0130837f115e9306aeb8116bffbe62455a",
+"size":11674,
+"timestamp":1627452495974,
+"version":"3.9.0"
 },
 "blas-devel-3.9.0-1_openblas.tar.bz2":{
 "build":"1_openblas",
@@ -61909,6 +61945,26 @@
 "track_features":"blas_netlib",
 "version":"3.9.0"
 },
+"libblas-3.9.0-10_openblas.tar.bz2":{
+"build":"10_openblas",
+"build_number":10,
+"constrains":[
+"blas * openblas",
+"libcblas 3.9.0 10_openblas",
+"liblapacke 3.9.0 10_openblas",
+"liblapack 3.9.0 10_openblas"
+],
+"depends":[
+"libopenblas >=0.3.17,<0.3.18.0a0",
+"libopenblas >=0.3.17,<1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libblas",
+"sha256":"8377153f26b0e234351f878956b89e9a0568b234b9f561536262ba0c401891c7",
+"size":11779,
+"timestamp":1627452456121,
+"version":"3.9.0"
+},
 "libblas-3.9.0-1_h2ec9a88_netlib.tar.bz2":{
 "build":"1_h2ec9a88_netlib",
 "build_number":1,
@@ -62420,6 +62476,24 @@
 "size":47077,
 "timestamp":1603044280507,
 "track_features":"blas_netlib",
+"version":"3.9.0"
+},
+"libcblas-3.9.0-10_openblas.tar.bz2":{
+"build":"10_openblas",
+"build_number":10,
+"constrains":[
+"blas * openblas",
+"liblapacke 3.9.0 10_openblas",
+"liblapack 3.9.0 10_openblas"
+],
+"depends":[
+"libblas 3.9.0 10_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"libcblas",
+"sha256":"609eab47c2193bd64d7d5f1bd1e2a229e88a54f0c8224e93be7ddf54580b8a1e",
+"size":11669,
+"timestamp":1627452466580,
 "version":"3.9.0"
 },
 "libcblas-3.9.0-1_h2ec9a88_netlib.tar.bz2":{
@@ -67384,6 +67458,24 @@
 "track_features":"blas_netlib",
 "version":"3.9.0"
 },
+"liblapack-3.9.0-10_openblas.tar.bz2":{
+"build":"10_openblas",
+"build_number":10,
+"constrains":[
+"blas * openblas",
+"libcblas 3.9.0 10_openblas",
+"liblapacke 3.9.0 10_openblas"
+],
+"depends":[
+"libblas 3.9.0 10_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"liblapack",
+"sha256":"c78ea38cd99bd303e3de43bb2b37c58d19cc3fb2976585514340cfd2a92dd03f",
+"size":11676,
+"timestamp":1627452476212,
+"version":"3.9.0"
+},
 "liblapack-3.9.0-1_h2ec9a88_netlib.tar.bz2":{
 "build":"1_h2ec9a88_netlib",
 "build_number":1,
@@ -67642,6 +67734,24 @@
 "size":482290,
 "timestamp":1603044315436,
 "track_features":"blas_netlib",
+"version":"3.9.0"
+},
+"liblapacke-3.9.0-10_openblas.tar.bz2":{
+"build":"10_openblas",
+"build_number":10,
+"constrains":[
+"blas * openblas"
+],
+"depends":[
+"libblas 3.9.0 10_openblas",
+"libcblas 3.9.0 10_openblas",
+"liblapack 3.9.0 10_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"liblapacke",
+"sha256":"b0a6a29ae2cf9d08446b68f339872b3d80a7e47bc91f92a05a3b320455c0d349",
+"size":11673,
+"timestamp":1627452486133,
 "version":"3.9.0"
 },
 "liblapacke-3.9.0-1_h2ec9a88_netlib.tar.bz2":{
@@ -90468,6 +90578,27 @@
 "timestamp":1623175246195,
 "version":"2.7.1"
 },
+"plumed-2.7.2-nompi_hd1df752_0.tar.bz2":{
+"build":"nompi_hd1df752_0",
+"build_number":0,
+"depends":[
+"fftw >=3.3.9,<4.0a0",
+"gawk",
+"gsl >=2.6,<2.7.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"llvm-openmp >=11.1.0",
+"xdrfile >=1.1.4,<1.1.5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-3.0-only",
+"name":"plumed",
+"sha256":"152d9a7bd56a27f5705004d7a598e5bc71ad9eb560c0bcdda0af1d0a13c3dc23",
+"size":2852656,
+"timestamp":1627451201841,
+"version":"2.7.2"
+},
 "pocl-1.6-h6ab694e_0.tar.bz2":{
 "build":"h6ab694e_0",
 "build_number":0,
@@ -93570,6 +93701,38 @@
 "size":204523,
 "timestamp":1618571656470,
 "version":"2.7.1"
+},
+"py-plumed-2.7.2-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"plumed",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0",
+"name":"py-plumed",
+"sha256":"f290d1d72baad5960682cfc7e287c4e1d6beaf322d04920b39bb981a02b0e728",
+"size":200408,
+"timestamp":1627451062766,
+"version":"2.7.2"
+},
+"py-plumed-2.7.2-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"plumed",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0",
+"name":"py-plumed",
+"sha256":"3d1917f1d40e1099154baf893d1dbce2bccc77501365c6aa0a12a44c19b5e213",
+"size":204628,
+"timestamp":1627451069780,
+"version":"2.7.2"
 },
 "py-spy-0.3.4-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
