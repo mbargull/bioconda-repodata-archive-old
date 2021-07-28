@@ -60694,6 +60694,23 @@
 "timestamp":1620865652558,
 "version":"1.19.1"
 },
+"krb5-1.19.2-hd92b7a7_0.tar.bz2":{
+"build":"hd92b7a7_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libedit >=3.1.20191231,<3.2.0a0",
+"libedit >=3.1.20191231,<4.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"tk >=8.6.10,<8.7.0a0"
+],
+"license":"MIT",
+"name":"krb5",
+"requires":[],
+"size":1287947,
+"timestamp":1627427927962,
+"version":"1.19.2"
+},
 "krb5-static-1.17.1-h58ff05e_3.tar.bz2":{
 "build":"h58ff05e_3",
 "build_number":3,
@@ -60747,6 +60764,24 @@
 "size":929397,
 "timestamp":1620865840919,
 "version":"1.19.1"
+},
+"krb5-static-1.19.2-hd92b7a7_0.tar.bz2":{
+"build":"hd92b7a7_0",
+"build_number":0,
+"depends":[
+"krb5 1.19.2 hd92b7a7_0",
+"libcxx >=11.1.0",
+"libedit >=3.1.20191231,<3.2.0a0",
+"libedit >=3.1.20191231,<4.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"tk >=8.6.10,<8.7.0a0"
+],
+"license":"MIT",
+"name":"krb5-static",
+"requires":[],
+"size":928551,
+"timestamp":1627428148941,
+"version":"1.19.2"
 },
 "lame-3.100-h27ca646_1001.tar.bz2":{
 "build":"h27ca646_1001",
