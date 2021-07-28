@@ -41156,6 +41156,27 @@
 "timestamp":1617979154694,
 "version":"10.2.1"
 },
+"gfortran_impl_osx-arm64-10.2.1-hbb873e0_23.tar.bz2":{
+"build":"hbb873e0_23",
+"build_number":23,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"isl >=0.22.1,<0.23.0a0",
+"libcxx >=11.1.0",
+"libgfortran-devel_osx-arm64 10.2.1.*",
+"libgfortran5 >=10.2.1",
+"libiconv >=1.16,<1.17.0a0",
+"mpc >=1.1.0,<2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"gfortran_impl_osx-arm64",
+"sha256":"79bfb495bedca08212c262d163aeab36cde0fb9f93fb936ce06746741a87ac1f",
+"size":18107989,
+"timestamp":1627440602530,
+"version":"10.2.1"
+},
 "gfortran_impl_osx-arm64-11.0.0.dev0-h2cdbfd1_12.tar.bz2":{
 "build":"h2cdbfd1_12",
 "build_number":12,
@@ -60266,6 +60287,23 @@
 "timestamp":1620865652558,
 "version":"1.19.1"
 },
+"krb5-1.19.2-hd92b7a7_0.tar.bz2":{
+"build":"hd92b7a7_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libedit >=3.1.20191231,<3.2.0a0",
+"libedit >=3.1.20191231,<4.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"tk >=8.6.10,<8.7.0a0"
+],
+"license":"MIT",
+"name":"krb5",
+"sha256":"3d708758d8bfceb2ef76528f9e8cfb16f54c186ca667575e51d5dd809c5b6146",
+"size":1287947,
+"timestamp":1627427927962,
+"version":"1.19.2"
+},
 "krb5-static-1.17.1-h58ff05e_3.tar.bz2":{
 "build":"h58ff05e_3",
 "build_number":3,
@@ -60319,6 +60357,24 @@
 "size":929397,
 "timestamp":1620865840919,
 "version":"1.19.1"
+},
+"krb5-static-1.19.2-hd92b7a7_0.tar.bz2":{
+"build":"hd92b7a7_0",
+"build_number":0,
+"depends":[
+"krb5 1.19.2 hd92b7a7_0",
+"libcxx >=11.1.0",
+"libedit >=3.1.20191231,<3.2.0a0",
+"libedit >=3.1.20191231,<4.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"tk >=8.6.10,<8.7.0a0"
+],
+"license":"MIT",
+"name":"krb5-static",
+"sha256":"72c37bcbabca1ad5ae4e06677bb22b1de7261e68016bd27448d79bcc646cc2d5",
+"size":928551,
+"timestamp":1627428148941,
+"version":"1.19.2"
 },
 "lame-3.100-h27ca646_1001.tar.bz2":{
 "build":"h27ca646_1001",
@@ -65087,6 +65143,19 @@
 "timestamp":1617979164723,
 "version":"5.0.0"
 },
+"libgfortran-5.0.0-10_2_1_h5d56895_23.tar.bz2":{
+"build":"10_2_1_h5d56895_23",
+"build_number":23,
+"depends":[
+"libgfortran5"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgfortran",
+"sha256":"a9904a9c5c96b427f9ea74591b7c8e7299a35a3913dc5f19353ba5d5596452b0",
+"size":19692,
+"timestamp":1627440617486,
+"version":"5.0.0"
+},
 "libgfortran-5.0.0.dev0-11_0_0_hdc626ea_16.tar.bz2":{
 "build":"11_0_0_hdc626ea_16",
 "build_number":16,
@@ -65444,6 +65513,22 @@
 "sha256":"ccffc8dc68cdec3c24c04df90eeac7406f2757609a1441404e45c02bfad6dbd4",
 "size":910103,
 "timestamp":1617979130797,
+"version":"10.2.1"
+},
+"libgfortran5-10.2.1-h5d56895_23.tar.bz2":{
+"build":"h5d56895_23",
+"build_number":23,
+"constrains":[
+"libgfortran 5.0.0 *_23"
+],
+"depends":[
+"llvm-openmp >=8.0.0"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgfortran5",
+"sha256":"9e1ac1f18d09d1281752fdcf864d3533da02679ec6d539e61230805dca55246b",
+"size":912675,
+"timestamp":1627440531720,
 "version":"10.2.1"
 },
 "libgfortran5-11.0.0.dev0-h181927c_12.tar.bz2":{

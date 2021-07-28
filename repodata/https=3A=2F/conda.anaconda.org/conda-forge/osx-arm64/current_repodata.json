@@ -21932,7 +21932,7 @@
 "timestamp":1605658716250,
 "version":"1.17.2"
 },
-"krb5-1.19.1-hd92b7a7_0.tar.bz2":{
+"krb5-1.19.2-hd92b7a7_0.tar.bz2":{
 "build":"hd92b7a7_0",
 "build_number":0,
 "depends":[
@@ -21944,16 +21944,16 @@
 ],
 "license":"MIT",
 "name":"krb5",
-"sha256":"fefef533f0c7dcff755943f78d408e98f4250c0dbb22b98c74c705a09c0ea1ab",
-"size":1309946,
-"timestamp":1620865652558,
-"version":"1.19.1"
+"sha256":"3d708758d8bfceb2ef76528f9e8cfb16f54c186ca667575e51d5dd809c5b6146",
+"size":1287947,
+"timestamp":1627427927962,
+"version":"1.19.2"
 },
-"krb5-static-1.19.1-hd92b7a7_0.tar.bz2":{
+"krb5-static-1.19.2-hd92b7a7_0.tar.bz2":{
 "build":"hd92b7a7_0",
 "build_number":0,
 "depends":[
-"krb5 1.19.1 hd92b7a7_0",
+"krb5 1.19.2 hd92b7a7_0",
 "libcxx >=11.1.0",
 "libedit >=3.1.20191231,<3.2.0a0",
 "libedit >=3.1.20191231,<4.0a0",
@@ -21962,10 +21962,10 @@
 ],
 "license":"MIT",
 "name":"krb5-static",
-"sha256":"b95e642bdc922dc6f8cc0d001e792daa7871a1e88df0ad1c183859005c07f32a",
-"size":929397,
-"timestamp":1620865840919,
-"version":"1.19.1"
+"sha256":"72c37bcbabca1ad5ae4e06677bb22b1de7261e68016bd27448d79bcc646cc2d5",
+"size":928551,
+"timestamp":1627428148941,
+"version":"1.19.2"
 },
 "lame-3.100-h27ca646_1001.tar.bz2":{
 "build":"h27ca646_1001",
@@ -24587,6 +24587,19 @@
 "sha256":"464895542bf32392462b9ab2c7652502c084832fcc34c371d33d0db48c2e947a",
 "size":19300,
 "timestamp":1617979164723,
+"version":"5.0.0"
+},
+"libgfortran-5.0.0-10_2_1_h5d56895_23.tar.bz2":{
+"build":"10_2_1_h5d56895_23",
+"build_number":23,
+"depends":[
+"libgfortran5"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgfortran",
+"sha256":"a9904a9c5c96b427f9ea74591b7c8e7299a35a3913dc5f19353ba5d5596452b0",
+"size":19692,
+"timestamp":1627440617486,
 "version":"5.0.0"
 },
 "libgfortran-5.0.0.dev0-11_0_0_hdc626ea_16.tar.bz2":{

@@ -17395,6 +17395,19 @@
 "timestamp":1625586442264,
 "version":"2.36.1"
 },
+"binutils-2.36.1-h7f02139_2.tar.bz2":{
+"build":"h7f02139_2",
+"build_number":2,
+"depends":[
+"binutils_impl_linux-ppc64le >=2.36.1,<2.36.2.0a0"
+],
+"license":"GPL-3.0-only",
+"name":"binutils",
+"sha256":"80665339dd56e6dd12e0b89140de3b479a180059db962265f9c617604f9234b2",
+"size":27435,
+"timestamp":1627434199244,
+"version":"2.36.1"
+},
 "binutils-meta-1.0.4-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -17436,6 +17449,20 @@
 "timestamp":1625586380960,
 "version":"2.36.1"
 },
+"binutils_impl_linux-64-2.36.1-hfd2112f_2.tar.bz2":{
+"build":"hfd2112f_2",
+"build_number":2,
+"depends":[
+"ld_impl_linux-64 2.36.1 h7d5d4a1_2",
+"sysroot_linux-64"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-64",
+"sha256":"197c6b7d20e6cf235bbf31a5e98352b69fa4f97a86b2730668a4ac3cac62645c",
+"size":9744165,
+"timestamp":1627434094077,
+"version":"2.36.1"
+},
 "binutils_impl_linux-aarch64-2.36.1-hac76c2e_0.tar.bz2":{
 "build":"hac76c2e_0",
 "build_number":0,
@@ -17462,6 +17489,20 @@
 "sha256":"37bf8ebbd47f46aea14a58480c2c23ab14d2d67fbc478d4b70cea3ba1dc971fc",
 "size":9803876,
 "timestamp":1625586408666,
+"version":"2.36.1"
+},
+"binutils_impl_linux-aarch64-2.36.1-hac76c2e_2.tar.bz2":{
+"build":"hac76c2e_2",
+"build_number":2,
+"depends":[
+"ld_impl_linux-aarch64 2.36.1 h4c18e94_2",
+"sysroot_linux-aarch64"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-aarch64",
+"sha256":"711e185a27c7965e65dd052725e7a97a7c6c2bdc6753dae437837da290ee1909",
+"size":9826255,
+"timestamp":1627433925325,
 "version":"2.36.1"
 },
 "binutils_impl_linux-ppc64le-2.36.1-h5836da8_0.tar.bz2":{
@@ -17492,6 +17533,20 @@
 "timestamp":1625586400797,
 "version":"2.36.1"
 },
+"binutils_impl_linux-ppc64le-2.36.1-h5836da8_2.tar.bz2":{
+"build":"h5836da8_2",
+"build_number":2,
+"depends":[
+"ld_impl_linux-ppc64le 2.36.1 ha35d02b_2",
+"sysroot_linux-ppc64le"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-ppc64le",
+"sha256":"3f20726c807d8538de0319a2adf72c9479e13395c487e9549d297ed2e9c4adfa",
+"size":11078398,
+"timestamp":1627434153690,
+"version":"2.36.1"
+},
 "binutils_impl_linux-s390x-2.36.1-ha917fe2_1.tar.bz2":{
 "build":"ha917fe2_1",
 "build_number":1,
@@ -17504,6 +17559,20 @@
 "sha256":"b92cbb195441fb2d2d5144b5677efe736cb4bf475ca42c726a90f324dd59c95b",
 "size":8420627,
 "timestamp":1626349233163,
+"version":"2.36.1"
+},
+"binutils_impl_linux-s390x-2.36.1-ha917fe2_2.tar.bz2":{
+"build":"ha917fe2_2",
+"build_number":2,
+"depends":[
+"ld_impl_linux-s390x 2.36.1 he920c4e_2",
+"sysroot_linux-s390x"
+],
+"license":"GPL-3.0-only",
+"name":"binutils_impl_linux-s390x",
+"sha256":"7fb6914e634b2d74f26fc50622d71059fdc226cbae1bec29a8244cf3ae2c5d1e",
+"size":8424221,
+"timestamp":1627433941595,
 "version":"2.36.1"
 },
 "binutils_linux-ppc64le-2.34-hd8a9c84_21.tar.bz2":{
@@ -38004,6 +38073,26 @@
 "timestamp":1615936119368,
 "version":"9.3.0"
 },
+"gfortran_impl_osx-64-9.3.0-h5b9e452_23.tar.bz2":{
+"build":"h5b9e452_23",
+"build_number":23,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"isl >=0.22.1,<0.23.0a0",
+"libgcc-ng >=9.3.0",
+"libiconv >=1.16,<1.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mpc >=1.1.0,<2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"gfortran_impl_osx-64",
+"sha256":"ad84f2d26f16abd56fff78aad2302e69b492a26f5a7fa21aa75a6b6e6d5d252b",
+"size":22513508,
+"timestamp":1627438651405,
+"version":"9.3.0"
+},
 "gfortran_impl_osx-64-9.3.0-h60027f0_14.tar.bz2":{
 "build":"h60027f0_14",
 "build_number":14,
@@ -38062,6 +38151,26 @@
 "sha256":"fbd4e6145fe1bd22b840c98928ef55d4b118dceabe6f5b6886e21ea97dbd9025",
 "size":14900491,
 "timestamp":1616966416498,
+"version":"11.0.1.dev0"
+},
+"gfortran_impl_osx-arm64-11.0.1.dev0-hcde4e94_23.tar.bz2":{
+"build":"hcde4e94_23",
+"build_number":23,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"isl >=0.22.1,<0.23.0a0",
+"libgcc-ng >=9.3.0",
+"libiconv >=1.16,<1.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"mpc >=1.1.0,<2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"gfortran_impl_osx-arm64",
+"sha256":"4fde817cd96cc73552418fa0cfed4b4209938d3d6787728df17f29aebd75a515",
+"size":26871853,
+"timestamp":1627439093634,
 "version":"11.0.1.dev0"
 },
 "gfortran_linux-ppc64le-7.5.0-h2ea8b23_30.tar.bz2":{
@@ -57225,7 +57334,7 @@
 "timestamp":1605660712084,
 "version":"1.17.2"
 },
-"krb5-1.19.1-haf43566_0.tar.bz2":{
+"krb5-1.19.2-haf43566_0.tar.bz2":{
 "build":"haf43566_0",
 "build_number":0,
 "depends":[
@@ -57238,16 +57347,16 @@
 ],
 "license":"MIT",
 "name":"krb5",
-"sha256":"879b4b0dbdb1f017282cb499ec9a453c4126784ea6540db582e3b21d026c7996",
-"size":1693758,
-"timestamp":1620865625080,
-"version":"1.19.1"
+"sha256":"34e6b247a8ef548be9c5af12bbe86bc36b849c7e451db3ecb622fdfaed3b1f3e",
+"size":1724150,
+"timestamp":1627427902939,
+"version":"1.19.2"
 },
-"krb5-static-1.19.1-haf43566_0.tar.bz2":{
+"krb5-static-1.19.2-haf43566_0.tar.bz2":{
 "build":"haf43566_0",
 "build_number":0,
 "depends":[
-"krb5 1.19.1 haf43566_0",
+"krb5 1.19.2 haf43566_0",
 "libedit >=3.1.20191231,<3.2.0a0",
 "libedit >=3.1.20191231,<4.0a0",
 "libgcc-ng >=9.3.0",
@@ -57257,10 +57366,10 @@
 ],
 "license":"MIT",
 "name":"krb5-static",
-"sha256":"8ed74ec9e04d20edc56b51ee9caef4bf9552f9beeaa0f4e3ac85cd33d3b0e9f9",
-"size":1345650,
-"timestamp":1620865814212,
-"version":"1.19.1"
+"sha256":"1c8ac43d29a4805bca4068947cad5997f8e35d401c62b522ccad864315b6faea",
+"size":1354299,
+"timestamp":1627428100075,
+"version":"1.19.2"
 },
 "lame-3.100-h14c3975_1001.tar.bz2":{
 "build":"h14c3975_1001",
@@ -57653,6 +57762,20 @@
 "timestamp":1625586347531,
 "version":"2.36.1"
 },
+"ld_impl_linux-64-2.36.1-h7d5d4a1_2.tar.bz2":{
+"build":"h7d5d4a1_2",
+"build_number":2,
+"constrains":[
+"binutils_impl_linux-64 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-64",
+"sha256":"f966faef0e7358bc5426947f724bcf959eccf1ec1bf5763ce0eba4c0f1368ecb",
+"size":661478,
+"timestamp":1627434060167,
+"version":"2.36.1"
+},
 "ld_impl_linux-aarch64-2.36.1-h4c18e94_0.tar.bz2":{
 "build":"h4c18e94_0",
 "build_number":0,
@@ -57679,6 +57802,20 @@
 "sha256":"cb97bf94fa435ffeba0870ed57e0fa51ce7605cb23034a1b6341ebee8693ea9f",
 "size":663546,
 "timestamp":1625586380542,
+"version":"2.36.1"
+},
+"ld_impl_linux-aarch64-2.36.1-h4c18e94_2.tar.bz2":{
+"build":"h4c18e94_2",
+"build_number":2,
+"constrains":[
+"binutils_impl_linux-aarch64 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-aarch64",
+"sha256":"ddbac36b9f513047ee01576d6cf729130ee78749beac57069505c6b3d5388e24",
+"size":664517,
+"timestamp":1627433899104,
 "version":"2.36.1"
 },
 "ld_impl_linux-ppc64le-2.36.1-ha35d02b_0.tar.bz2":{
@@ -57709,6 +57846,20 @@
 "timestamp":1625586371082,
 "version":"2.36.1"
 },
+"ld_impl_linux-ppc64le-2.36.1-ha35d02b_2.tar.bz2":{
+"build":"ha35d02b_2",
+"build_number":2,
+"constrains":[
+"binutils_impl_linux-ppc64le 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-ppc64le",
+"sha256":"5943ed85468d28671a77f347307304d8bd0b45656865b825ac4f20f18b5db4f9",
+"size":709661,
+"timestamp":1627434119715,
+"version":"2.36.1"
+},
 "ld_impl_linux-s390x-2.36.1-he920c4e_1.tar.bz2":{
 "build":"he920c4e_1",
 "build_number":1,
@@ -57721,6 +57872,20 @@
 "sha256":"1a3c228f9a3073bedaa85e27a8d3cdfee39ff4a10c7402a01dcead3dc295beec",
 "size":546054,
 "timestamp":1626349159050,
+"version":"2.36.1"
+},
+"ld_impl_linux-s390x-2.36.1-he920c4e_2.tar.bz2":{
+"build":"he920c4e_2",
+"build_number":2,
+"constrains":[
+"binutils_impl_linux-s390x 2.36.1"
+],
+"depends":[],
+"license":"GPL-3.0-only",
+"name":"ld_impl_linux-s390x",
+"sha256":"2a9cf90c2ee97e9f839c8b749d6c571e68a168986f0aafcdc1cc4de04321a9bb",
+"size":547039,
+"timestamp":1627433915967,
 "version":"2.36.1"
 },
 "ldid-2.1.2-hafec1d3_1.tar.bz2":{
@@ -139622,7 +139787,7 @@
 "timestamp":1589777255064,
 "version":"0.6.2"
 },
-"zaber-motion-2.5.0-py36h1d856fe_0.tar.bz2":{
+"zaber-motion-2.5.1-py36h1d856fe_0.tar.bz2":{
 "build":"py36h1d856fe_0",
 "build_number":0,
 "depends":[
@@ -139636,12 +139801,12 @@
 ],
 "license":"MIT",
 "name":"zaber-motion",
-"sha256":"7cc07cf2168eff396e28a0cb01af27b1a7d3a463b52313f8a7b342b252ab7e79",
-"size":7853832,
-"timestamp":1627389501793,
-"version":"2.5.0"
+"sha256":"75952b9bbfadc45d5dbca19639b69cb14c3fc2ba37ecd7394ad3792e07da8819",
+"size":7860678,
+"timestamp":1627427659826,
+"version":"2.5.1"
 },
-"zaber-motion-2.5.0-py37h7e80d6b_0.tar.bz2":{
+"zaber-motion-2.5.1-py37h7e80d6b_0.tar.bz2":{
 "build":"py37h7e80d6b_0",
 "build_number":0,
 "depends":[
@@ -139655,12 +139820,12 @@
 ],
 "license":"MIT",
 "name":"zaber-motion",
-"sha256":"d029af415bccdd9ca7249f9447312593c8f1ec2ba62a6e4a38dc74586affbbb4",
-"size":7871646,
-"timestamp":1627389177371,
-"version":"2.5.0"
+"sha256":"5ea0a4c6b9da2dbb7cdb8dd39d6f8e0d7a30184b88719529ab53e52bda36db24",
+"size":7865717,
+"timestamp":1627427750440,
+"version":"2.5.1"
 },
-"zaber-motion-2.5.0-py37hc61badf_0.tar.bz2":{
+"zaber-motion-2.5.1-py37hc61badf_0.tar.bz2":{
 "build":"py37hc61badf_0",
 "build_number":0,
 "depends":[
@@ -139675,12 +139840,12 @@
 ],
 "license":"MIT",
 "name":"zaber-motion",
-"sha256":"7de98298142959de79b7f46dfb838cd3ebd7c245ab28966f009bbf64230d57ed",
-"size":7855841,
-"timestamp":1627389475531,
-"version":"2.5.0"
+"sha256":"d81c95310035dcb67d4f98d53476e8210cca733880b260c88733e5ce80273469",
+"size":7861650,
+"timestamp":1627427951877,
+"version":"2.5.1"
 },
-"zaber-motion-2.5.0-py38hcb0f5b1_0.tar.bz2":{
+"zaber-motion-2.5.1-py38hcb0f5b1_0.tar.bz2":{
 "build":"py38hcb0f5b1_0",
 "build_number":0,
 "depends":[
@@ -139694,12 +139859,12 @@
 ],
 "license":"MIT",
 "name":"zaber-motion",
-"sha256":"9c9bc7b8eaa0086f2ac54938e5dfc8d498a0ef72ef364600147b8b7902c5c643",
-"size":7865511,
-"timestamp":1627389558443,
-"version":"2.5.0"
+"sha256":"47c26dd1992d295d15c9355c02b70b83a93e0649aa0a3d7fe2c72df6803d0319",
+"size":7853220,
+"timestamp":1627427151055,
+"version":"2.5.1"
 },
-"zaber-motion-2.5.0-py39h2c488cb_0.tar.bz2":{
+"zaber-motion-2.5.1-py39h2c488cb_0.tar.bz2":{
 "build":"py39h2c488cb_0",
 "build_number":0,
 "depends":[
@@ -139713,10 +139878,10 @@
 ],
 "license":"MIT",
 "name":"zaber-motion",
-"sha256":"69bc5ef53bf7e6781d676ba29fac3c52d941738eee102d7481502710b1e14c49",
-"size":7849714,
-"timestamp":1627388922566,
-"version":"2.5.0"
+"sha256":"7ed56c42e4778d0e0a4d63104723397ed3e27d90b9fb0b0ad77d83c70aa9228d",
+"size":7849696,
+"timestamp":1627427504922,
+"version":"2.5.1"
 },
 "zbar-py-1.0.4-py36h2254977_1.tar.bz2":{
 "build":"py36h2254977_1",
